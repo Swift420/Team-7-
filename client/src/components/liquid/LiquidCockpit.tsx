@@ -9,6 +9,7 @@ import {
   Play,
   Pause,
   Bot,
+  Search,
 } from 'lucide-react';
 import { FormatTabs, FormatTabId } from './FormatTabs';
 import { BudgetBar } from './BudgetBar';
@@ -34,6 +35,8 @@ export const LiquidCockpit: React.FC = () => {
   const [articles, setArticles] = useState<ArticleSummary[]>([]);
   const [selectedArticleId, setSelectedArticleId] = useState<string>('');
   const [articleDetail, setArticleDetail] = useState<ArticleDetail | null>(null);
+  const [searchQuery, setSearchQuery] = useState<string>('');
+  const [selectedSection, setSelectedSection] = useState<string>('All');
 
   const [activeTab, setActiveTab] = useState<FormatTabId>('audio');
   const [model, setModel] = useState<'gemini-3.8-flash' | 'gemini-3.8-pro'>('gemini-3.8-flash');
@@ -69,6 +72,19 @@ export const LiquidCockpit: React.FC = () => {
       .then((detail) => setArticleDetail(detail))
       .catch((err) => console.error('Failed to load article detail:', err));
   }, [selectedArticleId]);
+
+  // Compute available sections and filtered articles
+  const sections: string[] = ['All', ...Array.from(new Set(articles.map((a) => a.section).filter((s): s is string => Boolean(s))))];
+
+  const filteredArticles = articles.filter((art) => {
+    const matchesSection = selectedSection === 'All' || art.section === selectedSection;
+    const matchesSearch =
+      !searchQuery ||
+      art.headline.toLowerCase().includes(searchQuery.toLowerCase()) ||
+      (art.lead && art.lead.toLowerCase().includes(searchQuery.toLowerCase())) ||
+      (art.author && art.author.toLowerCase().includes(searchQuery.toLowerCase()));
+    return matchesSection && matchesSearch;
+  });
 
   // Handle generation of all 6 formats
   const handleGenerate = async () => {
@@ -249,42 +265,82 @@ export const LiquidCockpit: React.FC = () => {
           </div>
         </div>
 
-        {/* Article Ingestion Dropdown & Context Card */}
-        <div className="mt-6 pt-5 border-t border-slate-800/80 grid grid-cols-1 md:grid-cols-12 gap-4 items-center">
-          <div className="md:col-span-5">
-            <label className="text-xs font-semibold text-slate-400 uppercase tracking-wider block mb-1.5">
-              Select Source Article from NZZ Corpus
-            </label>
-            <select
-              value={selectedArticleId}
-              onChange={(e) => setSelectedArticleId(e.target.value)}
-              className="w-full bg-slate-950 border border-slate-800 rounded-xl px-3 py-2.5 text-xs text-slate-200 focus:outline-none focus:border-red-500"
-            >
-              {articles.map((art) => (
-                <option key={art.id} value={art.id}>
-                  [{art.section || 'NZZ'}] {art.headline} ({art.wordCount} words)
-                </option>
+        {/* Article Ingestion Search & Dropdown */}
+        <div className="mt-6 pt-5 border-t border-slate-800/80 space-y-4">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+            <div className="flex items-center gap-2">
+              <span className="text-xs font-semibold text-slate-300 uppercase tracking-wider">
+                NZZ Article Corpus
+              </span>
+              <span className="text-[10px] bg-red-600/20 text-red-300 px-2 py-0.5 rounded-full border border-red-500/30 font-mono">
+                {filteredArticles.length} / {articles.length} Articles Available
+              </span>
+            </div>
+
+            {/* Rubric / Section Filter Chips */}
+            <div className="flex items-center gap-1 overflow-x-auto pb-1 text-xs">
+              {sections.slice(0, 7).map((sec) => (
+                <button
+                  key={sec}
+                  onClick={() => setSelectedSection(sec)}
+                  className={`px-2.5 py-1 rounded-lg text-[11px] font-medium transition-all shrink-0 ${
+                    selectedSection === sec
+                      ? 'bg-red-600 text-white shadow-sm'
+                      : 'bg-slate-950 text-slate-400 hover:text-slate-200 border border-slate-800'
+                  }`}
+                >
+                  {sec}
+                </button>
               ))}
-            </select>
+            </div>
           </div>
 
-          {articleDetail && (
-            <div className="md:col-span-7 bg-slate-950/60 border border-slate-800/80 rounded-xl p-3 flex items-center justify-between text-xs">
-              <div className="space-y-0.5 truncate pr-4">
-                <span className="text-slate-400 font-medium">Byline: </span>
-                <span className="text-slate-200 font-semibold">{articleDetail.author || 'NZZ Redaktion'}</span>
-                <p className="text-slate-400 truncate">{articleDetail.lead}</p>
+          <div className="grid grid-cols-1 md:grid-cols-12 gap-4 items-center">
+            <div className="md:col-span-6 space-y-2">
+              {/* Keyword Search Input */}
+              <div className="relative">
+                <Search className="w-3.5 h-3.5 text-slate-500 absolute left-3 top-1/2 -translate-y-1/2" />
+                <input
+                  type="text"
+                  placeholder="Filter articles by title, keyword, or author..."
+                  value={searchQuery}
+                  onChange={(e) => setSearchQuery(e.target.value)}
+                  className="w-full bg-slate-950 border border-slate-800 rounded-xl pl-9 pr-3 py-2 text-xs text-slate-200 focus:outline-none focus:border-red-500"
+                />
               </div>
-              <div className="text-right shrink-0">
-                <span className="text-[10px] text-slate-400 font-mono block">
-                  {articleDetail.wordCount} words · ~{Math.round(articleDetail.wordCount / 200)} min read
-                </span>
-                <span className="text-[10px] text-emerald-400 font-medium">
-                  Voice Invariant Active
-                </span>
-              </div>
+
+              {/* Source Article Dropdown */}
+              <select
+                value={selectedArticleId}
+                onChange={(e) => setSelectedArticleId(e.target.value)}
+                className="w-full bg-slate-950 border border-slate-800 rounded-xl px-3 py-2 text-xs text-slate-200 focus:outline-none focus:border-red-500"
+              >
+                {filteredArticles.map((art) => (
+                  <option key={art.id} value={art.id}>
+                    [{art.section || 'NZZ'}] {art.headline} ({art.wordCount} words)
+                  </option>
+                ))}
+              </select>
             </div>
-          )}
+
+            {articleDetail && (
+              <div className="md:col-span-6 bg-slate-950/60 border border-slate-800/80 rounded-xl p-3 flex items-center justify-between text-xs">
+                <div className="space-y-0.5 truncate pr-4">
+                  <span className="text-slate-400 font-medium">Byline: </span>
+                  <span className="text-slate-200 font-semibold">{articleDetail.author || 'NZZ Redaktion'}</span>
+                  <p className="text-slate-400 truncate">{articleDetail.lead}</p>
+                </div>
+                <div className="text-right shrink-0">
+                  <span className="text-[10px] text-slate-400 font-mono block">
+                    {articleDetail.wordCount} words · ~{Math.round(articleDetail.wordCount / 200)} min read
+                  </span>
+                  <span className="text-[10px] text-emerald-400 font-medium">
+                    Voice Invariant Active
+                  </span>
+                </div>
+              </div>
+            )}
+          </div>
         </div>
       </div>
 

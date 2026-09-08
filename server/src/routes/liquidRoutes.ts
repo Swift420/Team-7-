@@ -11,39 +11,66 @@ export const liquidRouter = Router();
 // In-memory store for generated & published liquid formats (keyed by articleId)
 const publishedStore = new Map<string, LiquidDerivatives>();
 
-const ARTICLES_DIR = path.resolve(process.cwd(), 'LiquidStoryEngine/input/articles');
+const ARTICLES_DIRS = [
+  path.resolve(process.cwd(), 'LiquidStoryEngine/input/articles'),
+  path.resolve(process.cwd(), 'VisualVelocity/input/articles'),
+];
 
-// 1. List available NZZ articles from the challenge dataset
+// Helper to find file in any of the article directories
+function findArticleFiles(articleId: string) {
+  for (const dir of ARTICLES_DIRS) {
+    if (!fs.existsSync(dir)) continue;
+    const files = fs.readdirSync(dir);
+    const jsonFile = files.find(f => f.includes(articleId) && f.endsWith('.json'));
+    const mdFile = files.find(f => f.includes(articleId) && f.endsWith('.md'));
+    if (jsonFile) {
+      return { dir, jsonFile, mdFile };
+    }
+  }
+  return null;
+}
+
+// 1. List available NZZ articles from ALL challenge datasets
 liquidRouter.get('/articles', (req: Request, res: Response) => {
   try {
-    if (!fs.existsSync(ARTICLES_DIR)) {
-      return res.json({ success: true, articles: [] });
+    const seenIds = new Set<string>();
+    const allArticles: any[] = [];
+
+    for (const dir of ARTICLES_DIRS) {
+      if (!fs.existsSync(dir)) continue;
+      const files = fs.readdirSync(dir).filter(f => f.endsWith('.json'));
+
+      for (const filename of files) {
+        try {
+          const raw = fs.readFileSync(path.join(dir, filename), 'utf8');
+          const parsed = JSON.parse(raw);
+          const id = parsed.nzz_id || filename.replace('.json', '');
+          if (seenIds.has(id)) continue;
+          seenIds.add(id);
+
+          allArticles.push({
+            id,
+            document_id: parsed.document_id,
+            headline: parsed.headline || parsed.seo_title || filename,
+            lead: parsed.lead || '',
+            author: parsed.author_line || 'NZZ Redaktion',
+            section: parsed.section || 'NZZ',
+            wordCount: parsed.word_count || 0,
+            readingTimeSeconds: parsed.reading_time_seconds || 0,
+            publishedAt: parsed.published_at || '',
+            filename,
+            sourceDir: path.basename(path.dirname(dir)),
+          });
+        } catch {
+          // ignore unparseable
+        }
+      }
     }
 
-    const files = fs.readdirSync(ARTICLES_DIR).filter(f => f.endsWith('.json'));
-    const articles = files.map(filename => {
-      const fullPath = path.join(ARTICLES_DIR, filename);
-      try {
-        const raw = fs.readFileSync(fullPath, 'utf8');
-        const parsed = JSON.parse(raw);
-        return {
-          id: parsed.nzz_id || filename.replace('.json', ''),
-          document_id: parsed.document_id,
-          headline: parsed.headline || parsed.seo_title,
-          lead: parsed.lead,
-          author: parsed.author_line,
-          section: parsed.section,
-          wordCount: parsed.word_count,
-          readingTimeSeconds: parsed.reading_time_seconds,
-          publishedAt: parsed.published_at,
-          filename,
-        };
-      } catch {
-        return null;
-      }
-    }).filter(Boolean);
+    // Sort by publication date or headline
+    allArticles.sort((a, b) => (b.publishedAt || '').localeCompare(a.publishedAt || ''));
 
-    res.json({ success: true, articles });
+    res.json({ success: true, count: allArticles.length, articles: allArticles });
   } catch (err: any) {
     res.status(500).json({ success: false, error: err.message });
   }
@@ -53,32 +80,26 @@ liquidRouter.get('/articles', (req: Request, res: Response) => {
 liquidRouter.get('/articles/:id', (req: Request, res: Response) => {
   const id = String(req.params.id);
   try {
-    if (!fs.existsSync(ARTICLES_DIR)) {
-      return res.status(404).json({ success: false, error: 'Articles directory not found' });
+    const found = findArticleFiles(id);
+    if (!found) {
+      return res.status(404).json({ success: false, error: `Article ${id} not found across workspace` });
     }
 
-    const files = fs.readdirSync(ARTICLES_DIR);
-    const jsonFile = files.find(f => f.includes(id) && f.endsWith('.json'));
-    const mdFile = files.find(f => f.includes(id) && f.endsWith('.md'));
-
-    if (!jsonFile) {
-      return res.status(404).json({ success: false, error: `Article ${id} not found` });
-    }
-
-    const jsonData = JSON.parse(fs.readFileSync(path.join(ARTICLES_DIR, jsonFile), 'utf8'));
+    const { dir, jsonFile, mdFile } = found;
+    const jsonData = JSON.parse(fs.readFileSync(path.join(dir, jsonFile), 'utf8'));
     let bodyText = '';
     if (mdFile) {
-      bodyText = fs.readFileSync(path.join(ARTICLES_DIR, mdFile), 'utf8');
+      bodyText = fs.readFileSync(path.join(dir, mdFile), 'utf8');
     }
 
     res.json({
       success: true,
       article: {
         id: jsonData.nzz_id || id,
-        headline: jsonData.headline,
+        headline: jsonData.headline || jsonData.seo_title,
         lead: jsonData.lead,
-        author: jsonData.author_line,
-        section: jsonData.section,
+        author: jsonData.author_line || 'NZZ Redaktion',
+        section: jsonData.section || 'Wirtschaft',
         wordCount: jsonData.word_count,
         body: bodyText || jsonData.lead,
         summaryBullets: jsonData.summary_bullets_en,
@@ -106,16 +127,14 @@ liquidRouter.post('/generate', async (req: Request, res: Response) => {
     };
 
     // If only articleId was sent, try to load article from disk
-    if ((!headline || !body) && articleId && fs.existsSync(ARTICLES_DIR)) {
-      const files = fs.readdirSync(ARTICLES_DIR);
-      const jsonFile = files.find(f => f.includes(articleId) && f.endsWith('.json'));
-      const mdFile = files.find(f => f.includes(articleId) && f.endsWith('.md'));
-      if (jsonFile) {
-        const parsed = JSON.parse(fs.readFileSync(path.join(ARTICLES_DIR, jsonFile), 'utf8'));
-        const md = mdFile ? fs.readFileSync(path.join(ARTICLES_DIR, mdFile), 'utf8') : '';
+    if ((!headline || !body) && articleId) {
+      const found = findArticleFiles(articleId);
+      if (found) {
+        const parsed = JSON.parse(fs.readFileSync(path.join(found.dir, found.jsonFile), 'utf8'));
+        const md = found.mdFile ? fs.readFileSync(path.join(found.dir, found.mdFile), 'utf8') : '';
         articleInput = {
           id: articleId,
-          headline: parsed.headline || headline,
+          headline: parsed.headline || parsed.seo_title || headline,
           lead: parsed.lead || lead,
           body: md || parsed.lead || '',
           author: parsed.author_line || author,
