@@ -2,7 +2,7 @@ import { ArticleRecord } from '../types/article.js';
 
 interface CountryRule { code: string; name: string; aliases: string[] }
 
-export const countryRules: CountryRule[] = [
+const baseCountryRules: CountryRule[] = [
   { code: 'US', name: 'United States', aliases: ['united states', 'u.s.', 'usa', 'american', 'americans', 'washington'] },
   { code: 'CA', name: 'Canada', aliases: ['canada', 'canadian'] },
   { code: 'PL', name: 'Poland', aliases: ['poland', 'polish'] },
@@ -34,11 +34,30 @@ export const countryRules: CountryRule[] = [
   { code: 'CD', name: 'Democratic Republic of the Congo', aliases: ['democratic republic of the congo', 'drc', 'congolese'] },
   { code: 'ZM', name: 'Zambia', aliases: ['zambia', 'zambian', 'lusaka'] },
   { code: 'ZW', name: 'Zimbabwe', aliases: ['zimbabwe', 'zimbabwean', 'harare'] },
+  { code: 'NA', name: 'Namibia', aliases: ['namibia', 'namibian', 'windhoek'] },
   { code: 'AU', name: 'Australia', aliases: ['australia', 'australian'] },
   { code: 'JP', name: 'Japan', aliases: ['japan', 'japanese', 'tokyo'] },
   { code: 'BR', name: 'Brazil', aliases: ['brazil', 'brazilian'] },
   { code: 'MX', name: 'Mexico', aliases: ['mexico', 'mexican'] },
 ];
+
+// Complete ISO-style country coverage for articles that mention countries not
+// represented by the editorial alias rules above. The base rules remain first
+// so their richer city/demonym aliases and scoring continue to apply.
+const additionalCountries = [
+  ['AF','Afghanistan'],['AL','Albania'],['DZ','Algeria'],['AD','Andorra'],['AO','Angola'],['AG','Antigua and Barbuda'],['AR','Argentina'],['AM','Armenia'],['AT','Austria'],['AZ','Azerbaijan'],
+  ['BS','Bahamas'],['BH','Bahrain'],['BD','Bangladesh'],['BB','Barbados'],['BY','Belarus'],['BZ','Belize'],['BJ','Benin'],['BT','Bhutan'],['BO','Bolivia'],['BA','Bosnia and Herzegovina'],['BW','Botswana'],['BR','Brazil'],['BN','Brunei'],['BG','Bulgaria'],['BF','Burkina Faso'],['BI','Burundi'],
+  ['CV','Cabo Verde'],['KH','Cambodia'],['CM','Cameroon'],['CF','Central African Republic'],['TD','Chad'],['CL','Chile'],['CO','Colombia'],['KM','Comoros'],['CG','Republic of the Congo'],['CD','Democratic Republic of the Congo'],['CR','Costa Rica'],['CI',"Côte d'Ivoire"],['HR','Croatia'],['CU','Cuba'],['CY','Cyprus'],['CZ','Czechia'],
+  ['DK','Denmark'],['DJ','Djibouti'],['DM','Dominica'],['DO','Dominican Republic'],['EC','Ecuador'],['EG','Egypt'],['SV','El Salvador'],['GQ','Equatorial Guinea'],['ER','Eritrea'],['EE','Estonia'],['SZ','Eswatini'],['FJ','Fiji'],['FI','Finland'],['GA','Gabon'],['GM','Gambia'],['GE','Georgia'],['GR','Greece'],['GD','Grenada'],['GT','Guatemala'],['GN','Guinea'],['GW','Guinea-Bissau'],['GY','Guyana'],
+  ['HT','Haiti'],['HN','Honduras'],['HU','Hungary'],['IS','Iceland'],['ID','Indonesia'],['IQ','Iraq'],['IE','Ireland'],['IL','Israel'],['JM','Jamaica'],['JO','Jordan'],['KZ','Kazakhstan'],['KI','Kiribati'],['KP','North Korea'],['KR','South Korea'],['KG','Kyrgyzstan'],['LA','Laos'],['LV','Latvia'],['LB','Lebanon'],['LS','Lesotho'],['LR','Liberia'],['LY','Libya'],['LI','Liechtenstein'],['LT','Lithuania'],['LU','Luxembourg'],
+  ['MG','Madagascar'],['MW','Malawi'],['MY','Malaysia'],['MV','Maldives'],['ML','Mali'],['MT','Malta'],['MH','Marshall Islands'],['MR','Mauritania'],['MU','Mauritius'],['FM','Micronesia'],['MD','Moldova'],['MC','Monaco'],['MN','Mongolia'],['ME','Montenegro'],['MA','Morocco'],['MZ','Mozambique'],['MM','Myanmar'],['NA','Namibia'],['NR','Nauru'],['NP','Nepal'],['NI','Nicaragua'],['NE','Niger'],['MK','North Macedonia'],['NO','Norway'],['OM','Oman'],
+  ['PK','Pakistan'],['PW','Palau'],['PA','Panama'],['PG','Papua New Guinea'],['PY','Paraguay'],['PE','Peru'],['PH','Philippines'],['PT','Portugal'],['QA','Qatar'],['RO','Romania'],['KN','Saint Kitts and Nevis'],['LC','Saint Lucia'],['VC','Saint Vincent and the Grenadines'],['WS','Samoa'],['SM','San Marino'],['ST','Sao Tome and Principe'],['SA','Saudi Arabia'],['RS','Serbia'],['SC','Seychelles'],['SL','Sierra Leone'],['SG','Singapore'],['SK','Slovakia'],['SI','Slovenia'],['SB','Solomon Islands'],['SO','Somalia'],['SS','South Sudan'],['LK','Sri Lanka'],['SD','Sudan'],['SR','Suriname'],['SE','Sweden'],['SY','Syria'],
+  ['TJ','Tajikistan'],['TH','Thailand'],['TL','Timor-Leste'],['TG','Togo'],['TO','Tonga'],['TT','Trinidad and Tobago'],['TN','Tunisia'],['TR','Turkey'],['TM','Turkmenistan'],['TV','Tuvalu'],['AE','United Arab Emirates'],['UY','Uruguay'],['UZ','Uzbekistan'],['VU','Vanuatu'],['VA','Vatican City'],['VE','Venezuela'],['VN','Vietnam'],['YE','Yemen'],['ZM','Zambia'],['ZW','Zimbabwe'],
+] as const;
+
+export const countryRules: CountryRule[] = [...baseCountryRules, ...additionalCountries
+  .filter(([code]) => !baseCountryRules.some((rule) => rule.code === code))
+  .map(([code, name]) => ({ code, name, aliases: [name.toLowerCase()] }))];
 
 const escapeRegex = (value: string) => value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 
