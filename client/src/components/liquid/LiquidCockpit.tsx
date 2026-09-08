@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import {
   Sparkles,
   Volume2,
@@ -10,6 +10,11 @@ import {
   Pause,
   Bot,
   Search,
+  LayoutGrid,
+  List,
+  Clock,
+  User,
+  ArrowRight,
 } from 'lucide-react';
 import { FormatTabs, FormatTabId } from './FormatTabs';
 import { BudgetBar } from './BudgetBar';
@@ -20,7 +25,6 @@ import type {
   ArticleDetail,
   LiquidDerivativesPayload,
   VideoScene,
-  CarouselSlide,
 } from '../../types/liquid';
 import {
   fetchArticles,
@@ -37,8 +41,9 @@ export const LiquidCockpit: React.FC = () => {
   const [articleDetail, setArticleDetail] = useState<ArticleDetail | null>(null);
   const [searchQuery, setSearchQuery] = useState<string>('');
   const [selectedSection, setSelectedSection] = useState<string>('All');
+  const [viewMode, setViewMode] = useState<'grid' | 'compact'>('grid');
 
-  const [activeTab, setActiveTab] = useState<FormatTabId>('audio');
+  const [activeTab, setActiveTab] = useState<FormatTabId>('video');
   const [model, setModel] = useState<'gemini-3.8-flash' | 'gemini-3.8-pro'>('gemini-3.8-flash');
   const [loading, setLoading] = useState<boolean>(false);
   const [synthesizing, setSynthesizing] = useState<boolean>(false);
@@ -51,30 +56,72 @@ export const LiquidCockpit: React.FC = () => {
   const [isPlayingAudio, setIsPlayingAudio] = useState(false);
   const [audioAudioElement, setAudioAudioElement] = useState<HTMLAudioElement | null>(null);
 
+  // Auto-generate function
+  const triggerGeneration = useCallback(
+    async (artId: string, detail?: ArticleDetail | null) => {
+      if (!artId) return;
+      setLoading(true);
+      try {
+        const data = await generateLiquidFormats({
+          articleId: artId,
+          headline: detail?.headline,
+          lead: detail?.lead,
+          body: detail?.body,
+          author: detail?.author,
+          section: detail?.section,
+          model,
+        });
+        setDerivatives(data);
+
+        // Run linter on headline and subhead
+        if (data.executiveNewsletter) {
+          const l1 = await lintText({ text: data.executiveNewsletter.headline, isHeadline: true });
+          const l2 = await lintText({ text: data.executiveNewsletter.subhead, isSubhead: true });
+          setLinterWarnings([...l1.warnings, ...l2.warnings]);
+        }
+      } catch (err) {
+        console.error('Generation failed:', err);
+      } finally {
+        setLoading(false);
+      }
+    },
+    [model]
+  );
+
   // Load available articles on mount
   useEffect(() => {
     fetchArticles()
       .then((data) => {
         setArticles(data);
         if (data.length > 0) {
-          // Default to the first article or Germany's welfare state
           const target = data.find((a) => a.id.includes('1886544')) || data[0];
           setSelectedArticleId(target.id);
+          fetchArticleDetail(target.id).then((detail) => {
+            setArticleDetail(detail);
+            triggerGeneration(target.id, detail);
+          });
         }
       })
       .catch((err) => console.error('Failed to load articles:', err));
-  }, []);
+  }, [triggerGeneration]);
 
   // Fetch article detail when selection changes
-  useEffect(() => {
-    if (!selectedArticleId) return;
-    fetchArticleDetail(selectedArticleId)
-      .then((detail) => setArticleDetail(detail))
-      .catch((err) => console.error('Failed to load article detail:', err));
-  }, [selectedArticleId]);
+  const handleSelectArticle = async (artId: string) => {
+    setSelectedArticleId(artId);
+    try {
+      const detail = await fetchArticleDetail(artId);
+      setArticleDetail(detail);
+      triggerGeneration(artId, detail);
+    } catch (err) {
+      console.error('Failed to switch article:', err);
+    }
+  };
 
   // Compute available sections and filtered articles
-  const sections: string[] = ['All', ...Array.from(new Set(articles.map((a) => a.section).filter((s): s is string => Boolean(s))))];
+  const sections: string[] = [
+    'All',
+    ...Array.from(new Set(articles.map((a) => a.section).filter((s): s is string => Boolean(s)))),
+  ];
 
   const filteredArticles = articles.filter((art) => {
     const matchesSection = selectedSection === 'All' || art.section === selectedSection;
@@ -86,59 +133,43 @@ export const LiquidCockpit: React.FC = () => {
     return matchesSection && matchesSearch;
   });
 
-  // Handle generation of all 6 formats
-  const handleGenerate = async () => {
-    if (!selectedArticleId) return;
-    setLoading(true);
-    try {
-      const data = await generateLiquidFormats({
-        articleId: selectedArticleId,
-        headline: articleDetail?.headline,
-        lead: articleDetail?.lead,
-        body: articleDetail?.body,
-        author: articleDetail?.author,
-        section: articleDetail?.section,
-        model,
-        mock: true,
-      });
-      setDerivatives(data);
+  const getSectionBadgeClass = (section?: string) => {
+    const s = (section || '').toLowerCase();
+    if (s.includes('wirt') || s.includes('finanz')) return 'bg-red-500/10 text-red-400 border-red-500/30';
+    if (s.includes('tech')) return 'bg-cyan-500/10 text-cyan-400 border-cyan-500/30';
+    if (s.includes('inter')) return 'bg-indigo-500/10 text-indigo-400 border-indigo-500/30';
+    if (s.includes('wiss')) return 'bg-emerald-500/10 text-emerald-400 border-emerald-500/30';
+    if (s.includes('sport')) return 'bg-amber-500/10 text-amber-400 border-amber-500/30';
+    if (s.includes('feuill') || s.includes('kultur')) return 'bg-purple-500/10 text-purple-400 border-purple-500/30';
+    return 'bg-slate-800 text-slate-300 border-slate-700';
+  };
 
-      // Perform initial NZZ style linting
-      const report = await lintText({
-        text: data.audioBrief.headline,
-        isHeadline: true,
-      });
-      setLinterWarnings(report.warnings);
-    } catch (err) {
-      console.error('Generation error:', err);
-    } finally {
-      setLoading(false);
+  // Approval toggles
+  const toggleApproval = (formatKey: keyof LiquidDerivativesPayload) => {
+    if (!derivatives) return;
+    const target = derivatives[formatKey] as any;
+    if (target && typeof target.approved === 'boolean') {
+      target.approved = !target.approved;
+      setDerivatives({ ...derivatives });
     }
   };
 
-  // Synthesize Cloud TTS Audio
+  // Handle synthesize audio
   const handleSynthesizeAudio = async () => {
     if (!derivatives?.audioBrief) return;
     setSynthesizing(true);
     try {
-      const result = await synthesizeAudio({
+      const res = await synthesizeAudio({
         script: derivatives.audioBrief.script,
         author: articleDetail?.author,
-        voiceName: derivatives.audioBrief.voiceProfile.voiceName,
-        mock: true,
       });
-
-      setDerivatives((prev) => {
-        if (!prev) return prev;
-        return {
-          ...prev,
-          audioBrief: {
-            ...prev.audioBrief,
-            audioUrl: result.audioUrl,
-            estimatedDurationSeconds: result.durationSeconds,
-            wordCount: result.wordCount,
-          },
-        };
+      setDerivatives({
+        ...derivatives,
+        audioBrief: {
+          ...derivatives.audioBrief,
+          audioUrl: res.audioUrl,
+          estimatedDurationSeconds: res.durationSeconds,
+        },
       });
     } catch (err) {
       console.error('Audio synthesis failed:', err);
@@ -147,32 +178,16 @@ export const LiquidCockpit: React.FC = () => {
     }
   };
 
-  // Toggle format approval
-  const toggleApproval = (formatKey: keyof LiquidDerivativesPayload) => {
-    setDerivatives((prev) => {
-      if (!prev) return prev;
-      const target = prev[formatKey] as any;
-      if (!target || typeof target !== 'object' || !('approved' in target)) return prev;
-      return {
-        ...prev,
-        [formatKey]: {
-          ...target,
-          approved: !target.approved,
-        },
-      };
-    });
-  };
-
-  // Publish approved formats
+  // Handle publish
   const handlePublish = async () => {
-    if (!derivatives || !selectedArticleId) return;
+    if (!selectedArticleId || !derivatives) return;
     try {
       await publishFormats({
         articleId: selectedArticleId,
         payload: derivatives,
       });
       setPublishedToast(true);
-      setTimeout(() => setPublishedToast(false), 3000);
+      setTimeout(() => setPublishedToast(false), 3500);
     } catch (err) {
       console.error('Publish error:', err);
     }
@@ -194,28 +209,28 @@ export const LiquidCockpit: React.FC = () => {
 
   return (
     <div className="space-y-6">
-      {/* Top Banner: Article Ingestion & Generation Controls */}
+      {/* 1. TOP HEADER & MODEL CONTROLS */}
       <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl">
         <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-6">
-          <div className="space-y-1">
+          <div className="space-y-1.5">
             <div className="flex items-center gap-2">
               <span className="px-2.5 py-0.5 rounded-full text-xs font-bold uppercase tracking-wider bg-red-600/20 text-red-400 border border-red-500/30">
                 Liquid Story Engine
               </span>
-              <span className="text-xs text-slate-400 flex items-center gap-1">
+              <span className="text-xs text-slate-400 flex items-center gap-1.5 bg-slate-950 px-2.5 py-0.5 rounded-full border border-slate-800">
                 <Bot className="w-3.5 h-3.5 text-blue-400" />
-                Powered by Google Gemini 3.8
+                Google Gemini 3.8 & Veo 2
               </span>
             </div>
             <h1 className="text-2xl font-bold text-white tracking-tight">
-              Multimodal Derivative Cockpit
+              Multimodal Editorial Cockpit
             </h1>
-            <p className="text-xs text-slate-400">
-              Transform static reporting into 6 liquid formats adhering to the strict NZZ Voice Invariant.
+            <p className="text-xs text-slate-400 max-w-2xl">
+              Transform static reporting into 6 liquid derivatives (60s Vertical Video, Commuter Audio, 3-Bullet Newsletter, Instagram Carousel, Fact Box, Dialectical FAQ) adhering to the strict NZZ Voice Invariant.
             </p>
           </div>
 
-          {/* Model Selection & Action Controls */}
+          {/* Model Switcher & CTA */}
           <div className="flex flex-wrap items-center gap-3">
             <div className="flex items-center bg-slate-950 border border-slate-800 rounded-xl p-1 text-xs">
               <button
@@ -241,7 +256,7 @@ export const LiquidCockpit: React.FC = () => {
             </div>
 
             <button
-              onClick={handleGenerate}
+              onClick={() => triggerGeneration(selectedArticleId, articleDetail)}
               disabled={loading || !selectedArticleId}
               className="px-5 py-2.5 bg-gradient-to-r from-red-600 to-rose-700 hover:from-red-500 hover:to-rose-600 text-white text-xs font-semibold rounded-xl flex items-center gap-2 shadow-lg shadow-red-950/40 transition-all disabled:opacity-50"
             >
@@ -250,7 +265,7 @@ export const LiquidCockpit: React.FC = () => {
               ) : (
                 <Sparkles className="w-4 h-4" />
               )}
-              {loading ? 'Synthesizing 6 Formats...' : 'Generate Derivatives'}
+              {loading ? 'Synthesizing Formats...' : 'Regenerate Derivatives'}
             </button>
 
             {derivatives && (
@@ -264,56 +279,146 @@ export const LiquidCockpit: React.FC = () => {
             )}
           </div>
         </div>
+      </div>
 
-        {/* Article Ingestion Search & Dropdown */}
-        <div className="mt-6 pt-5 border-t border-slate-800/80 space-y-4">
-          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
-            <div className="flex items-center gap-2">
-              <span className="text-xs font-semibold text-slate-300 uppercase tracking-wider">
-                NZZ Article Corpus
-              </span>
-              <span className="text-[10px] bg-red-600/20 text-red-300 px-2 py-0.5 rounded-full border border-red-500/30 font-mono">
-                {filteredArticles.length} / {articles.length} Articles Available
-              </span>
-            </div>
-
-            {/* Rubric / Section Filter Chips */}
-            <div className="flex items-center gap-1 overflow-x-auto pb-1 text-xs">
-              {sections.slice(0, 7).map((sec) => (
-                <button
-                  key={sec}
-                  onClick={() => setSelectedSection(sec)}
-                  className={`px-2.5 py-1 rounded-lg text-[11px] font-medium transition-all shrink-0 ${
-                    selectedSection === sec
-                      ? 'bg-red-600 text-white shadow-sm'
-                      : 'bg-slate-950 text-slate-400 hover:text-slate-200 border border-slate-800'
-                  }`}
-                >
-                  {sec}
-                </button>
-              ))}
-            </div>
+      {/* 2. NZZ ARTICLE CORPUS & SELECTION GALLERY */}
+      <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl space-y-4">
+        {/* Gallery Control Bar */}
+        <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-4 border-b border-slate-800">
+          <div className="flex items-center gap-3">
+            <div className="w-3 h-3 rounded-full bg-red-600 animate-pulse" />
+            <h2 className="text-base font-bold text-white tracking-tight">
+              NZZ Article Corpus
+            </h2>
+            <span className="text-xs bg-slate-800 text-slate-300 px-2.5 py-0.5 rounded-full font-mono border border-slate-700">
+              {filteredArticles.length} of {articles.length} Ingested
+            </span>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-12 gap-4 items-center">
-            <div className="md:col-span-6 space-y-2">
-              {/* Keyword Search Input */}
-              <div className="relative">
-                <Search className="w-3.5 h-3.5 text-slate-500 absolute left-3 top-1/2 -translate-y-1/2" />
-                <input
-                  type="text"
-                  placeholder="Filter articles by title, keyword, or author..."
-                  value={searchQuery}
-                  onChange={(e) => setSearchQuery(e.target.value)}
-                  className="w-full bg-slate-950 border border-slate-800 rounded-xl pl-9 pr-3 py-2 text-xs text-slate-200 focus:outline-none focus:border-red-500"
-                />
-              </div>
+          <div className="flex items-center gap-2">
+            {/* View Mode Toggle */}
+            <div className="flex items-center bg-slate-950 border border-slate-800 rounded-lg p-0.5">
+              <button
+                onClick={() => setViewMode('grid')}
+                className={`p-1.5 rounded text-xs transition-all ${
+                  viewMode === 'grid' ? 'bg-slate-800 text-white' : 'text-slate-400 hover:text-slate-200'
+                }`}
+                title="Cards Grid View"
+              >
+                <LayoutGrid className="w-4 h-4" />
+              </button>
+              <button
+                onClick={() => setViewMode('compact')}
+                className={`p-1.5 rounded text-xs transition-all ${
+                  viewMode === 'compact' ? 'bg-slate-800 text-white' : 'text-slate-400 hover:text-slate-200'
+                }`}
+                title="Dropdown List View"
+              >
+                <List className="w-4 h-4" />
+              </button>
+            </div>
 
-              {/* Source Article Dropdown */}
+            {/* Keyword Search */}
+            <div className="relative w-64">
+              <Search className="w-3.5 h-3.5 text-slate-400 absolute left-3 top-1/2 -translate-y-1/2" />
+              <input
+                type="text"
+                placeholder="Search headline, author, lead..."
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+                className="w-full bg-slate-950 border border-slate-800 rounded-lg pl-8 pr-3 py-1.5 text-xs text-white placeholder-slate-500 focus:outline-none focus:border-red-500"
+              />
+            </div>
+          </div>
+        </div>
+
+        {/* Rubric Category Chips */}
+        <div className="flex items-center gap-1.5 overflow-x-auto pb-1 text-xs">
+          {sections.map((sec) => (
+            <button
+              key={sec}
+              onClick={() => setSelectedSection(sec)}
+              className={`px-3 py-1 rounded-lg text-xs font-medium transition-all shrink-0 ${
+                selectedSection === sec
+                  ? 'bg-red-600 text-white shadow'
+                  : 'bg-slate-950 text-slate-400 hover:text-slate-200 border border-slate-800'
+              }`}
+            >
+              {sec}
+            </button>
+          ))}
+        </div>
+
+        {/* View Mode 1: Visual Cards Grid */}
+        {viewMode === 'grid' && (
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3.5 pt-2 max-h-[380px] overflow-y-auto pr-1">
+            {filteredArticles.map((art) => {
+              const isSelected = selectedArticleId === art.id;
+              return (
+                <div
+                  key={art.id}
+                  onClick={() => handleSelectArticle(art.id)}
+                  className={`p-4 rounded-xl border transition-all cursor-pointer flex flex-col justify-between text-left space-y-3 ${
+                    isSelected
+                      ? 'bg-red-950/20 border-red-500/80 ring-1 ring-red-500/50 shadow-lg shadow-red-950/30'
+                      : 'bg-slate-950/60 border-slate-800/80 hover:border-slate-700 hover:bg-slate-950'
+                  }`}
+                >
+                  <div className="space-y-2">
+                    <div className="flex items-center justify-between gap-2">
+                      <span
+                        className={`text-[10px] uppercase font-bold tracking-wider px-2 py-0.5 rounded border ${getSectionBadgeClass(
+                          art.section
+                        )}`}
+                      >
+                        {art.section || 'NZZ'}
+                      </span>
+                      <span className="text-[10px] text-slate-400 flex items-center gap-1 font-mono">
+                        <Clock className="w-3 h-3 text-slate-400" />
+                        ~{Math.round((art.wordCount || 1000) / 200)} min ({art.wordCount || 1000}w)
+                      </span>
+                    </div>
+
+                    <h3 className="text-sm font-bold text-white line-clamp-2 leading-snug">
+                      {art.headline}
+                    </h3>
+
+                    {art.lead && (
+                      <p className="text-xs text-slate-400 line-clamp-2 leading-relaxed">
+                        {art.lead}
+                      </p>
+                    )}
+                  </div>
+
+                  <div className="flex items-center justify-between pt-2 border-t border-slate-800/60 text-[11px]">
+                    <span className="text-slate-400 flex items-center gap-1.5 truncate max-w-[170px]">
+                      <User className="w-3 h-3 text-slate-400 shrink-0" />
+                      <span className="text-slate-300 font-medium truncate">{art.author || 'NZZ Redaktion'}</span>
+                    </span>
+
+                    <span
+                      className={`font-semibold flex items-center gap-1 text-[11px] ${
+                        isSelected ? 'text-red-400' : 'text-slate-400 group-hover:text-slate-200'
+                      }`}
+                    >
+                      {isSelected ? '✓ Active' : 'Select'}
+                      <ArrowRight className="w-3 h-3" />
+                    </span>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        )}
+
+        {/* View Mode 2: Compact Dropdown */}
+        {viewMode === 'compact' && (
+          <div className="grid grid-cols-1 md:grid-cols-12 gap-4 items-center pt-2">
+            <div className="md:col-span-8">
               <select
                 value={selectedArticleId}
-                onChange={(e) => setSelectedArticleId(e.target.value)}
-                className="w-full bg-slate-950 border border-slate-800 rounded-xl px-3 py-2 text-xs text-slate-200 focus:outline-none focus:border-red-500"
+                onChange={(e) => handleSelectArticle(e.target.value)}
+                className="w-full bg-slate-950 border border-slate-800 rounded-xl px-3 py-2.5 text-xs text-slate-200 focus:outline-none focus:border-red-500"
               >
                 {filteredArticles.map((art) => (
                   <option key={art.id} value={art.id}>
@@ -322,31 +427,63 @@ export const LiquidCockpit: React.FC = () => {
                 ))}
               </select>
             </div>
-
             {articleDetail && (
-              <div className="md:col-span-6 bg-slate-950/60 border border-slate-800/80 rounded-xl p-3 flex items-center justify-between text-xs">
-                <div className="space-y-0.5 truncate pr-4">
-                  <span className="text-slate-400 font-medium">Byline: </span>
-                  <span className="text-slate-200 font-semibold">{articleDetail.author || 'NZZ Redaktion'}</span>
-                  <p className="text-slate-400 truncate">{articleDetail.lead}</p>
-                </div>
-                <div className="text-right shrink-0">
-                  <span className="text-[10px] text-slate-400 font-mono block">
-                    {articleDetail.wordCount} words · ~{Math.round(articleDetail.wordCount / 200)} min read
-                  </span>
-                  <span className="text-[10px] text-emerald-400 font-medium">
-                    Voice Invariant Active
-                  </span>
-                </div>
+              <div className="md:col-span-4 bg-slate-950 border border-slate-800 rounded-xl p-2.5 text-xs">
+                <span className="text-slate-400">Byline: </span>
+                <span className="text-white font-medium">{articleDetail.author || 'NZZ Redaktion'}</span>
+                <span className="block text-[10px] text-slate-400 font-mono mt-0.5">
+                  {articleDetail.wordCount} words · ~{Math.round(articleDetail.wordCount / 200)} min read
+                </span>
               </div>
             )}
           </div>
-        </div>
+        )}
       </div>
 
-      {/* Published Toast Alert */}
+      {/* 3. ACTIVE ARTICLE SPOTLIGHT CARD */}
+      {articleDetail && (
+        <div className="bg-gradient-to-r from-slate-900 to-slate-950 border border-slate-800 rounded-2xl p-5 shadow-lg flex flex-col md:flex-row md:items-center justify-between gap-4">
+          <div className="space-y-1">
+            <div className="flex items-center gap-2">
+              <span className="text-[10px] uppercase font-bold tracking-wider px-2 py-0.5 rounded bg-red-600/20 text-red-400 border border-red-500/30">
+                Active Source Story
+              </span>
+              <span className="text-xs text-slate-400">
+                By {articleDetail.author || 'NZZ Redaktion'}
+              </span>
+            </div>
+            <h2 className="text-lg font-bold text-white tracking-tight">
+              {articleDetail.headline}
+            </h2>
+            <p className="text-xs text-slate-400 line-clamp-1 max-w-3xl">
+              {articleDetail.lead}
+            </p>
+          </div>
+
+          <div className="flex items-center gap-3 shrink-0">
+            <div className="text-right hidden sm:block">
+              <span className="text-xs font-mono text-slate-300 block">
+                {articleDetail.wordCount} Words
+              </span>
+              <span className="text-[10px] text-emerald-400 font-medium">
+                Voice Invariant Enforced
+              </span>
+            </div>
+            <button
+              onClick={() => triggerGeneration(selectedArticleId, articleDetail)}
+              disabled={loading}
+              className="px-3.5 py-2 bg-slate-800 hover:bg-slate-700 text-white text-xs font-medium rounded-xl flex items-center gap-1.5 border border-slate-700 transition-all"
+            >
+              <RefreshCw className={`w-3.5 h-3.5 ${loading ? 'animate-spin' : ''}`} />
+              Re-Synthesize
+            </button>
+          </div>
+        </div>
+      )}
+
+      {/* 4. TOAST ALERTS & LINTER FEEDBACK */}
       {publishedToast && (
-        <div className="p-4 bg-emerald-950/80 border border-emerald-800 text-emerald-300 rounded-xl text-xs flex items-center justify-between shadow-xl">
+        <div className="p-4 bg-emerald-950/80 border border-emerald-800 text-emerald-300 rounded-xl text-xs flex items-center justify-between shadow-xl animate-in fade-in">
           <div className="flex items-center gap-2">
             <CheckCircle2 className="w-4 h-4 text-emerald-400" />
             <span>
@@ -359,7 +496,6 @@ export const LiquidCockpit: React.FC = () => {
         </div>
       )}
 
-      {/* Linter Warnings Alert */}
       {linterWarnings.length > 0 && (
         <div className="p-3 bg-amber-950/60 border border-amber-800/80 rounded-xl flex items-center gap-2.5 text-xs text-amber-300">
           <AlertTriangle className="w-4 h-4 text-amber-400 shrink-0" />
@@ -367,7 +503,7 @@ export const LiquidCockpit: React.FC = () => {
         </div>
       )}
 
-      {/* Main Multi-Tab Derivative Workspace */}
+      {/* 5. MULTI-TAB DERIVATIVE WORKSPACE */}
       {derivatives ? (
         <div className="bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden shadow-2xl">
           <FormatTabs
@@ -377,7 +513,145 @@ export const LiquidCockpit: React.FC = () => {
           />
 
           <div className="p-6">
-            {/* TAB 1: 60-Second Commuter Audio Brief */}
+            {/* TAB 1: 60-Second Vertical Video Storyboard */}
+            {activeTab === 'video' && (
+              <div className="space-y-6">
+                <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-4 border-b border-slate-800">
+                  <div>
+                    <h2 className="text-base font-bold text-white flex items-center gap-2">
+                      <Sparkles className="w-4 h-4 text-red-500" />
+                      60-Second Vertical Video (TikTok, Reels, Shorts)
+                    </h2>
+                    <p className="text-xs text-slate-400 mt-0.5">
+                      Target 60 seconds (5 structured scenes) with Google Veo 2 / Imagen 3 visual prompts, motion canvas, and metric callouts.
+                    </p>
+                  </div>
+
+                  <button
+                    onClick={() => toggleApproval('socialStoryboard')}
+                    className={`px-3 py-1.5 text-xs font-medium rounded-lg border transition-all ${
+                      derivatives.socialStoryboard.approved
+                        ? 'bg-emerald-950/60 border-emerald-800 text-emerald-300'
+                        : 'bg-slate-950 border-slate-800 text-slate-400 hover:text-white'
+                    }`}
+                  >
+                    {derivatives.socialStoryboard.approved ? '✓ Approved' : 'Approve Format'}
+                  </button>
+                </div>
+
+                <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+                  <div className="lg:col-span-5 flex justify-center">
+                    <StoryboardPreview
+                      storyboard={derivatives.socialStoryboard}
+                    />
+                  </div>
+
+                  <div className="lg:col-span-7 space-y-4">
+                    <div className="flex items-center justify-between">
+                      <h3 className="text-xs font-semibold text-slate-300 uppercase tracking-wider">
+                        5 Scene Breakdown (60s Duration)
+                      </h3>
+                      <span className="text-[10px] text-slate-400 font-mono">
+                        Veo 2 Prompt Pipeline
+                      </span>
+                    </div>
+
+                    <div className="space-y-3">
+                      {derivatives.socialStoryboard.scenes.map((scene: VideoScene, idx: number) => (
+                        <div
+                          key={idx}
+                          className="bg-slate-950 border border-slate-800 rounded-xl p-4 space-y-3"
+                        >
+                          <div className="flex items-center justify-between">
+                            <div className="flex items-center gap-2">
+                              <span className="w-5 h-5 rounded-full bg-red-600/20 text-red-400 font-mono text-xs flex items-center justify-center font-bold">
+                                {scene.sceneIndex}
+                              </span>
+                              <span className="text-xs font-semibold text-white uppercase tracking-wider">
+                                {scene.sceneType.replace('_', ' ')}
+                              </span>
+                            </div>
+                            <span className="text-[11px] font-mono text-slate-400 bg-slate-900 px-2 py-0.5 rounded border border-slate-800">
+                              {scene.timeRange} ({scene.durationSeconds}s)
+                            </span>
+                          </div>
+
+                          <div className="space-y-1.5">
+                            <label className="text-[10px] uppercase font-bold text-slate-400 block">
+                              On-Screen Headline
+                            </label>
+                            <input
+                              type="text"
+                              value={scene.onScreenHeadline}
+                              onChange={(e) => {
+                                const newScenes = [...derivatives.socialStoryboard.scenes];
+                                newScenes[idx].onScreenHeadline = e.target.value;
+                                setDerivatives({
+                                  ...derivatives,
+                                  socialStoryboard: {
+                                    ...derivatives.socialStoryboard,
+                                    scenes: newScenes,
+                                  },
+                                });
+                              }}
+                              className="w-full bg-slate-900 border border-slate-800 rounded px-2.5 py-1.5 text-xs text-white"
+                            />
+                          </div>
+
+                          {scene.prominentMetric && (
+                            <div className="space-y-1">
+                              <label className="text-[10px] uppercase font-bold text-red-400 block">
+                                Prominent Metric Callout
+                              </label>
+                              <input
+                                type="text"
+                                value={scene.prominentMetric}
+                                onChange={(e) => {
+                                  const newScenes = [...derivatives.socialStoryboard.scenes];
+                                  newScenes[idx].prominentMetric = e.target.value;
+                                  setDerivatives({
+                                    ...derivatives,
+                                    socialStoryboard: {
+                                      ...derivatives.socialStoryboard,
+                                      scenes: newScenes,
+                                    },
+                                  });
+                                }}
+                                className="w-36 bg-slate-900 border border-slate-800 rounded px-2.5 py-1 text-xs font-bold text-red-400"
+                              />
+                            </div>
+                          )}
+
+                          <div className="space-y-1">
+                            <label className="text-[10px] uppercase font-bold text-slate-400 block">
+                              Voiceover Script
+                            </label>
+                            <textarea
+                              rows={2}
+                              value={scene.voiceoverText}
+                              onChange={(e) => {
+                                const newScenes = [...derivatives.socialStoryboard.scenes];
+                                newScenes[idx].voiceoverText = e.target.value;
+                                setDerivatives({
+                                  ...derivatives,
+                                  socialStoryboard: {
+                                    ...derivatives.socialStoryboard,
+                                    scenes: newScenes,
+                                  },
+                                });
+                              }}
+                              className="w-full bg-slate-900 border border-slate-800 rounded p-2 text-xs text-slate-300"
+                            />
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            )}
+
+            {/* TAB 2: 60-Second Commuter Audio Brief */}
             {activeTab === 'audio' && (
               <div className="space-y-6">
                 <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-4 border-b border-slate-800">
@@ -395,29 +669,11 @@ export const LiquidCockpit: React.FC = () => {
                     <button
                       onClick={handleSynthesizeAudio}
                       disabled={synthesizing}
-                      className="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-medium rounded-lg flex items-center gap-1.5 transition-all"
+                      className="px-3.5 py-1.5 bg-slate-800 hover:bg-slate-700 text-white text-xs font-medium rounded-lg border border-slate-700 flex items-center gap-1.5 transition-all"
                     >
-                      {synthesizing ? (
-                        <RefreshCw className="w-3.5 h-3.5 animate-spin" />
-                      ) : (
-                        <Volume2 className="w-3.5 h-3.5 text-red-400" />
-                      )}
-                      {synthesizing ? 'Synthesizing...' : 'Synthesize Cloud TTS'}
+                      <Volume2 className="w-3.5 h-3.5 text-red-400" />
+                      {synthesizing ? 'Synthesizing Audio...' : 'Generate Cloud TTS'}
                     </button>
-
-                    {derivatives.audioBrief.audioUrl && (
-                      <button
-                        onClick={togglePlayAudio}
-                        className="px-3 py-1.5 bg-red-600 hover:bg-red-500 text-white text-xs font-semibold rounded-lg flex items-center gap-1.5 transition-all"
-                      >
-                        {isPlayingAudio ? (
-                          <Pause className="w-3.5 h-3.5" />
-                        ) : (
-                          <Play className="w-3.5 h-3.5" />
-                        )}
-                        {isPlayingAudio ? 'Pause Audio' : 'Play Audio (60s)'}
-                      </button>
-                    )}
 
                     <button
                       onClick={() => toggleApproval('audioBrief')}
@@ -432,73 +688,93 @@ export const LiquidCockpit: React.FC = () => {
                   </div>
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                  <BudgetBar
-                    current={derivatives.audioBrief.wordCount}
-                    min={120}
-                    max={150}
-                    unit="words"
-                    label="Word Budget (140 WPM broadcast pace)"
-                  />
-                  <BudgetBar
-                    current={derivatives.audioBrief.estimatedDurationSeconds}
-                    min={55}
-                    max={65}
-                    unit="seconds"
-                    label="Estimated Broadcast Duration"
-                  />
-                </div>
+                <BudgetBar
+                  current={derivatives.audioBrief.wordCount}
+                  min={130}
+                  max={150}
+                  unit="words"
+                  label="Audio Brief Budget"
+                />
 
-                <div className="space-y-4">
-                  <div>
-                    <label className="text-xs font-medium text-slate-400 block mb-1">
-                      Audio Script (Spoken Text)
+                <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
+                  <div className="lg:col-span-8 space-y-4">
+                    <label className="text-xs font-semibold text-slate-400 uppercase tracking-wider block">
+                      Broadcast Script (130–150 words)
                     </label>
                     <textarea
-                      rows={5}
+                      rows={6}
                       value={derivatives.audioBrief.script}
                       onChange={(e) => {
                         const newScript = e.target.value;
-                        const words = newScript.trim().split(/\s+/).length;
+                        const words = newScript.trim().split(/\s+/).filter(Boolean).length;
                         setDerivatives({
                           ...derivatives,
                           audioBrief: {
                             ...derivatives.audioBrief,
                             script: newScript,
                             wordCount: words,
-                            estimatedDurationSeconds: Math.round(words / 2.33),
+                            estimatedDurationSeconds: Math.round((words / 140) * 60),
                           },
                         });
                       }}
-                      className="w-full bg-slate-950 border border-slate-800 rounded-xl p-3 text-xs text-slate-200 leading-relaxed font-sans focus:outline-none focus:border-red-500"
+                      className="w-full bg-slate-950 border border-slate-800 rounded-xl p-4 text-xs text-slate-200 leading-relaxed focus:outline-none focus:border-red-500 font-serif"
                     />
+
+                    {derivatives.audioBrief.audioUrl && (
+                      <div className="p-4 bg-slate-950 border border-slate-800 rounded-xl flex items-center justify-between">
+                        <div className="flex items-center gap-3">
+                          <button
+                            onClick={togglePlayAudio}
+                            className="w-9 h-9 rounded-full bg-red-600 hover:bg-red-500 text-white flex items-center justify-center transition-all shadow"
+                          >
+                            {isPlayingAudio ? <Pause size={16} /> : <Play size={16} />}
+                          </button>
+                          <div>
+                            <span className="text-xs font-semibold text-white block">
+                              Synthesized Audio Stream
+                            </span>
+                            <span className="text-[10px] text-slate-400 font-mono">
+                              Neural2-B (Sober NZZ Anchor Voice) · {derivatives.audioBrief.estimatedDurationSeconds}s
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    )}
                   </div>
 
-                  <div>
-                    <label className="text-xs font-medium text-slate-400 block mb-1">
-                      Google Cloud SSML (Speech Synthesis Markup Language)
-                    </label>
-                    <textarea
-                      rows={3}
-                      readOnly
-                      value={derivatives.audioBrief.ssml}
-                      className="w-full bg-slate-950/60 border border-slate-800/80 rounded-xl p-3 text-[11px] text-slate-400 font-mono leading-relaxed"
-                    />
+                  <div className="lg:col-span-4 bg-slate-950 border border-slate-800 rounded-xl p-4 space-y-3 text-xs">
+                    <h4 className="font-semibold text-white uppercase tracking-wider text-[11px]">
+                      Acoustic Parameters
+                    </h4>
+                    <div className="space-y-2 text-slate-400">
+                      <div className="flex justify-between">
+                        <span>Pacing:</span>
+                        <span className="font-mono text-slate-200">140 WPM (Analytical)</span>
+                      </div>
+                      <div className="flex justify-between">
+                        <span>Voice Model:</span>
+                        <span className="font-mono text-slate-200">de-DE-Neural2-B</span>
+                      </div>
+                      <div className="flex justify-between">
+                        <span>Swiss Phonetics:</span>
+                        <span className="font-mono text-emerald-400">Enforced</span>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
             )}
 
-            {/* TAB 2: Executive 3-Bullet Newsletter */}
+            {/* TAB 3: Executive 3-Bullet Newsletter */}
             {activeTab === 'newsletter' && (
               <div className="space-y-6">
-                <div className="flex items-center justify-between pb-4 border-b border-slate-800">
+                <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-4 border-b border-slate-800">
                   <div>
                     <h2 className="text-base font-bold text-white">
-                      Executive 3-Bullet Intelligence Brief
+                      Executive 3-Bullet Newsletter
                     </h2>
                     <p className="text-xs text-slate-400 mt-0.5">
-                      Ultra-dense macro and structural takeaways designed for morning executive reading.
+                      Exactly 3 analytical bullets (&lt;45 words total). Subhead strictly without finite verbs.
                     </p>
                   </div>
 
@@ -516,129 +792,76 @@ export const LiquidCockpit: React.FC = () => {
 
                 <BudgetBar
                   current={derivatives.executiveNewsletter.wordCount}
-                  min={50}
-                  max={90}
+                  min={30}
+                  max={45}
                   unit="words"
-                  label="Executive Word Budget (<90 words)"
+                  label="Newsletter Word Budget"
                 />
 
-                <div className="space-y-4">
-                  <div>
-                    <label className="text-xs font-medium text-slate-400 block mb-1">
-                      Subhead (Noun/Adjective phrase without finite verbs)
+                <div className="bg-slate-950 border border-slate-800 rounded-xl p-5 space-y-4">
+                  <div className="space-y-1.5">
+                    <label className="text-[10px] uppercase font-bold text-slate-400 block">
+                      Subhead (Verb-Free Nominal Style)
                     </label>
                     <input
                       type="text"
                       value={derivatives.executiveNewsletter.subhead}
-                      onChange={(e) =>
+                      onChange={(e) => {
                         setDerivatives({
                           ...derivatives,
                           executiveNewsletter: {
                             ...derivatives.executiveNewsletter,
                             subhead: e.target.value,
                           },
-                        })
-                      }
-                      className="w-full bg-slate-950 border border-slate-800 rounded-xl px-3 py-2 text-xs text-white focus:outline-none focus:border-red-500"
+                        });
+                      }}
+                      className="w-full bg-slate-900 border border-slate-800 rounded px-3 py-2 text-xs font-medium text-slate-200"
                     />
                   </div>
 
                   <div className="space-y-3">
-                    <label className="text-xs font-medium text-slate-400 block">
-                      Exactly 3 Structural Bullets
+                    <label className="text-[10px] uppercase font-bold text-slate-400 block">
+                      3 Executive Bullets
                     </label>
-                    {derivatives.executiveNewsletter.bullets.map((bullet, idx) => {
-                      const labels = [
-                        'Bullet 1: The Core Quantified Shift',
-                        'Bullet 2: The Structural Mechanism',
-                        'Bullet 3: Forward Strategic Risk',
-                      ];
-                      return (
-                        <div key={idx} className="space-y-1">
-                          <span className="text-[10px] text-red-400 font-semibold uppercase tracking-wider">
-                            {labels[idx]}
-                          </span>
-                          <textarea
-                            rows={2}
-                            value={bullet}
-                            onChange={(e) => {
-                              const newBullets = [...derivatives.executiveNewsletter.bullets] as [
-                                string,
-                                string,
-                                string
-                              ];
-                              newBullets[idx] = e.target.value;
-                              setDerivatives({
-                                ...derivatives,
-                                executiveNewsletter: {
-                                  ...derivatives.executiveNewsletter,
-                                  bullets: newBullets,
-                                },
-                              });
-                            }}
-                            className="w-full bg-slate-950 border border-slate-800 rounded-xl p-3 text-xs text-slate-200 leading-relaxed focus:outline-none focus:border-red-500"
-                          />
-                        </div>
-                      );
-                    })}
+                    {derivatives.executiveNewsletter.bullets.map((bullet, idx) => (
+                      <div key={idx} className="flex items-start gap-3">
+                        <span className="w-5 h-5 rounded-full bg-red-600/20 text-red-400 text-xs font-mono font-bold flex items-center justify-center shrink-0 mt-0.5">
+                          {idx + 1}
+                        </span>
+                        <input
+                          type="text"
+                          value={bullet}
+                          onChange={(e) => {
+                            const newBullets = [...derivatives.executiveNewsletter.bullets];
+                            newBullets[idx] = e.target.value;
+                            setDerivatives({
+                              ...derivatives,
+                              executiveNewsletter: {
+                                ...derivatives.executiveNewsletter,
+                                bullets: [newBullets[0] || '', newBullets[1] || '', newBullets[2] || ''],
+                              },
+                            });
+                          }}
+                          className="w-full bg-slate-900 border border-slate-800 rounded px-3 py-2 text-xs text-slate-200"
+                        />
+                      </div>
+                    ))}
                   </div>
                 </div>
               </div>
             )}
 
-            {/* TAB 3: 60s Vertical Video Storyboard */}
-            {activeTab === 'video' && (
-              <div className="space-y-6">
-                <div className="flex items-center justify-between pb-4 border-b border-slate-800">
-                  <div>
-                    <h2 className="text-base font-bold text-white">
-                      60-Second Vertical Video Storyboard (9:16)
-                    </h2>
-                    <p className="text-xs text-slate-400 mt-0.5">
-                      Engineered for TikTok, Reels & Shorts with Google Veo 2 B-roll prompts.
-                    </p>
-                  </div>
-
-                  <button
-                    onClick={() => toggleApproval('socialStoryboard')}
-                    className={`px-3 py-1.5 text-xs font-medium rounded-lg border transition-all ${
-                      derivatives.socialStoryboard.approved
-                        ? 'bg-emerald-950/60 border-emerald-800 text-emerald-300'
-                        : 'bg-slate-950 border-slate-800 text-slate-400 hover:text-white'
-                    }`}
-                  >
-                    {derivatives.socialStoryboard.approved ? '✓ Approved' : 'Approve Format'}
-                  </button>
-                </div>
-
-                <StoryboardPreview
-                  storyboard={derivatives.socialStoryboard}
-                  onUpdateScene={(updatedScene: VideoScene) => {
-                    const newScenes = derivatives.socialStoryboard.scenes.map((s) =>
-                      s.sceneIndex === updatedScene.sceneIndex ? updatedScene : s
-                    );
-                    setDerivatives({
-                      ...derivatives,
-                      socialStoryboard: {
-                        ...derivatives.socialStoryboard,
-                        scenes: newScenes,
-                      },
-                    });
-                  }}
-                />
-              </div>
-            )}
-
-            {/* TAB 4: Instagram / LinkedIn Carousel */}
+            {/* TAB 4: Instagram Carousel Deck */}
             {activeTab === 'carousel' && (
               <div className="space-y-6">
-                <div className="flex items-center justify-between pb-4 border-b border-slate-800">
+                <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-4 border-b border-slate-800">
                   <div>
-                    <h2 className="text-base font-bold text-white">
-                      Instagram & LinkedIn 6-Slide Carousel
+                    <h2 className="text-base font-bold text-white flex items-center gap-2">
+                      <Sparkles className="w-4 h-4 text-rose-500" />
+                      Instagram & LinkedIn Carousel Deck (4:5 Ratio)
                     </h2>
                     <p className="text-xs text-slate-400 mt-0.5">
-                      Visual swipe deck with Google Imagen 3 background prompts and ready-to-post copy.
+                      6 structured slides with Google Imagen 3 art directions and copyable caption.
                     </p>
                   </div>
 
@@ -656,41 +879,20 @@ export const LiquidCockpit: React.FC = () => {
 
                 <CarouselPreview
                   carousel={derivatives.instagramCarousel}
-                  onUpdateSlide={(updatedSlide: CarouselSlide) => {
-                    const newSlides = derivatives.instagramCarousel.slides.map((s) =>
-                      s.slideNumber === updatedSlide.slideNumber ? updatedSlide : s
-                    );
-                    setDerivatives({
-                      ...derivatives,
-                      instagramCarousel: {
-                        ...derivatives.instagramCarousel,
-                        slides: newSlides,
-                      },
-                    });
-                  }}
-                  onUpdateCaption={(caption: string) => {
-                    setDerivatives({
-                      ...derivatives,
-                      instagramCarousel: {
-                        ...derivatives.instagramCarousel,
-                        captionText: caption,
-                      },
-                    });
-                  }}
                 />
               </div>
             )}
 
-            {/* TAB 5: Fact Box Key Metrics */}
+            {/* TAB 5: Fact Box Strip */}
             {activeTab === 'factbox' && (
               <div className="space-y-6">
                 <div className="flex items-center justify-between pb-4 border-b border-slate-800">
                   <div>
                     <h2 className="text-base font-bold text-white">
-                      Key Metrics Fact Box (NZZ Dossier)
+                      Key Metrics Fact Box (Wirtschafts-Indikatoren)
                     </h2>
                     <p className="text-xs text-slate-400 mt-0.5">
-                      High-density numerical facts with baseline comparison and source notes.
+                      High-impact verified data points with deltas and directional context.
                     </p>
                   </div>
 
@@ -707,50 +909,41 @@ export const LiquidCockpit: React.FC = () => {
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                  {derivatives.factBox.metrics.map((metric, idx) => (
+                  {derivatives.factBox.metrics.map((m, idx) => (
                     <div
-                      key={metric.id || idx}
-                      className="bg-slate-950 border border-slate-800 rounded-xl p-4 space-y-3"
+                      key={m.id || idx}
+                      className="bg-slate-950 border border-slate-800 rounded-xl p-4 space-y-2"
                     >
                       <input
                         type="text"
-                        value={metric.metricName}
+                        value={m.metricName}
                         onChange={(e) => {
-                          const newMetrics = [...derivatives.factBox.metrics];
-                          newMetrics[idx].metricName = e.target.value;
+                          const newM = [...derivatives.factBox.metrics];
+                          newM[idx].metricName = e.target.value;
                           setDerivatives({
                             ...derivatives,
-                            factBox: { ...derivatives.factBox, metrics: newMetrics },
+                            factBox: { ...derivatives.factBox, metrics: newM },
                           });
                         }}
-                        className="w-full bg-slate-900 border border-slate-800 rounded px-2.5 py-1 text-xs text-slate-300 font-semibold"
+                        className="w-full bg-transparent border-none text-xs font-semibold text-slate-400 focus:outline-none"
                       />
                       <input
                         type="text"
-                        value={metric.value}
+                        value={m.value}
                         onChange={(e) => {
-                          const newMetrics = [...derivatives.factBox.metrics];
-                          newMetrics[idx].value = e.target.value;
+                          const newM = [...derivatives.factBox.metrics];
+                          newM[idx].value = e.target.value;
                           setDerivatives({
                             ...derivatives,
-                            factBox: { ...derivatives.factBox, metrics: newMetrics },
+                            factBox: { ...derivatives.factBox, metrics: newM },
                           });
                         }}
-                        className="w-full bg-slate-900 border border-slate-800 rounded px-2.5 py-1 text-xl font-bold font-mono text-red-500"
+                        className="w-full bg-slate-900 border border-slate-800 rounded px-2 py-1 text-2xl font-bold font-mono text-white"
                       />
-                      <input
-                        type="text"
-                        value={metric.contextNote}
-                        onChange={(e) => {
-                          const newMetrics = [...derivatives.factBox.metrics];
-                          newMetrics[idx].contextNote = e.target.value;
-                          setDerivatives({
-                            ...derivatives,
-                            factBox: { ...derivatives.factBox, metrics: newMetrics },
-                          });
-                        }}
-                        className="w-full bg-slate-900 border border-slate-800 rounded px-2.5 py-1 text-[11px] text-slate-400"
-                      />
+                      <div className="flex items-center justify-between text-[11px]">
+                        <span className="text-emerald-400 font-mono font-medium">{m.delta}</span>
+                        <span className="text-slate-400">{m.contextNote}</span>
+                      </div>
                     </div>
                   ))}
                 </div>
@@ -828,12 +1021,10 @@ export const LiquidCockpit: React.FC = () => {
         </div>
       ) : (
         <div className="bg-slate-900/60 border border-slate-800/80 rounded-2xl p-12 text-center space-y-3">
-          <div className="w-12 h-12 rounded-2xl bg-red-600/10 border border-red-500/20 text-red-500 flex items-center justify-center mx-auto">
-            <Sparkles className="w-6 h-6" />
-          </div>
-          <h2 className="text-base font-bold text-white">No Liquid Derivatives Generated Yet</h2>
+          <RefreshCw className="w-8 h-8 text-red-500 animate-spin mx-auto" />
+          <h2 className="text-base font-bold text-white">Synthesizing Liquid Derivatives...</h2>
           <p className="text-xs text-slate-400 max-w-md mx-auto">
-            Select an article from the dropdown above and click &quot;Generate Derivatives&quot; to synthesize audio briefs, 3-bullet newsletters, 60s video storyboards, and carousels.
+            Extracting core angles, drafting audio briefs, and generating 60s video storyboard scenes for the selected article.
           </p>
         </div>
       )}

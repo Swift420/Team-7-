@@ -11,9 +11,13 @@ export const liquidRouter = Router();
 // In-memory store for generated & published liquid formats (keyed by articleId)
 const publishedStore = new Map<string, LiquidDerivatives>();
 
+const ROOT_DIR = fs.existsSync(path.resolve(process.cwd(), 'LiquidStoryEngine'))
+  ? process.cwd()
+  : path.resolve(process.cwd(), '..');
+
 const ARTICLES_DIRS = [
-  path.resolve(process.cwd(), 'LiquidStoryEngine/input/articles'),
-  path.resolve(process.cwd(), 'VisualVelocity/input/articles'),
+  path.resolve(ROOT_DIR, 'LiquidStoryEngine/input/articles'),
+  path.resolve(ROOT_DIR, 'VisualVelocity/input/articles'),
 ];
 
 // Helper to find file in any of the article directories

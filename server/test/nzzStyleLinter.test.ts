@@ -43,3 +43,4 @@ describe('NZZ Style Linter', () => {
     assert.equal(bodyReport.hasErrors, false);
   });
 });
+

@@ -61,3 +61,4 @@ export const FactBoxStrip: React.FC<FactBoxStripProps> = ({ factBox }) => {
     </div>
   );
 };
+

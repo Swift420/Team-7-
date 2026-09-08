@@ -133,3 +133,4 @@ export interface ArticleDetail {
     credit: string;
   };
 }
+

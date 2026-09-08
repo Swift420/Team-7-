@@ -82,3 +82,4 @@ export async function synthesizeAudioBrief(
     voiceUsed: voiceName,
   };
 }
+
