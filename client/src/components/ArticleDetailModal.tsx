@@ -1,29 +1,11 @@
 import React from 'react';
-import { ArrowLeft, Calendar, ExternalLink, FileBarChart, Trash2, X } from 'lucide-react';
-import { Article, ArticleBodyElement } from '../types';
+import { ArrowLeft, Calendar, ExternalLink, Trash2, X } from 'lucide-react';
+import { Article } from '../types';
 import { useArticles } from '../context/ArticleContext';
 import { useAuth } from '../context/AuthContext';
+import { ArticleContent } from './ArticleContent';
 
 interface ArticleDetailModalProps { article: Article | null; onClose: () => void }
-
-const renderElement = (element: ArticleBodyElement) => {
-  if (element.type === 'heading') {
-    return element.level && element.level >= 3
-      ? <h3 key={element.id} className="article-h3">{element.text}</h3>
-      : <h2 key={element.id} className="article-h2">{element.text}</h2>;
-  }
-  if (element.type === 'image' && element.url) {
-    return <figure key={element.id} className="article-inline-figure"><img src={element.url} alt={element.caption || ''} />{(element.caption || element.credit) && <figcaption>{element.caption}{element.credit && ` — ${element.credit}`}</figcaption>}</figure>;
-  }
-  if (element.type === 'q_tool_embed') {
-    return <aside key={element.id} className="existing-visual-placeholder"><FileBarChart size={22} /><span>Existing data visualization</span></aside>;
-  }
-  if (element.type === 'embed') {
-    return <aside key={element.id} className="existing-visual-placeholder"><span>Embedded media{element.service ? ` · ${element.service}` : ''}</span></aside>;
-  }
-  if (element.text) return <p key={element.id} className="article-p">{element.text}</p>;
-  return null;
-};
 
 export const ArticleDetailModal: React.FC<ArticleDetailModalProps> = ({ article, onClose }) => {
   const { deleteArticle } = useArticles();
@@ -57,7 +39,7 @@ export const ArticleDetailModal: React.FC<ArticleDetailModalProps> = ({ article,
             {article.sourceUrl && <a className="metric-item" href={article.sourceUrl} target="_blank" rel="noreferrer"><ExternalLink size={14} /> Original</a>}
           </div>
         </div>
-        <article className="article-content-body">{article.body?.map(renderElement)}</article>
+        <ArticleContent article={article} isEditor={isEditor} />
       </div>
     </div>
   </div>;

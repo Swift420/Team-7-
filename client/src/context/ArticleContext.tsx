@@ -44,11 +44,15 @@ export const ArticleProvider: React.FC<{ children: React.ReactNode }> = ({ child
 
   useEffect(() => { void refreshArticles(); }, [refreshArticles]);
 
-  const openArticle = async (id: string) => {
+  const openArticle = useCallback(async (id: string) => {
     setError(null);
+    if (window.location.pathname !== `/articles/${id}`) {
+      window.history.pushState({}, '', `/articles/${id}`);
+      window.dispatchEvent(new PopStateEvent('popstate'));
+    }
     try { setSelectedArticle(await fetchArticle(id)); }
     catch (cause) { setError(cause instanceof Error ? cause.message : 'Unable to open article'); }
-  };
+  }, []);
 
   const importArticle = async (file: File) => {
     const outcome = await uploadArticle(file);
@@ -65,7 +69,13 @@ export const ArticleProvider: React.FC<{ children: React.ReactNode }> = ({ child
 
   return <ArticleContext.Provider value={{
     articles, loading, error, selectedCategory, setSelectedCategory, searchQuery, setSearchQuery,
-    selectedArticle, openArticle, closeArticle: () => setSelectedArticle(null), isCreateModalOpen,
+    selectedArticle, openArticle, closeArticle: () => {
+      setSelectedArticle(null);
+      if (window.location.pathname.startsWith('/articles/')) {
+        window.history.pushState({}, '', '/');
+        window.dispatchEvent(new PopStateEvent('popstate'));
+      }
+    }, isCreateModalOpen,
     setIsCreateModalOpen, isAuthModalOpen, setIsAuthModalOpen, importArticle, deleteArticle, refreshArticles,
   }}>{children}</ArticleContext.Provider>;
 };

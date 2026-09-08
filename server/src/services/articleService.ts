@@ -3,6 +3,8 @@ import path from 'node:path';
 import { getArticleByImportKey, insertArticle } from '../repositories/articleRepository.js';
 import { ImportOutcome, SourceFormat } from '../types/article.js';
 import { ArticleValidationError, parseArticle } from './articleParser.js';
+import { replaceArticleCountries } from '../repositories/countryRepository.js';
+import { classifyArticleCountries } from './countryClassifier.js';
 
 export function sourceFormatForFilename(filename: string): SourceFormat {
   const extension = path.extname(filename).toLowerCase();
@@ -14,7 +16,10 @@ export function sourceFormatForFilename(filename: string): SourceFormat {
 export async function importArticleContent(filename: string, content: Buffer | string): Promise<ImportOutcome> {
   const normalized = parseArticle(content.toString('utf8'), sourceFormatForFilename(filename));
   const inserted = await insertArticle(normalized);
-  if (inserted) return { status: 'imported', article: inserted };
+  if (inserted) {
+    await replaceArticleCountries(inserted.id, classifyArticleCountries(inserted));
+    return { status: 'imported', article: inserted };
+  }
   const existing = await getArticleByImportKey(normalized.importKey);
   if (!existing) throw new Error('Article conflict occurred but the existing record could not be found');
   return { status: 'skipped', article: existing, reason: 'Article has already been imported' };

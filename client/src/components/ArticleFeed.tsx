@@ -1,8 +1,9 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import { FileText, Plus, RefreshCw } from 'lucide-react';
 import { useArticles } from '../context/ArticleContext';
 import { useAuth } from '../context/AuthContext';
 import { ArticleCard } from './ArticleCard';
+const StoryGlobeExplorer = React.lazy(() => import('./StoryGlobeExplorer').then((module) => ({ default: module.StoryGlobeExplorer })));
 
 export const ArticleFeed: React.FC = () => {
   const { articles, loading, error, selectedCategory, searchQuery, openArticle, setIsCreateModalOpen, refreshArticles } = useArticles();
@@ -16,6 +17,7 @@ export const ArticleFeed: React.FC = () => {
   });
 
   return <div className="article-feed-container">
+    <Suspense fallback={<div className="story-globe-loading"><RefreshCw className="spin" size={18} /> Loading global story explorer…</div>}><StoryGlobeExplorer /></Suspense>
     <div className="section-header-banner">
       <div className="header-text-group">
         <span className="section-type-pill">PostgreSQL article library</span>

@@ -7,6 +7,13 @@ import type {
   TrafficSource,
   Article,
   ImportOutcome,
+  VisualizationAnalysis,
+  ExistingVisualization,
+  SavedVisualization,
+  VisualizationApproval,
+  VisualizationOpportunity,
+  CountryCoverage,
+  CountryStorySummary,
 } from '../types';
 
 const API_BASE = '/api';
@@ -91,6 +98,14 @@ export function fetchArticles(): Promise<Article[]> {
   return apiRequest<Article[]>(`${API_BASE}/articles`);
 }
 
+export function fetchCountryCoverage(): Promise<CountryCoverage[]> {
+  return apiRequest<CountryCoverage[]>('/api/story-map/countries');
+}
+
+export function fetchCountryStories(countryCode: string): Promise<CountryStorySummary[]> {
+  return apiRequest<CountryStorySummary[]>(`/api/story-map/countries/${encodeURIComponent(countryCode)}/articles`);
+}
+
 export function fetchArticle(id: string): Promise<Article> {
   return apiRequest<Article>(`${API_BASE}/articles/${encodeURIComponent(id)}`);
 }
@@ -103,4 +118,35 @@ export function importArticle(file: File): Promise<ImportOutcome> {
 
 export async function removeArticle(id: string): Promise<void> {
   await apiRequest<never>(`${API_BASE}/articles/${encodeURIComponent(id)}`, { method: 'DELETE' });
+}
+
+export function analyzeArticleVisualizations(id: string, maxOpportunities = 4): Promise<VisualizationAnalysis> {
+  return apiRequest<VisualizationAnalysis>(
+    `${API_BASE}/articles/${encodeURIComponent(id)}/visualizations/analyze`,
+    {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ maxOpportunities }),
+    },
+  );
+}
+
+export function fetchExistingVisualizations(id: string): Promise<ExistingVisualization[]> {
+  return apiRequest<ExistingVisualization[]>(`${API_BASE}/articles/${encodeURIComponent(id)}/existing-visualizations`);
+}
+
+export function fetchSavedVisualizations(id: string): Promise<SavedVisualization[]> {
+  return apiRequest<SavedVisualization[]>(`${API_BASE}/articles/${encodeURIComponent(id)}/visualizations`);
+}
+
+export function fetchVisualizationHistory(id: string): Promise<VisualizationApproval[]> {
+  return apiRequest<VisualizationApproval[]>(`${API_BASE}/articles/${encodeURIComponent(id)}/visualizations/history`);
+}
+
+export function saveArticleVisualizations(id: string, visualizations: VisualizationOpportunity[]): Promise<SavedVisualization[]> {
+  return apiRequest<SavedVisualization[]>(`${API_BASE}/articles/${encodeURIComponent(id)}/visualizations`, {
+    method: 'PUT',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ visualizations }),
+  });
 }

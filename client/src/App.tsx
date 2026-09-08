@@ -5,7 +5,7 @@ import { Navbar } from './components/Navbar';
 import { RoleContextBanner } from './components/RoleContextBanner';
 import { ArticleFeed } from './components/ArticleFeed';
 import { CreateArticleModal } from './components/CreateArticleModal';
-import { ArticleDetailModal } from './components/ArticleDetailModal';
+import { ArticleDetailPage } from './components/ArticleDetailPage';
 import { DummyAccountsModal } from './components/DummyAccountsModal';
 import './App.css';
 
@@ -14,11 +14,20 @@ const MainApp: React.FC = () => {
     isCreateModalOpen,
     setIsCreateModalOpen,
     selectedArticle,
-    closeArticle,
+    openArticle,
     isAuthModalOpen,
     setIsAuthModalOpen,
   } = useArticles();
   const { currentUser, isEditor } = useAuth();
+  const [pathname, setPathname] = React.useState(window.location.pathname);
+  const articleId = pathname.match(/^\/articles\/([^/]+)$/)?.[1];
+
+  React.useEffect(() => {
+    const onPopState = () => setPathname(window.location.pathname);
+    window.addEventListener('popstate', onPopState);
+    if (articleId && selectedArticle?.id !== articleId) void openArticle(articleId);
+    return () => window.removeEventListener('popstate', onPopState);
+  }, [articleId, openArticle, selectedArticle?.id]);
 
   return (
     <div className="app-shell">
@@ -31,7 +40,7 @@ const MainApp: React.FC = () => {
         <RoleContextBanner />
 
         {/* Article Feed / Categories / Sections / Analytics Hub */}
-        <ArticleFeed />
+        {articleId ? <ArticleDetailPage article={selectedArticle} loading={!selectedArticle} /> : <ArticleFeed />}
       </main>
 
       {/* Modals */}
@@ -39,11 +48,6 @@ const MainApp: React.FC = () => {
         key={isCreateModalOpen ? 'import-open' : 'import-closed'}
         isOpen={isCreateModalOpen}
         onClose={() => setIsCreateModalOpen(false)}
-      />
-
-      <ArticleDetailModal
-        article={selectedArticle}
-        onClose={closeArticle}
       />
 
       <DummyAccountsModal
