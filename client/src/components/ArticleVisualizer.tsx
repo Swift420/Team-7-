@@ -108,8 +108,7 @@ export const ArticleVisualizer: React.FC<ArticleVisualizerProps> = ({ article, s
         <span className="visualizer-eyebrow">Gemini editorial assistant</span>
         <h2 id="article-visualizer-title">Turn this article into visuals</h2>
         <p>Find trustworthy comparisons and trends not already covered by existing visuals, edit their data, then save them inline.</p>
-        {savedVisualizations.length > 0 && <span className="saved-visual-count"><Check size={12} /> {savedVisualizations.length} saved inline <button className="visual-text-button" disabled={saving} onClick={() => void clearSaved()}>Remove</button></span>}
-        {approvalCount > 0 && <span className="saved-visual-count">{approvalCount} approval snapshot{approvalCount === 1 ? '' : 's'}</span>}
+        {(savedVisualizations.length > 0 || approvalCount > 0) && <div className="visual-status-row">{savedVisualizations.length > 0 && <span className="saved-visual-count"><Check size={12} /> {savedVisualizations.length} visual{savedVisualizations.length === 1 ? '' : 's'} saved <button className="visual-text-button" disabled={saving} onClick={() => void clearSaved()}>Remove saved</button></span>}{approvalCount > 0 && <span className="approval-count-badge">{approvalCount} approval snapshot{approvalCount === 1 ? '' : 's'}</span>}</div>}
       </div>
       <div className="visualizer-intro-actions">
         <a className="btn-secondary" href={`/api/articles/${article.id}/visualizations/embed`} target="_blank" rel="noreferrer">Export embed</a>

@@ -127,10 +127,14 @@ export function fetchArticle(id: string): Promise<Article> {
   return apiRequest<Article>(`${API_BASE}/articles/${encodeURIComponent(id)}`);
 }
 
-export function importArticle(file: File): Promise<ImportOutcome> {
+export function importArticle(file: File, draft = false): Promise<ImportOutcome> {
   const body = new FormData();
   body.append('file', file);
-  return apiRequest<ImportOutcome>(`${API_BASE}/articles/import`, { method: 'POST', body });
+  return apiRequest<ImportOutcome>(`${API_BASE}/articles/import${draft ? '?draft=true' : ''}`, { method: 'POST', body });
+}
+
+export function publishArticle(id: string): Promise<Article> {
+  return apiRequest<Article>(`${API_BASE}/articles/${encodeURIComponent(id)}/publish`, { method: 'POST' });
 }
 
 export async function removeArticle(id: string): Promise<void> {

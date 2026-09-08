@@ -62,6 +62,7 @@ export interface User {
 
 // PostgreSQL-backed article types
 export type SourceFormat = 'NZZ_JSON' | 'MARKDOWN';
+export type PublicationStatus = 'draft' | 'published';
 export type ArticleElementType = 'paragraph' | 'heading' | 'image' | 'q_tool_embed' | 'embed' | 'other';
 
 export interface ArticleBodyElement {
@@ -96,6 +97,7 @@ export interface Article {
   tags: string[];
   createdAt: string;
   updatedAt: string;
+  publicationStatus: PublicationStatus;
 }
 
 export interface ImportOutcome {

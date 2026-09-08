@@ -1,4 +1,5 @@
 export type SourceFormat = 'NZZ_JSON' | 'MARKDOWN';
+export type PublicationStatus = 'draft' | 'published';
 
 export type ArticleElementType =
   | 'paragraph'
@@ -39,12 +40,14 @@ export interface NormalizedArticle {
   sourceFormat: SourceFormat;
   teaserImage: Record<string, unknown> | null;
   tags: string[];
+  publicationStatus?: PublicationStatus;
 }
 
 export interface ArticleRecord extends NormalizedArticle {
   id: string;
   createdAt: Date;
   updatedAt: Date;
+  publicationStatus?: PublicationStatus;
 }
 
 export type ArticleSummary = Omit<ArticleRecord, 'body' | 'rawContent'>;

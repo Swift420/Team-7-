@@ -1,7 +1,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { getArticleByImportKey, insertArticle } from '../repositories/articleRepository.js';
-import { ImportOutcome, SourceFormat } from '../types/article.js';
+import { ImportOutcome, PublicationStatus, SourceFormat } from '../types/article.js';
 import { ArticleValidationError, parseArticle } from './articleParser.js';
 import { replaceArticleCountries } from '../repositories/countryRepository.js';
 import { classifyArticleCountries } from './countryClassifier.js';
@@ -13,8 +13,9 @@ export function sourceFormatForFilename(filename: string): SourceFormat {
   throw new ArticleValidationError('Unsupported file type', ['Only .json and .md files are supported']);
 }
 
-export async function importArticleContent(filename: string, content: Buffer | string): Promise<ImportOutcome> {
+export async function importArticleContent(filename: string, content: Buffer | string, publicationStatus: PublicationStatus = 'published'): Promise<ImportOutcome> {
   const normalized = parseArticle(content.toString('utf8'), sourceFormatForFilename(filename));
+  normalized.publicationStatus = publicationStatus;
   const inserted = await insertArticle(normalized);
   if (inserted) {
     await replaceArticleCountries(inserted.id, classifyArticleCountries(inserted));

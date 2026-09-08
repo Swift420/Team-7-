@@ -1,12 +1,12 @@
 import React from 'react';
-import { ArrowLeft, Calendar, ExternalLink, Trash2 } from 'lucide-react';
+import { ArrowLeft, Calendar, ExternalLink, Send, Trash2 } from 'lucide-react';
 import { Article } from '../types';
 import { useArticles } from '../context/ArticleContext';
 import { useAuth } from '../context/AuthContext';
 import { ArticleContent } from './ArticleContent';
 
 export const ArticleDetailPage: React.FC<{ article: Article | null; loading?: boolean }> = ({ article, loading }) => {
-  const { deleteArticle, closeArticle } = useArticles();
+  const { deleteArticle, publishArticle, closeArticle } = useArticles();
   const { isEditor } = useAuth();
 
   if (!article) return <div className="article-page-loading">{loading ? 'Loading article…' : 'Article not found.'}</div>;
@@ -17,11 +17,14 @@ export const ArticleDetailPage: React.FC<{ article: Article | null; loading?: bo
       closeArticle();
     }
   };
+  const handlePublish = async () => {
+    await publishArticle(article.id);
+  };
 
   return <div className="article-page">
     <div className="article-detail-nav article-page-nav">
       <button className="back-btn" onClick={closeArticle}><ArrowLeft size={16} /> Back to Articles</button>
-      {isEditor && <button className="btn-delete" onClick={() => void handleDelete()}><Trash2 size={14} /> Delete</button>}
+      {isEditor && <div className="article-editor-actions">{article.publicationStatus === 'draft' && <button className="btn-publish-article" onClick={() => void handlePublish()}><Send size={14} /> Publish</button>}<button className="btn-delete" onClick={() => void handleDelete()}><Trash2 size={14} /> Delete</button></div>}
     </div>
     {article.teaserImage?.url && <div className="article-hero-wrap"><img src={article.teaserImage.url} alt="" className="article-hero-img" /><div className="article-hero-gradient" /></div>}
     <header className="database-article-header article-page-header">

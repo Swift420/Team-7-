@@ -32,3 +32,10 @@ export function requireEditor(req: Request, res: Response, next: NextFunction) {
     next();
   } catch { res.status(401).json({ success: false, error: { code: 'AUTH_INVALID', message: 'Editor session is invalid or expired' } }); }
 }
+
+export function hasValidEditorToken(req: Request): boolean {
+  const header = req.header('authorization') || '';
+  const [payload, signature] = header.startsWith('Bearer ') ? header.slice(7).split('.') : [];
+  if (!payload || !signature || sign(payload) !== signature) return false;
+  try { const claims = JSON.parse(Buffer.from(payload, 'base64url').toString('utf8')) as { role?: string; exp?: number }; return claims.role === 'editor' && claims.exp !== undefined && claims.exp > Date.now(); } catch { return false; }
+}

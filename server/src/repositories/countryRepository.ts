@@ -13,12 +13,12 @@ export async function replaceArticleCountries(articleId: string, assignments: Co
 }
 
 export async function listCountryCoverage(): Promise<CountryCoverage[]> {
-  const result = await query<{ country_code: string; country_name: string; story_count: string; recent_story_count: string; last_published_at: Date | null }>(`SELECT ac.country_code, ac.country_name, COUNT(*)::text AS story_count, COUNT(*) FILTER (WHERE a.published_at >= now() - interval '90 days')::text AS recent_story_count, MAX(a.published_at) AS last_published_at FROM article_countries ac JOIN articles a ON a.id = ac.article_id GROUP BY ac.country_code, ac.country_name ORDER BY COUNT(*) DESC, MAX(a.published_at) DESC NULLS LAST`);
+  const result = await query<{ country_code: string; country_name: string; story_count: string; recent_story_count: string; last_published_at: Date | null }>(`SELECT ac.country_code, ac.country_name, COUNT(*)::text AS story_count, COUNT(*) FILTER (WHERE a.published_at >= now() - interval '90 days')::text AS recent_story_count, MAX(a.published_at) AS last_published_at FROM article_countries ac JOIN articles a ON a.id = ac.article_id WHERE a.publication_status = 'published' GROUP BY ac.country_code, ac.country_name ORDER BY COUNT(*) DESC, MAX(a.published_at) DESC NULLS LAST`);
   return result.rows.map((row) => ({ countryCode: row.country_code, countryName: row.country_name, storyCount: Number(row.story_count), recentStoryCount: Number(row.recent_story_count), lastPublishedAt: row.last_published_at }));
 }
 
 export async function listCountryStories(code: string): Promise<CountryStorySummary[]> {
-  const result = await query<{ id: string; headline: string; lead: string | null; section: string | null; published_at: Date | null; teaser_image: Record<string, unknown> | null; tags: string[] }>(`SELECT a.id, a.headline, a.lead, a.section, a.published_at, a.teaser_image, a.tags FROM article_countries ac JOIN articles a ON a.id = ac.article_id WHERE ac.country_code = $1 ORDER BY a.published_at DESC NULLS LAST, a.created_at DESC`, [code.toUpperCase()]);
+  const result = await query<{ id: string; headline: string; lead: string | null; section: string | null; published_at: Date | null; teaser_image: Record<string, unknown> | null; tags: string[] }>(`SELECT a.id, a.headline, a.lead, a.section, a.published_at, a.teaser_image, a.tags FROM article_countries ac JOIN articles a ON a.id = ac.article_id WHERE ac.country_code = $1 AND a.publication_status = 'published' ORDER BY a.published_at DESC NULLS LAST, a.created_at DESC`, [code.toUpperCase()]);
   return result.rows.map((row) => ({ id: row.id, headline: row.headline, lead: row.lead, section: row.section, publishedAt: row.published_at, teaserImage: row.teaser_image, tags: row.tags || [] }));
 }
 
@@ -30,6 +30,7 @@ export async function listCountryConnections(limit = 120): Promise<CountryConnec
     FROM article_countries ac1
     JOIN article_countries ac2 ON ac2.article_id = ac1.article_id AND ac1.country_code < ac2.country_code
     JOIN articles a ON a.id = ac1.article_id
+    WHERE a.publication_status = 'published'
     ORDER BY a.published_at DESC NULLS LAST, a.created_at DESC
     LIMIT $1`, [Math.max(1, limit * 8)]);
   const grouped = new Map<string, CountryConnection>();

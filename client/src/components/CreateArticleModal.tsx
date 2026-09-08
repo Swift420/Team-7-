@@ -27,7 +27,7 @@ export const CreateArticleModal: React.FC<CreateArticleModalProps> = ({ isOpen, 
       const metadata = [`title: ${headline.trim()}`, lead.trim() ? `lead: ${lead.trim()}` : '', author.trim() ? `author: ${author.trim()}` : '', section.trim() ? `section: ${section.trim()}` : '', `published_at: ${new Date().toISOString().slice(0, 10)}`].filter(Boolean).join('\n');
       const markdown = `---\n${metadata}\n---\n\n# ${headline.trim()}\n\n${lead.trim() ? `*${lead.trim()}*\n\n` : ''}${body.trim()}`;
       const safeName = headline.trim().toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') || 'article';
-      const outcome = await importArticle(new File([markdown], `${safeName}.md`, { type: 'text/markdown' }));
+      const outcome = await importArticle(new File([markdown], `${safeName}.md`, { type: 'text/markdown' }), true);
       if (visualize) {
         // Put the intent in the URL before mounting the article page so the
         // visualizer can start as soon as the newly created article loads.

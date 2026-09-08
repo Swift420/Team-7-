@@ -49,13 +49,6 @@ export const RoleContextBanner: React.FC = () => {
               <span>Import Article</span>
             </button>
             <button className="banner-btn-create" onClick={() => openCreateArticle('create')} title="Create an article"><Plus size={15} /><span>Create Article</span></button>
-            <button
-              className="banner-btn-switch"
-              onClick={() => setIsAuthModalOpen(true)}
-              title="Switch to Viewer mode to test viewer experience"
-            >
-              <span>Test as Viewer</span>
-            </button>
           </>
         ) : (
           <>

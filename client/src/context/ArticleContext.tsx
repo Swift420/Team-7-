@@ -1,6 +1,6 @@
 import React, { createContext, useCallback, useContext, useEffect, useState } from 'react';
 import { Article, ImportOutcome } from '../types';
-import { fetchArticle, fetchArticles, importArticle as uploadArticle, removeArticle } from '../services/api';
+import { fetchArticle, fetchArticles, importArticle as uploadArticle, publishArticle as publishArticleRequest, removeArticle } from '../services/api';
 
 interface ArticleContextType {
   articles: Article[];
@@ -19,8 +19,9 @@ interface ArticleContextType {
   openCreateArticle: (mode: 'import' | 'create') => void;
   isAuthModalOpen: boolean;
   setIsAuthModalOpen: (open: boolean) => void;
-  importArticle: (file: File) => Promise<ImportOutcome>;
+  importArticle: (file: File, draft?: boolean) => Promise<ImportOutcome>;
   deleteArticle: (id: string) => Promise<void>;
+  publishArticle: (id: string) => Promise<void>;
   refreshArticles: () => Promise<void>;
 }
 
@@ -57,8 +58,8 @@ export const ArticleProvider: React.FC<{ children: React.ReactNode }> = ({ child
     catch (cause) { setError(cause instanceof Error ? cause.message : 'Unable to open article'); }
   }, []);
 
-  const importArticle = async (file: File) => {
-    const outcome = await uploadArticle(file);
+  const importArticle = async (file: File, draft = false) => {
+    const outcome = await uploadArticle(file, draft);
     await refreshArticles();
     setSelectedArticle(outcome.article);
     return outcome;
@@ -70,6 +71,12 @@ export const ArticleProvider: React.FC<{ children: React.ReactNode }> = ({ child
     if (selectedArticle?.id === id) setSelectedArticle(null);
   };
 
+  const publishArticle = async (id: string) => {
+    const published = await publishArticleRequest(id);
+    setArticles((current) => current.some((article) => article.id === id) ? current.map((article) => article.id === id ? published : article) : [...current, published]);
+    if (selectedArticle?.id === id) setSelectedArticle(published);
+  };
+
   return <ArticleContext.Provider value={{
     articles, loading, error, selectedCategory, setSelectedCategory, searchQuery, setSearchQuery,
     selectedArticle, openArticle, closeArticle: () => {
@@ -79,7 +86,7 @@ export const ArticleProvider: React.FC<{ children: React.ReactNode }> = ({ child
         window.dispatchEvent(new PopStateEvent('popstate'));
       }
     }, isCreateModalOpen,
-    setIsCreateModalOpen, createArticleMode, openCreateArticle: (mode) => { setCreateArticleMode(mode); setIsCreateModalOpen(true); }, isAuthModalOpen, setIsAuthModalOpen, importArticle, deleteArticle, refreshArticles,
+    setIsCreateModalOpen, createArticleMode, openCreateArticle: (mode) => { setCreateArticleMode(mode); setIsCreateModalOpen(true); }, isAuthModalOpen, setIsAuthModalOpen, importArticle, deleteArticle, publishArticle, refreshArticles,
   }}>{children}</ArticleContext.Provider>;
 };
 
