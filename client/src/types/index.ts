@@ -44,3 +44,55 @@ export interface TrafficSource {
   visitors: number;
   bounceRate: number;
 }
+
+// User & Role Types
+export type UserRole = 'viewer' | 'editor';
+
+export interface User {
+  id: string;
+  name: string;
+  email: string;
+  role: UserRole;
+  avatar: string;
+  title: string;
+  bio?: string;
+  password?: string;
+}
+
+// Article Types
+export type ArticleStatus = 'published' | 'draft';
+
+export interface ArticleAuthor {
+  id?: string;
+  name: string;
+  avatar: string;
+  role: string;
+}
+
+export interface Article {
+  id: string;
+  title: string;
+  subtitle?: string;
+  excerpt: string;
+  content: string;
+  coverImage: string;
+  category: string;
+  tags: string[];
+  author: ArticleAuthor;
+  publishedAt: string;
+  updatedAt?: string;
+  readTimeMinutes: number;
+  status: ArticleStatus;
+  views: number;
+  likes: number;
+  featured?: boolean;
+}
+
+export interface ArticleCategory {
+  id: string;
+  name: string;
+  slug: string;
+  description: string;
+  restrictedToEditors?: boolean;
+}
+
