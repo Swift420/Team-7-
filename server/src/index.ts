@@ -1,6 +1,7 @@
 import express, { Request, Response } from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
+import { liquidRouter } from './routes/liquidRoutes.js';
 import {
   mockOverview,
   mockTimeSeries,
@@ -12,18 +13,33 @@ import {
 
 dotenv.config();
 
-const app = express();
+export const app = express();
 const PORT = process.env.PORT || 5001;
 
 app.use(cors());
 app.use(express.json());
+
+// Mount Liquid Story Engine API routes
+app.use('/api/liquid', liquidRouter);
+
+// Audio stream endpoint (returns a valid silent MP3 frame buffer if file does not exist on disk)
+app.get('/api/audio/:filename', (req: Request, res: Response) => {
+  res.setHeader('Content-Type', 'audio/mpeg');
+  res.setHeader('Accept-Ranges', 'bytes');
+  // Minimal valid silent MP3 frame (MPEG-1 Layer 3, 128 kbps, 44.1 kHz, stereo)
+  const silentMp3Frame = Buffer.from([
+    0xff, 0xfb, 0x90, 0x64, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
+    0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+  ]);
+  res.send(silentMp3Frame);
+});
 
 // Health check endpoint
 app.get('/api/health', (_req: Request, res: Response) => {
   res.json({
     status: 'healthy',
     timestamp: new Date().toISOString(),
-    service: 'data-visualisation-server'
+    service: 'nzz-pulse-server'
   });
 });
 
@@ -85,6 +101,9 @@ app.get('/api/metrics/traffic', (_req: Request, res: Response) => {
   });
 });
 
-app.listen(PORT, () => {
-  console.log(`🚀 Data Visualisation Server is running on http://localhost:${PORT}`);
-});
+// Only listen if not imported by a test runner
+if (process.env.NODE_ENV !== 'test') {
+  app.listen(PORT, () => {
+    console.log(`🚀 NZZ Pulse Server is running on http://localhost:${PORT}`);
+  });
+}
