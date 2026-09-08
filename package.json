@@ -10,7 +10,10 @@
     "build:client": "npm --prefix client run build",
     "build": "npm run build:server && npm run build:client",
     "start": "npm --prefix server run start",
-    "install:all": "npm install && npm --prefix server install && npm --prefix client install"
+    "install:all": "npm install && npm --prefix server install && npm --prefix client install",
+    "db:up": "docker compose up -d postgres",
+    "db:migrate": "npm --prefix server run db:migrate",
+    "import:articles": "npm --prefix server run import:articles"
   },
   "keywords": ["react", "nodejs", "express", "recharts", "dashboard", "data-visualization"],
   "author": "",

@@ -59,33 +59,48 @@ export interface User {
   password?: string;
 }
 
-// Article Types
-export type ArticleStatus = 'published' | 'draft';
+// PostgreSQL-backed article types
+export type SourceFormat = 'NZZ_JSON' | 'MARKDOWN';
+export type ArticleElementType = 'paragraph' | 'heading' | 'image' | 'q_tool_embed' | 'embed' | 'other';
 
-export interface ArticleAuthor {
-  id?: string;
-  name: string;
-  avatar: string;
-  role: string;
+export interface ArticleBodyElement {
+  id: string;
+  type: ArticleElementType;
+  text?: string;
+  level?: number;
+  url?: string;
+  caption?: string;
+  credit?: string;
+  service?: string;
+  externalId?: string;
+  rawType?: string;
 }
 
 export interface Article {
   id: string;
-  title: string;
-  subtitle?: string;
-  excerpt: string;
-  content: string;
-  coverImage: string;
-  category: string;
+  importKey: string;
+  nzzId: string | null;
+  documentId: string | null;
+  headline: string;
+  lead: string | null;
+  authorLine: string | null;
+  section: string | null;
+  language: string | null;
+  sourceUrl: string | null;
+  publishedAt: string | null;
+  body?: ArticleBodyElement[];
+  rawContent?: unknown;
+  sourceFormat: SourceFormat;
+  teaserImage: { url?: string; caption?: string; credit?: string } | null;
   tags: string[];
-  author: ArticleAuthor;
-  publishedAt: string;
-  updatedAt?: string;
-  readTimeMinutes: number;
-  status: ArticleStatus;
-  views: number;
-  likes: number;
-  featured?: boolean;
+  createdAt: string;
+  updatedAt: string;
+}
+
+export interface ImportOutcome {
+  status: 'imported' | 'skipped';
+  article: Article;
+  reason?: string;
 }
 
 export interface ArticleCategory {
@@ -95,4 +110,3 @@ export interface ArticleCategory {
   description: string;
   restrictedToEditors?: boolean;
 }
-

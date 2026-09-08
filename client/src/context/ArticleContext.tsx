@@ -1,206 +1,77 @@
-import React, { createContext, useContext, useState, useEffect } from 'react';
-import { Article, ArticleStatus } from '../types';
-import { INITIAL_ARTICLES } from '../data/mockArticles';
-import { useAuth } from './AuthContext';
+import React, { createContext, useCallback, useContext, useEffect, useState } from 'react';
+import { Article, ImportOutcome } from '../types';
+import { fetchArticle, fetchArticles, importArticle as uploadArticle, removeArticle } from '../services/api';
 
 interface ArticleContextType {
   articles: Article[];
+  loading: boolean;
+  error: string | null;
   selectedCategory: string;
-  setSelectedCategory: (cat: string) => void;
+  setSelectedCategory: (category: string) => void;
   searchQuery: string;
   setSearchQuery: (query: string) => void;
   selectedArticle: Article | null;
-  setSelectedArticle: (article: Article | null) => void;
-  editingArticle: Article | null;
-  setEditingArticle: (article: Article | null) => void;
+  openArticle: (id: string) => Promise<void>;
+  closeArticle: () => void;
   isCreateModalOpen: boolean;
   setIsCreateModalOpen: (open: boolean) => void;
   isAuthModalOpen: boolean;
   setIsAuthModalOpen: (open: boolean) => void;
-  
-  createArticle: (
-    data: {
-      title: string;
-      subtitle?: string;
-      excerpt: string;
-      content: string;
-      category: string;
-      coverImage: string;
-      tags: string[];
-      readTimeMinutes: number;
-    },
-    status: ArticleStatus
-  ) => Article;
-  
-  updateArticle: (id: string, updates: Partial<Article>) => void;
-  deleteArticle: (id: string) => void;
-  togglePublish: (id: string) => void;
-  likeArticle: (id: string) => void;
-  resetDefaultArticles: () => void;
+  importArticle: (file: File) => Promise<ImportOutcome>;
+  deleteArticle: (id: string) => Promise<void>;
+  refreshArticles: () => Promise<void>;
 }
-
-const STORAGE_KEY = 'article_hub_articles_v1';
 
 const ArticleContext = createContext<ArticleContextType | undefined>(undefined);
 
 export const ArticleProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
-  const { currentUser, isEditor } = useAuth();
-
-  const [articles, setArticles] = useState<Article[]>(() => {
-    try {
-      const saved = localStorage.getItem(STORAGE_KEY);
-      if (saved) {
-        const parsed = JSON.parse(saved);
-        if (Array.isArray(parsed) && parsed.length > 0) {
-          return parsed;
-        }
-      }
-    } catch (e) {
-      console.warn('Failed to parse articles from localStorage', e);
-    }
-    return INITIAL_ARTICLES;
-  });
-
-  const [selectedCategory, setSelectedCategory] = useState<string>('all');
-  const [searchQuery, setSearchQuery] = useState<string>('');
+  const [articles, setArticles] = useState<Article[]>([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+  const [selectedCategory, setSelectedCategory] = useState('all');
+  const [searchQuery, setSearchQuery] = useState('');
   const [selectedArticle, setSelectedArticle] = useState<Article | null>(null);
-  const [editingArticle, setEditingArticle] = useState<Article | null>(null);
-  const [isCreateModalOpen, setIsCreateModalOpen] = useState<boolean>(false);
-  const [isAuthModalOpen, setIsAuthModalOpen] = useState<boolean>(false);
+  const [isCreateModalOpen, setIsCreateModalOpen] = useState(false);
+  const [isAuthModalOpen, setIsAuthModalOpen] = useState(false);
 
-  useEffect(() => {
-    try {
-      localStorage.setItem(STORAGE_KEY, JSON.stringify(articles));
-    } catch (e) {
-      console.warn('Failed to save articles to localStorage', e);
-    }
-  }, [articles]);
+  const refreshArticles = useCallback(async () => {
+    setLoading(true);
+    setError(null);
+    try { setArticles(await fetchArticles()); }
+    catch (cause) { setError(cause instanceof Error ? cause.message : 'Unable to load articles'); }
+    finally { setLoading(false); }
+  }, []);
 
-  const createArticle = (
-    data: {
-      title: string;
-      subtitle?: string;
-      excerpt: string;
-      content: string;
-      category: string;
-      coverImage: string;
-      tags: string[];
-      readTimeMinutes: number;
-    },
-    status: ArticleStatus
-  ): Article => {
-    const today = new Date().toISOString().split('T')[0];
-    const newArticle: Article = {
-      id: `art-${Date.now()}`,
-      title: data.title.trim(),
-      subtitle: data.subtitle?.trim() || undefined,
-      excerpt: data.excerpt.trim(),
-      content: data.content,
-      category: data.category,
-      coverImage:
-        data.coverImage ||
-        'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80',
-      tags: data.tags.filter(Boolean),
-      readTimeMinutes: data.readTimeMinutes || 5,
-      status: status,
-      publishedAt: today,
-      views: 1,
-      likes: 0,
-      author: {
-        id: currentUser.id,
-        name: currentUser.name,
-        avatar: currentUser.avatar,
-        role: currentUser.title || 'Editor',
-      },
-    };
+  useEffect(() => { void refreshArticles(); }, [refreshArticles]);
 
-    setArticles((prev) => [newArticle, ...prev]);
-    return newArticle;
+  const openArticle = async (id: string) => {
+    setError(null);
+    try { setSelectedArticle(await fetchArticle(id)); }
+    catch (cause) { setError(cause instanceof Error ? cause.message : 'Unable to open article'); }
   };
 
-  const updateArticle = (id: string, updates: Partial<Article>) => {
-    if (!isEditor) return;
-    setArticles((prev) =>
-      prev.map((art) => (art.id === id ? { ...art, ...updates, updatedAt: new Date().toISOString().split('T')[0] } : art))
-    );
-    if (selectedArticle?.id === id) {
-      setSelectedArticle((prev) => (prev ? { ...prev, ...updates } : null));
-    }
+  const importArticle = async (file: File) => {
+    const outcome = await uploadArticle(file);
+    await refreshArticles();
+    setSelectedArticle(outcome.article);
+    return outcome;
   };
 
-  const deleteArticle = (id: string) => {
-    if (!isEditor) return;
-    setArticles((prev) => prev.filter((art) => art.id !== id));
-    if (selectedArticle?.id === id) {
-      setSelectedArticle(null);
-    }
+  const deleteArticle = async (id: string) => {
+    await removeArticle(id);
+    setArticles((current) => current.filter((article) => article.id !== id));
+    if (selectedArticle?.id === id) setSelectedArticle(null);
   };
 
-  const togglePublish = (id: string) => {
-    if (!isEditor) return;
-    setArticles((prev) =>
-      prev.map((art) => {
-        if (art.id === id) {
-          const nextStatus: ArticleStatus = art.status === 'published' ? 'draft' : 'published';
-          return { ...art, status: nextStatus };
-        }
-        return art;
-      })
-    );
-    if (selectedArticle?.id === id) {
-      setSelectedArticle((prev) =>
-        prev ? { ...prev, status: prev.status === 'published' ? 'draft' : 'published' } : null
-      );
-    }
-  };
-
-  const likeArticle = (id: string) => {
-    setArticles((prev) =>
-      prev.map((art) => (art.id === id ? { ...art, likes: art.likes + 1 } : art))
-    );
-    if (selectedArticle?.id === id) {
-      setSelectedArticle((prev) => (prev ? { ...prev, likes: prev.likes + 1 } : null));
-    }
-  };
-
-  const resetDefaultArticles = () => {
-    setArticles(INITIAL_ARTICLES);
-    localStorage.removeItem(STORAGE_KEY);
-  };
-
-  return (
-    <ArticleContext.Provider
-      value={{
-        articles,
-        selectedCategory,
-        setSelectedCategory,
-        searchQuery,
-        setSearchQuery,
-        selectedArticle,
-        setSelectedArticle,
-        editingArticle,
-        setEditingArticle,
-        isCreateModalOpen,
-        setIsCreateModalOpen,
-        isAuthModalOpen,
-        setIsAuthModalOpen,
-        createArticle,
-        updateArticle,
-        deleteArticle,
-        togglePublish,
-        likeArticle,
-        resetDefaultArticles,
-      }}
-    >
-      {children}
-    </ArticleContext.Provider>
-  );
+  return <ArticleContext.Provider value={{
+    articles, loading, error, selectedCategory, setSelectedCategory, searchQuery, setSearchQuery,
+    selectedArticle, openArticle, closeArticle: () => setSelectedArticle(null), isCreateModalOpen,
+    setIsCreateModalOpen, isAuthModalOpen, setIsAuthModalOpen, importArticle, deleteArticle, refreshArticles,
+  }}>{children}</ArticleContext.Provider>;
 };
 
-export const useArticles = (): ArticleContextType => {
+export const useArticles = () => {
   const context = useContext(ArticleContext);
-  if (!context) {
-    throw new Error('useArticles must be used within an ArticleProvider');
-  }
+  if (!context) throw new Error('useArticles must be used within an ArticleProvider');
   return context;
 };

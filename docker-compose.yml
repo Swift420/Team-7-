@@ -1,0 +1,19 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: visual_velocity
+      POSTGRES_USER: visual_velocity
+      POSTGRES_PASSWORD: visual_velocity
+    ports:
+      - "5434:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U visual_velocity -d visual_velocity"]
+      interval: 2s
+      timeout: 5s
+      retries: 15
+    volumes:
+      - visual_velocity_postgres:/var/lib/postgresql/data
+
+volumes:
+  visual_velocity_postgres:

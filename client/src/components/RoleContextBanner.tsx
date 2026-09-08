@@ -28,8 +28,8 @@ export const RoleContextBanner: React.FC = () => {
           </div>
           <p className="banner-description">
             {isEditor
-              ? 'Special permissions active: You can create new articles, publish them live to readers, manage drafts, and access the Editor Desk.'
-              : 'Viewer mode active: Read-only access to published articles and public sections. Switch to a Dummy Editor account to test article creation & publishing.'}
+              ? 'Editor permissions active: You can import NZZ JSON or Markdown articles and remove imported records.'
+              : 'Viewer mode active: Read-only access to the PostgreSQL-backed article library. Switch to an Editor account to test article import.'}
           </p>
         </div>
       </div>
@@ -41,10 +41,10 @@ export const RoleContextBanner: React.FC = () => {
             <button
               className="banner-btn-create"
               onClick={() => setIsCreateModalOpen(true)}
-              title="Create a new article"
+              title="Import an article"
             >
               <Plus size={15} />
-              <span>+ Create & Publish Article</span>
+              <span>Import Article</span>
             </button>
             <button
               className="banner-btn-switch"
@@ -59,7 +59,7 @@ export const RoleContextBanner: React.FC = () => {
             <button
               className="banner-btn-switch-editor"
               onClick={switchRole}
-              title="Switch to Editor mode to test creating & publishing"
+              title="Switch to Editor mode to test article import"
             >
               <Sparkles size={14} />
               <span>Switch to Editor Mode</span>

@@ -7,7 +7,6 @@ import { ArticleFeed } from './components/ArticleFeed';
 import { CreateArticleModal } from './components/CreateArticleModal';
 import { ArticleDetailModal } from './components/ArticleDetailModal';
 import { DummyAccountsModal } from './components/DummyAccountsModal';
-import { RotateCcw } from 'lucide-react';
 import './App.css';
 
 const MainApp: React.FC = () => {
@@ -15,11 +14,9 @@ const MainApp: React.FC = () => {
     isCreateModalOpen,
     setIsCreateModalOpen,
     selectedArticle,
-    setSelectedArticle,
-    editingArticle,
+    closeArticle,
     isAuthModalOpen,
     setIsAuthModalOpen,
-    resetDefaultArticles,
   } = useArticles();
   const { currentUser, isEditor } = useAuth();
 
@@ -39,14 +36,14 @@ const MainApp: React.FC = () => {
 
       {/* Modals */}
       <CreateArticleModal
-        key={editingArticle?.id || (isCreateModalOpen ? 'create-open' : 'create-closed')}
+        key={isCreateModalOpen ? 'import-open' : 'import-closed'}
         isOpen={isCreateModalOpen}
         onClose={() => setIsCreateModalOpen(false)}
       />
 
       <ArticleDetailModal
         article={selectedArticle}
-        onClose={() => setSelectedArticle(null)}
+        onClose={closeArticle}
       />
 
       <DummyAccountsModal
@@ -58,24 +55,12 @@ const MainApp: React.FC = () => {
       <footer className="app-footer">
         <div className="footer-inner">
           <div>
-            <strong>Chronicle Insights & Data</strong> • Role-based Article Publication Platform (React 19 + TypeScript)
+            <strong>Chronicle Insights & Data</strong> • PostgreSQL-backed article ingestion and browsing
           </div>
           <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
             <span>
               Active: <strong>{currentUser.name}</strong> ({isEditor ? 'Editor' : 'Viewer'})
             </span>
-            <button
-              className="btn-reset-demo"
-              onClick={() => {
-                if (window.confirm('Reset articles and drafts to default seed data?')) {
-                  resetDefaultArticles();
-                }
-              }}
-              title="Reset initial dummy articles"
-            >
-              <RotateCcw size={12} style={{ verticalAlign: 'middle', marginRight: '4px' }} />
-              Reset Demo Articles
-            </button>
           </div>
         </div>
       </footer>

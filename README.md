@@ -1,69 +1,72 @@
-# Data Visualisation Project
+# Visual Velocity article foundation
 
-A fullstack data visualization dashboard built with **Node.js (Express + TypeScript)** and **React (Vite + TypeScript + Recharts)**.
+React 19/Vite frontend with an Express/TypeScript API and PostgreSQL-backed article ingestion. This phase imports and browses structured articles; it intentionally contains no Gemini or visualization-generation implementation.
 
----
+## Setup
 
-## 📁 Project Structure
-
-```text
-data_visualistation/
-├── package.json          # Root scripts to run both client and server
-├── server/               # Node.js + Express backend
-│   ├── src/
-│   │   ├── data/         # Sample datasets (time series, categories, regional, etc.)
-│   │   └── index.ts      # Express server with REST API endpoints
-│   ├── tsconfig.json
-│   └── package.json
-└── client/               # React + TypeScript frontend
-    ├── src/
-    │   ├── components/   # Recharts visualization components (Area, Bar, Pie, Radar)
-    │   ├── services/     # API service client connecting to Express
-    │   ├── types/        # TypeScript data models
-    │   ├── App.tsx       # Main analytics dashboard
-    │   ├── App.css       # Clean modern dark theme styles
-    │   └── main.tsx
-    ├── vite.config.ts    # Configured with proxy to server (port 5001)
-    └── package.json
-```
-
----
-
-## 🚀 Quick Start
-
-From the root project folder:
+Requirements: Node.js, npm, and Docker.
 
 ```bash
-# 1. Navigate into the project
-cd /Users/davidapollos/documents/data_visualistation
-
-# 2. Run both backend and frontend concurrently
+npm run install:all
+cp server/.env.example server/.env
+npm run db:up
+npm run db:migrate
+npm run import:articles
 npm run dev
 ```
 
-- **Frontend (React)**: [http://localhost:3000](http://localhost:3000)
-- **Backend API (Express)**: [http://localhost:5001](http://localhost:5001)
+The frontend runs at `http://localhost:3000`, the API at `http://localhost:5001`, and the repository PostgreSQL container is exposed on port `5434` to avoid common local conflicts on 5432.
 
+The default importer reads only `VisualVelocity/input/articles/*.json`. Matching Markdown files are deliberately ignored. A different directory of JSON files can be supplied with:
+
+```bash
+npm --prefix server run import:articles -- /absolute/path/to/articles
+```
+
+Each file is validated and imported independently. Reruns report existing NZZ IDs as skipped rather than duplicating them.
+
+## Article API
+
+- `GET /api/articles` — metadata-only article list
+- `GET /api/articles/:id` — full article metadata and ordered structured body
+- `POST /api/articles/import` — multipart upload under the `file` field (`.json` or `.md`, maximum 5 MB)
+- `DELETE /api/articles/:id` — delete an article (the demo role restriction is currently enforced in the UI)
+
+NZZ JSON uploads require a headline and a non-empty body array. Markdown requires a level-one headline (or `title`/`headline` front matter) and article body text. Supported optional front-matter keys include `lead`, `subtitle`, `author`, `author_line`, `section`, `language`, `date`, `published_at`, `source_url`, `url`, `nzz_id`, `document_id`, and comma-separated `tags`.
+
+Example Markdown:
+
+```markdown
+---
+title: Example headline
+lead: Optional standfirst
+author: Example Author
+section: International
+date: 2026-09-08
 ---
 
-## 🛠 Available Scripts (from Root)
+Article text is required.
 
-| Command | Description |
-| :--- | :--- |
-| `npm run dev` | Starts both server and client concurrently with hot reloading |
-| `npm run dev:server` | Starts only the Express backend (`localhost:5001`) |
-| `npm run dev:client` | Starts only the Vite React frontend (`localhost:3000`) |
-| `npm run build` | Compiles TypeScript for both backend and frontend |
-| `npm start` | Runs the compiled production Node backend |
+## A structured section
 
----
+More article text.
+```
 
-## 📊 API Endpoints
+## Data model
 
-- `GET /api/health` - Service health status
-- `GET /api/metrics/overview` - KPI metrics (revenue, active users, conversion)
-- `GET /api/metrics/timeseries?range=12m` - Monthly revenue, profit, targets
-- `GET /api/metrics/categories` - Product stream distribution (donut chart)
-- `GET /api/metrics/regional` - Quarterly regional breakdown (bar chart)
-- `GET /api/metrics/performance` - Operational benchmarks (radar chart)
-- `GET /api/metrics/traffic` - Traffic acquisition & bounce rates
+The `articles` table stores identifiers and metadata in typed PostgreSQL columns. `body`, `raw_content`, `teaser_image`, and `tags` use `jsonb`. Body elements retain source order and receive stable positional IDs such as `element-0001`, allowing later analysis results to reference exact paragraphs, headings, images, embeds, and other source elements.
+
+## Verification
+
+```bash
+npm --prefix server test
+npm run build
+```
+
+Parser tests cover every supplied VisualVelocity JSON file, Markdown metadata/body parsing, q-tool normalization, malformed input, and body ordering.
+
+## Current scope
+
+Included: PostgreSQL schema/migrations, dataset import, JSON/Markdown manual uploads, article list/detail UI, q-tool placeholders, and deletion.
+
+Deferred: Gemini, opportunity detection, generated charts/maps, q-tool recreation, `q_data`, BigQuery, external-data lookup, and AI enrichment.

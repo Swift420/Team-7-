@@ -44,7 +44,7 @@ export const DummyAccountsModal: React.FC<DummyAccountsModalProps> = ({ isOpen, 
             <div>
               <h2 className="modal-title">User Accounts & Roles</h2>
               <p className="modal-subtitle">
-                Switch between Dummy Editor accounts (full create/publish permissions) and Viewer accounts
+                Switch between demo Editor accounts (import/delete permissions) and Viewer accounts
               </p>
             </div>
           </div>
@@ -70,7 +70,7 @@ export const DummyAccountsModal: React.FC<DummyAccountsModalProps> = ({ isOpen, 
           <div className="active-user-perm-note">
             {currentUser.role === 'editor' ? (
               <span className="text-editor-ok">
-                <Sparkles size={14} /> Full permissions: Create, edit, publish & manage drafts
+                <Sparkles size={14} /> Editor permissions: Import and delete articles
               </span>
             ) : (
               <span className="text-viewer-note">
@@ -106,7 +106,7 @@ export const DummyAccountsModal: React.FC<DummyAccountsModalProps> = ({ isOpen, 
                 <span className="role-count-badge">Special Permissions</span>
               </div>
               <p className="role-group-desc">
-                Can create articles, publish immediately, save drafts, edit existing articles, and access the Editor Desk.
+                Can import supported NZZ JSON and Markdown articles and remove imported records.
               </p>
             </div>
 
@@ -154,7 +154,7 @@ export const DummyAccountsModal: React.FC<DummyAccountsModalProps> = ({ isOpen, 
                 <span className="role-count-badge viewer">Standard Reader</span>
               </div>
               <p className="role-group-desc">
-                Read-only access to published articles and public sections. Cannot create, edit, or publish articles.
+                Read-only access to imported articles. Cannot import or delete records.
               </p>
             </div>
 
