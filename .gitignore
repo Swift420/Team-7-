@@ -14,11 +14,19 @@ dist/
 build/
 client/dist/
 server/dist/
+.cache/
+server/.cache/
 
-# Environment files
+# Environment and credential files
 .env
 .env.local
 .env.*.local
+*.env
+*.json.key
+*credential*.json
+*service-account*.json
+credentials.json
+server/credentials.json
 
 # Editor directories and files
 .vscode/*
