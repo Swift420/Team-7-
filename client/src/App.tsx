@@ -13,6 +13,7 @@ const MainApp: React.FC = () => {
   const {
     isCreateModalOpen,
     setIsCreateModalOpen,
+    createArticleMode,
     selectedArticle,
     openArticle,
     isAuthModalOpen,
@@ -45,8 +46,9 @@ const MainApp: React.FC = () => {
 
       {/* Modals */}
       <CreateArticleModal
-        key={isCreateModalOpen ? 'import-open' : 'import-closed'}
+        key={`${isCreateModalOpen ? 'open' : 'closed'}-${createArticleMode}`}
         isOpen={isCreateModalOpen}
+        mode={createArticleMode}
         onClose={() => setIsCreateModalOpen(false)}
       />
 

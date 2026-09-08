@@ -15,6 +15,8 @@ interface ArticleContextType {
   closeArticle: () => void;
   isCreateModalOpen: boolean;
   setIsCreateModalOpen: (open: boolean) => void;
+  createArticleMode: 'import' | 'create';
+  openCreateArticle: (mode: 'import' | 'create') => void;
   isAuthModalOpen: boolean;
   setIsAuthModalOpen: (open: boolean) => void;
   importArticle: (file: File) => Promise<ImportOutcome>;
@@ -32,6 +34,7 @@ export const ArticleProvider: React.FC<{ children: React.ReactNode }> = ({ child
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedArticle, setSelectedArticle] = useState<Article | null>(null);
   const [isCreateModalOpen, setIsCreateModalOpen] = useState(false);
+  const [createArticleMode, setCreateArticleMode] = useState<'import' | 'create'>('import');
   const [isAuthModalOpen, setIsAuthModalOpen] = useState(false);
 
   const refreshArticles = useCallback(async () => {
@@ -76,7 +79,7 @@ export const ArticleProvider: React.FC<{ children: React.ReactNode }> = ({ child
         window.dispatchEvent(new PopStateEvent('popstate'));
       }
     }, isCreateModalOpen,
-    setIsCreateModalOpen, isAuthModalOpen, setIsAuthModalOpen, importArticle, deleteArticle, refreshArticles,
+    setIsCreateModalOpen, createArticleMode, openCreateArticle: (mode) => { setCreateArticleMode(mode); setIsCreateModalOpen(true); }, isAuthModalOpen, setIsAuthModalOpen, importArticle, deleteArticle, refreshArticles,
   }}>{children}</ArticleContext.Provider>;
 };
 

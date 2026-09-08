@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { AlertTriangle, BarChart3, Check, LoaderCircle, LocateFixed, Save, Sparkles } from 'lucide-react';
 import { analyzeArticleVisualizations, saveArticleVisualizations } from '../services/api';
 import { Article, SavedVisualization, VisualizationAnalysis, VisualizationChartType, VisualizationOpportunity } from '../types';
@@ -30,6 +30,7 @@ export const ArticleVisualizer: React.FC<ArticleVisualizerProps> = ({ article, s
   const [selectedIds, setSelectedIds] = useState<string[]>([]);
   const [saving, setSaving] = useState(false);
   const [chartTypes, setChartTypes] = useState<Record<string, VisualizationChartType>>({});
+  const autoAnalyzed = useRef(false);
 
   const analyze = async () => {
     setLoading(true);
@@ -45,6 +46,13 @@ export const ArticleVisualizer: React.FC<ArticleVisualizerProps> = ({ article, s
       setLoading(false);
     }
   };
+
+  useEffect(() => {
+    if (new URLSearchParams(window.location.search).get('visualize') === '1' && !autoAnalyzed.current) {
+      autoAnalyzed.current = true;
+      void analyze();
+    }
+  }, [article.id]);
 
   const updateOpportunity = (id: string, update: (opportunity: VisualizationOpportunity) => VisualizationOpportunity) => {
     setAnalysis((current) => current ? {

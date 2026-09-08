@@ -5,7 +5,7 @@ import { useArticles } from '../context/ArticleContext';
 
 export const RoleContextBanner: React.FC = () => {
   const { currentUser, isEditor, switchRole } = useAuth();
-  const { setIsCreateModalOpen, setIsAuthModalOpen } = useArticles();
+  const { openCreateArticle, setIsAuthModalOpen } = useArticles();
 
   return (
     <div className={`role-context-banner ${isEditor ? 'is-editor' : 'is-viewer'}`}>
@@ -40,12 +40,13 @@ export const RoleContextBanner: React.FC = () => {
           <>
             <button
               className="banner-btn-create"
-              onClick={() => setIsCreateModalOpen(true)}
+              onClick={() => openCreateArticle('import')}
               title="Import an article"
             >
               <Plus size={15} />
               <span>Import Article</span>
             </button>
+            <button className="banner-btn-create" onClick={() => openCreateArticle('create')} title="Create an article"><Plus size={15} /><span>Create Article</span></button>
             <button
               className="banner-btn-switch"
               onClick={switchRole}
