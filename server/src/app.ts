@@ -7,6 +7,7 @@ import { articleRouter } from './routes/articles.js';
 import { ArticleValidationError } from './services/articleParser.js';
 import { VisualizationAnalysisError } from './services/visualizationService.js';
 import { storyMapRouter } from './routes/storyMap.js';
+import { authRouter } from './routes/auth.js';
 
 export const app = express();
 app.use(cors());
@@ -14,6 +15,7 @@ app.use(express.json({ limit: '1mb' }));
 const qDataDir = process.env.Q_DATA_DIR || path.resolve(process.cwd(), '../VisualVelocity/input/q_data');
 app.use('/api/visual-assets', express.static(qDataDir));
 app.get('/api/health', (_req, res) => res.json({ status: 'healthy', timestamp: new Date().toISOString(), service: 'data-visualisation-server' }));
+app.use('/api/auth', authRouter);
 app.use('/api/articles', articleRouter);
 app.use('/api/story-map', storyMapRouter);
 app.get('/api/metrics/overview', (_req, res) => res.json({ success: true, data: mockOverview }));

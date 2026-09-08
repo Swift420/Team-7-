@@ -22,8 +22,7 @@ export const ArticleFeed: React.FC = () => {
     {globeOpen && <Suspense fallback={<div className="story-globe-loading"><RefreshCw className="spin" size={18} /> Loading global story explorer…</div>}><StoryGlobeExplorer onClose={() => setGlobeOpen(false)} /></Suspense>}
     <div className="section-header-banner">
       <div className="header-text-group">
-        <span className="section-type-pill">PostgreSQL article library</span>
-        <h2 className="feed-title">{selectedCategory === 'all' ? 'Imported Articles' : selectedCategory}</h2>
+        <h2 className="feed-title">{selectedCategory === 'all' ? 'Articles' : selectedCategory}</h2>
         <p className="feed-desc">Structured source articles ready for editorial review and future Visual Velocity analysis.</p>
       </div>
       <div className="header-action-group">

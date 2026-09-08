@@ -7,6 +7,8 @@ export const RoleContextBanner: React.FC = () => {
   const { currentUser, isEditor, switchRole } = useAuth();
   const { openCreateArticle, setIsAuthModalOpen } = useArticles();
 
+  if (!isEditor) return null;
+
   return (
     <div className={`role-context-banner ${isEditor ? 'is-editor' : 'is-viewer'}`}>
       <div className="banner-left">
@@ -49,7 +51,7 @@ export const RoleContextBanner: React.FC = () => {
             <button className="banner-btn-create" onClick={() => openCreateArticle('create')} title="Create an article"><Plus size={15} /><span>Create Article</span></button>
             <button
               className="banner-btn-switch"
-              onClick={switchRole}
+              onClick={() => setIsAuthModalOpen(true)}
               title="Switch to Viewer mode to test viewer experience"
             >
               <span>Test as Viewer</span>

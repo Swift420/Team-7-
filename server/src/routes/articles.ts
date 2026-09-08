@@ -7,6 +7,7 @@ import { analyzeArticleVisualizations } from '../services/visualizationService.j
 import { loadExistingVisualizations } from '../services/existingVisualService.js';
 import { listArticleVisualizations, listVisualizationApprovals, replaceArticleVisualizations } from '../repositories/visualizationRepository.js';
 import { parseVisualizationAnalysis } from '../services/visualizationService.js';
+import { requireEditor } from '../auth.js';
 
 const router = Router();
 const upload = multer({ storage: multer.memoryStorage(), limits: { fileSize: 5 * 1024 * 1024, files: 1 } });
@@ -20,11 +21,11 @@ router.get('/', async (_req, res, next) => {
 
 router.get('/:id', async (req, res, next) => {
   try {
-    if (!uuidPattern.test(req.params.id)) {
+    if (!uuidPattern.test(String(req.params.id))) {
       res.status(400).json({ success: false, error: { code: 'INVALID_ARTICLE_ID', message: 'Article ID must be a valid UUID' } });
       return;
     }
-    const article = await getArticle(req.params.id);
+    const article = await getArticle(String(req.params.id));
     if (!article) {
       res.status(404).json({ success: false, error: { code: 'ARTICLE_NOT_FOUND', message: 'Article not found' } });
       return;
@@ -33,7 +34,7 @@ router.get('/:id', async (req, res, next) => {
   } catch (error) { next(error); }
 });
 
-router.post('/import', upload.single('file'), async (req, res, next) => {
+router.post('/import', requireEditor, upload.single('file'), async (req, res, next) => {
   try {
     if (!req.file) throw new ArticleValidationError('No article file supplied', ['Select a .json or .md file']);
     const outcome = await importArticleContent(req.file.originalname, req.file.buffer);
@@ -41,13 +42,13 @@ router.post('/import', upload.single('file'), async (req, res, next) => {
   } catch (error) { next(error); }
 });
 
-router.post('/:id/visualizations/analyze', async (req, res, next) => {
+router.post('/:id/visualizations/analyze', requireEditor, async (req, res, next) => {
   try {
-    if (!uuidPattern.test(req.params.id)) {
+    if (!uuidPattern.test(String(req.params.id))) {
       res.status(400).json({ success: false, error: { code: 'INVALID_ARTICLE_ID', message: 'Article ID must be a valid UUID' } });
       return;
     }
-    const article = await getArticle(req.params.id);
+    const article = await getArticle(String(req.params.id));
     if (!article) {
       res.status(404).json({ success: false, error: { code: 'ARTICLE_NOT_FOUND', message: 'Article not found' } });
       return;
@@ -62,7 +63,7 @@ router.post('/:id/visualizations/analyze', async (req, res, next) => {
 
 router.get('/:id/existing-visualizations', async (req, res, next) => {
   try {
-    if (!uuidPattern.test(req.params.id)) {
+    if (!uuidPattern.test(String(req.params.id))) {
       res.status(400).json({ success: false, error: { code: 'INVALID_ARTICLE_ID', message: 'Article ID must be a valid UUID' } });
       return;
     }
@@ -81,26 +82,26 @@ router.get('/:id/visualizations', async (req, res, next) => {
       res.status(400).json({ success: false, error: { code: 'INVALID_ARTICLE_ID', message: 'Article ID must be a valid UUID' } });
       return;
     }
-    if (!(await getArticle(req.params.id))) {
+    if (!(await getArticle(String(req.params.id)))) {
       res.status(404).json({ success: false, error: { code: 'ARTICLE_NOT_FOUND', message: 'Article not found' } });
       return;
     }
-    res.json({ success: true, data: await listArticleVisualizations(req.params.id) });
+    res.json({ success: true, data: await listArticleVisualizations(String(req.params.id)) });
   } catch (error) { next(error); }
 });
 
 router.get('/:id/visualizations/history', async (req, res, next) => {
   try {
-    if (!uuidPattern.test(req.params.id)) { res.status(400).json({ success: false, error: { code: 'INVALID_ARTICLE_ID', message: 'Article ID must be a valid UUID' } }); return; }
-    if (!(await getArticle(req.params.id))) { res.status(404).json({ success: false, error: { code: 'ARTICLE_NOT_FOUND', message: 'Article not found' } }); return; }
-    res.json({ success: true, data: await listVisualizationApprovals(req.params.id) });
+    if (!uuidPattern.test(String(req.params.id))) { res.status(400).json({ success: false, error: { code: 'INVALID_ARTICLE_ID', message: 'Article ID must be a valid UUID' } }); return; }
+    if (!(await getArticle(String(req.params.id)))) { res.status(404).json({ success: false, error: { code: 'ARTICLE_NOT_FOUND', message: 'Article not found' } }); return; }
+    res.json({ success: true, data: await listVisualizationApprovals(String(req.params.id)) });
   } catch (error) { next(error); }
 });
 
 router.get('/:id/visualizations/embed', async (req, res, next) => {
   try {
-    if (!uuidPattern.test(req.params.id)) { res.status(400).send('Invalid article ID'); return; }
-    const article = await getArticle(req.params.id);
+    if (!uuidPattern.test(String(req.params.id))) { res.status(400).send('Invalid article ID'); return; }
+    const article = await getArticle(String(req.params.id));
     if (!article) { res.status(404).send('Article not found'); return; }
     const visuals = await listArticleVisualizations(article.id);
     const escaped = JSON.stringify(visuals.map((visual) => visual.specification)).replace(/</g, '\\u003c');
@@ -108,13 +109,13 @@ router.get('/:id/visualizations/embed', async (req, res, next) => {
   } catch (error) { next(error); }
 });
 
-router.put('/:id/visualizations', async (req, res, next) => {
+router.put('/:id/visualizations', requireEditor, async (req, res, next) => {
   try {
-    if (!uuidPattern.test(req.params.id)) {
+    if (!uuidPattern.test(String(req.params.id))) {
       res.status(400).json({ success: false, error: { code: 'INVALID_ARTICLE_ID', message: 'Article ID must be a valid UUID' } });
       return;
     }
-    const article = await getArticle(req.params.id);
+    const article = await getArticle(String(req.params.id));
     if (!article) {
       res.status(404).json({ success: false, error: { code: 'ARTICLE_NOT_FOUND', message: 'Article not found' } });
       return;
@@ -129,13 +130,13 @@ router.put('/:id/visualizations', async (req, res, next) => {
   } catch (error) { next(error); }
 });
 
-router.delete('/:id', async (req, res, next) => {
+router.delete('/:id', requireEditor, async (req, res, next) => {
   try {
-    if (!uuidPattern.test(req.params.id)) {
+    if (!uuidPattern.test(String(req.params.id))) {
       res.status(400).json({ success: false, error: { code: 'INVALID_ARTICLE_ID', message: 'Article ID must be a valid UUID' } });
       return;
     }
-    if (!(await deleteArticle(req.params.id))) {
+    if (!(await deleteArticle(String(req.params.id)))) {
       res.status(404).json({ success: false, error: { code: 'ARTICLE_NOT_FOUND', message: 'Article not found' } });
       return;
     }

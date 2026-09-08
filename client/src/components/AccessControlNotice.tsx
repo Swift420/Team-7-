@@ -1,6 +1,5 @@
 import React from 'react';
 import { ShieldAlert, Lock, Sparkles, ArrowRight } from 'lucide-react';
-import { useAuth } from '../context/AuthContext';
 import { useArticles } from '../context/ArticleContext';
 
 interface AccessControlNoticeProps {
@@ -12,7 +11,6 @@ export const AccessControlNotice: React.FC<AccessControlNoticeProps> = ({
   title = 'Editor Access Required',
   description = 'The Editor Desk and Drafts section contains unpublished articles, editorial revision queues, and publishing tools reserved for Editors.',
 }) => {
-  const { dummyEditors, loginAsDummy } = useAuth();
   const { setIsAuthModalOpen } = useArticles();
 
   return (
@@ -61,12 +59,10 @@ export const AccessControlNotice: React.FC<AccessControlNoticeProps> = ({
         <div className="access-cta-row">
           <button
             className="btn-switch-primary"
-            onClick={() => {
-              loginAsDummy(dummyEditors[0].id);
-            }}
+            onClick={() => setIsAuthModalOpen(true)}
           >
             <Sparkles size={16} />
-            <span>Switch to Dummy Editor ({dummyEditors[0].name})</span>
+            <span>Sign in as Editor</span>
             <ArrowRight size={16} />
           </button>
 
@@ -74,7 +70,7 @@ export const AccessControlNotice: React.FC<AccessControlNoticeProps> = ({
             className="btn-view-all-accounts"
             onClick={() => setIsAuthModalOpen(true)}
           >
-            View All Dummy Accounts
+            Editor sign-in
           </button>
         </div>
       </div>

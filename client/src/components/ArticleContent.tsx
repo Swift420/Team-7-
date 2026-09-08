@@ -54,8 +54,8 @@ const ExistingVisual: React.FC<{ visual: ExistingVisualization }> = ({ visual })
   </figure>;
 };
 
-const GeneratedVisual: React.FC<{ saved: SavedVisualization }> = ({ saved }) => <figure className="inserted-visual inline-generated-visual">
-  <div className="generated--visual-label">AI-assisted · Editor approved</div>
+const GeneratedVisual: React.FC<{ saved: SavedVisualization; showEditorialLabel: boolean }> = ({ saved, showEditorialLabel }) => <figure className="inserted-visual inline-generated-visual">
+  {showEditorialLabel && <div className="generated--visual-label">AI-assisted · Editor approved</div>}
   <figcaption><h3>{saved.specification.title}</h3>{saved.specification.subtitle && <p>{saved.specification.subtitle}</p>}</figcaption>
   <VisualizationChart opportunity={saved.specification} />
   <div className="visual-plain-summary">What this shows: {summarizeVisualization(saved.specification)}</div>
@@ -100,10 +100,10 @@ export const ArticleContent: React.FC<{ article: Article; isEditor: boolean }> =
   }, [article.id]);
 
   return <>
+    {isEditor && <ArticleVisualizer key={`visualizer-${article.id}`} article={article} savedVisualizations={savedVisuals} approvalCount={approvalCount} onSaved={(next) => { setSavedVisuals(next); setApprovalCount((count) => count + 1); }} />}
     <article className="article-content-body">{article.body?.map((element) => <Fragment key={element.id}>
       {renderElement(element, existingByElement.get(element.id), loadingExisting)}
-      {savedByElement.get(element.id)?.map((saved) => <GeneratedVisual key={saved.id} saved={saved} />)}
+      {savedByElement.get(element.id)?.map((saved) => <GeneratedVisual key={saved.id} saved={saved} showEditorialLabel={isEditor} />)}
     </Fragment>)}</article>
-    {isEditor && <ArticleVisualizer key={article.id} article={article} savedVisualizations={savedVisuals} approvalCount={approvalCount} onSaved={(next) => { setSavedVisuals(next); setApprovalCount((count) => count + 1); }} />}
   </>;
 };

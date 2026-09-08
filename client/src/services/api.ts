@@ -15,9 +15,13 @@ import type {
   CountryCoverage,
   CountryConnection,
   CountryStorySummary,
+  User,
 } from '../types';
 
 const API_BASE = '/api';
+let authToken: string | null = null;
+
+export function setApiAuthToken(token: string | null) { authToken = token; }
 
 async function readJson(response: Response): Promise<any> {
   const text = await response.text();
@@ -85,7 +89,9 @@ export async function fetchTraffic(): Promise<TrafficSource[]> {
 }
 
 async function apiRequest<T>(url: string, options?: RequestInit): Promise<T> {
-  const response = await fetch(url, options);
+  const headers = new Headers(options?.headers);
+  if (authToken) headers.set('Authorization', `Bearer ${authToken}`);
+  const response = await fetch(url, { ...options, headers });
   const payload = await readJson(response);
   if (!response.ok) {
     const message = payload?.error?.message || `Request failed (${response.status})`;
@@ -93,6 +99,12 @@ async function apiRequest<T>(url: string, options?: RequestInit): Promise<T> {
     throw new Error(details?.length ? `${message}: ${details.join('; ')}` : message);
   }
   return payload?.data as T;
+}
+
+export async function loginEditor(username: string, password: string): Promise<{ token: string; user: User }> {
+  const result = await apiRequest<{ token: string; user: User }>(`${API_BASE}/auth/login`, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ username, password }) });
+  setApiAuthToken(result.token);
+  return result;
 }
 
 export function fetchArticles(): Promise<Article[]> {

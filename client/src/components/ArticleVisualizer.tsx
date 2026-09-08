@@ -29,12 +29,14 @@ export const ArticleVisualizer: React.FC<ArticleVisualizerProps> = ({ article, s
   const [error, setError] = useState<string | null>(null);
   const [selectedIds, setSelectedIds] = useState<string[]>([]);
   const [saving, setSaving] = useState(false);
+  const [saveMessage, setSaveMessage] = useState<string | null>(null);
   const [chartTypes, setChartTypes] = useState<Record<string, VisualizationChartType>>({});
   const autoAnalyzed = useRef(false);
 
   const analyze = async () => {
     setLoading(true);
     setError(null);
+    setSaveMessage(null);
     try {
       const result = await analyzeArticleVisualizations(article.id);
       setAnalysis(result);
@@ -69,7 +71,9 @@ export const ArticleVisualizer: React.FC<ArticleVisualizerProps> = ({ article, s
       const selected = analysis.opportunities
         .filter((opportunity) => selectedIds.includes(opportunity.id))
         .map((opportunity) => ({ ...opportunity, chartType: chartTypes[opportunity.id] || opportunity.chartType }));
-      onSaved(await saveArticleVisualizations(article.id, selected));
+      const saved = await saveArticleVisualizations(article.id, selected);
+      onSaved(saved);
+      setSaveMessage(`${selected.length} ${selected.length === 1 ? 'visual' : 'visuals'} added to the article.`);
     } catch (cause) {
       setError(cause instanceof Error ? cause.message : 'Unable to save visualizations');
     } finally {
@@ -174,6 +178,7 @@ export const ArticleVisualizer: React.FC<ArticleVisualizerProps> = ({ article, s
         <button className="insert-visuals-button" disabled={!selectedIds.length || saving} onClick={() => void saveSelected()}>
           {saving ? <LoaderCircle className="spin" size={17} /> : <Save size={17} />} {saving ? 'Saving…' : 'Save selected inline'}
         </button>
+        {saveMessage && <span className="visual-save-confirmation" role="status" aria-live="polite"><Check size={15} /> {saveMessage}</span>}
       </div>}
     </div>}
   </section>;
