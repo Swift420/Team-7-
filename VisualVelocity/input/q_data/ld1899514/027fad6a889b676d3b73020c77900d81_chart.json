@@ -1,0 +1,102 @@
+{
+  "_id": "027fad6a889b676d3b73020c77900d81",
+  "_rev": "3-f0c3f05cc40ae52c7ab8f98e2d966c25",
+  "data": [
+    [
+      "Jahr",
+      "Summe"
+    ],
+    [
+      "2016",
+      "6.39"
+    ],
+    [
+      "2017",
+      "8.42"
+    ],
+    [
+      "2018",
+      "8.13"
+    ],
+    [
+      "2019",
+      "9.77"
+    ],
+    [
+      "2020",
+      "6.78"
+    ],
+    [
+      "2021",
+      "5.76"
+    ],
+    [
+      "2022",
+      "8.91"
+    ],
+    [
+      "2023",
+      "12.4"
+    ],
+    [
+      "2024",
+      "11.17"
+    ],
+    [
+      "2025",
+      "14.13"
+    ]
+  ],
+  "tool": "chart",
+  "title": "Mehr als doppelt so viel Geld für neue Spieler als 2016",
+  "active": true,
+  "events": [],
+  "acronym": "krp.",
+  "options": {
+    "chartType": "Bar",
+    "barOptions": {
+      "isBarChart": true,
+      "forceBarsOnSmall": false
+    },
+    "annotations": {
+      "valuesOnBars": true
+    },
+    "arrowOptions": {
+      "colorScheme": 0,
+      "invertColorScheme": false
+    },
+    "largeNumbers": {
+      "divideBy": 0
+    },
+    "hideAxisLabel": true,
+    "dotplotOptions": {},
+    "areaChartOptions": {
+      "stackType": "zero",
+      "areaInterpolation": "linear"
+    },
+    "lineChartOptions": {
+      "yScaleType": "linear",
+      "isStockChart": false,
+      "reverseYScale": false,
+      "lineInterpolation": "linear"
+    },
+    "dateSeriesOptions": {
+      "labels": "many",
+      "interval": "auto",
+      "prognosisStart": null
+    },
+    "highlightDataRows": [],
+    "colorOverwritesRows": [],
+    "highlightDataSeries": [],
+    "colorOverwritesSeries": []
+  },
+  "sources": [],
+  "subtitle": "Weltweite Transferausgaben im Fussball in Milliarden Euro",
+  "createdBy": "christof.krapf@nzz.ch",
+  "updatedBy": "christof.krapf@nzz.ch",
+  "department": "Sport",
+  "createdDate": "2025-09-05T08:32:49.492Z",
+  "publication": "nzz",
+  "updatedDate": "2025-09-05T13:29:10.864Z",
+  "allowDownloadData": false
+}

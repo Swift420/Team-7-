@@ -1,0 +1,119 @@
+{
+  "_id": "7e524653bbb3014e32d5d164fc3b5e49",
+  "_rev": "5-6b0d59db371f369166d49304dba1830a",
+  "tool": "election_votes",
+  "notes": "Für eine absolute Mehrheit sind 172 Sitze nötig. </br>Stand: 10.30 Uhr ",
+  "title": "tba.",
+  "active": true,
+  "acronym": "jum.",
+  "options": {
+    "hideUpdatedDate": false
+  },
+  "parties": [
+    {
+      "name": "Liberals",
+      "color": {
+        "colorCode": "#d71920",
+        "classAttribute": ""
+      },
+      "previous": 32.6,
+      "percentage": 43.5,
+      "errorMargin": {
+        "lower": 0,
+        "upper": 0,
+        "bestGuess": 0
+      }
+    },
+    {
+      "name": "Konservative",
+      "color": {
+        "colorCode": "#0b2643",
+        "classAttribute": ""
+      },
+      "previous": 33.7,
+      "percentage": 41.4,
+      "errorMargin": {
+        "lower": 0,
+        "upper": 0,
+        "bestGuess": 0
+      }
+    },
+    {
+      "name": "New Democratic Party (NDP)",
+      "color": {
+        "colorCode": "#f89920",
+        "classAttribute": ""
+      },
+      "previous": 17.8,
+      "percentage": 6.2,
+      "errorMargin": {
+        "lower": 0,
+        "upper": 0,
+        "bestGuess": 0
+      }
+    },
+    {
+      "name": "Bloc Québécois",
+      "color": {
+        "colorCode": "#093c71",
+        "classAttribute": ""
+      },
+      "previous": 7.6,
+      "percentage": 6.4,
+      "errorMargin": {
+        "lower": 0,
+        "upper": 0,
+        "bestGuess": 0
+      }
+    },
+    {
+      "name": "Green Party",
+      "color": {
+        "colorCode": "#66a622",
+        "classAttribute": ""
+      },
+      "previous": 2.3,
+      "percentage": 1.3,
+      "errorMargin": {
+        "lower": 0,
+        "upper": 0,
+        "bestGuess": 0
+      }
+    },
+    {
+      "name": "Andere",
+      "color": {
+        "colorCode": "#616161",
+        "classAttribute": ""
+      },
+      "previous": 5.9,
+      "percentage": 1,
+      "errorMargin": {
+        "lower": 0,
+        "upper": 0,
+        "bestGuess": 0
+      }
+    }
+  ],
+  "sources": [
+    {
+      "link": {
+        "url": "https://www.ctvnews.ca/federal-election-2025/"
+      },
+      "text": "CTV News"
+    }
+  ],
+  "subtitle": "Stimmenanteil bei den Parlamentswahlen 2025 im Vergleich zu 2021",
+  "createdBy": "julia.monn@nzz.ch",
+  "threshold": 0,
+  "updatedBy": "julia.monn@nzz.ch",
+  "department": "Visuals",
+  "createdDate": "2025-04-29T08:39:30.299Z",
+  "publication": "nzz",
+  "updatedDate": "2025-04-29T08:43:14.279Z",
+  "withErrorMargin": false,
+  "errorMarginLabels": {
+    "bestGuessLabel": "Hochrechnung",
+    "errorMarginLabel": "Fehlermarge"
+  }
+}

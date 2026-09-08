@@ -1,0 +1,65 @@
+{
+  "_id": "914387acc4e7abb7df0e8ee47292df2e",
+  "_rev": "5-34882a8b034ae70f0b6074de3732770b",
+  "tool": "infographic",
+  "title": "Gesucht: Jos ",
+  "active": true,
+  "images": {
+    "variants": [
+      {
+        "images": [
+          {
+            "key": "2025/03/20/4mobile5x-0fdeeaaeeb9ffe3b7064b5f4871eb78f.png",
+            "url": "https://nzz-q-assets.s3.eu-west-1.amazonaws.com/2025/03/20/4mobile5x-0fdeeaaeeb9ffe3b7064b5f4871eb78f.png",
+            "size": 3002487,
+            "type": "image/png",
+            "width": 1851,
+            "height": 1571,
+            "originalName": "4mobile@5x.png"
+          }
+        ],
+        "minWidth": 0
+      },
+      {
+        "images": [
+          {
+            "key": "2025/03/20/4content5x-aaebb860889a97a84c7d3d9ded78f4cf.png",
+            "url": "https://nzz-q-assets.s3.eu-west-1.amazonaws.com/2025/03/20/4content5x-aaebb860889a97a84c7d3d9ded78f4cf.png",
+            "size": 3178098,
+            "type": "image/png",
+            "width": 3151,
+            "height": 1462,
+            "originalName": "4content@5x.png"
+          }
+        ],
+        "minWidth": 540
+      },
+      {
+        "images": [
+          {
+            "key": "2025/03/20/4container5x-587deecd5a1b0f4f3e9a61e0522071ae.png",
+            "url": "https://nzz-q-assets.s3.eu-west-1.amazonaws.com/2025/03/20/4container5x-587deecd5a1b0f4f3e9a61e0522071ae.png",
+            "size": 3306399,
+            "type": "image/png",
+            "width": 4501,
+            "height": 1447,
+            "originalName": "4container@5x.png"
+          }
+        ],
+        "minWidth": 830
+      }
+    ]
+  },
+  "acronym": "ida.",
+  "options": {
+    "serveLosslessWebP": false
+  },
+  "sources": [],
+  "subtitle": "",
+  "createdBy": "ida.goetz@nzz.ch",
+  "updatedBy": "ida.goetz@nzz.ch",
+  "department": "Visuals",
+  "createdDate": "2025-03-18T08:06:54.202Z",
+  "publication": "nzz",
+  "updatedDate": "2025-03-20T16:42:44.273Z"
+}

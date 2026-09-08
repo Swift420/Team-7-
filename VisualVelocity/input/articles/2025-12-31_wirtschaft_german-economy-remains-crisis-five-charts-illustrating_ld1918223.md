@@ -1,0 +1,70 @@
+# The German economy remains in crisis. Five charts illustrating the seriousness of the situation.
+
+*A special fund for investments and an "autumn of reforms": 2025 was supposed to be a year of improvement. But as the year draws to a close, the challenges for German politicians and business leaders remain significant.*
+
+**Jannik Belser, Berlin** · Wirtschaft · 2025-12-31 · 1022 words · [ld.1918223](https://www.nzz.ch/wirtschaft/die-deutsche-wirtschaft-steckt-weiterhin-in-der-krise-fuenf-grafiken-zum-ernst-der-lage-ld.1918223)
+
+![A car hubcap on the roadside in front of the Bosch plant in Stuttgart-Feuerbach. A symbolic image for one of the trickiest problems for German business leaders: the very goods that made the country an export world champion are selling increasingly poorly abroad.](https://img-msp-prod.nzz.ch/2025/10/30/f100c099-91e0-43a9-9fb7-3fdb2b7030b7.jpg?width=1024)
+*A car hubcap on the roadside in front of the Bosch plant in Stuttgart-Feuerbach. A symbolic image for one of the trickiest problems for German business leaders: the very goods that made the country an export world champion are selling increasingly poorly abroad.* (Jasper Walter Bastian for NZZ)
+
+Friedrich Merz made many promises. He said upon taking office in May that Germans would feel the economic recovery as early as summer. Then he proclaimed an «autumn of reforms.» By the end of the year, it's clear that neither of these things really came to pass.
+
+Germany remains mired in an economic crisis. Five developments illustrate the seriousness of the situation – and provide clues as to what needs to change by 2026.
+
+## 1. The German economy has been stagnating for years
+
+After two years of economic contraction, Germany's gross domestic product (GDP) did increase again in 2025. However, the growth was moderate: The International Monetary Fund (IMF) forecasts an inflation-adjusted increase of 0.2 percent. While other economies such as the US and China quickly returned to a growth trajectory after the pandemic, German economic output remains at a similar level to 2019.
+
+> [embed: q-tool (chart/map) 2986658532c8ae3c1b229345b9ad297b]
+
+## 2. The industry is shrinking further and further
+
+The weakness is most evident in the industrial sector, which for decades was a symbol of the success of the German economic model. Now, industrial companies are complaining about the high costs of their location, especially the increased energy prices.
+
+The Federation of German Industries (BDI) anticipates a two percent decline in manufacturing output in 2025 compared to the previous year. This would mark the fourth consecutive year of recession for the industry. As a result, German industry continues to lose ground, while it grows in other European countries.
+
+> [embed: q-tool (chart/map) 1ed8c50ee4eadee1ad33ff170896ec52]
+
+## 3. Major countries are buying fewer German goods
+
+According to figures from the German Economic Institute, exports to the USA fell by almost eight percent in the first three quarters of the year compared to the same period last year, and exports to China by more than twelve percent. While increasing exports to European countries such as Poland, Switzerland, and Spain offset this effect, Germany, as an export nation, faces a challenge in the medium term: In key markets where the economy is currently experiencing the fastest growth, it is selling fewer and fewer goods.
+
+This is particularly dramatic in the relationship with China. For years, exports to the People's Republic grew, and German companies had full order books. But what the Chinese used to only be able to buy in Germany, they are now increasingly manufacturing themselves. China is now only the sixth-largest buyer of German exports.
+
+> [embed: q-tool (chart/map) 1ed8c50ee4eadee1ad33ff1708900ec9]
+
+## 4. The unemployment rate is still stable. But anyone who loses their job now has a problem
+
+Numerous German companies, such as Bosch and Audi, announced plans to reduce their workforce in 2025. Nevertheless, the unemployment rate remained largely stable this year because many companies are spreading out the layoffs over a longer period and covering at least part of the losses with retirements. Currently, it stands at 6.1 percent – ​​a moderate figure compared to the early 2000s, when the German unemployment rate hovered around 11 percent and the Schröder government subjected the welfare state to a series of sweeping reforms.
+
+Nevertheless, there are problematic developments on the German labor market. Due to uncertainty, fewer and fewer employees are voluntarily changing jobs. For those entering the workforce or the unemployed, this means fewer positions are becoming available. The exit rate from unemployment has fallen to a record low this year.
+
+> [embed: q-tool (chart/map) 2986658532c8ae3c1b229345b990d664]
+
+Andrea Nahles, the head of the Federal Employment Agency, recently said that the labor market has been «as rigid as a board» for months. There is no group of workers who are protected from job loss.
+
+And anyone who loses their job in Germany now will have difficulty finding a new one.
+
+## 5. National debt is rising – but the money only partially reaches where it was promised
+
+Even before the black-red coalition government took office, it created fiscal leeway by establishing a special fund. Investments totaling 500 billion euros are to flow into infrastructure projects over the next few years, bypassing the debt brake . In the federal budget for 2025, public debt increased by 140 billion euros, reaching an all-time high in the history of the Federal Republic.
+
+> [embed: q-tool (chart/map) 1ed8c50ee4eadee1ad33ff170893c357]
+
+More money would offer the opportunity for more growth. But private investment declined again in 2025 – and public funds only partially reached their intended destinations. Barely half of the new money flowed into additional infrastructure projects. The remainder was used by policymakers to cover expenditures already budgeted for. Economists describe this as a «drifting operation» and point out that the special fund's impact is being wasted.
+
+Moritz Schularick, the president of the Kiel Institute for the World Economy and generally a supporter of the special fund , recently criticized the government in the «Frankfurter Allgemeine Sonntagszeitung»: «To this day, we have failed to present a strategy for how we can spend the money wisely while simultaneously achieving greater security and European independence, industrial stimulus and a technological upgrade.»
+
+## Will the economic upswing finally come in 2026?
+
+The IMF expects Germany to achieve higher GDP growth of just under one percent in 2026, as the country will benefit in the short term from the relaxation of the debt brake. However, structural reforms are needed for a sustained upswing, such as better integration of women and pensioners into the labor market or a reduction in bureaucracy. Clemens Fuest, president of the Ifo Institute for Economic Research, recently warned of «permanent stagnation.» According to Fuest, policymakers have actually exacerbated the problems for the private sector with new spending projects like the recent pension package.
+
+Are there any developments that bode well for the new year? Absolutely: Investments in research and development increased in 2025, and the number of startups rose compared to previous years. Many CEOs are also praising the efforts of the new Ministry for Digital Affairs and Public Sector Modernization to streamline bureaucracy. In a survey conducted by the German Economic Institute, 19 out of 46 German business associations anticipate positive growth in their respective sectors next year. While not a majority, this is still more than the nine associations that expect further contraction.
+
+German business representatives are where they were a year ago: hoping that something will finally happen. As soon as possible, somehow.
+
+---
+**Auto summary (NZZ, GPT-generated):**
+- The German economy stagnated in 2025, with moderate GDP growth of 0.2%, while industrial production declined further and exports to key markets like the US and China decreased.
+- Despite a stable unemployment rate, the labor market became rigid, making it difficult for job seekers to find employment; the state invested inefficiently and increased debt.
+- Positive developments include increased research investments and rising start-up activities; however, structural reforms remain essential for lasting economic recovery.

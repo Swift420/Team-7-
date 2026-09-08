@@ -1,0 +1,87 @@
+{
+  "_id": "68d425d4699e9424f42875706cb8f7f4",
+  "_rev": "6-ae1b0cdaffc16f63311eff37a57583c9",
+  "data": [
+    [
+      null,
+      "Industrieländer 2011–2022",
+      "Schwellenländer 2011–2022",
+      "CH Bund 2018–2020",
+      "CH Kantone 2018–2020",
+      "CH Gemeinden 2018–2020"
+    ],
+    [
+      null,
+      "5.2",
+      "13",
+      "11.6",
+      "4.3",
+      "3.4"
+    ]
+  ],
+  "tool": "chart",
+  "title": "Öffentliche Angestellte werden überdurchschnittlich gut bezahlt ",
+  "active": true,
+  "events": [],
+  "acronym": "pfi.",
+  "options": {
+    "chartType": "Bar",
+    "barOptions": {
+      "isBarChart": true,
+      "forceBarsOnSmall": false
+    },
+    "annotations": {
+      "valuesOnBars": true
+    },
+    "arrowOptions": {
+      "colorScheme": 0,
+      "invertColorScheme": false
+    },
+    "largeNumbers": {
+      "divideBy": 0
+    },
+    "hideAxisLabel": true,
+    "dotplotOptions": {},
+    "areaChartOptions": {
+      "stackType": "zero",
+      "areaInterpolation": "linear"
+    },
+    "lineChartOptions": {
+      "yScaleType": "linear",
+      "isStockChart": false,
+      "reverseYScale": false,
+      "lineInterpolation": "linear"
+    },
+    "dateSeriesOptions": {
+      "labels": "many",
+      "interval": "auto",
+      "prognosisStart": null
+    },
+    "highlightDataRows": [],
+    "colorOverwritesRows": [],
+    "highlightDataSeries": [],
+    "colorOverwritesSeries": []
+  },
+  "sources": [
+    {
+      "link": {
+        "url": "https://www.imf.org/en/publications/fm/issues/2025/10/07/fiscal-monitor-october-2025"
+      },
+      "text": "International: IMF, Fiscal Monitor Herbst 2025"
+    },
+    {
+      "link": {
+        "url": "https://admin.iwp.swiss/wp-content/uploads/2023/02/Lohnanalyse-oeffentliche-Verwaltung-IWP-Policy-Paper-2023.pdf"
+      },
+      "text": "Schweiz: IWP, Lohnprämie für Staatsangestellte: Verwaltungslöhne unter der Lupe. 2023"
+    }
+  ],
+  "subtitle": "Durchschnittliche Lohnprämie bei vergleichbarer Arbeit und Qualifikation ",
+  "createdBy": "peter.fischer@nzz.ch",
+  "updatedBy": "nadine.sommer@nzz.ch",
+  "department": "Wirtschaft",
+  "createdDate": "2025-12-02T15:14:59.855Z",
+  "publication": "nzz",
+  "updatedDate": "2025-12-06T13:01:40.095Z",
+  "allowDownloadData": false
+}

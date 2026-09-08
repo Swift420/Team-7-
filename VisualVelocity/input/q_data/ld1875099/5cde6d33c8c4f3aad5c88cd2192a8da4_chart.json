@@ -1,0 +1,109 @@
+{
+  "_id": "5cde6d33c8c4f3aad5c88cd2192a8da4",
+  "_rev": "6-473b8b0780067a2f9b6ace373d39f9f5",
+  "data": [
+    [
+      "Jahr",
+      "Nordafrika",
+      "West- und Zentralafrika"
+    ],
+    [
+      "2017",
+      "2.90",
+      "0.16"
+    ],
+    [
+      "2018",
+      "2.37",
+      "0.28"
+    ],
+    [
+      "2019",
+      "1.86",
+      "11.21"
+    ],
+    [
+      "2020",
+      "0.27",
+      "0.86"
+    ],
+    [
+      "2021",
+      "2.36",
+      "10.16"
+    ],
+    [
+      "2022",
+      "0.33",
+      "16.44"
+    ]
+  ],
+  "tool": "chart",
+  "title": "Seit 2018 wird in West- und Zentralafrika mehr Kokain beschlagnahmt als in Nordafrika",
+  "active": true,
+  "events": [],
+  "acronym": "adi.",
+  "options": {
+    "chartType": "Area",
+    "barOptions": {
+      "isBarChart": false,
+      "forceBarsOnSmall": false
+    },
+    "annotations": {},
+    "arrowOptions": {
+      "colorScheme": 0,
+      "invertColorScheme": false
+    },
+    "largeNumbers": {
+      "divideBy": 0
+    },
+    "hideAxisLabel": true,
+    "dotplotOptions": {},
+    "areaChartOptions": {
+      "stackType": "zero",
+      "areaInterpolation": "linear"
+    },
+    "lineChartOptions": {
+      "yScaleType": "linear",
+      "isStockChart": false,
+      "reverseYScale": false,
+      "lineInterpolation": "linear"
+    },
+    "dateSeriesOptions": {
+      "labels": "many",
+      "interval": "auto",
+      "prognosisStart": null
+    },
+    "highlightDataRows": [],
+    "colorOverwritesRows": [],
+    "highlightDataSeries": [],
+    "colorOverwritesSeries": [
+      {
+        "color": "#8d579b",
+        "position": 1,
+        "colorLight": ""
+      },
+      {
+        "color": "#e9cf8f",
+        "position": 2,
+        "colorLight": ""
+      }
+    ]
+  },
+  "sources": [
+    {
+      "link": {
+        "url": "https://dataunodc.un.org/dp-drug-seizures"
+      },
+      "text": "Unodc"
+    }
+  ],
+  "subtitle": "Beschlagnahmtes Kokain, in Tonnen",
+  "createdBy": "adina.renner@nzz.ch",
+  "updatedBy": "nadine.sommer@nzz.ch",
+  "department": "Visuals",
+  "createdDate": "2025-03-20T08:34:14.194Z",
+  "publication": "nzz",
+  "updatedDate": "2025-03-21T09:50:40.075Z",
+  "allowDownloadData": false
+}

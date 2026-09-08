@@ -1,0 +1,1677 @@
+{
+ "content": [
+  {
+   "identifier": "header",
+   "id": "doc-1j62u6qgg0",
+   "content": {
+    "title": "The greatest danger to the West comes from the West itself: from a society that no longer appreciates the value of freedom because it takes it for granted",
+    "lead": "The West has become unbalanced. As a political power, as a historical entity, and as an idea. Because it no longer knows what it stands for.",
+    "author": ""
+   },
+   "containers": {
+    "authors": [
+     {
+      "identifier": "author-teaser",
+      "id": "doc-IrUUlnxlB9",
+      "content": {
+       "layout": "authorprofile",
+       "title": "Thomas Ribi",
+       "url": "/impressum/thomas-ribi-ld.1086067",
+       "teaserImage": {
+        "originalUrl": "/2024/10/09/8aa6d866-47ba-4846-8b2c-520eb7cb88c3.jpeg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2024/10/09/8aa6d866-47ba-4846-8b2c-520eb7cb88c3.jpeg?width=1024&quality=75&auto=webp",
+        "width": 6500,
+        "height": 4334,
+        "crops": [
+         {
+          "name": "1:1",
+          "crop": "2405,2405,x2136,y436"
+         }
+        ],
+        "imageService": "fastly"
+       }
+      }
+     }
+    ]
+   },
+   "prevElement": "",
+   "nextElement": "image",
+   "firstContentElement": true
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1j63887ho0",
+   "content": {
+    "image": {
+     "author": "Illustration by Simon Tanner / NZZ",
+     "caption": "",
+     "originalUrl": "/2025/09/26/872b5f38-b694-4f4c-b940-704922a9b57a.jpg?width=1024",
+     "width": 6000,
+     "height": 4000,
+     "imageService": "fastly"
+    },
+    "author": "Illustration by Simon Tanner / NZZ",
+    "caption": ""
+   },
+   "styles": {
+    "fullwidth-widget": "widget--containerwidth"
+   },
+   "prevElement": "header",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1j62u6qgh0",
+   "content": {
+    "text": "It is dying. Or perhaps already dead. Ever since US Vice President J. D. Vance made it clear at the Munich Security Conference at the beginning of the year that he considers Europe a negligible quantity, it has been widely accepted that the West is finished. Intellectuals and politicians are debating whether it could still be saved or revived. But the debate is hesitant. People talk about the West as if it were a patient they have essentially given up on and want to protect. Out of respect."
+   },
+   "prevElement": "image",
+   "nextElement": "barrier"
+  },
+  {
+   "id": "doc-be6420d0",
+   "identifier": "barrier",
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1j62uvoto0",
+   "content": {
+    "text": "It's not the first time the West has been declared a failure. «Can the West still be saved?» headlined Die Zeit more than two years ago – implicitly answering the question: hardly. This was primarily intended as a political assessment. And indeed, the picture that emerged was bleak. From the Balkans to Iraq and Afghanistan, all the way to Ukraine: failures, hesitation, and disunity."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "barrier",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1j62uvots0",
+   "content": {
+    "text": "But the West has lost its edge not only as a political power, but also as a historical entity and as an idea. Since the Crusades, it has been plagued by an unending cycle of war and oppression: slavery, imperialism, colonialism. Europe, of all places, which prides itself on having shown the world what freedom and equality mean, had, under the guise of a hypocritical morality, nothing else in mind but to subjugate the world. This is the accusation leveled against the West by advocates of the «Global South» and proponents of postcolonial studies."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1j62uvott0",
+   "content": {
+    "text": "Humanism, Enlightenment, reason, human rights? Postcolonial critics expose these grand concepts as ideas of white men, misused to extend white male power to the farthest corners of the world. The thinkers of the Enlightenment declared their notions of good and evil the measure of all things. Perhaps with good intentions. But ultimately, they paved the way for conquerors, merchants, and slave traders to exploit the earth and force people they considered inferior to work for them. The conclusion of postcolonial historians is clear: There is no reason to be proud of this West."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1j62v06jg0",
+   "content": {
+    "title": "Historical constants",
+    "id": "subtitle-historische-konstanten"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1j62uvotu0",
+   "content": {
+    "text": "Racism, slavery, and colonialism are a dark chapter in European history. That cannot be denied. It is also true that they are only being addressed belatedly. However, reducing the image of the West to these past events is just as unacceptable as ignoring them altogether. And to claim that evil entered history with white men is as naive as it is baseless."
+   },
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1j62uvotv0",
+   "content": {
+    "text": "War, conquest, and oppression are a historical constant in all cultures. The Ottomans twice came close to making Europe part of their empire. Anyone who denounces Western colonialism must also acknowledge China's thousand-year rule over Vietnam, the Arab conquest of Spain, and China's current oppressive rule over Tibetans and Uyghurs. Slavery also existed in Chinese imperial dynasties, and for centuries, African tribal leaders enslaved people and delivered them to Arab traders, who then sold them in the New World."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1j62uvotv1",
+   "content": {
+    "text": "Of course, the West profited from it. But it was also the West that put an end to the slave trade. The British outlawed human trafficking in 1807. During the 19th century, other European states followed suit. This contrasts sharply with Islamic countries, where slavery remained a reality in some places well into the 20th century. It was officially abolished in Saudi Arabia in 1962, and in Oman in 1970. And slave markets still existed in Libya until just a few years ago."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1j62uvou00",
+   "content": {
+    "text": "This does not lessen the West's historical guilt. On the contrary. Anyone who propagates values ​​like freedom and equality and yet seeks to seize world domination by force discredits not only themselves but also the very ideas they claim to uphold. And not all atrocities are centuries in the past."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1j62v0aqf0",
+   "content": {
+    "title": "Guilty on all counts",
+    "id": "subtitle-schuldig-in-allen-punkten"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1j62uvou01",
+   "content": {
+    "text": "The images of American soldiers torturing prisoners of war in Iraq are still fresh in our minds. So too is the fact that the US attacked Iraq for fabricated, false reasons. This has severely damaged the West's credibility. For large parts of the non-Western world, the events in Iraq provided further proof that democracy and the rule of law are merely a thin veneer, under which the West ruthlessly enforces the law of the jungle."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1j62uvou02",
+   "content": {
+    "text": "When the West is debated, the battle lines are clearly drawn. For some, it represents the ambitious project of modernity, promising freedom, human rights, and a market economy for all. Others consider the universalist principles of the Enlightenment, to which the West appeals, to be hypocrisy, a cover for a patriarchal, racist enterprise. This leads to a fundamental debate in which there are usually only two positions: emphatic defense of Western values ​​or radical condemnation: guilty on all counts."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1j62uvou10",
+   "content": {
+    "text": "So there is no way out. The surprising thing about the debate, however, is not the accusations with which former colonies and descendants of slaves demand historical justice – even if it is questionable whether such a thing is even possible. Rather, the most astonishing thing is that voices from the West so reliably and emphatically join the chorus of accusers and declare themselves guilty."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1j631bfcg0",
+   "content": {
+    "text": "The Dutch Prime Minister, the Belgian King, and the English King have publicly apologized for their countries' role in the slave trade. Western researchers are at the forefront of uncovering colonial crimes. European states are returning artworks looted during the colonial era."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1j62v0k900",
+   "content": {
+    "title": "The great fiction",
+    "id": "subtitle-die-grosse-fiktion"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1j62uvou11",
+   "content": {
+    "text": "These are often non-committal gestures. But they demonstrate what above all distinguishes the West: the culture of free, open debate. Accusations can be voiced without fear of censorship. Criticism is discussed, guilt is named where it arises. Injustice is not swept under the rug. Where possible, those responsible are held accountable."
+   },
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1j62uvou12",
+   "content": {
+    "text": "One can write the history of the West as a history of transgressions. But one must not overlook the fact that it is also the history of an unprecedented culture of self-criticism. The West has committed terrible atrocities: from the Crusades to colonial crimes to the Holocaust. Yet no culture has more thoroughly confronted its own history. Enlightenment means critically reflecting on one's own thoughts and actions. It means being aware that only that which withstands scrutiny can claim validity. And that in this process, not privileges, but arguments prevail."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1j62uvou20",
+   "content": {
+    "text": "Therein lies the West's strength. Only, the West itself no longer seems aware of this strength. Because it constantly downplays itself. Systematically. What we would call the West never existed, writes the British historian Josephine Quinn in her new book, «The West: An Invention of the Global World.» She is not the only one who says this. Her book joins a series of historical accounts that aim to deconstruct the concept of the West."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1j62uvou21",
+   "content": {
+    "text": "The West, Quinn writes, is not a fact, but a fiction. The Western world, which sees itself as the successor to classical Greece and Rome? That simply doesn't hold water. The values ​​we call Western values ​​were hardly shared by the Greeks and Romans. That's true. Democracy in Athens was a male domain, for whom it was perfectly normal to seduce adolescent boys. The Romans kept slaves and, for entertainment, watched people being torn apart by lions in the arena."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1j62uvou22",
+   "content": {
+    "text": "Quinn concludes that there is no «privileged connection» between the ancient Greeks and Romans and the modern «West.» The whole thing is an ideological concept, cobbled together from hastily arranged fragments of history."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1j62v0psm0",
+   "content": {
+    "title": "The biggest test",
+    "id": "subtitle-die-gr-sste-bew-hrungsprobe"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1j62uvou23",
+   "content": {
+    "text": "That's also true. But it's not new. And not surprising. «The West» is an idea whose origins are difficult to pinpoint. It has developed since the Renaissance, from an amalgamation of ideas. From the desire to orient thought and action toward guiding principles that transcend their own time. From people who were aware that the future and the past don't simply exist, but that we must explore and shape them. And that we can only do this if we know who we want to be."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1j6311sp10",
+   "content": {
+    "text": "The war in Ukraine, the global political upheavals from the Middle East to China, the challenges facing European societies from migration, Islamist terrorism, and totalitarian tendencies, not to mention the tensions between the US and Europe: the West is not dead. Nor is it dying. But it is facing the greatest test it has ever had to face. At the same time, it remains attractive: millions of migrants are drawn not to China, Africa, or Russia, but to Europe and the US."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1j6312hqs1",
+   "content": {
+    "text": "It may be that the greatest danger to the West doesn't come from outside at all, but from within the West itself. From its capacity for self-criticism, which is its greatest strength, but can become a weakness if exploited. From a left that, spurred on by postcolonial critique, casts suspicion on the entire Western legacy. From a right that rejects universalist principles and denigrates democracy. And from a society that no longer appreciates the value of freedom because it takes it for granted."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "sharebox",
+   "lastContentElement": true
+  },
+  {
+   "identifier": "sharebox",
+   "id": "doc-1j62u6qgh1",
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "comments-preview"
+  },
+  {
+   "identifier": "comments-preview",
+   "id": "doc-151fea64",
+   "content": {
+    "showComments": true,
+    "visibleCommentCount": 37,
+    "openToComment": false,
+    "newestTopComments": [
+     {
+      "author_name": "Marc Anderson",
+      "text": "I don't see a problem with «freedom» at all. It doesn't exist absolutely; everyone is as free as is possible for them personally and according to their circumstances. This isn't much different in the West than in the Far East or the Global South. The real problems that need to be addressed politically concern freedom of movement and inequality, and «the West»—we—can make significant contributions to both of these issues for ourselves and everyone else. If the absence of hunger, serious illness, or violence is guaranteed, everyone can fully dedicate themselves to developing their human potential. As Arendt succinctly puts it in her «Vita Aktiva»: everyone muddles through. That is humankind's only freedom; it applies universally and in all directions.",
+      "created_at": "2025-09-30T15:23:39.270Z",
+      "like_count": 0,
+      "isPro": true,
+      "isNzz": false
+     },
+     {
+      "author_name": "Hartmut Kientz",
+      "text": "If the «West» was and is so bad, why don't Russia, China, North Korea, and Iran have problems with mass immigration?",
+      "created_at": "2025-09-29T19:45:19.097Z",
+      "like_count": 4,
+      "isPro": true,
+      "isNzz": false
+     }
+    ],
+    "confirmed": true
+   },
+   "paidContent": true,
+   "prevElement": "sharebox",
+   "nextElement": "related-articles-container"
+  },
+  {
+   "identifier": "related-articles-container",
+   "id": "doc-1j62u6qgh2",
+   "content": {
+    "title": "Related articles"
+   },
+   "containers": {
+    "related-articles": [
+     {
+      "identifier": "teaser",
+      "id": "doc-1j62u6qgh3",
+      "content": {
+       "owner": "NZZ",
+       "flag": "Guest opinion",
+       "title": "The Western value and world order is eroding on many levels – time is running out to counteract this",
+       "teaserImage": {
+        "originalUrl": "/2024/10/14/151c25c8-70e9-4639-b698-db3e757c5f0b.jpeg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2024/10/14/151c25c8-70e9-4639-b698-db3e757c5f0b.jpeg?width=1024&quality=75&auto=webp",
+        "width": 3892,
+        "height": 5100,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "3460,1946,x289,y2698"
+         },
+         {
+          "name": "1:1",
+          "crop": "3460,3460,x267,y1484"
+         },
+         {
+          "name": "4:3",
+          "crop": "3460,2595,x283,y2339"
+         },
+         {
+          "name": "3:4",
+          "crop": "3825,5100,x34,y0"
+         }
+        ],
+        "imageService": "fastly",
+        "teaserCaption": "The West is in the midst of an intellectual and spiritual crisis: knowledge is no longer internalized, truths are perceived intuitively, self-contradiction no longer poses a threat, and a refusal to engage in discourse is on the rise. The outlook for the continued existence of freedom and democracy is bleak.",
+        "teaserAuthor": "Getty"
+       },
+       "teaserAuthor": "Getty",
+       "nzzasFootnote": false,
+       "folioFootnote": false,
+       "language": {
+        "locale": "de-CH"
+       },
+       "nzzId": "ld.1849241",
+       "readingTime": 360,
+       "showComments": true,
+       "authorLine": "Dietmar Hansch",
+       "characterCount": 9348,
+       "product": "NZZ.ch",
+       "documentId": 1849241,
+       "layout": "opinion",
+       "publicationDate": "2024-10-15T03:30:00.000Z",
+       "publicationLastUpdated": "2024-10-15T05:08:55.309Z",
+       "significantUpdate": false,
+       "significantUpdateTill": "2024-10-15T15:30:00.000Z",
+       "teaserCaption": "The West is in the midst of an intellectual and spiritual crisis: knowledge is no longer internalized, truths are perceived intuitively, self-contradiction no longer poses a threat, and a refusal to engage in discourse is on the rise. The outlook for the continued existence of freedom and democracy is bleak.",
+       "url": "/meinung/der-westen-ist-in-einer-tiefen-krise-und-die-zeit-fuer-korrekturen-laeuft-ab-ld.1849241",
+       "department": {
+        "name": "Opinion",
+        "path": "/meinung"
+       },
+       "estimationWordCount": 1248,
+       "leadText": "The West is in the midst of an intellectual and spiritual crisis: knowledge is no longer internalized, truths are perceived intuitively, self-contradiction no longer poses a threat, and a refusal to engage in discourse is on the rise. The outlook for the continued existence of freedom and democracy is bleak."
+      }
+     },
+     {
+      "identifier": "teaser",
+      "id": "doc-1j62u6qgh4",
+      "content": {
+       "owner": "NZZ",
+       "flag": "Guest opinion",
+       "title": "The West has exhausted itself in enforcing a rules-based world order – it needs to reposition itself",
+       "teaserImage": {
+        "originalUrl": "/2022/09/03/3001e323-01ed-410e-9f7b-db26baf785ce.jpeg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2022/09/03/3001e323-01ed-410e-9f7b-db26baf785ce.jpeg?width=1024&quality=75&auto=webp",
+        "width": 5263,
+        "height": 3479,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "4158,2338,x558,y1141"
+         },
+         {
+          "name": "1:1",
+          "crop": "3479,3478,x1065,y1"
+         },
+         {
+          "name": "4:3",
+          "crop": "4639,3479,x312,y0"
+         },
+         {
+          "name": "3:4",
+          "crop": "2609,3479,x1327,y0"
+         }
+        ],
+        "imageService": "fastly",
+        "teaserCaption": "With Donald Trump's return to the White House, the globalized world order is slipping even further. The West is increasingly realizing that it has overextended itself. Idealism cannot withstand reality; what is needed is a return to one's own roots.",
+        "teaserAuthor": "Jon Hicks / Getty"
+       },
+       "teaserAuthor": "Jon Hicks / Getty",
+       "nzzasFootnote": false,
+       "folioFootnote": false,
+       "language": {
+        "locale": "de-CH"
+       },
+       "nzzId": "ld.1869900",
+       "readingTime": 360,
+       "showComments": true,
+       "authorLine": "Heinz Theisen",
+       "characterCount": 8609,
+       "product": "NZZ.ch",
+       "documentId": 1869900,
+       "layout": "opinion",
+       "publicationDate": "2025-05-26T03:30:00.000Z",
+       "publicationLastUpdated": "2025-05-26T04:22:02.387Z",
+       "significantUpdate": false,
+       "significantUpdateTill": "2025-05-26T15:30:00.000Z",
+       "teaserCaption": "With Donald Trump's return to the White House, the globalized world order is slipping even further. The West is increasingly realizing that it has overextended itself. Idealism cannot withstand reality; what is needed is a return to one's own roots.",
+       "url": "/meinung/der-westen-hat-sich-mit-der-durchsetzung-der-auf-seinen-werten-basierten-weltordnung-stark-verausgabt-er-muss-sich-neu-aufstellen-ld.1869900",
+       "department": {
+        "name": "Opinion",
+        "path": "/meinung"
+       },
+       "estimationWordCount": 1225,
+       "leadText": "With Donald Trump's return to the White House, the globalized world order is slipping even further. The West is increasingly realizing that it has overextended itself. Idealism cannot withstand reality; what is needed is a return to one's own roots."
+      }
+     },
+     {
+      "identifier": "teaser",
+      "id": "doc-1j62u6qgh5",
+      "content": {
+       "owner": "NZZaS",
+       "flag": "interview",
+       "title": "«The West no longer knows who it is,» says Catholic theologian Georg Essen",
+       "teaserImage": {
+        "originalUrl": "/2025/01/01/3323a17d-750b-410e-a543-4ef8242f6f72.jpeg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2025/01/01/3323a17d-750b-410e-a543-4ef8242f6f72.jpeg?width=1024&quality=75&auto=webp",
+        "width": 4724,
+        "height": 3150,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "1637,920,x1460,y81"
+         },
+         {
+          "name": "1:1",
+          "crop": "1381,1381,x1601,y0"
+         },
+         {
+          "name": "4:3",
+          "crop": "4200,3150,x75,y0"
+         },
+         {
+          "name": "3:4",
+          "crop": "2363,3150,x335,y0"
+         }
+        ],
+        "imageService": "fastly",
+        "teaserCaption": "Georg Essen argues that the West has lost an important part of its identity. He advocates viewing freedom and secularism as central elements of identity.",
+        "teaserAuthor": "Christian Mang / Imago"
+       },
+       "teaserAuthor": "Christian Mang / Imago",
+       "nzzasFootnote": true,
+       "folioFootnote": false,
+       "language": {
+        "locale": "de-CH"
+       },
+       "nzzId": "ld.1864465",
+       "readingTime": 540,
+       "authorLine": "Michael Meier",
+       "characterCount": 12265,
+       "product": "NZZ.ch",
+       "documentId": 1864465,
+       "layout": "longformstandard",
+       "publicationDate": "2025-01-04T20:45:00.000Z",
+       "publicationLastUpdated": "2025-01-07T06:43:50.102Z",
+       "significantUpdate": false,
+       "significantUpdateTill": "2025-01-05T08:45:00.000Z",
+       "teaserCaption": "Georg Essen argues that the West has lost an important part of its identity. He advocates viewing freedom and secularism as central elements of identity.",
+       "url": "/report-und-debatte/der-westen-weiss-nicht-mehr-wer-er-ist-ld.1864465",
+       "department": {
+        "name": "Report and debate",
+        "path": "/report-und-debatte"
+       },
+       "estimationWordCount": 1874,
+       "leadText": "Georg Essen argues that the West has lost an important part of its identity. He advocates viewing freedom and secularism as central elements of identity."
+      }
+     }
+    ]
+   },
+   "paidContent": true,
+   "prevElement": "comments-preview",
+   "nextElement": "",
+   "lastContentElement": true
+  }
+ ],
+ "metadata": {
+  "owner": "NZZ",
+  "germanyRelevant": true,
+  "flag": "Opinion",
+  "title": "The greatest danger to the West comes from the West itself: from a society that no longer appreciates the value of freedom because it takes it for granted",
+  "teaserImage": {
+   "originalUrl": "/2025/09/26/872b5f38-b694-4f4c-b940-704922a9b57a.jpg?width=1024",
+   "url": "https://img-msp-prod.nzz.ch/2025/09/26/872b5f38-b694-4f4c-b940-704922a9b57a.jpg?width=1024&quality=75&auto=webp",
+   "width": 6000,
+   "height": 4000,
+   "crops": [
+    {
+     "name": "16:9",
+     "crop": "6000,3375,x0,y13"
+    },
+    {
+     "name": "1:1",
+     "crop": "4000,4000,x823,y0"
+    },
+    {
+     "name": "4:3",
+     "crop": "5333,4000,x379,y0"
+    },
+    {
+     "name": "3:4",
+     "crop": "3000,4000,x1490,y0"
+    },
+    {
+     "name": "3:2",
+     "crop": "6000,4000,x0,y0"
+    }
+   ],
+   "imageService": "fastly",
+   "teaserCaption": "The West has become unbalanced. As a political power, as a historical entity, and as an idea. Because it no longer knows what it stands for.",
+   "teaserAuthor": "Illustration by Simon Tanner / NZZ"
+  },
+  "teaserAuthor": "Illustration by Simon Tanner / NZZ",
+  "nzzasFootnote": false,
+  "folioFootnote": false,
+  "language": {
+   "locale": "en-US"
+  },
+  "nzzId": "ld.1904443",
+  "readingTime": 480,
+  "showComments": true,
+  "authorLine": "Thomas Ribi",
+  "characterCount": 9954,
+  "breadcrumbs": [
+   {
+    "name": "Opinion",
+    "path": "/meinung"
+   }
+  ],
+  "product": "NZZ.ch",
+  "documentId": 1904443,
+  "contentTypeGroup": "web",
+  "layout": "opinion",
+  "firstPublicationDate": "2025-09-29T03:30:00.000Z",
+  "publicationDate": "2025-09-29T03:30:00.000Z",
+  "publicationLastUpdated": "2025-09-29T04:05:11.129Z",
+  "significantUpdate": false,
+  "significantUpdateTill": "2025-09-29T15:30:00.000Z",
+  "teaserCaption": "The West has become unbalanced. As a political power, as a historical entity, and as an idea. Because it no longer knows what it stands for.",
+  "nzzAuthors": [
+   {
+    "id": 1373539,
+    "name": "Thomas Ribi",
+    "shortName": "rib",
+    "pianoId": "35e8ac26-13f6-4c94-aca0-dd86af29e642",
+    "external": false
+   }
+  ],
+  "authorImage": {
+   "originalUrl": "/2024/10/09/8aa6d866-47ba-4846-8b2c-520eb7cb88c3.jpeg?width=1024",
+   "url": "https://img-msp-prod.nzz.ch/2024/10/09/8aa6d866-47ba-4846-8b2c-520eb7cb88c3.jpeg?width=1024&quality=75&auto=webp",
+   "width": 6500,
+   "height": 4334,
+   "crops": [
+    {
+     "name": "1:1",
+     "crop": "2405,2405,x2136,y436"
+    }
+   ],
+   "imageService": "fastly"
+  },
+  "nzzAuthorProfileDataCollection": [
+   {
+    "documentId": 1086067,
+    "name": "Thomas Ribi (rib.)",
+    "teaserImageUrl": "https://img-msp-prod.nzz.ch/2024/10/09/8aa6d866-47ba-4846-8b2c-520eb7cb88c3.jpeg?width=1024&quality=75&auto=webp"
+   }
+  ],
+  "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2024/10/09/8aa6d866-47ba-4846-8b2c-520eb7cb88c3.jpeg?width=1024&quality=75&auto=webp",
+  "url": "/meinung/die-groesste-gefahr-fuer-den-westen-geht-vom-westen-aus-von-einer-gesellschaft-die-den-wert-der-freiheit-nicht-mehr-schaetzt-weil-sie-sie-fuer-selbstverstaendlich-haelt-ld.1904443",
+  "department": {
+   "name": "Opinion",
+   "path": "/meinung"
+  },
+  "estimationWordCount": 1515,
+  "premium": true,
+  "leadText": "The West has become unbalanced. As a political power, as a historical entity, and as an idea. Because it no longer knows what it stands for.",
+  "nzzSummaryModel": "gpt-4o-2024-11-20",
+  "nzzPrintTitle": "The greatest danger to the West comes from the West",
+  "nzzPrintSubtitle": "The West has become unbalanced. As a political power, as a historical entity, and as an idea. Because it no longer knows what it stands for",
+  "allArticleLanguages": [
+   {
+    "locale": "de-CH",
+    "urlPath": "/meinung/die-groesste-gefahr-fuer-den-westen-geht-vom-westen-aus-von-einer-gesellschaft-die-den-wert-der-freiheit-nicht-mehr-schaetzt-weil-sie-sie-fuer-selbstverstaendlich-haelt-ld.1904443",
+    "seo": {}
+   }
+  ],
+  "seo": {
+   "canonicalUrl": "https://www.nzz.ch/meinung/die-groesste-gefahr-fuer-den-westen-geht-vom-westen-aus-von-einer-gesellschaft-die-den-wert-der-freiheit-nicht-mehr-schaetzt-weil-sie-sie-fuer-selbstverstaendlich-haelt-ld.1904443",
+   "title": "The greatest danger to the West comes from the West",
+   "socialMediaTitle": "Can the West still be saved? ",
+   "excludeFromSpiders": false,
+   "image": "https://img-msp-prod.nzz.ch/2025/09/26/872b5f38-b694-4f4c-b940-704922a9b57a.jpg?width=1200&height=675&fit=bounds&quality=75&auto=webp&crop=6000,3375,x0,y13&wmark=nzz"
+  },
+  "ldPublicationId": 2406941,
+  "isHighlightedHeader": true,
+  "nzzTopics": [
+   {
+    "name": "colonialism",
+    "slug": "/themen/kolonialismus"
+   },
+   {
+    "name": "USA",
+    "slug": "/themen/usa"
+   },
+   {
+    "name": "racism",
+    "slug": "/themen/rassismus"
+   },
+   {
+    "name": "Iraq",
+    "slug": "/themen/irak"
+   },
+   {
+    "name": "China",
+    "slug": "/themen/china"
+   },
+   {
+    "name": "JD Vance",
+    "slug": "/themen/j-d-vance"
+   },
+   {
+    "name": "Ukraine",
+    "slug": "/themen/ukraine"
+   },
+   {
+    "name": "Human trafficking",
+    "slug": "/themen/menschenhandel"
+   },
+   {
+    "name": "Great Britain",
+    "slug": "/themen/grossbritannien"
+   },
+   {
+    "name": "Migration",
+    "slug": "/themen/migration"
+   },
+   {
+    "name": "Tibet",
+    "slug": "/themen/tibet"
+   },
+   {
+    "name": "Uyghurs",
+    "slug": "/themen/uiguren"
+   },
+   {
+    "name": "Vietnam",
+    "slug": "/themen/vietnam"
+   },
+   {
+    "name": "Belgium",
+    "slug": "/themen/belgien"
+   },
+   {
+    "name": "England",
+    "slug": "/themen/england"
+   },
+   {
+    "name": "Libya",
+    "slug": "/themen/libyen"
+   },
+   {
+    "name": "Netherlands",
+    "slug": "/themen/niederlande"
+   },
+   {
+    "name": "Oman",
+    "slug": "/themen/oman"
+   },
+   {
+    "name": "Russia",
+    "slug": "/themen/russland"
+   },
+   {
+    "name": "Saudi Arabia",
+    "slug": "/themen/saudiarabien"
+   },
+   {
+    "name": "Spain",
+    "slug": "/themen/spanien"
+   },
+   {
+    "name": "terrorism",
+    "slug": "/themen/terrorismus"
+   },
+   {
+    "name": "Afghanistan",
+    "slug": "/themen/afghanistan"
+   },
+   {
+    "name": "Greece",
+    "slug": "/themen/griechenland"
+   }
+  ],
+  "comments": {
+   "showComments": true,
+   "visibleCommentCount": 37,
+   "openToComment": false,
+   "newestTopComments": [
+    {
+     "author_name": "Marc Anderson",
+     "text": "I don't see a problem with «freedom» at all. It doesn't exist absolutely; everyone is as free as is possible for them personally and according to their circumstances. This isn't much different in the West than in the Far East or the Global South. The real problems that need to be addressed politically concern freedom of movement and inequality, and «the West»—we—can make significant contributions to both of these issues for ourselves and everyone else. If the absence of hunger, serious illness, or violence is guaranteed, everyone can fully dedicate themselves to developing their human potential. As Arendt succinctly puts it in her «Vita Aktiva»: everyone muddles through. That is humankind's only freedom; it applies universally and in all directions.",
+     "created_at": "2025-09-30T15:23:39.270Z",
+     "like_count": 0,
+     "isPro": true,
+     "isNzz": false
+    },
+    {
+     "author_name": "Hartmut Kientz",
+     "text": "If the «West» was and is so bad, why don't Russia, China, North Korea, and Iran have problems with mass immigration?",
+     "created_at": "2025-09-29T19:45:19.097Z",
+     "like_count": 4,
+     "isPro": true,
+     "isNzz": false
+    }
+   ],
+   "confirmed": true
+  },
+  "barrierIndex": 3,
+  "outlinks": {
+   "mehrZumThema": [
+    "ld.1849241",
+    "ld.1869900",
+    "ld.1864465"
+   ],
+   "artikelListe": [],
+   "aliasTeaserEmbedList": []
+  },
+  "tts": true,
+  "mp3": true,
+  "mp3Duration": 667690,
+  "colorSchema": "color-schema--premium",
+  "project": "nzz",
+  "machineTranslated": true,
+  "machineTranslationValidated": false
+ },
+ "isReduced": false,
+ "isPaid": false,
+ "isVamp": false,
+ "isWebview": false,
+ "btaFeed": {
+  "meta": {
+   "id": "kolonialismus",
+   "name": "colonialism",
+   "tagName": "colonialism",
+   "qId": "Q7167",
+   "seoTitle": "Colonialism – All articles on the topic | NZZ",
+   "description": null,
+   "firstName": null,
+   "lastName": null,
+   "category": "MISC",
+   "createdDate": "2025-04-08 14:36:43.043Z",
+   "imageURL": null,
+   "imageCroppedURL": null,
+   "imageWidth": 0,
+   "imageHeight": 0,
+   "imageCredits": null,
+   "url": "https://nzz.ch/themen/kolonialismus",
+   "size": 395,
+   "relatedTopics": [
+    {
+     "name": "USA",
+     "slug": "/themen/usa"
+    },
+    {
+     "name": "Rassismus",
+     "slug": "/themen/rassismus"
+    },
+    {
+     "name": "Irak",
+     "slug": "/themen/irak"
+    },
+    {
+     "name": "China",
+     "slug": "/themen/china"
+    },
+    {
+     "name": "J. D. Vance",
+     "slug": "/themen/j-d-vance"
+    },
+    {
+     "name": "Ukraine",
+     "slug": "/themen/ukraine"
+    },
+    {
+     "name": "Menschenhandel",
+     "slug": "/themen/menschenhandel"
+    },
+    {
+     "name": "Grossbritannien",
+     "slug": "/themen/grossbritannien"
+    },
+    {
+     "name": "Migration",
+     "slug": "/themen/migration"
+    },
+    {
+     "name": "Tibet",
+     "slug": "/themen/tibet"
+    },
+    {
+     "name": "Uiguren",
+     "slug": "/themen/uiguren"
+    },
+    {
+     "name": "Vietnam",
+     "slug": "/themen/vietnam"
+    },
+    {
+     "name": "Belgien",
+     "slug": "/themen/belgien"
+    },
+    {
+     "name": "England",
+     "slug": "/themen/england"
+    },
+    {
+     "name": "Libyen",
+     "slug": "/themen/libyen"
+    },
+    {
+     "name": "Niederlande",
+     "slug": "/themen/niederlande"
+    },
+    {
+     "name": "Oman",
+     "slug": "/themen/oman"
+    },
+    {
+     "name": "Russland",
+     "slug": "/themen/russland"
+    },
+    {
+     "name": "Saudiarabien",
+     "slug": "/themen/saudiarabien"
+    },
+    {
+     "name": "Spanien",
+     "slug": "/themen/spanien"
+    },
+    {
+     "name": "Terrorismus",
+     "slug": "/themen/terrorismus"
+    },
+    {
+     "name": "Afghanistan",
+     "slug": "/themen/afghanistan"
+    },
+    {
+     "name": "Griechenland",
+     "slug": "/themen/griechenland"
+    }
+   ]
+  },
+  "data": [
+   {
+    "title": "Morocco and the Spanish enclaves of Ceuta and Melilla: «Like two women in chains»",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "authorLine": "Kacem El Ghazzali",
+    "editor": "1874431",
+    "nzzId": "ld.10018247",
+    "readingTime": 420,
+    "paywallQuestionOne": "Why does Morocco claim Ceuta and Melilla as part of its territory?",
+    "paywallQuestionTwo": "How does colonial history influence the Moroccan view of Ceuta and Melilla?",
+    "paywallQuestionThree": "What role do Ceuta and Melilla play in Europe's current migration policy?",
+    "characterCount": 9579,
+    "teaserImage": {
+     "originalUrl": "/2026/08/05/eb874fbd-2693-4a04-8ac0-d6fd0760802d.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/08/05/eb874fbd-2693-4a04-8ac0-d6fd0760802d.jpg?width=1024&quality=75&auto=webp",
+     "width": 6010,
+     "height": 3353,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "5961,3353,x25,y0"
+      },
+      {
+       "name": "4:3",
+       "crop": "4471,3353,x770,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "3353,3353,x1329,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "2515,3353,x1748,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "5030,3353,x490,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "For centuries, Morocco has claimed the enclaves as its own. Politicians, media and poets alike have elevated them to a symbol of resistance to colonialism.",
+     "teaserAuthor": "Hussein El-Alawi / Imago"
+    },
+    "teaserAuthor": "Hussein El-Alawi / Imago",
+    "product": "NZZ.ch",
+    "documentId": "10018247",
+    "layout": "longformstandard",
+    "publicationDate": "2026-08-06T03:30:00.000Z",
+    "publicationLastUpdated": "2026-08-06T03:30:00.000Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-08-06T15:30:00.000Z",
+    "teaserCaption": "For centuries, Morocco has claimed the enclaves as its own. Politicians, media and poets alike have elevated them to a symbol of resistance to colonialism.",
+    "url": "https://www.nzz.ch/feuilleton/marokko-und-die-spanischen-exklaven-ceuta-und-melilla-wie-zwei-frauen-in-fesseln-ld.10018247",
+    "department": {
+     "name": "Arts & Culture",
+     "path": "/feuilleton"
+    },
+    "estimationWordCount": 1464,
+    "premium": true,
+    "leadText": "For centuries, Morocco has claimed the enclaves as its own. Politicians, media and poets alike have elevated them to a symbol of resistance to colonialism.",
+    "nzzSummaryIsAuto": true,
+    "hasQ": true,
+    "locale": "de-CH"
+   },
+   {
+    "owner": "NZZ",
+    "title": "Colonialism, antisemitism and populism: a look at history shows how devastating the bursting of the AI bubble would be (repeat)",
+    "authorLine": "David Vogel",
+    "language": {
+     "locale": "de"
+    },
+    "flag": "Podcast «NZZ Geopolitics»",
+    "teaserImage": {
+     "originalUrl": "/2026/07/17/fb6323ec-94fe-4721-a013-a015d55fdac1.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/07/17/fb6323ec-94fe-4721-a013-a015d55fdac1.jpg?width=1024&quality=75&auto=webp",
+     "width": 3000,
+     "height": 3000,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "3000,1687,x0,y656"
+      },
+      {
+       "name": "4:3",
+       "crop": "3000,2250,x0,y375"
+      },
+      {
+       "name": "1:1",
+       "crop": "3000,3000,x0,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "2250,3000,x375,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "3000,2000,x0,y500"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "In the podcast, business editor Markus Städeli discusses the possible geopolitical consequences should the speculative bubble burst."
+    },
+    "nzzId": "ld.10015939",
+    "readingTime": 120,
+    "paywallQuestionOne": "What geopolitical consequences could the bursting of the AI ​​bubble have?",
+    "paywallQuestionTwo": "What parallels exist between the AI ​​bubble and previous speculative bubbles?",
+    "paywallQuestionThree": "Why do investors often ignore warnings about speculative bubbles?",
+    "characterCount": 1813,
+    "product": "NZZ.ch",
+    "documentId": "10015939",
+    "layout": "regular",
+    "publicationDate": "2026-07-29T03:30:00.000Z",
+    "publicationLastUpdated": "2026-07-30T13:06:11.016Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-07-29T15:30:00.000Z",
+    "teaserCaption": "In the podcast, business editor Markus Städeli discusses the possible geopolitical consequences should the speculative bubble burst.",
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2024/04/30/350dcacf-0037-4900-bd54-d0ac546e8332.png?width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/podcast/geopolitik/kolonialismus-antisemitismus-und-populismus-der-blick-in-die-geschichte-zeigt-wie-verheerend-das-platzen-der-ki-blase-waere-wh-ld.10015939",
+    "department": {
+     "name": "Geopolitics",
+     "path": "/podcast/geopolitik"
+    },
+    "estimationWordCount": 300,
+    "leadText": "In the podcast, business editor Markus Städeli discusses the possible geopolitical consequences should the speculative bubble burst.",
+    "nzzSummaryIsAuto": true,
+    "teaserPodcastTitle": "Why the bursting of the AI ​​bubble would also be geopolitically devastating (repeat)",
+    "teaserPodcastAuthor": "David Vogel mit Markus Städeli",
+    "teaserPodcastDate": "29.07.2026",
+    "teaserPodcastUrl": "https://audio.podigee-cdn.net/2548290-m-4f9934c1c7c37fbf20c6f0caccefff20.mp3",
+    "teaserPodcastDuration": "27",
+    "locale": "de-CH"
+   },
+   {
+    "title": "«An outrageous attempt to normalize Nazi crimes»: the star historian Richard J. Evans on the debate about the uniqueness of the Holocaust",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "teaserImage": {
+     "originalUrl": "/2026/07/14/4ff21e14-6572-4d09-a1dc-669d4c140547.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/07/14/4ff21e14-6572-4d09-a1dc-669d4c140547.jpg?width=1024&quality=75&auto=webp",
+     "width": 4402,
+     "height": 3056,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "4402,2476,x0,y194"
+      },
+      {
+       "name": "4:3",
+       "crop": "4075,3056,x0,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "3056,3056,x747,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "2292,3056,x1440,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "4402,2935,x0,y28"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "Can Auschwitz be compared to other crimes against humanity? Forty years after this question sparked the Historians' Debate in Germany, the British bestselling author takes stock. And he also puts colonial violence into perspective.",
+     "teaserAuthor": "Heinrich Hoffmann / Getty"
+    },
+    "teaserAuthor": "Heinrich Hoffmann / Getty",
+    "showComments": true,
+    "flag": "interview",
+    "nzzId": "ld.10015404",
+    "readingTime": 540,
+    "paywallQuestionOne": "What was Ernst Nolte's central provocation in the Historians' Debate?",
+    "paywallQuestionTwo": "How did the Cold War influence the debate about the Holocaust?",
+    "paywallQuestionThree": "Why does the singularity of the Holocaust remain historically significant?",
+    "characterCount": 12222,
+    "product": "NZZ.ch",
+    "documentId": "10015404",
+    "layout": "longformstandard",
+    "publicationDate": "2026-07-20T03:30:00.000Z",
+    "publicationLastUpdated": "2026-07-20T03:30:00.000Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-07-20T15:30:00.000Z",
+    "teaserCaption": "Can Auschwitz be compared to other crimes against humanity? Forty years after this question sparked the Historians' Debate in Germany, the British bestselling author takes stock. And he also puts colonial violence into perspective.",
+    "authorLine": "Marc Tribelhorn",
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2022/06/22/e7b23cb0-5d6e-4f40-ac76-58ea40fc3896.png?width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/feuilleton/ein-unerhoerter-versuch-die-nazi-verbrechen-zu-normalisieren-der-starhistoriker-richard-j-evans-ueber-den-streit-um-die-einzigartigkeit-des-holocaust-ld.10015404",
+    "department": {
+     "name": "Arts & Culture",
+     "path": "/feuilleton"
+    },
+    "estimationWordCount": 1803,
+    "premium": true,
+    "leadText": "Can Auschwitz be compared to other crimes against humanity? Forty years after this question sparked the Historians' Debate in Germany, the British bestselling author takes stock. And he also puts colonial violence into perspective.",
+    "nzzSummaryIsAuto": true,
+    "commentsCount": 14,
+    "openToComment": false,
+    "locale": "de-CH"
+   },
+   {
+    "title": "The resentment of the «Third World» – Zohran Mamdani re-enacts the anti-colonial uprising on the US stage",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "authorLine": "Zineb Riboua",
+    "flag": "Guest opinion",
+    "editor": "1371769",
+    "nzzId": "ld.10012909",
+    "readingTime": 420,
+    "paywallQuestionOne": "How does Zohran Mamdani's political views be shaped by his «Third World» thinking?",
+    "paywallQuestionTwo": "What role does moral language play in Mamdani's political strategy?",
+    "paywallQuestionThree": "How does Mamdani connect global anti-imperialist ideas with US realities?",
+    "characterCount": 9437,
+    "teaserImage": {
+     "originalUrl": "/2026/07/06/e6a4a712-e0fe-4fae-9f9b-c59a129b1f2a.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/07/06/e6a4a712-e0fe-4fae-9f9b-c59a129b1f2a.jpg?width=1024&quality=75&auto=webp",
+     "width": 6898,
+     "height": 4599,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "6271,3527,x309,y0"
+      },
+      {
+       "name": "4:3",
+       "crop": "6132,4599,x329,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "3455,3455,x1820,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "3449,4599,x1811,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "6898,4599,x0,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "The far left reduces history to an eternal struggle between the powerless and the powerful, good and evil. New York Mayor Mamdani is a master at transforming distant colonial wars into a domestic cultural rebellion.",
+     "teaserAuthor": "Anna Connors / Getty"
+    },
+    "teaserAuthor": "Anna Connors / Getty",
+    "showComments": true,
+    "product": "NZZ.ch",
+    "documentId": "10012909",
+    "layout": "opinion",
+    "publicationDate": "2026-07-07T03:30:00.000Z",
+    "publicationLastUpdated": "2026-07-07T04:10:17.644Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-07-07T15:30:00.000Z",
+    "teaserCaption": "The far left reduces history to an eternal struggle between the powerless and the powerful, good and evil. New York Mayor Mamdani is a master at transforming distant colonial wars into a domestic cultural rebellion.",
+    "url": "https://www.nzz.ch/meinung/der-groll-der-dritten-welt-zohran-mamdani-reinszeniert-den-antikolonialen-aufstand-auf-der-buehne-der-usa-ld.10012909",
+    "department": {
+     "name": "Opinion",
+     "path": "/meinung"
+    },
+    "estimationWordCount": 1314,
+    "leadText": "The far left reduces history to an eternal struggle between the powerless and the powerful, good and evil. New York Mayor Mamdani is a master at transforming distant colonial wars into a domestic cultural rebellion.",
+    "nzzSummaryIsAuto": true,
+    "commentsCount": 20,
+    "openToComment": false,
+    "locale": "de-CH"
+   },
+   {
+    "title": "What it means to be a citizen of a democracy: The «Declaration of Independence» turns 250 years old",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "teaserImage": {
+     "originalUrl": "/2026/07/02/507437e2-0600-4b22-91d9-5862dfe9f254.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/07/02/507437e2-0600-4b22-91d9-5862dfe9f254.jpg?width=1024&quality=75&auto=webp",
+     "width": 4000,
+     "height": 2968,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "4000,2250,x0,y359"
+      },
+      {
+       "name": "4:3",
+       "crop": "3957,2968,x21,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "2968,2968,x516,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "2226,2968,x887,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "4000,2667,x0,y151"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "Few political documents have shaped world history as profoundly. The «Declaration of Independence» still impresses today with its intellectual conciseness and enduring impact. How the document came about 250 years ago – and what it contains.",
+     "teaserAuthor": "John Angelillo / Imago"
+    },
+    "tags": [
+     "Amerika"
+    ],
+    "authorLine": "Isabelle Jacobi, Julia Monn (graphics)",
+    "teaserAuthor": "John Angelillo / Imago",
+    "nzzId": "ld.10013354",
+    "readingTime": 300,
+    "paywallQuestionOne": "What is the main message conveyed by the Declaration of Independence?",
+    "paywallQuestionTwo": "How did writing influence the revolution and later movements?",
+    "paywallQuestionThree": "What role did Thomas Jefferson play in the creation of the document?",
+    "characterCount": 6579,
+    "product": "NZZ.ch",
+    "documentId": "10013354",
+    "layout": "longformvisual",
+    "publicationDate": "2026-07-04T03:30:00.000Z",
+    "publicationLastUpdated": "2026-07-04T10:11:31.247Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-07-04T15:30:00.000Z",
+    "teaserCaption": "Few political documents have shaped world history as profoundly. The «Declaration of Independence» still impresses today with its intellectual conciseness and enduring impact. How the document came about 250 years ago – and what it contains.",
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2024/07/24/778ef237-b4cf-4f32-8e9e-93d8e2537042.jpeg?width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/international/was-es-bedeutet-buerger-einer-demokratie-zu-sein-die-declaration-of-independence-wird-250-jahre-alt-wuerdigung-der-bedeutenden-schrift-ld.10013354",
+    "department": {
+     "name": "International",
+     "path": "/international"
+    },
+    "estimationWordCount": 1020,
+    "leadText": "Few political documents have shaped world history as profoundly. The «Declaration of Independence» still impresses today with its intellectual conciseness and enduring impact. How the document came about 250 years ago – and what it contains.",
+    "nzzSummaryIsAuto": true,
+    "hasQ": true,
+    "locale": "de-CH"
+   },
+   {
+    "title": "The Swiss minister, the king and the looted art: Switzerland returns Benin bronzes for the first time – what will happen to them now?",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "teaserImage": {
+     "originalUrl": "/2026/06/29/d70bf2ae-c439-4fd7-a941-4ea9c9c7e506.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/06/29/d70bf2ae-c439-4fd7-a941-4ea9c9c7e506.jpg?width=1024&quality=75&auto=webp",
+     "width": 7052,
+     "height": 4701,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "7052,3967,x0,y291"
+      },
+      {
+       "name": "4:3",
+       "crop": "6268,4701,x280,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "4701,4701,x1064,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "3526,4701,x1651,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "7052,4701,x0,y0"
+      }
+     ],
+     "focalPoint": {
+      "x": 3414,
+      "y": 2274
+     },
+     "imageService": "fastly",
+     "teaserCaption": "A formal handover of 18 objects took place in Nigeria on Monday. It is a homecoming that no one had expected until very recently.",
+     "teaserAuthor": "Images Anthony Anex / Keystone"
+    },
+    "teaserAuthor": "Images Anthony Anex / Keystone",
+    "editor": "1371941",
+    "nzzId": "ld.10013333",
+    "readingTime": 360,
+    "paywallQuestionOne": "Why is Switzerland returning Benin bronzes to Nigeria?",
+    "paywallQuestionTwo": "What controversies surround the return of the Benin Bronzes?",
+    "paywallQuestionThree": "What will be the future of the Benin Bronzes in Nigeria?",
+    "characterCount": 7707,
+    "teaserCarouselOne": {
+     "originalUrl": "/2026/06/29/d70bf2ae-c439-4fd7-a941-4ea9c9c7e506.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/06/29/d70bf2ae-c439-4fd7-a941-4ea9c9c7e506.jpg?width=1024&quality=75&auto=webp",
+     "width": 7052,
+     "height": 4701,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "7052,3967,x0,y315"
+      },
+      {
+       "name": "1:1",
+       "crop": "4701,4701,x1089,y0"
+      },
+      {
+       "name": "4:3",
+       "crop": "6268,4701,x305,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "3526,4701,x1676,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "7052,4701,x0,y0"
+      }
+     ],
+     "focalPoint": {
+      "x": 3439,
+      "y": 2298
+     },
+     "imageService": "fastly"
+    },
+    "teaserCarouselTwo": {
+     "originalUrl": "/2026/06/29/052cd9dd-e706-4163-ab80-03d38f69ac76.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/06/29/052cd9dd-e706-4163-ab80-03d38f69ac76.jpg?width=1024&quality=75&auto=webp",
+     "width": 8210,
+     "height": 5473,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "8210,4618,x0,y427"
+      },
+      {
+       "name": "1:1",
+       "crop": "5473,5473,x1369,y0"
+      },
+      {
+       "name": "4:3",
+       "crop": "7297,5473,x456,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "4105,5473,x2053,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "8210,5473,x0,y0"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "teaserCarouselThree": {
+     "originalUrl": "/2025/11/11/374ea594-39a7-44c2-aac8-60a457173403.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2025/11/11/374ea594-39a7-44c2-aac8-60a457173403.jpg?width=1024&quality=75&auto=webp",
+     "width": 3648,
+     "height": 2432,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "3648,2052,x0,y250"
+      },
+      {
+       "name": "1:1",
+       "crop": "2432,2432,x1005,y0"
+      },
+      {
+       "name": "4:3",
+       "crop": "3243,2432,x405,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "1824,2432,x1309,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "3648,2432,x0,y0"
+      }
+     ],
+     "focalPoint": {
+      "x": 2221,
+      "y": 1276
+     },
+     "imageService": "fastly"
+    },
+    "product": "NZZ.ch",
+    "documentId": "10013333",
+    "layout": "longformvisual",
+    "publicationDate": "2026-06-29T15:30:00.000Z",
+    "publicationLastUpdated": "2026-06-29T17:41:53.196Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-06-30T03:30:00.000Z",
+    "teaserCaption": "A formal handover of 18 objects took place in Nigeria on Monday. It is a homecoming that no one had expected until very recently.",
+    "authorLine": "Giorgio Scherrer",
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2022/12/01/f54a56b5-0af9-4053-8c04-694ddf81353c.png?width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/zuerich/rueckgabe-von-benin-bronzen-bundesraetin-baume-schneider-in-nigeria-ld.10013333",
+    "department": {
+     "name": "Zurich",
+     "path": "/zuerich"
+    },
+    "estimationWordCount": 1268,
+    "leadText": "A formal handover of 18 objects took place in Nigeria on Monday. It is a homecoming that no one had expected until very recently.",
+    "nzzSummaryIsAuto": true,
+    "locale": "de-CH"
+   }
+  ]
+ },
+ "digitalData": {
+  "component": [
+   {
+    "id": "ld.1904443",
+    "name": "The greatest danger to the West comes from the West itself: from a society that no longer appreciates the value of freedom because it takes it for granted",
+    "type": "article",
+    "subType1": "opinion",
+    "subType2": "",
+    "primaryCategory": "Meinung",
+    "subCategory1": "",
+    "attributes": {
+     "headline": "The greatest danger to the West comes from the West itself: from a society that no longer appreciates the value of freedom because it takes it for granted",
+     "firstPublishTitle": "",
+     "catchline": "",
+     "authors": [
+      {
+       "id": 1373539,
+       "name": "Thomas Ribi",
+       "shortName": "rib",
+       "pianoId": "35e8ac26-13f6-4c94-aca0-dd86af29e642",
+       "external": false
+      }
+     ],
+     "issueTimestamp": "2025-09-29T03:30:00.000Z",
+     "updateTimestamp": "2025-09-29T04:05:11.129Z",
+     "isSponsoredContent": false,
+     "isPro": true,
+     "isLiveticker": false,
+     "flag": "Opinion",
+     "owner": "NZZ"
+    }
+   }
+  ],
+  "page": {
+   "pageId": "ld.1904443",
+   "pageType": "opinion",
+   "primaryCategory": "Meinung",
+   "subCategory1": "",
+   "subCategory2": "",
+   "language": "en-US"
+  },
+  "version": "2.0",
+  "user": {},
+  "event": []
+ },
+ "seoData": {
+  "title": "The greatest danger to the West comes from the West",
+  "image": {
+   "url": "https://img-msp-prod.nzz.ch/2025/09/26/872b5f38-b694-4f4c-b940-704922a9b57a.jpg?width=1200&height=675&fit=bounds&quality=75&auto=webp&crop=6000,3375,x0,y13&wmark=nzz",
+   "type": "image/jpeg",
+   "width": 1200,
+   "height": 675
+  },
+  "author": "Thomas Ribi",
+  "description": "The West has become unbalanced. As a political power, as a historical entity, and as an idea. Because it no longer knows what it stands for.",
+  "news_keywords": "The greatest danger to the West comes from the West itself: from a society that no longer appreciates the value of freedom because it takes it for granted. (Commentary, Opinion, News, NZZ)",
+  "type": "article",
+  "last-modified": "2025-09-29T08:05:11+02:00",
+  "date": "2025-09-29T07:30:00+02:00",
+  "canonical": "https://www.nzz.ch/meinung/die-groesste-gefahr-fuer-den-westen-geht-vom-westen-aus-von-einer-gesellschaft-die-den-wert-der-freiheit-nicht-mehr-schaetzt-weil-sie-sie-fuer-selbstverstaendlich-haelt-ld.1904443",
+  "fb:app_id": 138008459595436,
+  "fb:pages": 143694099006529,
+  "fb:admins": 1592685173,
+  "locale": "de-CH",
+  "email": "online.redaktion@nzz.ch",
+  "site_name": "Neue Zürcher Zeitung",
+  "copyright": "2026 Neue Zürcher Zeitung AG, Schweiz",
+  "robots": "noindex, nofollow, noarchive, noodp",
+  "hreflang": [],
+  "sharedTitle": "COMMENTARY - The greatest danger to the West comes from the West itself: from a society that no longer appreciates the value of freedom because it takes it for granted",
+  "ogTitle": "Can the West still be saved? ",
+  "ogUrl": "https://www.nzz.ch/meinung/die-groesste-gefahr-fuer-den-westen-geht-vom-westen-aus-von-einer-gesellschaft-die-den-wert-der-freiheit-nicht-mehr-schaetzt-weil-sie-sie-fuer-selbstverstaendlich-haelt-ld.1904443",
+  "mrf:cms_id": "nzz:ld.1904443",
+  "mrf:sections": "Meinung",
+  "mrf:tags": "Page Type:opinion;Editorial Owner:NZZ;Content Type:Pro Article;Article ID:ld.1904443",
+  "nzzAuthors": [
+   {
+    "id": 1373539,
+    "name": "Thomas Ribi",
+    "shortName": "rib",
+    "pianoId": "35e8ac26-13f6-4c94-aca0-dd86af29e642",
+    "external": false
+   }
+  ],
+  "links": [
+   {
+    "rel": "canonical",
+    "href": "https://www.nzz.ch/meinung/die-groesste-gefahr-fuer-den-westen-geht-vom-westen-aus-von-einer-gesellschaft-die-den-wert-der-freiheit-nicht-mehr-schaetzt-weil-sie-sie-fuer-selbstverstaendlich-haelt-ld.1904443"
+   },
+   {
+    "rel": "search",
+    "href": "/suche",
+    "title": "Suche Neue Zürcher Zeitung, Schweiz, https://www.nzz.ch/suche"
+   }
+  ],
+  "renderedAt": "Thu, 03 Sep 2026 09:32:11 GMT"
+ },
+ "structuredData": [
+  {
+   "@context": "https://schema.org",
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "item": {
+      "@id": "/",
+      "name": "Home"
+     }
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "item": {
+      "@id": "/meinung",
+      "name": "Opinion"
+     }
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "The greatest danger to the West comes from the West"
+    }
+   ]
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": "NewsArticle",
+   "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.nzz.ch/meinung/die-groesste-gefahr-fuer-den-westen-geht-vom-westen-aus-von-einer-gesellschaft-die-den-wert-der-freiheit-nicht-mehr-schaetzt-weil-sie-sie-fuer-selbstverstaendlich-haelt-ld.1904443"
+   },
+   "headline": "The greatest danger to the West comes from the West",
+   "datePublished": "2025-09-29T07:30:00+02:00",
+   "dateModified": "2025-09-29T08:05:11+02:00",
+   "publisher": {
+    "@type": "NewsMediaOrganization",
+    "name": "Neue Zürcher Zeitung",
+    "url": "https://www.nzz.ch",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://www.nzz.ch/logo.png",
+     "width": 413,
+     "height": 60
+    },
+    "contactPoint": [
+     {
+      "@type": "ContactPoint",
+      "telephone": "+41-44-2581000",
+      "contactType": "customer service"
+     }
+    ],
+    "sameAs": [
+     "https://www.facebook.com/nzz",
+     "https://www.twitter.com/nzz",
+     "https://www.youtube.com/channel/UCK1aTcR0AckQRLTlK0c4fuQ",
+     "https://www.linkedin.com/company/neue-zurcher-zeitung",
+     "https://www.instagram.com/nzz/",
+     "https://de.wikipedia.org/wiki/Neue_Z%C3%BCrcher_Zeitung",
+     "https://www.wikidata.org/wiki/Q658945",
+     "https://plus.google.com/+nzz/",
+     "http://www.freebase.com/m/041b43"
+    ],
+    "masthead": "https://www.nzz.ch/impressum/impressum-ld.148422",
+    "foundingDate": "1780"
+   },
+   "description": "The West has become unbalanced. As a political power, as a historical entity, and as an idea. Because it no longer knows what it stands for.",
+   "isAccessibleForFree": false,
+   "articleSection": "Meinung",
+   "hasPart": {
+    "@type": "WebPageElement",
+    "isAccessibleForFree": false,
+    "cssSelector": ".nzzinteraction"
+   },
+   "image": {
+    "@type": "ImageObject",
+    "url": "https://img-msp-prod.nzz.ch/2025/09/26/872b5f38-b694-4f4c-b940-704922a9b57a.jpg?width=1200&height=675&fit=bounds&quality=75&auto=webp&crop=6000,3375,x0,y13&wmark=nzz",
+    "width": 1200,
+    "height": 675
+   },
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Thomas Ribi"
+    }
+   ],
+   "inLanguage": "de"
+  }
+ ],
+ "mp3": true,
+ "mp3Duration": 667690,
+ "bT": {
+  "standard": {
+   "Tags": [
+    "/meinung/die-groesste-gefahr-fuer-den-westen-geht-vom-westen-aus-von-einer-gesellschaft-die-den-wert-der-freiheit-nicht-mehr-schaetzt-weil-sie-sie-fuer-selbstverstaendlich-haelt-ld.1904443",
+    "classification=premium",
+    "relevance=germany",
+    "layout=opinion",
+    "kommentar",
+    "comments=true",
+    "owner=nzz",
+    "product=nzz",
+    "doctype=article",
+    "pagetype=article",
+    "ldid=ld.1904443",
+    "channel=Meinung"
+   ],
+   "ContentCreated": "2025-09-29T03:30:00.000Z",
+   "ContentAuthor": "Thomas Ribi",
+   "ContentSection": "Meinung",
+   "ContentIsNative": true
+  },
+  "custom": {
+   "product": "nzz",
+   "docType": "article",
+   "pageType": "article",
+   "layout": "opinion",
+   "ldId": "ld.1904443",
+   "channel": "Meinung",
+   "heading": "Die grösste Gefahr für den Westen geht vom Westen aus: von einer Gesellschaft, die den Wert der Freiheit nicht mehr schätzt, weil sie sie für selbstverständlich hält",
+   "language": "en-US"
+  }
+ },
+ "webviewMetadata": {},
+ "cacheTime": 3600
+}

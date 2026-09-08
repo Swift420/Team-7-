@@ -1,0 +1,1480 @@
+{
+ "content": [
+  {
+   "identifier": "header",
+   "id": "doc-1j3j1vkft0",
+   "content": {
+    "title": "14 billion for football players: The transfer market is booming like never before. But a court ruling calls the system into question",
+    "lead": "Never before have football clubs spent as much money on players as this year. A renowned sports law expert warns the generous clubs: they've only bought hot air. The reason is the verdict in the Diarra case.",
+    "author": ""
+   },
+   "containers": {
+    "authors": [
+     {
+      "identifier": "author-teaser",
+      "id": "doc-EQOTzkak8a",
+      "content": {
+       "layout": "authorprofile",
+       "title": "Dominic Wirth",
+       "url": "/impressum/dominic-wirth-ld.1854983",
+       "teaserImage": {
+        "originalUrl": "/2024/10/29/47b045ec-f793-4b72-a662-bb06855c8b1a.jpeg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2024/10/29/47b045ec-f793-4b72-a662-bb06855c8b1a.jpeg?width=1024&quality=75&auto=webp",
+        "width": 4128,
+        "height": 2752,
+        "crops": [
+         {
+          "name": "1:1",
+          "crop": "2752,2752,x688,y0"
+         }
+        ],
+        "imageService": "fastly"
+       }
+      }
+     }
+    ]
+   },
+   "prevElement": "",
+   "nextElement": "image",
+   "firstContentElement": true
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1j4chgh2g1",
+   "content": {
+    "image": {
+     "author": "Jacques Feeney / Offside / Imago",
+     "caption": "The most expensive transfer of the summer: Alexander Isak, the Swedish striker who now plays for Liverpool.",
+     "originalUrl": "/2025/09/05/5d459cd7-fff3-412b-ad75-6af577f8df4a.jpg?width=1024",
+     "width": 5088,
+     "height": 3392,
+     "altText": "Liverpool v Newcastle United March 16, 2025, London - Carabao Cup Final - Liverpool v Newcastle United - Alexander Isak of Newcastle United - Photo: Jacques Feeney / Offside. London UK *** Liverpool v Newcastle United March 16, 2025, London Carabao Cup Final Liverpool v Newcastle United Alexander Isak of Newcastle United Photo Jacques Feeney Offside London UK PUBLICATIONxINxGERxSUIxAUTxONLY Copyright: xJacquesxFeeneyx/xOffsidexOffside",
+     "origins": [
+      {
+       "name": "Hugo",
+       "identifier": "2173808256"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "caption": "The most expensive transfer of the summer: Alexander Isak, the Swedish striker who now plays for Liverpool.",
+    "author": "Jacques Feeney / Offside / Imago"
+   },
+   "prevElement": "header",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1j4a5epin0",
+   "content": {
+    "text": "On Monday, at the end of the summer transfer window, the market heated up once again. Alexander Isak, the Swedish striker, moved to Liverpool FC for almost 150 million euros."
+   },
+   "data": {},
+   "prevElement": "image",
+   "nextElement": "barrier"
+  },
+  {
+   "id": "doc-b17fe902",
+   "identifier": "barrier",
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1j4c7hbt31",
+   "content": {
+    "text": "Isak's transfer was the fitting end to a remarkable transfer year in which over €14 billion changed hands worldwide, combining the winter and summer transfer windows. According to an analysis by the CIES Football Observatory, this is 14 percent more than the previous record year of 2023, setting a new, unparalleled record."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "barrier",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1j4c49tqa0",
+   "content": {
+    "text": "A new year, a new record. Business as usual in the football industry, which has long since left the difficult years of the pandemic behind. The billions are flowing again like a mountain stream in spring when the snow melts at higher altitudes. In this case, the <a data-li-document-ref=\"1900592\" href=\"https://www.nzz.ch/-ld.1900592\">Premier League is the source</a> , having secured increasingly lucrative television contracts that allow it to treat its competitors like mere suppliers."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1j4c4cu2n0",
+   "content": {
+    "text": "So everything remains the same, or rather: everything is bigger than ever before. Meanwhile, the current transfer system is under attack and its future is at stake. And there are legal experts who say it will soon undergo fundamental changes."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1j4chvv640",
+   "content": {
+    "title": "The class action lawsuits against FIFA",
+    "id": "subtitle-die-sammelklagen-gegen-die-fifa"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1j4c6e0u81",
+   "content": {
+    "text": "Lassana Diarra was barely mentioned during the recent, hectic transfer months. The Frenchman was ignored like an uninvited guest who somehow managed to sneak in. But perhaps his name will one day go down in football history like <a href=\"https://www.nzz.ch/sport/wendepunkte-der-sportgeschichte-als-aus-profifussballern-gewoehnliche-arbeitnehmer-wurden-jean-marc-bosman-war-ein-revolutionaer-wider-willen-ld.1552534\">John Bosman's</a> , because he forced something upon the football ecosystem that it dislikes intensely: change."
+   },
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1j4c77but1",
+   "content": {
+    "text": "Diarra only briefly made the headlines. In August, his lawyers announced that the former French professional footballer was demanding €65 million in damages from FIFA. Just a few days earlier, the organization «Justice for Players» had announced that it was launching a class-action lawsuit against FIFA, the German Football Association (DFB), and other European national associations."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "q-embed"
+  },
+  {
+   "identifier": "q-embed",
+   "id": "doc-1j4cg419p0",
+   "content": {
+    "q-embed": {
+     "service": "q-tool",
+     "params": {
+      "id": "027fad6a889b676d3b73020c77900d81",
+      "conf": {},
+      "toolConfig": {},
+      "toolRuntimeConfig": {
+       "size": {
+        "width": [
+         {
+          "value": 100,
+          "comparison": ">"
+         }
+        ]
+       },
+       "displayOptions": {
+        "hideTitle": false,
+        "hideSubtitle": false,
+        "hideFooter": false,
+        "hideAcronym": false,
+        "size": "basic"
+       },
+       "locale": "en_US"
+      },
+      "size": "content"
+     },
+     "resolvedValue": {}
+    },
+    "html": "      <div        class=\"q-chart-container\"        id=\"q_chart_027fad6a889b676d3b73020c77900d81_qf5fbff915667414c921cbe99d6c48346_container\"        data-q-item-id=\"027fad6a889b676d3b73020c77900d81\"        data-q-request-id=\"73bdc0dda9bedf9a201145daf059947d5cb33a43\"      ></div>",
+    "stylesheets": [
+     {
+      "type": "remote",
+      "content": "https://service.sophie.nzz.ch/bundle/sophie-color%23master,sophie-font%23master,sophie-legend%23master[icon-label],sophie-q%23master,sophie-viz-color%23master[general].css"
+     },
+     {
+      "type": "inline",
+      "content": "  @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff) format(\"woff\");  }    @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff) format(\"woff\");    unicode-range: U+0020-00FF,U+2005,U+2082;  }      "
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/css-theme-layer/nzz-0.2.0.css"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/chart/q-chart-1.2.6.css"
+     }
+    ],
+    "scripts": [
+     {
+      "type": "inline",
+      "content": "function qTrackingBootstrap(t,e,n){if(window.digitalData&&window.digitalData.component&&window.digitalData.component.push){window.digitalData.component.push(t),window.digitalData.event&&window.digitalData.event.length||(window.digitalData.event=[]);var i=new Date,a=e;a.eventInfo.timeStamp=i.toISOString(),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\");var o=document.querySelectorAll(\"[data-q-request-id='\"+n+\"']\");[].forEach.call(o,function(t){t.addEventListener(\"q-tracking-event\",function(t){var e=new Date;(a=JSON.parse(JSON.stringify(a))).eventInfo.timeStamp=e.toISOString(),a.eventInfo=Object.assign(a.eventInfo,t.detail.eventInfo),a.category=Object.assign(a.category,t.detail.category),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\")},!1)})}};qTrackingBootstrap({\"componentInfo\":{\"componentName\":\"Q\",\"componentID\":\"027fad6a889b676d3b73020c77900d81\"},\"category\":{\"componentType\":\"storytelling\",\"componentSubType1\":\"Q graphic\",\"componentSubType2\":\"chart\"}},{\"eventInfo\":{\"eventName\":\"Storytelling Interaction\",\"eventAction\":\"load\",\"type\":\"story\",\"componentName\":\"Q\",\"eventNonInteractive\":true,\"componentID\":\"027fad6a889b676d3b73020c77900d81\"},\"category\":{\"primaryCategory\":\"storytelling\",\"subCategory1\":\"Q graphic\",\"subCategory2\":\"chart\"}},\"73bdc0dda9bedf9a201145daf059947d5cb33a43\")"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/chart/q-chart-1.2.6.js"
+     },
+     {
+      "type": "inline",
+      "content": "      (function () {        function initialize() {          const target = document.querySelector('#q_chart_027fad6a889b676d3b73020c77900d81_qf5fbff915667414c921cbe99d6c48346_container');          if (!target) return;          target.innerHTML = '';          const qdoc = {\"_id\":\"027fad6a889b676d3b73020c77900d81\",\"allowDownloadData\":false,\"title\":\"More than twice as much money for new players as in 2016\",\"subtitle\":\"Worldwide transfer spending in football in billions of euros\",\"publication\":\"nzz\",\"acronym\":\"krp.\",\"data\":[[\"Year\",\"sum\"],[\"2016\",\"6.39\"],[\"2017\",\"8.42\"],[\"2018\",\"8.13\"],[\"2019\",\"9.77\"],[\"2020\",\"6.78\"],[\"2021\",\"5.76\"],[\"2022\",\"8.91\"],[\"2023\",\"12.4\"],[\"2024\",\"11.17\"],[\"2025\",\"14.13\"]],\"sources\":[],\"events\":[],\"options\":{\"annotations\":{\"valuesOnBars\":true},\"areaChartOptions\":{\"areaInterpolation\":\"linear\",\"stackType\":\"zero\"},\"arrowOptions\":{\"colorScheme\":0,\"invertColorScheme\":false},\"barOptions\":{\"isBarChart\":true,\"forceBarsOnSmall\":false},\"chartType\":\"Bar\",\"colorOverwritesRows\":[],\"colorOverwritesSeries\":[],\"dateSeriesOptions\":{\"interval\":\"auto\",\"labels\":\"many\",\"prognosisStart\":null},\"dotplotOptions\":{},\"hideAxisLabel\":true,\"highlightDataRows\":[],\"highlightDataSeries\":[],\"lineChartOptions\":{\"yScaleType\":\"linear\",\"reverseYScale\":false,\"lineInterpolation\":\"linear\",\"isStockChart\":false},\"largeNumbers\":{\"divideBy\":0}},\"updatedDate\":\"2025-09-05T13:29:10.864Z\"};          const toolRuntimeConfig = {\"displayOptions\":{\"hideTitle\":false,\"hideSubtitle\":false,\"hideFooter\":false,\"hideAcronym\":false,\"size\":\"basic\"},\"size\":{\"width\":[{\"value\":100,\"comparison\":\">\"}]},\"locale\":\"en-US\"};          const toolSettings = {\"qItemInstanceId\":\"q_chart_027fad6a889b676d3b73020c77900d81_qf5fbff915667414c921cbe99d6c48346\"};          let attempts = 0;          const maxAttempts = 100;          const checkAndInitialize = setInterval(() => {            if (window.qChart) {              clearInterval(checkAndInitialize);              new window.qChart({ target: target, props: {                qdoc: qdoc,                toolSettings: toolSettings,                toolRuntimeConfig: toolRuntimeConfig              } });            } else {              attempts++;              if (attempts >= maxAttempts) {                clearInterval(checkAndInitialize);                console.error('Failed to initialize qChart after 30 seconds');              }            }          }, 300);        }        if (document.body.classList.contains('pagedone')) {          initialize();        } else {          window.addEventListener('pagedone', initialize);        }      })();    "
+     }
+    ]
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1j4c4u6np0",
+   "content": {
+    "text": "The announcements are the result of a ruling by the European Court of Justice last October. And they represent a power struggle between players' unions and the football establishment that will keep the industry on edge for some time to come."
+   },
+   "paidContent": true,
+   "prevElement": "q-embed",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1j4a4s1020",
+   "content": {
+    "text": "Diarra had a respectable career, dominating midfield <a href=\"https://www.nzz.ch/sport/fussball/real-madrid-xabi-alonso-muss-seine-angreifer-miteinander-in-einklang-bringen-ld.1898260\">for Real Madrid</a> and earning 34 caps for France. In 2014, he was under contract with Lokomotiv Moscow. And then he became embroiled in a dispute that continues to this day."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "image"
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1j4chiif01",
+   "content": {
+    "image": {
+     "author": "Lee Smith / Action Images",
+     "caption": "His trial could turn the transfer market upside down: Lassana Diarra.",
+     "originalUrl": "/2025/09/05/0544883c-3ba5-4e41-9f42-7fa211a3ff77.jpg?width=1024",
+     "width": 4889,
+     "height": 3257,
+     "altText": "FILE PHOTO: Football - FC Barcelona v Real Madrid UEFA Champions League Semi Final Second Leg - The Nou Camp, Barcelona, ​​Spain - 10/11 , 3/5/11 Lassana Diarra - Real Madrid in action against Lionel Messi - FC Barcelona Mandatory Credit: Action Images / Lee Smith/File Photo",
+     "origins": [
+      {
+       "name": "Hugo",
+       "identifier": "2164292086"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "caption": "His trial could turn the transfer market upside down: Lassana Diarra.",
+    "author": "Lee Smith / Action Images"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1j4c9cnl70",
+   "content": {
+    "text": "The Frenchman unilaterally terminated his contract in Moscow and was later fined €10 million by FIFA. This set in motion a chain of events that ultimately led the European Court of Justice to question the very foundations of FIFA's international transfer system. FIFA's regulations stipulate that players and their new clubs must pay compensation if they terminate a contract prematurely without a valid reason. Furthermore, the system provides for additional sanctions in such cases, including bans on the players and transfer restrictions for the acquiring clubs."
+   },
+   "paidContent": true,
+   "prevElement": "image",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1j4cb64me0",
+   "content": {
+    "text": "<a href=\"https://www.nzz.ch/sport/der-tas-geraet-unter-druck-doch-ein-entscheid-des-europaeischen-gerichtshofs-entpuppt-sich-als-sturm-im-wasserglas-ld.1896619\">The European Court of Justice ruled</a> that parts of the FIFA regulations violated EU law and that, in their current form, they primarily served to protect the financial interests of clubs. According to long-time observers, the court expressed itself with exceptional clarity in its ruling."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1j4c9hi220",
+   "content": {
+    "text": "Antoine Duval conducts research at the Asser Institute in the Netherlands and is a renowned sports law expert. The Frenchman is among those experts who have offered the most pointed commentary on the Diarra ruling. And he is convinced that it will have a «transformative character.»"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "image"
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1j4cn3joo1",
+   "content": {
+    "image": {
+     "author": "PD",
+     "caption": "Antoine Duval.",
+     "originalUrl": "/2025/09/05/9ec6a1a6-b2bb-4388-8e2a-211bc287de17.jpg?width=1024",
+     "width": 201,
+     "height": 251,
+     "origins": [
+      {
+       "name": "Hugo",
+       "identifier": "2173937540"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "caption": "Antoine Duval.",
+    "author": "PD"
+   },
+   "styles": {
+    "fullwidth-widget": "widget--left"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1j4ccp7g20",
+   "content": {
+    "text": "Duval says that the transfer market only exists in its current form because FIFA rules create risks for players and clubs – the risk of having to pay high compensation or being banned from playing or transferring. «Clubs and players want to avoid these risks, which is why they seek an amicable agreement, and that's why transfer fees are paid,» Duval said."
+   },
+   "paidContent": true,
+   "prevElement": "image",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1j4ce5r4t0",
+   "content": {
+    "text": "Since the European Court of Justice ruling in the Diarra case, these risks no longer exist in the same form for Duval. «Strictly speaking, from a legal point of view, in my opinion the clubs have spent billions on hot air since the ruling, on a pipe dream, and have thus taken on great risks,» he says."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1j4cf4coi1",
+   "content": {
+    "text": "The reason: If a footballer were to unilaterally terminate his contract now, according to Duval, it would be «highly unlikely» that FIFA would impose the same sanctions and compensation payments as in the past, due to the EU ruling. This is because FIFA would risk further damage claims, in addition to those already threatened by Diarra's lawsuit and that of «Justice for Players.»"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1j4craqjg0",
+   "content": {
+    "title": "Jean-Louis Dupont, Bosman's lawyer, is involved again",
+    "id": "subtitle-jean-louis-dupont-der-bosman-anwalt-mischt-wieder-mit"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1j4cqoq581",
+   "content": {
+    "text": "The Dutch organization aims to encourage footballers to join the class-action lawsuit. It argues that up to 100,000 players have suffered income losses due to the unlawful FIFA regulations. «Justice for Players» is being advised by a familiar face, Jean-Louis Dupont. He secured the Bosman ruling, becoming a thorn in the side of the football industry. His law firm is now also representing Diarra."
+   },
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1j4ceu5o50",
+   "content": {
+    "text": "Dupont's partner, Martin Hissel, Diarra's lawyer, is surprised that last year's ruling has not yet influenced players' behavior. Hissel emphasizes the differences to the Bosman ruling. Back then, it was clear that footballers could transfer for free after their contracts expired. Now, the issue concerns ongoing employment relationships, which means players must take action, terminate their contracts – and thus incur legal risks."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1j4csq1f71",
+   "content": {
+    "text": "Legally, FIFA's transfer system has been on shaky ground since the Diarra ruling. Behind the scenes, players' unions are struggling with FIFA and other stakeholders, such as the European Club Association (ECA), to establish a new set of rules; the compensation claims must be viewed in this context. The players' union FIFPro envisions a system that more clearly defines when and at what price a footballer can terminate his contract. This is intended to put an end to the price gouging in the transfer market."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1j4cthjr41",
+   "content": {
+    "text": "FIFA and the clubs are playing for time. The world governing body only stated upon inquiry that discussions regarding future transfer rules are ongoing. Since the ruling, FIFA and the clubs have maintained that while adjustments are necessary due to the Diarra verdict, the system can largely continue as before. This is also because the well-oiled transfer machine reliably distributes the money. If it were to stop running, there would be many losers. The only question is how long it will continue to do so."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "sharebox",
+   "lastContentElement": true
+  },
+  {
+   "identifier": "sharebox",
+   "id": "doc-1j3j1vkft3",
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "related-articles-container"
+  },
+  {
+   "identifier": "related-articles-container",
+   "id": "doc-1j3j1vkft4",
+   "content": {
+    "title": "Related articles"
+   },
+   "containers": {
+    "related-articles": [
+     {
+      "identifier": "teaser",
+      "id": "doc-1j3j1vkft5",
+      "content": {
+       "owner": "NZZ",
+       "flag": "Opinion",
+       "title": "The gap between poor and rich clubs in football is growing ever wider – the rules are cementing the inequality.",
+       "teaserImage": {
+        "originalUrl": "/2025/09/01/b9d91e7a-dd3b-4e63-b93f-2977accbd84e.jpg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2025/09/01/b9d91e7a-dd3b-4e63-b93f-2977accbd84e.jpg?width=1024&quality=75&auto=webp",
+        "width": 4500,
+        "height": 3000,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "4500,2531,x0,y469"
+         },
+         {
+          "name": "1:1",
+          "crop": "3000,3000,x758,y0"
+         },
+         {
+          "name": "4:3",
+          "crop": "3556,2666,x457,y334"
+         },
+         {
+          "name": "3:4",
+          "crop": "2250,3000,x1125,y0"
+         },
+         {
+          "name": "3:2",
+          "crop": "4000,2666,x230,y334"
+         }
+        ],
+        "imageService": "fastly",
+        "teaserCaption": "Only a small group of top European clubs can still compete with the English Premier League. This puts the entire professional football system at risk in the long run. It's still possible to counteract this trend.",
+        "teaserAuthor": "Illustration by Simon Tanner / NZZ"
+       },
+       "teaserAuthor": "Illustration by Simon Tanner / NZZ",
+       "nzzasFootnote": false,
+       "folioFootnote": false,
+       "language": {
+        "locale": "de-CH"
+       },
+       "nzzId": "ld.1900327",
+       "readingTime": 420,
+       "showComments": true,
+       "authorLine": "Stefan Osterhaus",
+       "characterCount": 9416,
+       "product": "NZZ.ch",
+       "documentId": 1900327,
+       "layout": "opinion",
+       "publicationDate": "2025-09-03T03:30:00.000Z",
+       "publicationLastUpdated": "2025-09-03T12:15:28.339Z",
+       "significantUpdate": false,
+       "significantUpdateTill": "2025-09-03T15:30:00.000Z",
+       "teaserCaption": "Only a small group of top European clubs can still compete with the English Premier League. This puts the entire professional football system at risk in the long run. It's still possible to counteract this trend.",
+       "authorImage": {
+        "originalUrl": "/2024/12/04/492ebd79-ba68-4245-88ad-824b79ac53c8.jpeg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2024/12/04/492ebd79-ba68-4245-88ad-824b79ac53c8.jpeg?width=1024&quality=75&auto=webp",
+        "width": 5568,
+        "height": 3712,
+        "crops": [
+         {
+          "name": "1:1",
+          "crop": "3712,3712,x1305,y0"
+         }
+        ],
+        "imageService": "fastly"
+       },
+       "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2024/12/04/492ebd79-ba68-4245-88ad-824b79ac53c8.jpeg?width=1024&quality=75&auto=webp",
+       "url": "/meinung/die-kluft-zwischen-armen-und-reichen-klubs-im-fussball-wird-immer-groesser-die-ungleichheit-wird-durch-das-regelwerk-zementiert-ld.1900327",
+       "department": {
+        "name": "Opinion",
+        "path": "/meinung"
+       },
+       "estimationWordCount": 1370,
+       "leadText": "Only a small group of top European clubs can still compete with the English Premier League. This puts the entire professional football system at risk in the long run. It's still possible to counteract this trend."
+      }
+     },
+     {
+      "identifier": "teaser",
+      "id": "doc-1j3j1vkft7",
+      "content": {
+       "owner": "NZZ",
+       "title": "The remarkable end to a transfer saga: Nick Woltemade joins Newcastle. And Bayern Munich are once again outmaneuvered",
+       "teaserImage": {
+        "originalUrl": "/2025/08/29/24a73ded-f4b0-4779-8097-a064f820b7e2.jpg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2025/08/29/24a73ded-f4b0-4779-8097-a064f820b7e2.jpg?width=1024&quality=75&auto=webp",
+        "width": 5472,
+        "height": 3648,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "5472,3078,x0,y220"
+         },
+         {
+          "name": "1:1",
+          "crop": "2024,2024,x2697,y125"
+         },
+         {
+          "name": "4:3",
+          "crop": "4864,3648,x501,y0"
+         },
+         {
+          "name": "3:4",
+          "crop": "2736,3648,x1711,y0"
+         },
+         {
+          "name": "3:2",
+          "crop": "5472,3648,x0,y0"
+         }
+        ],
+        "imageService": "fastly",
+        "teaserCaption": "The striker is moving to England for up to €90 million. The transfer makes Woltemade the third most expensive German player.",
+        "teaserAuthor": "Getty"
+       },
+       "teaserAuthor": "Getty",
+       "nzzasFootnote": false,
+       "folioFootnote": false,
+       "language": {
+        "locale": "de-CH"
+       },
+       "nzzId": "ld.1900122",
+       "readingTime": 240,
+       "authorLine": "Sven Haist, London",
+       "characterCount": 5416,
+       "product": "NZZ.ch",
+       "documentId": 1900122,
+       "layout": "regular",
+       "publicationDate": "2025-08-29T16:30:00.000Z",
+       "publicationLastUpdated": "2025-08-30T11:55:34.870Z",
+       "significantUpdate": false,
+       "significantUpdateTill": "2025-08-30T04:30:00.000Z",
+       "teaserCaption": "The striker is moving to England for up to €90 million. The transfer makes Woltemade the third most expensive German player.",
+       "url": "/sport/das-bemerkenswerte-ende-einer-transfersaga-nick-woltemade-soll-zu-newcastle-gehen-und-die-bayern-werden-schon-wieder-duepiert-ld.1900122",
+       "department": {
+        "name": "Sport",
+        "path": "/sport"
+       },
+       "estimationWordCount": 827,
+       "leadText": "The striker is moving to England for up to €90 million. The transfer makes Woltemade the third most expensive German player.",
+       "nzzSummaryIsAuto": true
+      }
+     },
+     {
+      "identifier": "teaser",
+      "id": "doc-1j3j1vkft6",
+      "content": {
+       "owner": "NZZ",
+       "flag": "Opinion",
+       "title": "Dispute with the club? In this case, footballers should simply be able to leave – a ruling by the European Court of Justice infringes too much on the rights of football clubs",
+       "teaserImage": {
+        "originalUrl": "/2024/10/04/1ad36ed9-ce34-4d61-ac27-bac9a8c99a97.jpeg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2024/10/04/1ad36ed9-ce34-4d61-ac27-bac9a8c99a97.jpeg?width=1024&quality=75&auto=webp",
+        "width": 2205,
+        "height": 1470,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "2205,1240,x0,y0"
+         },
+         {
+          "name": "1:1",
+          "crop": "725,725,x883,y45"
+         },
+         {
+          "name": "4:3",
+          "crop": "1960,1470,x217,y0"
+         },
+         {
+          "name": "3:4",
+          "crop": "1103,1470,x634,y0"
+         }
+        ],
+        "imageService": "fastly",
+        "teaserCaption": "Football professionals may soon be able to change clubs without giving a valid reason. This brings to mind another landmark ruling that changed the game.",
+        "teaserAuthor": "Charles Platiau / Reuters"
+       },
+       "teaserAuthor": "Charles Platiau / Reuters",
+       "nzzasFootnote": false,
+       "folioFootnote": false,
+       "language": {
+        "locale": "de-CH"
+       },
+       "nzzId": "ld.1851541",
+       "readingTime": 180,
+       "showComments": true,
+       "authorLine": "Stefan Osterhaus",
+       "characterCount": 3855,
+       "product": "NZZ.ch",
+       "documentId": 1851541,
+       "layout": "opinion",
+       "publicationDate": "2024-10-04T14:05:00.000Z",
+       "publicationLastUpdated": "2024-10-04T19:10:31.839Z",
+       "significantUpdate": false,
+       "significantUpdateTill": "2024-10-05T02:05:00.000Z",
+       "teaserCaption": "Football professionals may soon be able to change clubs without giving a valid reason. This brings to mind another landmark ruling that changed the game.",
+       "url": "/meinung/ein-urteil-des-europaeischen-gerichtshofes-greift-stark-in-die-rechte-der-fussballklubs-ein-das-ist-ueberzogen-ld.1851541",
+       "department": {
+        "name": "Opinion",
+        "path": "/meinung"
+       },
+       "estimationWordCount": 617,
+       "leadText": "Football professionals may soon be able to change clubs without giving a valid reason. This brings to mind another landmark ruling that changed the game."
+      }
+     }
+    ]
+   },
+   "paidContent": true,
+   "prevElement": "sharebox",
+   "nextElement": "",
+   "lastContentElement": true
+  }
+ ],
+ "metadata": {
+  "owner": "NZZ",
+  "germanyRelevant": true,
+  "title": "14 billion for football players: The transfer market is booming like never before. But a court ruling calls the system into question",
+  "teaserImage": {
+   "originalUrl": "/2025/09/05/5d459cd7-fff3-412b-ad75-6af577f8df4a.jpg?width=1024",
+   "url": "https://img-msp-prod.nzz.ch/2025/09/05/5d459cd7-fff3-412b-ad75-6af577f8df4a.jpg?width=1024&quality=75&auto=webp",
+   "width": 5088,
+   "height": 3392,
+   "crops": [
+    {
+     "name": "16:9",
+     "crop": "4020,2261,x839,y25"
+    },
+    {
+     "name": "1:1",
+     "crop": "3015,3015,x1117,y84"
+    },
+    {
+     "name": "4:3",
+     "crop": "4523,3392,x200,y0"
+    },
+    {
+     "name": "3:4",
+     "crop": "2544,3392,x1272,y0"
+    },
+    {
+     "name": "3:2",
+     "crop": "5088,3392,x0,y0"
+    }
+   ],
+   "imageService": "fastly",
+   "teaserCaption": "Never before have football clubs spent as much money on players as this year. A renowned sports law expert warns the generous clubs: they've only bought hot air. The reason is the verdict in the Diarra case.",
+   "teaserAuthor": "Jacques Feeney / Offside / Imago"
+  },
+  "teaserAuthor": "Jacques Feeney / Offside / Imago",
+  "nzzasFootnote": false,
+  "folioFootnote": false,
+  "language": {
+   "locale": "en-US"
+  },
+  "nzzId": "ld.1899514",
+  "readingTime": 300,
+  "authorLine": "Dominic Wirth",
+  "characterCount": 6928,
+  "breadcrumbs": [
+   {
+    "name": "Sport",
+    "path": "/sport"
+   },
+   {
+    "name": "Football",
+    "path": "/sport/fussball"
+   }
+  ],
+  "product": "NZZ.ch",
+  "documentId": 1899514,
+  "contentTypeGroup": "web",
+  "layout": "regular",
+  "firstPublicationDate": "2025-09-05T14:50:00.000Z",
+  "publicationDate": "2025-09-05T14:50:00.000Z",
+  "publicationLastUpdated": "2025-09-05T14:50:00.000Z",
+  "significantUpdate": false,
+  "significantUpdateTill": "2025-09-06T02:50:00.000Z",
+  "teaserCaption": "Never before have football clubs spent as much money on players as this year. A renowned sports law expert warns the generous clubs: they've only bought hot air. The reason is the verdict in the Diarra case.",
+  "nzzAuthors": [
+   {
+    "id": 1841706,
+    "name": "Dominic Wirth",
+    "shortName": "dow",
+    "pianoId": "55815b22-32cd-4d60-a985-532039cefffb",
+    "external": false
+   }
+  ],
+  "authorImage": {
+   "originalUrl": "/2024/10/29/47b045ec-f793-4b72-a662-bb06855c8b1a.jpeg?width=1024",
+   "url": "https://img-msp-prod.nzz.ch/2024/10/29/47b045ec-f793-4b72-a662-bb06855c8b1a.jpeg?width=1024&quality=75&auto=webp",
+   "width": 4128,
+   "height": 2752,
+   "crops": [
+    {
+     "name": "1:1",
+     "crop": "2752,2752,x688,y0"
+    }
+   ],
+   "imageService": "fastly"
+  },
+  "nzzAuthorProfileDataCollection": [
+   {
+    "documentId": 1854983,
+    "name": "Dominic Wirth",
+    "teaserImageUrl": "https://img-msp-prod.nzz.ch/2024/10/29/47b045ec-f793-4b72-a662-bb06855c8b1a.jpeg?width=1024&quality=75&auto=webp"
+   }
+  ],
+  "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2024/10/29/47b045ec-f793-4b72-a662-bb06855c8b1a.jpeg?width=1024&quality=75&auto=webp",
+  "url": "/sport/fussball/14-milliarden-fuer-fussballspieler-der-transfermarkt-boomt-wie-noch-nie-doch-ein-gerichtsurteil-stellt-das-system-infrage-ld.1899514",
+  "department": {
+   "name": "Football",
+   "path": "/sport/fussball"
+  },
+  "estimationWordCount": 1081,
+  "leadText": "Never before have football clubs spent as much money on players as this year. A renowned sports law expert warns the generous clubs: they've only bought hot air. The reason is the verdict in the Diarra case.",
+  "nzzSummaryEN": "- The football transfer market saw a record turnover of over 14 billion euros in 2024, but a European Court ruling might fundamentally change the transfer system.\n- Former player Lassana Diarra is suing FIFA for 65 million euros in damages, while class actions against FIFA and other associations challenge the system.\n- Legal experts suggest the ruling could weaken existing FIFA regulations, granting players more freedom and potentially impacting the transfer market long-term.",
+  "nzzSummaryDE": "- The football transfer market recorded a record turnover of over 14 billion euros in 2024; however, a ruling by the European Court of Justice could fundamentally change the transfer system.\n - Former player Lassana Diarra is suing FIFA for €65 million in damages, while class action lawsuits against FIFA and other associations are challenging the system.\n According to legal experts, the ruling could weaken existing FIFA regulations, giving players more freedom and influencing the transfer market in the long term.",
+  "nzzSummaryIsAuto": true,
+  "nzzSummaryModel": "gpt-4o-2024-11-20",
+  "bestBeforeDate": "2025-09-06T13:41:00.000Z",
+  "nzzPrintTitle": "The transfer billions simply keep flowing",
+  "nzzPrintSubtitle": "The transfer market is booming like never before. However, the Diarra ruling has shaken its legal foundations",
+  "allArticleLanguages": [
+   {
+    "locale": "de-CH",
+    "urlPath": "/sport/fussball/14-milliarden-fuer-fussballspieler-der-transfermarkt-boomt-wie-noch-nie-doch-ein-gerichtsurteil-stellt-das-system-infrage-ld.1899514",
+    "seo": {}
+   }
+  ],
+  "seo": {
+   "canonicalUrl": "https://www.nzz.ch/sport/fussball/14-milliarden-fuer-fussballspieler-der-transfermarkt-boomt-wie-noch-nie-doch-ein-gerichtsurteil-stellt-das-system-infrage-ld.1899514",
+   "title": "The transfer market is booming. But a court ruling calls the system into question",
+   "socialMediaTitle": "The transfer market is booming like never before. But a court ruling is calling the system into question",
+   "excludeFromSpiders": false,
+   "image": "https://img-msp-prod.nzz.ch/2025/09/05/5d459cd7-fff3-412b-ad75-6af577f8df4a.jpg?width=1200&height=674&fit=bounds&quality=75&auto=webp&crop=4020,2261,x839,y25&wmark=nzz"
+  },
+  "ldPublicationId": 2408393,
+  "isHighlightedHeader": false,
+  "nzzTopics": [
+   {
+    "name": "FIFA",
+    "slug": "/themen/fifa"
+   },
+   {
+    "name": "European Court of Justice (ECJ)",
+    "slug": "/themen/europaischer-gerichtshof"
+   },
+   {
+    "name": "Premier League",
+    "slug": "/themen/premier-league"
+   },
+   {
+    "name": "Liverpool FC",
+    "slug": "/themen/fc-liverpool"
+   },
+   {
+    "name": "France",
+    "slug": "/themen/frankreich"
+   }
+  ],
+  "barrierIndex": 3,
+  "outlinks": {
+   "mehrZumThema": [
+    "ld.1900327",
+    "ld.1900122",
+    "ld.1851541"
+   ],
+   "artikelListe": [],
+   "aliasTeaserEmbedList": []
+  },
+  "tts": true,
+  "hasQ": true,
+  "mp3": true,
+  "mp3Duration": 463125,
+  "project": "nzz",
+  "machineTranslated": true,
+  "machineTranslationValidated": false
+ },
+ "isReduced": false,
+ "isPaid": false,
+ "isVamp": false,
+ "isWebview": false,
+ "btaFeed": {
+  "meta": {
+   "id": "fifa",
+   "name": "FIFA",
+   "tagName": "FIFA",
+   "qId": "Q253414",
+   "seoTitle": "FIFA – All articles about the world football association | NZZ",
+   "description": null,
+   "firstName": null,
+   "lastName": null,
+   "category": "ORG",
+   "createdDate": "2025-04-08 16:24:09.671Z",
+   "imageURL": null,
+   "imageCroppedURL": null,
+   "imageWidth": null,
+   "imageHeight": null,
+   "imageCredits": null,
+   "url": "https://nzz.ch/themen/fifa",
+   "size": 638,
+   "relatedTopics": [
+    {
+     "name": "Europäischer Gerichtshof (EuGH)",
+     "slug": "/themen/europaischer-gerichtshof"
+    },
+    {
+     "name": "Premier League",
+     "slug": "/themen/premier-league"
+    },
+    {
+     "name": "FC Liverpool",
+     "slug": "/themen/fc-liverpool"
+    },
+    {
+     "name": "Frankreich",
+     "slug": "/themen/frankreich"
+    }
+   ]
+  },
+  "data": [
+   {
+    "title": "FIFA crisis: Europeans want to topple Gianni Infantino, but aren't going all in",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "teaserImage": {
+     "originalUrl": "/2026/08/28/dfa284be-69d4-4fd2-add6-71ddd59704e5.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/08/28/dfa284be-69d4-4fd2-add6-71ddd59704e5.jpg?width=1024&quality=75&auto=webp",
+     "width": 3000,
+     "height": 1958,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "3000,1687,x0,y143"
+      },
+      {
+       "name": "4:3",
+       "crop": "2611,1958,x53,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "1958,1958,x1042,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "1469,1958,x1531,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "2937,1958,x0,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "The threatened boycott of FIFA competitions has been suspended, but UEFA is initiating disciplinary proceedings against the FIFA president. The Europeans are easing up because they know how fierce the anti-European sentiment can be within FIFA.",
+     "teaserAuthor": "Darryl Dyck / AP"
+    },
+    "teaserAuthor": "Darryl Dyck / AP",
+    "nzzId": "ld.10021453",
+    "readingTime": 300,
+    "paywallQuestionOne": "Why is UEFA avoiding a direct confrontation with Gianni Infantino?",
+    "paywallQuestionTwo": "How united will the opposition to Infantino be at the FIFA Congress?",
+    "paywallQuestionThree": "What specific alternatives to FIFA's leadership is UEFA pursuing?",
+    "characterCount": 6660,
+    "product": "NZZ.ch",
+    "documentId": "10021453",
+    "layout": "regular",
+    "publicationDate": "2026-08-28T13:13:27.231Z",
+    "publicationLastUpdated": "2026-08-28T15:07:49.235Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-08-29T01:13:27.231Z",
+    "teaserCaption": "The threatened boycott of FIFA competitions has been suspended, but UEFA is initiating disciplinary proceedings against the FIFA president. The Europeans are easing up because they know how fierce the anti-European sentiment can be within FIFA.",
+    "authorLine": "Peter B. Birrer",
+    "url": "https://www.nzz.ch/sport/fussball/fifa-krise-die-europaeer-wollen-gianni-infantino-stuerzen-gehen-aber-nicht-aufs-ganze-ld.10021453",
+    "department": {
+     "name": "Football",
+     "path": "/sport/fussball"
+    },
+    "estimationWordCount": 1017,
+    "leadText": "The threatened boycott of FIFA competitions has been suspended, but UEFA is initiating disciplinary proceedings against the FIFA president. The Europeans are easing up because they know how fierce the anti-European sentiment can be within FIFA.",
+    "nzzSummaryIsAuto": true,
+    "locale": "de-CH"
+   },
+   {
+    "title": "Europe’s resistance to Gianni Infantino’s plans has historical roots",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "authorLine": "Kai Burkhardt",
+    "tags": [
+     "Fussball",
+     "Sport: Empfehlungen"
+    ],
+    "editor": "1371759",
+    "teaserImage": {
+     "originalUrl": "/2026/08/27/d2834589-9fa5-40b0-acbc-9983c68e48d2.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/08/27/d2834589-9fa5-40b0-acbc-9983c68e48d2.jpg?width=1024&quality=75&auto=webp",
+     "width": 4920,
+     "height": 3116,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "4920,2767,x0,y0"
+      },
+      {
+       "name": "4:3",
+       "crop": "4155,3116,x765,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "3116,3116,x1452,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "2337,3116,x1842,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "4674,3116,x246,y0"
+      }
+     ],
+     "focalPoint": {
+      "x": 3010,
+      "y": 1180
+     },
+     "imageService": "fastly",
+     "teaserCaption": "From English gentlemen to churches and the military, to the women's movement: football has grown out of society. This explains Europe's opposition to FIFA's commercial plans.",
+     "teaserAuthor": "Antonio Torres / FIFA"
+    },
+    "teaserAuthor": "Antonio Torres / FIFA",
+    "nzzId": "ld.10021140",
+    "readingTime": 540,
+    "paywallQuestionOne": "Why does Europe reject Infantino's commercialization plans?",
+    "paywallQuestionTwo": "How does European history shape football culture?",
+    "paywallQuestionThree": "What role did fair play play in the development of football?",
+    "characterCount": 11758,
+    "product": "NZZ.ch",
+    "documentId": "10021140",
+    "layout": "regular",
+    "publicationDate": "2026-08-28T03:30:00.000Z",
+    "publicationLastUpdated": "2026-08-28T09:17:51.523Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-08-28T15:30:00.000Z",
+    "teaserCaption": "From English gentlemen to churches and the military, to the women's movement: football has grown out of society. This explains Europe's opposition to FIFA's commercial plans.",
+    "url": "https://www.nzz.ch/sport/fussball/fifa-die-gruende-fuer-europas-widerstand-gegen-gianni-infantinos-plaene-ld.10021140",
+    "department": {
+     "name": "Football",
+     "path": "/sport/fussball"
+    },
+    "estimationWordCount": 1770,
+    "leadText": "From English gentlemen to churches and the military, to the women's movement: football has grown out of society. This explains Europe's opposition to FIFA's commercial plans.",
+    "nzzSummaryIsAuto": true,
+    "locale": "de-CH"
+   },
+   {
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "teaserImage": {
+     "originalUrl": "/2026/07/31/5fe81e39-9fd2-4c9d-8c6c-8d3b6d1a4880.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/07/31/5fe81e39-9fd2-4c9d-8c6c-8d3b6d1a4880.jpg?width=1024&quality=75&auto=webp",
+     "width": 5400,
+     "height": 3600,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "5400,3037,x0,y409"
+      },
+      {
+       "name": "4:3",
+       "crop": "4800,3600,x0,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "3600,3600,x850,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "2700,3600,x993,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "5400,3600,x0,y0"
+      }
+     ],
+     "focalPoint": {
+      "x": 2716,
+      "y": 1615
+     },
+     "imageService": "fastly",
+     "teaserCaption": "Fifa sought to sell a portion of the commercial rights to its tournaments to private investors. In early August, the association withdrew the plan. Key questions and answers.",
+     "teaserAuthor": "Steven Senne / AP"
+    },
+    "teaserAuthor": "Steven Senne / AP",
+    "flag": "Latest developments",
+    "nzzId": "ld.10017724",
+    "readingTime": 420,
+    "paywallQuestionOne": "What plans does FIFA have with the establishment of FIFA Forward Enterprise?",
+    "paywallQuestionTwo": "Why is Infantino's plan meeting with strong resistance, especially in Europe?",
+    "paywallQuestionThree": "What consequences would a UEFA boycott have for FIFA and world football?",
+    "characterCount": 9653,
+    "title": "FIFA's failed investor plans: UEFA intends to initiate criminal proceedings against Infantino +++ Italy withdraws its support for Infantino",
+    "product": "NZZ.ch",
+    "documentId": "10017724",
+    "layout": "longformstandard",
+    "publicationDate": "2026-08-27T14:49:52.032Z",
+    "publicationLastUpdated": "2026-08-28T04:48:46.361Z",
+    "significantUpdate": true,
+    "significantUpdateTill": "2026-08-28T02:49:52.032Z",
+    "teaserCaption": "Fifa sought to sell a portion of the commercial rights to its tournaments to private investors. In early August, the association withdrew the plan. Key questions and answers.",
+    "authorLine": "Stephan Ramming, Kevin Weber",
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2023/01/27/5e2874e1-dd0f-4787-bb14-3856f43eb8f3.webp?width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/sport/fussball/gescheiterte-investorenplaene-der-fifa-weltverband-stellt-sich-nach-krisentreffen-hinter-praesident-infantino-geruechte-zu-wm-final-2030-in-casablanca-dementiert-ld.10017724",
+    "department": {
+     "name": "Football",
+     "path": "/sport/fussball"
+    },
+    "estimationWordCount": 1443,
+    "leadText": "Fifa sought to sell a portion of the commercial rights to its tournaments to private investors. In early August, the association withdrew the plan. Key questions and answers.",
+    "nzzSummaryIsAuto": true,
+    "locale": "de-CH"
+   },
+   {
+    "showHeader": true,
+    "owner": "NZZaS",
+    "language": {
+     "locale": "de"
+    },
+    "nzzasFootnote": true,
+    "teaserImage": {
+     "originalUrl": "/2026/08/19/41c51ace-f076-45b6-95d6-45163210c22d.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/08/19/41c51ace-f076-45b6-95d6-45163210c22d.jpg?width=1024&quality=75&auto=webp",
+     "width": 6720,
+     "height": 4480,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "5554,3124,x1135,y905"
+      },
+      {
+       "name": "4:3",
+       "crop": "3065,2299,x2628,y1638"
+      },
+      {
+       "name": "1:1",
+       "crop": "2529,2529,x2757,y1364"
+      },
+      {
+       "name": "3:4",
+       "crop": "2777,3702,x2574,y778"
+      },
+      {
+       "name": "3:2",
+       "crop": "6720,4480,x0,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "In February, Fifa signed an agreement with Donald Trump’s Board of Peace, announcing the establishment of a new football ecosystem in the Gaza Strip. Six months later, the plans appear stalled, due in part to the situation on the ground.",
+     "teaserAuthor": "Ahmed al-Arini / Imago"
+    },
+    "teaserAuthor": "Ahmed al-Arini / Imago",
+    "title": "Infantino promised Fifa would build football pitches in Gaza; six months later, he has made no progress",
+    "nzzId": "ld.10020062",
+    "readingTime": 420,
+    "paywallQuestionOne": "Why has FIFA not yet implemented its promises for Gaza?",
+    "paywallQuestionTwo": "What role does the political situation play in the delays to FIFA's plans?",
+    "paywallQuestionThree": "Why was the Palestinian Football Association not included in the plans?",
+    "characterCount": 8824,
+    "product": "NZZ.ch",
+    "documentId": "10020062",
+    "layout": "regular",
+    "publicationDate": "2026-08-23T03:30:00.000Z",
+    "publicationLastUpdated": "2026-08-23T10:00:10.389Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-08-23T15:30:00.000Z",
+    "teaserCaption": "In February, Fifa signed an agreement with Donald Trump’s Board of Peace, announcing the establishment of a new football ecosystem in the Gaza Strip. Six months later, the plans appear stalled, due in part to the situation on the ground.",
+    "authorLine": "Dominic Wirth, Karin A. Wenger, Thaer Abed, Gaza",
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2024/10/29/47b045ec-f793-4b72-a662-bb06855c8b1a.jpeg?width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/sport/fifa-chef-infantino-hat-gaza-fussballplaetze-versprochen-bisher-fehlt-jede-spur-ld.10020062",
+    "department": {
+     "name": "Sport",
+     "path": "/sport"
+    },
+    "estimationWordCount": 1339,
+    "leadText": "In February, Fifa signed an agreement with Donald Trump’s Board of Peace, announcing the establishment of a new football ecosystem in the Gaza Strip. Six months later, the plans appear stalled, due in part to the situation on the ground.",
+    "nzzSummaryIsAuto": true,
+    "locale": "de-CH"
+   },
+   {
+    "title": "Unusual job advertisement: FIFA is looking for a female coach for the Afghan women's national team",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "teaserImage": {
+     "originalUrl": "/2026/08/20/d5134ec9-1e78-4726-b123-aba2929906db.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/08/20/d5134ec9-1e78-4726-b123-aba2929906db.jpg?width=1024&quality=75&auto=webp",
+     "width": 3091,
+     "height": 1986,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "3091,1739,x0,y138"
+      },
+      {
+       "name": "4:3",
+       "crop": "2648,1986,x360,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "1492,1492,x1228,y369"
+      },
+      {
+       "name": "3:4",
+       "crop": "1490,1986,x1084,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "2979,1986,x89,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "The Taliban ban football for Afghan women. Now the women play again from exile, with FIFA's support.",
+     "teaserAuthor": "John Sibley / Reuters"
+    },
+    "teaserAuthor": "John Sibley / Reuters",
+    "nzzId": "ld.10020112",
+    "readingTime": 240,
+    "paywallQuestionOne": "Why is FIFA advertising for a female coach for Afghanistan's women's team?",
+    "paywallQuestionTwo": "How does Taliban rule affect Afghan women's sports?",
+    "paywallQuestionThree": "What is the significance of the FIFA precedent for national teams in exile?",
+    "characterCount": 5468,
+    "product": "NZZ.ch",
+    "documentId": "10020112",
+    "layout": "regular",
+    "publicationDate": "2026-08-21T03:30:00.000Z",
+    "publicationLastUpdated": "2026-08-21T14:46:45.519Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-08-21T15:30:00.000Z",
+    "teaserCaption": "The Taliban ban football for Afghan women. Now the women play again from exile, with FIFA's support.",
+    "authorLine": "Jana Schmid",
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2026/03/03/5ee77739-f3b3-4752-bf65-19b57e6ad252.jpg?width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/panorama/die-fifa-sucht-per-job-inserat-eine-trainerin-fuers-frauen-nationalteam-afghanistans-ld.10020112",
+    "department": {
+     "name": "Panorama",
+     "path": "/panorama"
+    },
+    "estimationWordCount": 806,
+    "leadText": "The Taliban ban football for Afghan women. Now the women play again from exile, with FIFA's support.",
+    "nzzSummaryIsAuto": true,
+    "locale": "de-CH"
+   },
+   {
+    "title": "Norway's football chief Lise Klaveness is the voice of credibility in the FIFA crisis",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "tags": [
+     "Fussball",
+     "Sport: Empfehlungen"
+    ],
+    "teaserImage": {
+     "originalUrl": "/2026/08/19/e36034e3-2568-4050-ab31-90f55db80281.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/08/19/e36034e3-2568-4050-ab31-90f55db80281.jpg?width=1024&quality=75&auto=webp",
+     "width": 6000,
+     "height": 4000,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "6000,3375,x0,y35"
+      },
+      {
+       "name": "4:3",
+       "crop": "5333,4000,x0,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "4000,4000,x193,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "3000,4000,x675,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "6000,4000,x0,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "Hypocrisy is rampant in world football these days. Klaveness was the only one to speak to the FIFA delegates and Gianni Infantino about this issue back in 2022 in Qatar.",
+     "teaserAuthor": "Jon Olav Nesvold / Imago"
+    },
+    "teaserAuthor": "Jon Olav Nesvold / Imago",
+    "nzzId": "ld.10019942",
+    "readingTime": 360,
+    "paywallQuestionOne": "How does Lise Klaveness stand out from other football officials?",
+    "paywallQuestionTwo": "Why is Klaveness demanding Gianni Infantino's resignation?",
+    "paywallQuestionThree": "What role does the women's quota play in Klaveness' UEFA career?",
+    "characterCount": 8085,
+    "product": "NZZ.ch",
+    "documentId": "10019942",
+    "layout": "longformstandard",
+    "publicationDate": "2026-08-20T03:30:00.000Z",
+    "publicationLastUpdated": "2026-08-20T03:30:00.000Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-08-20T15:30:00.000Z",
+    "teaserCaption": "Hypocrisy is rampant in world football these days. Klaveness was the only one to speak to the FIFA delegates and Gianni Infantino about this issue back in 2022 in Qatar.",
+    "authorLine": "Peter B. Birrer",
+    "url": "https://www.nzz.ch/sport/fussball/norwegens-lise-klaveness-fordert-fifa-praesident-gianni-infantino-heraus-ld.10019942",
+    "department": {
+     "name": "Football",
+     "path": "/sport/fussball"
+    },
+    "estimationWordCount": 1246,
+    "leadText": "Hypocrisy is rampant in world football these days. Klaveness was the only one to speak to the FIFA delegates and Gianni Infantino about this issue back in 2022 in Qatar.",
+    "nzzSummaryIsAuto": true,
+    "locale": "de-CH"
+   }
+  ]
+ },
+ "digitalData": {
+  "component": [
+   {
+    "id": "ld.1899514",
+    "name": "14 billion for football players: The transfer market is booming like never before. But a court ruling calls the system into question",
+    "type": "article",
+    "subType1": "regular",
+    "subType2": "",
+    "primaryCategory": "Sport",
+    "subCategory1": "Fussball",
+    "attributes": {
+     "headline": "14 billion for football players: The transfer market is booming like never before. But a court ruling calls the system into question",
+     "firstPublishTitle": "",
+     "catchline": "",
+     "authors": [
+      {
+       "id": 1841706,
+       "name": "Dominic Wirth",
+       "shortName": "dow",
+       "pianoId": "55815b22-32cd-4d60-a985-532039cefffb",
+       "external": false
+      }
+     ],
+     "issueTimestamp": "2025-09-05T14:50:00.000Z",
+     "updateTimestamp": "2025-09-05T14:50:00.000Z",
+     "isSponsoredContent": false,
+     "isPro": false,
+     "isLiveticker": false,
+     "flag": "",
+     "owner": "NZZ"
+    }
+   }
+  ],
+  "page": {
+   "pageId": "ld.1899514",
+   "pageType": "regular",
+   "primaryCategory": "Sport",
+   "subCategory1": "Fussball",
+   "subCategory2": "",
+   "language": "en-US"
+  },
+  "version": "2.0",
+  "user": {},
+  "event": []
+ },
+ "seoData": {
+  "title": "The transfer market is booming. But a court ruling calls the system into question",
+  "image": {
+   "url": "https://img-msp-prod.nzz.ch/2025/09/05/5d459cd7-fff3-412b-ad75-6af577f8df4a.jpg?width=1200&height=674&fit=bounds&quality=75&auto=webp&crop=4020,2261,x839,y25&wmark=nzz",
+   "type": "image/jpeg",
+   "width": 1200,
+   "height": 674
+  },
+  "author": "Dominic Wirth",
+  "description": "Never before have football clubs spent as much money on players as this year. A renowned sports law expert warns the generous clubs: they've only bought hot air. The reason is the verdict in the Diarra case.",
+  "news_keywords": "14 billion for football players: The transfer market is booming like never before. But a court ruling calls the system into question. (Football, News, NZZ)",
+  "type": "article",
+  "last-modified": "2025-09-05T18:50:00+02:00",
+  "date": "2025-09-05T18:50:00+02:00",
+  "canonical": "https://www.nzz.ch/sport/fussball/14-milliarden-fuer-fussballspieler-der-transfermarkt-boomt-wie-noch-nie-doch-ein-gerichtsurteil-stellt-das-system-infrage-ld.1899514",
+  "fb:app_id": 138008459595436,
+  "fb:pages": 143694099006529,
+  "fb:admins": 1592685173,
+  "locale": "de-CH",
+  "email": "online.redaktion@nzz.ch",
+  "site_name": "Neue Zürcher Zeitung",
+  "copyright": "2026 Neue Zürcher Zeitung AG, Schweiz",
+  "robots": "noindex, nofollow, noarchive, noodp",
+  "hreflang": [],
+  "sharedTitle": "14 billion for football players: The transfer market is booming like never before. But a court ruling calls the system into question",
+  "ogTitle": "The transfer market is booming like never before. But a court ruling is calling the system into question",
+  "ogUrl": "https://www.nzz.ch/sport/fussball/14-milliarden-fuer-fussballspieler-der-transfermarkt-boomt-wie-noch-nie-doch-ein-gerichtsurteil-stellt-das-system-infrage-ld.1899514",
+  "mrf:cms_id": "nzz:ld.1899514",
+  "mrf:sections": "Sport;Fussball",
+  "mrf:tags": "Page Type:regular;Editorial Owner:NZZ;Content Type:Standard Article;Article ID:ld.1899514",
+  "nzzAuthors": [
+   {
+    "id": 1841706,
+    "name": "Dominic Wirth",
+    "shortName": "dow",
+    "pianoId": "55815b22-32cd-4d60-a985-532039cefffb",
+    "external": false
+   }
+  ],
+  "links": [
+   {
+    "rel": "canonical",
+    "href": "https://www.nzz.ch/sport/fussball/14-milliarden-fuer-fussballspieler-der-transfermarkt-boomt-wie-noch-nie-doch-ein-gerichtsurteil-stellt-das-system-infrage-ld.1899514"
+   },
+   {
+    "rel": "search",
+    "href": "/suche",
+    "title": "Suche Neue Zürcher Zeitung, Schweiz, https://www.nzz.ch/suche"
+   }
+  ],
+  "renderedAt": "Thu, 03 Sep 2026 10:02:34 GMT"
+ },
+ "structuredData": [
+  {
+   "@context": "https://schema.org",
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "item": {
+      "@id": "/",
+      "name": "Home"
+     }
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "item": {
+      "@id": "/sport",
+      "name": "Sport"
+     }
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "item": {
+      "@id": "/sport/fussball",
+      "name": "Football"
+     }
+    },
+    {
+     "@type": "ListItem",
+     "position": 4,
+     "name": "The transfer market is booming. But a court ruling calls the system into question"
+    }
+   ]
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": "NewsArticle",
+   "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.nzz.ch/sport/fussball/14-milliarden-fuer-fussballspieler-der-transfermarkt-boomt-wie-noch-nie-doch-ein-gerichtsurteil-stellt-das-system-infrage-ld.1899514"
+   },
+   "headline": "The transfer market is booming. But a court ruling calls the system into question",
+   "datePublished": "2025-09-05T18:50:00+02:00",
+   "dateModified": "2025-09-05T18:50:00+02:00",
+   "publisher": {
+    "@type": "NewsMediaOrganization",
+    "name": "Neue Zürcher Zeitung",
+    "url": "https://www.nzz.ch",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://www.nzz.ch/logo.png",
+     "width": 413,
+     "height": 60
+    },
+    "contactPoint": [
+     {
+      "@type": "ContactPoint",
+      "telephone": "+41-44-2581000",
+      "contactType": "customer service"
+     }
+    ],
+    "sameAs": [
+     "https://www.facebook.com/nzz",
+     "https://www.twitter.com/nzz",
+     "https://www.youtube.com/channel/UCK1aTcR0AckQRLTlK0c4fuQ",
+     "https://www.linkedin.com/company/neue-zurcher-zeitung",
+     "https://www.instagram.com/nzz/",
+     "https://de.wikipedia.org/wiki/Neue_Z%C3%BCrcher_Zeitung",
+     "https://www.wikidata.org/wiki/Q658945",
+     "https://plus.google.com/+nzz/",
+     "http://www.freebase.com/m/041b43"
+    ],
+    "masthead": "https://www.nzz.ch/impressum/impressum-ld.148422",
+    "foundingDate": "1780"
+   },
+   "description": "Never before have football clubs spent as much money on players as this year. A renowned sports law expert warns the generous clubs: they've only bought hot air. The reason is the verdict in the Diarra case.",
+   "isAccessibleForFree": false,
+   "articleSection": "Fussball",
+   "hasPart": {
+    "@type": "WebPageElement",
+    "isAccessibleForFree": false,
+    "cssSelector": ".nzzinteraction"
+   },
+   "image": {
+    "@type": "ImageObject",
+    "url": "https://img-msp-prod.nzz.ch/2025/09/05/5d459cd7-fff3-412b-ad75-6af577f8df4a.jpg?width=1200&height=674&fit=bounds&quality=75&auto=webp&crop=4020,2261,x839,y25&wmark=nzz",
+    "width": 1200,
+    "height": 674
+   },
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Dominic Wirth"
+    }
+   ],
+   "inLanguage": "de"
+  }
+ ],
+ "mp3": true,
+ "mp3Duration": 463125,
+ "bT": {
+  "standard": {
+   "Tags": [
+    "/sport/fussball/14-milliarden-fuer-fussballspieler-der-transfermarkt-boomt-wie-noch-nie-doch-ein-gerichtsurteil-stellt-das-system-infrage-ld.1899514",
+    "classification=default",
+    "relevance=germany",
+    "layout=regular",
+    "owner=nzz",
+    "product=nzz",
+    "doctype=article",
+    "pagetype=article",
+    "ldid=ld.1899514",
+    "channel=Sport"
+   ],
+   "ContentCreated": "2025-09-05T14:50:00.000Z",
+   "ContentAuthor": "Dominic Wirth",
+   "ContentSection": "Sport",
+   "ContentIsNative": true
+  },
+  "custom": {
+   "product": "nzz",
+   "docType": "article",
+   "pageType": "article",
+   "layout": "regular",
+   "ldId": "ld.1899514",
+   "channel": "Sport",
+   "subChannel": "Fussball",
+   "heading": "14 Milliarden für Fussballspieler: Der Transfermarkt boomt wie noch nie. Doch ein Gerichtsurteil stellt das System infrage",
+   "language": "en-US"
+  }
+ },
+ "webviewMetadata": {},
+ "cacheTime": 3600
+}

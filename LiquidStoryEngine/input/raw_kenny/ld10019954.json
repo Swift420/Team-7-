@@ -1,0 +1,2033 @@
+{
+ "content": [
+  {
+   "identifier": "header",
+   "id": "doc-1k09ta73b0",
+   "content": {
+    "title": "When crude oil enters the sea off Oman, it is always an ecological catastrophe – what research has learned from past disasters",
+    "lead": "Oiled seabirds, fish belly-up – the immediate consequences of an oil spill are obvious. In the long term, however, life proves surprisingly resilient",
+    "author": ""
+   },
+   "containers": {
+    "authors": [
+     {
+      "identifier": "author-teaser",
+      "id": "doc-1k09ta73b1",
+      "content": {
+       "layout": "authorprofile",
+       "title": "Georg Rüschemeyer",
+       "url": "/impressum/georg-rueschemeyer-ld.1851260",
+       "teaserImage": {
+        "originalUrl": "/2024/12/18/90d0029f-8bb7-4c86-ad85-d437f8b1c75f.jpeg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2024/12/18/90d0029f-8bb7-4c86-ad85-d437f8b1c75f.jpeg?width=1024&quality=75&auto=webp",
+        "width": 4128,
+        "height": 2752,
+        "crops": [
+         {
+          "name": "web-teaser",
+          "crop": "3669,2064,x186,y312"
+         },
+         {
+          "name": "1:1",
+          "crop": "1527,1527,x1176,y383"
+         },
+         {
+          "name": "4:3",
+          "crop": "3261,2446,x403,y278"
+         },
+         {
+          "name": "3:4",
+          "crop": "1835,2446,x1103,y258"
+         }
+        ],
+        "imageService": "fastly"
+       }
+      }
+     }
+    ]
+   },
+   "prevElement": "",
+   "nextElement": "image",
+   "firstContentElement": true
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1k09ta73b2",
+   "content": {
+    "image": {
+     "author": "Win McNamee / Getty",
+     "caption": "Pelican in the Gulf of Mexico, shortly after the Deepwater Horizon oil rig blowout in 2010. Contaminated seabirds often only become poisoned by the oil during desperate attempts to clean it up.",
+     "originalUrl": "/2026/08/18/b3a105c9-a6f6-4fdd-bff6-296ec8774790.jpg?crop=3000,2029,x0,y0",
+     "width": 3000,
+     "height": 2029,
+     "altText": "EAST GRAND TERRE ISLAND, LA - JUNE 04: A brown pelican coated in heavy oil walls in the surf June 4, 2010 on East Grand Terre Island, Louisiana. Oil from the Deepwater Horizon incident is coming ashore in large volumes across southern Louisiana coastal areas. (Photo by Win McNamee/Getty Images)",
+     "origins": [
+      {
+       "name": "Hugo",
+       "identifier": "2180109833"
+      }
+     ],
+     "crop": {
+      "x": 0,
+      "y": 0,
+      "width": 3000,
+      "height": 2029,
+      "name": "article-image"
+     },
+     "namedCrops": [
+      {
+       "x": 0,
+       "y": 0,
+       "width": 3000,
+       "height": 2029,
+       "name": "article-image"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "caption": "Pelican in the Gulf of Mexico, shortly after the Deepwater Horizon oil rig blowout in 2010. Contaminated seabirds often only become poisoned by the oil during desperate attempts to clean it up.",
+    "author": "Win McNamee / Getty"
+   },
+   "prevElement": "header",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1k0d2oe6i0",
+   "content": {
+    "text": "For weeks, a largely unnoticed ecological drama has been unfolding in the Arabian Sea off the coast of Oman. The damaged supertanker «Caroline Bezengi» lies aground off the island of al-Kibliya. Huge quantities of crude oil are flowing into the sea from the ship, which is considered part of Russia's so-called shadow fleet. Experts estimate the cargo at more than 100,000 tons. It is difficult to say how much of it has already leaked. The resulting oil slick now covers an area of many hundreds of square kilometers, <a href=\"https://www.nzz.ch/visuals/die-arabische-halbinsel-schwimmt-im-oel-ld.10020015\">as can be clearly seen in satellite images</a>. In mid-August, it reached the Omani coast."
+   },
+   "data": {},
+   "prevElement": "image",
+   "nextElement": "barrier"
+  },
+  {
+   "id": "doc-64f01680",
+   "identifier": "barrier",
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1k0d6o9e20",
+   "content": {
+    "text": "The oil spill is unfolding in the midst of the <a href=\"https://whc.unesco.org/en/tentativelists/5832/\">Al Hallaniyyat Islands Nature Reserve</a>, a strictly protected marine sanctuary. The islands are important breeding grounds for rare sea turtles and seabirds, and the waters boast coral reefs famous among dive tourists and a unique subspecies of humpback whale."
+   },
+   "paidContent": true,
+   "prevElement": "barrier",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1k0d5s8uf0",
+   "content": {
+    "text": "It is still too early to assess the potential damage to the ecosystem. What is clear is that crude oil is pure poison for all marine habitats, from the deep sea to the beach. «How severe the ecological consequences are in individual cases depends heavily on the abiotic conditions at the respective accident site,» says oceanographer Marcus Dengler from the GEOMAR Helmholtz Centre for Ocean Research Kiel. There, the physicist primarily focuses on ocean currents."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1k0fogrkh0",
+   "content": {
+    "title": "Release point: crucial factors",
+    "id": "subtitle-entscheidend-ist-was-wo-rauskommt"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1k0f3h2go0",
+   "content": {
+    "text": "First, the point of release. Crude oil that escapes at the seafloor, as in the Deepwater Horizon drilling platform blowout, can disperse significantly even in the water column. In shallow-water accidents near the coast, most of it quickly floats as an oil slick on the surface. There, the surf often whips it into a suspension of oil and water, similar to what you get when shaking a vinaigrette. Researchers affectionately call the result «Chocolate Mousse»: a viscous mass floating on the sea surface with many times the volume of the oil it contains. It is transported particularly far by ocean currents and makes it difficult to contain the oil's spread."
+   },
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "q-embed"
+  },
+  {
+   "identifier": "q-embed",
+   "id": "doc-1k0deq3dl0",
+   "content": {
+    "q-embed": {
+     "service": "q-tool",
+     "params": {
+      "id": "eba29ab8b3563c62c88b5868e0ae6622",
+      "conf": {},
+      "toolConfig": {},
+      "toolRuntimeConfig": {
+       "size": {
+        "width": [
+         {
+          "value": 100,
+          "comparison": ">"
+         }
+        ]
+       },
+       "displayOptions": {
+        "hideTitle": false,
+        "hideSubtitle": false,
+        "hideFooter": false,
+        "hideAcronym": false,
+        "size": "basic"
+       },
+       "locale": "en_US"
+      },
+      "size": "content"
+     },
+     "resolvedValue": {}
+    },
+    "html": "      <div        class=\"q-chart-container\"        id=\"q_chart_eba29ab8b3563c62c88b5868e0ae6622_qe240977a9e574189b64d631cb3af251d_container\"        data-q-item-id=\"eba29ab8b3563c62c88b5868e0ae6622\"        data-q-request-id=\"534f2bea6a264ea61bf9fe9e7d4bd3ed957c9713\"      ></div>",
+    "stylesheets": [
+     {
+      "type": "remote",
+      "content": "https://service.sophie.nzz.ch/bundle/sophie-color%23master,sophie-font%23master,sophie-legend%23master[icon-label],sophie-q%23master,sophie-viz-color%23master[general].css"
+     },
+     {
+      "type": "inline",
+      "content": "  @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff) format(\"woff\");  }    @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff) format(\"woff\");    unicode-range: U+0020-00FF,U+2005,U+2082;  }      "
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/css-theme-layer/nzz-0.2.0.css"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/chart/q-chart-1.2.6.css"
+     }
+    ],
+    "scripts": [
+     {
+      "type": "inline",
+      "content": "function qTrackingBootstrap(t,e,n){if(window.digitalData&&window.digitalData.component&&window.digitalData.component.push){window.digitalData.component.push(t),window.digitalData.event&&window.digitalData.event.length||(window.digitalData.event=[]);var i=new Date,a=e;a.eventInfo.timeStamp=i.toISOString(),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\");var o=document.querySelectorAll(\"[data-q-request-id='\"+n+\"']\");[].forEach.call(o,function(t){t.addEventListener(\"q-tracking-event\",function(t){var e=new Date;(a=JSON.parse(JSON.stringify(a))).eventInfo.timeStamp=e.toISOString(),a.eventInfo=Object.assign(a.eventInfo,t.detail.eventInfo),a.category=Object.assign(a.category,t.detail.category),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\")},!1)})}};qTrackingBootstrap({\"componentInfo\":{\"componentName\":\"Q\",\"componentID\":\"eba29ab8b3563c62c88b5868e0ae6622\"},\"category\":{\"componentType\":\"storytelling\",\"componentSubType1\":\"Q graphic\",\"componentSubType2\":\"chart\"}},{\"eventInfo\":{\"eventName\":\"Storytelling Interaction\",\"eventAction\":\"load\",\"type\":\"story\",\"componentName\":\"Q\",\"eventNonInteractive\":true,\"componentID\":\"eba29ab8b3563c62c88b5868e0ae6622\"},\"category\":{\"primaryCategory\":\"storytelling\",\"subCategory1\":\"Q graphic\",\"subCategory2\":\"chart\"}},\"534f2bea6a264ea61bf9fe9e7d4bd3ed957c9713\")"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/chart/q-chart-1.2.6.js"
+     },
+     {
+      "type": "inline",
+      "content": "      (function () {        function initialize() {          const target = document.querySelector('#q_chart_eba29ab8b3563c62c88b5868e0ae6622_qe240977a9e574189b64d631cb3af251d_container');          if (!target) return;          target.innerHTML = '';          const qdoc = {\"_id\":\"eba29ab8b3563c62c88b5868e0ae6622\",\"allowDownloadData\":false,\"title\":\"Oil tankers have become safer\",\"subtitle\":\"Number of major oil spills involving tankers (more than 700 tons of oil in the sea), by decade from the specified year\",\"publication\":\"nzz\",\"acronym\":\"\",\"data\":[[null,null],[\"1970\",\"245\"],[\"1980\",\"94\"],[\"1990\",\"77\"],[\"2000\",\"32\"],[\"2010\",\"18\"],[\"2020\",\"14\"]],\"sources\":[{\"text\":\"ITOPF\",\"link\":{\"url\":\"https://www.itopf.org/knowledge-resources/data-statistics/oil-tanker-spill-statistics-2025/\"}}],\"events\":[],\"options\":{\"annotations\":{},\"areaChartOptions\":{\"areaInterpolation\":\"linear\",\"stackType\":\"zero\"},\"arrowOptions\":{\"colorScheme\":0,\"invertColorScheme\":false},\"barOptions\":{\"isBarChart\":false,\"forceBarsOnSmall\":false},\"chartType\":\"Bar\",\"colorOverwritesRows\":[],\"colorOverwritesSeries\":[],\"dateSeriesOptions\":{\"interval\":\"auto\",\"labels\":\"many\",\"prognosisStart\":null},\"dotplotOptions\":{},\"hideAxisLabel\":true,\"highlightDataRows\":[],\"highlightDataSeries\":[],\"lineChartOptions\":{\"yScaleType\":\"linear\",\"reverseYScale\":false,\"lineInterpolation\":\"linear\",\"isStockChart\":false},\"largeNumbers\":{\"divideBy\":0}},\"datasheetParseInfo\":{\"columns\":[{\"type\":\"date\",\"dateFormatGroup\":\"year_first\"},{\"type\":\"number\",\"decimalSeparator\":\".\"},{\"type\":\"number\",\"decimalSeparator\":\".\"},{\"type\":\"number\",\"decimalSeparator\":\".\"},{\"type\":\"number\",\"decimalSeparator\":\".\"}]},\"updatedDate\":\"2026-08-19T16:49:15.973Z\",\"notes\":\"\"};          const toolRuntimeConfig = {\"displayOptions\":{\"hideTitle\":false,\"hideSubtitle\":false,\"hideFooter\":false,\"hideAcronym\":false,\"size\":\"basic\"},\"size\":{\"width\":[{\"value\":100,\"comparison\":\">\"}]},\"locale\":\"en-US\"};          const toolSettings = {\"qItemInstanceId\":\"q_chart_eba29ab8b3563c62c88b5868e0ae6622_qe240977a9e574189b64d631cb3af251d\"};          let attempts = 0;          const maxAttempts = 100;          const checkAndInitialize = setInterval(() => {            if (window.qChart) {              clearInterval(checkAndInitialize);              new window.qChart({ target: target, props: {                qdoc: qdoc,                toolSettings: toolSettings,                toolRuntimeConfig: toolRuntimeConfig              } });            } else {              attempts++;              if (attempts >= maxAttempts) {                clearInterval(checkAndInitialize);                console.error('Failed to initialize qChart after 30 seconds');              }            }          }, 300);        }        if (document.body.classList.contains('pagedone')) {          initialize();        } else {          window.addEventListener('pagedone', initialize);        }      })();    "
+     }
+    ]
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1k0f49vrs0",
+   "content": {
+    "text": "Whether moussed or not: «The further fate of the oil on the surface depends on large ocean currents and local wind conditions,» says Dengler. These can drive the oil out to the open sea, as was the case with the tanker «Castillo de Bellver» accident in 1983 off the coast of South Africa, which, despite more than 100,000 tons of oil released, had comparatively mild ecological consequences. This is because, when dispersed in the vast ocean, the hydrocarbon mixture is relatively quickly broken down by the influence of light and finally degraded by bacteria."
+   },
+   "paidContent": true,
+   "prevElement": "q-embed",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1k0fohbji0",
+   "content": {
+    "title": "Crude oil: a complex mixture",
+    "id": "subtitle-roh-l-ist-ein-komplexes-gemisch"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1k0f6a98k0",
+   "content": {
+    "text": "Wherever the journey takes it, light components of the crude oil evaporate along the way, while the remaining long-chain components clump together. «If these clumps become denser than seawater, they sink into the depths, and the oil slick continues to lose mass,» Dengler explains."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1k0fsvbnj1",
+   "content": {
+    "text": "However, it is not a case of «out of sight, out of mind,» because in the depths, microbial degradation heavily consumes the often already scarce oxygen, thereby burdening the less obvious ecosystems, Dengler maintains. «In the current case in the Arabian Sea, this will be particularly interesting, as there are naturally large oxygen-free zones in the depths due to the lack of connection to cold, oxygen-rich ocean areas,» he adds."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1k0f7f2811",
+   "content": {
+    "text": "Another effect also contributes to the oxygen deficiency, severely impairing the teeming life below the oil slick even on the open sea: it blocks the penetration of sunlight. The microalgae of the phytoplankton thus lack their basis for life, and additionally, because they live near the surface, they are also poisoned by soluble oil components. The consequence: the base of the entire food web collapses over large areas."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1k0fohi8c0",
+   "content": {
+    "title": "Oil disasters: no fixed rules",
+    "id": "subtitle-die-regel-bei-lkatastrophen-es-gibt-keine-regel"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1k0f7qep80",
+   "content": {
+    "text": "Despite all degradation processes, the slick usually still contains more than enough oil when it finally reaches a coast. How severely it affects the local communities and how long it takes for them to overcome this damage depends on many factors: exposed rocky coasts suffer less than species-rich estuaries, and in polar seas, the microbial degradation of oil takes significantly longer due to low temperatures than in the tropics. «Every accident is different,» summarizes Marcus Dengler."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "q-embed"
+  },
+  {
+   "identifier": "q-embed",
+   "id": "doc-1k0ddgti90",
+   "content": {
+    "q-embed": {
+     "service": "q-tool",
+     "params": {
+      "id": "eba29ab8b3563c62c88b5868e0aab2e7",
+      "conf": {},
+      "toolConfig": {},
+      "toolRuntimeConfig": {
+       "size": {
+        "width": [
+         {
+          "value": 100,
+          "comparison": ">"
+         }
+        ]
+       },
+       "displayOptions": {
+        "hideTitle": false,
+        "hideSubtitle": false,
+        "hideFooter": false,
+        "hideAcronym": false
+       },
+       "locale": "en_US"
+      },
+      "size": "content"
+     },
+     "resolvedValue": {}
+    },
+    "html": "      <div        class=\"q-locator_map-container\"        id=\"q_locator_map_eba29ab8b3563c62c88b5868e0aab2e7_q179508db2b664de683e5108086353273_container\"        data-q-item-id=\"eba29ab8b3563c62c88b5868e0aab2e7\"        data-q-request-id=\"c2b71368460ffed8d14de3bf8b818c917e2c6507\"      ></div>",
+    "stylesheets": [
+     {
+      "type": "remote",
+      "content": "https://service.sophie.nzz.ch/bundle/sophie-color%23master,sophie-font%23master,sophie-legend%23master[icon-label],sophie-q%23master,sophie-viz-color%23master[general].css"
+     },
+     {
+      "type": "inline",
+      "content": "  @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff) format(\"woff\");  }    @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff) format(\"woff\");    unicode-range: U+0020-00FF,U+2005,U+2082;  }      "
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/css-theme-layer/nzz-0.2.0.css"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/locatorMap/q-locatorMap-1.1.12.css"
+     }
+    ],
+    "scripts": [
+     {
+      "type": "inline",
+      "content": "function qTrackingBootstrap(t,e,n){if(window.digitalData&&window.digitalData.component&&window.digitalData.component.push){window.digitalData.component.push(t),window.digitalData.event&&window.digitalData.event.length||(window.digitalData.event=[]);var i=new Date,a=e;a.eventInfo.timeStamp=i.toISOString(),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\");var o=document.querySelectorAll(\"[data-q-request-id='\"+n+\"']\");[].forEach.call(o,function(t){t.addEventListener(\"q-tracking-event\",function(t){var e=new Date;(a=JSON.parse(JSON.stringify(a))).eventInfo.timeStamp=e.toISOString(),a.eventInfo=Object.assign(a.eventInfo,t.detail.eventInfo),a.category=Object.assign(a.category,t.detail.category),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\")},!1)})}};qTrackingBootstrap({\"componentInfo\":{\"componentName\":\"Q\",\"componentID\":\"eba29ab8b3563c62c88b5868e0aab2e7\"},\"category\":{\"componentType\":\"storytelling\",\"componentSubType1\":\"Q graphic\",\"componentSubType2\":\"locator_map\"}},{\"eventInfo\":{\"eventName\":\"Storytelling Interaction\",\"eventAction\":\"load\",\"type\":\"story\",\"componentName\":\"Q\",\"eventNonInteractive\":true,\"componentID\":\"eba29ab8b3563c62c88b5868e0aab2e7\"},\"category\":{\"primaryCategory\":\"storytelling\",\"subCategory1\":\"Q graphic\",\"subCategory2\":\"locator_map\"}},\"c2b71368460ffed8d14de3bf8b818c917e2c6507\")"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/locatorMap/q-locatorMap-1.1.12.js"
+     },
+     {
+      "type": "inline",
+      "content": "      (function () {        function initialize() {          const target = document.querySelector('#q_locator_map_eba29ab8b3563c62c88b5868e0aab2e7_q179508db2b664de683e5108086353273_container');          if (!target) return;          target.innerHTML = '';          const qdoc = {\"_id\":\"eba29ab8b3563c62c88b5868e0aab2e7\",\"title\":\"Crude oil in the sea: Always a catastrophe\",\"subtitle\":\"Location of the selected oil spills\",\"publication\":\"nzz\",\"acronym\":\"rüs\",\"sources\":[{\"text\":\"Wikipedia, own research\",\"link\":{\"url\":\"\"}}],\"geojsonList\":[{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[-4.717603,48.592725]},\"id\":\"custom-layer-GwNzbTKEfMDKZij03hND3\",\"properties\":{\"label\":\"Amoco Cadiz (1978)\",\"type\":\"point\",\"labelPosition\":\"top\",\"index\":0}},{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[-88.366111,28.738056]},\"id\":\"custom-layer-UAkJwz-vn9ZhA_ysXko2F\",\"properties\":{\"label\":\"Deepwater Horizon (2010)\",\"type\":\"point\",\"labelPosition\":\"top\",\"index\":0}},{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[-79.860837,9.402742]},\"id\":\"custom-layer-MLJ5yLYwRZi-bYx952unT\",\"properties\":{\"label\":\"Bahia las Minas (1986)\",\"type\":\"point\",\"labelPosition\":\"bottom\",\"index\":0}},{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[48.2067,29.0267]},\"id\":\"custom-layer-e0FlISbPsQkL2vCmzszbF\",\"properties\":{\"label\":\"Kuwait (1991)\",\"type\":\"point\",\"labelPosition\":\"top\",\"index\":0}},{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[-146.8625,60.84]},\"id\":\"custom-layer-JJ7zeuO1PSDicA5PxzfkS\",\"properties\":{\"label\":\"Exxon Valdez (1989)\",\"type\":\"point\",\"labelPosition\":\"topright\",\"index\":0}},{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[56.3375,17.5]},\"id\":\"custom-layer-1AjE-uwpbujOCsXC6uKVI\",\"properties\":{\"label\":\"Caroline Bezengi (2026)\",\"type\":\"point\",\"labelPosition\":\"bottom\",\"index\":0}}],\"options\":{\"baseLayer\":{\"layers\":{\"label\":true},\"style\":\"basic\"},\"dimension\":{\"useDefaultAspectRatio\":true},\"highlightRegion\":[],\"initialZoomLevel\":-1,\"labelsBelowMap\":false,\"labelsBelowMapOneRow\":false,\"minimap\":{\"showMinimap\":false,\"options\":{\"type\":\"globe\",\"position\":\"top-left\"}},\"scale\":{\"options\":{\"position\":\"bottom-left\"}},\"showLegend\":false},\"updatedDate\":\"2026-08-24T15:04:01.345Z\"};          const toolRuntimeConfig = {\"displayOptions\":{\"hideTitle\":false,\"hideSubtitle\":false,\"hideFooter\":false,\"hideAcronym\":false},\"size\":{\"width\":[{\"value\":100,\"comparison\":\">\"}]},\"locale\":\"en-US\"};          const toolSettings = {\"qItemInstanceId\":\"q_locator_map_eba29ab8b3563c62c88b5868e0aab2e7_q179508db2b664de683e5108086353273\",\"fontBaseUrl\":\"https://qv1-server.nzz.ch/files/locator_map/fonts/\",\"toolBaseUrl\":\"https://q-server.nzz.ch/locator_map\",\"apiKey\":\"UUOJDlqQTsVSgwOM1KVX\"};          let attempts = 0;          const maxAttempts = 100;          const checkAndInitialize = setInterval(() => {            if (window.qLocatorMap) {              clearInterval(checkAndInitialize);              new window.qLocatorMap({ target: target, props: {                qdoc: qdoc,                toolSettings: toolSettings,                toolRuntimeConfig: toolRuntimeConfig              } });            } else {              attempts++;              if (attempts >= maxAttempts) {                clearInterval(checkAndInitialize);                console.error('Failed to initialize qLocatorMap after 30 seconds');              }            }          }, 300);        }        if (document.body.classList.contains('pagedone')) {          initialize();        } else {          window.addEventListener('pagedone', initialize);        }      })();    "
+     }
+    ]
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1k0f7hjg61",
+   "content": {
+    "text": "An exemplary look at five notorious oil disasters of the past illustrates some of the lessons that science has been able to draw so far:"
+   },
+   "paidContent": true,
+   "prevElement": "q-embed",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1k0cbb9bd0",
+   "content": {
+    "title": "«Deepwater Horizon»: Gulf of Mexico (2010)",
+    "id": "subtitle-deepwater-horizon-golf-von-mexiko-2010"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "image"
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1k0amletl1",
+   "content": {
+    "image": {
+     "author": "John Moore / Getty",
+     "caption": "The oil slick on the beach of Grand Isle, Louisiana, on May 22, 2010. The catastrophe also threatened the existence of many fishermen.",
+     "originalUrl": "/2026/08/18/b9850c09-a0c8-4eb1-9e78-fa8bd41856fa.jpg?crop=3000,1897,x0,y0",
+     "width": 3000,
+     "height": 1897,
+     "altText": "GRAND ISLE, LA - MAY 22: Oil washes onto the beach on May 22, 2010 on Grand Isle, Louisiana. More than a month after BP's Deepwater Horizon well exploded, oil continues gushing from the well and is coating beaches and marshland along the Louisiana coast. (Photo by John Moore/Getty Images)",
+     "origins": [
+      {
+       "name": "Hugo",
+       "identifier": "2180109834"
+      }
+     ],
+     "crop": {
+      "x": 0,
+      "y": 0,
+      "width": 3000,
+      "height": 1897,
+      "name": "article-image"
+     },
+     "namedCrops": [
+      {
+       "x": 0,
+       "y": 0,
+       "width": 3000,
+       "height": 1897,
+       "name": "article-image"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "caption": "The oil slick on the beach of Grand Isle, Louisiana, on May 22, 2010. The catastrophe also threatened the existence of many fishermen.",
+    "author": "John Moore / Getty"
+   },
+   "data": {
+    "_captionDirective": {
+     "highlightedTextRanges": {
+      "H6AARSLTTZbu": {
+       "start": 0,
+       "end": 15,
+       "text": "Grand Isle, LA"
+      }
+     }
+    }
+   },
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1k0f996180",
+   "content": {
+    "text": "On April 20, 2010, the Deepwater Horizon drilling platform exploded in the Gulf of Mexico off New Orleans. By the time the well was temporarily sealed in July, at least half a million tons of crude oil had leaked out. «This accident differed in some important characteristics from typical tanker accidents,» says oceanographer Marcus Dengler. For example, the oil escaped at great depths, along with huge amounts of methane gas. It dispersed over large areas at a water depth of more than 1,000 meters, and a significant portion sank to the bottom."
+   },
+   "paidContent": true,
+   "prevElement": "image",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1k0flpo8q1",
+   "content": {
+    "text": "But what rose to the surface was enough to contaminate more than 2,000 kilometers of the American coastline, including the Mississippi Delta and sensitive salt marshes. An <a href=\"https://www.sciencedirect.com/science/article/abs/pii/S0025326X16304313\">overview study</a> concluded six years after the accident that many communities had, however, recovered surprisingly well."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1k0flrh2c1",
+   "content": {
+    "text": "However, the consequences are not yet over for longer-lived animals at the top of the food pyramid, including large fish, dolphins, and sea turtles. A <a href=\"https://www.nature.com/articles/s41598-020-62944-6\">follow-up study published in 2020</a> found the tilefish to be particularly contaminated with harmful hydrocarbons: the fish dig extensive burrows into the sediment and thus regularly encounter submerged oil, the residues of which damage their internal organs."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1k0fjlglo0",
+   "content": {
+    "title": "«Amoco Cadiz»: Brittany (1978)",
+    "id": "subtitle-amoco-cadiz-bretagne-1978"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "image"
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1k0fn79r50",
+   "content": {
+    "image": {
+     "author": "Imago",
+     "caption": "The bow of the «Amoco Cadiz» shortly after the accident in 1978. Today, all parts of the ship lie underwater and are a popular destination for divers.",
+     "originalUrl": "/2026/08/20/5c9c3e66-0f6c-455e-b389-1cc2b2e4c4d3.jpg?crop=3893,2576,x0,y0",
+     "width": 3893,
+     "height": 2576,
+     "altText": "The wreck of Amoco Cadiz in the show Thalassa, memories of Amoco in March 1978 1696154 The wreck of Amoco Cadiz in the show Thalassa, memories of Amoco in March 1978 by Unknown photographer, 20th century add.info.: The wreck of Amoco Cadiz in the show Thalassa, memories of Amoco in March 1978 PVDE. Copyright: xPVDEx/xBridgemanxImagesx 1696154",
+     "origins": [
+      {
+       "name": "Hugo",
+       "identifier": "2180133989"
+      }
+     ],
+     "crop": {
+      "x": 0,
+      "y": 0,
+      "width": 3893,
+      "height": 2576,
+      "name": "article-image"
+     },
+     "namedCrops": [
+      {
+       "x": 0,
+       "y": 0,
+       "width": 3893,
+       "height": 2576,
+       "name": "article-image"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "caption": "The bow of the «Amoco Cadiz» shortly after the accident in 1978. Today, all parts of the ship lie underwater and are a popular destination for divers.",
+    "author": "Imago"
+   },
+   "data": {
+    "_captionDirective": {
+     "highlightedTextRanges": {
+      "7HM8iHAGLHxl": {
+       "start": 0,
+       "end": 11,
+       "text": "The wreck o"
+      }
+     }
+    }
+   },
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1k0fjli0k0",
+   "content": {
+    "text": "Today, the wreck of the supertanker «Amoco Cadiz» lies at a depth of 30 meters off the coast of Brittany. It ran aground on rocks on March 16, 1978, after a rudder failure, broke apart, and with its cargo of a good 220,000 tons of crude oil, caused one of the most serious oil disasters, directly off a European coast. The oil killed seabirds and marine animals along 360 kilometers of coastline, including thousands of tons of oysters. The recovery of the affected area followed the typical pattern of ecological succession: initially, a few species largely insensitive to the toxic hydrocarbons colonized the newly available space on rocks and sediments. Over the years, more and more species were added until, by the mid-1980s, biodiversity largely corresponded to what it had been before the accident."
+   },
+   "paidContent": true,
+   "prevElement": "image",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1k0cbbrrq0",
+   "content": {
+    "title": "«Exxon Valdez»: Alaska (1989)",
+    "id": "subtitle-exxon-valdez-alaska-1989"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "image"
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1k0amls9i1",
+   "content": {
+    "image": {
+     "author": "Jean-Louis Atlan / Sygma",
+     "caption": "After the «Exxon Valdez» accident, helpers cleaned the beach with hot steam – a serious mistake, as it turned out.",
+     "originalUrl": "/2026/08/18/74007f4b-d0e0-4b8d-8baa-32be6a72a050.jpg?crop=5315,3543,x0,y0",
+     "width": 5315,
+     "height": 3543,
+     "altText": "Teams of firefighters cleaning the Alaskan coast following the Exxon Valdez oil spill. (Photo by jean-Louis Atlan/Sygma via Getty Images)",
+     "origins": [
+      {
+       "name": "Hugo",
+       "identifier": "2180109832"
+      }
+     ],
+     "crop": {
+      "x": 0,
+      "y": 0,
+      "width": 5315,
+      "height": 3543,
+      "name": "article-image"
+     },
+     "namedCrops": [
+      {
+       "x": 0,
+       "y": 0,
+       "width": 5315,
+       "height": 3543,
+       "name": "article-image"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "caption": "After the «Exxon Valdez» accident, helpers cleaned the beach with hot steam – a serious mistake, as it turned out.",
+    "author": "Jean-Louis Atlan / Sygma"
+   },
+   "data": {
+    "_captionDirective": {
+     "highlightedTextRanges": {
+      "PQKQdaXc-Vm0": {
+       "start": 0,
+       "end": 6,
+       "text": "Teams "
+      }
+     }
+    }
+   },
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1k0dfcron0",
+   "content": {
+    "text": "Hardly any oil spill has been the subject of as many ecological impact studies as the accident of the tanker «Exxon Valdez,» which ran aground on a reef off the coast of South Alaska on March 24, 1989. Approximately 40,000 tons of leaked crude oil covered about 2,000 kilometers of pristine coastline with a brown slick."
+   },
+   "paidContent": true,
+   "prevElement": "image",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1k0fomva61",
+   "content": {
+    "text": "Seabirds, but also sea otters and other marine mammals, died by the thousands. Some holes in the ecological network closed quickly on their own, while others remained open for decades. For example, the bladderwrack, which had previously served as habitat and food for countless animals, was only able to re-establish itself very slowly over large areas: its place on the rocks had in the meantime been occupied by other algae and barnacles."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1k0fgulm00",
+   "content": {
+    "text": "In many places, the bladderwrack was less a victim of the oil than of the cleaning measures. After the accident, attempts were made to remove the oil from the coast using steam cleaners. This was successful, but it also successfully removed all life from the rocks and pebble beaches. Since then, cleaning operations have been carried out with considerably more restraint."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1k0cbcr440",
+   "content": {
+    "title": "Oil Spill in the Second Gulf War: Kuwait (1991)",
+    "id": "subtitle-lpest-im-zweiten-golfkrieg-kuwait-1991"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "image"
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1k0ammm151",
+   "content": {
+    "image": {
+     "author": "Allan Tannenbaum / Archive Photos / Getty",
+     "caption": "Beach in Kuwait shortly after Iraqi forces caused the largest oil spill of all time. Burning oil wells blaze in the background.",
+     "originalUrl": "/2026/08/18/4296bc64-c0bf-490e-b0b3-02cb283d4c32.jpg?crop=4748,3300,x0,y0",
+     "width": 4748,
+     "height": 3300,
+     "altText": "View across oil-soaked sand as oil wells burn in the distance, Kuwait, 1991. (Photo by Allan Tannenbaum/Getty Images)",
+     "origins": [
+      {
+       "name": "Hugo",
+       "identifier": "2180109837"
+      }
+     ],
+     "crop": {
+      "x": 0,
+      "y": 0,
+      "width": 4748,
+      "height": 3300,
+      "name": "article-image"
+     },
+     "namedCrops": [
+      {
+       "x": 0,
+       "y": 0,
+       "width": 4748,
+       "height": 3300,
+       "name": "article-image"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "caption": "Beach in Kuwait shortly after Iraqi forces caused the largest oil spill of all time. Burning oil wells blaze in the background.",
+    "author": "Allan Tannenbaum / Archive Photos / Getty"
+   },
+   "data": {
+    "_captionDirective": {
+     "highlightedTextRanges": {
+      "9dcjOx3x-Z2y": {
+       "start": 0,
+       "end": 12,
+       "text": "View across "
+      }
+     }
+    }
+   },
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1k0dfeqfn0",
+   "content": {
+    "text": "To hinder the landing of coalition forces, the Iraqi army channeled an estimated over one million tons of oil into the Persian Gulf during the Second Gulf War – the largest oil spill of all time. Salt marshes and mangrove belts died off over large areas – and with them their typical animal communities. At first glance, many of the affected ecosystems quickly recovered from the acute damage. But even here, the oil remains deep in the sediment to this day. Moreover, the Persian Gulf never truly recovers: large quantities of crude oil also entered the tropical sea during recent hostilities."
+   },
+   "paidContent": true,
+   "prevElement": "image",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1k0cbdoh60",
+   "content": {
+    "title": "Oil Spill in Bahia las Minas: Panama 1986",
+    "id": "subtitle-lpest-in-der-bahia-las-minas-panama-1986"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1k0d9vosd1",
+   "content": {
+    "text": "A scientific peculiarity is the oil spill of just 8,000 tons of oil that flowed from a ruptured storage tank into Bahia las Minas on the Caribbean side of Panama on April 27, 1986. Affected areas included coral reefs, sensitive seagrass beds, and mangrove forests, which died off over approximately 70 hectares. What is special is that the Galeta Marine Laboratory of the Smithsonian Institution is located in the middle of the affected region, from which biologists have been studying life in and around the surrounding sea since the 1960s."
+   },
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1k0foqsgm1",
+   "content": {
+    "text": "For this reason, researchers were immediately on site and could draw on extensive datasets about the state of the ecosystem before the accident – a unique scientific opportunity that led to numerous publications. For example, a <a href=\"https://www.ingentaconnect.com/content/umrsmas/bullmar/2025/00000101/00000003/art00020\">study recently published in the «Bulletin of Marine Science»</a> shows that the mangrove stands regenerating in the areas affected in 1986 thrived less well for up to 20 years than those in unaffected areas."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "sharebox",
+   "lastContentElement": true
+  },
+  {
+   "identifier": "sharebox",
+   "id": "doc-1k09ta73b4",
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "related-articles-container"
+  },
+  {
+   "identifier": "related-articles-container",
+   "id": "doc-1k09ta73b5",
+   "content": {
+    "title": "Related articles"
+   },
+   "containers": {
+    "related-articles": [
+     {
+      "identifier": "teaser",
+      "id": "doc-1k09ta73c0",
+      "content": {
+       "title": "The Arabian Peninsula Swims in Oil",
+       "showHeader": true,
+       "owner": "NZZ",
+       "language": {
+        "locale": "de"
+       },
+       "teaserImage": {
+        "originalUrl": "/2026/08/19/ba99c6b6-2530-43db-b945-456d42299264.png?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2026/08/19/ba99c6b6-2530-43db-b945-456d42299264.png?width=1024&quality=75&auto=webp",
+        "width": 1680,
+        "height": 1280,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "1680,945,x0,y168"
+         },
+         {
+          "name": "4:3",
+          "crop": "1680,1260,x0,y10"
+         },
+         {
+          "name": "1:1",
+          "crop": "1280,1280,x200,y0"
+         },
+         {
+          "name": "3:4",
+          "crop": "960,1280,x360,y0"
+         },
+         {
+          "name": "3:2",
+          "crop": "1680,1120,x0,y80"
+         }
+        ],
+        "imageService": "fastly",
+        "teaserCaption": "The Iran war is polluting the coasts and the water. Tons of oil are leaking into the water from damaged tankers and an aging shadow fleet. The cleanup is complicated – and nobody wants to pay for it."
+       },
+       "showComments": true,
+       "tags": [
+        "Aus dem Orbit",
+        "Visuals"
+       ],
+       "paywallQuestionOne": "How is the war affecting the environment in the Persian Gulf?",
+       "paywallQuestionTwo": "Why aren't shadow fleets liable for oil leaks?",
+       "paywallQuestionThree": "Who bears the costs for cleaning up the oil spill?",
+       "nzzId": "ld.10020015",
+       "readingTime": 120,
+       "characterCount": 2522,
+       "colorSchema": "color-schema--forced-dark",
+       "product": "NZZ.ch",
+       "documentId": 10020015,
+       "layout": "longformvisual",
+       "publicationDate": "2026-08-21T03:30:00.000Z",
+       "publicationLastUpdated": "2026-08-21T07:04:51.993Z",
+       "significantUpdate": false,
+       "significantUpdateTill": "2026-08-21T15:30:00.000Z",
+       "teaserCaption": "The Iran war is polluting the coasts and the water. Tons of oil are leaking into the water from damaged tankers and an aging shadow fleet. The cleanup is complicated – and nobody wants to pay for it.",
+       "authorLine": "Jasmine Jacot-Descombes",
+       "authorImage": {
+        "originalUrl": "/2026/08/05/98591bc7-9be3-4e02-9b13-377206c2390b.jpg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2026/08/05/98591bc7-9be3-4e02-9b13-377206c2390b.jpg?width=1024&quality=75&auto=webp",
+        "width": 4128,
+        "height": 2752,
+        "crops": [
+         {
+          "name": "1:1",
+          "crop": "2274,2274,x837,y235"
+         }
+        ],
+        "imageService": "fastly"
+       },
+       "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2026/08/05/98591bc7-9be3-4e02-9b13-377206c2390b.jpg?width=1024&quality=75&auto=webp",
+       "url": "/visuals/die-arabische-halbinsel-schwimmt-im-oel-ld.10020015",
+       "department": {
+        "name": "Visual Stories",
+        "path": "/visuals"
+       },
+       "estimationWordCount": 388,
+       "premium": true,
+       "leadText": "The Iran war is polluting the coasts and the water. Tons of oil are leaking into the water from damaged tankers and an aging shadow fleet. The cleanup is complicated – and nobody wants to pay for it.",
+       "nzzSummaryIsAuto": true,
+       "hasQ": true,
+       "locale": "de-CH"
+      }
+     },
+     {
+      "identifier": "teaser",
+      "id": "doc-1k09ta73c1",
+      "content": {
+       "owner": "NZZ",
+       "title": "Russia's shadow fleet: How Putin circumvents sanctions – and risks an oil spill off the coast of Europe",
+       "teaserImage": {
+        "originalUrl": "/2024/08/19/f2e183e1-1bf0-4f37-941c-242d7479826c.jpeg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2024/08/19/f2e183e1-1bf0-4f37-941c-242d7479826c.jpeg?width=1024&quality=75&auto=webp",
+        "width": 3840,
+        "height": 2160,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "3840,2160,x0,y0"
+         },
+         {
+          "name": "1:1",
+          "crop": "2160,2160,x0,y0"
+         },
+         {
+          "name": "4:3",
+          "crop": "2880,2160,x0,y0"
+         },
+         {
+          "name": "3:4",
+          "crop": "1620,2160,x0,y0"
+         }
+        ],
+        "imageService": "fastly",
+        "teaserCaption": "In this video, we go on a search for clues and shed light on the machinations of Russia's secret shadow fleet."
+       },
+       "nzzasFootnote": false,
+       "folioFootnote": false,
+       "language": {
+        "locale": "de-CH"
+       },
+       "nzzId": "ld.1844320",
+       "embeds": {
+        "videos": [
+         {
+          "id": "yjsWzsMt",
+          "provider": "jw",
+          "teaser": true
+         }
+        ]
+       },
+       "readingTime": 720,
+       "authorLine": "Pascal Burkhard, Florentin Erb",
+       "characterCount": 16508,
+       "product": "NZZ.ch",
+       "documentId": 1844320,
+       "layout": "video",
+       "publicationDate": "2024-08-27T05:00:00.000Z",
+       "publicationLastUpdated": "2024-09-24T10:05:28.077Z",
+       "significantUpdate": false,
+       "significantUpdateTill": "2024-08-27T17:00:00.000Z",
+       "teaserCaption": "In this video, we go on a search for clues and shed light on the machinations of Russia's secret shadow fleet.",
+       "url": "/international/russlands-schattenflotte-so-umgeht-putin-die-sanktionen-und-riskiert-eine-oelkatastrophe-vor-unseren-kuesten-ld.1844320",
+       "department": {
+        "name": "International",
+        "path": "/international"
+       },
+       "estimationWordCount": 2491,
+       "leadText": "In this video, we go on a search for clues and shed light on the machinations of Russia's secret shadow fleet."
+      }
+     },
+     {
+      "identifier": "teaser",
+      "id": "doc-1k09ta73c2",
+      "content": {
+       "owner": "NZZ",
+       "title": "Germany's longest river carries 4,700 tons of waste into the sea each year",
+       "teaserImage": {
+        "originalUrl": "/2026/01/08/ac60f67a-ee3f-4023-81f3-0aee508d9b2b.jpg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2026/01/08/ac60f67a-ee3f-4023-81f3-0aee508d9b2b.jpg?width=1024&quality=75&auto=webp",
+        "width": 4000,
+        "height": 3000,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "4000,2250,x0,y375"
+         },
+         {
+          "name": "1:1",
+          "crop": "3000,3000,x550,y0"
+         },
+         {
+          "name": "4:3",
+          "crop": "4000,3000,x0,y0"
+         },
+         {
+          "name": "3:4",
+          "crop": "2250,3000,x875,y0"
+         },
+         {
+          "name": "3:2",
+          "crop": "4000,2667,x0,y167"
+         }
+        ],
+        "imageService": "fastly",
+        "teaserCaption": "Previously, the amount could only be estimated, but now, thanks to citizen science, there is precise data. The amount is much larger than previously assumed – and besides plastic, one very specific type of waste stands out.",
+        "teaserAuthor": "Leandra Hamann"
+       },
+       "teaserAuthor": "Leandra Hamann",
+       "nzzasFootnote": false,
+       "folioFootnote": false,
+       "language": {
+        "locale": "de-CH"
+       },
+       "nzzId": "ld.1919077",
+       "readingTime": 300,
+       "authorLine": "Esther Widmann",
+       "tags": [
+        "Klima, Umwelt, Erde"
+       ],
+       "characterCount": 6266,
+       "product": "NZZ.ch",
+       "documentId": 1919077,
+       "layout": "regular",
+       "publicationDate": "2026-01-09T04:30:00.000Z",
+       "publicationLastUpdated": "2026-05-18T09:08:54.979Z",
+       "significantUpdate": false,
+       "significantUpdateTill": "2026-01-09T16:30:00.000Z",
+       "teaserCaption": "Previously, the amount could only be estimated, but now, thanks to citizen science, there is precise data. The amount is much larger than previously assumed – and besides plastic, one very specific type of waste stands out.",
+       "authorImage": {
+        "originalUrl": "/2024/05/29/40bac84b-7387-49fd-9611-564cc4693323.jpeg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2024/05/29/40bac84b-7387-49fd-9611-564cc4693323.jpeg?width=1024&quality=75&auto=webp",
+        "width": 4458,
+        "height": 2972,
+        "crops": [
+         {
+          "name": "1:1",
+          "crop": "2972,2972,x743,y0"
+         }
+        ],
+        "imageService": "fastly"
+       },
+       "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2024/05/29/40bac84b-7387-49fd-9611-564cc4693323.jpeg?width=1024&quality=75&auto=webp",
+       "url": "/wissenschaft/so-viel-muell-schwimmt-wirklich-im-rhein-und-gelangt-ins-meer-ld.1919077",
+       "department": {
+        "name": "Science",
+        "path": "/wissenschaft"
+       },
+       "estimationWordCount": 988,
+       "leadText": "Previously, the amount could only be estimated, but now, thanks to citizen science, there is precise data. The amount is much larger than previously assumed – and besides plastic, one very specific type of waste stands out.",
+       "nzzSummaryIsAuto": true
+      }
+     }
+    ]
+   },
+   "paidContent": true,
+   "prevElement": "sharebox",
+   "nextElement": "",
+   "lastContentElement": true
+  }
+ ],
+ "metadata": {
+  "germanyRelevant": true,
+  "title": "When crude oil enters the sea off Oman, it is always an ecological catastrophe – what research has learned from past disasters",
+  "showHeader": true,
+  "owner": "NZZ",
+  "language": {
+   "locale": "en-US"
+  },
+  "dependencies": {},
+  "teaserImage": {
+   "originalUrl": "/2026/08/18/b3a105c9-a6f6-4fdd-bff6-296ec8774790.jpg?width=1024",
+   "url": "https://img-msp-prod.nzz.ch/2026/08/18/b3a105c9-a6f6-4fdd-bff6-296ec8774790.jpg?width=1024&quality=75&auto=webp",
+   "width": 3000,
+   "height": 2029,
+   "crops": [
+    {
+     "name": "16:9",
+     "crop": "2727,1534,x198,y451"
+    },
+    {
+     "name": "4:3",
+     "crop": "2705,2029,x217,y0"
+    },
+    {
+     "name": "1:1",
+     "crop": "2029,2029,x971,y0"
+    },
+    {
+     "name": "3:4",
+     "crop": "1522,2029,x1079,y0"
+    },
+    {
+     "name": "3:2",
+     "crop": "3000,2000,x0,y19"
+    }
+   ],
+   "imageService": "fastly",
+   "teaserCaption": "Seabirds stuck together in oil, fish belly up – the immediate consequences of an oil spill are obvious. In the long term, however, life proves to be surprisingly resilient.",
+   "teaserAuthor": "Win McNamee / Getty"
+  },
+  "teaserAuthor": "Win McNamee / Getty",
+  "tags": [
+   "Wissenschaft aktuell",
+   "Wissenschaft Empfehlungen",
+   "Klima, Umwelt, Erde",
+   "Biologie",
+   "Physik, Chemie und Energie"
+  ],
+  "editor": "1837266",
+  "nzzId": "ld.10019954",
+  "readingTime": 420,
+  "characterCount": 9718,
+  "teaserCarouselOne": {
+   "originalUrl": "/2026/08/18/b3a105c9-a6f6-4fdd-bff6-296ec8774790.jpg?width=1024",
+   "url": "https://img-msp-prod.nzz.ch/2026/08/18/b3a105c9-a6f6-4fdd-bff6-296ec8774790.jpg?width=1024&quality=75&auto=webp",
+   "width": 3000,
+   "height": 2029,
+   "crops": [
+    {
+     "name": "16:9",
+     "crop": "3000,1687,x0,y342"
+    },
+    {
+     "name": "1:1",
+     "crop": "2029,2029,x940,y0"
+    },
+    {
+     "name": "4:3",
+     "crop": "2705,2029,x295,y0"
+    },
+    {
+     "name": "3:4",
+     "crop": "1522,2029,x994,y0"
+    },
+    {
+     "name": "3:2",
+     "crop": "3000,2000,x0,y15"
+    }
+   ],
+   "imageService": "fastly"
+  },
+  "teaserCarouselTwo": {
+   "originalUrl": "/2026/08/18/74007f4b-d0e0-4b8d-8baa-32be6a72a050.jpg?width=1024",
+   "url": "https://img-msp-prod.nzz.ch/2026/08/18/74007f4b-d0e0-4b8d-8baa-32be6a72a050.jpg?width=1024&quality=75&auto=webp",
+   "width": 5315,
+   "height": 3543,
+   "crops": [
+    {
+     "name": "16:9",
+     "crop": "5315,2990,x0,y514"
+    },
+    {
+     "name": "1:1",
+     "crop": "3543,3543,x0,y0"
+    },
+    {
+     "name": "4:3",
+     "crop": "4724,3543,x0,y0"
+    },
+    {
+     "name": "3:4",
+     "crop": "2657,3543,x0,y0"
+    },
+    {
+     "name": "3:2",
+     "crop": "5315,3543,x0,y0"
+    }
+   ],
+   "imageService": "fastly"
+  },
+  "teaserCarouselThree": {
+   "originalUrl": "/2026/08/20/5c9c3e66-0f6c-455e-b389-1cc2b2e4c4d3.jpg?width=1024",
+   "url": "https://img-msp-prod.nzz.ch/2026/08/20/5c9c3e66-0f6c-455e-b389-1cc2b2e4c4d3.jpg?width=1024&quality=75&auto=webp",
+   "width": 3893,
+   "height": 2576,
+   "crops": [
+    {
+     "name": "16:9",
+     "crop": "3893,2190,x0,y0"
+    },
+    {
+     "name": "1:1",
+     "crop": "2576,2576,x918,y0"
+    },
+    {
+     "name": "4:3",
+     "crop": "3435,2576,x388,y0"
+    },
+    {
+     "name": "3:4",
+     "crop": "1932,2576,x1425,y0"
+    },
+    {
+     "name": "3:2",
+     "crop": "3864,2576,x2,y0"
+    }
+   ],
+   "imageService": "fastly"
+  },
+  "breadcrumbs": [
+   {
+    "name": "Science",
+    "path": "/wissenschaft"
+   }
+  ],
+  "product": "NZZ.ch",
+  "documentId": 10019954,
+  "contentTypeGroup": "web",
+  "layout": "regular",
+  "firstPublicationDate": "2026-08-22T03:30:00.000Z",
+  "publicationDate": "2026-08-22T03:30:00.000Z",
+  "publicationLastUpdated": "2026-08-22T18:45:07.860Z",
+  "significantUpdate": false,
+  "significantUpdateTill": "2026-08-22T15:30:00.000Z",
+  "teaserCaption": "Seabirds stuck together in oil, fish belly up – the immediate consequences of an oil spill are obvious. In the long term, however, life proves to be surprisingly resilient.",
+  "nzzAuthors": [
+   {
+    "id": 1837266,
+    "name": "Georg Rüschemeyer",
+    "shortName": "rüs",
+    "pianoId": "40ae5957-aa9a-46a5-b682-5be0a1735646",
+    "external": false
+   }
+  ],
+  "authorLine": "Georg Rüschemeyer",
+  "authorImage": {
+   "originalUrl": "/2024/12/18/90d0029f-8bb7-4c86-ad85-d437f8b1c75f.jpeg?width=1024",
+   "url": "https://img-msp-prod.nzz.ch/2024/12/18/90d0029f-8bb7-4c86-ad85-d437f8b1c75f.jpeg?width=1024&quality=75&auto=webp",
+   "width": 4128,
+   "height": 2752,
+   "crops": [
+    {
+     "name": "1:1",
+     "crop": "1527,1527,x1176,y383"
+    }
+   ],
+   "imageService": "fastly"
+  },
+  "nzzAuthorProfileDataCollection": [
+   {
+    "documentId": 1851260,
+    "name": "Georg Rüschemeyer",
+    "teaserImageUrl": "https://img-msp-prod.nzz.ch/2024/12/18/90d0029f-8bb7-4c86-ad85-d437f8b1c75f.jpeg?width=1024&quality=75&auto=webp"
+   }
+  ],
+  "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2024/12/18/90d0029f-8bb7-4c86-ad85-d437f8b1c75f.jpeg?width=1024&quality=75&auto=webp",
+  "url": "/wissenschaft/wenn-wie-jetzt-vor-oman-rohoel-ins-meer-gelangt-ist-das-immer-eine-oekologische-katastrophe-was-die-forschung-aus-vergangenen-ungluecken-gelernt-hat-ld.10019954",
+  "department": {
+   "name": "Science",
+   "path": "/wissenschaft"
+  },
+  "estimationWordCount": 1497,
+  "leadText": "Seabirds stuck together in oil, fish belly up – the immediate consequences of an oil spill are obvious. In the long term, however, life proves to be surprisingly resilient.",
+  "nzzSummaryEN": "- A supertanker is leaking oil off the coast of Oman, causing a massive oil spill in a strictly protected marine reserve.\n- The ecological impact affects both surface habitats and oxygen-deprived deep-sea areas.\n- Scientific studies of past oil disasters highlight the ongoing challenges in the recovery of affected ecosystems.",
+  "nzzSummaryDE": "- A supertanker is leaking oil off the coast of Oman, causing a huge oil spill in a strictly protected marine reserve.\n - The ecological consequences affect both sensitive habitats on the surface and oxygen-depleted deep-sea areas.\n Scientific analyses of past oil disasters highlight the ongoing challenges in the recovery of affected ecosystems.",
+  "nzzSummaryIsAuto": true,
+  "nzzSummaryModel": "gpt-4o-2024-11-20",
+  "nzzPrintTitle": "When the sea drowns in oil",
+  "nzzPrintSubtitle": "Huge quantities of oil are flowing into the sea off the coast of Oman – a catastrophe for nature.",
+  "allArticleLanguages": [
+   {
+    "locale": "de",
+    "urlPath": "/wissenschaft/wenn-wie-jetzt-vor-oman-rohoel-ins-meer-gelangt-ist-das-immer-eine-oekologische-katastrophe-was-die-forschung-aus-vergangenen-ungluecken-gelernt-hat-ld.10019954",
+    "seo": {}
+   }
+  ],
+  "seo": {
+   "canonicalUrl": "https://www.nzz.ch/wissenschaft/wenn-wie-jetzt-vor-oman-rohoel-ins-meer-gelangt-ist-das-immer-eine-oekologische-katastrophe-was-die-forschung-aus-vergangenen-ungluecken-gelernt-hat-ld.10019954",
+   "title": "Oil spill off Oman: What research has learned from previous disasters",
+   "socialMediaTitle": "Pelican, coral, ecosystem: The devastating consequences of oil spills in the sea",
+   "description": "Seabirds stuck together in oil, fish belly up – the immediate consequences of an oil spill are obvious. In the long term, however, life proves to be surprisingly resilient.",
+   "excludeFromSpiders": false,
+   "image": "https://img-msp-prod.nzz.ch/2026/08/18/b3a105c9-a6f6-4fdd-bff6-296ec8774790.jpg?width=1200&height=675&fit=bounds&quality=75&auto=webp&crop=2727,1534,x198,y451&wmark=nzz"
+  },
+  "ldPublicationId": 2482303,
+  "isHighlightedHeader": false,
+  "nzzTopics": [
+   {
+    "name": "oil",
+    "slug": "/themen/erdoel"
+   },
+   {
+    "name": "Oman",
+    "slug": "/themen/oman"
+   },
+   {
+    "name": "Dolphins",
+    "slug": "/themen/delfine"
+   }
+  ],
+  "barrierIndex": 3,
+  "outlinks": {
+   "mehrZumThema": [
+    "ld.10020015",
+    "ld.1844320",
+    "ld.1919077"
+   ],
+   "artikelListe": [],
+   "aliasTeaserEmbedList": []
+  },
+  "tts": true,
+  "hasQ": true,
+  "locale": "de-CH",
+  "mp3": true,
+  "mp3Duration": 607056,
+  "project": "nzz",
+  "machineTranslated": true,
+  "machineTranslationValidated": false
+ },
+ "isReduced": false,
+ "isPaid": false,
+ "isVamp": false,
+ "isWebview": false,
+ "btaFeed": {
+  "meta": {
+   "id": "erdoel",
+   "name": "oil",
+   "tagName": "oil",
+   "qId": "Q22656",
+   "seoTitle": "Oil – All articles on the topic | NZZ",
+   "description": null,
+   "firstName": null,
+   "lastName": null,
+   "category": "MISC",
+   "createdDate": "2025-04-08 15:25:25.415Z",
+   "imageURL": null,
+   "imageCroppedURL": null,
+   "imageWidth": null,
+   "imageHeight": null,
+   "imageCredits": null,
+   "url": "https://nzz.ch/themen/erdoel",
+   "size": 1219,
+   "relatedTopics": [
+    {
+     "name": "Oman",
+     "slug": "/themen/oman"
+    },
+    {
+     "name": "Delfine",
+     "slug": "/themen/delfine"
+    }
+   ]
+  },
+  "data": [
+   {
+    "owner": "NZZ",
+    "title": "How the war in Iran affects prices and the economy in Switzerland",
+    "nzzasFootnote": false,
+    "folioFootnote": false,
+    "language": {
+     "locale": "de-CH"
+    },
+    "nzzId": "ld.1927555",
+    "readingTime": 60,
+    "paywallQuestionOne": "How does the Iran war affect energy prices in Switzerland?",
+    "paywallQuestionTwo": "What impact will the conflict have on food prices in this country?",
+    "paywallQuestionThree": "What are the consequences of the Iran war on the Swiss stock market?",
+    "teaserImage": {
+     "originalUrl": "/2026/04/24/5cabb4f1-ce89-4ba6-a416-848d330af613.gif?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/04/24/5cabb4f1-ce89-4ba6-a416-848d330af613.gif?width=1024&quality=75&auto=webp",
+     "width": 1200,
+     "height": 674,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "1200,674,x0,y0"
+      },
+      {
+       "name": "4:3",
+       "crop": "1200,674,x0,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "1200,674,x0,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "1200,674,x0,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "The war in Iran is also driving up energy prices in Switzerland. With daily updated graphics, we show the developments — and how the conflict affects consumers."
+    },
+    "characterCount": 91,
+    "product": "NZZ.ch",
+    "documentId": "1927555",
+    "layout": "regular",
+    "publicationDate": "2026-09-03T07:58:32.308Z",
+    "publicationLastUpdated": "2026-09-03T07:58:32.308Z",
+    "significantUpdate": true,
+    "significantUpdateTill": "2026-09-03T19:58:32.308Z",
+    "teaserCaption": "The war in Iran is also driving up energy prices in Switzerland. With daily updated graphics, we show the developments — and how the conflict affects consumers.",
+    "authorLine": "Florian Seliger",
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2024/04/30/9549be3a-88e2-411f-91d7-aefb7ae675dd.png?width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/visuals/aktuell/iran-krieg-entwicklung-von-oel-und-benzinpreisen-in-der-schweiz-ld.1927555",
+    "department": {
+     "name": "Current",
+     "path": "/visuals/aktuell"
+    },
+    "estimationWordCount": 55,
+    "leadText": "The war in Iran is also driving up energy prices in Switzerland. With daily updated graphics, we show the developments — and how the conflict affects consumers.",
+    "nzzSummaryIsAuto": true,
+    "hasQ": true
+   },
+   {
+    "title": "10 dollars for a coffee, 600% inflation – and hope for new oil billions: Welcome to everyday life in Venezuela",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "teaserImage": {
+     "originalUrl": "/2026/08/26/7b3cc737-abbf-4cb8-969f-49ba1900d8de.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/08/26/7b3cc737-abbf-4cb8-969f-49ba1900d8de.jpg?width=1024&quality=75&auto=webp",
+     "width": 7864,
+     "height": 5200,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "7864,4423,x0,y776"
+      },
+      {
+       "name": "4:3",
+       "crop": "6933,5200,x255,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "4298,4298,x1520,y635"
+      },
+      {
+       "name": "3:4",
+       "crop": "3223,4298,x2395,y902"
+      },
+      {
+       "name": "3:2",
+       "crop": "7091,4727,x300,y472"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "Much of the former glory of Venezuela's oil wealth has faded. But things are changing: investors and returning residents are rediscovering Venezuela. And now Donald Trump has big plans, too.",
+     "teaserAuthor": "NZZ"
+    },
+    "teaserAuthor": "NZZ",
+    "showComments": true,
+    "tags": [
+     "Fotografie"
+    ],
+    "teaserCarouselOne": {
+     "originalUrl": "/2026/08/26/7b3cc737-abbf-4cb8-969f-49ba1900d8de.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/08/26/7b3cc737-abbf-4cb8-969f-49ba1900d8de.jpg?width=1024&quality=75&auto=webp",
+     "width": 7864,
+     "height": 5200,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "7864,4423,x0,y388"
+      },
+      {
+       "name": "1:1",
+       "crop": "5200,5200,x1332,y0"
+      },
+      {
+       "name": "4:3",
+       "crop": "6933,5200,x465,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "3900,5200,x1982,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "7800,5200,x32,y0"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "teaserCarouselTwo": {
+     "originalUrl": "/2026/08/28/63a7de33-abc5-42fc-b8dd-be1ea6c32358.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/08/28/63a7de33-abc5-42fc-b8dd-be1ea6c32358.jpg?width=1024&quality=75&auto=webp",
+     "width": 7000,
+     "height": 4659,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "7000,3937,x0,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "4659,4659,x340,y0"
+      },
+      {
+       "name": "4:3",
+       "crop": "6212,4659,x0,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "3494,4659,x922,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "6989,4659,x0,y0"
+      }
+     ],
+     "focalPoint": {
+      "x": 2669,
+      "y": 1695
+     },
+     "imageService": "fastly"
+    },
+    "teaserCarouselThree": {
+     "originalUrl": "/2026/08/27/1f3f06d2-eb2c-4583-b4c6-97fda2f94e62.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/08/27/1f3f06d2-eb2c-4583-b4c6-97fda2f94e62.jpg?width=1024&quality=75&auto=webp",
+     "width": 7000,
+     "height": 4629,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "7000,3937,x0,y646"
+      },
+      {
+       "name": "1:1",
+       "crop": "4629,4629,x0,y0"
+      },
+      {
+       "name": "4:3",
+       "crop": "6172,4629,x0,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "3472,4629,x331,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "6944,4629,x0,y0"
+      }
+     ],
+     "focalPoint": {
+      "x": 2067,
+      "y": 2614
+     },
+     "imageService": "fastly"
+    },
+    "nzzId": "ld.10020261",
+    "readingTime": 600,
+    "paywallQuestionOne": "How will Trump's oil deal affect Venezuela's economic future?",
+    "paywallQuestionTwo": "What role do returning refugees and investors play in Venezuela's recovery?",
+    "paywallQuestionThree": "Why does the oil sector remain unsafe for investors despite reforms?",
+    "characterCount": 11936,
+    "product": "NZZ.ch",
+    "documentId": "10020261",
+    "layout": "longformvisual",
+    "publicationDate": "2026-09-03T03:30:00.000Z",
+    "publicationLastUpdated": "2026-09-03T03:30:00.000Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-09-03T15:30:00.000Z",
+    "teaserCaption": "Much of the former glory of Venezuela's oil wealth has faded. But things are changing: investors and returning residents are rediscovering Venezuela. And now Donald Trump has big plans, too.",
+    "authorLine": "Alexander Busch (text), Ana Gosen (images), Caracas",
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2024/02/21/c267e623-a396-4320-8b54-9d2b88c6b73a.png?crop=800,800,x0,y0&width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/wirtschaft/10-dollar-fuer-einen-kaffee-600-prozent-inflation-und-hoffnung-auf-neue-erdoelmilliarden-willkommen-im-alltag-in-venezuela-ld.10020261",
+    "department": {
+     "name": "Economy",
+     "path": "/wirtschaft"
+    },
+    "estimationWordCount": 1908,
+    "premium": true,
+    "leadText": "Much of the former glory of Venezuela's oil wealth has faded. But things are changing: investors and returning residents are rediscovering Venezuela. And now Donald Trump has big plans, too.",
+    "nzzSummaryIsAuto": true,
+    "commentsCount": 1,
+    "openToComment": false,
+    "locale": "de-CH"
+   },
+   {
+    "title": "Trump's grab for Venezuela's oil reserves remains a paper tiger",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "teaserImage": {
+     "originalUrl": "/2026/08/31/4d9de37a-1c64-49c3-9ba2-8e692b924573.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/08/31/4d9de37a-1c64-49c3-9ba2-8e692b924573.jpg?width=1024&quality=75&auto=webp",
+     "width": 5500,
+     "height": 3668,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "5500,3094,x0,y0"
+      },
+      {
+       "name": "4:3",
+       "crop": "4891,3668,x305,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "3668,3668,x916,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "2751,3668,x1375,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "5500,3667,x0,y1"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "With his agreement, Donald Trump aims to increase the US's strategic oil reserves. However, Venezuela currently produces only one percent of global crude oil. This cannot be changed easily or quickly.",
+     "teaserAuthor": "Gaby Oraa / Reuters"
+    },
+    "teaserAuthor": "Gaby Oraa / Reuters",
+    "flag": "Opinion",
+    "showComments": true,
+    "nzzId": "ld.10021740",
+    "readingTime": 180,
+    "paywallQuestionOne": "Why does Trump's deal with Venezuela remain meaningless for the world market?",
+    "paywallQuestionTwo": "How do mismanagement and sanctions affect Venezuela's oil production?",
+    "paywallQuestionThree": "What challenges exist for investments in Venezuela's oil sector?",
+    "characterCount": 4369,
+    "product": "NZZ.ch",
+    "documentId": "10021740",
+    "layout": "opinion",
+    "publicationDate": "2026-09-01T03:30:00.000Z",
+    "publicationLastUpdated": "2026-09-01T06:50:39.452Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-09-01T15:30:00.000Z",
+    "teaserCaption": "With his agreement, Donald Trump aims to increase the US's strategic oil reserves. However, Venezuela currently produces only one percent of global crude oil. This cannot be changed easily or quickly.",
+    "authorLine": "Catherine Bosley",
+    "authorImage": {
+     "originalUrl": "/2025/12/31/f4854fdf-6fd5-4b83-9089-75e151c90563.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2025/12/31/f4854fdf-6fd5-4b83-9089-75e151c90563.jpg?width=1024&quality=75&auto=webp",
+     "width": 6000,
+     "height": 4000,
+     "crops": [
+      {
+       "name": "1:1",
+       "crop": "4000,4000,x1000,y0"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2025/12/31/f4854fdf-6fd5-4b83-9089-75e151c90563.jpg?width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/meinung/trumps-griff-nach-venezuelas-erdoelschaetzen-bleibt-ein-papiertiger-ld.10021740",
+    "department": {
+     "name": "Opinion",
+     "path": "/meinung"
+    },
+    "estimationWordCount": 637,
+    "premium": true,
+    "leadText": "With his agreement, Donald Trump aims to increase the US's strategic oil reserves. However, Venezuela currently produces only one percent of global crude oil. This cannot be changed easily or quickly.",
+    "nzzSummaryIsAuto": true,
+    "commentsCount": 8,
+    "openToComment": false,
+    "hasQ": true,
+    "locale": "de-CH"
+   },
+   {
+    "title": "Trump is reaching for Venezuela's oil. But that's a risky game",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "flag": "Explained",
+    "teaserImage": {
+     "originalUrl": "/2026/08/31/fcf941a7-8a33-4e8c-8592-b7aec3aaea67.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/08/31/fcf941a7-8a33-4e8c-8592-b7aec3aaea67.jpg?width=1024&quality=75&auto=webp",
+     "width": 5759,
+     "height": 3839,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "5759,3239,x0,y502"
+      },
+      {
+       "name": "4:3",
+       "crop": "5119,3839,x640,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "3839,3839,x1920,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "2879,3839,x2717,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "5759,3839,x0,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "President Trump promises Americans lower gas prices. To achieve this, he relies on controversial figures: A criminal investigation is ongoing in Switzerland against a Venezuelan businessman involved in the deal. Key answers regarding the billion-dollar deal.",
+     "teaserAuthor": "Pedro Mattey / AP"
+    },
+    "teaserAuthor": "Pedro Mattey / AP",
+    "nzzId": "ld.10021711",
+    "readingTime": 360,
+    "paywallQuestionOne": "How does the deal affect the geopolitical position of the USA?",
+    "paywallQuestionTwo": "What risks does the oil deal pose for Venezuela and investors?",
+    "paywallQuestionThree": "How realistic are the economic promises of the agreement?",
+    "characterCount": 8347,
+    "product": "NZZ.ch",
+    "documentId": "10021711",
+    "layout": "regular",
+    "publicationDate": "2026-09-01T03:30:00.000Z",
+    "publicationLastUpdated": "2026-09-01T03:30:00.000Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-09-01T15:30:00.000Z",
+    "teaserCaption": "President Trump promises Americans lower gas prices. To achieve this, he relies on controversial figures: A criminal investigation is ongoing in Switzerland against a Venezuelan businessman involved in the deal. Key answers regarding the billion-dollar deal.",
+    "authorLine": "Thomas Fuster, Jürg Meier",
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2024/05/31/32dce22c-5801-4b24-8774-9bd41daa6d2b.jpeg?width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/wirtschaft/trump-greift-nach-venezuelas-erdoel-die-wichtigsten-antworten-zum-deal-zwischen-den-usa-und-venezuela-ld.10021711",
+    "department": {
+     "name": "Economy",
+     "path": "/wirtschaft"
+    },
+    "estimationWordCount": 1140,
+    "leadText": "President Trump promises Americans lower gas prices. To achieve this, he relies on controversial figures: A criminal investigation is ongoing in Switzerland against a Venezuelan businessman involved in the deal. Key answers regarding the billion-dollar deal.",
+    "nzzSummaryIsAuto": true,
+    "locale": "de-CH"
+   },
+   {
+    "title": "An oil deal as a guarantee of power: How Delcy Rodríguez and Donald Trump are working together",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "teaserImage": {
+     "originalUrl": "/2026/08/30/cc98d107-6ece-444b-b2de-29ec5ab0fcc0.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/08/30/cc98d107-6ece-444b-b2de-29ec5ab0fcc0.jpg?width=1024&quality=75&auto=webp",
+     "width": 4423,
+     "height": 3538,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "4423,2488,x0,y264"
+      },
+      {
+       "name": "4:3",
+       "crop": "4423,3317,x0,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "1127,1127,x1646,y313"
+      },
+      {
+       "name": "3:4",
+       "crop": "2654,3538,x955,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "4423,2949,x0,y21"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "Despite internal resistance, constitutional doubts and dubious intermediaries, Washington and Caracas are pushing ahead with the opening of Venezuela's oil sector. For the ruler, this delicate business is a life insurance policy.",
+     "teaserAuthor": "Presidency of Venezuela via EPA"
+    },
+    "teaserAuthor": "Presidency of Venezuela via EPA",
+    "nzzId": "ld.10021635",
+    "readingTime": 300,
+    "paywallQuestionOne": "How does the oil deal affect Delcy Rodríguez's power position?",
+    "paywallQuestionTwo": "What role do the US play in opening up Venezuela's oil sector?",
+    "paywallQuestionThree": "Why could legal and internal opposition jeopardize the agreement?",
+    "characterCount": 6616,
+    "product": "NZZ.ch",
+    "documentId": "10021635",
+    "layout": "regular",
+    "publicationDate": "2026-08-31T03:30:00.000Z",
+    "publicationLastUpdated": "2026-08-31T03:30:00.000Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-08-31T15:30:00.000Z",
+    "teaserCaption": "Despite internal resistance, constitutional doubts and dubious intermediaries, Washington and Caracas are pushing ahead with the opening of Venezuela's oil sector. For the ruler, this delicate business is a life insurance policy.",
+    "authorLine": "Alexander Busch",
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2024/02/21/c267e623-a396-4320-8b54-9d2b88c6b73a.png?width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/international/ein-oel-deal-als-machtgarantie-wie-delcy-rodriguez-und-donald-trump-gemeinsame-sache-machen-ld.10021635",
+    "department": {
+     "name": "International",
+     "path": "/international"
+    },
+    "estimationWordCount": 967,
+    "leadText": "Despite internal resistance, constitutional doubts and dubious intermediaries, Washington and Caracas are pushing ahead with the opening of Venezuela's oil sector. For the ruler, this delicate business is a life insurance policy.",
+    "nzzSummaryIsAuto": true,
+    "locale": "de-CH"
+   },
+   {
+    "title": "Venezuela has the world's largest oil reserves. Now the U.S. secures a large part of them",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "teaserImage": {
+     "originalUrl": "/2026/08/12/1ec576a5-6e9c-4185-9391-6d30c2f90657.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/08/12/1ec576a5-6e9c-4185-9391-6d30c2f90657.jpg?width=1024&quality=75&auto=webp",
+     "width": 5500,
+     "height": 3668,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "5500,3094,x0,y458"
+      },
+      {
+       "name": "4:3",
+       "crop": "4891,3668,x287,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "3668,3668,x1265,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "2751,3668,x2263,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "5500,3667,x0,y1"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "The U.S. and Venezuela agreed on a far-reaching oil deal. Washington wants to gain access to Venezuelan reserves. Whether the deal lives up to its promise is questionable.",
+     "teaserAuthor": "Gaby Oraa / Reuters"
+    },
+    "teaserAuthor": "Gaby Oraa / Reuters",
+    "nzzId": "ld.10021584",
+    "readingTime": 240,
+    "paywallQuestionOne": "How will the deal with Venezuela affect the US oil supply?",
+    "paywallQuestionTwo": "What role does acting president Delcy Rodríguez play in the agreement?",
+    "paywallQuestionThree": "How do the US justify its pressure on Venezuela regarding its oil reserves?",
+    "characterCount": 5252,
+    "tags": [
+     "Amerika"
+    ],
+    "product": "NZZ.ch",
+    "documentId": "10021584",
+    "layout": "regular",
+    "publicationDate": "2026-08-29T12:11:57.511Z",
+    "publicationLastUpdated": "2026-08-29T12:11:57.511Z",
+    "significantUpdate": true,
+    "significantUpdateTill": "2026-08-30T00:11:57.511Z",
+    "teaserCaption": "The U.S. and Venezuela agreed on a far-reaching oil deal. Washington wants to gain access to Venezuelan reserves. Whether the deal lives up to its promise is questionable.",
+    "authorLine": "Thomas Fuster",
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2024/05/31/32dce22c-5801-4b24-8774-9bd41daa6d2b.jpeg?width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/international/venezuela-verfuegt-ueber-die-groessten-oelreserven-der-welt-nun-sichern-sich-die-usa-einen-grossen-teil-davon-ld.10021584",
+    "department": {
+     "name": "International",
+     "path": "/international"
+    },
+    "estimationWordCount": 781,
+    "leadText": "The U.S. and Venezuela agreed on a far-reaching oil deal. Washington wants to gain access to Venezuelan reserves. Whether the deal lives up to its promise is questionable.",
+    "nzzSummaryIsAuto": true,
+    "hasQ": true,
+    "locale": "de-CH"
+   }
+  ]
+ },
+ "digitalData": {
+  "component": [
+   {
+    "id": "ld.10019954",
+    "name": "When crude oil enters the sea off Oman, it is always an ecological catastrophe – what research has learned from past disasters",
+    "type": "article",
+    "subType1": "regular",
+    "subType2": "",
+    "primaryCategory": "Wissenschaft",
+    "subCategory1": "",
+    "attributes": {
+     "headline": "When crude oil enters the sea off Oman, it is always an ecological catastrophe – what research has learned from past disasters",
+     "firstPublishTitle": "",
+     "catchline": "",
+     "authors": [
+      {
+       "id": 1837266,
+       "name": "Georg Rüschemeyer",
+       "shortName": "rüs",
+       "pianoId": "40ae5957-aa9a-46a5-b682-5be0a1735646",
+       "external": false
+      }
+     ],
+     "issueTimestamp": "2026-08-22T03:30:00.000Z",
+     "updateTimestamp": "2026-08-22T18:45:07.860Z",
+     "isSponsoredContent": false,
+     "isPro": false,
+     "isLiveticker": false,
+     "flag": "",
+     "owner": "NZZ"
+    }
+   }
+  ],
+  "page": {
+   "pageId": "ld.10019954",
+   "pageType": "regular",
+   "primaryCategory": "Wissenschaft",
+   "subCategory1": "",
+   "subCategory2": "",
+   "language": "en-US"
+  },
+  "version": "2.0",
+  "user": {},
+  "event": []
+ },
+ "seoData": {
+  "title": "Oil spill off Oman: What research has learned from previous disasters",
+  "image": {
+   "url": "https://img-msp-prod.nzz.ch/2026/08/18/b3a105c9-a6f6-4fdd-bff6-296ec8774790.jpg?width=1200&height=675&fit=bounds&quality=75&auto=webp&crop=2727,1534,x198,y451&wmark=nzz",
+   "type": "image/jpeg",
+   "width": 1200,
+   "height": 675
+  },
+  "author": "Georg Rüschemeyer",
+  "description": "Seabirds stuck together in oil, fish belly up – the immediate consequences of an oil spill are obvious. In the long term, however, life proves to be surprisingly resilient.",
+  "news_keywords": "When crude oil spills into the sea, as has happened recently off the coast of Oman, it is always an ecological catastrophe. What research has learned from past disasters, Science, News, NZZ",
+  "type": "article",
+  "last-modified": "2026-08-22T22:45:07+02:00",
+  "date": "2026-08-22T07:30:00+02:00",
+  "canonical": "https://www.nzz.ch/wissenschaft/wenn-wie-jetzt-vor-oman-rohoel-ins-meer-gelangt-ist-das-immer-eine-oekologische-katastrophe-was-die-forschung-aus-vergangenen-ungluecken-gelernt-hat-ld.10019954",
+  "fb:app_id": 138008459595436,
+  "fb:pages": 143694099006529,
+  "fb:admins": 1592685173,
+  "locale": "de",
+  "email": "online.redaktion@nzz.ch",
+  "site_name": "Neue Zürcher Zeitung",
+  "copyright": "2026 Neue Zürcher Zeitung AG, Schweiz",
+  "robots": "noindex, nofollow, noarchive, noodp",
+  "hreflang": [],
+  "sharedTitle": "When crude oil enters the sea off Oman, it is always an ecological catastrophe – what research has learned from past disasters",
+  "ogTitle": "Pelican, coral, ecosystem: The devastating consequences of oil spills in the sea",
+  "ogUrl": "https://www.nzz.ch/wissenschaft/wenn-wie-jetzt-vor-oman-rohoel-ins-meer-gelangt-ist-das-immer-eine-oekologische-katastrophe-was-die-forschung-aus-vergangenen-ungluecken-gelernt-hat-ld.10019954",
+  "mrf:cms_id": "nzz:ld.10019954",
+  "mrf:sections": "Wissenschaft;WTM",
+  "mrf:tags": "Page Type:regular;Editorial Owner:NZZ;Content Type:Standard Article;Article ID:ld.10019954",
+  "nzzAuthors": [
+   {
+    "id": 1837266,
+    "name": "Georg Rüschemeyer",
+    "shortName": "rüs",
+    "pianoId": "40ae5957-aa9a-46a5-b682-5be0a1735646",
+    "external": false
+   }
+  ],
+  "links": [
+   {
+    "rel": "canonical",
+    "href": "https://www.nzz.ch/wissenschaft/wenn-wie-jetzt-vor-oman-rohoel-ins-meer-gelangt-ist-das-immer-eine-oekologische-katastrophe-was-die-forschung-aus-vergangenen-ungluecken-gelernt-hat-ld.10019954"
+   },
+   {
+    "rel": "search",
+    "href": "/suche",
+    "title": "Suche Neue Zürcher Zeitung, Schweiz, https://www.nzz.ch/suche"
+   }
+  ],
+  "renderedAt": "Thu, 03 Sep 2026 09:32:00 GMT"
+ },
+ "structuredData": [
+  {
+   "@context": "https://schema.org",
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "item": {
+      "@id": "/",
+      "name": "Home"
+     }
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "item": {
+      "@id": "/wissenschaft",
+      "name": "Science"
+     }
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Oil spill off Oman: What research has learned from previous disasters"
+    }
+   ]
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": "NewsArticle",
+   "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.nzz.ch/wissenschaft/wenn-wie-jetzt-vor-oman-rohoel-ins-meer-gelangt-ist-das-immer-eine-oekologische-katastrophe-was-die-forschung-aus-vergangenen-ungluecken-gelernt-hat-ld.10019954"
+   },
+   "headline": "Oil spill off Oman: What research has learned from previous disasters",
+   "datePublished": "2026-08-22T07:30:00+02:00",
+   "dateModified": "2026-08-22T22:45:07+02:00",
+   "publisher": {
+    "@type": "NewsMediaOrganization",
+    "name": "Neue Zürcher Zeitung",
+    "url": "https://www.nzz.ch",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://www.nzz.ch/logo.png",
+     "width": 413,
+     "height": 60
+    },
+    "contactPoint": [
+     {
+      "@type": "ContactPoint",
+      "telephone": "+41-44-2581000",
+      "contactType": "customer service"
+     }
+    ],
+    "sameAs": [
+     "https://www.facebook.com/nzz",
+     "https://www.twitter.com/nzz",
+     "https://www.youtube.com/channel/UCK1aTcR0AckQRLTlK0c4fuQ",
+     "https://www.linkedin.com/company/neue-zurcher-zeitung",
+     "https://www.instagram.com/nzz/",
+     "https://de.wikipedia.org/wiki/Neue_Z%C3%BCrcher_Zeitung",
+     "https://www.wikidata.org/wiki/Q658945",
+     "https://plus.google.com/+nzz/",
+     "http://www.freebase.com/m/041b43"
+    ],
+    "masthead": "https://www.nzz.ch/impressum/impressum-ld.148422",
+    "foundingDate": "1780"
+   },
+   "description": "Seabirds stuck together in oil, fish belly up – the immediate consequences of an oil spill are obvious. In the long term, however, life proves to be surprisingly resilient.",
+   "isAccessibleForFree": false,
+   "articleSection": "Wissenschaft",
+   "hasPart": {
+    "@type": "WebPageElement",
+    "isAccessibleForFree": false,
+    "cssSelector": ".nzzinteraction"
+   },
+   "image": {
+    "@type": "ImageObject",
+    "url": "https://img-msp-prod.nzz.ch/2026/08/18/b3a105c9-a6f6-4fdd-bff6-296ec8774790.jpg?width=1200&height=675&fit=bounds&quality=75&auto=webp&crop=2727,1534,x198,y451&wmark=nzz",
+    "width": 1200,
+    "height": 675
+   },
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Georg Rüschemeyer"
+    }
+   ],
+   "inLanguage": "de"
+  }
+ ],
+ "mp3": true,
+ "mp3Duration": 607056,
+ "bT": {
+  "standard": {
+   "Tags": [
+    "/wissenschaft/wenn-wie-jetzt-vor-oman-rohoel-ins-meer-gelangt-ist-das-immer-eine-oekologische-katastrophe-was-die-forschung-aus-vergangenen-ungluecken-gelernt-hat-ld.10019954",
+    "classification=default",
+    "relevance=germany",
+    "layout=regular",
+    "owner=nzz",
+    "product=nzz",
+    "doctype=article",
+    "pagetype=article",
+    "ldid=ld.10019954",
+    "channel=Wissenschaft"
+   ],
+   "ContentCreated": "2026-08-22T03:30:00.000Z",
+   "ContentAuthor": "Georg Rüschemeyer",
+   "ContentSection": "Wissenschaft",
+   "ContentIsNative": true
+  },
+  "custom": {
+   "product": "nzz",
+   "docType": "article",
+   "pageType": "article",
+   "layout": "regular",
+   "nzzAbstract": "Wie beeinflussen Meeresströmungen die Ausbreitung von Ölteppichen?\nWelche Rolle spielt die mikrobielle Zersetzung von Rohöl in der Tiefsee?\nWarum erholen sich manche Ökosysteme schneller von Ölkatastrophen als andere?",
+   "ldId": "ld.10019954",
+   "channel": "Wissenschaft",
+   "heading": "Wenn wie jetzt vor Oman Rohöl ins Meer gelangt, ist das immer eine ökologische Katastrophe. Was die Forschung aus vergangenen Unglücken gelernt hat",
+   "language": "en-US"
+  }
+ },
+ "webviewMetadata": {},
+ "cacheTime": 3600
+}

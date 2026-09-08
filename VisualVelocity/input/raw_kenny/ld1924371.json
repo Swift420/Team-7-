@@ -1,0 +1,1750 @@
+{
+ "content": [
+  {
+   "identifier": "header",
+   "id": "doc-1jh4acn140",
+   "content": {
+    "title": "Global coal consumption is at a record high. Europe's focus on reducing its own CO2 emissions has failed.",
+    "lead": "Unilateral commitments have proven ineffective in the fight against climate change. Economist Axel Ockenfels explains why selfishness is more promising than altruism.",
+    "author": ""
+   },
+   "containers": {
+    "authors": [
+     {
+      "identifier": "author-teaser",
+      "id": "doc-iPGJu8Mh9E",
+      "content": {
+       "layout": "authorprofile",
+       "title": "Michael Rasch",
+       "url": "/impressum/michael-rasch-ld.154642",
+       "teaserImage": {
+        "originalUrl": "/2022/09/14/5d4cbc9a-6dd6-47e9-a749-844afb0d53e2.png?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2022/09/14/5d4cbc9a-6dd6-47e9-a749-844afb0d53e2.png?width=1024&quality=75&auto=webp",
+        "width": 800,
+        "height": 800,
+        "crops": [
+         {
+          "name": "web-teaser",
+          "crop": "800,450,x0,y175"
+         },
+         {
+          "name": "1:1",
+          "crop": "800,800,x0,y0"
+         },
+         {
+          "name": "4:3",
+          "crop": "800,600,x0,y100"
+         },
+         {
+          "name": "3:4",
+          "crop": "600,800,x100,y0"
+         }
+        ],
+        "imageService": "fastly"
+       }
+      }
+     }
+    ]
+   },
+   "prevElement": "",
+   "nextElement": "image",
+   "firstContentElement": true
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1ji4sipe10",
+   "content": {
+    "image": {
+     "author": "Norbert Wienold / Imago",
+     "caption": "The Neurath lignite-fired power plant in Grevenbroich, North Rhine-Westphalia: Older units have already been shut down, the newer units are scheduled to be taken offline in 2030 as part of Germany's phase-out of coal combustion.",
+     "originalUrl": "/2026/02/23/e7add857-cb61-48d4-bfba-feedd2775d49.jpg?width=1024",
+     "width": 5472,
+     "height": 3648,
+     "altText": "News Pictures of the Day 07.02.2023, Neurath lignite-fired power plant in Grevenbroich, North Rhine-Westphalia, Germany. *** 07 02 2023, Neurath lignite-fired power plant in Grevenbroich, North Rhine-Westphalia, Germany 20230207_5793",
+     "origins": [
+      {
+       "name": "Hugo",
+       "identifier": "2176101725"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "caption": "The Neurath lignite-fired power plant in Grevenbroich, North Rhine-Westphalia: Older units have already been shut down, the newer units are scheduled to be taken offline in 2030 as part of Germany's phase-out of coal combustion.",
+    "author": "Norbert Wienold / Imago"
+   },
+   "styles": {
+    "fullwidth-widget": "widget--containerwidth"
+   },
+   "data": {
+    "_captionDirective": {}
+   },
+   "prevElement": "header",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jh4acn150",
+   "content": {
+    "text": "Germany's phase-out of coal mining and combustion for electricity generation and industrial use is underway. The towns <a target=\"_blank\" href=\"https://www.rwe.com/der-konzern/laender-und-standorte/kraftwerk-neurath/?utm_source=chatgpt.com\">of Grevenbroich in North Rhine-Westphalia</a> , Hohenhameln in Lower Saxony, Jänschwalde in Brandenburg, and Zolling in Bavaria all have one thing in common: a coal-fired power plant was shut down in each of them in recent years. The <a href=\"https://www.nzz.ch/wissenschaft/kohle-aus-in-nrw-aufschwung-durch-umweltwirtschaft-ld.1861873\">list</a> could be considerably longer."
+   },
+   "data": {},
+   "prevElement": "image",
+   "nextElement": "barrier"
+  },
+  {
+   "id": "doc-0da068ad",
+   "identifier": "barrier",
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jhqnlq8m0",
+   "content": {
+    "text": "While coal use has long played a negligible role in Switzerland, Germany, a major consumer, has legally mandated a binding timetable: <a href=\"https://www.nzz.ch/international/deutsche-kohlekommission-einigt-sich-auf-den-ausstieg-aus-der-kohle-bis-ende-2038-ld.1454857\">all coal-fired power plants are to be shut down by 2038.</a> The operators will receive billions in compensation, financed by taxpayers. However, this unilateral German and European coal phase-out has virtually no impact on the climate. Globally, coal combustion reached yet another record high in 2025 – and this level is expected to remain high for the foreseeable future."
+   },
+   "paidContent": true,
+   "prevElement": "barrier",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1jhqnnupq0",
+   "content": {
+    "title": "Failed voluntary commitments",
+    "id": "subtitle-gescheiterte-freiwillige-selbstverpflichtungen"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jhqnlq8n0",
+   "content": {
+    "text": "«Coal is a major problem; we have to end its use,» Axel Ockenfels said in an interview. «The question, however, is: how?» added the economics professor at the University of Cologne and director at the Max Planck Institute for Behavioral Economics in Bonn."
+   },
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jhqnlq8o0",
+   "content": {
+    "text": "For Ockenfels, the <a href=\"https://www.nzz.ch/themen/klimawandel\">fight against climate change</a> is primarily a problem of cooperation. If a single country like Germany or a single region like the EU were to take ambitious climate measures, the full costs in the form of higher energy prices and competitive disadvantages would be borne directly and very concentrated there, while the climate benefits would be small and distributed equally among all countries – including those that do not make an effort."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "image"
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1ji4sl4an0",
+   "content": {
+    "image": {
+     "author": "Fabian Stürtz",
+     "caption": "Axel Ockenfels, Professor of Economics at the University of Cologne.",
+     "originalUrl": "/2026/02/23/45764dc0-8d67-4ddc-a9ea-9e2f718a5221.jpg?width=1024",
+     "width": 233,
+     "height": 310,
+     "altText": "Axel Ockenfels, Professor of Economics at the University of Cologne",
+     "origins": [
+      {
+       "name": "Hugo",
+       "identifier": "2177532575"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "caption": "Axel Ockenfels, Professor of Economics at the University of Cologne.",
+    "author": "Fabian Stürtz"
+   },
+   "styles": {
+    "fullwidth-widget": "widget--right"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jhqnlq8q0",
+   "content": {
+    "text": "«Climate change can only be solved collectively. But with the Paris Climate Agreement, which relies on voluntary commitments, we have been on the wrong track for eleven years,» says Ockenfels. He knows of no example where voluntary commitments have solved an international cooperation problem."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "image",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jhqnlq8t0",
+   "content": {
+    "text": "The economist points to similar challenges. «Hardly anyone would consider unilaterally disarming or unilaterally lowering tariffs, hoping that the other side would follow suit,» Ockenfels explains. «The idea that enough others would follow our moral example against their own interests contradicts cooperation research.» This approach, he notes, is only attempted in the reduction of climate-damaging greenhouse gases."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jhqnlq8u0",
+   "content": {
+    "text": "The global coal dilemma remains unresolved: coal is the largest source of climate-damaging <sub>CO2</sub> emissions, yet in many countries it is also a mainstay of electricity production. This is unlikely to change anytime soon, as the world's demand for ever more electricity continues."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "q-embed"
+  },
+  {
+   "identifier": "q-embed",
+   "id": "doc-1jh9bacg10",
+   "content": {
+    "q-embed": {
+     "service": "q-tool",
+     "params": {
+      "id": "c1745b5b07ee7a7ffb15a38d968274bc",
+      "conf": {},
+      "toolConfig": {},
+      "toolRuntimeConfig": {
+       "size": {
+        "width": [
+         {
+          "value": 100,
+          "comparison": ">"
+         }
+        ]
+       },
+       "displayOptions": {
+        "hideTitle": false,
+        "hideSubtitle": false,
+        "hideFooter": false,
+        "hideAcronym": false,
+        "size": "basic"
+       },
+       "locale": "en_US"
+      },
+      "size": "content"
+     },
+     "resolvedValue": {}
+    },
+    "html": "      <div        class=\"q-chart-container\"        id=\"q_chart_c1745b5b07ee7a7ffb15a38d968274bc_q5eafbed3428c4aedae149a753f654b85_container\"        data-q-item-id=\"c1745b5b07ee7a7ffb15a38d968274bc\"        data-q-request-id=\"cf33d3ad6a32a9f336eae47538cbbe7f15a1b734\"      ></div>",
+    "stylesheets": [
+     {
+      "type": "remote",
+      "content": "https://service.sophie.nzz.ch/bundle/sophie-color%23master,sophie-font%23master,sophie-legend%23master[icon-label],sophie-q%23master,sophie-viz-color%23master[general].css"
+     },
+     {
+      "type": "inline",
+      "content": "  @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff) format(\"woff\");  }    @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff) format(\"woff\");    unicode-range: U+0020-00FF,U+2005,U+2082;  }      "
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/css-theme-layer/nzz-0.2.0.css"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/chart/q-chart-1.2.6.css"
+     }
+    ],
+    "scripts": [
+     {
+      "type": "inline",
+      "content": "function qTrackingBootstrap(t,e,n){if(window.digitalData&&window.digitalData.component&&window.digitalData.component.push){window.digitalData.component.push(t),window.digitalData.event&&window.digitalData.event.length||(window.digitalData.event=[]);var i=new Date,a=e;a.eventInfo.timeStamp=i.toISOString(),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\");var o=document.querySelectorAll(\"[data-q-request-id='\"+n+\"']\");[].forEach.call(o,function(t){t.addEventListener(\"q-tracking-event\",function(t){var e=new Date;(a=JSON.parse(JSON.stringify(a))).eventInfo.timeStamp=e.toISOString(),a.eventInfo=Object.assign(a.eventInfo,t.detail.eventInfo),a.category=Object.assign(a.category,t.detail.category),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\")},!1)})}};qTrackingBootstrap({\"componentInfo\":{\"componentName\":\"Q\",\"componentID\":\"c1745b5b07ee7a7ffb15a38d968274bc\"},\"category\":{\"componentType\":\"storytelling\",\"componentSubType1\":\"Q graphic\",\"componentSubType2\":\"chart\"}},{\"eventInfo\":{\"eventName\":\"Storytelling Interaction\",\"eventAction\":\"load\",\"type\":\"story\",\"componentName\":\"Q\",\"eventNonInteractive\":true,\"componentID\":\"c1745b5b07ee7a7ffb15a38d968274bc\"},\"category\":{\"primaryCategory\":\"storytelling\",\"subCategory1\":\"Q graphic\",\"subCategory2\":\"chart\"}},\"cf33d3ad6a32a9f336eae47538cbbe7f15a1b734\")"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/chart/q-chart-1.2.6.js"
+     },
+     {
+      "type": "inline",
+      "content": "      (function () {        function initialize() {          const target = document.querySelector('#q_chart_c1745b5b07ee7a7ffb15a38d968274bc_q5eafbed3428c4aedae149a753f654b85_container');          if (!target) return;          target.innerHTML = '';          const qdoc = {\"_id\":\"c1745b5b07ee7a7ffb15a38d968274bc\",\"allowDownloadData\":false,\"title\":\"China consumes more coal than the rest of the world combined.\",\"subtitle\":\"Largest consumers in 2025, in million tons\",\"publication\":\"nzz\",\"acronym\":\"ra.\",\"data\":[[\"country\",\"Crowd\"],[\"China\",\"4953\"],[\"India\",\"1297\"],[\"USA\",\"410\"],[\"EU\",\"308\"],[\"Rest of the world\",\"1877\"]],\"sources\":[{\"text\":\"International Energy Agency\",\"link\":{\"url\":\"https://iea.blob.core.windows.net/assets/113a8274-500c-4684-951f-947d25bef3c9/Coal2025.pdf\"}}],\"events\":[],\"options\":{\"annotations\":{},\"areaChartOptions\":{\"areaInterpolation\":\"linear\",\"stackType\":\"zero\"},\"arrowOptions\":{\"colorScheme\":0,\"invertColorScheme\":false},\"barOptions\":{\"isBarChart\":false,\"forceBarsOnSmall\":false},\"chartType\":\"Bar\",\"colorOverwritesRows\":[],\"colorOverwritesSeries\":[],\"dateSeriesOptions\":{\"interval\":\"auto\",\"labels\":\"many\",\"prognosisStart\":null},\"dotplotOptions\":{},\"hideAxisLabel\":true,\"highlightDataRows\":[],\"highlightDataSeries\":[],\"lineChartOptions\":{\"yScaleType\":\"linear\",\"reverseYScale\":false,\"lineInterpolation\":\"linear\",\"isStockChart\":false},\"largeNumbers\":{\"divideBy\":0}},\"updatedDate\":\"2026-02-12T16:37:42.329Z\"};          const toolRuntimeConfig = {\"displayOptions\":{\"hideTitle\":false,\"hideSubtitle\":false,\"hideFooter\":false,\"hideAcronym\":false,\"size\":\"basic\"},\"size\":{\"width\":[{\"value\":100,\"comparison\":\">\"}]},\"locale\":\"en-US\"};          const toolSettings = {\"qItemInstanceId\":\"q_chart_c1745b5b07ee7a7ffb15a38d968274bc_q5eafbed3428c4aedae149a753f654b85\"};          let attempts = 0;          const maxAttempts = 100;          const checkAndInitialize = setInterval(() => {            if (window.qChart) {              clearInterval(checkAndInitialize);              new window.qChart({ target: target, props: {                qdoc: qdoc,                toolSettings: toolSettings,                toolRuntimeConfig: toolRuntimeConfig              } });            } else {              attempts++;              if (attempts >= maxAttempts) {                clearInterval(checkAndInitialize);                console.error('Failed to initialize qChart after 30 seconds');              }            }          }, 300);        }        if (document.body.classList.contains('pagedone')) {          initialize();        } else {          window.addEventListener('pagedone', initialize);        }      })();    "
+     }
+    ]
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jh7f3sfv0",
+   "content": {
+    "text": "Burning black rock is even more harmful to the climate than burning oil or natural gas, yet many countries cannot meet their energy needs without it. Despite all efforts, the expansion of renewable energies is either too slow or too expensive."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "q-embed",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jhqnmk250",
+   "content": {
+    "text": "Last year, global coal consumption reached a record high of 8,845 million tons, according to the International Energy Agency (IEA), representing a 0.5 percent increase compared to 2024. Coal production remained at the previous year's level, but at 9,111 million tons, it was even higher. The IEA anticipates only a slight decline of around 5 percent in both consumption and production by 2030. Coal will therefore remain highly relevant for energy supply for a long time to come – regardless of whether Europe phases out coal or not."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1ji521ub50",
+   "content": {
+    "text": "According to the <a target=\"_blank\" href=\"https://productiongap.org/2025report/\">«Production Gap Report 2025»,</a> governments are now planning even higher coal production by 2035 than in 2023. The planned increases in fossil fuel production would lead to global production levels in 2030 that are 500 percent (coal), 31 percent (oil) and 92 percent (gas) above the median value of the scenario agreed upon with the Paris 1.5-degree target."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jhqnmk260",
+   "content": {
+    "text": "The carbon leakage problem and the waterbed effect play a significant role in the failure of a unilateral European phase-out. The former describes the phenomenon that when one country abandons fossil fuels, global prices for oil, gas, and coal fall, making their use more attractive to others. Alternatively, energy-intensive companies simply relocate to regions with less ambitious climate targets. In this case, climate altruists effectively subsidize the <sub>CO2</sub> emissions of those who prioritize self-interest."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jhqnmk280",
+   "content": {
+    "text": "The «waterbed effect» describes a similar phenomenon in the European <a href=\"https://www.nzz.ch/wirtschaft/auf-die-deutschen-unternehmen-rollt-eine-neue-kostenwelle-zu-grund-ist-die-klimapolitik-ld.1916244\">emissions trading system,</a> where local <sub>CO2</sub> savings, for example through the coal phase-out in Germany, do not lead to an overall reduction in emissions. Since the total number of <a href=\"https://www.nzz.ch/wirtschaft/mehr-bezahlen-fuers-autofahren-und-heizen-der-geplante-co2-preis-versetzt-europas-politik-in-furcht-ld.1874922\">certificates</a> is limited, fewer emissions in one location result in cheaper certificates in another. Therefore, focusing solely on one's own <sub>CO2</sub> footprint is insufficient. At least the EU has now begun to address this problem."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1jhqnnmnp0",
+   "content": {
+    "title": "Leakage effect undermines incentives for cooperation",
+    "id": "subtitle-leakage-effekt-untergr-bt-kooperationsanreize"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jhqnmk290",
+   "content": {
+    "text": "«While a unilateral phase-out can serve a national climate goal, it doesn’t necessarily bring us any closer to saving the <a href=\"https://www.nzz.ch/wissenschaft/klima\">climate</a> ,» says Ockenfels. On the contrary, leakage and waterbed effects could even motivate other countries to consume more fossil fuels. The expert on cooperation issues calls for a focus on strategies that incentivize others to participate. The question is how to achieve a collective agreement without large emitting countries acting as free riders."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jhqnmk2a0",
+   "content": {
+    "text": "«On the one hand, technological innovations can help reduce the costs of green energy and thus the costs of international climate cooperation,» says Ockenfels. «But cooperation also requires reciprocity, because that protects those willing to participate from free riders and at the same time motivates those unwilling to do so.»"
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jhr1f04u1",
+   "content": {
+    "text": "«Reciprocity can take many forms, but it seems advisable to start with a smaller group of willing countries that are politically and economically strong,» the economist adds. One approach would be to agree with these countries on a minimum <sub>CO2</sub> price, which might initially be lower than what Europe would prefer. However, this would increase the chances of successfully embarking on genuine cooperation."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jhqnmk2c0",
+   "content": {
+    "text": "Then measures are needed to incentivize reluctant participants to join in. This could, for example, involve taxing their imports at the level of the agreed-upon minimum <sub>CO2</sub> price. The European Union (EU) is pursuing this approach with its <sub>Carbon</sub> Border Adjustment Mechanism (CBAM). It aims to create a level playing field by subjecting imports from countries with weaker climate regulations to similar <sub>CO2</sub> costs as goods produced within the EU."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jhr1hkk01",
+   "content": {
+    "text": "Brussels aims to prevent counterproductive effects such as carbon leakage and at the same time create incentives for other countries to price <sub>CO2</sub> themselves, because this allows other countries to avoid handing over their <sub>CO2</sub> revenues to Europe."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "q-embed"
+  },
+  {
+   "identifier": "q-embed",
+   "id": "doc-1jh9bb76p0",
+   "content": {
+    "q-embed": {
+     "service": "q-tool",
+     "params": {
+      "id": "6385b4301d554d238307e959f07f0505",
+      "conf": {},
+      "toolConfig": {},
+      "toolRuntimeConfig": {
+       "size": {
+        "width": [
+         {
+          "value": 100,
+          "comparison": ">"
+         }
+        ]
+       },
+       "displayOptions": {
+        "hideTitle": false,
+        "hideSubtitle": false,
+        "hideFooter": false,
+        "hideAcronym": false,
+        "size": "basic"
+       },
+       "locale": "en_US"
+      },
+      "size": "content"
+     },
+     "resolvedValue": {}
+    },
+    "html": "      <div        class=\"q-chart-container\"        id=\"q_chart_6385b4301d554d238307e959f07f0505_q10247c2eb0c248a2bcfa1bf31606f2db_container\"        data-q-item-id=\"6385b4301d554d238307e959f07f0505\"        data-q-request-id=\"8b6b7638e354f8854b7e51ae18602c29d78cccb3\"      ></div>",
+    "stylesheets": [
+     {
+      "type": "remote",
+      "content": "https://service.sophie.nzz.ch/bundle/sophie-color%23master,sophie-font%23master,sophie-legend%23master[icon-label],sophie-q%23master,sophie-viz-color%23master[general].css"
+     },
+     {
+      "type": "inline",
+      "content": "  @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff) format(\"woff\");  }    @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff) format(\"woff\");    unicode-range: U+0020-00FF,U+2005,U+2082;  }      "
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/css-theme-layer/nzz-0.2.0.css"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/chart/q-chart-1.2.6.css"
+     }
+    ],
+    "scripts": [
+     {
+      "type": "inline",
+      "content": "function qTrackingBootstrap(t,e,n){if(window.digitalData&&window.digitalData.component&&window.digitalData.component.push){window.digitalData.component.push(t),window.digitalData.event&&window.digitalData.event.length||(window.digitalData.event=[]);var i=new Date,a=e;a.eventInfo.timeStamp=i.toISOString(),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\");var o=document.querySelectorAll(\"[data-q-request-id='\"+n+\"']\");[].forEach.call(o,function(t){t.addEventListener(\"q-tracking-event\",function(t){var e=new Date;(a=JSON.parse(JSON.stringify(a))).eventInfo.timeStamp=e.toISOString(),a.eventInfo=Object.assign(a.eventInfo,t.detail.eventInfo),a.category=Object.assign(a.category,t.detail.category),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\")},!1)})}};qTrackingBootstrap({\"componentInfo\":{\"componentName\":\"Q\",\"componentID\":\"6385b4301d554d238307e959f07f0505\"},\"category\":{\"componentType\":\"storytelling\",\"componentSubType1\":\"Q graphic\",\"componentSubType2\":\"chart\"}},{\"eventInfo\":{\"eventName\":\"Storytelling Interaction\",\"eventAction\":\"load\",\"type\":\"story\",\"componentName\":\"Q\",\"eventNonInteractive\":true,\"componentID\":\"6385b4301d554d238307e959f07f0505\"},\"category\":{\"primaryCategory\":\"storytelling\",\"subCategory1\":\"Q graphic\",\"subCategory2\":\"chart\"}},\"8b6b7638e354f8854b7e51ae18602c29d78cccb3\")"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/chart/q-chart-1.2.6.js"
+     },
+     {
+      "type": "inline",
+      "content": "      (function () {        function initialize() {          const target = document.querySelector('#q_chart_6385b4301d554d238307e959f07f0505_q10247c2eb0c248a2bcfa1bf31606f2db_container');          if (!target) return;          target.innerHTML = '';          const qdoc = {\"_id\":\"6385b4301d554d238307e959f07f0505\",\"allowDownloadData\":false,\"title\":\"China is by far the world's largest coal producer.\",\"subtitle\":\"Largest producers in 2025, in million tons\",\"publication\":\"nzz\",\"acronym\":\"ra.\",\"data\":[[\"country\",\"Crowd\"],[\"China\",\"4730\"],[\"India\",\"1089\"],[\"Indonesia\",\"778\"],[\"USA\",\"473\"],[\"Australia\",\"446\"],[\"Russia\",\"427\"],[\"EU\",\"242\"],[\"Rest of the world\",\"926\"]],\"sources\":[{\"text\":\"International Energy Agency\",\"link\":{\"url\":\"https://iea.blob.core.windows.net/assets/113a8274-500c-4684-951f-947d25bef3c9/Coal2025.pdf\"}}],\"events\":[],\"options\":{\"annotations\":{},\"areaChartOptions\":{\"areaInterpolation\":\"linear\",\"stackType\":\"zero\"},\"arrowOptions\":{\"colorScheme\":0,\"invertColorScheme\":false},\"barOptions\":{\"isBarChart\":true,\"forceBarsOnSmall\":false},\"chartType\":\"Bar\",\"colorOverwritesRows\":[],\"colorOverwritesSeries\":[],\"dateSeriesOptions\":{\"interval\":\"auto\",\"labels\":\"many\",\"prognosisStart\":null},\"dotplotOptions\":{},\"hideAxisLabel\":true,\"highlightDataRows\":[],\"highlightDataSeries\":[],\"lineChartOptions\":{\"yScaleType\":\"linear\",\"reverseYScale\":false,\"lineInterpolation\":\"linear\",\"isStockChart\":false},\"largeNumbers\":{\"divideBy\":0}},\"updatedDate\":\"2026-02-12T16:37:57.336Z\"};          const toolRuntimeConfig = {\"displayOptions\":{\"hideTitle\":false,\"hideSubtitle\":false,\"hideFooter\":false,\"hideAcronym\":false,\"size\":\"basic\"},\"size\":{\"width\":[{\"value\":100,\"comparison\":\">\"}]},\"locale\":\"en-US\"};          const toolSettings = {\"qItemInstanceId\":\"q_chart_6385b4301d554d238307e959f07f0505_q10247c2eb0c248a2bcfa1bf31606f2db\"};          let attempts = 0;          const maxAttempts = 100;          const checkAndInitialize = setInterval(() => {            if (window.qChart) {              clearInterval(checkAndInitialize);              new window.qChart({ target: target, props: {                qdoc: qdoc,                toolSettings: toolSettings,                toolRuntimeConfig: toolRuntimeConfig              } });            } else {              attempts++;              if (attempts >= maxAttempts) {                clearInterval(checkAndInitialize);                console.error('Failed to initialize qChart after 30 seconds');              }            }          }, 300);        }        if (document.body.classList.contains('pagedone')) {          initialize();        } else {          window.addEventListener('pagedone', initialize);        }      })();    "
+     }
+    ]
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jh7f3teu0",
+   "content": {
+    "text": "New ideas are needed. On the one hand, there has been progress in the fight against the «coal crisis,» as some call the persistently high consumption – but there are also setbacks. On the one hand, according to the IEA, the strong expansion of renewable energies is helping to dampen demand. Furthermore, the increasing export capacity for liquefied natural gas (LNG), thanks to falling prices, could encourage many countries to replace coal consumption with the less harmful gas, it is said."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "q-embed",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jhqnn6q70",
+   "content": {
+    "text": "On the other hand, rising global electricity demand is likely to further fuel coal consumption, especially since two-thirds of global coal use is currently for electricity generation. Political changes, for example in the U.S., could also lead to a coal revival. However, key factors influencing demand include not only political measures, but also the prices of alternative energy sources and weather conditions."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jhqnn6q90",
+   "content": {
+    "text": "Developments in China are crucial for the fight against coal. The country produces and consumes more coal than the rest of the world combined. In the Middle Kingdom, the authorities are not only massively expanding renewable energies, but also coal-fired power generation. Chinese dominance means that the global coal market is heavily dependent on events there."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "image"
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1jh4ad3qc0",
+   "content": {
+    "image": {
+     "author": "Ng Han Guan / AP",
+     "caption": "Immense energy demand: Coal-fired power plant between Beijing and Shenyang in northwest China.",
+     "originalUrl": "/2026/02/12/3288ebb6-86f1-4455-9396-88cd0d088dd4.jpg?width=1024",
+     "width": 6069,
+     "height": 3841,
+     "altText": "A power plant is seen from a train from Beijing to Shenyang in northwestern China on Jan. 3, 2026. (AP Photo/Ng Han Guan) China Climate Coal",
+     "origins": [
+      {
+       "name": "Hugo",
+       "identifier": "2177007186"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "caption": "Immense energy demand: Coal-fired power plant between Beijing and Shenyang in northwest China.",
+    "author": "Ng Han Guan / AP"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jhqnn6qb0",
+   "content": {
+    "text": "A similar situation exists in India, by far the second-largest producer and consumer of coal. However, supply and demand on the subcontinent reach only a quarter of the Chinese figures. While an early and heavy monsoon season in India last year led to lower electricity demand, boosting hydropower production, the IEA expects Indian coal consumption to increase by a substantial 17 percent by 2030."
+   },
+   "paidContent": true,
+   "prevElement": "image",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jhqnn6qc0",
+   "content": {
+    "text": "Special effects on annual consumption are not uncommon, but long-term trends are crucial. In the US, for example, according to the IEA, coal demand fell by an average of 6 percent annually over the past 15 years. Then, in 2025, it rose again by 8 percent. This was due to a combination of higher natural gas prices and a slowdown in the shutdown of coal-fired power plants, a measure implemented by the administration of President Donald Trump."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1jhqnne8i0",
+   "content": {
+    "title": "Europe is sticking to its complete coal phase-out",
+    "id": "subtitle-europa-h-lt-am-vollst-ndigen-kohleausstieg-fest"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jhqnn6qd0",
+   "content": {
+    "text": "And what about Europe? The old continent has so far continued working towards a complete phase-out of coal. Six countries have already completed this, including Belgium, Austria, Sweden, and the United Kingdom. A further eight countries, including France, Denmark, and Greece, aim to phase it out by 2030."
+   },
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jhqnn6qe0",
+   "content": {
+    "text": "Germany and six other countries are aiming for this in the future. The strong expansion of renewable energies, the use of nuclear power, and rising costs for <sub>CO2</sub> emissions due to the emissions trading system support this development, with Germany, under the leadership of the Green Party, choosing to phase out nuclear energy first rather than climate-damaging coal."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jhqnn6qf0",
+   "content": {
+    "text": "Ockenfels believes the European phase-out of coal is fundamentally the right approach, but the method is wrong. «Egoism is more contagious than altruism,» says the economist. «Focusing on one's own <sub>carbon</sub> footprint doesn't solve the cooperation problem. Innovation and cooperation can make a real difference, but they require a comprehensive reorientation of climate policy.»"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "footnote"
+  },
+  {
+   "identifier": "footnote",
+   "id": "doc-1jh4acqel0",
+   "content": {
+    "text": "You can follow Michael Rasch on the platforms <a href=\"https://twitter.com/raschnzz\">X,</a> <a href=\"https://www.linkedin.com/in/michael-rasch-873488?trk=nav_responsive_tab_profile\">Linkedin</a> and <a href=\"https://www.xing.com/profile/Michael_Rasch4?sc_o=mxb_p\">Xing</a>."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "sharebox",
+   "lastContentElement": true
+  },
+  {
+   "identifier": "sharebox",
+   "id": "doc-1jh4acn151",
+   "paidContent": true,
+   "prevElement": "footnote",
+   "nextElement": "related-articles-container"
+  },
+  {
+   "identifier": "related-articles-container",
+   "id": "doc-1jh4acn152",
+   "content": {
+    "title": "Related articles"
+   },
+   "containers": {
+    "related-articles": [
+     {
+      "identifier": "teaser",
+      "id": "doc-1jh4acn153",
+      "content": {
+       "title": "Climate tipping point: what tiny marine animals reveal about the changing Gulf Stream system",
+       "teaserImage": {
+        "originalUrl": "/2022/04/12/c52bde05-22e0-4dc2-8adf-36f56b4fdb5f.jpeg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2022/04/12/c52bde05-22e0-4dc2-8adf-36f56b4fdb5f.jpeg?width=1024&quality=75&auto=webp",
+        "width": 3860,
+        "height": 2552,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "3860,2171,x0,y309"
+         },
+         {
+          "name": "1:1",
+          "crop": "1792,1792,x0,y334"
+         }
+        ],
+        "imageService": "fastly",
+        "teaserCaption": "Researchers agree that the deep-sea circulation in the Atlantic will weaken. But when asked whether there are already signs of this, a lively debate ensues.",
+        "teaserAuthor": "Micheldenijs / E+ / Getty"
+       },
+       "teaserAuthor": "Micheldenijs / E+ / Getty",
+       "nzzasFootnote": false,
+       "folioFootnote": false,
+       "language": {
+        "locale": "de-CH"
+       },
+       "nzzId": "ld.1675677",
+       "readingTime": 360,
+       "authorLine": "Sven Titz (text) and Christian Kleeb (graphics)",
+       "characterCount": 8920,
+       "product": "NZZ.ch",
+       "documentId": 1675677,
+       "layout": "regular",
+       "publicationDate": "2022-04-13T14:00:05.213Z",
+       "publicationLastUpdated": "2022-04-14T09:13:16.399Z",
+       "significantUpdate": false,
+       "significantUpdateTill": "2022-04-14T02:00:05.213Z",
+       "teaserCaption": "Researchers agree that the deep-sea circulation in the Atlantic will weaken. But when asked whether there are already signs of this, a lively debate ensues.",
+       "url": "/wissenschaft/golfstrom-und-atlantikzirkulation-diskussion-um-klima-kipppunkt-ld.1675677",
+       "department": {
+        "name": "Science",
+        "path": "/wissenschaft"
+       },
+       "estimationWordCount": 1272,
+       "leadText": "Researchers agree that the deep-sea circulation in the Atlantic will weaken. But when asked whether there are already signs of this, a lively debate ensues.",
+       "hasQ": true
+      }
+     },
+     {
+      "identifier": "teaser",
+      "id": "doc-1jh4acn154",
+      "content": {
+       "owner": "NZZ",
+       "flag": "Opinion",
+       "title": "The Climate Fund Initiative turns the scattergun approach into state policy",
+       "teaserImage": {
+        "originalUrl": "/2026/02/10/e43c8837-4878-4c6f-809c-7478453bb0aa.jpg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2026/02/10/e43c8837-4878-4c6f-809c-7478453bb0aa.jpg?width=1024&quality=75&auto=webp",
+        "width": 3437,
+        "height": 1934,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "3437,1933,x0,y0"
+         },
+         {
+          "name": "1:1",
+          "crop": "1934,1934,x1123,y0"
+         },
+         {
+          "name": "4:3",
+          "crop": "2579,1934,x499,y0"
+         },
+         {
+          "name": "3:4",
+          "crop": "1451,1934,x1578,y0"
+         },
+         {
+          "name": "3:2",
+          "crop": "2901,1934,x268,y0"
+         }
+        ],
+        "imageService": "fastly",
+        "teaserCaption": "Switzerland is doing too little for the climate. The Social Democrats and the Greens now want to create a huge subsidy fund. But in doing so, they are jeopardizing the federal government's financial stability."
+       },
+       "nzzasFootnote": false,
+       "folioFootnote": false,
+       "language": {
+        "locale": "de-CH"
+       },
+       "nzzId": "ld.1923935",
+       "readingTime": 360,
+       "showComments": true,
+       "authorLine": "David Vonplon",
+       "characterCount": 8419,
+       "product": "NZZ.ch",
+       "documentId": 1923935,
+       "layout": "opinion",
+       "publicationDate": "2026-02-11T04:30:00.000Z",
+       "publicationLastUpdated": "2026-02-11T05:12:20.531Z",
+       "significantUpdate": false,
+       "significantUpdateTill": "2026-02-11T16:30:00.000Z",
+       "teaserCaption": "Switzerland is doing too little for the climate. The Social Democrats and the Greens now want to create a huge subsidy fund. But in doing so, they are jeopardizing the federal government's financial stability.",
+       "authorImage": {
+        "originalUrl": "/2024/04/30/63700c94-c5a7-4404-9e5c-1ab9a2a181a5.png?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2024/04/30/63700c94-c5a7-4404-9e5c-1ab9a2a181a5.png?width=1024&quality=75&auto=webp",
+        "width": 800,
+        "height": 800,
+        "crops": [
+         {
+          "name": "1:1",
+          "crop": "800,800,x0,y0"
+         }
+        ],
+        "imageService": "fastly"
+       },
+       "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2024/04/30/63700c94-c5a7-4404-9e5c-1ab9a2a181a5.png?width=1024&quality=75&auto=webp",
+       "url": "/meinung/die-klimafondsinitiative-macht-die-giesskanne-zur-staatsdoktrin-ld.1923935",
+       "department": {
+        "name": "Opinion",
+        "path": "/meinung"
+       },
+       "estimationWordCount": 1212,
+       "leadText": "Switzerland is doing too little for the climate. The Social Democrats and the Greens now want to create a huge subsidy fund. But in doing so, they are jeopardizing the federal government's financial stability."
+      }
+     },
+     {
+      "identifier": "teaser",
+      "id": "doc-1jh4acn155",
+      "content": {
+       "owner": "NZZ",
+       "title": "Glencore's dream of a merger with Rio Tinto has shattered. The key answers to the failure of the mining industry's biggest coup.",
+       "teaserImage": {
+        "originalUrl": "/2026/02/05/bd135d8f-54b5-4a51-ab16-9f89cac8e1c5.jpg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2026/02/05/bd135d8f-54b5-4a51-ab16-9f89cac8e1c5.jpg?width=1024&quality=75&auto=webp",
+        "width": 6000,
+        "height": 4000,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "6000,3375,x0,y43"
+         },
+         {
+          "name": "1:1",
+          "crop": "3160,3160,x2694,y296"
+         },
+         {
+          "name": "4:3",
+          "crop": "5333,4000,x340,y0"
+         },
+         {
+          "name": "3:4",
+          "crop": "2667,3556,x3106,y174"
+         },
+         {
+          "name": "3:2",
+          "crop": "6000,4000,x0,y0"
+         }
+        ],
+        "imageService": "fastly",
+        "teaserCaption": "The Swiss commodities trader wanted to merge with the British-Australian mining giant. The strategic logic was clear. But then a dispute arose.",
+        "teaserAuthor": "Luc Gnago / Reuters"
+       },
+       "teaserAuthor": "Luc Gnago / Reuters",
+       "nzzasFootnote": false,
+       "folioFootnote": false,
+       "language": {
+        "locale": "de-CH"
+       },
+       "nzzId": "ld.1923098",
+       "readingTime": 420,
+       "authorLine": "Benjamin Triebe",
+       "characterCount": 8917,
+       "product": "NZZ.ch",
+       "documentId": 1923098,
+       "layout": "regular",
+       "publicationDate": "2026-02-05T17:27:57.924Z",
+       "publicationLastUpdated": "2026-02-05T18:55:29.181Z",
+       "significantUpdate": false,
+       "significantUpdateTill": "2026-02-06T05:27:57.924Z",
+       "teaserCaption": "The Swiss commodities trader wanted to merge with the British-Australian mining giant. The strategic logic was clear. But then a dispute arose.",
+       "authorImage": {
+        "originalUrl": "/2024/05/28/66e46add-875c-44d3-97bc-9ef706f6bc3d.jpeg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2024/05/28/66e46add-875c-44d3-97bc-9ef706f6bc3d.jpeg?width=1024&quality=75&auto=webp",
+        "width": 800,
+        "height": 800,
+        "crops": [
+         {
+          "name": "1:1",
+          "crop": "711,711,x44,y44"
+         }
+        ],
+        "imageService": "fastly"
+       },
+       "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2024/05/28/66e46add-875c-44d3-97bc-9ef706f6bc3d.jpeg?width=1024&quality=75&auto=webp",
+       "url": "/wirtschaft/glencore-rio-tinto-uebernahme-qa-ld.1923098",
+       "department": {
+        "name": "Economy",
+        "path": "/wirtschaft"
+       },
+       "estimationWordCount": 1370,
+       "leadText": "The Swiss commodities trader wanted to merge with the British-Australian mining giant. The strategic logic was clear. But then a dispute arose.",
+       "nzzSummaryIsAuto": true,
+       "hasQ": true
+      }
+     }
+    ]
+   },
+   "paidContent": true,
+   "prevElement": "sharebox",
+   "nextElement": "",
+   "lastContentElement": true
+  }
+ ],
+ "metadata": {
+  "owner": "NZZ",
+  "germanyRelevant": true,
+  "title": "Global coal consumption is at a record high. Europe's focus on reducing its own CO2 emissions has failed.",
+  "teaserImage": {
+   "originalUrl": "/2026/02/23/e7add857-cb61-48d4-bfba-feedd2775d49.jpg?width=1024",
+   "url": "https://img-msp-prod.nzz.ch/2026/02/23/e7add857-cb61-48d4-bfba-feedd2775d49.jpg?width=1024&quality=75&auto=webp",
+   "width": 5472,
+   "height": 3648,
+   "crops": [
+    {
+     "name": "16:9",
+     "crop": "5472,3078,x0,y285"
+    },
+    {
+     "name": "1:1",
+     "crop": "3648,3648,x912,y0"
+    },
+    {
+     "name": "4:3",
+     "crop": "4864,3648,x304,y0"
+    },
+    {
+     "name": "3:4",
+     "crop": "2736,3648,x1368,y0"
+    },
+    {
+     "name": "3:2",
+     "crop": "5472,3648,x0,y0"
+    }
+   ],
+   "imageService": "fastly",
+   "teaserCaption": "Unilateral commitments have proven ineffective in the fight against climate change. Economist Axel Ockenfels explains why selfishness is more promising than altruism.",
+   "teaserAuthor": "Norbert Wienold / Imago"
+  },
+  "teaserAuthor": "Norbert Wienold / Imago",
+  "nzzasFootnote": false,
+  "folioFootnote": false,
+  "language": {
+   "locale": "en-US"
+  },
+  "nzzId": "ld.1924371",
+  "readingTime": 480,
+  "authorLine": "Michael Rasch",
+  "characterCount": 10642,
+  "breadcrumbs": [
+   {
+    "name": "Economy",
+    "path": "/wirtschaft"
+   }
+  ],
+  "product": "NZZ.ch",
+  "documentId": 1924371,
+  "contentTypeGroup": "web",
+  "layout": "longformstandard",
+  "firstPublicationDate": "2026-03-02T04:30:00.000Z",
+  "publicationDate": "2026-03-02T04:30:00.000Z",
+  "publicationLastUpdated": "2026-03-02T04:30:00.000Z",
+  "significantUpdate": false,
+  "significantUpdateTill": "2026-03-02T16:30:00.000Z",
+  "teaserCaption": "Unilateral commitments have proven ineffective in the fight against climate change. Economist Axel Ockenfels explains why selfishness is more promising than altruism.",
+  "nzzAuthors": [
+   {
+    "id": 1373477,
+    "name": "Michael Rasch",
+    "shortName": "ra",
+    "pianoId": "ce2dd2de-815b-460d-9a30-2822967d7ee5",
+    "external": false
+   }
+  ],
+  "authorImage": {
+   "originalUrl": "/2022/09/14/5d4cbc9a-6dd6-47e9-a749-844afb0d53e2.png?width=1024",
+   "url": "https://img-msp-prod.nzz.ch/2022/09/14/5d4cbc9a-6dd6-47e9-a749-844afb0d53e2.png?width=1024&quality=75&auto=webp",
+   "width": 800,
+   "height": 800,
+   "crops": [
+    {
+     "name": "1:1",
+     "crop": "800,800,x0,y0"
+    }
+   ],
+   "imageService": "fastly"
+  },
+  "nzzAuthorProfileDataCollection": [
+   {
+    "documentId": 154642,
+    "name": "Michael Rasch (right)",
+    "teaserImageUrl": "https://img-msp-prod.nzz.ch/2022/09/14/5d4cbc9a-6dd6-47e9-a749-844afb0d53e2.png?width=1024&quality=75&auto=webp"
+   }
+  ],
+  "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2022/09/14/5d4cbc9a-6dd6-47e9-a749-844afb0d53e2.png?width=1024&quality=75&auto=webp",
+  "url": "/wirtschaft/der-globale-kohleverbrauch-ist-auf-einem-rekordhoch-der-europaeische-fokus-auf-die-reduktion-des-eigenen-co2-ausstosses-hat-versagt-ld.1924371",
+  "department": {
+   "name": "Economy",
+   "path": "/wirtschaft"
+  },
+  "estimationWordCount": 1546,
+  "leadText": "Unilateral commitments have proven ineffective in the fight against climate change. Economist Axel Ockenfels explains why selfishness is more promising than altruism.",
+  "nzzSummaryEN": "- In 2025, global coal consumption reached a record high of 8,845 million tons, with coal remaining a key component in global energy production.\n- Unilateral climate measures, such as the European coal phase-out, have minimal global impact due to effects like carbon leakage and the waterbed effects.\n- Experts like Axel Ockenfels emphasize international cooperation and innovative strategies to involve major emitting countries like China and India in achieving global climate goals.",
+  "nzzSummaryDE": "- Global coal consumption reached a record high of 8845 million tons in 2025, with coal continuing to play a major role in global energy production.\n Unilateral climate measures such as the European coal phase-out have hardly any global impact due to effects such as carbon leakage and the waterbed effect.\n Experts like Axel Ockenfels are calling for international cooperation and innovative measures to involve major emission countries like China and India and to achieve global climate goals.",
+  "nzzSummaryIsAuto": true,
+  "nzzSummaryModel": "gpt-4o-2024-11-20",
+  "nzzPrintTitle": "Coal remains king",
+  "nzzPrintSubtitle": "Global consumption will reach record levels in 2025 – Europe's climate policy is ineffective.",
+  "allArticleLanguages": [
+   {
+    "locale": "de-CH",
+    "urlPath": "/wirtschaft/der-globale-kohleverbrauch-ist-auf-einem-rekordhoch-der-europaeische-fokus-auf-die-reduktion-des-eigenen-co2-ausstosses-hat-versagt-ld.1924371",
+    "seo": {}
+   }
+  ],
+  "seo": {
+   "canonicalUrl": "https://www.nzz.ch/wirtschaft/der-globale-kohleverbrauch-ist-auf-einem-rekordhoch-der-europaeische-fokus-auf-die-reduktion-des-eigenen-co2-ausstosses-hat-versagt-ld.1924371",
+   "title": "Coal consumption at a record high: How Europe's climate policy is failing",
+   "socialMediaTitle": "Coal consumption at a record high: How Europe's climate policy is failing",
+   "excludeFromSpiders": false,
+   "image": "https://img-msp-prod.nzz.ch/2026/02/23/e7add857-cb61-48d4-bfba-feedd2775d49.jpg?width=1200&height=675&fit=bounds&quality=75&auto=webp&crop=5472,3078,x0,y285&wmark=nzz"
+  },
+  "ldPublicationId": 2400788,
+  "isHighlightedHeader": false,
+  "nzzTopics": [
+   {
+    "name": "climate policy",
+    "slug": "/themen/klimapolitik"
+   },
+   {
+    "name": "Germany",
+    "slug": "/themen/deutschland"
+   },
+   {
+    "name": "EU",
+    "slug": "/themen/eu"
+   },
+   {
+    "name": "climate change",
+    "slug": "/themen/klimawandel"
+   },
+   {
+    "name": "India",
+    "slug": "/themen/indien"
+   },
+   {
+    "name": "China",
+    "slug": "/themen/china"
+   },
+   {
+    "name": "natural gas",
+    "slug": "/themen/erdgas"
+   },
+   {
+    "name": "USA",
+    "slug": "/themen/usa"
+   },
+   {
+    "name": "oil",
+    "slug": "/themen/erdoel"
+   },
+   {
+    "name": "nuclear power",
+    "slug": "/themen/atomkraft"
+   },
+   {
+    "name": "Greece",
+    "slug": "/themen/griechenland"
+   },
+   {
+    "name": "Donald Trump",
+    "slug": "/themen/donald-trump"
+   },
+   {
+    "name": "Denmark",
+    "slug": "/themen/danemark"
+   },
+   {
+    "name": "Belgium",
+    "slug": "/themen/belgien"
+   },
+   {
+    "name": "Austria",
+    "slug": "/themen/osterreich"
+   },
+   {
+    "name": "Sweden",
+    "slug": "/themen/schweden"
+   },
+   {
+    "name": "France",
+    "slug": "/themen/frankreich"
+   }
+  ],
+  "barrierIndex": 3,
+  "outlinks": {
+   "mehrZumThema": [
+    "ld.1675677",
+    "ld.1923935",
+    "ld.1923098"
+   ],
+   "artikelListe": [],
+   "aliasTeaserEmbedList": []
+  },
+  "tts": true,
+  "hasQ": true,
+  "mp3": true,
+  "mp3Duration": 672504,
+  "project": "nzz",
+  "machineTranslated": true,
+  "machineTranslationValidated": false
+ },
+ "isReduced": false,
+ "isPaid": false,
+ "isVamp": false,
+ "isWebview": false,
+ "btaFeed": {
+  "meta": {
+   "id": "klimapolitik",
+   "name": "climate policy",
+   "tagName": "climate policy",
+   "qId": "Q1774427",
+   "seoTitle": "Climate policy – ​​All articles on the topic | NZZ",
+   "description": null,
+   "firstName": null,
+   "lastName": null,
+   "category": "MISC",
+   "createdDate": "2025-04-08 17:09:33.481Z",
+   "imageURL": null,
+   "imageCroppedURL": null,
+   "imageWidth": null,
+   "imageHeight": null,
+   "imageCredits": null,
+   "url": "https://nzz.ch/themen/klimapolitik",
+   "size": 1651,
+   "relatedTopics": [
+    {
+     "name": "Deutschland",
+     "slug": "/themen/deutschland"
+    },
+    {
+     "name": "EU",
+     "slug": "/themen/eu"
+    },
+    {
+     "name": "Klimawandel",
+     "slug": "/themen/klimawandel"
+    },
+    {
+     "name": "Indien",
+     "slug": "/themen/indien"
+    },
+    {
+     "name": "China",
+     "slug": "/themen/china"
+    },
+    {
+     "name": "Erdgas",
+     "slug": "/themen/erdgas"
+    },
+    {
+     "name": "USA",
+     "slug": "/themen/usa"
+    },
+    {
+     "name": "Erdöl",
+     "slug": "/themen/erdoel"
+    },
+    {
+     "name": "Atomkraft",
+     "slug": "/themen/atomkraft"
+    },
+    {
+     "name": "Griechenland",
+     "slug": "/themen/griechenland"
+    },
+    {
+     "name": "Donald Trump",
+     "slug": "/themen/donald-trump"
+    },
+    {
+     "name": "Dänemark",
+     "slug": "/themen/danemark"
+    },
+    {
+     "name": "Belgien",
+     "slug": "/themen/belgien"
+    },
+    {
+     "name": "Österreich",
+     "slug": "/themen/osterreich"
+    },
+    {
+     "name": "Schweden",
+     "slug": "/themen/schweden"
+    },
+    {
+     "name": "Frankreich",
+     "slug": "/themen/frankreich"
+    }
+   ]
+  },
+  "data": [
+   {
+    "flag": "Explained",
+    "title": "Switzerland is now looking for a new climate policy",
+    "teaserImage": {
+     "originalUrl": "/2021/6/14/02df479f-9516-4a60-98f6-1c13dc1629cc.jpeg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2021/6/14/02df479f-9516-4a60-98f6-1c13dc1629cc.jpeg?width=1024&quality=75&auto=webp",
+     "width": 5568,
+     "height": 3712,
+     "imageService": "fastly",
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "5568,3132,x0,y290"
+      },
+      {
+       "name": "1:1",
+       "crop": "3712,3712,x928,y0"
+      }
+     ],
+     "teaserCaption": "The rejection of the CO2 law shakes the foundations of Swiss climate policy. What happens next? How can the internationally agreed targets still be achieved? The most important answers regarding the consequences of the referendum.",
+     "teaserAuthor": "Christoph Ruckstuhl / NZZ"
+    },
+    "teaserAuthor": "Christoph Ruckstuhl / NZZ",
+    "nzzasFootnote": false,
+    "folioFootnote": false,
+    "language": {
+     "locale": "de-CH"
+    },
+    "nzzId": "ld.1630333",
+    "readingTime": 420,
+    "authorLine": "Thomas Schürpf",
+    "characterCount": 9437,
+    "product": "NZZ.ch",
+    "documentId": "1630333",
+    "layout": "regular",
+    "publicationDate": "2021-06-14T11:06:31.771Z",
+    "publicationLastUpdated": "2021-06-15T09:38:50.360Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2021-06-14T23:06:31.771Z",
+    "teaserCaption": "The rejection of the CO2 law shakes the foundations of Swiss climate policy. What happens next? How can the internationally agreed targets still be achieved? The most important answers regarding the consequences of the referendum.",
+    "url": "https://www.nzz.ch/schweiz/jetzt-sucht-die-schweiz-nach-einer-neuen-klimapolitik-ld.1630333",
+    "department": {
+     "name": "Switzerland",
+     "path": "/schweiz"
+    },
+    "estimationWordCount": 1370,
+    "leadText": "The rejection of the CO2 law shakes the foundations of Swiss climate policy. What happens next? How can the internationally agreed targets still be achieved? The most important answers regarding the consequences of the referendum."
+   },
+   {
+    "title": "Solar power: Misunderstood and over-subsidized?",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "authorLine": "Christof Bucher",
+    "flag": "Guest opinion",
+    "editor": "1373665",
+    "teaserImage": {
+     "originalUrl": "/2026/09/01/76d33ef6-6b84-4967-b6b7-073d9b29da58.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/09/01/76d33ef6-6b84-4967-b6b7-073d9b29da58.jpg?width=1024&quality=75&auto=webp",
+     "width": 5907,
+     "height": 3938,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "5907,3323,x0,y615"
+      },
+      {
+       "name": "4:3",
+       "crop": "5251,3938,x0,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "3938,3938,x0,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "2954,3938,x118,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "5907,3938,x0,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "Photovoltaic systems are first subsidized, then declared mandatory under the Energy Act, and from 2027, owners will pay for the right to feed electricity into the grid. It is not surprising that doubts about the Energy Strategy are emerging.",
+     "teaserAuthor": "Gaetan Bally / Keystone"
+    },
+    "teaserAuthor": "Gaetan Bally / Keystone",
+    "nzzId": "ld.10019058",
+    "readingTime": 240,
+    "paywallQuestionOne": "How does photovoltaics affect grid stability in Switzerland?",
+    "paywallQuestionTwo": "What challenges will the planned quadrupling of solar power output bring?",
+    "paywallQuestionThree": "How should the control of solar power at the feed-in point be implemented?",
+    "characterCount": 5457,
+    "showComments": true,
+    "product": "NZZ.ch",
+    "documentId": "10019058",
+    "layout": "regular",
+    "publicationDate": "2026-09-02T03:25:00.000Z",
+    "publicationLastUpdated": "2026-09-02T04:02:30.544Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-09-02T15:25:00.000Z",
+    "teaserCaption": "Photovoltaic systems are first subsidized, then declared mandatory under the Energy Act, and from 2027, owners will pay for the right to feed electricity into the grid. It is not surprising that doubts about the Energy Strategy are emerging.",
+    "url": "https://www.nzz.ch/meinung/solarstrom-missverstanden-und-kaputtgefoerdert-ld.10019058",
+    "department": {
+     "name": "Opinion",
+     "path": "/meinung"
+    },
+    "estimationWordCount": 784,
+    "leadText": "Photovoltaic systems are first subsidized, then declared mandatory under the Energy Act, and from 2027, owners will pay for the right to feed electricity into the grid. It is not surprising that doubts about the Energy Strategy are emerging.",
+    "nzzSummaryIsAuto": true,
+    "commentsCount": 12,
+    "openToComment": false,
+    "locale": "de-CH"
+   },
+   {
+    "showHeader": true,
+    "owner": "NZZaS",
+    "language": {
+     "locale": "de"
+    },
+    "nzzasFootnote": true,
+    "title": "Grassroots and Campaign Machine: How the Climate Movement Hopes for a New Green Wave",
+    "nzzId": "ld.10021429",
+    "readingTime": 300,
+    "paywallQuestionOne": "How is the hot summer affecting the revival of the climate movement?",
+    "paywallQuestionTwo": "What role do large organizations play in the new green wave?",
+    "paywallQuestionThree": "Can the climate youth movement be mobilized again?",
+    "characterCount": 6472,
+    "teaserImage": {
+     "originalUrl": "/2026/08/28/50130ef5-8272-493a-be34-91d22e1f67c6.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/08/28/50130ef5-8272-493a-be34-91d22e1f67c6.jpg?width=1024&quality=75&auto=webp",
+     "width": 4032,
+     "height": 3024,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "4032,2268,x0,y323"
+      },
+      {
+       "name": "4:3",
+       "crop": "3665,2749,x176,y78"
+      },
+      {
+       "name": "1:1",
+       "crop": "3024,3024,x756,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "1704,2272,x739,y205"
+      },
+      {
+       "name": "3:2",
+       "crop": "3029,2020,x578,y444"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "Following the heatwave this summer, the climate alliance is organizing demonstrations across Switzerland. Is the climate youth movement also waking up again?",
+     "teaserAuthor": "René Donzé / NZZaS"
+    },
+    "teaserAuthor": "René Donzé / NZZaS",
+    "product": "NZZ.ch",
+    "documentId": "10021429",
+    "layout": "regular",
+    "publicationDate": "2026-08-30T03:30:00.000Z",
+    "publicationLastUpdated": "2026-08-30T03:30:00.000Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-08-30T15:30:00.000Z",
+    "teaserCaption": "Following the heatwave this summer, the climate alliance is organizing demonstrations across Switzerland. Is the climate youth movement also waking up again?",
+    "authorLine": "René Donzé",
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2024/06/01/6c663d20-ff0c-4c7b-b1e4-38c868796d13.jpeg?width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/schweiz/graswurzel-und-kampagnen-maschinerie-wie-die-klimabewegung-auf-eine-neue-gruene-welle-hofft-ld.10021429",
+    "department": {
+     "name": "Switzerland",
+     "path": "/schweiz"
+    },
+    "estimationWordCount": 987,
+    "leadText": "Following the heatwave this summer, the climate alliance is organizing demonstrations across Switzerland. Is the climate youth movement also waking up again?",
+    "nzzSummaryIsAuto": true,
+    "locale": "de-CH"
+   },
+   {
+    "title": "Look, we are doing enough: Rösti reacts to hot summer, vows support for forests and farmers",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "teaserImage": {
+     "originalUrl": "/2026/08/26/70c32f58-952b-4fe4-b198-7b72a4d1a0cf.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/08/26/70c32f58-952b-4fe4-b198-7b72a4d1a0cf.jpg?width=1024&quality=75&auto=webp",
+     "width": 7920,
+     "height": 5280,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "7920,4455,x0,y233"
+      },
+      {
+       "name": "4:3",
+       "crop": "7040,5279,x347,y1"
+      },
+      {
+       "name": "1:1",
+       "crop": "5280,5279,x1254,y1"
+      },
+      {
+       "name": "3:4",
+       "crop": "3960,5279,x1854,y1"
+      },
+      {
+       "name": "3:2",
+       "crop": "7920,5279,x0,y1"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "The environment minister is telling a press conference how much the federal government is doing for climate protection. The Left Party is hardly appeased by this.",
+     "teaserAuthor": "Anthony Anex / Keystone"
+    },
+    "teaserAuthor": "Anthony Anex / Keystone",
+    "nzzId": "ld.10021089",
+    "readingTime": 360,
+    "paywallQuestionOne": "How does Rösti react to criticism of climate protection measures?",
+    "paywallQuestionTwo": "What financial aid is the federal government planning for farmers and forests?",
+    "paywallQuestionThree": "Why does Rösti remain a target for the Greens and the Left?",
+    "characterCount": 8790,
+    "product": "NZZ.ch",
+    "documentId": "10021089",
+    "layout": "regular",
+    "publicationDate": "2026-08-26T17:47:16.160Z",
+    "publicationLastUpdated": "2026-08-27T08:22:40.606Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-08-27T05:47:16.160Z",
+    "teaserCaption": "The environment minister is telling a press conference how much the federal government is doing for climate protection. The Left Party is hardly appeased by this.",
+    "authorLine": "Renato Schatz, Matthias Venetz",
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2025/10/17/41ee53e2-acde-45fe-a9c5-8683e1a77750.jpg?width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/schweiz/seht-her-wir-machen-genug-roesti-reagiert-auf-den-hitzesommer-und-will-waelder-und-bauern-unterstuetzen-ld.10021089",
+    "department": {
+     "name": "Switzerland",
+     "path": "/schweiz"
+    },
+    "estimationWordCount": 1285,
+    "leadText": "The environment minister is telling a press conference how much the federal government is doing for climate protection. The Left Party is hardly appeased by this.",
+    "nzzSummaryIsAuto": true,
+    "locale": "de-CH"
+   },
+   {
+    "title": "Protection from heatwaves: Romandy shows how to save lives – German-speaking Switzerland should learn from it",
+    "showHeader": true,
+    "owner": "NZZaS",
+    "language": {
+     "locale": "de"
+    },
+    "teaserImage": {
+     "originalUrl": "/2026/08/12/59e7e1cb-1369-4e7c-ade1-28c0380fa52d.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/08/12/59e7e1cb-1369-4e7c-ade1-28c0380fa52d.jpg?width=1024&quality=75&auto=webp",
+     "width": 4896,
+     "height": 3264,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "4896,2754,x0,y272"
+      },
+      {
+       "name": "4:3",
+       "crop": "4352,3264,x0,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "3264,3264,x0,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "2448,3264,x590,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "4896,3264,x0,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "When temperatures rise to extreme levels, clear priorities are needed. Climate protection remains important. But it is now especially urgent to protect the elderly, the sick, and children from the heat.",
+     "teaserAuthor": "Karl-Josef Hildenbrand / DPA"
+    },
+    "teaserAuthor": "Karl-Josef Hildenbrand / DPA",
+    "flag": "Opinion",
+    "nzzasFootnote": true,
+    "nzzId": "ld.10019239",
+    "readingTime": 180,
+    "paywallQuestionOne": "How can German-speaking Switzerland learn from French-speaking Switzerland about heat protection?",
+    "paywallQuestionTwo": "What measures protect vulnerable groups from extreme heat?",
+    "paywallQuestionThree": "What role does Switzerland play in adapting to climate change?",
+    "characterCount": 4344,
+    "tags": [
+     "NZZaS - Leiter"
+    ],
+    "showComments": true,
+    "product": "NZZ.ch",
+    "documentId": "10019239",
+    "layout": "opinion",
+    "publicationDate": "2026-08-16T03:30:00.000Z",
+    "publicationLastUpdated": "2026-08-16T15:01:52.501Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-08-16T15:30:00.000Z",
+    "teaserCaption": "When temperatures rise to extreme levels, clear priorities are needed. Climate protection remains important. But it is now especially urgent to protect the elderly, the sick, and children from the heat.",
+    "authorLine": "Sven Titz",
+    "authorImage": {
+     "originalUrl": "/2024/08/15/42d4cdd4-6a81-4190-ba63-0baba74a0e50.jpeg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2024/08/15/42d4cdd4-6a81-4190-ba63-0baba74a0e50.jpeg?width=1024&quality=75&auto=webp",
+     "width": 4128,
+     "height": 2752,
+     "crops": [
+      {
+       "name": "1:1",
+       "crop": "2752,2752,x688,y0"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2024/08/15/42d4cdd4-6a81-4190-ba63-0baba74a0e50.jpeg?width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/nzz-am-sonntag/report-und-debatte/schutz-vor-hitzewellen-die-romandie-macht-vor-wie-man-leben-rettet-die-deutschschweiz-sollte-davon-lernen-ld.10019239",
+    "department": {
+     "name": "NZZ am Sonntag - Report and Debate",
+     "path": "/nzz-am-sonntag/report-und-debatte"
+    },
+    "estimationWordCount": 666,
+    "leadText": "When temperatures rise to extreme levels, clear priorities are needed. Climate protection remains important. But it is now especially urgent to protect the elderly, the sick, and children from the heat.",
+    "nzzSummaryIsAuto": true,
+    "commentsCount": 13,
+    "openToComment": false,
+    "locale": "de-CH"
+   },
+   {
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "flag": "interview",
+    "teaserImage": {
+     "originalUrl": "/2026/07/31/2f5c3d6f-299b-4ee7-8339-98a37cd46e1c.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/07/31/2f5c3d6f-299b-4ee7-8339-98a37cd46e1c.jpg?width=1024&quality=75&auto=webp",
+     "width": 4182,
+     "height": 6270,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "3142,1767,x726,y1212"
+      },
+      {
+       "name": "4:3",
+       "crop": "4182,3137,x0,y1214"
+      },
+      {
+       "name": "1:1",
+       "crop": "1333,1333,x1654,y1257"
+      },
+      {
+       "name": "3:4",
+       "crop": "3456,4608,x726,y1120"
+      },
+      {
+       "name": "3:2",
+       "crop": "2856,1904,x909,y1226"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "The German Minister for Economic Affairs considers the country's climate goals an «enormous challenge.» She calls for a fundamental reorientation of energy policy – ​​and addresses the rumors that her relationship with the Chancellor is strained.",
+     "teaserAuthor": "Andreas Pein / Laif"
+    },
+    "teaserAuthor": "Andreas Pein / Laif",
+    "title": "Katherina Reiche on Germany's nuclear phase-out: «That was a serious mistake»",
+    "nzzId": "ld.10015256",
+    "readingTime": 600,
+    "paywallQuestionOne": "Was Germany's nuclear phase-out a mistake for its energy supply?",
+    "paywallQuestionTwo": "How does Germany plan to make renewable energies more efficient and market-oriented?",
+    "paywallQuestionThree": "Can Germany realistically achieve the goal of climate neutrality by 2045?",
+    "characterCount": 13532,
+    "product": "NZZ.ch",
+    "documentId": "10015256",
+    "layout": "longformstandard",
+    "publicationDate": "2026-08-05T03:30:00.000Z",
+    "publicationLastUpdated": "2026-08-05T03:30:00.000Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-08-05T15:30:00.000Z",
+    "teaserCaption": "The German Minister for Economic Affairs considers the country's climate goals an «enormous challenge.» She calls for a fundamental reorientation of energy policy – ​​and addresses the rumors that her relationship with the Chancellor is strained.",
+    "authorLine": "Morten Freidel, Berlin, Jannik Belser, Berlin",
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2024/07/03/63d376f6-a08b-4ac9-81b6-cd047fd1c7d4.jpeg?crop=1170,1170,x833,y717&width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/wirtschaft/katherina-reiche-sagt-ueber-den-deutschen-atomausstieg-das-war-eine-schwere-fehlentscheidung-ld.10015256",
+    "department": {
+     "name": "Economy",
+     "path": "/wirtschaft"
+    },
+    "estimationWordCount": 1916,
+    "leadText": "The German Minister for Economic Affairs considers the country's climate goals an «enormous challenge.» She calls for a fundamental reorientation of energy policy – ​​and addresses the rumors that her relationship with the Chancellor is strained.",
+    "nzzSummaryIsAuto": true,
+    "locale": "de-CH"
+   }
+  ]
+ },
+ "digitalData": {
+  "component": [
+   {
+    "id": "ld.1924371",
+    "name": "Global coal consumption is at a record high. Europe's focus on reducing its own CO2 emissions has failed.",
+    "type": "article",
+    "subType1": "longformstandard",
+    "subType2": "",
+    "primaryCategory": "Wirtschaft",
+    "subCategory1": "",
+    "attributes": {
+     "headline": "Global coal consumption is at a record high. Europe's focus on reducing its own CO2 emissions has failed.",
+     "firstPublishTitle": "",
+     "catchline": "",
+     "authors": [
+      {
+       "id": 1373477,
+       "name": "Michael Rasch",
+       "shortName": "ra",
+       "pianoId": "ce2dd2de-815b-460d-9a30-2822967d7ee5",
+       "external": false
+      }
+     ],
+     "issueTimestamp": "2026-03-02T04:30:00.000Z",
+     "updateTimestamp": "2026-03-02T04:30:00.000Z",
+     "isSponsoredContent": false,
+     "isPro": false,
+     "isLiveticker": false,
+     "flag": "",
+     "owner": "NZZ"
+    }
+   }
+  ],
+  "page": {
+   "pageId": "ld.1924371",
+   "pageType": "longformstandard",
+   "primaryCategory": "Wirtschaft",
+   "subCategory1": "",
+   "subCategory2": "",
+   "language": "en-US"
+  },
+  "version": "2.0",
+  "user": {},
+  "event": []
+ },
+ "seoData": {
+  "title": "Coal consumption at a record high: How Europe's climate policy is failing",
+  "image": {
+   "url": "https://img-msp-prod.nzz.ch/2026/02/23/e7add857-cb61-48d4-bfba-feedd2775d49.jpg?width=1200&height=675&fit=bounds&quality=75&auto=webp&crop=5472,3078,x0,y285&wmark=nzz",
+   "type": "image/jpeg",
+   "width": 1200,
+   "height": 675
+  },
+  "author": "Michael Rasch",
+  "description": "Unilateral commitments have proven ineffective in the fight against climate change. Economist Axel Ockenfels explains why selfishness is more promising than altruism.",
+  "news_keywords": "Global coal consumption is at a record high. Europe's focus on reducing its own CO2 emissions has failed. (Economy, News, NZZ)",
+  "type": "article",
+  "last-modified": "2026-03-02T07:30:00+02:00",
+  "date": "2026-03-02T07:30:00+02:00",
+  "canonical": "https://www.nzz.ch/wirtschaft/der-globale-kohleverbrauch-ist-auf-einem-rekordhoch-der-europaeische-fokus-auf-die-reduktion-des-eigenen-co2-ausstosses-hat-versagt-ld.1924371",
+  "fb:app_id": 138008459595436,
+  "fb:pages": 143694099006529,
+  "fb:admins": 1592685173,
+  "locale": "de-CH",
+  "email": "online.redaktion@nzz.ch",
+  "site_name": "Neue Zürcher Zeitung",
+  "copyright": "2026 Neue Zürcher Zeitung AG, Schweiz",
+  "robots": "noindex, nofollow, noarchive, noodp",
+  "hreflang": [],
+  "sharedTitle": "Global coal consumption is at a record high. Europe's focus on reducing its own CO2 emissions has failed.",
+  "ogTitle": "Coal consumption at a record high: How Europe's climate policy is failing",
+  "ogUrl": "https://www.nzz.ch/wirtschaft/der-globale-kohleverbrauch-ist-auf-einem-rekordhoch-der-europaeische-fokus-auf-die-reduktion-des-eigenen-co2-ausstosses-hat-versagt-ld.1924371",
+  "mrf:cms_id": "nzz:ld.1924371",
+  "mrf:sections": "Wirtschaft;Wirtschaft & Finanzen",
+  "mrf:tags": "Page Type:longformstandard;Editorial Owner:NZZ;Content Type:Standard Article;Article ID:ld.1924371",
+  "nzzAuthors": [
+   {
+    "id": 1373477,
+    "name": "Michael Rasch",
+    "shortName": "ra",
+    "pianoId": "ce2dd2de-815b-460d-9a30-2822967d7ee5",
+    "external": false
+   }
+  ],
+  "links": [
+   {
+    "rel": "canonical",
+    "href": "https://www.nzz.ch/wirtschaft/der-globale-kohleverbrauch-ist-auf-einem-rekordhoch-der-europaeische-fokus-auf-die-reduktion-des-eigenen-co2-ausstosses-hat-versagt-ld.1924371"
+   },
+   {
+    "rel": "search",
+    "href": "/suche",
+    "title": "Suche Neue Zürcher Zeitung, Schweiz, https://www.nzz.ch/suche"
+   }
+  ],
+  "renderedAt": "Thu, 03 Sep 2026 10:02:31 GMT"
+ },
+ "structuredData": [
+  {
+   "@context": "https://schema.org",
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "item": {
+      "@id": "/",
+      "name": "Home"
+     }
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "item": {
+      "@id": "/wirtschaft",
+      "name": "Economy"
+     }
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Coal consumption at a record high: How Europe's climate policy is failing"
+    }
+   ]
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": "NewsArticle",
+   "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.nzz.ch/wirtschaft/der-globale-kohleverbrauch-ist-auf-einem-rekordhoch-der-europaeische-fokus-auf-die-reduktion-des-eigenen-co2-ausstosses-hat-versagt-ld.1924371"
+   },
+   "headline": "Coal consumption at a record high: How Europe's climate policy is failing",
+   "datePublished": "2026-03-02T07:30:00+02:00",
+   "dateModified": "2026-03-02T07:30:00+02:00",
+   "publisher": {
+    "@type": "NewsMediaOrganization",
+    "name": "Neue Zürcher Zeitung",
+    "url": "https://www.nzz.ch",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://www.nzz.ch/logo.png",
+     "width": 413,
+     "height": 60
+    },
+    "contactPoint": [
+     {
+      "@type": "ContactPoint",
+      "telephone": "+41-44-2581000",
+      "contactType": "customer service"
+     }
+    ],
+    "sameAs": [
+     "https://www.facebook.com/nzz",
+     "https://www.twitter.com/nzz",
+     "https://www.youtube.com/channel/UCK1aTcR0AckQRLTlK0c4fuQ",
+     "https://www.linkedin.com/company/neue-zurcher-zeitung",
+     "https://www.instagram.com/nzz/",
+     "https://de.wikipedia.org/wiki/Neue_Z%C3%BCrcher_Zeitung",
+     "https://www.wikidata.org/wiki/Q658945",
+     "https://plus.google.com/+nzz/",
+     "http://www.freebase.com/m/041b43"
+    ],
+    "masthead": "https://www.nzz.ch/impressum/impressum-ld.148422",
+    "foundingDate": "1780"
+   },
+   "description": "Unilateral commitments have proven ineffective in the fight against climate change. Economist Axel Ockenfels explains why selfishness is more promising than altruism.",
+   "isAccessibleForFree": false,
+   "articleSection": "Wirtschaft",
+   "hasPart": {
+    "@type": "WebPageElement",
+    "isAccessibleForFree": false,
+    "cssSelector": ".nzzinteraction"
+   },
+   "image": {
+    "@type": "ImageObject",
+    "url": "https://img-msp-prod.nzz.ch/2026/02/23/e7add857-cb61-48d4-bfba-feedd2775d49.jpg?width=1200&height=675&fit=bounds&quality=75&auto=webp&crop=5472,3078,x0,y285&wmark=nzz",
+    "width": 1200,
+    "height": 675
+   },
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Michael Rasch"
+    }
+   ],
+   "inLanguage": "de"
+  }
+ ],
+ "mp3": true,
+ "mp3Duration": 672504,
+ "bT": {
+  "standard": {
+   "Tags": [
+    "/wirtschaft/der-globale-kohleverbrauch-ist-auf-einem-rekordhoch-der-europaeische-fokus-auf-die-reduktion-des-eigenen-co2-ausstosses-hat-versagt-ld.1924371",
+    "classification=default",
+    "relevance=germany",
+    "layout=longformstandard",
+    "owner=nzz",
+    "product=nzz",
+    "doctype=article",
+    "pagetype=article",
+    "ldid=ld.1924371",
+    "channel=Wirtschaft"
+   ],
+   "ContentCreated": "2026-03-02T04:30:00.000Z",
+   "ContentAuthor": "Michael Rasch",
+   "ContentSection": "Wirtschaft",
+   "ContentIsNative": true
+  },
+  "custom": {
+   "product": "nzz",
+   "docType": "article",
+   "pageType": "article",
+   "layout": "longformstandard",
+   "ldId": "ld.1924371",
+   "channel": "Wirtschaft",
+   "heading": "Der globale Kohleverbrauch ist auf einem Rekordhoch. Der europäische Fokus auf die Reduktion des eigenen CO2-Ausstosses hat versagt",
+   "language": "en-US"
+  }
+ },
+ "webviewMetadata": {},
+ "cacheTime": 3600
+}

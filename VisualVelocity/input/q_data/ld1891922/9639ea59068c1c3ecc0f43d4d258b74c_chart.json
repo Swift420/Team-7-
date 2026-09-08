@@ -1,0 +1,97 @@
+{
+  "_id": "9639ea59068c1c3ecc0f43d4d258b74c",
+  "_rev": "5-1bad01bb7f25d38ba5417cfb5f20e895",
+  "data": [
+    [
+      "Ansicht",
+      "Positive Sicht",
+      "Negative Sicht"
+    ],
+    [
+      "Demokraten",
+      "13",
+      "85"
+    ],
+    [
+      "Parteilose",
+      "27",
+      "71"
+    ],
+    [
+      "Republikaner",
+      "61",
+      "36"
+    ]
+  ],
+  "tool": "chart",
+  "notes": "Die Resultate sind mit einer Fehlermarge von ± 6 Prozentpunkten behaftet.",
+  "title": "Vor allem Demokraten und Parteilose kritisieren die Reform",
+  "active": true,
+  "events": [],
+  "acronym": "lma.",
+  "options": {
+    "chartType": "StackedBar",
+    "barOptions": {
+      "isBarChart": false,
+      "forceBarsOnSmall": false
+    },
+    "annotations": {
+      "valuesOnBars": true
+    },
+    "arrowOptions": {
+      "colorScheme": 0,
+      "invertColorScheme": false
+    },
+    "largeNumbers": {
+      "divideBy": 0
+    },
+    "hideAxisLabel": true,
+    "dotplotOptions": {},
+    "areaChartOptions": {
+      "stackType": "zero",
+      "areaInterpolation": "linear"
+    },
+    "lineChartOptions": {
+      "yScaleType": "linear",
+      "isStockChart": false,
+      "reverseYScale": false,
+      "lineInterpolation": "linear"
+    },
+    "dateSeriesOptions": {
+      "labels": "many",
+      "interval": "auto",
+      "prognosisStart": null
+    },
+    "highlightDataRows": [],
+    "colorOverwritesRows": [],
+    "highlightDataSeries": [],
+    "colorOverwritesSeries": [
+      {
+        "color": "#374e8e",
+        "position": 1,
+        "colorLight": ""
+      },
+      {
+        "color": "#ce4631",
+        "position": 2,
+        "colorLight": ""
+      }
+    ]
+  },
+  "sources": [
+    {
+      "link": {
+        "url": "https://www.kff.org/medicaid/poll-finding/kff-health-tracking-poll-views-of-the-one-big-beautiful-bill/KFF"
+      },
+      "text": "KFF"
+    }
+  ],
+  "subtitle": "",
+  "createdBy": "marie-astrid.langer@nzz.ch",
+  "updatedBy": "eike.hoppmann@nzz.ch",
+  "department": "International",
+  "createdDate": "2025-07-03T20:59:46.666Z",
+  "publication": "nzz",
+  "updatedDate": "2025-07-04T05:41:49.336Z",
+  "allowDownloadData": false
+}

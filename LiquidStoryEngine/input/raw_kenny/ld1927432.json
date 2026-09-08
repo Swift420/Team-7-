@@ -1,0 +1,2249 @@
+{
+ "content": [
+  {
+   "identifier": "header",
+   "id": "doc-1jipe2t0g0",
+   "content": {
+    "title": "An evening in Berlin's most dangerous park: Dealers whisper, «Do you want marijuana?»",
+    "lead": "Since March, Görlitzer Park in Kreuzberg has been closed off at night. Politicians hope this will make the park safer, but some residents are resisting.",
+    "author": ""
+   },
+   "containers": {
+    "authors": [
+     {
+      "identifier": "author-teaser",
+      "id": "doc-QYT892aUPv",
+      "content": {
+       "layout": "authorprofile",
+       "title": "Kathrin Klette, Berlin",
+       "url": "/impressum/kathrin-klette-ld.1287957",
+       "teaserImage": {
+        "url": "https://img-msp-prod.nzz.ch/2024/05/28/b7ef6806-042f-4485-9571-18ecbb170a84.png?width=1024&quality=75&auto=webp",
+        "originalUrl": "/2024/05/28/b7ef6806-042f-4485-9571-18ecbb170a84.png?width=1024",
+        "imageService": "fastly",
+        "width": 200,
+        "height": 200
+       }
+      }
+     }
+    ]
+   },
+   "prevElement": "",
+   "nextElement": "image",
+   "firstContentElement": true
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1jl79vnv00",
+   "content": {
+    "image": {
+     "author": "Maryam Majd / Getty",
+     "caption": "On the evening of March 1st, local residents protested against the nightly closure of Görlitzer Park.",
+     "originalUrl": "/2026/04/02/c7d4a36c-6cb7-4abd-91f0-f68853433be2.jpg?width=1024",
+     "width": 5899,
+     "height": 3932,
+     "altText": "BERLIN, GERMANY - MARCH 01: A demonstrator wearing a large animal puppet costume holds a sign during a demonstration against the nightly closings of Goerlitzer Park on March 01, 2026 in Berlin, Germany. Starting today city authorities are enforcing the closing of the park to visitors at night in an effort to reduce crime. Goerlitzer Park has long been known as a hotspot for illicit narcotics sales. (Photo by Maryam Majd/Getty Images)",
+     "origins": [
+      {
+       "name": "Hugo",
+       "identifier": "2177663097"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "caption": "On the evening of March 1st, local residents protested against the nightly closure of Görlitzer Park.",
+    "author": "Maryam Majd / Getty"
+   },
+   "styles": {
+    "fullwidth-widget": "widget--containerwidth"
+   },
+   "prevElement": "header",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jju224s20",
+   "content": {
+    "text": "Görlitzer Park in Berlin-Kreuzberg is considered one of the most dangerous in Germany, but on this late Monday evening in March, it initially appears calm and peaceful. Cyclists and pedestrians crisscross the park. A man walks his dog, which wears a neon green collar. Soccer players train on a brightly lit sports field. It's a crisp evening. Only occasionally is there a faint whiff of cannabis in the air."
+   },
+   "data": {},
+   "prevElement": "image",
+   "nextElement": "barrier"
+  },
+  {
+   "id": "doc-ea900257",
+   "identifier": "barrier",
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jkl6m6vb0",
+   "content": {
+    "text": "The dealers, however, are everywhere. They wear down jackets and baseball caps with the Louis Vuitton logo; they stand at the park entrances, lean against walls, or squat on huge rocks. «Hello. Everything alright?» they ask. «Do you want marijuana?» They are young men from Africa, and they also sell crack."
+   },
+   "paidContent": true,
+   "prevElement": "barrier",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jkl76pec0",
+   "content": {
+    "text": "The residents don't seem to mind. They simply walk by. Some of them have gathered in the park this evening. They want their beloved «Görli» to remain open to everyone, especially at night."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jk0paqlg1",
+   "content": {
+    "text": "Most are young, wearing black jeans and black hoodies. Some have pulled their hoods up. Grilled cheese sizzles over a fire, beer bottles clink together."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1jl585q6u0",
+   "content": {
+    "title": "«Pig cops, get out of Görli!»",
+    "id": "subtitle-bullenschweine-raus-aus-dem-g-rli"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jj9fi5ok1",
+   "content": {
+    "text": "Since the beginning of March, a security service has been locking all entrances to the park at 10 p.m., as was the case today; in the summer, the locks will be at 11 p.m. The aim of this measure is to curb drug dealing and crime in the park. In February, Senator Ute Bonde of the CDU party used drastic language to describe the measure. She said the park was no longer a place of recreation for «large segments of the population.» From now on, it will no longer be possible to enter the park at night; however, exiting through the turnstiles will always be permitted."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jju5tsuv1",
+   "content": {
+    "text": "A few police officers walk past the demonstrators, shining their flashlights into the bushes. A beam of light flashes briefly, then disappears again. Then they position themselves at a safe distance from the young people. One of the officers shines his flashlight on the group. The people cheer, a man raises his arms. «Pig cops, get out of Görlitzer Park!» someone shouts, and the others join in. Someone throws a bottle at the police, which shatters on the asphalt path. In the darkness, it's impossible to see who threw it. The officers don't move."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jipsd2cq0",
+   "content": {
+    "text": "A heated debate is raging over Görlitzer Park, affectionately known as «Görli» in Kreuzberg. Residents and activists have been protesting ever since the decision was made three years ago to close the park at night. A key argument is that the measure will only drive more drug dealers, addicts, and homeless people into the neighborhood. Several initiatives have formed, including «Görli 24/7,» «Rave against the Zaun,» and «Görli zaunfrei» (Görli Fence-Free). They consider the measure purely symbolic, if not an outright expression of authoritarian arbitrariness. Many don't believe the park is as dangerous as politicians claim. Are they right?"
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "image"
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1jl79t4m71",
+   "content": {
+    "image": {
+     "author": "Emmanuele Contini / Imago",
+     "caption": "Görlitzer Park in October 2024. No other green space in Berlin sees as many crimes committed as this one.",
+     "originalUrl": "/2026/04/02/cb041bb6-e3e4-4a84-b3af-b21e3ffbe142.jpg?width=1024",
+     "width": 5200,
+     "height": 3467,
+     "altText": "Görlitzer Park late at night in Berlin on October 30, 2024. Görlitzer Park *** Görlitzer Park late at night in Berlin on October 30, 2024 Görlitzer Park",
+     "origins": [
+      {
+       "name": "Hugo",
+       "identifier": "2177431693"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "caption": "Görlitzer Park in October 2024. No other green space in Berlin sees as many crimes committed as this one.",
+    "author": "Emmanuele Contini / Imago"
+   },
+   "styles": {
+    "fullwidth-widget": "widget--containerwidth"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1jis4a6tp0",
+   "content": {
+    "title": "In Kreuzberg, the heart beats left-green",
+    "id": "subtitle-in-kreuzberg-schl-gt-das-herz-links-gr-n"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "image",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jis5tdmr0",
+   "content": {
+    "text": "The area around Görlitzer Park is one of the most vibrant parts of Kreuzberg. Many buildings date back to the Gründerzeit (late 19th-century boom period); their richly decorated stucco windows still bear witness to the heavy elegance of the German Empire. Today, nothing of that remains."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jjuji52f0",
+   "content": {
+    "text": "This district is the heart of a left-leaning, green lifestyle; the Green Party has held the mayor's office for 20 years. Restaurant menus feature vegan bento boxes, falafel, and spinach smoothies. Here, no one has to explain themselves if they receive welfare or wear shabby trousers. The Social Democratic Party (SPD) advertises «Housing without rip-offs» on posters, and the mosque on Falckensteinstrasse wishes everyone a blessed Ramadan. Walls and doors are covered in graffiti, and old clothes and a sink lie scattered beside the park."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jishhrfc0",
+   "content": {
+    "text": "In the late 1980s, local residents successfully campaigned to have the derelict site of the former Görlitz train station transformed into a park. Now it features playgrounds, barbecue areas, and a children's farm. But it also suffers from drug problems, neglect, and violence."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "q-embed"
+  },
+  {
+   "identifier": "q-embed",
+   "id": "doc-1jja50p6p0",
+   "content": {
+    "q-embed": {
+     "service": "q-tool",
+     "params": {
+      "id": "29e6c092df6c9cfb83e383a1b043a0d2",
+      "conf": {},
+      "toolConfig": {},
+      "toolRuntimeConfig": {
+       "size": {
+        "width": [
+         {
+          "value": 100,
+          "comparison": ">"
+         }
+        ]
+       },
+       "displayOptions": {
+        "hideTitle": false,
+        "hideSubtitle": false,
+        "hideFooter": false,
+        "hideAcronym": false
+       },
+       "locale": "en_US"
+      },
+      "size": "content"
+     },
+     "resolvedValue": {}
+    },
+    "html": "      <div        class=\"q-locator_map-container\"        id=\"q_locator_map_29e6c092df6c9cfb83e383a1b043a0d2_qef03c9e089e94edeba9cdfe2721dcd7c_container\"        data-q-item-id=\"29e6c092df6c9cfb83e383a1b043a0d2\"        data-q-request-id=\"0f8b4798bd056b4c7648a12527004d3e95cbf06d\"      ></div>",
+    "stylesheets": [
+     {
+      "type": "remote",
+      "content": "https://service.sophie.nzz.ch/bundle/sophie-color%23master,sophie-font%23master,sophie-legend%23master[icon-label],sophie-q%23master,sophie-viz-color%23master[general].css"
+     },
+     {
+      "type": "inline",
+      "content": "  @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff) format(\"woff\");  }    @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff) format(\"woff\");    unicode-range: U+0020-00FF,U+2005,U+2082;  }      "
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/css-theme-layer/nzz-0.2.0.css"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/locatorMap/q-locatorMap-1.1.12.css"
+     }
+    ],
+    "scripts": [
+     {
+      "type": "inline",
+      "content": "function qTrackingBootstrap(t,e,n){if(window.digitalData&&window.digitalData.component&&window.digitalData.component.push){window.digitalData.component.push(t),window.digitalData.event&&window.digitalData.event.length||(window.digitalData.event=[]);var i=new Date,a=e;a.eventInfo.timeStamp=i.toISOString(),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\");var o=document.querySelectorAll(\"[data-q-request-id='\"+n+\"']\");[].forEach.call(o,function(t){t.addEventListener(\"q-tracking-event\",function(t){var e=new Date;(a=JSON.parse(JSON.stringify(a))).eventInfo.timeStamp=e.toISOString(),a.eventInfo=Object.assign(a.eventInfo,t.detail.eventInfo),a.category=Object.assign(a.category,t.detail.category),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\")},!1)})}};qTrackingBootstrap({\"componentInfo\":{\"componentName\":\"Q\",\"componentID\":\"29e6c092df6c9cfb83e383a1b043a0d2\"},\"category\":{\"componentType\":\"storytelling\",\"componentSubType1\":\"Q graphic\",\"componentSubType2\":\"locator_map\"}},{\"eventInfo\":{\"eventName\":\"Storytelling Interaction\",\"eventAction\":\"load\",\"type\":\"story\",\"componentName\":\"Q\",\"eventNonInteractive\":true,\"componentID\":\"29e6c092df6c9cfb83e383a1b043a0d2\"},\"category\":{\"primaryCategory\":\"storytelling\",\"subCategory1\":\"Q graphic\",\"subCategory2\":\"locator_map\"}},\"0f8b4798bd056b4c7648a12527004d3e95cbf06d\")"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/locatorMap/q-locatorMap-1.1.12.js"
+     },
+     {
+      "type": "inline",
+      "content": "      (function () {        function initialize() {          const target = document.querySelector('#q_locator_map_29e6c092df6c9cfb83e383a1b043a0d2_qef03c9e089e94edeba9cdfe2721dcd7c_container');          if (!target) return;          target.innerHTML = '';          const qdoc = {\"_id\":\"29e6c092df6c9cfb83e383a1b043a0d2\",\"title\":\"Görlitzer Park in Berlin\",\"subtitle\":\"\",\"publication\":\"nzz\",\"acronym\":\"kkl.\",\"sources\":[],\"geojsonList\":[{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[13.437625969622843,52.49650417320433]},\"id\":\"custom-layer-h6Gs1XTesAK2Tz-61P_vk\",\"properties\":{\"label\":\"Görlitzer Park\",\"type\":\"point\",\"labelPosition\":\"top\",\"index\":0}},{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[13.427855000043166,52.499252847857036]},\"id\":\"custom-layer-KDiLwJrWR5h3H-0zX-mIK\",\"properties\":{\"label\":\"Görlitz Station\",\"type\":\"train\",\"labelPosition\":\"top\",\"index\":0}},{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[13.441475545474873,52.5008352152465]},\"id\":\"custom-layer-kxJtMLVUFUFKaCh2xVqQh\",\"properties\":{\"label\":\"Silesian Gate\",\"type\":\"train\",\"labelPosition\":\"top\",\"index\":0}},{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[13.441616857401243,52.498450805891366]},\"id\":\"custom-layer-zxNHtm1VpLO8bgDY36oG3\",\"properties\":{\"label\":\"Wrangelkiez\",\"type\":\"label\",\"labelPosition\":\"top\",\"index\":0}},{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[13.445258538157077,52.49478411017802]},\"id\":\"custom-layer-uZd1ucB9q1MSZfKmt3g1G\",\"properties\":{\"label\":\"Landwehr Canal\",\"type\":\"water\",\"labelPosition\":\"top\",\"index\":0}}],\"options\":{\"baseLayer\":{\"layers\":{\"label\":true},\"style\":\"basic\"},\"dimension\":{\"useDefaultAspectRatio\":true,\"bbox\":[13.431386562096606,52.492271054309555,13.448790100209777,52.50286624287341]},\"highlightRegion\":[],\"initialZoomLevel\":-1,\"labelsBelowMap\":false,\"labelsBelowMapOneRow\":false,\"minimap\":{\"showMinimap\":true,\"options\":{\"type\":\"region\",\"position\":\"bottom-left\",\"region\":{\"id\":\"Q64\"}}},\"scale\":{\"options\":{\"position\":\"bottom-left\"}},\"showLegend\":false},\"updatedDate\":\"2026-03-11T14:20:42.525Z\"};          const toolRuntimeConfig = {\"displayOptions\":{\"hideTitle\":false,\"hideSubtitle\":false,\"hideFooter\":false,\"hideAcronym\":false},\"size\":{\"width\":[{\"value\":100,\"comparison\":\">\"}]},\"locale\":\"en-US\"};          const toolSettings = {\"qItemInstanceId\":\"q_locator_map_29e6c092df6c9cfb83e383a1b043a0d2_qef03c9e089e94edeba9cdfe2721dcd7c\",\"fontBaseUrl\":\"https://qv1-server.nzz.ch/files/locator_map/fonts/\",\"toolBaseUrl\":\"https://q-server.nzz.ch/locator_map\",\"apiKey\":\"UUOJDlqQTsVSgwOM1KVX\"};          let attempts = 0;          const maxAttempts = 100;          const checkAndInitialize = setInterval(() => {            if (window.qLocatorMap) {              clearInterval(checkAndInitialize);              new window.qLocatorMap({ target: target, props: {                qdoc: qdoc,                toolSettings: toolSettings,                toolRuntimeConfig: toolRuntimeConfig              } });            } else {              attempts++;              if (attempts >= maxAttempts) {                clearInterval(checkAndInitialize);                console.error('Failed to initialize qLocatorMap after 30 seconds');              }            }          }, 300);        }        if (document.body.classList.contains('pagedone')) {          initialize();        } else {          window.addEventListener('pagedone', initialize);        }      })();    "
+     }
+    ]
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jkl8hgne0",
+   "content": {
+    "text": "A few days after the protests, a young man with light blond hair stands in front of an Indian restaurant near the park one evening. His face is covered in red blotches and wounds. He speaks energetically at the chalkboard listing the daily specials. Then he walks away. On a street corner, a man smokes crack. The pipe glows in the darkness. The dealer who sold him the drug burns a paper bag next to a tree a little later. In the park, a group of men stagger past, beer bottles in hand; several addicts squeeze into a toilet block and lock the door. A confused, thin man stumbles alone along the sidewalk."
+   },
+   "paidContent": true,
+   "prevElement": "q-embed",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jk0a7llc1",
+   "content": {
+    "text": "A local resident recounts how drug addicts repeatedly shoot up between parked cars or sleep off their intoxication on the roadside. Homeless people sleep in doorways and relieve themselves there. Cars and basements are broken into, and syringes are thrown into bushes or next to playgrounds."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1jl6nvrjm0",
+   "content": {
+    "title": "Crack leads to rapid impoverishment",
+    "id": "subtitle-crack-f-hrt-zu-schneller-verelendung"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jk37js041",
+   "content": {
+    "text": "For about three years, <a data-li-document-ref=\"1919846\" href=\"https://www.nzz.ch/es-ist-daemonisch-wie-crack-das-gesicht-deutscher-staedte-veraendert-ld.1919846\">crack</a> cocaine, cooked with sodium bicarbonate, has flooded Berlin. It's a highly addictive drug that leads to rapid destitution. Since then, the situation has become particularly dire around Görlitzer Park. Not everyone can bear the misery. Some residents, especially those with children, have moved away."
+   },
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "q-embed"
+  },
+  {
+   "identifier": "q-embed",
+   "id": "doc-1jjek4nqp0",
+   "content": {
+    "q-embed": {
+     "service": "q-tool",
+     "params": {
+      "id": "e182b63b2bd9fc0fd8e9cb783bbced54",
+      "conf": {},
+      "toolConfig": {},
+      "toolRuntimeConfig": {
+       "size": {
+        "width": [
+         {
+          "value": 100,
+          "comparison": ">"
+         }
+        ]
+       },
+       "displayOptions": {
+        "hideTitle": false,
+        "hideSubtitle": false,
+        "hideFooter": false,
+        "hideAcronym": false,
+        "size": "basic"
+       },
+       "locale": "en_US"
+      },
+      "size": "content"
+     },
+     "resolvedValue": {}
+    },
+    "html": "      <div        class=\"q-chart-container\"        id=\"q_chart_e182b63b2bd9fc0fd8e9cb783bbced54_q15db6ed452304ed9987e9d3a61298754_container\"        data-q-item-id=\"e182b63b2bd9fc0fd8e9cb783bbced54\"        data-q-request-id=\"6df8e24ed77180d10e48fac833300b00fe12f81d\"      ></div>",
+    "stylesheets": [
+     {
+      "type": "remote",
+      "content": "https://service.sophie.nzz.ch/bundle/sophie-color%23master,sophie-font%23master,sophie-legend%23master[icon-label],sophie-q%23master,sophie-viz-color%23master[general].css"
+     },
+     {
+      "type": "inline",
+      "content": "  @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff) format(\"woff\");  }    @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff) format(\"woff\");    unicode-range: U+0020-00FF,U+2005,U+2082;  }      "
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/css-theme-layer/nzz-0.2.0.css"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/chart/q-chart-1.2.6.css"
+     }
+    ],
+    "scripts": [
+     {
+      "type": "inline",
+      "content": "function qTrackingBootstrap(t,e,n){if(window.digitalData&&window.digitalData.component&&window.digitalData.component.push){window.digitalData.component.push(t),window.digitalData.event&&window.digitalData.event.length||(window.digitalData.event=[]);var i=new Date,a=e;a.eventInfo.timeStamp=i.toISOString(),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\");var o=document.querySelectorAll(\"[data-q-request-id='\"+n+\"']\");[].forEach.call(o,function(t){t.addEventListener(\"q-tracking-event\",function(t){var e=new Date;(a=JSON.parse(JSON.stringify(a))).eventInfo.timeStamp=e.toISOString(),a.eventInfo=Object.assign(a.eventInfo,t.detail.eventInfo),a.category=Object.assign(a.category,t.detail.category),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\")},!1)})}};qTrackingBootstrap({\"componentInfo\":{\"componentName\":\"Q\",\"componentID\":\"e182b63b2bd9fc0fd8e9cb783bbced54\"},\"category\":{\"componentType\":\"storytelling\",\"componentSubType1\":\"Q graphic\",\"componentSubType2\":\"chart\"}},{\"eventInfo\":{\"eventName\":\"Storytelling Interaction\",\"eventAction\":\"load\",\"type\":\"story\",\"componentName\":\"Q\",\"eventNonInteractive\":true,\"componentID\":\"e182b63b2bd9fc0fd8e9cb783bbced54\"},\"category\":{\"primaryCategory\":\"storytelling\",\"subCategory1\":\"Q graphic\",\"subCategory2\":\"chart\"}},\"6df8e24ed77180d10e48fac833300b00fe12f81d\")"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/chart/q-chart-1.2.6.js"
+     },
+     {
+      "type": "inline",
+      "content": "      (function () {        function initialize() {          const target = document.querySelector('#q_chart_e182b63b2bd9fc0fd8e9cb783bbced54_q15db6ed452304ed9987e9d3a61298754_container');          if (!target) return;          target.innerHTML = '';          const qdoc = {\"_id\":\"e182b63b2bd9fc0fd8e9cb783bbced54\",\"allowDownloadData\":false,\"title\":\"Drug deaths in Berlin are on the rise\",\"subtitle\":\"Drug deaths per year\",\"publication\":\"nzz\",\"acronym\":\"lsa.\",\"data\":[[null,null],[\"2019\",\"215\"],[\"2020\",\"216\"],[\"2021\",\"223\"],[\"2022\",\"230\"],[\"2023\",\"271\"],[\"2024\",\"294\"]],\"sources\":[{\"text\":\"Federal Situation Reports on Drug Crime from the Federal Criminal Police Office\",\"link\":{\"url\":\"https://www.bka.de/DE/AktuelleInformationen/StatistikenLagebilder/Lagebilder/Rauschgiftkriminalitaet/rauschgiftkriminalitaet_node.html\"}}],\"events\":[],\"options\":{\"annotations\":{\"valuesOnBars\":true},\"areaChartOptions\":{\"areaInterpolation\":\"linear\",\"stackType\":\"zero\"},\"arrowOptions\":{\"colorScheme\":0,\"invertColorScheme\":false},\"barOptions\":{\"isBarChart\":true,\"forceBarsOnSmall\":true},\"chartType\":\"Bar\",\"colorOverwritesRows\":[],\"colorOverwritesSeries\":[],\"dateSeriesOptions\":{\"interval\":\"auto\",\"labels\":\"many\",\"prognosisStart\":null},\"dotplotOptions\":{},\"hideAxisLabel\":true,\"highlightDataRows\":[5],\"highlightDataSeries\":[0],\"lineChartOptions\":{\"yScaleType\":\"linear\",\"reverseYScale\":false,\"lineInterpolation\":\"linear\",\"isStockChart\":false,\"minValue\":200},\"largeNumbers\":{\"divideBy\":0}},\"updatedDate\":\"2026-01-27T13:11:07.251Z\"};          const toolRuntimeConfig = {\"displayOptions\":{\"hideTitle\":false,\"hideSubtitle\":false,\"hideFooter\":false,\"hideAcronym\":false,\"size\":\"basic\"},\"size\":{\"width\":[{\"value\":100,\"comparison\":\">\"}]},\"locale\":\"en-US\"};          const toolSettings = {\"qItemInstanceId\":\"q_chart_e182b63b2bd9fc0fd8e9cb783bbced54_q15db6ed452304ed9987e9d3a61298754\"};          let attempts = 0;          const maxAttempts = 100;          const checkAndInitialize = setInterval(() => {            if (window.qChart) {              clearInterval(checkAndInitialize);              new window.qChart({ target: target, props: {                qdoc: qdoc,                toolSettings: toolSettings,                toolRuntimeConfig: toolRuntimeConfig              } });            } else {              attempts++;              if (attempts >= maxAttempts) {                clearInterval(checkAndInitialize);                console.error('Failed to initialize qChart after 30 seconds');              }            }          }, 300);        }        if (document.body.classList.contains('pagedone')) {          initialize();        } else {          window.addEventListener('pagedone', initialize);        }      })();    "
+     }
+    ]
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jipvkh0t1",
+   "content": {
+    "text": "According to police crime statistics, in 2025 there were 550 assaults, 139 robberies, and 10 rapes or sexual assaults in the park and surrounding neighborhood. No other park in Berlin has such a high crime rate. Most of these incidents don't happen at night, but in broad daylight."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "q-embed",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jivlsrok1",
+   "content": {
+    "text": "In the summer of 2023, a particularly horrific case shocked the city. Several men allegedly raped a woman in the park in front of her partner early one morning in June. The incident was reported by media outlets nationwide."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jl22mrif1",
+   "content": {
+    "text": "Berlin's Governing Mayor Kai Wegner subsequently convened a so-called security summit, at which the nighttime closure of the park was proposed. The Senate then implemented the plans despite resistance from the district."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jl22mvmk0",
+   "content": {
+    "text": "Today, doubts exist as to whether the rape actually occurred as described. A video suggests that the sex may have been consensual; the court proceedings have been suspended. However, the politicians stuck to their plan: now, sixteen steel gates and eight turnstiles block the park entrances in the darkness, and sections of fencing fill the gaps."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "image"
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1jl7a18fv1",
+   "content": {
+    "image": {
+     "author": "Maryam Majd / Getty",
+     "caption": "Many Kreuzberg residents believe that closing the park at night will not solve the problems. They fear that drug-related crime will simply shift to the neighborhood.",
+     "originalUrl": "/2026/04/02/1f965aa8-ac12-4e82-b8b4-8cc245557ee7.jpg?width=1024",
+     "width": 6000,
+     "height": 4000,
+     "altText": "BERLIN, GERMANY - MARCH 01: A large puppet figure displays the slogan «Görli stays open» during a demonstration against the nightly closings of Goerlitzer Park on March 01, 2026 in Berlin, Germany. Starting today city authorities are enforcing the closing of the park to visitors at night in an effort to reduce crime. Goerlitzer Park has long been known as a hotspot for illicit narcotics sales. (Photo by Maryam Majd/Getty Images)",
+     "origins": [
+      {
+       "name": "Hugo",
+       "identifier": "2177663085"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "caption": "Many Kreuzberg residents believe that closing the park at night will not solve the problems. They fear that drug-related crime will simply shift to the neighborhood.",
+    "author": "Maryam Majd / Getty"
+   },
+   "styles": {
+    "fullwidth-widget": "widget--containerwidth"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1jj63s64c0",
+   "content": {
+    "title": "Residents: The fence is a complete waste of money",
+    "id": "subtitle-anwohner-der-zaun-ist-reine-geldverschwendung"
+   },
+   "data": {},
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "image",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jisj59070",
+   "content": {
+    "text": "The city has indeed been trying to get the problems at Görlitzer Park under control for a long time. Zero-tolerance policies, park attendants and managers, a supervised injection site for addicts, designated areas for drug dealers, community caretakers, and weapons- and knife-free zones have all been tried. Many things have been attempted; nothing has worked."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jk0h88df0",
+   "content": {
+    "text": "If you listen to the conversations in the neighborhood, you'll find hardly any support for the new plan for the park. «Waste of money» is a word that comes up frequently, along with «nonsense» and «outrageous.» Aside from that, many in the neighborhood seem unfazed by the current situation. Of course, as a woman in the area, you have to be careful, says one young woman, but that's no different in other big cities. And what about the dealers? «They'd probably like to have a different job,» says a young man. How does he feel in the neighborhood? «Great.»"
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jk0h8e2r1",
+   "content": {
+    "text": "Only one woman seems exhausted by the situation. Jutta, 60 years old, has lived in the neighborhood for 40 years. She can be found near the park on a sunny afternoon. She points to a gas cartridge lying on the cobblestones. «Nitrous oxide, that's a huge thing here,» she says. Young people, in particular, inhale the gas from balloons. They become euphoric, almost in a trance."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jl27ml091",
+   "content": {
+    "text": "Jutta says she feels safe during the day but sometimes has an uneasy feeling in the evening. She has experienced firsthand how the neighborhood has changed over the years. She recounts being attacked by an addict in April 2019. Shortly after she had unlocked her front door, she says, the man came up from behind and pushed her against the wall in the hallway. He ripped the necklace from her neck and fled, Jutta says, but neighbors caught him."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jl28lrsf1",
+   "content": {
+    "text": "«How much more social work are we supposed to do?» Jutta asks. She loves city life but also needs security. Moving is out of the question for her because of her small pension."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "image"
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1jl7a62t72",
+   "content": {
+    "image": {
+     "author": "Tony Linke / Getty",
+     "caption": "Police were present at the protests on March 1st. However, no incidents occurred.",
+     "originalUrl": "/2026/04/02/a1001ca3-2565-4f85-9690-f9e0fa1c75e7.jpg?width=1024",
+     "width": 5912,
+     "height": 3941,
+     "altText": "A rally takes place against the night-time closure of Gorlitzer Park in Berlin, Germany, on March 1. Collectives call for a demonstration against the park's first closure. Most people leave by 11 pm, and there are no incidents. (Photo by Tonny Linke/NurPhoto via Getty Images)",
+     "origins": [
+      {
+       "name": "Hugo",
+       "identifier": "2178116832"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "caption": "Police were present at the protests on March 1st. However, no incidents occurred.",
+    "author": "Tony Linke / Getty"
+   },
+   "styles": {
+    "fullwidth-widget": "widget--containerwidth"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1jjuke87p0",
+   "content": {
+    "title": "Activists file lawsuit",
+    "id": "subtitle-aktivisten-reichen-klage-ein"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "image",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jjujr93m0",
+   "content": {
+    "text": "Meanwhile, the activists are serious about their protest. One morning, a man in dirty gray trousers and baggy shoes lounges in the sun amidst the ruins of the Pamukkale Well, a vast landscape of stone. Across the way, in front of a warehouse, activists from the «Görli zaunfrei» (Görli Fence-Free) alliance have set up parasols, beer tables, and wooden chairs. They have called a press conference to announce that they have filed a lawsuit and an urgent application against the park plans with the Berlin Administrative Court. Almost twenty residents have come."
+   },
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jjulo1rg0",
+   "content": {
+    "text": "David Werdermann is also there, the lawyer representing five plaintiffs. He's wearing a black turtleneck, an anthracite suit, black shoes, and horn-rimmed glasses. Werdermann sits behind a beer table and explains the residents' arguments into a microphone. Ultimately, he says, it's about defending public space against senseless bans and government intervention. «It's also a question of justice,» he says. After all, many Kreuzberg residents live in cramped conditions."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jk0hpik11",
+   "content": {
+    "text": "Next to Werdermann sit four of the plaintiffs; most have lived here for more than 25 years. Among them are Jürgen, who is blind and says that because the park closes at night, he has to take a detour in the evenings. Anna-Maria, who uses the park to escape from everyday life and emphasizes that many young people meet there. Mathias, for whom the park is an important place to cool off, especially in the summer, where he can have a beer with friends at night. And then there's Philipp, in black pants and a black hoodie. He lives in a dark building at the back without a balcony and uses the park for barbecues, birthday parties, and sports. «Without the park, something's just missing at night,» he says. He's sure there will be protests in the summer. «Then civil disobedience will take over.» Some of the residents applaud."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jk0khrqf0",
+   "content": {
+    "text": "Kreuzberg is where you feel restricted in your freedom because you can't go to a park at night."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1jivit0ne0",
+   "content": {
+    "title": "Drug deals within seconds",
+    "id": "subtitle-drogengesch-fte-binnen-sekunden"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jj1oeivg0",
+   "content": {
+    "text": "Meanwhile, an alternative proposal to the nighttime park closures has been developed by the «Görli zaunfrei» (Görli fence-free) initiative. It is based on the so-called <a target=\"_blank\" href=\"https://www.stadt-zuerich.ch/de/politik-und-verwaltung/politik-und-recht/strategie-politikfelder/drogenpolitik-suchtpolitik.html\">Zurich model</a> , which considers the needs of the general public as well as those of drug users. In the 1990s, Zurich successfully used this model to largely eliminate the open drug scene in the city. Today, the model is considered a best practice example."
+   },
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jj1qv9d60",
+   "content": {
+    "text": "The plan for Kreuzberg includes another supervised consumption room for addicts, a crisis intervention team, more sanitary facilities and teams that are also on site at night. It is scheduled to be presented in May. What is missing, however, is the consistent criminal prosecution of drug trafficking that is part of the Zurich model."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jiulb0l70",
+   "content": {
+    "text": "But the dealers are experienced. If a police car approaches in the distance, they hop on a bicycle and ride off. The deals are also completed in the blink of an eye. On a broad daylight, three dealers are standing at the park entrance when two young men approach them. Words are exchanged, then one dealer goes to the trash can by the wall and takes out a package, while another stands watch. The seller fumbles with the package, the goods and the money change hands, and the two young men are off. A transaction in seconds, as if nothing had happened."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "image"
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1jl79sn1f1",
+   "content": {
+    "image": {
+     "author": "Emmanuele Contini / Imago",
+     "caption": "View from the bridge at the end of Görlitzer Park in October 2024. Whether the nighttime closure has the desired effect will be investigated later.",
+     "originalUrl": "/2026/04/02/7d130399-294e-4e87-8aa4-03ca13081b45.jpg?width=1024",
+     "width": 5200,
+     "height": 3467,
+     "altText": "View from the bridge at the end of Görlitzer Park late in the evening in Berlin on October 30, 2024. Görlitzer Park",
+     "origins": [
+      {
+       "name": "Hugo",
+       "identifier": "2177431690"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "caption": "View from the bridge at the end of Görlitzer Park in October 2024. Whether the nighttime closure has the desired effect will be investigated later.",
+    "author": "Emmanuele Contini / Imago"
+   },
+   "styles": {
+    "fullwidth-widget": "widget--containerwidth"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "sharebox",
+   "lastContentElement": true
+  },
+  {
+   "identifier": "sharebox",
+   "id": "doc-1jipe2t0g3",
+   "paidContent": true,
+   "prevElement": "image",
+   "nextElement": "related-articles-container"
+  },
+  {
+   "identifier": "related-articles-container",
+   "id": "doc-1jipe2t0g4",
+   "content": {
+    "title": "Related articles"
+   },
+   "containers": {
+    "related-articles": [
+     {
+      "identifier": "teaser",
+      "id": "doc-1jipe2t0g5",
+      "content": {
+       "owner": "NZZ",
+       "title": "«It's demonic»: How crack is changing the face of German cities",
+       "teaserImage": {
+        "originalUrl": "/2026/01/23/0268377e-c5b6-40ff-8c63-cf9df18f350c.jpg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2026/01/23/0268377e-c5b6-40ff-8c63-cf9df18f350c.jpg?width=1024&quality=75&auto=webp",
+        "width": 3750,
+        "height": 5000,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "3750,2109,x0,y1079"
+         },
+         {
+          "name": "1:1",
+          "crop": "3750,3750,x0,y742"
+         },
+         {
+          "name": "4:3",
+          "crop": "3750,2813,x0,y417"
+         },
+         {
+          "name": "3:4",
+          "crop": "3750,5000,x0,y0"
+         },
+         {
+          "name": "3:2",
+          "crop": "3750,2500,x0,y592"
+         }
+        ],
+        "imageService": "fastly",
+        "teaserCaption": "At train stations, in building entrances, and at bus stops: Open crack cocaine use is becoming increasingly visible in major cities. Those struggling with addiction quickly spiral into destitution."
+       },
+       "nzzasFootnote": false,
+       "folioFootnote": false,
+       "teaserCarouselOne": {
+        "originalUrl": "/2026/01/23/06c5b512-0006-4b86-871e-d50bf1bc5c21.jpg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2026/01/23/06c5b512-0006-4b86-871e-d50bf1bc5c21.jpg?width=1024&quality=75&auto=webp",
+        "width": 3750,
+        "height": 5000,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "3750,2109,x0,y856"
+         },
+         {
+          "name": "1:1",
+          "crop": "1644,1644,x1172,y774"
+         },
+         {
+          "name": "4:3",
+          "crop": "3750,2813,x0,y825"
+         },
+         {
+          "name": "3:4",
+          "crop": "2963,3951,x551,y822"
+         },
+         {
+          "name": "3:2",
+          "crop": "3333,2222,x284,y776"
+         }
+        ],
+        "imageService": "fastly"
+       },
+       "teaserCarouselTwo": {
+        "originalUrl": "/2026/01/23/63d0ff60-19c9-441f-8f95-1e57c1ca01e3.jpg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2026/01/23/63d0ff60-19c9-441f-8f95-1e57c1ca01e3.jpg?width=1024&quality=75&auto=webp",
+        "width": 3750,
+        "height": 5000,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "3750,2109,x0,y1445"
+         },
+         {
+          "name": "1:1",
+          "crop": "3333,3333,x310,y803"
+         },
+         {
+          "name": "4:3",
+          "crop": "3750,2813,x0,y901"
+         },
+         {
+          "name": "3:4",
+          "crop": "3333,4444,x199,y556"
+         },
+         {
+          "name": "3:2",
+          "crop": "3750,2500,x0,y1250"
+         }
+        ],
+        "imageService": "fastly"
+       },
+       "teaserCarouselThree": {
+        "originalUrl": "/2026/01/30/3f048163-cef8-474c-9b1d-c01100e07ff4.jpg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2026/01/30/3f048163-cef8-474c-9b1d-c01100e07ff4.jpg?width=1024&quality=75&auto=webp",
+        "width": 5000,
+        "height": 3836,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "5000,2812,x0,y148"
+         },
+         {
+          "name": "1:1",
+          "crop": "1892,1892,x828,y1298"
+         },
+         {
+          "name": "4:3",
+          "crop": "5000,3750,x0,y68"
+         },
+         {
+          "name": "3:4",
+          "crop": "2557,3410,x418,y426"
+         },
+         {
+          "name": "3:2",
+          "crop": "5000,3333,x0,y251"
+         }
+        ],
+        "imageService": "fastly"
+       },
+       "paywallQuestionOne": "Why is crack cocaine spreading in major German cities?",
+       "paywallQuestionTwo": "How does the drug work, and why is it so dangerous?",
+       "paywallQuestionThree": "How do addicts describe the challenges posed by crack cocaine?",
+       "language": {
+        "locale": "de-CH"
+       },
+       "nzzId": "ld.1919846",
+       "readingTime": 540,
+       "authorLine": "Len Sander (text), Laurenz Bostedt (images), Berlin",
+       "characterCount": 11354,
+       "product": "NZZ.ch",
+       "documentId": 1919846,
+       "layout": "longformvisual",
+       "publicationDate": "2026-01-31T05:00:00.000Z",
+       "publicationLastUpdated": "2026-03-17T09:41:33.753Z",
+       "significantUpdate": false,
+       "significantUpdateTill": "2026-01-31T17:00:00.000Z",
+       "teaserCaption": "At train stations, in building entrances, and at bus stops: Open crack cocaine use is becoming increasingly visible in major cities. Those struggling with addiction quickly spiral into destitution.",
+       "url": "/international/es-ist-daemonisch-wie-crack-das-gesicht-deutscher-staedte-veraendert-ld.1919846",
+       "department": {
+        "name": "International",
+        "path": "/international"
+       },
+       "estimationWordCount": 1783,
+       "leadText": "At train stations, in building entrances, and at bus stops: Open crack cocaine use is becoming increasingly visible in major cities. Those struggling with addiction quickly spiral into destitution.",
+       "nzzSummaryIsAuto": false,
+       "hasQ": true
+      }
+     },
+     {
+      "identifier": "teaser",
+      "id": "doc-1jipe2t0g6",
+      "content": {
+       "owner": "NZZ",
+       "title": "Germany underestimates fentanyl – and is heading towards the opioid crisis poorly prepared.",
+       "teaserImage": {
+        "originalUrl": "/2025/12/04/bb6aa373-b7d6-43b3-8cbb-f182a8c28db3.jpg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2025/12/04/bb6aa373-b7d6-43b3-8cbb-f182a8c28db3.jpg?width=1024&quality=75&auto=webp",
+        "width": 3350,
+        "height": 2233,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "3350,1884,x0,y174"
+         },
+         {
+          "name": "1:1",
+          "crop": "2233,2233,x559,y0"
+         },
+         {
+          "name": "4:3",
+          "crop": "2977,2233,x186,y0"
+         },
+         {
+          "name": "3:4",
+          "crop": "930,1239,x1109,y994"
+         },
+         {
+          "name": "3:2",
+          "crop": "3350,2233,x0,y0"
+         }
+        ],
+        "imageService": "fastly",
+        "teaserCaption": "Addiction specialist Norbert Lyonn's patients are increasingly using fentanyl – some consciously, others unconsciously. For him, one thing is clear: Germany must do more to prevent situations like those in the USA.",
+        "teaserAuthor": "Imago"
+       },
+       "teaserAuthor": "Imago",
+       "nzzasFootnote": false,
+       "folioFootnote": false,
+       "language": {
+        "locale": "de-CH"
+       },
+       "nzzId": "ld.1914339",
+       "readingTime": 360,
+       "authorLine": "Isabelle Wachter, Berlin",
+       "characterCount": 7555,
+       "product": "NZZ.ch",
+       "documentId": 1914339,
+       "layout": "longformstandard",
+       "publicationDate": "2025-12-07T04:30:00.000Z",
+       "publicationLastUpdated": "2025-12-09T05:15:13.705Z",
+       "significantUpdate": false,
+       "significantUpdateTill": "2025-12-07T16:30:00.000Z",
+       "teaserCaption": "Addiction specialist Norbert Lyonn's patients are increasingly using fentanyl – some consciously, others unconsciously. For him, one thing is clear: Germany must do more to prevent situations like those in the USA.",
+       "authorImage": {
+        "url": "https://img-msp-prod.nzz.ch/2023/10/11/cf7a0765-64e8-431f-8ea3-8914315c85d9.png?width=1024&quality=75&auto=webp",
+        "originalUrl": "/2023/10/11/cf7a0765-64e8-431f-8ea3-8914315c85d9.png?width=1024",
+        "imageService": "fastly",
+        "width": 800,
+        "height": 800,
+        "crops": []
+       },
+       "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2023/10/11/cf7a0765-64e8-431f-8ea3-8914315c85d9.png?width=1024&quality=75&auto=webp",
+       "url": "/international/deutschland-unterschaetzt-fentanyl-und-steuert-schlecht-vorbereitet-auf-die-opioid-krise-zu-ld.1914339",
+       "department": {
+        "name": "International",
+        "path": "/international"
+       },
+       "estimationWordCount": 1141,
+       "leadText": "Addiction specialist Norbert Lyonn's patients are increasingly using fentanyl – some consciously, others unconsciously. For him, one thing is clear: Germany must do more to prevent situations like those in the USA.",
+       "nzzSummaryIsAuto": true
+      }
+     },
+     {
+      "identifier": "teaser",
+      "id": "doc-1jipe2t0g7",
+      "content": {
+       "owner": "NZZ",
+       "title": "Berlin, you can be so ugly: The capital's residents are slowly despairing of their city",
+       "teaserImage": {
+        "originalUrl": "/2025/11/07/4d6b197a-6599-4639-823f-896f667ebc24.jpg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2025/11/07/4d6b197a-6599-4639-823f-896f667ebc24.jpg?width=1024&quality=75&auto=webp",
+        "width": 5000,
+        "height": 3750,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "5000,2812,x0,y612"
+         },
+         {
+          "name": "1:1",
+          "crop": "3750,3750,x625,y0"
+         },
+         {
+          "name": "4:3",
+          "crop": "5000,3750,x0,y0"
+         },
+         {
+          "name": "3:4",
+          "crop": "2813,3750,x772,y0"
+         },
+         {
+          "name": "3:2",
+          "crop": "5000,3333,x0,y197"
+         }
+        ],
+        "imageService": "fastly",
+        "teaserCaption": "Neglect, traffic chaos and wasted money. The German capital has cemented its reputation as a dirty and dysfunctional metropolis. Why is so much in Berlin met with indifference?"
+       },
+       "nzzasFootnote": false,
+       "folioFootnote": false,
+       "teaserCarouselOne": {
+        "originalUrl": "/2025/11/07/4d6b197a-6599-4639-823f-896f667ebc24.jpg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2025/11/07/4d6b197a-6599-4639-823f-896f667ebc24.jpg?width=1024&quality=75&auto=webp",
+        "width": 5000,
+        "height": 3750,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "5000,2812,x0,y469"
+         },
+         {
+          "name": "1:1",
+          "crop": "3750,3750,x553,y0"
+         },
+         {
+          "name": "4:3",
+          "crop": "5000,3750,x0,y0"
+         },
+         {
+          "name": "3:4",
+          "crop": "2813,3750,x853,y0"
+         },
+         {
+          "name": "3:2",
+          "crop": "5000,3333,x0,y208"
+         }
+        ],
+        "imageService": "fastly"
+       },
+       "teaserCarouselTwo": {
+        "originalUrl": "/2025/11/07/9f54bd16-8cd0-4d1a-813d-08cdcd764d68.jpg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2025/11/07/9f54bd16-8cd0-4d1a-813d-08cdcd764d68.jpg?width=1024&quality=75&auto=webp",
+        "width": 5000,
+        "height": 3750,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "5000,2812,x0,y632"
+         },
+         {
+          "name": "1:1",
+          "crop": "3750,3750,x625,y0"
+         },
+         {
+          "name": "4:3",
+          "crop": "5000,3750,x0,y0"
+         },
+         {
+          "name": "3:4",
+          "crop": "2813,3750,x1094,y0"
+         },
+         {
+          "name": "3:2",
+          "crop": "5000,3333,x0,y208"
+         }
+        ],
+        "imageService": "fastly"
+       },
+       "teaserCarouselThree": {
+        "originalUrl": "/2025/11/07/b71206f7-a0ce-4629-a4c3-2162f9c36589.jpg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2025/11/07/b71206f7-a0ce-4629-a4c3-2162f9c36589.jpg?width=1024&quality=75&auto=webp",
+        "width": 5000,
+        "height": 3750,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "5000,2812,x0,y389"
+         },
+         {
+          "name": "1:1",
+          "crop": "3750,3750,x625,y0"
+         },
+         {
+          "name": "4:3",
+          "crop": "5000,3750,x0,y0"
+         },
+         {
+          "name": "3:4",
+          "crop": "2813,3750,x1094,y0"
+         },
+         {
+          "name": "3:2",
+          "crop": "5000,3333,x0,y208"
+         }
+        ],
+        "imageService": "fastly"
+       },
+       "language": {
+        "locale": "de-CH"
+       },
+       "nzzId": "ld.1910816",
+       "readingTime": 900,
+       "authorLine": "Susanne Gaschke, Anna Schiller, Isabelle Wachter, Susann Kreutzmann, Mario Heller (pictures)",
+       "characterCount": 20152,
+       "product": "NZZ.ch",
+       "documentId": 1910816,
+       "layout": "longformvisual",
+       "publicationDate": "2025-11-09T11:00:00.000Z",
+       "publicationLastUpdated": "2025-11-26T19:21:14.182Z",
+       "significantUpdate": false,
+       "significantUpdateTill": "2025-11-09T23:00:00.000Z",
+       "teaserCaption": "Neglect, traffic chaos and wasted money. The German capital has cemented its reputation as a dirty and dysfunctional metropolis. Why is so much in Berlin met with indifference?",
+       "authorImage": {
+        "originalUrl": "/2023/10/11/cf7a0765-64e8-431f-8ea3-8914315c85d9.png?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2023/10/11/cf7a0765-64e8-431f-8ea3-8914315c85d9.png?width=1024&quality=75&auto=webp",
+        "width": 800,
+        "height": 800,
+        "crops": [
+         {
+          "name": "1:1",
+          "crop": "800,800,x0,y0"
+         }
+        ],
+        "imageService": "fastly"
+       },
+       "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2023/10/11/cf7a0765-64e8-431f-8ea3-8914315c85d9.png?width=1024&quality=75&auto=webp",
+       "url": "/international/berlin-du-kannst-so-haesslich-sein-die-hauptstaedter-verzweifeln-langsam-an-ihrer-stadt-ld.1910816",
+       "department": {
+        "name": "International",
+        "path": "/international"
+       },
+       "estimationWordCount": 3071,
+       "leadText": "Neglect, traffic chaos and wasted money. The German capital has cemented its reputation as a dirty and dysfunctional metropolis. Why is so much in Berlin met with indifference?",
+       "nzzSummaryIsAuto": true
+      }
+     }
+    ]
+   },
+   "paidContent": true,
+   "prevElement": "sharebox",
+   "nextElement": "",
+   "lastContentElement": true
+  }
+ ],
+ "metadata": {
+  "owner": "NZZ",
+  "title": "An evening in Berlin's most dangerous park: Dealers whisper, «Do you want marijuana?»",
+  "teaserImage": {
+   "originalUrl": "/2026/04/02/c7d4a36c-6cb7-4abd-91f0-f68853433be2.jpg?width=1024",
+   "url": "https://img-msp-prod.nzz.ch/2026/04/02/c7d4a36c-6cb7-4abd-91f0-f68853433be2.jpg?width=1024&quality=75&auto=webp",
+   "width": 5899,
+   "height": 3932,
+   "crops": [
+    {
+     "name": "16:9",
+     "crop": "5899,3318,x0,y307"
+    },
+    {
+     "name": "1:1",
+     "crop": "3932,3932,x984,y0"
+    },
+    {
+     "name": "4:3",
+     "crop": "5243,3932,x328,y0"
+    },
+    {
+     "name": "3:4",
+     "crop": "2949,3932,x1475,y0"
+    },
+    {
+     "name": "3:2",
+     "crop": "5898,3932,x1,y0"
+    }
+   ],
+   "imageService": "fastly",
+   "teaserCaption": "Since March, Görlitzer Park in Kreuzberg has been closed off at night. Politicians hope this will make the park safer, but some residents are resisting.",
+   "teaserAuthor": "Maryam Majd / Getty"
+  },
+  "teaserAuthor": "Maryam Majd / Getty",
+  "nzzasFootnote": false,
+  "folioFootnote": false,
+  "language": {
+   "locale": "en-US"
+  },
+  "nzzId": "ld.1927432",
+  "readingTime": 600,
+  "authorLine": "Kathrin Klette, Berlin",
+  "characterCount": 11844,
+  "breadcrumbs": [
+   {
+    "name": "Panorama",
+    "path": "/panorama"
+   }
+  ],
+  "product": "NZZ.ch",
+  "documentId": 1927432,
+  "contentTypeGroup": "web",
+  "layout": "longformstandard",
+  "firstPublicationDate": "2026-04-05T03:30:00.000Z",
+  "publicationDate": "2026-04-05T03:30:00.000Z",
+  "publicationLastUpdated": "2026-04-06T17:49:00.094Z",
+  "significantUpdate": false,
+  "significantUpdateTill": "2026-04-05T15:30:00.000Z",
+  "teaserCaption": "Since March, Görlitzer Park in Kreuzberg has been closed off at night. Politicians hope this will make the park safer, but some residents are resisting.",
+  "nzzAuthors": [
+   {
+    "id": 1372909,
+    "name": "Kathrin Klette",
+    "shortName": "kkl",
+    "pianoId": "f732e87a-fad2-4bca-8841-0a90b3c24b4e",
+    "external": false
+   }
+  ],
+  "authorImage": {
+   "url": "https://img-msp-prod.nzz.ch/2024/05/28/b7ef6806-042f-4485-9571-18ecbb170a84.png?width=1024&quality=75&auto=webp",
+   "originalUrl": "/2024/05/28/b7ef6806-042f-4485-9571-18ecbb170a84.png?width=1024",
+   "imageService": "fastly",
+   "width": 200,
+   "height": 200,
+   "crops": []
+  },
+  "nzzAuthorProfileDataCollection": [
+   {
+    "documentId": 1287957,
+    "name": "Kathrin Klette, Berlin",
+    "teaserImageUrl": "https://img-msp-prod.nzz.ch/2024/05/28/b7ef6806-042f-4485-9571-18ecbb170a84.png?width=1024&quality=75&auto=webp"
+   }
+  ],
+  "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2024/05/28/b7ef6806-042f-4485-9571-18ecbb170a84.png?width=1024&quality=75&auto=webp",
+  "url": "/panorama/goerlitzer-park-in-berlin-dealer-proteste-und-ein-umstrittener-zaun-ld.1927432",
+  "department": {
+   "name": "Panorama",
+   "path": "/panorama"
+  },
+  "estimationWordCount": 1921,
+  "leadText": "Since March, Görlitzer Park in Kreuzberg has been closed off at night. Politicians hope this will make the park safer, but some residents are resisting.",
+  "nzzSummaryEN": "- The Görlitzer Park in Berlin faces significant issues with drug dealing and crime, leading to nighttime closures, which have been criticized by residents and activists.\n- Activists argue the measures are symbolic politics and propose a solution inspired by the Zurich model, including consumption rooms and intervention teams.\n- The conflict between freedom and security highlights social tensions in Kreuzberg's vibrant district.",
+  "nzzSummaryDE": "- Görlitzer Park in Berlin is heavily burdened by drug dealing and crime, which has led to the park being closed at night, a measure criticized by residents and activists.\n - Activists argue that the measures are symbolic politics and propose a solution based on the Zurich model, which includes consumption rooms and intervention teams.\n - The conflict between civil liberties and security concerns reflects the social tensions in the lively Kreuzberg district.",
+  "nzzSummaryIsAuto": true,
+  "nzzSummaryModel": "gpt-4o-2024-11-20",
+  "nzzPrintTitle": "An evening in Berlin's most dangerous park: Dealers whisper, «Do you want marijuana?»",
+  "nzzPrintSubtitle": "Since March, Görlitzer Park has been closed off at night. Politicians hope this will make it safer. However, some residents are resisting",
+  "allArticleLanguages": [
+   {
+    "locale": "de-CH",
+    "urlPath": "/panorama/goerlitzer-park-in-berlin-dealer-proteste-und-ein-umstrittener-zaun-ld.1927432",
+    "seo": {}
+   }
+  ],
+  "seo": {
+   "canonicalUrl": "https://www.nzz.ch/panorama/goerlitzer-park-in-berlin-dealer-proteste-und-ein-umstrittener-zaun-ld.1927432",
+   "title": "Görlitzer Park in Berlin: Drug dealers, protests and a controversial fence",
+   "socialMediaTitle": "Görlitzer Park in Berlin: Drug dealers, protests and a controversial fence",
+   "excludeFromSpiders": false,
+   "image": "https://img-msp-prod.nzz.ch/2026/04/02/c7d4a36c-6cb7-4abd-91f0-f68853433be2.jpg?width=1200&height=674&fit=bounds&quality=75&auto=webp&crop=5899,3318,x0,y307&wmark=nzz"
+  },
+  "ldPublicationId": 2399899,
+  "playableVideoTeasers": [
+   {
+    "title": "NZZ Format | Europe's new cocaine front – how drug gangs are infiltrating Spain's coastal towns ",
+    "description": "For years, cocaine use has been rising in Europe, generating lucrative business for criminal gangs. Now, southern Spain is becoming an increasingly important hub for smugglers. For the people in the tranquil coastal towns, this has sometimes had dramatic consequences. Many tourists appreciate Andalusia for its stunning beaches, idyllic villages, and cozy tapas bars. But Europe's southernmost region also has another face: Here, criminal gangs are expanding, supplying all of Europe with cocaine. «We have a veritable drug economy here,» says social worker Alma Jugado. Andalusia is one of the poorest regions in Spain. Drug smugglers here earn more in a single night than others do in a month. So-called TikTok narcos—influencers who portray the smuggler's life as a big party—contribute to the popularity of the illegal trade. Law enforcement is forced to conduct increasingly dangerous operations while simultaneously becoming increasingly powerless. The documentary delves deep into Andalusia's smuggling business. She accompanies customs officers, social workers – and an investigative journalist who wants to meet with one of the masterminds behind the drug gangs. It becomes clear that the rising crime in southern Spain is far more than a local problem.\n",
+    "kind": "Single Item",
+    "siteid": "YuwAxPaT",
+    "playlist": [
+     {
+      "title": "NZZ Format | Europe's new cocaine front – how drug gangs are infiltrating Spain's coastal towns ",
+      "mediaid": "oG1TG66w",
+      "link": "https://cdn.jwplayer.com/previews/oG1TG66w",
+      "image": "https://cdn.jwplayer.com/v2/media/oG1TG66w/poster.jpg?width=720",
+      "images": [
+       {
+        "src": "https://cdn.jwplayer.com/v2/media/oG1TG66w/poster.jpg?width=320",
+        "width": 320,
+        "type": "image/jpeg"
+       },
+       {
+        "src": "https://cdn.jwplayer.com/v2/media/oG1TG66w/poster.jpg?width=480",
+        "width": 480,
+        "type": "image/jpeg"
+       },
+       {
+        "src": "https://cdn.jwplayer.com/v2/media/oG1TG66w/poster.jpg?width=640",
+        "width": 640,
+        "type": "image/jpeg"
+       },
+       {
+        "src": "https://cdn.jwplayer.com/v2/media/oG1TG66w/poster.jpg?width=720",
+        "width": 720,
+        "type": "image/jpeg"
+       },
+       {
+        "src": "https://cdn.jwplayer.com/v2/media/oG1TG66w/poster.jpg?width=1280",
+        "width": 1280,
+        "type": "image/jpeg"
+       },
+       {
+        "src": "https://cdn.jwplayer.com/v2/media/oG1TG66w/poster.jpg?width=1920",
+        "width": 1920,
+        "type": "image/jpeg"
+       },
+       {
+        "src": "https://cdn.jwplayer.com/v2/media/oG1TG66w/poster.mp4?width=320",
+        "width": 320,
+        "type": "video/mp4"
+       },
+       {
+        "src": "https://cdn.jwplayer.com/v2/media/oG1TG66w/poster.mp4?width=640",
+        "width": 640,
+        "type": "video/mp4"
+       }
+      ],
+      "siteid": "YuwAxPaT",
+      "duration": 1762,
+      "content_source_type": "file",
+      "pubdate": 1787590314,
+      "updated": 1787907439,
+      "description": "For years, cocaine use has been rising in Europe, generating lucrative business for criminal gangs. Now, southern Spain is becoming an increasingly important hub for smugglers. For the people in the tranquil coastal towns, this has sometimes had dramatic consequences. Many tourists appreciate Andalusia for its stunning beaches, idyllic villages, and cozy tapas bars. But Europe's southernmost region also has another face: Here, criminal gangs are expanding, supplying all of Europe with cocaine. «We have a veritable drug economy here,» says social worker Alma Jugado. Andalusia is one of the poorest regions in Spain. Drug smugglers here earn more in a single night than others do in a month. So-called TikTok narcos—influencers who portray the smuggler's life as a big party—contribute to the popularity of the illegal trade. Law enforcement is forced to conduct increasingly dangerous operations while simultaneously becoming increasingly powerless. The documentary delves deep into Andalusia's smuggling business. She accompanies customs officers, social workers – and an investigative journalist who wants to meet with one of the masterminds behind the drug gangs. It becomes clear that the rising crime in southern Spain is far more than a local problem.\n",
+      "tags": "spanien,zoll,nzz format,Kokain,2026,Dealer,2631,Drogenhandel,Kokainkonsum,TikTok-Narcos,andalusien,drogenschmuggler,kriminelle Banden,narcos",
+      "sources": [
+       {
+        "file": "https://cdn.jwplayer.com/manifests/oG1TG66w.m3u8",
+        "type": "application/vnd.apple.mpegurl"
+       },
+       {
+        "file": "https://cdn.jwplayer.com/videos/oG1TG66w-aSRX9V0s.mp4",
+        "type": "video/mp4",
+        "height": 1080,
+        "width": 1920,
+        "label": "1080p",
+        "bitrate": 2620322,
+        "filesize": 577126054,
+        "framerate": 25
+       },
+       {
+        "file": "https://cdn.jwplayer.com/videos/oG1TG66w-EhTDc4s5.mp4",
+        "type": "video/mp4",
+        "height": 720,
+        "width": 1280,
+        "label": "720p",
+        "bitrate": 1358441,
+        "filesize": 299196824,
+        "framerate": 25
+       },
+       {
+        "file": "https://cdn.jwplayer.com/videos/oG1TG66w-J4ijmxxU.mp4",
+        "type": "video/mp4",
+        "height": 406,
+        "width": 720,
+        "label": "406p",
+        "bitrate": 647340,
+        "filesize": 142576682,
+        "framerate": 25
+       },
+       {
+        "file": "https://cdn.jwplayer.com/videos/oG1TG66w-kcn04Bnj.mp4",
+        "type": "video/mp4",
+        "height": 270,
+        "width": 480,
+        "label": "270p",
+        "bitrate": 416614,
+        "filesize": 91759296,
+        "framerate": 25
+       },
+       {
+        "file": "https://cdn.jwplayer.com/videos/oG1TG66w-ZberQI1f.mp4",
+        "type": "video/mp4",
+        "height": 180,
+        "width": 320,
+        "label": "180p",
+        "bitrate": 286229,
+        "filesize": 63041949,
+        "framerate": 25
+       }
+      ],
+      "tracks": [
+       {
+        "file": "https://cdn.jwplayer.com/tracks/F4x1Gzd8.srt",
+        "kind": "captions",
+        "label": "German"
+       },
+       {
+        "file": "https://cdn.jwplayer.com/strips/oG1TG66w-120.vtt",
+        "kind": "thumbnails"
+       }
+      ],
+      "variations": {}
+     }
+    ],
+    "feed_instance_id": "89014bcb-d55e-4c7d-b527-bdf54118327c",
+    "playerId": "ZMULDsT4",
+    "intl": {
+     "de": {
+      "advertising": {
+       "skiptext": "Skip"
+      }
+     }
+    }
+   },
+   {
+    "title": "NZZ Format | Europe's new drug crisis? How fentanyl and other synthetic opioids threaten us",
+    "description": "Highly potent synthetic opioids have killed thousands of people in North America. Now they are appearing in Europe, putting local drug policies to the test. When fentanyl emerged in Vancouver, there was hardly any warning. Within a few years, it largely displaced heroin from the illegal drug market, and the number of fatal overdoses rose dramatically. «I pray that Europe doesn't end up in the same situation as us,» says Canadian addiction specialist Paxton Bach. «But I fear it's only a matter of time.» Meanwhile, highly potent synthetic opioids like Nitazene are also spreading in Europe. They are sold online, mixed with heroin or pills, and sometimes consumed without the users' knowledge. Even the smallest excess can trigger a fatal overdose. In Germany, the fundamental changes in the drug market are becoming apparent. Clinics are increasingly treating younger users; at the same time, the trade is shifting from the streets to the internet. The substances can be ordered with just a few clicks via social networks, messaging apps, and online shops. This makes it harder to reach users with traditional support services and to identify new developments in the market. Since the dismantling of the open drug scenes at Zurich's Platzspitz and Letten districts, Switzerland has been considered a global model of pragmatic drug policy. Supervised consumption sites, substitution programs, drug checking, and early warning systems are intended to prevent isolated incidents from escalating into new crises. But can this successful model of the 1990s withstand a globalized, synthetic drug market?",
+    "kind": "Single Item",
+    "siteid": "YuwAxPaT",
+    "playlist": [
+     {
+      "title": "NZZ Format | Europe's new drug crisis? How fentanyl and other synthetic opioids threaten us",
+      "mediaid": "lRYT58G8",
+      "link": "https://cdn.jwplayer.com/previews/lRYT58G8",
+      "image": "https://cdn.jwplayer.com/v2/media/lRYT58G8/poster.jpg?width=720",
+      "images": [
+       {
+        "src": "https://cdn.jwplayer.com/v2/media/lRYT58G8/poster.jpg?width=320",
+        "width": 320,
+        "type": "image/jpeg"
+       },
+       {
+        "src": "https://cdn.jwplayer.com/v2/media/lRYT58G8/poster.jpg?width=480",
+        "width": 480,
+        "type": "image/jpeg"
+       },
+       {
+        "src": "https://cdn.jwplayer.com/v2/media/lRYT58G8/poster.jpg?width=640",
+        "width": 640,
+        "type": "image/jpeg"
+       },
+       {
+        "src": "https://cdn.jwplayer.com/v2/media/lRYT58G8/poster.jpg?width=720",
+        "width": 720,
+        "type": "image/jpeg"
+       },
+       {
+        "src": "https://cdn.jwplayer.com/v2/media/lRYT58G8/poster.jpg?width=1280",
+        "width": 1280,
+        "type": "image/jpeg"
+       },
+       {
+        "src": "https://cdn.jwplayer.com/v2/media/lRYT58G8/poster.jpg?width=1920",
+        "width": 1920,
+        "type": "image/jpeg"
+       },
+       {
+        "src": "https://cdn.jwplayer.com/v2/media/lRYT58G8/poster.mp4?width=320",
+        "width": 320,
+        "type": "video/mp4"
+       },
+       {
+        "src": "https://cdn.jwplayer.com/v2/media/lRYT58G8/poster.mp4?width=640",
+        "width": 640,
+        "type": "video/mp4"
+       }
+      ],
+      "siteid": "YuwAxPaT",
+      "duration": 3074,
+      "content_source_type": "file",
+      "pubdate": 1786979984,
+      "updated": 1787223270,
+      "description": "Highly potent synthetic opioids have killed thousands of people in North America. Now they are appearing in Europe, putting local drug policies to the test. When fentanyl emerged in Vancouver, there was hardly any warning. Within a few years, it largely displaced heroin from the illegal drug market, and the number of fatal overdoses rose dramatically. «I pray that Europe doesn't end up in the same situation as us,» says Canadian addiction specialist Paxton Bach. «But I fear it's only a matter of time.» Meanwhile, highly potent synthetic opioids like Nitazene are also spreading in Europe. They are sold online, mixed with heroin or pills, and sometimes consumed without the users' knowledge. Even the smallest excess can trigger a fatal overdose. In Germany, the fundamental changes in the drug market are becoming apparent. Clinics are increasingly treating younger users; at the same time, the trade is shifting from the streets to the internet. The substances can be ordered with just a few clicks via social networks, messaging apps, and online shops. This makes it harder to reach users with traditional support services and to identify new developments in the market. Since the dismantling of the open drug scenes at Zurich's Platzspitz and Letten districts, Switzerland has been considered a global model of pragmatic drug policy. Supervised consumption sites, substitution programs, drug checking, and early warning systems are intended to prevent isolated incidents from escalating into new crises. But can this successful model of the 1990s withstand a globalized, synthetic drug market?",
+      "tags": "Zürich,schweiz,deutschland,nzz format,fentanyl,Drogenkonsum,Drogenpolitik,Platzspitz,2626,Kanada,Dealer,Drogenmarkt,Nitazene,Substitution,drogenszene,opiode,synthetische Opioide,vier säulen prinzip",
+      "sources": [
+       {
+        "file": "https://cdn.jwplayer.com/manifests/lRYT58G8.m3u8",
+        "type": "application/vnd.apple.mpegurl"
+       },
+       {
+        "file": "https://cdn.jwplayer.com/videos/lRYT58G8-aSRX9V0s.mp4",
+        "type": "video/mp4",
+        "height": 1080,
+        "width": 1920,
+        "label": "1080p",
+        "bitrate": 2207207,
+        "filesize": 848119609,
+        "framerate": 25
+       },
+       {
+        "file": "https://cdn.jwplayer.com/videos/lRYT58G8-EhTDc4s5.mp4",
+        "type": "video/mp4",
+        "height": 720,
+        "width": 1280,
+        "label": "720p",
+        "bitrate": 1105779,
+        "filesize": 424895890,
+        "framerate": 25
+       },
+       {
+        "file": "https://cdn.jwplayer.com/videos/lRYT58G8-J4ijmxxU.mp4",
+        "type": "video/mp4",
+        "height": 406,
+        "width": 720,
+        "label": "406p",
+        "bitrate": 548710,
+        "filesize": 210842183,
+        "framerate": 25
+       },
+       {
+        "file": "https://cdn.jwplayer.com/videos/lRYT58G8-kcn04Bnj.mp4",
+        "type": "video/mp4",
+        "height": 270,
+        "width": 480,
+        "label": "270p",
+        "bitrate": 363024,
+        "filesize": 139491997,
+        "framerate": 25
+       },
+       {
+        "file": "https://cdn.jwplayer.com/videos/lRYT58G8-ZberQI1f.mp4",
+        "type": "video/mp4",
+        "height": 180,
+        "width": 320,
+        "label": "180p",
+        "bitrate": 252747,
+        "filesize": 97118251,
+        "framerate": 25
+       }
+      ],
+      "tracks": [
+       {
+        "file": "https://cdn.jwplayer.com/tracks/2HwpdPa4.srt",
+        "kind": "captions",
+        "label": "German"
+       },
+       {
+        "file": "https://cdn.jwplayer.com/strips/lRYT58G8-120.vtt",
+        "kind": "thumbnails"
+       }
+      ],
+      "variations": {}
+     }
+    ],
+    "feed_instance_id": "6637080d-e0ff-44c1-9b02-492d848b78a0",
+    "playerId": "ZMULDsT4",
+    "intl": {
+     "de": {
+      "advertising": {
+       "skiptext": "Skip"
+      }
+     }
+    }
+   }
+  ],
+  "isHighlightedHeader": false,
+  "nzzTopics": [
+   {
+    "name": "Drugs",
+    "slug": "/themen/drogen"
+   },
+   {
+    "name": "cannabis",
+    "slug": "/themen/cannabis"
+   },
+   {
+    "name": "cocaine",
+    "slug": "/themen/kokain"
+   }
+  ],
+  "barrierIndex": 3,
+  "outlinks": {
+   "mehrZumThema": [
+    "ld.1919846",
+    "ld.1914339",
+    "ld.1910816"
+   ],
+   "artikelListe": [],
+   "aliasTeaserEmbedList": []
+  },
+  "tts": true,
+  "hasQ": true,
+  "mp3": true,
+  "mp3Duration": 797016,
+  "project": "nzz",
+  "machineTranslated": true,
+  "machineTranslationValidated": false
+ },
+ "isReduced": false,
+ "isPaid": false,
+ "isVamp": false,
+ "isWebview": false,
+ "btaFeed": {
+  "meta": {
+   "id": "drogen",
+   "name": "Drugs",
+   "tagName": "Drugs",
+   "qId": "Q10268802",
+   "seoTitle": "Drugs – All articles on the topic | NZZ",
+   "description": null,
+   "firstName": null,
+   "lastName": null,
+   "category": "MISC",
+   "createdDate": "2025-04-08 17:15:29.536Z",
+   "imageURL": null,
+   "imageCroppedURL": null,
+   "imageWidth": null,
+   "imageHeight": null,
+   "imageCredits": null,
+   "url": "https://nzz.ch/themen/drogen",
+   "size": 1412,
+   "relatedTopics": [
+    {
+     "name": "Cannabis",
+     "slug": "/themen/cannabis"
+    },
+    {
+     "name": "Kokain",
+     "slug": "/themen/kokain"
+    }
+   ]
+  },
+  "data": [
+   {
+    "owner": "NZZ",
+    "title": "Spain becomes Europe's new cocaine transshipment hub: This has dramatic consequences for towns on the Andalusian coast",
+    "language": {
+     "locale": "de"
+    },
+    "authorLine": "Nicole Ris, Jan-Philipp Scholz",
+    "flag": "Documentary film «NZZ Format»",
+    "teaserImage": {
+     "originalUrl": "/2026/08/25/a47e324b-3e12-49bc-bc17-f647ec2a164e.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/08/25/a47e324b-3e12-49bc-bc17-f647ec2a164e.jpg?width=1024&quality=75&auto=webp",
+     "width": 1920,
+     "height": 1080,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "1920,1080,x0,y0"
+      },
+      {
+       "name": "4:3",
+       "crop": "1440,1080,x389,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "1080,1080,x751,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "810,1080,x1019,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "1620,1080,x150,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "A customs investigator, a drug courier, and a social worker report."
+    },
+    "tags": [
+     "Europa",
+     "Zeitgeschehen"
+    ],
+    "freeToRead": true,
+    "nzzId": "ld.10020890",
+    "readingTime": 60,
+    "embeds": {
+     "videos": [
+      {
+       "id": "oG1TG66w",
+       "provider": "jw",
+       "teaser": true,
+       "duration": 1762,
+       "sources": [
+        {
+         "file": "https://cdn.jwplayer.com/videos/oG1TG66w-J4ijmxxU.mp4",
+         "width": 720,
+         "height": 406
+        }
+       ]
+      }
+     ]
+    },
+    "paywallQuestionOne": "How does the cocaine trade affect coastal towns in Andalusia?",
+    "paywallQuestionTwo": "What role do TikTok narcos play in the popularity of the smuggler lifestyle?",
+    "paywallQuestionThree": "Why is crime in southern Spain considered a European problem?",
+    "characterCount": 1122,
+    "product": "NZZ.ch",
+    "documentId": "10020890",
+    "layout": "video",
+    "publicationDate": "2026-08-28T04:30:00.000Z",
+    "publicationLastUpdated": "2026-09-03T06:59:15.126Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-08-28T16:30:00.000Z",
+    "teaserCaption": "A customs investigator, a drug courier, and a social worker report.",
+    "url": "https://www.nzz.ch/video/format/europas-neue-kokain-front-wie-drogenbanden-spaniens-kuestenorte-unterwandern-ld.10020890",
+    "department": {
+     "name": "NZZ Format",
+     "path": "/video/format"
+    },
+    "estimationWordCount": 179,
+    "leadText": "A customs investigator, a drug courier, and a social worker report.",
+    "nzzSummaryIsAuto": true,
+    "locale": "de-CH"
+   },
+   {
+    "title": "Seven shootings in five days: Brussels drug war escalates",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "teaserImage": {
+     "originalUrl": "/2026/08/27/f9881d32-1732-4d06-ac1c-39bd5716d3c2.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/08/27/f9881d32-1732-4d06-ac1c-39bd5716d3c2.jpg?width=1024&quality=75&auto=webp",
+     "width": 5605,
+     "height": 3737,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "5095,2866,x39,y402"
+      },
+      {
+       "name": "4:3",
+       "crop": "4118,3088,x301,y207"
+      },
+      {
+       "name": "1:1",
+       "crop": "1743,1743,x2529,y1507"
+      },
+      {
+       "name": "3:4",
+       "crop": "2803,3737,x1650,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "5605,3737,x0,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "The Belgian Interior Minister spoke of a «national emergency.» Authorities announced new measures in the fight against drug trafficking. But the problem has long since spiraled out of control.",
+     "teaserAuthor": "Olivier Matthys / EPA"
+    },
+    "teaserAuthor": "Olivier Matthys / EPA",
+    "tags": [
+     "Europa"
+    ],
+    "nzzId": "ld.10021284",
+    "readingTime": 180,
+    "paywallQuestionOne": "How is drug crime escalating in Brussels?",
+    "paywallQuestionTwo": "What measures are the authorities taking?",
+    "paywallQuestionThree": "Why have previous measures had little effect?",
+    "characterCount": 4139,
+    "product": "NZZ.ch",
+    "documentId": "10021284",
+    "layout": "regular",
+    "publicationDate": "2026-08-27T14:03:52.185Z",
+    "publicationLastUpdated": "2026-08-27T14:34:59.090Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-08-28T02:03:52.185Z",
+    "teaserCaption": "The Belgian Interior Minister spoke of a «national emergency.» Authorities announced new measures in the fight against drug trafficking. But the problem has long since spiraled out of control.",
+    "authorLine": "Jonas Roth",
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2025/02/21/3fbc6c73-1012-4c85-bdf0-0959a1c494ee.jpeg?width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/international/schiessereien-in-bruessel-drogenkriminalitaet-ausser-kontrolle-ld.10021284",
+    "department": {
+     "name": "International",
+     "path": "/international"
+    },
+    "estimationWordCount": 625,
+    "leadText": "The Belgian Interior Minister spoke of a «national emergency.» Authorities announced new measures in the fight against drug trafficking. But the problem has long since spiraled out of control.",
+    "nzzSummaryIsAuto": true,
+    "hasQ": true,
+    "locale": "de-CH"
+   },
+   {
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "teaserImage": {
+     "originalUrl": "/2026/08/21/35e6b522-30b5-44d6-9cbc-0d6face2f717.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/08/21/35e6b522-30b5-44d6-9cbc-0d6face2f717.jpg?width=1024&quality=75&auto=webp",
+     "width": 7740,
+     "height": 5300,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "7740,4354,x0,y107"
+      },
+      {
+       "name": "4:3",
+       "crop": "7067,5300,x0,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "4818,4818,x989,y138"
+      },
+      {
+       "name": "3:4",
+       "crop": "3975,5300,x1572,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "7740,5160,x0,y70"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "The Australian tennis player faces a ban of up to four years, possibly even the end of his career. How could he fall so low?",
+     "teaserAuthor": "Dave Hunt / Imago"
+    },
+    "teaserAuthor": "Dave Hunt / Imago",
+    "title": "Once hailed as the successor to Federer, Nadal, and Djokovic, Nick Kyrgios has now tested positive for cocaine",
+    "tags": [
+     "Tennis"
+    ],
+    "nzzId": "ld.10020564",
+    "readingTime": 300,
+    "paywallQuestionOne": "How did scandals affect Nick Kyrgios' career?",
+    "paywallQuestionTwo": "What role did psychological pressure play in Kyrgios' downfall?",
+    "paywallQuestionThree": "Can Kyrgios make a comeback after his suspension?",
+    "characterCount": 5567,
+    "product": "NZZ.ch",
+    "documentId": "10020564",
+    "layout": "regular",
+    "publicationDate": "2026-08-24T11:00:00.000Z",
+    "publicationLastUpdated": "2026-08-24T15:17:04.044Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-08-24T23:00:00.000Z",
+    "teaserCaption": "The Australian tennis player faces a ban of up to four years, possibly even the end of his career. How could he fall so low?",
+    "authorLine": "Niels Bossert",
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2026/08/03/55b080a7-219f-4248-81b1-c1e9cdc3d672.jpg?width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/sport/tennis/er-galt-einst-als-nachfolger-von-federer-nadal-und-djokovic-nun-wurde-nick-kyrgios-positiv-auf-kokain-getestet-ld.10020564",
+    "department": {
+     "name": "Tennis",
+     "path": "/sport/tennis"
+    },
+    "estimationWordCount": 911,
+    "leadText": "The Australian tennis player faces a ban of up to four years, possibly even the end of his career. How could he fall so low?",
+    "nzzSummaryIsAuto": true,
+    "locale": "de-CH"
+   },
+   {
+    "owner": "NZZ",
+    "title": "Europe's drug crisis: Threat from fentanyl and synthetic opioids",
+    "language": {
+     "locale": "de"
+    },
+    "flag": "Documentary film «NZZ Format»",
+    "teaserImage": {
+     "originalUrl": "/2026/08/18/6081f51e-6b90-4035-ab69-c58e487a22d3.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/08/18/6081f51e-6b90-4035-ab69-c58e487a22d3.jpg?width=1024&quality=75&auto=webp",
+     "width": 1920,
+     "height": 1080,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "1920,1080,x0,y0"
+      },
+      {
+       "name": "4:3",
+       "crop": "1920,1080,x0,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "1920,1080,x0,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "1920,1080,x0,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "Highly potent opioids like fentanyl have cost thousands of lives in North America. Now these dangerous substances are reaching Europe. Can Switzerland's successful Four-Pillar Model prevent a similar catastrophe?"
+    },
+    "freeToRead": true,
+    "nzzId": "ld.10019978",
+    "readingTime": 60,
+    "embeds": {
+     "videos": [
+      {
+       "id": "lRYT58G8",
+       "provider": "jw",
+       "teaser": true,
+       "duration": 3074,
+       "sources": [
+        {
+         "file": "https://cdn.jwplayer.com/videos/lRYT58G8-J4ijmxxU.mp4",
+         "width": 720,
+         "height": 406
+        }
+       ]
+      }
+     ]
+    },
+    "paywallQuestionOne": "How do synthetic opioids threaten Europe's drug policy?",
+    "paywallQuestionTwo": "Can the Swiss four-pillar model prevent a new crisis?",
+    "paywallQuestionThree": "How is online commerce changing access to drug assistance?",
+    "characterCount": 1657,
+    "product": "NZZ.ch",
+    "documentId": "10019978",
+    "layout": "video",
+    "publicationDate": "2026-08-21T04:30:00.000Z",
+    "publicationLastUpdated": "2026-08-24T11:42:36.251Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-08-21T16:30:00.000Z",
+    "teaserCaption": "Highly potent opioids like fentanyl have cost thousands of lives in North America. Now these dangerous substances are reaching Europe. Can Switzerland's successful Four-Pillar Model prevent a similar catastrophe?",
+    "authorLine": "Nicole Krättli",
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2022/03/16/c56ea8c3-ffb2-428e-b8a5-02f811d62a9a.jpeg?width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/video/format/europas-drogenkrise-bedrohung-durch-fentanyl-und-synthetische-opioide-ld.10019978",
+    "department": {
+     "name": "NZZ Format",
+     "path": "/video/format"
+    },
+    "estimationWordCount": 263,
+    "leadText": "Highly potent opioids like fentanyl have cost thousands of lives in North America. Now these dangerous substances are reaching Europe. Can Switzerland's successful Four-Pillar Model prevent a similar catastrophe?",
+    "nzzSummaryIsAuto": true,
+    "locale": "de-CH"
+   },
+   {
+    "title": "Trump's fight against «narco-terrorism» stalls – now he escalates the war on drugs",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "teaserImage": {
+     "originalUrl": "/2026/08/20/8f983cd8-e9d9-4c8a-8b2a-30c1ca376ec4.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/08/20/8f983cd8-e9d9-4c8a-8b2a-30c1ca376ec4.jpg?width=1024&quality=75&auto=webp",
+     "width": 4737,
+     "height": 3158,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "4737,2665,x0,y0"
+      },
+      {
+       "name": "4:3",
+       "crop": "4211,3158,x184,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "3158,3158,x710,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "2369,3158,x1105,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "4737,3158,x0,y0"
+      }
+     ],
+     "focalPoint": {
+      "x": 2289,
+      "y": 943
+     },
+     "imageService": "fastly",
+     "teaserCaption": "The American president can count on an increasing number of allies in Latin America. Yet even these alliances have not stopped the flood of cocaine and fentanyl so far.",
+     "teaserAuthor": "Jeenah Moon / Reuters"
+    },
+    "teaserAuthor": "Jeenah Moon / Reuters",
+    "tags": [
+     "Amerika"
+    ],
+    "nzzId": "ld.10020348",
+    "readingTime": 300,
+    "paywallQuestionOne": "How does Trump's decree affect the fight against drug cartels?",
+    "paywallQuestionTwo": "Why does the influx of cocaine and fentanyl remain high despite new strategies?",
+    "paywallQuestionThree": "What role do Latin America's right-wing governments play in the drug war?",
+    "characterCount": 7130,
+    "product": "NZZ.ch",
+    "documentId": "10020348",
+    "layout": "regular",
+    "publicationDate": "2026-08-21T03:30:00.000Z",
+    "publicationLastUpdated": "2026-08-21T03:30:00.000Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-08-21T15:30:00.000Z",
+    "teaserCaption": "The American president can count on an increasing number of allies in Latin America. Yet even these alliances have not stopped the flood of cocaine and fentanyl so far.",
+    "authorLine": "Simon Hehli",
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2022/06/22/e093c794-c4d1-44f9-aa11-822688046fbf.png?width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/international/kampf-gegen-kokain-und-fentanyl-trumps-plan-fuer-lateinamerika-ld.10020348",
+    "department": {
+     "name": "International",
+     "path": "/international"
+    },
+    "estimationWordCount": 1052,
+    "leadText": "The American president can count on an increasing number of allies in Latin America. Yet even these alliances have not stopped the flood of cocaine and fentanyl so far.",
+    "nzzSummaryIsAuto": true,
+    "locale": "de-CH"
+   },
+   {
+    "owner": "NZZ",
+    "title": "The Fentanyl Paradox: Why We Know More About Drug Cartel Supply Chains Than Pharmaceutical Company Supply Chains",
+    "teaserImage": {
+     "originalUrl": "/2026/06/18/39bd06a9-969d-4a36-ac8f-a819d680fc54.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/06/18/39bd06a9-969d-4a36-ac8f-a819d680fc54.jpg?width=1024&quality=75&auto=webp",
+     "width": 4492,
+     "height": 2996,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "4492,2527,x0,y469"
+      },
+      {
+       "name": "4:3",
+       "crop": "3995,2996,x192,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "2996,2996,x653,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "2247,2996,x0,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "4492,2995,x0,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "In hospitals, the highly potent opioid alleviates pain; in the drug scene, it destroys lives. But in both cases, the trail of the raw material often leads to the same place.",
+     "teaserAuthor": "Andrew Kelly / Reuters"
+    },
+    "teaserAuthor": "Andrew Kelly / Reuters",
+    "showHeader": true,
+    "language": {
+     "locale": "de"
+    },
+    "characterCount": 10578,
+    "nzzId": "ld.10013303",
+    "readingTime": 420,
+    "paywallQuestionOne": "Why are fentanyl supply chains so opaque?",
+    "paywallQuestionTwo": "Do legal and illegal fentanyl supply chains intersect?",
+    "paywallQuestionThree": "How does China influence global fentanyl production?",
+    "showComments": true,
+    "product": "NZZ.ch",
+    "documentId": "10013303",
+    "layout": "longformstandard",
+    "publicationDate": "2026-08-17T13:57:38.579Z",
+    "publicationLastUpdated": "2026-08-18T03:31:00.000Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-08-18T01:57:38.579Z",
+    "teaserCaption": "In hospitals, the highly potent opioid alleviates pain; in the drug scene, it destroys lives. But in both cases, the trail of the raw material often leads to the same place.",
+    "authorLine": "Isabelle Wachter, Julia Monn",
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2023/10/11/cf7a0765-64e8-431f-8ea3-8914315c85d9.png?width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/wirtschaft/das-fentanyl-paradox-warum-wir-die-lieferketten-der-drogenkartelle-besser-kennen-als-die-der-pharmakonzerne-ld.10013303",
+    "department": {
+     "name": "Economy",
+     "path": "/wirtschaft"
+    },
+    "estimationWordCount": 1454,
+    "premium": true,
+    "leadText": "In hospitals, the highly potent opioid alleviates pain; in the drug scene, it destroys lives. But in both cases, the trail of the raw material often leads to the same place.",
+    "nzzSummaryIsAuto": true,
+    "commentsCount": 6,
+    "openToComment": false,
+    "hasQ": true,
+    "locale": "de-CH"
+   }
+  ]
+ },
+ "digitalData": {
+  "component": [
+   {
+    "id": "ld.1927432",
+    "name": "An evening in Berlin's most dangerous park: Dealers whisper, «Do you want marijuana?»",
+    "type": "article",
+    "subType1": "longformstandard",
+    "subType2": "",
+    "primaryCategory": "Panorama",
+    "subCategory1": "",
+    "attributes": {
+     "headline": "An evening in Berlin's most dangerous park: Dealers whisper, «Do you want marijuana?»",
+     "firstPublishTitle": "",
+     "catchline": "",
+     "authors": [
+      {
+       "id": 1372909,
+       "name": "Kathrin Klette",
+       "shortName": "kkl",
+       "pianoId": "f732e87a-fad2-4bca-8841-0a90b3c24b4e",
+       "external": false
+      }
+     ],
+     "issueTimestamp": "2026-04-05T03:30:00.000Z",
+     "updateTimestamp": "2026-04-06T17:49:00.094Z",
+     "isSponsoredContent": false,
+     "isPro": false,
+     "isLiveticker": false,
+     "flag": "",
+     "owner": "NZZ"
+    }
+   }
+  ],
+  "page": {
+   "pageId": "ld.1927432",
+   "pageType": "longformstandard",
+   "primaryCategory": "Panorama",
+   "subCategory1": "",
+   "subCategory2": "",
+   "language": "en-US"
+  },
+  "version": "2.0",
+  "user": {},
+  "event": []
+ },
+ "seoData": {
+  "title": "Görlitzer Park in Berlin: Drug dealers, protests and a controversial fence",
+  "image": {
+   "url": "https://img-msp-prod.nzz.ch/2026/04/02/c7d4a36c-6cb7-4abd-91f0-f68853433be2.jpg?width=1200&height=674&fit=bounds&quality=75&auto=webp&crop=5899,3318,x0,y307&wmark=nzz",
+   "type": "image/jpeg",
+   "width": 1200,
+   "height": 674
+  },
+  "author": "Kathrin Klette, Berlin",
+  "description": "Since March, Görlitzer Park in Kreuzberg has been closed off at night. Politicians hope this will make the park safer, but some residents are resisting.",
+  "news_keywords": "An evening in Berlin's most dangerous park: «Do you want marijuana?» whisper the dealers, Panorama, News, NZZ",
+  "type": "article",
+  "last-modified": "2026-04-06T21:49:00+02:00",
+  "date": "2026-04-05T07:30:00+02:00",
+  "canonical": "https://www.nzz.ch/panorama/goerlitzer-park-in-berlin-dealer-proteste-und-ein-umstrittener-zaun-ld.1927432",
+  "fb:app_id": 138008459595436,
+  "fb:pages": 143694099006529,
+  "fb:admins": 1592685173,
+  "locale": "de-CH",
+  "email": "online.redaktion@nzz.ch",
+  "site_name": "Neue Zürcher Zeitung",
+  "copyright": "2026 Neue Zürcher Zeitung AG, Schweiz",
+  "robots": "noindex, nofollow, noarchive, noodp",
+  "hreflang": [],
+  "sharedTitle": "An evening in Berlin's most dangerous park: Dealers whisper, «Do you want marijuana?»",
+  "ogTitle": "Görlitzer Park in Berlin: Drug dealers, protests and a controversial fence",
+  "ogUrl": "https://www.nzz.ch/panorama/goerlitzer-park-in-berlin-dealer-proteste-und-ein-umstrittener-zaun-ld.1927432",
+  "mrf:cms_id": "nzz:ld.1927432",
+  "mrf:sections": "Panorama",
+  "mrf:tags": "Page Type:longformstandard;Editorial Owner:NZZ;Content Type:Standard Article;Article ID:ld.1927432",
+  "nzzAuthors": [
+   {
+    "id": 1372909,
+    "name": "Kathrin Klette",
+    "shortName": "kkl",
+    "pianoId": "f732e87a-fad2-4bca-8841-0a90b3c24b4e",
+    "external": false
+   }
+  ],
+  "links": [
+   {
+    "rel": "canonical",
+    "href": "https://www.nzz.ch/panorama/goerlitzer-park-in-berlin-dealer-proteste-und-ein-umstrittener-zaun-ld.1927432"
+   },
+   {
+    "rel": "search",
+    "href": "/suche",
+    "title": "Suche Neue Zürcher Zeitung, Schweiz, https://www.nzz.ch/suche"
+   }
+  ],
+  "renderedAt": "Thu, 03 Sep 2026 09:32:03 GMT"
+ },
+ "structuredData": [
+  {
+   "@context": "https://schema.org",
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "item": {
+      "@id": "/",
+      "name": "Home"
+     }
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "item": {
+      "@id": "/panorama",
+      "name": "Panorama"
+     }
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Görlitzer Park in Berlin: Drug dealers, protests and a controversial fence"
+    }
+   ]
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": "NewsArticle",
+   "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.nzz.ch/panorama/goerlitzer-park-in-berlin-dealer-proteste-und-ein-umstrittener-zaun-ld.1927432"
+   },
+   "headline": "Görlitzer Park in Berlin: Drug dealers, protests and a controversial fence",
+   "datePublished": "2026-04-05T07:30:00+02:00",
+   "dateModified": "2026-04-06T21:49:00+02:00",
+   "publisher": {
+    "@type": "NewsMediaOrganization",
+    "name": "Neue Zürcher Zeitung",
+    "url": "https://www.nzz.ch",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://www.nzz.ch/logo.png",
+     "width": 413,
+     "height": 60
+    },
+    "contactPoint": [
+     {
+      "@type": "ContactPoint",
+      "telephone": "+41-44-2581000",
+      "contactType": "customer service"
+     }
+    ],
+    "sameAs": [
+     "https://www.facebook.com/nzz",
+     "https://www.twitter.com/nzz",
+     "https://www.youtube.com/channel/UCK1aTcR0AckQRLTlK0c4fuQ",
+     "https://www.linkedin.com/company/neue-zurcher-zeitung",
+     "https://www.instagram.com/nzz/",
+     "https://de.wikipedia.org/wiki/Neue_Z%C3%BCrcher_Zeitung",
+     "https://www.wikidata.org/wiki/Q658945",
+     "https://plus.google.com/+nzz/",
+     "http://www.freebase.com/m/041b43"
+    ],
+    "masthead": "https://www.nzz.ch/impressum/impressum-ld.148422",
+    "foundingDate": "1780"
+   },
+   "description": "Since March, Görlitzer Park in Kreuzberg has been closed off at night. Politicians hope this will make the park safer, but some residents are resisting.",
+   "isAccessibleForFree": false,
+   "articleSection": "Panorama",
+   "hasPart": {
+    "@type": "WebPageElement",
+    "isAccessibleForFree": false,
+    "cssSelector": ".nzzinteraction"
+   },
+   "image": {
+    "@type": "ImageObject",
+    "url": "https://img-msp-prod.nzz.ch/2026/04/02/c7d4a36c-6cb7-4abd-91f0-f68853433be2.jpg?width=1200&height=674&fit=bounds&quality=75&auto=webp&crop=5899,3318,x0,y307&wmark=nzz",
+    "width": 1200,
+    "height": 674
+   },
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Kathrin Klette"
+    }
+   ],
+   "inLanguage": "de"
+  }
+ ],
+ "mp3": true,
+ "mp3Duration": 797016,
+ "bT": {
+  "standard": {
+   "Tags": [
+    "/panorama/goerlitzer-park-in-berlin-dealer-proteste-und-ein-umstrittener-zaun-ld.1927432",
+    "classification=default",
+    "relevance=default",
+    "layout=longformstandard",
+    "owner=nzz",
+    "product=nzz",
+    "doctype=article",
+    "pagetype=article",
+    "ldid=ld.1927432",
+    "channel=Panorama"
+   ],
+   "ContentCreated": "2026-04-05T03:30:00.000Z",
+   "ContentAuthor": "Kathrin Klette, Berlin",
+   "ContentSection": "Panorama",
+   "ContentIsNative": true
+  },
+  "custom": {
+   "product": "nzz",
+   "docType": "article",
+   "pageType": "article",
+   "layout": "longformstandard",
+   "ldId": "ld.1927432",
+   "channel": "Panorama",
+   "heading": "Ein Abend in Berlins gefährlichstem Park: «Willst du Marihuana?», raunen die Dealer",
+   "language": "en-US"
+  }
+ },
+ "webviewMetadata": {},
+ "cacheTime": 3600
+}

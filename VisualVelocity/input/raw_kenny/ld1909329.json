@@ -1,0 +1,1442 @@
+{
+ "content": [
+  {
+   "identifier": "header",
+   "id": "doc-1j8o07buk0",
+   "content": {
+    "title": "Setback for the right-wing populists in the Netherlands: The social liberals win the parliamentary election",
+    "lead": "Two years ago, the PVV rose to become the largest party in the Netherlands. Now, the social-liberal party D66 has won the parliamentary election. Rob Jetten, the party leader, could become prime minister.",
+    "author": ""
+   },
+   "containers": {
+    "authors": [
+     {
+      "identifier": "author-teaser",
+      "id": "doc-9aIaL2nad1",
+      "content": {
+       "layout": "authorprofile",
+       "title": "Daniel Imwinkelried, Brussels",
+       "url": "/impressum/daniel-imwinkelried-ld.1085444",
+       "teaserImage": {
+        "url": "https://img-msp-prod.nzz.ch/2024/11/25/1ee7f6fd-dfbd-4762-8c66-30a3b8ae0615.jpeg?width=1024&quality=75&auto=webp",
+        "originalUrl": "/2024/11/25/1ee7f6fd-dfbd-4762-8c66-30a3b8ae0615.jpeg?width=1024",
+        "imageService": "fastly",
+        "width": 6000,
+        "height": 4000
+       }
+      }
+     }
+    ]
+   },
+   "prevElement": "",
+   "nextElement": "image",
+   "firstContentElement": true
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1j8oshmf20",
+   "content": {
+    "image": {
+     "author": "Koen Van Weel / EPA",
+     "caption": "The dream of becoming Prime Minister is unlikely to come true: Geert Wilders, the leader of the right-wing populist Party for Freedom (PVV), casting his vote.",
+     "originalUrl": "/2025/10/29/65485359-e09f-4431-a415-e2487e95aee4.jpg?width=1024",
+     "width": 6000,
+     "height": 4353,
+     "altText": "epa12489543 Party for Freedom (PVV) leader Geert Wilders casts his vote for the House of Representatives elections at City Hall in The Hague, Netherlands, 29 October 2025. EPA/KOEN VAN WEEL",
+     "origins": [
+      {
+       "name": "Hugo",
+       "identifier": "2175317149"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "caption": "The dream of becoming Prime Minister is unlikely to come true: Geert Wilders, the leader of the right-wing populist Party for Freedom (PVV), casting his vote.",
+    "author": "Koen Van Weel / EPA"
+   },
+   "data": {
+    "_captionDirective": {}
+   },
+   "prevElement": "header",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1j8o07buk2",
+   "content": {
+    "text": "Where does right-wing populism stand in the eyes of Western European voters? This question is of particular concern to representatives of centrist parties. After all, right-wing populist movements are primarily stealing voters from them. The Netherlands is a good indicator of the political mood, as politicians who focus on the issue of migration and thus attract attention have been active there for 25 years."
+   },
+   "prevElement": "image",
+   "nextElement": "barrier"
+  },
+  {
+   "id": "doc-1bb4cd84",
+   "identifier": "barrier",
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1j8obvgkg0",
+   "content": {
+    "text": "The Dutch parliamentary elections on Wednesday received considerable attention. The last elections in November 2023 were won by Geert Wilders' right-wing populist Party for Freedom (PVV). At that time, they more than doubled their number of seats to 37 and became part of a four-party government."
+   },
+   "paidContent": true,
+   "prevElement": "barrier",
+   "nextElement": "image"
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1j8osbvb01",
+   "content": {
+    "image": {
+     "author": "Robin Utrecht / EPA",
+     "caption": "Rob Jetten, only 38 years old and the leader of the social-liberal party D66, has a chance of becoming the next Prime Minister.",
+     "originalUrl": "/2025/10/29/0e6f31e2-ffb3-4dd6-914b-ece96aca5e0b.jpg?width=1024",
+     "width": 8256,
+     "height": 5504,
+     "altText": "epa12491332 Leader of the Democrats 66 (D66) party Rob Jetten during the D66 results evening for the House of Representatives elections, in Leiden, the Netherlands, 29 October 2025. The Netherlands is holding an early general election on 29 October, to elect a new House of Representatives. EPA/Robin Utrecht",
+     "origins": [
+      {
+       "name": "Hugo",
+       "identifier": "2175325783"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "caption": "Rob Jetten, only 38 years old and the leader of the social-liberal party D66, has a chance of becoming the next Prime Minister.",
+    "author": "Robin Utrecht / EPA"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1j8t4irdi0",
+   "content": {
+    "text": "After Wednesday's election night, the exact result remained unclear for a long time. The social-liberal party D66 was locked in a close race with Wilders' PVV. After approximately 99 percent of the votes had been counted, D66's lead was around 15,000 votes."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "image",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1j8t4is0n0",
+   "content": {
+    "text": "According to the ANP news agency, D66 has held an insurmountable lead since Friday midday. The party also has a chance of winning a residual seat, which would give it 27 of the 150 seats in parliament. Wilders' PVV won 26 seats – a significant loss compared to the 2023 election, when the party became the largest force with 37 seats. <a href=\"https://www.nzz.ch/international/rob-jetten-wer-ist-der-mann-der-wohl-ministerpraesident-der-niederlande-wird-ld.1909518\">D66 leader Rob Jetten, only 38 years old,</a> now has a chance of becoming prime minister."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "q-embed"
+  },
+  {
+   "identifier": "q-embed",
+   "id": "doc-1j8t52hd50",
+   "content": {
+    "q-embed": {
+     "service": "q-tool",
+     "params": {
+      "id": "7b73f2997dddf65018467c6221de5e70",
+      "conf": {},
+      "toolConfig": {},
+      "toolRuntimeConfig": {
+       "size": {
+        "width": [
+         {
+          "value": 100,
+          "comparison": ">"
+         }
+        ]
+       },
+       "displayOptions": {
+        "hideTitle": false,
+        "hideSubtitle": false,
+        "hideFooter": false,
+        "hideAcronym": false
+       },
+       "locale": "en_US"
+      },
+      "size": "content"
+     },
+     "resolvedValue": {}
+    },
+    "html": "      <div        class=\"q-election_seats-container\"        id=\"q_election_seats_7b73f2997dddf65018467c6221de5e70_q02b6802b8479434293cc193096bb504e_container\"        data-q-item-id=\"7b73f2997dddf65018467c6221de5e70\"        data-q-request-id=\"c874b07faa217789f8c7f8f84e70467537e2abd7\"      ></div>",
+    "stylesheets": [
+     {
+      "type": "remote",
+      "content": "https://service.sophie.nzz.ch/bundle/sophie-color%23master,sophie-font%23master,sophie-q%23master,sophie-viz-color%23master[parties].css"
+     },
+     {
+      "type": "inline",
+      "content": "  @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff) format(\"woff\");  }    @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff) format(\"woff\");    unicode-range: U+0020-00FF,U+2005,U+2082;  }      "
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/css-theme-layer/nzz-0.2.0.css"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/electionSeats/q-electionSeats-1.1.10.css"
+     }
+    ],
+    "scripts": [
+     {
+      "type": "inline",
+      "content": "function qTrackingBootstrap(t,e,n){if(window.digitalData&&window.digitalData.component&&window.digitalData.component.push){window.digitalData.component.push(t),window.digitalData.event&&window.digitalData.event.length||(window.digitalData.event=[]);var i=new Date,a=e;a.eventInfo.timeStamp=i.toISOString(),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\");var o=document.querySelectorAll(\"[data-q-request-id='\"+n+\"']\");[].forEach.call(o,function(t){t.addEventListener(\"q-tracking-event\",function(t){var e=new Date;(a=JSON.parse(JSON.stringify(a))).eventInfo.timeStamp=e.toISOString(),a.eventInfo=Object.assign(a.eventInfo,t.detail.eventInfo),a.category=Object.assign(a.category,t.detail.category),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\")},!1)})}};qTrackingBootstrap({\"componentInfo\":{\"componentName\":\"Q\",\"componentID\":\"7b73f2997dddf65018467c6221de5e70\"},\"category\":{\"componentType\":\"storytelling\",\"componentSubType1\":\"Q graphic\",\"componentSubType2\":\"election_seats\"}},{\"eventInfo\":{\"eventName\":\"Storytelling Interaction\",\"eventAction\":\"load\",\"type\":\"story\",\"componentName\":\"Q\",\"eventNonInteractive\":true,\"componentID\":\"7b73f2997dddf65018467c6221de5e70\"},\"category\":{\"primaryCategory\":\"storytelling\",\"subCategory1\":\"Q graphic\",\"subCategory2\":\"election_seats\"}},\"c874b07faa217789f8c7f8f84e70467537e2abd7\")"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/electionSeats/q-electionSeats-1.1.10.js"
+     },
+     {
+      "type": "inline",
+      "content": "      (function () {        function initialize() {          const target = document.querySelector('#q_election_seats_7b73f2997dddf65018467c6221de5e70_q02b6802b8479434293cc193096bb504e_container');          if (!target) return;          target.innerHTML = '';          const qdoc = {\"_id\":\"7b73f2997dddf65018467c6221de5e70\",\"publication\":\"nzz\",\"acronym\":\"jum.\",\"title\":\"Parliamentary elections in the Netherlands 2025\",\"parties\":[{\"color\":{\"colorCode\":\"#8440a3\"},\"name\":\"SP (socialist)\",\"seats\":3,\"previous\":5},{\"color\":{\"colorCode\":\"#c31906\"},\"name\":\"PvdA-GL (social democratic)\",\"seats\":20,\"previous\":25},{\"color\":{\"colorCode\":\"#22a682\"},\"name\":\"D66 (left-liberal)\",\"seats\":26,\"previous\":9},{\"name\":\"PvdD (Animal Welfare)\",\"color\":{\"colorCode\":\"#98f5f5\"},\"seats\":3,\"previous\":3},{\"color\":{\"colorCode\":\"#fddb69\"},\"name\":\"NSC (centrist)\",\"previous\":20,\"seats\":0},{\"color\":{\"colorCode\":\"#d28b00\"},\"name\":\"VVD (right-liberal)\",\"seats\":22,\"previous\":24},{\"color\":{\"colorCode\":\"#01b1c0\"},\"name\":\"CDA (Christian Democratic)\",\"seats\":18,\"previous\":5},{\"color\":{\"colorCode\":\"#136340\"},\"name\":\"BBB (conservative)\",\"previous\":7,\"seats\":4},{\"color\":{\"colorCode\":\"#0a0a0a\"},\"name\":\"PVV (right-wing populist) *\",\"seats\":26,\"previous\":37},{\"color\":{\"colorCode\":\"#ac5038\"},\"name\":\"FvD (far-right)\",\"seats\":7,\"previous\":3},{\"name\":\"Other\",\"color\":{\"colorCode\":\"#aa9f9f\"},\"seats\":21,\"previous\":12}],\"sources\":[{\"link\":{\"url\":\"https://app.nos.nl/nieuws/tk2025/\"},\"text\":\"NOS\"}],\"options\":{\"hideUpdatedDate\":false},\"subtitle\":\"Seat allocation in The Hague according to the preliminary final result\",\"totalSeats\":150,\"updatedDate\":\"2026-01-30T16:23:21.506Z\",\"deactivateDate\":\"2023-11-23T13:54:39.004Z\",\"thumbnail\":\"https://nzzqprod-4851.kxcdn.com/q-item-thumbnails/nzz/f8dcaba5c0f6c9f36ee0c30066bf6922-thumbnail.jpeg\",\"notes\":\"* On January 20, 2026, 7 parliamentarians left the PVV parliamentary group in protest\"};          const toolRuntimeConfig = {\"displayOptions\":{\"hideTitle\":false,\"hideSubtitle\":false,\"hideFooter\":false,\"hideAcronym\":false},\"size\":{\"width\":[{\"value\":100,\"comparison\":\">\"}]},\"locale\":\"en-US\"};          const toolSettings = {\"qItemInstanceId\":\"q_election_seats_7b73f2997dddf65018467c6221de5e70_q02b6802b8479434293cc193096bb504e\"};          let attempts = 0;          const maxAttempts = 100;          const checkAndInitialize = setInterval(() => {            if (window.qElectionSeats) {              clearInterval(checkAndInitialize);              new window.qElectionSeats({ target: target, props: {                qdoc: qdoc,                toolSettings: toolSettings,                toolRuntimeConfig: toolRuntimeConfig              } });            } else {              attempts++;              if (attempts >= maxAttempts) {                clearInterval(checkAndInitialize);                console.error('Failed to initialize qElectionSeats after 30 seconds');              }            }          }, 300);        }        if (document.body.classList.contains('pagedone')) {          initialize();        } else {          window.addEventListener('pagedone', initialize);        }      })();    "
+     }
+    ]
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1j8ocv5nl0",
+   "content": {
+    "title": "Wilders pushed the coalition forward with the asylum issue",
+    "id": "subtitle-wilders-trieb-die-koalition-mit-dem-asylthema-vor-sich-her"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "q-embed",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1j8obvgki1",
+   "content": {
+    "text": "Wednesday's elections became necessary because Wilders had broken up the then-governing, ideologically diverse four-party coalition in June. It had only been in power for eleven months and had fractured over asylum issues."
+   },
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1j8obvgki2",
+   "content": {
+    "text": "Wilders' right-liberal and centrist coalition partners had indeed gone to great lengths to accommodate the demagogue on this issue. <a href=\"https://www.nzz.ch/international/niederlande-die-neue-regierung-will-das-strengste-asylregime-aller-zeiten-ld.1830680\">In their coalition agreement, they declared an «asylum crisis» and agreed on some rather harsh measures.</a> These included, for example, suspending the processing of asylum applications or prohibiting refugees from bringing their families to the Netherlands should the problem worsen."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1j8obvgkj1",
+   "content": {
+    "text": "Despite such concessions, Wilders, who was not a member of the government, pushed the coalition on the issue of asylum. He demanded, for example, that no more asylum seekers be allowed into the country. His coalition partners, of course, could not agree to this, and so, at the beginning of June, Wilders announced on the news channel X that the PVV ministers he had delegated were leaving the government."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1j8ocvknp0",
+   "content": {
+    "title": "There are other concerns besides just the asylum system",
+    "id": "subtitle-noch-andere-sorgen-als-bloss-das-asylwesen"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1j8obvgkj2",
+   "content": {
+    "text": "The four-party coalition had acquired a rather poor reputation. This was partly due to the chaotic governance, primarily caused by Wilders' unpredictability. The Dutch were also dissatisfied because the coalition's track record proved meager."
+   },
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1j8oc2dl71",
+   "content": {
+    "text": "While migration has been a constant political issue, other matters are of at least equal concern to the Dutch. Firstly, young people complain about the difficulty of finding housing. The government has failed to meet its housing construction targets. Secondly, it has failed in its plan to initiate the construction of several nuclear power plants. Thirdly, the Netherlands has been exceeding nitrogen emission limits for years. Around 50 percent of these emissions originate from the agricultural sector. <a href=\"https://www.nzz.ch/wirtschaft/guellenkrise-in-den-niederlanden-die-bauern-haben-zu-viel-vieh-und-kommen-unter-druck-ld.1843103\">The government has also failed to find a long-term solution to this problem.</a>"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1j8ocu6020",
+   "content": {
+    "title": "Difficult coalition talks",
+    "id": "subtitle-schwierige-koalitionsgespr-che"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1j8obvgkj3",
+   "content": {
+    "text": "The Netherlands is likely facing months of coalition talks. The last government was only formed after protracted, six-month negotiations."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1j8on9f3q1",
+   "content": {
+    "text": "The leaders of the four major parties, GLP/PvdA, D66, CDA, and VVD, emphasized before the elections that <a href=\"https://www.nzz.ch/international/geert-wilders-duerfte-die-niederlaendischen-wahlen-gewinnen-und-hat-doch-verloren-ld.1908628\">they would not form a coalition with Wilders.</a> However, a common enemy does not automatically create a stable government. Moreover, Dilan Yesilgöz, the president of the long-established right-liberal VVD party, also announced that she would not form a coalition with Frans Timmermans."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1j8ocoqpq1",
+   "content": {
+    "text": "The leader of the Green-Social Democratic Alliance (GLP/PvdA) is the most famous Dutch politician. He was once a member of the European Commission and is considered the father of the now controversial <a href=\"https://www.nzz.ch/wirtschaft/kampf-um-das-verbrenner-aus-fuer-den-green-deal-sieht-es-nach-den-eu-wahlen-schwarz-aus-ld.1834560\">Green Deal,</a> which aims to make Europe a climate-neutral continent."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1j8osum0l1",
+   "content": {
+    "text": "Timmermans is not particularly popular in the Netherlands, and his ideology differs considerably from that of the economically liberal VVD party. However, he announced his resignation as party president on Wednesday evening. He had dreamed of becoming prime minister, but after the party's seat losses, that office was out of reach. His resignation could facilitate the formation of a coalition."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "image"
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1j8osfo7f1",
+   "content": {
+    "image": {
+     "author": "Piroschka Van De Wouw / Reuters",
+     "caption": "Former EU Commissioner Frans Timmermans resigned as president of the social-democratic-green party alliance GL/PvdA on Wednesday evening.",
+     "originalUrl": "/2025/10/29/6dd4058b-7ff6-4e0a-a223-42101f562be7.jpg?width=1024",
+     "width": 5600,
+     "height": 3733,
+     "altText": "Dutch GroenLinks-PvdA leader Frans Timmermans looks on following an election debate in the run-up to the House of Representatives elections in Hilversum, Netherlands, October 19, 2025. REUTERS/Piroschka van de Wouw",
+     "origins": [
+      {
+       "name": "Hugo",
+       "identifier": "2175144907"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "caption": "Former EU Commissioner Frans Timmermans resigned as president of the social-democratic-green party alliance GL/PvdA on Wednesday evening.",
+    "author": "Piroschka Van De Wouw / Reuters"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1j8obvgkk0",
+   "content": {
+    "text": "Because 15 parties will be represented in parliament and the PVV is not slated to be part of the government, at least four political associations, one on the left and one on the right of center, will have to join forces to form a government. D66, VVD, the Christian Democratic CDA, and GLP/PvdA would together have a majority of 86 seats."
+   },
+   "paidContent": true,
+   "prevElement": "image",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1j8oda8ld1",
+   "content": {
+    "text": "However, such a coalition will not be formed without concessions to the political opposition. The housing and energy shortages, as well as the nitrogen problem, will remain ongoing issues. It seems that the majority of the Dutch population wants a more proactive government than the previous one. Above all, they want it to be more reliable."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1j8p3ng0j1",
+   "content": {
+    "text": "«Millions of Dutch people have said goodbye to a politics of negativity,» said D66 leader Jetten. Wilders, meanwhile, claimed that being in opposition was more fun than being in government. Many Dutch people seem to have seen through the demagogue on this point."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "sharebox",
+   "lastContentElement": true
+  },
+  {
+   "identifier": "sharebox",
+   "id": "doc-1j8o07buk3",
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "related-articles-container"
+  },
+  {
+   "identifier": "related-articles-container",
+   "id": "doc-1j8o07buk4",
+   "content": {
+    "title": "Related articles"
+   },
+   "containers": {
+    "related-articles": [
+     {
+      "identifier": "teaser",
+      "id": "doc-1j8o07buk5",
+      "content": {
+       "owner": "NZZ",
+       "title": "Population density stress in the Netherlands: the same area as Switzerland, but twice as many inhabitants – and a lot of pigs.",
+       "teaserImage": {
+        "originalUrl": "/2025/08/14/af1fb809-9d42-47e8-aafa-77891b5bc639.jpg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2025/08/14/af1fb809-9d42-47e8-aafa-77891b5bc639.jpg?width=1024&quality=75&auto=webp",
+        "width": 3980,
+        "height": 2728,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "3980,2239,x0,y404"
+         },
+         {
+          "name": "1:1",
+          "crop": "2728,2728,x444,y0"
+         },
+         {
+          "name": "4:3",
+          "crop": "3637,2728,x191,y0"
+         },
+         {
+          "name": "3:4",
+          "crop": "2046,2728,x1078,y0"
+         },
+         {
+          "name": "3:2",
+          "crop": "3980,2653,x0,y66"
+         }
+        ],
+        "imageService": "fastly",
+        "teaserCaption": "The Netherlands is a successful country. However, economists and business representatives believe it has become too crowded. This is also related to agriculture.",
+        "teaserAuthor": "Christoph Ruckstuhl / NZZ"
+       },
+       "teaserAuthor": "Christoph Ruckstuhl / NZZ",
+       "nzzasFootnote": false,
+       "folioFootnote": false,
+       "language": {
+        "locale": "de-CH"
+       },
+       "nzzId": "ld.1897522",
+       "readingTime": 300,
+       "authorLine": "Daniel Imwinkelried, Brussels",
+       "characterCount": 6496,
+       "product": "NZZ.ch",
+       "documentId": 1897522,
+       "layout": "regular",
+       "publicationDate": "2025-08-18T03:30:00.000Z",
+       "publicationLastUpdated": "2025-08-18T03:30:00.000Z",
+       "significantUpdate": false,
+       "significantUpdateTill": "2025-08-18T15:30:00.000Z",
+       "teaserCaption": "The Netherlands is a successful country. However, economists and business representatives believe it has become too crowded. This is also related to agriculture.",
+       "authorImage": {
+        "originalUrl": "/2024/11/25/1ee7f6fd-dfbd-4762-8c66-30a3b8ae0615.jpeg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2024/11/25/1ee7f6fd-dfbd-4762-8c66-30a3b8ae0615.jpeg?width=1024&quality=75&auto=webp",
+        "width": 6000,
+        "height": 4000,
+        "crops": [
+         {
+          "name": "1:1",
+          "crop": "2809,2809,x1580,y528"
+         }
+        ],
+        "imageService": "fastly"
+       },
+       "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2024/11/25/1ee7f6fd-dfbd-4762-8c66-30a3b8ae0615.jpeg?width=1024&quality=75&auto=webp",
+       "url": "/wirtschaft/dichtestress-in-den-niederlanden-gleich-viel-flaeche-wie-die-schweiz-aber-doppelt-so-viele-einwohner-und-sehr-viele-schweine-ld.1897522",
+       "department": {
+        "name": "Economy",
+        "path": "/wirtschaft"
+       },
+       "estimationWordCount": 971,
+       "leadText": "The Netherlands is a successful country. However, economists and business representatives believe it has become too crowded. This is also related to agriculture.",
+       "nzzSummaryIsAuto": true,
+       "hasQ": true
+      }
+     },
+     {
+      "identifier": "teaser",
+      "id": "doc-1j8o07buk6",
+      "content": {
+       "owner": "NZZ",
+       "title": "In the cycling mecca of Utrecht, cars are often just «guests» – can that work?",
+       "teaserImage": {
+        "originalUrl": "/2025/07/08/e6b76fa4-2cb0-41b6-a9bf-830b8405fc5a.jpeg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2025/07/08/e6b76fa4-2cb0-41b6-a9bf-830b8405fc5a.jpeg?width=1024&quality=75&auto=webp",
+        "width": 9444,
+        "height": 6296,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "9444,5311,x0,y985"
+         },
+         {
+          "name": "1:1",
+          "crop": "1362,1362,x2848,y4639"
+         },
+         {
+          "name": "4:3",
+          "crop": "8395,6295,x588,y1"
+         },
+         {
+          "name": "3:4",
+          "crop": "4722,6295,x70,y1"
+         },
+         {
+          "name": "3:2",
+          "crop": "9444,6295,x0,y1"
+         }
+        ],
+        "imageService": "fastly",
+        "teaserCaption": "The fourth largest city in the Netherlands is entirely geared towards bicycles – which has earned one cycling influencer millions of clicks. Some complain that Utrecht is becoming a «yuppie city».",
+        "teaserAuthor": "Abdullah Asiran / Getty"
+       },
+       "teaserAuthor": "Abdullah Asiran / Getty",
+       "nzzasFootnote": false,
+       "folioFootnote": false,
+       "language": {
+        "locale": "de-CH"
+       },
+       "nzzId": "ld.1892674",
+       "readingTime": 300,
+       "authorLine": "Antonio Fumagalli, Utrecht",
+       "characterCount": 6270,
+       "product": "NZZ.ch",
+       "documentId": 1892674,
+       "layout": "longformstandard",
+       "publicationDate": "2025-09-08T03:30:00.000Z",
+       "publicationLastUpdated": "2025-09-08T03:30:00.000Z",
+       "significantUpdate": false,
+       "significantUpdateTill": "2025-09-08T15:30:00.000Z",
+       "teaserCaption": "The fourth largest city in the Netherlands is entirely geared towards bicycles – which has earned one cycling influencer millions of clicks. Some complain that Utrecht is becoming a «yuppie city».",
+       "authorImage": {
+        "url": "https://img-msp-prod.nzz.ch/2024/08/14/6124518e-3d18-4aa2-826c-c005a3361e94.jpeg?width=1024&quality=75&auto=webp",
+        "originalUrl": "/2024/08/14/6124518e-3d18-4aa2-826c-c005a3361e94.jpeg?width=1024",
+        "imageService": "fastly",
+        "width": 3956,
+        "height": 5275,
+        "crops": []
+       },
+       "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2024/08/14/6124518e-3d18-4aa2-826c-c005a3361e94.jpeg?width=1024&quality=75&auto=webp",
+       "url": "/international/velofahren-in-utrecht-niederlande-europas-fahrrad-hauptstadt-ld.1892674",
+       "department": {
+        "name": "International",
+        "path": "/international"
+       },
+       "estimationWordCount": 1023,
+       "leadText": "The fourth largest city in the Netherlands is entirely geared towards bicycles – which has earned one cycling influencer millions of clicks. Some complain that Utrecht is becoming a «yuppie city».",
+       "nzzSummaryIsAuto": true
+      }
+     },
+     {
+      "identifier": "teaser",
+      "id": "doc-1j8o07buk7",
+      "content": {
+       "owner": "NZZ",
+       "title": "Tough, but inefficient? The Netherlands are struggling with tightening asylum laws",
+       "teaserImage": {
+        "originalUrl": "/2025/02/12/8bded9d4-736d-4c6e-85fa-3100a0df8a0d.jpeg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2025/02/12/8bded9d4-736d-4c6e-85fa-3100a0df8a0d.jpeg?width=1024&quality=75&auto=webp",
+        "width": 5472,
+        "height": 3648,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "5472,3078,x0,y504"
+         },
+         {
+          "name": "1:1",
+          "crop": "3648,3648,x0,y0"
+         },
+         {
+          "name": "4:3",
+          "crop": "4864,3648,x0,y0"
+         },
+         {
+          "name": "3:4",
+          "crop": "2736,3648,x46,y0"
+         }
+        ],
+        "imageService": "fastly",
+        "teaserCaption": "Geert Wilders' PVV is pushing for the swift implementation of the new asylum law. However, it remains unclear whether it will speed up or delay procedures.",
+        "teaserAuthor": "Vincent Jannink / Imago"
+       },
+       "teaserAuthor": "Vincent Jannink / Imago",
+       "nzzasFootnote": false,
+       "folioFootnote": false,
+       "language": {
+        "locale": "de-CH"
+       },
+       "nzzId": "ld.1870749",
+       "readingTime": 180,
+       "authorLine": "Andreas Ernst",
+       "characterCount": 3892,
+       "product": "NZZ.ch",
+       "documentId": 1870749,
+       "layout": "regular",
+       "publicationDate": "2025-02-12T16:00:00.000Z",
+       "publicationLastUpdated": "2025-02-12T16:18:28.661Z",
+       "significantUpdate": false,
+       "significantUpdateTill": "2025-02-13T04:00:00.000Z",
+       "teaserCaption": "Geert Wilders' PVV is pushing for the swift implementation of the new asylum law. However, it remains unclear whether it will speed up or delay procedures.",
+       "url": "/international/niederlande-im-streit-um-schaerferes-asylrecht-droht-wilders-mit-koalitionsbruch-ld.1870749",
+       "department": {
+        "name": "International",
+        "path": "/international"
+       },
+       "estimationWordCount": 601,
+       "leadText": "Geert Wilders' PVV is pushing for the swift implementation of the new asylum law. However, it remains unclear whether it will speed up or delay procedures.",
+       "hasQ": true
+      }
+     }
+    ]
+   },
+   "paidContent": true,
+   "prevElement": "sharebox",
+   "nextElement": "",
+   "lastContentElement": true
+  }
+ ],
+ "metadata": {
+  "owner": "NZZ",
+  "germanyRelevant": true,
+  "title": "Setback for the right-wing populists in the Netherlands: The social liberals win the parliamentary election",
+  "teaserImage": {
+   "originalUrl": "/2025/10/29/65485359-e09f-4431-a415-e2487e95aee4.jpg?width=1024",
+   "url": "https://img-msp-prod.nzz.ch/2025/10/29/65485359-e09f-4431-a415-e2487e95aee4.jpg?width=1024&quality=75&auto=webp",
+   "width": 6000,
+   "height": 4353,
+   "crops": [
+    {
+     "name": "16:9",
+     "crop": "6000,3375,x0,y248"
+    },
+    {
+     "name": "1:1",
+     "crop": "1340,1340,x2235,y196"
+    },
+    {
+     "name": "4:3",
+     "crop": "5804,4353,x0,y0"
+    },
+    {
+     "name": "3:4",
+     "crop": "3265,4353,x1183,y0"
+    },
+    {
+     "name": "3:2",
+     "crop": "6000,4000,x0,y231"
+    }
+   ],
+   "imageService": "fastly",
+   "teaserCaption": "Two years ago, the PVV rose to become the largest party in the Netherlands. Now, the social-liberal party D66 has won the parliamentary election. Rob Jetten, the party leader, could become prime minister.",
+   "teaserAuthor": "Koen Van Weel / EPA"
+  },
+  "teaserAuthor": "Koen Van Weel / EPA",
+  "nzzasFootnote": false,
+  "folioFootnote": false,
+  "language": {
+   "locale": "en-US"
+  },
+  "nzzId": "ld.1909329",
+  "readingTime": 240,
+  "authorLine": "Daniel Imwinkelried, Brussels",
+  "characterCount": 5762,
+  "breadcrumbs": [
+   {
+    "name": "International",
+    "path": "/international"
+   }
+  ],
+  "product": "NZZ.ch",
+  "documentId": 1909329,
+  "contentTypeGroup": "web",
+  "layout": "regular",
+  "firstPublicationDate": "2025-10-29T20:33:50.528Z",
+  "publicationDate": "2025-10-31T12:31:08.999Z",
+  "publicationLastUpdated": "2025-10-31T17:29:19.546Z",
+  "significantUpdate": true,
+  "significantUpdateTill": "2025-11-01T00:31:08.999Z",
+  "teaserCaption": "Two years ago, the PVV rose to become the largest party in the Netherlands. Now, the social-liberal party D66 has won the parliamentary election. Rob Jetten, the party leader, could become prime minister.",
+  "nzzAuthors": [
+   {
+    "id": 1372746,
+    "name": "Daniel Imwinkelried",
+    "shortName": "imr",
+    "pianoId": "5c12cd2d-916b-488e-be5b-a6ebf0677400",
+    "external": false
+   }
+  ],
+  "authorImage": {
+   "url": "https://img-msp-prod.nzz.ch/2024/11/25/1ee7f6fd-dfbd-4762-8c66-30a3b8ae0615.jpeg?width=1024&quality=75&auto=webp",
+   "originalUrl": "/2024/11/25/1ee7f6fd-dfbd-4762-8c66-30a3b8ae0615.jpeg?width=1024",
+   "imageService": "fastly",
+   "width": 6000,
+   "height": 4000,
+   "crops": []
+  },
+  "nzzAuthorProfileDataCollection": [
+   {
+    "documentId": 1085444,
+    "name": "Daniel Imwinkelried, Brussels",
+    "teaserImageUrl": "https://img-msp-prod.nzz.ch/2024/11/25/1ee7f6fd-dfbd-4762-8c66-30a3b8ae0615.jpeg?width=1024&quality=75&auto=webp"
+   }
+  ],
+  "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2024/11/25/1ee7f6fd-dfbd-4762-8c66-30a3b8ae0615.jpeg?width=1024&quality=75&auto=webp",
+  "url": "/international/niederlage-der-rechtspopulisten-in-den-niederlanden-geert-wilders-partei-pvv-verliert-bei-den-parlamentswahlen-viele-sitze-ld.1909329",
+  "department": {
+   "name": "International",
+   "path": "/international"
+  },
+  "estimationWordCount": 892,
+  "leadText": "Two years ago, the PVV rose to become the largest party in the Netherlands. Now, the social-liberal party D66 has won the parliamentary election. Rob Jetten, the party leader, could become prime minister.",
+  "nzzSummaryEN": "- The liberal party D66 won the recent parliamentary elections in the Netherlands, while the far-right party PVV, led by Geert Wilders, suffered significant losses.\n- The election was triggered after Wilders caused the collapse of the previous coalition government in June over disputes regarding asylum policies.\n- Housing shortages, energy issues, and nitrogen emissions remain pressing challenges, with difficult coalition negotiations anticipated.",
+  "nzzSummaryDE": "- The left-liberal party D66 won the recent parliamentary elections in the Netherlands, while the right-wing populist party PVV of Geert Wilders suffered significant losses.\n The election was necessary after Wilders brought down the previous coalition government in June due to disputes over asylum policy.\n Housing shortages, energy issues and the nitrogen problem remain pressing challenges, and difficult coalition negotiations lie ahead.",
+  "nzzSummaryIsAuto": true,
+  "nzzSummaryModel": "gpt-4o-2024-11-20",
+  "nzzPrintTitle": "Defeat for right-wing populists in the Netherlands: Geert Wilders' PVV party loses many seats in the parliamentary elections",
+  "nzzPrintSubtitle": "Defeat for right-wing populists in the Netherlands: Geert Wilders' PVV party loses many seats in the parliamentary elections",
+  "allArticleLanguages": [
+   {
+    "locale": "de-CH",
+    "urlPath": "/international/niederlage-der-rechtspopulisten-in-den-niederlanden-geert-wilders-partei-pvv-verliert-bei-den-parlamentswahlen-viele-sitze-ld.1909329",
+    "seo": {}
+   }
+  ],
+  "seo": {
+   "canonicalUrl": "https://www.nzz.ch/international/niederlage-der-rechtspopulisten-in-den-niederlanden-geert-wilders-partei-pvv-verliert-bei-den-parlamentswahlen-viele-sitze-ld.1909329",
+   "title": "Elections in the Netherlands: Results",
+   "socialMediaTitle": "The right-wing populist Wilders loses in the Netherlands, a young politician rises to power",
+   "excludeFromSpiders": false,
+   "image": "https://img-msp-prod.nzz.ch/2025/10/29/65485359-e09f-4431-a415-e2487e95aee4.jpg?width=1200&height=675&fit=bounds&quality=75&auto=webp&crop=6000,3375,x0,y248&wmark=nzz"
+  },
+  "ldPublicationId": 2405486,
+  "isHighlightedHeader": false,
+  "nzzTopics": [
+   {
+    "name": "Netherlands",
+    "slug": "/themen/niederlande"
+   },
+   {
+    "name": "Geert Wilders",
+    "slug": "/themen/geert-wilders"
+   },
+   {
+    "name": "populism",
+    "slug": "/themen/populismus"
+   },
+   {
+    "name": "Migration",
+    "slug": "/themen/migration"
+   },
+   {
+    "name": "nuclear power",
+    "slug": "/themen/atomkraft"
+   }
+  ],
+  "barrierIndex": 3,
+  "outlinks": {
+   "mehrZumThema": [
+    "ld.1897522",
+    "ld.1892674",
+    "ld.1870749"
+   ],
+   "artikelListe": [],
+   "aliasTeaserEmbedList": []
+  },
+  "tts": true,
+  "hasQ": true,
+  "mp3": true,
+  "mp3Duration": 399935,
+  "project": "nzz",
+  "machineTranslated": true,
+  "machineTranslationValidated": false
+ },
+ "isReduced": false,
+ "isPaid": false,
+ "isVamp": false,
+ "isWebview": false,
+ "btaFeed": {
+  "meta": {
+   "id": "niederlande",
+   "name": "Netherlands",
+   "tagName": "Netherlands",
+   "qId": "Q55",
+   "seoTitle": "Netherlands – All news, articles and information on the topic | NZZ",
+   "description": null,
+   "firstName": null,
+   "lastName": null,
+   "category": "LOC",
+   "createdDate": "2025-04-08 17:13:16.775Z",
+   "imageURL": null,
+   "imageCroppedURL": null,
+   "imageWidth": null,
+   "imageHeight": null,
+   "imageCredits": null,
+   "url": "https://nzz.ch/themen/niederlande",
+   "size": 896,
+   "relatedTopics": [
+    {
+     "name": "Geert Wilders",
+     "slug": "/themen/geert-wilders"
+    },
+    {
+     "name": "Populismus",
+     "slug": "/themen/populismus"
+    },
+    {
+     "name": "Migration",
+     "slug": "/themen/migration"
+    },
+    {
+     "name": "Atomkraft",
+     "slug": "/themen/atomkraft"
+    }
+   ]
+  },
+  "data": [
+   {
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "authorLine": "Volker Reinhardt",
+    "teaserImage": {
+     "originalUrl": "/2026/08/14/8f72a2ec-dd08-43fc-b76e-baf8d11efe29.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/08/14/8f72a2ec-dd08-43fc-b76e-baf8d11efe29.jpg?width=1024&quality=75&auto=webp",
+     "width": 4500,
+     "height": 3000,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "4500,2531,x0,y234"
+      },
+      {
+       "name": "4:3",
+       "crop": "4000,3000,x250,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "3000,3000,x750,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "2250,3000,x1125,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "4500,3000,x0,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "In March 1580, Philip II called upon «all men of good will» to kill the «servant of Satan.» He was referring to William of Orange. A young man did so, making William a national martyr.",
+     "teaserAuthor": "Illustration by Simon Tanner / NZZ"
+    },
+    "teaserAuthor": "Illustration by Simon Tanner / NZZ",
+    "title": "King of Spain orders Prince of Orange killed, founding the Kingdom of the Netherlands",
+    "nzzId": "ld.10019555",
+    "readingTime": 780,
+    "paywallQuestionOne": "How did William's death affect Dutch independence?",
+    "paywallQuestionTwo": "Why was tolerance so dangerous in the 16th century?",
+    "paywallQuestionThree": "What were the consequences of Philip's call for murder for the Netherlands?",
+    "characterCount": 19117,
+    "flag": "series",
+    "product": "NZZ.ch",
+    "documentId": "10019555",
+    "layout": "longformstandard",
+    "publicationDate": "2026-08-23T03:30:00.000Z",
+    "publicationLastUpdated": "2026-08-23T03:30:00.000Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-08-23T15:30:00.000Z",
+    "teaserCaption": "In March 1580, Philip II called upon «all men of good will» to kill the «servant of Satan.» He was referring to William of Orange. A young man did so, making William a national martyr.",
+    "url": "https://www.nzz.ch/feuilleton/der-koenig-von-spanien-liess-den-prinzen-von-oranien-toeten-und-machte-ihn-damit-zum-maertyrer-der-niederlande-ld.10019555",
+    "department": {
+     "name": "Arts & Culture",
+     "path": "/feuilleton"
+    },
+    "estimationWordCount": 2694,
+    "leadText": "In March 1580, Philip II called upon «all men of good will» to kill the «servant of Satan.» He was referring to William of Orange. A young man did so, making William a national martyr.",
+    "nzzSummaryIsAuto": true,
+    "locale": "de-CH"
+   },
+   {
+    "title": "Heat in Europe: Climate researcher warns of more extreme weather; hundreds flee wildfires in Spain",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "flag": "Live ticker",
+    "teaserImage": {
+     "originalUrl": "/2026/08/16/d2612d92-7a98-4fc1-a944-56823092d486.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/08/16/d2612d92-7a98-4fc1-a944-56823092d486.jpg?width=1024&quality=75&auto=webp",
+     "width": 5315,
+     "height": 3543,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "5315,3543,x0,y0"
+      },
+      {
+       "name": "4:3",
+       "crop": "5315,3543,x0,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "5315,3543,x0,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "5315,3543,x0,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "Where is it particularly hot right now? And what are the effects on people and the environment? The latest news on the heatwave in Europe.",
+     "teaserAuthor": "Federico Gambarini / Keystone"
+    },
+    "teaserAuthor": "Federico Gambarini / Keystone",
+    "authorLine": "NZZ Editorial Team",
+    "nzzId": "ld.10008673",
+    "readingTime": 60,
+    "liveCenterId": "86247",
+    "embeds": {
+     "videos": [
+      {
+       "id": "TZNqnPW9",
+       "provider": "jw",
+       "teaser": true,
+       "duration": 9,
+       "sources": [
+        {
+         "file": "https://cdn.jwplayer.com/videos/TZNqnPW9-IBEUDFZ7.mp4",
+         "label": "180p"
+        }
+       ]
+      }
+     ]
+    },
+    "paywallQuestionOne": "How do heat waves affect people, animals and the environment in Switzerland?",
+    "paywallQuestionTwo": "Which regions of Europe are affected by record temperatures?",
+    "paywallQuestionThree": "What measures does the federal government recommend to combat the heat?",
+    "characterCount": 19,
+    "videoTeaser": "TZNqnPW9",
+    "product": "NZZ.ch",
+    "documentId": "10008673",
+    "layout": "regular",
+    "publicationDate": "2026-08-27T06:52:11.732Z",
+    "publicationLastUpdated": "2026-08-27T06:52:11.732Z",
+    "significantUpdate": true,
+    "significantUpdateTill": "2026-08-27T18:52:11.732Z",
+    "teaserCaption": "Where is it particularly hot right now? And what are the effects on people and the environment? The latest news on the heatwave in Europe.",
+    "url": "https://www.nzz.ch/panorama/hitze-in-europa-klimaforscher-warnt-vor-mehr-extremwetter-hunderte-menschen-in-spanien-wegen-waldbrand-evakuiert-ld.10008673",
+    "department": {
+     "name": "Panorama",
+     "path": "/panorama"
+    },
+    "estimationWordCount": 45,
+    "leadText": "Where is it particularly hot right now? And what are the effects on people and the environment? The latest news on the heatwave in Europe.",
+    "nzzSummaryIsAuto": true,
+    "locale": "de-CH"
+   },
+   {
+    "title": "Fire outside asylum accommodation: Loosdrecht becomes a symbol of the fight against Dutch migration policy",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "teaserImage": {
+     "originalUrl": "/2026/07/28/39c21b48-85cc-4afe-b6de-44284df5dacd.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/07/28/39c21b48-85cc-4afe-b6de-44284df5dacd.jpg?width=1024&quality=75&auto=webp",
+     "width": 6240,
+     "height": 4160,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "5673,3190,x0,y970"
+      },
+      {
+       "name": "4:3",
+       "crop": "5547,4160,x60,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "4160,4159,x0,y1"
+      },
+      {
+       "name": "3:4",
+       "crop": "3120,4160,x0,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "6240,4159,x0,y1"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "In a provincial backwater: Anger against asylum seekers turns to open violence, rioters cite housing shortages and crime, but statistics paint a different picture.",
+     "teaserAuthor": "Georgios Kostomitsopoulos/NurPhoto/Getty"
+    },
+    "teaserAuthor": "Georgios Kostomitsopoulos/NurPhoto/Getty",
+    "videoTeaser": "g3OSnXKr",
+    "nzzId": "ld.10016874",
+    "readingTime": 480,
+    "embeds": {
+     "videos": [
+      {
+       "id": "g3OSnXKr",
+       "provider": "jw",
+       "teaser": true,
+       "duration": 9,
+       "sources": [
+        {
+         "file": "https://cdn.jwplayer.com/videos/g3OSnXKr-IBEUDFZ7.mp4",
+         "label": "180p"
+        }
+       ]
+      },
+      {
+       "id": "1W24ussG",
+       "provider": "jw",
+       "teaser": false,
+       "duration": 34,
+       "sources": [
+        {
+         "file": "https://cdn.jwplayer.com/videos/1W24ussG-2KuhEkuQ.mp4",
+         "label": "180p"
+        }
+       ]
+      },
+      {
+       "id": "vf3Wsslr",
+       "provider": "jw",
+       "teaser": false,
+       "duration": 41,
+       "sources": [
+        {
+         "file": "https://cdn.jwplayer.com/videos/vf3Wsslr-2KuhEkuQ.mp4",
+         "label": "180p"
+        }
+       ]
+      }
+     ]
+    },
+    "paywallQuestionOne": "How does the housing shortage influence attitudes towards asylum seekers in Loosdrecht?",
+    "paywallQuestionTwo": "What role do far-right groups play in the protests against asylum accommodations?",
+    "paywallQuestionThree": "Are asylum seekers actually involved in crimes at an above-average rate?",
+    "characterCount": 11498,
+    "product": "NZZ.ch",
+    "documentId": "10016874",
+    "layout": "longformstandard",
+    "publicationDate": "2026-08-11T03:30:00.000Z",
+    "publicationLastUpdated": "2026-08-11T03:30:00.000Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-08-11T15:30:00.000Z",
+    "teaserCaption": "In a provincial backwater: Anger against asylum seekers turns to open violence, rioters cite housing shortages and crime, but statistics paint a different picture.",
+    "authorLine": "Antonio Fumagalli, Loosdrecht",
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2024/08/14/6124518e-3d18-4aa2-826c-c005a3361e94.jpeg?crop=3956,3956,x0,y321&width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/international/feuer-vor-der-asylunterkunft-loosdrecht-wird-zum-symbol-fuer-den-kampf-gegen-die-niederlaendische-migrationspolitik-ld.10016874",
+    "department": {
+     "name": "International",
+     "path": "/international"
+    },
+    "estimationWordCount": 1660,
+    "leadText": "In a provincial backwater: Anger against asylum seekers turns to open violence, rioters cite housing shortages and crime, but statistics paint a different picture.",
+    "nzzSummaryIsAuto": true,
+    "hasQ": true,
+    "locale": "de-CH"
+   },
+   {
+    "title": "Could a phone call to FIFA have brought Switzerland to the semi-finals?",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "teaserImage": {
+     "originalUrl": "/2026/07/16/29625b07-ceb3-43f8-984b-d47ef1b60cbd.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/07/16/29625b07-ceb3-43f8-984b-d47ef1b60cbd.jpg?width=1024&quality=75&auto=webp",
+     "width": 3775,
+     "height": 2939,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "3775,2123,x0,y0"
+      },
+      {
+       "name": "4:3",
+       "crop": "3775,2831,x0,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "2939,2939,x425,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "2204,2939,x1145,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "3775,2517,x0,y0"
+      }
+     ],
+     "focalPoint": {
+      "x": 1271,
+      "y": 91
+     },
+     "imageService": "fastly",
+     "teaserCaption": "How would the World Cup story have unfolded if heads of state had intervened with FIFA earlier, like Donald Trump? Without the world champion Maradona, but at least German-Dutch relations would have been more relaxed.",
+     "teaserAuthor": "Keystone"
+    },
+    "teaserAuthor": "Keystone",
+    "nzzId": "ld.10015723",
+    "readingTime": 480,
+    "paywallQuestionOne": "How could a phone call to FIFA have influenced the course of the World Cup?",
+    "paywallQuestionTwo": "What role does counterfactual history play in football?",
+    "paywallQuestionThree": "How would a World Cup victory in 2002 have changed German football?",
+    "characterCount": 10171,
+    "tags": [
+     "WM 2026",
+     "Fussball"
+    ],
+    "product": "NZZ.ch",
+    "documentId": "10015723",
+    "layout": "longformstandard",
+    "publicationDate": "2026-07-17T03:30:00.000Z",
+    "publicationLastUpdated": "2026-07-17T03:30:00.000Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-07-17T15:30:00.000Z",
+    "teaserCaption": "How would the World Cup story have unfolded if heads of state had intervened with FIFA earlier, like Donald Trump? Without the world champion Maradona, but at least German-Dutch relations would have been more relaxed.",
+    "authorLine": "Stefan Osterhaus, New York",
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2024/12/04/492ebd79-ba68-4245-88ad-824b79ac53c8.jpeg?crop=3712,3712,x1305,y0&width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/sport/fussball/wm-2026/wm-2026-und-trumps-intervention-was-wenn-es-das-schon-frueher-gegeben-haette-ld.10015723",
+    "department": {
+     "name": "World Cup 2026",
+     "path": "/sport/fussball/wm-2026"
+    },
+    "estimationWordCount": 1565,
+    "leadText": "How would the World Cup story have unfolded if heads of state had intervened with FIFA earlier, like Donald Trump? Without the world champion Maradona, but at least German-Dutch relations would have been more relaxed.",
+    "nzzSummaryIsAuto": true,
+    "locale": "de-CH"
+   },
+   {
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "title": "Turmoil in the Netherlands after World Cup exit: Coach Koeman is out, players face racist abuse online",
+    "teaserImage": {
+     "originalUrl": "/2026/07/01/67d3bc38-07de-4bd2-9d25-29ed7c833eaa.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/07/01/67d3bc38-07de-4bd2-9d25-29ed7c833eaa.jpg?width=1024&quality=75&auto=webp",
+     "width": 3543,
+     "height": 2364,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "3543,1993,x0,y29"
+      },
+      {
+       "name": "4:3",
+       "crop": "2605,1954,x567,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "1776,1776,x1006,y48"
+      },
+      {
+       "name": "3:4",
+       "crop": "1773,2364,x998,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "3543,2362,x0,y1"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "The Netherlands' defeat against Morocco is having far-reaching consequences. What's being forgotten is that the Dutch footballing self-image no longer reflects reality – they lack the quality of their earlier days.",
+     "teaserAuthor": "Imago"
+    },
+    "teaserAuthor": "Imago",
+    "tags": [
+     "WM 2026",
+     "Fussball"
+    ],
+    "nzzId": "ld.10013827",
+    "readingTime": 180,
+    "paywallQuestionOne": "Why did Ronald Koeman's change of tactics fail against Morocco?",
+    "paywallQuestionTwo": "How does self-image influence Dutch football?",
+    "paywallQuestionThree": "What are the consequences of the racist attacks following Germany's elimination from the World Cup?",
+    "characterCount": 3706,
+    "product": "NZZ.ch",
+    "documentId": "10013827",
+    "layout": "regular",
+    "publicationDate": "2026-07-02T09:54:14.141Z",
+    "publicationLastUpdated": "2026-07-02T10:11:06.098Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-07-02T21:54:14.141Z",
+    "teaserCaption": "The Netherlands' defeat against Morocco is having far-reaching consequences. What's being forgotten is that the Dutch footballing self-image no longer reflects reality – they lack the quality of their earlier days.",
+    "authorLine": "Sven Haist, Monterrey",
+    "url": "https://www.nzz.ch/sport/selbstzerfleischung-in-den-niederlanden-nach-dem-wm-out-der-trainer-koeman-ist-weg-im-netz-werden-spieler-rassistisch-angefeindet-ld.10013827",
+    "department": {
+     "name": "Sport",
+     "path": "/sport"
+    },
+    "estimationWordCount": 558,
+    "leadText": "The Netherlands' defeat against Morocco is having far-reaching consequences. What's being forgotten is that the Dutch footballing self-image no longer reflects reality – they lack the quality of their earlier days.",
+    "nzzSummaryIsAuto": true,
+    "locale": "de-CH"
+   }
+  ]
+ },
+ "digitalData": {
+  "component": [
+   {
+    "id": "ld.1909329",
+    "name": "Setback for the right-wing populists in the Netherlands: The social liberals win the parliamentary election",
+    "type": "article",
+    "subType1": "regular",
+    "subType2": "",
+    "primaryCategory": "International",
+    "subCategory1": "",
+    "attributes": {
+     "headline": "Setback for the right-wing populists in the Netherlands: The social liberals win the parliamentary election",
+     "firstPublishTitle": "",
+     "catchline": "",
+     "authors": [
+      {
+       "id": 1372746,
+       "name": "Daniel Imwinkelried",
+       "shortName": "imr",
+       "pianoId": "5c12cd2d-916b-488e-be5b-a6ebf0677400",
+       "external": false
+      }
+     ],
+     "issueTimestamp": "2025-10-31T12:31:08.999Z",
+     "updateTimestamp": "2025-10-31T17:29:19.546Z",
+     "isSponsoredContent": false,
+     "isPro": false,
+     "isLiveticker": false,
+     "flag": "",
+     "owner": "NZZ"
+    }
+   }
+  ],
+  "page": {
+   "pageId": "ld.1909329",
+   "pageType": "regular",
+   "primaryCategory": "International",
+   "subCategory1": "",
+   "subCategory2": "",
+   "language": "en-US"
+  },
+  "version": "2.0",
+  "user": {},
+  "event": []
+ },
+ "seoData": {
+  "title": "Elections in the Netherlands: Results",
+  "image": {
+   "url": "https://img-msp-prod.nzz.ch/2025/10/29/65485359-e09f-4431-a415-e2487e95aee4.jpg?width=1200&height=675&fit=bounds&quality=75&auto=webp&crop=6000,3375,x0,y248&wmark=nzz",
+   "type": "image/jpeg",
+   "width": 1200,
+   "height": 675
+  },
+  "author": "Daniel Imwinkelried, Brussels",
+  "description": "Two years ago, the PVV rose to become the largest party in the Netherlands. Now, the social-liberal party D66 has won the parliamentary election. Rob Jetten, the party leader, could become prime minister.",
+  "news_keywords": "Setback for right-wing populists in the Netherlands: The social liberals win the parliamentary election, International, News, NZZ",
+  "type": "article",
+  "last-modified": "2025-10-31T20:29:19+02:00",
+  "date": "2025-10-29T23:33:50+02:00",
+  "canonical": "https://www.nzz.ch/international/niederlage-der-rechtspopulisten-in-den-niederlanden-geert-wilders-partei-pvv-verliert-bei-den-parlamentswahlen-viele-sitze-ld.1909329",
+  "fb:app_id": 138008459595436,
+  "fb:pages": 143694099006529,
+  "fb:admins": 1592685173,
+  "locale": "de-CH",
+  "email": "online.redaktion@nzz.ch",
+  "site_name": "Neue Zürcher Zeitung",
+  "copyright": "2026 Neue Zürcher Zeitung AG, Schweiz",
+  "robots": "noindex, nofollow, noarchive, noodp",
+  "hreflang": [],
+  "sharedTitle": "Setback for the right-wing populists in the Netherlands: The social liberals win the parliamentary election",
+  "ogTitle": "The right-wing populist Wilders loses in the Netherlands, a young politician rises to power",
+  "ogUrl": "https://www.nzz.ch/international/niederlage-der-rechtspopulisten-in-den-niederlanden-geert-wilders-partei-pvv-verliert-bei-den-parlamentswahlen-viele-sitze-ld.1909329",
+  "mrf:cms_id": "nzz:ld.1909329",
+  "mrf:sections": "International",
+  "mrf:tags": "Page Type:regular;Editorial Owner:NZZ;Content Type:Standard Article;Article ID:ld.1909329",
+  "nzzAuthors": [
+   {
+    "id": 1372746,
+    "name": "Daniel Imwinkelried",
+    "shortName": "imr",
+    "pianoId": "5c12cd2d-916b-488e-be5b-a6ebf0677400",
+    "external": false
+   }
+  ],
+  "links": [
+   {
+    "rel": "canonical",
+    "href": "https://www.nzz.ch/international/niederlage-der-rechtspopulisten-in-den-niederlanden-geert-wilders-partei-pvv-verliert-bei-den-parlamentswahlen-viele-sitze-ld.1909329"
+   },
+   {
+    "rel": "search",
+    "href": "/suche",
+    "title": "Suche Neue Zürcher Zeitung, Schweiz, https://www.nzz.ch/suche"
+   }
+  ],
+  "renderedAt": "Thu, 03 Sep 2026 10:02:38 GMT"
+ },
+ "structuredData": [
+  {
+   "@context": "https://schema.org",
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "item": {
+      "@id": "/",
+      "name": "Home"
+     }
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "item": {
+      "@id": "/international",
+      "name": "International"
+     }
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Elections in the Netherlands: Results"
+    }
+   ]
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": "NewsArticle",
+   "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.nzz.ch/international/niederlage-der-rechtspopulisten-in-den-niederlanden-geert-wilders-partei-pvv-verliert-bei-den-parlamentswahlen-viele-sitze-ld.1909329"
+   },
+   "headline": "Elections in the Netherlands: Results",
+   "datePublished": "2025-10-29T23:33:50+02:00",
+   "dateModified": "2025-10-31T20:29:19+02:00",
+   "publisher": {
+    "@type": "NewsMediaOrganization",
+    "name": "Neue Zürcher Zeitung",
+    "url": "https://www.nzz.ch",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://www.nzz.ch/logo.png",
+     "width": 413,
+     "height": 60
+    },
+    "contactPoint": [
+     {
+      "@type": "ContactPoint",
+      "telephone": "+41-44-2581000",
+      "contactType": "customer service"
+     }
+    ],
+    "sameAs": [
+     "https://www.facebook.com/nzz",
+     "https://www.twitter.com/nzz",
+     "https://www.youtube.com/channel/UCK1aTcR0AckQRLTlK0c4fuQ",
+     "https://www.linkedin.com/company/neue-zurcher-zeitung",
+     "https://www.instagram.com/nzz/",
+     "https://de.wikipedia.org/wiki/Neue_Z%C3%BCrcher_Zeitung",
+     "https://www.wikidata.org/wiki/Q658945",
+     "https://plus.google.com/+nzz/",
+     "http://www.freebase.com/m/041b43"
+    ],
+    "masthead": "https://www.nzz.ch/impressum/impressum-ld.148422",
+    "foundingDate": "1780"
+   },
+   "description": "Two years ago, the PVV rose to become the largest party in the Netherlands. Now, the social-liberal party D66 has won the parliamentary election. Rob Jetten, the party leader, could become prime minister.",
+   "isAccessibleForFree": false,
+   "articleSection": "International",
+   "hasPart": {
+    "@type": "WebPageElement",
+    "isAccessibleForFree": false,
+    "cssSelector": ".nzzinteraction"
+   },
+   "image": {
+    "@type": "ImageObject",
+    "url": "https://img-msp-prod.nzz.ch/2025/10/29/65485359-e09f-4431-a415-e2487e95aee4.jpg?width=1200&height=675&fit=bounds&quality=75&auto=webp&crop=6000,3375,x0,y248&wmark=nzz",
+    "width": 1200,
+    "height": 675
+   },
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Daniel Imwinkelried"
+    }
+   ],
+   "inLanguage": "de"
+  }
+ ],
+ "mp3": true,
+ "mp3Duration": 399935,
+ "bT": {
+  "standard": {
+   "Tags": [
+    "/international/niederlage-der-rechtspopulisten-in-den-niederlanden-geert-wilders-partei-pvv-verliert-bei-den-parlamentswahlen-viele-sitze-ld.1909329",
+    "classification=default",
+    "relevance=germany",
+    "layout=regular",
+    "owner=nzz",
+    "product=nzz",
+    "doctype=article",
+    "pagetype=article",
+    "ldid=ld.1909329",
+    "channel=International"
+   ],
+   "ContentCreated": "2025-10-29T20:33:50.528Z",
+   "ContentAuthor": "Daniel Imwinkelried, Brüssel",
+   "ContentSection": "International",
+   "ContentIsNative": true
+  },
+  "custom": {
+   "product": "nzz",
+   "docType": "article",
+   "pageType": "article",
+   "layout": "regular",
+   "ldId": "ld.1909329",
+   "channel": "International",
+   "heading": "Rückschlag für die Rechtspopulisten in den Niederlanden: Die Sozialliberalen gewinnen die Parlamentswahl",
+   "language": "en-US"
+  }
+ },
+ "webviewMetadata": {},
+ "cacheTime": 3600
+}

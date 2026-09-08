@@ -1,0 +1,1630 @@
+{
+ "content": [
+  {
+   "identifier": "header",
+   "id": "doc-1jj1lo00j0",
+   "content": {
+    "title": "Dario and Daniela Amodei: the siblings who defy the Pentagon",
+    "lead": "Anthropic is one of the most successful AI companies. Behind it are a brother and sister from San Francisco who initially had no interest in the tech world.",
+    "author": ""
+   },
+   "containers": {
+    "authors": [
+     {
+      "identifier": "author-teaser",
+      "id": "doc-9kvMdXbvcf",
+      "content": {
+       "layout": "authorprofile",
+       "title": "Ruth Fulterer",
+       "url": "/impressum/ruth-fulterer-ld.1601051",
+       "teaserImage": {
+        "originalUrl": "/2022/07/27/b4a7225d-fbad-484c-8e6e-d48eacd967e9.png?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2022/07/27/b4a7225d-fbad-484c-8e6e-d48eacd967e9.png?width=1024&quality=75&auto=webp",
+        "width": 800,
+        "height": 800,
+        "crops": [
+         {
+          "name": "web-teaser",
+          "crop": "800,450,x0,y175"
+         },
+         {
+          "name": "1:1",
+          "crop": "800,800,x0,y0"
+         },
+         {
+          "name": "4:3",
+          "crop": "800,600,x0,y100"
+         },
+         {
+          "name": "3:4",
+          "crop": "600,800,x100,y0"
+         }
+        ],
+        "imageService": "fastly"
+       }
+      }
+     }
+    ]
+   },
+   "prevElement": "",
+   "nextElement": "image",
+   "firstContentElement": true
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1jjeegkrm0",
+   "content": {
+    "image": {
+     "author": "PD; Editing NZZ",
+     "caption": "The Amodei siblings did not give in to the Pentagon in the dispute over the use of AI.",
+     "originalUrl": "/2026/03/11/696d710a-0aab-46c7-8d05-b97044984556.jpg?crop=2188,2917,x0,y0",
+     "width": 2188,
+     "height": 3309,
+     "altText": "Dario and Daniela Amodei.",
+     "origins": [
+      {
+       "name": "Hugo",
+       "identifier": "2177808072"
+      }
+     ],
+     "crop": {
+      "x": 0,
+      "y": 0,
+      "width": 2188,
+      "height": 2917
+     },
+     "imageService": "fastly"
+    },
+    "caption": "The Amodei siblings did not give in to the Pentagon in the dispute over the use of AI.",
+    "author": "PD; Editing NZZ"
+   },
+   "prevElement": "header",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jjbet0tu1",
+   "content": {
+    "text": "The most striking thing about Dario and Daniela Amodei is their unassuming nature. Unlike most tech CEOs, you could easily picture them doing their weekly grocery shopping. He is an easygoing type, looks more like he is settled in for a night in front of the TV than a gym member, and often has a broad grin on his face. She always looks her conversation partners in the eye and places her other hand on top when shaking hands. They could not be further removed from the personas of a Sam Altman, a Mark Zuckerberg, or a Jeff Bezos. And yet, these siblings are now in the spotlight as tough figures."
+   },
+   "prevElement": "image",
+   "nextElement": "barrier"
+  },
+  {
+   "id": "doc-1f1041cd",
+   "identifier": "barrier",
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jj938vki0",
+   "content": {
+    "text": "In the dispute over their company Anthropic, the Amodeis stood up to the Pentagon. They wanted to have a say in how the government used the chatbot Claude and refused to budge on their red lines, even under pressure."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "barrier",
+   "nextElement": "alias-teaser-embed"
+  },
+  {
+   "identifier": "alias-teaser-embed",
+   "id": "doc-1jjhbae1i0",
+   "content": {
+    "title": "Newsletter: The Weekend",
+    "owner": "NZZ",
+    "teaserImage": {
+     "originalUrl": "/2025/09/10/b264a1fc-171a-481d-844f-a268134d3573.png?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2025/09/10/b264a1fc-171a-481d-844f-a268134d3573.png?width=1024&quality=75&auto=webp",
+     "width": 2100,
+     "height": 2100,
+     "crops": [
+      {
+       "name": "1:1",
+       "crop": "2100,2100,x0,y0"
+      },
+      {
+       "name": "4:3",
+       "crop": "2100,1575,x0,y262"
+      },
+      {
+       "name": "3:4",
+       "crop": "1575,2100,x268,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "2100,1400,x0,y356"
+      },
+      {
+       "name": "16:9",
+       "crop": "2100,1181,x0,y459"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "Inspiring reports, moving stories, in-depth background information: Every Friday afternoon we accompany you into your weekend with selected reading tips.",
+     "teaserAuthor": ""
+    },
+    "teaserAuthor": "",
+    "urlAliasTeaser": "https://abo.nzz.ch/newsletter/das-wochenende/",
+    "urlLabel": "Subscribe now for free",
+    "nzzId": "ld.1901825",
+    "isExternal": true,
+    "teaserType": "",
+    "product": "NZZ.ch",
+    "documentId": 1901825,
+    "layout": "alias-teaser",
+    "publicationDate": "2025-09-10T09:16:19.150Z",
+    "publicationLastUpdated": "2026-08-22T17:50:10.099Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2025-09-10T21:16:19.150Z",
+    "teaserCaption": "Inspiring reports, moving stories, in-depth background information: Every Friday afternoon we accompany you into your weekend with selected reading tips.",
+    "url": "https://abo.nzz.ch/newsletter/das-wochenende/",
+    "department": {},
+    "leadText": "Inspiring reports, moving stories, in-depth background information: Every Friday afternoon we accompany you into your weekend with selected reading tips."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jj9m6pid1",
+   "content": {
+    "text": "As a result, Anthropic not only lost its status as the primary supplier of artificial intelligence (AI) to the U.S. government, but the company was also effectively declared an enemy of the state: <a target=\"_blank\" href=\"https://www.nzz.ch/technologie/streit-um-ki-das-pentagon-erklaert-anthropic-zur-gefahr-fuer-das-militaer-ld.1928023\">It is now considered a supply chain risk.</a> Anyone doing business with the U.S. government is prohibited from using Anthropic. Dario Amodei <a target=\"_blank\" href=\"https://www.bbc.com/news/articles/cn5g3z3xe65o\">filed a lawsuit against this decision on Monday</a>."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "alias-teaser-embed",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jj93dupr0",
+   "content": {
+    "text": "Few expected the tech company to fight this battle to the bitter end. But it's typical of the Amodeis. Of Dario, but also of his sister Daniela. Because it's not just in their demeanor that they differ from other AI founders."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1jj9dq4620",
+   "content": {
+    "title": "Dario became politically active as a physics student",
+    "id": "subtitle-dario-politisierte-als-physikstudent"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jj1pbf8a0",
+   "content": {
+    "text": "The Amodeis grew up in the Mission District, a working-class neighborhood in San Francisco shaped by its Latino and queer communities. According to media reports, their father, Riccardo, was a trained leatherworker who had come to the U.S. from the Tuscan town of Massa Marittima. Their mother, Elena Engel, a Jewish American from Chicago, managed renovation projects at libraries in the area. They were said to be a close couple with idealistic values, which they also passed on to their children."
+   },
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jj1na0g40",
+   "content": {
+    "text": "Dario was born in 1983, Daniela in 1987. They were teenagers during the dot-com boom. But Silicon Valley, although very close, didn't interest either of them."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jj1p8qk41",
+   "content": {
+    "text": "Dario was a math nerd, took part in the Physics Olympiad with the American team in 2000, and subsequently studied physics. However, he was also interested in world politics. At 20, he urged his fellow students in his university's <a target=\"_blank\" href=\"https://campuspubs.library.caltech.edu/1846/1/2003_03_03_104_18.pdf\">campus newspaper</a> to take a stand against the Iraq War instead of passively accepting it: «We, who have so much power to influence the future, astonishingly forfeit our right to do so,» he wrote. He continued, almost prophetically: «We should never allow ourselves to be degraded to amoral technicians who operate the machines of war as casually as we operate our computers.»"
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jj1ugijv0",
+   "content": {
+    "text": "His switch from physics to AI was also due to the death of his father. Riccardo died of a rare disease, for which the chances of a cure improved significantly just a few years later. For Amodei, this was the motivation to move more towards biology – and then to turn to AI as a tool that could accelerate all kinds of research. At least, that's how he tells it in interviews."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jj1ukr650",
+   "content": {
+    "text": "He began his career at a research lab of the Chinese company Baidu at Stanford and moved to Google's AI research lab, Google Brain, in 2015. During this time, Dario was invited to a prestigious dinner that would go down in tech history. There, Elon Musk and Sam Altman presented their plan: an AI research lab dedicated to serving humanity. This became OpenAI."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jj1v481i0",
+   "content": {
+    "text": "Amodei was not impressed: «It felt like it was more about famous tech investors and entrepreneurs than about AI researchers,» <a target=\"_blank\" href=\"https://www.wired.com/story/anthropic-benevolent-artificial-intelligence/\">Wired</a> magazine quoted him as saying. But a few months later, he joined OpenAI after all, because the company had attracted some very well-known AI researchers. Two years later, he brought his sister on board."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "image"
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1jj1lsk7f1",
+   "content": {
+    "image": {
+     "author": "Denis Balibouse / Reuters",
+     "caption": "Dario Amodei laid one of the foundations for Chat-GPT at OpenAI.",
+     "originalUrl": "/2026/03/06/18751425-5f02-42b8-bf23-643aec011ccc.jpg?width=1024",
+     "width": 5900,
+     "height": 3933,
+     "altText": "CEO and Co-Founder of Anthropic Dario Amodei speaks during the 56th annual World Economic Forum (WEF) meeting in Davos, Switzerland, January 20, 2026. REUTERS/Denis Balibouse",
+     "origins": [
+      {
+       "name": "Hugo",
+       "identifier": "2176727671"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "caption": "Dario Amodei laid one of the foundations for Chat-GPT at OpenAI.",
+    "author": "Denis Balibouse / Reuters"
+   },
+   "styles": {
+    "fullwidth-widget": "widget--containerwidth"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1jj9dq6eg0",
+   "content": {
+    "title": "Daniela is interested in literature, music and people",
+    "id": "subtitle-daniela-interessiert-sich-f-r-literatur-musik-und-menschen"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "image",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jj9e1bml0",
+   "content": {
+    "text": "Daniela Amodei studied literature and flute, then worked in development aid and politics – including as a campaign manager for a Democratic congressman. In 2013, she moved to Silicon Valley. She was an early employee at the fintech company Stripe, initially working as a recruiter, later in risk management."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jj9dvdrc1",
+   "content": {
+    "text": "She explained how literature, music, politics and technology fit together in an <a target=\"_blank\" href=\"https://sixthstreet.com/podcasts/a-conversation-with-daniela-amodei-co-founder-and-president-of-anthropic/#:~:text=Sixth%20Street\">interview</a> with an investment firm: Playing music in an orchestra teaches you how to assemble a team where roles are clearly defined and the whole is greater than the sum of its parts. Studying literature made her more empathetic and enabled her to consider problems from different perspectives."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jj9e87940",
+   "content": {
+    "text": "At OpenAI, Daniela also managed the team that developed GPT-2, a predecessor of the chatbot ChatGPT. Dario, as a researcher, played a key role in developing the technology that, years later, would usher in the AI revolution. The siblings recognized the technology's potential – and worried about its future impact."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jj9ejk510",
+   "content": {
+    "text": "In the fall of 2023, it became public knowledge that CEO Sam Altman was controversial at OpenAI when he <a target=\"_blank\" href=\"https://www.nzz.ch/technologie/diese-blase-wird-platzen-journalistin-karen-hao-sieht-im-ki-hype-ein-risiko-fuer-die-weltwirtschaft-ld.1892497\">lost his job</a> and was subsequently reinstated. The board of directors had lost confidence in him. Dario and Daniela Amodei had apparently drawn their conclusions about their boss's personality years earlier. Along with five other associates, they left OpenAI at the end of 2020 to found a competing company based on their own vision: Anthropic."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jj1to99j0",
+   "content": {
+    "text": "In a <a target=\"_blank\" href=\"https://www.youtube.com/watch?v=om2lIWXLLN4\">marketing video,</a> the seven founders sit around a table and describe their company culture. They emphasize the high level of trust among themselves at Anthropic. One says this is to Daniela's credit, as she maintains high standards: «She doesn't let any clowns in.» Daniela Amodei is now Anthropic's president and focuses primarily on the human side of the business. Dario is the CEO."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jj9mg1oj0",
+   "content": {
+    "text": "The conversation is staged, yet some aspects of it feel authentic. For example, the chemistry between the siblings and the co-founders. And the fact that they didn't simply want to «start a company,» but rather slipped into the role of founders out of a sense of duty, convinced that a better AI company is needed. All seven co-founders are now billionaires thanks to their company shares. They have pledged to donate 80% of their wealth to charity."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "image"
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1jj1lt1kv1",
+   "content": {
+    "image": {
+     "author": "Steve Marcus / Reuters",
+     "caption": "«She doesn’t let any clowns in»: Daniela Amodei is responsible for shaping the company culture at Anthropic.",
+     "originalUrl": "/2026/03/06/0e7b019e-c5ac-4928-9dea-fc90d92d8591.jpg?width=1024",
+     "width": 5586,
+     "height": 3803,
+     "altText": "Daniela Amodei, president and co-founder of Anthropic, speaks during a Panasonic keynote at CES 2025, an annual consumer electronics trade show, in Las Vegas, Nevada, US January 7, 2025. REUTERS/Steve Marcus",
+     "origins": [
+      {
+       "name": "Hugo",
+       "identifier": "2164667239"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "caption": "«She doesn’t let any clowns in»: Daniela Amodei is responsible for shaping the company culture at Anthropic.",
+    "author": "Steve Marcus / Reuters"
+   },
+   "styles": {
+    "fullwidth-widget": "widget--containerwidth"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1jj9fcqve0",
+   "content": {
+    "title": "The Amodeis are close to effective altruists",
+    "id": "subtitle-die-amodeis-stehen-den-effektiven-altruisten-nahe"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "image",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jj1v670i0",
+   "content": {
+    "text": "Dario and Daniela Amodei are close to the <a target=\"_blank\" href=\"https://www.nzz.ch/meinung/entscheider-bei-openai-und-anderen-tech-firmen-haengen-oft-einer-hyper-rationalen-ethik-an-dem-effektiven-altruismus-das-ist-ein-problem-ld.1767244\">effective altruist movement</a> , an ethical school whose adherents strive to increase good in the world in the most rational way possible. Daniela's husband, Holden Karnofsky, has founded several philanthropic organizations with this orientation. Today he works at Anthropic."
+   },
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jj9mmpqf1",
+   "content": {
+    "text": "Sam Bankman-Fried, founder of the crypto exchange FTX and formerly a leading figure in effective altruism, invested <a target=\"_blank\" href=\"https://www.cnbc.com/2024/03/25/ftx-estate-sells-majority-stake-in-startup-anthropic-for-884-million.html\">half a billion dollars</a> in Anthropic in 2022. FTX has since collapsed, and Bankman-Fried has been imprisoned for fraud. This is likely one reason why the Amodeis are <a target=\"_blank\" href=\"https://forum.effectivealtruism.org/posts/53Gc35vDLK2u5nBxP/anthropic-is-not-being-consistently-candid-about-their\">downplaying their connection to the movement</a> ."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jj9g452d0",
+   "content": {
+    "text": "But Anthropic's corporate philosophy aligns well with effective altruism: they want to do good while utilizing modern technology, and they are particularly concerned about future dangers, especially an overpowered AI that could spiral out of control or be used for nefarious purposes. Dario Amodei <a target=\"_blank\" href=\"https://www.darioamodei.com/essay/the-adolescence-of-technology\">published</a> a detailed blog post on this topic just this past January. Which brings us back to the debate with the Pentagon."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jj9g90q10",
+   "content": {
+    "text": "At its core, this debate revolves around who sets the limits on the use of artificial intelligence. Anthropic is attempting to mitigate the potential harm of its creation by giving its chatbot Claude a kind of <a target=\"_blank\" href=\"https://www.anthropic.com/constitution\">«character.»</a> This is intended to ensure that Claude refuses to perform any problematic tasks. The Pentagon, on the other hand, wants to decide for itself how it uses AI."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jj9gkpfc1",
+   "content": {
+    "text": "<a target=\"_blank\" href=\"https://www.nzz.ch/technologie/die-fehde-zwischen-anthropic-und-dem-pentagon-erschuettert-das-silicon-valley-ld.1927352\">The main points of contention were reportedly autonomous weapons and the mass surveillance of Americans.</a> Anthropic argues that the technology is not yet ready for autonomous weapons, and that the mass surveillance of its own citizens violates its principles."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1jj9hpuqp0",
+   "content": {
+    "title": "Anthropic has already made ethical compromises",
+    "id": "subtitle-anthropic-ist-schon-ethische-kompromisse-eingegangen"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jj9gk7i40",
+   "content": {
+    "text": "Despite the idealism now on display, Anthropic has already made compromises. It is collaborating with Palantir, the most prominent provider of AI services for warfare and surveillance."
+   },
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jj9mv10j0",
+   "content": {
+    "text": "An <a target=\"_blank\" href=\"https://www.wired.com/story/anthropic-dario-amodei-gulf-state-leaked-memo/\">internal memo leaked</a> to Wired magazine this summer also revealed that Dario Amodei was considering attracting Gulf state funds as investors, after having previously condemned doing so. Contradictory? Amodei does not see it that way. The «media / Twitter / the outside world,» he wrote, are always looking for hypocrisy and are «also very stupid.» He added: «It's perfectly consistent to advocate for rules that say, 'No one may do X,' but when those rules fail and everyone else does X, to reluctantly do X yourself.»"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jj9habl80",
+   "content": {
+    "text": "The Amodeis' idealism is therefore flexible. Their steadfastness towards the Trump administration may have less to do with their own beliefs than with the reputation they have to lose, especially among their employees."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jj9mvsiq1",
+   "content": {
+    "text": "Being seen as «the good guys» in the AI race helps Anthropic hold its own in the fierce competition for talent from Google, OpenAI and Meta. Having a CEO and a president who seem genuinely nice and down-to-earth is a unique selling point in Silicon Valley."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "sharebox",
+   "lastContentElement": true
+  },
+  {
+   "identifier": "sharebox",
+   "id": "doc-1jj1lo00j3",
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "related-articles-container"
+  },
+  {
+   "identifier": "related-articles-container",
+   "id": "doc-1jj1lo00j4",
+   "content": {
+    "title": "Related articles"
+   },
+   "containers": {
+    "related-articles": [
+     {
+      "identifier": "teaser",
+      "id": "doc-1jj1lo00j5",
+      "content": {
+       "owner": "NZZ",
+       "title": "Dispute over AI technology: Anthropic sues the Pentagon",
+       "teaserImage": {
+        "originalUrl": "/2026/03/06/d58f44ae-dc28-43db-b65a-c32564b7c3e6.jpg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2026/03/06/d58f44ae-dc28-43db-b65a-c32564b7c3e6.jpg?width=1024&quality=75&auto=webp",
+        "width": 3500,
+        "height": 2333,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "3500,1969,x0,y182"
+         },
+         {
+          "name": "1:1",
+          "crop": "2333,2333,x584,y0"
+         },
+         {
+          "name": "4:3",
+          "crop": "3111,2333,x195,y0"
+         },
+         {
+          "name": "3:4",
+          "crop": "1750,2333,x875,y0"
+         },
+         {
+          "name": "3:2",
+          "crop": "3500,2333,x0,y0"
+         }
+        ],
+        "imageService": "fastly",
+        "teaserCaption": "The San Francisco-based AI firm is suing the U.S. Department of Defense because it was classified as a supply chain risk. The case raises fundamental questions about the future of the powerful technology – and about a power struggle with the Trump administration.",
+        "teaserAuthor": "Dado Ruvic / Reuters"
+       },
+       "teaserAuthor": "Dado Ruvic / Reuters",
+       "nzzasFootnote": false,
+       "folioFootnote": false,
+       "language": {
+        "locale": "de-CH"
+       },
+       "nzzId": "ld.1928023",
+       "readingTime": 420,
+       "authorLine": "Marie-Astrid Langer, San Francisco",
+       "tags": [
+        "Neue Technologien im Krieg",
+        "Künstliche Intelligenz"
+       ],
+       "characterCount": 8817,
+       "product": "NZZ.ch",
+       "documentId": 1928023,
+       "layout": "regular",
+       "publicationDate": "2026-03-09T16:48:30.010Z",
+       "publicationLastUpdated": "2026-05-18T09:49:24.308Z",
+       "significantUpdate": true,
+       "significantUpdateTill": "2026-03-10T04:48:30.010Z",
+       "teaserCaption": "The San Francisco-based AI firm is suing the U.S. Department of Defense because it was classified as a supply chain risk. The case raises fundamental questions about the future of the powerful technology – and about a power struggle with the Trump administration.",
+       "authorImage": {
+        "url": "https://img-msp-prod.nzz.ch/2024/06/03/ce3939b2-019d-4572-9c01-35b10c9ec35a.jpeg?width=1024&quality=75&auto=webp",
+        "originalUrl": "/2024/06/03/ce3939b2-019d-4572-9c01-35b10c9ec35a.jpeg?width=1024",
+        "imageService": "fastly",
+        "width": 1200,
+        "height": 1200,
+        "crops": []
+       },
+       "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2024/06/03/ce3939b2-019d-4572-9c01-35b10c9ec35a.jpeg?width=1024&quality=75&auto=webp",
+       "url": "/technologie/streit-um-ki-das-pentagon-erklaert-anthropic-zur-gefahr-fuer-das-militaer-ld.1928023",
+       "department": {
+        "name": "Technology",
+        "path": "/technologie"
+       },
+       "estimationWordCount": 1303,
+       "leadText": "The San Francisco-based AI firm is suing the U.S. Department of Defense because it was classified as a supply chain risk. The case raises fundamental questions about the future of the powerful technology – and about a power struggle with the Trump administration.",
+       "nzzSummaryIsAuto": true
+      }
+     },
+     {
+      "identifier": "teaser",
+      "id": "doc-1jj1lo00j6",
+      "content": {
+       "owner": "NZZ",
+       "title": "The digital revolution devours its own: AI tool Claude Legal sends tech stars like Adobe tumbling",
+       "teaserImage": {
+        "originalUrl": "/2026/02/04/f239b17d-7b7d-4abe-97a6-5e264b7cffea.jpg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2026/02/04/f239b17d-7b7d-4abe-97a6-5e264b7cffea.jpg?width=1024&quality=75&auto=webp",
+        "width": 2784,
+        "height": 1856,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "2784,1566,x0,y145"
+         },
+         {
+          "name": "1:1",
+          "crop": "1856,1856,x464,y0"
+         },
+         {
+          "name": "4:3",
+          "crop": "2475,1856,x155,y0"
+         },
+         {
+          "name": "3:4",
+          "crop": "1392,1856,x696,y0"
+         },
+         {
+          "name": "3:2",
+          "crop": "2784,1856,x0,y0"
+         }
+        ],
+        "imageService": "fastly",
+        "teaserCaption": "Software companies were high-flyers on the stock market for years. Now AI threatens their business model.",
+        "teaserAuthor": "Illustration by Simon Tanner / NZZ"
+       },
+       "teaserAuthor": "Illustration by Simon Tanner / NZZ",
+       "nzzasFootnote": false,
+       "folioFootnote": false,
+       "language": {
+        "locale": "de-CH"
+       },
+       "nzzId": "ld.1923426",
+       "readingTime": 240,
+       "authorLine": "Markus Städeli",
+       "characterCount": 5179,
+       "product": "NZZ.ch",
+       "documentId": 1923426,
+       "layout": "regular",
+       "publicationDate": "2026-02-04T13:20:29.506Z",
+       "publicationLastUpdated": "2026-02-04T13:53:14.580Z",
+       "significantUpdate": false,
+       "significantUpdateTill": "2026-02-05T01:20:29.506Z",
+       "teaserCaption": "Software companies were high-flyers on the stock market for years. Now AI threatens their business model.",
+       "authorImage": {
+        "originalUrl": "/2023/12/06/c8d63d85-2a0d-4fc5-9288-ba44fa4f5baf.png?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2023/12/06/c8d63d85-2a0d-4fc5-9288-ba44fa4f5baf.png?width=1024&quality=75&auto=webp",
+        "width": 800,
+        "height": 800,
+        "crops": [
+         {
+          "name": "1:1",
+          "crop": "800,800,x0,y0"
+         }
+        ],
+        "imageService": "fastly"
+       },
+       "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2023/12/06/c8d63d85-2a0d-4fc5-9288-ba44fa4f5baf.png?width=1024&quality=75&auto=webp",
+       "url": "/wirtschaft/die-digitale-revolution-frisst-ihre-kinder-das-ki-tool-claude-legal-schickt-tech-boersenstars-wie-adobe-auf-talfahrt-ld.1923426",
+       "department": {
+        "name": "Economy",
+        "path": "/wirtschaft"
+       },
+       "estimationWordCount": 735,
+       "leadText": "Software companies were high-flyers on the stock market for years. Now AI threatens their business model.",
+       "nzzSummaryIsAuto": true
+      }
+     },
+     {
+      "identifier": "teaser",
+      "id": "doc-1jj1lo00j7",
+      "content": {
+       "owner": "NZZ",
+       "flag": "interview",
+       "title": "«With the hasty deployment of AI, the minister of war is rolling out the red carpet for our enemies»",
+       "teaserImage": {
+        "originalUrl": "/2026/03/02/db6f8519-4b38-453a-b6e4-8ff2c74b19c0.jpg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2026/03/02/db6f8519-4b38-453a-b6e4-8ff2c74b19c0.jpg?width=1024&quality=75&auto=webp",
+        "width": 2801,
+        "height": 4200,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "2801,1576,x0,y626"
+         },
+         {
+          "name": "1:1",
+          "crop": "1382,1382,x882,y623"
+         },
+         {
+          "name": "4:3",
+          "crop": "2213,1660,x588,y549"
+         },
+         {
+          "name": "3:4",
+          "crop": "2801,3735,x0,y465"
+         },
+         {
+          "name": "3:2",
+          "crop": "2490,1660,x311,y578"
+         }
+        ],
+        "imageService": "fastly",
+        "teaserCaption": "Former fighter pilot Missy Cummings researches the use of artificial intelligence on the battlefield. She says its use in Iran shows how little the U.S. Department of Defense understands about AI.",
+        "teaserAuthor": "PD"
+       },
+       "teaserAuthor": "PD",
+       "nzzasFootnote": false,
+       "folioFootnote": false,
+       "paywallQuestionOne": "What are the risks of the ill-considered use of AI in the military?",
+       "paywallQuestionTwo": "How could errors in AI in weapons systems be investigated?",
+       "paywallQuestionThree": "Why is there a lack of understanding of AI in the Ministry of War?",
+       "language": {
+        "locale": "de-CH"
+       },
+       "nzzId": "ld.1927271",
+       "readingTime": 300,
+       "showComments": true,
+       "authorLine": "Leonid Leiva Ariosa",
+       "tags": [
+        "Künstliche Intelligenz"
+       ],
+       "characterCount": 7360,
+       "product": "NZZ.ch",
+       "documentId": 1927271,
+       "layout": "longformstandard",
+       "publicationDate": "2026-03-05T04:30:00.000Z",
+       "publicationLastUpdated": "2026-05-18T09:50:10.425Z",
+       "significantUpdate": false,
+       "significantUpdateTill": "2026-03-05T16:30:00.000Z",
+       "teaserCaption": "Former fighter pilot Missy Cummings researches the use of artificial intelligence on the battlefield. She says its use in Iran shows how little the U.S. Department of Defense understands about AI.",
+       "authorImage": {
+        "originalUrl": "/2025/03/27/bd2998c4-14cf-4b24-863a-0566e5285f93.jpeg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2025/03/27/bd2998c4-14cf-4b24-863a-0566e5285f93.jpeg?width=1024&quality=75&auto=webp",
+        "width": 6001,
+        "height": 4000,
+        "crops": [
+         {
+          "name": "1:1",
+          "crop": "2809,2809,x1675,y518"
+         }
+        ],
+        "imageService": "fastly"
+       },
+       "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2025/03/27/bd2998c4-14cf-4b24-863a-0566e5285f93.jpeg?width=1024&quality=75&auto=webp",
+       "url": "/technologie/mit-dem-ueberhasteten-einsatz-von-ki-rollt-der-kriegsminister-unseren-feinden-den-roten-teppich-aus-sagt-eine-ex-kampfpilotin-ld.1927271",
+       "department": {
+        "name": "Technology",
+        "path": "/technologie"
+       },
+       "estimationWordCount": 1095,
+       "premium": true,
+       "leadText": "Former fighter pilot Missy Cummings researches the use of artificial intelligence on the battlefield. She says its use in Iran shows how little the U.S. Department of Defense understands about AI.",
+       "nzzSummaryIsAuto": true
+      }
+     }
+    ]
+   },
+   "paidContent": true,
+   "prevElement": "sharebox",
+   "nextElement": "",
+   "lastContentElement": true
+  }
+ ],
+ "metadata": {
+  "owner": "NZZ",
+  "title": "Dario and Daniela Amodei: the siblings who defy the Pentagon",
+  "teaserImage": {
+   "originalUrl": "/2026/03/11/696d710a-0aab-46c7-8d05-b97044984556.jpg?width=1024",
+   "url": "https://img-msp-prod.nzz.ch/2026/03/11/696d710a-0aab-46c7-8d05-b97044984556.jpg?width=1024&quality=75&auto=webp",
+   "width": 2188,
+   "height": 3309,
+   "crops": [
+    {
+     "name": "16:9",
+     "crop": "2188,1231,x0,y345"
+    },
+    {
+     "name": "1:1",
+     "crop": "2188,2188,x0,y246"
+    },
+    {
+     "name": "4:3",
+     "crop": "2188,1641,x0,y294"
+    },
+    {
+     "name": "3:4",
+     "crop": "2188,2917,x0,y122"
+    },
+    {
+     "name": "3:2",
+     "crop": "2188,1459,x0,y340"
+    }
+   ],
+   "imageService": "fastly",
+   "teaserCaption": "Anthropic is one of the most successful AI companies. Behind it are a brother and sister from San Francisco who initially had no interest in the tech world.",
+   "teaserAuthor": "PD; Editing NZZ"
+  },
+  "teaserAuthor": "PD; Editing NZZ",
+  "nzzasFootnote": false,
+  "folioFootnote": false,
+  "language": {
+   "locale": "en-US"
+  },
+  "nzzId": "ld.1928134",
+  "readingTime": 420,
+  "authorLine": "Ruth Fulterer",
+  "tags": [
+   "Technologie: Empfehlungen",
+   "Künstliche Intelligenz"
+  ],
+  "dependencies": {},
+  "characterCount": 9616,
+  "breadcrumbs": [
+   {
+    "name": "Technology",
+    "path": "/technologie"
+   }
+  ],
+  "product": "NZZ.ch",
+  "documentId": 1928134,
+  "contentTypeGroup": "web",
+  "layout": "longformstandard",
+  "firstPublicationDate": "2026-03-12T04:30:00.000Z",
+  "publicationDate": "2026-03-12T04:30:00.000Z",
+  "publicationLastUpdated": "2026-05-18T09:48:23.200Z",
+  "significantUpdate": false,
+  "significantUpdateTill": "2026-03-12T16:30:00.000Z",
+  "teaserCaption": "Anthropic is one of the most successful AI companies. Behind it are a brother and sister from San Francisco who initially had no interest in the tech world.",
+  "nzzAuthors": [
+   {
+    "id": 1532351,
+    "name": "Ruth Fulterer",
+    "shortName": "ful",
+    "pianoId": "84c1f069-1900-49fa-8ab5-45d154bf1174",
+    "external": false
+   }
+  ],
+  "authorImage": {
+   "originalUrl": "/2022/07/27/b4a7225d-fbad-484c-8e6e-d48eacd967e9.png?width=1024",
+   "url": "https://img-msp-prod.nzz.ch/2022/07/27/b4a7225d-fbad-484c-8e6e-d48eacd967e9.png?width=1024&quality=75&auto=webp",
+   "width": 800,
+   "height": 800,
+   "crops": [
+    {
+     "name": "1:1",
+     "crop": "800,800,x0,y0"
+    }
+   ],
+   "imageService": "fastly"
+  },
+  "nzzAuthorProfileDataCollection": [
+   {
+    "documentId": 1601051,
+    "name": "Ruth Fulterer (ful.)",
+    "teaserImageUrl": "https://img-msp-prod.nzz.ch/2022/07/27/b4a7225d-fbad-484c-8e6e-d48eacd967e9.png?width=1024&quality=75&auto=webp"
+   }
+  ],
+  "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2022/07/27/b4a7225d-fbad-484c-8e6e-d48eacd967e9.png?width=1024&quality=75&auto=webp",
+  "url": "/technologie/dario-und-daniela-amodei-die-geschwister-die-dem-pentagon-die-stirn-bieten-ld.1928134",
+  "department": {
+   "name": "Technology",
+   "path": "/technologie"
+  },
+  "estimationWordCount": 1472,
+  "leadText": "Anthropic is one of the most successful AI companies. Behind it are a brother and sister from San Francisco who initially had no interest in the tech world.",
+  "nzzSummaryEN": "- Dario and Daniela Amodei, founders of Anthropic, defied the Pentagon over the use of their AI technology Claude, leading to them being classified as a supply chain risk.\n- They emphasize ethical principles and safety, particularly against autonomous weapons and mass surveillance, while pragmatically making compromises despite their idealistic values.\n- Their reputation as an ethically driven company gives them a competitive edge in talent-focused Silicon Valley.",
+  "nzzSummaryDE": "- Dario and Daniela Amodei, founders of Anthropic, defied the Pentagon in the dispute over the use of their AI technology Claude and were subsequently classified as a supply chain risk.\n They emphasize ethical principles and security, especially against autonomous weapons and mass surveillance, while making pragmatic compromises despite idealistic claims.\n - Their reputation as an ethically oriented company gives them a competitive advantage in the talent-driven Silicon Valley.",
+  "nzzSummaryIsAuto": true,
+  "nzzSummaryModel": "gpt-4o-2024-11-20",
+  "nzzPrintTitle": "This pair of siblings defies the Pentagon",
+  "nzzPrintSubtitle": "Dario and Daniela Amodei became AI founders almost by accident. Now, the dispute between their company Anthropic and the American government has escalated.",
+  "allArticleLanguages": [
+   {
+    "locale": "de-CH",
+    "urlPath": "/technologie/dario-und-daniela-amodei-die-geschwister-die-dem-pentagon-die-stirn-bieten-ld.1928134",
+    "seo": {}
+   }
+  ],
+  "seo": {
+   "canonicalUrl": "https://www.nzz.ch/technologie/dario-und-daniela-amodei-die-geschwister-die-dem-pentagon-die-stirn-bieten-ld.1928134",
+   "title": "Anthropic versus Pentagon: A portrait of AI siblings Dario and Daniela Amodei",
+   "socialMediaTitle": "Dario and Daniela Amodei: the siblings who are defying the Pentagon with Anthropic",
+   "excludeFromSpiders": false,
+   "image": "https://img-msp-prod.nzz.ch/2026/03/11/696d710a-0aab-46c7-8d05-b97044984556.jpg?width=1200&height=675&fit=bounds&quality=75&auto=webp&crop=2188,1231,x0,y345&wmark=nzz"
+  },
+  "ldPublicationId": 2430485,
+  "isHighlightedHeader": false,
+  "nzzTopics": [
+   {
+    "name": "Artificial Intelligence (AI)",
+    "slug": "/themen/kuenstliche-intelligenz-ki"
+   },
+   {
+    "name": "Anthropic",
+    "slug": "/themen/anthropic"
+   },
+   {
+    "name": "Open AI",
+    "slug": "/themen/openai"
+   },
+   {
+    "name": "Sam Altman",
+    "slug": "/themen/sam-altman"
+   },
+   {
+    "name": "Silicon Valley",
+    "slug": "/themen/silicon-valley"
+   },
+   {
+    "name": "USA",
+    "slug": "/themen/usa"
+   }
+  ],
+  "barrierIndex": 3,
+  "outlinks": {
+   "mehrZumThema": [
+    "ld.1928023",
+    "ld.1923426",
+    "ld.1927271"
+   ],
+   "artikelListe": [],
+   "aliasTeaserEmbedList": []
+  },
+  "tts": true,
+  "mp3": true,
+  "mp3Duration": 657984,
+  "project": "nzz",
+  "machineTranslated": true,
+  "machineTranslationValidated": true
+ },
+ "isReduced": false,
+ "isPaid": false,
+ "isVamp": false,
+ "isWebview": false,
+ "btaFeed": {
+  "meta": {
+   "id": "kuenstliche-intelligenz-ki",
+   "name": "Artificial Intelligence (AI)",
+   "tagName": "Artificial Intelligence (AI)",
+   "qId": "Q11660",
+   "seoTitle": "AI News – All NZZ articles on the topic of Artificial Intelligence",
+   "description": null,
+   "firstName": null,
+   "lastName": null,
+   "category": "MISC",
+   "createdDate": "2025-04-08 15:28:45.240Z",
+   "imageURL": null,
+   "imageCroppedURL": null,
+   "imageWidth": null,
+   "imageHeight": null,
+   "imageCredits": null,
+   "url": "https://nzz.ch/themen/kuenstliche-intelligenz-ki",
+   "size": 2276,
+   "relatedTopics": [
+    {
+     "name": "Anthropic",
+     "slug": "/themen/anthropic"
+    },
+    {
+     "name": "Open AI",
+     "slug": "/themen/openai"
+    },
+    {
+     "name": "Sam Altman",
+     "slug": "/themen/sam-altman"
+    },
+    {
+     "name": "Silicon Valley",
+     "slug": "/themen/silicon-valley"
+    },
+    {
+     "name": "USA",
+     "slug": "/themen/usa"
+    }
+   ]
+  },
+  "data": [
+   {
+    "owner": "NZZ",
+    "flag": "Explained",
+    "title": "What is artificial intelligence? How does deep learning work? An overview",
+    "teaserImage": {
+     "originalUrl": "/2021/11/5/dee2f4b8-2c04-49f8-bdd9-96ba31b03d64.jpeg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2021/11/5/dee2f4b8-2c04-49f8-bdd9-96ba31b03d64.jpeg?width=1024&quality=75&auto=webp",
+     "width": 4661,
+     "height": 3097,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "4661,2622,x0,y238"
+      },
+      {
+       "name": "1:1",
+       "crop": "3097,3097,x782,y0"
+      },
+      {
+       "name": "4:3",
+       "crop": "4129,3097,x266,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "2323,3097,x1169,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "4646,3097,x8,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "What is behind Chat-GPT, and where else in our daily lives is AI used? What can machines do better than humans? And should we be worried?",
+     "teaserAuthor": "Miguel Candela / Imago"
+    },
+    "teaserAuthor": "Miguel Candela / Imago",
+    "nzzasFootnote": false,
+    "folioFootnote": false,
+    "language": {
+     "locale": "de-CH"
+    },
+    "nzzId": "ld.1632034",
+    "readingTime": 660,
+    "authorLine": "Ruth Fulterer, Eveline Geiser",
+    "characterCount": 15561,
+    "product": "NZZ.ch",
+    "documentId": "1632034",
+    "layout": "regular",
+    "publicationDate": "2021-11-05T08:27:54.281Z",
+    "publicationLastUpdated": "2026-04-29T10:01:03.477Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2021-11-05T20:27:54.281Z",
+    "teaserCaption": "What is behind Chat-GPT, and where else in our daily lives is AI used? What can machines do better than humans? And should we be worried?",
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2022/07/27/b4a7225d-fbad-484c-8e6e-d48eacd967e9.png?width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/technologie/kuenstliche-intelligenz-ki-deep-learning-einfach-erklaert-ld.1632034",
+    "department": {
+     "name": "Technology",
+     "path": "/technologie"
+    },
+    "estimationWordCount": 2180,
+    "leadText": "What is behind Chat-GPT, and where else in our daily lives is AI used? What can machines do better than humans? And should we be worried?",
+    "hasQ": true
+   },
+   {
+    "title": "September begins turbulently on the stock market: seven developments that are making the financial markets nervous",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "teaserImage": {
+     "originalUrl": "/2026/09/02/600ca9a6-b4aa-47c2-8d9d-f918ab920965.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/09/02/600ca9a6-b4aa-47c2-8d9d-f918ab920965.jpg?width=1024&quality=75&auto=webp",
+     "width": 7898,
+     "height": 5268,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "7898,4443,x0,y187"
+      },
+      {
+       "name": "4:3",
+       "crop": "7024,5268,x143,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "5268,5268,x1162,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "3951,5268,x1731,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "7898,5265,x0,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "Rising yields, expensive oil, and the insatiable demand for funding for AI – all problems for which no quick solution is in sight. An overview of what investors need to prepare for.",
+     "teaserAuthor": "Jacquelyn Martin / AP"
+    },
+    "teaserAuthor": "Jacquelyn Martin / AP",
+    "nzzId": "ld.10022036",
+    "readingTime": 360,
+    "paywallQuestionOne": "Why are American Treasury bonds experiencing a historic sell-off?",
+    "paywallQuestionTwo": "How do rising oil prices and interest rates affect global financial markets?",
+    "paywallQuestionThree": "What role do AI investments play in the competition with government bonds?",
+    "characterCount": 7839,
+    "product": "NZZ.ch",
+    "documentId": "10022036",
+    "layout": "regular",
+    "publicationDate": "2026-09-02T14:02:39.657Z",
+    "publicationLastUpdated": "2026-09-02T14:45:50.108Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-09-03T02:02:39.657Z",
+    "teaserCaption": "Rising yields, expensive oil, and the insatiable demand for funding for AI – all problems for which no quick solution is in sight. An overview of what investors need to prepare for.",
+    "authorLine": "Benjamin Triebe",
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2024/05/28/66e46add-875c-44d3-97bc-9ef706f6bc3d.jpeg?width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/finanzen/ausverkauf-bei-staatsanleihen-die-gruende-fuer-die-boersen-unruhe-sind-hartnaeckig-ld.10022036",
+    "department": {
+     "name": "Finance",
+     "path": "/finanzen"
+    },
+    "estimationWordCount": 1151,
+    "leadText": "Rising yields, expensive oil, and the insatiable demand for funding for AI – all problems for which no quick solution is in sight. An overview of what investors need to prepare for.",
+    "nzzSummaryIsAuto": true,
+    "hasQ": true,
+    "locale": "de-CH"
+   },
+   {
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "title": "The chip war reaches the logistics industry: Kühne + Nagel scrutinizes Asian subsidiary after US authorities' investigation",
+    "teaserImage": {
+     "originalUrl": "/2026/08/31/a4c9eaef-0e59-4975-a08c-d969c28f0e30.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/08/31/a4c9eaef-0e59-4975-a08c-d969c28f0e30.jpg?width=1024&quality=75&auto=webp",
+     "width": 5500,
+     "height": 3667,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "5500,3094,x0,y573"
+      },
+      {
+       "name": "4:3",
+       "crop": "4889,3667,x358,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "3667,3667,x917,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "2750,3667,x576,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "5500,3667,x0,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "Nvidia AI semiconductor exports to China prohibited, opening a billion-dollar smuggling business. Logistics companies' careful consideration of partners.",
+     "teaserAuthor": "Benoit Tessier / Reuters"
+    },
+    "teaserAuthor": "Benoit Tessier / Reuters",
+    "nzzId": "ld.10021434",
+    "readingTime": 240,
+    "paywallQuestionOne": "How is the chip war affecting the logistics industry?",
+    "paywallQuestionTwo": "What role does Apex Logistics play in the Nvidia chip smuggling?",
+    "paywallQuestionThree": "How is Kühne + Nagel reacting to the investigations by the US authorities?",
+    "characterCount": 5867,
+    "showComments": true,
+    "product": "NZZ.ch",
+    "documentId": "10021434",
+    "layout": "regular",
+    "publicationDate": "2026-08-31T10:04:23.699Z",
+    "publicationLastUpdated": "2026-09-01T07:43:01.458Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-08-31T22:04:23.699Z",
+    "teaserCaption": "Nvidia AI semiconductor exports to China prohibited, opening a billion-dollar smuggling business. Logistics companies' careful consideration of partners.",
+    "authorLine": "Dominik Feldges",
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2024/09/16/52e0b698-52d3-4f00-915a-fa5563d57443.jpeg?width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/wirtschaft/kuehne-nagel-und-nvidia-transport-chip-krieg-erreicht-logistikbranche-ld.10021434",
+    "department": {
+     "name": "Economy",
+     "path": "/wirtschaft"
+    },
+    "estimationWordCount": 873,
+    "premium": true,
+    "leadText": "Nvidia AI semiconductor exports to China prohibited, opening a billion-dollar smuggling business. Logistics companies' careful consideration of partners.",
+    "nzzSummaryIsAuto": true,
+    "commentsCount": 1,
+    "openToComment": false,
+    "hasQ": true,
+    "locale": "de-CH"
+   },
+   {
+    "title": "Madonna or Machine? Australia bans AI songs from charts – Switzerland to follow by year-end",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "teaserImage": {
+     "originalUrl": "/2026/08/18/5c87e21a-1fab-4862-ba38-2badac36a924.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/08/18/5c87e21a-1fab-4862-ba38-2badac36a924.jpg?width=1024&quality=75&auto=webp",
+     "width": 1972,
+     "height": 1315,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "1972,1109,x0,y103"
+      },
+      {
+       "name": "4:3",
+       "crop": "1753,1315,x109,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "1315,1315,x329,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "986,1315,x493,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "1972,1315,x0,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "Several countries plan to exclude purely AI-generated music from the charts in the future. Behind this lies a question that is preoccupying the industry: How much AI should be allowed in songs?",
+     "teaserAuthor": "Brendan McDermid / Reuters"
+    },
+    "teaserAuthor": "Brendan McDermid / Reuters",
+    "nzzId": "ld.10021251",
+    "readingTime": 240,
+    "paywallQuestionOne": "Why does Australia exclude AI-generated music from the charts?",
+    "paywallQuestionTwo": "How does AI affect music production and artists' rights?",
+    "paywallQuestionThree": "What measures is Switzerland planning to take against AI-generated music in the charts?",
+    "characterCount": 5105,
+    "product": "NZZ.ch",
+    "documentId": "10021251",
+    "layout": "regular",
+    "publicationDate": "2026-08-31T03:30:00.000Z",
+    "publicationLastUpdated": "2026-08-31T03:30:00.000Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-08-31T15:30:00.000Z",
+    "teaserCaption": "Several countries plan to exclude purely AI-generated music from the charts in the future. Behind this lies a question that is preoccupying the industry: How much AI should be allowed in songs?",
+    "authorLine": "Janique Weder",
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2024/05/29/658595c2-7b09-41f4-b098-616595fb9540.jpeg?width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/wirtschaft/madonna-oder-maschine-australien-verbannt-ki-songs-aus-den-charts-die-schweiz-zieht-bis-ende-jahr-nach-ld.10021251",
+    "department": {
+     "name": "Economy",
+     "path": "/wirtschaft"
+    },
+    "estimationWordCount": 790,
+    "leadText": "Several countries plan to exclude purely AI-generated music from the charts in the future. Behind this lies a question that is preoccupying the industry: How much AI should be allowed in songs?",
+    "nzzSummaryIsAuto": true,
+    "locale": "de-CH"
+   },
+   {
+    "title": "Constantly reachable and exhausted – China is the world's digital pioneer; this shows what awaits us in the near future",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "authorLine": "Oliver Radtke",
+    "editor": "1371769",
+    "teaserImage": {
+     "originalUrl": "/2026/08/27/b7722b32-5602-4703-978e-abd163a49dfb.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/08/27/b7722b32-5602-4703-978e-abd163a49dfb.jpg?width=1024&quality=75&auto=webp",
+     "width": 5500,
+     "height": 3667,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "5500,3094,x0,y573"
+      },
+      {
+       "name": "4:3",
+       "crop": "4889,3667,x611,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "3334,3334,x1712,y333"
+      },
+      {
+       "name": "3:4",
+       "crop": "2750,3667,x1860,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "5500,3667,x0,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "While Europe reels under the weight of its long history, China is gripped by a belief in progress fueled by social media and AI. The psychological cost of this rapid merging of digital and analog life is particularly high for young people.",
+     "teaserAuthor": "Go Nakamura / Reuters"
+    },
+    "teaserAuthor": "Go Nakamura / Reuters",
+    "nzzId": "ld.10020483",
+    "readingTime": 420,
+    "paywallQuestionOne": "How does digitalization affect mental health in China?",
+    "paywallQuestionTwo": "What social and economic pressures increase the burden?",
+    "paywallQuestionThree": "How is China responding to the challenges posed by AI and digitalization?",
+    "characterCount": 10235,
+    "tags": [
+     "Zeitgeschehen"
+    ],
+    "product": "NZZ.ch",
+    "documentId": "10020483",
+    "layout": "longformstandard",
+    "publicationDate": "2026-08-31T03:30:00.000Z",
+    "publicationLastUpdated": "2026-08-31T03:30:00.000Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-08-31T15:30:00.000Z",
+    "teaserCaption": "While Europe reels under the weight of its long history, China is gripped by a belief in progress fueled by social media and AI. The psychological cost of this rapid merging of digital and analog life is particularly high for young people.",
+    "url": "https://www.nzz.ch/feuilleton/dauererreichbar-und-erschoepft-china-ist-der-digitale-vorreiter-der-welt-hier-zeigt-sich-was-uns-in-naher-zukunft-bevorsteht-ld.10020483",
+    "department": {
+     "name": "Arts & Culture",
+     "path": "/feuilleton"
+    },
+    "estimationWordCount": 1407,
+    "leadText": "While Europe reels under the weight of its long history, China is gripped by a belief in progress fueled by social media and AI. The psychological cost of this rapid merging of digital and analog life is particularly high for young people.",
+    "nzzSummaryIsAuto": true,
+    "locale": "de-CH"
+   },
+   {
+    "title": "Countless videos circulate after Nepal disaster: Whether they are real is increasingly secondary for the public",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "teaserImage": {
+     "originalUrl": "/2026/08/31/41e45e38-c788-4152-a397-c46e9cba9c9e.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/08/31/41e45e38-c788-4152-a397-c46e9cba9c9e.jpg?width=1024&quality=75&auto=webp",
+     "width": 1200,
+     "height": 675,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "1200,675,x0,y0"
+      },
+      {
+       "name": "4:3",
+       "crop": "615,461,x585,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "675,675,x525,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "506,675,x694,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "1013,675,x187,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "Viewers' increasing difficulty distinguishing real from AI images; the image's changing role",
+     "teaserAuthor": "Screenshot Instagram; edited by NZZ"
+    },
+    "teaserAuthor": "Screenshot Instagram; edited by NZZ",
+    "editor": "1373070",
+    "tags": [
+     "Fotografie"
+    ],
+    "nzzId": "ld.10021416",
+    "readingTime": 300,
+    "paywallQuestionOne": "How does AI-generated content influence the perception of disaster images?",
+    "paywallQuestionTwo": "What role does the labeling of AI content play in viewer trust?",
+    "paywallQuestionThree": "How does the mixing of real and fake images change our reactions?",
+    "characterCount": 6702,
+    "product": "NZZ.ch",
+    "documentId": "10021416",
+    "layout": "longformstandard",
+    "publicationDate": "2026-08-31T03:30:00.000Z",
+    "publicationLastUpdated": "2026-08-31T09:47:44.143Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-08-31T15:30:00.000Z",
+    "teaserCaption": "Viewers' increasing difficulty distinguishing real from AI images; the image's changing role",
+    "authorLine": "Dario Veréb",
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2023/01/08/843b2812-68de-4f43-be8e-ade4c1e4f7e2.png?crop=1728,1728,x0,y0&width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/feuilleton/medien/nach-der-katastrophe-in-nepal-kursieren-unzaehlige-videos-ob-sie-echt-sind-ist-fuer-das-publikum-zunehmend-zweitrangig-ld.10021416",
+    "department": {
+     "name": "Media",
+     "path": "/feuilleton/medien"
+    },
+    "estimationWordCount": 1068,
+    "leadText": "Viewers' increasing difficulty distinguishing real from AI images; the image's changing role",
+    "nzzSummaryIsAuto": true,
+    "locale": "de-CH"
+   }
+  ]
+ },
+ "digitalData": {
+  "component": [
+   {
+    "id": "ld.1928134",
+    "name": "Dario and Daniela Amodei: the siblings who defy the Pentagon",
+    "type": "article",
+    "subType1": "longformstandard",
+    "subType2": "",
+    "primaryCategory": "Technologie",
+    "subCategory1": "",
+    "attributes": {
+     "headline": "Dario and Daniela Amodei: the siblings who defy the Pentagon",
+     "firstPublishTitle": "",
+     "catchline": "",
+     "authors": [
+      {
+       "id": 1532351,
+       "name": "Ruth Fulterer",
+       "shortName": "ful",
+       "pianoId": "84c1f069-1900-49fa-8ab5-45d154bf1174",
+       "external": false
+      }
+     ],
+     "issueTimestamp": "2026-03-12T04:30:00.000Z",
+     "updateTimestamp": "2026-05-18T09:48:23.200Z",
+     "isSponsoredContent": false,
+     "isPro": false,
+     "isLiveticker": false,
+     "flag": "",
+     "owner": "NZZ"
+    }
+   }
+  ],
+  "page": {
+   "pageId": "ld.1928134",
+   "pageType": "longformstandard",
+   "primaryCategory": "Technologie",
+   "subCategory1": "",
+   "subCategory2": "",
+   "language": "en-US"
+  },
+  "version": "2.0",
+  "user": {},
+  "event": []
+ },
+ "seoData": {
+  "title": "Anthropic versus Pentagon: A portrait of AI siblings Dario and Daniela Amodei",
+  "image": {
+   "url": "https://img-msp-prod.nzz.ch/2026/03/11/696d710a-0aab-46c7-8d05-b97044984556.jpg?width=1200&height=675&fit=bounds&quality=75&auto=webp&crop=2188,1231,x0,y345&wmark=nzz",
+   "type": "image/jpeg",
+   "width": 1200,
+   "height": 675
+  },
+  "author": "Ruth Fulterer",
+  "description": "Anthropic is one of the most successful AI companies. Behind it are a brother and sister from San Francisco who initially had no interest in the tech world.",
+  "news_keywords": "Dario and Daniela Amodei: the siblings who stand up to the Pentagon, Technology, News, NZZ",
+  "type": "article",
+  "last-modified": "2026-05-18T13:48:23+02:00",
+  "date": "2026-03-12T07:30:00+02:00",
+  "canonical": "https://www.nzz.ch/technologie/dario-und-daniela-amodei-die-geschwister-die-dem-pentagon-die-stirn-bieten-ld.1928134",
+  "fb:app_id": 138008459595436,
+  "fb:pages": 143694099006529,
+  "fb:admins": 1592685173,
+  "locale": "de-CH",
+  "email": "online.redaktion@nzz.ch",
+  "site_name": "Neue Zürcher Zeitung",
+  "copyright": "2026 Neue Zürcher Zeitung AG, Schweiz",
+  "robots": "noindex, nofollow, noarchive, noodp",
+  "hreflang": [],
+  "sharedTitle": "Dario and Daniela Amodei: the siblings who defy the Pentagon",
+  "ogTitle": "Dario and Daniela Amodei: the siblings who are defying the Pentagon with Anthropic",
+  "ogUrl": "https://www.nzz.ch/technologie/dario-und-daniela-amodei-die-geschwister-die-dem-pentagon-die-stirn-bieten-ld.1928134",
+  "mrf:cms_id": "nzz:ld.1928134",
+  "mrf:sections": "Technologie;WTM",
+  "mrf:tags": "Page Type:longformstandard;Editorial Owner:NZZ;Content Type:Standard Article;Article ID:ld.1928134",
+  "nzzAuthors": [
+   {
+    "id": 1532351,
+    "name": "Ruth Fulterer",
+    "shortName": "ful",
+    "pianoId": "84c1f069-1900-49fa-8ab5-45d154bf1174",
+    "external": false
+   }
+  ],
+  "links": [
+   {
+    "rel": "canonical",
+    "href": "https://www.nzz.ch/technologie/dario-und-daniela-amodei-die-geschwister-die-dem-pentagon-die-stirn-bieten-ld.1928134"
+   },
+   {
+    "rel": "search",
+    "href": "/suche",
+    "title": "Suche Neue Zürcher Zeitung, Schweiz, https://www.nzz.ch/suche"
+   }
+  ],
+  "renderedAt": "Thu, 03 Sep 2026 09:31:33 GMT"
+ },
+ "structuredData": [
+  {
+   "@context": "https://schema.org",
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "item": {
+      "@id": "/",
+      "name": "Home"
+     }
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "item": {
+      "@id": "/technologie",
+      "name": "Technology"
+     }
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Anthropic versus Pentagon: A portrait of AI siblings Dario and Daniela Amodei"
+    }
+   ]
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": "NewsArticle",
+   "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.nzz.ch/technologie/dario-und-daniela-amodei-die-geschwister-die-dem-pentagon-die-stirn-bieten-ld.1928134"
+   },
+   "headline": "Anthropic versus Pentagon: A portrait of AI siblings Dario and Daniela Amodei",
+   "datePublished": "2026-03-12T07:30:00+02:00",
+   "dateModified": "2026-05-18T13:48:23+02:00",
+   "publisher": {
+    "@type": "NewsMediaOrganization",
+    "name": "Neue Zürcher Zeitung",
+    "url": "https://www.nzz.ch",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://www.nzz.ch/logo.png",
+     "width": 413,
+     "height": 60
+    },
+    "contactPoint": [
+     {
+      "@type": "ContactPoint",
+      "telephone": "+41-44-2581000",
+      "contactType": "customer service"
+     }
+    ],
+    "sameAs": [
+     "https://www.facebook.com/nzz",
+     "https://www.twitter.com/nzz",
+     "https://www.youtube.com/channel/UCK1aTcR0AckQRLTlK0c4fuQ",
+     "https://www.linkedin.com/company/neue-zurcher-zeitung",
+     "https://www.instagram.com/nzz/",
+     "https://de.wikipedia.org/wiki/Neue_Z%C3%BCrcher_Zeitung",
+     "https://www.wikidata.org/wiki/Q658945",
+     "https://plus.google.com/+nzz/",
+     "http://www.freebase.com/m/041b43"
+    ],
+    "masthead": "https://www.nzz.ch/impressum/impressum-ld.148422",
+    "foundingDate": "1780"
+   },
+   "description": "Anthropic is one of the most successful AI companies. Behind it are a brother and sister from San Francisco who initially had no interest in the tech world.",
+   "isAccessibleForFree": false,
+   "articleSection": "Technologie",
+   "hasPart": {
+    "@type": "WebPageElement",
+    "isAccessibleForFree": false,
+    "cssSelector": ".nzzinteraction"
+   },
+   "image": {
+    "@type": "ImageObject",
+    "url": "https://img-msp-prod.nzz.ch/2026/03/11/696d710a-0aab-46c7-8d05-b97044984556.jpg?width=1200&height=675&fit=bounds&quality=75&auto=webp&crop=2188,1231,x0,y345&wmark=nzz",
+    "width": 1200,
+    "height": 675
+   },
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Ruth Fulterer"
+    }
+   ],
+   "inLanguage": "de"
+  }
+ ],
+ "mp3": true,
+ "mp3Duration": 657984,
+ "bT": {
+  "standard": {
+   "Tags": [
+    "/technologie/dario-und-daniela-amodei-die-geschwister-die-dem-pentagon-die-stirn-bieten-ld.1928134",
+    "classification=default",
+    "relevance=default",
+    "layout=longformstandard",
+    "owner=nzz",
+    "product=nzz",
+    "doctype=article",
+    "pagetype=article",
+    "ldid=ld.1928134",
+    "channel=Technologie"
+   ],
+   "ContentCreated": "2026-03-12T04:30:00.000Z",
+   "ContentAuthor": "Ruth Fulterer",
+   "ContentSection": "Technologie",
+   "ContentIsNative": true
+  },
+  "custom": {
+   "product": "nzz",
+   "docType": "article",
+   "pageType": "article",
+   "layout": "longformstandard",
+   "ldId": "ld.1928134",
+   "channel": "Technologie",
+   "heading": "Dario und Daniela Amodei: die Geschwister, die dem Pentagon die Stirn bieten",
+   "language": "en-US"
+  }
+ },
+ "webviewMetadata": {},
+ "cacheTime": 3600
+}

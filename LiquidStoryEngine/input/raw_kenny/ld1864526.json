@@ -1,0 +1,1975 @@
+{
+ "content": [
+  {
+   "identifier": "header--hero",
+   "id": "doc-1igjulp2j0",
+   "content": {
+    "title": "Young, angry, and fiercely determined: activists are fighting alongside the Sudanese army against the rebel militia – and the greatest humanitarian catastrophe of our time",
+    "lead": "Once crushed by the Sudanese army, volunteer groups like the «Ghadiboon» are now working alongside it to win the civil war. They are on the front lines with young fighters who will never give up on the dream of democracy.",
+    "authorline": "Christian Putsch (text and images), Omdurman",
+    "image": {
+     "author": "+++ PAID + ONE TIME USE ONLY + FOR REPORTING BY C. COUP FROM SUDAN +++ Adam Daffala Dama, 29, a volunteer from the Ghadibsoon movement (right), kneels at the grave of a fellow volunteer near the frontline in Bahri, Sudan, on December 14, 2024. Once protesters against the army during the 2019 revolution, the Ghadibsoon now support it in the fight against the Rapid Support Forces (RSF). Dama's friend was killed in combat by RSF snipers.",
+     "caption": "+++ PAID + ONE TIME USE ONLY + FOR REPORTING BY C. COUP FROM SUDAN +++ Adam Daffala Dama, 29, a volunteer from the Ghadibsoon movement (right), kneels at the grave of a fellow volunteer near the frontline in Bahri, Sudan, on December 14, 2024. Once protesters against the army during the 2019 revolution, the Ghadibsoon now support it in the fight against the Rapid Support Forces (RSF). Dama's friend was killed in combat by RSF snipers.",
+     "originalUrl": "/2025/01/02/4d404d82-c1da-41ce-98eb-c602d8a200e4.jpeg?crop=4953,2786,x0,y516",
+     "width": 4953,
+     "height": 3302,
+     "altText": "+++ PAID + ONE TIME USE ONLY + FOR REPORTING BY C. COUP FROM SUDAN +++ Adam Daffala Dama, 29, a volunteer from the Ghadibsoon movement (right), kneels at the grave of a fellow volunteer near the frontline in Bahri, Sudan, on December 14, 2024. Once protesters against the army during the 2019 revolution, the Ghadibsoon now support it in the fight against the Rapid Support Forces (RSF). Dama's friend was killed in combat by RSF snipers.",
+     "origins": [
+      {
+       "name": "Hugo",
+       "identifier": "2164502923"
+      }
+     ],
+     "crop": {
+      "x": 0,
+      "y": 516,
+      "width": 4953,
+      "height": 2786,
+      "name": "desktop"
+     },
+     "namedCrops": [
+      {
+       "x": 0,
+       "y": 516,
+       "width": 4953,
+       "height": 2786,
+       "name": "desktop"
+      },
+      {
+       "x": 2679,
+       "y": 693,
+       "width": 1957,
+       "height": 2609,
+       "name": "tablet"
+      },
+      {
+       "x": 2750,
+       "y": 359,
+       "width": 1651,
+       "height": 2935,
+       "name": "mobile"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "quelle": "",
+    "caption": "",
+    "author": ""
+   },
+   "containers": {
+    "authors": []
+   },
+   "prevElement": "",
+   "nextElement": "p-text",
+   "firstContentElement": true
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1igjulp2k0",
+   "content": {
+    "text": "The young man was a professional football player in a previous life; now he sits on a plastic chair on the side of the road in the city of Omdurman, with a rifle leaning against his right leg."
+   },
+   "prevElement": "header--hero",
+   "nextElement": "barrier"
+  },
+  {
+   "id": "doc-e7c05253",
+   "identifier": "barrier",
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1igjulp2m0",
+   "content": {
+    "text": "The same leg with which the striker once scored goals has since been pierced by shrapnel. The wound has healed just well enough for him to fight again. He sits side by side with his comrades, who are taking a short break from the war on this December day."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "barrier",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1igjulp2n0",
+   "content": {
+    "text": "They drink tea while explosions shake the buildings. Smoke hangs over the rooftops of Omdurman; the front line is only four kilometers away. Soon they will set off again to the other side of the Nile, into deserted streets, past burned-out cars and bullet-riddled houses, to the cemetery where one of their comrades is buried. And soon this brief respite will end with the last drops of tea in their glasses."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1igjulp2n1",
+   "content": {
+    "text": "Adam Daffala Dama, 29 years old, tall, with a fine beard, has had wrinkles etched into his youthful face by the war. He belongs to the «Ghadiboon,» who call themselves «the angry ones» in Arabic and form a volunteer army of around 200 democracy activists. They joined the army to support it in the civil war against the paramilitary militia Rapid Support Forces (RSF).<a href=\"#_msocom_2\"></a>"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "image"
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1igjulp2n2",
+   "content": {
+    "image": {
+     "author": "",
+     "caption": "Once a professional football player, now a volunteer in the army: Adam Daffala Dama, 29 years old.",
+     "originalUrl": "/2025/01/02/245b5240-7599-4193-8dac-8d6a43d9feaa.jpeg?width=1024",
+     "width": 6142,
+     "height": 4095,
+     "altText": "+++ PAID + ONE TIME USE ONLY + FOR REPORTING BY C. COUP FROM SUDAN +++ Adam Daffala Dama, 29, a volunteer from the Ghadibsoon movement (middle), stands with fellow volunteers near the frontline in Omdurman, Sudan, on December 14, 2024. Once protesters against the army during the 2019 revolution, they now support it in its fight against the Rapid Support Forces (RSF).",
+     "origins": [
+      {
+       "name": "Hugo",
+       "identifier": "2164502924"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "caption": "Once a professional football player, now a volunteer in the army: Adam Daffala Dama, 29 years old.",
+    "author": ""
+   },
+   "styles": {
+    "fullwidth-widget": "widget--containerwidth"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1igjulp2n3",
+   "content": {
+    "text": "There are many such volunteer groups. Here, not far from the capital Khartoum, where the White and Blue Nile rivers meet, they are often seen jogging through the dusty streets. They are being trained in record time for this conflict, which has now raged for almost 21 months and, in the shadow of Ukraine, Gaza, and Syria, has become the world's largest humanitarian catastrophe. Given their sometimes meager equipment, they are often referred to as cannon fodder. But Dama refuses to accept this. «We are patriots,» he says. «We are fighting for survival, for our people and our families.»"
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "image",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1igjulp2n4",
+   "content": {
+    "text": "In essence, his campaign began long before the war: five years ago, he was still fighting against the army, to which he now belongs. As one of hundreds of thousands of demonstrators who forced the overthrow of dictator Omar al-Bashir, who had bled the country dry for decades. Dama, an activist from the very beginning, dreamed of a new Sudan, a just Sudan, a modern Sudan. Thus, even after the end of the Bashir regime, he continued to protest against the ongoing military rule, against corruption, and against a justice system that never truly functioned as one."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1igllp86j0",
+   "content": {
+    "title": "narrowly escaped death",
+    "id": "subtitle-knapp-dem-tod-entkommen"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1igjulp2n5",
+   "content": {
+    "text": "Even back then, they called themselves Ghadiboon. Dama and his friends, who had become a close-knit community fighting for their lives. Osman and Mudathir, two of his closest comrades, had already lost their lives, Dama recounts. On June 6, 2019, when the army crushed the protests against the new military rulers. «I, too, only narrowly escaped,» he says."
+   },
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1igjulp2n7",
+   "content": {
+    "text": "Dama, who as a promising professional earned the equivalent of 400 Swiss francs a month, left the football field behind, as well as his family plans, to fight for democracy. Both forearms bear the scars of gunshot wounds inflicted by Sudanese security forces long before the outbreak of this war – his current allies."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "image"
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1igjulp2n8",
+   "content": {
+    "image": {
+     "author": "Private",
+     "caption": "«The Angry Ones» were already fighting during the 2019 revolution.",
+     "originalUrl": "/2025/01/02/34dd5b99-f134-4b76-a16f-04071ed8dea4.jpeg?width=1024",
+     "width": 1080,
+     "height": 720,
+     "altText": "+++ FEE REQUIRED + ONE TIME USE ONLY + FOR REPORT BY C. PUTSCH FROM SUDAN +++ Volunteers of the ghadiboon volunteers during the 2019 revolution in Sudan",
+     "origins": [
+      {
+       "name": "Hugo",
+       "identifier": "2164503029"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "caption": "«The Angry Ones» were already fighting during the 2019 revolution.",
+    "author": "Private"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1iglloctt0",
+   "content": {
+    "title": "First enemy, then friend",
+    "id": "subtitle-erst-feind-dann-freund"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "image",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1igjulp2o0",
+   "content": {
+    "text": "How is it possible that he is now fighting for the army that was once his enemy? Why did he switch sides?"
+   },
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1igjvbtph1",
+   "content": {
+    "text": "Dama sips his tea, pauses for a moment, and then presents his version of events: The 2019 massacre, in which his friends also lost their lives, was perpetrated primarily by RSF fighters, not members of the army, he says. At the time, they were supposedly on the same side. Bashir himself had established the militia as a security force, out of fear of an army coup."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1igk39k081",
+   "content": {
+    "text": "In April 2019, security forces and militias finally overthrew the dictator together. The transitional government suffered the same fate two years later. From then on, Sudan's army chief, General Abdel Fattah al-Burhan, and the RSF leader, Mohamed Hamdan «Hemeti» Dagalo, shared power. But this fragile balance, too, was short-lived: when the militias refused to integrate into the armed forces in April 2023, it collapsed. The war began. A country was thrown into disarray. And with it, the perceptions of the enemy."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1igk44sj40",
+   "content": {
+    "text": "In the first few weeks, Dama tried to help as a civilian. The thousands of resistance committees that had formed decentrally during the revolution became «emergency centers» where citizens organized aid, cared for the wounded, and distributed food. They have just been nominated for the Nobel Peace Prize, because 25 million Sudanese – every second citizen – are threatened by hunger."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1igljisvr0",
+   "content": {
+    "text": "Dama initially joined one of these civic groups. He risked his life delivering medical supplies. When videos circulated on social media showing RSF fighters humiliating captured soldiers crawling on the ground, he decided to take up arms. And with him, thousands followed the army's call to the hastily set up camps. Dama received only two months of training before going to war."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1igk12b5r0",
+   "content": {
+    "text": "The RSF have become his enemy. Refugees from areas controlled by the militia also report their murders, rapes, and brazen looting. Even corpses have been exhumed, they say, in search of gold fillings in their teeth."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1igk1agkh0",
+   "content": {
+    "text": "The extent of the violence was also evident here in Omdurman four days before the encounter with Dama, when the RSF fired dozens of artillery shells into a residential area. A bus was hit, and at least 17 civilians were killed. Dozens of civilians are also reported to have been killed in army airstrikes in the Darfur region, which is largely controlled by the RSF."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1igljovj40",
+   "content": {
+    "title": "War of Propaganda",
+    "id": "subtitle-krieg-der-propaganda"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1igk3baof0",
+   "content": {
+    "text": "The West regards the Sudanese generals, who see themselves as representatives of a legitimate institution, with a similar degree of mistrust as it regards the RSF war criminals. This is because the generals are blocking American mediation attempts. Moreover, they receive support from Iran and Russia. In addition, the Muslim Brotherhood is gaining increasing influence. And wasn't it the army that controlled and oppressed Sudan for decades, both economically and politically?"
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1igm2t6i11",
+   "content": {
+    "text": "«Even back then, the security apparatus was far more complex than it was perceived abroad,» says Adam Daffala Dama, who has also prepared an answer to this. His anger was directed less at the army than at the General Intelligence Service. The secret service was responsible for the suppression of regime opponents at the time. «There were soldiers sitting next to us who supported us in our struggle.»"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1igk1o2l70",
+   "content": {
+    "text": "It's hard to say how freely Dama can speak. Just a few meters away sits a high-ranking soldier, seemingly lost in thought as he stares at his cell phone. Even though the army has been allowing a few journalists back into its areas in the northeast and center of the country for several months, it is the army that tries to control the narrative by monitoring and approving interviews—including the one with Dama. The RSF militia, financed by gold smuggling and reportedly hired by a Canadian PR firm, ignored a request from the «NZZ am Sonntag» for an investigation in its territories."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1igk2398e1",
+   "content": {
+    "text": "On both sides, this war is also a propaganda exercise. A planned interview with a family, who are part of the army's civilian program but also have relatives on the RSF side, is not permitted. Instead, captured mercenaries from Chad and South Sudan are offered as interview partners."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1igk29af10",
+   "content": {
+    "text": "«Right now we are fighting for our country, for peace, for stability,» Dama says, a little too quietly to sound emphatic. His Facebook profile, however, suggests that he voluntarily joined the army. Where Dama once documented his protests against Bashir, he now posts triumphant pictures from the front."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1igk2fs6s1",
+   "content": {
+    "text": "«When the war is over, we will see what differences we have with the intelligence service and the army,» he says. And: He has «confidence» that after a victory over the RSF, the army will hand over power to civilians within «two to three» years, even though he can’t think of any politician he would like to see at the head of state."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1iglm6oa90",
+   "content": {
+    "title": "In the hail of bullets",
+    "id": "subtitle-im-kugelhagel"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1igk3qqab0",
+   "content": {
+    "text": "The teacup is empty, Dama has to leave. Away from his visions for the country, back to the front. He and the Ghadiboon climb into a pickup truck and drive off. The first stop is a cemetery in the middle of nowhere, where Taha has been buried since September 29th. Together they had once protested against the dictatorship and taken up arms after the war began. With Taha, they had also ridden motorcycles to the town of Bahri, where they were ambushed by RSF snipers."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1igk3qs2i0",
+   "content": {
+    "text": "Some Ghadiboon managed to turn back in the hail of bullets. Taha didn't. For days his body rotted in the road; finally, they were able to recover and bury him. «He had no chance,» says Dama, running his hand over the stones piled on his friend's grave. Taha was the sixth Ghadiboon he had buried."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1igk3qs2l0",
+   "content": {
+    "text": "What must be going through the mind of a man who sees his friends die and continues to fight – as a foot soldier, as a helper to those who once fought him? Does Dama believe what he's saying? Or is he trying to twist the horrific reality to suit his own purposes, not only for the army interviewer, but also for himself?"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1igk3uehg0",
+   "content": {
+    "text": "The operation also involved soldiers who remained in armored vehicles. Dama, however, doesn't see this as unequal treatment. «The soldiers don't always stay in bulletproof vehicles,» he says. Why didn't any of them wear bulletproof vests? «That was our decision; we feel more mobile without them.» And are two months of training sufficient for such an operation? «We already had over a year of combat experience.»<a href=\"#_msocom_1\"></a>"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "image"
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1igjulp2p0",
+   "content": {
+    "image": {
+     "author": "",
+     "caption": "After 20 months of war, not much remains of the Sudanese city of Bahri.",
+     "originalUrl": "/2025/01/02/84d9a6f7-5790-46e4-b4eb-f5b78be579af.jpeg?width=1024",
+     "width": 4545,
+     "height": 3030,
+     "altText": "+++ PAID + ONE TIME USE ONLY + FOR REPORTING BY C. PUTSCH AUS SUDAN +++ Destruction in Bahri, Sudan, on December 14, 2024, after 20 months of civil war. The town, previously under the control of the Rapid Support Forces (RSF), has recently been partially retaken by the Sudanese Armed Forces (SAF).",
+     "origins": [
+      {
+       "name": "Hugo",
+       "identifier": "2164502905"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "caption": "After 20 months of war, not much remains of the Sudanese city of Bahri.",
+    "author": ""
+   },
+   "styles": {
+    "fullwidth-widget": "widget--containerwidth"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1igk3ug090",
+   "content": {
+    "text": "Onward they go, past plumes of smoke toward the front line in Bahri. Shortly before the Al-Halfaya Bridge, soldiers in off-road vehicles approach them. They wave the Sudanese flag and fire celebratory shots into the air to mark their recent successes. Soon, however, an ominous silence descends once more. The area is considered «liberated» from the RSF in army parlance, but the threat of sniper attacks remains."
+   },
+   "paidContent": true,
+   "prevElement": "image",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1igk3vd280",
+   "content": {
+    "text": "A picture of destruction unfolds, as is evident everywhere in Sudan. Survival seems impossible in this apocalypse. Estimates range up to 150,000 dead and 14 million displaced. And there is no end in sight. Dama and the others may dream of a united Sudan, but the country is fracturing into numerous power centers, many of them ethnically defined, that extend beyond the command structure of RSF and the army. At least Darfur in the west of the country—a region larger than Germany—is likely to remain in RSF hands for a long time. «When we're finished here, we'll continue in Darfur,» says one of Dama's comrades. According to many observers, the Libyan scenario is more probable: the disintegration of the country."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1igln413g1",
+   "content": {
+    "text": "One of the soldiers in the convoy now wants to take a detour. This story should end on a hopeful note, in a side street, at the home of an old woman with henna-red hair and deep wrinkles in her face: Bahir Kambal. Here she survives in the house where she was born. Here she also gave birth to and raised her son – fleeing is out of the question for her. Many say, not without pride, that older Sudanese people are particularly stubborn. Kambal is living proof."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1igk3ve6d0",
+   "content": {
+    "text": "She refused to leave when the RSF occupied her neighborhood just days after the war began. She hasn't left her house in 20 months. Sometimes the few remaining neighbors brought her soup, sometimes relatives sent money from abroad. «I didn't sleep a wink at night,» she says, «I stayed awake, afraid of looters.» Even after she was flogged by the militias, she didn't consider fleeing."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "image"
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1igjulp2p1",
+   "content": {
+    "image": {
+     "author": "",
+     "caption": "Samira Bashir Kambal will stay, come what may.",
+     "originalUrl": "/2025/01/02/2144138e-ba41-41ae-ba5c-d4bc5c478908.jpeg?width=1024",
+     "width": 5408,
+     "height": 3605,
+     "altText": "+++ PAID + ONE TIME USE ONLY + FOR REPORTING BY C. COUP FROM SUDAN +++ Samira Bashir Kambal in her house in Halfayat Al-Muluk neighborhood, Bahri, on the 14th of December. Despite the heavy fighting around, she has never left her house since the war broke out in April 2023. Her son is standing behind her, he stayed with her the entire time",
+     "origins": [
+      {
+       "name": "Hugo",
+       "identifier": "2164502903"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "caption": "Samira Bashir Kambal will stay, come what may.",
+    "author": ""
+   },
+   "styles": {
+    "fullwidth-widget": "widget--containerwidth"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1igk3ve6i0",
+   "content": {
+    "text": "Adam Daffala Dama, the former professional footballer, sits at the edge of the courtyard, listening to the old woman's stories. His gaze is empty, but without anger. He knows what it feels like to lose one's homeland. Of his old life, his old dreams, little more than a faded jersey of his club remains. It lies in a drawer at the Ghadiboon accommodation in Omdurman. He hasn't worn it in a long time. But he keeps it."
+   },
+   "paidContent": true,
+   "prevElement": "image",
+   "nextElement": "nzzas-footnote"
+  },
+  {
+   "identifier": "nzzas-footnote",
+   "id": "doc-c97d4f02",
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "sharebox",
+   "lastContentElement": true
+  },
+  {
+   "identifier": "sharebox",
+   "id": "doc-1igjulp2p2",
+   "paidContent": true,
+   "prevElement": "nzzas-footnote",
+   "nextElement": "related-articles-container"
+  },
+  {
+   "identifier": "related-articles-container",
+   "id": "doc-1igj4noma1",
+   "content": {
+    "title": "Related articles"
+   },
+   "containers": {
+    "related-articles": [
+     {
+      "identifier": "teaser",
+      "id": "doc-1igj4noma2",
+      "content": {
+       "owner": "NZZ",
+       "title": "These maps show how violence developed in Sudan",
+       "teaserImage": {
+        "originalUrl": "/2023/04/27/7314f9de-e6f3-4059-8d1a-d6497f2fe215.gif?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2023/04/27/7314f9de-e6f3-4059-8d1a-d6497f2fe215.gif?width=1024&quality=75&auto=webp",
+        "width": 1200,
+        "height": 674,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "1198,674,x1,y0"
+         },
+         {
+          "name": "1:1",
+          "crop": "674,674,x242,y0"
+         },
+         {
+          "name": "4:3",
+          "crop": "899,674,x151,y0"
+         },
+         {
+          "name": "3:4",
+          "crop": "506,674,x347,y0"
+         },
+         {
+          "name": "3:2",
+          "crop": "1011,674,x95,y0"
+         }
+        ],
+        "imageService": "fastly",
+        "teaserCaption": "Civil war threatens Africa's third-largest country by area. Where is the fighting taking place, and how many people have already been killed?"
+       },
+       "nzzasFootnote": false,
+       "folioFootnote": false,
+       "language": {
+        "locale": "de-CH"
+       },
+       "nzzId": "ld.1735081",
+       "readingTime": 60,
+       "authorLine": "Cian Jochem, Eike Hoppmann",
+       "characterCount": 1117,
+       "product": "NZZ.ch",
+       "documentId": 1735081,
+       "layout": "regular",
+       "publicationDate": "2023-04-27T17:24:59.460Z",
+       "publicationLastUpdated": "2026-08-06T06:49:06.284Z",
+       "significantUpdate": false,
+       "significantUpdateTill": "2023-04-28T05:24:59.460Z",
+       "teaserCaption": "Civil war threatens Africa's third-largest country by area. Where is the fighting taking place, and how many people have already been killed?",
+       "authorImage": {
+        "originalUrl": "/2022/10/20/2705dfd7-c7dd-429a-8f37-53cdc00eb55b.png?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2022/10/20/2705dfd7-c7dd-429a-8f37-53cdc00eb55b.png?width=1024&quality=75&auto=webp",
+        "width": 800,
+        "height": 800,
+        "crops": [
+         {
+          "name": "1:1",
+          "crop": "800,800,x0,y0"
+         }
+        ],
+        "imageService": "fastly"
+       },
+       "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2022/10/20/2705dfd7-c7dd-429a-8f37-53cdc00eb55b.png?width=1024&quality=75&auto=webp",
+       "url": "/visuals/konflikt-im-sudan-karten-zeigen-eskalation-der-gewalt-ld.1735081",
+       "department": {
+        "name": "Visual Stories",
+        "path": "/visuals"
+       },
+       "estimationWordCount": 192,
+       "leadText": "Civil war threatens Africa's third-largest country by area. Where is the fighting taking place, and how many people have already been killed?",
+       "hasQ": true
+      }
+     },
+     {
+      "identifier": "teaser",
+      "id": "doc-1igj4noma3",
+      "content": {
+       "owner": "NZZ",
+       "title": "Sudan: Armed men killed 73 people in a gold mine",
+       "teaserImage": {
+        "originalUrl": "/2026/03/30/da8307ab-f92f-4e51-8672-f4df5a6aa2cd.jpg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2026/03/30/da8307ab-f92f-4e51-8672-f4df5a6aa2cd.jpg?width=1024&quality=75&auto=webp",
+        "width": 5321,
+        "height": 3550,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "5321,2993,x0,y278"
+         },
+         {
+          "name": "1:1",
+          "crop": "3550,3550,x886,y0"
+         },
+         {
+          "name": "4:3",
+          "crop": "4733,3550,x294,y0"
+         },
+         {
+          "name": "3:4",
+          "crop": "2663,3550,x2302,y0"
+         },
+         {
+          "name": "3:2",
+          "crop": "5321,3547,x0,y1"
+         }
+        ],
+        "imageService": "fastly",
+        "teaserCaption": "Since mid-April 2023, rival factions of the ruling military have been fighting each other in Sudan. Millions of people have been displaced, and tens of thousands have been killed. It is one of the world's worst humanitarian catastrophes. What is the conflict about?",
+        "teaserAuthor": "Amr Abdallah Dalsh / Reuters"
+       },
+       "teaserAuthor": "Amr Abdallah Dalsh / Reuters",
+       "nzzasFootnote": false,
+       "folioFootnote": false,
+       "language": {
+        "locale": "de-CH"
+       },
+       "nzzId": "ld.1734114",
+       "readingTime": 420,
+       "authorLine": "NZZ Editorial Team",
+       "characterCount": 9736,
+       "product": "NZZ.ch",
+       "documentId": 1734114,
+       "layout": "regular",
+       "publicationDate": "2026-03-30T17:50:27.377Z",
+       "publicationLastUpdated": "2026-03-30T17:50:27.377Z",
+       "significantUpdate": true,
+       "significantUpdateTill": "2026-03-31T05:50:27.377Z",
+       "teaserCaption": "Since mid-April 2023, rival factions of the ruling military have been fighting each other in Sudan. Millions of people have been displaced, and tens of thousands have been killed. It is one of the world's worst humanitarian catastrophes. What is the conflict about?",
+       "url": "/international/machtkampf-im-sudan-armee-erobert-laut-regierungsangaben-den-praesidentenpalast-zurueck-ld.1734114",
+       "department": {
+        "name": "International",
+        "path": "/international"
+       },
+       "estimationWordCount": 1424,
+       "leadText": "Since mid-April 2023, rival factions of the ruling military have been fighting each other in Sudan. Millions of people have been displaced, and tens of thousands have been killed. It is one of the world's worst humanitarian catastrophes. What is the conflict about?",
+       "hasQ": true
+      }
+     },
+     {
+      "identifier": "teaser",
+      "id": "doc-1igj4noma4",
+      "content": {
+       "owner": "NZZ",
+       "title": "Satellite images reveal the hidden war in Sudan",
+       "teaserImage": {
+        "originalUrl": "/2024/06/10/9b3633ec-20ac-47a1-aebf-5e45355438dc.jpeg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2024/06/10/9b3633ec-20ac-47a1-aebf-5e45355438dc.jpeg?width=1024&quality=75&auto=webp",
+        "width": 8192,
+        "height": 5265,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "8192,4608,x0,y329"
+         },
+         {
+          "name": "1:1",
+          "crop": "5265,5265,x1464,y0"
+         },
+         {
+          "name": "4:3",
+          "crop": "7020,5265,x586,y0"
+         },
+         {
+          "name": "3:4",
+          "crop": "3949,5265,x2122,y0"
+         }
+        ],
+        "imageService": "fastly",
+        "teaserCaption": "Reliable information from the war zone is scarce. Therefore, satellite images provide crucial clues about the front line and possible war crimes.",
+        "teaserAuthor": "Firms, NASA"
+       },
+       "teaserAuthor": "Firms, NASA",
+       "nzzasFootnote": false,
+       "folioFootnote": false,
+       "language": {
+        "locale": "de-CH"
+       },
+       "nzzId": "ld.1833682",
+       "readingTime": 120,
+       "authorLine": "Jessica Eberhart",
+       "characterCount": 2556,
+       "product": "NZZ.ch",
+       "documentId": 1833682,
+       "layout": "longformvisual",
+       "publicationDate": "2024-06-06T03:30:00.000Z",
+       "publicationLastUpdated": "2024-06-10T13:26:55.035Z",
+       "significantUpdate": false,
+       "significantUpdateTill": "2024-06-06T15:30:00.000Z",
+       "teaserCaption": "Reliable information from the war zone is scarce. Therefore, satellite images provide crucial clues about the front line and possible war crimes.",
+       "url": "/visuals/satellitenbilder-enthuellen-das-verborgene-kriegsgeschehen-im-sudan-ld.1833682",
+       "department": {
+        "name": "Visual Stories",
+        "path": "/visuals"
+       },
+       "estimationWordCount": 369,
+       "premium": true,
+       "leadText": "Reliable information from the war zone is scarce. Therefore, satellite images provide crucial clues about the front line and possible war crimes.",
+       "hasQ": true
+      }
+     }
+    ]
+   },
+   "paidContent": true,
+   "prevElement": "sharebox",
+   "nextElement": "",
+   "lastContentElement": true
+  }
+ ],
+ "metadata": {
+  "owner": "NZZaS",
+  "germanyRelevant": true,
+  "title": "Young, angry, and fiercely determined: activists are fighting alongside the Sudanese army against the rebel militia – and the greatest humanitarian catastrophe of our time",
+  "teaserImage": {
+   "originalUrl": "/2025/01/02/245b5240-7599-4193-8dac-8d6a43d9feaa.jpeg?width=1024",
+   "url": "https://img-msp-prod.nzz.ch/2025/01/02/245b5240-7599-4193-8dac-8d6a43d9feaa.jpeg?width=1024&quality=75&auto=webp",
+   "width": 6142,
+   "height": 4095,
+   "crops": [
+    {
+     "name": "16:9",
+     "crop": "6142,3455,x0,y640"
+    },
+    {
+     "name": "1:1",
+     "crop": "1596,1596,x2378,y645"
+    },
+    {
+     "name": "4:3",
+     "crop": "4853,3640,x896,y455"
+    },
+    {
+     "name": "3:4",
+     "crop": "2730,3640,x1714,y455"
+    }
+   ],
+   "imageService": "fastly",
+   "teaserCaption": "Once crushed by the Sudanese army, volunteer groups like the «Ghadiboon» are now working alongside it to win the civil war. They are on the front lines with young fighters who will never give up on the dream of democracy.",
+   "teaserAuthor": "Private"
+  },
+  "teaserAuthor": "Private",
+  "nzzasFootnote": true,
+  "folioFootnote": false,
+  "language": {
+   "locale": "en-US"
+  },
+  "nzzId": "ld.1864526",
+  "readingTime": 600,
+  "authorLine": "Christian Putsch (text and images), Omdurman",
+  "characterCount": 12605,
+  "breadcrumbs": [
+   {
+    "name": "International",
+    "path": "/international"
+   }
+  ],
+  "product": "NZZ.ch",
+  "documentId": 1864526,
+  "contentTypeGroup": "web",
+  "layout": "longformvisual",
+  "firstPublicationDate": "2025-01-04T20:45:00.000Z",
+  "publicationDate": "2025-01-04T20:45:00.000Z",
+  "publicationLastUpdated": "2025-01-04T20:45:00.000Z",
+  "significantUpdate": false,
+  "significantUpdateTill": "2025-01-05T08:45:00.000Z",
+  "teaserCaption": "Once crushed by the Sudanese army, volunteer groups like the «Ghadiboon» are now working alongside it to win the civil war. They are on the front lines with young fighters who will never give up on the dream of democracy.",
+  "url": "/international/jung-wuetend-und-wild-entschlossen-aktivisten-kaempfen-mit-der-sudanesischen-armee-gegen-die-rebellen-miliz-und-die-groesste-humanitaere-katastrophe-dieser-welt-ld.1864526",
+  "department": {
+   "name": "International",
+   "path": "/international"
+  },
+  "estimationWordCount": 1965,
+  "premium": true,
+  "leadText": "Once crushed by the Sudanese army, volunteer groups like the «Ghadiboon» are now working alongside it to win the civil war. They are on the front lines with young fighters who will never give up on the dream of democracy.",
+  "nzzSummaryModel": "gpt-4o-2024-11-20",
+  "nzzPrintTitle": "Young, angry, and fiercely determined: activists are fighting alongside the Sudanese army against the rebel militia – and the greatest humanitarian catastrophe of our time",
+  "nzzPrintSubtitle": "Once crushed by the Sudanese army, volunteer groups like the «Ghadiboon» are now working alongside it to win the civil war. They are on the front lines with young fighters who will never give up on the dream of democracy.",
+  "allArticleLanguages": [
+   {
+    "locale": "de-CH",
+    "urlPath": "/international/jung-wuetend-und-wild-entschlossen-aktivisten-kaempfen-mit-der-sudanesischen-armee-gegen-die-rebellen-miliz-und-die-groesste-humanitaere-katastrophe-dieser-welt-ld.1864526",
+    "seo": {}
+   }
+  ],
+  "seo": {
+   "canonicalUrl": "https://www.nzz.ch/international/jung-wuetend-und-wild-entschlossen-aktivisten-kaempfen-mit-der-sudanesischen-armee-gegen-die-rebellen-miliz-und-die-groesste-humanitaere-katastrophe-dieser-welt-ld.1864526",
+   "title": "War in Sudan: The army is recruiting more and more civilians for its fight",
+   "socialMediaTitle": "The Ghadiboon: Freedom fighters of Sudan or cannon fodder?",
+   "excludeFromSpiders": false,
+   "image": "https://img-msp-prod.nzz.ch/2025/01/02/245b5240-7599-4193-8dac-8d6a43d9feaa.jpeg?width=1200&height=675&fit=bounds&quality=75&auto=webp&crop=6142,3455,x0,y640&wmark=nzz"
+  },
+  "ldPublicationId": 1845004,
+  "isHighlightedHeader": true,
+  "nzzTopics": [
+   {
+    "name": "Germany",
+    "slug": "/themen/deutschland"
+   },
+   {
+    "name": "Sudan",
+    "slug": "/themen/sudan"
+   },
+   {
+    "name": "Rapid Support Forces",
+    "slug": "/themen/rapid-support-forces"
+   }
+  ],
+  "barrierIndex": 2,
+  "outlinks": {
+   "mehrZumThema": [
+    "ld.1735081",
+    "ld.1734114",
+    "ld.1833682"
+   ],
+   "artikelListe": [],
+   "aliasTeaserEmbedList": []
+  },
+  "tts": true,
+  "mp3": true,
+  "mp3Duration": 847560,
+  "project": "nzz",
+  "machineTranslated": true,
+  "machineTranslationValidated": false
+ },
+ "isReduced": false,
+ "isPaid": false,
+ "isVamp": false,
+ "isWebview": false,
+ "btaFeed": {
+  "meta": {
+   "id": "deutschland",
+   "name": "Germany",
+   "tagName": "Germany",
+   "qId": "Q183",
+   "seoTitle": "Germany – All news, articles and information on the topic | NZZ",
+   "description": null,
+   "firstName": null,
+   "lastName": null,
+   "category": "LOC",
+   "createdDate": "2025-04-08 18:02:18.055Z",
+   "imageURL": null,
+   "imageCroppedURL": null,
+   "imageWidth": null,
+   "imageHeight": null,
+   "imageCredits": null,
+   "url": "https://nzz.ch/themen/deutschland",
+   "size": 9443,
+   "relatedTopics": [
+    {
+     "name": "Sudan",
+     "slug": "/themen/sudan"
+    },
+    {
+     "name": "Rapid Support Forces",
+     "slug": "/themen/rapid-support-forces"
+    }
+   ]
+  },
+  "data": [
+   {
+    "title": "Moscow Closes Goethe Institutes, Hardens Tone Toward Berlin",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "authorLine": "Armin Arbeiter, Berlin",
+    "teaserImage": {
+     "originalUrl": "/2026/09/03/1d0c88bc-0381-4837-b510-c87d61af4624.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/09/03/1d0c88bc-0381-4837-b510-c87d61af4624.jpg?width=1024&quality=75&auto=webp",
+     "width": 2823,
+     "height": 1825,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "2823,1588,x0,y59"
+      },
+      {
+       "name": "4:3",
+       "crop": "2433,1825,x390,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "1508,1508,x940,y49"
+      },
+      {
+       "name": "3:4",
+       "crop": "1369,1825,x953,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "2738,1825,x85,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "Russia is reacting to the German measures taken after the drone attack in Leipzig. Wild speculation is circulating on Russian social media.",
+     "teaserAuthor": "Ramil Sitdikov / Reuters"
+    },
+    "teaserAuthor": "Ramil Sitdikov / Reuters",
+    "nzzId": "ld.10022202",
+    "readingTime": 180,
+    "paywallQuestionOne": "Why is Moscow closing the Goethe Institutes in response to German measures?",
+    "paywallQuestionTwo": "According to Russia, what evidence is missing in the case of the drone attack in Leipzig?",
+    "paywallQuestionThree": "How does the closure of the Goethe-Institut affect pro-European Russians?",
+    "characterCount": 4611,
+    "product": "NZZ.ch",
+    "documentId": "10022202",
+    "layout": "regular",
+    "publicationDate": "2026-09-03T08:56:31.247Z",
+    "publicationLastUpdated": "2026-09-03T08:56:31.247Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-09-03T20:56:31.247Z",
+    "teaserCaption": "Russia is reacting to the German measures taken after the drone attack in Leipzig. Wild speculation is circulating on Russian social media.",
+    "url": "https://www.nzz.ch/deutschland/politik/moskau-schliesst-die-goethe-institute-und-verschaerft-den-ton-gegenueber-berlin-ld.10022202",
+    "department": {
+     "name": "Politics (Germany)",
+     "path": "/deutschland/politik"
+    },
+    "estimationWordCount": 669,
+    "leadText": "Russia is reacting to the German measures taken after the drone attack in Leipzig. Wild speculation is circulating on Russian social media.",
+    "nzzSummaryIsAuto": true,
+    "locale": "de-CH"
+   },
+   {
+    "title": "The Lonely Men of the East",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "teaserImage": {
+     "originalUrl": "/2026/09/01/2da09beb-dbb0-4939-92b8-bb21c3739c6b.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/09/01/2da09beb-dbb0-4939-92b8-bb21c3739c6b.jpg?width=1024&quality=75&auto=webp",
+     "width": 5152,
+     "height": 3440,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "5152,2898,x0,y423"
+      },
+      {
+       "name": "4:3",
+       "crop": "4587,3440,x283,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "3440,3440,x259,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "2580,3440,x467,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "5152,3435,x0,y3"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "Nowhere in Germany do so few young women live as in the eastern federal states. This has fatal consequences for the regions. The AfD profits from this.",
+     "teaserAuthor": "Fabrizio Bensch / Reuters"
+    },
+    "teaserAuthor": "Fabrizio Bensch / Reuters",
+    "tags": [
+     "Pro: Fokus"
+    ],
+    "showComments": true,
+    "nzzId": "ld.10021328",
+    "readingTime": 420,
+    "paywallQuestionOne": "Why are so many young women leaving East Germany?",
+    "paywallQuestionTwo": "How does the shortage of women affect society in East Germany?",
+    "paywallQuestionThree": "What role does the AfD play in the political mood in the East?",
+    "characterCount": 9768,
+    "product": "NZZ.ch",
+    "documentId": "10021328",
+    "layout": "longformstandard",
+    "publicationDate": "2026-09-03T03:30:00.000Z",
+    "publicationLastUpdated": "2026-09-03T03:30:00.000Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-09-03T15:30:00.000Z",
+    "teaserCaption": "Nowhere in Germany do so few young women live as in the eastern federal states. This has fatal consequences for the regions. The AfD profits from this.",
+    "authorLine": "Leon Hedgehog",
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2024/06/12/eb10e36e-8f54-4722-adf7-421086aa6dd9.jpeg?width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/pro/in-ostdeutschland-fehlen-frauen-die-afd-profitiert-von-strukturellen-problemen-ld.10021328",
+    "department": {
+     "name": "Pro",
+     "path": "/pro"
+    },
+    "estimationWordCount": 1479,
+    "premium": true,
+    "leadText": "Nowhere in Germany do so few young women live as in the eastern federal states. This has fatal consequences for the regions. The AfD profits from this.",
+    "nzzSummaryIsAuto": true,
+    "commentsCount": 6,
+    "openToComment": false,
+    "hasQ": true,
+    "locale": "de-CH"
+   },
+   {
+    "owner": "NZZ",
+    "flag": "Podcast «NZZ Machtspiel»",
+    "title": "How the CDU can escape the impasse: Andreas Rödder",
+    "teaserImage": {
+     "originalUrl": "/2026/09/02/0d740e74-9b6e-435b-9486-fcc663cc8218.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/09/02/0d740e74-9b6e-435b-9486-fcc663cc8218.jpg?width=1024&quality=75&auto=webp",
+     "width": 3000,
+     "height": 3000,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "3000,1687,x0,y66"
+      },
+      {
+       "name": "4:3",
+       "crop": "3000,2250,x0,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "3000,3000,x0,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "2250,3000,x375,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "3000,2000,x0,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "He is the bourgeois-conservative leading thinker of the CDU: Andreas Rödder, historian and head of the think tank Republik21, criticizes the Union's entrenched coalition logics in «NZZ Machtspiel» and recommends a fundamental change of course."
+    },
+    "showHeader": true,
+    "editor": "1867936",
+    "paywallQuestionOne": "How could the CDU become strategically capable of action by using red lines instead of firewalls?",
+    "paywallQuestionTwo": "Why does Andreas Rödder consider flexible majorities a viable government option for the future?",
+    "paywallQuestionThree": "How does Rödder assess the double standards in the debate about banning the AfD?",
+    "language": {
+     "locale": "de"
+    },
+    "readingTime": 120,
+    "nzzId": "ld.10021940",
+    "characterCount": 2253,
+    "showComments": true,
+    "product": "NZZ.ch",
+    "documentId": "10021940",
+    "layout": "regular",
+    "publicationDate": "2026-09-03T03:00:00.000Z",
+    "publicationLastUpdated": "2026-09-03T03:00:00.000Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-09-03T15:00:00.000Z",
+    "teaserCaption": "He is the bourgeois-conservative leading thinker of the CDU: Andreas Rödder, historian and head of the think tank Republik21, criticizes the Union's entrenched coalition logics in «NZZ Machtspiel» and recommends a fundamental change of course.",
+    "authorLine": "Utz Dräger",
+    "url": "https://www.nzz.ch/podcast/machtspiel/wie-kommt-die-cdu-aus-der-sackgasse-andreas-roedder-ld.10021940",
+    "department": {
+     "name": "Power play",
+     "path": "/podcast/machtspiel"
+    },
+    "estimationWordCount": 356,
+    "leadText": "He is the bourgeois-conservative leading thinker of the CDU: Andreas Rödder, historian and head of the think tank Republik21, criticizes the Union's entrenched coalition logics in «NZZ Machtspiel» and recommends a fundamental change of course.",
+    "nzzSummaryIsAuto": true,
+    "teaserPodcastTitle": "How the CDU can escape the impasse: Andreas Rödder",
+    "teaserPodcastAuthor": "Florian Eder, Andreas Rödder",
+    "teaserPodcastDate": "03.09.2026",
+    "teaserPodcastUrl": "https://audio.podigee-cdn.net/2585342-m-bb3033a2954d218684744abd1d123552.mp3",
+    "teaserPodcastDuration": "39",
+    "commentsCount": 3,
+    "openToComment": false,
+    "locale": "de-CH"
+   },
+   {
+    "title": "Following Germany's accusations against Moscow: The EU is preparing new sanctions – Switzerland was also at the table for the first time",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "teaserImage": {
+     "originalUrl": "/2026/09/02/2f87c52a-e1e8-4f99-a7f6-3a8662b16ba7.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/09/02/2f87c52a-e1e8-4f99-a7f6-3a8662b16ba7.jpg?width=1024&quality=75&auto=webp",
+     "width": 5642,
+     "height": 3761,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "5642,3174,x0,y16"
+      },
+      {
+       "name": "4:3",
+       "crop": "5015,3761,x381,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "3761,3761,x941,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "2821,3761,x1411,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "5642,3761,x0,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "Germany blames Russia for the drone incident in Leipzig and receives considerable support from EU member states. Ukraine wants more than just words.",
+     "teaserAuthor": "Thomas Imo via Imago"
+    },
+    "nzzId": "ld.10022079",
+    "readingTime": 180,
+    "paywallQuestionOne": "What role did Switzerland play at the EU meeting in Ireland?",
+    "paywallQuestionTwo": "How is the EU reacting to the accusation against Russia?",
+    "paywallQuestionThree": "What support is Ukraine requesting from the EU?",
+    "characterCount": 3814,
+    "tags": [
+     "Europa",
+     "Ukraine-Krieg"
+    ],
+    "teaserAuthor": "Thomas Imo via Imago",
+    "product": "NZZ.ch",
+    "documentId": "10022079",
+    "layout": "regular",
+    "publicationDate": "2026-09-02T14:59:06.671Z",
+    "publicationLastUpdated": "2026-09-02T16:17:27.748Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-09-03T02:59:06.671Z",
+    "teaserCaption": "Germany blames Russia for the drone incident in Leipzig and receives considerable support from EU member states. Ukraine wants more than just words.",
+    "authorLine": "Antonio Fumagalli, Brussels",
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2024/08/14/6124518e-3d18-4aa2-826c-c005a3361e94.jpeg?crop=3956,3956,x0,y321&width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/international/nach-deutschlands-vorwuerfen-an-moskau-die-eu-bereitet-neue-sanktionen-vor-zum-ersten-mal-sass-auch-die-schweiz-am-tisch-ld.10022079",
+    "department": {
+     "name": "International",
+     "path": "/international"
+    },
+    "estimationWordCount": 565,
+    "leadText": "Germany blames Russia for the drone incident in Leipzig and receives considerable support from EU member states. Ukraine wants more than just words.",
+    "nzzSummaryIsAuto": true,
+    "locale": "de-CH"
+   },
+   {
+    "title": "Germany protests, and the Russian Finance Minister parleys in the U.S.: This is not how sanctions work",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "flag": "Opinion",
+    "showComments": true,
+    "teaserImage": {
+     "originalUrl": "/2026/09/02/0f7820ef-f01e-49e7-9e43-eec6448cefbb.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/09/02/0f7820ef-f01e-49e7-9e43-eec6448cefbb.jpg?width=1024&quality=75&auto=webp",
+     "width": 6500,
+     "height": 4335,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "6500,3656,x0,y555"
+      },
+      {
+       "name": "4:3",
+       "crop": "5780,4335,x398,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "2961,2961,x392,y484"
+      },
+      {
+       "name": "3:4",
+       "crop": "3251,4335,x550,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "6500,4333,x0,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "Germany wants to hold Russia more accountable – and Donald Trump's administration is in the US talking with the Russian finance minister about cooperation in the international financial system. If sanctions are to be effective, they must be used more effectively and consistently.",
+     "teaserAuthor": "Sam Wolfe / Reuters"
+    },
+    "teaserAuthor": "Sam Wolfe / Reuters",
+    "editor": "1373452",
+    "paywallQuestionOne": "Who is the Russian Finance Minister Anton Siluanov, and why was he sanctioned?",
+    "paywallQuestionTwo": "What are sanctions intended to achieve and how do they work?",
+    "paywallQuestionThree": "How are the signals from the USA affecting us, and what would need to change?",
+    "nzzId": "ld.10022026",
+    "readingTime": 240,
+    "characterCount": 5319,
+    "product": "NZZ.ch",
+    "documentId": "10022026",
+    "layout": "opinion",
+    "publicationDate": "2026-09-02T11:58:27.752Z",
+    "publicationLastUpdated": "2026-09-02T17:58:55.039Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-09-02T23:58:27.752Z",
+    "teaserCaption": "Germany wants to hold Russia more accountable – and Donald Trump's administration is in the US talking with the Russian finance minister about cooperation in the international financial system. If sanctions are to be effective, they must be used more effectively and consistently.",
+    "authorLine": "Peter A. Fischer",
+    "authorImage": {
+     "originalUrl": "/2022/07/27/d59a0238-12f1-43d7-8905-6e94594be820.png?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2022/07/27/d59a0238-12f1-43d7-8905-6e94594be820.png?width=1024&quality=75&auto=webp",
+     "width": 800,
+     "height": 800,
+     "crops": [
+      {
+       "name": "1:1",
+       "crop": "800,800,x0,y0"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2022/07/27/d59a0238-12f1-43d7-8905-6e94594be820.png?width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/meinung/deutschland-protestiert-und-der-russische-finanzminister-parliert-in-den-usa-so-funktionieren-sanktionen-nicht-ld.10022026",
+    "department": {
+     "name": "Opinion",
+     "path": "/meinung"
+    },
+    "estimationWordCount": 781,
+    "premium": true,
+    "leadText": "Germany wants to hold Russia more accountable – and Donald Trump's administration is in the US talking with the Russian finance minister about cooperation in the international financial system. If sanctions are to be effective, they must be used more effectively and consistently.",
+    "nzzSummaryIsAuto": true,
+    "commentsCount": 7,
+    "openToComment": false,
+    "locale": "de-CH"
+   },
+   {
+    "title": "German-Russian relations at an all-time low: Putin speaks of a «grave mistake» after German sanctions",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "teaserImage": {
+     "originalUrl": "/2026/09/02/8a3854ef-1dfe-4b69-a0ed-adc25cd3c44d.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/09/02/8a3854ef-1dfe-4b69-a0ed-adc25cd3c44d.jpg?width=1024&quality=75&auto=webp",
+     "width": 5128,
+     "height": 3419,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "5128,2884,x0,y130"
+      },
+      {
+       "name": "4:3",
+       "crop": "4559,3419,x324,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "3419,3419,x937,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "2564,3419,x1364,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "5128,3419,x0,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "Kremlin denies responsibility for Leipzig drone incident; German accusations called desperate; Moscow's countermeasures",
+     "teaserAuthor": "Kristina Solovyova / Imago"
+    },
+    "teaserAuthor": "Kristina Solovyova / Imago",
+    "nzzId": "ld.10022027",
+    "readingTime": 240,
+    "paywallQuestionOne": "How do the sanctions affect German-Russian relations?",
+    "paywallQuestionTwo": "What specific countermeasures is Russia planning?",
+    "paywallQuestionThree": "How is the Kremlin reacting to the allegations regarding the drone incident?",
+    "characterCount": 5880,
+    "product": "NZZ.ch",
+    "documentId": "10022027",
+    "layout": "regular",
+    "publicationDate": "2026-09-02T11:29:35.291Z",
+    "publicationLastUpdated": "2026-09-02T13:56:01.973Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-09-02T23:29:35.291Z",
+    "teaserCaption": "Kremlin denies responsibility for Leipzig drone incident; German accusations called desperate; Moscow's countermeasures",
+    "authorLine": "Volker Pabst",
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2022/09/14/9567e6f0-1e03-4fc3-8baa-346362e7a28d.png?width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/international/deutsch-russische-beziehungen-am-tiefpunkt-putin-spricht-nach-deutschen-sanktionen-von-einem-schweren-fehler-ld.10022027",
+    "department": {
+     "name": "International",
+     "path": "/international"
+    },
+    "estimationWordCount": 834,
+    "leadText": "Kremlin denies responsibility for Leipzig drone incident; German accusations called desperate; Moscow's countermeasures",
+    "nzzSummaryIsAuto": true,
+    "locale": "de-CH"
+   }
+  ]
+ },
+ "btaNZZaSFeed": {
+  "meta": {
+   "name": "NZZ am Sonntag",
+   "path": "/nzz-am-sonntag"
+  },
+  "data": [
+   {
+    "title": "Hybrid Warfare and Playing with Fire on the Eastern Flank: How Far Will Putin Go? And are Europeans prepared?",
+    "showHeader": true,
+    "owner": "NZZaS",
+    "language": {
+     "locale": "de"
+    },
+    "authorLine": "Andrea Jeska, David Axe, Alain Zucker",
+    "nzzasFootnote": true,
+    "nzzId": "ld.10021091",
+    "readingTime": 420,
+    "paywallQuestionOne": "How is Europe responding to Russia's hybrid attacks?",
+    "paywallQuestionTwo": "What role does support for Ukraine play in the conflict?",
+    "paywallQuestionThree": "How could Russia escalate further?",
+    "characterCount": 10159,
+    "teaserImage": {
+     "originalUrl": "/2026/08/29/f81cc725-5d33-4092-b102-c0c15f310843.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/08/29/f81cc725-5d33-4092-b102-c0c15f310843.jpg?width=1024&quality=75&auto=webp",
+     "width": 2836,
+     "height": 1474,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "2620,1474,x111,y0"
+      },
+      {
+       "name": "4:3",
+       "crop": "1965,1474,x417,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "1474,1474,x671,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "1106,1474,x825,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "2211,1474,x329,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "Russia warns Europeans about transferring missile technology to Ukraine. CIA chief John Ratcliffe flies to Moscow, while NATO holds an exercise on its eastern flank. Signs point to escalation.",
+     "teaserAuthor": "Illustration by Elia Barbieri for NZZaS"
+    },
+    "teaserAuthor": "Illustration by Elia Barbieri for NZZaS",
+    "product": "NZZ.ch",
+    "documentId": 10021091,
+    "layout": "regular",
+    "publicationDate": "2026-08-30T03:30:00.000Z",
+    "publicationLastUpdated": "2026-08-30T03:30:00.000Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-08-30T15:30:00.000Z",
+    "teaserCaption": "Russia warns Europeans about transferring missile technology to Ukraine. CIA chief John Ratcliffe flies to Moscow, while NATO holds an exercise on its eastern flank. Signs point to escalation.",
+    "url": "https://www.nzz.ch/international/hybrider-krieg-und-das-zuendeln-an-der-ostflanke-wie-weit-wird-putin-gehen-und-sind-die-europaeer-vorbereitet-ld.10021091",
+    "department": {
+     "name": "International",
+     "path": "/international"
+    },
+    "estimationWordCount": 1481,
+    "leadText": "Russia warns Europeans about transferring missile technology to Ukraine. CIA chief John Ratcliffe flies to Moscow, while NATO holds an exercise on its eastern flank. Signs point to escalation.",
+    "nzzSummaryIsAuto": true,
+    "containerId": "doc-1jje3h7kv0",
+    "containerPosition": 1,
+    "containerTitle": "NZZ am Sonntag",
+    "editorialScore": 0,
+    "positionInContainer": 1,
+    "hasQ": true,
+    "locale": "de-CH"
+   },
+   {
+    "showHeader": true,
+    "owner": "NZZaS",
+    "language": {
+     "locale": "de"
+    },
+    "teaserImage": {
+     "originalUrl": "/2026/08/28/fbe92494-1ec9-4631-9df3-31b7a615550e.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/08/28/fbe92494-1ec9-4631-9df3-31b7a615550e.jpg?width=1024&quality=75&auto=webp",
+     "width": 5602,
+     "height": 3735,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "5602,3151,x0,y439"
+      },
+      {
+       "name": "4:3",
+       "crop": "4116,3087,x1,y503"
+      },
+      {
+       "name": "1:1",
+       "crop": "2806,2806,x622,y594"
+      },
+      {
+       "name": "3:4",
+       "crop": "2315,3087,x842,y567"
+      },
+      {
+       "name": "3:2",
+       "crop": "4209,2806,x0,y492"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "The FDP politician criticizes parliamentary attempts to alter the negotiated agreement with the EU. She also defends her party's parliamentarians for ignoring a vote by their own delegates on a key provision.",
+     "teaserAuthor": "Andrea Zahle"
+    },
+    "teaserAuthor": "Andrea Zahle",
+    "title": "FDP co-president Susanne Vincenz-Stauffacher on the start of the European debate: «That was a false start»",
+    "nzzasFootnote": true,
+    "nzzId": "ld.10020993",
+    "readingTime": 540,
+    "paywallQuestionOne": "How does the FDP assess the attempts to change the EU negotiation outcome?",
+    "paywallQuestionTwo": "Why is the FDP ignoring the vote of its delegates against the majority of cantons?",
+    "paywallQuestionThree": "How does the FDP intend to finance the army without raising taxes?",
+    "characterCount": 11294,
+    "flag": "interview",
+    "tags": [
+     "Schweiz und die EU"
+    ],
+    "product": "NZZ.ch",
+    "documentId": 10020993,
+    "layout": "regular",
+    "publicationDate": "2026-08-29T19:45:00.000Z",
+    "publicationLastUpdated": "2026-08-31T08:16:16.249Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-08-30T07:45:00.000Z",
+    "teaserCaption": "The FDP politician criticizes parliamentary attempts to alter the negotiated agreement with the EU. She also defends her party's parliamentarians for ignoring a vote by their own delegates on a key provision.",
+    "authorLine": "Daniel Foppa, Simon Marti",
+    "authorImage": {
+     "originalUrl": "/2024/05/28/7536f440-0c11-4f0f-86f5-1139121b3bb6.webp?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2024/05/28/7536f440-0c11-4f0f-86f5-1139121b3bb6.webp?width=1024&quality=75&auto=webp",
+     "width": 480,
+     "height": 480,
+     "crops": [
+      {
+       "name": "1:1",
+       "crop": "480,480,x0,y0"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2024/05/28/7536f440-0c11-4f0f-86f5-1139121b3bb6.webp?width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/schweiz/fdp-co-praesidentin-vincenz-stauffacher-zum-auftakt-der-europadebatte-das-war-ein-fehlstart-ld.10020993",
+    "department": {
+     "name": "Switzerland",
+     "path": "/schweiz"
+    },
+    "estimationWordCount": 1703,
+    "leadText": "The FDP politician criticizes parliamentary attempts to alter the negotiated agreement with the EU. She also defends her party's parliamentarians for ignoring a vote by their own delegates on a key provision.",
+    "nzzSummaryIsAuto": true,
+    "containerId": "doc-1jje3h7kv0",
+    "containerPosition": 1,
+    "containerTitle": "NZZ am Sonntag",
+    "editorialScore": 0,
+    "positionInContainer": 2,
+    "locale": "de-CH"
+   },
+   {
+    "title": "Deep relaxation in nature, young people with ideas, and the best butter tea in the world. A small ode to Nepal",
+    "showHeader": true,
+    "owner": "NZZaS",
+    "language": {
+     "locale": "de"
+    },
+    "authorLine": "Stephanie Geiger",
+    "nzzasFootnote": true,
+    "teaserImage": {
+     "originalUrl": "/2026/08/29/d217a4cb-2734-400a-9291-ed353fc801cc.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/08/29/d217a4cb-2734-400a-9291-ed353fc801cc.jpg?width=1024&quality=75&auto=webp",
+     "width": 5500,
+     "height": 3712,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "5500,3094,x0,y309"
+      },
+      {
+       "name": "4:3",
+       "crop": "4949,3712,x275,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "3712,3712,x894,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "2784,3712,x1358,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "5500,3667,x0,y23"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "Despite the tragedy: A return to Nepal soon",
+     "teaserAuthor": "Francis Mascarenhas / Reuters"
+    },
+    "teaserAuthor": "Francis Mascarenhas / Reuters",
+    "nzzId": "ld.10021585",
+    "readingTime": 360,
+    "paywallQuestionOne": "How do natural disasters affect the lives of people in Nepal?",
+    "paywallQuestionTwo": "How is Nepal changing through electromobility and infrastructure projects?",
+    "paywallQuestionThree": "What role does the younger generation play in Nepal's development?",
+    "characterCount": 7555,
+    "product": "NZZ.ch",
+    "documentId": 10021585,
+    "layout": "regular",
+    "publicationDate": "2026-08-30T03:30:00.000Z",
+    "publicationLastUpdated": "2026-08-30T03:30:00.000Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-08-30T15:30:00.000Z",
+    "teaserCaption": "Despite the tragedy: A return to Nepal soon",
+    "url": "https://www.nzz.ch/international/tiefenentspannung-in-der-natur-junge-menschen-mit-ideen-und-der-beste-buttertee-der-welt-eine-kleine-ode-an-nepal-ld.10021585",
+    "department": {
+     "name": "International",
+     "path": "/international"
+    },
+    "estimationWordCount": 1239,
+    "leadText": "Despite the tragedy: A return to Nepal soon",
+    "nzzSummaryIsAuto": true,
+    "containerId": "doc-1jje3h7kv0",
+    "containerPosition": 1,
+    "containerTitle": "NZZ am Sonntag",
+    "editorialScore": 0,
+    "positionInContainer": 3,
+    "hasQ": true,
+    "locale": "de-CH"
+   },
+   {
+    "title": "Rapper Stress: «I measured my self-worth by how successful I am. Nothing good can come of that. Not even good music»",
+    "showHeader": true,
+    "owner": "NZZaS",
+    "language": {
+     "locale": "de"
+    },
+    "teaserImage": {
+     "originalUrl": "/2026/08/25/684e0281-49d4-4913-a6e8-b81c12707b8c.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/08/25/684e0281-49d4-4913-a6e8-b81c12707b8c.jpg?width=1024&quality=75&auto=webp",
+     "width": 1920,
+     "height": 1440,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "1920,1080,x0,y0"
+      },
+      {
+       "name": "4:3",
+       "crop": "1920,1440,x0,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "1440,1440,x373,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "1080,1440,x553,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "1920,1280,x0,y0"
+      }
+     ],
+     "focalPoint": {
+      "x": 1093,
+      "y": 307
+     },
+     "imageService": "fastly",
+     "teaserCaption": "Stress is the most successful rapper in Switzerland. For years he has spoken openly about his depression. He wanted to write a self-help book about how he found his way back to life – until physical pain forced him to start all over again.",
+     "teaserAuthor": "Sébastien Agnetti"
+    },
+    "teaserAuthor": "Sébastien Agnetti",
+    "nzzasFootnote": true,
+    "nzzId": "ld.10018314",
+    "readingTime": 780,
+    "paywallQuestionOne": "How did Stress's success affect his mental health?",
+    "paywallQuestionTwo": "Why does Stress view his book more as a testimony than as a guide?",
+    "paywallQuestionThree": "What role does childhood play in Stress's personal development?",
+    "characterCount": 14907,
+    "flag": "interview",
+    "product": "NZZ.ch",
+    "documentId": 10018314,
+    "layout": "longformstandard",
+    "publicationDate": "2026-08-30T03:29:00.000Z",
+    "publicationLastUpdated": "2026-08-30T03:29:00.000Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-08-30T15:29:00.000Z",
+    "teaserCaption": "Stress is the most successful rapper in Switzerland. For years he has spoken openly about his depression. He wanted to write a self-help book about how he found his way back to life – until physical pain forced him to start all over again.",
+    "authorLine": "Frank Heer",
+    "authorImage": {
+     "originalUrl": "/2025/02/19/4d0a1c14-762f-4a79-943b-8695aaa4d40d.jpeg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2025/02/19/4d0a1c14-762f-4a79-943b-8695aaa4d40d.jpeg?width=1024&quality=75&auto=webp",
+     "width": 4128,
+     "height": 2752,
+     "crops": [
+      {
+       "name": "1:1",
+       "crop": "2752,2752,x688,y0"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2025/02/19/4d0a1c14-762f-4a79-943b-8695aaa4d40d.jpeg?width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/feuilleton/rapper-stress-ich-habe-meinen-selbstwert-daran-gemessen-wie-erfolgreich-ich-bin-daraus-kann-nichts-gutes-entstehen-auch-keine-gute-musik-ld.10018314",
+    "department": {
+     "name": "Arts & Culture",
+     "path": "/feuilleton"
+    },
+    "estimationWordCount": 2521,
+    "leadText": "Stress is the most successful rapper in Switzerland. For years he has spoken openly about his depression. He wanted to write a self-help book about how he found his way back to life – until physical pain forced him to start all over again.",
+    "nzzSummaryIsAuto": true,
+    "containerId": "doc-1jje3h7kv0",
+    "containerPosition": 1,
+    "containerTitle": "NZZ am Sonntag",
+    "editorialScore": 0,
+    "positionInContainer": 4,
+    "locale": "de-CH"
+   },
+   {
+    "title": "Condominium nightmare: How owners become bitter enemies",
+    "showHeader": true,
+    "owner": "NZZaS",
+    "language": {
+     "locale": "de"
+    },
+    "characterCount": 13550,
+    "nzzasFootnote": true,
+    "nzzId": "ld.10014125",
+    "readingTime": 600,
+    "paywallQuestionOne": "What challenges does condominium ownership pose for the owners?",
+    "paywallQuestionTwo": "Why do renovations often fail due to financial and legal hurdles?",
+    "paywallQuestionThree": "How could the revision of condominium ownership law defuse conflicts?",
+    "teaserImage": {
+     "originalUrl": "/2026/08/29/75186538-5fe8-4736-8335-f7b57a064317.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/08/29/75186538-5fe8-4736-8335-f7b57a064317.jpg?width=1024&quality=75&auto=webp",
+     "width": 6034,
+     "height": 3395,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "6034,3394,x0,y0"
+      },
+      {
+       "name": "4:3",
+       "crop": "4527,3395,x754,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "3395,3395,x1320,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "2546,3395,x1744,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "5093,3395,x471,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "Those who can't afford a house opt for condominium ownership. But in practice, this often turns into a nerve-wracking battle over garden benches, awning colors, and bicycle shelters. And that's nothing compared to the woes associated with renovations.",
+     "teaserAuthor": "Illustration by Elia Barbieri for NZZaS"
+    },
+    "teaserAuthor": "Illustration by Elia Barbieri for NZZaS",
+    "product": "NZZ.ch",
+    "documentId": 10014125,
+    "layout": "regular",
+    "publicationDate": "2026-08-30T03:30:00.000Z",
+    "publicationLastUpdated": "2026-08-30T03:30:00.000Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-08-30T15:30:00.000Z",
+    "teaserCaption": "Those who can't afford a house opt for condominium ownership. But in practice, this often turns into a nerve-wracking battle over garden benches, awning colors, and bicycle shelters. And that's nothing compared to the woes associated with renovations.",
+    "authorLine": "Jürg Zulliger",
+    "authorImage": {
+     "originalUrl": "/2024/01/31/abcf5b13-0bb2-4dd2-91da-b56035766bfb.jpeg?crop=2625,2625,x0,y438",
+     "url": "https://img-msp-prod.nzz.ch/2024/01/31/abcf5b13-0bb2-4dd2-91da-b56035766bfb.jpeg?crop=2625,2625,x0,y438&width=1024&quality=75&auto=webp",
+     "width": 2625,
+     "height": 3500,
+     "imageService": "fastly",
+     "crop": {
+      "name": "1:1",
+      "x": 0,
+      "y": 438,
+      "width": 2625,
+      "height": 2625
+     },
+     "crops": []
+    },
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2024/01/31/abcf5b13-0bb2-4dd2-91da-b56035766bfb.jpeg?crop=2625,2625,x0,y438&width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/wirtschaft/albtraum-eigentumswohnung-wie-stockwerkeigentuemer-zu-erbitterten-feinden-werden-ld.10014125",
+    "department": {
+     "name": "Economy",
+     "path": "/wirtschaft"
+    },
+    "estimationWordCount": 1930,
+    "leadText": "Those who can't afford a house opt for condominium ownership. But in practice, this often turns into a nerve-wracking battle over garden benches, awning colors, and bicycle shelters. And that's nothing compared to the woes associated with renovations.",
+    "nzzSummaryIsAuto": true,
+    "containerId": "doc-1jje3h7kv0",
+    "containerPosition": 1,
+    "containerTitle": "NZZ am Sonntag",
+    "editorialScore": 0,
+    "positionInContainer": 5,
+    "locale": "de-CH"
+   }
+  ]
+ },
+ "digitalData": {
+  "component": [
+   {
+    "id": "ld.1864526",
+    "name": "Young, angry, and fiercely determined: activists are fighting alongside the Sudanese army against the rebel militia – and the greatest humanitarian catastrophe of our time",
+    "type": "article",
+    "subType1": "longformvisual",
+    "subType2": "",
+    "primaryCategory": "International",
+    "subCategory1": "",
+    "attributes": {
+     "headline": "Young, angry, and fiercely determined: activists are fighting alongside the Sudanese army against the rebel militia – and the greatest humanitarian catastrophe of our time",
+     "firstPublishTitle": "",
+     "catchline": "",
+     "authors": [],
+     "issueTimestamp": "2025-01-04T20:45:00.000Z",
+     "updateTimestamp": "2025-01-04T20:45:00.000Z",
+     "isSponsoredContent": false,
+     "isPro": true,
+     "isLiveticker": false,
+     "flag": "",
+     "owner": "NZZaS"
+    }
+   }
+  ],
+  "page": {
+   "pageId": "ld.1864526",
+   "pageType": "longformvisual",
+   "primaryCategory": "International",
+   "subCategory1": "",
+   "subCategory2": "",
+   "language": "en-US"
+  },
+  "version": "2.0",
+  "user": {},
+  "event": []
+ },
+ "seoData": {
+  "title": "War in Sudan: The army is recruiting more and more civilians for its fight",
+  "image": {
+   "url": "https://img-msp-prod.nzz.ch/2025/01/02/245b5240-7599-4193-8dac-8d6a43d9feaa.jpeg?width=1200&height=675&fit=bounds&quality=75&auto=webp&crop=6142,3455,x0,y640&wmark=nzz",
+   "type": "image/jpeg",
+   "width": 1200,
+   "height": 675
+  },
+  "author": "Christian Putsch (text and images), Omdurman",
+  "description": "Once crushed by the Sudanese army, volunteer groups like the «Ghadiboon» are now working alongside it to win the civil war. They are on the front lines with young fighters who will never give up on the dream of democracy.",
+  "news_keywords": "Young, angry, and fiercely determined: Activists are fighting alongside the Sudanese army against the rebel militia – and the greatest humanitarian catastrophe of our time, International, News, NZZ",
+  "type": "article",
+  "last-modified": "2025-01-04T23:45:00+02:00",
+  "date": "2025-01-04T23:45:00+02:00",
+  "canonical": "https://www.nzz.ch/international/jung-wuetend-und-wild-entschlossen-aktivisten-kaempfen-mit-der-sudanesischen-armee-gegen-die-rebellen-miliz-und-die-groesste-humanitaere-katastrophe-dieser-welt-ld.1864526",
+  "fb:app_id": 138008459595436,
+  "fb:pages": 143694099006529,
+  "fb:admins": 1592685173,
+  "locale": "de-CH",
+  "email": "online.redaktion@nzz.ch",
+  "site_name": "Neue Zürcher Zeitung",
+  "copyright": "2026 Neue Zürcher Zeitung AG, Schweiz",
+  "robots": "noindex, nofollow, noarchive, noodp",
+  "hreflang": [],
+  "sharedTitle": "Young, angry, and fiercely determined: activists are fighting alongside the Sudanese army against the rebel militia – and the greatest humanitarian catastrophe of our time",
+  "ogTitle": "The Ghadiboon: Freedom fighters of Sudan or cannon fodder?",
+  "ogUrl": "https://www.nzz.ch/international/jung-wuetend-und-wild-entschlossen-aktivisten-kaempfen-mit-der-sudanesischen-armee-gegen-die-rebellen-miliz-und-die-groesste-humanitaere-katastrophe-dieser-welt-ld.1864526",
+  "mrf:cms_id": "nzz:ld.1864526",
+  "mrf:sections": "International",
+  "mrf:tags": "Page Type:longformvisual;Editorial Owner:NZZaS;Content Type:Pro Article;Article ID:ld.1864526",
+  "nzzAuthors": [
+   {
+    "name": "Christian Putsch (Text und Bilder), Omdurman"
+   }
+  ],
+  "links": [
+   {
+    "rel": "canonical",
+    "href": "https://www.nzz.ch/international/jung-wuetend-und-wild-entschlossen-aktivisten-kaempfen-mit-der-sudanesischen-armee-gegen-die-rebellen-miliz-und-die-groesste-humanitaere-katastrophe-dieser-welt-ld.1864526"
+   },
+   {
+    "rel": "search",
+    "href": "/suche",
+    "title": "Suche Neue Zürcher Zeitung, Schweiz, https://www.nzz.ch/suche"
+   }
+  ],
+  "renderedAt": "Thu, 03 Sep 2026 09:31:13 GMT"
+ },
+ "structuredData": [
+  {
+   "@context": "https://schema.org",
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "item": {
+      "@id": "/",
+      "name": "Home"
+     }
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "item": {
+      "@id": "/international",
+      "name": "International"
+     }
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "War in Sudan: The army is recruiting more and more civilians for its fight"
+    }
+   ]
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": "NewsArticle",
+   "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.nzz.ch/international/jung-wuetend-und-wild-entschlossen-aktivisten-kaempfen-mit-der-sudanesischen-armee-gegen-die-rebellen-miliz-und-die-groesste-humanitaere-katastrophe-dieser-welt-ld.1864526"
+   },
+   "headline": "War in Sudan: The army is recruiting more and more civilians for its fight",
+   "datePublished": "2025-01-04T23:45:00+02:00",
+   "dateModified": "2025-01-04T23:45:00+02:00",
+   "publisher": {
+    "@type": "NewsMediaOrganization",
+    "name": "Neue Zürcher Zeitung",
+    "url": "https://www.nzz.ch",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://www.nzz.ch/logo.png",
+     "width": 413,
+     "height": 60
+    },
+    "contactPoint": [
+     {
+      "@type": "ContactPoint",
+      "telephone": "+41-44-2581000",
+      "contactType": "customer service"
+     }
+    ],
+    "sameAs": [
+     "https://www.facebook.com/nzz",
+     "https://www.twitter.com/nzz",
+     "https://www.youtube.com/channel/UCK1aTcR0AckQRLTlK0c4fuQ",
+     "https://www.linkedin.com/company/neue-zurcher-zeitung",
+     "https://www.instagram.com/nzz/",
+     "https://de.wikipedia.org/wiki/Neue_Z%C3%BCrcher_Zeitung",
+     "https://www.wikidata.org/wiki/Q658945",
+     "https://plus.google.com/+nzz/",
+     "http://www.freebase.com/m/041b43"
+    ],
+    "masthead": "https://www.nzz.ch/impressum/impressum-ld.148422",
+    "foundingDate": "1780"
+   },
+   "description": "Once crushed by the Sudanese army, volunteer groups like the «Ghadiboon» are now working alongside it to win the civil war. They are on the front lines with young fighters who will never give up on the dream of democracy.",
+   "isAccessibleForFree": false,
+   "articleSection": "International",
+   "hasPart": {
+    "@type": "WebPageElement",
+    "isAccessibleForFree": false,
+    "cssSelector": ".nzzinteraction"
+   },
+   "image": {
+    "@type": "ImageObject",
+    "url": "https://img-msp-prod.nzz.ch/2025/01/02/245b5240-7599-4193-8dac-8d6a43d9feaa.jpeg?width=1200&height=675&fit=bounds&quality=75&auto=webp&crop=6142,3455,x0,y640&wmark=nzz",
+    "width": 1200,
+    "height": 675
+   },
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Christian Putsch (text and images), Omdurman"
+    }
+   ],
+   "inLanguage": "de"
+  }
+ ],
+ "mp3": true,
+ "mp3Duration": 847560,
+ "bT": {
+  "standard": {
+   "Tags": [
+    "/international/jung-wuetend-und-wild-entschlossen-aktivisten-kaempfen-mit-der-sudanesischen-armee-gegen-die-rebellen-miliz-und-die-groesste-humanitaere-katastrophe-dieser-welt-ld.1864526",
+    "classification=premium",
+    "relevance=germany",
+    "layout=longformvisual",
+    "owner=nzzas",
+    "product=nzz",
+    "doctype=article",
+    "pagetype=article",
+    "ldid=ld.1864526",
+    "channel=International"
+   ],
+   "ContentCreated": "2025-01-04T20:45:00.000Z",
+   "ContentAuthor": "Christian Putsch (Text und Bilder), Omdurman",
+   "ContentSection": "International",
+   "ContentIsNative": true
+  },
+  "custom": {
+   "product": "nzz",
+   "docType": "article",
+   "pageType": "article",
+   "layout": "longformvisual",
+   "ldId": "ld.1864526",
+   "channel": "International",
+   "heading": "Jung, wütend und wild entschlossen: Aktivisten kämpfen mit der sudanesischen Armee gegen die Rebellen-Miliz – und die grösste humanitäre Katastrophe unserer Zeit",
+   "language": "en-US"
+  }
+ },
+ "webviewMetadata": {},
+ "cacheTime": 3600
+}

@@ -1,0 +1,124 @@
+{
+  "_id": "d6f71b15d01356c1168cbb262ca1cbe4",
+  "_rev": "17-f974b8985df15205185027c33b045a61",
+  "data": [
+    [
+      null,
+      "Produkte"
+    ],
+    [
+      "Sofort oder in weniger als einer Woche",
+      "21.4"
+    ],
+    [
+      "In ein bis zwei Wochen",
+      "4.3"
+    ],
+    [
+      "In zwei bis drei Wochen",
+      "10"
+    ],
+    [
+      "In drei bis vier Wochen",
+      "17.1"
+    ],
+    [
+      "In mehr als vier Wochen",
+      "27.1"
+    ],
+    [
+      "Nicht lieferbar",
+      "20"
+    ]
+  ],
+  "tool": "chart",
+  "notes": "Stand: 15. Juli 2026",
+  "title": "Wer jetzt eine Klimaanlage bestellt, muss oft lange warten",
+  "active": true,
+  "events": [],
+  "acronym": "fsl.",
+  "options": {
+    "chartType": "Bar",
+    "barOptions": {
+      "isBarChart": true,
+      "forceBarsOnSmall": false
+    },
+    "annotations": {},
+    "arrowOptions": {
+      "colorScheme": 0,
+      "invertColorScheme": false
+    },
+    "largeNumbers": {
+      "divideBy": 0
+    },
+    "hideAxisLabel": true,
+    "dotplotOptions": {},
+    "areaChartOptions": {
+      "stackType": "zero",
+      "areaInterpolation": "linear"
+    },
+    "lineChartOptions": {
+      "yScaleType": "linear",
+      "isStockChart": false,
+      "reverseYScale": false,
+      "lineInterpolation": "linear"
+    },
+    "dateSeriesOptions": {
+      "labels": "many",
+      "interval": "auto",
+      "prognosisStart": null
+    },
+    "highlightDataRows": [],
+    "colorOverwritesRows": [],
+    "highlightDataSeries": [],
+    "colorOverwritesSeries": [
+      {
+        "color": "#335f78",
+        "position": 1,
+        "colorLight": "#cdcdd1"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "link": {
+        "url": ""
+      },
+      "text": "Galaxus"
+    },
+    {
+      "link": {
+        "url": ""
+      },
+      "text": "eigene Berechnungen"
+    }
+  ],
+  "subtitle": "Lieferzeiten für Klimaanlagen bei Galaxus, Anteile in Prozent",
+  "createdBy": "florian.seliger@nzz.ch",
+  "updatedBy": "anja.ruoss@nzz.ch",
+  "department": "Visuals",
+  "createdDate": "2026-07-07T08:07:32.250Z",
+  "publication": "nzz",
+  "updatedDate": "2026-08-05T07:49:44.700Z",
+  "allowDownloadData": false,
+  "datasheetParseInfo": {
+    "columns": [
+      {
+        "type": "string"
+      },
+      {
+        "type": "number",
+        "decimalSeparator": "."
+      },
+      {
+        "type": "string"
+      },
+      {
+        "type": "string"
+      },
+      {
+        "type": "string"
+      }
+    ]
+  }
+}

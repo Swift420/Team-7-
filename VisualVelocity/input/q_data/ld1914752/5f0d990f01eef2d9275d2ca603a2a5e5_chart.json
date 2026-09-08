@@ -1,0 +1,363 @@
+{
+  "_id": "5f0d990f01eef2d9275d2ca603a2a5e5",
+  "_rev": "4-d1370ed0f99dfddfc8aebe032db567b2",
+  "data": [
+    [
+      null,
+      "Bruttostaatsverschuldung",
+      "Staatsausgaben"
+    ],
+    [
+      "1970",
+      "16.9",
+      "29.5"
+    ],
+    [
+      "1971",
+      "16.9",
+      "29.8"
+    ],
+    [
+      "1972",
+      "17.2",
+      "31.9"
+    ],
+    [
+      "1973",
+      "18",
+      "31.1"
+    ],
+    [
+      "1974",
+      "19.4",
+      "30.1"
+    ],
+    [
+      "1975",
+      "19.9",
+      "30.6"
+    ],
+    [
+      "1976",
+      "19",
+      "32.3"
+    ],
+    [
+      "1977",
+      "21",
+      "35.7"
+    ],
+    [
+      "1978",
+      "24",
+      "39.1"
+    ],
+    [
+      "1979",
+      "28.3",
+      "39.9"
+    ],
+    [
+      "1980",
+      "34.4",
+      "41"
+    ],
+    [
+      "1981",
+      "41.5",
+      "46.1"
+    ],
+    [
+      "1982",
+      "47.9",
+      "46.4"
+    ],
+    [
+      "1983",
+      "54.5",
+      "48.6"
+    ],
+    [
+      "1984",
+      "57.5",
+      "46.7"
+    ],
+    [
+      "1985",
+      "61.2",
+      "47.6"
+    ],
+    [
+      "1986",
+      "59.5",
+      "42.1"
+    ],
+    [
+      "1987",
+      "56",
+      "40.9"
+    ],
+    [
+      "1988",
+      "50.3",
+      "37.9"
+    ],
+    [
+      "1989",
+      "44.8",
+      "35.8"
+    ],
+    [
+      "1990",
+      "40.3",
+      "38"
+    ],
+    [
+      "1991",
+      "40.2",
+      "41"
+    ],
+    [
+      "1992",
+      "45.7",
+      "45.9"
+    ],
+    [
+      "1993",
+      "65.7",
+      "69.4"
+    ],
+    [
+      "1994",
+      "68.2",
+      "67.1"
+    ],
+    [
+      "1995",
+      "68.3",
+      "63"
+    ],
+    [
+      "1996",
+      "68.7",
+      "61"
+    ],
+    [
+      "1997",
+      "67.4",
+      "58.7"
+    ],
+    [
+      "1998",
+      "65.1",
+      "56.4"
+    ],
+    [
+      "1999",
+      "60.1",
+      "56"
+    ],
+    [
+      "2000",
+      "50.2",
+      "53.1"
+    ],
+    [
+      "2001",
+      "51.8",
+      "52.5"
+    ],
+    [
+      "2002",
+      "49.8",
+      "53.6"
+    ],
+    [
+      "2003",
+      "49.3",
+      "53.8"
+    ],
+    [
+      "2004",
+      "48.5",
+      "52.5"
+    ],
+    [
+      "2005",
+      "48.8",
+      "52.3"
+    ],
+    [
+      "2006",
+      "43.7",
+      "51.1"
+    ],
+    [
+      "2007",
+      "39",
+      "49.3"
+    ],
+    [
+      "2008",
+      "37.5",
+      "50"
+    ],
+    [
+      "2009",
+      "40.7",
+      "52.4"
+    ],
+    [
+      "2010",
+      "38.1",
+      "50.4"
+    ],
+    [
+      "2011",
+      "37.1",
+      "48.7"
+    ],
+    [
+      "2012",
+      "37.5",
+      "49.9"
+    ],
+    [
+      "2013",
+      "40.2",
+      "50.6"
+    ],
+    [
+      "2014",
+      "44.9",
+      "49.7"
+    ],
+    [
+      "2015",
+      "43.7",
+      "48.4"
+    ],
+    [
+      "2016",
+      "42.3",
+      "48.8"
+    ],
+    [
+      "2017",
+      "40.7",
+      "48.2"
+    ],
+    [
+      "2018",
+      "39.2",
+      "48.8"
+    ],
+    [
+      "2019",
+      "35.5",
+      "48.1"
+    ],
+    [
+      "2020",
+      "39.8",
+      "51"
+    ],
+    [
+      "2021",
+      "36.4",
+      "48.2"
+    ],
+    [
+      "2022",
+      "32.7",
+      "47.3"
+    ],
+    [
+      "2023",
+      "36.4",
+      "48.9"
+    ],
+    [
+      "2024",
+      "33.0",
+      "49.3"
+    ],
+    [
+      "2025",
+      "34.2",
+      "49.0"
+    ]
+  ],
+  "tool": "chart",
+  "title": "Konsolidierung ist möglich: Schweden",
+  "active": true,
+  "events": [
+    {
+      "type": "range",
+      "label": "Skandinavische Banken- und Finanzkrise",
+      "dateTo": "1994",
+      "dateFrom": "1990"
+    },
+    {
+      "type": "range",
+      "label": "Corona-Pandemie",
+      "dateTo": "2022",
+      "dateFrom": "2020"
+    },
+    {
+      "type": "range",
+      "label": "Europäische Banken- und Schuldenkrise",
+      "dateTo": "2015",
+      "dateFrom": "2009"
+    }
+  ],
+  "acronym": "pfi.",
+  "options": {
+    "chartType": "Line",
+    "barOptions": {
+      "isBarChart": false,
+      "forceBarsOnSmall": false
+    },
+    "annotations": {},
+    "arrowOptions": {
+      "colorScheme": 0,
+      "invertColorScheme": false
+    },
+    "largeNumbers": {
+      "divideBy": 0
+    },
+    "hideAxisLabel": true,
+    "dotplotOptions": {},
+    "areaChartOptions": {
+      "stackType": "zero",
+      "areaInterpolation": "linear"
+    },
+    "lineChartOptions": {
+      "yScaleType": "linear",
+      "isStockChart": false,
+      "reverseYScale": false,
+      "lineInterpolation": "linear"
+    },
+    "dateSeriesOptions": {
+      "labels": "many",
+      "interval": "auto",
+      "prognosisStart": null
+    },
+    "highlightDataRows": [],
+    "compactEventLegend": true,
+    "colorOverwritesRows": [],
+    "highlightDataSeries": [
+      0
+    ],
+    "colorOverwritesSeries": []
+  },
+  "sources": [],
+  "subtitle": "in Prozent des Bruttoinlandprodukts",
+  "createdBy": "peter.fischer@nzz.ch",
+  "updatedBy": "lucie.paska@nzz.ch",
+  "department": "Wirtschaft",
+  "createdDate": "2025-12-02T17:52:02.038Z",
+  "publication": "nzz",
+  "updatedDate": "2025-12-06T17:07:49.352Z",
+  "allowDownloadData": false
+}

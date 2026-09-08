@@ -1,0 +1,171 @@
+{
+  "_id": "6d4c90af52f402ffb7ca3835cabd4e01",
+  "_rev": "4-29a41d4558972902bda667c2c5e0c974",
+  "data": [
+    [
+      null,
+      "China",
+      "Mexico",
+      "Canada",
+      "EU",
+      "Switzerland"
+    ],
+    [
+      "01.01.2025",
+      "18.41%",
+      null,
+      "0.25%",
+      "3.47%",
+      "3.47%"
+    ],
+    [
+      "04.02.2025",
+      "28.41%",
+      null,
+      "0.25%",
+      "3.47%",
+      "3.47%"
+    ],
+    [
+      "04.03.2025",
+      "38.41%",
+      "25.00%",
+      "25.13%",
+      "3.47%",
+      "3.47%"
+    ],
+    [
+      "07.03.2025",
+      "38.41%",
+      "18.36%",
+      "17.73%",
+      "3.47%",
+      "3.47%"
+    ],
+    [
+      "12.03.2025",
+      "39.81%",
+      "18.36%",
+      "17.73%",
+      "4.87%",
+      "4.87%"
+    ],
+    [
+      "03.04.2025",
+      "39.88%",
+      "18.36%",
+      "17.73%",
+      "4.95%",
+      "4.95%"
+    ],
+    [
+      "05.04.2025",
+      "39.88%",
+      "18.36%",
+      "17.73%",
+      "13.21%",
+      "13.21%"
+    ],
+    [
+      "09.04.2025",
+      "143.15%",
+      "18.36%",
+      "17.73%",
+      "13.21%",
+      "13.21%"
+    ],
+    [
+      "03.05.2025",
+      "143.45%",
+      "18.36%",
+      "17.73%",
+      "13.51%",
+      "13.51%"
+    ],
+    [
+      "14.05.2025",
+      "48.44%",
+      "18.36%",
+      "17.73%",
+      "13.51%",
+      "13.51%"
+    ],
+    [
+      "04.06.2025",
+      "49.84%",
+      "20.00%",
+      "19.40%",
+      "14.91%",
+      "14.91%"
+    ],
+    [
+      "23.06.2025",
+      "49.88%",
+      "20.04%",
+      "19.44%",
+      "14.95%",
+      "14.95%"
+    ],
+    [
+      "30.06.2025",
+      "49.88%",
+      "20.04%",
+      "19.44%",
+      "14.95%",
+      "14.95%"
+    ]
+  ],
+  "tool": "chart",
+  "notes": "Source: <a href=\"https://data.worldbank.org/indicator/BX.KLT.DINV.CD.WD?locations=CN\">WTO Tariff & Trade Data</a>",
+  "title": "China, Canada and Mexico – America’s top trading partners – face the toughest penalties",
+  "active": true,
+  "events": [],
+  "acronym": "pfi.",
+  "options": {
+    "chartType": "Line",
+    "barOptions": {
+      "isBarChart": false,
+      "forceBarsOnSmall": false
+    },
+    "annotations": {},
+    "arrowOptions": {
+      "colorScheme": 0,
+      "invertColorScheme": false
+    },
+    "largeNumbers": {
+      "divideBy": 0
+    },
+    "hideAxisLabel": true,
+    "dotplotOptions": {
+      "connectDots": true
+    },
+    "areaChartOptions": {
+      "stackType": "zero",
+      "areaInterpolation": "linear"
+    },
+    "lineChartOptions": {
+      "yScaleType": "linear",
+      "isStockChart": false,
+      "reverseYScale": false,
+      "lineInterpolation": "step-after"
+    },
+    "dateSeriesOptions": {
+      "labels": "many",
+      "interval": "day",
+      "prognosisStart": null
+    },
+    "highlightDataRows": [],
+    "colorOverwritesRows": [],
+    "highlightDataSeries": [],
+    "colorOverwritesSeries": []
+  },
+  "sources": [],
+  "subtitle": "Average applied tariff rates (%)",
+  "createdBy": "barbara.serfozo@lieferanten.nzz.ch",
+  "updatedBy": "barbara.serfozo@lieferanten.nzz.ch",
+  "department": "Wirtschaft",
+  "createdDate": "2025-06-30T16:16:05.045Z",
+  "publication": "nzz",
+  "updatedDate": "2025-06-30T16:19:06.028Z",
+  "allowDownloadData": false
+}

@@ -1,0 +1,106 @@
+{
+  "_id": "61555fb2e72649e3a4f526fe4204df28",
+  "_rev": "4-0b9a676f2aee9f3fd46930afef031247",
+  "data": [
+    [
+      null,
+      "Bevölkerung (in Milliarden)",
+      "Geburten pro Frau"
+    ],
+    [
+      "1950",
+      "0.346279",
+      "5.7316"
+    ],
+    [
+      "1960",
+      "0.435990",
+      "5.9211"
+    ],
+    [
+      "1970",
+      "0.545864",
+      "5.6240"
+    ],
+    [
+      "1980",
+      "0.687354",
+      "4.7753"
+    ],
+    [
+      "1990",
+      "0.864972",
+      "4.0446"
+    ],
+    [
+      "2000",
+      "1.057923",
+      "3.3498"
+    ],
+    [
+      "2010",
+      "1.243482",
+      "2.5985"
+    ],
+    [
+      "2020",
+      "1.402618",
+      "2.0468"
+    ],
+    [
+      "2025",
+      "1.457369",
+      "1.9435"
+    ]
+  ],
+  "tool": "chart",
+  "title": "Indien: Die Bevölkerung nimmt zu, die Geburtenrate sinkt stark.",
+  "active": true,
+  "events": [],
+  "acronym": "dr",
+  "options": {
+    "chartType": "Line",
+    "barOptions": {
+      "isBarChart": false,
+      "forceBarsOnSmall": false
+    },
+    "annotations": {},
+    "arrowOptions": {
+      "colorScheme": 0,
+      "invertColorScheme": false
+    },
+    "largeNumbers": {
+      "divideBy": 0
+    },
+    "hideAxisLabel": true,
+    "dotplotOptions": {},
+    "areaChartOptions": {
+      "stackType": "zero",
+      "areaInterpolation": "linear"
+    },
+    "lineChartOptions": {
+      "yScaleType": "linear",
+      "isStockChart": false,
+      "reverseYScale": false,
+      "lineInterpolation": "linear"
+    },
+    "dateSeriesOptions": {
+      "labels": "many",
+      "interval": "auto",
+      "prognosisStart": null
+    },
+    "highlightDataRows": [],
+    "colorOverwritesRows": [],
+    "highlightDataSeries": [],
+    "colorOverwritesSeries": []
+  },
+  "sources": [],
+  "subtitle": "",
+  "createdBy": "daniel.rickenbacher@nzz.ch",
+  "updatedBy": "daniel.rickenbacher@nzz.ch",
+  "department": "International",
+  "createdDate": "2026-06-24T16:23:36.224Z",
+  "publication": "nzz",
+  "updatedDate": "2026-06-24T16:31:58.559Z",
+  "allowDownloadData": false
+}

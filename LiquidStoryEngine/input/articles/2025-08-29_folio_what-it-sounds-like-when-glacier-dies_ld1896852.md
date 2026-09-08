@@ -1,0 +1,108 @@
+# What it sounds like when a glacier dies
+
+*For almost ten years, Ludwig Berger has been hiking with microphones to the Morteratsch Glacier in the Engadine. He wants to document what is in danger of disappearing.*
+
+**Theresa Tröndle (text), Bruno Augsburger (images)** · Folio · 2025-08-29 · 2233 words · [ld.1896852](https://www.nzz.ch/folio/der-morteratschgletscher-schmilzt-ludwig-berger-haelt-fest-wie-das-klingt-ld.1896852)
+
+**7504 Pontresina.** Ludwig Berger walks the last few meters to the glacier alone. A few rocks and stones, sand, then he stands by the river that carries the meltwater down into the valley. He puts his hands in and looks at the blue-gray wall in front of him. Two years ago, the glacier stretched flatly across the slope, merging almost seamlessly into the valley. Now it simply breaks off: a wall of ice several meters high. «It took me a while to recognize it again; it didn't feel familiar at all,» Berger says later.
+
+The glacier is in bad shape; Berger hears it immediately as he lowers his microphones into a crevasse and puts on his headphones. There's a distant roar, interspersed with a deep rumble. Sometimes there's a groan or a crack somewhere. Berger knows: the subtle sounds are normal; glaciers melt in the summer. But the loud sounds, the rumbling and roaring, show that it's losing too much ice.
+
+For almost ten years, Ludwig Berger, 38 years old, has been listening to the Morteratsch Glacier in the Engadine. He has recorded hundreds of hours of meltwater flowing into the caves beneath the ice, air bubbles bursting that were once trapped deep inside, and blocks of ice breaking off and dissolving in the water.
+
+![](https://img-msp-prod.nzz.ch/2025/08/13/d4e10a31-f67d-4b00-8449-5eb4fb051ebc.jpg?width=1024)
+
+![](https://img-msp-prod.nzz.ch/2025/08/13/1359910b-1fe0-4f9a-abe4-c677e2629228.jpg?width=1024)
+
+## The glacier used to reach as far as the train station
+
+The hike to the glacier began shortly after six o'clock this morning in July. Berger slipped into his down jacket. He took the backpack containing the four microphones, the recording device, and the cables from the car. Then he set off. Across a wooden bridge to the train station, where the trail begins. In an hour, the first train would bring the tourists up from the valley. Berger wanted to be at the ice before them.
+
+Ludwig Berger picks up speed, not hastily, his strides gradually growing longer – past larches and spruces, around a few bends. Until the valley opens up before him, revealing its icy peaks on the horizon. Up there, where more snow falls in winter than melts in summer, the Morteratsch Glacier pushes its way down into the valley. Last time, it took Berger an hour and a half to reach the glacier's tongue. A few kilometers uphill, across the river, and then up the scree slope. Does the spot where he started his ascent still exist?****
+
+More than 160 years ago, in the time of Berger's great-great-grandparents, the Morteratsch Glacier reached almost to the train station. It was nearly nine kilometers long and so immense that the inhabitants of the next village prayed that it would not grow any further. Today, it has lost a third of its length. Only 16 black metal steles along the path serve as reminders of its former size. Like stations of the cross, these measuring pillars accompany the path to the glacier.
+
+Berger ignores the stelae; he knows even without them that something is missing here. There are the stones and boulders the glacier has left behind along the path. And there are the valley walls, carved so steeply by the ice that no roots can cling to them anymore. A vast, empty space. «Sometimes I imagine how long the reverberation would last if I could spread a blanket over the valley,» he says. Ludwig Berger works as a sound artist. He explores places by recording their sounds, sometimes a moor in England, sometimes a desert in Argentina. The glacier in the Engadine is his longest-running and ongoing project.
+
+![Ludwig Berger studied musicology.](https://img-msp-prod.nzz.ch/2025/08/13/aa0510c2-89e2-48e7-b349-8278b3cf0ced.jpg?width=1024)
+*Ludwig Berger studied musicology.*
+
+## The world can also be understood through sounds
+
+Berger grew up in Alsace, in a village of 500 inhabitants, surrounded by orchards and forest. He learned to play the piano at the age of four, but while practicing, he would lose himself in individual chords and prefer improvising to playing what the sheet music dictated. «I imagined what a sunrise sounded like, or a forest with birds,» he says. As a child, he recorded what he heard with a cassette recorder. At 18, he bought his first recording device. He held it near crows, recording raindrops and thunderstorms.
+
+Later, Berger went to Eichstätt in Bavaria to study musicology; he lived in Weimar, Milan, and Montreal. The sounds there were different from those in his home village. He no longer heard field crickets heralding spring, nor deer barking in gardens at night. In the cities, there were no streams that murmured differently each day. The fountains, with their regulated flow, always sounded the same.
+
+Berger hears what others don't perceive. He understands the world through noises, tones, and sounds. In the summer of 2015, when he was 28 years old, he worked as a research assistant at the Institute of Landscape Architecture at ETH Zurich. «In architecture, sounds quickly become noise and therefore a problem,» he says. «It's largely about insulation and noise control.» He wanted to show aspiring architects that when you not only see places but also hear them, a different understanding of them emerges. In research , this is called _soundscapes_ _,_ a blend of _sound_ and _landscape_ .
+
+> [audio: This is what it sounds like when a glacier dies. — Sounds from Ludwig Berger's second album (419s) https://cdn.jwplayer.com/videos/0WFWXpNJ-YUkNeMkW.mp4]
+
+In February 2016, Berger hiked to the glacier for the first time, wanting to test his idea before returning a few weeks later with the students. Using a torch, he melted holes in the ice for two microphones that could convert vibrations into electrical signals. A day later, they were frozen solid. Berger connected them to his headphones. At first, he only heard water rushing and gurgling, then suddenly there was a crack. A piece of ice had broken off somewhere behind him. «That's when I realized I was connected to the whole body,» he says. «The microphones are like a stethoscope.»
+
+From then on, he visited the glacier again and again. In winter, he heard storms and snow lashing the ice. In summer, air bubbles burbled in the meltwater. Berger learned that the glacier is rather quiet on cloudy days and sounds like «a cacophony» on sunny ones. With each visit, he understood it better. «When I hear how complex the sounds are, how close to vocalization, it has a very unique kind of vibrancy,» he says.
+
+If the glacier were a person, one might call the two friends. But the glacier is not a living being, Berger emphasizes repeatedly. «The world consists of organic and inorganic material,» he says. «One can be alive, the other not.» And yet, there is another side to him. He recounts a visit two years ago, when he sat on the glacier and watched a group throwing stones onto the ice. «They wanted to break off a piece, it upset me so much,» he says. And then, after a pause: «Yes, it does feel a bit like a friendship.»
+
+As a scientist, sounds are a way for him to understand the landscape: What do they reveal about the past? What about the present? As an artist, they move him: «When I hear its sounds, it feels as if it is speaking to me,» he says.
+
+![](https://img-msp-prod.nzz.ch/2025/08/13/0b8ce8be-1948-4e63-9fd7-86b433adbed5.jpg?width=1024)
+
+![](https://img-msp-prod.nzz.ch/2025/08/13/2fa96331-29c7-410b-afce-1f48525b8498.jpg?width=1024)
+
+## Perhaps the glacier will be gone in 100 years
+
+The closer the glacier comes, the more the landscape loses its color. The larches and spruces are far in the distance, and even fireweed and clover are no longer to be found up here. There is only the gray of the stones, interspersed with a few shrubs sprinkling their green. «A few years ago, we would have been here by now,» says Berger. He points to a rock: «That's where we took our first photos in 2016.» A stream flows beneath the rock.
+
+The Morteratsch Glacier is melting rapidly because it extends deep into the valley and is exposed to high temperatures early in the season. While it does grow in good years, it only advances by 8 or 10 meters. This is insufficient to compensate for all the poor years: in 2015, it lost 164 meters. Researchers say it will be gone in less than 100 years .
+
+Ludwig Berger is familiar with all these figures. «Sometimes I just feel powerless,» he says. He knows that artificial snowmaking isn't a long-term solution, that fleece covers are too expensive, and that eating more vegetarian food and flying less isn't enough. «The problem can't be solved on an individual level; it can only be solved politically,» he says.
+
+Perhaps he is also trying to counteract this helplessness with his recordings. Those who take action regain control, and what can be controlled loses its power.
+
+Berger constantly comes up with new ideas for what to do with his recordings. He has created art installations, developed a concert series, and released two records. His goal is always similar: to allow listeners to experience what he has experienced. «I didn't have much of a connection to glaciers before; I knew what they were, but I had no feeling for them,» he says. Through listening, he has developed a relationship. He hopes that this connection will also develop in others, because what you have felt, you tend to want to protect.
+
+In July, a film about his work appeared in the New York Times . In the comments, viewers thanked him. One person wrote that the sounds had deeply moved them. Another said they could feel the glacier screaming. «I notice the effect my recordings have, which is one of the reasons I keep coming back,» Berger says.
+
+![For Berger, the microphones are a kind of stethoscope.](https://img-msp-prod.nzz.ch/2025/08/13/d7340ae1-f764-4a86-b9f1-a94aa70f2201.jpg?width=1024)
+*For Berger, the microphones are a kind of stethoscope.*
+
+![Lukas Berger has been listening to the glacier for almost ten years.](https://img-msp-prod.nzz.ch/2025/08/13/954c93ef-8e0c-4a64-b7de-3c7bbde9cf16.jpg?width=1024)
+*Lukas Berger has been listening to the glacier for almost ten years.*
+
+## Time capsules with ETH
+
+His latest project: to store the sounds not just on USB sticks or hard drives, where data often only lasts ten to twenty years, but for the long term. To achieve this, he's collaborating with scientists at ETH Zurich. They've developed a method for converting music into DNA. They transfer the zeros and ones that make up MP3 files to the four bases of DNA. This blueprint is then sent to a laboratory that chemically synthesizes the DNA. Ultimately, Ludwig Berger's glacier recordings end up as a white powder in a test tube. He calls it a «time capsule.» Anyone who wants to hear the sounds again can have the DNA read in a laboratory – even in 1000 years, as it's designed to last that long.
+
+Ludwig Berger sometimes doubts what he is doing: Is it enough to preserve the sounds? Shouldn't he be engaging in activism?
+
+After almost two hours, he climbs over the last rocks marked with red and white trail markers. They are freshly painted; the trail must have been recently widened.
+
+Like a lava flow, the Morteratsch Glacier pours into the valley below the 4,049-meter-high Piz Bernina. Rough, cracked, with long furrows and deep crevasses. Right at its front, the glacier gate opens, a pale blue arch from which the meltwater flows.
+
+The path from his last visit is gone, but he finds a flat spot at the edge to climb onto the glacier. At first, you can't tell you're on the ice because it's blackened with soot and rock dust. Later, it becomes lighter, but never completely white, as if someone had scattered a few handfuls of ash over it.
+
+Berger straps his crampons to his hiking boots, then cups his hands around his ears like funnels to find a crevice for his recordings. It should be two to three meters deep and ideally bubbling. Air bubbles interest him most. «An old air bubble sounds higher than a young one because it's more compressed,» he says. Sometimes it's a simple pop, sometimes a squeak or a croak. If they burst in quick succession, rhythms or even melodies can emerge. «It's a total sonic universe,» he says.
+
+A crevice as wide as a hand looks promising. Berger takes off his backpack, lowers the two underwater microphones into it on their cables, and puts on his headphones. «You can hear the tension from the ice breaking up, a croaking in the mid-frequency range,» he says. «And a really deep bass.»
+
+![Researchers say the glacier could disappear in 100 years.](https://img-msp-prod.nzz.ch/2025/08/13/4c90da43-1304-4ee7-91b1-e41de78abcca.jpg?width=1024)
+*Researchers say the glacier could disappear in 100 years.*
+
+The next six hours unfold similarly: insert microphones, put on headphones. Listen. Sometimes Berger sits there for just a few seconds, sometimes for 30 minutes. He covers his hands with his headphones as if to make sure he hears every sound the glacier shares with him. He doesn't initially notice a rope team ascending beside him and a few tourists launching a drone below. He simply sits and listens to the glacier. Just like back when he was playing the piano, when he was supposed to be practicing notes in his parents' half-timbered house, but the sound of the chords transported him to another world.
+
+At 2:30 p.m., after eight and a half hours, he takes his first break: a hard-boiled egg, a few slices of bread, an apple. He sits down on a rock and looks across the glacier into the valley. «It's crazy how much has melted away here,» he says. «And it's happening all over the world.»
+
+Doesn't he sometimes lose hope?
+
+«When I see in one photo where the glacier was in 1880, and in another where it is now, I think to myself: That’s it,» says Berger. «But when I hear it, there’s something hopeful about it.» Sounds carry a sense of movement within them; they are not as absolute as photographs.
+
+As clouds gathered over the mountain ridges in the late afternoon and the sky darkened, Berger packed his microphones and cables into his backpack. He plans to return in October.
+
+![The Morteratsch glacier used to extend much further down into the valley.](https://img-msp-prod.nzz.ch/2025/08/13/b8cb748f-bef0-4cab-96db-fd477807ee0a.jpg?width=1024)
+*The Morteratsch glacier used to extend much further down into the valley.*
+
+---
+**Auto summary (NZZ, GPT-generated):**
+- Sound artist Ludwig Berger has been documenting the sounds of the Morteratsch Glacier in Engadin for nearly ten years, aiming to capture the acoustic essence of vanishing glaciers.
+- Berger describes the glacier's sounds as vibrant, uses them for scientific analysis, and creates time capsules to preserve the recordings for future generations.
+- Despite his artistic efforts, Berger often feels powerless against the rapid glacier retreat and emphasizes that only political action can address the issue.

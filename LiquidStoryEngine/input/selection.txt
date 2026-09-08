@@ -1,0 +1,41 @@
+# Liquid Story Engine — team input corpus. One Livingdocs id per line.
+# Re-pack with:  python3 hackathon/_tools/kenny_pack.py hackathon/LiquidStoryEngine/input
+# --- International ---
+1864526   # Sudan: young activists fight alongside the army against the RSF militia (reportage)
+1909890   # Rio de Janeiro: killing becomes ritual in the favelas (reportage)
+1879569   # Interview: "Asians no longer let themselves be intimidated by European arrogance"
+1876768   # Data analysis: Europe's armies have a recruitment problem (charts inside)
+10003586  # Little Bighorn: the Native Americans won the battle, and still lost (history)
+# --- Wirtschaft / Finanzen ---
+1886544   # Germany's welfare state is heading for financial collapse
+1925441   # Athens: on the hunt for tax evaders with the shadow-economy investigators (reportage)
+1902492   # Interview: Nassim Taleb, "Trump must have confused the USA with another country"
+# --- Technologie ---
+1880992   # How police brought down LockBit, the world's most feared hacker (reconstruction, 3000w)
+1928134   # Dario and Daniela Amodei: the siblings standing up to the Pentagon
+1890570   # 80 years of the atomic bomb: the history war in Los Alamos
+1899827   # ChatGPT helped a teenager with homework, then with suicide. The parents sue
+# --- Feuilleton ---
+1884009   # Artemisia Gentileschi: the eyes tell the whole story (art)
+10011305  # Uzbekistan: a country discovers its future in art
+1891521   # Essay: the old world order is broken, Europe must settle into chaos
+# --- Gesellschaft / Magazin / Folio ---
+10004841  # The valley that made America a superpower now has an image problem (3600w)
+10012889  # Hitler's birthplace becomes a police station: can you detoxify a house?
+1882781   # He says he is no gangster; the US government says he lies (deportation case)
+1906052   # Dayanita Singh: redefining photography, a studio visit in Delhi
+1896852   # Folio: what it sounds like when a glacier dies (audio-friendly)
+# --- Wissenschaft ---
+1844050   # A Russian scientist travels west to do research and risks everything
+10019954  # Oil spill off Oman: what research says about crude in the sea
+# --- Reisen / Panorama / Mobilität ---
+1915019   # Swimming in the crater that killed the dinosaurs (Chicxulub travel piece)
+1927432   # An evening in Berlin's most dangerous park
+10018163  # Geely: how China's quiet giant conquers Europe's car market from within
+# --- Sport ---
+1860022   # Mikaela Shiffrin's 100th World Cup win
+# --- NZZ in English (written in English, not machine-translated) ---
+1888144   # Ukraine's security service stays a step ahead of Russia
+1887552   # Why alcohol consumption in China is tumbling
+# --- Meinung ---
+1904443   # Commentary: the greatest danger to the West comes from the West itself

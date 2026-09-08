@@ -1,0 +1,85 @@
+# Young, angry, and fiercely determined: activists are fighting alongside the Sudanese army against the rebel militia – and the greatest humanitarian catastrophe of our time
+
+*Once crushed by the Sudanese army, volunteer groups like the «Ghadiboon» are now working alongside it to win the civil war. They are on the front lines with young fighters who will never give up on the dream of democracy.*
+
+**Christian Putsch (text and images), Omdurman** · International · 2025-01-04 · 1965 words · [ld.1864526](https://www.nzz.ch/international/jung-wuetend-und-wild-entschlossen-aktivisten-kaempfen-mit-der-sudanesischen-armee-gegen-die-rebellen-miliz-und-die-groesste-humanitaere-katastrophe-dieser-welt-ld.1864526)
+
+The young man was a professional football player in a previous life; now he sits on a plastic chair on the side of the road in the city of Omdurman, with a rifle leaning against his right leg.
+
+The same leg with which the striker once scored goals has since been pierced by shrapnel. The wound has healed just well enough for him to fight again. He sits side by side with his comrades, who are taking a short break from the war on this December day.
+
+They drink tea while explosions shake the buildings. Smoke hangs over the rooftops of Omdurman; the front line is only four kilometers away. Soon they will set off again to the other side of the Nile, into deserted streets, past burned-out cars and bullet-riddled houses, to the cemetery where one of their comrades is buried. And soon this brief respite will end with the last drops of tea in their glasses.
+
+Adam Daffala Dama, 29 years old, tall, with a fine beard, has had wrinkles etched into his youthful face by the war. He belongs to the «Ghadiboon,» who call themselves «the angry ones» in Arabic and form a volunteer army of around 200 democracy activists. They joined the army to support it in the civil war against the paramilitary militia Rapid Support Forces (RSF).
+
+![Once a professional football player, now a volunteer in the army: Adam Daffala Dama, 29 years old.](https://img-msp-prod.nzz.ch/2025/01/02/245b5240-7599-4193-8dac-8d6a43d9feaa.jpeg?width=1024)
+*Once a professional football player, now a volunteer in the army: Adam Daffala Dama, 29 years old.*
+
+There are many such volunteer groups. Here, not far from the capital Khartoum, where the White and Blue Nile rivers meet, they are often seen jogging through the dusty streets. They are being trained in record time for this conflict, which has now raged for almost 21 months and, in the shadow of Ukraine, Gaza, and Syria, has become the world's largest humanitarian catastrophe. Given their sometimes meager equipment, they are often referred to as cannon fodder. But Dama refuses to accept this. «We are patriots,» he says. «We are fighting for survival, for our people and our families.»
+
+In essence, his campaign began long before the war: five years ago, he was still fighting against the army, to which he now belongs. As one of hundreds of thousands of demonstrators who forced the overthrow of dictator Omar al-Bashir, who had bled the country dry for decades. Dama, an activist from the very beginning, dreamed of a new Sudan, a just Sudan, a modern Sudan. Thus, even after the end of the Bashir regime, he continued to protest against the ongoing military rule, against corruption, and against a justice system that never truly functioned as one.
+
+## narrowly escaped death
+
+Even back then, they called themselves Ghadiboon. Dama and his friends, who had become a close-knit community fighting for their lives. Osman and Mudathir, two of his closest comrades, had already lost their lives, Dama recounts. On June 6, 2019, when the army crushed the protests against the new military rulers. «I, too, only narrowly escaped,» he says.
+
+Dama, who as a promising professional earned the equivalent of 400 Swiss francs a month, left the football field behind, as well as his family plans, to fight for democracy. Both forearms bear the scars of gunshot wounds inflicted by Sudanese security forces long before the outbreak of this war – his current allies.
+
+![«The Angry Ones» were already fighting during the 2019 revolution.](https://img-msp-prod.nzz.ch/2025/01/02/34dd5b99-f134-4b76-a16f-04071ed8dea4.jpeg?width=1024)
+*«The Angry Ones» were already fighting during the 2019 revolution.* (Private)
+
+## First enemy, then friend
+
+How is it possible that he is now fighting for the army that was once his enemy? Why did he switch sides?
+
+Dama sips his tea, pauses for a moment, and then presents his version of events: The 2019 massacre, in which his friends also lost their lives, was perpetrated primarily by RSF fighters, not members of the army, he says. At the time, they were supposedly on the same side. Bashir himself had established the militia as a security force, out of fear of an army coup.
+
+In April 2019, security forces and militias finally overthrew the dictator together. The transitional government suffered the same fate two years later. From then on, Sudan's army chief, General Abdel Fattah al-Burhan, and the RSF leader, Mohamed Hamdan «Hemeti» Dagalo, shared power. But this fragile balance, too, was short-lived: when the militias refused to integrate into the armed forces in April 2023, it collapsed. The war began. A country was thrown into disarray. And with it, the perceptions of the enemy.
+
+In the first few weeks, Dama tried to help as a civilian. The thousands of resistance committees that had formed decentrally during the revolution became «emergency centers» where citizens organized aid, cared for the wounded, and distributed food. They have just been nominated for the Nobel Peace Prize, because 25 million Sudanese – every second citizen – are threatened by hunger.
+
+Dama initially joined one of these civic groups. He risked his life delivering medical supplies. When videos circulated on social media showing RSF fighters humiliating captured soldiers crawling on the ground, he decided to take up arms. And with him, thousands followed the army's call to the hastily set up camps. Dama received only two months of training before going to war.
+
+The RSF have become his enemy. Refugees from areas controlled by the militia also report their murders, rapes, and brazen looting. Even corpses have been exhumed, they say, in search of gold fillings in their teeth.
+
+The extent of the violence was also evident here in Omdurman four days before the encounter with Dama, when the RSF fired dozens of artillery shells into a residential area. A bus was hit, and at least 17 civilians were killed. Dozens of civilians are also reported to have been killed in army airstrikes in the Darfur region, which is largely controlled by the RSF.
+
+## War of Propaganda
+
+The West regards the Sudanese generals, who see themselves as representatives of a legitimate institution, with a similar degree of mistrust as it regards the RSF war criminals. This is because the generals are blocking American mediation attempts. Moreover, they receive support from Iran and Russia. In addition, the Muslim Brotherhood is gaining increasing influence. And wasn't it the army that controlled and oppressed Sudan for decades, both economically and politically?
+
+«Even back then, the security apparatus was far more complex than it was perceived abroad,» says Adam Daffala Dama, who has also prepared an answer to this. His anger was directed less at the army than at the General Intelligence Service. The secret service was responsible for the suppression of regime opponents at the time. «There were soldiers sitting next to us who supported us in our struggle.»
+
+It's hard to say how freely Dama can speak. Just a few meters away sits a high-ranking soldier, seemingly lost in thought as he stares at his cell phone. Even though the army has been allowing a few journalists back into its areas in the northeast and center of the country for several months, it is the army that tries to control the narrative by monitoring and approving interviews—including the one with Dama. The RSF militia, financed by gold smuggling and reportedly hired by a Canadian PR firm, ignored a request from the «NZZ am Sonntag» for an investigation in its territories.
+
+On both sides, this war is also a propaganda exercise. A planned interview with a family, who are part of the army's civilian program but also have relatives on the RSF side, is not permitted. Instead, captured mercenaries from Chad and South Sudan are offered as interview partners.
+
+«Right now we are fighting for our country, for peace, for stability,» Dama says, a little too quietly to sound emphatic. His Facebook profile, however, suggests that he voluntarily joined the army. Where Dama once documented his protests against Bashir, he now posts triumphant pictures from the front.
+
+«When the war is over, we will see what differences we have with the intelligence service and the army,» he says. And: He has «confidence» that after a victory over the RSF, the army will hand over power to civilians within «two to three» years, even though he can’t think of any politician he would like to see at the head of state.
+
+## In the hail of bullets
+
+The teacup is empty, Dama has to leave. Away from his visions for the country, back to the front. He and the Ghadiboon climb into a pickup truck and drive off. The first stop is a cemetery in the middle of nowhere, where Taha has been buried since September 29th. Together they had once protested against the dictatorship and taken up arms after the war began. With Taha, they had also ridden motorcycles to the town of Bahri, where they were ambushed by RSF snipers.
+
+Some Ghadiboon managed to turn back in the hail of bullets. Taha didn't. For days his body rotted in the road; finally, they were able to recover and bury him. «He had no chance,» says Dama, running his hand over the stones piled on his friend's grave. Taha was the sixth Ghadiboon he had buried.
+
+What must be going through the mind of a man who sees his friends die and continues to fight – as a foot soldier, as a helper to those who once fought him? Does Dama believe what he's saying? Or is he trying to twist the horrific reality to suit his own purposes, not only for the army interviewer, but also for himself?
+
+The operation also involved soldiers who remained in armored vehicles. Dama, however, doesn't see this as unequal treatment. «The soldiers don't always stay in bulletproof vehicles,» he says. Why didn't any of them wear bulletproof vests? «That was our decision; we feel more mobile without them.» And are two months of training sufficient for such an operation? «We already had over a year of combat experience.»
+
+![After 20 months of war, not much remains of the Sudanese city of Bahri.](https://img-msp-prod.nzz.ch/2025/01/02/84d9a6f7-5790-46e4-b4eb-f5b78be579af.jpeg?width=1024)
+*After 20 months of war, not much remains of the Sudanese city of Bahri.*
+
+Onward they go, past plumes of smoke toward the front line in Bahri. Shortly before the Al-Halfaya Bridge, soldiers in off-road vehicles approach them. They wave the Sudanese flag and fire celebratory shots into the air to mark their recent successes. Soon, however, an ominous silence descends once more. The area is considered «liberated» from the RSF in army parlance, but the threat of sniper attacks remains.
+
+A picture of destruction unfolds, as is evident everywhere in Sudan. Survival seems impossible in this apocalypse. Estimates range up to 150,000 dead and 14 million displaced. And there is no end in sight. Dama and the others may dream of a united Sudan, but the country is fracturing into numerous power centers, many of them ethnically defined, that extend beyond the command structure of RSF and the army. At least Darfur in the west of the country—a region larger than Germany—is likely to remain in RSF hands for a long time. «When we're finished here, we'll continue in Darfur,» says one of Dama's comrades. According to many observers, the Libyan scenario is more probable: the disintegration of the country.
+
+One of the soldiers in the convoy now wants to take a detour. This story should end on a hopeful note, in a side street, at the home of an old woman with henna-red hair and deep wrinkles in her face: Bahir Kambal. Here she survives in the house where she was born. Here she also gave birth to and raised her son – fleeing is out of the question for her. Many say, not without pride, that older Sudanese people are particularly stubborn. Kambal is living proof.
+
+She refused to leave when the RSF occupied her neighborhood just days after the war began. She hasn't left her house in 20 months. Sometimes the few remaining neighbors brought her soup, sometimes relatives sent money from abroad. «I didn't sleep a wink at night,» she says, «I stayed awake, afraid of looters.» Even after she was flogged by the militias, she didn't consider fleeing.
+
+![Samira Bashir Kambal will stay, come what may.](https://img-msp-prod.nzz.ch/2025/01/02/2144138e-ba41-41ae-ba5c-d4bc5c478908.jpeg?width=1024)
+*Samira Bashir Kambal will stay, come what may.*
+
+Adam Daffala Dama, the former professional footballer, sits at the edge of the courtyard, listening to the old woman's stories. His gaze is empty, but without anger. He knows what it feels like to lose one's homeland. Of his old life, his old dreams, little more than a faded jersey of his club remains. It lies in a drawer at the Ghadiboon accommodation in Omdurman. He hasn't worn it in a long time. But he keeps it.

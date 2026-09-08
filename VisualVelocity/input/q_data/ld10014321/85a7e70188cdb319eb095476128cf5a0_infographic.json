@@ -1,0 +1,65 @@
+{
+  "_id": "85a7e70188cdb319eb095476128cf5a0",
+  "_rev": "3-ba8946e34eabd382b7cf0045f24d5b80",
+  "tool": "infographic",
+  "title": "Der Unterschied zwischen Monoblock- und Split-Klimaanlagen",
+  "active": true,
+  "images": {
+    "variants": [
+      {
+        "images": [
+          {
+            "key": "2026/07/09/KlimaanlageArtboard-224x-807579d71b9c39a09640c03cc545d689.png",
+            "url": "https://nzz-q-assets2.static-nzz.ch/2026/07/09/KlimaanlageArtboard-224x-807579d71b9c39a09640c03cc545d689.png",
+            "size": 221382,
+            "type": "image/png",
+            "width": 1441,
+            "height": 3675,
+            "originalName": "KlimaanlageArtboard 22@4x.png"
+          }
+        ],
+        "minWidth": 0
+      },
+      {
+        "images": [
+          {
+            "key": "2026/07/09/KlimaanlageArtboard-214x-34a6e04b293bbfb09be8aab22ae833cb.png",
+            "url": "https://nzz-q-assets2.static-nzz.ch/2026/07/09/KlimaanlageArtboard-214x-34a6e04b293bbfb09be8aab22ae833cb.png",
+            "size": 246024,
+            "type": "image/png",
+            "width": 2521,
+            "height": 3233,
+            "originalName": "KlimaanlageArtboard 21@4x.png"
+          }
+        ],
+        "minWidth": 630
+      },
+      {
+        "images": [
+          {
+            "key": "2026/07/09/KlimaanlageArtboard-204x-7a5d636d76bab0253d0881e411577b2d.png",
+            "url": "https://nzz-q-assets2.static-nzz.ch/2026/07/09/KlimaanlageArtboard-204x-7a5d636d76bab0253d0881e411577b2d.png",
+            "size": 285593,
+            "type": "image/png",
+            "width": 3601,
+            "height": 2795,
+            "originalName": "KlimaanlageArtboard 20@4x.png"
+          }
+        ],
+        "minWidth": 830
+      }
+    ]
+  },
+  "acronym": "lea.",
+  "options": {
+    "serveLosslessWebP": false
+  },
+  "sources": [],
+  "subtitle": "",
+  "createdBy": "anja.lemcke@nzz.ch",
+  "updatedBy": "anja.lemcke@nzz.ch",
+  "department": "Visuals",
+  "createdDate": "2026-07-09T15:52:18.516Z",
+  "publication": "nzz",
+  "updatedDate": "2026-07-14T13:42:38.828Z"
+}

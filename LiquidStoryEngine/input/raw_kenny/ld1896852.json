@@ -1,0 +1,2024 @@
+{
+ "content": [
+  {
+   "identifier": "header--hero",
+   "id": "doc-1j2c5bq580",
+   "content": {
+    "title": "What it sounds like when a glacier dies",
+    "lead": "For almost ten years, Ludwig Berger has been hiking with microphones to the Morteratsch Glacier in the Engadine. He wants to document what is in danger of disappearing.",
+    "authorline": "Theresa Tröndle (text), Bruno Augsburger (images)",
+    "image": {
+     "author": "Morteratsch Glacier, July 19",
+     "caption": "Morteratsch Glacier, July 19",
+     "originalUrl": "/2025/08/13/492641c5-cacc-472e-9301-3680c746321f.jpg?crop=3898,2193,x0,y293",
+     "width": 3898,
+     "height": 2598,
+     "altText": "Morteratsch Glacier, July 19",
+     "origins": [
+      {
+       "name": "Hugo",
+       "identifier": "2173115163"
+      }
+     ],
+     "crop": {
+      "x": 0,
+      "y": 293,
+      "width": 3898,
+      "height": 2193,
+      "name": "desktop"
+     },
+     "namedCrops": [
+      {
+       "x": 0,
+       "y": 293,
+       "width": 3898,
+       "height": 2193,
+       "name": "desktop"
+      },
+      {
+       "x": 1168,
+       "y": 226,
+       "width": 1732,
+       "height": 2309,
+       "name": "tablet"
+      },
+      {
+       "x": 1373,
+       "y": 251,
+       "width": 1299,
+       "height": 2309,
+       "name": "mobile"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "quelle": "",
+    "caption": "",
+    "author": ""
+   },
+   "containers": {
+    "authors": []
+   },
+   "prevElement": "",
+   "nextElement": "p-text",
+   "firstContentElement": true
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1j2c5bq590",
+   "content": {
+    "text": "<strong>7504 Pontresina.</strong> Ludwig Berger walks the last few meters to the glacier alone. A few rocks and stones, sand, then he stands by the river that carries the meltwater down into the valley. He puts his hands in and looks at the blue-gray wall in front of him. Two years ago, the glacier stretched flatly across the slope, merging almost seamlessly into the valley. Now it simply breaks off: a wall of ice several meters high. «It took me a while to recognize it again; it didn't feel familiar at all,» Berger says later."
+   },
+   "prevElement": "header--hero",
+   "nextElement": "barrier"
+  },
+  {
+   "id": "doc-80e5145a",
+   "identifier": "barrier",
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1j2c5bq591",
+   "content": {
+    "text": "The glacier is in bad shape; Berger hears it immediately as he lowers his microphones into a crevasse and puts on his headphones. There's a distant roar, interspersed with a deep rumble. Sometimes there's a groan or a crack somewhere. Berger knows: the subtle sounds are normal; glaciers melt in the summer. But the loud sounds, the rumbling and roaring, show that it's losing too much ice."
+   },
+   "paidContent": true,
+   "prevElement": "barrier",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1j2c5bq592",
+   "content": {
+    "text": "For almost ten years, Ludwig Berger, 38 years old, has been listening to the Morteratsch Glacier in the Engadine. He has recorded hundreds of hours of meltwater flowing into the caves beneath the ice, air bubbles bursting that were once trapped deep inside, and blocks of ice breaking off and dissolving in the water."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "imagegrid"
+  },
+  {
+   "identifier": "imagegrid",
+   "id": "doc-1j2ei4ine0",
+   "content": {
+    "caption": "The eternal ice is melting, and Ludwig Berger is capturing the sounds that arise from it."
+   },
+   "styles": {
+    "imagegrid-width": "imagegrid--containerwidth"
+   },
+   "containers": {
+    "imageRows": [
+     {
+      "identifier": "imagegrid-row",
+      "id": "doc-1j2ei4inf0",
+      "containers": {
+       "imageRow": [
+        {
+         "identifier": "imagegrid-image",
+         "id": "doc-1j2ei4inf1",
+         "content": {
+          "image": {
+           "author": "",
+           "caption": "",
+           "originalUrl": "/2025/08/13/d4e10a31-f67d-4b00-8449-5eb4fb051ebc.jpg?width=1024",
+           "width": 2598,
+           "height": 3898,
+           "altText": "Morteratsch Glacier, July 19",
+           "origins": [
+            {
+             "name": "Hugo",
+             "identifier": "2173115168"
+            }
+           ],
+           "imageService": "fastly"
+          },
+          "author": "",
+          "caption": ""
+         }
+        },
+        {
+         "identifier": "imagegrid-image",
+         "id": "doc-1j2ei4inf2",
+         "content": {
+          "image": {
+           "author": "",
+           "caption": "",
+           "originalUrl": "/2025/08/13/1359910b-1fe0-4f9a-abe4-c677e2629228.jpg?width=1024",
+           "width": 2598,
+           "height": 3898,
+           "altText": "Morteratsch Glacier, July 19",
+           "origins": [
+            {
+             "name": "Hugo",
+             "identifier": "2173115164"
+            }
+           ],
+           "imageService": "fastly"
+          },
+          "author": "",
+          "caption": ""
+         }
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1j2c5bq593",
+   "content": {
+    "title": "The glacier used to reach as far as the train station",
+    "id": "subtitle-fr-her-reichte-der-gletscher-bis-zur-bahnstation"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "imagegrid",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1j2c5bq594",
+   "content": {
+    "text": "The hike to the glacier began shortly after six o'clock this morning in July. Berger slipped into his down jacket. He took the backpack containing the four microphones, the recording device, and the cables from the car. Then he set off. Across a wooden bridge to the train station, where the trail begins. In an hour, the first train would bring the tourists up from the valley. Berger wanted to be at the ice before them."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1j2c5bq595",
+   "content": {
+    "text": "Ludwig Berger picks up speed, not hastily, his strides gradually growing longer – past larches and spruces, around a few bends. Until the valley opens up before him, revealing its icy peaks on the horizon. Up there, where more snow falls in winter than melts in summer, the Morteratsch Glacier pushes its way down into the valley. Last time, it took Berger an hour and a half to reach the glacier's tongue. A few kilometers uphill, across the river, and then up the scree slope. Does the spot where he started his ascent still exist?<strong></strong>"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "print-teaser"
+  },
+  {
+   "identifier": "print-teaser",
+   "id": "doc-1j2ht02h70",
+   "content": {
+    "title": "This article is from NZZ Folio",
+    "image": {
+     "author": "",
+     "caption": "",
+     "originalUrl": "/2025/08/13/f97c9db1-7091-4d7d-bcf0-ba71ce8808d7.jpg?width=1024",
+     "width": 2421,
+     "height": 3307,
+     "imageService": "fastly"
+    },
+    "description": "September 2025<br> «Elites»",
+    "ctaLabel": "Order issue",
+    "cta-url": "https://abo.nzz.ch/m_19001639_1/?trco=21029608-05-24-0063-0000-026701-00000007&amp;tpcc=21029608-05-24-0063-0000-026701-00000007",
+    "author": "",
+    "caption": ""
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1j2c5bq5a0",
+   "content": {
+    "text": "More than 160 years ago, in the time of Berger's great-great-grandparents, the Morteratsch Glacier reached almost to the train station. It was nearly nine kilometers long and so immense that the inhabitants of the next village prayed that it would not grow any further. Today, it has lost a third of its length. Only 16 black metal steles along the path serve as reminders of its former size. Like stations of the cross, these measuring pillars accompany the path to the glacier."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "print-teaser",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1j2c5bq5a1",
+   "content": {
+    "text": "Berger ignores the stelae; he knows even without them that something is missing here. There are the stones and boulders the glacier has left behind along the path. And there are the valley walls, carved so steeply by the ice that no roots can cling to them anymore. A vast, empty space. «Sometimes I imagine how long the reverberation would last if I could spread a blanket over the valley,» he says. Ludwig Berger works as a sound artist. He explores places by recording their sounds, sometimes a moor in England, sometimes a desert in Argentina. The glacier in the Engadine is his longest-running and ongoing project."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "image"
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1j2c5it9c2",
+   "content": {
+    "image": {
+     "author": "",
+     "caption": "Ludwig Berger studied musicology.",
+     "originalUrl": "/2025/08/13/aa0510c2-89e2-48e7-b349-8278b3cf0ced.jpg?width=1024",
+     "width": 2598,
+     "height": 3898,
+     "altText": "Morteratsch Glacier, July 19",
+     "origins": [
+      {
+       "name": "Hugo",
+       "identifier": "2173115167"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "caption": "Ludwig Berger studied musicology.",
+    "author": ""
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1j2c5bq5a2",
+   "content": {
+    "title": "The world can also be understood through sounds",
+    "id": "subtitle-die-welt-l-sst-sich-auch-ber-kl-nge-begreifen"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "image",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1j2c5bq5a3",
+   "content": {
+    "text": "Berger grew up in Alsace, in a village of 500 inhabitants, surrounded by orchards and forest. He learned to play the piano at the age of four, but while practicing, he would lose himself in individual chords and prefer improvising to playing what the sheet music dictated. «I imagined what a sunrise sounded like, or a forest with birds,» he says. As a child, he recorded what he heard with a cassette recorder. At 18, he bought his first recording device. He held it near crows, recording raindrops and thunderstorms."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1j2c5bq5a4",
+   "content": {
+    "text": "Later, Berger went to Eichstätt in Bavaria to study musicology; he lived in Weimar, Milan, and Montreal. The sounds there were different from those in his home village. He no longer heard field crickets heralding spring, nor deer barking in gardens at night. In the cities, there were no streams that murmured differently each day. The fountains, with their regulated flow, always sounded the same."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1j2c5bq5a5",
+   "content": {
+    "text": "Berger hears what others don't perceive. He understands the world through noises, tones, and sounds. In the summer of 2015, when he was 28 years old, he worked as a research assistant at the Institute of Landscape Architecture at ETH Zurich. «In architecture, sounds quickly become noise and therefore a problem,» he says. «It's largely about insulation and noise control.» He wanted to show aspiring architects that when you not only see places but also hear them, a different understanding of them emerges. In <a href=\"https://www.zeit.de/2024/15/laerm-psycho-akustikerin-ruhe-verkehr-natur/komplettansicht\">research</a> , this is called <em>soundscapes</em> <em>,</em> a blend of <em>sound</em> and <em>landscape</em> ."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "audio-embed"
+  },
+  {
+   "identifier": "audio-embed",
+   "id": "doc-1j2uglanr0",
+   "content": {
+    "title": "This is what it sounds like when a glacier dies.",
+    "description": "Sounds from Ludwig Berger's second album",
+    "author": "Source; https://ludwigberger.com/work/crying-glacier/",
+    "audiosrc": {
+     "service": "podigee-audio-url",
+     "params": {
+      "src": "https://cdn.jwplayer.com/videos/0WFWXpNJ-YUkNeMkW.mp4"
+     }
+    },
+    "duration": 419.327
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1j2c5bq5a6",
+   "content": {
+    "text": "In February 2016, Berger hiked to the glacier for the first time, wanting to test his idea before returning a few weeks later with the students. Using a torch, he melted holes in the ice for two microphones that could convert vibrations into electrical signals. A day later, they were frozen solid. Berger connected them to his headphones. At first, he only heard water rushing and gurgling, then suddenly there was a crack. A piece of ice had broken off somewhere behind him. «That's when I realized I was connected to the whole body,» he says. «The microphones are like a stethoscope.»"
+   },
+   "paidContent": true,
+   "prevElement": "audio-embed",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1j2c5bq5a7",
+   "content": {
+    "text": "From then on, he visited the glacier again and again. In winter, he heard storms and snow lashing the ice. In summer, air bubbles burbled in the meltwater. Berger learned that the glacier is rather quiet on cloudy days and sounds like «a cacophony» on sunny ones. With each visit, he understood it better. «When I hear how complex the sounds are, how close to vocalization, it has a very unique kind of vibrancy,» he says."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1j2c5bq5a8",
+   "content": {
+    "text": "If the glacier were a person, one might call the two friends. But the glacier is not a living being, Berger emphasizes repeatedly. «The world consists of organic and inorganic material,» he says. «One can be alive, the other not.» And yet, there is another side to him. He recounts a visit two years ago, when he sat on the glacier and watched a group throwing stones onto the ice. «They wanted to break off a piece, it upset me so much,» he says. And then, after a pause: «Yes, it does feel a bit like a friendship.»"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1j2c5bq5a9",
+   "content": {
+    "text": "As a scientist, sounds are a way for him to understand the landscape: What do they reveal about the past? What about the present? As an artist, they move him: «When I hear its sounds, it feels as if it is speaking to me,» he says."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "imagegrid"
+  },
+  {
+   "identifier": "imagegrid",
+   "id": "doc-1j2eh8tn80",
+   "content": {
+    "caption": "If the microphones are recording loud sounds, that's bad. The rumbling and rushing means the glacier is losing too much ice."
+   },
+   "styles": {
+    "imagegrid-width": "imagegrid--containerwidth"
+   },
+   "containers": {
+    "imageRows": [
+     {
+      "identifier": "imagegrid-row",
+      "id": "doc-1j2eh8tnc0",
+      "containers": {
+       "imageRow": [
+        {
+         "identifier": "imagegrid-image",
+         "id": "doc-1j2eh8tnc1",
+         "content": {
+          "image": {
+           "author": "",
+           "caption": "",
+           "originalUrl": "/2025/08/13/0b8ce8be-1948-4e63-9fd7-86b433adbed5.jpg?width=1024",
+           "width": 2598,
+           "height": 3898,
+           "altText": "Morteratsch Glacier, July 19",
+           "origins": [
+            {
+             "name": "Hugo",
+             "identifier": "2173115166"
+            }
+           ],
+           "imageService": "fastly"
+          },
+          "author": "",
+          "caption": ""
+         }
+        },
+        {
+         "identifier": "imagegrid-image",
+         "id": "doc-1j2eh8tnc2",
+         "content": {
+          "image": {
+           "author": "",
+           "caption": "",
+           "originalUrl": "/2025/08/13/2fa96331-29c7-410b-afce-1f48525b8498.jpg?width=1024",
+           "width": 2598,
+           "height": 3898,
+           "altText": "Morteratsch Glacier, July 19",
+           "origins": [
+            {
+             "name": "Hugo",
+             "identifier": "2173115170"
+            }
+           ],
+           "imageService": "fastly"
+          },
+          "author": "",
+          "caption": ""
+         }
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1j2c5bq5a10",
+   "content": {
+    "title": "Perhaps the glacier will be gone in 100 years",
+    "id": "subtitle-vielleicht-wird-der-gletscher-in-100-jahren-verschwunden-sein"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "imagegrid",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1j2c5bq5a11",
+   "content": {
+    "text": "The closer the glacier comes, the more the landscape loses its color. The larches and spruces are far in the distance, and even fireweed and clover are no longer to be found up here. There is only the gray of the stones, interspersed with a few shrubs sprinkling their green. «A few years ago, we would have been here by now,» says Berger. He points to a rock: «That's where we took our first photos in 2016.» A stream flows beneath the rock."
+   },
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1j2c5bq5a12",
+   "content": {
+    "text": "The Morteratsch Glacier is melting rapidly because it extends deep into the valley and is exposed to high temperatures early in the season. While it does grow in good years, it only advances by 8 or 10 meters. This is insufficient to compensate for all the poor years: in 2015, it lost 164 meters. Researchers say it will be gone in <a href=\"https://baug.ethz.ch/news-und-veranstaltungen/news/2025/03/die-schweizer-gletscher-koennten-bis-2100-ganz-verschwinden.html#:~:text=2100%20ganz%20verschwinden%C2%BB-,%C2%ABDie%20Schweizer%20Gletscher%20k%C3%B6nnten%20bis%202100%20ganz%20verschwinden%C2%BB,ersten%20internationalen%20Welttag%20der%20Gletscher.\">less than 100 years</a> ."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1j2c5bq5c0",
+   "content": {
+    "text": "Ludwig Berger is familiar with all these figures. «Sometimes I just feel powerless,» he says. He knows that artificial snowmaking isn't a long-term solution, that fleece covers are too expensive, and that eating more vegetarian food and flying less isn't enough. «The problem can't be solved on an individual level; it can only be solved politically,» he says."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1j2c5bq5c1",
+   "content": {
+    "text": "Perhaps he is also trying to counteract this helplessness with his recordings. Those who take action regain control, and what can be controlled loses its power."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1j2c5bq5c2",
+   "content": {
+    "text": "Berger constantly comes up with new ideas for what to do with his recordings. He has created art installations, developed a concert series, and released two records. His goal is always similar: to allow listeners to experience what he has experienced. «I didn't have much of a connection to glaciers before; I knew what they were, but I had no feeling for them,» he says. Through listening, he has developed a relationship. He hopes that this connection will also develop in others, because what you have felt, you tend to want to protect."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1j2c5bq5c3",
+   "content": {
+    "text": "In July, a film about his work appeared in the <a href=\"https://www.nytimes.com/video/opinion/100000010222666/crying-glacier.html\">New York Times</a> . In the comments, viewers thanked him. One person wrote that the sounds had deeply moved them. Another said they could feel the glacier screaming. «I notice the effect my recordings have, which is one of the reasons I keep coming back,» Berger says."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "image"
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1j2uico5v1",
+   "content": {
+    "image": {
+     "author": "",
+     "caption": "For Berger, the microphones are a kind of stethoscope.",
+     "originalUrl": "/2025/08/13/d7340ae1-f764-4a86-b9f1-a94aa70f2201.jpg?width=1024",
+     "width": 3898,
+     "height": 2598,
+     "altText": "Morteratsch Glacier, July 19",
+     "origins": [
+      {
+       "name": "Hugo",
+       "identifier": "2173115165"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "caption": "For Berger, the microphones are a kind of stethoscope.",
+    "author": ""
+   },
+   "styles": {
+    "fullwidth-widget": "widget--containerwidth"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "image"
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1j2eign332",
+   "content": {
+    "image": {
+     "author": "",
+     "caption": "Lukas Berger has been listening to the glacier for almost ten years.",
+     "originalUrl": "/2025/08/13/954c93ef-8e0c-4a64-b7de-3c7bbde9cf16.jpg?width=1024",
+     "width": 3898,
+     "height": 2598,
+     "altText": "Morteratsch Glacier, July 19",
+     "origins": [
+      {
+       "name": "Hugo",
+       "identifier": "2173115366"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "caption": "Lukas Berger has been listening to the glacier for almost ten years.",
+    "author": ""
+   },
+   "styles": {
+    "fullwidth-widget": "widget--containerwidth"
+   },
+   "paidContent": true,
+   "prevElement": "image",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1j2c5bq5c4",
+   "content": {
+    "title": "Time capsules with ETH",
+    "id": "subtitle-zeitkapseln-mit-der-eth"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "image",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1j2c5bq5c5",
+   "content": {
+    "text": "His latest project: to store the sounds not just on USB sticks or hard drives, where data often only lasts ten to twenty years, but for the long term. To achieve this, he's collaborating with scientists at ETH Zurich. They've developed a method for converting music into DNA. They transfer the zeros and ones that make up MP3 files to the four bases of DNA. This blueprint is then sent to a laboratory that chemically synthesizes the DNA. Ultimately, Ludwig Berger's glacier recordings end up as a white powder in a test tube. He calls it a «time capsule.» Anyone who wants to hear the sounds again can have the DNA read in a laboratory – even in 1000 years, as it's designed to last that long."
+   },
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1j2c5bq5c6",
+   "content": {
+    "text": "Ludwig Berger sometimes doubts what he is doing: Is it enough to preserve the sounds? Shouldn't he be engaging in activism?"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1j2c5bq5c7",
+   "content": {
+    "text": "After almost two hours, he climbs over the last rocks marked with red and white trail markers. They are freshly painted; the trail must have been recently widened."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1j2c5bq5c8",
+   "content": {
+    "text": "Like a lava flow, the Morteratsch Glacier pours into the valley below the 4,049-meter-high Piz Bernina. Rough, cracked, with long furrows and deep crevasses. Right at its front, the glacier gate opens, a pale blue arch from which the meltwater flows."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1j2c5bq5c9",
+   "content": {
+    "text": "The path from his last visit is gone, but he finds a flat spot at the edge to climb onto the glacier. At first, you can't tell you're on the ice because it's blackened with soot and rock dust. Later, it becomes lighter, but never completely white, as if someone had scattered a few handfuls of ash over it."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1j2c5bq5c10",
+   "content": {
+    "text": "Berger straps his crampons to his hiking boots, then cups his hands around his ears like funnels to find a crevice for his recordings. It should be two to three meters deep and ideally bubbling. Air bubbles interest him most. «An old air bubble sounds higher than a young one because it's more compressed,» he says. Sometimes it's a simple pop, sometimes a squeak or a croak. If they burst in quick succession, rhythms or even melodies can emerge. «It's a total sonic universe,» he says."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1j2c5bq5c11",
+   "content": {
+    "text": "A crevice as wide as a hand looks promising. Berger takes off his backpack, lowers the two underwater microphones into it on their cables, and puts on his headphones. «You can hear the tension from the ice breaking up, a croaking in the mid-frequency range,» he says. «And a really deep bass.»"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "image"
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1j2eib5ed2",
+   "content": {
+    "image": {
+     "author": "",
+     "caption": "Researchers say the glacier could disappear in 100 years.",
+     "originalUrl": "/2025/08/13/4c90da43-1304-4ee7-91b1-e41de78abcca.jpg?width=1024",
+     "width": 3898,
+     "height": 2598,
+     "altText": "Morteratsch Glacier, July 19",
+     "origins": [
+      {
+       "name": "Hugo",
+       "identifier": "2173115162"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "caption": "Researchers say the glacier could disappear in 100 years.",
+    "author": ""
+   },
+   "styles": {
+    "fullwidth-widget": "widget--containerwidth"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1j2c5bq5c12",
+   "content": {
+    "text": "The next six hours unfold similarly: insert microphones, put on headphones. Listen. Sometimes Berger sits there for just a few seconds, sometimes for 30 minutes. He covers his hands with his headphones as if to make sure he hears every sound the glacier shares with him. He doesn't initially notice a rope team ascending beside him and a few tourists launching a drone below. He simply sits and listens to the glacier. Just like back when he was playing the piano, when he was supposed to be practicing notes in his parents' half-timbered house, but the sound of the chords transported him to another world."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "image",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1j2c5bq5c13",
+   "content": {
+    "text": "At 2:30 p.m., after eight and a half hours, he takes his first break: a hard-boiled egg, a few slices of bread, an apple. He sits down on a rock and looks across the glacier into the valley. «It's crazy how much has melted away here,» he says. «And it's happening all over the world.»"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1j2c5bq5c14",
+   "content": {
+    "text": "Doesn't he sometimes lose hope?"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1j2c5bq5c15",
+   "content": {
+    "text": "«When I see in one photo where the glacier was in 1880, and in another where it is now, I think to myself: That’s it,» says Berger. «But when I hear it, there’s something hopeful about it.» Sounds carry a sense of movement within them; they are not as absolute as photographs."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1j2c5bq5d0",
+   "content": {
+    "text": "As clouds gathered over the mountain ridges in the late afternoon and the sky darkened, Berger packed his microphones and cables into his backpack. He plans to return in October."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "image"
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1j2eifhva0",
+   "content": {
+    "image": {
+     "author": "",
+     "caption": "The Morteratsch glacier used to extend much further down into the valley.",
+     "originalUrl": "/2025/08/13/b8cb748f-bef0-4cab-96db-fd477807ee0a.jpg?width=1024",
+     "width": 3898,
+     "height": 2598,
+     "altText": "Morteratsch Glacier, July 19",
+     "origins": [
+      {
+       "name": "Hugo",
+       "identifier": "2173115169"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "caption": "The Morteratsch glacier used to extend much further down into the valley.",
+    "author": ""
+   },
+   "styles": {
+    "fullwidth-widget": "widget--fullwidth"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "sharebox",
+   "lastContentElement": true
+  },
+  {
+   "identifier": "sharebox",
+   "id": "doc-1j2c5bq5d1",
+   "paidContent": true,
+   "prevElement": "image",
+   "nextElement": "related-articles-container"
+  },
+  {
+   "identifier": "related-articles-container",
+   "id": "doc-1j226v4i53",
+   "content": {
+    "title": "Related articles"
+   },
+   "containers": {
+    "related-articles": [
+     {
+      "identifier": "teaser",
+      "id": "doc-1j226v4i54",
+      "content": {
+       "owner": "folio",
+       "title": "The Alpine hare is becoming increasingly rare. This is a bad sign for the mountain environment.",
+       "teaserImage": {
+        "originalUrl": "/2025/06/20/4a13e364-8c20-434f-b348-49fb6b95cad7.jpeg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2025/06/20/4a13e364-8c20-434f-b348-49fb6b95cad7.jpeg?width=1024&quality=75&auto=webp",
+        "width": 6614,
+        "height": 4677,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "4645,2613,x737,y1768"
+         },
+         {
+          "name": "1:1",
+          "crop": "1620,1620,x2244,y2456"
+         },
+         {
+          "name": "4:3",
+          "crop": "3893,2920,x1131,y1756"
+         },
+         {
+          "name": "3:4",
+          "crop": "1730,2307,x2227,y2369"
+         },
+         {
+          "name": "3:2",
+          "crop": "6614,4409,x0,y134"
+         }
+        ],
+        "imageService": "fastly",
+        "teaserCaption": "He is considered a phantom of the Alps. A year in the life of the survival artist."
+       },
+       "nzzasFootnote": false,
+       "folioFootnote": false,
+       "language": {
+        "locale": "de-CH"
+       },
+       "nzzId": "ld.1886678",
+       "readingTime": 660,
+       "colorSchema": "color-schema--ivory",
+       "authorLine": "Manuel Stark (text),<br> Jasmin Hegetschweiler (illustrations)",
+       "characterCount": 13272,
+       "product": "NZZ.ch",
+       "documentId": 1886678,
+       "layout": "longformvisual",
+       "publicationDate": "2025-07-04T03:30:00.000Z",
+       "publicationLastUpdated": "2026-02-20T15:53:43.752Z",
+       "significantUpdate": false,
+       "significantUpdateTill": "2025-07-04T15:30:00.000Z",
+       "teaserCaption": "He is considered a phantom of the Alps. A year in the life of the survival artist.",
+       "authorImage": {
+        "originalUrl": "/2025/09/01/af4e978f-5cd9-4c95-bc27-cfa694de9f03.jpg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2025/09/01/af4e978f-5cd9-4c95-bc27-cfa694de9f03.jpg?width=1024&quality=75&auto=webp",
+        "width": 2064,
+        "height": 1376,
+        "crops": [
+         {
+          "name": "1:1",
+          "crop": "1376,1376,x344,y0"
+         }
+        ],
+        "imageService": "fastly"
+       },
+       "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2025/09/01/af4e978f-5cd9-4c95-bc27-cfa694de9f03.jpg?width=1024&quality=75&auto=webp",
+       "url": "/folio/der-alpenschneehase-wird-immer-seltener-das-ist-ein-schlechtes-zeichen-fuer-die-bergwelt-ld.1886678",
+       "department": {
+        "name": "Folio",
+        "path": "/folio"
+       },
+       "estimationWordCount": 2265,
+       "leadText": "He is considered a phantom of the Alps. A year in the life of the survival artist.",
+       "nzzSummaryIsAuto": true,
+       "hasQ": true
+      }
+     },
+     {
+      "identifier": "teaser",
+      "id": "doc-1j226v4i55",
+      "content": {
+       "owner": "folio",
+       "title": "Too few people, too little snow, and then the slope slides: Can a mountain village like Braunwald survive?",
+       "teaserImage": {
+        "originalUrl": "/2025/07/02/e65a3ecc-c85e-4cf0-a269-ffb2f77fcaad.jpeg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2025/07/02/e65a3ecc-c85e-4cf0-a269-ffb2f77fcaad.jpeg?width=1024&quality=75&auto=webp",
+        "width": 2668,
+        "height": 4000,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "2668,1501,x0,y1823"
+         },
+         {
+          "name": "1:1",
+          "crop": "1874,1874,x13,y1753"
+         },
+         {
+          "name": "4:3",
+          "crop": "2668,2001,x0,y1736"
+         },
+         {
+          "name": "3:4",
+          "crop": "2372,3162,x40,y838"
+         },
+         {
+          "name": "3:2",
+          "crop": "2668,1779,x0,y1727"
+         }
+        ],
+        "imageService": "fastly",
+        "teaserCaption": "The residents of the Glarus holiday resort have many problems. And many ideas about how things could still move forward.",
+        "teaserAuthor": "Joel Hunn"
+       },
+       "teaserAuthor": "Joel Hunn",
+       "nzzasFootnote": false,
+       "folioFootnote": false,
+       "teaserCarouselOne": {
+        "originalUrl": "/2025/07/02/e65a3ecc-c85e-4cf0-a269-ffb2f77fcaad.jpeg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2025/07/02/e65a3ecc-c85e-4cf0-a269-ffb2f77fcaad.jpeg?width=1024&quality=75&auto=webp",
+        "width": 2668,
+        "height": 4000,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "2668,1501,x0,y1847"
+         },
+         {
+          "name": "1:1",
+          "crop": "1481,1481,x860,y1844"
+         },
+         {
+          "name": "4:3",
+          "crop": "2668,2001,x0,y1589"
+         },
+         {
+          "name": "3:4",
+          "crop": "1874,2498,x546,y1502"
+         },
+         {
+          "name": "3:2",
+          "crop": "2668,1779,x0,y1738"
+         }
+        ],
+        "imageService": "fastly"
+       },
+       "teaserCarouselTwo": {
+        "originalUrl": "/2025/07/01/bf7ef969-de54-47bc-a959-155a0daed8fe.jpeg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2025/07/01/bf7ef969-de54-47bc-a959-155a0daed8fe.jpeg?width=1024&quality=75&auto=webp",
+        "width": 2668,
+        "height": 4000,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "2108,1186,x418,y1594"
+         },
+         {
+          "name": "1:1",
+          "crop": "822,822,x1097,y1642"
+         },
+         {
+          "name": "4:3",
+          "crop": "1481,1110,x733,y1676"
+         },
+         {
+          "name": "3:4",
+          "crop": "1666,2221,x632,y1595"
+         },
+         {
+          "name": "3:2",
+          "crop": "2372,1581,x296,y1616"
+         }
+        ],
+        "imageService": "fastly"
+       },
+       "teaserCarouselThree": {
+        "originalUrl": "/2025/07/01/6a9fee83-33a0-4d5d-bff6-4f8bd20948a7.jpeg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2025/07/01/6a9fee83-33a0-4d5d-bff6-4f8bd20948a7.jpeg?width=1024&quality=75&auto=webp",
+        "width": 2668,
+        "height": 4000,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "2372,1334,x0,y911"
+         },
+         {
+          "name": "1:1",
+          "crop": "1170,1170,x580,y965"
+         },
+         {
+          "name": "4:3",
+          "crop": "2108,1581,x91,y839"
+         },
+         {
+          "name": "3:4",
+          "crop": "2668,3557,x0,y221"
+         },
+         {
+          "name": "3:2",
+          "crop": "2668,1779,x0,y714"
+         }
+        ],
+        "imageService": "fastly"
+       },
+       "teaserCarouselFour": {
+        "originalUrl": "/2025/07/02/01535b4d-eafe-4681-a406-45be215f7929.jpeg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2025/07/02/01535b4d-eafe-4681-a406-45be215f7929.jpeg?width=1024&quality=75&auto=webp",
+        "width": 2668,
+        "height": 4000,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "2668,1501,x0,y1620"
+         },
+         {
+          "name": "1:1",
+          "crop": "924,924,x914,y1748"
+         },
+         {
+          "name": "4:3",
+          "crop": "2108,1581,x246,y1606"
+         },
+         {
+          "name": "3:4",
+          "crop": "1874,2498,x383,y1502"
+         },
+         {
+          "name": "3:2",
+          "crop": "2668,1779,x0,y1111"
+         }
+        ],
+        "imageService": "fastly"
+       },
+       "language": {
+        "locale": "de-CH"
+       },
+       "nzzId": "ld.1890625",
+       "readingTime": 1980,
+       "authorLine": "Barbara Klingbacher, Aline Wanner (text), and Joël Hunn (images)",
+       "hugo": {
+        "id": "articleArchive-534744141",
+        "timestamp": "2025-07-07T00:00:00.000Z",
+        "keywords": "1256 Braunwald",
+        "note": ""
+       },
+       "characterCount": 42342,
+       "product": "NZZ.ch",
+       "documentId": 1890625,
+       "layout": "longformvisual",
+       "publicationDate": "2025-07-04T03:30:00.000Z",
+       "publicationLastUpdated": "2025-07-15T09:00:22.336Z",
+       "significantUpdate": false,
+       "significantUpdateTill": "2025-07-04T15:30:00.000Z",
+       "teaserCaption": "The residents of the Glarus holiday resort have many problems. And many ideas about how things could still move forward.",
+       "url": "/folio/zu-wenig-menschen-zu-wenig-schnee-und-dann-rutscht-auch-noch-der-hang-kann-ein-bergdorf-wie-braunwald-ueberleben-ld.1890625",
+       "department": {
+        "name": "Folio",
+        "path": "/folio"
+       },
+       "estimationWordCount": 6675,
+       "leadText": "The residents of the Glarus holiday resort have many problems. And many ideas about how things could still move forward.",
+       "nzzSummaryIsAuto": true
+      }
+     },
+     {
+      "identifier": "teaser",
+      "id": "doc-1j226v4i56",
+      "content": {
+       "owner": "NZZaS",
+       "title": "How to preserve ice cores from glaciers",
+       "teaserImage": {
+        "originalUrl": "/2023/05/10/9e964eee-1c6a-494e-9e8c-4a08b6d4691c.jpeg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2023/05/10/9e964eee-1c6a-494e-9e8c-4a08b6d4691c.jpeg?width=1024&quality=75&auto=webp",
+        "width": 2668,
+        "height": 1499,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "2665,1499,x0,y0"
+         },
+         {
+          "name": "1:1",
+          "crop": "1499,1499,x443,y0"
+         },
+         {
+          "name": "4:3",
+          "crop": "1777,1332,x468,y0"
+         },
+         {
+          "name": "3:4",
+          "crop": "1124,1499,x744,y0"
+         }
+        ],
+        "imageService": "fastly",
+        "teaserCaption": "The ice is disappearing in the mountains – and with it, unique climate archives. To enable future generations to continue this research, ice cores are to be preserved in Antarctica.",
+        "teaserAuthor": "Riccardo Selvatico / Ice Memory Foundation"
+       },
+       "teaserAuthor": "Riccardo Selvatico / Ice Memory Foundation",
+       "nzzasFootnote": false,
+       "folioFootnote": false,
+       "language": {
+        "locale": "de-CH"
+       },
+       "nzzId": "ld.1779256",
+       "readingTime": 300,
+       "authorLine": "Ralf Nestler",
+       "characterCount": 5907,
+       "product": "NZZ.ch",
+       "documentId": 1779256,
+       "layout": "longformvisual",
+       "publicationDate": "2024-02-09T16:25:12.697Z",
+       "publicationLastUpdated": "2024-02-21T16:23:07.851Z",
+       "significantUpdate": false,
+       "significantUpdateTill": "2024-02-10T04:25:12.697Z",
+       "teaserCaption": "The ice is disappearing in the mountains – and with it, unique climate archives. To enable future generations to continue this research, ice cores are to be preserved in Antarctica.",
+       "url": "/wissenschaft/eisbohrkern-archiv-ld.1779256",
+       "department": {
+        "name": "Science",
+        "path": "/wissenschaft"
+       },
+       "estimationWordCount": 908,
+       "leadText": "The ice is disappearing in the mountains – and with it, unique climate archives. To enable future generations to continue this research, ice cores are to be preserved in Antarctica."
+      }
+     }
+    ]
+   },
+   "paidContent": true,
+   "prevElement": "sharebox",
+   "nextElement": "",
+   "lastContentElement": true
+  }
+ ],
+ "metadata": {
+  "owner": "folio",
+  "title": "What it sounds like when a glacier dies",
+  "teaserImage": {
+   "originalUrl": "/2025/08/12/c09d8e57-6e18-4d9e-980c-7bad4bd2fe43.jpg?width=1024",
+   "url": "https://img-msp-prod.nzz.ch/2025/08/12/c09d8e57-6e18-4d9e-980c-7bad4bd2fe43.jpg?width=1024&quality=75&auto=webp",
+   "width": 3543,
+   "height": 2363,
+   "crops": [
+    {
+     "name": "16:9",
+     "crop": "3543,1993,x0,y167"
+    },
+    {
+     "name": "1:1",
+     "crop": "1036,1036,x1278,y489"
+    },
+    {
+     "name": "4:3",
+     "crop": "3151,2363,x192,y0"
+    },
+    {
+     "name": "3:4",
+     "crop": "1575,2100,x1048,y263"
+    },
+    {
+     "name": "3:2",
+     "crop": "3543,2362,x0,y1"
+    }
+   ],
+   "imageService": "fastly",
+   "teaserCaption": "For almost ten years, Ludwig Berger has been hiking with microphones to the Morteratsch Glacier in the Engadine. He wants to document what is in danger of disappearing.",
+   "teaserAuthor": "Bruno Augsburger Photography"
+  },
+  "teaserAuthor": "Bruno Augsburger Photography",
+  "nzzasFootnote": false,
+  "folioFootnote": false,
+  "teaserCarouselOne": {
+   "originalUrl": "/2025/08/13/492641c5-cacc-472e-9301-3680c746321f.jpg?width=1024",
+   "url": "https://img-msp-prod.nzz.ch/2025/08/13/492641c5-cacc-472e-9301-3680c746321f.jpg?width=1024&quality=75&auto=webp",
+   "width": 3898,
+   "height": 2598,
+   "crops": [
+    {
+     "name": "16:9",
+     "crop": "3898,2193,x0,y279"
+    },
+    {
+     "name": "1:1",
+     "crop": "1139,1139,x1532,y556"
+    },
+    {
+     "name": "4:3",
+     "crop": "3079,2309,x403,y231"
+    },
+    {
+     "name": "3:4",
+     "crop": "1732,2309,x1144,y218"
+    },
+    {
+     "name": "3:2",
+     "crop": "3897,2598,x1,y0"
+    }
+   ],
+   "imageService": "fastly"
+  },
+  "teaserCarouselTwo": {
+   "originalUrl": "/2025/08/13/d4e10a31-f67d-4b00-8449-5eb4fb051ebc.jpg?width=1024",
+   "url": "https://img-msp-prod.nzz.ch/2025/08/13/d4e10a31-f67d-4b00-8449-5eb4fb051ebc.jpg?width=1024&quality=75&auto=webp",
+   "width": 2598,
+   "height": 3898,
+   "crops": [
+    {
+     "name": "16:9",
+     "crop": "2598,1461,x0,y1218"
+    },
+    {
+     "name": "1:1",
+     "crop": "2598,2598,x0,y650"
+    },
+    {
+     "name": "4:3",
+     "crop": "2598,1949,x0,y935"
+    },
+    {
+     "name": "3:4",
+     "crop": "2598,3464,x0,y434"
+    },
+    {
+     "name": "3:2",
+     "crop": "2598,1732,x0,y1083"
+    }
+   ],
+   "imageService": "fastly"
+  },
+  "teaserCarouselThree": {
+   "originalUrl": "/2025/08/13/d7340ae1-f764-4a86-b9f1-a94aa70f2201.jpg?width=1024",
+   "url": "https://img-msp-prod.nzz.ch/2025/08/13/d7340ae1-f764-4a86-b9f1-a94aa70f2201.jpg?width=1024&quality=75&auto=webp",
+   "width": 3898,
+   "height": 2598,
+   "crops": [
+    {
+     "name": "16:9",
+     "crop": "3898,2193,x0,y337"
+    },
+    {
+     "name": "1:1",
+     "crop": "1442,1442,x223,y595"
+    },
+    {
+     "name": "4:3",
+     "crop": "3464,2598,x121,y0"
+    },
+    {
+     "name": "3:4",
+     "crop": "1732,2309,x112,y289"
+    },
+    {
+     "name": "3:2",
+     "crop": "3897,2598,x1,y0"
+    }
+   ],
+   "imageService": "fastly"
+  },
+  "language": {
+   "locale": "en-US"
+  },
+  "nzzId": "ld.1896852",
+  "authorLine": "Theresa Tröndle (text), Bruno Augsburger (images)",
+  "readingTime": 660,
+  "colorSchema": "color-schema--default",
+  "characterCount": 13320,
+  "breadcrumbs": [
+   {
+    "name": "Folio",
+    "path": "/folio"
+   }
+  ],
+  "product": "NZZ.ch",
+  "documentId": 1896852,
+  "contentTypeGroup": "web",
+  "layout": "longformvisual",
+  "firstPublicationDate": "2025-08-29T03:30:00.000Z",
+  "publicationDate": "2025-08-29T03:30:00.000Z",
+  "publicationLastUpdated": "2025-09-02T11:31:23.219Z",
+  "significantUpdate": false,
+  "significantUpdateTill": "2025-08-29T15:30:00.000Z",
+  "teaserCaption": "For almost ten years, Ludwig Berger has been hiking with microphones to the Morteratsch Glacier in the Engadine. He wants to document what is in danger of disappearing.",
+  "nzzAuthors": [
+   {
+    "id": 1605684,
+    "name": "Auswärtige Autoren Folio",
+    "shortName": "Folio",
+    "external": true
+   }
+  ],
+  "url": "/folio/der-morteratschgletscher-schmilzt-ludwig-berger-haelt-fest-wie-das-klingt-ld.1896852",
+  "department": {
+   "name": "Folio",
+   "path": "/folio"
+  },
+  "estimationWordCount": 2233,
+  "leadText": "For almost ten years, Ludwig Berger has been hiking with microphones to the Morteratsch Glacier in the Engadine. He wants to document what is in danger of disappearing.",
+  "nzzSummaryEN": "- Sound artist Ludwig Berger has been documenting the sounds of the Morteratsch Glacier in Engadin for nearly ten years, aiming to capture the acoustic essence of vanishing glaciers.\n- Berger describes the glacier's sounds as vibrant, uses them for scientific analysis, and creates time capsules to preserve the recordings for future generations.\n- Despite his artistic efforts, Berger often feels powerless against the rapid glacier retreat and emphasizes that only political action can address the issue.",
+  "nzzSummaryDE": "- For almost ten years, sound artist Ludwig Berger has been documenting the sounds of the Morteratsch glacier in the Engadine region, aiming to acoustically capture the disappearance of the glaciers.\n Berger describes the sounds of the glacier as alive, uses them for scientific analysis, and creates time capsules to preserve the recordings for the future.\n Despite his artistic projects, Berger often feels helpless in the face of the ongoing glacial retreat and sees political measures as the only solution.",
+  "nzzSummaryIsAuto": true,
+  "nzzSummaryModel": "gpt-4o-2024-11-20",
+  "nzzPrintTitle": "What it sounds like when glaciers die ",
+  "nzzPrintSubtitle": "For almost ten years, Ludwig Berger has been hiking with microphones to the Morteratsch Glacier in the Engadine. He wants to document what is in danger of disappearing. ",
+  "teaserPodcastTitle": "This is what it sounds like when a glacier dies.",
+  "teaserPodcastUrl": "https://cdn.jwplayer.com/videos/0WFWXpNJ-YUkNeMkW.mp4",
+  "teaserPodcastDuration": "1:58",
+  "allArticleLanguages": [
+   {
+    "locale": "de-CH",
+    "urlPath": "/folio/der-morteratschgletscher-schmilzt-ludwig-berger-haelt-fest-wie-das-klingt-ld.1896852",
+    "seo": {}
+   }
+  ],
+  "seo": {
+   "canonicalUrl": "https://www.nzz.ch/folio/der-morteratschgletscher-schmilzt-ludwig-berger-haelt-fest-wie-das-klingt-ld.1896852",
+   "title": "The Morteratsch Glacier is melting: Ludwig Berger records what that sounds like",
+   "socialMediaTitle": "What does it sound like when a glacier dies? Ludwig Berger's sound project for posterity",
+   "excludeFromSpiders": false,
+   "image": "https://img-msp-prod.nzz.ch/2025/08/12/c09d8e57-6e18-4d9e-980c-7bad4bd2fe43.jpg?width=1200&height=675&fit=bounds&quality=75&auto=webp&crop=3543,1993,x0,y167&wmark=nzz"
+  },
+  "ldPublicationId": 1765618,
+  "isHighlightedHeader": true,
+  "nzzTopics": [
+   {
+    "name": "glacier",
+    "slug": "/themen/gletscher"
+   },
+   {
+    "name": "ETH Zurich",
+    "slug": "/themen/eth-zuerich"
+   },
+   {
+    "name": "The New York Times",
+    "slug": "/themen/the-new-york-times"
+   }
+  ],
+  "barrierIndex": 2,
+  "outlinks": {
+   "mehrZumThema": [
+    "ld.1886678",
+    "ld.1890625",
+    "ld.1779256"
+   ],
+   "artikelListe": [],
+   "aliasTeaserEmbedList": []
+  },
+  "tts": true,
+  "project": "nzz",
+  "machineTranslated": true,
+  "machineTranslationValidated": false
+ },
+ "isReduced": false,
+ "isPaid": false,
+ "isVamp": false,
+ "isWebview": false,
+ "btaFeed": {
+  "meta": {
+   "id": "gletscher",
+   "name": "glacier",
+   "tagName": "glacier",
+   "qId": "Q35666",
+   "seoTitle": "Glaciers – All NZZ articles on the topic | NZZ",
+   "description": null,
+   "firstName": null,
+   "lastName": null,
+   "category": "MISC",
+   "createdDate": "2025-04-08 19:28:31.596Z",
+   "imageURL": null,
+   "imageCroppedURL": null,
+   "imageWidth": null,
+   "imageHeight": null,
+   "imageCredits": null,
+   "url": "https://nzz.ch/themen/gletscher",
+   "size": 319,
+   "relatedTopics": [
+    {
+     "name": "ETH Zürich",
+     "slug": "/themen/eth-zuerich"
+    },
+    {
+     "name": "The New York Times",
+     "slug": "/themen/the-new-york-times"
+    }
+   ]
+  },
+  "data": [
+   {
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "title": "This summer's heat shows: As glaciers disappear, more dams needed",
+    "flag": "Opinion",
+    "teaserImage": {
+     "originalUrl": "/2026/09/01/109fccea-d0ba-49b4-bf85-828b5dd88545.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/09/01/109fccea-d0ba-49b4-bf85-828b5dd88545.jpg?width=1024&quality=75&auto=webp",
+     "width": 4500,
+     "height": 3000,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "4500,2531,x0,y234"
+      },
+      {
+       "name": "4:3",
+       "crop": "4000,3000,x250,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "3000,3000,x750,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "2250,3000,x1125,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "4500,3000,x0,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "The Alps are considered a refuge for day-trippers and tourists. However, due to glacial melt and water shortages during heatwaves, they could gain far greater importance – provided their inhabitants take action.",
+     "teaserAuthor": "Illustration by Simon Tanner / NZZ"
+    },
+    "teaserAuthor": "Illustration by Simon Tanner / NZZ",
+    "nzzId": "ld.10020910",
+    "readingTime": 360,
+    "paywallQuestionOne": "How can dams replace the shrinking glaciers?",
+    "paywallQuestionTwo": "What role does water management play for mountain regions?",
+    "paywallQuestionThree": "How will climate change affect the Alps in the long term?",
+    "characterCount": 8329,
+    "showComments": true,
+    "product": "NZZ.ch",
+    "documentId": "10020910",
+    "layout": "opinion",
+    "publicationDate": "2026-09-02T03:35:00.000Z",
+    "publicationLastUpdated": "2026-09-02T09:49:17.448Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-09-02T15:35:00.000Z",
+    "teaserCaption": "The Alps are considered a refuge for day-trippers and tourists. However, due to glacial melt and water shortages during heatwaves, they could gain far greater importance – provided their inhabitants take action.",
+    "authorLine": "Matthias Venetz, Bern",
+    "authorImage": {
+     "originalUrl": "/2024/01/04/00cb5937-e55d-4056-b9cf-1c4b7360fd42.png?crop=800,800,x0,y0",
+     "width": 800,
+     "height": 800,
+     "crop": {
+      "x": 0,
+      "y": 0,
+      "width": 800,
+      "height": 800,
+      "name": "1:1"
+     },
+     "imageService": "fastly",
+     "url": "https://img-msp-prod.nzz.ch/2024/01/04/00cb5937-e55d-4056-b9cf-1c4b7360fd42.png?crop=800,800,x0,y0&width=1024&quality=75&auto=webp",
+     "crops": []
+    },
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2024/01/04/00cb5937-e55d-4056-b9cf-1c4b7360fd42.png?crop=800,800,x0,y0&width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/meinung/dieser-hitzesommer-zeigt-weil-die-gletscher-verschwinden-muessen-wir-mehr-staudaemme-bauen-ld.10020910",
+    "department": {
+     "name": "Opinion",
+     "path": "/meinung"
+    },
+    "estimationWordCount": 1209,
+    "leadText": "The Alps are considered a refuge for day-trippers and tourists. However, due to glacial melt and water shortages during heatwaves, they could gain far greater importance – provided their inhabitants take action.",
+    "nzzSummaryIsAuto": true,
+    "commentsCount": 23,
+    "openToComment": false,
+    "locale": "de-CH"
+   },
+   {
+    "title": "Deadly flood in Nepal: How the mudslide raced through the valley",
+    "showHeader": false,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "teaserImage": {
+     "originalUrl": "/2026/08/28/061e08bc-9d3e-417a-bba2-2581419c6238.png?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/08/28/061e08bc-9d3e-417a-bba2-2581419c6238.png?width=1024&quality=75&auto=webp",
+     "width": 1920,
+     "height": 1080,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "1745,982,x86,y98"
+      },
+      {
+       "name": "4:3",
+       "crop": "1309,982,x339,y98"
+      },
+      {
+       "name": "1:1",
+       "crop": "982,982,x531,y98"
+      },
+      {
+       "name": "3:4",
+       "crop": "810,1080,x583,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "1473,982,x254,y98"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "Nepal flood disaster: Emerging causes of glacier ice and debris plunge into valley, burying hundreds"
+    },
+    "tags": [
+     "Visuals"
+    ],
+    "nzzId": "ld.10021510",
+    "readingTime": 60,
+    "colorSchema": "color-schema--default",
+    "paywallQuestionOne": "What caused the glacier to collapse and the deadly mudslide?",
+    "paywallQuestionTwo": "What dangers are posed by the accumulated water masses in the mountains?",
+    "paywallQuestionThree": "How are the tsunami waves affecting rescue efforts in Nepal?",
+    "characterCount": 1410,
+    "product": "NZZ.ch",
+    "documentId": "10021510",
+    "layout": "headlesslongformvisual",
+    "publicationDate": "2026-08-28T17:01:01.358Z",
+    "publicationLastUpdated": "2026-08-28T17:14:09.281Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-08-29T05:01:01.358Z",
+    "teaserCaption": "Nepal flood disaster: Emerging causes of glacier ice and debris plunge into valley, burying hundreds",
+    "authorLine": "Jan Ludwig, Jasmine Jacot-Descombes, Jessica Eberhart, Cian Jochem",
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2026/02/05/3b6e13f1-482a-4a6c-b4af-e5db7bba6699.jpg?width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/visuals/toedliche-flut-in-nepal-so-raste-die-schlammlawine-durchs-tal-ld.10021510",
+    "department": {
+     "name": "Visual Stories",
+     "path": "/visuals"
+    },
+    "estimationWordCount": 224,
+    "leadText": "Nepal flood disaster: Emerging causes of glacier ice and debris plunge into valley, burying hundreds",
+    "nzzSummaryIsAuto": true,
+    "hasQ": true,
+    "locale": "de-CH"
+   },
+   {
+    "title": "Glacier break-off threatens Weisshorn in Valais municipality of Randa",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "teaserImage": {
+     "originalUrl": "/2026/08/25/2601bd19-4b17-4e67-be62-131ce0a11f1a.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/08/25/2601bd19-4b17-4e67-be62-131ce0a11f1a.jpg?width=1024&quality=75&auto=webp",
+     "width": 4048,
+     "height": 2699,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "4048,2277,x0,y422"
+      },
+      {
+       "name": "4:3",
+       "crop": "2974,2231,x978,y468"
+      },
+      {
+       "name": "1:1",
+       "crop": "1259,1259,x2311,y1290"
+      },
+      {
+       "name": "3:4",
+       "crop": "1521,2028,x2027,y671"
+      },
+      {
+       "name": "3:2",
+       "crop": "4048,2699,x0,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "First break-offs Monday afternoon; extensive cordoning of affected area",
+     "teaserAuthor": "Laurent Gillieron / Keystone"
+    },
+    "teaserAuthor": "Laurent Gillieron / Keystone",
+    "paywallQuestionOne": "What measures were taken in Randa due to the imminent glacier collapse?",
+    "paywallQuestionTwo": "How great is the danger to the village of Randa from the Weisshorn glacier?",
+    "paywallQuestionThree": "Which areas in the municipality have been defined as danger zones?",
+    "nzzId": "ld.10020894",
+    "readingTime": 120,
+    "characterCount": 2126,
+    "editor": "1398648",
+    "product": "NZZ.ch",
+    "documentId": "10020894",
+    "layout": "regular",
+    "publicationDate": "2026-08-25T13:09:03.063Z",
+    "publicationLastUpdated": "2026-08-25T13:49:28.806Z",
+    "significantUpdate": true,
+    "significantUpdateTill": "2026-08-26T01:09:03.063Z",
+    "teaserCaption": "First break-offs Monday afternoon; extensive cordoning of affected area",
+    "url": "https://www.nzz.ch/panorama/in-der-walliser-gemeinde-randa-droht-ein-gletscherabbruch-am-weisshorn-ld.10020894",
+    "department": {
+     "name": "Panorama",
+     "path": "/panorama"
+    },
+    "estimationWordCount": 366,
+    "leadText": "First break-offs Monday afternoon; extensive cordoning of affected area",
+    "nzzSummaryIsAuto": true,
+    "hasQ": true,
+    "locale": "de-CH"
+   },
+   {
+    "title": "Switzerland: Laurent Favre joins SRG Board of Directors",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "teaserImage": {
+     "originalUrl": "/2026/09/02/e89501eb-56ea-4ac2-bb1d-bf1c2f7916e9.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/09/02/e89501eb-56ea-4ac2-bb1d-bf1c2f7916e9.jpg?width=1024&quality=75&auto=webp",
+     "width": 5265,
+     "height": 3510,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "5265,2962,x0,y0"
+      },
+      {
+       "name": "4:3",
+       "crop": "4680,3510,x0,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "3510,3510,x0,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "2633,3510,x367,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "5265,3510,x0,y0"
+      }
+     ],
+     "focalPoint": {
+      "x": 1683,
+      "y": 702
+     },
+     "imageService": "fastly",
+     "teaserCaption": "The latest news.",
+     "teaserAuthor": "Laurent Gillieron / KEYSTONE"
+    },
+    "teaserAuthor": "Laurent Gillieron / KEYSTONE",
+    "flag": "Short news items",
+    "nzzId": "ld.10020886",
+    "readingTime": 300,
+    "paywallQuestionOne": "What measures is Randa taking to combat the impending glacier collapse?",
+    "paywallQuestionTwo": "How endangered is the village of Randa by the Weisshorn East Glacier?",
+    "paywallQuestionThree": "Which areas in Randa are currently closed to the public?",
+    "characterCount": 6562,
+    "product": "NZZ.ch",
+    "documentId": "10020886",
+    "layout": "regular",
+    "publicationDate": "2026-09-02T12:54:11.658Z",
+    "publicationLastUpdated": "2026-09-02T12:54:11.658Z",
+    "significantUpdate": true,
+    "significantUpdateTill": "2026-09-03T00:54:11.658Z",
+    "teaserCaption": "The latest news.",
+    "url": "https://www.nzz.ch/schweiz/schweiz-die-neusten-meldungen-ld.10020886",
+    "department": {
+     "name": "Switzerland",
+     "path": "/schweiz"
+    },
+    "estimationWordCount": 941,
+    "leadText": "The latest news.",
+    "nzzSummaryIsAuto": true,
+    "locale": "de-CH"
+   },
+   {
+    "title": "Heat in Europe: Climate researcher warns of more extreme weather; hundreds flee wildfires in Spain",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "flag": "Live ticker",
+    "teaserImage": {
+     "originalUrl": "/2026/08/16/d2612d92-7a98-4fc1-a944-56823092d486.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/08/16/d2612d92-7a98-4fc1-a944-56823092d486.jpg?width=1024&quality=75&auto=webp",
+     "width": 5315,
+     "height": 3543,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "5315,3543,x0,y0"
+      },
+      {
+       "name": "4:3",
+       "crop": "5315,3543,x0,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "5315,3543,x0,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "5315,3543,x0,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "Where is it particularly hot right now? And what are the effects on people and the environment? The latest news on the heatwave in Europe.",
+     "teaserAuthor": "Federico Gambarini / Keystone"
+    },
+    "teaserAuthor": "Federico Gambarini / Keystone",
+    "authorLine": "NZZ Editorial Team",
+    "nzzId": "ld.10008673",
+    "readingTime": 60,
+    "liveCenterId": "86247",
+    "embeds": {
+     "videos": [
+      {
+       "id": "TZNqnPW9",
+       "provider": "jw",
+       "teaser": true,
+       "duration": 9,
+       "sources": [
+        {
+         "file": "https://cdn.jwplayer.com/videos/TZNqnPW9-IBEUDFZ7.mp4",
+         "label": "180p"
+        }
+       ]
+      }
+     ]
+    },
+    "paywallQuestionOne": "How do heat waves affect people, animals and the environment in Switzerland?",
+    "paywallQuestionTwo": "Which regions of Europe are affected by record temperatures?",
+    "paywallQuestionThree": "What measures does the federal government recommend to combat the heat?",
+    "characterCount": 19,
+    "videoTeaser": "TZNqnPW9",
+    "product": "NZZ.ch",
+    "documentId": "10008673",
+    "layout": "regular",
+    "publicationDate": "2026-08-27T06:52:11.732Z",
+    "publicationLastUpdated": "2026-08-27T06:52:11.732Z",
+    "significantUpdate": true,
+    "significantUpdateTill": "2026-08-27T18:52:11.732Z",
+    "teaserCaption": "Where is it particularly hot right now? And what are the effects on people and the environment? The latest news on the heatwave in Europe.",
+    "url": "https://www.nzz.ch/panorama/hitze-in-europa-klimaforscher-warnt-vor-mehr-extremwetter-hunderte-menschen-in-spanien-wegen-waldbrand-evakuiert-ld.10008673",
+    "department": {
+     "name": "Panorama",
+     "path": "/panorama"
+    },
+    "estimationWordCount": 45,
+    "leadText": "Where is it particularly hot right now? And what are the effects on people and the environment? The latest news on the heatwave in Europe.",
+    "nzzSummaryIsAuto": true,
+    "locale": "de-CH"
+   },
+   {
+    "title": "Missing for 34 years: Summer heat releases bodies of two hikers on Trift Glacier",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "teaserImage": {
+     "originalUrl": "/2026/08/20/fb4c8eb3-deb8-4a66-b66c-1f738ccc7916.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/08/20/fb4c8eb3-deb8-4a66-b66c-1f738ccc7916.jpg?width=1024&quality=75&auto=webp",
+     "width": 4368,
+     "height": 2912,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "4368,2457,x0,y455"
+      },
+      {
+       "name": "4:3",
+       "crop": "3883,2912,x243,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "2912,2912,x728,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "2184,2912,x1092,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "4368,2912,x0,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "Once again, glacial melt has exposed human remains in Valais. According to authorities, these were two Belgians who had been missing since 1992.",
+     "teaserAuthor": "imago"
+    },
+    "teaserAuthor": "imago",
+    "nzzId": "ld.10020153",
+    "readingTime": 180,
+    "paywallQuestionOne": "What role does glacial melt play in uncovering missing persons?",
+    "paywallQuestionTwo": "Why are the Valais Alps particularly dangerous for mountaineers?",
+    "paywallQuestionThree": "How frequently are human remains found in Swiss glaciers?",
+    "characterCount": 3785,
+    "product": "NZZ.ch",
+    "documentId": "10020153",
+    "layout": "regular",
+    "publicationDate": "2026-08-19T14:35:06.041Z",
+    "publicationLastUpdated": "2026-08-20T06:25:33.962Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-08-20T02:35:06.041Z",
+    "teaserCaption": "Once again, glacial melt has exposed human remains in Valais. According to authorities, these were two Belgians who had been missing since 1992.",
+    "authorLine": "Leonie C. Wagner",
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2026/01/20/0be0ea33-c4db-46ef-81de-70d372135e9b.jpg?width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/panorama/34-jahre-vermisst-die-sommerhitze-gibt-die-leichen-zweier-wanderer-auf-dem-triftgletscher-frei-ld.10020153",
+    "department": {
+     "name": "Panorama",
+     "path": "/panorama"
+    },
+    "estimationWordCount": 623,
+    "leadText": "Once again, glacial melt has exposed human remains in Valais. According to authorities, these were two Belgians who had been missing since 1992.",
+    "nzzSummaryIsAuto": true,
+    "locale": "de-CH"
+   }
+  ]
+ },
+ "digitalData": {
+  "component": [
+   {
+    "id": "ld.1896852",
+    "name": "What it sounds like when a glacier dies",
+    "type": "article",
+    "subType1": "longformvisual",
+    "subType2": "",
+    "primaryCategory": "Folio",
+    "subCategory1": "",
+    "attributes": {
+     "headline": "What it sounds like when a glacier dies",
+     "firstPublishTitle": "",
+     "catchline": "",
+     "authors": [
+      {
+       "id": 1605684,
+       "name": "Auswärtige Autoren Folio",
+       "shortName": "Folio",
+       "external": true
+      }
+     ],
+     "issueTimestamp": "2025-08-29T03:30:00.000Z",
+     "updateTimestamp": "2025-09-02T11:31:23.219Z",
+     "isSponsoredContent": false,
+     "isPro": false,
+     "isLiveticker": false,
+     "flag": "",
+     "owner": "folio"
+    }
+   }
+  ],
+  "page": {
+   "pageId": "ld.1896852",
+   "pageType": "longformvisual",
+   "primaryCategory": "Folio",
+   "subCategory1": "",
+   "subCategory2": "",
+   "language": "en-US"
+  },
+  "version": "2.0",
+  "user": {},
+  "event": []
+ },
+ "seoData": {
+  "title": "The Morteratsch Glacier is melting: Ludwig Berger records what that sounds like",
+  "image": {
+   "url": "https://img-msp-prod.nzz.ch/2025/08/12/c09d8e57-6e18-4d9e-980c-7bad4bd2fe43.jpg?width=1200&height=675&fit=bounds&quality=75&auto=webp&crop=3543,1993,x0,y167&wmark=nzz",
+   "type": "image/jpeg",
+   "width": 1200,
+   "height": 675
+  },
+  "author": "Theresa Tröndle (text), Bruno Augsburger (images)",
+  "description": "For almost ten years, Ludwig Berger has been hiking with microphones to the Morteratsch Glacier in the Engadine. He wants to document what is in danger of disappearing.",
+  "news_keywords": "What it sounds like when a glacier dies, Folio, News, NZZ",
+  "type": "article",
+  "last-modified": "2025-09-02T15:31:23+02:00",
+  "date": "2025-08-29T07:30:00+02:00",
+  "canonical": "https://www.nzz.ch/folio/der-morteratschgletscher-schmilzt-ludwig-berger-haelt-fest-wie-das-klingt-ld.1896852",
+  "fb:app_id": 138008459595436,
+  "fb:pages": 143694099006529,
+  "fb:admins": 1592685173,
+  "locale": "de-CH",
+  "email": "online.redaktion@nzz.ch",
+  "site_name": "Neue Zürcher Zeitung",
+  "copyright": "2026 Neue Zürcher Zeitung AG, Schweiz",
+  "robots": "noindex, nofollow, noarchive, noodp",
+  "hreflang": [],
+  "sharedTitle": "What it sounds like when a glacier dies",
+  "ogTitle": "What does it sound like when a glacier dies? Ludwig Berger's sound project for posterity",
+  "ogUrl": "https://www.nzz.ch/folio/der-morteratschgletscher-schmilzt-ludwig-berger-haelt-fest-wie-das-klingt-ld.1896852",
+  "mrf:cms_id": "nzz:ld.1896852",
+  "mrf:sections": "Folio;Gesellschaft",
+  "mrf:tags": "Page Type:longformvisual;Editorial Owner:folio;Content Type:Standard Article;Article ID:ld.1896852",
+  "nzzAuthors": [
+   {
+    "id": 1605684,
+    "name": "Auswärtige Autoren Folio",
+    "shortName": "Folio",
+    "external": true
+   }
+  ],
+  "links": [
+   {
+    "rel": "canonical",
+    "href": "https://www.nzz.ch/folio/der-morteratschgletscher-schmilzt-ludwig-berger-haelt-fest-wie-das-klingt-ld.1896852"
+   },
+   {
+    "rel": "search",
+    "href": "/suche",
+    "title": "Suche Neue Zürcher Zeitung, Schweiz, https://www.nzz.ch/suche"
+   }
+  ],
+  "renderedAt": "Thu, 03 Sep 2026 09:31:57 GMT"
+ },
+ "structuredData": [
+  {
+   "@context": "https://schema.org",
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "item": {
+      "@id": "/",
+      "name": "Home"
+     }
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "item": {
+      "@id": "/folio",
+      "name": "Folio"
+     }
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "The Morteratsch Glacier is melting: Ludwig Berger records what that sounds like"
+    }
+   ]
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": "NewsArticle",
+   "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.nzz.ch/folio/der-morteratschgletscher-schmilzt-ludwig-berger-haelt-fest-wie-das-klingt-ld.1896852"
+   },
+   "headline": "The Morteratsch Glacier is melting: Ludwig Berger records what that sounds like",
+   "datePublished": "2025-08-29T07:30:00+02:00",
+   "dateModified": "2025-09-02T15:31:23+02:00",
+   "publisher": {
+    "@type": "NewsMediaOrganization",
+    "name": "Neue Zürcher Zeitung",
+    "url": "https://www.nzz.ch",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://www.nzz.ch/logo.png",
+     "width": 413,
+     "height": 60
+    },
+    "contactPoint": [
+     {
+      "@type": "ContactPoint",
+      "telephone": "+41-44-2581000",
+      "contactType": "customer service"
+     }
+    ],
+    "sameAs": [
+     "https://www.facebook.com/nzz",
+     "https://www.twitter.com/nzz",
+     "https://www.youtube.com/channel/UCK1aTcR0AckQRLTlK0c4fuQ",
+     "https://www.linkedin.com/company/neue-zurcher-zeitung",
+     "https://www.instagram.com/nzz/",
+     "https://de.wikipedia.org/wiki/Neue_Z%C3%BCrcher_Zeitung",
+     "https://www.wikidata.org/wiki/Q658945",
+     "https://plus.google.com/+nzz/",
+     "http://www.freebase.com/m/041b43"
+    ],
+    "masthead": "https://www.nzz.ch/impressum/impressum-ld.148422",
+    "foundingDate": "1780"
+   },
+   "description": "For almost ten years, Ludwig Berger has been hiking with microphones to the Morteratsch Glacier in the Engadine. He wants to document what is in danger of disappearing.",
+   "isAccessibleForFree": false,
+   "articleSection": "Folio",
+   "hasPart": {
+    "@type": "WebPageElement",
+    "isAccessibleForFree": false,
+    "cssSelector": ".nzzinteraction"
+   },
+   "image": {
+    "@type": "ImageObject",
+    "url": "https://img-msp-prod.nzz.ch/2025/08/12/c09d8e57-6e18-4d9e-980c-7bad4bd2fe43.jpg?width=1200&height=675&fit=bounds&quality=75&auto=webp&crop=3543,1993,x0,y167&wmark=nzz",
+    "width": 1200,
+    "height": 675
+   },
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Foreign Authors Folio"
+    }
+   ],
+   "inLanguage": "de"
+  }
+ ],
+ "bT": {
+  "standard": {
+   "Tags": [
+    "/folio/der-morteratschgletscher-schmilzt-ludwig-berger-haelt-fest-wie-das-klingt-ld.1896852",
+    "classification=default",
+    "relevance=default",
+    "layout=longformvisual",
+    "owner=folio",
+    "product=nzz",
+    "doctype=article",
+    "pagetype=article",
+    "ldid=ld.1896852",
+    "channel=Folio"
+   ],
+   "ContentCreated": "2025-08-29T03:30:00.000Z",
+   "ContentAuthor": "Theresa Tröndle (Text), Bruno Augsburger (Bilder)",
+   "ContentSection": "Folio",
+   "ContentIsNative": true
+  },
+  "custom": {
+   "product": "nzz",
+   "docType": "article",
+   "pageType": "article",
+   "layout": "longformvisual",
+   "ldId": "ld.1896852",
+   "channel": "Folio",
+   "heading": "Wie es klingt, wenn ein Gletscher stirbt",
+   "language": "en-US"
+  }
+ },
+ "webviewMetadata": {},
+ "cacheTime": 3600
+}

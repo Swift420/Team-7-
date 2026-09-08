@@ -1,0 +1,2048 @@
+{
+ "content": [
+  {
+   "identifier": "header",
+   "id": "doc-1iv8g8mov0",
+   "content": {
+    "title": "Upward debt, down taxes and social benefits: what the «Big Beautiful Bill» means for Americans",
+    "lead": "In the end, they were subservient to Trump once again: The Republicans have pushed a massive reform package through Congress. Who wins and who loses?",
+    "authorline": "Marie-Astrid Langer, San Francisco",
+    "author": "Marie-Astrid Langer, San Francisco"
+   },
+   "containers": {
+    "authors": []
+   },
+   "prevElement": "",
+   "nextElement": "image",
+   "firstContentElement": true
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1iv8g8mov1",
+   "content": {
+    "image": {
+     "author": "Illustration by Simon Tanner / NZZ",
+     "caption": "",
+     "originalUrl": "/2025/07/03/f2bb47a0-c13b-4e38-b758-04db74f67491.jpeg?width=1024",
+     "width": 4500,
+     "height": 3000,
+     "imageService": "fastly"
+    },
+    "author": "Illustration by Simon Tanner / NZZ",
+    "caption": ""
+   },
+   "styles": {
+    "fullwidth-widget": "widget--containerwidth"
+   },
+   "prevElement": "header",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iv8g8mp00",
+   "content": {
+    "text": "Despite all internal party concerns and criticism, Republicans in the House of Representatives passed the «Big Beautiful Bill» on Thursday afternoon (local time). Just in time for Independence Day on Friday, the «BBB,» as the reform is known in Washington circles, landed on the president's desk—just as he had hoped. Ultimately, the fear of publicly incurring the president's wrath likely prevailed."
+   },
+   "data": {},
+   "prevElement": "image",
+   "nextElement": "barrier"
+  },
+  {
+   "id": "doc-e04cfd20",
+   "identifier": "barrier",
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iv8g8mp01",
+   "content": {
+    "text": "The <a target=\"_blank\" href=\"https://www.budget.senate.gov/imo/media/doc/the_one_big_beautiful_bill_act.pdf\">mammoth 940-page bill</a> affects countless areas of life and is the most significant achievement to date of the Republican Party with its trifecta – holding both houses of Congress and the White House. Above all, it is one of the most far-reaching and expensive legislative packages passed by Congress in recent years."
+   },
+   "paidContent": true,
+   "prevElement": "barrier",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1iv8g8mp02",
+   "content": {
+    "title": "What are the most important changes?",
+    "id": "subtitle-was-sind-die-wichtigsten-nderungen"
+   },
+   "styles": {
+    "subtitle-type": "subtitle--chapter"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iv8g8mp03",
+   "content": {
+    "text": "With this massive reform package, Republicans are fulfilling Trump's biggest campaign promises in one fell swoop: his 2017 tax cuts, which would otherwise have expired at the end of the year, are enshrined in law; he receives significantly more funding for the military, border security, and protection against illegal immigration; and taxes on tips and overtime are eliminated."
+   },
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iv8g8mp04",
+   "content": {
+    "text": "To finance this, the government is drastically cutting social programs, particularly Medicaid and food assistance (see below). However, this is insufficient to cover the costs, so the US is significantly raising its debt ceiling by another $5.1 trillion to more than $41 trillion. As a result, tax revenues are likely to decline for decades to come."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "datawrapper"
+  },
+  {
+   "identifier": "datawrapper",
+   "id": "doc-V6ewZExYxO",
+   "content": {
+    "html": {
+     "service": "free-html",
+     "params": {
+      "embedCode": "<iframe title=\"Die  US-Staatsschulden sind gestiegen, deshalb muss die Schuldenobergrenze ausgesetzt oder erhöht werden\" aria-label=\"Interactive line chart\" id=\"datawrapper-chart-sLxiL\" src=\"https://datawrapper.dwcdn.net/sLxiL/2/\" scrolling=\"no\" frameborder=\"0\" style=\"width: 0; min-width: 100% !important; border: none;\" height=\"750\" data-external=\"1\"></iframe><script type=\"text/javascript\">!function(){\"use strict\";window.addEventListener(\"message\",function(a){if(void 0!==a.data[\"datawrapper-height\"]){var e=document.querySelectorAll(\"iframe\");for(var t in a.data[\"datawrapper-height\"])for(var r,i=0;r=e[i];i++)if(r.contentWindow===a.source){var d=a.data[\"datawrapper-height\"][t]+\"px\";r.style.height=d}}})}();\n</script>"
+     },
+     "resolvedValue": {
+      "html": "<iframe title=\"Die  US-Staatsschulden sind gestiegen, deshalb muss die Schuldenobergrenze ausgesetzt oder erhöht werden\" aria-label=\"Interactive line chart\" id=\"datawrapper-chart-sLxiL\" src=\"https://datawrapper.dwcdn.net/sLxiL/2/\" scrolling=\"no\" frameborder=\"0\" style=\"width: 0; min-width: 100% !important; border: none;\" height=\"750\" data-external=\"1\"></iframe><script type=\"text/javascript\">!function(){\"use strict\";window.addEventListener(\"message\",function(a){if(void 0!==a.data[\"datawrapper-height\"]){var e=document.querySelectorAll(\"iframe\");for(var t in a.data[\"datawrapper-height\"])for(var r,i=0;r=e[i];i++)if(r.contentWindow===a.source){var d=a.data[\"datawrapper-height\"][t]+\"px\";r.style.height=d}}})}();\n</script>"
+     }
+    }
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iv8g8mp06",
+   "content": {
+    "text": "What is particularly noteworthy is the political calculation that went into the timing of the reforms: The most generous tax cuts are being granted this year. The most painful cuts, however, will only take effect after the 2026 midterm elections, when the future control of both houses of Congress is at stake. With this clever tactic, Republicans hope to temporarily defuse voter backlash against the cuts."
+   },
+   "paidContent": true,
+   "prevElement": "datawrapper",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1iv8g8mp08",
+   "content": {
+    "title": "Which taxes are changing?",
+    "id": "subtitle-welche-steuern-ndern-sich"
+   },
+   "styles": {
+    "subtitle-type": "subtitle--chapter"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iv8g8mp09",
+   "content": {
+    "text": "During his first term, Trump pushed through several tax cuts, including the introduction of lower income tax brackets. These changes have now been permanently enshrined in law. While this will result in significantly lower revenues for the government, from the taxpayers' perspective it simply maintains the status quo."
+   },
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iv8g8mp010",
+   "content": {
+    "text": "That's why Trump is now handing out new tax breaks to practically all citizens. 84 percent of all households in the US will have to pay less tax next year, <a target=\"_blank\" href=\"https://taxpolicycenter.org/taxvox/house-tax-cuts-would-benefit-most-tilt-highest-income-households\">according to calculations by the Tax Policy Center think tank</a> ."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iv92audj1",
+   "content": {
+    "text": "Some examples: Tips and overtime pay will be largely tax-exempt in the future. Retirees will receive a $6,000 higher tax-free allowance. Families can already deduct a slightly higher amount from their tax liability starting this tax year, specifically $2,200 per child (the US does not have a child benefit)."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iv8g8mp011",
+   "content": {
+    "text": "Patriotism is also being encouraged: Anyone who buys a car made in America can deduct up to $10,000 in interest on their car loan from their tax liability. Buying vehicles on credit is very common in the US. Another perk: Americans born between 2025 and 2028 will receive a $1,000 «Trump account» from the government, in which their parents can then save money tax-free. Several tax breaks for businesses will also be permanently enshrined in law."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iv8g8mp013",
+   "content": {
+    "text": "In the future, Americans will be able to claim a significantly larger portion of their state taxes against their federal income tax ($40,000 instead of the current $10,000). And the inheritance and gift tax exemption will increase from nearly $14 million to $15 million for single individuals and double that amount for married couples. Only a very small percentage of Americans will benefit from this."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1iv8g8mp11",
+   "content": {
+    "title": "Who are the winners?",
+    "id": "subtitle-wer-sind-die-gewinner"
+   },
+   "styles": {
+    "subtitle-type": "subtitle--chapter"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iv8g8mp12",
+   "content": {
+    "text": "Even though Trump is handing out gifts to everyone, the biggest ones are clearly going to the wealthy. According to an <a target=\"_blank\" href=\"https://taxpolicycenter.org/model-estimates/T25-0177\">analysis</a> by the nonpartisan think tank Tax Policy Center, those income brackets that benefit most from the changes are the top 20 percent of earners (earning $217,000 or more). Their tax burden will decrease by an average of $12,500 – equivalent to 3.4 percent of their after-tax income."
+   },
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iv923d841",
+   "content": {
+    "text": "The bottom 20 percent, who earn $35,000 or less annually, only benefit from the reforms by $150 – equivalent to 0.8 percent of their previous after-tax income."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iv92gtdf0",
+   "content": {
+    "text": "In other words, 60 percent of the tax cuts go to the top 20 percent of households, and more than a third to those earning $460,000 or more. Other independent think tanks, such as the <a target=\"_blank\" href=\"https://budgetlab.yale.edu/research/distributional-effects-selected-provisions-house-and-senate-reconciliation-bills\">Yale Budget Lab</a> , also conclude in their analyses that the wealthiest in the country will benefit most from the reform."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "q-embed"
+  },
+  {
+   "identifier": "q-embed",
+   "id": "doc-1iv8g8mp13",
+   "content": {
+    "q-embed": {
+     "service": "q-tool",
+     "params": {
+      "id": "9639ea59068c1c3ecc0f43d4d2100606",
+      "conf": {},
+      "toolConfig": {},
+      "toolRuntimeConfig": {
+       "size": {
+        "width": [
+         {
+          "value": 100,
+          "comparison": ">"
+         }
+        ]
+       },
+       "displayOptions": {
+        "hideTitle": false,
+        "hideSubtitle": false,
+        "hideFooter": false,
+        "hideAcronym": false,
+        "size": "basic"
+       },
+       "locale": "en_US"
+      },
+      "size": "content"
+     },
+     "resolvedValue": {}
+    },
+    "html": "      <div        class=\"q-chart-container\"        id=\"q_chart_9639ea59068c1c3ecc0f43d4d2100606_q82953641a4974a02a8b85243df424ff2_container\"        data-q-item-id=\"9639ea59068c1c3ecc0f43d4d2100606\"        data-q-request-id=\"7a7755b46f97484aa1dfde84d219900eb6b9b02a\"      ></div>",
+    "stylesheets": [
+     {
+      "type": "remote",
+      "content": "https://service.sophie.nzz.ch/bundle/sophie-color%23master,sophie-font%23master,sophie-legend%23master[icon-label],sophie-q%23master,sophie-viz-color%23master.css"
+     },
+     {
+      "type": "inline",
+      "content": "  @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff) format(\"woff\");  }    @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff) format(\"woff\");    unicode-range: U+0020-00FF,U+2005,U+2082;  }      "
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/css-theme-layer/nzz-0.2.0.css"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/chart/q-chart-1.2.6.css"
+     }
+    ],
+    "scripts": [
+     {
+      "type": "inline",
+      "content": "function qTrackingBootstrap(t,e,n){if(window.digitalData&&window.digitalData.component&&window.digitalData.component.push){window.digitalData.component.push(t),window.digitalData.event&&window.digitalData.event.length||(window.digitalData.event=[]);var i=new Date,a=e;a.eventInfo.timeStamp=i.toISOString(),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\");var o=document.querySelectorAll(\"[data-q-request-id='\"+n+\"']\");[].forEach.call(o,function(t){t.addEventListener(\"q-tracking-event\",function(t){var e=new Date;(a=JSON.parse(JSON.stringify(a))).eventInfo.timeStamp=e.toISOString(),a.eventInfo=Object.assign(a.eventInfo,t.detail.eventInfo),a.category=Object.assign(a.category,t.detail.category),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\")},!1)})}};qTrackingBootstrap({\"componentInfo\":{\"componentName\":\"Q\",\"componentID\":\"9639ea59068c1c3ecc0f43d4d2100606\"},\"category\":{\"componentType\":\"storytelling\",\"componentSubType1\":\"Q graphic\",\"componentSubType2\":\"chart\"}},{\"eventInfo\":{\"eventName\":\"Storytelling Interaction\",\"eventAction\":\"load\",\"type\":\"story\",\"componentName\":\"Q\",\"eventNonInteractive\":true,\"componentID\":\"9639ea59068c1c3ecc0f43d4d2100606\"},\"category\":{\"primaryCategory\":\"storytelling\",\"subCategory1\":\"Q graphic\",\"subCategory2\":\"chart\"}},\"7a7755b46f97484aa1dfde84d219900eb6b9b02a\")"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/chart/q-chart-1.2.6.js"
+     },
+     {
+      "type": "inline",
+      "content": "      (function () {        function initialize() {          const target = document.querySelector('#q_chart_9639ea59068c1c3ecc0f43d4d2100606_q82953641a4974a02a8b85243df424ff2_container');          if (!target) return;          target.innerHTML = '';          const qdoc = {\"_id\":\"9639ea59068c1c3ecc0f43d4d2100606\",\"allowDownloadData\":false,\"title\":\"High earners benefit more\",\"subtitle\":\"Percentage change in income after taxes\",\"publication\":\"nzz\",\"acronym\":\"eik.\",\"data\":[[\"income\",\"Value\"],[\"up to $34,600\",\"0.8\"],[\"34,600–66,800\",\"1.6\"],[\"66,800–119,200\",\"2.3\"],[\"119,200–217,100\",\"2.6\"],[\"over 217,100\",\"3.4\"]],\"sources\":[{\"text\":\"Tax Policy Center\",\"link\":{\"url\":\"https://taxpolicycenter.org/model-estimates/T25-0220\"}}],\"events\":[],\"options\":{\"annotations\":{\"diff\":false,\"min\":false,\"max\":true},\"areaChartOptions\":{\"areaInterpolation\":\"linear\",\"stackType\":\"zero\"},\"arrowOptions\":{\"colorScheme\":0,\"invertColorScheme\":false},\"barOptions\":{\"isBarChart\":false,\"forceBarsOnSmall\":false},\"chartType\":\"Dotplot\",\"colorOverwritesRows\":[],\"colorOverwritesSeries\":[],\"dateSeriesOptions\":{\"interval\":\"auto\",\"labels\":\"many\",\"prognosisStart\":null},\"dotplotOptions\":{\"connectDots\":false,\"maxValue\":4},\"hideAxisLabel\":true,\"highlightDataRows\":[],\"highlightDataSeries\":[],\"lineChartOptions\":{\"yScaleType\":\"linear\",\"reverseYScale\":false,\"lineInterpolation\":\"linear\",\"isStockChart\":false},\"largeNumbers\":{\"divideBy\":0}},\"updatedDate\":\"2025-07-04T06:15:07.383Z\"};          const toolRuntimeConfig = {\"displayOptions\":{\"hideTitle\":false,\"hideSubtitle\":false,\"hideFooter\":false,\"hideAcronym\":false,\"size\":\"basic\"},\"size\":{\"width\":[{\"value\":100,\"comparison\":\">\"}]},\"locale\":\"en-US\"};          const toolSettings = {\"qItemInstanceId\":\"q_chart_9639ea59068c1c3ecc0f43d4d2100606_q82953641a4974a02a8b85243df424ff2\"};          let attempts = 0;          const maxAttempts = 100;          const checkAndInitialize = setInterval(() => {            if (window.qChart) {              clearInterval(checkAndInitialize);              new window.qChart({ target: target, props: {                qdoc: qdoc,                toolSettings: toolSettings,                toolRuntimeConfig: toolRuntimeConfig              } });            } else {              attempts++;              if (attempts >= maxAttempts) {                clearInterval(checkAndInitialize);                console.error('Failed to initialize qChart after 30 seconds');              }            }          }, 300);        }        if (document.body.classList.contains('pagedone')) {          initialize();        } else {          window.addEventListener('pagedone', initialize);        }      })();    "
+     }
+    ]
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iv8g8mp14",
+   "content": {
+    "text": "These calculations do not yet include the additional income losses that low-income earners face due to cuts in Medicaid health insurance and food stamps."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "q-embed",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iv98a30v0",
+   "content": {
+    "text": "How much a taxpayer benefits depends heavily on where they live, according to an <a target=\"_blank\" href=\"https://itep.org/how-much-do-the-top-1-percent-in-each-state-get-from-the-senate-tax-bill/\">analysis</a> by the Institute on Taxation and Economic Policy. Generally speaking, already wealthy families in conservative states that already tax the wealthy sparingly benefit the most. In particular, the wealthiest households in Wyoming, South Dakota, and Texas are now saving more than $100,000 in taxes thanks to the «Big Beautiful Bill.»"
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "q-embed"
+  },
+  {
+   "identifier": "q-embed",
+   "id": "doc-1iv9mck0p0",
+   "content": {
+    "q-embed": {
+     "service": "q-tool",
+     "params": {
+      "id": "9639ea59068c1c3ecc0f43d4d25f9009",
+      "conf": {},
+      "toolConfig": {},
+      "toolRuntimeConfig": {
+       "size": {
+        "width": [
+         {
+          "value": 100,
+          "comparison": ">"
+         }
+        ]
+       },
+       "displayOptions": {
+        "hideTitle": false,
+        "hideSubtitle": false,
+        "hideFooter": false,
+        "hideAcronym": false
+       },
+       "locale": "en_US"
+      },
+      "size": "content"
+     },
+     "resolvedValue": {}
+    },
+    "html": "      <div        class=\"q-choropleth-container\"        id=\"q_choropleth_9639ea59068c1c3ecc0f43d4d25f9009_q999237d116484acea4132619e19551cf_container\"        data-q-item-id=\"9639ea59068c1c3ecc0f43d4d25f9009\"        data-q-request-id=\"0b7661a48796e0944a953cab89b154939d08ad69\"      ></div>",
+    "stylesheets": [
+     {
+      "type": "remote",
+      "content": "https://service.sophie.nzz.ch/bundle/sophie-color%23master,sophie-font%23master,sophie-legend%23master[icon-label],sophie-q%23master,sophie-viz-color%23master.css"
+     },
+     {
+      "type": "inline",
+      "content": "  @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff) format(\"woff\");  }    @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff) format(\"woff\");    unicode-range: U+0020-00FF,U+2005,U+2082;  }      "
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/css-theme-layer/nzz-0.2.0.css"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/choropleth/q-choropleth-1.2.6.css"
+     }
+    ],
+    "scripts": [
+     {
+      "type": "inline",
+      "content": "function qTrackingBootstrap(t,e,n){if(window.digitalData&&window.digitalData.component&&window.digitalData.component.push){window.digitalData.component.push(t),window.digitalData.event&&window.digitalData.event.length||(window.digitalData.event=[]);var i=new Date,a=e;a.eventInfo.timeStamp=i.toISOString(),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\");var o=document.querySelectorAll(\"[data-q-request-id='\"+n+\"']\");[].forEach.call(o,function(t){t.addEventListener(\"q-tracking-event\",function(t){var e=new Date;(a=JSON.parse(JSON.stringify(a))).eventInfo.timeStamp=e.toISOString(),a.eventInfo=Object.assign(a.eventInfo,t.detail.eventInfo),a.category=Object.assign(a.category,t.detail.category),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\")},!1)})}};qTrackingBootstrap({\"componentInfo\":{\"componentName\":\"Q\",\"componentID\":\"9639ea59068c1c3ecc0f43d4d25f9009\"},\"category\":{\"componentType\":\"storytelling\",\"componentSubType1\":\"Q graphic\",\"componentSubType2\":\"choropleth\"}},{\"eventInfo\":{\"eventName\":\"Storytelling Interaction\",\"eventAction\":\"load\",\"type\":\"story\",\"componentName\":\"Q\",\"eventNonInteractive\":true,\"componentID\":\"9639ea59068c1c3ecc0f43d4d25f9009\"},\"category\":{\"primaryCategory\":\"storytelling\",\"subCategory1\":\"Q graphic\",\"subCategory2\":\"choropleth\"}},\"0b7661a48796e0944a953cab89b154939d08ad69\")"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/choropleth/q-choropleth-1.2.6.js"
+     },
+     {
+      "type": "inline",
+      "content": "      (function () {        function initialize() {          const target = document.querySelector('#q_choropleth_9639ea59068c1c3ecc0f43d4d25f9009_q999237d116484acea4132619e19551cf_container');          if (!target) return;          target.innerHTML = '';          const qdoc = {\"_id\":\"9639ea59068c1c3ecc0f43d4d25f9009\",\"publication\":\"nzz\",\"acronym\":\"lma.\",\"baseMap\":\"usa-states-geographic\",\"version\":\"2019-01-01T00:00:00.000Z\",\"data\":[[\"ID\",\"Value\"],[\"Alabama\",\"$60,001 to $80,000\"],[\"Alaska\",\"$80,001 to $100,000\"],[\"Arizona\",\"$60,001 to $80,000\"],[\"Arkansas\",\"$40,001 to $60,000\"],[\"California\",\"$0 to $40,000\"],[\"Colorado\",\"$60,001 to $80,000\"],[\"Connecticut\",\"$60,001 to $80,000\"],[\"Delaware\",\"$60,001 to $80,000\"],[\"District of Columbia\",\"$40,001 to $60,000\"],[\"Florida\",\"$80,001 to $100,000\"],[\"Georgia\",\"$60,001 to $80,000\"],[\"Hawaii\",\"$60,001 to $80,000\"],[\"Idaho\",\"$60,001 to $80,000\"],[\"Illinois\",\"$40,001 to $60,000\"],[\"Indiana\",\"$40,001 to $60,000\"],[\"Iowa\",\"$60,001 to $80,000\"],[\"Kansas\",\"$40,001 to $60,000\"],[\"Kentucky\",\"$40,001 to $60,000\"],[\"Louisiana\",\"$60,001 to $80,000\"],[\"Maine\",\"$0 to $40,000\"],[\"Maryland\",\"$40,001 to $60,000\"],[\"Massachusetts\",\"$80,001 to $100,000\"],[\"Michigan\",\"$40,001 to $60,000\"],[\"Minnesota\",\"$40,001 to $60,000\"],[\"Mississippi\",\"$60,001 to $80,000\"],[\"Missouri\",\"$40,001 to $60,000\"],[\"Montana\",\"$100,001 to $120,000\"],[\"Nebraska\",\"$80,001 to $100,000\"],[\"Nevada\",\"$100,001 to $120,000\"],[\"New Hampshire\",\"$40,001 to $60,000\"],[\"New Jersey\",\"$0 to $40,000\"],[\"New Mexico\",\"$0 to $40,000\"],[\"New York\",\"$40,001 to $60,000\"],[\"North Carolina\",\"$60,001 to $80,000\"],[\"North Dakota\",\"$60,001 to $80,000\"],[\"Ohio\",\"$60,001 to $80,000\"],[\"Oklahoma\",\"$60,001 to $80,000\"],[\"Oregon\",\"$40,001 to $60,000\"],[\"Pennsylvania\",\"$40,001 to $60,000\"],[\"Puerto Rico\",\"\"],[\"Rhode Island\",\"$40,001 to $60,000\"],[\"South Carolina\",\"$60,001 to $80,000\"],[\"South Dakota\",\"$100,001 to $120,000\"],[\"Tennessee\",\"$60,001 to $80,000\"],[\"Texas\",\"$100,001 to $120,000\"],[\"Utah\",\"$80,001 to $100,000\"],[\"Vermont\",\"$40,001 to $60,000\"],[\"Virginia\",\"$60,001 to $80,000\"],[\"Washington\",\"$80,001 to $100,000\"],[\"West Virginia\",\"$40,001 to $60,000\"],[\"Wisconsin\",\"$60,001 to $80,000\"],[\"Wyoming\",\"$100,001 to $120,000\"]],\"mapAnnotations\":[],\"sources\":[{\"text\":\"Institute on Taxation and Economic Policy\",\"link\":{\"url\":\"https://itep.org/how-much-do-the-top-1-percent-in-each-state-get-from-the-senate-tax-bill/\"}}],\"options\":{\"choroplethType\":\"categorical\",\"numericalOptions\":{\"noValuesOnMap\":false,\"labelLegend\":\"noLabel\",\"bucketType\":\"ckmeans\",\"numberBuckets\":5,\"scale\":\"sequential\",\"colorScheme\":\"one\",\"invertColorScheme\":false,\"colorOverwrites\":[]},\"categoricalOptions\":{\"valuesOnMap\":false,\"colorOverwrites\":[{\"color\":\"#e0d4b1\",\"textColor\":\"light\",\"position\":1},{\"color\":\"#dbb783\",\"textColor\":\"light\",\"position\":2},{\"color\":\"#d8975d\",\"textColor\":\"light\",\"position\":3},{\"color\":\"#d47340\",\"textColor\":\"light\",\"position\":4},{\"color\":\"#ce4731\",\"textColor\":\"light\",\"position\":5}],\"customCategoriesOrder\":[{\"category\":\"0 bis 40 000 $\"},{\"category\":\"40 001 bis 60 000 $\"},{\"category\":\"60 001 bis 80 000 $\"},{\"category\":\"80 001 bis 100 000 $\"},{\"category\":\"100 001 bis 120 000 $\"}]},\"hideBubbleMap\":false,\"hideMicroStates\":true},\"title\":\"Wealthy people in Texas benefit the most\",\"entityType\":\"name\",\"notes\":\"\",\"updatedDate\":\"2025-07-04T06:40:19.506Z\",\"thumbnail\":\"https://nzzqprod-4851.kxcdn.com/q-item-thumbnails/nzz/14eda1ba2ad93e88e291027589f496bc-thumbnail.jpeg\",\"subtitle\":\"Average savings for the top 1 percent of earners\"};          const toolRuntimeConfig = {\"displayOptions\":{\"hideTitle\":false,\"hideSubtitle\":false,\"hideFooter\":false,\"hideAcronym\":false},\"size\":{\"width\":[{\"value\":100,\"comparison\":\">\"}]},\"locale\":\"en-US\"};          const toolSettings = {\"qItemInstanceId\":\"q_choropleth_9639ea59068c1c3ecc0f43d4d25f9009_q999237d116484acea4132619e19551cf\",\"serverUrl\":\"https://q-server.nzz.ch\"};          let attempts = 0;          const maxAttempts = 100;          const checkAndInitialize = setInterval(() => {            if (window.qChoropleth) {              clearInterval(checkAndInitialize);              new window.qChoropleth({ target: target, props: {                qdoc: qdoc,                toolSettings: toolSettings,                toolRuntimeConfig: toolRuntimeConfig              } });            } else {              attempts++;              if (attempts >= maxAttempts) {                clearInterval(checkAndInitialize);                console.error('Failed to initialize qChoropleth after 30 seconds');              }            }          }, 300);        }        if (document.body.classList.contains('pagedone')) {          initialize();        } else {          window.addEventListener('pagedone', initialize);        }      })();    "
+     }
+    ]
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1iv8g8mp15",
+   "content": {
+    "title": "Who are the losers?",
+    "id": "subtitle-wer-sind-die-verlierer"
+   },
+   "styles": {
+    "subtitle-type": "subtitle--chapter"
+   },
+   "data": {},
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "q-embed",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iv8g8mp16",
+   "content": {
+    "text": "The losers in the reforms are the poorest Americans. Those who currently receive food stamps from the government—like 42 million families—or are covered by the government's Medicaid health insurance program will face stricter requirements in the future: more documentation, no automatic renewal of benefits, and stricter work requirements. For example, those with children over 14 will have to work 80 hours per month to remain eligible for benefits."
+   },
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iv9p5hf40",
+   "content": {
+    "text": "This will result in the lowest-income 10 percent of American households having $1,600 less per year in the future,<a target=\"_blank\" href=\"https://www.cbo.gov/system/files/2025-06/61387-Distributional-Effects.pdf\">as calculated by the Congressional Budget Office</a> – almost 4 percent of their annual income."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iv8g8mp18",
+   "content": {
+    "text": "Certain groups of foreigners also lose out as a result of the reform: refugees and asylum seekers are no longer entitled to food assistance, health insurance, and other government services. Furthermore, fees for things like filing asylum applications in the US, immigration hearings, and work permits are increasing."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iv8g8mp17",
+   "content": {
+    "text": "Those who work in the service industry but earn less in tips than can already be deducted as standard will not benefit from the changes brought about by the new «No tax on tips» rule."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iv8g8mp19",
+   "content": {
+    "text": "Private universities will also have to dig deeper into their pockets in the future: While they are tax-exempt, they pay taxes on their endowments, i.e., the donations accumulated over the years. These taxes are currently very low at 1.4 percent. Now, the rate for the wealthiest universities is rising to a hefty 8 percent. This will particularly affect wealthy institutions like Stanford, Yale, and Harvard, with which the government is already embroiled in dispute."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iv9497uo0",
+   "content": {
+    "text": "Students also face restrictions: The government loans they can take out for their studies will be capped at a lower amount. And loan repayments can no longer be temporarily suspended if someone becomes unemployed or falls into financial hardship."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iv8g8mp110",
+   "content": {
+    "text": "Renewable energy providers are also at a disadvantage: The tax break of over $7,500 for electric cars or the installation of solar panels and heat pumps will be partially eliminated in just a few weeks, and the tax benefits for companies will be phased out starting next year."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iv94f2dr0",
+   "content": {
+    "text": "However, the biggest losers are likely to be future generations: National debt in the USA will rise enormously in the next ten years, so today's tax breaks will come at the expense of tomorrow's taxpayers."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1iv8g8mp111",
+   "content": {
+    "title": "What will happen to the social programs?",
+    "id": "subtitle-was-passiert-mit-den-sozialprogrammen"
+   },
+   "styles": {
+    "subtitle-type": "subtitle--chapter"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iv8g8mp112",
+   "content": {
+    "text": "To finance the tax cuts, Republicans are slashing several social programs. First, they are attacking President Barack Obama's much-maligned healthcare reform: tax deductions that citizens could claim for their health insurance premiums under Obama's reform are now being eliminated."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iv936jaq0",
+   "content": {
+    "text": "Secondly, they are making it more difficult to claim food assistance: The work requirements and the documentation needed to participate in the nation's largest aid program, Snap, are being tightened. <a target=\"_blank\" href=\"https://onlinelibrary.wiley.com/doi/10.1111/ijsw.12665\">However, studies show</a> that the bureaucratic hurdles, in particular, are often too high for those in need to overcome—especially those with limited education. Critics believe this is precisely what Republicans intend: Medicaid and Snap will soon cost the state less because they are pushing eligible recipients out of the programs—not because they are uncovering widespread fraud."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iv9338171",
+   "content": {
+    "text": "Thirdly, the government's social program Medicaid is to be cut in particular: The aim is to save the impressive sum of 1 trillion dollars in the coming years."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iv8g8mp113",
+   "content": {
+    "text": "Medicaid, established in 1965 under President Lyndon Johnson as part of his major social reform, remains the largest health insurer in the United States. Nearly 78 million Americans – roughly one in four – are insured through it: the homeless and other vulnerable people, people with disabilities, pregnant women, and a large number of children. In fiscal year 2022, children accounted for <a target=\"_blank\" href=\"https://www.pewresearch.org/short-reads/2025/06/24/what-the-data-says-about-medicaid/sr_25-06-24_medicaid_3/\">36 percent of Medicaid recipients</a> ."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "q-embed"
+  },
+  {
+   "identifier": "q-embed",
+   "id": "doc-1iv96cugt0",
+   "content": {
+    "q-embed": {
+     "service": "q-tool",
+     "params": {
+      "id": "9639ea59068c1c3ecc0f43d4d25d4c47",
+      "conf": {},
+      "toolConfig": {},
+      "toolRuntimeConfig": {
+       "size": {
+        "width": [
+         {
+          "value": 100,
+          "comparison": ">"
+         }
+        ]
+       },
+       "displayOptions": {
+        "hideTitle": false,
+        "hideSubtitle": false,
+        "hideFooter": false,
+        "hideAcronym": false
+       },
+       "locale": "en_US"
+      },
+      "size": "content"
+     },
+     "resolvedValue": {}
+    },
+    "html": "      <div        class=\"q-choropleth-container\"        id=\"q_choropleth_9639ea59068c1c3ecc0f43d4d25d4c47_q5f411adc1e304c00b295823fcb3a038c_container\"        data-q-item-id=\"9639ea59068c1c3ecc0f43d4d25d4c47\"        data-q-request-id=\"09911ab14b5b18e6b52417bf9d6a76f8d70155ac\"      ></div>",
+    "stylesheets": [
+     {
+      "type": "remote",
+      "content": "https://service.sophie.nzz.ch/bundle/sophie-color%23master,sophie-font%23master,sophie-legend%23master[icon-label],sophie-q%23master,sophie-viz-color%23master.css"
+     },
+     {
+      "type": "inline",
+      "content": "  @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff) format(\"woff\");  }    @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff) format(\"woff\");    unicode-range: U+0020-00FF,U+2005,U+2082;  }      "
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/css-theme-layer/nzz-0.2.0.css"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/choropleth/q-choropleth-1.2.6.css"
+     }
+    ],
+    "scripts": [
+     {
+      "type": "inline",
+      "content": "function qTrackingBootstrap(t,e,n){if(window.digitalData&&window.digitalData.component&&window.digitalData.component.push){window.digitalData.component.push(t),window.digitalData.event&&window.digitalData.event.length||(window.digitalData.event=[]);var i=new Date,a=e;a.eventInfo.timeStamp=i.toISOString(),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\");var o=document.querySelectorAll(\"[data-q-request-id='\"+n+\"']\");[].forEach.call(o,function(t){t.addEventListener(\"q-tracking-event\",function(t){var e=new Date;(a=JSON.parse(JSON.stringify(a))).eventInfo.timeStamp=e.toISOString(),a.eventInfo=Object.assign(a.eventInfo,t.detail.eventInfo),a.category=Object.assign(a.category,t.detail.category),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\")},!1)})}};qTrackingBootstrap({\"componentInfo\":{\"componentName\":\"Q\",\"componentID\":\"9639ea59068c1c3ecc0f43d4d25d4c47\"},\"category\":{\"componentType\":\"storytelling\",\"componentSubType1\":\"Q graphic\",\"componentSubType2\":\"choropleth\"}},{\"eventInfo\":{\"eventName\":\"Storytelling Interaction\",\"eventAction\":\"load\",\"type\":\"story\",\"componentName\":\"Q\",\"eventNonInteractive\":true,\"componentID\":\"9639ea59068c1c3ecc0f43d4d25d4c47\"},\"category\":{\"primaryCategory\":\"storytelling\",\"subCategory1\":\"Q graphic\",\"subCategory2\":\"choropleth\"}},\"09911ab14b5b18e6b52417bf9d6a76f8d70155ac\")"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/choropleth/q-choropleth-1.2.6.js"
+     },
+     {
+      "type": "inline",
+      "content": "      (function () {        function initialize() {          const target = document.querySelector('#q_choropleth_9639ea59068c1c3ecc0f43d4d25d4c47_q5f411adc1e304c00b295823fcb3a038c_container');          if (!target) return;          target.innerHTML = '';          const qdoc = {\"_id\":\"9639ea59068c1c3ecc0f43d4d25d4c47\",\"publication\":\"nzz\",\"acronym\":\"lma.\",\"baseMap\":\"usa-states-geographic\",\"version\":\"2019-01-01T00:00:00.000Z\",\"data\":[[\"ID\",\"Value\"],[\"Alabama\",\"<15 percent\"],[\"Alaska\",\"30.1 to 35 percent\"],[\"Arizona\",\"20.1 to 25 percent\"],[\"Arkansas\",\"20.1 to 25 percent\"],[\"California\",\"30.1 to 35 percent\"],[\"Colorado\",\"<15 percent\"],[\"Connecticut\",\"20.1 to 25 percent\"],[\"Delaware\",\"20.1 to 25 percent\"],[\"District of Columbia\",\"30.1 to 35 percent\"],[\"Florida\",\"15.1 to 20 percent\"],[\"Georgia\",\"15.1 to 20 percent\"],[\"Hawaii\",\"25.1 to 30 percent\"],[\"Idaho\",\"<15 percent\"],[\"Illinois\",\"20.1 to 25 percent\"],[\"Indiana\",\"20.1 to 25 percent\"],[\"Iowa\",\"15.1 to 20 percent\"],[\"Kansas\",\"<15 percent\"],[\"Kentucky\",\"25.1 to 30 percent\"],[\"Louisiana\",\"25.1 to 30 percent\"],[\"Maine\",\"20.1 to 25 percent\"],[\"Maryland\",\"20.1 to 25 percent\"],[\"Massachusetts\",\"20.1 to 25 percent\"],[\"Michigan\",\"20.1 to 25 percent\"],[\"Minnesota\",\"15.1 to 20 percent\"],[\"Mississippi\",\"15.1 to 20 percent\"],[\"Missouri\",\"15.1 to 20 percent\"],[\"Montana\",\"15.1 to 20 percent\"],[\"Nebraska\",\"15.1 to 20 percent\"],[\"Nevada\",\"20.1 to 25 percent\"],[\"New Hampshire\",\"<15 percent\"],[\"New Jersey\",\"15.1 to 20 percent\"],[\"New Mexico\",\"30.1 to 35 percent\"],[\"New York\",\"25.1 to 30 percent\"],[\"North Carolina\",\"20.1 to 25 percent\"],[\"North Dakota\",\"<15 percent\"],[\"Ohio\",\"20.1 to 25 percent\"],[\"Oklahoma\",\"20.1 to 25 percent\"],[\"Oregon\",\"25.1 to 30 percent\"],[\"Pennsylvania\",\"20.1 to 25 percent\"],[\"Puerto Rico\",\"\"],[\"Rhode Island\",\"20.1 to 25 percent\"],[\"South Carolina\",\"15.1 to 20 percent\"],[\"South Dakota\",\"<15 percent\"],[\"Tennessee\",\"15.1 to 20 percent\"],[\"Texas\",\"<15 percent\"],[\"Utah\",\"<15 percent\"],[\"Vermont\",\"20.1 to 25 percent\"],[\"Virginia\",\"15.1 to 20 percent\"],[\"Washington\",\"20.1 to 25 percent\"],[\"West Virginia\",\"25.1 to 30 percent\"],[\"Wisconsin\",\"15.1 to 20 percent\"],[\"Wyoming\",\"<15 percent\"]],\"mapAnnotations\":[],\"sources\":[{\"text\":\"Pew Research\",\"link\":{\"url\":\"https://www.pewresearch.org/short-reads/2025/06/24/what-the-data-says-about-medicaid/sr_25-06-24_medicaid_2/\"}}],\"options\":{\"choroplethType\":\"categorical\",\"numericalOptions\":{\"noValuesOnMap\":false,\"labelLegend\":\"noLabel\",\"bucketType\":\"ckmeans\",\"numberBuckets\":5,\"scale\":\"sequential\",\"colorScheme\":\"one\",\"invertColorScheme\":false,\"colorOverwrites\":[]},\"categoricalOptions\":{\"valuesOnMap\":false,\"colorOverwrites\":[{\"textColor\":\"light\",\"color\":\"#cad8d4\",\"position\":1},{\"textColor\":\"light\",\"color\":\"#95bbbc\",\"position\":2},{\"textColor\":\"light\",\"color\":\"#689aab\",\"position\":3},{\"textColor\":\"light\",\"color\":\"#47769c\",\"position\":4},{\"textColor\":\"light\",\"color\":\"#374e8e\",\"position\":5}],\"customCategoriesOrder\":[{\"category\":\"<15 Prozent\"},{\"category\":\"15,1 bis 20 Prozent\"},{\"category\":\"20,1 bis 25 Prozent\"},{\"category\":\"25,1 bis 30 Prozent\"},{\"category\":\"30,1 bis 35 Prozent\"}]},\"hideBubbleMap\":false,\"hideMicroStates\":true,\"hideNullValuesLegend\":true},\"title\":\"Medicaid coverage varies greatly across the country\",\"entityType\":\"name\",\"notes\":\"As of January 2025\",\"updatedDate\":\"2025-07-04T06:49:58.113Z\",\"thumbnail\":\"https://nzzqprod-4851.kxcdn.com/q-item-thumbnails/nzz/14eda1ba2ad93e88e291027589f496bc-thumbnail.jpeg\",\"subtitle\":\"Percentage of the population covered by Medicaid health insurance\"};          const toolRuntimeConfig = {\"displayOptions\":{\"hideTitle\":false,\"hideSubtitle\":false,\"hideFooter\":false,\"hideAcronym\":false},\"size\":{\"width\":[{\"value\":100,\"comparison\":\">\"}]},\"locale\":\"en-US\"};          const toolSettings = {\"qItemInstanceId\":\"q_choropleth_9639ea59068c1c3ecc0f43d4d25d4c47_q5f411adc1e304c00b295823fcb3a038c\",\"serverUrl\":\"https://q-server.nzz.ch\"};          let attempts = 0;          const maxAttempts = 100;          const checkAndInitialize = setInterval(() => {            if (window.qChoropleth) {              clearInterval(checkAndInitialize);              new window.qChoropleth({ target: target, props: {                qdoc: qdoc,                toolSettings: toolSettings,                toolRuntimeConfig: toolRuntimeConfig              } });            } else {              attempts++;              if (attempts >= maxAttempts) {                clearInterval(checkAndInitialize);                console.error('Failed to initialize qChoropleth after 30 seconds');              }            }          }, 300);        }        if (document.body.classList.contains('pagedone')) {          initialize();        } else {          window.addEventListener('pagedone', initialize);        }      })();    "
+     }
+    ]
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iv91qobe1",
+   "content": {
+    "text": "Under President Barack Obama's 2010 healthcare reform, eligibility was expanded so that virtually all low-income earners under 65 now receive health insurance through Medicaid. This can include employees in the restaurant and hospitality industry who are not covered by their employer's health insurance. Some states, such as California and New York, also offer Medicaid to undocumented immigrants; Washington plans to financially penalize them for doing so in the future."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "q-embed",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iv8g8mp114",
+   "content": {
+    "text": "President Trump <a target=\"_blank\" href=\"https://abcnews.go.com/Politics/trump-medicaid-republican-bill-cut-benefits/story?id=121756481\">assured</a> voters during his election campaign and <a target=\"_blank\" href=\"https://www.whitehouse.gov/articles/2025/03/fact-check-president-trump-will-always-protect-social-security-medicare/\">in recent interviews</a> that he only wanted to curb Medicaid abuse and fraud. However, experts predict that 12 million Americans—one in six Medicaid-insured individuals—will lose this coverage by 2034. Currently, approximately 8 percent of Americans lack health insurance."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1iv90o89r0",
+   "content": {
+    "title": "What do Americans think about the law?",
+    "id": "subtitle-was-denken-die-amerikaner-ber-das-gesetz"
+   },
+   "styles": {
+    "subtitle-type": "subtitle--chapter"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iv90oel90",
+   "content": {
+    "text": "President Trump has been praising the proposed legislation for weeks as a victory for the American people. However, in virtually all polls, a majority of citizens view it critically."
+   },
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "q-embed"
+  },
+  {
+   "identifier": "q-embed",
+   "id": "doc-1iv9157160",
+   "content": {
+    "q-embed": {
+     "service": "q-tool",
+     "params": {
+      "id": "e04b3f8213be4c15620cb6c2d3461bfa",
+      "conf": {},
+      "toolConfig": {},
+      "toolRuntimeConfig": {
+       "size": {
+        "width": [
+         {
+          "value": 100,
+          "comparison": ">"
+         }
+        ]
+       },
+       "displayOptions": {
+        "hideTitle": false,
+        "hideSubtitle": false,
+        "hideFooter": false,
+        "hideAcronym": false,
+        "size": "basic"
+       },
+       "locale": "en_US"
+      },
+      "size": "content"
+     },
+     "resolvedValue": {}
+    },
+    "html": "      <div        class=\"q-chart-container\"        id=\"q_chart_e04b3f8213be4c15620cb6c2d3461bfa_q8423a10f8c334a2d8354d53d1400ff7b_container\"        data-q-item-id=\"e04b3f8213be4c15620cb6c2d3461bfa\"        data-q-request-id=\"52bc0eea0c8f9b3f3be83cd35ccab8f788e2f52e\"      ></div>",
+    "stylesheets": [
+     {
+      "type": "remote",
+      "content": "https://service.sophie.nzz.ch/bundle/sophie-color%23master,sophie-font%23master,sophie-legend%23master[icon-label],sophie-q%23master,sophie-viz-color%23master.css"
+     },
+     {
+      "type": "inline",
+      "content": "  @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff) format(\"woff\");  }    @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff) format(\"woff\");    unicode-range: U+0020-00FF,U+2005,U+2082;  }      "
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/css-theme-layer/nzz-0.2.0.css"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/chart/q-chart-1.2.6.css"
+     }
+    ],
+    "scripts": [
+     {
+      "type": "inline",
+      "content": "function qTrackingBootstrap(t,e,n){if(window.digitalData&&window.digitalData.component&&window.digitalData.component.push){window.digitalData.component.push(t),window.digitalData.event&&window.digitalData.event.length||(window.digitalData.event=[]);var i=new Date,a=e;a.eventInfo.timeStamp=i.toISOString(),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\");var o=document.querySelectorAll(\"[data-q-request-id='\"+n+\"']\");[].forEach.call(o,function(t){t.addEventListener(\"q-tracking-event\",function(t){var e=new Date;(a=JSON.parse(JSON.stringify(a))).eventInfo.timeStamp=e.toISOString(),a.eventInfo=Object.assign(a.eventInfo,t.detail.eventInfo),a.category=Object.assign(a.category,t.detail.category),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\")},!1)})}};qTrackingBootstrap({\"componentInfo\":{\"componentName\":\"Q\",\"componentID\":\"e04b3f8213be4c15620cb6c2d3461bfa\"},\"category\":{\"componentType\":\"storytelling\",\"componentSubType1\":\"Q graphic\",\"componentSubType2\":\"chart\"}},{\"eventInfo\":{\"eventName\":\"Storytelling Interaction\",\"eventAction\":\"load\",\"type\":\"story\",\"componentName\":\"Q\",\"eventNonInteractive\":true,\"componentID\":\"e04b3f8213be4c15620cb6c2d3461bfa\"},\"category\":{\"primaryCategory\":\"storytelling\",\"subCategory1\":\"Q graphic\",\"subCategory2\":\"chart\"}},\"52bc0eea0c8f9b3f3be83cd35ccab8f788e2f52e\")"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/chart/q-chart-1.2.6.js"
+     },
+     {
+      "type": "inline",
+      "content": "      (function () {        function initialize() {          const target = document.querySelector('#q_chart_e04b3f8213be4c15620cb6c2d3461bfa_q8423a10f8c334a2d8354d53d1400ff7b_container');          if (!target) return;          target.innerHTML = '';          const qdoc = {\"_id\":\"e04b3f8213be4c15620cb6c2d3461bfa\",\"allowDownloadData\":false,\"title\":\"The Americans overwhelmingly reject the reform package\",\"subtitle\":\"\",\"publication\":\"nzz\",\"acronym\":\"lma.\",\"data\":[[\"Opinion\",\"All voters\"],[\"Positive view\",\"35\"],[\"Negative view\",\"64\"]],\"sources\":[{\"text\":\"KFF\",\"link\":{\"url\":\"https://www.kff.org/medicaid/poll-finding/kff-health-tracking-poll-views-of-the-one-big-beautiful-bill/\"}}],\"events\":[],\"options\":{\"annotations\":{\"valuesOnBars\":true},\"areaChartOptions\":{\"areaInterpolation\":\"linear\",\"stackType\":\"zero\"},\"arrowOptions\":{\"colorScheme\":0,\"invertColorScheme\":false},\"barOptions\":{\"isBarChart\":true,\"forceBarsOnSmall\":false},\"chartType\":\"Bar\",\"colorOverwritesRows\":[{\"color\":\"#ce4631\",\"colorLight\":\"\",\"position\":2},{\"color\":\"\",\"colorLight\":\"\",\"position\":0}],\"colorOverwritesSeries\":[],\"dateSeriesOptions\":{\"interval\":\"auto\",\"labels\":\"many\",\"prognosisStart\":null},\"dotplotOptions\":{},\"hideAxisLabel\":true,\"highlightDataRows\":[],\"highlightDataSeries\":[],\"lineChartOptions\":{\"yScaleType\":\"linear\",\"reverseYScale\":false,\"lineInterpolation\":\"linear\",\"isStockChart\":false},\"largeNumbers\":{\"divideBy\":0}},\"updatedDate\":\"2025-07-04T06:40:11.222Z\",\"notes\":\"Survey from early June 2025, across party lines<br> 1321 people were surveyed. The results have a margin of error of ± 3 percentage points.\"};          const toolRuntimeConfig = {\"displayOptions\":{\"hideTitle\":false,\"hideSubtitle\":false,\"hideFooter\":false,\"hideAcronym\":false,\"size\":\"basic\"},\"size\":{\"width\":[{\"value\":100,\"comparison\":\">\"}]},\"locale\":\"en-US\"};          const toolSettings = {\"qItemInstanceId\":\"q_chart_e04b3f8213be4c15620cb6c2d3461bfa_q8423a10f8c334a2d8354d53d1400ff7b\"};          let attempts = 0;          const maxAttempts = 100;          const checkAndInitialize = setInterval(() => {            if (window.qChart) {              clearInterval(checkAndInitialize);              new window.qChart({ target: target, props: {                qdoc: qdoc,                toolSettings: toolSettings,                toolRuntimeConfig: toolRuntimeConfig              } });            } else {              attempts++;              if (attempts >= maxAttempts) {                clearInterval(checkAndInitialize);                console.error('Failed to initialize qChart after 30 seconds');              }            }          }, 300);        }        if (document.body.classList.contains('pagedone')) {          initialize();        } else {          window.addEventListener('pagedone', initialize);        }      })();    "
+     }
+    ]
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iv9158ul0",
+   "content": {
+    "text": "There are clear partisan differences: Democrats strongly oppose the reform, as do independents, while Republicans largely support it."
+   },
+   "paidContent": true,
+   "prevElement": "q-embed",
+   "nextElement": "q-embed"
+  },
+  {
+   "identifier": "q-embed",
+   "id": "doc-1iv915alb0",
+   "content": {
+    "q-embed": {
+     "service": "q-tool",
+     "params": {
+      "id": "9639ea59068c1c3ecc0f43d4d258b74c",
+      "conf": {},
+      "toolConfig": {},
+      "toolRuntimeConfig": {
+       "size": {
+        "width": [
+         {
+          "value": 100,
+          "comparison": ">"
+         }
+        ]
+       },
+       "displayOptions": {
+        "hideTitle": false,
+        "hideSubtitle": false,
+        "hideFooter": false,
+        "hideAcronym": false,
+        "size": "basic"
+       },
+       "locale": "en_US"
+      },
+      "size": "content"
+     },
+     "resolvedValue": {}
+    },
+    "html": "      <div        class=\"q-chart-container\"        id=\"q_chart_9639ea59068c1c3ecc0f43d4d258b74c_qc500b0bc6ce548f792d6525d5dc417da_container\"        data-q-item-id=\"9639ea59068c1c3ecc0f43d4d258b74c\"        data-q-request-id=\"9ec4011d312fbb70f9ca569a7ac12bf891a112ae\"      ></div>",
+    "stylesheets": [
+     {
+      "type": "remote",
+      "content": "https://service.sophie.nzz.ch/bundle/sophie-color%23master,sophie-font%23master,sophie-legend%23master[icon-label],sophie-q%23master,sophie-viz-color%23master.css"
+     },
+     {
+      "type": "inline",
+      "content": "  @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff) format(\"woff\");  }    @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff) format(\"woff\");    unicode-range: U+0020-00FF,U+2005,U+2082;  }      "
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/css-theme-layer/nzz-0.2.0.css"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/chart/q-chart-1.2.6.css"
+     }
+    ],
+    "scripts": [
+     {
+      "type": "inline",
+      "content": "function qTrackingBootstrap(t,e,n){if(window.digitalData&&window.digitalData.component&&window.digitalData.component.push){window.digitalData.component.push(t),window.digitalData.event&&window.digitalData.event.length||(window.digitalData.event=[]);var i=new Date,a=e;a.eventInfo.timeStamp=i.toISOString(),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\");var o=document.querySelectorAll(\"[data-q-request-id='\"+n+\"']\");[].forEach.call(o,function(t){t.addEventListener(\"q-tracking-event\",function(t){var e=new Date;(a=JSON.parse(JSON.stringify(a))).eventInfo.timeStamp=e.toISOString(),a.eventInfo=Object.assign(a.eventInfo,t.detail.eventInfo),a.category=Object.assign(a.category,t.detail.category),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\")},!1)})}};qTrackingBootstrap({\"componentInfo\":{\"componentName\":\"Q\",\"componentID\":\"9639ea59068c1c3ecc0f43d4d258b74c\"},\"category\":{\"componentType\":\"storytelling\",\"componentSubType1\":\"Q graphic\",\"componentSubType2\":\"chart\"}},{\"eventInfo\":{\"eventName\":\"Storytelling Interaction\",\"eventAction\":\"load\",\"type\":\"story\",\"componentName\":\"Q\",\"eventNonInteractive\":true,\"componentID\":\"9639ea59068c1c3ecc0f43d4d258b74c\"},\"category\":{\"primaryCategory\":\"storytelling\",\"subCategory1\":\"Q graphic\",\"subCategory2\":\"chart\"}},\"9ec4011d312fbb70f9ca569a7ac12bf891a112ae\")"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/chart/q-chart-1.2.6.js"
+     },
+     {
+      "type": "inline",
+      "content": "      (function () {        function initialize() {          const target = document.querySelector('#q_chart_9639ea59068c1c3ecc0f43d4d258b74c_qc500b0bc6ce548f792d6525d5dc417da_container');          if (!target) return;          target.innerHTML = '';          const qdoc = {\"_id\":\"9639ea59068c1c3ecc0f43d4d258b74c\",\"allowDownloadData\":false,\"title\":\"Democrats and non-partisans in particular criticize the reform\",\"subtitle\":\"\",\"publication\":\"nzz\",\"acronym\":\"lma.\",\"data\":[[\"Opinion\",\"Positive view\",\"Negative view\"],[\"Democrats\",\"13\",\"85\"],[\"Non-partisan\",\"27\",\"71\"],[\"republican\",\"61\",\"36\"]],\"sources\":[{\"text\":\"KFF\",\"link\":{\"url\":\"https://www.kff.org/medicaid/poll-finding/kff-health-tracking-poll-views-of-the-one-big-beautiful-bill/KFF\"}}],\"events\":[],\"options\":{\"annotations\":{\"valuesOnBars\":true},\"areaChartOptions\":{\"areaInterpolation\":\"linear\",\"stackType\":\"zero\"},\"arrowOptions\":{\"colorScheme\":0,\"invertColorScheme\":false},\"barOptions\":{\"isBarChart\":false,\"forceBarsOnSmall\":false},\"chartType\":\"StackedBar\",\"colorOverwritesRows\":[],\"colorOverwritesSeries\":[{\"color\":\"#374e8e\",\"colorLight\":\"\",\"position\":1},{\"color\":\"#ce4631\",\"colorLight\":\"\",\"position\":2}],\"dateSeriesOptions\":{\"interval\":\"auto\",\"labels\":\"many\",\"prognosisStart\":null},\"dotplotOptions\":{},\"hideAxisLabel\":true,\"highlightDataRows\":[],\"highlightDataSeries\":[],\"lineChartOptions\":{\"yScaleType\":\"linear\",\"reverseYScale\":false,\"lineInterpolation\":\"linear\",\"isStockChart\":false},\"largeNumbers\":{\"divideBy\":0}},\"updatedDate\":\"2025-07-04T05:41:49.336Z\",\"notes\":\"The results are subject to a margin of error of ± 6 percentage points.\"};          const toolRuntimeConfig = {\"displayOptions\":{\"hideTitle\":false,\"hideSubtitle\":false,\"hideFooter\":false,\"hideAcronym\":false,\"size\":\"basic\"},\"size\":{\"width\":[{\"value\":100,\"comparison\":\">\"}]},\"locale\":\"en-US\"};          const toolSettings = {\"qItemInstanceId\":\"q_chart_9639ea59068c1c3ecc0f43d4d258b74c_qc500b0bc6ce548f792d6525d5dc417da\"};          let attempts = 0;          const maxAttempts = 100;          const checkAndInitialize = setInterval(() => {            if (window.qChart) {              clearInterval(checkAndInitialize);              new window.qChart({ target: target, props: {                qdoc: qdoc,                toolSettings: toolSettings,                toolRuntimeConfig: toolRuntimeConfig              } });            } else {              attempts++;              if (attempts >= maxAttempts) {                clearInterval(checkAndInitialize);                console.error('Failed to initialize qChart after 30 seconds');              }            }          }, 300);        }        if (document.body.classList.contains('pagedone')) {          initialize();        } else {          window.addEventListener('pagedone', initialize);        }      })();    "
+     }
+    ]
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iv91j0g40",
+   "content": {
+    "text": "Interestingly, a survey by the KFF polling institute examined support within the Republican Party: It shows that Trump's base – the so-called Maga Republicans («Make America Great Again») – are the primary supporters of the reform package (72 percent). Skepticism also prevails among traditional Republicans (66 percent)."
+   },
+   "paidContent": true,
+   "prevElement": "q-embed",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iv93hnif1",
+   "content": {
+    "text": "KFF did not specify how large the proportion of the two factions was within the surveyed Republicans – that is, how significant the Maga supporters are within the party."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "q-embed"
+  },
+  {
+   "identifier": "q-embed",
+   "id": "doc-1iv91j3iv0",
+   "content": {
+    "q-embed": {
+     "service": "q-tool",
+     "params": {
+      "id": "e04b3f8213be4c15620cb6c2d346d388",
+      "conf": {},
+      "toolConfig": {},
+      "toolRuntimeConfig": {
+       "size": {
+        "width": [
+         {
+          "value": 100,
+          "comparison": ">"
+         }
+        ]
+       },
+       "displayOptions": {
+        "hideTitle": false,
+        "hideSubtitle": false,
+        "hideFooter": false,
+        "hideAcronym": false,
+        "size": "basic"
+       },
+       "locale": "en_US"
+      },
+      "size": "content"
+     },
+     "resolvedValue": {}
+    },
+    "html": "      <div        class=\"q-chart-container\"        id=\"q_chart_e04b3f8213be4c15620cb6c2d346d388_q318efad3b8d0437491b3b1375d3d20dd_container\"        data-q-item-id=\"e04b3f8213be4c15620cb6c2d346d388\"        data-q-request-id=\"597373fa75210099dcc68c77fcd712dd17d83016\"      ></div>",
+    "stylesheets": [
+     {
+      "type": "remote",
+      "content": "https://service.sophie.nzz.ch/bundle/sophie-color%23master,sophie-font%23master,sophie-legend%23master[icon-label],sophie-q%23master,sophie-viz-color%23master.css"
+     },
+     {
+      "type": "inline",
+      "content": "  @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff) format(\"woff\");  }    @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff) format(\"woff\");    unicode-range: U+0020-00FF,U+2005,U+2082;  }      "
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/css-theme-layer/nzz-0.2.0.css"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/chart/q-chart-1.2.6.css"
+     }
+    ],
+    "scripts": [
+     {
+      "type": "inline",
+      "content": "function qTrackingBootstrap(t,e,n){if(window.digitalData&&window.digitalData.component&&window.digitalData.component.push){window.digitalData.component.push(t),window.digitalData.event&&window.digitalData.event.length||(window.digitalData.event=[]);var i=new Date,a=e;a.eventInfo.timeStamp=i.toISOString(),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\");var o=document.querySelectorAll(\"[data-q-request-id='\"+n+\"']\");[].forEach.call(o,function(t){t.addEventListener(\"q-tracking-event\",function(t){var e=new Date;(a=JSON.parse(JSON.stringify(a))).eventInfo.timeStamp=e.toISOString(),a.eventInfo=Object.assign(a.eventInfo,t.detail.eventInfo),a.category=Object.assign(a.category,t.detail.category),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\")},!1)})}};qTrackingBootstrap({\"componentInfo\":{\"componentName\":\"Q\",\"componentID\":\"e04b3f8213be4c15620cb6c2d346d388\"},\"category\":{\"componentType\":\"storytelling\",\"componentSubType1\":\"Q graphic\",\"componentSubType2\":\"chart\"}},{\"eventInfo\":{\"eventName\":\"Storytelling Interaction\",\"eventAction\":\"load\",\"type\":\"story\",\"componentName\":\"Q\",\"eventNonInteractive\":true,\"componentID\":\"e04b3f8213be4c15620cb6c2d346d388\"},\"category\":{\"primaryCategory\":\"storytelling\",\"subCategory1\":\"Q graphic\",\"subCategory2\":\"chart\"}},\"597373fa75210099dcc68c77fcd712dd17d83016\")"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/chart/q-chart-1.2.6.js"
+     },
+     {
+      "type": "inline",
+      "content": "      (function () {        function initialize() {          const target = document.querySelector('#q_chart_e04b3f8213be4c15620cb6c2d346d388_q318efad3b8d0437491b3b1375d3d20dd_container');          if (!target) return;          target.innerHTML = '';          const qdoc = {\"_id\":\"e04b3f8213be4c15620cb6c2d346d388\",\"allowDownloadData\":false,\"title\":\"Trump supporters back the reform more strongly than traditional Republicans\",\"subtitle\":\"\",\"publication\":\"nzz\",\"acronym\":\"lma.\",\"data\":[[\"Opinion\",\"Positive view\",\"Negative view\"],[\"Maga Republicans\",\"72\",\"27\"],[\"Non-Maga\",\"33\",\"66\"]],\"sources\":[{\"text\":\"KFF\",\"link\":{\"url\":\"https://www.kff.org/medicaid/poll-finding/kff-health-tracking-poll-views-of-the-one-big-beautiful-bill/\"}}],\"events\":[],\"options\":{\"annotations\":{},\"areaChartOptions\":{\"areaInterpolation\":\"linear\",\"stackType\":\"zero\"},\"arrowOptions\":{\"colorScheme\":0,\"invertColorScheme\":false},\"barOptions\":{\"isBarChart\":false,\"forceBarsOnSmall\":false},\"chartType\":\"StackedBar\",\"colorOverwritesRows\":[],\"colorOverwritesSeries\":[{\"color\":\"#374e8e\",\"colorLight\":\"\",\"position\":1},{\"color\":\"#ce4631\",\"colorLight\":\"\",\"position\":2}],\"dateSeriesOptions\":{\"interval\":\"auto\",\"labels\":\"many\",\"prognosisStart\":null},\"dotplotOptions\":{},\"hideAxisLabel\":true,\"highlightDataRows\":[],\"highlightDataSeries\":[],\"lineChartOptions\":{\"yScaleType\":\"linear\",\"reverseYScale\":false,\"lineInterpolation\":\"linear\",\"isStockChart\":false},\"largeNumbers\":{\"divideBy\":0}},\"updatedDate\":\"2025-07-04T06:47:42.672Z\",\"notes\":\"Survey of Republicans and independents who tend to lean Republican. The results have a margin of error of ± 6 percentage points.\"};          const toolRuntimeConfig = {\"displayOptions\":{\"hideTitle\":false,\"hideSubtitle\":false,\"hideFooter\":false,\"hideAcronym\":false,\"size\":\"basic\"},\"size\":{\"width\":[{\"value\":100,\"comparison\":\">\"}]},\"locale\":\"en-US\"};          const toolSettings = {\"qItemInstanceId\":\"q_chart_e04b3f8213be4c15620cb6c2d346d388_q318efad3b8d0437491b3b1375d3d20dd\"};          let attempts = 0;          const maxAttempts = 100;          const checkAndInitialize = setInterval(() => {            if (window.qChart) {              clearInterval(checkAndInitialize);              new window.qChart({ target: target, props: {                qdoc: qdoc,                toolSettings: toolSettings,                toolRuntimeConfig: toolRuntimeConfig              } });            } else {              attempts++;              if (attempts >= maxAttempts) {                clearInterval(checkAndInitialize);                console.error('Failed to initialize qChart after 30 seconds');              }            }          }, 300);        }        if (document.body.classList.contains('pagedone')) {          initialize();        } else {          window.addEventListener('pagedone', initialize);        }      })();    "
+     }
+    ]
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "sharebox",
+   "lastContentElement": true
+  },
+  {
+   "identifier": "sharebox",
+   "id": "doc-1iv8g8mp115",
+   "paidContent": true,
+   "prevElement": "q-embed",
+   "nextElement": "related-articles-container"
+  },
+  {
+   "identifier": "related-articles-container",
+   "id": "doc-1iv8g8mp116",
+   "content": {
+    "title": "Related articles"
+   },
+   "containers": {
+    "related-articles": [
+     {
+      "identifier": "teaser",
+      "id": "doc-1iv8g8mp117",
+      "content": {
+       "owner": "NZZ",
+       "title": "The dollar is suffering its steepest decline since 1973 – confidence in the US currency is eroding",
+       "teaserImage": {
+        "originalUrl": "/2025/07/01/991cb357-c79e-4fb4-911f-684a59336c74.jpeg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2025/07/01/991cb357-c79e-4fb4-911f-684a59336c74.jpeg?width=1024&quality=75&auto=webp",
+        "width": 4000,
+        "height": 2671,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "4000,2250,x0,y362"
+         },
+         {
+          "name": "1:1",
+          "crop": "2110,2110,x706,y498"
+         },
+         {
+          "name": "4:3",
+          "crop": "3561,2671,x116,y0"
+         },
+         {
+          "name": "3:4",
+          "crop": "2003,2671,x759,y0"
+         },
+         {
+          "name": "3:2",
+          "crop": "4000,2667,x0,y0"
+         }
+        ],
+        "imageService": "fastly",
+        "teaserCaption": "The US is losing its «safe haven» status on the foreign exchange market. Donald Trump's plan to massively increase debt is sending the dollar into another downward spiral.",
+        "teaserAuthor": "Dado Ruvic / Reuters"
+       },
+       "teaserAuthor": "Dado Ruvic / Reuters",
+       "nzzasFootnote": false,
+       "folioFootnote": false,
+       "language": {
+        "locale": "de-CH"
+       },
+       "nzzId": "ld.1891525",
+       "readingTime": 240,
+       "authorLine": "Albert Steck",
+       "characterCount": 4780,
+       "product": "NZZ.ch",
+       "documentId": 1891525,
+       "layout": "regular",
+       "publicationDate": "2025-07-01T14:40:26.396Z",
+       "publicationLastUpdated": "2025-07-01T16:46:51.646Z",
+       "significantUpdate": false,
+       "significantUpdateTill": "2025-07-02T02:40:26.396Z",
+       "teaserCaption": "The US is losing its «safe haven» status on the foreign exchange market. Donald Trump's plan to massively increase debt is sending the dollar into another downward spiral.",
+       "url": "/wirtschaft/der-dollar-erleidet-den-staerksten-einbruch-seit-1973-das-vertrauen-in-die-us-waehrung-erodiert-ld.1891525",
+       "department": {
+        "name": "Economy",
+        "path": "/wirtschaft"
+       },
+       "estimationWordCount": 752,
+       "leadText": "The US is losing its «safe haven» status on the foreign exchange market. Donald Trump's plan to massively increase debt is sending the dollar into another downward spiral.",
+       "nzzSummaryIsAuto": true,
+       "hasQ": true
+      }
+     },
+     {
+      "identifier": "teaser",
+      "id": "doc-1iv8g8mp118",
+      "content": {
+       "owner": "NZZ",
+       "title": "Marathon debate on Trump's «Big Beautiful Bill» – Republicans are confident of victory, Democrats protest against tax breaks for billionaires",
+       "teaserImage": {
+        "originalUrl": "/2025/06/29/47a87a8d-c65b-4619-b26e-195553f195a1.jpeg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2025/06/29/47a87a8d-c65b-4619-b26e-195553f195a1.jpeg?width=1024&quality=75&auto=webp",
+        "width": 3991,
+        "height": 2661,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "3991,2245,x0,y0"
+         },
+         {
+          "name": "1:1",
+          "crop": "1037,1037,x2022,y203"
+         },
+         {
+          "name": "4:3",
+          "crop": "3548,2661,x443,y0"
+         },
+         {
+          "name": "3:4",
+          "crop": "1996,2661,x998,y0"
+         },
+         {
+          "name": "3:2",
+          "crop": "3991,2661,x0,y0"
+         }
+        ],
+        "imageService": "fastly",
+        "teaserCaption": "The debate on the Republican tax and budget bill is heating up in the Senate – a razor-thin majority is emerging. This brings a major political victory within Donald Trump's grasp.",
+        "teaserAuthor": "Elizabeth Frantz / Reuters"
+       },
+       "teaserAuthor": "Elizabeth Frantz / Reuters",
+       "nzzasFootnote": false,
+       "folioFootnote": false,
+       "language": {
+        "locale": "de-CH"
+       },
+       "nzzId": "ld.1891327",
+       "readingTime": 300,
+       "authorLine": "Isabelle Jacobi, Washington",
+       "characterCount": 7572,
+       "product": "NZZ.ch",
+       "documentId": 1891327,
+       "layout": "regular",
+       "publicationDate": "2025-06-30T03:35:51.916Z",
+       "publicationLastUpdated": "2025-06-30T17:30:12.968Z",
+       "significantUpdate": false,
+       "significantUpdateTill": "2025-06-30T15:35:51.916Z",
+       "teaserCaption": "The debate on the Republican tax and budget bill is heating up in the Senate – a razor-thin majority is emerging. This brings a major political victory within Donald Trump's grasp.",
+       "url": "/international/senat-kurz-vor-verabschiedung-von-trumps-big-beautiful-bill-ld.1891327",
+       "department": {
+        "name": "International",
+        "path": "/international"
+       },
+       "estimationWordCount": 1089,
+       "leadText": "The debate on the Republican tax and budget bill is heating up in the Senate – a razor-thin majority is emerging. This brings a major political victory within Donald Trump's grasp.",
+       "nzzSummaryIsAuto": true
+      }
+     },
+     {
+      "identifier": "teaser",
+      "id": "doc-1iv8g8mp119",
+      "content": {
+       "title": "The “breadbasket of America” lacks fresh food",
+       "teaserImage": {
+        "originalUrl": "/2020/3/30/485b0051-4de6-42c0-89c7-9ed46a120b67.jpeg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2020/3/30/485b0051-4de6-42c0-89c7-9ed46a120b67.jpeg?width=1024&quality=75&auto=webp",
+        "width": 3500,
+        "height": 2334,
+        "imageService": "fastly",
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "3500,1969,x0,y181"
+         },
+         {
+          "name": "1:1",
+          "crop": "109,109,x1809,y1575"
+         }
+        ],
+        "teaserCaption": "The USA is the richest country in the world – yet 39 million Americans live in \"food deserts\" with little access to fresh fruit and vegetables. The situation is particularly bizarre in agricultural states like Iowa.",
+        "teaserAuthor": "Lucas Jackson / Reuters"
+       },
+       "teaserAuthor": "Lucas Jackson / Reuters",
+       "nzzasFootnote": false,
+       "folioFootnote": false,
+       "language": {
+        "locale": "de-CH"
+       },
+       "nzzId": "ld.1541648",
+       "readingTime": 480,
+       "authorLine": "Marie-Astrid Langer, Dallas Center (Iowa)",
+       "characterCount": 11099,
+       "product": "NZZ.ch",
+       "documentId": 1541648,
+       "layout": "regular",
+       "publicationDate": "2020-04-17T17:26:09.757Z",
+       "publicationLastUpdated": "2020-07-06T23:54:28.888Z",
+       "significantUpdate": false,
+       "significantUpdateTill": "2020-04-18T05:26:09.757Z",
+       "teaserCaption": "The USA is the richest country in the world – yet 39 million Americans live in \"food deserts\" with little access to fresh fruit and vegetables. The situation is particularly bizarre in agricultural states like Iowa.",
+       "url": "/international/usa-millionen-leben-in-lebensmittelwuesten-ohne-frischwaren-ld.1541648",
+       "department": {
+        "name": "International",
+        "path": "/international"
+       },
+       "estimationWordCount": 1689,
+       "leadText": "The USA is the richest country in the world – yet 39 million Americans live in \"food deserts\" with little access to fresh fruit and vegetables. The situation is particularly bizarre in agricultural states like Iowa.",
+       "hasQ": true
+      }
+     }
+    ]
+   },
+   "paidContent": true,
+   "prevElement": "sharebox",
+   "nextElement": "",
+   "lastContentElement": true
+  }
+ ],
+ "metadata": {
+  "owner": "NZZ",
+  "germanyRelevant": true,
+  "title": "Upward debt, down taxes and social benefits: what the «Big Beautiful Bill» means for Americans",
+  "teaserImage": {
+   "originalUrl": "/2025/07/03/f2bb47a0-c13b-4e38-b758-04db74f67491.jpeg?width=1024",
+   "url": "https://img-msp-prod.nzz.ch/2025/07/03/f2bb47a0-c13b-4e38-b758-04db74f67491.jpeg?width=1024&quality=75&auto=webp",
+   "width": 4500,
+   "height": 3000,
+   "crops": [
+    {
+     "name": "16:9",
+     "crop": "4500,2531,x0,y459"
+    },
+    {
+     "name": "1:1",
+     "crop": "3000,3000,x1027,y0"
+    },
+    {
+     "name": "4:3",
+     "crop": "4000,3000,x280,y0"
+    },
+    {
+     "name": "3:4",
+     "crop": "2250,3000,x1015,y0"
+    },
+    {
+     "name": "3:2",
+     "crop": "4500,3000,x0,y0"
+    }
+   ],
+   "imageService": "fastly",
+   "teaserCaption": "In the end, they were subservient to Trump once again: The Republicans have pushed a massive reform package through Congress. Who wins and who loses?",
+   "teaserAuthor": "Illustration by Simon Tanner / NZZ"
+  },
+  "teaserAuthor": "Illustration by Simon Tanner / NZZ",
+  "nzzasFootnote": false,
+  "folioFootnote": false,
+  "language": {
+   "locale": "en-US"
+  },
+  "nzzId": "ld.1891922",
+  "readingTime": 480,
+  "authorLine": "Marie-Astrid Langer, San Francisco",
+  "characterCount": 11603,
+  "breadcrumbs": [
+   {
+    "name": "Technology",
+    "path": "/technologie"
+   }
+  ],
+  "product": "NZZ.ch",
+  "documentId": 1891922,
+  "contentTypeGroup": "web",
+  "layout": "longformstandard",
+  "firstPublicationDate": "2025-07-04T03:30:00.000Z",
+  "publicationDate": "2025-07-04T03:30:00.000Z",
+  "publicationLastUpdated": "2025-07-04T11:20:56.058Z",
+  "significantUpdate": false,
+  "significantUpdateTill": "2025-07-04T15:30:00.000Z",
+  "teaserCaption": "In the end, they were subservient to Trump once again: The Republicans have pushed a massive reform package through Congress. Who wins and who loses?",
+  "url": "/technologie/schulden-rauf-steuern-runter-sozialleistungen-auch-was-die-big-beautiful-bill-fuer-amerikaner-bedeutet-ld.1891922",
+  "department": {
+   "name": "Technology",
+   "path": "/technologie"
+  },
+  "estimationWordCount": 1647,
+  "premium": true,
+  "leadText": "In the end, they were subservient to Trump once again: The Republicans have pushed a massive reform package through Congress. Who wins and who loses?",
+  "nzzSummaryEN": "- Republicans passed the 'Big Beautiful Bill,' a reform package that cements tax cuts, raises the debt ceiling, and imposes cuts on social programs like Medicaid and food assistance.\n- Wealthy households benefit the most from tax breaks, while poor Americans face stricter requirements and reduced social benefits.\n- The reform is widely debated: While Trump's base supports it, Democrats and many independents largely oppose it.",
+  "nzzSummaryDE": "- Republicans passed the 'Big Beautiful Bill', a reform package that mandates tax cuts, raises the debt ceiling, and includes cuts to social programs such as Medicaid and food assistance.\n Wealthy households benefit most from the tax cuts, while poor Americans are disadvantaged by stricter regulations and reduced social benefits.\n - The legal reform is being discussed controversially: While Trump's base supports it, Democrats and many non-partisans largely reject it.",
+  "nzzSummaryIsAuto": true,
+  "nzzSummaryModel": "gpt-4o-2024-11-20",
+  "nzzPrintTitle": "America's top earners rejoice",
+  "nzzPrintSubtitle": "The «Big Beautiful Bill» distributes tax breaks to almost all Americans – the losers are the poorest citizens",
+  "allArticleLanguages": [
+   {
+    "locale": "en-US",
+    "urlPath": "/english/for-americans-trumps-big-beautiful-bill-means-more-debt-lower-taxes-and-fewer-social-benefits-ld.1892428",
+    "seo": {}
+   },
+   {
+    "locale": "de-CH",
+    "urlPath": "/technologie/schulden-rauf-steuern-runter-sozialleistungen-auch-was-die-big-beautiful-bill-fuer-amerikaner-bedeutet-ld.1891922",
+    "seo": {}
+   }
+  ],
+  "seo": {
+   "canonicalUrl": "https://www.nzz.ch/technologie/schulden-rauf-steuern-runter-sozialleistungen-auch-was-die-big-beautiful-bill-fuer-amerikaner-bedeutet-ld.1891922",
+   "title": "Debt up, taxes down: what the «Big Beautiful Bill» means for America",
+   "socialMediaTitle": "Lower taxes, lower social benefits too: what the new mammoth law means for Americans",
+   "description": "In the end, President Trump won: The Republicans pushed a massive reform package through Congress. Who wins and who loses?",
+   "excludeFromSpiders": false,
+   "image": "https://img-msp-prod.nzz.ch/2025/07/03/f2bb47a0-c13b-4e38-b758-04db74f67491.jpeg?width=1200&height=674&fit=bounds&quality=75&auto=webp&crop=4500,2531,x0,y459&wmark=nzz"
+  },
+  "ldPublicationId": 2359615,
+  "isHighlightedHeader": false,
+  "nzzTopics": [
+   {
+    "name": "Donald Trump",
+    "slug": "/themen/donald-trump"
+   },
+   {
+    "name": "Taxes",
+    "slug": "/themen/steuern"
+   },
+   {
+    "name": "USA",
+    "slug": "/themen/usa"
+   },
+   {
+    "name": "Barack Obama",
+    "slug": "/themen/barack-obama"
+   }
+  ],
+  "barrierIndex": 3,
+  "outlinks": {
+   "mehrZumThema": [
+    "ld.1891525",
+    "ld.1891327",
+    "ld.1541648"
+   ],
+   "artikelListe": [],
+   "aliasTeaserEmbedList": []
+  },
+  "tts": true,
+  "hasQ": true,
+  "mp3": true,
+  "mp3Duration": 753624,
+  "colorSchema": "color-schema--premium",
+  "project": "nzz",
+  "machineTranslated": true,
+  "machineTranslationValidated": false
+ },
+ "isReduced": false,
+ "isPaid": false,
+ "isVamp": false,
+ "isWebview": false,
+ "btaFeed": {
+  "meta": {
+   "id": "donald-trump",
+   "name": "Donald Trump",
+   "tagName": "Donald Trump",
+   "qId": "Q22686",
+   "seoTitle": "Donald Trump News – All articles about the US politician ",
+   "description": null,
+   "firstName": "Donald",
+   "lastName": "Trump",
+   "category": "PER",
+   "createdDate": "2025-04-08 17:01:49.282Z",
+   "imageURL": null,
+   "imageCroppedURL": null,
+   "imageWidth": null,
+   "imageHeight": null,
+   "imageCredits": null,
+   "url": "https://nzz.ch/themen/donald-trump",
+   "size": 4829,
+   "relatedTopics": [
+    {
+     "name": "Steuern",
+     "slug": "/themen/steuern"
+    },
+    {
+     "name": "USA",
+     "slug": "/themen/usa"
+    },
+    {
+     "name": "Barack Obama",
+     "slug": "/themen/barack-obama"
+    }
+   ]
+  },
+  "data": [
+   {
+    "title": "Power struggle in the Pentagon: Army Secretary Daniel Driscoll, a rising star his boss Pete Hegseth dislikes",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "teaserImage": {
+     "originalUrl": "/2026/09/01/37cb4cf4-d3c4-4925-8e2d-f35335d5b15a.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/09/01/37cb4cf4-d3c4-4925-8e2d-f35335d5b15a.jpg?width=1024&quality=75&auto=webp",
+     "width": 5408,
+     "height": 3600,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "5408,3042,x0,y279"
+      },
+      {
+       "name": "4:3",
+       "crop": "4800,3600,x304,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "3600,3600,x904,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "2700,3600,x1354,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "5400,3600,x4,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "He was meant to modernize the Army and maintained excellent relations in the White House. But that did not protect 40-year-old Driscoll from Hegseth’s personnel policy. Experts warn of a poisoned culture in the Department of Defense.",
+     "teaserAuthor": "Melissa Sue Gerrits/Getty Images"
+    },
+    "teaserAuthor": "Melissa Sue Gerrits/Getty Images",
+    "tags": [
+     "Amerika"
+    ],
+    "nzzId": "ld.10022013",
+    "readingTime": 300,
+    "paywallQuestionOne": "Why did the power struggle between Driscoll and Hegseth lead to Driscoll's resignation?",
+    "paywallQuestionTwo": "How does Hegseth's personnel policy influence the modernization of the Army?",
+    "paywallQuestionThree": "What long-term risks does the leadership crisis at the Pentagon pose?",
+    "characterCount": 7364,
+    "product": "NZZ.ch",
+    "documentId": "10022013",
+    "layout": "regular",
+    "publicationDate": "2026-09-03T09:18:11.329Z",
+    "publicationLastUpdated": "2026-09-03T09:19:07.613Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-09-03T21:18:11.329Z",
+    "teaserCaption": "He was meant to modernize the Army and maintained excellent relations in the White House. But that did not protect 40-year-old Driscoll from Hegseth’s personnel policy. Experts warn of a poisoned culture in the Department of Defense.",
+    "authorLine": "Isabelle Jacobi, Washington",
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2024/07/24/778ef237-b4cf-4f32-8e9e-93d8e2537042.jpeg?crop=4892,4892,x1617,y247&width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/international/machtkampf-im-pentagon-army-staatssekretaer-daniel-driscoll-galt-als-aufsteiger-das-gefiel-seinem-chef-pete-hegseth-nicht-ld.10022013",
+    "department": {
+     "name": "International",
+     "path": "/international"
+    },
+    "estimationWordCount": 1033,
+    "leadText": "He was meant to modernize the Army and maintained excellent relations in the White House. But that did not protect 40-year-old Driscoll from Hegseth’s personnel policy. Experts warn of a poisoned culture in the Department of Defense.",
+    "nzzSummaryIsAuto": true,
+    "locale": "de-CH"
+   },
+   {
+    "owner": "NZZ",
+    "flag": "Data analysis",
+    "title": "How Popular Is Donald Trump?",
+    "teaserImage": {
+     "originalUrl": "/2025/05/14/154a166c-8b2d-43cc-a217-b54eff571553.png?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2025/05/14/154a166c-8b2d-43cc-a217-b54eff571553.png?width=1024&quality=75&auto=webp",
+     "width": 1801,
+     "height": 1351,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "1801,1013,x0,y169"
+      },
+      {
+       "name": "4:3",
+       "crop": "1801,1351,x0,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "1351,1351,x225,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "1013,1351,x394,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "1801,1201,x0,y75"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "Daily updated poll numbers: American sentiment toward their president's administration. An overview in graphics.",
+     "teaserAuthor": "Illustration by Jasmin Hegetschweiler / NZZ"
+    },
+    "teaserAuthor": "Illustration by Jasmin Hegetschweiler / NZZ",
+    "nzzasFootnote": false,
+    "folioFootnote": false,
+    "language": {
+     "locale": "de-CH"
+    },
+    "nzzId": "ld.1883243",
+    "readingTime": 120,
+    "authorLine": "Nikolai Thelitz",
+    "paywallQuestionOne": "Why has Trump's popularity declined?",
+    "paywallQuestionTwo": "What is Trump's stance on the economic situation?",
+    "paywallQuestionThree": "How do Americans view Trump's immigration policy?",
+    "characterCount": 2062,
+    "product": "NZZ.ch",
+    "documentId": "1883243",
+    "layout": "regular",
+    "publicationDate": "2026-09-03T07:57:50.000Z",
+    "publicationLastUpdated": "2026-09-03T07:57:50.000Z",
+    "significantUpdate": true,
+    "significantUpdateTill": "2026-09-03T19:57:50.000Z",
+    "teaserCaption": "Daily updated poll numbers: American sentiment toward their president's administration. An overview in graphics.",
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2026/06/08/e254b9af-5f2d-4473-af8c-a9de53509f60.jpg?width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/visuals/trump-umfragewerte-aktuell-2026-so-beliebt-ist-er-in-den-usa-ld.1883243",
+    "department": {
+     "name": "Visual Stories",
+     "path": "/visuals"
+    },
+    "estimationWordCount": 317,
+    "leadText": "Daily updated poll numbers: American sentiment toward their president's administration. An overview in graphics.",
+    "nzzSummaryIsAuto": true,
+    "hasQ": true
+   },
+   {
+    "title": "10 dollars for a coffee, 600% inflation – and hope for new oil billions: Welcome to everyday life in Venezuela",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "teaserImage": {
+     "originalUrl": "/2026/08/26/7b3cc737-abbf-4cb8-969f-49ba1900d8de.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/08/26/7b3cc737-abbf-4cb8-969f-49ba1900d8de.jpg?width=1024&quality=75&auto=webp",
+     "width": 7864,
+     "height": 5200,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "7864,4423,x0,y776"
+      },
+      {
+       "name": "4:3",
+       "crop": "6933,5200,x255,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "4298,4298,x1520,y635"
+      },
+      {
+       "name": "3:4",
+       "crop": "3223,4298,x2395,y902"
+      },
+      {
+       "name": "3:2",
+       "crop": "7091,4727,x300,y472"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "Much of the former glory of Venezuela's oil wealth has faded. But things are changing: investors and returning residents are rediscovering Venezuela. And now Donald Trump has big plans, too.",
+     "teaserAuthor": "NZZ"
+    },
+    "teaserAuthor": "NZZ",
+    "showComments": true,
+    "tags": [
+     "Fotografie"
+    ],
+    "teaserCarouselOne": {
+     "originalUrl": "/2026/08/26/7b3cc737-abbf-4cb8-969f-49ba1900d8de.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/08/26/7b3cc737-abbf-4cb8-969f-49ba1900d8de.jpg?width=1024&quality=75&auto=webp",
+     "width": 7864,
+     "height": 5200,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "7864,4423,x0,y388"
+      },
+      {
+       "name": "1:1",
+       "crop": "5200,5200,x1332,y0"
+      },
+      {
+       "name": "4:3",
+       "crop": "6933,5200,x465,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "3900,5200,x1982,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "7800,5200,x32,y0"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "teaserCarouselTwo": {
+     "originalUrl": "/2026/08/28/63a7de33-abc5-42fc-b8dd-be1ea6c32358.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/08/28/63a7de33-abc5-42fc-b8dd-be1ea6c32358.jpg?width=1024&quality=75&auto=webp",
+     "width": 7000,
+     "height": 4659,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "7000,3937,x0,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "4659,4659,x340,y0"
+      },
+      {
+       "name": "4:3",
+       "crop": "6212,4659,x0,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "3494,4659,x922,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "6989,4659,x0,y0"
+      }
+     ],
+     "focalPoint": {
+      "x": 2669,
+      "y": 1695
+     },
+     "imageService": "fastly"
+    },
+    "teaserCarouselThree": {
+     "originalUrl": "/2026/08/27/1f3f06d2-eb2c-4583-b4c6-97fda2f94e62.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/08/27/1f3f06d2-eb2c-4583-b4c6-97fda2f94e62.jpg?width=1024&quality=75&auto=webp",
+     "width": 7000,
+     "height": 4629,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "7000,3937,x0,y646"
+      },
+      {
+       "name": "1:1",
+       "crop": "4629,4629,x0,y0"
+      },
+      {
+       "name": "4:3",
+       "crop": "6172,4629,x0,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "3472,4629,x331,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "6944,4629,x0,y0"
+      }
+     ],
+     "focalPoint": {
+      "x": 2067,
+      "y": 2614
+     },
+     "imageService": "fastly"
+    },
+    "nzzId": "ld.10020261",
+    "readingTime": 600,
+    "paywallQuestionOne": "How will Trump's oil deal affect Venezuela's economic future?",
+    "paywallQuestionTwo": "What role do returning refugees and investors play in Venezuela's recovery?",
+    "paywallQuestionThree": "Why does the oil sector remain unsafe for investors despite reforms?",
+    "characterCount": 11936,
+    "product": "NZZ.ch",
+    "documentId": "10020261",
+    "layout": "longformvisual",
+    "publicationDate": "2026-09-03T03:30:00.000Z",
+    "publicationLastUpdated": "2026-09-03T03:30:00.000Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-09-03T15:30:00.000Z",
+    "teaserCaption": "Much of the former glory of Venezuela's oil wealth has faded. But things are changing: investors and returning residents are rediscovering Venezuela. And now Donald Trump has big plans, too.",
+    "authorLine": "Alexander Busch (text), Ana Gosen (images), Caracas",
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2024/02/21/c267e623-a396-4320-8b54-9d2b88c6b73a.png?crop=800,800,x0,y0&width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/wirtschaft/10-dollar-fuer-einen-kaffee-600-prozent-inflation-und-hoffnung-auf-neue-erdoelmilliarden-willkommen-im-alltag-in-venezuela-ld.10020261",
+    "department": {
+     "name": "Economy",
+     "path": "/wirtschaft"
+    },
+    "estimationWordCount": 1908,
+    "premium": true,
+    "leadText": "Much of the former glory of Venezuela's oil wealth has faded. But things are changing: investors and returning residents are rediscovering Venezuela. And now Donald Trump has big plans, too.",
+    "nzzSummaryIsAuto": true,
+    "commentsCount": 2,
+    "openToComment": false,
+    "locale": "de-CH"
+   },
+   {
+    "title": "Germany protests, and the Russian Finance Minister parleys in the U.S.: This is not how sanctions work",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "flag": "Opinion",
+    "showComments": true,
+    "teaserImage": {
+     "originalUrl": "/2026/09/02/0f7820ef-f01e-49e7-9e43-eec6448cefbb.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/09/02/0f7820ef-f01e-49e7-9e43-eec6448cefbb.jpg?width=1024&quality=75&auto=webp",
+     "width": 6500,
+     "height": 4335,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "6500,3656,x0,y555"
+      },
+      {
+       "name": "4:3",
+       "crop": "5780,4335,x398,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "2961,2961,x392,y484"
+      },
+      {
+       "name": "3:4",
+       "crop": "3251,4335,x550,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "6500,4333,x0,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "Germany wants to hold Russia more accountable – and Donald Trump's administration is in the US talking with the Russian finance minister about cooperation in the international financial system. If sanctions are to be effective, they must be used more effectively and consistently.",
+     "teaserAuthor": "Sam Wolfe / Reuters"
+    },
+    "teaserAuthor": "Sam Wolfe / Reuters",
+    "editor": "1373452",
+    "paywallQuestionOne": "Who is the Russian Finance Minister Anton Siluanov, and why was he sanctioned?",
+    "paywallQuestionTwo": "What are sanctions intended to achieve and how do they work?",
+    "paywallQuestionThree": "How are the signals from the USA affecting us, and what would need to change?",
+    "nzzId": "ld.10022026",
+    "readingTime": 240,
+    "characterCount": 5319,
+    "product": "NZZ.ch",
+    "documentId": "10022026",
+    "layout": "opinion",
+    "publicationDate": "2026-09-02T11:58:27.752Z",
+    "publicationLastUpdated": "2026-09-02T17:58:55.039Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-09-02T23:58:27.752Z",
+    "teaserCaption": "Germany wants to hold Russia more accountable – and Donald Trump's administration is in the US talking with the Russian finance minister about cooperation in the international financial system. If sanctions are to be effective, they must be used more effectively and consistently.",
+    "authorLine": "Peter A. Fischer",
+    "authorImage": {
+     "originalUrl": "/2022/07/27/d59a0238-12f1-43d7-8905-6e94594be820.png?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2022/07/27/d59a0238-12f1-43d7-8905-6e94594be820.png?width=1024&quality=75&auto=webp",
+     "width": 800,
+     "height": 800,
+     "crops": [
+      {
+       "name": "1:1",
+       "crop": "800,800,x0,y0"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2022/07/27/d59a0238-12f1-43d7-8905-6e94594be820.png?width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/meinung/deutschland-protestiert-und-der-russische-finanzminister-parliert-in-den-usa-so-funktionieren-sanktionen-nicht-ld.10022026",
+    "department": {
+     "name": "Opinion",
+     "path": "/meinung"
+    },
+    "estimationWordCount": 781,
+    "premium": true,
+    "leadText": "Germany wants to hold Russia more accountable – and Donald Trump's administration is in the US talking with the Russian finance minister about cooperation in the international financial system. If sanctions are to be effective, they must be used more effectively and consistently.",
+    "nzzSummaryIsAuto": true,
+    "commentsCount": 7,
+    "openToComment": false,
+    "locale": "de-CH"
+   },
+   {
+    "title": "«Tanker for Tanker»: Trump escalates further in the Strait of Hormuz",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "teaserImage": {
+     "originalUrl": "/2026/09/02/e7ac2042-b8b6-4979-b234-1c4b2e17dd24.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/09/02/e7ac2042-b8b6-4979-b234-1c4b2e17dd24.jpg?width=1024&quality=75&auto=webp",
+     "width": 5500,
+     "height": 3666,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "5500,3094,x0,y306"
+      },
+      {
+       "name": "4:3",
+       "crop": "4444,3333,x427,y62"
+      },
+      {
+       "name": "1:1",
+       "crop": "3333,3333,x536,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "2273,3030,x487,y185"
+      },
+      {
+       "name": "3:2",
+       "crop": "4999,3333,x0,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "The battle for the strait intensifies again. For the first time, the U.S. also attacks Iranian oil tankers. In retaliation, Tehran targets U.S. military bases in the Middle East. Trump once again calls on Iranians to revolt.",
+     "teaserAuthor": "Majid Asgaripour/Wana News Agency via Reuters"
+    },
+    "teaserAuthor": "Majid Asgaripour/Wana News Agency via Reuters",
+    "tags": [
+     "Krieg in Nahost",
+     "Iran-Krieg",
+     "Die USA unter Trump"
+    ],
+    "nzzId": "ld.10022048",
+    "readingTime": 240,
+    "paywallQuestionOne": "How does the escalation in Hormuz affect the global oil supply?",
+    "paywallQuestionTwo": "What goals is Trump pursuing with the blockade against Iran?",
+    "paywallQuestionThree": "How is Iran reacting to the US attacks?",
+    "characterCount": 5043,
+    "product": "NZZ.ch",
+    "documentId": "10022048",
+    "layout": "regular",
+    "publicationDate": "2026-09-02T11:30:00.880Z",
+    "publicationLastUpdated": "2026-09-02T12:17:04.250Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-09-02T23:30:00.880Z",
+    "teaserCaption": "The battle for the strait intensifies again. For the first time, the U.S. also attacks Iranian oil tankers. In retaliation, Tehran targets U.S. military bases in the Middle East. Trump once again calls on Iranians to revolt.",
+    "authorLine": "Christian Weisflog",
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2022/06/29/610f656f-240a-49e1-b6b4-fec855be6253.png?width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/international/tanker-fuer-tanker-trump-zuendet-in-der-strasse-von-hormuz-die-naechste-eskalationsstufe-ld.10022048",
+    "department": {
+     "name": "International",
+     "path": "/international"
+    },
+    "estimationWordCount": 776,
+    "leadText": "The battle for the strait intensifies again. For the first time, the U.S. also attacks Iranian oil tankers. In retaliation, Tehran targets U.S. military bases in the Middle East. Trump once again calls on Iranians to revolt.",
+    "nzzSummaryIsAuto": true,
+    "locale": "de-CH"
+   },
+   {
+    "title": "Trump's plan for Europe's nationalists has not worked",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "teaserImage": {
+     "originalUrl": "/2026/09/02/28f7856e-527a-4e83-bbdf-99d4eb9e3e81.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/09/02/28f7856e-527a-4e83-bbdf-99d4eb9e3e81.jpg?width=1024&quality=75&auto=webp",
+     "width": 5040,
+     "height": 3360,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "4582,2577,x311,y208"
+      },
+      {
+       "name": "4:3",
+       "crop": "3702,2777,x702,y13"
+      },
+      {
+       "name": "1:1",
+       "crop": "3055,3055,x1012,y23"
+      },
+      {
+       "name": "3:4",
+       "crop": "2520,3360,x1142,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "4582,3055,x229,y241"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "Transatlantic alliance between Maga movement, European right-wing populists in crisis: Three reasons",
+     "teaserAuthor": "Yoan Valat / Pool / Getty"
+    },
+    "teaserAuthor": "Yoan Valat / Pool / Getty",
+    "editor": "1371808",
+    "paywallQuestionOne": "Why are Europe's nationalists distancing themselves from Donald Trump?",
+    "paywallQuestionTwo": "What economic and geopolitical conflicts divide Europe and Trump?",
+    "paywallQuestionThree": "How does Trump's style affect relations with European right-wing populists?",
+    "showComments": true,
+    "nzzId": "ld.10017749",
+    "readingTime": 300,
+    "characterCount": 7636,
+    "authorLine": "Andreas Ernst",
+    "product": "NZZ.ch",
+    "documentId": "10017749",
+    "layout": "regular",
+    "publicationDate": "2026-09-02T03:30:00.000Z",
+    "publicationLastUpdated": "2026-09-02T09:45:48.891Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-09-02T15:30:00.000Z",
+    "teaserCaption": "Transatlantic alliance between Maga movement, European right-wing populists in crisis: Three reasons",
+    "url": "https://www.nzz.ch/pro/trump-und-europas-rechte-warum-die-allianz-kriselt-ld.10017749",
+    "department": {
+     "name": "Pro",
+     "path": "/pro"
+    },
+    "estimationWordCount": 1089,
+    "premium": true,
+    "leadText": "Transatlantic alliance between Maga movement, European right-wing populists in crisis: Three reasons",
+    "nzzSummaryIsAuto": true,
+    "commentsCount": 3,
+    "openToComment": false,
+    "locale": "de-CH"
+   }
+  ]
+ },
+ "digitalData": {
+  "component": [
+   {
+    "id": "ld.1891922",
+    "name": "Upward debt, down taxes and social benefits: what the «Big Beautiful Bill» means for Americans",
+    "type": "article",
+    "subType1": "longformstandard",
+    "subType2": "",
+    "primaryCategory": "Technologie",
+    "subCategory1": "",
+    "attributes": {
+     "headline": "Upward debt, down taxes and social benefits: what the «Big Beautiful Bill» means for Americans",
+     "firstPublishTitle": "",
+     "catchline": "",
+     "authors": [],
+     "issueTimestamp": "2025-07-04T03:30:00.000Z",
+     "updateTimestamp": "2025-07-04T11:20:56.058Z",
+     "isSponsoredContent": false,
+     "isPro": true,
+     "isLiveticker": false,
+     "flag": "",
+     "owner": "NZZ"
+    }
+   }
+  ],
+  "page": {
+   "pageId": "ld.1891922",
+   "pageType": "longformstandard",
+   "primaryCategory": "Technologie",
+   "subCategory1": "",
+   "subCategory2": "",
+   "language": "en-US"
+  },
+  "version": "2.0",
+  "user": {},
+  "event": []
+ },
+ "seoData": {
+  "title": "Debt up, taxes down: what the «Big Beautiful Bill» means for America",
+  "image": {
+   "url": "https://img-msp-prod.nzz.ch/2025/07/03/f2bb47a0-c13b-4e38-b758-04db74f67491.jpeg?width=1200&height=674&fit=bounds&quality=75&auto=webp&crop=4500,2531,x0,y459&wmark=nzz",
+   "type": "image/jpeg",
+   "width": 1200,
+   "height": 674
+  },
+  "author": "Marie-Astrid Langer, San Francisco",
+  "description": "In the end, President Trump won: The Republicans pushed a massive reform package through Congress. Who wins and who loses?",
+  "news_keywords": "Upward debt, down taxes and social benefits: what the «Big Beautiful Bill» means for Americans, Technology, News, NZZ",
+  "type": "article",
+  "last-modified": "2025-07-04T15:20:56+02:00",
+  "date": "2025-07-04T07:30:00+02:00",
+  "canonical": "https://www.nzz.ch/technologie/schulden-rauf-steuern-runter-sozialleistungen-auch-was-die-big-beautiful-bill-fuer-amerikaner-bedeutet-ld.1891922",
+  "fb:app_id": 138008459595436,
+  "fb:pages": 143694099006529,
+  "fb:admins": 1592685173,
+  "locale": "de-CH",
+  "email": "online.redaktion@nzz.ch",
+  "site_name": "Neue Zürcher Zeitung",
+  "copyright": "2026 Neue Zürcher Zeitung AG, Schweiz",
+  "robots": "noindex, nofollow, noarchive, noodp",
+  "hreflang": [
+   {
+    "hreflang": "en",
+    "href": "https://www.nzz.ch/english/for-americans-trumps-big-beautiful-bill-means-more-debt-lower-taxes-and-fewer-social-benefits-ld.1892428"
+   },
+   {
+    "hreflang": "de",
+    "href": "https://www.nzz.ch/technologie/schulden-rauf-steuern-runter-sozialleistungen-auch-was-die-big-beautiful-bill-fuer-amerikaner-bedeutet-ld.1891922"
+   }
+  ],
+  "sharedTitle": "Upward debt, down taxes and social benefits: what the «Big Beautiful Bill» means for Americans",
+  "ogTitle": "Lower taxes, lower social benefits too: what the new mammoth law means for Americans",
+  "ogUrl": "https://www.nzz.ch/technologie/schulden-rauf-steuern-runter-sozialleistungen-auch-was-die-big-beautiful-bill-fuer-amerikaner-bedeutet-ld.1891922",
+  "mrf:cms_id": "nzz:ld.1891922",
+  "mrf:sections": "Technologie;WTM",
+  "mrf:tags": "Page Type:longformstandard;Editorial Owner:NZZ;Content Type:Pro Article;Article ID:ld.1891922",
+  "nzzAuthors": [
+   {
+    "name": "Marie-Astrid Langer, San Francisco"
+   }
+  ],
+  "links": [
+   {
+    "rel": "canonical",
+    "href": "https://www.nzz.ch/technologie/schulden-rauf-steuern-runter-sozialleistungen-auch-was-die-big-beautiful-bill-fuer-amerikaner-bedeutet-ld.1891922"
+   },
+   {
+    "rel": "search",
+    "href": "/suche",
+    "title": "Suche Neue Zürcher Zeitung, Schweiz, https://www.nzz.ch/suche"
+   },
+   {
+    "rel": "alternate",
+    "href": "https://www.nzz.ch/english/for-americans-trumps-big-beautiful-bill-means-more-debt-lower-taxes-and-fewer-social-benefits-ld.1892428",
+    "hreflang": "en"
+   },
+   {
+    "rel": "alternate",
+    "href": "https://www.nzz.ch/technologie/schulden-rauf-steuern-runter-sozialleistungen-auch-was-die-big-beautiful-bill-fuer-amerikaner-bedeutet-ld.1891922",
+    "hreflang": "de"
+   }
+  ],
+  "renderedAt": "Thu, 03 Sep 2026 10:02:41 GMT"
+ },
+ "structuredData": [
+  {
+   "@context": "https://schema.org",
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "item": {
+      "@id": "/",
+      "name": "Home"
+     }
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "item": {
+      "@id": "/technologie",
+      "name": "Technology"
+     }
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Debt up, taxes down: what the «Big Beautiful Bill» means for America"
+    }
+   ]
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": "NewsArticle",
+   "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.nzz.ch/technologie/schulden-rauf-steuern-runter-sozialleistungen-auch-was-die-big-beautiful-bill-fuer-amerikaner-bedeutet-ld.1891922"
+   },
+   "headline": "Debt up, taxes down: what the «Big Beautiful Bill» means for America",
+   "datePublished": "2025-07-04T07:30:00+02:00",
+   "dateModified": "2025-07-04T15:20:56+02:00",
+   "publisher": {
+    "@type": "NewsMediaOrganization",
+    "name": "Neue Zürcher Zeitung",
+    "url": "https://www.nzz.ch",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://www.nzz.ch/logo.png",
+     "width": 413,
+     "height": 60
+    },
+    "contactPoint": [
+     {
+      "@type": "ContactPoint",
+      "telephone": "+41-44-2581000",
+      "contactType": "customer service"
+     }
+    ],
+    "sameAs": [
+     "https://www.facebook.com/nzz",
+     "https://www.twitter.com/nzz",
+     "https://www.youtube.com/channel/UCK1aTcR0AckQRLTlK0c4fuQ",
+     "https://www.linkedin.com/company/neue-zurcher-zeitung",
+     "https://www.instagram.com/nzz/",
+     "https://de.wikipedia.org/wiki/Neue_Z%C3%BCrcher_Zeitung",
+     "https://www.wikidata.org/wiki/Q658945",
+     "https://plus.google.com/+nzz/",
+     "http://www.freebase.com/m/041b43"
+    ],
+    "masthead": "https://www.nzz.ch/impressum/impressum-ld.148422",
+    "foundingDate": "1780"
+   },
+   "description": "In the end, President Trump won: The Republicans pushed a massive reform package through Congress. Who wins and who loses?",
+   "isAccessibleForFree": false,
+   "articleSection": "Technologie",
+   "hasPart": {
+    "@type": "WebPageElement",
+    "isAccessibleForFree": false,
+    "cssSelector": ".nzzinteraction"
+   },
+   "image": {
+    "@type": "ImageObject",
+    "url": "https://img-msp-prod.nzz.ch/2025/07/03/f2bb47a0-c13b-4e38-b758-04db74f67491.jpeg?width=1200&height=674&fit=bounds&quality=75&auto=webp&crop=4500,2531,x0,y459&wmark=nzz",
+    "width": 1200,
+    "height": 674
+   },
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Marie-Astrid Langer, San Francisco"
+    }
+   ],
+   "inLanguage": "de"
+  }
+ ],
+ "mp3": true,
+ "mp3Duration": 753624,
+ "bT": {
+  "standard": {
+   "Tags": [
+    "/technologie/schulden-rauf-steuern-runter-sozialleistungen-auch-was-die-big-beautiful-bill-fuer-amerikaner-bedeutet-ld.1891922",
+    "classification=premium",
+    "relevance=germany",
+    "layout=longformstandard",
+    "owner=nzz",
+    "product=nzz",
+    "doctype=article",
+    "pagetype=article",
+    "ldid=ld.1891922",
+    "channel=Technologie"
+   ],
+   "ContentCreated": "2025-07-04T03:30:00.000Z",
+   "ContentAuthor": "Marie-Astrid Langer, San Francisco",
+   "ContentSection": "Technologie",
+   "ContentIsNative": true
+  },
+  "custom": {
+   "product": "nzz",
+   "docType": "article",
+   "pageType": "article",
+   "layout": "longformstandard",
+   "ldId": "ld.1891922",
+   "channel": "Technologie",
+   "heading": "Schulden rauf, Steuern und Sozialleistungen runter: was die «Big Beautiful Bill» für Amerikaner bedeutet",
+   "language": "en-US"
+  }
+ },
+ "webviewMetadata": {},
+ "cacheTime": 3600
+}

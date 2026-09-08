@@ -1,0 +1,2142 @@
+{
+ "content": [
+  {
+   "identifier": "header",
+   "id": "doc-1jbhl2o410",
+   "content": {
+    "title": "There are sensible ways out of the looming sovereign debt crisis.",
+    "lead": "In the US, in France, and perhaps soon in Germany as well, national debts are spiraling out of control. This is not fate, but a sign of a lack of responsibility and control.",
+    "author": ""
+   },
+   "containers": {
+    "authors": [
+     {
+      "identifier": "author-teaser",
+      "id": "doc-GTB4otzy4Y",
+      "content": {
+       "layout": "authorprofile",
+       "title": "Peter A. Fischer",
+       "url": "/impressum/peter-fischer-ld.1085419",
+       "teaserImage": {
+        "originalUrl": "/2022/07/27/d59a0238-12f1-43d7-8905-6e94594be820.png?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2022/07/27/d59a0238-12f1-43d7-8905-6e94594be820.png?width=1024&quality=75&auto=webp",
+        "width": 800,
+        "height": 800,
+        "crops": [
+         {
+          "name": "web-teaser",
+          "crop": "800,450,x0,y175"
+         },
+         {
+          "name": "1:1",
+          "crop": "800,800,x0,y0"
+         },
+         {
+          "name": "4:3",
+          "crop": "800,600,x0,y100"
+         },
+         {
+          "name": "3:4",
+          "crop": "600,800,x100,y0"
+         }
+        ],
+        "imageService": "fastly"
+       }
+      }
+     }
+    ]
+   },
+   "prevElement": "",
+   "nextElement": "image",
+   "firstContentElement": true
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1jbo1hksn0",
+   "content": {
+    "image": {
+     "author": "Petros Giannakouris / AP",
+     "caption": "Greece's banking and debt crisis of 2009-15 (pictured: a branch of the Greek central bank) should serve as a cautionary tale for Europe. It wasn't just \"rich capitalists\" who needlessly lost vast sums of money and trust.",
+     "originalUrl": "/2025/12/07/6fe6b15c-d162-43d9-859b-8b04d838c958.jpg?width=1024",
+     "width": 5616,
+     "height": 3744,
+     "altText": "A man enters the headquarters of Bank of Greece, in central Athens, on Monday, Dec. 10, 2012. In an attempt to generate stronger participation in its key government bond buyback program, Greece on Monday extended the deadline for banks, funds and investors who own their debt to declare whether they will sell their holdings back at a heavy discount. (AP Photo/Petros Giannakouris)",
+     "origins": [
+      {
+       "name": "Hugo",
+       "identifier": "2176054971"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "caption": "Greece's banking and debt crisis of 2009-15 (pictured: a branch of the Greek central bank) should serve as a cautionary tale for Europe. It wasn't just \"rich capitalists\" who needlessly lost vast sums of money and trust.",
+    "author": "Petros Giannakouris / AP"
+   },
+   "styles": {
+    "fullwidth-widget": "widget--containerwidth"
+   },
+   "prevElement": "header",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jbhl2o412",
+   "content": {
+    "text": "The situation is serious, but not hopeless."
+   },
+   "data": {},
+   "prevElement": "image",
+   "nextElement": "barrier"
+  },
+  {
+   "id": "doc-ecb1add6",
+   "identifier": "barrier",
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jbkbgr070",
+   "content": {
+    "text": "Numerous Western states have repeatedly responded to increasing demands on the public sector and to crises with the same nonchalant attitude in recent decades: they spend ever more and finance this with national debt, which they then fail to reduce during prosperous times. As a result, many countries are now more heavily indebted than they were after the Second World War."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "barrier",
+   "nextElement": "q-embed"
+  },
+  {
+   "identifier": "q-embed",
+   "id": "doc-1jbqe6rc00",
+   "content": {
+    "q-embed": {
+     "service": "q-tool",
+     "params": {
+      "id": "0dddf37557fc328c1415986921b997fb",
+      "conf": {},
+      "toolConfig": {},
+      "toolRuntimeConfig": {
+       "size": {
+        "width": [
+         {
+          "value": 100,
+          "comparison": ">"
+         }
+        ]
+       },
+       "displayOptions": {
+        "hideTitle": false,
+        "hideSubtitle": false,
+        "hideFooter": false,
+        "hideAcronym": false,
+        "size": "basic"
+       },
+       "locale": "en_US"
+      },
+      "size": "containerwidth"
+     },
+     "resolvedValue": {}
+    },
+    "html": "      <div        class=\"q-chart-container\"        id=\"q_chart_0dddf37557fc328c1415986921b997fb_q60c1f0587cbb47e1984985427ebea7a4_container\"        data-q-item-id=\"0dddf37557fc328c1415986921b997fb\"        data-q-request-id=\"dc28d5238130d3078c69682d393efbb65a40c837\"      ></div>",
+    "stylesheets": [
+     {
+      "type": "remote",
+      "content": "https://service.sophie.nzz.ch/bundle/sophie-color%23master,sophie-font%23master,sophie-legend%23master[icon-label],sophie-q%23master,sophie-viz-color%23master[general].css"
+     },
+     {
+      "type": "inline",
+      "content": "  @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff) format(\"woff\");  }    @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff) format(\"woff\");    unicode-range: U+0020-00FF,U+2005,U+2082;  }      "
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/css-theme-layer/nzz-0.2.0.css"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/chart/q-chart-1.2.6.css"
+     }
+    ],
+    "scripts": [
+     {
+      "type": "inline",
+      "content": "function qTrackingBootstrap(t,e,n){if(window.digitalData&&window.digitalData.component&&window.digitalData.component.push){window.digitalData.component.push(t),window.digitalData.event&&window.digitalData.event.length||(window.digitalData.event=[]);var i=new Date,a=e;a.eventInfo.timeStamp=i.toISOString(),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\");var o=document.querySelectorAll(\"[data-q-request-id='\"+n+\"']\");[].forEach.call(o,function(t){t.addEventListener(\"q-tracking-event\",function(t){var e=new Date;(a=JSON.parse(JSON.stringify(a))).eventInfo.timeStamp=e.toISOString(),a.eventInfo=Object.assign(a.eventInfo,t.detail.eventInfo),a.category=Object.assign(a.category,t.detail.category),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\")},!1)})}};qTrackingBootstrap({\"componentInfo\":{\"componentName\":\"Q\",\"componentID\":\"0dddf37557fc328c1415986921b997fb\"},\"category\":{\"componentType\":\"storytelling\",\"componentSubType1\":\"Q graphic\",\"componentSubType2\":\"chart\"}},{\"eventInfo\":{\"eventName\":\"Storytelling Interaction\",\"eventAction\":\"load\",\"type\":\"story\",\"componentName\":\"Q\",\"eventNonInteractive\":true,\"componentID\":\"0dddf37557fc328c1415986921b997fb\"},\"category\":{\"primaryCategory\":\"storytelling\",\"subCategory1\":\"Q graphic\",\"subCategory2\":\"chart\"}},\"dc28d5238130d3078c69682d393efbb65a40c837\")"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/chart/q-chart-1.2.6.js"
+     },
+     {
+      "type": "inline",
+      "content": "      (function () {        function initialize() {          const target = document.querySelector('#q_chart_0dddf37557fc328c1415986921b997fb_q60c1f0587cbb47e1984985427ebea7a4_container');          if (!target) return;          target.innerHTML = '';          const qdoc = {\"_id\":\"0dddf37557fc328c1415986921b997fb\",\"publication\":\"nzz\",\"acronym\":\"pfi.\",\"title\":\"National debt has reached World War II levels\",\"data\":[[\"\",\"Northern Europe\",\"Central Europe\",\"Switzerland\",\"Southern Europe\",\"Eastern Europe\",\"USA\",\"Maastricht debt limit\"],[\"1900\",\"17.8\",\"63.4\",\"3.6\",\"120.5\",\"\",\"6.5\",\"60\"],[\"1901\",\"36.5\",\"64.9\",\"3.4\",\"119.5\",\"\",\"5.6\",\"60\"],[\"1902\",\"35.9\",\"64.5\",\"3.3\",\"120.9\",\"\",\"5.3\",\"60\"],[\"1903\",\"35.3\",\"63.2\",\"4.1\",\"110.5\",\"\",\"4.8\",\"60\"],[\"1904\",\"33.8\",\"62.5\",\"3.5\",\"109.1\",\"\",\"4.9\",\"60\"],[\"1905\",\"33.2\",\"59.3\",\"3.3\",\"104.6\",\"\",\"4.4\",\"60\"],[\"1906\",\"31.7\",\"56.2\",\"3.0\",\"98.6\",\"\",\"3.8\",\"60\"],[\"1907\",\"31.7\",\"56.2\",\"2.7\",\"87.4\",\"\",\"3.7\",\"60\"],[\"1908\",\"32.6\",\"57.2\",\"2.9\",\"89.6\",\"\",\"4.5\",\"60\"],[\"1909\",\"32.3\",\"57.5\",\"3.4\",\"85.9\",\"\",\"3.7\",\"60\"],[\"1910\",\"31.2\",\"57.6\",\"3.2\",\"84.0\",\"\",\"3.6\",\"60\"],[\"1911\",\"29.3\",\"55.0\",\"2.9\",\"73.6\",\"\",\"3.5\",\"60\"],[\"1912\",\"28.2\",\"52.2\",\"2.8\",\"71.1\",\"\",\"3.4\",\"60\"],[\"1913\",\"27.5\",\"52.4\",\"2.7\",\"66.5\",\"\",\"3.2\",\"60\"],[\"1914\",\"30.0\",\"\",\"\",\"\",\"\",\"3.5\",\"60\"],[\"1915\",\"29.0\",\"\",\"\",\"\",\"\",\"3.3\",\"60\"],[\"1916\",\"28.0\",\"\",\"\",\"\",\"\",\"2.7\",\"60\"],[\"1917\",\"29.2\",\"\",\"\",\"\",\"\",\"5.7\",\"60\"],[\"1918\",\"27.3\",\"\",\"\",\"\",\"\",\"18.6\",\"60\"],[\"1919\",\"25.1\",\"\",\"\",\"\",\"\",\"33.3\",\"60\"],[\"1920\",\"22.5\",\"\",\"\",\"\",\"\",\"27.9\",\"60\"],[\"1921\",\"25.8\",\"\",\"\",\"\",\"\",\"32.4\",\"60\"],[\"1922\",\"27.9\",\"\",\"\",\"\",\"\",\"31.5\",\"60\"],[\"1923\",\"30.1\",\"\",\"\",\"121.8\",\"\",\"26.3\",\"60\"],[\"1924\",\"28.7\",\"\",\"\",\"112.9\",\"\",\"24.4\",\"60\"],[\"1925\",\"28.9\",\"56.4\",\"\",\"103.5\",\"\",\"22.5\",\"60\"],[\"1926\",\"29.1\",\"55.4\",\"\",\"87.6\",\"\",\"20.2\",\"60\"],[\"1927\",\"28.2\",\"48.0\",\"\",\"90.7\",\"\",\"19.1\",\"60\"],[\"1928\",\"28.1\",\"43.1\",\"\",\"85.6\",\"\",\"18.2\",\"60\"],[\"1929\",\"32.9\",\"40.5\",\"22.7\",\"84.0\",\"\",\"16.3\",\"60\"],[\"1930\",\"34.2\",\"43.1\",\"22.7\",\"88.4\",\"\",\"17.7\",\"60\"],[\"1931\",\"38.1\",\"49.0\",\"23.5\",\"95.2\",\"\",\"21.9\",\"60\"],[\"1932\",\"43.0\",\"59.3\",\"25.9\",\"91.9\",\"\",\"33.1\",\"60\"],[\"1933\",\"45.6\",\"62.4\",\"26.7\",\"68.9\",\"\",\"40.0\",\"60\"],[\"1934\",\"45.2\",\"62.7\",\"28.1\",\"66.2\",\"\",\"41.0\",\"60\"],[\"1935\",\"45.5\",\"67.2\",\"28.8\",\"64.9\",\"\",\"39.2\",\"60\"],[\"1936\",\"46.3\",\"64.7\",\"33.5\",\"47.7\",\"\",\"40.4\",\"60\"],[\"1937\",\"44.6\",\"61.5\",\"30.5\",\"43.6\",\"\",\"39.6\",\"60\"],[\"1938\",\"43.6\",\"\",\"31.2\",\"44.1\",\"\",\"43.2\",\"60\"],[\"1939\",\"44.7\",\"\",\"37.3\",\"43.7\",\"\",\"44.0\",\"60\"],[\"1940\",\"32.7\",\"\",\"45.0\",\"56.0\",\"\",\"42.4\",\"60\"],[\"1941\",\"38.3\",\"\",\"52.4\",\"60.0\",\"\",\"38.6\",\"60\"],[\"1942\",\"41.4\",\"\",\"57.2\",\"61.1\",\"\",\"44.8\",\"60\"],[\"1943\",\"44.8\",\"\",\"63.0\",\"63.5\",\"\",\"68.9\",\"60\"],[\"1944\",\"51.7\",\"\",\"73.2\",\"60.1\",\"\",\"91.5\",\"60\"],[\"1945\",\"49.3\",\"\",\"78.9\",\"55.5\",\"\",\"116.0\",\"60\"],[\"1946\",\"118.4\",\"\",\"74.5\",\"46.8\",\"\",\"121.2\",\"60\"],[\"1947\",\"\",\"\",\"62.6\",\"39.1\",\"\",\"105.7\",\"60\"],[\"1948\",\"82.7\",\"\",\"43.4\",\"33.0\",\"\",\"93.6\",\"60\"],[\"1949\",\"79.2\",\"87.6\",\"44.4\",\"32.3\",\"\",\"94.4\",\"60\"],[\"1950\",\"67.1\",\"61.4\",\"39.1\",\"29.8\",\"\",\"87.4\",\"60\"],[\"1951\",\"56.8\",\"53.1\",\"36.1\",\"28.1\",\"\",\"75.2\",\"60\"],[\"1952\",\"52.2\",\"50.6\",\"34.0\",\"28.9\",\"\",\"72.3\",\"60\"],[\"1953\",\"59.3\",\"50.3\",\"32.7\",\"29.0\",\"\",\"70.0\",\"60\"],[\"1954\",\"40.7\",\"48.2\",\"31.0\",\"28.1\",\"\",\"71.2\",\"60\"],[\"1955\",\"37.5\",\"45.5\",\"28.3\",\"27.5\",\"\",\"66.1\",\"60\"],[\"1956\",\"35.3\",\"42.5\",\"25.9\",\"26.0\",\"\",\"62.3\",\"60\"],[\"1957\",\"33.8\",\"40.7\",\"22.5\",\"25.1\",\"\",\"58.6\",\"60\"],[\"1958\",\"33.5\",\"42.9\",\"20.4\",\"25.0\",\"\",\"59.1\",\"60\"],[\"1959\",\"31.7\",\"43.7\",\"18.7\",\"24.4\",\"\",\"56.1\",\"60\"],[\"1960\",\"28.3\",\"43.1\",\"16.2\",\"23.8\",\"\",\"61.7\",\"60\"],[\"1961\",\"26.4\",\"42.1\",\"14.0\",\"22.9\",\"\",\"62.3\",\"60\"],[\"1962\",\"25.4\",\"40.6\",\"12.0\",\"22.5\",\"\",\"60.2\",\"60\"],[\"1963\",\"24.6\",\"39.9\",\"10.8\",\"22.7\",\"\",\"58.8\",\"60\"],[\"1964\",\"23.4\",\"37.6\",\"9.4\",\"21.9\",\"\",\"56.7\",\"60\"],[\"1965\",\"22.5\",\"36.7\",\"8.3\",\"20.2\",\"\",\"53.7\",\"60\"],[\"1966\",\"22.0\",\"36.3\",\"7.6\",\"21.1\",\"\",\"50.6\",\"60\"],[\"1967\",\"21.6\",\"36.8\",\"7.3\",\"21.3\",\"\",\"50.4\",\"60\"],[\"1968\",\"21.2\",\"37.0\",\"7.0\",\"22.1\",\"\",\"48.5\",\"60\"],[\"1969\",\"18.6\",\"34.2\",\"7.1\",\"22.5\",\"\",\"45.9\",\"60\"],[\"1970\",\"25.4\",\"37.2\",\"38.9\",\"23.8\",\"\",\"46.4\",\"60\"],[\"1971\",\"25.8\",\"35.6\",\"38.7\",\"24.2\",\"\",\"47.0\",\"60\"],[\"1972\",\"24.3\",\"35.2\",\"38.0\",\"24.9\",\"\",\"45.4\",\"60\"],[\"1973\",\"22.1\",\"33.9\",\"37.0\",\"23.7\",\"\",\"42.6\",\"60\"],[\"1974\",\"21.0\",\"33.3\",\"38.4\",\"23.2\",\"\",\"41.4\",\"60\"],[\"1975\",\"23.0\",\"35.5\",\"42.3\",\"25.8\",\"\",\"44.6\",\"60\"],[\"1976\",\"25.1\",\"36.9\",\"46.7\",\"25.8\",\"\",\"44.8\",\"60\"],[\"1977\",\"26.3\",\"37.7\",\"46.9\",\"26.2\",\"\",\"43.6\",\"60\"],[\"1978\",\"30.2\",\"40.6\",\"46.6\",\"30.9\",\"\",\"42.5\",\"60\"],[\"1979\",\"31.7\",\"42.7\",\"44.6\",\"29.6\",\"\",\"41.2\",\"60\"],[\"1980\",\"34.4\",\"46.5\",\"43.9\",\"27.9\",\"\",\"41.9\",\"60\"],[\"1981\",\"37.7\",\"51.9\",\"40.8\",\"31.2\",\"\",\"41.1\",\"60\"],[\"1982\",\"42.7\",\"57.0\",\"40.0\",\"34.3\",\"\",\"45.9\",\"60\"],[\"1983\",\"47.0\",\"62.5\",\"40.2\",\"37.6\",\"\",\"48.9\",\"60\"],[\"1984\",\"48.7\",\"65.2\",\"39.8\",\"42.3\",\"\",\"50.6\",\"60\"],[\"1985\",\"49.2\",\"68.3\",\"39.1\",\"49.4\",\"\",\"55.4\",\"60\"],[\"1986\",\"47.4\",\"71.1\",\"37.6\",\"51.6\",\"\",\"58.9\",\"60\"],[\"1987\",\"47.0\",\"74.0\",\"36.5\",\"54.5\",\"\",\"60.6\",\"60\"],[\"1988\",\"47.5\",\"75.3\",\"35.0\",\"54.9\",\"\",\"61.3\",\"60\"],[\"1989\",\"45.7\",\"73.9\",\"32.5\",\"56.0\",\"\",\"61.6\",\"60\"],[\"1990\",\"46.2\",\"75.5\",\"33.3\",\"60.0\",\"\",\"63.1\",\"60\"],[\"1991\",\"48.7\",\"75.4\",\"35.1\",\"61.4\",\"\",\"67.9\",\"60\"],[\"1992\",\"55.7\",\"76.9\",\"39.5\",\"63.8\",\"\",\"70.3\",\"60\"],[\"1993\",\"63.9\",\"80.3\",\"44.4\",\"74.3\",\"\",\"71.9\",\"60\"],[\"1994\",\"63.5\",\"80.4\",\"47.1\",\"76.6\",\"\",\"71.1\",\"60\"],[\"1995\",\"62.8\",\"81.7\",\"50.0\",\"79.8\",\"27.1\",\"70.7\",\"60\"],[\"1996\",\"62.0\",\"81.4\",\"51.3\",\"81.8\",\"34.2\",\"69.9\",\"60\"],[\"1997\",\"59.4\",\"77.9\",\"53.7\",\"80.1\",\"30.2\",\"67.4\",\"60\"],[\"1998\",\"56.8\",\"77.5\",\"55.9\",\"78.1\",\"27.8\",\"64.2\",\"60\"],[\"1999\",\"53.4\",\"73.7\",\"52.7\",\"77.7\",\"32.3\",\"60.5\",\"60\"],[\"2000\",\"49.8\",\"71.6\",\"52.2\",\"76.6\",\"33.0\",\"54.5\",\"60\"],[\"2001\",\"47.5\",\"70.5\",\"51.1\",\"76.8\",\"33.6\",\"53.1\",\"60\"],[\"2002\",\"48.9\",\"70.0\",\"57.7\",\"76.2\",\"32.3\",\"55.5\",\"60\"],[\"2003\",\"48.9\",\"70.0\",\"56.9\",\"76.3\",\"31.7\",\"58.6\",\"60\"],[\"2004\",\"48.7\",\"69.2\",\"57.8\",\"77.0\",\"30.2\",\"66.1\",\"60\"],[\"2005\",\"45.4\",\"70.0\",\"54.9\",\"79.0\",\"28.0\",\"65.5\",\"60\"],[\"2006\",\"40.7\",\"67.4\",\"48.5\",\"77.3\",\"26.1\",\"64.2\",\"60\"],[\"2007\",\"37.2\",\"64.5\",\"44.8\",\"75.9\",\"24.3\",\"64.6\",\"60\"],[\"2008\",\"41.3\",\"70.2\",\"44.8\",\"79.8\",\"24.3\",\"73.4\",\"60\"],[\"2009\",\"45.3\",\"77.0\",\"43.1\",\"92.6\",\"30.7\",\"86.6\",\"60\"],[\"2010\",\"48.3\",\"80.6\",\"41.5\",\"101.9\",\"34.7\",\"95.2\",\"60\"],[\"2011\",\"50.3\",\"81.2\",\"41.9\",\"113.2\",\"37.7\",\"99.5\",\"60\"],[\"2012\",\"52.5\",\"82.9\",\"42.6\",\"119.4\",\"41.9\",\"103.1\",\"60\"],[\"2013\",\"53.2\",\"82.7\",\"41.9\",\"127.1\",\"46.4\",\"104.3\",\"60\"],[\"2014\",\"54.6\",\"83.0\",\"42.1\",\"129.7\",\"48.4\",\"104.2\",\"60\"],[\"2015\",\"53.6\",\"81.1\",\"42.2\",\"128.6\",\"47.8\",\"104.7\",\"60\"],[\"2016\",\"51.9\",\"79.1\",\"40.9\",\"129.9\",\"47.3\",\"106.6\",\"60\"],[\"2017\",\"50.0\",\"75.1\",\"41.8\",\"128.5\",\"44.5\",\"105.5\",\"60\"],[\"2018\",\"47.7\",\"71.6\",\"39.8\",\"128.8\",\"42.2\",\"106.8\",\"60\"],[\"2019\",\"46.6\",\"68.6\",\"39.6\",\"126.2\",\"40.4\",\"108.0\",\"60\"],[\"2020\",\"53.5\",\"79.0\",\"43.2\",\"147.2\",\"51.1\",\"131.8\",\"60\"],[\"2021\",\"50.1\",\"77.2\",\"41.0\",\"139.9\",\"49.7\",\"124.5\",\"60\"],[\"2022\",\"47.3\",\"74.0\",\"37.2\",\"130.2\",\"47.3\",\"118.6\",\"60\"],[\"2023\",\"46.3\",\"72.6\",\"33.3\",\"123.5\",\"46.3\",\"118.7\",\"60\"]],\"allowDownloadData\":false,\"events\":[{\"type\":\"range\",\"dateFrom\":\"1914\",\"dateTo\":\"1919\",\"label\":\"World War I\"},{\"type\":\"range\",\"dateFrom\":\"1939\",\"dateTo\":\"1945\",\"label\":\"Second World War\"},{\"type\":\"range\",\"dateFrom\":\"2007\",\"dateTo\":\"2008\",\"label\":\"Great Financial Crisis\"},{\"type\":\"range\",\"dateFrom\":\"2020\",\"dateTo\":\"2022\",\"label\":\"Corona pandemic\"},{\"type\":\"range\",\"dateFrom\":\"2009\",\"dateTo\":\"2015\",\"label\":\"Euro and Greek crisis\"},{\"type\":\"range\",\"dateFrom\":\"1990\",\"dateTo\":\"1993\",\"label\":\"Scandinavian banking and economic crisis\"}],\"sources\":[{\"link\":{\"url\":\"https://www.imf.org/external/datamapper/prim_exp@FPP/USA/FRA/JPN/GBR/SWE/ESP/ITA/ZAF/IND\",\"isValid\":true},\"text\":\"Public Finance in Modern History, IMF 2023\"},{\"link\":{},\"text\":\"own calculations\"}],\"options\":{\"chartType\":\"Line\",\"hideAxisLabel\":true,\"highlightDataSeries\":[],\"highlightDataRows\":[],\"annotations\":{},\"barOptions\":{\"isBarChart\":false,\"forceBarsOnSmall\":false},\"dateSeriesOptions\":{\"interval\":\"auto\",\"labels\":\"many\",\"prognosisStart\":null},\"lineChartOptions\":{\"yScaleType\":\"linear\",\"reverseYScale\":false,\"lineInterpolation\":\"linear\",\"isStockChart\":false,\"maxValue\":80},\"areaChartOptions\":{\"areaInterpolation\":\"linear\",\"stackType\":\"zero\"},\"dotplotOptions\":{},\"arrowOptions\":{\"colorScheme\":0,\"invertColorScheme\":false},\"colorOverwritesSeries\":[{\"color\":\"#8aabfd\",\"colorLight\":\"#8aabfd\",\"position\":1},{\"color\":\"#e3b13e\",\"colorLight\":\"#e3b13e\",\"position\":2},{\"color\":\"#ce4631\",\"colorLight\":\"#ce4631\",\"position\":3},{\"color\":\"#478c5b\",\"colorLight\":\"#478c5b\",\"position\":5},{\"color\":\"#374e8e\",\"colorLight\":\"#374e8e\",\"position\":6},{\"color\":\"#383751\",\"colorLight\":\"#383751\",\"position\":7}],\"colorOverwritesRows\":[],\"largeNumbers\":{\"divideBy\":0},\"compactEventLegend\":true},\"subtitle\":\"Gross government debt, as a percentage of gross domestic product\",\"updatedDate\":\"2025-12-06T18:16:44.869Z\",\"notes\":\"Unweighted country averages. Northern Europe: Denmark, Finland, Norway, Sweden; Central Europe: Belgium, Germany, Netherlands, Switzerland, Austria; Southern Europe: France, Greece, Italy, Portugal, Spain; Eastern Europe: Bulgaria, Estonia, Croatia, Poland, Slovakia, Slovenia, Romania, Czech Republic.\",\"thumbnail\":\"https://nzzqprod-4851.kxcdn.com/q-item-thumbnails/nzz/e1f3d4fda757ea9d1f9652f8d62f7dbc-thumbnail.jpeg\"};          const toolRuntimeConfig = {\"displayOptions\":{\"hideTitle\":false,\"hideSubtitle\":false,\"hideFooter\":false,\"hideAcronym\":false,\"size\":\"basic\"},\"size\":{\"width\":[{\"value\":100,\"comparison\":\">\"}]},\"locale\":\"en-US\"};          const toolSettings = {\"qItemInstanceId\":\"q_chart_0dddf37557fc328c1415986921b997fb_q60c1f0587cbb47e1984985427ebea7a4\"};          let attempts = 0;          const maxAttempts = 100;          const checkAndInitialize = setInterval(() => {            if (window.qChart) {              clearInterval(checkAndInitialize);              new window.qChart({ target: target, props: {                qdoc: qdoc,                toolSettings: toolSettings,                toolRuntimeConfig: toolRuntimeConfig              } });            } else {              attempts++;              if (attempts >= maxAttempts) {                clearInterval(checkAndInitialize);                console.error('Failed to initialize qChart after 30 seconds');              }            }          }, 300);        }        if (document.body.classList.contains('pagedone')) {          initialize();        } else {          window.addEventListener('pagedone', initialize);        }      })();    "
+     }
+    ]
+   },
+   "styles": {
+    "fullwidth-widget": "widget--containerwidth"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jbk9fg6o0",
+   "content": {
+    "text": "The increase in government debt relative to economic output was particularly pronounced in the USA and in the southern European countries. France clearly belongs to southern Europe in this respect. Northern European countries, on the other hand, have on average managed to keep their debt levels under control. Eastern European countries are also in a relatively sound financial position. In contrast, Central European countries have only managed a half-hearted stabilization at an excessively high level in recent years."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "q-embed",
+   "nextElement": "infobox-advanced"
+  },
+  {
+   "identifier": "infobox-advanced",
+   "id": "doc-1jbum5uf80",
+   "content": {
+    "title": "<strong>Geopolitical classification at a glance</strong>"
+   },
+   "containers": {
+    "infobox": [
+     {
+      "identifier": "p-text",
+      "id": "doc-1jbum61150",
+      "content": {
+       "text": "<strong>In short:</strong> Indiscriminate government spending (especially on social programs), coupled with a lack of growth-promoting reforms, has driven the ratio of national debt to economic output to alarming levels in many countries. But excessive government spending doesn't buy a satisfied population; it merely raises expectations. This paralyzes the functioning of the state. A return to sound fiscal policy is particularly in the interest of the less affluent and the younger generation.<strong></strong>"
+      }
+     },
+     {
+      "identifier": "p-text",
+      "id": "doc-1jbum6io21",
+      "content": {
+       "text": "<strong>Geopolitical assessment:</strong> The northern and eastern European countries demonstrate that it is possible to avoid a debt spiral. The Swedish reforms deserve wider emulation. And the Portuguese reforms prove that southern Europe, too, can consolidate.<strong></strong>"
+      }
+     },
+     {
+      "identifier": "p-text",
+      "id": "doc-1jbum6m5p1",
+      "content": {
+       "text": "<strong>Looking ahead:</strong> Europe must invest more in its security, not in its interest payments. The continent's future geopolitical and geoeconomic standing will depend, not least, on its ability to reprioritize public finances."
+      }
+     }
+    ]
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jbnvd69s1",
+   "content": {
+    "text": "Germany's debt-to-GDP ratio is currently only 64 percent. However, according to forecasts by the International Monetary Fund (IMF), it is expected to rise by a full 10 percentage points over the next five years. Switzerland, consolidated across its federal levels, is at a level comparable to other northern European countries with a debt-to-GDP ratio of 37 percent – Sweden (34 percent) and Denmark (30 percent) have slightly lower levels of debt."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "infobox-advanced",
+   "nextElement": "q-embed"
+  },
+  {
+   "identifier": "q-embed",
+   "id": "doc-1jbk9oc5a0",
+   "content": {
+    "q-embed": {
+     "service": "q-tool",
+     "params": {
+      "id": "68d425d4699e9424f42875706c7d9461",
+      "conf": {},
+      "toolConfig": {},
+      "toolRuntimeConfig": {
+       "size": {
+        "width": [
+         {
+          "value": 100,
+          "comparison": ">"
+         }
+        ]
+       },
+       "displayOptions": {
+        "hideTitle": false,
+        "hideSubtitle": false,
+        "hideFooter": false,
+        "hideAcronym": false,
+        "size": "basic"
+       },
+       "locale": "en_US"
+      },
+      "size": "containerwidth"
+     },
+     "resolvedValue": {}
+    },
+    "html": "      <div        class=\"q-chart-container\"        id=\"q_chart_68d425d4699e9424f42875706c7d9461_q4429d713795f4c5680f585ec746b7f67_container\"        data-q-item-id=\"68d425d4699e9424f42875706c7d9461\"        data-q-request-id=\"913b53dacea82e27182f16a9af418042a29be016\"      ></div>",
+    "stylesheets": [
+     {
+      "type": "remote",
+      "content": "https://service.sophie.nzz.ch/bundle/sophie-color%23master,sophie-font%23master,sophie-legend%23master[icon-label],sophie-q%23master,sophie-viz-color%23master[general].css"
+     },
+     {
+      "type": "inline",
+      "content": "  @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff) format(\"woff\");  }    @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff) format(\"woff\");    unicode-range: U+0020-00FF,U+2005,U+2082;  }      "
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/css-theme-layer/nzz-0.2.0.css"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/chart/q-chart-1.2.6.css"
+     }
+    ],
+    "scripts": [
+     {
+      "type": "inline",
+      "content": "function qTrackingBootstrap(t,e,n){if(window.digitalData&&window.digitalData.component&&window.digitalData.component.push){window.digitalData.component.push(t),window.digitalData.event&&window.digitalData.event.length||(window.digitalData.event=[]);var i=new Date,a=e;a.eventInfo.timeStamp=i.toISOString(),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\");var o=document.querySelectorAll(\"[data-q-request-id='\"+n+\"']\");[].forEach.call(o,function(t){t.addEventListener(\"q-tracking-event\",function(t){var e=new Date;(a=JSON.parse(JSON.stringify(a))).eventInfo.timeStamp=e.toISOString(),a.eventInfo=Object.assign(a.eventInfo,t.detail.eventInfo),a.category=Object.assign(a.category,t.detail.category),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\")},!1)})}};qTrackingBootstrap({\"componentInfo\":{\"componentName\":\"Q\",\"componentID\":\"68d425d4699e9424f42875706c7d9461\"},\"category\":{\"componentType\":\"storytelling\",\"componentSubType1\":\"Q graphic\",\"componentSubType2\":\"chart\"}},{\"eventInfo\":{\"eventName\":\"Storytelling Interaction\",\"eventAction\":\"load\",\"type\":\"story\",\"componentName\":\"Q\",\"eventNonInteractive\":true,\"componentID\":\"68d425d4699e9424f42875706c7d9461\"},\"category\":{\"primaryCategory\":\"storytelling\",\"subCategory1\":\"Q graphic\",\"subCategory2\":\"chart\"}},\"913b53dacea82e27182f16a9af418042a29be016\")"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/chart/q-chart-1.2.6.js"
+     },
+     {
+      "type": "inline",
+      "content": "      (function () {        function initialize() {          const target = document.querySelector('#q_chart_68d425d4699e9424f42875706c7d9461_q4429d713795f4c5680f585ec746b7f67_container');          if (!target) return;          target.innerHTML = '';          const qdoc = {\"_id\":\"68d425d4699e9424f42875706c7d9461\",\"allowDownloadData\":false,\"title\":\"The US and France pay more for interest than for the military\",\"subtitle\":\"Share of total government spending, in percent\",\"publication\":\"nzz\",\"acronym\":\"pfi.\",\"data\":[[\"\",\"F Interest\",\"F Military\",\"US interest rates\",\"US military\",\"Swiss interest rates\",\"CH Military\"],[\"2010\",\"4.94\",\"3.28\",\"7.16\",\"10.85\",\"2.76\",\"2.49\"],[\"2011\",\"5.39\",\"3.17\",\"8.21\",\"10.77\",\"2.51\",\"2.48\"],[\"2012\",\"5.15\",\"3.15\",\"8.17\",\"10.45\",\"2.26\",\"2.41\"],[\"2013\",\"4.53\",\"3.1\",\"7.64\",\"9.63\",\"1.95\",\"2.44\"],[\"2014\",\"4.32\",\"2.94\",\"7.85\",\"9.07\",\"1.80\",\"2.33\"],[\"2015\",\"4.06\",\"3.08\",\"7.48\",\"8.65\",\"1.69\",\"2.29\"],[\"2016\",\"3.84\",\"3.37\",\"8.20\",\"8.36\",\"1.46\",\"2.35\"],[\"2017\",\"3.59\",\"3.14\",\"8.50\",\"8.31\",\"1.23\",\"2.38\"],[\"2018\",\"3.64\",\"3.16\",\"9.67\",\"8.47\",\"1.00\",\"2.36\"],[\"2019\",\"3.17\",\"3.12\",\"9.83\",\"8.65\",\"0.90\",\"2.48\"],[\"2020\",\"2.36\",\"3.03\",\"6.07\",\"7.37\",\"0.68\",\"2.36\"],[\"2021\",\"2.68\",\"2.91\",\"6.85\",\"7.1\",\"0.58\",\"2.22\"],[\"2022\",\"3.76\",\"3.08\",\"10.84\",\"7.78\",\"0.71\",\"2.47\"],[\"2023\",\"3.37\",\"3.2\",\"12.91\",\"7.78\",\"0.98\",\"2.61\"]],\"sources\":[{\"text\":\"Interest costs: IMF, World Development Indicators, Fall 2025\",\"link\":{\"url\":\"https://databank.worldbank.org/source/world-development-indicators\"}},{\"text\":\"Defense spending: OECD, Government at a Glance 2025\",\"link\":{\"url\":\"https://data-explorer.oecd.org/vis?pg=0&fs[0]=Topic%2C1%7CPublic%20governance%23GOV%23%7CPublic%20finance%20and%20budgets%23GOV_PFB%23&fc=Topic&snb=22&bp=true&isAvailabilityDisabled=false&vw=tb&df[ds]=dsDisseminateFinalDMZ&df[id]=DSD_GOV_COFOG%40DF_GOV_COFOG_2025&df[ag]=OECD.GOV.GIP&df[vs]=1.0&dq=A.FRA%2BDEU%2BGRC%2BITA%2BSWE%2BCHE%2BGBR%2BUSA.GE.PT_OTE_S13..GF07%2BGF02%2BGF10..PF&pd=2007%2C&to[TIME_PERIOD]=false\"}}],\"events\":[],\"options\":{\"annotations\":{},\"areaChartOptions\":{\"areaInterpolation\":\"linear\",\"stackType\":\"zero\"},\"arrowOptions\":{\"colorScheme\":0,\"invertColorScheme\":false},\"barOptions\":{\"isBarChart\":false,\"forceBarsOnSmall\":false},\"chartType\":\"Bar\",\"colorOverwritesRows\":[],\"colorOverwritesSeries\":[{\"color\":\"#8aabfd\",\"colorLight\":\"#8aabfd\",\"position\":1},{\"color\":\"#374e8e\",\"colorLight\":\"#374e8e\",\"position\":2},{\"color\":\"#ac004f\",\"colorLight\":\"#ac004f\",\"position\":6},{\"color\":\"#ce4631\",\"colorLight\":\"#ce4631\",\"position\":5},{\"color\":\"#383751\",\"colorLight\":\"#383751\",\"position\":4},{\"color\":\"#7e7e8f\",\"colorLight\":\"#7e7e8f\",\"position\":3}],\"dateSeriesOptions\":{\"interval\":\"auto\",\"labels\":\"many\",\"prognosisStart\":null},\"dotplotOptions\":{},\"hideAxisLabel\":true,\"highlightDataRows\":[],\"highlightDataSeries\":[],\"lineChartOptions\":{\"yScaleType\":\"linear\",\"reverseYScale\":false,\"lineInterpolation\":\"linear\",\"isStockChart\":false},\"largeNumbers\":{\"divideBy\":0}},\"updatedDate\":\"2025-12-04T09:05:31.589Z\"};          const toolRuntimeConfig = {\"displayOptions\":{\"hideTitle\":false,\"hideSubtitle\":false,\"hideFooter\":false,\"hideAcronym\":false,\"size\":\"basic\"},\"size\":{\"width\":[{\"value\":100,\"comparison\":\">\"}]},\"locale\":\"en-US\"};          const toolSettings = {\"qItemInstanceId\":\"q_chart_68d425d4699e9424f42875706c7d9461_q4429d713795f4c5680f585ec746b7f67\"};          let attempts = 0;          const maxAttempts = 100;          const checkAndInitialize = setInterval(() => {            if (window.qChart) {              clearInterval(checkAndInitialize);              new window.qChart({ target: target, props: {                qdoc: qdoc,                toolSettings: toolSettings,                toolRuntimeConfig: toolRuntimeConfig              } });            } else {              attempts++;              if (attempts >= maxAttempts) {                clearInterval(checkAndInitialize);                console.error('Failed to initialize qChart after 30 seconds');              }            }          }, 300);        }        if (document.body.classList.contains('pagedone')) {          initialize();        } else {          window.addEventListener('pagedone', initialize);        }      })();    "
+     }
+    ]
+   },
+   "styles": {
+    "fullwidth-widget": "widget--containerwidth"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jbk9l9go0",
+   "content": {
+    "text": "The high and still-increasing debt levels of many developed countries are a problem. They restrict these countries' fiscal flexibility. For the past three years, the US has been spending significantly more on interest payments on its national debt than on its military. France also pays more in interest than it spends on its armed forces. Both countries have chronically unbalanced deficits throughout the economic cycle. They pay their interest with new debt. If this continues, it will sooner or later lead to a sovereign debt crisis, like the one Greece experienced starting in 2009."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "q-embed",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1jbkermei0",
+   "content": {
+    "title": "It's not just \"rich capitalists\" who are affected.",
+    "id": "subtitle-nicht-nur-reiche-kapitalisten-betroffen"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jbk9l9lo0",
+   "content": {
+    "text": "Sovereign debt crises are the worst and most expensive form of debt relief. They are usually associated with forced, substantial debt write-offs. This not only puts \"wealthy capitalists\" in a difficult position, but typically also banks, pension funds, insurance companies, and their customers."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jbkff6sc1",
+   "content": {
+    "text": "To protect taxpayers, central banks often step in and buy up debt. However, when government debt is monetized on a large scale, it leads to high inflation. Small savers are less able to protect themselves against this than wealthy capitalists."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jbkfid0j0",
+   "content": {
+    "text": "It is therefore far better to balance public finances in good time. This is especially true at present. After government revenues flowed abundantly until recently, the geopolitical and geoeconomic situation has now deteriorated. The public sector must prepare for significantly higher defense spending. Consolidation is most easily achieved when it is linked to reforms that promote economic growth."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1jbnvsdk10",
+   "content": {
+    "title": "There are good role models.",
+    "id": "subtitle-es-gibt-gute-vorbilder"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jbkfb89d0",
+   "content": {
+    "text": "Sweden, for example, has shown that this is possible. Under the left-wing socialists, government spending rose seemingly incessantly in the 1980s and 1990s. An ever-increasing share of annual economic output was consumed by the state. The government spending ratio climbed to over 60 percent. The economy began to falter. With high taxes, more and more Swedes focused on extracting the maximum personal benefit from their expensive state."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "q-embed"
+  },
+  {
+   "identifier": "q-embed",
+   "id": "doc-1jbk9p6hh0",
+   "content": {
+    "q-embed": {
+     "service": "q-tool",
+     "params": {
+      "id": "5f0d990f01eef2d9275d2ca603a2a5e5",
+      "conf": {},
+      "toolConfig": {},
+      "toolRuntimeConfig": {
+       "size": {
+        "width": [
+         {
+          "value": 100,
+          "comparison": ">"
+         }
+        ]
+       },
+       "displayOptions": {
+        "hideTitle": false,
+        "hideSubtitle": false,
+        "hideFooter": false,
+        "hideAcronym": false,
+        "size": "basic"
+       },
+       "locale": "en_US"
+      },
+      "size": "containerwidth"
+     },
+     "resolvedValue": {}
+    },
+    "html": "      <div        class=\"q-chart-container\"        id=\"q_chart_5f0d990f01eef2d9275d2ca603a2a5e5_qfd0a140601584998a02f5d41cc88e2bf_container\"        data-q-item-id=\"5f0d990f01eef2d9275d2ca603a2a5e5\"        data-q-request-id=\"11e3fe87b96c810661f9965197ab5ae8f1e27e27\"      ></div>",
+    "stylesheets": [
+     {
+      "type": "remote",
+      "content": "https://service.sophie.nzz.ch/bundle/sophie-color%23master,sophie-font%23master,sophie-legend%23master[icon-label],sophie-q%23master,sophie-viz-color%23master[general].css"
+     },
+     {
+      "type": "inline",
+      "content": "  @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff) format(\"woff\");  }    @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff) format(\"woff\");    unicode-range: U+0020-00FF,U+2005,U+2082;  }      "
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/css-theme-layer/nzz-0.2.0.css"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/chart/q-chart-1.2.6.css"
+     }
+    ],
+    "scripts": [
+     {
+      "type": "inline",
+      "content": "function qTrackingBootstrap(t,e,n){if(window.digitalData&&window.digitalData.component&&window.digitalData.component.push){window.digitalData.component.push(t),window.digitalData.event&&window.digitalData.event.length||(window.digitalData.event=[]);var i=new Date,a=e;a.eventInfo.timeStamp=i.toISOString(),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\");var o=document.querySelectorAll(\"[data-q-request-id='\"+n+\"']\");[].forEach.call(o,function(t){t.addEventListener(\"q-tracking-event\",function(t){var e=new Date;(a=JSON.parse(JSON.stringify(a))).eventInfo.timeStamp=e.toISOString(),a.eventInfo=Object.assign(a.eventInfo,t.detail.eventInfo),a.category=Object.assign(a.category,t.detail.category),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\")},!1)})}};qTrackingBootstrap({\"componentInfo\":{\"componentName\":\"Q\",\"componentID\":\"5f0d990f01eef2d9275d2ca603a2a5e5\"},\"category\":{\"componentType\":\"storytelling\",\"componentSubType1\":\"Q graphic\",\"componentSubType2\":\"chart\"}},{\"eventInfo\":{\"eventName\":\"Storytelling Interaction\",\"eventAction\":\"load\",\"type\":\"story\",\"componentName\":\"Q\",\"eventNonInteractive\":true,\"componentID\":\"5f0d990f01eef2d9275d2ca603a2a5e5\"},\"category\":{\"primaryCategory\":\"storytelling\",\"subCategory1\":\"Q graphic\",\"subCategory2\":\"chart\"}},\"11e3fe87b96c810661f9965197ab5ae8f1e27e27\")"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/chart/q-chart-1.2.6.js"
+     },
+     {
+      "type": "inline",
+      "content": "      (function () {        function initialize() {          const target = document.querySelector('#q_chart_5f0d990f01eef2d9275d2ca603a2a5e5_qfd0a140601584998a02f5d41cc88e2bf_container');          if (!target) return;          target.innerHTML = '';          const qdoc = {\"_id\":\"5f0d990f01eef2d9275d2ca603a2a5e5\",\"allowDownloadData\":false,\"title\":\"Consolidation is possible: Sweden\",\"subtitle\":\"as a percentage of gross domestic product\",\"publication\":\"nzz\",\"acronym\":\"pfi.\",\"data\":[[null,\"Gross national debt\",\"Government spending\"],[\"1970\",\"16.9\",\"29.5\"],[\"1971\",\"16.9\",\"29.8\"],[\"1972\",\"17.2\",\"31.9\"],[\"1973\",\"18\",\"31.1\"],[\"1974\",\"19.4\",\"30.1\"],[\"1975\",\"19.9\",\"30.6\"],[\"1976\",\"19\",\"32.3\"],[\"1977\",\"21\",\"35.7\"],[\"1978\",\"24\",\"39.1\"],[\"1979\",\"28.3\",\"39.9\"],[\"1980\",\"34.4\",\"41\"],[\"1981\",\"41.5\",\"46.1\"],[\"1982\",\"47.9\",\"46.4\"],[\"1983\",\"54.5\",\"48.6\"],[\"1984\",\"57.5\",\"46.7\"],[\"1985\",\"61.2\",\"47.6\"],[\"1986\",\"59.5\",\"42.1\"],[\"1987\",\"56\",\"40.9\"],[\"1988\",\"50.3\",\"37.9\"],[\"1989\",\"44.8\",\"35.8\"],[\"1990\",\"40.3\",\"38\"],[\"1991\",\"40.2\",\"41\"],[\"1992\",\"45.7\",\"45.9\"],[\"1993\",\"65.7\",\"69.4\"],[\"1994\",\"68.2\",\"67.1\"],[\"1995\",\"68.3\",\"63\"],[\"1996\",\"68.7\",\"61\"],[\"1997\",\"67.4\",\"58.7\"],[\"1998\",\"65.1\",\"56.4\"],[\"1999\",\"60.1\",\"56\"],[\"2000\",\"50.2\",\"53.1\"],[\"2001\",\"51.8\",\"52.5\"],[\"2002\",\"49.8\",\"53.6\"],[\"2003\",\"49.3\",\"53.8\"],[\"2004\",\"48.5\",\"52.5\"],[\"2005\",\"48.8\",\"52.3\"],[\"2006\",\"43.7\",\"51.1\"],[\"2007\",\"39\",\"49.3\"],[\"2008\",\"37.5\",\"50\"],[\"2009\",\"40.7\",\"52.4\"],[\"2010\",\"38.1\",\"50.4\"],[\"2011\",\"37.1\",\"48.7\"],[\"2012\",\"37.5\",\"49.9\"],[\"2013\",\"40.2\",\"50.6\"],[\"2014\",\"44.9\",\"49.7\"],[\"2015\",\"43.7\",\"48.4\"],[\"2016\",\"42.3\",\"48.8\"],[\"2017\",\"40.7\",\"48.2\"],[\"2018\",\"39.2\",\"48.8\"],[\"2019\",\"35.5\",\"48.1\"],[\"2020\",\"39.8\",\"51\"],[\"2021\",\"36.4\",\"48.2\"],[\"2022\",\"32.7\",\"47.3\"],[\"2023\",\"36.4\",\"48.9\"],[\"2024\",\"33.0\",\"49.3\"],[\"2025\",\"34.2\",\"49.0\"]],\"sources\":[],\"events\":[{\"type\":\"range\",\"label\":\"Scandinavian banking and financial crisis\",\"dateFrom\":\"1990\",\"dateTo\":\"1994\"},{\"type\":\"range\",\"label\":\"Corona pandemic\",\"dateFrom\":\"2020\",\"dateTo\":\"2022\"},{\"type\":\"range\",\"label\":\"European banking and debt crisis\",\"dateFrom\":\"2009\",\"dateTo\":\"2015\"}],\"options\":{\"annotations\":{},\"areaChartOptions\":{\"areaInterpolation\":\"linear\",\"stackType\":\"zero\"},\"arrowOptions\":{\"colorScheme\":0,\"invertColorScheme\":false},\"barOptions\":{\"isBarChart\":false,\"forceBarsOnSmall\":false},\"chartType\":\"Line\",\"colorOverwritesRows\":[],\"colorOverwritesSeries\":[],\"dateSeriesOptions\":{\"interval\":\"auto\",\"labels\":\"many\",\"prognosisStart\":null},\"dotplotOptions\":{},\"hideAxisLabel\":true,\"highlightDataRows\":[],\"highlightDataSeries\":[0],\"lineChartOptions\":{\"yScaleType\":\"linear\",\"reverseYScale\":false,\"lineInterpolation\":\"linear\",\"isStockChart\":false},\"largeNumbers\":{\"divideBy\":0},\"compactEventLegend\":true},\"updatedDate\":\"2025-12-06T17:07:49.352Z\"};          const toolRuntimeConfig = {\"displayOptions\":{\"hideTitle\":false,\"hideSubtitle\":false,\"hideFooter\":false,\"hideAcronym\":false,\"size\":\"basic\"},\"size\":{\"width\":[{\"value\":100,\"comparison\":\">\"}]},\"locale\":\"en-US\"};          const toolSettings = {\"qItemInstanceId\":\"q_chart_5f0d990f01eef2d9275d2ca603a2a5e5_qfd0a140601584998a02f5d41cc88e2bf\"};          let attempts = 0;          const maxAttempts = 100;          const checkAndInitialize = setInterval(() => {            if (window.qChart) {              clearInterval(checkAndInitialize);              new window.qChart({ target: target, props: {                qdoc: qdoc,                toolSettings: toolSettings,                toolRuntimeConfig: toolRuntimeConfig              } });            } else {              attempts++;              if (attempts >= maxAttempts) {                clearInterval(checkAndInitialize);                console.error('Failed to initialize qChart after 30 seconds');              }            }          }, 300);        }        if (document.body.classList.contains('pagedone')) {          initialize();        } else {          window.addEventListener('pagedone', initialize);        }      })();    "
+     }
+    ]
+   },
+   "styles": {
+    "fullwidth-widget": "widget--containerwidth"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jbkgjlj81",
+   "content": {
+    "text": "During the Scandinavian banking and financial crisis of 1990 to 1994, it became clear to everyone that things could not continue as they were. Sweden put its public finances on a more solid footing with a whole series of reforms. Old-age pensions were converted to a fully funded system, and pension entitlements were linked to life expectancy. Business-friendly and competition-oriented tax and labor market reforms stimulated growth. As a result, the ratio of government debt to economic output has halved in the past quarter-century, from 69 to 34 percent."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "q-embed",
+   "nextElement": "q-embed"
+  },
+  {
+   "identifier": "q-embed",
+   "id": "doc-1jbk9v0tm0",
+   "content": {
+    "q-embed": {
+     "service": "q-tool",
+     "params": {
+      "id": "68d425d4699e9424f42875706cc96c62",
+      "conf": {},
+      "toolConfig": {},
+      "toolRuntimeConfig": {
+       "size": {
+        "width": [
+         {
+          "value": 100,
+          "comparison": ">"
+         }
+        ]
+       },
+       "displayOptions": {
+        "hideTitle": false,
+        "hideSubtitle": false,
+        "hideFooter": false,
+        "hideAcronym": false,
+        "size": "basic"
+       },
+       "locale": "en_US"
+      },
+      "size": "containerwidth"
+     },
+     "resolvedValue": {}
+    },
+    "html": "      <div        class=\"q-chart-container\"        id=\"q_chart_68d425d4699e9424f42875706cc96c62_q7b233710a0b049568a5356c41b67206c_container\"        data-q-item-id=\"68d425d4699e9424f42875706cc96c62\"        data-q-request-id=\"8742d08c30ee9cdeac32ab4514e4ed3851ec875f\"      ></div>",
+    "stylesheets": [
+     {
+      "type": "remote",
+      "content": "https://service.sophie.nzz.ch/bundle/sophie-color%23master,sophie-font%23master,sophie-legend%23master[icon-label],sophie-q%23master,sophie-viz-color%23master[general].css"
+     },
+     {
+      "type": "inline",
+      "content": "  @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff) format(\"woff\");  }    @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff) format(\"woff\");    unicode-range: U+0020-00FF,U+2005,U+2082;  }      "
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/css-theme-layer/nzz-0.2.0.css"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/chart/q-chart-1.2.6.css"
+     }
+    ],
+    "scripts": [
+     {
+      "type": "inline",
+      "content": "function qTrackingBootstrap(t,e,n){if(window.digitalData&&window.digitalData.component&&window.digitalData.component.push){window.digitalData.component.push(t),window.digitalData.event&&window.digitalData.event.length||(window.digitalData.event=[]);var i=new Date,a=e;a.eventInfo.timeStamp=i.toISOString(),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\");var o=document.querySelectorAll(\"[data-q-request-id='\"+n+\"']\");[].forEach.call(o,function(t){t.addEventListener(\"q-tracking-event\",function(t){var e=new Date;(a=JSON.parse(JSON.stringify(a))).eventInfo.timeStamp=e.toISOString(),a.eventInfo=Object.assign(a.eventInfo,t.detail.eventInfo),a.category=Object.assign(a.category,t.detail.category),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\")},!1)})}};qTrackingBootstrap({\"componentInfo\":{\"componentName\":\"Q\",\"componentID\":\"68d425d4699e9424f42875706cc96c62\"},\"category\":{\"componentType\":\"storytelling\",\"componentSubType1\":\"Q graphic\",\"componentSubType2\":\"chart\"}},{\"eventInfo\":{\"eventName\":\"Storytelling Interaction\",\"eventAction\":\"load\",\"type\":\"story\",\"componentName\":\"Q\",\"eventNonInteractive\":true,\"componentID\":\"68d425d4699e9424f42875706cc96c62\"},\"category\":{\"primaryCategory\":\"storytelling\",\"subCategory1\":\"Q graphic\",\"subCategory2\":\"chart\"}},\"8742d08c30ee9cdeac32ab4514e4ed3851ec875f\")"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/chart/q-chart-1.2.6.js"
+     },
+     {
+      "type": "inline",
+      "content": "      (function () {        function initialize() {          const target = document.querySelector('#q_chart_68d425d4699e9424f42875706cc96c62_q7b233710a0b049568a5356c41b67206c_container');          if (!target) return;          target.innerHTML = '';          const qdoc = {\"_id\":\"68d425d4699e9424f42875706cc96c62\",\"allowDownloadData\":false,\"title\":\"Consolidation is possible: Portugal\",\"subtitle\":\"as a percentage of gross domestic product\",\"publication\":\"nzz\",\"acronym\":\"pfi.\",\"data\":[[null,\"Gross national debt\",\"Government spending\"],[\"1970\",\"16.5\",\"15.5\"],[\"1971\",\"15.7\",\"15.5\"],[\"1972\",\"14.5\",\"22.8\"],[\"1973\",\"13.6\",\"25.7\"],[\"1974\",\"13.5\",\"25.8\"],[\"1975\",\"19.2\",\"31.9\"],[\"1976\",\"24.5\",\"38.2\"],[\"1977\",\"26.9\",\"35.1\"],[\"1978\",\"31.4\",\"31.7\"],[\"1979\",\"35.2\",\"30.8\"],[\"1980\",\"31.0\",\"32.4\"],[\"1981\",\"39.3\",\"35.3\"],[\"1982\",\"43.0\",\"35.8\"],[\"1983\",\"46.7\",\"34.7\"],[\"1984\",\"51.3\",\"34.6\"],[\"1985\",\"59.4\",\"37.5\"],[\"1986\",\"59.8\",\"38.9\"],[\"1987\",\"57.2\",\"37.5\"],[\"1988\",\"56.8\",\"36.2\"],[\"1989\",\"55.4\",\"36.2\"],[\"1990\",\"56.0\",\"38.5\"],[\"1991\",\"58.5\",\"41.4\"],[\"1992\",\"52.6\",\"42.5\"],[\"1993\",\"57.4\",\"44.1\"],[\"1994\",\"60.2\",\"42.5\"],[\"1995\",\"62.2\",\"41.5\"],[\"1996\",\"63.3\",\"42.1\"],[\"1997\",\"58.7\",\"41.1\"],[\"1998\",\"55.6\",\"40.8\"],[\"1999\",\"55.4\",\"41.0\"],[\"2000\",\"54.2\",\"41.1\"],[\"2001\",\"57.4\",\"42.5\"],[\"2002\",\"60.0\",\"42.3\"],[\"2003\",\"63.9\",\"43.8\"],[\"2004\",\"67.1\",\"44.7\"],[\"2005\",\"72.2\",\"45.8\"],[\"2006\",\"73.7\",\"44.5\"],[\"2007\",\"72.7\",\"44.4\"],[\"2008\",\"75.6\",\"44.8\"],[\"2009\",\"87.8\",\"49.9\"],[\"2010\",\"100.2\",\"51.3\"],[\"2011\",\"114.4\",\"50.0\"],[\"2012\",\"129.0\",\"48.9\"],[\"2013\",\"131.4\",\"49.9\"],[\"2014\",\"132.9\",\"51.7\"],[\"2015\",\"131.2\",\"48.1\"],[\"2016\",\"131.5\",\"44.8\"],[\"2017\",\"126.1\",\"45.4\"],[\"2018\",\"121.5\",\"43.2\"],[\"2019\",\"116.6\",\"42.4\"],[\"2020\",\"134.9\",\"49.2\"],[\"2021\",\"124.5\",\"47.5\"],[\"2022\",\"112.4\",\"44.1\"],[\"2023\",\"99.1\",\"42.3\"],[\"2024\",\"94.9\",\"42.8\"],[\"2025\",\"90.9\",\"43.7\"]],\"sources\":[],\"events\":[{\"type\":\"range\",\"label\":\"Great Financial Crisis\",\"dateFrom\":\"2007\",\"dateTo\":\"2008\"},{\"type\":\"range\",\"label\":\"European banking and debt crisis\",\"dateFrom\":\"2009\",\"dateTo\":\"2015\"},{\"type\":\"range\",\"label\":\"Corona pandemic\",\"dateFrom\":\"2020\",\"dateTo\":\"2022\"}],\"options\":{\"annotations\":{},\"areaChartOptions\":{\"areaInterpolation\":\"linear\",\"stackType\":\"zero\"},\"arrowOptions\":{\"colorScheme\":0,\"invertColorScheme\":false},\"barOptions\":{\"isBarChart\":false,\"forceBarsOnSmall\":false},\"chartType\":\"Line\",\"colorOverwritesRows\":[],\"colorOverwritesSeries\":[],\"dateSeriesOptions\":{\"interval\":\"auto\",\"labels\":\"many\",\"prognosisStart\":null},\"dotplotOptions\":{},\"hideAxisLabel\":true,\"highlightDataRows\":[],\"highlightDataSeries\":[0],\"lineChartOptions\":{\"yScaleType\":\"linear\",\"reverseYScale\":false,\"lineInterpolation\":\"linear\",\"isStockChart\":false},\"largeNumbers\":{\"divideBy\":0},\"compactEventLegend\":true},\"updatedDate\":\"2025-12-02T18:26:58.761Z\"};          const toolRuntimeConfig = {\"displayOptions\":{\"hideTitle\":false,\"hideSubtitle\":false,\"hideFooter\":false,\"hideAcronym\":false,\"size\":\"basic\"},\"size\":{\"width\":[{\"value\":100,\"comparison\":\">\"}]},\"locale\":\"en-US\"};          const toolSettings = {\"qItemInstanceId\":\"q_chart_68d425d4699e9424f42875706cc96c62_q7b233710a0b049568a5356c41b67206c\"};          let attempts = 0;          const maxAttempts = 100;          const checkAndInitialize = setInterval(() => {            if (window.qChart) {              clearInterval(checkAndInitialize);              new window.qChart({ target: target, props: {                qdoc: qdoc,                toolSettings: toolSettings,                toolRuntimeConfig: toolRuntimeConfig              } });            } else {              attempts++;              if (attempts >= maxAttempts) {                clearInterval(checkAndInitialize);                console.error('Failed to initialize qChart after 30 seconds');              }            }          }, 300);        }        if (document.body.classList.contains('pagedone')) {          initialize();        } else {          window.addEventListener('pagedone', initialize);        }      })();    "
+     }
+    ]
+   },
+   "styles": {
+    "fullwidth-widget": "widget--containerwidth"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jbk9fgbh0",
+   "content": {
+    "text": "Even Portugal, which had to overcome a severe banking crisis during the financial crisis, has managed to achieve sustained primary surpluses and respectable economic growth (with the exception of the pandemic) through consistent austerity measures and reforms. As a result, Portugal's debt level has fallen from 133 to 91 percent of GDP. The IMF forecasts a further reduction to 77 percent within the next five years."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "q-embed",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1jbo055300",
+   "content": {
+    "title": "What helps",
+    "id": "subtitle-was-hilft"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jbk9fggf0",
+   "content": {
+    "text": "There are therefore better ways out of a sovereign debt crisis than insolvency. Moreover, the sooner and more unambiguously a government changes course and communicates this convincingly, the less painful the consequences will be. Market participants are then more willing to offer new loans at lower interest rates."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jbk9fgls0",
+   "content": {
+    "text": "To ensure that consolidation succeeds or is not even necessary in the first place, several principles, repeatedly pointed out by economists and the IMF, can help:"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "enumeration-regular"
+  },
+  {
+   "identifier": "enumeration-regular",
+   "id": "doc-1jbkqb44h0",
+   "containers": {
+    "enumeration": [
+     {
+      "identifier": "enumeration-item",
+      "id": "doc-1jbkqb44i0",
+      "content": {
+       "text": "<strong>Binding budget rules:</strong> Debt brakes firmly enshrined in the constitution and with the will of the people are the best way to curb politicians' spending sprees. They must be set in such a way that they cannot be easily circumvented. However, they should nevertheless (as in Switzerland) allow sufficient flexibility to react to economic fluctuations and to permit additional spending in truly exceptional situations. Then the debt brakes will not need to be suspended or relaxed during more difficult times."
+      },
+      "data": {
+       "_textDirective": {}
+      }
+     },
+     {
+      "identifier": "enumeration-item",
+      "id": "doc-1jbkqgbsc0",
+      "content": {
+       "text": "<strong>Regular prioritization:</strong> According to IMF calculations, shifting just 1 percent of government spending away from social benefits and subsidies toward education and infrastructure increases economic growth by 1.5 percent in the medium term while simultaneously reducing inequality. Parliament and government should therefore regularly review their priorities. Legally mandated (social) spending must not be off-limits (as is currently the case in Germany). Industrialized countries already allocate more than half of their government funds to social spending and healthcare, and this figure is rising. Particularly important are robust funding for old-age pensions and the regular adjustment of benefits and retirement ages to reflect increasing life expectancy."
+      },
+      "data": {
+       "_textDirective": {}
+      }
+     },
+     {
+      "identifier": "enumeration-item",
+      "id": "doc-1jbkrce9u0",
+      "content": {
+       "text": "<strong>Balancing expenditure and revenue:</strong> In developed countries, spending cuts are generally more advantageous in the medium term than revenue increases. The latter place a greater burden on the private sector and reduce taxable income. Planning should extend over a multi-year horizon."
+      },
+      "data": {
+       "_textDirective": {}
+      }
+     },
+     {
+      "identifier": "enumeration-item",
+      "id": "doc-1jbkrnrm30",
+      "content": {
+       "text": "<strong>Improve spending efficiency.</strong> The potential for savings through efficiency improvements is significant in the public sector. Key elements include transparency in spending and contract awards, competition in procurement, reducing bureaucracy, and the number and remuneration of public employees."
+      },
+      "data": {
+       "_textDirective": {}
+      }
+     }
+    ]
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jbkq9dm20",
+   "content": {
+    "text": "<a target=\"_blank\" href=\"https://www.imf.org/-/media/files/publications/fiscal-monitor/2025/october/english/ch1onlineannex.pdf\">In a comprehensive econometric analysis,</a> the IMF examined the efficiency of public spending in 151 countries between 1980 and 2023. The analysis differentiated between spending on infrastructure, health, education, and public research. The study reached the remarkable conclusion that there is a 31 percent gap between the best benchmark and the average efficiency of government spending in industrialized countries. If best practices were applied everywhere, the same results could be achieved with one-third less funding."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "enumeration-regular",
+   "nextElement": "q-embed"
+  },
+  {
+   "identifier": "q-embed",
+   "id": "doc-1jbka0fns0",
+   "content": {
+    "q-embed": {
+     "service": "q-tool",
+     "params": {
+      "id": "68d425d4699e9424f42875706caef74a",
+      "conf": {},
+      "toolConfig": {},
+      "toolRuntimeConfig": {
+       "size": {
+        "width": [
+         {
+          "value": 100,
+          "comparison": ">"
+         }
+        ]
+       },
+       "displayOptions": {
+        "hideTitle": false,
+        "hideSubtitle": false,
+        "hideFooter": false,
+        "hideAcronym": false,
+        "size": "basic"
+       },
+       "locale": "en_US"
+      },
+      "size": "content"
+     },
+     "resolvedValue": {}
+    },
+    "html": "      <div        class=\"q-chart-container\"        id=\"q_chart_68d425d4699e9424f42875706caef74a_q7922017506b54807933b3c5f867c55e3_container\"        data-q-item-id=\"68d425d4699e9424f42875706caef74a\"        data-q-request-id=\"98176708d4908be54bc7075402eba298f035263a\"      ></div>",
+    "stylesheets": [
+     {
+      "type": "remote",
+      "content": "https://service.sophie.nzz.ch/bundle/sophie-color%23master,sophie-font%23master,sophie-legend%23master[icon-label],sophie-q%23master,sophie-viz-color%23master[general].css"
+     },
+     {
+      "type": "inline",
+      "content": "  @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff) format(\"woff\");  }    @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff) format(\"woff\");    unicode-range: U+0020-00FF,U+2005,U+2082;  }      "
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/css-theme-layer/nzz-0.2.0.css"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/chart/q-chart-1.2.6.css"
+     }
+    ],
+    "scripts": [
+     {
+      "type": "inline",
+      "content": "function qTrackingBootstrap(t,e,n){if(window.digitalData&&window.digitalData.component&&window.digitalData.component.push){window.digitalData.component.push(t),window.digitalData.event&&window.digitalData.event.length||(window.digitalData.event=[]);var i=new Date,a=e;a.eventInfo.timeStamp=i.toISOString(),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\");var o=document.querySelectorAll(\"[data-q-request-id='\"+n+\"']\");[].forEach.call(o,function(t){t.addEventListener(\"q-tracking-event\",function(t){var e=new Date;(a=JSON.parse(JSON.stringify(a))).eventInfo.timeStamp=e.toISOString(),a.eventInfo=Object.assign(a.eventInfo,t.detail.eventInfo),a.category=Object.assign(a.category,t.detail.category),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\")},!1)})}};qTrackingBootstrap({\"componentInfo\":{\"componentName\":\"Q\",\"componentID\":\"68d425d4699e9424f42875706caef74a\"},\"category\":{\"componentType\":\"storytelling\",\"componentSubType1\":\"Q graphic\",\"componentSubType2\":\"chart\"}},{\"eventInfo\":{\"eventName\":\"Storytelling Interaction\",\"eventAction\":\"load\",\"type\":\"story\",\"componentName\":\"Q\",\"eventNonInteractive\":true,\"componentID\":\"68d425d4699e9424f42875706caef74a\"},\"category\":{\"primaryCategory\":\"storytelling\",\"subCategory1\":\"Q graphic\",\"subCategory2\":\"chart\"}},\"98176708d4908be54bc7075402eba298f035263a\")"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/chart/q-chart-1.2.6.js"
+     },
+     {
+      "type": "inline",
+      "content": "      (function () {        function initialize() {          const target = document.querySelector('#q_chart_68d425d4699e9424f42875706caef74a_q7922017506b54807933b3c5f867c55e3_container');          if (!target) return;          target.innerHTML = '';          const qdoc = {\"_id\":\"68d425d4699e9424f42875706caef74a\",\"allowDownloadData\":false,\"title\":\"Significant efficiency gaps in public spending\",\"subtitle\":\"Average gap to the best benchmark in industrialized countries, in percent\",\"publication\":\"nzz\",\"acronym\":\"pfi.\",\"data\":[[null,\"Efficiency gap\"],[\"Infrastructure 1980\",\"50\"],[\"Infrastructure 2000\",\"35\"],[\"Infrastructure 2023\",\"36\"],[\"Health 1980\",\"29\"],[\"Health 2000\",\"25\"],[\"Health 2023\",\"29\"],[\"Education 1980\",\"26\"],[\"Education 2000\",\"26\"],[\"Education 2023\",\"33\"],[\"Research 1980\",\"37\"],[\"Research 2000\",\"34\"],[\"Research 2023\",\"40\"]],\"sources\":[{\"text\":\"IMF, Fiscal Monitor Fall 2025\",\"link\":{\"url\":\"https://www.imf.org/en/publications/fm/issues/2025/10/07/fiscal-monitor-october-2025\"}}],\"events\":[],\"options\":{\"annotations\":{\"valuesOnBars\":true},\"areaChartOptions\":{\"areaInterpolation\":\"linear\",\"stackType\":\"zero\"},\"arrowOptions\":{\"colorScheme\":0,\"invertColorScheme\":false},\"barOptions\":{\"isBarChart\":true,\"forceBarsOnSmall\":false,\"maxValue\":100},\"chartType\":\"Bar\",\"colorOverwritesRows\":[{\"color\":\"#7e7e8f\",\"colorLight\":\"\",\"position\":1},{\"color\":\"#7e7e8f\",\"colorLight\":\"\",\"position\":2},{\"color\":\"#7e7e8f\",\"colorLight\":\"\",\"position\":3},{\"color\":\"#478c5b\",\"colorLight\":\"\",\"position\":7},{\"color\":\"#478c5b\",\"colorLight\":\"\",\"position\":8},{\"color\":\"#478c5b\",\"colorLight\":\"\",\"position\":9},{\"color\":\"#f91313\",\"colorLight\":\"\",\"position\":10},{\"color\":\"#f21a1a\",\"colorLight\":\"\",\"position\":11},{\"color\":\"#f51616\",\"colorLight\":\"\",\"position\":12}],\"colorOverwritesSeries\":[],\"dateSeriesOptions\":{\"interval\":\"auto\",\"labels\":\"many\",\"prognosisStart\":null},\"dotplotOptions\":{},\"hideAxisLabel\":true,\"highlightDataRows\":[],\"highlightDataSeries\":[],\"lineChartOptions\":{\"yScaleType\":\"linear\",\"reverseYScale\":false,\"lineInterpolation\":\"linear\",\"isStockChart\":false},\"largeNumbers\":{\"divideBy\":0}},\"updatedDate\":\"2025-12-02T15:05:49.681Z\"};          const toolRuntimeConfig = {\"displayOptions\":{\"hideTitle\":false,\"hideSubtitle\":false,\"hideFooter\":false,\"hideAcronym\":false,\"size\":\"basic\"},\"size\":{\"width\":[{\"value\":100,\"comparison\":\">\"}]},\"locale\":\"en-US\"};          const toolSettings = {\"qItemInstanceId\":\"q_chart_68d425d4699e9424f42875706caef74a_q7922017506b54807933b3c5f867c55e3\"};          let attempts = 0;          const maxAttempts = 100;          const checkAndInitialize = setInterval(() => {            if (window.qChart) {              clearInterval(checkAndInitialize);              new window.qChart({ target: target, props: {                qdoc: qdoc,                toolSettings: toolSettings,                toolRuntimeConfig: toolRuntimeConfig              } });            } else {              attempts++;              if (attempts >= maxAttempts) {                clearInterval(checkAndInitialize);                console.error('Failed to initialize qChart after 30 seconds');              }            }          }, 300);        }        if (document.body.classList.contains('pagedone')) {          initialize();        } else {          window.addEventListener('pagedone', initialize);        }      })();    "
+     }
+    ]
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jbk9fgq00",
+   "content": {
+    "text": "The efficiency gap in infrastructure spending was particularly pronounced in the 1980s. Greater transparency and public tenders have improved the situation somewhat since then, but the use of public funds remains unnecessarily high. Savings are rarely made in public buildings and schools. The potential for savings is also considerable in healthcare, and the use of public funds for research appears to have even increased over time."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "q-embed",
+   "nextElement": "q-embed"
+  },
+  {
+   "identifier": "q-embed",
+   "id": "doc-1jbka24og0",
+   "content": {
+    "q-embed": {
+     "service": "q-tool",
+     "params": {
+      "id": "68d425d4699e9424f42875706cb8f7f4",
+      "conf": {},
+      "toolConfig": {},
+      "toolRuntimeConfig": {
+       "size": {
+        "width": [
+         {
+          "value": 100,
+          "comparison": ">"
+         }
+        ]
+       },
+       "displayOptions": {
+        "hideTitle": false,
+        "hideSubtitle": false,
+        "hideFooter": false,
+        "hideAcronym": false,
+        "size": "basic"
+       },
+       "locale": "en_US"
+      },
+      "size": "content"
+     },
+     "resolvedValue": {}
+    },
+    "html": "      <div        class=\"q-chart-container\"        id=\"q_chart_68d425d4699e9424f42875706cb8f7f4_q635da00c60214882888186669051bb99_container\"        data-q-item-id=\"68d425d4699e9424f42875706cb8f7f4\"        data-q-request-id=\"10076d2360c0a5e985065cfd73c96d1151ab691a\"      ></div>",
+    "stylesheets": [
+     {
+      "type": "remote",
+      "content": "https://service.sophie.nzz.ch/bundle/sophie-color%23master,sophie-font%23master,sophie-legend%23master[icon-label],sophie-q%23master,sophie-viz-color%23master[general].css"
+     },
+     {
+      "type": "inline",
+      "content": "  @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff) format(\"woff\");  }    @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff) format(\"woff\");    unicode-range: U+0020-00FF,U+2005,U+2082;  }      "
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/css-theme-layer/nzz-0.2.0.css"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/chart/q-chart-1.2.6.css"
+     }
+    ],
+    "scripts": [
+     {
+      "type": "inline",
+      "content": "function qTrackingBootstrap(t,e,n){if(window.digitalData&&window.digitalData.component&&window.digitalData.component.push){window.digitalData.component.push(t),window.digitalData.event&&window.digitalData.event.length||(window.digitalData.event=[]);var i=new Date,a=e;a.eventInfo.timeStamp=i.toISOString(),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\");var o=document.querySelectorAll(\"[data-q-request-id='\"+n+\"']\");[].forEach.call(o,function(t){t.addEventListener(\"q-tracking-event\",function(t){var e=new Date;(a=JSON.parse(JSON.stringify(a))).eventInfo.timeStamp=e.toISOString(),a.eventInfo=Object.assign(a.eventInfo,t.detail.eventInfo),a.category=Object.assign(a.category,t.detail.category),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\")},!1)})}};qTrackingBootstrap({\"componentInfo\":{\"componentName\":\"Q\",\"componentID\":\"68d425d4699e9424f42875706cb8f7f4\"},\"category\":{\"componentType\":\"storytelling\",\"componentSubType1\":\"Q graphic\",\"componentSubType2\":\"chart\"}},{\"eventInfo\":{\"eventName\":\"Storytelling Interaction\",\"eventAction\":\"load\",\"type\":\"story\",\"componentName\":\"Q\",\"eventNonInteractive\":true,\"componentID\":\"68d425d4699e9424f42875706cb8f7f4\"},\"category\":{\"primaryCategory\":\"storytelling\",\"subCategory1\":\"Q graphic\",\"subCategory2\":\"chart\"}},\"10076d2360c0a5e985065cfd73c96d1151ab691a\")"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/chart/q-chart-1.2.6.js"
+     },
+     {
+      "type": "inline",
+      "content": "      (function () {        function initialize() {          const target = document.querySelector('#q_chart_68d425d4699e9424f42875706cb8f7f4_q635da00c60214882888186669051bb99_container');          if (!target) return;          target.innerHTML = '';          const qdoc = {\"_id\":\"68d425d4699e9424f42875706cb8f7f4\",\"allowDownloadData\":false,\"title\":\"Public employees are paid above average\",\"subtitle\":\"Average wage bonus for comparable work and qualifications\",\"publication\":\"nzz\",\"acronym\":\"pfi.\",\"data\":[[null,\"Industrialized countries 2011–2022\",\"Emerging markets 2011–2022\",\"CH Bund 2018–2020\",\"Swiss cantons 2018–2020\",\"Swiss Municipalities 2018–2020\"],[null,\"5.2\",\"13\",\"11.6\",\"4.3\",\"3.4\"]],\"sources\":[{\"text\":\"International: IMF, Fiscal Monitor Fall 2025\",\"link\":{\"url\":\"https://www.imf.org/en/publications/fm/issues/2025/10/07/fiscal-monitor-october-2025\"}},{\"text\":\"Switzerland: IWP, Salary bonus for public employees: Administrative salaries under scrutiny. 2023\",\"link\":{\"url\":\"https://admin.iwp.swiss/wp-content/uploads/2023/02/Lohnanalyse-oeffentliche-Verwaltung-IWP-Policy-Paper-2023.pdf\"}}],\"events\":[],\"options\":{\"annotations\":{\"valuesOnBars\":true},\"areaChartOptions\":{\"areaInterpolation\":\"linear\",\"stackType\":\"zero\"},\"arrowOptions\":{\"colorScheme\":0,\"invertColorScheme\":false},\"barOptions\":{\"isBarChart\":true,\"forceBarsOnSmall\":false},\"chartType\":\"Bar\",\"colorOverwritesRows\":[],\"colorOverwritesSeries\":[],\"dateSeriesOptions\":{\"interval\":\"auto\",\"labels\":\"many\",\"prognosisStart\":null},\"dotplotOptions\":{},\"hideAxisLabel\":true,\"highlightDataRows\":[],\"highlightDataSeries\":[],\"lineChartOptions\":{\"yScaleType\":\"linear\",\"reverseYScale\":false,\"lineInterpolation\":\"linear\",\"isStockChart\":false},\"largeNumbers\":{\"divideBy\":0}},\"updatedDate\":\"2025-12-06T13:01:40.095Z\"};          const toolRuntimeConfig = {\"displayOptions\":{\"hideTitle\":false,\"hideSubtitle\":false,\"hideFooter\":false,\"hideAcronym\":false,\"size\":\"basic\"},\"size\":{\"width\":[{\"value\":100,\"comparison\":\">\"}]},\"locale\":\"en-US\"};          const toolSettings = {\"qItemInstanceId\":\"q_chart_68d425d4699e9424f42875706cb8f7f4_q635da00c60214882888186669051bb99\"};          let attempts = 0;          const maxAttempts = 100;          const checkAndInitialize = setInterval(() => {            if (window.qChart) {              clearInterval(checkAndInitialize);              new window.qChart({ target: target, props: {                qdoc: qdoc,                toolSettings: toolSettings,                toolRuntimeConfig: toolRuntimeConfig              } });            } else {              attempts++;              if (attempts >= maxAttempts) {                clearInterval(checkAndInitialize);                console.error('Failed to initialize qChart after 30 seconds');              }            }          }, 300);        }        if (document.body.classList.contains('pagedone')) {          initialize();        } else {          window.addEventListener('pagedone', initialize);        }      })();    "
+     }
+    ]
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jbk9fh3q0",
+   "content": {
+    "text": "Substantial savings potential also exists in the salaries of administrative staff. According to IMF calculations, public employees in industrialized countries earn on average 5 percent more than their counterparts in the private sector (13 percent more in emerging economies). A <a target=\"_blank\" href=\"https://admin.iwp.swiss/wp-content/uploads/2023/02/Lohnanalyse-oeffentliche-Verwaltung-IWP-Policy-Paper-2023.pdf\">study by the Swiss Institute for Economic Policy</a> found that in Switzerland, the federal government pays its employees with the same qualifications and experience 12 percent more, the cantons 4 percent more, and the municipalities 3 percent more."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "q-embed",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1jbo0t0q50",
+   "content": {
+    "title": "Discipline pays off",
+    "id": "subtitle-disziplin-lohnt-sich"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jbntkr1s1",
+   "content": {
+    "text": "Savings could therefore be achieved by reducing wage levels and the number of employees. A reduction in bureaucracy usually achieves both: it lowers government spending and increases economic growth. Ideally, parliaments and governments should be regularly required to scrutinize all regulations to determine whether they are truly necessary and could be simplified."
+   },
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jbk9fh8u0",
+   "content": {
+    "text": "A debt mountain that grows steadily relative to economic output, as currently seen in the US and major European countries, is a sign of a lack of responsibility and control. This can lead to sovereign default and harsh debt restructuring. While Greece's economy is now growing again, prosperity is still lower than before the crisis."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jbo54uuu1",
+   "content": {
+    "text": "The Greek example should serve as a sufficient deterrent in discussions about taking on additional debt outside the regular budget. Ironically, it was the Germans who forced the Greeks to implement austerity measures back then. Unfortunately, the Portuguese and the Swedes cannot now force the Germans to follow suit."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "sharebox",
+   "lastContentElement": true
+  },
+  {
+   "identifier": "sharebox",
+   "id": "doc-1jbhl2o413",
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "comments-preview"
+  },
+  {
+   "identifier": "comments-preview",
+   "id": "doc-b815dada",
+   "content": {
+    "showComments": true,
+    "visibleCommentCount": 3,
+    "openToComment": false,
+    "newestTopComments": [
+     {
+      "author_name": "Beat Hermann",
+      "text": "Strategies that sustainably promote economic growth and unleash the non-cartelized private sector would also be important.",
+      "created_at": "2025-12-08T21:45:09.139Z",
+      "like_count": 1,
+      "isPro": true,
+      "isNzz": false
+     },
+     {
+      "author_name": "Johannes Bachmann",
+      "text": "Germany simply pursues «values-driven» policies. And if that contradicts the laws of mathematics, then the SPD wisdom applies: «Laws can be changed.»",
+      "created_at": "2025-12-08T20:18:15.340Z",
+      "like_count": 3,
+      "isPro": true,
+      "isNzz": false
+     }
+    ],
+    "confirmed": true
+   },
+   "paidContent": true,
+   "prevElement": "sharebox",
+   "nextElement": "related-articles-container"
+  },
+  {
+   "identifier": "related-articles-container",
+   "id": "doc-1jbhl2o414",
+   "content": {
+    "title": "Related articles"
+   },
+   "containers": {
+    "related-articles": [
+     {
+      "identifier": "teaser",
+      "id": "doc-1jbhl2o415",
+      "content": {
+       "owner": "NZZ",
+       "flag": "Opinion",
+       "title": "Zurich, we have a problem. The city's debts are completely out of control.",
+       "teaserImage": {
+        "originalUrl": "/2023/07/14/2698bb44-23bf-47f3-9b8d-0a064ff6862d.jpeg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2023/07/14/2698bb44-23bf-47f3-9b8d-0a064ff6862d.jpeg?width=1024&quality=75&auto=webp",
+        "width": 5568,
+        "height": 3712,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "5568,3132,x0,y2"
+         },
+         {
+          "name": "1:1",
+          "crop": "2933,2933,x1237,y0"
+         },
+         {
+          "name": "4:3",
+          "crop": "4949,3712,x116,y0"
+         },
+         {
+          "name": "3:4",
+          "crop": "2784,3712,x1145,y0"
+         },
+         {
+          "name": "3:2",
+          "crop": "5568,3712,x0,y0"
+         }
+        ],
+        "imageService": "fastly",
+        "teaserCaption": "The left-wing financial sloppiness of recent years is now backfiring. But the Social Democrats and the Greens show no remorse – quite the opposite.",
+        "teaserAuthor": "Karin Hofer / NZZ"
+       },
+       "teaserAuthor": "Karin Hofer / NZZ",
+       "nzzasFootnote": false,
+       "folioFootnote": false,
+       "language": {
+        "locale": "de-CH"
+       },
+       "nzzId": "ld.1914986",
+       "readingTime": 180,
+       "showComments": true,
+       "authorLine": "Daniel Fritzsche",
+       "characterCount": 3678,
+       "product": "NZZ.ch",
+       "documentId": 1914986,
+       "layout": "opinion",
+       "publicationDate": "2025-12-05T04:00:00.000Z",
+       "publicationLastUpdated": "2025-12-05T05:23:45.077Z",
+       "significantUpdate": false,
+       "significantUpdateTill": "2025-12-05T16:00:00.000Z",
+       "teaserCaption": "The left-wing financial sloppiness of recent years is now backfiring. But the Social Democrats and the Greens show no remorse – quite the opposite.",
+       "authorImage": {
+        "originalUrl": "/2024/05/28/f52d6780-3bd3-4a74-9cf2-e208c941992b.png?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2024/05/28/f52d6780-3bd3-4a74-9cf2-e208c941992b.png?width=1024&quality=75&auto=webp",
+        "width": 320,
+        "height": 320,
+        "crops": [
+         {
+          "name": "1:1",
+          "crop": "320,320,x0,y0"
+         }
+        ],
+        "imageService": "fastly"
+       },
+       "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2024/05/28/f52d6780-3bd3-4a74-9cf2-e208c941992b.png?width=1024&quality=75&auto=webp",
+       "url": "/meinung/zuerich-wir-haben-ein-problem-die-schulden-der-stadt-laufen-aus-dem-ruder-ld.1914986",
+       "department": {
+        "name": "Opinion",
+        "path": "/meinung"
+       },
+       "estimationWordCount": 573,
+       "leadText": "The left-wing financial sloppiness of recent years is now backfiring. But the Social Democrats and the Greens show no remorse – quite the opposite.",
+       "hasQ": true
+      }
+     },
+     {
+      "identifier": "teaser",
+      "id": "doc-1jbhl2o416",
+      "content": {
+       "owner": "NZZ",
+       "title": "From bankrupt state to model student: Why Greece is suddenly considered a role model for Europe",
+       "teaserImage": {
+        "originalUrl": "/2025/02/24/e6326a78-767f-4f83-b360-6f3af3178175.jpeg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2025/02/24/e6326a78-767f-4f83-b360-6f3af3178175.jpeg?width=1024&quality=75&auto=webp",
+        "width": 4538,
+        "height": 3025,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "3187,1793,x382,y1158"
+         },
+         {
+          "name": "1:1",
+          "crop": "1492,1492,x741,y1532"
+         },
+         {
+          "name": "4:3",
+          "crop": "2518,1888,x531,y1136"
+         },
+         {
+          "name": "3:4",
+          "crop": "2269,3025,x225,y0"
+         }
+        ],
+        "imageService": "fastly",
+        "teaserCaption": "The governments in Athens have implemented far-reaching reforms since the crisis years. The success is evident. However, structural problems persist.",
+        "teaserAuthor": "Petros Giannakouris / AP"
+       },
+       "teaserAuthor": "Petros Giannakouris / AP",
+       "nzzasFootnote": false,
+       "folioFootnote": false,
+       "paywallQuestionOne": "What are the factors contributing to Greece's economic success?",
+       "paywallQuestionTwo": "What structural problems remain?",
+       "paywallQuestionThree": "How does the economic situation compare to Germany?",
+       "language": {
+        "locale": "de-CH"
+       },
+       "nzzId": "ld.1871828",
+       "readingTime": 420,
+       "authorLine": "Volker Pabst",
+       "characterCount": 9346,
+       "product": "NZZ.ch",
+       "documentId": 1871828,
+       "layout": "longformstandard",
+       "publicationDate": "2025-02-24T04:30:00.000Z",
+       "publicationLastUpdated": "2025-02-24T14:24:02.221Z",
+       "significantUpdate": false,
+       "significantUpdateTill": "2025-02-24T16:30:00.000Z",
+       "teaserCaption": "The governments in Athens have implemented far-reaching reforms since the crisis years. The success is evident. However, structural problems persist.",
+       "url": "/pro/griechenlands-wirtschaftliches-comeback-vom-krisenstaat-zum-musterknaben-ld.1871828",
+       "department": {
+        "name": "Pro",
+        "path": "/pro"
+       },
+       "estimationWordCount": 1317,
+       "premium": true,
+       "leadText": "The governments in Athens have implemented far-reaching reforms since the crisis years. The success is evident. However, structural problems persist."
+      }
+     },
+     {
+      "identifier": "teaser",
+      "id": "doc-1jbhl2o417",
+      "content": {
+       "owner": "NZZ",
+       "flag": "Guest opinion",
+       "title": "What 20 years of the debt brake have taught us",
+       "teaserImage": {
+        "originalUrl": "/2023/12/01/0741bdcb-f4a7-4189-b721-6db17114addb.jpeg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2023/12/01/0741bdcb-f4a7-4189-b721-6db17114addb.jpeg?width=1024&quality=75&auto=webp",
+        "width": 1500,
+        "height": 1000,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "1500,844,x0,y85"
+         },
+         {
+          "name": "1:1",
+          "crop": "1000,1000,x247,y0"
+         },
+         {
+          "name": "4:3",
+          "crop": "1333,1000,x87,y0"
+         },
+         {
+          "name": "3:4",
+          "crop": "750,1000,x368,y0"
+         }
+        ],
+        "imageService": "fastly",
+        "teaserCaption": "There is a proven remedy against inherent political failure and living on borrowed time: the debt brake. It's good that it's being used again and is forcing us to debate costs and priorities.",
+        "teaserAuthor": "iStock"
+       },
+       "teaserAuthor": "iStock",
+       "nzzasFootnote": false,
+       "folioFootnote": false,
+       "language": {
+        "locale": "de-CH"
+       },
+       "nzzId": "ld.1768592",
+       "readingTime": 360,
+       "authorLine": "Lars P. Feld, Peter A. Fischer, Christoph A. Schaltegger and René Scheu",
+       "characterCount": 8282,
+       "product": "NZZ.ch",
+       "documentId": 1768592,
+       "layout": "opinion",
+       "publicationDate": "2023-12-01T14:51:49.025Z",
+       "publicationLastUpdated": "2023-12-01T22:34:16.965Z",
+       "significantUpdate": false,
+       "significantUpdateTill": "2023-12-02T02:51:49.025Z",
+       "teaserCaption": "There is a proven remedy against inherent political failure and living on borrowed time: the debt brake. It's good that it's being used again and is forcing us to debate costs and priorities.",
+       "url": "/themen-dossiers/schuldenbremse/was-uns-20-jahre-schuldenbremse-lehren-ld.1768592",
+       "department": {
+        "name": "Debt brake",
+        "path": "/themen-dossiers/schuldenbremse"
+       },
+       "estimationWordCount": 1185,
+       "leadText": "There is a proven remedy against inherent political failure and living on borrowed time: the debt brake. It's good that it's being used again and is forcing us to debate costs and priorities."
+      }
+     }
+    ]
+   },
+   "paidContent": true,
+   "prevElement": "comments-preview",
+   "nextElement": "",
+   "lastContentElement": true
+  }
+ ],
+ "metadata": {
+  "owner": "NZZ",
+  "germanyRelevant": true,
+  "title": "There are sensible ways out of the looming sovereign debt crisis.",
+  "teaserImage": {
+   "originalUrl": "/2025/12/07/6fe6b15c-d162-43d9-859b-8b04d838c958.jpg?width=1024",
+   "url": "https://img-msp-prod.nzz.ch/2025/12/07/6fe6b15c-d162-43d9-859b-8b04d838c958.jpg?width=1024&quality=75&auto=webp",
+   "width": 5616,
+   "height": 3744,
+   "crops": [
+    {
+     "name": "16:9",
+     "crop": "5616,3159,x0,y0"
+    },
+    {
+     "name": "1:1",
+     "crop": "1459,1459,x984,y921"
+    },
+    {
+     "name": "4:3",
+     "crop": "4992,3744,x196,y0"
+    },
+    {
+     "name": "3:4",
+     "crop": "2496,3328,x0,y416"
+    },
+    {
+     "name": "3:2",
+     "crop": "5616,3744,x0,y0"
+    }
+   ],
+   "imageService": "fastly",
+   "teaserCaption": "In the US, in France, and perhaps soon in Germany as well, national debts are spiraling out of control. This is not fate, but a sign of a lack of responsibility and control.",
+   "teaserAuthor": "Petros Giannakouris / AP"
+  },
+  "teaserAuthor": "Petros Giannakouris / AP",
+  "nzzasFootnote": false,
+  "folioFootnote": false,
+  "language": {
+   "locale": "en-US"
+  },
+  "nzzId": "ld.1914752",
+  "readingTime": 480,
+  "showComments": true,
+  "authorLine": "Peter A. Fischer",
+  "characterCount": 10886,
+  "breadcrumbs": [
+   {
+    "name": "Economy",
+    "path": "/wirtschaft"
+   }
+  ],
+  "product": "NZZ.ch",
+  "documentId": 1914752,
+  "contentTypeGroup": "web",
+  "layout": "longformstandard",
+  "firstPublicationDate": "2025-12-08T04:30:00.000Z",
+  "publicationDate": "2025-12-08T04:30:00.000Z",
+  "publicationLastUpdated": "2025-12-08T09:55:51.843Z",
+  "significantUpdate": false,
+  "significantUpdateTill": "2025-12-08T16:30:00.000Z",
+  "teaserCaption": "In the US, in France, and perhaps soon in Germany as well, national debts are spiraling out of control. This is not fate, but a sign of a lack of responsibility and control.",
+  "nzzAuthors": [
+   {
+    "id": 1373404,
+    "name": "Peter A. Fischer",
+    "shortName": "pfi",
+    "pianoId": "49eea861-3efa-4465-bce0-7770e08448c0",
+    "external": false
+   }
+  ],
+  "authorImage": {
+   "originalUrl": "/2022/07/27/d59a0238-12f1-43d7-8905-6e94594be820.png?width=1024",
+   "url": "https://img-msp-prod.nzz.ch/2022/07/27/d59a0238-12f1-43d7-8905-6e94594be820.png?width=1024&quality=75&auto=webp",
+   "width": 800,
+   "height": 800,
+   "crops": [
+    {
+     "name": "1:1",
+     "crop": "800,800,x0,y0"
+    }
+   ],
+   "imageService": "fastly"
+  },
+  "nzzAuthorProfileDataCollection": [
+   {
+    "documentId": 1085419,
+    "name": "Peter A. Fischer (pfi.)",
+    "teaserImageUrl": "https://img-msp-prod.nzz.ch/2022/07/27/d59a0238-12f1-43d7-8905-6e94594be820.png?width=1024&quality=75&auto=webp"
+   }
+  ],
+  "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2022/07/27/d59a0238-12f1-43d7-8905-6e94594be820.png?width=1024&quality=75&auto=webp",
+  "url": "/wirtschaft/es-gibt-vernuenftige-auswege-aus-der-drohenden-staatsschuldenkrise-ld.1914752",
+  "department": {
+   "name": "Economy",
+   "path": "/wirtschaft"
+  },
+  "estimationWordCount": 1521,
+  "premium": true,
+  "leadText": "In the US, in France, and perhaps soon in Germany as well, national debts are spiraling out of control. This is not fate, but a sign of a lack of responsibility and control.",
+  "nzzSummaryEN": "- Many countries, especially the US and Southern Europe, face fiscal limitations due to rising public debt, while Northern Europe and countries like Switzerland remain relatively stable.\n- Debt-control reforms, as seen in Sweden and Portugal, show success through spending cuts, tax adjustments, and growth-promoting measures.\n- Economists and the IMF advocate binding budget rules, priority setting, and improvements in efficiency to stabilize public finances and promote long-term economic growth.",
+  "nzzSummaryDE": "Many countries are fiscally constrained by rising national debt, especially in the USA and Southern Europe, while Northern Europe and countries like Switzerland are relatively stable.\n - Debt control reforms like those in Sweden or Portugal show that a combination of spending cuts, tax adjustments and growth-promoting measures can be successful.\n Economists and the IMF recommend binding budget rules, prioritization, and efficiency improvements to stabilize public finances and promote economic growth in the long term.",
+  "nzzSummaryIsAuto": true,
+  "nzzSummaryModel": "gpt-4o-2024-11-20",
+  "nzzPrintTitle": "Ways out of the looming sovereign debt crisis",
+  "nzzPrintSubtitle": "National debt is spiraling out of control. This is not fate, but a sign of a lack of responsibility and control.",
+  "allArticleLanguages": [
+   {
+    "locale": "de-CH",
+    "urlPath": "/wirtschaft/es-gibt-vernuenftige-auswege-aus-der-drohenden-staatsschuldenkrise-ld.1914752",
+    "seo": {}
+   }
+  ],
+  "seo": {
+   "canonicalUrl": "https://www.nzz.ch/wirtschaft/es-gibt-vernuenftige-auswege-aus-der-drohenden-staatsschuldenkrise-ld.1914752",
+   "title": "Ways out of the sovereign debt crisis: necessary reforms and learning from Sweden",
+   "socialMediaTitle": "Sweden and Portugal have shown how to find a way out of a debt-based economy.",
+   "excludeFromSpiders": false,
+   "image": "https://img-msp-prod.nzz.ch/2025/12/07/6fe6b15c-d162-43d9-859b-8b04d838c958.jpg?width=1200&height=675&fit=bounds&quality=75&auto=webp&crop=5616,3159,x0,y0&wmark=nzz"
+  },
+  "ldPublicationId": 2403782,
+  "playableVideoTeasers": [
+   {
+    "title": "«NZZ Pro» talk: What's next for Swiss neutrality?",
+    "description": "Peter A. Fischer, Georg Häsler and Linda Koponen on Switzerland's role in the multipolar world order",
+    "kind": "Single Item",
+    "siteid": "YuwAxPaT",
+    "playlist": [
+     {
+      "title": "«NZZ Pro» talk: What's next for Swiss neutrality?",
+      "mediaid": "0xmj7cLG",
+      "link": "https://cdn.jwplayer.com/previews/0xmj7cLG",
+      "image": "https://cdn.jwplayer.com/v2/media/0xmj7cLG/poster.jpg?width=720",
+      "images": [
+       {
+        "src": "https://cdn.jwplayer.com/v2/media/0xmj7cLG/poster.jpg?width=320",
+        "width": 320,
+        "type": "image/jpeg"
+       },
+       {
+        "src": "https://cdn.jwplayer.com/v2/media/0xmj7cLG/poster.jpg?width=480",
+        "width": 480,
+        "type": "image/jpeg"
+       },
+       {
+        "src": "https://cdn.jwplayer.com/v2/media/0xmj7cLG/poster.jpg?width=640",
+        "width": 640,
+        "type": "image/jpeg"
+       },
+       {
+        "src": "https://cdn.jwplayer.com/v2/media/0xmj7cLG/poster.jpg?width=720",
+        "width": 720,
+        "type": "image/jpeg"
+       },
+       {
+        "src": "https://cdn.jwplayer.com/v2/media/0xmj7cLG/poster.jpg?width=1280",
+        "width": 1280,
+        "type": "image/jpeg"
+       },
+       {
+        "src": "https://cdn.jwplayer.com/v2/media/0xmj7cLG/poster.jpg?width=1920",
+        "width": 1920,
+        "type": "image/jpeg"
+       }
+      ],
+      "siteid": "YuwAxPaT",
+      "duration": 3596,
+      "content_source_type": "file",
+      "pubdate": 1787920770,
+      "updated": 1787921498,
+      "description": "Peter A. Fischer, Georg Häsler and Linda Koponen on Switzerland's role in the multipolar world order",
+      "sources": [
+       {
+        "file": "https://cdn.jwplayer.com/manifests/0xmj7cLG.m3u8",
+        "type": "application/vnd.apple.mpegurl"
+       },
+       {
+        "file": "https://cdn.jwplayer.com/videos/0xmj7cLG-EhTDc4s5.mp4",
+        "type": "video/mp4",
+        "height": 720,
+        "width": 1280,
+        "label": "720p",
+        "bitrate": 328862,
+        "filesize": 147823495,
+        "framerate": 25
+       },
+       {
+        "file": "https://cdn.jwplayer.com/videos/0xmj7cLG-J4ijmxxU.mp4",
+        "type": "video/mp4",
+        "height": 406,
+        "width": 720,
+        "label": "406p",
+        "bitrate": 217015,
+        "filesize": 97548304,
+        "framerate": 25
+       },
+       {
+        "file": "https://cdn.jwplayer.com/videos/0xmj7cLG-kcn04Bnj.mp4",
+        "type": "video/mp4",
+        "height": 270,
+        "width": 480,
+        "label": "270p",
+        "bitrate": 177940,
+        "filesize": 79984257,
+        "framerate": 25
+       },
+       {
+        "file": "https://cdn.jwplayer.com/videos/0xmj7cLG-ZberQI1f.mp4",
+        "type": "video/mp4",
+        "height": 180,
+        "width": 320,
+        "label": "180p",
+        "bitrate": 155379,
+        "filesize": 69842952,
+        "framerate": 25
+       }
+      ],
+      "tracks": [
+       {
+        "file": "https://cdn.jwplayer.com/strips/0xmj7cLG-120.vtt",
+        "kind": "thumbnails"
+       }
+      ],
+      "variations": {}
+     }
+    ],
+    "feed_instance_id": "fb7e09fb-6992-4373-816b-c7271d4ff77d",
+    "playerId": "ZMULDsT4",
+    "intl": {
+     "de": {
+      "advertising": {
+       "skiptext": "Skip"
+      }
+     }
+    }
+   }
+  ],
+  "isHighlightedHeader": false,
+  "nzzTopics": [
+   {
+    "name": "IMF",
+    "slug": "/themen/iwf"
+   },
+   {
+    "name": "Sweden",
+    "slug": "/themen/schweden"
+   },
+   {
+    "name": "Portugal",
+    "slug": "/themen/portugal"
+   },
+   {
+    "name": "Greece",
+    "slug": "/themen/griechenland"
+   },
+   {
+    "name": "Germany",
+    "slug": "/themen/deutschland"
+   },
+   {
+    "name": "retirement provision",
+    "slug": "/themen/altersvorsorge"
+   },
+   {
+    "name": "USA",
+    "slug": "/themen/usa"
+   },
+   {
+    "name": "France",
+    "slug": "/themen/frankreich"
+   },
+   {
+    "name": "Taxes",
+    "slug": "/themen/steuern"
+   },
+   {
+    "name": "Pension fund",
+    "slug": "/themen/pensionskasse"
+   }
+  ],
+  "comments": {
+   "showComments": true,
+   "visibleCommentCount": 3,
+   "openToComment": false,
+   "newestTopComments": [
+    {
+     "author_name": "Beat Hermann",
+     "text": "Strategies that sustainably promote economic growth and unleash the non-cartelized private sector would also be important.",
+     "created_at": "2025-12-08T21:45:09.139Z",
+     "like_count": 1,
+     "isPro": true,
+     "isNzz": false
+    },
+    {
+     "author_name": "Johannes Bachmann",
+     "text": "Germany simply pursues «values-driven» policies. And if that contradicts the laws of mathematics, then the SPD wisdom applies: «Laws can be changed.»",
+     "created_at": "2025-12-08T20:18:15.340Z",
+     "like_count": 3,
+     "isPro": true,
+     "isNzz": false
+    }
+   ],
+   "confirmed": true
+  },
+  "barrierIndex": 3,
+  "outlinks": {
+   "mehrZumThema": [
+    "ld.1914986",
+    "ld.1871828",
+    "ld.1768592"
+   ],
+   "artikelListe": [],
+   "aliasTeaserEmbedList": []
+  },
+  "tts": true,
+  "hasQ": true,
+  "mp3": true,
+  "mp3Duration": 677016,
+  "colorSchema": "color-schema--premium",
+  "project": "nzz",
+  "machineTranslated": true,
+  "machineTranslationValidated": false
+ },
+ "isReduced": false,
+ "isPaid": false,
+ "isVamp": false,
+ "isWebview": false,
+ "btaFeed": {
+  "meta": {
+   "id": "iwf",
+   "name": "International Monetary Fund (IMF)",
+   "tagName": "IMF",
+   "qId": "Q7804",
+   "seoTitle": "IMF – Latest news and all articles about the International Monetary Fund",
+   "description": null,
+   "firstName": null,
+   "lastName": null,
+   "category": "ORG",
+   "createdDate": "2025-04-08 17:33:18.250Z",
+   "imageURL": null,
+   "imageCroppedURL": null,
+   "imageWidth": null,
+   "imageHeight": null,
+   "imageCredits": null,
+   "url": "https://nzz.ch/themen/iwf",
+   "size": 892,
+   "relatedTopics": [
+    {
+     "name": "Schweden",
+     "slug": "/themen/schweden"
+    },
+    {
+     "name": "Portugal",
+     "slug": "/themen/portugal"
+    },
+    {
+     "name": "Griechenland",
+     "slug": "/themen/griechenland"
+    },
+    {
+     "name": "Deutschland",
+     "slug": "/themen/deutschland"
+    },
+    {
+     "name": "Altersvorsorge",
+     "slug": "/themen/altersvorsorge"
+    },
+    {
+     "name": "USA",
+     "slug": "/themen/usa"
+    },
+    {
+     "name": "Frankreich",
+     "slug": "/themen/frankreich"
+    },
+    {
+     "name": "Steuern",
+     "slug": "/themen/steuern"
+    },
+    {
+     "name": "Pensionskasse",
+     "slug": "/themen/pensionskasse"
+    }
+   ]
+  },
+  "data": [
+   {
+    "title": "The IMF's chief financial officer warns: «The debt ratio is rising while the global growth rate is falling. This is very dangerous.»",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "flag": "interview",
+    "editor": "1373675",
+    "teaserImage": {
+     "originalUrl": "/2026/08/20/561bd926-edf7-444a-9539-ffdc50ad67af.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/08/20/561bd926-edf7-444a-9539-ffdc50ad67af.jpg?width=1024&quality=75&auto=webp",
+     "width": 6000,
+     "height": 4000,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "6000,3375,x0,y179"
+      },
+      {
+       "name": "4:3",
+       "crop": "5333,4000,x667,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "4000,4000,x1869,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "3000,4000,x2369,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "6000,4000,x0,y0"
+      }
+     ],
+     "focalPoint": {
+      "x": 3869,
+      "y": 1866
+     },
+     "imageService": "fastly",
+     "teaserCaption": "In many countries, debt sustainability is becoming a risk, says IMF economist Tobias Adrian. This could increase pressure on central banks to lower interest rates for political reasons. He also sees dangers arising from the profit growth of AI companies.",
+     "teaserAuthor": "Jeenah Moon / Reuters"
+    },
+    "teaserAuthor": "Jeenah Moon / Reuters",
+    "showComments": true,
+    "nzzId": "ld.10019820",
+    "readingTime": 540,
+    "paywallQuestionOne": "What risks does the rising global debt ratio entail?",
+    "paywallQuestionTwo": "Could an AI bubble threaten financial stability?",
+    "paywallQuestionThree": "How does AI influence the financial market and does it pose risks of manipulation?",
+    "characterCount": 11358,
+    "product": "NZZ.ch",
+    "documentId": "10019820",
+    "layout": "longformstandard",
+    "publicationDate": "2026-08-21T03:30:00.000Z",
+    "publicationLastUpdated": "2026-08-24T06:37:57.651Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-08-21T15:30:00.000Z",
+    "teaserCaption": "In many countries, debt sustainability is becoming a risk, says IMF economist Tobias Adrian. This could increase pressure on central banks to lower interest rates for political reasons. He also sees dangers arising from the profit growth of AI companies.",
+    "authorLine": "Catherine Bosley, Michael Rasch",
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2025/12/31/f4854fdf-6fd5-4b83-9089-75e151c90563.jpg?width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/wirtschaft/der-finanzmarktchef-des-iwf-sagt-die-schuldenquote-steigt-waehrend-die-globale-wachstumsrate-sinkt-das-ist-sehr-gefaehrlich-ld.10019820",
+    "department": {
+     "name": "Economy",
+     "path": "/wirtschaft"
+    },
+    "estimationWordCount": 1738,
+    "premium": true,
+    "leadText": "In many countries, debt sustainability is becoming a risk, says IMF economist Tobias Adrian. This could increase pressure on central banks to lower interest rates for political reasons. He also sees dangers arising from the profit growth of AI companies.",
+    "commentsCount": 3,
+    "openToComment": false,
+    "locale": "de-CH"
+   },
+   {
+    "title": "Lots of money and no questions asked: how the most powerful Swiss companies bind entire countries to themselves",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "teaserImage": {
+     "originalUrl": "/2026/07/09/b34d35fe-eb55-4391-9310-cbc83b4909dd.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/07/09/b34d35fe-eb55-4391-9310-cbc83b4909dd.jpg?width=1024&quality=75&auto=webp",
+     "width": 4500,
+     "height": 3000,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "3719,2092,x424,y633"
+      },
+      {
+       "name": "4:3",
+       "crop": "3636,2727,x442,y147"
+      },
+      {
+       "name": "1:1",
+       "crop": "3000,3000,x746,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "2250,3000,x1125,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "3381,2254,x578,y576"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "Swiss commodity traders provide developing countries with billions in loans that are repaid with oil over many years. Some deals are sensitive, and little is known about most of them."
+    },
+    "characterCount": 12946,
+    "showComments": true,
+    "paywallQuestionOne": "From Gabon to Congo to Chad: Why are Swiss commodity traders so important for public finances?",
+    "paywallQuestionTwo": "Why is the lack of transparency regarding advance payments in commodity trading dangerous?",
+    "paywallQuestionThree": "How could Switzerland influence what companies have to disclose?",
+    "nzzId": "ld.10013704",
+    "readingTime": 540,
+    "product": "NZZ.ch",
+    "documentId": "10013704",
+    "layout": "longformstandard",
+    "publicationDate": "2026-07-28T03:30:00.000Z",
+    "publicationLastUpdated": "2026-07-28T03:30:00.000Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-07-28T15:30:00.000Z",
+    "teaserCaption": "Swiss commodity traders provide developing countries with billions in loans that are repaid with oil over many years. Some deals are sensitive, and little is known about most of them.",
+    "authorLine": "Benjamin Triebe, Simon Tanner (illustrations)",
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2024/05/28/66e46add-875c-44d3-97bc-9ef706f6bc3d.jpeg?width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/wirtschaft/viel-geld-und-keine-fragen-wie-die-maechtigsten-schweizer-firmen-ganze-laender-an-sich-binden-ld.10013704",
+    "department": {
+     "name": "Economy",
+     "path": "/wirtschaft"
+    },
+    "estimationWordCount": 1825,
+    "premium": true,
+    "leadText": "Swiss commodity traders provide developing countries with billions in loans that are repaid with oil over many years. Some deals are sensitive, and little is known about most of them.",
+    "nzzSummaryIsAuto": true,
+    "commentsCount": 6,
+    "openToComment": false,
+    "locale": "de-CH"
+   },
+   {
+    "title": "Business: Siemens Energy saves hundreds of millions and therefore drops Siemens from its name",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "teaserImage": {
+     "originalUrl": "/2026/06/29/08f3fc24-e138-40c6-bde9-82bf7b8fe3fd.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/06/29/08f3fc24-e138-40c6-bde9-82bf7b8fe3fd.jpg?width=1024&quality=75&auto=webp",
+     "width": 4500,
+     "height": 3000,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "4500,2531,x0,y234"
+      },
+      {
+       "name": "4:3",
+       "crop": "4000,3000,x250,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "3000,3000,x750,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "2250,3000,x1125,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "4500,3000,x0,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "The latest news.",
+     "teaserAuthor": "Illustration by Simon Tanner / NZZ"
+    },
+    "teaserAuthor": "Illustration by Simon Tanner / NZZ",
+    "flag": "Short news items",
+    "nzzId": "ld.10010807",
+    "readingTime": 960,
+    "paywallQuestionOne": "How did Trump's statements affect the Dax on June 10th?",
+    "paywallQuestionTwo": "What role do geopolitical risks play for the markets, according to experts?",
+    "paywallQuestionThree": "Why does the Fed's monetary policy outlook remain unclear?",
+    "characterCount": 22084,
+    "product": "NZZ.ch",
+    "documentId": "10010807",
+    "layout": "regular",
+    "publicationDate": "2026-07-14T15:18:42.843Z",
+    "publicationLastUpdated": "2026-07-14T15:26:35.356Z",
+    "significantUpdate": true,
+    "significantUpdateTill": "2026-07-15T03:18:42.843Z",
+    "teaserCaption": "The latest news.",
+    "url": "https://www.nzz.ch/wirtschaft/wirtschaft-stefan-hartung-tritt-als-bosch-chef-ab-ex-ceo-geht-laut-medienbericht-nach-kuendigung-gegen-nestle-vor-ld.10010807",
+    "department": {
+     "name": "Economy",
+     "path": "/wirtschaft"
+    },
+    "estimationWordCount": 3252,
+    "leadText": "The latest news.",
+    "nzzSummaryIsAuto": true,
+    "hasQ": true,
+    "locale": "de-CH"
+   },
+   {
+    "title": "The protests in Bolivia have ended for now, but the center-right government has not yet found a way out of the crisis",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "teaserImage": {
+     "originalUrl": "/2026/07/03/76ac62ae-5c15-4d7e-8cc8-5909b53f9b93.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/07/03/76ac62ae-5c15-4d7e-8cc8-5909b53f9b93.jpg?width=1024&quality=75&auto=webp",
+     "width": 5616,
+     "height": 3744,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "5105,2871,x511,y873"
+      },
+      {
+       "name": "4:3",
+       "crop": "4992,3744,x495,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "2113,2113,x1981,y1631"
+      },
+      {
+       "name": "3:4",
+       "crop": "2553,3403,x1658,y341"
+      },
+      {
+       "name": "3:2",
+       "crop": "5616,3744,x0,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "For seven weeks, sometimes violent protests paralyzed the Andean nation. President Rodrigo Paz is now searching for ways out of the disastrous economic situation. An agreement with the International Monetary Fund (IMF) would be unpopular.",
+     "teaserAuthor": "Juan Karita / AP"
+    },
+    "teaserAuthor": "Juan Karita / AP",
+    "tags": [
+     "Amerika"
+    ],
+    "nzzId": "ld.10014052",
+    "readingTime": 240,
+    "paywallQuestionOne": "How do the protests affect Bolivia's economic stability?",
+    "paywallQuestionTwo": "What concessions did the government make to the trade unions?",
+    "paywallQuestionThree": "What role does Evo Morales play in the current political crisis?",
+    "characterCount": 5107,
+    "product": "NZZ.ch",
+    "documentId": "10014052",
+    "layout": "regular",
+    "publicationDate": "2026-07-04T03:30:00.000Z",
+    "publicationLastUpdated": "2026-07-04T03:30:00.000Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-07-04T15:30:00.000Z",
+    "teaserCaption": "For seven weeks, sometimes violent protests paralyzed the Andean nation. President Rodrigo Paz is now searching for ways out of the disastrous economic situation. An agreement with the International Monetary Fund (IMF) would be unpopular.",
+    "authorLine": "Thomas Milz",
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2024/05/29/5d80ff16-049b-45ce-88ee-6075a8247b04.jpeg?width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/international/die-proteste-in-bolivien-sind-vorerst-beendet-doch-einen-ausweg-aus-der-krise-hat-die-mitte-rechts-regierung-noch-nicht-gefunden-ld.10014052",
+    "department": {
+     "name": "International",
+     "path": "/international"
+    },
+    "estimationWordCount": 758,
+    "leadText": "For seven weeks, sometimes violent protests paralyzed the Andean nation. President Rodrigo Paz is now searching for ways out of the disastrous economic situation. An agreement with the International Monetary Fund (IMF) would be unpopular.",
+    "nzzSummaryIsAuto": true,
+    "locale": "de-CH"
+   },
+   {
+    "title": "The IMF is backing the Federal Council in the dispute over UBS",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "teaserImage": {
+     "originalUrl": "/2026/06/25/b5a75651-48e4-4d9d-96e3-aca9fc26c893.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/06/25/b5a75651-48e4-4d9d-96e3-aca9fc26c893.jpg?width=1024&quality=75&auto=webp",
+     "width": 3290,
+     "height": 2193,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "3290,1851,x0,y171"
+      },
+      {
+       "name": "4:3",
+       "crop": "2924,2193,x183,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "2193,2193,x549,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "1645,2193,x823,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "3290,2193,x0,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "UBS hopes that Parliament will accommodate it regarding the new equity capital rules. However, its counterpart, the Federal Council, is now receiving support from the most important multilateral financial organization.",
+     "teaserAuthor": "Romina Amato / Reuters"
+    },
+    "teaserAuthor": "Romina Amato / Reuters",
+    "nzzId": "ld.10012942",
+    "readingTime": 180,
+    "paywallQuestionOne": "Why does the IMF support the Federal Council in the dispute over UBS?",
+    "paywallQuestionTwo": "What role does hard equity play in the new requirements?",
+    "paywallQuestionThree": "How is UBS responding to the demands of the Federal Council and the IMF?",
+    "characterCount": 3922,
+    "product": "NZZ.ch",
+    "documentId": "10012942",
+    "layout": "regular",
+    "publicationDate": "2026-06-25T14:57:54.232Z",
+    "publicationLastUpdated": "2026-06-25T16:56:23.085Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-06-26T02:57:54.232Z",
+    "teaserCaption": "UBS hopes that Parliament will accommodate it regarding the new equity capital rules. However, its counterpart, the Federal Council, is now receiving support from the most important multilateral financial organization.",
+    "authorLine": "Thomas Fuster",
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2024/05/31/32dce22c-5801-4b24-8774-9bd41daa6d2b.jpeg?width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/wirtschaft/der-iwf-staerkt-dem-bundesrat-im-streit-um-die-ubs-den-ruecken-ld.10012942",
+    "department": {
+     "name": "Economy",
+     "path": "/wirtschaft"
+    },
+    "estimationWordCount": 569,
+    "leadText": "UBS hopes that Parliament will accommodate it regarding the new equity capital rules. However, its counterpart, the Federal Council, is now receiving support from the most important multilateral financial organization.",
+    "nzzSummaryIsAuto": true,
+    "locale": "de-CH"
+   },
+   {
+    "owner": "NZZ",
+    "title": "Donald Trump blocks the Strait of Hormuz to Iran: The outlook for the global economy darkens",
+    "teaserImage": {
+     "originalUrl": "/2026/04/13/b9384dc8-06de-49d5-ab0e-264997e32703.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/04/13/b9384dc8-06de-49d5-ab0e-264997e32703.jpg?width=1024&quality=75&auto=webp",
+     "width": 6000,
+     "height": 4000,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "6000,3375,x0,y625"
+      },
+      {
+       "name": "1:1",
+       "crop": "4000,4000,x1085,y0"
+      },
+      {
+       "name": "4:3",
+       "crop": "5333,4000,x411,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "3000,4000,x1007,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "6000,4000,x0,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "In an extreme scenario, the IMF even warns of a global recession due to rising oil prices. An economic outlook in three scenarios.",
+     "teaserAuthor": "Markus Tischler / Imago"
+    },
+    "teaserAuthor": "Markus Tischler / Imago",
+    "nzzasFootnote": false,
+    "folioFootnote": false,
+    "authorLine": "Michael Rasch, Catherine Bosley",
+    "paywallQuestionOne": "How does the war in the Persian Gulf affect energy prices worldwide?",
+    "paywallQuestionTwo": "What are the consequences of the conflict for the global economy and inflation?",
+    "paywallQuestionThree": "How do energy and economic risks affect European consumers?",
+    "language": {
+     "locale": "de-CH"
+    },
+    "nzzId": "ld.1933429",
+    "readingTime": 360,
+    "showComments": true,
+    "characterCount": 7465,
+    "product": "NZZ.ch",
+    "documentId": "1933429",
+    "layout": "regular",
+    "publicationDate": "2026-04-14T13:00:00.000Z",
+    "publicationLastUpdated": "2026-04-14T13:38:55.245Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-04-15T01:00:00.000Z",
+    "teaserCaption": "In an extreme scenario, the IMF even warns of a global recession due to rising oil prices. An economic outlook in three scenarios.",
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2022/09/14/5d4cbc9a-6dd6-47e9-a749-844afb0d53e2.png?width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/wirtschaft/donald-trump-sperrt-die-strasse-von-hormuz-fuer-iran-die-perspektiven-fuer-die-weltwirtschaft-verduestern-sich-ld.1933429",
+    "department": {
+     "name": "Economy",
+     "path": "/wirtschaft"
+    },
+    "estimationWordCount": 1112,
+    "premium": true,
+    "leadText": "In an extreme scenario, the IMF even warns of a global recession due to rising oil prices. An economic outlook in three scenarios.",
+    "nzzSummaryIsAuto": false,
+    "commentsCount": 10,
+    "openToComment": false,
+    "hasQ": true
+   }
+  ]
+ },
+ "digitalData": {
+  "component": [
+   {
+    "id": "ld.1914752",
+    "name": "There are sensible ways out of the looming sovereign debt crisis.",
+    "type": "article",
+    "subType1": "longformstandard",
+    "subType2": "",
+    "primaryCategory": "Wirtschaft",
+    "subCategory1": "",
+    "attributes": {
+     "headline": "There are sensible ways out of the looming sovereign debt crisis.",
+     "firstPublishTitle": "",
+     "catchline": "",
+     "authors": [
+      {
+       "id": 1373404,
+       "name": "Peter A. Fischer",
+       "shortName": "pfi",
+       "pianoId": "49eea861-3efa-4465-bce0-7770e08448c0",
+       "external": false
+      }
+     ],
+     "issueTimestamp": "2025-12-08T04:30:00.000Z",
+     "updateTimestamp": "2025-12-08T09:55:51.843Z",
+     "isSponsoredContent": false,
+     "isPro": true,
+     "isLiveticker": false,
+     "flag": "",
+     "owner": "NZZ"
+    }
+   }
+  ],
+  "page": {
+   "pageId": "ld.1914752",
+   "pageType": "longformstandard",
+   "primaryCategory": "Wirtschaft",
+   "subCategory1": "",
+   "subCategory2": "",
+   "language": "en-US"
+  },
+  "version": "2.0",
+  "user": {},
+  "event": []
+ },
+ "seoData": {
+  "title": "Ways out of the sovereign debt crisis: necessary reforms and learning from Sweden",
+  "image": {
+   "url": "https://img-msp-prod.nzz.ch/2025/12/07/6fe6b15c-d162-43d9-859b-8b04d838c958.jpg?width=1200&height=675&fit=bounds&quality=75&auto=webp&crop=5616,3159,x0,y0&wmark=nzz",
+   "type": "image/jpeg",
+   "width": 1200,
+   "height": 675
+  },
+  "author": "Peter A. Fischer",
+  "description": "In the US, in France, and perhaps soon in Germany as well, national debts are spiraling out of control. This is not fate, but a sign of a lack of responsibility and control.",
+  "news_keywords": "There are sensible ways out of the looming sovereign debt crisis, Economy, News, NZZ",
+  "type": "article",
+  "last-modified": "2025-12-08T12:55:51+02:00",
+  "date": "2025-12-08T07:30:00+02:00",
+  "canonical": "https://www.nzz.ch/wirtschaft/es-gibt-vernuenftige-auswege-aus-der-drohenden-staatsschuldenkrise-ld.1914752",
+  "fb:app_id": 138008459595436,
+  "fb:pages": 143694099006529,
+  "fb:admins": 1592685173,
+  "locale": "de-CH",
+  "email": "online.redaktion@nzz.ch",
+  "site_name": "Neue Zürcher Zeitung",
+  "copyright": "2026 Neue Zürcher Zeitung AG, Schweiz",
+  "robots": "noindex, nofollow, noarchive, noodp",
+  "hreflang": [],
+  "sharedTitle": "There are sensible ways out of the looming sovereign debt crisis.",
+  "ogTitle": "Sweden and Portugal have shown how to find a way out of a debt-based economy.",
+  "ogUrl": "https://www.nzz.ch/wirtschaft/es-gibt-vernuenftige-auswege-aus-der-drohenden-staatsschuldenkrise-ld.1914752",
+  "mrf:cms_id": "nzz:ld.1914752",
+  "mrf:sections": "Wirtschaft;Wirtschaft & Finanzen",
+  "mrf:tags": "Page Type:longformstandard;Editorial Owner:NZZ;Content Type:Pro Article;Article ID:ld.1914752",
+  "nzzAuthors": [
+   {
+    "id": 1373404,
+    "name": "Peter A. Fischer",
+    "shortName": "pfi",
+    "pianoId": "49eea861-3efa-4465-bce0-7770e08448c0",
+    "external": false
+   }
+  ],
+  "links": [
+   {
+    "rel": "canonical",
+    "href": "https://www.nzz.ch/wirtschaft/es-gibt-vernuenftige-auswege-aus-der-drohenden-staatsschuldenkrise-ld.1914752"
+   },
+   {
+    "rel": "search",
+    "href": "/suche",
+    "title": "Suche Neue Zürcher Zeitung, Schweiz, https://www.nzz.ch/suche"
+   }
+  ],
+  "renderedAt": "Thu, 03 Sep 2026 10:02:27 GMT"
+ },
+ "structuredData": [
+  {
+   "@context": "https://schema.org",
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "item": {
+      "@id": "/",
+      "name": "Home"
+     }
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "item": {
+      "@id": "/wirtschaft",
+      "name": "Economy"
+     }
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Ways out of the sovereign debt crisis: necessary reforms and learning from Sweden"
+    }
+   ]
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": "NewsArticle",
+   "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.nzz.ch/wirtschaft/es-gibt-vernuenftige-auswege-aus-der-drohenden-staatsschuldenkrise-ld.1914752"
+   },
+   "headline": "Ways out of the sovereign debt crisis: necessary reforms and learning from Sweden",
+   "datePublished": "2025-12-08T07:30:00+02:00",
+   "dateModified": "2025-12-08T12:55:51+02:00",
+   "publisher": {
+    "@type": "NewsMediaOrganization",
+    "name": "Neue Zürcher Zeitung",
+    "url": "https://www.nzz.ch",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://www.nzz.ch/logo.png",
+     "width": 413,
+     "height": 60
+    },
+    "contactPoint": [
+     {
+      "@type": "ContactPoint",
+      "telephone": "+41-44-2581000",
+      "contactType": "customer service"
+     }
+    ],
+    "sameAs": [
+     "https://www.facebook.com/nzz",
+     "https://www.twitter.com/nzz",
+     "https://www.youtube.com/channel/UCK1aTcR0AckQRLTlK0c4fuQ",
+     "https://www.linkedin.com/company/neue-zurcher-zeitung",
+     "https://www.instagram.com/nzz/",
+     "https://de.wikipedia.org/wiki/Neue_Z%C3%BCrcher_Zeitung",
+     "https://www.wikidata.org/wiki/Q658945",
+     "https://plus.google.com/+nzz/",
+     "http://www.freebase.com/m/041b43"
+    ],
+    "masthead": "https://www.nzz.ch/impressum/impressum-ld.148422",
+    "foundingDate": "1780"
+   },
+   "description": "In the US, in France, and perhaps soon in Germany as well, national debts are spiraling out of control. This is not fate, but a sign of a lack of responsibility and control.",
+   "isAccessibleForFree": false,
+   "articleSection": "Wirtschaft",
+   "hasPart": {
+    "@type": "WebPageElement",
+    "isAccessibleForFree": false,
+    "cssSelector": ".nzzinteraction"
+   },
+   "image": {
+    "@type": "ImageObject",
+    "url": "https://img-msp-prod.nzz.ch/2025/12/07/6fe6b15c-d162-43d9-859b-8b04d838c958.jpg?width=1200&height=675&fit=bounds&quality=75&auto=webp&crop=5616,3159,x0,y0&wmark=nzz",
+    "width": 1200,
+    "height": 675
+   },
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Peter A. Fischer"
+    }
+   ],
+   "inLanguage": "de"
+  }
+ ],
+ "mp3": true,
+ "mp3Duration": 677016,
+ "bT": {
+  "standard": {
+   "Tags": [
+    "/wirtschaft/es-gibt-vernuenftige-auswege-aus-der-drohenden-staatsschuldenkrise-ld.1914752",
+    "classification=premium",
+    "relevance=germany",
+    "layout=longformstandard",
+    "comments=true",
+    "owner=nzz",
+    "product=nzz",
+    "doctype=article",
+    "pagetype=article",
+    "ldid=ld.1914752",
+    "channel=Wirtschaft"
+   ],
+   "ContentCreated": "2025-12-08T04:30:00.000Z",
+   "ContentAuthor": "Peter A. Fischer",
+   "ContentSection": "Wirtschaft",
+   "ContentIsNative": true
+  },
+  "custom": {
+   "product": "nzz",
+   "docType": "article",
+   "pageType": "article",
+   "layout": "longformstandard",
+   "nzzAbstract": "Wie stark verschuldet sind die westlichen Länder?\nWelche regionalen Unterschiede gibt es und wieso?\nWas wissen wir darüber, wie Schuldenkrise rechtzeitig verhindert werden können?",
+   "ldId": "ld.1914752",
+   "channel": "Wirtschaft",
+   "heading": "Es gibt vernünftige Auswege aus der drohenden Staatsschuldenkrise",
+   "language": "en-US"
+  }
+ },
+ "webviewMetadata": {},
+ "cacheTime": 3600
+}

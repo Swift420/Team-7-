@@ -1,0 +1,25 @@
+{
+  "params": {
+    "id": "5cde6d33c8c4f3aad5c88cd21938308c",
+    "conf": {},
+    "toolConfig": {},
+    "toolRuntimeConfig": {
+      "size": {
+        "width": [
+          {
+            "value": 100,
+            "comparison": ">"
+          }
+        ]
+      },
+      "displayOptions": {
+        "hideTitle": true,
+        "hideFooter": false,
+        "hideAcronym": true,
+        "hideSubtitle": false
+      }
+    }
+  },
+  "position": 36,
+  "component_id": "doc-1impihes60"
+}

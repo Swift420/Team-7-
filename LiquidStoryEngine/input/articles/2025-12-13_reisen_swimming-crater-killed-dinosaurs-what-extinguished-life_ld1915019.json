@@ -1,0 +1,295 @@
+{
+  "nzz_id": "ld.1915019",
+  "document_id": 1915019,
+  "url": "https://www.nzz.ch/reisen/was-drei-viertel-des-lebens-ausloeschte-machte-den-menschen-erst-moeglich-eine-reise-an-den-ort-unserer-entstehung-ld.1915019",
+  "language": "en",
+  "machine_translated_from_de": true,
+  "section": "Reisen",
+  "ressort_path": "reisen",
+  "genre_flag": "",
+  "layout": "longformvisual",
+  "published_at": "2025-12-13T04:30:00.000Z",
+  "last_updated": "2025-12-19T08:58:32.593Z",
+  "headline": "Swimming in the crater that killed the dinosaurs: What extinguished life made humankind possible. A journey to the place of our origin.",
+  "lead": "In the verdant wilderness of Mexico lies a museum. No sign points the way. An asteroid struck here 66 million years ago. What it left behind changed the Earth forever.",
+  "author_line": "Alexandra von Ascheraden",
+  "authors": [
+    "Peter Ackermann",
+    "Auswärtige Autoren NZZ"
+  ],
+  "reading_time_seconds": 720,
+  "word_count": 2383,
+  "character_count": 14335,
+  "seo_title": "Chicxulub crater, cenotes, asteroid and the origin of humans",
+  "social_title": "Diving in the crater that wiped out the dinosaurs",
+  "print_title": "Diving in the dinosaur grave: Diving in the dinosaur grave from which humans emerged",
+  "print_subtitle": "In the verdant wilderness of Mexico lies a university. No sign points the way. An asteroid struck here 66 million years ago. What it left behind changed the Earth forever. BY ALEXANDRA VON ASCHERADEN",
+  "summary_bullets_en": [
+    "Around 66 million years ago, an asteroid struck Yucatán, wiping out three-quarters of all life, causing massive wildfires and an impact winter. This event paved the way for the rise of mammals and ultimately humans.",
+    "The resulting crater rings and karst cave systems, known as cenotes, later became sacred water sources for the Maya and are now important tourist attractions.",
+    "Some local communities manage cenotes and use tourism revenues to support their villages. These sites blend cosmic history, Maya culture, and modern usage."
+  ],
+  "tags": [
+    "classification=default",
+    "relevance=default",
+    "layout=longformvisual",
+    "owner=nzz",
+    "product=nzz",
+    "doctype=article",
+    "pagetype=article",
+    "ldid=ld.1915019",
+    "channel=Reisen"
+  ],
+  "sections_tag": "Reisen;Gesellschaft",
+  "teaser_image": {
+    "url": "https://img-msp-prod.nzz.ch/2025/12/08/9cde1c8e-9487-4f29-b768-6c34a198c19a.jpg?width=1024",
+    "caption": "In the verdant wilderness of Mexico lies a museum. No sign points the way. An asteroid struck here 66 million years ago. What it left behind changed the Earth forever.",
+    "credit": "Hector Vivas / Getty",
+    "width": 8192,
+    "height": 5464
+  },
+  "original_de": {
+    "headline": "Baden im Krater, der die Dinosaurier tötete: Was Leben auslöschte, machte den Menschen erst möglich. Eine Reise an den Ort unserer Entstehung",
+    "lead": "Im grünen Nichts von Mexiko liegt ein Museum. Kein Schild weist den Weg. Hier schlug vor 66 Millionen Jahren ein Asteroid ein. Was er hinterliess, veränderte die Erde für immer.",
+    "kicker": null
+  },
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "An hour south of Mérida, the capital of Yucatán, the Chicxulub Science Museum lies hidden on a university campus. Only in the final stretch do life-size plastic dinosaurs dispel any doubts about whether this is the right place. The drive had led kilometer after kilometer along lonely roads lined with impenetrable thickets of green vegetation, without a single signpost. The taxi driver drove stoically and with a slight grumble, perhaps accustomed to unusual requests. None of his passengers had ever asked to come here before; he wasn't at all sure the destination even existed."
+    },
+    {
+      "type": "paragraph",
+      "text": "Finally: a solitary guardhouse, its barrier stretching across the street. The guard glances impassively at the driver's ID, exchanges it for a laminated slip of paper, and keeps it. This ensures that visitors leave the university grounds again in the evening. Then he opens the barrier. The taxi rolls along bumpy concrete roads across the university grounds, which are completely deserted on Sunday. And this particular museum is only open on Sundays."
+    },
+    {
+      "type": "paragraph",
+      "text": "Here, right here in this no-man's-land, an asteroid struck the limestone at a steep angle 66 million years ago, traveling at 72,000 kilometers per hour and wiping out three-quarters of all life on Earth. For a long time, researchers searched for the reasons behind what happened to the Earth and for the traces of this global annihilation"
+    },
+    {
+      "type": "image",
+      "url": "https://img-msp-prod.nzz.ch/2025/12/08/1da30c8a-8a62-473b-b834-270e3fa1f378.jpg?width=1024",
+      "caption": "Over 2400 freshwater sinkholes (cenotes) crisscross the Yucatán Peninsula; their circular arrangement follows the fault zones of the Chicxulub impact: Cenote near Muna from a bird's-eye view.",
+      "credit": "Hector Vivas / Getty",
+      "width": 5464,
+      "height": 3640
+    },
+    {
+      "type": "image",
+      "url": "https://img-msp-prod.nzz.ch/2025/12/08/3e2fc6d7-c4ff-45f4-a660-4ba6fd428f18.jpg?width=1024",
+      "caption": "The Maya climbed long ladders into the cenotes to collect drinking water, because Yucatán has no rivers; the karst soil allows rainwater to seep away immediately: Divers in the Cenote Dos Ojos near Tulum.",
+      "credit": "Christophe Geyres / Imago",
+      "width": 5472,
+      "height": 3648
+    },
+    {
+      "type": "heading",
+      "text": "Impact winter and mass extinction"
+    },
+    {
+      "type": "paragraph",
+      "text": "What is currently believed is that the impact in the shallow sea triggered massive earthquakes and waves up to 100 meters high, which developed into tsunamis. The asteroid's impact was so massive that the rock melted kilometers deep, partially vaporizing along with the impacting celestial body and leaving behind a crater 200 kilometers in diameter. Glowing rock dust was hurled into the stratosphere, and the heat ignited wildfires. Within a few days, such dense masses of soot and dust particles entered the atmosphere that sunlight could no longer penetrate it. A prolonged cold gripped the Earth, the so-called impact winter."
+    },
+    {
+      "type": "paragraph",
+      "text": "Three-quarters of life was extinguished. The majority of plants disappeared, including the enormous tree ferns, of which impressive fossils bear witness, and the giant clubmosses. The enormous herbivorous dinosaurs could no longer find food, and soon the carnivorous ones followed suit. In the sea, the gigantic ichthyosaurs died out, as did the ammonites. On land, no animal larger than a rat survived."
+    },
+    {
+      "type": "paragraph",
+      "text": "The triumph of mammals only began with this cataclysmic event from space. And so did the rise of humble organisms like fungi, mosses, and lichens, and later ferns and flowering plants. Without this impact, there might be no humans. Had the dinosaurs survived, mammals might have remained marginal. And perhaps we humans would have too. Our existence may owe itself to a cosmic accident. And today, tourists unknowingly bathe in the crater it left behind."
+    },
+    {
+      "type": "paragraph",
+      "text": "That's why life-size plastic Velociraptors lurk at the museum's entrance. Behind the glass wall facing the courtyard, the Brachiosaurus towers over the ten-meter-high building and easily over the Tyrannosaurus Rex and all the other plastic dinosaurs that populate the courtyard with it."
+    },
+    {
+      "type": "image",
+      "url": "https://img-msp-prod.nzz.ch/2025/12/08/6289b30c-1f82-41f1-8ed7-dc8f6c29606e.jpg?width=1024",
+      "caption": "The cenotes follow the fracture zones of the asteroid impact in concentric rings, a pattern that can only be seen from space: aerial view of the Yucatán Peninsula.",
+      "credit": "Pascal Kobeh / Imago",
+      "width": 7248,
+      "height": 4821
+    },
+    {
+      "type": "image",
+      "url": "https://img-msp-prod.nzz.ch/2025/12/08/9cde1c8e-9487-4f29-b768-6c34a198c19a.jpg?width=1024",
+      "caption": "For day trips from Cancún, it's a time-saving destination: sixty meters in diameter, azure water, Instagram-worthy – the Cenote Ik Kil, three minutes from the Mayan pyramids of Chichén Itzá.",
+      "credit": "Hector Vivas / Getty",
+      "width": 8192,
+      "height": 5464
+    },
+    {
+      "type": "heading",
+      "text": "The search for the crater"
+    },
+    {
+      "type": "paragraph",
+      "text": "As difficult as the museum was to find, it was well worth the effort. Visitors aren't accompanied by ordinary museum guides, but by staff from the university's affiliated research departments. The floor-to-ceiling projections of maps, graphics, and models vividly illustrate the sheer scale of the event that melted the Earth's crust here. Geophysicists display drill cores and rock samples from the depths of the crater, presenting the geological evidence of what once so abruptly transformed everything in this area."
+    },
+    {
+      "type": "paragraph",
+      "text": "For a very long time, scientists searched for the impact crater of the asteroid whose impact was suspected to have wiped out the dinosaurs. The goal was to prove this theory. It was assumed to be located somewhere on the ocean floor. And indeed it is. It lies approximately halfway beneath the Gulf of Mexico, in the area where tourists now throng the coral-white beaches."
+    },
+    {
+      "type": "paragraph",
+      "text": "It was precisely here that the Mexican oil company Pemex began large-scale exploratory drilling for oil in 1958. They found none. But at a depth of 1,300 meters, they encountered something remarkable: volcanic rock. Such a thing had never been found anywhere else in the region. Today, we know that a lava dome formed at this location due to the heat and force of the impact."
+    },
+    {
+      "type": "paragraph",
+      "text": "The large crater ring is not visible, although it is still detectable. Neither are the two smaller rings that formed closer to the impact center. The museum stands not far from the center of the crater left behind by the impacting asteroid. Leaving, one's steps hesitate, one's gaze sweeping across the landscape. Here, right here, in this seemingly peaceful region, languidly resting in the heat, it happened."
+    },
+    {
+      "type": "image",
+      "url": "https://img-msp-prod.nzz.ch/2025/12/08/214e8b39-4928-4d5c-96c8-1101e82b5f22.jpg?width=1024",
+      "caption": "All cenotes close no later than 5 pm; the modern tourism industry respects what was considered a divine law a thousand years ago: Divers in the Cenote Ponderosa near Tulum.",
+      "credit": "Christophe Geyres / Getty",
+      "width": 5472,
+      "height": 3648
+    },
+    {
+      "type": "image",
+      "url": "https://img-msp-prod.nzz.ch/2025/12/08/5571fe51-aab0-459f-a1b6-05ae40a7eab5.jpg?width=1024",
+      "caption": "The dripstone formations grow over millions of years, visible traces of time in the underground cave systems: stalactites in the Gran Cenote near Tulum.",
+      "credit": "Ullstein/Getty",
+      "width": 5616,
+      "height": 3744
+    },
+    {
+      "type": "heading",
+      "text": "The gift of disaster"
+    },
+    {
+      "type": "paragraph",
+      "text": "One of the seemingly minor consequences of the impact was the formation of concentric fissures over millions of years through geological processes. When the vast coral reefs in the shallow sea later exposed the ground, forming the limestone formation we now call Yucatán, a massive cave system, following the circular crater rim, was created by the constant seepage of water. These cavities in the porous karst extend down to the groundwater level. The cenotes, with their vibrant turquoise freshwater that now feature in impressive tourist brochures, were formed where the ceilings of these subterranean caverns collapsed."
+    },
+    {
+      "type": "paragraph",
+      "text": "The cenotes follow the crater ring in concentric concentric rings, a pattern visible only from space. Those who bathe here move within the invisible imprint of the catastrophe."
+    },
+    {
+      "type": "image",
+      "url": "https://img-msp-prod.nzz.ch/2025/12/08/3bcd20a3-a6a5-4b8c-8a20-cf71f0ae072a.jpg?width=1024",
+      "caption": "Without the underground karst cave systems, there would have been no Mayan civilization; the cities were built where access to groundwater was guaranteed: the house of the cenote in the ruins of Tulum.",
+      "credit": "Jon G. Fuller Jr. / UIG / Getty",
+      "width": 5400,
+      "height": 3602
+    },
+    {
+      "type": "image",
+      "url": "https://img-msp-prod.nzz.ch/2025/12/08/f59a4e74-197d-474d-a0f6-64d7d02dba3e.jpg?width=1024",
+      "caption": "After sunset, the Maya no longer dared to enter the caves. They were convinced that the water serpent Tsukán lived in the cenotes: offerings at the Santa María cenote after a Mayan ceremony in Homún.",
+      "credit": "Rodrigo Abd / AP",
+      "width": 6892,
+      "height": 4655
+    },
+    {
+      "type": "heading",
+      "text": "Sacred springs of the Maya"
+    },
+    {
+      "type": "paragraph",
+      "text": "Some cenotes are dozens of meters deep and lie exposed because the ceiling above them has collapsed due to erosion. Very often, however, only a roughly arm-length, more or less round hole in the ground hints at the presence of a cenote below, into which a tiny piece of its cave ceiling has fallen, discreetly revealing its location."
+    },
+    {
+      "type": "paragraph",
+      "text": "The Maya descended long ladders to draw drinking water from the riverbeds. Without them, the Mayan cities would not have existed. There are no rivers in Yucatán. The calcareous karst soil allows water to seep away quickly. Rainwater had to be stored in cisterns. The majority of the vital water supply came from the underground karst cave systems that provided access to groundwater."
+    },
+    {
+      "type": "paragraph",
+      "text": "The natural sinkholes were sacred. The Maya referred to the water-filled dolines as holy springs. No one would ever have dared to approach them after dusk. For, at sunset at the latest, one had to expect to encounter the water serpent Tsukán, the mythical guardian of the cenotes, in the cenotes."
+    },
+    {
+      "type": "paragraph",
+      "text": "Even today, all cenotes close by 5 p.m. at the latest. Respect remains: no swimming under floodlights for paying tourists. Only the catfish, which during the day curiously swim around the feet of bathers, remain."
+    },
+    {
+      "type": "heading",
+      "text": "Instagram and mass tourism"
+    },
+    {
+      "type": "paragraph",
+      "text": "Today, cenotes are primarily tourist attractions. One of the most frequently visited is Cenote Ik Kil, a three-minute drive from the famous Mayan pyramids at Chichén Itzá, for which it was an important source of drinking water. This makes it a time-saving destination for the numerous day-trip operators who bring busloads of tourists from Cancún to the Mayan highlights. Sixty meters in diameter, azure-blue water. You bathe two dozen meters below the surface in water that is sometimes fifty meters deep, surrounded by a packed wooden floating platform from which the aerial roots of the surrounding jungle hang. Many manage to take Instagram-worthy photos here. Then on to the next attraction, the next photo shoot."
+    },
+    {
+      "type": "paragraph",
+      "text": "For those who don't just want to efficiently tick «swimming in a cenote» off their bucket list, the many small cenotes off the beaten tourist track are worth a visit. With a bit of luck, you'll have the place almost entirely to yourself. Always wear a brightly colored life jacket in pink, red, blue, or yellow. You're not allowed in without one. The life jacket is your substitute for a lifeguard."
+    },
+    {
+      "type": "paragraph",
+      "text": "On the main roads leading out of the towns, leaflet distributors wave self-designed flyers for the cenotes, which can be reached via dirt roads branching off from the main roads."
+    },
+    {
+      "type": "paragraph",
+      "text": "Not far from Acanceh lies the Santa Rosa cenote. Wearing a bright pink life jacket, you can experience both here: swimming in an open cenote beneath aerial roots, or descending into the underworld, into a cenote where only a little light filters in through a small hole in the cave ceiling. Here, far from the hustle and bustle of Ik Kil, the meaning of cenotes for the Maya returns: sacred places that demanded respect."
+    },
+    {
+      "type": "paragraph",
+      "text": "A narrow wooden spiral staircase leads through a hole in the floor into the damp depths. With each step, the air grows cooler and more humid, the cave's twilight thickening. Only a distant drip breaks the silence. Just when the darkness threatens to become too great, the surface of the water below can be glimpsed. Blue and violet light from hidden spotlights colors the walls and water. The dripping becomes more audible. It comes from the stalactites on the cave ceiling. They form stalagmites in the water like pointed islands, visible millions of years of time. A small staircase leads from the wooden platform into the water, which is soft, cool, and inviting to swim."
+    },
+    {
+      "type": "image",
+      "url": "https://img-msp-prod.nzz.ch/2025/12/08/1179e8da-3631-4450-adf8-70d930533a22.jpg?width=1024",
+      "caption": "The stalactites in the Aktun Chen cave grow about one centimeter per century; the monumental formations here bear witness to millions of years of history: cave system in the Aktun Chen Natural Park, Riviera Maya.",
+      "credit": "Greg Vaughn / Imago",
+      "width": 4229,
+      "height": 2809
+    },
+    {
+      "type": "image",
+      "url": "https://img-msp-prod.nzz.ch/2025/12/08/58152283-af76-419d-b4d9-22ac81c9e672.jpg?width=1024",
+      "caption": "The rainwater in the underground cavities creates its own ecosystems: Water lilies in the «Car Wash» cenote Aktun Ha near Tulum in an underwater photograph.",
+      "credit": "Imago",
+      "width": 5616,
+      "height": 3744
+    },
+    {
+      "type": "heading",
+      "text": "The Mayan belief system persists"
+    },
+    {
+      "type": "paragraph",
+      "text": "Down here, where the darkness of the cave envelops you and only the dripping of the stalactites breaks the silence, you can sense why the Maya both feared and revered these places. After sunset, they believed, Tsukán, the water serpent, dwells here. To this day, all cenotes close at 5 p.m. The modern tourism industry respects what was considered divine law a thousand years ago. It is one of the few continuities that bridge the gap between the pre-Columbian past and the tourist present. Mayan beliefs persist, not as folkloric decoration, but as a practiced boundary."
+    },
+    {
+      "type": "paragraph",
+      "text": "Of the roughly one hundred cenotes that have been opened to tourists here, ten percent are managed by the local population. Only in these cases does the money collected go directly to the village community. These cenotes can be identified by a painted board on which someone from the village has neatly painted «turismo comunitario» (community tourism)."
+    },
+    {
+      "type": "paragraph",
+      "text": "One of these is the Yokdzonot cenote, just twenty minutes from Ik Kil. It was once used as a source of drinking water by railway workers who settled there. When water pipes were laid in 1958, the cenote became a garbage dump. Ten years ago, the locals rediscovered what the asteroid had created 66 million years ago. Fifty villagers joined forces to remove the trash and attract tourists."
+    },
+    {
+      "type": "paragraph",
+      "text": "María, who sells tickets at the entrance, explains: «It was hard work that initially brought no income, so many dropped out. In the end, only sixteen people remained. They are still involved today.» They cleared the uphill paths, planted flowers in walled beds, built a restaurant up there, and secured the descent to the cenote, which is bordered by steep walls, with retaining walls, stairs, and railings."
+    },
+    {
+      "type": "paragraph",
+      "text": "The water's vibrant blue expanse measures forty meters in diameter. Those who descend the steps and, clad in a bright yellow life jacket, float in the soft freshwater—less chilly than expected—find themselves almost alone. Thick bundles of aerial roots dance on the surface, jungle leaves drift by. Catfish glide leisurely past. Birds sing. The voices of the few other bathers drift softly over. The fascination that the cenotes held for the Maya remains palpable."
+    },
+    {
+      "type": "paragraph",
+      "text": "The road to get here wasn't easy for the village cooperative. Once everything was finished, nobody came for a year. The frustration was immense. They persevered. Word slowly began to spread. The government finally agreed to subsidies. Today, the cooperative members earn their living from the business. Ten percent of the profits go towards other local community projects. «It wasn't easy. But we've built a future for ourselves here.»"
+    },
+    {
+      "type": "paragraph",
+      "text": "It's a remarkable turn of events: what began as a cosmic catastrophe became the foundation of a high culture, degenerated into the garbage dump of modernity, and is now becoming the economic basis of a village community. The cenotes are undergoing a cultural metamorphosis, progressing from reverence to neglect to commercial exploitation. That some of the money flows back into the community is a form of justice that tourism in this region can offer."
+    },
+    {
+      "type": "paragraph",
+      "text": "All these fascinating cenotes may look similar, yet each one is unique. No one knows how many there are. The vegetation here in Yucatán is so lush that most are overgrown and hidden from view."
+    },
+    {
+      "type": "paragraph",
+      "text": "Those who bathe here immerse themselves in a twofold wonder: the cosmic catastrophe that wiped out three-quarters of life 66 million years ago, thus paving the way for the triumph of mammals and ultimately humankind; and the millennia-old Mayan culture, which made its livelihood from this catastrophe, elevating the cenotes to sacred springs and surrounding them with myths that resonate to this day."
+    },
+    {
+      "type": "paragraph",
+      "text": "Time operates on a different scale here. Above, on the surface, tourists pose in neon pink life jackets for Instagram photos. Below, in the cool blue of the water, stalactites have been dripping for millions of years. The crater reveals its secrets only reluctantly."
+    },
+    {
+      "type": "footnote",
+      "text": "This report was made possible by the support of TUI Suisse ."
+    }
+  ],
+  "body_text": "An hour south of Mérida, the capital of Yucatán, the Chicxulub Science Museum lies hidden on a university campus. Only in the final stretch do life-size plastic dinosaurs dispel any doubts about whether this is the right place. The drive had led kilometer after kilometer along lonely roads lined with impenetrable thickets of green vegetation, without a single signpost. The taxi driver drove stoically and with a slight grumble, perhaps accustomed to unusual requests. None of his passengers had ever asked to come here before; he wasn't at all sure the destination even existed.\n\nFinally: a solitary guardhouse, its barrier stretching across the street. The guard glances impassively at the driver's ID, exchanges it for a laminated slip of paper, and keeps it. This ensures that visitors leave the university grounds again in the evening. Then he opens the barrier. The taxi rolls along bumpy concrete roads across the university grounds, which are completely deserted on Sunday. And this particular museum is only open on Sundays.\n\nHere, right here in this no-man's-land, an asteroid struck the limestone at a steep angle 66 million years ago, traveling at 72,000 kilometers per hour and wiping out three-quarters of all life on Earth. For a long time, researchers searched for the reasons behind what happened to the Earth and for the traces of this global annihilation\n\nImpact winter and mass extinction\n\nWhat is currently believed is that the impact in the shallow sea triggered massive earthquakes and waves up to 100 meters high, which developed into tsunamis. The asteroid's impact was so massive that the rock melted kilometers deep, partially vaporizing along with the impacting celestial body and leaving behind a crater 200 kilometers in diameter. Glowing rock dust was hurled into the stratosphere, and the heat ignited wildfires. Within a few days, such dense masses of soot and dust particles entered the atmosphere that sunlight could no longer penetrate it. A prolonged cold gripped the Earth, the so-called impact winter.\n\nThree-quarters of life was extinguished. The majority of plants disappeared, including the enormous tree ferns, of which impressive fossils bear witness, and the giant clubmosses. The enormous herbivorous dinosaurs could no longer find food, and soon the carnivorous ones followed suit. In the sea, the gigantic ichthyosaurs died out, as did the ammonites. On land, no animal larger than a rat survived.\n\nThe triumph of mammals only began with this cataclysmic event from space. And so did the rise of humble organisms like fungi, mosses, and lichens, and later ferns and flowering plants. Without this impact, there might be no humans. Had the dinosaurs survived, mammals might have remained marginal. And perhaps we humans would have too. Our existence may owe itself to a cosmic accident. And today, tourists unknowingly bathe in the crater it left behind.\n\nThat's why life-size plastic Velociraptors lurk at the museum's entrance. Behind the glass wall facing the courtyard, the Brachiosaurus towers over the ten-meter-high building and easily over the Tyrannosaurus Rex and all the other plastic dinosaurs that populate the courtyard with it.\n\nThe search for the crater\n\nAs difficult as the museum was to find, it was well worth the effort. Visitors aren't accompanied by ordinary museum guides, but by staff from the university's affiliated research departments. The floor-to-ceiling projections of maps, graphics, and models vividly illustrate the sheer scale of the event that melted the Earth's crust here. Geophysicists display drill cores and rock samples from the depths of the crater, presenting the geological evidence of what once so abruptly transformed everything in this area.\n\nFor a very long time, scientists searched for the impact crater of the asteroid whose impact was suspected to have wiped out the dinosaurs. The goal was to prove this theory. It was assumed to be located somewhere on the ocean floor. And indeed it is. It lies approximately halfway beneath the Gulf of Mexico, in the area where tourists now throng the coral-white beaches.\n\nIt was precisely here that the Mexican oil company Pemex began large-scale exploratory drilling for oil in 1958. They found none. But at a depth of 1,300 meters, they encountered something remarkable: volcanic rock. Such a thing had never been found anywhere else in the region. Today, we know that a lava dome formed at this location due to the heat and force of the impact.\n\nThe large crater ring is not visible, although it is still detectable. Neither are the two smaller rings that formed closer to the impact center. The museum stands not far from the center of the crater left behind by the impacting asteroid. Leaving, one's steps hesitate, one's gaze sweeping across the landscape. Here, right here, in this seemingly peaceful region, languidly resting in the heat, it happened.\n\nThe gift of disaster\n\nOne of the seemingly minor consequences of the impact was the formation of concentric fissures over millions of years through geological processes. When the vast coral reefs in the shallow sea later exposed the ground, forming the limestone formation we now call Yucatán, a massive cave system, following the circular crater rim, was created by the constant seepage of water. These cavities in the porous karst extend down to the groundwater level. The cenotes, with their vibrant turquoise freshwater that now feature in impressive tourist brochures, were formed where the ceilings of these subterranean caverns collapsed.\n\nThe cenotes follow the crater ring in concentric concentric rings, a pattern visible only from space. Those who bathe here move within the invisible imprint of the catastrophe.\n\nSacred springs of the Maya\n\nSome cenotes are dozens of meters deep and lie exposed because the ceiling above them has collapsed due to erosion. Very often, however, only a roughly arm-length, more or less round hole in the ground hints at the presence of a cenote below, into which a tiny piece of its cave ceiling has fallen, discreetly revealing its location.\n\nThe Maya descended long ladders to draw drinking water from the riverbeds. Without them, the Mayan cities would not have existed. There are no rivers in Yucatán. The calcareous karst soil allows water to seep away quickly. Rainwater had to be stored in cisterns. The majority of the vital water supply came from the underground karst cave systems that provided access to groundwater.\n\nThe natural sinkholes were sacred. The Maya referred to the water-filled dolines as holy springs. No one would ever have dared to approach them after dusk. For, at sunset at the latest, one had to expect to encounter the water serpent Tsukán, the mythical guardian of the cenotes, in the cenotes.\n\nEven today, all cenotes close by 5 p.m. at the latest. Respect remains: no swimming under floodlights for paying tourists. Only the catfish, which during the day curiously swim around the feet of bathers, remain.\n\nInstagram and mass tourism\n\nToday, cenotes are primarily tourist attractions. One of the most frequently visited is Cenote Ik Kil, a three-minute drive from the famous Mayan pyramids at Chichén Itzá, for which it was an important source of drinking water. This makes it a time-saving destination for the numerous day-trip operators who bring busloads of tourists from Cancún to the Mayan highlights. Sixty meters in diameter, azure-blue water. You bathe two dozen meters below the surface in water that is sometimes fifty meters deep, surrounded by a packed wooden floating platform from which the aerial roots of the surrounding jungle hang. Many manage to take Instagram-worthy photos here. Then on to the next attraction, the next photo shoot.\n\nFor those who don't just want to efficiently tick «swimming in a cenote» off their bucket list, the many small cenotes off the beaten tourist track are worth a visit. With a bit of luck, you'll have the place almost entirely to yourself. Always wear a brightly colored life jacket in pink, red, blue, or yellow. You're not allowed in without one. The life jacket is your substitute for a lifeguard.\n\nOn the main roads leading out of the towns, leaflet distributors wave self-designed flyers for the cenotes, which can be reached via dirt roads branching off from the main roads.\n\nNot far from Acanceh lies the Santa Rosa cenote. Wearing a bright pink life jacket, you can experience both here: swimming in an open cenote beneath aerial roots, or descending into the underworld, into a cenote where only a little light filters in through a small hole in the cave ceiling. Here, far from the hustle and bustle of Ik Kil, the meaning of cenotes for the Maya returns: sacred places that demanded respect.\n\nA narrow wooden spiral staircase leads through a hole in the floor into the damp depths. With each step, the air grows cooler and more humid, the cave's twilight thickening. Only a distant drip breaks the silence. Just when the darkness threatens to become too great, the surface of the water below can be glimpsed. Blue and violet light from hidden spotlights colors the walls and water. The dripping becomes more audible. It comes from the stalactites on the cave ceiling. They form stalagmites in the water like pointed islands, visible millions of years of time. A small staircase leads from the wooden platform into the water, which is soft, cool, and inviting to swim.\n\nThe Mayan belief system persists\n\nDown here, where the darkness of the cave envelops you and only the dripping of the stalactites breaks the silence, you can sense why the Maya both feared and revered these places. After sunset, they believed, Tsukán, the water serpent, dwells here. To this day, all cenotes close at 5 p.m. The modern tourism industry respects what was considered divine law a thousand years ago. It is one of the few continuities that bridge the gap between the pre-Columbian past and the tourist present. Mayan beliefs persist, not as folkloric decoration, but as a practiced boundary.\n\nOf the roughly one hundred cenotes that have been opened to tourists here, ten percent are managed by the local population. Only in these cases does the money collected go directly to the village community. These cenotes can be identified by a painted board on which someone from the village has neatly painted «turismo comunitario» (community tourism).\n\nOne of these is the Yokdzonot cenote, just twenty minutes from Ik Kil. It was once used as a source of drinking water by railway workers who settled there. When water pipes were laid in 1958, the cenote became a garbage dump. Ten years ago, the locals rediscovered what the asteroid had created 66 million years ago. Fifty villagers joined forces to remove the trash and attract tourists.\n\nMaría, who sells tickets at the entrance, explains: «It was hard work that initially brought no income, so many dropped out. In the end, only sixteen people remained. They are still involved today.» They cleared the uphill paths, planted flowers in walled beds, built a restaurant up there, and secured the descent to the cenote, which is bordered by steep walls, with retaining walls, stairs, and railings.\n\nThe water's vibrant blue expanse measures forty meters in diameter. Those who descend the steps and, clad in a bright yellow life jacket, float in the soft freshwater—less chilly than expected—find themselves almost alone. Thick bundles of aerial roots dance on the surface, jungle leaves drift by. Catfish glide leisurely past. Birds sing. The voices of the few other bathers drift softly over. The fascination that the cenotes held for the Maya remains palpable.\n\nThe road to get here wasn't easy for the village cooperative. Once everything was finished, nobody came for a year. The frustration was immense. They persevered. Word slowly began to spread. The government finally agreed to subsidies. Today, the cooperative members earn their living from the business. Ten percent of the profits go towards other local community projects. «It wasn't easy. But we've built a future for ourselves here.»\n\nIt's a remarkable turn of events: what began as a cosmic catastrophe became the foundation of a high culture, degenerated into the garbage dump of modernity, and is now becoming the economic basis of a village community. The cenotes are undergoing a cultural metamorphosis, progressing from reverence to neglect to commercial exploitation. That some of the money flows back into the community is a form of justice that tourism in this region can offer.\n\nAll these fascinating cenotes may look similar, yet each one is unique. No one knows how many there are. The vegetation here in Yucatán is so lush that most are overgrown and hidden from view.\n\nThose who bathe here immerse themselves in a twofold wonder: the cosmic catastrophe that wiped out three-quarters of life 66 million years ago, thus paving the way for the triumph of mammals and ultimately humankind; and the millennia-old Mayan culture, which made its livelihood from this catastrophe, elevating the cenotes to sacred springs and surrounding them with myths that resonate to this day.\n\nTime operates on a different scale here. Above, on the surface, tourists pose in neon pink life jackets for Instagram photos. Below, in the cool blue of the water, stalactites have been dripping for millions of years. The crater reveals its secrets only reluctantly."
+}

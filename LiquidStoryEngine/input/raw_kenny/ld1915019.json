@@ -1,0 +1,1993 @@
+{
+ "content": [
+  {
+   "identifier": "header--hero",
+   "id": "doc-1jbkgpet30",
+   "content": {
+    "title": "Swimming in the crater that killed the dinosaurs: What extinguished life made humankind possible. A journey to the place of our origin",
+    "lead": "In the verdant wilderness of Mexico lies a museum. No sign points the way. An asteroid struck here 66 million years ago. What it left behind changed the Earth forever.",
+    "authorline": "Alexandra von Ascheraden",
+    "image": {
+     "author": "VALLADOLID, MEXICO - JULY 16: Tourists hold on to a rope in the Oxman cenote on July 16, 2022 in Valladolid, Mexico. The Yucatan Peninsula has the world's largest underwater cave system, with over 2,400 cenotes. Along with the industrial growth, the Yucatan region experiences a tourism boom due to the end of COVID restrictions and sargassum on the coast. Uncontrolled visitor's quota threatens limestone ground and water quality. Considered sacred places by the Mayans since the ancient times, these underwater wonders are now threatened by the increasing number of pork and poultry farms that everyday pollute the aquifer. Environmental organizations which carried out studies on the water alerted on high levels of toxic substances and lack of wastewater treatment plants. (Photo by Hector Vivas/Getty Images)",
+     "caption": "VALLADOLID, MEXICO - JULY 16: Tourists hold on to a rope in the Oxman cenote on July 16, 2022 in Valladolid, Mexico. The Yucatan Peninsula has the world's largest underwater cave system, with over 2,400 cenotes. Along with the industrial growth, the Yucatan region experiences a tourism boom due to the end of COVID restrictions and sargassum on the coast. Uncontrolled visitor's quota threatens limestone ground and water quality. Considered sacred places by the Mayans since the ancient times, these underwater wonders are now threatened by the increasing number of pork and poultry farms that everyday pollute the aquifer. Environmental organizations which carried out studies on the water alerted on high levels of toxic substances and lack of wastewater treatment plants. (Photo by Hector Vivas/Getty Images)",
+     "originalUrl": "/2025/12/08/8bfc2c5c-0697-4e49-9ba6-c162fa9f5b17.jpg?crop=4000,2250,x0,y417",
+     "width": 4000,
+     "height": 2667,
+     "altText": "VALLADOLID, MEXICO - JULY 16: Tourists hold on to a rope in the Oxman cenote on July 16, 2022 in Valladolid, Mexico. The Yucatan Peninsula has the world's largest underwater cave system, with over 2,400 cenotes. Along with the industrial growth, the Yucatan region experiences a tourism boom due to the end of COVID restrictions and sargassum on the coast. Uncontrolled visitor's quota threatens limestone ground and water quality. Considered sacred places by the Mayans since the ancient times, these underwater wonders are now threatened by the increasing number of pork and poultry farms that everyday pollute the aquifer. Environmental organizations which carried out studies on the water alerted on high levels of toxic substances and lack of wastewater treatment plants. (Photo by Hector Vivas/Getty Images)",
+     "origins": [
+      {
+       "name": "Hugo",
+       "identifier": "2176077428"
+      }
+     ],
+     "crop": {
+      "x": 0,
+      "y": 417,
+      "width": 4000,
+      "height": 2250,
+      "name": "desktop"
+     },
+     "namedCrops": [
+      {
+       "x": 0,
+       "y": 417,
+       "width": 4000,
+       "height": 2250,
+       "name": "desktop"
+      },
+      {
+       "x": 1000,
+       "y": 0,
+       "width": 2000,
+       "height": 2667,
+       "name": "tablet",
+       "isAutomatic": true
+      },
+      {
+       "x": 1250,
+       "y": 0,
+       "width": 1500,
+       "height": 2667,
+       "name": "mobile",
+       "isAutomatic": true
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "quelle": "",
+    "caption": "",
+    "author": ""
+   },
+   "data": {},
+   "containers": {
+    "authors": []
+   },
+   "prevElement": "",
+   "nextElement": "p-text",
+   "firstContentElement": true
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jbvdiqbf0",
+   "content": {
+    "text": "An hour south of Mérida, the capital of Yucatán, the Chicxulub Science Museum lies hidden on a university campus. Only in the final stretch do life-size plastic dinosaurs dispel any doubts about whether this is the right place. The drive had led kilometer after kilometer along lonely roads lined with impenetrable thickets of green vegetation, without a single signpost. The taxi driver drove stoically and with a slight grumble, perhaps accustomed to unusual requests. None of his passengers had ever asked to come here before; he wasn't at all sure the destination even existed."
+   },
+   "data": {},
+   "prevElement": "header--hero",
+   "nextElement": "barrier"
+  },
+  {
+   "id": "doc-d1bcadef",
+   "identifier": "barrier",
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jbvdiqbf1",
+   "content": {
+    "text": "Finally: a solitary guardhouse, its barrier stretching across the street. The guard glances impassively at the driver's ID, exchanges it for a laminated slip of paper, and keeps it. This ensures that visitors leave the university grounds again in the evening. Then he opens the barrier. The taxi rolls along bumpy concrete roads across the university grounds, which are completely deserted on Sunday. And this particular museum is only open on Sundays."
+   },
+   "paidContent": true,
+   "prevElement": "barrier",
+   "nextElement": "alias-teaser-embed"
+  },
+  {
+   "identifier": "alias-teaser-embed",
+   "id": "doc-1j62ggu1q0",
+   "content": {
+    "title": "Newsletter: The Weekend",
+    "owner": "NZZ",
+    "teaserImage": {
+     "originalUrl": "/2025/09/10/b264a1fc-171a-481d-844f-a268134d3573.png?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2025/09/10/b264a1fc-171a-481d-844f-a268134d3573.png?width=1024&quality=75&auto=webp",
+     "width": 2100,
+     "height": 2100,
+     "crops": [
+      {
+       "name": "1:1",
+       "crop": "2100,2100,x0,y0"
+      },
+      {
+       "name": "4:3",
+       "crop": "2100,1575,x0,y262"
+      },
+      {
+       "name": "3:4",
+       "crop": "1575,2100,x268,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "2100,1400,x0,y356"
+      },
+      {
+       "name": "16:9",
+       "crop": "2100,1181,x0,y459"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "Inspiring reports, moving stories, in-depth background information: Every Friday afternoon we accompany you into your weekend with selected reading tips.",
+     "teaserAuthor": ""
+    },
+    "teaserAuthor": "",
+    "urlAliasTeaser": "https://abo.nzz.ch/newsletter/das-wochenende/",
+    "urlLabel": "Subscribe now for free",
+    "nzzId": "ld.1901825",
+    "isExternal": true,
+    "teaserType": "",
+    "product": "NZZ.ch",
+    "documentId": 1901825,
+    "layout": "alias-teaser",
+    "publicationDate": "2025-09-10T09:16:19.150Z",
+    "publicationLastUpdated": "2026-08-22T17:50:10.099Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2025-09-10T21:16:19.150Z",
+    "teaserCaption": "Inspiring reports, moving stories, in-depth background information: Every Friday afternoon we accompany you into your weekend with selected reading tips.",
+    "url": "https://abo.nzz.ch/newsletter/das-wochenende/",
+    "department": {},
+    "leadText": "Inspiring reports, moving stories, in-depth background information: Every Friday afternoon we accompany you into your weekend with selected reading tips."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jbvdiqbf2",
+   "content": {
+    "text": "Here, right here in this no-man's-land, an asteroid struck the limestone at a steep angle 66 million years ago, traveling at 72,000 kilometers per hour and wiping out three-quarters of all life on Earth. For a long time, researchers searched for the reasons behind what happened to the Earth and for the traces of this global annihilation"
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "alias-teaser-embed",
+   "nextElement": "image"
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1jbvdjn8j0",
+   "content": {
+    "image": {
+     "author": "Hector Vivas / Getty",
+     "caption": "Over 2400 freshwater sinkholes (cenotes) crisscross the Yucatán Peninsula; their circular arrangement follows the fault zones of the Chicxulub impact: Cenote near Muna from a bird's-eye view.",
+     "originalUrl": "/2025/12/08/1da30c8a-8a62-473b-b834-270e3fa1f378.jpg?width=1024",
+     "width": 5464,
+     "height": 3640,
+     "altText": "MUNA, MEXICO - JULY 15: Aerial view of an open-air cenote located less than two kilometers away from industrial pig and poultry farms on July 15, 2022 in Muna, Mexico. The Yucatan Peninsula has the world's largest underwater cave system, with over 2,400 cenotes. Considered sacred places by the Mayans since the ancient times, these underwater wonders are now threatened by the increasing number of pork and poultry farms that everyday pollute the aquifer. Environmental organizations which carried out studies on the water alerted on high levels of toxic substances and lack of wastewater treatment plants. Along with the industrial growth, the Yucatan region experiences a tourism boom due to the end of COVID restrictions and sargassum on the coast. Uncontrolled visitor's quota threatens limestone ground and water quality. (Photo by Hector Vivas/Getty Images)",
+     "origins": [
+      {
+       "name": "Hugo",
+       "identifier": "2176077406"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "caption": "Over 2400 freshwater sinkholes (cenotes) crisscross the Yucatán Peninsula; their circular arrangement follows the fault zones of the Chicxulub impact: Cenote near Muna from a bird's-eye view.",
+    "author": "Hector Vivas / Getty"
+   },
+   "styles": {
+    "fullwidth-widget": "widget--containerwidth"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "image"
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1jbvdk6o31",
+   "content": {
+    "image": {
+     "author": "Christophe Geyres / Imago",
+     "caption": "The Maya climbed long ladders into the cenotes to collect drinking water, because Yucatán has no rivers; the karst soil allows rainwater to seep away immediately: Divers in the Cenote Dos Ojos near Tulum.",
+     "originalUrl": "/2025/12/08/3e2fc6d7-c4ff-45f4-a660-4ba6fd428f18.jpg?width=1024",
+     "width": 5472,
+     "height": 3648,
+     "altText": "Scuba Diving In World Famous Cenotes In Tulum - Mexico Scuba divers inside the world famous Cenote Dos Ojos near Tulum, Mexico on February 2024. A cenote is a natural sinkhole filled with fresh water. The term originated on the Yucatan Peninsula of Mexico, where the ancient Maya commonly used cenotes for water supplies, and occasionally for sacrificial offerings. Photo by Christophe Geyres/ABACAPRESS.COM Tulum Mexico PUBLICATIONxNOTxINxFRAxESPxUKxUSAxBELxPOL Copyright: xGeyresxChristophe/ABACAx",
+     "origins": [
+      {
+       "name": "Hugo",
+       "identifier": "2176077280"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "caption": "The Maya climbed long ladders into the cenotes to collect drinking water, because Yucatán has no rivers; the karst soil allows rainwater to seep away immediately: Divers in the Cenote Dos Ojos near Tulum.",
+    "author": "Christophe Geyres / Imago"
+   },
+   "styles": {
+    "fullwidth-widget": "widget--containerwidth"
+   },
+   "paidContent": true,
+   "prevElement": "image",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1jbvdiqbf3",
+   "content": {
+    "title": "Impact winter and mass extinction",
+    "id": "subtitle-impaktwinter-und-massensterben"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "image",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jbvdiqbf4",
+   "content": {
+    "text": "What is currently believed is that the impact in the shallow sea triggered massive earthquakes and waves up to 100 meters high, which developed into tsunamis. The asteroid's impact was so massive that the rock melted kilometers deep, partially vaporizing along with the impacting celestial body and leaving behind a crater 200 kilometers in diameter. Glowing rock dust was hurled into the stratosphere, and the heat ignited wildfires. Within a few days, such dense masses of soot and dust particles entered the atmosphere that sunlight could no longer penetrate it. A prolonged cold gripped the Earth, the so-called impact winter."
+   },
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jbvdiqbf5",
+   "content": {
+    "text": "Three-quarters of life was extinguished. The majority of plants disappeared, including the enormous tree ferns, of which impressive fossils bear witness, and the giant clubmosses. The enormous herbivorous dinosaurs could no longer find food, and soon the carnivorous ones followed suit. In the sea, the gigantic ichthyosaurs died out, as did the ammonites. On land, no animal larger than a rat survived."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jbvdiqbf6",
+   "content": {
+    "text": "The triumph of mammals only began with this cataclysmic event from space. And so did the rise of humble organisms like fungi, mosses, and lichens, and later ferns and flowering plants. Without this impact, there might be no humans. Had the dinosaurs survived, mammals might have remained marginal. And perhaps we humans would have too. Our existence may owe itself to a cosmic accident. And today, tourists unknowingly bathe in the crater it left behind."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jbvdiqbf7",
+   "content": {
+    "text": "That's why life-size plastic Velociraptors lurk at the museum's entrance. Behind the glass wall facing the courtyard, the Brachiosaurus towers over the ten-meter-high building and easily over the Tyrannosaurus Rex and all the other plastic dinosaurs that populate the courtyard with it."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "image"
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1jbvdkcnl1",
+   "content": {
+    "image": {
+     "author": "Pascal Kobeh / Imago",
+     "caption": "The cenotes follow the fracture zones of the asteroid impact in concentric rings, a pattern that can only be seen from space: aerial view of the Yucatán Peninsula.",
+     "originalUrl": "/2025/12/08/6289b30c-1f82-41f1-8ed7-dc8f6c29606e.jpg?width=1024",
+     "width": 7248,
+     "height": 4821,
+     "altText": "Aerial view of the cenotes, freshwater holes located all over the Yucatan peninsula, Mexico PUBLICATIONxINxGERxSUIxAUTxONLY 1542526 PascalxKobeh",
+     "origins": [
+      {
+       "name": "Hugo",
+       "identifier": "2176077309"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "caption": "The cenotes follow the fracture zones of the asteroid impact in concentric rings, a pattern that can only be seen from space: aerial view of the Yucatán Peninsula.",
+    "author": "Pascal Kobeh / Imago"
+   },
+   "styles": {
+    "fullwidth-widget": "widget--containerwidth"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "image"
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1jbvdkpij1",
+   "content": {
+    "image": {
+     "author": "Hector Vivas / Getty",
+     "caption": "For day trips from Cancún, it's a time-saving destination: sixty meters in diameter, azure water, Instagram-worthy – the Cenote Ik Kil, three minutes from the Mayan pyramids of Chichén Itzá.",
+     "originalUrl": "/2025/12/08/9cde1c8e-9487-4f29-b768-6c34a198c19a.jpg?width=1024",
+     "width": 8192,
+     "height": 5464,
+     "altText": "PISTE, MEXICO - JULY 16: Tourists swim in the Ik-Kil cenote, one of the most visited due to its proximity to the Mayan ruins of Chichen Itza on July 16, 2022 in Piste, Mexico. The Yucatan Peninsula has the world's largest underwater cave system, with over 2,400 cenotes. Along with the industrial growth, the Yucatan region experiences a tourism boom due to the end of COVID restrictions and sargassum on the coast. Uncontrolled visitor's quota threatens limestone ground and water quality. Considered sacred places by the Mayans since the ancient times, these underwater wonders are now threatened by the increasing number of pork and poultry farms that everyday pollute the aquifer. Environmental organizations which carried out studies on the water alerted on high levels of toxic substances and lack of wastewater treatment plants. (Photo by Hector Vivas/Getty Images)",
+     "origins": [
+      {
+       "name": "Hugo",
+       "identifier": "2176077429"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "caption": "For day trips from Cancún, it's a time-saving destination: sixty meters in diameter, azure water, Instagram-worthy – the Cenote Ik Kil, three minutes from the Mayan pyramids of Chichén Itzá.",
+    "author": "Hector Vivas / Getty"
+   },
+   "styles": {
+    "fullwidth-widget": "widget--containerwidth"
+   },
+   "paidContent": true,
+   "prevElement": "image",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1jbvdiqbf8",
+   "content": {
+    "title": "The search for the crater",
+    "id": "subtitle-die-suche-nach-dem-krater"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "image",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jbvdiqbf9",
+   "content": {
+    "text": "As difficult as the museum was to find, it was well worth the effort. Visitors aren't accompanied by ordinary museum guides, but by staff from the university's affiliated research departments. The floor-to-ceiling projections of maps, graphics, and models vividly illustrate the sheer scale of the event that melted the Earth's crust here. Geophysicists display drill cores and rock samples from the depths of the crater, presenting the geological evidence of what once so abruptly transformed everything in this area."
+   },
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jbvdiqbf10",
+   "content": {
+    "text": "For a very long time, scientists searched for the impact crater of the asteroid whose impact was suspected to have wiped out the dinosaurs. The goal was to prove this theory. It was assumed to be located somewhere on the ocean floor. And indeed it is. It lies approximately halfway beneath the Gulf of Mexico, in the area where tourists now throng the coral-white beaches."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jbvdiqbg0",
+   "content": {
+    "text": "It was precisely here that the Mexican oil company Pemex began large-scale exploratory drilling for oil in 1958. They found none. But at a depth of 1,300 meters, they encountered something remarkable: volcanic rock. Such a thing had never been found anywhere else in the region. Today, we know that a lava dome formed at this location due to the heat and force of the impact."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jbvdiqbg1",
+   "content": {
+    "text": "The large crater ring is not visible, although it is still detectable. Neither are the two smaller rings that formed closer to the impact center. The museum stands not far from the center of the crater left behind by the impacting asteroid. Leaving, one's steps hesitate, one's gaze sweeping across the landscape. Here, right here, in this seemingly peaceful region, languidly resting in the heat, it happened."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "image"
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1jbvdl6lo1",
+   "content": {
+    "image": {
+     "author": "Christophe Geyres / Getty",
+     "caption": "All cenotes close no later than 5 pm; the modern tourism industry respects what was considered a divine law a thousand years ago: Divers in the Cenote Ponderosa near Tulum.",
+     "originalUrl": "/2025/12/08/214e8b39-4928-4d5c-96c8-1101e82b5f22.jpg?width=1024",
+     "width": 5472,
+     "height": 3648,
+     "altText": "Scuba Diving In World Famous Cenotes In Tulum - Mexico Scuba divers inside the Cenote Ponderosa near Tulum, Mexico on February 2024. A cenote is a natural sinkhole filled with fresh water. The term originated on the Yucatan Peninsula of Mexico, where the ancient Maya commonly used cenotes for water supplies, and occasionally for sacrificial offerings. Photo by Christophe Geyres/ABACAPRESS.COM Tulum Mexico PUBLICATIONxNOTxINxFRAxESPxUKxUSAxBELxPOL Copyright: xGeyresxChristophe/ABACAx",
+     "origins": [
+      {
+       "name": "Hugo",
+       "identifier": "2176077292"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "caption": "All cenotes close no later than 5 pm; the modern tourism industry respects what was considered a divine law a thousand years ago: Divers in the Cenote Ponderosa near Tulum.",
+    "author": "Christophe Geyres / Getty"
+   },
+   "styles": {
+    "fullwidth-widget": "widget--containerwidth"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "image"
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1jbvdlij31",
+   "content": {
+    "image": {
+     "author": "Ullstein/Getty",
+     "caption": "The dripstone formations grow over millions of years, visible traces of time in the underground cave systems: stalactites in the Gran Cenote near Tulum.",
+     "originalUrl": "/2025/12/08/5571fe51-aab0-459f-a1b6-05ae40a7eab5.jpg?width=1024",
+     "width": 5616,
+     "height": 3744,
+     "altText": "(GERMANY OUT) Stalactites in Gran Cenote, Tulum, Yucatan Peninsula, Mexico (Photo by Reinhard Dirscherl/ullstein bild via Getty Images)",
+     "origins": [
+      {
+       "name": "Hugo",
+       "identifier": "2176077320"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "caption": "The dripstone formations grow over millions of years, visible traces of time in the underground cave systems: stalactites in the Gran Cenote near Tulum.",
+    "author": "Ullstein/Getty"
+   },
+   "styles": {
+    "fullwidth-widget": "widget--containerwidth"
+   },
+   "paidContent": true,
+   "prevElement": "image",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1jbvdiqbg2",
+   "content": {
+    "title": "The gift of disaster",
+    "id": "subtitle-das-geschenk-der-katastrophe"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "image",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jbvdiqbg4",
+   "content": {
+    "text": "One of the seemingly minor consequences of the impact was the formation of concentric fissures over millions of years through geological processes. When the vast coral reefs in the shallow sea later exposed the ground, forming the limestone formation we now call Yucatán, a massive cave system, following the circular crater rim, was created by the constant seepage of water. These cavities in the porous karst extend down to the groundwater level. The cenotes, with their vibrant turquoise freshwater that now feature in impressive tourist brochures, were formed where the ceilings of these subterranean caverns collapsed."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jbvdiqbg5",
+   "content": {
+    "text": "The cenotes follow the crater ring in concentric concentric rings, a pattern visible only from space. Those who bathe here move within the invisible imprint of the catastrophe."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "image"
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1jbveat110",
+   "content": {
+    "image": {
+     "author": "Jon G. Fuller Jr. / UIG / Getty",
+     "caption": "Without the underground karst cave systems, there would have been no Mayan civilization; the cities were built where access to groundwater was guaranteed: the house of the cenote in the ruins of Tulum.",
+     "originalUrl": "/2025/12/08/3bcd20a3-a6a5-4b8c-8a20-cf71f0ae072a.jpg?width=1024",
+     "width": 5400,
+     "height": 3602,
+     "altText": "The House of the Cenote in the ruins of the Mayan city of Tulum on the coast of the Caribbean Sea. Tulum National Park, Quintana Roo, Mexico. It is built over a cave or cenote which holds water. (Photo by: Jon G. Fuller, Jr./VW PICS/Universal Images Group via Getty Images)",
+     "origins": [
+      {
+       "name": "Hugo",
+       "identifier": "2176077432"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "caption": "Without the underground karst cave systems, there would have been no Mayan civilization; the cities were built where access to groundwater was guaranteed: the house of the cenote in the ruins of Tulum.",
+    "author": "Jon G. Fuller Jr. / UIG / Getty"
+   },
+   "styles": {
+    "fullwidth-widget": "widget--containerwidth"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "image"
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1jbveave41",
+   "content": {
+    "image": {
+     "author": "Rodrigo Abd / AP",
+     "caption": "After sunset, the Maya no longer dared to enter the caves. They were convinced that the water serpent Tsukán lived in the cenotes: offerings at the Santa María cenote after a Mayan ceremony in Homún.",
+     "originalUrl": "/2025/12/08/f59a4e74-197d-474d-a0f6-64d7d02dba3e.jpg?width=1024",
+     "width": 6892,
+     "height": 4655,
+     "altText": "Burnt candles and flowers lie atop a stone as part of an offering to the Santa Maria cenote, after a Mayan ceremony in Homun, Mexico, Monday, March 4, 2024. (AP Photo/Rodrigo Abd)",
+     "origins": [
+      {
+       "name": "Hugo",
+       "identifier": "2176077416"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "caption": "After sunset, the Maya no longer dared to enter the caves. They were convinced that the water serpent Tsukán lived in the cenotes: offerings at the Santa María cenote after a Mayan ceremony in Homún.",
+    "author": "Rodrigo Abd / AP"
+   },
+   "styles": {
+    "fullwidth-widget": "widget--containerwidth"
+   },
+   "paidContent": true,
+   "prevElement": "image",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1jbvdiqbg6",
+   "content": {
+    "title": "Sacred springs of the Maya",
+    "id": "subtitle-heilige-quellen-der-maya"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "image",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jbvdiqbg7",
+   "content": {
+    "text": "Some cenotes are dozens of meters deep and lie exposed because the ceiling above them has collapsed due to erosion. Very often, however, only a roughly arm-length, more or less round hole in the ground hints at the presence of a cenote below, into which a tiny piece of its cave ceiling has fallen, discreetly revealing its location."
+   },
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jbvdiqbg8",
+   "content": {
+    "text": "The Maya descended long ladders to draw drinking water from the riverbeds. Without them, the Mayan cities would not have existed. There are no rivers in Yucatán. The calcareous karst soil allows water to seep away quickly. Rainwater had to be stored in cisterns. The majority of the vital water supply came from the underground karst cave systems that provided access to groundwater."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jbvdiqbg9",
+   "content": {
+    "text": "The natural sinkholes were sacred. The Maya referred to the water-filled dolines as holy springs. No one would ever have dared to approach them after dusk. For, at sunset at the latest, one had to expect to encounter the water serpent Tsukán, the mythical guardian of the cenotes, in the cenotes."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jbvdiqbg10",
+   "content": {
+    "text": "Even today, all cenotes close by 5 p.m. at the latest. Respect remains: no swimming under floodlights for paying tourists. Only the catfish, which during the day curiously swim around the feet of bathers, remain."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1jbvdiqbg11",
+   "content": {
+    "title": "Instagram and mass tourism",
+    "id": "subtitle-instagram-und-massentourismus"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jbvdiqbg12",
+   "content": {
+    "text": "Today, cenotes are primarily tourist attractions. One of the most frequently visited is Cenote Ik Kil, a three-minute drive from the famous Mayan pyramids at Chichén Itzá, for which it was an important source of drinking water. This makes it a time-saving destination for the numerous day-trip operators who bring busloads of tourists from Cancún to the Mayan highlights. Sixty meters in diameter, azure-blue water. You bathe two dozen meters below the surface in water that is sometimes fifty meters deep, surrounded by a packed wooden floating platform from which the aerial roots of the surrounding jungle hang. Many manage to take Instagram-worthy photos here. Then on to the next attraction, the next photo shoot."
+   },
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jbvdiqbh0",
+   "content": {
+    "text": "For those who don't just want to efficiently tick «swimming in a cenote» off their bucket list, the many small cenotes off the beaten tourist track are worth a visit. With a bit of luck, you'll have the place almost entirely to yourself. Always wear a brightly colored life jacket in pink, red, blue, or yellow. You're not allowed in without one. The life jacket is your substitute for a lifeguard."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jbvdiqbh1",
+   "content": {
+    "text": "On the main roads leading out of the towns, leaflet distributors wave self-designed flyers for the cenotes, which can be reached via dirt roads branching off from the main roads."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jbvdiqbi0",
+   "content": {
+    "text": "Not far from Acanceh lies the Santa Rosa cenote. Wearing a bright pink life jacket, you can experience both here: swimming in an open cenote beneath aerial roots, or descending into the underworld, into a cenote where only a little light filters in through a small hole in the cave ceiling. Here, far from the hustle and bustle of Ik Kil, the meaning of cenotes for the Maya returns: sacred places that demanded respect."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jbvdiqbi1",
+   "content": {
+    "text": "A narrow wooden spiral staircase leads through a hole in the floor into the damp depths. With each step, the air grows cooler and more humid, the cave's twilight thickening. Only a distant drip breaks the silence. Just when the darkness threatens to become too great, the surface of the water below can be glimpsed. Blue and violet light from hidden spotlights colors the walls and water. The dripping becomes more audible. It comes from the stalactites on the cave ceiling. They form stalagmites in the water like pointed islands, visible millions of years of time. A small staircase leads from the wooden platform into the water, which is soft, cool, and inviting to swim."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "image"
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1jbvdn2b61",
+   "content": {
+    "image": {
+     "author": "Greg Vaughn / Imago",
+     "caption": "The stalactites in the Aktun Chen cave grow about one centimeter per century; the monumental formations here bear witness to millions of years of history: cave system in the Aktun Chen Natural Park, Riviera Maya.",
+     "originalUrl": "/2025/12/08/1179e8da-3631-4450-adf8-70d930533a22.jpg?width=1024",
+     "width": 4229,
+     "height": 2809,
+     "altText": "Aktun Chen nature park cave, Riviera Maya, Mexico. Quintana Roo Mexico Copyright: xGregxVaughnx 12050766-Aktun-Chen",
+     "origins": [
+      {
+       "name": "Hugo",
+       "identifier": "2176077316"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "caption": "The stalactites in the Aktun Chen cave grow about one centimeter per century; the monumental formations here bear witness to millions of years of history: cave system in the Aktun Chen Natural Park, Riviera Maya.",
+    "author": "Greg Vaughn / Imago"
+   },
+   "styles": {
+    "fullwidth-widget": "widget--containerwidth"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "image"
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1jbvdn9741",
+   "content": {
+    "image": {
+     "author": "Imago",
+     "caption": "The rainwater in the underground cavities creates its own ecosystems: Water lilies in the «Car Wash» cenote Aktun Ha near Tulum in an underwater photograph.",
+     "originalUrl": "/2025/12/08/58152283-af76-419d-b4d9-22ac81c9e672.jpg?width=1024",
+     "width": 5616,
+     "height": 3744,
+     "altText": "Image number: 55822492 Date: April 10, 2010 Copyright: imago/OceanPhoto Water lilies in car wash Cenote Aktun Ha, Tulum, Yucatan Peninsula, Mexico Highlight! DATE ESTIMATED! PUBLICATION IN GERMANY, SWITZERLAND, AND AUSTRIA ONLY kbdig 2010 landscape Water lily Water lilies Aquatic plant Aquatic plants Plant Plants Flower Flowers Blossom Blossoms Petals Flora Ornamental plant Botany Water lily family Cave Caves Underwater cave Cave diving Grotto Cenote Cenote Freshwater Freshwater Waters Limestone hole Cave system Playa del Carmen Caribbean Riviera Maya Quintana Roo Yucatan Peninsula North America America Geography Underwater Underwater world Underwater picture Underwater photo Underwater photography underwater landscape format Water lilies in Car Wash Cenote Actun Ha Tulum Mexico Water Lily Water Lilies Waterlily Waterlilies Plant Plants Flower Flowers Bloom Blossoms floral flowering Botany Aquatic Plant Nymphaea Waterplant Water Plant Cenotes Cave Cavern diving Cavediving Cave diving Cave system Underwater Cave Grotto extreme Freshwater waters Sinkhole Hole Caribbean Sea Yucatan Peninsula North America America Geography Under Water Underwater Underwater photo underwater picture underwater photography underwater world Water Lilies in Car Wash Cenote Aktun Ha Mexico horizontal format Image number 55822492 Date 10 04 2010 Copyright Imago OceanPhoto Lilies in Car Wash Cenote Ha Tulum Yucatan Peninsula Mexico Water lilies in Car Wash Cenote Ha Tulum Yucatan Peninsula Mexico Highlight Date estimated PUBLICATIONxINxGERxSUIxAUTxONLY Kbdig 2010 horizontal Water lily Lilies Water plant Aquatic plants Plant Plants Flower Flowers Bluete Flowers Blossom Leaves Flora Ornamental Plants Botany Water Lily Plants Cave Underwater Cave Cave Diving Grotto Cenotes Cenote Fresh Water Freshwater Water Limestone Hole Cave System Playa Del Carmen Caribbean Riviera Maya Quintana Roo Yucatan Peninsula North America America Geography Under",
+     "origins": [
+      {
+       "name": "Hugo",
+       "identifier": "2176077377"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "caption": "The rainwater in the underground cavities creates its own ecosystems: Water lilies in the «Car Wash» cenote Aktun Ha near Tulum in an underwater photograph.",
+    "author": "Imago"
+   },
+   "styles": {
+    "fullwidth-widget": "widget--containerwidth"
+   },
+   "paidContent": true,
+   "prevElement": "image",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1jbvdiqbi2",
+   "content": {
+    "title": "The Mayan belief system persists",
+    "id": "subtitle-der-maya-glaube-wirkt-fort"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "image",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jbvdiqbi3",
+   "content": {
+    "text": "Down here, where the darkness of the cave envelops you and only the dripping of the stalactites breaks the silence, you can sense why the Maya both feared and revered these places. After sunset, they believed, Tsukán, the water serpent, dwells here. To this day, all cenotes close at 5 p.m. The modern tourism industry respects what was considered divine law a thousand years ago. It is one of the few continuities that bridge the gap between the pre-Columbian past and the tourist present. Mayan beliefs persist, not as folkloric decoration, but as a practiced boundary."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jbvdiqbi4",
+   "content": {
+    "text": "Of the roughly one hundred cenotes that have been opened to tourists here, ten percent are managed by the local population. Only in these cases does the money collected go directly to the village community. These cenotes can be identified by a painted board on which someone from the village has neatly painted «turismo comunitario» (community tourism)."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jbvdiqbi5",
+   "content": {
+    "text": "One of these is the Yokdzonot cenote, just twenty minutes from Ik Kil. It was once used as a source of drinking water by railway workers who settled there. When water pipes were laid in 1958, the cenote became a garbage dump. Ten years ago, the locals rediscovered what the asteroid had created 66 million years ago. Fifty villagers joined forces to remove the trash and attract tourists."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jbvdiqbi6",
+   "content": {
+    "text": "María, who sells tickets at the entrance, explains: «It was hard work that initially brought no income, so many dropped out. In the end, only sixteen people remained. They are still involved today.» They cleared the uphill paths, planted flowers in walled beds, built a restaurant up there, and secured the descent to the cenote, which is bordered by steep walls, with retaining walls, stairs, and railings."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jbvdiqbi7",
+   "content": {
+    "text": "The water's vibrant blue expanse measures forty meters in diameter. Those who descend the steps and, clad in a bright yellow life jacket, float in the soft freshwater—less chilly than expected—find themselves almost alone. Thick bundles of aerial roots dance on the surface, jungle leaves drift by. Catfish glide leisurely past. Birds sing. The voices of the few other bathers drift softly over. The fascination that the cenotes held for the Maya remains palpable."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jbvdiqbi8",
+   "content": {
+    "text": "The road to get here wasn't easy for the village cooperative. Once everything was finished, nobody came for a year. The frustration was immense. They persevered. Word slowly began to spread. The government finally agreed to subsidies. Today, the cooperative members earn their living from the business. Ten percent of the profits go towards other local community projects. «It wasn't easy. But we've built a future for ourselves here.»"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jbvdiqbi9",
+   "content": {
+    "text": "It's a remarkable turn of events: what began as a cosmic catastrophe became the foundation of a high culture, degenerated into the garbage dump of modernity, and is now becoming the economic basis of a village community. The cenotes are undergoing a cultural metamorphosis, progressing from reverence to neglect to commercial exploitation. That some of the money flows back into the community is a form of justice that tourism in this region can offer."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jbvdiqbi10",
+   "content": {
+    "text": "All these fascinating cenotes may look similar, yet each one is unique. No one knows how many there are. The vegetation here in Yucatán is so lush that most are overgrown and hidden from view."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jbvdiqbi11",
+   "content": {
+    "text": "Those who bathe here immerse themselves in a twofold wonder: the cosmic catastrophe that wiped out three-quarters of life 66 million years ago, thus paving the way for the triumph of mammals and ultimately humankind; and the millennia-old Mayan culture, which made its livelihood from this catastrophe, elevating the cenotes to sacred springs and surrounding them with myths that resonate to this day."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jbvdiqbi12",
+   "content": {
+    "text": "Time operates on a different scale here. Above, on the surface, tourists pose in neon pink life jackets for Instagram photos. Below, in the cool blue of the water, stalactites have been dripping for millions of years. The crater reveals its secrets only reluctantly."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "footnote"
+  },
+  {
+   "identifier": "footnote",
+   "id": "doc-1jbvdiqbi13",
+   "content": {
+    "text": "This report was made possible by the support of <a target=\"_blank\" href=\"https://www.tui.ch/\">TUI Suisse</a> ."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "sharebox",
+   "lastContentElement": true
+  },
+  {
+   "identifier": "sharebox",
+   "id": "doc-1jbvdiqbi14",
+   "paidContent": true,
+   "prevElement": "footnote",
+   "nextElement": "related-articles-container"
+  },
+  {
+   "identifier": "related-articles-container",
+   "id": "doc-1jbkgpet34",
+   "content": {
+    "title": "Related articles"
+   },
+   "containers": {
+    "related-articles": [
+     {
+      "identifier": "teaser",
+      "id": "doc-1jbkgpet35",
+      "content": {
+       "owner": "NZZ",
+       "title": "With their complex calendars and astronomical knowledge, the Maya surpassed many cultures. But today their legacy is under pressure",
+       "teaserImage": {
+        "originalUrl": "/2025/08/26/13511296-fdf0-47f3-b17d-c8bf3bf19c4b.jpg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2025/08/26/13511296-fdf0-47f3-b17d-c8bf3bf19c4b.jpg?width=1024&quality=75&auto=webp",
+        "width": 5466,
+        "height": 3648,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "5466,3075,x0,y573"
+         },
+         {
+          "name": "1:1",
+          "crop": "3243,3243,x2223,y384"
+         },
+         {
+          "name": "4:3",
+          "crop": "4864,3648,x602,y0"
+         },
+         {
+          "name": "3:4",
+          "crop": "2432,3242,x3034,y406"
+         },
+         {
+          "name": "3:2",
+          "crop": "5466,3644,x0,y4"
+         }
+        ],
+        "imageService": "fastly",
+        "teaserCaption": "Sprawling Mayan cities rise from the heart of the Mexican jungle. They are impressive testaments to a culture that once lived in harmony with nature and continues to fight against chaos to this day.",
+        "teaserAuthor": "Oleh Slobodeniuk / Getty"
+       },
+       "teaserAuthor": "Oleh Slobodeniuk / Getty",
+       "nzzasFootnote": false,
+       "folioFootnote": false,
+       "language": {
+        "locale": "de-CH"
+       },
+       "nzzId": "ld.1891474",
+       "readingTime": 720,
+       "authorLine": "Alexandra von Ascheraden",
+       "characterCount": 14809,
+       "product": "NZZ.ch",
+       "documentId": 1891474,
+       "layout": "longformstandard",
+       "publicationDate": "2025-08-30T03:30:00.000Z",
+       "publicationLastUpdated": "2025-09-02T08:28:14.394Z",
+       "significantUpdate": false,
+       "significantUpdateTill": "2025-08-30T15:30:00.000Z",
+       "teaserCaption": "Sprawling Mayan cities rise from the heart of the Mexican jungle. They are impressive testaments to a culture that once lived in harmony with nature and continues to fight against chaos to this day.",
+       "url": "/reisen/mit-ihren-komplexen-kalendern-und-ihrem-astronomischen-wissen-uebertrafen-die-maya-viele-kulturen-ihr-erbe-steht-heute-unter-druck-ld.1891474",
+       "department": {
+        "name": "Travel",
+        "path": "/reisen"
+       },
+       "estimationWordCount": 2470,
+       "leadText": "Sprawling Mayan cities rise from the heart of the Mexican jungle. They are impressive testaments to a culture that once lived in harmony with nature and continues to fight against chaos to this day.",
+       "nzzSummaryIsAuto": true,
+       "hasQ": true
+      }
+     },
+     {
+      "identifier": "teaser",
+      "id": "doc-1jbkgpet36",
+      "content": {
+       "owner": "NZZ",
+       "title": "Pine Avenue, at 850 meters long, is America's shortest main street. And a shining example of how local charm and sustainability can blend seamlessly",
+       "teaserImage": {
+        "originalUrl": "/2023/11/27/d0869b48-8377-43cd-85d2-c6b3e498bad2.jpeg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2023/11/27/d0869b48-8377-43cd-85d2-c6b3e498bad2.jpeg?width=1024&quality=75&auto=webp",
+        "width": 5417,
+        "height": 3609,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "5417,3047,x0,y306"
+         },
+         {
+          "name": "1:1",
+          "crop": "3208,3208,x1048,y185"
+         },
+         {
+          "name": "4:3",
+          "crop": "4812,3609,x303,y0"
+         },
+         {
+          "name": "3:4",
+          "crop": "2406,3208,x1411,y348"
+         }
+        ],
+        "imageService": "fastly",
+        "teaserCaption": "On Florida's vacation island of Anna Maria, a dangerous snake trail has been transformed into an ecological showcase.",
+        "teaserAuthor": "Dennis Macdonald / Imago"
+       },
+       "teaserAuthor": "Dennis Macdonald / Imago",
+       "nzzasFootnote": false,
+       "folioFootnote": false,
+       "language": {
+        "locale": "de-CH"
+       },
+       "nzzId": "ld.1767428",
+       "readingTime": 660,
+       "authorLine": "Jochen Müssig",
+       "characterCount": 12061,
+       "product": "NZZ.ch",
+       "documentId": 1767428,
+       "layout": "longformstandard",
+       "publicationDate": "2023-12-15T10:18:03.136Z",
+       "publicationLastUpdated": "2023-12-16T04:30:00.000Z",
+       "significantUpdate": false,
+       "significantUpdateTill": "2023-12-15T22:18:03.136Z",
+       "teaserCaption": "On Florida's vacation island of Anna Maria, a dangerous snake trail has been transformed into an ecological showcase.",
+       "url": "/reisen/sie-ist-850-meter-lang-schnurgerade-und-fuehrt-von-meer-zu-meer-eine-reise-entlang-der-kleinsten-hauptstrasse-der-welt-ld.1767428",
+       "department": {
+        "name": "Travel",
+        "path": "/reisen"
+       },
+       "estimationWordCount": 2101,
+       "leadText": "On Florida's vacation island of Anna Maria, a dangerous snake trail has been transformed into an ecological showcase.",
+       "hasQ": true
+      }
+     },
+     {
+      "identifier": "teaser",
+      "id": "doc-1jbkgpet37",
+      "content": {
+       "owner": "NZZ",
+       "title": "Cuba refuses to get going again",
+       "teaserImage": {
+        "originalUrl": "/2023/01/23/384f9c97-9e24-43cd-b8c5-ad2394ac4515.jpeg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2023/01/23/384f9c97-9e24-43cd-b8c5-ad2394ac4515.jpeg?width=1024&quality=75&auto=webp",
+        "width": 5616,
+        "height": 3744,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "5616,3159,x0,y0"
+         },
+         {
+          "name": "1:1",
+          "crop": "2078,2078,x465,y0"
+         }
+        ],
+        "imageService": "fastly",
+        "teaserCaption": "The figures are devastating. Left behind by its direct competitor, the Dominican Republic, Cuba's tourism industry failed to recover in 2022. What can be done to win back visitors?",
+        "teaserAuthor": "Alexandre Meneghini / Reuters"
+       },
+       "teaserAuthor": "Alexandre Meneghini / Reuters",
+       "nzzasFootnote": false,
+       "folioFootnote": false,
+       "language": {
+        "locale": "de-CH"
+       },
+       "nzzId": "ld.1720979",
+       "readingTime": 360,
+       "authorLine": "Knut Henkel",
+       "characterCount": 8098,
+       "product": "NZZ.ch",
+       "documentId": 1720979,
+       "layout": "longformstandard",
+       "publicationDate": "2023-01-25T09:23:44.890Z",
+       "publicationLastUpdated": "2023-01-25T09:49:12.515Z",
+       "significantUpdate": false,
+       "significantUpdateTill": "2023-01-25T21:23:44.890Z",
+       "teaserCaption": "The figures are devastating. Left behind by its direct competitor, the Dominican Republic, Cuba's tourism industry failed to recover in 2022. What can be done to win back visitors?",
+       "url": "/reisen/kubas-comeback-laesst-auf-sich-warten-ld.1720979",
+       "department": {
+        "name": "Travel",
+        "path": "/reisen"
+       },
+       "estimationWordCount": 1272,
+       "leadText": "The figures are devastating. Left behind by its direct competitor, the Dominican Republic, Cuba's tourism industry failed to recover in 2022. What can be done to win back visitors?",
+       "hasQ": true
+      }
+     }
+    ]
+   },
+   "paidContent": true,
+   "prevElement": "sharebox",
+   "nextElement": "",
+   "lastContentElement": true
+  }
+ ],
+ "metadata": {
+  "owner": "NZZ",
+  "title": "Swimming in the crater that killed the dinosaurs: What extinguished life made humankind possible. A journey to the place of our origin.",
+  "teaserImage": {
+   "originalUrl": "/2025/12/08/9cde1c8e-9487-4f29-b768-6c34a198c19a.jpg?width=1024",
+   "url": "https://img-msp-prod.nzz.ch/2025/12/08/9cde1c8e-9487-4f29-b768-6c34a198c19a.jpg?width=1024&quality=75&auto=webp",
+   "width": 8192,
+   "height": 5464,
+   "crops": [
+    {
+     "name": "16:9",
+     "crop": "3592,2020,x2186,y2683"
+    },
+    {
+     "name": "1:1",
+     "crop": "2130,2130,x2947,y2471"
+    },
+    {
+     "name": "4:3",
+     "crop": "3593,2695,x2246,y2154"
+    },
+    {
+     "name": "3:4",
+     "crop": "4098,5464,x2047,y0"
+    },
+    {
+     "name": "3:2",
+     "crop": "3592,2394,x2245,y2404"
+    }
+   ],
+   "imageService": "fastly",
+   "teaserCaption": "In the verdant wilderness of Mexico lies a museum. No sign points the way. An asteroid struck here 66 million years ago. What it left behind changed the Earth forever.",
+   "teaserAuthor": "Hector Vivas / Getty"
+  },
+  "teaserAuthor": "Hector Vivas / Getty",
+  "nzzasFootnote": false,
+  "folioFootnote": false,
+  "teaserCarouselOne": {
+   "originalUrl": "/2025/12/08/8bfc2c5c-0697-4e49-9ba6-c162fa9f5b17.jpg?width=1024",
+   "url": "https://img-msp-prod.nzz.ch/2025/12/08/8bfc2c5c-0697-4e49-9ba6-c162fa9f5b17.jpg?width=1024&quality=75&auto=webp",
+   "width": 4000,
+   "height": 2667,
+   "crops": [
+    {
+     "name": "16:9",
+     "crop": "4000,2250,x0,y417"
+    },
+    {
+     "name": "1:1",
+     "crop": "2667,2667,x667,y0"
+    },
+    {
+     "name": "4:3",
+     "crop": "3556,2667,x222,y0"
+    },
+    {
+     "name": "3:4",
+     "crop": "2000,2667,x1000,y0"
+    },
+    {
+     "name": "3:2",
+     "crop": "4000,2667,x0,y0"
+    }
+   ],
+   "imageService": "fastly"
+  },
+  "teaserCarouselTwo": {
+   "originalUrl": "/2025/12/08/9cde1c8e-9487-4f29-b768-6c34a198c19a.jpg?width=1024",
+   "url": "https://img-msp-prod.nzz.ch/2025/12/08/9cde1c8e-9487-4f29-b768-6c34a198c19a.jpg?width=1024&quality=75&auto=webp",
+   "width": 8192,
+   "height": 5464,
+   "crops": [
+    {
+     "name": "16:9",
+     "crop": "8192,4608,x0,y856"
+    },
+    {
+     "name": "1:1",
+     "crop": "5464,5464,x1364,y0"
+    },
+    {
+     "name": "4:3",
+     "crop": "7285,5464,x453,y0"
+    },
+    {
+     "name": "3:4",
+     "crop": "4098,5464,x2047,y0"
+    },
+    {
+     "name": "3:2",
+     "crop": "8192,5461,x0,y1"
+    }
+   ],
+   "imageService": "fastly"
+  },
+  "teaserCarouselThree": {
+   "originalUrl": "/2025/12/08/3e2fc6d7-c4ff-45f4-a660-4ba6fd428f18.jpg?width=1024",
+   "url": "https://img-msp-prod.nzz.ch/2025/12/08/3e2fc6d7-c4ff-45f4-a660-4ba6fd428f18.jpg?width=1024&quality=75&auto=webp",
+   "width": 5472,
+   "height": 3648,
+   "crops": [
+    {
+     "name": "16:9",
+     "crop": "5472,3078,x0,y570"
+    },
+    {
+     "name": "1:1",
+     "crop": "3648,3648,x912,y0"
+    },
+    {
+     "name": "4:3",
+     "crop": "4864,3648,x304,y0"
+    },
+    {
+     "name": "3:4",
+     "crop": "2736,3648,x1368,y0"
+    },
+    {
+     "name": "3:2",
+     "crop": "5472,3648,x0,y0"
+    }
+   ],
+   "imageService": "fastly"
+  },
+  "teaserCarouselFour": {
+   "originalUrl": "/2025/12/08/1179e8da-3631-4450-adf8-70d930533a22.jpg?width=1024",
+   "url": "https://img-msp-prod.nzz.ch/2025/12/08/1179e8da-3631-4450-adf8-70d930533a22.jpg?width=1024&quality=75&auto=webp",
+   "width": 4229,
+   "height": 2809,
+   "crops": [
+    {
+     "name": "16:9",
+     "crop": "4229,2379,x0,y430"
+    },
+    {
+     "name": "1:1",
+     "crop": "2809,2809,x710,y0"
+    },
+    {
+     "name": "4:3",
+     "crop": "3745,2809,x242,y0"
+    },
+    {
+     "name": "3:4",
+     "crop": "2107,2809,x1061,y0"
+    },
+    {
+     "name": "3:2",
+     "crop": "4214,2809,x8,y0"
+    }
+   ],
+   "imageService": "fastly"
+  },
+  "language": {
+   "locale": "en-US"
+  },
+  "nzzId": "ld.1915019",
+  "readingTime": 720,
+  "authorLine": "Alexandra von Ascheraden",
+  "characterCount": 14335,
+  "breadcrumbs": [
+   {
+    "name": "Travel",
+    "path": "/reisen"
+   }
+  ],
+  "product": "NZZ.ch",
+  "documentId": 1915019,
+  "contentTypeGroup": "web",
+  "layout": "longformvisual",
+  "firstPublicationDate": "2025-12-13T04:30:00.000Z",
+  "publicationDate": "2025-12-13T04:30:00.000Z",
+  "publicationLastUpdated": "2025-12-19T08:58:32.593Z",
+  "significantUpdate": false,
+  "significantUpdateTill": "2025-12-13T16:30:00.000Z",
+  "teaserCaption": "In the verdant wilderness of Mexico lies a museum. No sign points the way. An asteroid struck here 66 million years ago. What it left behind changed the Earth forever.",
+  "nzzAuthors": [
+   {
+    "id": 1610725,
+    "name": "Peter Ackermann",
+    "shortName": "pan.",
+    "pianoId": "318ce2bf-6a2c-4821-9165-a26e0b90524c",
+    "external": false
+   },
+   {
+    "id": 1371759,
+    "name": "Auswärtige Autoren NZZ",
+    "shortName": "AA",
+    "external": true
+   }
+  ],
+  "authorImage": {
+   "originalUrl": "/2024/04/30/a656ef88-c773-4198-93a0-5da102f033bb.png?width=1024",
+   "url": "https://img-msp-prod.nzz.ch/2024/04/30/a656ef88-c773-4198-93a0-5da102f033bb.png?width=1024&quality=75&auto=webp",
+   "width": 800,
+   "height": 800,
+   "crops": [
+    {
+     "name": "1:1",
+     "crop": "800,800,x0,y0"
+    }
+   ],
+   "imageService": "fastly"
+  },
+  "nzzAuthorProfileDataCollection": [
+   {
+    "documentId": 1740702,
+    "name": "Peter Ackermann (pan.)",
+    "teaserImageUrl": "https://img-msp-prod.nzz.ch/2024/04/30/a656ef88-c773-4198-93a0-5da102f033bb.png?width=1024&quality=75&auto=webp"
+   }
+  ],
+  "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2024/04/30/a656ef88-c773-4198-93a0-5da102f033bb.png?width=1024&quality=75&auto=webp",
+  "url": "/reisen/was-drei-viertel-des-lebens-ausloeschte-machte-den-menschen-erst-moeglich-eine-reise-an-den-ort-unserer-entstehung-ld.1915019",
+  "department": {
+   "name": "Travel",
+   "path": "/reisen"
+  },
+  "estimationWordCount": 2383,
+  "leadText": "In the verdant wilderness of Mexico lies a museum. No sign points the way. An asteroid struck here 66 million years ago. What it left behind changed the Earth forever.",
+  "nzzSummaryEN": "- Around 66 million years ago, an asteroid struck Yucatán, wiping out three-quarters of all life, causing massive wildfires and an impact winter. This event paved the way for the rise of mammals and ultimately humans.\n- The resulting crater rings and karst cave systems, known as cenotes, later became sacred water sources for the Maya and are now important tourist attractions.\n- Some local communities manage cenotes and use tourism revenues to support their villages. These sites blend cosmic history, Maya culture, and modern usage.",
+  "nzzSummaryDE": "Around 66 million years ago, an asteroid struck Yucatán, wiping out three-quarters of all life, causing massive wildfires, and an impact winter. This impact paved the way for the emergence of mammals and ultimately, humans.\n - The crater rings and resulting karst cave systems, known as cenotes, created by the impact, later became sacred water sources for the Maya and are now important tourist attractions.\n Some local communities manage cenotes and use tourism revenue to support their villages. These places combine cosmic history, Mayan culture, and modern use.",
+  "nzzSummaryIsAuto": true,
+  "nzzSummaryModel": "gpt-4o-2024-11-20",
+  "nzzPrintTitle": "Diving in the dinosaur grave: Diving in the dinosaur grave from which humans emerged",
+  "nzzPrintSubtitle": "In the verdant wilderness of Mexico lies a university. No sign points the way. An asteroid struck here 66 million years ago. What it left behind changed the Earth forever. BY ALEXANDRA VON ASCHERADEN",
+  "allArticleLanguages": [
+   {
+    "locale": "de-CH",
+    "urlPath": "/reisen/was-drei-viertel-des-lebens-ausloeschte-machte-den-menschen-erst-moeglich-eine-reise-an-den-ort-unserer-entstehung-ld.1915019",
+    "seo": {}
+   }
+  ],
+  "seo": {
+   "canonicalUrl": "https://www.nzz.ch/reisen/was-drei-viertel-des-lebens-ausloeschte-machte-den-menschen-erst-moeglich-eine-reise-an-den-ort-unserer-entstehung-ld.1915019",
+   "title": "Chicxulub crater, cenotes, asteroid and the origin of humans",
+   "socialMediaTitle": "Diving in the crater that wiped out the dinosaurs",
+   "description": "Swimming in the crater that wiped out the dinosaurs: a cosmic wonder in Yucatan",
+   "excludeFromSpiders": false,
+   "image": "https://img-msp-prod.nzz.ch/2025/12/08/9cde1c8e-9487-4f29-b768-6c34a198c19a.jpg?width=1200&height=674&fit=bounds&quality=75&auto=webp&crop=3592,2020,x2186,y2683&wmark=nzz"
+  },
+  "ldPublicationId": 2403756,
+  "isHighlightedHeader": true,
+  "nzzTopics": [
+   {
+    "name": "asteroids",
+    "slug": "/themen/asteroiden"
+   },
+   {
+    "name": "Mexico",
+    "slug": "/themen/mexiko"
+   },
+   {
+    "name": "Instagram",
+    "slug": "/themen/instagram"
+   },
+   {
+    "name": "oil",
+    "slug": "/themen/erdoel"
+   },
+   {
+    "name": "earthquake",
+    "slug": "/themen/erdbeben"
+   }
+  ],
+  "barrierIndex": 2,
+  "outlinks": {
+   "mehrZumThema": [
+    "ld.1891474",
+    "ld.1767428",
+    "ld.1720979"
+   ],
+   "artikelListe": [],
+   "aliasTeaserEmbedList": []
+  },
+  "tts": true,
+  "mp3": true,
+  "mp3Duration": 990694,
+  "project": "nzz",
+  "machineTranslated": true,
+  "machineTranslationValidated": false
+ },
+ "isReduced": false,
+ "isPaid": false,
+ "isVamp": false,
+ "isWebview": false,
+ "btaFeed": {
+  "meta": {
+   "id": "asteroiden",
+   "name": "asteroids",
+   "tagName": "asteroids",
+   "qId": "Q3863",
+   "seoTitle": "Asteroids – Latest news and all articles on the topic | NZZ",
+   "description": null,
+   "firstName": null,
+   "lastName": null,
+   "category": "MISC",
+   "createdDate": "2025-04-08 15:40:57.645Z",
+   "imageURL": null,
+   "imageCroppedURL": null,
+   "imageWidth": null,
+   "imageHeight": null,
+   "imageCredits": null,
+   "url": "https://nzz.ch/themen/asteroiden",
+   "size": 106,
+   "relatedTopics": [
+    {
+     "name": "Mexiko",
+     "slug": "/themen/mexiko"
+    },
+    {
+     "name": "Instagram",
+     "slug": "/themen/instagram"
+    },
+    {
+     "name": "Erdöl",
+     "slug": "/themen/erdoel"
+    },
+    {
+     "name": "Erdbeben",
+     "slug": "/themen/erdbeben"
+    }
+   ]
+  },
+  "data": [
+   {
+    "title": "Doom from above: How meteorite impacts shape our planet",
+    "showHeader": true,
+    "owner": "Geschichte",
+    "language": {
+     "locale": "de"
+    },
+    "authorLine": "Christian Köberl",
+    "tags": [
+     "Wissenschaft aktuell",
+     "Magazin Geschichte",
+     "Geschichte"
+    ],
+    "nzzasFootnote": true,
+    "teaserImage": {
+     "originalUrl": "/2026/08/06/9b5f9dd4-bf28-41dd-aef6-7c1541a64a4f.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/08/06/9b5f9dd4-bf28-41dd-aef6-7c1541a64a4f.jpg?width=1024&quality=75&auto=webp",
+     "width": 3843,
+     "height": 2705,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "3843,2162,x0,y321"
+      },
+      {
+       "name": "4:3",
+       "crop": "3607,2705,x206,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "2236,2236,x627,y358"
+      },
+      {
+       "name": "3:4",
+       "crop": "1845,2459,x812,y246"
+      },
+      {
+       "name": "3:2",
+       "crop": "3843,2562,x0,y72"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "Since its formation, Earth has been bombarded by cosmic projectiles. An impact likely led to the moon's formation, and an asteroid brought an end to the dinosaurs. Do we have a better chance than they did?",
+     "teaserAuthor": "Roger Violet / Getty"
+    },
+    "teaserAuthor": "Roger Violet / Getty",
+    "nzzId": "ld.10017926",
+    "readingTime": 660,
+    "paywallQuestionOne": "How did meteorite impacts influence Earth's history and life on it?",
+    "paywallQuestionTwo": "What progress has been made in defending against potential asteroid impacts?",
+    "paywallQuestionThree": "How will the asteroid Apophis in 2029 shape the discussion about planetary protection?",
+    "characterCount": 14149,
+    "product": "NZZ.ch",
+    "documentId": "10017926",
+    "layout": "longformstandard",
+    "publicationDate": "2026-08-09T03:30:00.000Z",
+    "publicationLastUpdated": "2026-08-28T09:02:58.851Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-08-09T15:30:00.000Z",
+    "teaserCaption": "Since its formation, Earth has been bombarded by cosmic projectiles. An impact likely led to the moon's formation, and an asteroid brought an end to the dinosaurs. Do we have a better chance than they did?",
+    "url": "https://www.nzz.ch/wissenschaft/meteoriteneinschlaege-praegten-das-sonnensystem-wie-schuetzt-man-heute-die-erde-ld.10017926",
+    "department": {
+     "name": "Science",
+     "path": "/wissenschaft"
+    },
+    "estimationWordCount": 2110,
+    "leadText": "Since its formation, Earth has been bombarded by cosmic projectiles. An impact likely led to the moon's formation, and an asteroid brought an end to the dinosaurs. Do we have a better chance than they did?",
+    "nzzSummaryIsAuto": true,
+    "locale": "de-CH"
+   },
+   {
+    "owner": "NZZ",
+    "title": "A small impact with great significance for asteroid defense",
+    "teaserImage": {
+     "originalUrl": "/2026/03/11/e5cae9c1-607c-4252-9b37-0a5c997b57c2.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/03/11/e5cae9c1-607c-4252-9b37-0a5c997b57c2.jpg?width=1024&quality=75&auto=webp",
+     "width": 1041,
+     "height": 1041,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "1041,586,x0,y455"
+      },
+      {
+       "name": "1:1",
+       "crop": "578,578,x337,y463"
+      },
+      {
+       "name": "4:3",
+       "crop": "823,617,x218,y424"
+      },
+      {
+       "name": "3:4",
+       "crop": "433,578,x403,y463"
+      },
+      {
+       "name": "3:2",
+       "crop": "1041,694,x0,y347"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "On September 26, 2022, an American probe crashed into the asteroid Dimorphos. Now it turns out: The impact also had effects on Dimorphos' larger companion.",
+     "teaserAuthor": "NASA/Reuters"
+    },
+    "teaserAuthor": "NASA/Reuters",
+    "nzzasFootnote": false,
+    "folioFootnote": false,
+    "language": {
+     "locale": "de-CH"
+    },
+    "nzzId": "ld.1928572",
+    "readingTime": 300,
+    "authorLine": "Christian Speicher",
+    "tags": [
+     "Astronomie und Raumfahrt"
+    ],
+    "characterCount": 6261,
+    "product": "NZZ.ch",
+    "documentId": "1928572",
+    "layout": "regular",
+    "publicationDate": "2026-03-14T04:30:00.000Z",
+    "publicationLastUpdated": "2026-05-18T07:00:07.443Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-03-14T16:30:00.000Z",
+    "teaserCaption": "On September 26, 2022, an American probe crashed into the asteroid Dimorphos. Now it turns out: The impact also had effects on Dimorphos' larger companion.",
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2024/05/29/b644fda6-c8b6-4b0d-9641-ace4566957c0.png?width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/wissenschaft/dart-mission-zeigt-asteroiden-koennen-gezielt-abgelenkt-werden-ld.1928572",
+    "department": {
+     "name": "Science",
+     "path": "/wissenschaft"
+    },
+    "estimationWordCount": 978,
+    "leadText": "On September 26, 2022, an American probe crashed into the asteroid Dimorphos. Now it turns out: The impact also had effects on Dimorphos' larger companion.",
+    "nzzSummaryIsAuto": true,
+    "hasQ": true
+   },
+   {
+    "owner": "folio",
+    "title": "Extinction is difficult; even with atomic bombs we couldn't achieve it.",
+    "teaserImage": {
+     "originalUrl": "/2024/04/24/7676caed-1e20-4390-98ac-e86b1f0a4cf2.jpeg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2024/04/24/7676caed-1e20-4390-98ac-e86b1f0a4cf2.jpeg?width=1024&quality=75&auto=webp",
+     "width": 1681,
+     "height": 2400,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "1681,946,x0,y240"
+      },
+      {
+       "name": "1:1",
+       "crop": "1181,1181,x253,y146"
+      },
+      {
+       "name": "4:3",
+       "crop": "1681,1261,x0,y194"
+      },
+      {
+       "name": "3:4",
+       "crop": "1681,2241,x0,y159"
+      },
+      {
+       "name": "3:2",
+       "crop": "1681,1121,x0,y640"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "The end of humanity has been predicted many times, but those who study the supposed apocalypses will be surprised: It is surprisingly difficult to perish.",
+     "teaserAuthor": "LMPC / Getty"
+    },
+    "teaserAuthor": "LMPC / Getty",
+    "nzzasFootnote": false,
+    "folioFootnote": false,
+    "language": {
+     "locale": "de-CH"
+    },
+    "nzzId": "ld.1827734",
+    "readingTime": 960,
+    "authorLine": "Reto U. Schneider",
+    "hugo": {
+     "id": "articleArchive-514641944",
+     "timestamp": "2024-05-06T00:00:00.000Z",
+     "keywords": "05 Weltuntergang",
+     "note": ""
+    },
+    "characterCount": 21758,
+    "product": "NZZ.ch",
+    "documentId": "1827734",
+    "layout": "longformstandard",
+    "publicationDate": "2024-05-03T03:30:00.000Z",
+    "publicationLastUpdated": "2026-01-19T10:25:00.900Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2024-05-03T15:30:00.000Z",
+    "teaserCaption": "The end of humanity has been predicted many times, but those who study the supposed apocalypses will be surprised: It is surprisingly difficult to perish.",
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2022/06/29/9f4fa54d-e4f8-49d3-8ad3-4ab3d2c400fe.png?width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/folio/ende-der-menschheit-warum-unser-aussterben-unwahrscheinlich-ist-ld.1827734",
+    "department": {
+     "name": "Folio",
+     "path": "/folio"
+    },
+    "estimationWordCount": 3253,
+    "leadText": "The end of humanity has been predicted many times, but those who study the supposed apocalypses will be surprised: It is surprisingly difficult to perish."
+   },
+   {
+    "owner": "NZZ",
+    "title": "The James Webb Telescope photographs a planetary nebula with sharp edges and corners",
+    "teaserImage": {
+     "originalUrl": "/2025/07/31/f14bd78f-dc8c-4c1c-b04b-aa697883358e.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2025/07/31/f14bd78f-dc8c-4c1c-b04b-aa697883358e.jpg?width=1024&quality=75&auto=webp",
+     "width": 4320,
+     "height": 4602,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "4320,2430,x0,y1086"
+      },
+      {
+       "name": "1:1",
+       "crop": "4320,4320,x0,y141"
+      },
+      {
+       "name": "4:3",
+       "crop": "4320,3240,x0,y681"
+      },
+      {
+       "name": "3:4",
+       "crop": "3452,4602,x434,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "4320,2880,x0,y861"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "The new space telescope delivers spectacular images from space almost weekly. We've compiled the best pictures for you.",
+     "teaserAuthor": "NASA, ESA, CSA"
+    },
+    "teaserAuthor": "NASA, ESA, CSA",
+    "nzzasFootnote": false,
+    "folioFootnote": false,
+    "language": {
+     "locale": "de-CH"
+    },
+    "nzzId": "ld.1701250",
+    "embeds": {
+     "videos": [
+      {
+       "id": "otaoKrXf",
+       "provider": "jw",
+       "teaser": false,
+       "duration": 372,
+       "sources": [
+        {
+         "file": "https://cdn.jwplayer.com/videos/otaoKrXf-ZberQI1f.mp4",
+         "label": "180p"
+        }
+       ]
+      }
+     ]
+    },
+    "readingTime": 2160,
+    "authorLine": "Christian Speicher, Sven Titz",
+    "characterCount": 42235,
+    "product": "NZZ.ch",
+    "documentId": "1701250",
+    "layout": "longformstandard",
+    "publicationDate": "2025-07-31T11:33:28.739Z",
+    "publicationLastUpdated": "2025-07-31T12:00:17.509Z",
+    "significantUpdate": true,
+    "significantUpdateTill": "2025-07-31T23:33:28.739Z",
+    "teaserCaption": "The new space telescope delivers spectacular images from space almost weekly. We've compiled the best pictures for you.",
+    "url": "https://www.nzz.ch/wissenschaft/james-webb-teleskop-die-besten-bilder-aus-dem-all-ld.1701250",
+    "department": {
+     "name": "Science",
+     "path": "/wissenschaft"
+    },
+    "estimationWordCount": 7155,
+    "leadText": "The new space telescope delivers spectacular images from space almost weekly. We've compiled the best pictures for you."
+   },
+   {
+    "owner": "NZZ",
+    "title": "Asteroid impact in 2032: NASA and ESA give the all-clear",
+    "teaserImage": {
+     "originalUrl": "/2025/02/24/82837db6-ac80-462b-becc-b0bf09015222.jpeg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2025/02/24/82837db6-ac80-462b-becc-b0bf09015222.jpeg?width=1024&quality=75&auto=webp",
+     "width": 873,
+     "height": 929,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "873,491,x0,y219"
+      },
+      {
+       "name": "1:1",
+       "crop": "873,873,x0,y28"
+      },
+      {
+       "name": "4:3",
+       "crop": "873,655,x0,y137"
+      },
+      {
+       "name": "3:4",
+       "crop": "697,929,x88,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "For weeks, astronomers have been trying to estimate the probability of a collision between asteroid 2024 YR4 and Earth. Events unfolded rapidly over the weekend.",
+     "teaserAuthor": "NASA"
+    },
+    "teaserAuthor": "NASA",
+    "nzzasFootnote": false,
+    "folioFootnote": false,
+    "language": {
+     "locale": "de-CH"
+    },
+    "nzzId": "ld.1872505",
+    "readingTime": 180,
+    "authorLine": "Christian Speicher",
+    "characterCount": 3682,
+    "product": "NZZ.ch",
+    "documentId": "1872505",
+    "layout": "regular",
+    "publicationDate": "2025-02-24T15:19:40.665Z",
+    "publicationLastUpdated": "2025-02-24T15:19:40.665Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2025-02-25T03:19:40.665Z",
+    "teaserCaption": "For weeks, astronomers have been trying to estimate the probability of a collision between asteroid 2024 YR4 and Earth. Events unfolded rapidly over the weekend.",
+    "url": "https://www.nzz.ch/wissenschaft/asteroid-2024-yr4-esa-und-nasa-geben-fuer-2032-entwarnung-ld.1872505",
+    "department": {
+     "name": "Science",
+     "path": "/wissenschaft"
+    },
+    "estimationWordCount": 659,
+    "leadText": "For weeks, astronomers have been trying to estimate the probability of a collision between asteroid 2024 YR4 and Earth. Events unfolded rapidly over the weekend.",
+    "hasQ": true
+   },
+   {
+    "owner": "NZZ",
+    "title": "Asteroid impact in 2032: The calculated risk fluctuates from day to day.",
+    "teaserImage": {
+     "originalUrl": "/2025/01/31/ed8ed1ec-5329-4737-a12c-4809a3c980e6.jpeg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2025/01/31/ed8ed1ec-5329-4737-a12c-4809a3c980e6.jpeg?width=1024&quality=75&auto=webp",
+     "width": 3684,
+     "height": 2416,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "3684,2072,x0,y344"
+      },
+      {
+       "name": "1:1",
+       "crop": "1909,1909,x775,y485"
+      },
+      {
+       "name": "4:3",
+       "crop": "3221,2416,x28,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "1812,2416,x936,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "The predictions regarding the probability of asteroid 2024 YR4 colliding with Earth in less than eight years are like a rollercoaster ride. This is unlikely to change anytime soon.",
+     "teaserAuthor": "Francois Gohier / Gamma-Rapho"
+    },
+    "teaserAuthor": "Francois Gohier / Gamma-Rapho",
+    "nzzasFootnote": false,
+    "folioFootnote": false,
+    "language": {
+     "locale": "de-CH"
+    },
+    "nzzId": "ld.1868962",
+    "readingTime": 300,
+    "authorLine": "Christian Speicher",
+    "characterCount": 6149,
+    "product": "NZZ.ch",
+    "documentId": "1868962",
+    "layout": "regular",
+    "publicationDate": "2025-02-20T16:01:23.738Z",
+    "publicationLastUpdated": "2025-02-20T16:07:39.327Z",
+    "significantUpdate": true,
+    "significantUpdateTill": "2025-02-21T04:01:23.738Z",
+    "teaserCaption": "The predictions regarding the probability of asteroid 2024 YR4 colliding with Earth in less than eight years are like a rollercoaster ride. This is unlikely to change anytime soon.",
+    "url": "https://www.nzz.ch/wissenschaft/erdnaher-asteroid-2024-yr4-moeglicher-einschlag-in-2032-ld.1868962",
+    "department": {
+     "name": "Science",
+     "path": "/wissenschaft"
+    },
+    "estimationWordCount": 1022,
+    "leadText": "The predictions regarding the probability of asteroid 2024 YR4 colliding with Earth in less than eight years are like a rollercoaster ride. This is unlikely to change anytime soon.",
+    "hasQ": true
+   }
+  ]
+ },
+ "digitalData": {
+  "component": [
+   {
+    "id": "ld.1915019",
+    "name": "Swimming in the crater that killed the dinosaurs: What extinguished life made humankind possible. A journey to the place of our origin.",
+    "type": "article",
+    "subType1": "longformvisual",
+    "subType2": "",
+    "primaryCategory": "Reisen",
+    "subCategory1": "",
+    "attributes": {
+     "headline": "Swimming in the crater that killed the dinosaurs: What extinguished life made humankind possible. A journey to the place of our origin.",
+     "firstPublishTitle": "",
+     "catchline": "",
+     "authors": [
+      {
+       "id": 1610725,
+       "name": "Peter Ackermann",
+       "shortName": "pan.",
+       "pianoId": "318ce2bf-6a2c-4821-9165-a26e0b90524c",
+       "external": false
+      },
+      {
+       "id": 1371759,
+       "name": "Auswärtige Autoren NZZ",
+       "shortName": "AA",
+       "external": true
+      }
+     ],
+     "issueTimestamp": "2025-12-13T04:30:00.000Z",
+     "updateTimestamp": "2025-12-19T08:58:32.593Z",
+     "isSponsoredContent": false,
+     "isPro": false,
+     "isLiveticker": false,
+     "flag": "",
+     "owner": "NZZ"
+    }
+   }
+  ],
+  "page": {
+   "pageId": "ld.1915019",
+   "pageType": "longformvisual",
+   "primaryCategory": "Reisen",
+   "subCategory1": "",
+   "subCategory2": "",
+   "language": "en-US"
+  },
+  "version": "2.0",
+  "user": {},
+  "event": []
+ },
+ "seoData": {
+  "title": "Chicxulub crater, cenotes, asteroid and the origin of humans",
+  "image": {
+   "url": "https://img-msp-prod.nzz.ch/2025/12/08/9cde1c8e-9487-4f29-b768-6c34a198c19a.jpg?width=1200&height=674&fit=bounds&quality=75&auto=webp&crop=3592,2020,x2186,y2683&wmark=nzz",
+   "type": "image/jpeg",
+   "width": 1200,
+   "height": 674
+  },
+  "author": "Alexandra von Ascheraden",
+  "description": "Swimming in the crater that wiped out the dinosaurs: a cosmic wonder in Yucatan",
+  "news_keywords": "Swimming in the crater that killed the dinosaurs: What extinguished life made humankind possible. A journey to the place of our origin. (Travel, News, NZZ)",
+  "type": "article",
+  "last-modified": "2025-12-19T11:58:32+02:00",
+  "date": "2025-12-13T07:30:00+02:00",
+  "canonical": "https://www.nzz.ch/reisen/was-drei-viertel-des-lebens-ausloeschte-machte-den-menschen-erst-moeglich-eine-reise-an-den-ort-unserer-entstehung-ld.1915019",
+  "fb:app_id": 138008459595436,
+  "fb:pages": 143694099006529,
+  "fb:admins": 1592685173,
+  "locale": "de-CH",
+  "email": "online.redaktion@nzz.ch",
+  "site_name": "Neue Zürcher Zeitung",
+  "copyright": "2026 Neue Zürcher Zeitung AG, Schweiz",
+  "robots": "noindex, nofollow, noarchive, noodp",
+  "hreflang": [],
+  "sharedTitle": "Swimming in the crater that killed the dinosaurs: What extinguished life made humankind possible. A journey to the place of our origin.",
+  "ogTitle": "Diving in the crater that wiped out the dinosaurs",
+  "ogUrl": "https://www.nzz.ch/reisen/was-drei-viertel-des-lebens-ausloeschte-machte-den-menschen-erst-moeglich-eine-reise-an-den-ort-unserer-entstehung-ld.1915019",
+  "mrf:cms_id": "nzz:ld.1915019",
+  "mrf:sections": "Reisen;Gesellschaft",
+  "mrf:tags": "Page Type:longformvisual;Editorial Owner:NZZ;Content Type:Standard Article;Article ID:ld.1915019",
+  "nzzAuthors": [
+   {
+    "id": 1610725,
+    "name": "Peter Ackermann",
+    "shortName": "pan.",
+    "pianoId": "318ce2bf-6a2c-4821-9165-a26e0b90524c",
+    "external": false
+   },
+   {
+    "id": 1371759,
+    "name": "Auswärtige Autoren NZZ",
+    "shortName": "AA",
+    "external": true
+   }
+  ],
+  "links": [
+   {
+    "rel": "canonical",
+    "href": "https://www.nzz.ch/reisen/was-drei-viertel-des-lebens-ausloeschte-machte-den-menschen-erst-moeglich-eine-reise-an-den-ort-unserer-entstehung-ld.1915019"
+   },
+   {
+    "rel": "search",
+    "href": "/suche",
+    "title": "Suche Neue Zürcher Zeitung, Schweiz, https://www.nzz.ch/suche"
+   }
+  ],
+  "renderedAt": "Thu, 03 Sep 2026 09:32:02 GMT"
+ },
+ "structuredData": [
+  {
+   "@context": "https://schema.org",
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "item": {
+      "@id": "/",
+      "name": "Home"
+     }
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "item": {
+      "@id": "/reisen",
+      "name": "Travel"
+     }
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Chicxulub crater, cenotes, asteroid and the origin of humans"
+    }
+   ]
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": "NewsArticle",
+   "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.nzz.ch/reisen/was-drei-viertel-des-lebens-ausloeschte-machte-den-menschen-erst-moeglich-eine-reise-an-den-ort-unserer-entstehung-ld.1915019"
+   },
+   "headline": "Chicxulub crater, cenotes, asteroid and the origin of humans",
+   "datePublished": "2025-12-13T07:30:00+02:00",
+   "dateModified": "2025-12-19T11:58:32+02:00",
+   "publisher": {
+    "@type": "NewsMediaOrganization",
+    "name": "Neue Zürcher Zeitung",
+    "url": "https://www.nzz.ch",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://www.nzz.ch/logo.png",
+     "width": 413,
+     "height": 60
+    },
+    "contactPoint": [
+     {
+      "@type": "ContactPoint",
+      "telephone": "+41-44-2581000",
+      "contactType": "customer service"
+     }
+    ],
+    "sameAs": [
+     "https://www.facebook.com/nzz",
+     "https://www.twitter.com/nzz",
+     "https://www.youtube.com/channel/UCK1aTcR0AckQRLTlK0c4fuQ",
+     "https://www.linkedin.com/company/neue-zurcher-zeitung",
+     "https://www.instagram.com/nzz/",
+     "https://de.wikipedia.org/wiki/Neue_Z%C3%BCrcher_Zeitung",
+     "https://www.wikidata.org/wiki/Q658945",
+     "https://plus.google.com/+nzz/",
+     "http://www.freebase.com/m/041b43"
+    ],
+    "masthead": "https://www.nzz.ch/impressum/impressum-ld.148422",
+    "foundingDate": "1780"
+   },
+   "description": "Swimming in the crater that wiped out the dinosaurs: a cosmic wonder in Yucatan",
+   "isAccessibleForFree": false,
+   "articleSection": "Reisen",
+   "hasPart": {
+    "@type": "WebPageElement",
+    "isAccessibleForFree": false,
+    "cssSelector": ".nzzinteraction"
+   },
+   "image": {
+    "@type": "ImageObject",
+    "url": "https://img-msp-prod.nzz.ch/2025/12/08/9cde1c8e-9487-4f29-b768-6c34a198c19a.jpg?width=1200&height=674&fit=bounds&quality=75&auto=webp&crop=3592,2020,x2186,y2683&wmark=nzz",
+    "width": 1200,
+    "height": 674
+   },
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Peter Ackermann"
+    },
+    {
+     "@type": "Person",
+     "name": "Foreign authors NZZ"
+    }
+   ],
+   "inLanguage": "de"
+  }
+ ],
+ "mp3": true,
+ "mp3Duration": 990694,
+ "bT": {
+  "standard": {
+   "Tags": [
+    "/reisen/was-drei-viertel-des-lebens-ausloeschte-machte-den-menschen-erst-moeglich-eine-reise-an-den-ort-unserer-entstehung-ld.1915019",
+    "classification=default",
+    "relevance=default",
+    "layout=longformvisual",
+    "owner=nzz",
+    "product=nzz",
+    "doctype=article",
+    "pagetype=article",
+    "ldid=ld.1915019",
+    "channel=Reisen"
+   ],
+   "ContentCreated": "2025-12-13T04:30:00.000Z",
+   "ContentAuthor": "Alexandra von Ascheraden",
+   "ContentSection": "Reisen",
+   "ContentIsNative": true
+  },
+  "custom": {
+   "product": "nzz",
+   "docType": "article",
+   "pageType": "article",
+   "layout": "longformvisual",
+   "ldId": "ld.1915019",
+   "channel": "Reisen",
+   "heading": "Baden im Krater, der die Dinosaurier tötete: Was Leben auslöschte, machte den Menschen erst möglich. Eine Reise an den Ort unserer Entstehung",
+   "language": "en-US"
+  }
+ },
+ "webviewMetadata": {},
+ "cacheTime": 3600
+}

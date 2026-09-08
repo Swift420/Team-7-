@@ -1,0 +1,1470 @@
+{
+ "content": [
+  {
+   "identifier": "header",
+   "id": "doc-1jtl23i1s1",
+   "content": {
+    "title": "Who may decide on life and death: an overview of assisted dying in Europe",
+    "lead": "Assisted dying raises one of life's most difficult ethical questions. Few political debates are more emotionally charged, as the recent decision in France demonstrates. The legal situation in Europe is correspondingly diverse.",
+    "author": ""
+   },
+   "containers": {
+    "authors": [
+     {
+      "identifier": "author-teaser",
+      "id": "doc-1jtl23i1s2",
+      "content": {
+       "layout": "authorprofile",
+       "title": "Corina Gall",
+       "url": "/impressum/corina-gall-ld.1695470",
+       "teaserImage": {
+        "originalUrl": "/2022/07/27/5a0badb7-bd7a-4d3d-9030-0bbc422574b6.png?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2022/07/27/5a0badb7-bd7a-4d3d-9030-0bbc422574b6.png?width=1024&quality=75&auto=webp",
+        "width": 800,
+        "height": 800,
+        "crops": [
+         {
+          "name": "web-teaser",
+          "crop": "800,450,x0,y175"
+         },
+         {
+          "name": "1:1",
+          "crop": "800,800,x0,y0"
+         },
+         {
+          "name": "4:3",
+          "crop": "800,600,x0,y100"
+         },
+         {
+          "name": "3:4",
+          "crop": "600,800,x100,y0"
+         }
+        ],
+        "imageService": "fastly"
+       }
+      }
+     }
+    ]
+   },
+   "prevElement": "",
+   "nextElement": "image",
+   "firstContentElement": true
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1jtlc1vh81",
+   "content": {
+    "image": {
+     "author": "Annick Ramp / NZZ",
+     "caption": "Assisted dying demands answers from politicians to one of life's most difficult ethical questions.",
+     "originalUrl": "/2026/07/16/6d4ff9ac-0128-4c7a-b6eb-e995596d3342.jpg?crop=5568,3712,x0,y0",
+     "width": 5568,
+     "height": 3712,
+     "altText": "Euthanasia, death, dying, exit, colors, color gradient, light. Illustration for text by M. Begglinger. 5th volume, focus. (Image: Annick Ramp / NZZ)",
+     "origins": [
+      {
+       "name": "Hugo",
+       "identifier": "2013520319"
+      }
+     ],
+     "crop": {
+      "x": 0,
+      "y": 0,
+      "width": 5568,
+      "height": 3712,
+      "name": "article-image"
+     },
+     "namedCrops": [
+      {
+       "x": 0,
+       "y": 0,
+       "width": 5568,
+       "height": 3712,
+       "name": "article-image"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "caption": "Assisted dying demands answers from politicians to one of life's most difficult ethical questions.",
+    "author": "Annick Ramp / NZZ"
+   },
+   "prevElement": "header",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jtl23i1t1",
+   "content": {
+    "text": "In 2024, a young Spanish woman applied for euthanasia. She suffered from borderline personality disorder. Following a suicide attempt in 2022, she was paraplegic and had severe chronic pain. 19 experts, including doctors, lawyers and ethicists, certified that the woman had an «incurable clinical condition» and approved her application."
+   },
+   "data": {},
+   "prevElement": "image",
+   "nextElement": "barrier"
+  },
+  {
+   "id": "doc-1d8bb67d",
+   "identifier": "barrier",
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jtlp2p1d1",
+   "content": {
+    "text": "Euthanasia has been legal in Spain since 2021. However, because the father and a Catholic lobbying group took legal action against the decision, it took 700 days before doctors could administer a lethal cocktail of drugs to the young woman."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "barrier",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jtldjuks0",
+   "content": {
+    "text": "<a href=\"https://www.nzz.ch/panorama/sterbehilfe-durch-alle-instanzen-das-schicksal-einer-jungen-spanierin-bewegt-das-land-ld.1931300\">The case sparked intense and emotional debate across Europe.</a> It is symbolic of the complexity of the moral and legal questions surrounding euthanasia. Is there a right to a self-determined death? Who should decide on life and death? Is it morally justifiable to help someone commit suicide whose illness, while incurable, is not fatal?"
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jtleji7r0",
+   "content": {
+    "text": "Various European countries believe they have found a legal answer to these questions."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1jtl8nnfo0",
+   "content": {
+    "title": "Few countries have legalized active euthanasia",
+    "id": "subtitle-wenige-l-nder-haben-die-aktive-sterbehilfe-legalisiert"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jtlfqspk0",
+   "content": {
+    "text": "Morality and law distinguish between active euthanasia, assisted suicide, and passive euthanasia. The fundamental question is: How much external intervention in the dying process is permissible or even desirable? In active euthanasia, the patient is given a lethal drug. In assisted suicide, the patient receives the drug but must take it themselves. Passive euthanasia means foregoing life-prolonging measures. This usually requires an advance directive."
+   },
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jtle6vqb0",
+   "content": {
+    "text": "In mid-July, France's parliament approved a law legalizing euthanasia under numerous conditions. The patient must be incurably ill, in an advanced stage, and suffering unbearably. They must still be able to freely and clearly express their wish for euthanasia and take the lethal substance themselves. If they are physically unable to do so, a doctor or nurse will administer it."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jtlnfjjc1",
+   "content": {
+    "text": "The list of conditions goes on, as an agreement was not possible otherwise. And yet, with this law, France goes further than most European states."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "q-embed"
+  },
+  {
+   "identifier": "q-embed",
+   "id": "doc-1jtl8nvpo0",
+   "content": {
+    "q-embed": {
+     "service": "q-tool",
+     "params": {
+      "id": "0bab4f4ac565cbdff5f5748d6cb5e31d",
+      "conf": {},
+      "toolConfig": {},
+      "toolRuntimeConfig": {
+       "size": {
+        "width": [
+         {
+          "value": 100,
+          "comparison": ">"
+         }
+        ]
+       },
+       "displayOptions": {
+        "hideTitle": false,
+        "hideSubtitle": true,
+        "hideFooter": false,
+        "hideAcronym": false
+       },
+       "locale": "en_US"
+      },
+      "size": "content"
+     },
+     "resolvedValue": {}
+    },
+    "html": "      <div        class=\"q-choropleth-container\"        id=\"q_choropleth_0bab4f4ac565cbdff5f5748d6cb5e31d_q278335fede0a4ef7ac218a7523ff69fa_container\"        data-q-item-id=\"0bab4f4ac565cbdff5f5748d6cb5e31d\"        data-q-request-id=\"b3bd3e7b421eb4816aee3b99eb74479f42cdcbfe\"      ></div>",
+    "stylesheets": [
+     {
+      "type": "remote",
+      "content": "https://service.sophie.nzz.ch/bundle/sophie-color%23master,sophie-font%23master,sophie-legend%23master[icon-label],sophie-q%23master,sophie-viz-color%23master.css"
+     },
+     {
+      "type": "inline",
+      "content": "  @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff) format(\"woff\");  }    @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff) format(\"woff\");    unicode-range: U+0020-00FF,U+2005,U+2082;  }      "
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/css-theme-layer/nzz-0.2.0.css"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/choropleth/q-choropleth-1.2.6.css"
+     }
+    ],
+    "scripts": [
+     {
+      "type": "inline",
+      "content": "function qTrackingBootstrap(t,e,n){if(window.digitalData&&window.digitalData.component&&window.digitalData.component.push){window.digitalData.component.push(t),window.digitalData.event&&window.digitalData.event.length||(window.digitalData.event=[]);var i=new Date,a=e;a.eventInfo.timeStamp=i.toISOString(),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\");var o=document.querySelectorAll(\"[data-q-request-id='\"+n+\"']\");[].forEach.call(o,function(t){t.addEventListener(\"q-tracking-event\",function(t){var e=new Date;(a=JSON.parse(JSON.stringify(a))).eventInfo.timeStamp=e.toISOString(),a.eventInfo=Object.assign(a.eventInfo,t.detail.eventInfo),a.category=Object.assign(a.category,t.detail.category),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\")},!1)})}};qTrackingBootstrap({\"componentInfo\":{\"componentName\":\"Q\",\"componentID\":\"0bab4f4ac565cbdff5f5748d6cb5e31d\"},\"category\":{\"componentType\":\"storytelling\",\"componentSubType1\":\"Q graphic\",\"componentSubType2\":\"choropleth\"}},{\"eventInfo\":{\"eventName\":\"Storytelling Interaction\",\"eventAction\":\"load\",\"type\":\"story\",\"componentName\":\"Q\",\"eventNonInteractive\":true,\"componentID\":\"0bab4f4ac565cbdff5f5748d6cb5e31d\"},\"category\":{\"primaryCategory\":\"storytelling\",\"subCategory1\":\"Q graphic\",\"subCategory2\":\"choropleth\"}},\"b3bd3e7b421eb4816aee3b99eb74479f42cdcbfe\")"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/choropleth/q-choropleth-1.2.6.js"
+     },
+     {
+      "type": "inline",
+      "content": "      (function () {        function initialize() {          const target = document.querySelector('#q_choropleth_0bab4f4ac565cbdff5f5748d6cb5e31d_q278335fede0a4ef7ac218a7523ff69fa_container');          if (!target) return;          target.innerHTML = '';          const qdoc = {\"_id\":\"0bab4f4ac565cbdff5f5748d6cb5e31d\",\"title\":\"Where euthanasia is legal in Europe\",\"subtitle\":\"Legal situation in European countries\",\"publication\":\"nzz\",\"acronym\":\"jhe.\",\"data\":[[\"ID\",\"Value\"],[\"Albania\",null],[\"Andorra\",null],[\"Austria\",\"legal\"],[\"Belarus\",null],[\"Belgium\",\"legal\"],[\"Bosnia and Herzegovina\"],[\"Bulgaria\"],[\"Croatia\"],[\"Cyprus\"],[\"Czech Republic\",\"punishable\"],[\"Denmark\",\"punishable\"],[\"Estonia\"],[\"Finland\",\"punishable\"],[\"France\",\"currently punishable\"],[\"Germany\",\"legal\"],[\"Greece\",\"punishable\"],[\"Hungary\",\"legal\"],[\"Iceland\"],[\"Ireland\",\"punishable\"],[\"Italy\",\"permissible\"],[\"Kosovo\"],[\"Latvia\"],[\"Liechtenstein\"],[\"Lithuania\"],[\"Luxembourg\",\"legal\"],[\"Malta\"],[\"Moldova\"],[\"Monaco\"],[\"Montenegro\"],[\"Netherlands\",\"legal\"],[\"North Macedonia\"],[\"Norway\",\"punishable\"],[\"Poland\",\"punishable\"],[\"Portugal\",\"punishable\"],[\"Romania\"],[\"Russia\"],[\"San Marino\"],[\"Serbia\"],[\"Slovakia\"],[\"Slovenia\"],[\"Spain\",\"legal\"],[\"Sweden\",\"punishable\"],[\"Switzerland\",\"legal\"],[\"Turkey\"],[\"Ukraine\"],[\"United Kingdom\",\"currently punishable\"],[\"Vatican City\"]],\"sources\":[{\"text\":\"German Society for Humane Dying (DGHS) e. V.\",\"link\":{\"url\":\"https://www.dghs.de/\"}}],\"baseMap\":\"europe-countries-geographic\",\"version\":\"2023-01-31T00:00:00.000Z\",\"entityType\":\"name\",\"mapAnnotations\":[{\"annotation\":\"In Italy, euthanasia is prohibited, but in exceptional cases it remains unpunished.\",\"regions\":[\"Italy\"],\"position\":\"bottom\"}],\"options\":{\"categoricalOptions\":{\"colorOverwrites\":[{\"color\":\"#931d53\",\"textColor\":\"light\",\"position\":4},{\"color\":\"#c57595\",\"textColor\":\"light\",\"position\":3},{\"color\":\"#79c7b7\",\"textColor\":\"light\",\"position\":2},{\"color\":\"#1f8f87\",\"textColor\":\"light\",\"position\":1}],\"customCategoriesOrder\":[{\"category\":\"legal\"},{\"category\":\"zulässig\"},{\"category\":\"aktuell strafbar\"},{\"category\":\"strafbar\"}],\"valuesOnMap\":false},\"choroplethType\":\"categorical\",\"hideBubbleMap\":false,\"numericalOptions\":{\"bucketType\":\"ckmeans\",\"colorOverwrites\":[{\"color\":\"#ff0000\",\"textColor\":\"light\",\"position\":null}],\"colorScheme\":\"one\",\"invertColorScheme\":false,\"labelLegend\":\"noLabel\",\"measuringUnit\":\"\",\"valuesOnMap\":false,\"numberBuckets\":4,\"scale\":\"sequential\"},\"hideMicroStates\":true},\"updatedDate\":\"2026-07-20T08:12:04.291Z\",\"notes\":\"\"};          const toolRuntimeConfig = {\"displayOptions\":{\"hideTitle\":false,\"hideSubtitle\":true,\"hideFooter\":false,\"hideAcronym\":false},\"size\":{\"width\":[{\"value\":100,\"comparison\":\">\"}]},\"locale\":\"en-US\"};          const toolSettings = {\"qItemInstanceId\":\"q_choropleth_0bab4f4ac565cbdff5f5748d6cb5e31d_q278335fede0a4ef7ac218a7523ff69fa\",\"serverUrl\":\"https://q-server.nzz.ch\"};          let attempts = 0;          const maxAttempts = 100;          const checkAndInitialize = setInterval(() => {            if (window.qChoropleth) {              clearInterval(checkAndInitialize);              new window.qChoropleth({ target: target, props: {                qdoc: qdoc,                toolSettings: toolSettings,                toolRuntimeConfig: toolRuntimeConfig              } });            } else {              attempts++;              if (attempts >= maxAttempts) {                clearInterval(checkAndInitialize);                console.error('Failed to initialize qChoropleth after 30 seconds');              }            }          }, 300);        }        if (document.body.classList.contains('pagedone')) {          initialize();        } else {          window.addEventListener('pagedone', initialize);        }      })();    "
+     }
+    ]
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jtlful7t0",
+   "content": {
+    "text": "In Europe, active euthanasia is legal not only in Spain but also in Luxembourg. In the Netherlands and Belgium, the liberal legislation also applies to children. In all these countries, the person must be incurably ill and suffering greatly. Portugal also passed a law legalizing active euthanasia in 2023, but its practical implementation has so far failed."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "q-embed",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jtljm8f10",
+   "content": {
+    "text": "Active euthanasia is prohibited in Switzerland, but assisted suicide is permitted. The conditions are not defined by law, but rather by medical expert panels and in the statutes of assisted suicide organizations. This practice has been established for decades, which is why people from abroad also travel to Switzerland for assisted suicide."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jtljncpa0",
+   "content": {
+    "text": "In Germany, the Federal Constitutional Court overturned the ban on assisted suicide in 2020. The court ruled that the general right of personality includes the right to a self-determined death, which also includes the right to seek assistance from others. However, assisted suicide is still not legally regulated; two drafts failed in the Bundestag in 2023. In Austria, by contrast, passive euthanasia has been permitted since 2022."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jtlghugf0",
+   "content": {
+    "text": "Despite at least partial legalization in these countries, euthanasia is subject to strict conditions. In individual cases, it can take a long time for euthanasia to be granted. Sometimes the person is already dead by then. This makes the debates particularly emotional: In individual cases, what the public considers morally right can differ significantly from the legal regulations. A single article of law cannot always do justice to this complexity."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jtlh55im0",
+   "content": {
+    "text": "Switzerland is therefore considered an example of a pragmatic approach to assisted suicide: There is no single, universally applicable law, but rather rules that have developed over the years. Not only the penal code applies, but also ethical guidelines from the medical field. Consequently, Switzerland never experienced a protracted, emotionally charged debate like the one in France."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1jtl8nq2p0",
+   "content": {
+    "title": "Religious resistance",
+    "id": "subtitle-religi-ser-widerstand"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jtl8nrhc0",
+   "content": {
+    "text": "In most European countries, euthanasia is either not regulated by law or explicitly prohibited. Euthanasia is a criminal offense in Denmark, Greece, Ireland, Norway, Poland, Scotland, Finland, Sweden and the Czech Republic, among others. In Hungary, only passive euthanasia is permitted, meaning forgoing life-sustaining measures."
+   },
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jtlhq89e0",
+   "content": {
+    "text": "In Italy, euthanasia is illegal, but not punishable in exceptional cases. This stems from a 2019 ruling by the Constitutional Court. The patient must be incurably ill, dependent on life-sustaining measures, suffering unbearable physical and psychological pain, but still fully capable of making free decisions and understanding their consequences. In November 2021, a man was permitted to receive active euthanasia for the first time. An ethics committee took more than a year to reach its decision."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jtlp8vbf1",
+   "content": {
+    "text": "In 2025, a decision in Tuscany caused a stir. It became the first region in Italy to pass its own law permitting medically assisted suicide."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jtlhopan0",
+   "content": {
+    "text": "In late 2024, the House of Commons approved a reform proposal to legalize assisted dying. However, the House of Lords, which includes 26 bishops, has tabled countless amendments. The reform could now fail due to the legislative deadline."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jtlncqq51",
+   "content": {
+    "text": "In France, assisted dying also remains a criminal offense. The law has not yet come into effect. At the request of Prime Minister Sébastien Lecornu, the law is still being reviewed by the Constitutional Council."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "footnote"
+  },
+  {
+   "identifier": "footnote",
+   "id": "doc-1jtv9jop50",
+   "content": {
+    "text": "Correction: In an earlier version of the map, Austria was incorrectly classified as a country where euthanasia is a criminal offense."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "sharebox",
+   "lastContentElement": true
+  },
+  {
+   "identifier": "sharebox",
+   "id": "doc-1jtl23i1t2",
+   "paidContent": true,
+   "prevElement": "footnote",
+   "nextElement": "related-articles-container"
+  },
+  {
+   "identifier": "related-articles-container",
+   "id": "doc-1jtl23i1t3",
+   "content": {
+    "title": "Related articles"
+   },
+   "containers": {
+    "related-articles": [
+     {
+      "identifier": "teaser",
+      "id": "doc-1jtl23i1t4",
+      "content": {
+       "title": "France legalizes assisted dying for the seriously ill – but the final decision is pending",
+       "showHeader": true,
+       "owner": "NZZ",
+       "language": {
+        "locale": "de"
+       },
+       "teaserImage": {
+        "originalUrl": "/2026/07/16/915f662a-d392-4a38-8efe-8253deeeb6d0.jpg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2026/07/16/915f662a-d392-4a38-8efe-8253deeeb6d0.jpg?width=1024&quality=75&auto=webp",
+        "width": 5500,
+        "height": 3668,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "5500,3094,x0,y122"
+         },
+         {
+          "name": "4:3",
+          "crop": "4042,3031,x523,y47"
+         },
+         {
+          "name": "1:1",
+          "crop": "2505,2505,x1337,y229"
+         },
+         {
+          "name": "3:4",
+          "crop": "2751,3668,x1166,y0"
+         },
+         {
+          "name": "3:2",
+          "crop": "5500,3667,x0,y1"
+         }
+        ],
+        "imageService": "fastly",
+        "teaserCaption": "After years of debate, France has passed a law on euthanasia. An interdisciplinary panel will review each application, and doctors can refuse to participate on grounds of conscience. For opponents, the controversy is not over.",
+        "teaserAuthor": "Benoit Tessier / Reuters"
+       },
+       "teaserAuthor": "Benoit Tessier / Reuters",
+       "nzzId": "ld.10015714",
+       "readingTime": 240,
+       "paywallQuestionOne": "What are the legal requirements for euthanasia in France?",
+       "paywallQuestionTwo": "How is the request for assisted suicide reviewed and implemented?",
+       "paywallQuestionThree": "What restrictions does French law impose?",
+       "characterCount": 5475,
+       "tags": [
+        "Europa"
+       ],
+       "product": "NZZ.ch",
+       "documentId": 10015714,
+       "layout": "regular",
+       "publicationDate": "2026-07-16T12:34:57.528Z",
+       "publicationLastUpdated": "2026-07-16T14:16:17.574Z",
+       "significantUpdate": true,
+       "significantUpdateTill": "2026-07-17T00:34:57.528Z",
+       "teaserCaption": "After years of debate, France has passed a law on euthanasia. An interdisciplinary panel will review each application, and doctors can refuse to participate on grounds of conscience. For opponents, the controversy is not over.",
+       "authorLine": "Daniel Steinvorth, Paris",
+       "authorImage": {
+        "originalUrl": "/2024/12/12/2ffdb660-57c7-4de4-9a34-e51761fb6ea4.jpeg?crop=3300,3300,x1349,y242",
+        "url": "https://img-msp-prod.nzz.ch/2024/12/12/2ffdb660-57c7-4de4-9a34-e51761fb6ea4.jpeg?crop=3300,3300,x1349,y242&width=1024&quality=75&auto=webp",
+        "width": 5568,
+        "height": 3712,
+        "imageService": "fastly",
+        "crop": {
+         "name": "1:1",
+         "x": 1349,
+         "y": 242,
+         "width": 3300,
+         "height": 3300
+        },
+        "crops": []
+       },
+       "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2024/12/12/2ffdb660-57c7-4de4-9a34-e51761fb6ea4.jpeg?crop=3300,3300,x1349,y242&width=1024&quality=75&auto=webp",
+       "url": "/international/frankreich-legalisiert-sterbehilfe-unter-strengen-auflagen-ld.10015714",
+       "department": {
+        "name": "International",
+        "path": "/international"
+       },
+       "estimationWordCount": 822,
+       "leadText": "After years of debate, France has passed a law on euthanasia. An interdisciplinary panel will review each application, and doctors can refuse to participate on grounds of conscience. For opponents, the controversy is not over.",
+       "nzzSummaryIsAuto": true,
+       "locale": "de-CH"
+      }
+     },
+     {
+      "identifier": "teaser",
+      "id": "doc-1jtl23i1t5",
+      "content": {
+       "title": "The debate about euthanasia needs facts, not feelings",
+       "showHeader": true,
+       "owner": "NZZaS",
+       "language": {
+        "locale": "de"
+       },
+       "authorLine": "Ueli Schwarzmann",
+       "flag": "Guest opinion",
+       "nzzasFootnote": true,
+       "nzzId": "ld.10008537",
+       "readingTime": 240,
+       "paywallQuestionOne": "How does the Zurich decision affect the debate on euthanasia in nursing homes?",
+       "paywallQuestionTwo": "What role does the right to self-determination play in the discussion about assisted suicide?",
+       "paywallQuestionThree": "Why do emotions often dominate the euthanasia debate despite clear facts?",
+       "teaserImage": {
+        "originalUrl": "/2026/05/27/2eb40c0a-e7a9-40bb-8dcb-e94f1a07ecb8.jpg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2026/05/27/2eb40c0a-e7a9-40bb-8dcb-e94f1a07ecb8.jpg?width=1024&quality=75&auto=webp",
+        "width": 5100,
+        "height": 3455,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "5100,2869,x0,y374"
+         },
+         {
+          "name": "4:3",
+          "crop": "4607,3455,x158,y0"
+         },
+         {
+          "name": "1:1",
+          "crop": "752,752,x973,y641"
+         },
+         {
+          "name": "3:4",
+          "crop": "2355,3141,x1159,y314"
+         },
+         {
+          "name": "3:2",
+          "crop": "5100,3400,x0,y55"
+         }
+        ],
+        "imageService": "fastly",
+        "teaserCaption": "A decision to legalize assisted suicide in private nursing homes in the canton of Zurich is causing concern. Unfounded concerns, however, as a similar regulation in the city of Zurich has demonstrated for the past 25 years.",
+        "teaserAuthor": "Illustration Westend 61 / Getty"
+       },
+       "teaserAuthor": "Illustration Westend 61 / Getty",
+       "characterCount": 4972,
+       "product": "NZZ.ch",
+       "documentId": 10008537,
+       "layout": "opinion",
+       "publicationDate": "2026-05-31T03:30:00.000Z",
+       "publicationLastUpdated": "2026-05-31T03:30:00.000Z",
+       "significantUpdate": false,
+       "significantUpdateTill": "2026-05-31T15:30:00.000Z",
+       "teaserCaption": "A decision to legalize assisted suicide in private nursing homes in the canton of Zurich is causing concern. Unfounded concerns, however, as a similar regulation in the city of Zurich has demonstrated for the past 25 years.",
+       "url": "/nzz-am-sonntag/report-und-debatte/sterbehilfe-in-zuerich-fakten-und-erfahrungen-aus-25-jahren-ld.10008537",
+       "department": {
+        "name": "NZZ am Sonntag - Report and Debate",
+        "path": "/nzz-am-sonntag/report-und-debatte"
+       },
+       "estimationWordCount": 721,
+       "leadText": "A decision to legalize assisted suicide in private nursing homes in the canton of Zurich is causing concern. Unfounded concerns, however, as a similar regulation in the city of Zurich has demonstrated for the past 25 years.",
+       "nzzSummaryIsAuto": true,
+       "locale": "de-CH"
+      }
+     },
+     {
+      "identifier": "teaser",
+      "id": "doc-1jtl23i1t6",
+      "content": {
+       "owner": "NZZ",
+       "title": "Daniele Pieroni's quiet death exposes Italy's long inaction on the issue of euthanasia",
+       "teaserImage": {
+        "originalUrl": "/2025/06/12/50cbd14d-6f2d-4d1a-b1cf-2aee02748334.jpeg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2025/06/12/50cbd14d-6f2d-4d1a-b1cf-2aee02748334.jpeg?width=1024&quality=75&auto=webp",
+        "width": 4500,
+        "height": 3000,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "4500,2531,x0,y469"
+         },
+         {
+          "name": "1:1",
+          "crop": "3000,3000,x750,y0"
+         },
+         {
+          "name": "4:3",
+          "crop": "4000,3000,x250,y0"
+         },
+         {
+          "name": "3:4",
+          "crop": "2250,3000,x1125,y0"
+         },
+         {
+          "name": "3:2",
+          "crop": "4500,3000,x0,y0"
+         }
+        ],
+        "imageService": "fastly",
+        "teaserCaption": "A case of assisted suicide has shaken Italy. Now the government in Rome intends to finally present a national law on end-of-life care. Heated debates are expected.",
+        "teaserAuthor": "Joerg Boethling / Imago"
+       },
+       "teaserAuthor": "Joerg Boethling / Imago",
+       "nzzasFootnote": false,
+       "folioFootnote": false,
+       "language": {
+        "locale": "de-CH"
+       },
+       "nzzId": "ld.1888625",
+       "readingTime": 300,
+       "authorLine": "Luzi Bernet, Rome",
+       "characterCount": 5709,
+       "product": "NZZ.ch",
+       "documentId": 1888625,
+       "layout": "regular",
+       "publicationDate": "2025-06-14T03:30:00.000Z",
+       "publicationLastUpdated": "2025-06-14T03:30:00.000Z",
+       "significantUpdate": false,
+       "significantUpdateTill": "2025-06-14T15:30:00.000Z",
+       "teaserCaption": "A case of assisted suicide has shaken Italy. Now the government in Rome intends to finally present a national law on end-of-life care. Heated debates are expected.",
+       "url": "/international/daniele-pieronis-tod-italien-ringt-mit-dem-thema-sterbehilfe-ld.1888625",
+       "department": {
+        "name": "International",
+        "path": "/international"
+       },
+       "estimationWordCount": 909,
+       "leadText": "A case of assisted suicide has shaken Italy. Now the government in Rome intends to finally present a national law on end-of-life care. Heated debates are expected.",
+       "nzzSummaryIsAuto": true
+      }
+     }
+    ]
+   },
+   "paidContent": true,
+   "prevElement": "sharebox",
+   "nextElement": "",
+   "lastContentElement": true
+  }
+ ],
+ "metadata": {
+  "germanyRelevant": true,
+  "showHeader": true,
+  "owner": "NZZ",
+  "language": {
+   "locale": "en-US"
+  },
+  "dependencies": {},
+  "title": "Who has the right to decide over life and death? An overview of euthanasia in Europe",
+  "teaserImage": {
+   "originalUrl": "/2026/07/16/6d4ff9ac-0128-4c7a-b6eb-e995596d3342.jpg?width=1024",
+   "url": "https://img-msp-prod.nzz.ch/2026/07/16/6d4ff9ac-0128-4c7a-b6eb-e995596d3342.jpg?width=1024&quality=75&auto=webp",
+   "width": 5568,
+   "height": 3712,
+   "crops": [
+    {
+     "name": "16:9",
+     "crop": "5568,3132,x0,y290"
+    },
+    {
+     "name": "4:3",
+     "crop": "4949,3712,x309,y0"
+    },
+    {
+     "name": "1:1",
+     "crop": "3712,3712,x928,y0"
+    },
+    {
+     "name": "3:4",
+     "crop": "2784,3712,x1392,y0"
+    },
+    {
+     "name": "3:2",
+     "crop": "5568,3712,x0,y0"
+    }
+   ],
+   "imageService": "fastly",
+   "teaserCaption": "Assisted dying raises one of life's most difficult ethical questions. Few political debates are more emotionally charged, as the recent decision in France demonstrates. The legal situation in Europe is correspondingly diverse.",
+   "teaserAuthor": "Annick Ramp / NZZ"
+  },
+  "teaserAuthor": "Annick Ramp / NZZ",
+  "nzzId": "ld.10015775",
+  "readingTime": 240,
+  "characterCount": 6012,
+  "breadcrumbs": [
+   {
+    "name": "International",
+    "path": "/international"
+   }
+  ],
+  "product": "NZZ.ch",
+  "documentId": 10015775,
+  "contentTypeGroup": "web",
+  "layout": "regular",
+  "firstPublicationDate": "2026-07-16T15:15:57.261Z",
+  "publicationDate": "2026-07-16T15:15:57.261Z",
+  "publicationLastUpdated": "2026-07-20T08:18:57.163Z",
+  "significantUpdate": false,
+  "significantUpdateTill": "2026-07-17T03:15:57.261Z",
+  "teaserCaption": "Assisted dying raises one of life's most difficult ethical questions. Few political debates are more emotionally charged, as the recent decision in France demonstrates. The legal situation in Europe is correspondingly diverse.",
+  "nzzAuthors": [
+   {
+    "id": 1398648,
+    "name": "Corina Gall",
+    "shortName": "cog.",
+    "pianoId": "1727c1fe-d3c3-4fed-bbfa-f58b153441bd",
+    "external": false
+   }
+  ],
+  "authorLine": "Corina Gall",
+  "authorImage": {
+   "originalUrl": "/2022/07/27/5a0badb7-bd7a-4d3d-9030-0bbc422574b6.png?width=1024",
+   "url": "https://img-msp-prod.nzz.ch/2022/07/27/5a0badb7-bd7a-4d3d-9030-0bbc422574b6.png?width=1024&quality=75&auto=webp",
+   "width": 800,
+   "height": 800,
+   "crops": [
+    {
+     "name": "1:1",
+     "crop": "800,800,x0,y0"
+    }
+   ],
+   "imageService": "fastly"
+  },
+  "nzzAuthorProfileDataCollection": [
+   {
+    "documentId": 1695470,
+    "name": "Corina Gall (cog.)",
+    "teaserImageUrl": "https://img-msp-prod.nzz.ch/2022/07/27/5a0badb7-bd7a-4d3d-9030-0bbc422574b6.png?width=1024&quality=75&auto=webp"
+   }
+  ],
+  "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2022/07/27/5a0badb7-bd7a-4d3d-9030-0bbc422574b6.png?width=1024&quality=75&auto=webp",
+  "url": "/international/wer-darf-ueber-leben-und-tod-bestimmen-eine-uebersicht-zur-sterbehilfe-in-europa-ld.10015775",
+  "department": {
+   "name": "International",
+   "path": "/international"
+  },
+  "estimationWordCount": 888,
+  "leadText": "Assisted dying raises one of life's most difficult ethical questions. Few political debates are more emotionally charged, as the recent decision in France demonstrates. The legal situation in Europe is correspondingly diverse.",
+  "nzzSummaryEN": "- Assisted suicide is regulated differently across Europe. While it is legal in countries like Spain, Belgium, and Luxembourg, it remains banned in many others.\n- France recently introduced a law to legalize assisted dying under strict conditions, although it still requires review. Italy and the UK are also considering reforms.\n- Switzerland permits assisted suicide but lacks specific legal provisions for active euthanasia.",
+  "nzzSummaryDE": "- Euthanasia is regulated differently in Europe. While it is legal in countries like Spain, Belgium and Luxembourg, it remains prohibited in many other countries.\n France recently introduced a law to legalize sex under strict conditions, but this law still needs to be reviewed. Italy and the UK are also debating reforms.\n Switzerland allows assisted suicide, but has no legal regulations on active euthanasia.",
+  "nzzSummaryIsAuto": true,
+  "nzzSummaryModel": "gpt-4o-2024-11-20",
+  "nzzPrintTitle": "Who has the right to decide over life and death?",
+  "nzzPrintSubtitle": "The legal situation in Europe is complex. An overview. ",
+  "allArticleLanguages": [
+   {
+    "locale": "de",
+    "urlPath": "/international/wer-darf-ueber-leben-und-tod-bestimmen-eine-uebersicht-zur-sterbehilfe-in-europa-ld.10015775",
+    "seo": {}
+   }
+  ],
+  "seo": {
+   "canonicalUrl": "https://www.nzz.ch/international/wer-darf-ueber-leben-und-tod-bestimmen-eine-uebersicht-zur-sterbehilfe-in-europa-ld.10015775",
+   "title": "Euthanasia in Europe: An overview of the legal situation",
+   "socialMediaTitle": "Euthanasia in Europe: How countries deal with the difficult decision",
+   "excludeFromSpiders": false,
+   "image": "https://img-msp-prod.nzz.ch/2026/07/16/6d4ff9ac-0128-4c7a-b6eb-e995596d3342.jpg?width=1200&height=675&fit=bounds&quality=75&auto=webp&crop=5568,3132,x0,y290&wmark=nzz"
+  },
+  "ldPublicationId": 2466196,
+  "isHighlightedHeader": false,
+  "nzzTopics": [
+   {
+    "name": "euthanasia",
+    "slug": "/themen/sterbehilfe"
+   },
+   {
+    "name": "France",
+    "slug": "/themen/frankreich"
+   },
+   {
+    "name": "Spain",
+    "slug": "/themen/spanien"
+   }
+  ],
+  "barrierIndex": 3,
+  "outlinks": {
+   "mehrZumThema": [
+    "ld.10015714",
+    "ld.10008537",
+    "ld.1888625"
+   ],
+   "artikelListe": [],
+   "aliasTeaserEmbedList": []
+  },
+  "tts": true,
+  "hasQ": true,
+  "locale": "de-CH",
+  "mp3": true,
+  "mp3Duration": 422904,
+  "project": "nzz",
+  "machineTranslated": true,
+  "machineTranslationValidated": true
+ },
+ "isReduced": false,
+ "isPaid": false,
+ "isVamp": false,
+ "isWebview": false,
+ "btaFeed": {
+  "meta": {
+   "id": "sterbehilfe",
+   "name": "euthanasia",
+   "tagName": "euthanasia",
+   "qId": "Q100159",
+   "seoTitle": "Euthanasia – All articles on the topic | NZZ",
+   "description": null,
+   "firstName": null,
+   "lastName": null,
+   "category": "MISC",
+   "createdDate": "2025-04-08 18:51:49.038Z",
+   "imageURL": null,
+   "imageCroppedURL": null,
+   "imageWidth": null,
+   "imageHeight": null,
+   "imageCredits": null,
+   "url": "https://nzz.ch/themen/sterbehilfe",
+   "size": 233,
+   "relatedTopics": [
+    {
+     "name": "Frankreich",
+     "slug": "/themen/frankreich"
+    },
+    {
+     "name": "Spanien",
+     "slug": "/themen/spanien"
+    }
+   ]
+  },
+  "data": [
+   {
+    "title": "Freedom Does Not End with Admission to a Nursing Home: Assisted Dying Possible There",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "flag": "Opinion",
+    "editor": "1372257",
+    "teaserImage": {
+     "originalUrl": "/2023/03/23/d55ad510-4c53-4eef-9d98-d57a39ea3cfa.jpeg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2023/03/23/d55ad510-4c53-4eef-9d98-d57a39ea3cfa.jpeg?width=1024&quality=75&auto=webp",
+     "width": 4920,
+     "height": 3280,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "4920,2767,x0,y187"
+      },
+      {
+       "name": "4:3",
+       "crop": "4373,3280,x359,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "1150,1150,x1638,y1218"
+      },
+      {
+       "name": "3:4",
+       "crop": "1848,2464,x924,y816"
+      },
+      {
+       "name": "3:2",
+       "crop": "4920,3280,x0,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "It is legitimate for private nursing homes to refuse assisted suicide. However, they must still tolerate it in the case of their fellow human beings.",
+     "teaserAuthor": "Gaëtan Bally / Keystone"
+    },
+    "teaserAuthor": "Gaëtan Bally / Keystone",
+    "nzzId": "ld.10021310",
+    "readingTime": 240,
+    "paywallQuestionOne": "Why should euthanasia be tolerated in all Zurich nursing homes?",
+    "paywallQuestionTwo": "How does the new regulation affect the freedom of religion in private homes?",
+    "paywallQuestionThree": "What role does palliative care play in the debate about euthanasia?",
+    "characterCount": 5104,
+    "showComments": true,
+    "product": "NZZ.ch",
+    "documentId": "10021310",
+    "layout": "opinion",
+    "publicationDate": "2026-09-02T06:29:28.122Z",
+    "publicationLastUpdated": "2026-09-02T06:31:29.279Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-09-02T18:29:28.122Z",
+    "teaserCaption": "It is legitimate for private nursing homes to refuse assisted suicide. However, they must still tolerate it in the case of their fellow human beings.",
+    "authorLine": "Giorgio Scherrer",
+    "authorImage": {
+     "originalUrl": "/2022/12/01/f54a56b5-0af9-4053-8c04-694ddf81353c.png?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2022/12/01/f54a56b5-0af9-4053-8c04-694ddf81353c.png?width=1024&quality=75&auto=webp",
+     "width": 800,
+     "height": 800,
+     "crops": [
+      {
+       "name": "1:1",
+       "crop": "800,800,x0,y0"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2022/12/01/f54a56b5-0af9-4053-8c04-694ddf81353c.png?width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/meinung/sterbehilfe-im-altersheim-eine-frage-der-wuerde-abstimmung-in-zuerich-ld.10021310",
+    "department": {
+     "name": "Opinion",
+     "path": "/meinung"
+    },
+    "estimationWordCount": 780,
+    "leadText": "It is legitimate for private nursing homes to refuse assisted suicide. However, they must still tolerate it in the case of their fellow human beings.",
+    "nzzSummaryIsAuto": true,
+    "commentsCount": 9,
+    "openToComment": false,
+    "locale": "de-CH"
+   },
+   {
+    "title": "Art museum subsidies, politicians' salaries, euthanasia and skyscrapers: Zurich residents will vote on these issues on September 27th",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "authorLine": "NZZ Zurich Editorial Team",
+    "flag": "Explained",
+    "teaserImage": {
+     "originalUrl": "/2026/08/28/35500dd6-038b-4a3d-8fa7-85c9fb7c896f.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/08/28/35500dd6-038b-4a3d-8fa7-85c9fb7c896f.jpg?width=1024&quality=75&auto=webp",
+     "width": 6000,
+     "height": 4002,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "6000,3375,x0,y381"
+      },
+      {
+       "name": "4:3",
+       "crop": "5336,4002,x294,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "3307,3307,x1333,y368"
+      },
+      {
+       "name": "3:4",
+       "crop": "2481,3307,x1748,y695"
+      },
+      {
+       "name": "3:2",
+       "crop": "6000,4000,x0,y1"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "The most important proposals briefly explained: Who is for, who is against – and what the NZZ recommends.",
+     "teaserAuthor": "Michael Buholzer / Keystone"
+    },
+    "teaserAuthor": "Michael Buholzer / Keystone",
+    "editor": "1371941",
+    "nzzId": "ld.10020730",
+    "readingTime": 180,
+    "paywallQuestionOne": "How does the NZZ assess the impact of the Teaching Staff Act?",
+    "paywallQuestionTwo": "Why does the NZZ support the obligation to tolerate assisted suicide in nursing homes?",
+    "paywallQuestionThree": "What arguments does the NZZ put forward in favor of high-rise buildings up to 40 meters in Zurich?",
+    "characterCount": 4137,
+    "product": "NZZ.ch",
+    "documentId": "10020730",
+    "layout": "regular",
+    "publicationDate": "2026-08-29T03:04:00.000Z",
+    "publicationLastUpdated": "2026-08-29T03:04:00.000Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-08-29T15:04:00.000Z",
+    "teaserCaption": "The most important proposals briefly explained: Who is for, who is against – and what the NZZ recommends.",
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2023/09/05/c9887e83-1771-4870-9798-4a4a35cba55a.png?width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/zuerich/abstimmungen-vom-27-september-2026-in-zuerich-wichtige-vorlagen-im-ueberblick-ld.10020730",
+    "department": {
+     "name": "Zurich",
+     "path": "/zuerich"
+    },
+    "estimationWordCount": 634,
+    "leadText": "The most important proposals briefly explained: Who is for, who is against – and what the NZZ recommends.",
+    "nzzSummaryIsAuto": true,
+    "hasQ": true,
+    "locale": "de-CH"
+   },
+   {
+    "title": "Assisted suicide, even in Christian retirement homes? An emotional debate erupts in Zurich",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "teaserImage": {
+     "originalUrl": "/2022/03/22/358efb21-7ca8-4496-aeab-70226697819b.jpeg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2022/03/22/358efb21-7ca8-4496-aeab-70226697819b.jpeg?width=1024&quality=75&auto=webp",
+     "width": 4631,
+     "height": 3087,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "4631,2605,x0,y246"
+      },
+      {
+       "name": "4:3",
+       "crop": "4116,3087,x258,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "1917,1917,x975,y209"
+      },
+      {
+       "name": "3:4",
+       "crop": "2315,3087,x846,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "4631,3087,x0,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "In the future, all homes and hospitals in the canton will be required to tolerate assisted suicide. Everything you need to know about the proposal, which will be voted on Sept. 27.",
+     "teaserAuthor": "Karin Hofer / NZZ"
+    },
+    "teaserAuthor": "Karin Hofer / NZZ",
+    "editor": "1372800",
+    "flag": "Explained",
+    "nzzId": "ld.10020946",
+    "readingTime": 360,
+    "paywallQuestionOne": "Which rights are at the heart of the vote?",
+    "paywallQuestionTwo": "What are the arguments of proponents and opponents of the proposal?",
+    "paywallQuestionThree": "Which institutions would be affected by the regulation?",
+    "characterCount": 8322,
+    "product": "NZZ.ch",
+    "documentId": "10020946",
+    "layout": "regular",
+    "publicationDate": "2026-08-26T03:00:00.000Z",
+    "publicationLastUpdated": "2026-08-27T11:30:41.008Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-08-26T15:00:00.000Z",
+    "teaserCaption": "In the future, all homes and hospitals in the canton will be required to tolerate assisted suicide. Everything you need to know about the proposal, which will be voted on Sept. 27.",
+    "authorLine": "Giorgio Scherrer",
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2022/12/01/f54a56b5-0af9-4053-8c04-694ddf81353c.png?width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/zuerich/sterbehilfe-in-altersheim-und-spital-worum-es-bei-der-abstimmung-in-zuerich-geht-ld.10020946",
+    "department": {
+     "name": "Zurich",
+     "path": "/zuerich"
+    },
+    "estimationWordCount": 1228,
+    "leadText": "In the future, all homes and hospitals in the canton will be required to tolerate assisted suicide. Everything you need to know about the proposal, which will be voted on Sept. 27.",
+    "nzzSummaryIsAuto": true,
+    "hasQ": true,
+    "locale": "de-CH"
+   },
+   {
+    "title": "Assisted suicide in nursing homes: How caregivers and doctors deal with it is also culturally shaped",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "teaserImage": {
+     "originalUrl": "/2022/03/17/13fc8237-7db8-4250-9806-26384845f1d0.jpeg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2022/03/17/13fc8237-7db8-4250-9806-26384845f1d0.jpeg?width=1024&quality=75&auto=webp",
+     "width": 4441,
+     "height": 2961,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "4441,2498,x0,y209"
+      },
+      {
+       "name": "4:3",
+       "crop": "3948,2961,x0,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "1839,1839,x1480,y41"
+      },
+      {
+       "name": "3:4",
+       "crop": "2221,2961,x1018,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "4441,2961,x0,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "More and more cantons are requiring nursing homes to allow assisted suicide. A visit to one such home reveals that even German staff are surprised by the pragmatic approach to assisted suicide in Switzerland.",
+     "teaserAuthor": "Karin Hofer / NZZ"
+    },
+    "teaserAuthor": "Karin Hofer / NZZ",
+    "nzzId": "ld.10016703",
+    "readingTime": 420,
+    "paywallQuestionOne": "How do cultural and religious differences influence attitudes towards euthanasia?",
+    "paywallQuestionTwo": "What role do ethics committees play in the decision on assisted suicide?",
+    "paywallQuestionThree": "Why is the approach to euthanasia more pragmatic in Switzerland than in Germany?",
+    "characterCount": 9438,
+    "product": "NZZ.ch",
+    "documentId": "10016703",
+    "layout": "longformstandard",
+    "publicationDate": "2026-08-19T03:30:00.000Z",
+    "publicationLastUpdated": "2026-08-19T03:30:00.000Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-08-19T15:30:00.000Z",
+    "teaserCaption": "More and more cantons are requiring nursing homes to allow assisted suicide. A visit to one such home reveals that even German staff are surprised by the pragmatic approach to assisted suicide in Switzerland.",
+    "authorLine": "Isabelle Wachter",
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2023/10/11/cf7a0765-64e8-431f-8ea3-8914315c85d9.png?width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/schweiz/sterbehilfe-im-pflegeheim-wie-pflegende-und-aerzte-damit-umgehen-ist-auch-kulturell-gepraegt-ld.10016703",
+    "department": {
+     "name": "Switzerland",
+     "path": "/schweiz"
+    },
+    "estimationWordCount": 1376,
+    "leadText": "More and more cantons are requiring nursing homes to allow assisted suicide. A visit to one such home reveals that even German staff are surprised by the pragmatic approach to assisted suicide in Switzerland.",
+    "nzzSummaryIsAuto": true,
+    "locale": "de-CH"
+   },
+   {
+    "title": "The French law on euthanasia is too timid: Seriously ill patients are left in the lurch",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "flag": "Opinion",
+    "teaserImage": {
+     "originalUrl": "/2026/07/17/dcd97022-3086-49c2-b5c6-c7c62df844ce.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/07/17/dcd97022-3086-49c2-b5c6-c7c62df844ce.jpg?width=1024&quality=75&auto=webp",
+     "width": 6016,
+     "height": 4016,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "6016,3384,x0,y632"
+      },
+      {
+       "name": "4:3",
+       "crop": "5355,4016,x661,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "2061,2061,x3069,y798"
+      },
+      {
+       "name": "3:4",
+       "crop": "3012,4016,x2762,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "6016,4011,x0,y3"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "France is liberalizing its laws on assisted dying a little, at least. But as in the U.K. and Germany, politicians are being intimidated by conservative circles.",
+     "teaserAuthor": "Apaydin Alain / Abaca / Imago"
+    },
+    "teaserAuthor": "Apaydin Alain / Abaca / Imago",
+    "nzzId": "ld.10015993",
+    "readingTime": 180,
+    "paywallQuestionOne": "How does France liberalize euthanasia compared to Switzerland?",
+    "paywallQuestionTwo": "Why does the new regulation in France remain inadequate for many patients?",
+    "paywallQuestionThree": "What ethical and social arguments shape the debate on euthanasia?",
+    "characterCount": 3831,
+    "showComments": true,
+    "product": "NZZ.ch",
+    "documentId": "10015993",
+    "layout": "opinion",
+    "publicationDate": "2026-07-18T03:30:00.000Z",
+    "publicationLastUpdated": "2026-07-19T06:46:57.435Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-07-18T15:30:00.000Z",
+    "teaserCaption": "France is liberalizing its laws on assisted dying a little, at least. But as in the U.K. and Germany, politicians are being intimidated by conservative circles.",
+    "authorLine": "Simon Hehli",
+    "authorImage": {
+     "originalUrl": "/2022/06/22/e093c794-c4d1-44f9-aa11-822688046fbf.png?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2022/06/22/e093c794-c4d1-44f9-aa11-822688046fbf.png?width=1024&quality=75&auto=webp",
+     "width": 800,
+     "height": 800,
+     "crops": [
+      {
+       "name": "1:1",
+       "crop": "800,800,x0,y0"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2022/06/22/e093c794-c4d1-44f9-aa11-822688046fbf.png?width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/meinung/das-franzoesische-gesetz-zur-sterbehilfe-ist-zu-zaghaft-schwerkranke-patienten-werden-im-stich-gelassen-ld.10015993",
+    "department": {
+     "name": "Opinion",
+     "path": "/meinung"
+    },
+    "estimationWordCount": 607,
+    "leadText": "France is liberalizing its laws on assisted dying a little, at least. But as in the U.K. and Germany, politicians are being intimidated by conservative circles.",
+    "nzzSummaryIsAuto": true,
+    "commentsCount": 11,
+    "openToComment": false,
+    "locale": "de-CH"
+   },
+   {
+    "owner": "NZZ",
+    "title": "Fundamental moral questions and a dramatic tone: UK despairs over the assisted dying debate",
+    "teaserImage": {
+     "originalUrl": "/2026/03/24/3a371ded-ec64-4abd-b5e5-8dae568d67e4.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/03/24/3a371ded-ec64-4abd-b5e5-8dae568d67e4.jpg?width=1024&quality=75&auto=webp",
+     "width": 8256,
+     "height": 5504,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "8256,4644,x0,y161"
+      },
+      {
+       "name": "1:1",
+       "crop": "5504,5504,x40,y0"
+      },
+      {
+       "name": "4:3",
+       "crop": "7339,5504,x0,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "4128,5504,x686,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "8256,5504,x0,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "A majority of Britons want to allow patients in the terminal stages of a fatal illness to have the option of assisted suicide. Nevertheless, the latest attempt at legalization has failed. The reasons reveal much about the differences compared to Switzerland.",
+     "teaserAuthor": "Leon Neal / Getty"
+    },
+    "teaserAuthor": "Leon Neal / Getty",
+    "nzzasFootnote": false,
+    "folioFootnote": false,
+    "authorLine": "David Signer, London",
+    "language": {
+     "locale": "de-CH"
+    },
+    "nzzId": "ld.1930261",
+    "readingTime": 300,
+    "characterCount": 7366,
+    "product": "NZZ.ch",
+    "documentId": "1930261",
+    "layout": "regular",
+    "publicationDate": "2026-04-21T10:20:51.953Z",
+    "publicationLastUpdated": "2026-04-21T12:31:41.152Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-04-21T22:20:51.953Z",
+    "teaserCaption": "A majority of Britons want to allow patients in the terminal stages of a fatal illness to have the option of assisted suicide. Nevertheless, the latest attempt at legalization has failed. The reasons reveal much about the differences compared to Switzerland.",
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2022/09/14/c7293c90-04fc-4a20-a0dd-68d626e919d3.png?width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/international/sterbehilfe-in-grossbritannien-reform-scheitert-erneut-ld.1930261",
+    "department": {
+     "name": "International",
+     "path": "/international"
+    },
+    "estimationWordCount": 1080,
+    "leadText": "A majority of Britons want to allow patients in the terminal stages of a fatal illness to have the option of assisted suicide. Nevertheless, the latest attempt at legalization has failed. The reasons reveal much about the differences compared to Switzerland.",
+    "nzzSummaryIsAuto": true
+   }
+  ]
+ },
+ "digitalData": {
+  "component": [
+   {
+    "id": "ld.10015775",
+    "name": "Who has the right to decide over life and death? An overview of euthanasia in Europe",
+    "type": "article",
+    "subType1": "regular",
+    "subType2": "",
+    "primaryCategory": "International",
+    "subCategory1": "",
+    "attributes": {
+     "headline": "Who has the right to decide over life and death? An overview of euthanasia in Europe",
+     "firstPublishTitle": "",
+     "catchline": "",
+     "authors": [
+      {
+       "id": 1398648,
+       "name": "Corina Gall",
+       "shortName": "cog.",
+       "pianoId": "1727c1fe-d3c3-4fed-bbfa-f58b153441bd",
+       "external": false
+      }
+     ],
+     "issueTimestamp": "2026-07-16T15:15:57.261Z",
+     "updateTimestamp": "2026-07-20T08:18:57.163Z",
+     "isSponsoredContent": false,
+     "isPro": false,
+     "isLiveticker": false,
+     "flag": "",
+     "owner": "NZZ"
+    }
+   }
+  ],
+  "page": {
+   "pageId": "ld.10015775",
+   "pageType": "regular",
+   "primaryCategory": "International",
+   "subCategory1": "",
+   "subCategory2": "",
+   "language": "en-US"
+  },
+  "version": "2.0",
+  "user": {},
+  "event": []
+ },
+ "seoData": {
+  "title": "Euthanasia in Europe: An overview of the legal situation",
+  "image": {
+   "url": "https://img-msp-prod.nzz.ch/2026/07/16/6d4ff9ac-0128-4c7a-b6eb-e995596d3342.jpg?width=1200&height=675&fit=bounds&quality=75&auto=webp&crop=5568,3132,x0,y290&wmark=nzz",
+   "type": "image/jpeg",
+   "width": 1200,
+   "height": 675
+  },
+  "author": "Corina Gall",
+  "description": "Assisted dying raises one of life's most difficult ethical questions. Few political debates are more emotionally charged, as the recent decision in France demonstrates. The legal situation in Europe is correspondingly diverse.",
+  "news_keywords": "Who has the right to decide over life and death? An overview of euthanasia in Europe, International, News, NZZ",
+  "type": "article",
+  "last-modified": "2026-07-20T12:18:57+02:00",
+  "date": "2026-07-16T19:15:57+02:00",
+  "canonical": "https://www.nzz.ch/international/wer-darf-ueber-leben-und-tod-bestimmen-eine-uebersicht-zur-sterbehilfe-in-europa-ld.10015775",
+  "fb:app_id": 138008459595436,
+  "fb:pages": 143694099006529,
+  "fb:admins": 1592685173,
+  "locale": "de",
+  "email": "online.redaktion@nzz.ch",
+  "site_name": "Neue Zürcher Zeitung",
+  "copyright": "2026 Neue Zürcher Zeitung AG, Schweiz",
+  "robots": "noindex, nofollow, noarchive, noodp",
+  "hreflang": [],
+  "sharedTitle": "Who has the right to decide over life and death? An overview of euthanasia in Europe",
+  "ogTitle": "Euthanasia in Europe: How countries deal with the difficult decision",
+  "ogUrl": "https://www.nzz.ch/international/wer-darf-ueber-leben-und-tod-bestimmen-eine-uebersicht-zur-sterbehilfe-in-europa-ld.10015775",
+  "mrf:cms_id": "nzz:ld.10015775",
+  "mrf:sections": "International",
+  "mrf:tags": "Page Type:regular;Editorial Owner:NZZ;Content Type:Standard Article;Article ID:ld.10015775",
+  "nzzAuthors": [
+   {
+    "id": 1398648,
+    "name": "Corina Gall",
+    "shortName": "cog.",
+    "pianoId": "1727c1fe-d3c3-4fed-bbfa-f58b153441bd",
+    "external": false
+   }
+  ],
+  "links": [
+   {
+    "rel": "canonical",
+    "href": "https://www.nzz.ch/international/wer-darf-ueber-leben-und-tod-bestimmen-eine-uebersicht-zur-sterbehilfe-in-europa-ld.10015775"
+   },
+   {
+    "rel": "search",
+    "href": "/suche",
+    "title": "Suche Neue Zürcher Zeitung, Schweiz, https://www.nzz.ch/suche"
+   }
+  ],
+  "renderedAt": "Thu, 03 Sep 2026 10:02:43 GMT"
+ },
+ "structuredData": [
+  {
+   "@context": "https://schema.org",
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "item": {
+      "@id": "/",
+      "name": "Home"
+     }
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "item": {
+      "@id": "/international",
+      "name": "International"
+     }
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Euthanasia in Europe: An overview of the legal situation"
+    }
+   ]
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": "NewsArticle",
+   "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.nzz.ch/international/wer-darf-ueber-leben-und-tod-bestimmen-eine-uebersicht-zur-sterbehilfe-in-europa-ld.10015775"
+   },
+   "headline": "Euthanasia in Europe: An overview of the legal situation",
+   "datePublished": "2026-07-16T19:15:57+02:00",
+   "dateModified": "2026-07-20T12:18:57+02:00",
+   "publisher": {
+    "@type": "NewsMediaOrganization",
+    "name": "Neue Zürcher Zeitung",
+    "url": "https://www.nzz.ch",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://www.nzz.ch/logo.png",
+     "width": 413,
+     "height": 60
+    },
+    "contactPoint": [
+     {
+      "@type": "ContactPoint",
+      "telephone": "+41-44-2581000",
+      "contactType": "customer service"
+     }
+    ],
+    "sameAs": [
+     "https://www.facebook.com/nzz",
+     "https://www.twitter.com/nzz",
+     "https://www.youtube.com/channel/UCK1aTcR0AckQRLTlK0c4fuQ",
+     "https://www.linkedin.com/company/neue-zurcher-zeitung",
+     "https://www.instagram.com/nzz/",
+     "https://de.wikipedia.org/wiki/Neue_Z%C3%BCrcher_Zeitung",
+     "https://www.wikidata.org/wiki/Q658945",
+     "https://plus.google.com/+nzz/",
+     "http://www.freebase.com/m/041b43"
+    ],
+    "masthead": "https://www.nzz.ch/impressum/impressum-ld.148422",
+    "foundingDate": "1780"
+   },
+   "description": "Assisted dying raises one of life's most difficult ethical questions. Few political debates are more emotionally charged, as the recent decision in France demonstrates. The legal situation in Europe is correspondingly diverse.",
+   "isAccessibleForFree": false,
+   "articleSection": "International",
+   "hasPart": {
+    "@type": "WebPageElement",
+    "isAccessibleForFree": false,
+    "cssSelector": ".nzzinteraction"
+   },
+   "image": {
+    "@type": "ImageObject",
+    "url": "https://img-msp-prod.nzz.ch/2026/07/16/6d4ff9ac-0128-4c7a-b6eb-e995596d3342.jpg?width=1200&height=675&fit=bounds&quality=75&auto=webp&crop=5568,3132,x0,y290&wmark=nzz",
+    "width": 1200,
+    "height": 675
+   },
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Corina Gall"
+    }
+   ],
+   "inLanguage": "de"
+  }
+ ],
+ "mp3": true,
+ "mp3Duration": 422904,
+ "bT": {
+  "standard": {
+   "Tags": [
+    "/international/wer-darf-ueber-leben-und-tod-bestimmen-eine-uebersicht-zur-sterbehilfe-in-europa-ld.10015775",
+    "classification=default",
+    "relevance=germany",
+    "layout=regular",
+    "owner=nzz",
+    "product=nzz",
+    "doctype=article",
+    "pagetype=article",
+    "ldid=ld.10015775",
+    "channel=International"
+   ],
+   "ContentCreated": "2026-07-16T15:15:57.261Z",
+   "ContentAuthor": "Corina Gall",
+   "ContentSection": "International",
+   "ContentIsNative": true
+  },
+  "custom": {
+   "product": "nzz",
+   "docType": "article",
+   "pageType": "article",
+   "layout": "regular",
+   "nzzAbstract": "Wie unterscheiden sich die Sterbehilfe-Gesetze in Europa?\nWelche ethischen Fragen wirft die Sterbehilfe auf?\nWarum ist die Schweiz ein Sonderfall bei der Sterbehilfe?",
+   "ldId": "ld.10015775",
+   "channel": "International",
+   "heading": "Wer darf über Leben und Tod bestimmen? Eine Übersicht zur Sterbehilfe in Europa",
+   "language": "en-US"
+  }
+ },
+ "webviewMetadata": {},
+ "cacheTime": 3600
+}

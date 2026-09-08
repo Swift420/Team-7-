@@ -1,0 +1,140 @@
+{
+  "_id": "bd7c8c3c187f6272d72cbfebb44a84fa",
+  "_rev": "13-24a7f311832a3ef231cfbe435015ae2f",
+  "tool": "locator_map",
+  "title": "Korea: Seit 80 Jahren geteilt",
+  "active": true,
+  "acronym": "koe.",
+  "options": {
+    "minimap": {
+      "options": {
+        "type": "region",
+        "region": {
+          "id": "",
+          "label": ""
+        },
+        "position": "bottom-right"
+      },
+      "showMinimap": true
+    },
+    "baseLayer": {
+      "style": "basic",
+      "layers": {
+        "label": false
+      }
+    },
+    "dimension": {
+      "bbox": [
+        120.65894766053276,
+        32.90712500066593,
+        134.75040017849778,
+        43.91071923070251
+      ],
+      "useDefaultAspectRatio": true
+    },
+    "showLegend": false,
+    "labelsBelowMap": false,
+    "highlightRegion": [
+      {
+        "id": "Q423",
+        "label": "Russland"
+      },
+      {
+        "id": "Q884",
+        "label": "Russland"
+      }
+    ],
+    "initialZoomLevel": -1,
+    "labelsBelowMapOneRow": false
+  },
+  "sources": [],
+  "subtitle": "",
+  "createdBy": "martin.koelling@nzz.ch",
+  "updatedBy": "dominique.burckhardt@nzz.ch",
+  "department": "Visuals",
+  "createdDate": "2024-10-24T07:40:48.859Z",
+  "geojsonList": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.35096420659346,
+          43.41518434254718
+        ]
+      },
+      "properties": {
+        "type": "country",
+        "label": "Russland",
+        "labelPosition": "top",
+        "useForInitialView": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.73952100117044,
+          42.26718829923996
+        ]
+      },
+      "properties": {
+        "type": "country",
+        "label": "China",
+        "labelPosition": "top",
+        "useForInitialView": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.20417824286437,
+          34.936966836339025
+        ]
+      },
+      "properties": {
+        "type": "country",
+        "label": "Japan",
+        "labelPosition": "top",
+        "useForInitialView": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.28077362032212,
+          40.03865584605879
+        ]
+      },
+      "properties": {
+        "type": "country",
+        "label": "Nordkorea",
+        "labelPosition": "top",
+        "useForInitialView": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.115598166932,
+          36.89822953096771
+        ]
+      },
+      "properties": {
+        "type": "country",
+        "label": "Südkorea",
+        "labelPosition": "top",
+        "useForInitialView": true
+      }
+    }
+  ],
+  "publication": "nzz",
+  "updatedDate": "2025-11-26T09:06:24.688Z"
+}

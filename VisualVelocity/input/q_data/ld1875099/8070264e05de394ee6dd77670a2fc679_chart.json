@@ -1,0 +1,220 @@
+{
+  "_id": "8070264e05de394ee6dd77670a2fc679",
+  "_rev": "5-fe99ba3c6639a2ae71a39a280bdb9ca8",
+  "data": [
+    [
+      "Country",
+      "Türkei",
+      "Portugal",
+      "Italien",
+      "Frankreich",
+      "Spanien",
+      "Belgien",
+      "Weitere Länder"
+    ],
+    [
+      "2012",
+      "0.5",
+      "4",
+      "5.3",
+      "5.6",
+      "20.8",
+      "19.2",
+      "12.9"
+    ],
+    [
+      "2013",
+      "0.4",
+      "2.4",
+      "5",
+      "5.6",
+      "26.7",
+      "6.5",
+      "15.6"
+    ],
+    [
+      "2014",
+      "0.4",
+      "3.7",
+      "3.9",
+      "6.9",
+      "21.7",
+      "9.3",
+      "12.6"
+    ],
+    [
+      "2015",
+      "0.5",
+      "6",
+      "4",
+      "10.9",
+      "21.6",
+      "17.5",
+      "17.4"
+    ],
+    [
+      "2016",
+      "0.8",
+      "1",
+      "4.1",
+      "8.5",
+      "15.6",
+      "30.3",
+      "17.9"
+    ],
+    [
+      "2017",
+      "1.5",
+      "2.7",
+      "4.1",
+      "17.5",
+      "41",
+      "44.8",
+      "24.9"
+    ],
+    [
+      "2018",
+      "1.5",
+      "5.5",
+      "3.6",
+      "16.4",
+      "48.5",
+      "53",
+      "45.7"
+    ],
+    [
+      "2019",
+      "1.6",
+      "10.6",
+      "8.2",
+      "15.8",
+      "37.9",
+      "65.2",
+      "62.6"
+    ],
+    [
+      "2020",
+      "2",
+      "10.1",
+      "13.4",
+      "13.1",
+      "36.9",
+      "70.3",
+      "67.4"
+    ],
+    [
+      "2021",
+      "2.8",
+      "9.9",
+      "20.1",
+      "26.5",
+      "48.9",
+      "96.3",
+      "101.8"
+    ],
+    [
+      "2022",
+      "2.3",
+      "16.5",
+      "26.1",
+      "27.7",
+      "58.3",
+      "110.9",
+      "83.1"
+    ]
+  ],
+  "tool": "chart",
+  "notes": "Angaben zu den Niederlanden laut der Drogenagentur der Europäischen Union (EUDA) unvollständig. \n",
+  "title": "Mehr Kokain in Europa als je zuvor",
+  "active": true,
+  "events": [],
+  "acronym": "adi.",
+  "options": {
+    "chartType": "Area",
+    "barOptions": {
+      "isBarChart": false,
+      "forceBarsOnSmall": false
+    },
+    "annotations": {},
+    "arrowOptions": {
+      "colorScheme": 0,
+      "invertColorScheme": false
+    },
+    "largeNumbers": {
+      "divideBy": 0
+    },
+    "hideAxisLabel": true,
+    "dotplotOptions": {},
+    "areaChartOptions": {
+      "stackType": "zero",
+      "areaInterpolation": "linear"
+    },
+    "lineChartOptions": {
+      "yScaleType": "linear",
+      "isStockChart": false,
+      "reverseYScale": false,
+      "lineInterpolation": "linear"
+    },
+    "dateSeriesOptions": {
+      "labels": "many",
+      "interval": "auto",
+      "prognosisStart": null
+    },
+    "highlightDataRows": [],
+    "colorOverwritesRows": [],
+    "highlightDataSeries": [],
+    "colorOverwritesSeries": [
+      {
+        "color": "#8d579b",
+        "position": 5,
+        "colorLight": ""
+      },
+      {
+        "color": "#e9cf8f",
+        "position": 6,
+        "colorLight": ""
+      },
+      {
+        "color": "#aaaaaa",
+        "position": 2,
+        "colorLight": ""
+      },
+      {
+        "color": "#DC6436",
+        "position": 4,
+        "colorLight": ""
+      },
+      {
+        "color": "#290732",
+        "position": 1,
+        "colorLight": ""
+      },
+      {
+        "color": "#f0ecdd",
+        "position": 7,
+        "colorLight": ""
+      },
+      {
+        "color": "#803418",
+        "position": 3,
+        "colorLight": ""
+      }
+    ]
+  },
+  "sources": [
+    {
+      "link": {
+        "url": "https://www.euda.europa.eu/publications/european-drug-report/2024/cocaine_en#level-8"
+      },
+      "text": "EUDA"
+    }
+  ],
+  "subtitle": "In europäischen Ländern beschlagnahmtes Kokain, in Tonnen",
+  "createdBy": "adina.renner@nzz.ch",
+  "updatedBy": "adina.renner@nzz.ch",
+  "department": "Visuals",
+  "createdDate": "2025-03-19T15:05:47.647Z",
+  "publication": "nzz",
+  "updatedDate": "2025-03-20T16:29:48.545Z",
+  "allowDownloadData": false
+}

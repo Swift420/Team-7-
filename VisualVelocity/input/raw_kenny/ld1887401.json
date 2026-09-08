@@ -1,0 +1,957 @@
+{
+ "content": [
+  {
+   "identifier": "header",
+   "id": "doc-1isnsgaje0",
+   "content": {
+    "title": "The trends behind Karol Nawrocki's Polish election win",
+    "lead": "Young men and a bit of help from Donald Trump? National conservative Karol Nawrocki won a narrow victory in Sunday's presidential election. Maps and charts explain four key insights from the results.",
+    "authorline": "Eike Hoppmann",
+    "author": "Eike Hoppmann"
+   },
+   "containers": {
+    "authors": []
+   },
+   "prevElement": "",
+   "nextElement": "free-html",
+   "firstContentElement": true
+  },
+  {
+   "identifier": "free-html",
+   "id": "doc-NsoyPzyUNz",
+   "content": {
+    "html": "<div style=\"background: #EAECF5; font-family: Helvetica, sans-serif; font-size:14px; padding:20px;\">\n\n<p style=\"font-size:18px; font-weight:bold; margin-bottom:15px;\">\nSummary\n</p>\n\n<ul style=\"margin-left:-20px;\">\n\n<li style=\"margin-bottom:10px;\"> Karol Nawrocki narrowly won the Polish presidential election against Rafał Trzaskowski, with rural areas and younger men playing a crucial role.</li>\n\n<li style=\"margin-bottom:10px;\">Geographic and demographic analyses reveal an East-West divide: Nawrocki dominated in the country's southeast, while Trzaskowski led in cities and the northwest.\n</li>\n\n<li style=\"margin-bottom:0px;\">Polish voters abroad were also divided. Those in Europe largely supported Trzaskowski, while Nawrocki came out ahead in North America. Overall, voter turnout reached a record high of 71%.\n</li>\n\n</ul>\n\n</div>"
+   },
+   "prevElement": "header",
+   "nextElement": "barrier"
+  },
+  {
+   "id": "doc-4b055bb7",
+   "identifier": "barrier",
+   "prevElement": "free-html",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1isobjk5s0",
+   "content": {
+    "text": "It has never been so close: 1.8 percentage points, or the equivalent of just under 370,000 votes, decided the <a href=\"https://www.nzz.ch/international/kopf-an-kopf-rennen-bei-polnischer-praesidentenwahl-leichter-vorsprung-fuer-den-nationalkonservativen-karol-nawrocki-ld.1887114\">outcome of the presidential election in Poland</a> . <strong>Karol Nawrocki</strong> , supported by the national conservative Law and Justice Party (PiS), prevailed over <strong>Rafał Trzaskowski</strong> , who belongs to Prime Minister Donald Tusk's liberal pro-European Civic Platform."
+   },
+   "paidContent": true,
+   "prevElement": "barrier",
+   "nextElement": "q-embed"
+  },
+  {
+   "identifier": "q-embed",
+   "id": "doc-1isohktgj0",
+   "content": {
+    "q-embed": {
+     "service": "q-tool",
+     "params": {
+      "id": "596f09f1501e5776fb09e4901bf89961",
+      "conf": {},
+      "toolConfig": {},
+      "toolRuntimeConfig": {
+       "size": {
+        "width": [
+         {
+          "value": 100,
+          "comparison": ">"
+         }
+        ]
+       },
+       "displayOptions": {
+        "hideTitle": true,
+        "hideSubtitle": false,
+        "hideFooter": false,
+        "hideAcronym": true
+       },
+       "locale": "en_US"
+      },
+      "size": "content"
+     },
+     "resolvedValue": {}
+    },
+    "html": "      <div        class=\"q-election_executive-container\"        id=\"q_election_executive_596f09f1501e5776fb09e4901bf89961_q177eeb5e067f4c3281ecd55e09bc9744_container\"        data-q-item-id=\"596f09f1501e5776fb09e4901bf89961\"        data-q-request-id=\"1460f13f55ca9341516d66f7221755dfafe640b8\"      ></div>",
+    "stylesheets": [
+     {
+      "type": "remote",
+      "content": "https://service.sophie.nzz.ch/bundle/sophie-color%23master,sophie-font%23master,sophie-legend%23master[icon-label],sophie-q%23master,sophie-viz-color%23master.css"
+     },
+     {
+      "type": "inline",
+      "content": "  @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff) format(\"woff\");  }    @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff) format(\"woff\");    unicode-range: U+0020-00FF,U+2005,U+2082;  }      "
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/css-theme-layer/nzz-0.2.0.css"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/electionExecutive/q-electionExecutive-1.3.10.css"
+     }
+    ],
+    "scripts": [
+     {
+      "type": "inline",
+      "content": "function qTrackingBootstrap(t,e,n){if(window.digitalData&&window.digitalData.component&&window.digitalData.component.push){window.digitalData.component.push(t),window.digitalData.event&&window.digitalData.event.length||(window.digitalData.event=[]);var i=new Date,a=e;a.eventInfo.timeStamp=i.toISOString(),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\");var o=document.querySelectorAll(\"[data-q-request-id='\"+n+\"']\");[].forEach.call(o,function(t){t.addEventListener(\"q-tracking-event\",function(t){var e=new Date;(a=JSON.parse(JSON.stringify(a))).eventInfo.timeStamp=e.toISOString(),a.eventInfo=Object.assign(a.eventInfo,t.detail.eventInfo),a.category=Object.assign(a.category,t.detail.category),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\")},!1)})}};qTrackingBootstrap({\"componentInfo\":{\"componentName\":\"Q\",\"componentID\":\"596f09f1501e5776fb09e4901bf89961\"},\"category\":{\"componentType\":\"storytelling\",\"componentSubType1\":\"Q graphic\",\"componentSubType2\":\"election_executive\"}},{\"eventInfo\":{\"eventName\":\"Storytelling Interaction\",\"eventAction\":\"load\",\"type\":\"story\",\"componentName\":\"Q\",\"eventNonInteractive\":true,\"componentID\":\"596f09f1501e5776fb09e4901bf89961\"},\"category\":{\"primaryCategory\":\"storytelling\",\"subCategory1\":\"Q graphic\",\"subCategory2\":\"election_executive\"}},\"1460f13f55ca9341516d66f7221755dfafe640b8\")"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/electionExecutive/q-electionExecutive-1.3.10.js"
+     },
+     {
+      "type": "inline",
+      "content": "      (function () {        function initialize() {          const target = document.querySelector('#q_election_executive_596f09f1501e5776fb09e4901bf89961_q177eeb5e067f4c3281ecd55e09bc9744_container');          if (!target) return;          target.innerHTML = '';          const qdoc = {\"_id\":\"596f09f1501e5776fb09e4901bf89961\",\"acronym\":\"pab.\",\"publication\":\"nzz\",\"sources\":[],\"subtitle\":\"Share of votes, in %\",\"title\":\"Presidential election in Poland\",\"availableSeats\":0,\"candidates\":[{\"name\":\"Rafał Trzaskowski\",\"party\":\"Civic Platform\",\"votes\":49.1,\"color\":{\"colorCode\":\"#df7c18\",\"classAttribute\":\"\"},\"status\":\"undefined\",\"isPrevious\":false,\"errorMargin\":{\"bestGuess\":0,\"lower\":0,\"upper\":0},\"picture\":{\"key\":\"2025/05/28/Trzaskowski-edad16c89da7fff31611b55fb2f2416f.png\",\"url\":\"https://nzz-q-assets.s3.eu-west-1.amazonaws.com/2025/05/28/Trzaskowski-edad16c89da7fff31611b55fb2f2416f.png\",\"size\":1082648,\"type\":\"image/png\",\"originalName\":\"Trzaskowski.png\",\"width\":1692,\"height\":1692}},{\"name\":\"Karol Nawrocki\",\"party\":\"Law and Justice Party (PiS)\",\"votes\":50.9,\"color\":{\"colorCode\":\"#374e8e\",\"classAttribute\":\"\"},\"status\":\"undefined\",\"isPrevious\":false,\"errorMargin\":{\"bestGuess\":0,\"lower\":0,\"upper\":0},\"picture\":{\"key\":\"2025/05/28/Nawrocki-4b66fee6a0fdba5653fb75093777663a.png\",\"url\":\"https://nzz-q-assets.s3.eu-west-1.amazonaws.com/2025/05/28/Nawrocki-4b66fee6a0fdba5653fb75093777663a.png\",\"size\":5355316,\"type\":\"image/png\",\"originalName\":\"Nawrocki.png\",\"width\":5408,\"height\":5408}}],\"errorMarginLabels\":{\"bestGuessLabel\":\"Projection\",\"errorMarginLabel\":\"Error margin\"},\"isPercentage\":true,\"majority\":0,\"options\":{\"hideUpdatedDate\":false},\"withErrorMargin\":false,\"updatedDate\":\"2025-06-03T14:17:13.172Z\",\"notes\":\"Source: <a href=\\\"https://wybory.gov.pl/prezydent2025/\\\">National Electoral Commission</a>\"};          const toolRuntimeConfig = {\"displayOptions\":{\"hideTitle\":true,\"hideSubtitle\":false,\"hideFooter\":false,\"hideAcronym\":true},\"size\":{\"width\":[{\"value\":100,\"comparison\":\">\"}]},\"locale\":\"en-US\"};          const toolSettings = {\"qItemInstanceId\":\"q_election_executive_596f09f1501e5776fb09e4901bf89961_q177eeb5e067f4c3281ecd55e09bc9744\",\"imageServiceUrl\":\"https://nzz-q-assets2.static-nzz.ch\",\"imageServiceType\":\"cloudflare\"};          let attempts = 0;          const maxAttempts = 100;          const checkAndInitialize = setInterval(() => {            if (window.qElectionExecutive) {              clearInterval(checkAndInitialize);              new window.qElectionExecutive({ target: target, props: {                qdoc: qdoc,                toolSettings: toolSettings,                toolRuntimeConfig: toolRuntimeConfig              } });            } else {              attempts++;              if (attempts >= maxAttempts) {                clearInterval(checkAndInitialize);                console.error('Failed to initialize qElectionExecutive after 30 seconds');              }            }          }, 300);        }        if (document.body.classList.contains('pagedone')) {          initialize();        } else {          window.addEventListener('pagedone', initialize);        }      })();    "
+     }
+    ]
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1isoc9dri0",
+   "content": {
+    "text": "Polish society seems to be split into two roughly equal camps. Data analysis of the election results shows what may have tipped the scales in Nawrocki's favor."
+   },
+   "paidContent": true,
+   "prevElement": "q-embed",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1isoa3or50",
+   "content": {
+    "title": "The northwest and the cities voted for Trzaskowski, the rest for Nawrocki.",
+    "id": "subtitle-the-northwest-and-the-cities-voted-for-trzaskowski-the-rest-for-nawrocki"
+   },
+   "styles": {
+    "subtitle-type": "subtitle--numbered"
+   },
+   "data": {},
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1isoa5b720",
+   "content": {
+    "text": "Two geographical patterns can be seen in the election results: First, Trzaskowski, who is the mayor of Warsaw, won in the capital and other urban areas. Nawrocki won over voters in rural areas."
+   },
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "datawrapper"
+  },
+  {
+   "identifier": "datawrapper",
+   "id": "doc-goztPmn5IR",
+   "content": {
+    "html": {
+     "service": "free-html",
+     "params": {
+      "embedCode": "<iframe title=\"The northwest and the cities voted mostly for Trzaskowski, the rest for Nawrocki\" aria-label=\"Map\" id=\"datawrapper-chart-KIupP\" src=\"https://datawrapper.dwcdn.net/KIupP/1/\" scrolling=\"no\" frameborder=\"0\" style=\"width: 0; min-width: 100% !important; border: none;\" height=\"400\" data-external=\"1\"></iframe><script type=\"text/javascript\">!function(){\"use strict\";window.addEventListener(\"message\",(function(a){if(void 0!==a.data[\"datawrapper-height\"]){var e=document.querySelectorAll(\"iframe\");for(var t in a.data[\"datawrapper-height\"])for(var r,i=0;r=e[i];i++)if(r.contentWindow===a.source){var d=a.data[\"datawrapper-height\"][t]+\"px\";r.style.height=d}}}))}();\n</script>"
+     },
+     "resolvedValue": {
+      "html": "<iframe title=\"The northwest and the cities voted mostly for Trzaskowski, the rest for Nawrocki\" aria-label=\"Map\" id=\"datawrapper-chart-KIupP\" src=\"https://datawrapper.dwcdn.net/KIupP/1/\" scrolling=\"no\" frameborder=\"0\" style=\"width: 0; min-width: 100% !important; border: none;\" height=\"400\" data-external=\"1\"></iframe><script type=\"text/javascript\">!function(){\"use strict\";window.addEventListener(\"message\",(function(a){if(void 0!==a.data[\"datawrapper-height\"]){var e=document.querySelectorAll(\"iframe\");for(var t in a.data[\"datawrapper-height\"])for(var r,i=0;r=e[i];i++)if(r.contentWindow===a.source){var d=a.data[\"datawrapper-height\"][t]+\"px\";r.style.height=d}}}))}();\n</script>"
+     }
+    }
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1isnsgaje1",
+   "content": {
+    "text": "Second, there is an east-west divide. The national conservative PiS party has its strongholds in the southeast of the country (colored blue), which is more Catholic and has an older population. The northwest, on the other hand, is more liberal (orange). This divide is not new; Poland has been voting along the former pre-World War I borders for decades."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "datawrapper",
+   "nextElement": "divider"
+  },
+  {
+   "identifier": "divider",
+   "id": "doc-1isoa694g0",
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1iso3qhrs0",
+   "content": {
+    "title": "Men and younger people vote more to the right",
+    "id": "subtitle-men-and-younger-people-vote-more-to-the-right"
+   },
+   "styles": {
+    "subtitle-type": "subtitle--numbered"
+   },
+   "data": {},
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "divider",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iso52r3g0",
+   "content": {
+    "text": "Although the two candidates received almost the same number of votes, there are differences: Men preferred to vote for the former boxer and soccer hooligan Nawrocki. He was 10 percentage points ahead among this group of voters."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "q-embed"
+  },
+  {
+   "identifier": "q-embed",
+   "id": "doc-1iso3vv1u0",
+   "content": {
+    "q-embed": {
+     "service": "q-tool",
+     "params": {
+      "id": "8fcbd28255e890417dc9a282f5eae092",
+      "conf": {},
+      "toolConfig": {},
+      "toolRuntimeConfig": {
+       "size": {
+        "width": [
+         {
+          "value": 100,
+          "comparison": ">"
+         }
+        ]
+       },
+       "displayOptions": {
+        "hideTitle": false,
+        "hideSubtitle": false,
+        "hideFooter": false,
+        "hideAcronym": false,
+        "size": "basic"
+       },
+       "locale": "en_US"
+      },
+      "size": "content"
+     },
+     "resolvedValue": {}
+    },
+    "html": "      <div        class=\"q-chart-container\"        id=\"q_chart_8fcbd28255e890417dc9a282f5eae092_q1474667a1e504bea9dfbbc169f8c27f5_container\"        data-q-item-id=\"8fcbd28255e890417dc9a282f5eae092\"        data-q-request-id=\"745222771b868529949354cadb6c408076095c1f\"      ></div>",
+    "stylesheets": [
+     {
+      "type": "remote",
+      "content": "https://service.sophie.nzz.ch/bundle/sophie-color%23master,sophie-font%23master,sophie-legend%23master[icon-label],sophie-q%23master,sophie-viz-color%23master.css"
+     },
+     {
+      "type": "inline",
+      "content": "  @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff) format(\"woff\");  }    @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff) format(\"woff\");    unicode-range: U+0020-00FF,U+2005,U+2082;  }      "
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/css-theme-layer/nzz-0.2.0.css"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/chart/q-chart-1.2.6.css"
+     }
+    ],
+    "scripts": [
+     {
+      "type": "inline",
+      "content": "function qTrackingBootstrap(t,e,n){if(window.digitalData&&window.digitalData.component&&window.digitalData.component.push){window.digitalData.component.push(t),window.digitalData.event&&window.digitalData.event.length||(window.digitalData.event=[]);var i=new Date,a=e;a.eventInfo.timeStamp=i.toISOString(),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\");var o=document.querySelectorAll(\"[data-q-request-id='\"+n+\"']\");[].forEach.call(o,function(t){t.addEventListener(\"q-tracking-event\",function(t){var e=new Date;(a=JSON.parse(JSON.stringify(a))).eventInfo.timeStamp=e.toISOString(),a.eventInfo=Object.assign(a.eventInfo,t.detail.eventInfo),a.category=Object.assign(a.category,t.detail.category),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\")},!1)})}};qTrackingBootstrap({\"componentInfo\":{\"componentName\":\"Q\",\"componentID\":\"8fcbd28255e890417dc9a282f5eae092\"},\"category\":{\"componentType\":\"storytelling\",\"componentSubType1\":\"Q graphic\",\"componentSubType2\":\"chart\"}},{\"eventInfo\":{\"eventName\":\"Storytelling Interaction\",\"eventAction\":\"load\",\"type\":\"story\",\"componentName\":\"Q\",\"eventNonInteractive\":true,\"componentID\":\"8fcbd28255e890417dc9a282f5eae092\"},\"category\":{\"primaryCategory\":\"storytelling\",\"subCategory1\":\"Q graphic\",\"subCategory2\":\"chart\"}},\"745222771b868529949354cadb6c408076095c1f\")"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/chart/q-chart-1.2.6.js"
+     },
+     {
+      "type": "inline",
+      "content": "      (function () {        function initialize() {          const target = document.querySelector('#q_chart_8fcbd28255e890417dc9a282f5eae092_q1474667a1e504bea9dfbbc169f8c27f5_container');          if (!target) return;          target.innerHTML = '';          const qdoc = {\"_id\":\"8fcbd28255e890417dc9a282f5eae092\",\"allowDownloadData\":false,\"title\":\"Men voted overwhelmingly for Nawrocki, women for Trzaskowski\",\"subtitle\":\"Share of votes by gender, in %\",\"publication\":\"nzz\",\"acronym\":\"eik.\",\"data\":[[\"X.1\",\"Nawrocki\",\"Trzaskowski\"],[\"Men\",\"55.5\",\"44.5\"],[\"Women\",\"47.2\",\"52.8\"]],\"sources\":[],\"events\":[],\"options\":{\"annotations\":{\"valuesOnBars\":true},\"areaChartOptions\":{\"areaInterpolation\":\"linear\",\"stackType\":\"zero\"},\"arrowOptions\":{\"colorScheme\":0,\"invertColorScheme\":false},\"barOptions\":{\"isBarChart\":true,\"forceBarsOnSmall\":false},\"chartType\":\"Bar\",\"colorOverwritesRows\":[],\"colorOverwritesSeries\":[{\"color\":\"#df7c18\",\"colorLight\":\"\",\"position\":2},{\"color\":\"#374e8e\",\"colorLight\":\"\",\"position\":1}],\"dateSeriesOptions\":{\"interval\":\"auto\",\"labels\":\"many\",\"prognosisStart\":null},\"dotplotOptions\":{},\"hideAxisLabel\":true,\"highlightDataRows\":[],\"highlightDataSeries\":[],\"lineChartOptions\":{\"yScaleType\":\"linear\",\"reverseYScale\":false,\"lineInterpolation\":\"linear\",\"isStockChart\":false},\"largeNumbers\":{\"divideBy\":0}},\"updatedDate\":\"2025-06-03T13:44:27.696Z\",\"notes\":\"Source: Ipsos</br> For technical reasons, some elements of this graphic could not be translated. The number 55.5 should be read as 55.5, for example.\"};          const toolRuntimeConfig = {\"displayOptions\":{\"hideTitle\":false,\"hideSubtitle\":false,\"hideFooter\":false,\"hideAcronym\":false,\"size\":\"basic\"},\"size\":{\"width\":[{\"value\":100,\"comparison\":\">\"}]},\"locale\":\"en-US\"};          const toolSettings = {\"qItemInstanceId\":\"q_chart_8fcbd28255e890417dc9a282f5eae092_q1474667a1e504bea9dfbbc169f8c27f5\"};          let attempts = 0;          const maxAttempts = 100;          const checkAndInitialize = setInterval(() => {            if (window.qChart) {              clearInterval(checkAndInitialize);              new window.qChart({ target: target, props: {                qdoc: qdoc,                toolSettings: toolSettings,                toolRuntimeConfig: toolRuntimeConfig              } });            } else {              attempts++;              if (attempts >= maxAttempts) {                clearInterval(checkAndInitialize);                console.error('Failed to initialize qChart after 30 seconds');              }            }          }, 300);        }        if (document.body.classList.contains('pagedone')) {          initialize();        } else {          window.addEventListener('pagedone', initialize);        }      })();    "
+     }
+    ]
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iso4m7ve0",
+   "content": {
+    "text": "Among older voters, Trzaskowski and Nawrocki were roughly neck and neck. The younger ones, however, had a clear favorite: Nawrocki, the future president. However, Nawrocki was not the first choice among young men. In the first round, most of them voted for the far-right politician <a target=\"_blank\" href=\"https://apnews.com/article/poland-presidential-election-nawrocki-trzaskowski-trump-mentzen-65809f2f278f7430cbdfe313e312e9f4\">Sławomir Mentzen</a> , who came in third but failed to make it to the runoff."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "q-embed",
+   "nextElement": "q-embed"
+  },
+  {
+   "identifier": "q-embed",
+   "id": "doc-1iso4p8hi0",
+   "content": {
+    "q-embed": {
+     "service": "q-tool",
+     "params": {
+      "id": "596f09f1501e5776fb09e4901bfea993",
+      "conf": {},
+      "toolConfig": {},
+      "toolRuntimeConfig": {
+       "size": {
+        "width": [
+         {
+          "value": 100,
+          "comparison": ">"
+         }
+        ]
+       },
+       "displayOptions": {
+        "hideTitle": false,
+        "hideSubtitle": false,
+        "hideFooter": false,
+        "hideAcronym": false,
+        "size": "basic"
+       },
+       "locale": "en_US"
+      },
+      "size": "content"
+     },
+     "resolvedValue": {}
+    },
+    "html": "      <div        class=\"q-chart-container\"        id=\"q_chart_596f09f1501e5776fb09e4901bfea993_q14247e8388c2408995c47e0e9a938b4e_container\"        data-q-item-id=\"596f09f1501e5776fb09e4901bfea993\"        data-q-request-id=\"00130ad589137b51fd1289292116875d2da5594d\"      ></div>",
+    "stylesheets": [
+     {
+      "type": "remote",
+      "content": "https://service.sophie.nzz.ch/bundle/sophie-color%23master,sophie-font%23master,sophie-legend%23master[icon-label],sophie-q%23master,sophie-viz-color%23master.css"
+     },
+     {
+      "type": "inline",
+      "content": "  @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff) format(\"woff\");  }    @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff) format(\"woff\");    unicode-range: U+0020-00FF,U+2005,U+2082;  }      "
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/css-theme-layer/nzz-0.2.0.css"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/chart/q-chart-1.2.6.css"
+     }
+    ],
+    "scripts": [
+     {
+      "type": "inline",
+      "content": "function qTrackingBootstrap(t,e,n){if(window.digitalData&&window.digitalData.component&&window.digitalData.component.push){window.digitalData.component.push(t),window.digitalData.event&&window.digitalData.event.length||(window.digitalData.event=[]);var i=new Date,a=e;a.eventInfo.timeStamp=i.toISOString(),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\");var o=document.querySelectorAll(\"[data-q-request-id='\"+n+\"']\");[].forEach.call(o,function(t){t.addEventListener(\"q-tracking-event\",function(t){var e=new Date;(a=JSON.parse(JSON.stringify(a))).eventInfo.timeStamp=e.toISOString(),a.eventInfo=Object.assign(a.eventInfo,t.detail.eventInfo),a.category=Object.assign(a.category,t.detail.category),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\")},!1)})}};qTrackingBootstrap({\"componentInfo\":{\"componentName\":\"Q\",\"componentID\":\"596f09f1501e5776fb09e4901bfea993\"},\"category\":{\"componentType\":\"storytelling\",\"componentSubType1\":\"Q graphic\",\"componentSubType2\":\"chart\"}},{\"eventInfo\":{\"eventName\":\"Storytelling Interaction\",\"eventAction\":\"load\",\"type\":\"story\",\"componentName\":\"Q\",\"eventNonInteractive\":true,\"componentID\":\"596f09f1501e5776fb09e4901bfea993\"},\"category\":{\"primaryCategory\":\"storytelling\",\"subCategory1\":\"Q graphic\",\"subCategory2\":\"chart\"}},\"00130ad589137b51fd1289292116875d2da5594d\")"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/chart/q-chart-1.2.6.js"
+     },
+     {
+      "type": "inline",
+      "content": "      (function () {        function initialize() {          const target = document.querySelector('#q_chart_596f09f1501e5776fb09e4901bfea993_q14247e8388c2408995c47e0e9a938b4e_container');          if (!target) return;          target.innerHTML = '';          const qdoc = {\"_id\":\"596f09f1501e5776fb09e4901bfea993\",\"allowDownloadData\":false,\"title\":\"Nawrocki won over younger voters\",\"subtitle\":\"Share of votes by age group, in %\",\"publication\":\"nzz\",\"acronym\":\"eik.\",\"data\":[[null,\"Nawrocki\",\"Trzaskowski\"],[\"18–29\",\"53.2\",\"46.8\"],[\"30–39\",\"54\",\"46\"],[\"40–49\",\"47.9\",\"52.1\"],[\"50–59\",\"49.4\",\"50.6\"],[\"60+\",\"51\",\"49\"]],\"sources\":[],\"events\":[],\"options\":{\"annotations\":{\"valuesOnBars\":true},\"areaChartOptions\":{\"areaInterpolation\":\"linear\",\"stackType\":\"zero\"},\"arrowOptions\":{\"colorScheme\":0,\"invertColorScheme\":false},\"barOptions\":{\"isBarChart\":true,\"forceBarsOnSmall\":false,\"maxValue\":null},\"chartType\":\"Bar\",\"colorOverwritesRows\":[],\"colorOverwritesSeries\":[{\"color\":\"#df7c18\",\"colorLight\":\"\",\"position\":2},{\"color\":\"#374e8e\",\"colorLight\":\"\",\"position\":1}],\"dateSeriesOptions\":{\"interval\":\"auto\",\"labels\":\"many\",\"prognosisStart\":null},\"dotplotOptions\":{},\"hideAxisLabel\":true,\"highlightDataRows\":[],\"highlightDataSeries\":[],\"lineChartOptions\":{\"yScaleType\":\"linear\",\"reverseYScale\":false,\"lineInterpolation\":\"linear\",\"isStockChart\":false},\"largeNumbers\":{\"divideBy\":0}},\"updatedDate\":\"2025-06-03T13:48:52.135Z\",\"notes\":\"Source: Ipsos\"};          const toolRuntimeConfig = {\"displayOptions\":{\"hideTitle\":false,\"hideSubtitle\":false,\"hideFooter\":false,\"hideAcronym\":false,\"size\":\"basic\"},\"size\":{\"width\":[{\"value\":100,\"comparison\":\">\"}]},\"locale\":\"en-US\"};          const toolSettings = {\"qItemInstanceId\":\"q_chart_596f09f1501e5776fb09e4901bfea993_q14247e8388c2408995c47e0e9a938b4e\"};          let attempts = 0;          const maxAttempts = 100;          const checkAndInitialize = setInterval(() => {            if (window.qChart) {              clearInterval(checkAndInitialize);              new window.qChart({ target: target, props: {                qdoc: qdoc,                toolSettings: toolSettings,                toolRuntimeConfig: toolRuntimeConfig              } });            } else {              attempts++;              if (attempts >= maxAttempts) {                clearInterval(checkAndInitialize);                console.error('Failed to initialize qChart after 30 seconds');              }            }          }, 300);        }        if (document.body.classList.contains('pagedone')) {          initialize();        } else {          window.addEventListener('pagedone', initialize);        }      })();    "
+     }
+    ]
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iso4otq30",
+   "content": {
+    "text": "This is consistent with developments in other countries: across Europe younger voters, especially male voters, are increasingly turning to parties to the right of the political center. In the German federal election in February, the Alternative for Germany (AfD) <a target=\"_blank\" href=\"https://www.nzz.ch/english/german-election-results-show-significant-voter-shifts-ld.1872488\">became the second strongest party among voters under 25</a> ."
+   },
+   "paidContent": true,
+   "prevElement": "q-embed",
+   "nextElement": "free-html"
+  },
+  {
+   "identifier": "free-html",
+   "id": "doc-EIbET2awAz",
+   "content": {
+    "html": "<style type=\"text/css\">@import url(\"https://assets.mlcdn.com/fonts.css?version=1691048\");</style>\n    <style type=\"text/css\">\n    /* LOADER */\n    .ml-form-embedSubmitLoad {\n      display: inline-block;\n      width: 20px;\n      height: 20px;\n    }\n\n    .g-recaptcha {\n    transform: scale(1);\n    -webkit-transform: scale(1);\n    transform-origin: 0 0;\n    -webkit-transform-origin: 0 0;\n    height: ;\n    }\n\n    .sr-only {\n      position: absolute;\n      width: 1px;\n      height: 1px;\n      padding: 0;\n      margin: -1px;\n      overflow: hidden;\n      clip: rect(0,0,0,0);\n      border: 0;\n    }\n\n    .ml-form-embedSubmitLoad:after {\n      content: \" \";\n      display: block;\n      width: 11px;\n      height: 11px;\n      margin: 1px;\n      border-radius: 50%;\n      border: 4px solid #fff;\n    border-color: #ffffff #ffffff #ffffff transparent;\n    animation: ml-form-embedSubmitLoad 1.2s linear infinite;\n    }\n    @keyframes ml-form-embedSubmitLoad {\n      0% {\n      transform: rotate(0deg);\n      }\n      100% {\n      transform: rotate(360deg);\n      }\n    }\n      #mlb2-4323109.ml-form-embedContainer {\n        box-sizing: border-box;\n        display: table;\n        margin: 0 auto;\n        position: static;\n        width: 100% !important;\n      }\n      #mlb2-4323109.ml-form-embedContainer h4,\n      #mlb2-4323109.ml-form-embedContainer p,\n      #mlb2-4323109.ml-form-embedContainer span,\n      #mlb2-4323109.ml-form-embedContainer button {\n        text-transform: none !important;\n        letter-spacing: normal !important;\n      }\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper {\n        background-color: #EAECF5;\n        \n        border-width: 0px;\n        border-color: transparent;\n        border-radius: 0px;\n        border-style: solid;\n        box-sizing: border-box;\n        display: inline-block !important;\n        margin: 0;\n        padding: 0;\n        position: relative;\n              }\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper.embedPopup,\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper.embedDefault { width: 100%; }\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper.embedForm { max-width: 100%; width: 100%; }\n      #mlb2-4323109.ml-form-embedContainer .ml-form-align-left { text-align: left; }\n      #mlb2-4323109.ml-form-embedContainer .ml-form-align-center { text-align: center; }\n      #mlb2-4323109.ml-form-embedContainer .ml-form-align-default { display: table-cell !important; vertical-align: middle !important; text-align: center !important; }\n      #mlb2-4323109.ml-form-embedContainer .ml-form-align-right { text-align: right; }\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedHeader img {\n        border-top-left-radius: 0px;\n        border-top-right-radius: 0px;\n        height: auto;\n        margin: 0 auto !important;\n        max-width: 100%;\n        width: 1200px;\n      }\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody,\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody {\n        padding: 20px 20px 0 20px;\n      }\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody.ml-form-embedBodyHorizontal {\n        padding-bottom: 0;\n      }\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent,\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent {\n        text-align: left;\n        margin: 0 0 20px 0;\n      }\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent h4,\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent h4 {\n        color: #000000;\n        font-family: Georgia, serif;\n        font-size: 28px;\n        font-weight: 400;\n        margin: 0 0 10px 0;\n        text-align: left;\n        word-break: break-word;\n      }\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent p,\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent p {\n        color: #2e2e2e;\n        font-family: Helvetica, sans-serif;\n        font-size: 14px;\n        font-weight: 400;\n        line-height: 20px;\n        margin: 0 0 10px 0;\n        text-align: left;\n      }\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent ul,\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent ol,\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent ul,\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent ol {\n        color: #2e2e2e;\n        font-family: Helvetica, sans-serif;\n        font-size: 14px;\n      }\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent ol ol,\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent ol ol {\n        list-style-type: lower-alpha;\n      }\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent ol ol ol,\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent ol ol ol {\n        list-style-type: lower-roman;\n      }\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent p a,\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent p a {\n        color: #2e2e2e;\n        text-decoration: underline;\n      }\n\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-block-form .ml-field-group {\n        text-align: left!important;\n      }\n\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-block-form .ml-field-group label {\n        margin-bottom: 5px;\n        color: #2e2e2e;\n        font-size: 14px;\n        font-family: Helvetica, sans-serif;\n        font-weight: bold; font-style: normal; text-decoration: none;;\n        display: inline-block;\n        line-height: 20px;\n      }\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent p:last-child,\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent p:last-child {\n        margin: 0;\n      }\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody form {\n        margin: 0;\n        width: 100%;\n      }\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-formContent,\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow {\n        margin: 0 0 20px 0;\n        width: 100%;\n      }\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow {\n        float: left;\n      }\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-formContent.horozintalForm {\n        margin: 0;\n        padding: 0 0 20px 0;\n        width: 100%;\n        height: auto;\n        float: left;\n      }\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow {\n        margin: 0 0 10px 0;\n        width: 100%;\n      }\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow.ml-last-item {\n        margin: 0;\n      }\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow.ml-formfieldHorizintal {\n        margin: 0;\n      }\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow input {\n        background-color: #ffffff !important;\n        color: #2e2e2e !important;\n        border-color: #ffffff;\n        border-radius: 0px !important;\n        border-style: solid !important;\n        border-width: 0px !important;\n        font-family: Helvetica, sans-serif;\n        font-size: 15px !important;\n        height: auto;\n        line-height: 21px !important;\n        margin-bottom: 0;\n        margin-top: 0;\n        margin-left: 0;\n        margin-right: 0;\n        padding: 10px 10px !important;\n        width: 100% !important;\n        box-sizing: border-box !important;\n        max-width: 100% !important;\n      }\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow input::-webkit-input-placeholder,\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow input::-webkit-input-placeholder { color: #2e2e2e; }\n\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow input::-moz-placeholder,\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow input::-moz-placeholder { color: #2e2e2e; }\n\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow input:-ms-input-placeholder,\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow input:-ms-input-placeholder { color: #2e2e2e; }\n\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow input:-moz-placeholder,\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow input:-moz-placeholder { color: #2e2e2e; }\n\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow textarea, #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow textarea {\n        background-color: #ffffff !important;\n        color: #2e2e2e !important;\n        border-color: #ffffff;\n        border-radius: 0px !important;\n        border-style: solid !important;\n        border-width: 0px !important;\n        font-family: Helvetica, sans-serif;\n        font-size: 15px !important;\n        height: auto;\n        line-height: 21px !important;\n        margin-bottom: 0;\n        margin-top: 0;\n        padding: 10px 10px !important;\n        width: 100% !important;\n        box-sizing: border-box !important;\n        max-width: 100% !important;\n      }\n\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-radio .custom-control-label::before, #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-radio .custom-control-label::before, #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-checkbox .custom-control-label::before, #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-checkbox .custom-control-label::before, #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedPermissionsOptionsCheckbox .label-description::before, #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-interestGroupsRow .ml-form-interestGroupsRowCheckbox .label-description::before, #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow .label-description::before {\n          border-color: #ffffff!important;\n          background-color: #ffffff!important;\n      }\n\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow input.custom-control-input[type=\"checkbox\"]{\n        box-sizing: border-box;\n        padding: 0;\n        position: absolute;\n        z-index: -1;\n        opacity: 0;\n        margin-top: 5px;\n        margin-left: -1.5rem;\n        overflow: visible;\n      }\n\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-checkbox .custom-control-label::before, #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-checkbox .custom-control-label::before, #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedPermissionsOptionsCheckbox .label-description::before, #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-interestGroupsRow .ml-form-interestGroupsRowCheckbox .label-description::before, #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow .label-description::before {\n        border-radius: 4px!important;\n      }\n\n\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow input[type=checkbox]:checked~.label-description::after, #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedPermissionsOptionsCheckbox input[type=checkbox]:checked~.label-description::after, #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-checkbox .custom-control-input:checked~.custom-control-label::after, #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-checkbox .custom-control-input:checked~.custom-control-label::after, #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-interestGroupsRow .ml-form-interestGroupsRowCheckbox input[type=checkbox]:checked~.label-description::after {\n        background-image: url(\"data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e\");\n      }\n\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-radio .custom-control-input:checked~.custom-control-label::after, #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-radio .custom-control-input:checked~.custom-control-label::after {\n        background-image: url(\"data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e\");\n      }\n\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-radio .custom-control-input:checked~.custom-control-label::before, #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-radio .custom-control-input:checked~.custom-control-label::before, #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-checkbox .custom-control-input:checked~.custom-control-label::before, #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-checkbox .custom-control-input:checked~.custom-control-label::before, #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedPermissionsOptionsCheckbox input[type=checkbox]:checked~.label-description::before, #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-interestGroupsRow .ml-form-interestGroupsRowCheckbox input[type=checkbox]:checked~.label-description::before, #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow input[type=checkbox]:checked~.label-description::before  {\n          border-color: #000000!important;\n          background-color: #000000!important;\n      }\n\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-radio .custom-control-label::before, #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-radio .custom-control-label::before, #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-radio .custom-control-label::after, #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-radio .custom-control-label::after, #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-checkbox .custom-control-label::before, #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-checkbox .custom-control-label::after, #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-checkbox .custom-control-label::before, #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-checkbox .custom-control-label::after {\n           top: 2px;\n           box-sizing: border-box;\n      }\n\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedPermissionsOptionsCheckbox .label-description::before, #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedPermissionsOptionsCheckbox .label-description::after, #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow .label-description::before, #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow .label-description::after {\n           top: 0px!important;\n           box-sizing: border-box!important;\n      }\n\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow .label-description::before, #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow .label-description::after {\n        top: 0px!important;\n           box-sizing: border-box!important;\n      }\n\n       #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-interestGroupsRow .ml-form-interestGroupsRowCheckbox .label-description::after {\n            top: 4px!important;\n            box-sizing: border-box!important;\n            position: absolute;\n            left: -1.5rem;\n            display: block;\n            width: 1rem;\n            height: 1rem;\n            content: \"\";\n       }\n\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-interestGroupsRow .ml-form-interestGroupsRowCheckbox .label-description::before {\n        top: 4px!important;\n        box-sizing: border-box!important;\n      }\n\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .custom-control-label::before {\n          position: absolute;\n          top: 4px;\n          left: -1.5rem;\n          display: block;\n          width: 16px;\n          height: 16px;\n          pointer-events: none;\n          content: \"\";\n          background-color: #ffffff;\n          border: #adb5bd solid 1px;\n          border-radius: 50%;\n      }\n\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .custom-control-label::after {\n          position: absolute;\n          top: 2px!important;\n          left: -1.5rem;\n          display: block;\n          width: 1rem;\n          height: 1rem;\n          content: \"\";\n      }\n\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedPermissionsOptionsCheckbox .label-description::before, #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-interestGroupsRow .ml-form-interestGroupsRowCheckbox .label-description::before, #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow .label-description::before {\n          position: absolute;\n          top: 4px;\n          left: -1.5rem;\n          display: block;\n          width: 16px;\n          height: 16px;\n          pointer-events: none;\n          content: \"\";\n          background-color: #ffffff;\n          border: #adb5bd solid 1px;\n          border-radius: 50%;\n      }\n\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedPermissionsOptionsCheckbox .label-description::after {\n          position: absolute;\n          top: 0px!important;\n          left: -1.5rem;\n          display: block;\n          width: 1rem;\n          height: 1rem;\n          content: \"\";\n      }\n\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow .label-description::after {\n          position: absolute;\n          top: 0px!important;\n          left: -1.5rem;\n          display: block;\n          width: 1rem;\n          height: 1rem;\n          content: \"\";\n      }\n\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .custom-radio .custom-control-label::after {\n          background: no-repeat 50%/50% 50%;\n      }\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .custom-checkbox .custom-control-label::after, #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedPermissionsOptionsCheckbox .label-description::after, #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-interestGroupsRow .ml-form-interestGroupsRowCheckbox .label-description::after, #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow .label-description::after {\n          background: no-repeat 50%/50% 50%;\n      }\n\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-control, #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-control {\n        position: relative;\n        display: block;\n        min-height: 1.5rem;\n        padding-left: 1.5rem;\n      }\n\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-radio .custom-control-input, #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-radio .custom-control-input, #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-checkbox .custom-control-input, #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-checkbox .custom-control-input {\n          position: absolute;\n          z-index: -1;\n          opacity: 0;\n          box-sizing: border-box;\n          padding: 0;\n      }\n\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-radio .custom-control-label, #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-radio .custom-control-label, #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-checkbox .custom-control-label, #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-checkbox .custom-control-label {\n          color: #2e2e2e;\n          font-size: 12px!important;\n          font-family: Helvetica, sans-serif;\n          line-height: 22px;\n          margin-bottom: 0;\n          position: relative;\n          vertical-align: top;\n          font-style: normal;\n          font-weight: 700;\n      }\n\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-select, #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-select {\n        background-color: #ffffff !important;\n        color: #2e2e2e !important;\n        border-color: #ffffff;\n        border-radius: 0px !important;\n        border-style: solid !important;\n        border-width: 0px !important;\n        font-family: Helvetica, sans-serif;\n        font-size: 15px !important;\n        line-height: 20px !important;\n        margin-bottom: 0;\n        margin-top: 0;\n        padding: 10px 28px 10px 12px !important;\n        width: 100% !important;\n        box-sizing: border-box !important;\n        max-width: 100% !important;\n        height: auto;\n        display: inline-block;\n        vertical-align: middle;\n        background: url('https://assets.mlcdn.com/ml/images/default/dropdown.svg') no-repeat right .75rem center/8px 10px;\n        -webkit-appearance: none;\n        -moz-appearance: none;\n        appearance: none;\n      }\n\n\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow {\n        height: auto;\n        width: 100%;\n        float: left;\n      }\n      .ml-form-formContent.horozintalForm .ml-form-horizontalRow .ml-input-horizontal { width: 70%; float: left; }\n      .ml-form-formContent.horozintalForm .ml-form-horizontalRow .ml-button-horizontal { width: 30%; float: left; }\n      .ml-form-formContent.horozintalForm .ml-form-horizontalRow .ml-button-horizontal.labelsOn { padding-top: 25px;  }\n      .ml-form-formContent.horozintalForm .ml-form-horizontalRow .horizontal-fields { box-sizing: border-box; float: left; padding-right: 10px;  }\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow input {\n        background-color: #ffffff;\n        color: #2e2e2e;\n        border-color: #ffffff;\n        border-radius: 0px;\n        border-style: solid;\n        border-width: 0px;\n        font-family: Helvetica, sans-serif;\n        font-size: 15px;\n        line-height: 20px;\n        margin-bottom: 0;\n        margin-top: 0;\n        padding: 10px 10px;\n        width: 100%;\n        box-sizing: border-box;\n        overflow-y: initial;\n      }\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow button {\n        background-color: #2e2e2e !important;\n        border-color: #2e2e2e;\n        border-style: solid;\n        border-width: 0px;\n        border-radius: 3px;\n        box-shadow: none;\n        color: #ffffff !important;\n        cursor: pointer;\n        font-family: Helvetica, sans-serif;\n        font-size: 15px !important;\n        font-weight: 700;\n        line-height: 20px;\n        margin: 0 !important;\n        padding: 10px !important;\n        width: 100%;\n        height: auto;\n      }\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow button:hover {\n        background-color: #000000 !important;\n        border-color: #000000 !important;\n      }\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow input[type=\"checkbox\"] {\n        box-sizing: border-box;\n        padding: 0;\n        position: absolute;\n        z-index: -1;\n        opacity: 0;\n        margin-top: 5px;\n        margin-left: -1.5rem;\n        overflow: visible;\n      }\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow .label-description {\n        color: #2e2e2e;\n        display: block;\n        font-family: Helvetica, sans-serif;\n        font-size: 12px;\n        text-align: left;\n        margin-bottom: 0;\n        position: relative;\n        vertical-align: top;\n      }\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow label {\n        font-weight: normal;\n        margin: 0;\n        padding: 0;\n        position: relative;\n        display: block;\n        min-height: 24px;\n        padding-left: 24px;\n\n      }\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow label a {\n        color: #2e2e2e;\n        text-decoration: underline;\n      }\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow label p {\n        color: #2e2e2e !important;\n        font-family: Helvetica, sans-serif !important;\n        font-size: 12px !important;\n        font-weight: normal !important;\n        line-height: 18px !important;\n        padding: 0 !important;\n        margin: 0 5px 0 0 !important;\n      }\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow label p:last-child {\n        margin: 0;\n      }\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit {\n        margin: 0 0 20px 0;\n        float: left;\n        width: 100%;\n      }\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button {\n        background-color: #2e2e2e !important;\n        border: none !important;\n        border-radius: 3px !important;\n        box-shadow: none !important;\n        color: #ffffff !important;\n        cursor: pointer;\n        font-family: Helvetica, sans-serif !important;\n        font-size: 15px !important;\n        font-weight: 700 !important;\n        line-height: 21px !important;\n        height: auto;\n        padding: 10px !important;\n        width: 100% !important;\n        box-sizing: border-box !important;\n      }\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button.loading {\n        display: none;\n      }\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button:hover {\n        background-color: #000000 !important;\n      }\n      .ml-subscribe-close {\n        width: 30px;\n        height: 30px;\n        background: url('https://assets.mlcdn.com/ml/images/default/modal_close.png') no-repeat;\n        background-size: 30px;\n        cursor: pointer;\n        margin-top: -10px;\n        margin-right: -10px;\n        position: absolute;\n        top: 0;\n        right: 0;\n      }\n      .ml-error input, .ml-error textarea, .ml-error select {\n        border-color: red!important;\n      }\n\n      .ml-error .custom-checkbox-radio-list {\n        border: 1px solid red !important;\n        border-radius: 0px;\n        padding: 10px;\n      }\n\n      .ml-error .label-description,\n      .ml-error .label-description p,\n      .ml-error .label-description p a,\n      .ml-error label:first-child {\n        color: #ff0000 !important;\n      }\n\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow.ml-error .label-description p,\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow.ml-error .label-description p:first-letter {\n        color: #ff0000 !important;\n      }\n            @media only screen and (max-width: 400px){\n\n        .ml-form-embedWrapper.embedDefault, .ml-form-embedWrapper.embedPopup { width: 100%!important; }\n        .ml-form-formContent.horozintalForm { float: left!important; }\n        .ml-form-formContent.horozintalForm .ml-form-horizontalRow { height: auto!important; width: 100%!important; float: left!important; }\n        .ml-form-formContent.horozintalForm .ml-form-horizontalRow .ml-input-horizontal { width: 100%!important; }\n        .ml-form-formContent.horozintalForm .ml-form-horizontalRow .ml-input-horizontal > div { padding-right: 0px!important; padding-bottom: 10px; }\n        .ml-form-formContent.horozintalForm .ml-button-horizontal { width: 100%!important; }\n        .ml-form-formContent.horozintalForm .ml-button-horizontal.labelsOn { padding-top: 0px!important; }\n\n      }\n    </style>\n\n    \n  \n    \n    <style type=\"text/css\">\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions { text-align: left; float: left; width: 100%; }\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedPermissionsContent {\n        margin: 0 0 15px 0;\n        text-align: left;\n      }\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedPermissionsContent.horizontal {\n        margin: 0 0 15px 0;\n      }\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedPermissionsContent h4 {\n        color: #000000;\n        font-family: 'Open Sans', Arial, Helvetica, sans-serif;\n        font-size: 12px;\n        font-weight: 700;\n        line-height: 18px;\n        margin: 0 0 10px 0;\n        word-break: break-word;\n      }\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedPermissionsContent p {\n        color: #000000;\n        font-family: 'Open Sans', Arial, Helvetica, sans-serif;\n        font-size: 12px;\n        line-height: 18px;\n        margin: 0 0 10px 0;\n      }\n\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedPermissionsContent.privacy-policy p {\n        color: #2e2e2e;\n        font-family: Helvetica, sans-serif;\n        font-size: 12px;\n        line-height: 22px;\n        margin: 0 0 10px 0;\n      }\n\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedPermissionsContent.privacy-policy p a {\n        color: #2e2e2e;\n      }\n\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedPermissionsContent.privacy-policy p:last-child {\n        margin: 0;\n      }\n\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedPermissionsContent p a {\n        color: #000000;\n        text-decoration: underline;\n      }\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedPermissionsContent p:last-child { margin: 0 0 15px 0; }\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedPermissionsOptions {\n        margin: 0;\n        padding: 0;\n      }\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedPermissionsOptionsCheckbox {\n        margin: 0 0 10px 0;\n      }\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedPermissionsOptionsCheckbox:last-child {\n        margin: 0;\n      }\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedPermissionsOptionsCheckbox label {\n        font-weight: normal;\n        margin: 0;\n        padding: 0;\n        position: relative;\n        display: block;\n        min-height: 24px;\n        padding-left: 24px;\n      }\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedPermissionsOptionsCheckbox .label-description {\n        color: #2e2e2e;\n        font-family: Helvetica, sans-serif;\n        font-size: 12px;\n        line-height: 18px;\n        text-align: left;\n        margin-bottom: 0;\n        position: relative;\n        vertical-align: top;\n        font-style: normal;\n        font-weight: 700;\n      }\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedPermissionsOptionsCheckbox .description {\n        color: #2e2e2e;\n        font-family: Helvetica, sans-serif;\n        font-size: 12px;\n        font-style: normal;\n        font-weight: 400;\n        line-height: 18px;\n        margin: 5px 0 0 0;\n      }\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedPermissionsOptionsCheckbox input[type=\"checkbox\"] {\n        box-sizing: border-box;\n        padding: 0;\n        position: absolute;\n        z-index: -1;\n        opacity: 0;\n        margin-top: 5px;\n        margin-left: -1.5rem;\n        overflow: visible;\n      }\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedMailerLite-GDPR {\n        padding-bottom: 20px;\n      }\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedMailerLite-GDPR p {\n        color: #000000;\n        font-family: 'Open Sans', Arial, Helvetica, sans-serif;\n        font-size: 10px;\n        line-height: 14px;\n        margin: 0;\n        padding: 0;\n      }\n      #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedMailerLite-GDPR p a {\n        color: #000000;\n        text-decoration: underline;\n\n      }\n      @media (max-width: 768px) {\n        #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedPermissionsContent p {\n          font-size: 12px !important;\n          line-height: 18px !important;\n        }\n        #mlb2-4323109.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedMailerLite-GDPR p {\n          font-size: 10px !important;\n          line-height: 14px !important;\n        }\n      }\n    </style>\n\n    \n    \n\n    \n    \n\n    \n\n      \n        \n        \n      \n\n      \n        \n        \n      \n\n      \n\n            \n            \n            \n            \n            \n            \n      \n\n      \n\n      \n        \n        \n         \n        \n        \n      \n\n        \n        \n        \n        \n        \n        \n      \n\n       \n\n        \n        \n        \n        \n        \n        \n        \n       \n\n\n      \n        \n        \n        \n        \n  \n\n\n\n  \n        \n        \n        \n      \n\n\n      \n    \n    \n    \n    \n    \n    \n    \n  \n\n  \n        \n        \n        \n        \n        \n      \n\n      \n        \n        \n        \n        \n        \n      \n\n      \n        \n        \n        \n        \n        \n      \n\n       \n\n        \n        \n        \n        \n       \n\n       \n        \n        \n        \n        \n      \n\n      \n        \n        \n        \n        \n        \n        \n        \n       \n\n    \n\n    \n\n\n      \n\n\n      \n\n      \n      \n\n      \n\n      \n\n\n\n\n\n    \n\n      \n    <div id=\"mlb2-4323109\" class=\"ml-form-embedContainer ml-subscribe-form ml-subscribe-form-4323109\">\n      <div class=\"ml-form-align-center \">\n        <div class=\"ml-form-embedWrapper embedForm\">\n\n          \n          \n\n          <div class=\"ml-form-embedBody ml-form-embedBodyDefault row-form\">\n\n            <div class=\"ml-form-embedContent\" style=\" \">\n              \n                <h4 style=\"line-height: 1.3em;\">Sign up for our free newsletter</h4>\n                <p style=\"margin-top:15px;\">Reliable, independent reporting. Fresh perspectives on global issues. A trusted voice since 1780.</p>\n              \n            </div>\n\n            <form class=\"ml-block-form\" action=\"https://assets.mailerlite.com/jsonp/385321/forms/84081125630150382/subscribe\" data-code=\"\" method=\"post\" target=\"_blank\">\n              <div class=\"ml-form-formContent\">\n                \n\n                  \n                  <div class=\"ml-form-fieldRow \">\n                    <div class=\"ml-field-group ml-field-email ml-validate-email ml-validate-required\">\n\n                      <label>What's your email address?</label>\n\n\n                      <!-- input -->\n                      <input aria-label=\"email\" aria-required=\"true\" type=\"email\" class=\"form-control\" data-inputmask=\"\" name=\"fields[email]\" placeholder=\"\" autocomplete=\"email\">\n                      <!-- /input -->\n\n                      <!-- textarea -->\n                      \n                      <!-- /textarea -->\n\n                      <!-- select -->\n                      \n                      <!-- /select -->\n\n                      <!-- checkboxes -->\n            \n            <!-- /checkboxes -->\n\n                      <!-- radio -->\n                      \n                      <!-- /radio -->\n\n                      <!-- countries -->\n                      \n                      <!-- /countries -->\n\n\n\n\n\n                    </div>\n                  </div><div class=\"ml-form-fieldRow ml-last-item\">\n                    <div class=\"ml-field-group ml-field-region ml-validate-required\">\n\n                      <label>Where do you live?</label>\n\n\n                      <!-- input -->\n                      \n                      <!-- /input -->\n\n                      <!-- textarea -->\n                      \n                      <!-- /textarea -->\n\n                      <!-- select -->\n                      <select class=\"custom-select\" name=\"fields[region]\" aria-label=\"region\" aria-required=\"true\">\n                        <option value=\"\">-</option>\n                        <!-- Visible if current or any next has value -->\n                        <option>\n                          Europe\n                        </option>\n\n                        <option>\n                          Europe » Switzerland\n                        </option>\n\n                        <option>\n                          North America\n                        </option>\n\n                        <option>\n                          Central America\n                        </option>\n\n                        <option>\n                          South America\n                        </option>\n\n                        <option>\n                          Middle East\n                        </option>\n\n                        <option>\n                          Africa\n                        </option>\n\n                        <option>\n                          Asia\n                        </option>\n\n                        <option>\n                          Australia / Oceania\n                        </option>\n\n                        <option>\n                          (I do not want to share this)\n                        </option>\n                      </select>\n                      <!-- /select -->\n\n                      <!-- checkboxes -->\n            \n            <!-- /checkboxes -->\n\n                      <!-- radio -->\n                      \n                      <!-- /radio -->\n\n                      <!-- countries -->\n                      \n                      <!-- /countries -->\n\n\n\n\n\n                    </div>\n                  </div>\n                \n              </div>\n\n              \n\n              <!-- Privacy policy -->\n              <div class=\"ml-form-embedPermissions\" style=\"\">\n                <div class=\"ml-form-embedPermissionsContent default privacy-policy\">\n\n                  \n\n                  <p>You can unsubscribe anytime. For more details, review our <a href=\"https://www.nzz.ch/english/privacy-policy-ld.1646658\" target=\"_blank\">privacy policy</a>.</p>\n\n                  \n                </div>\n              </div>\n              <!-- /Privacy policy -->\n\n              \n\n              \n\n              \n\n\n\n\n\n\n              <input type=\"hidden\" name=\"fields[signup_platform]\" value=\"nzzie_website article\">\n              <input type=\"hidden\" name=\"ml-submit\" value=\"1\">\n\n              <div class=\"ml-form-embedSubmit\">\n                \n                  <button type=\"submit\" class=\"primary\">Subscribe for free</button>\n                \n                <button disabled=\"disabled\" style=\"display: none;\" type=\"button\" class=\"loading\">\n                  <div class=\"ml-form-embedSubmitLoad\"></div>\n                  <span class=\"sr-only\">Loading...</span>\n                </button>\n              </div>\n\n              \n              <input type=\"hidden\" name=\"anticsrf\" value=\"true\">\n            </form>\n          </div>\n\n          <div class=\"ml-form-successBody row-success\" style=\"display: none\">\n\n            <div class=\"ml-form-successContent\">\n              \n                <h4 style=\"line-height: 1.3em;\">Thank you! We appreciate having you on board.</h4>\n                <p><br>You have successfully joined our subscriber list.&nbsp;<br></p>\n<p>If you don't receive a welcome email within the next few minutes, please check your spam folder.&nbsp;</p>\n<p><strong><span style=\"color: rgb(31, 44, 155);\">Emails are sent from&nbsp;newsletter@english.nzz.ch – please add this address to your white list.</span></strong></p>\n              \n            </div>\n\n          </div>\n        </div>\n      </div>\n    </div>\n\n  \n\n  \n  \n  <script>\n    function ml_webform_success_4323109() {\n      var $ = ml_jQuery || jQuery;\n      $('.ml-subscribe-form-4323109 .row-success').show();\n      $('.ml-subscribe-form-4323109 .row-form').hide();\n    }\n      </script>\n  \n  \n      <script src=\"https://groot.mailerlite.com/js/w/webforms.min.js?v1f25ee4b05f240a833e02c19975434a4\" type=\"text/javascript\"></script>\n        <script>\n            fetch(\"https://assets.mailerlite.com/jsonp/385321/forms/84081125630150382/track-view\")\n        </script>"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "divider"
+  },
+  {
+   "identifier": "divider",
+   "id": "doc-1isoa666j0",
+   "paidContent": true,
+   "prevElement": "free-html",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1iso1o2r70",
+   "content": {
+    "title": "Poles living abroad in Europe voted for Trzaskowski, while in North America, Trump supporter Nawrocki won more votes.",
+    "id": "subtitle-poles-living-abroad-in-europe-voted-for-trzaskowski-while-in-north-america-trump-supporter-nawrocki-won-more-votes"
+   },
+   "styles": {
+    "subtitle-type": "subtitle--numbered"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "divider",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1isobgl1k0",
+   "content": {
+    "text": "Given how close the result was, the 600,000 votes cast by Poles living abroad were also significant. Poles living abroad voted for Trzaskowski in all European countries with at least 1,000 valid votes. Even in Hungary, where Nawrocki sought to align himself with Prime Minister Viktor Orban during the election campaign, the liberal candidate was ahead."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1isodujsq1",
+   "content": {
+    "text": "Only in North America is the pattern different. In the US, Nawrocki came out on top with 56.6% of the vote to 43.5%. President Donald Trump has publicly supported him and even welcomed him to the White House during the election campaign."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "q-embed"
+  },
+  {
+   "identifier": "q-embed",
+   "id": "doc-1isoa5nl10",
+   "content": {
+    "q-embed": {
+     "service": "q-tool",
+     "params": {
+      "id": "596f09f1501e5776fb09e4901bff6784",
+      "conf": {},
+      "toolConfig": {},
+      "toolRuntimeConfig": {
+       "size": {
+        "width": [
+         {
+          "value": 100,
+          "comparison": ">"
+         }
+        ]
+       },
+       "displayOptions": {
+        "hideTitle": false,
+        "hideSubtitle": false,
+        "hideFooter": false,
+        "hideAcronym": true
+       },
+       "locale": "en_US"
+      },
+      "size": "containerwidth"
+     },
+     "resolvedValue": {}
+    },
+    "html": "      <div        class=\"q-choropleth-container\"        id=\"q_choropleth_596f09f1501e5776fb09e4901bff6784_q2a7278ad9d54487482c746e0f3f3658b_container\"        data-q-item-id=\"596f09f1501e5776fb09e4901bff6784\"        data-q-request-id=\"6fa4524cb672ce4f8cae8d8e64561581da23e37a\"      ></div>",
+    "stylesheets": [
+     {
+      "type": "remote",
+      "content": "https://service.sophie.nzz.ch/bundle/sophie-color%23master,sophie-font%23master,sophie-legend%23master[icon-label],sophie-q%23master,sophie-viz-color%23master.css"
+     },
+     {
+      "type": "inline",
+      "content": "  @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff) format(\"woff\");  }    @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff) format(\"woff\");    unicode-range: U+0020-00FF,U+2005,U+2082;  }      "
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/css-theme-layer/nzz-0.2.0.css"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/choropleth/q-choropleth-1.2.6.css"
+     }
+    ],
+    "scripts": [
+     {
+      "type": "inline",
+      "content": "function qTrackingBootstrap(t,e,n){if(window.digitalData&&window.digitalData.component&&window.digitalData.component.push){window.digitalData.component.push(t),window.digitalData.event&&window.digitalData.event.length||(window.digitalData.event=[]);var i=new Date,a=e;a.eventInfo.timeStamp=i.toISOString(),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\");var o=document.querySelectorAll(\"[data-q-request-id='\"+n+\"']\");[].forEach.call(o,function(t){t.addEventListener(\"q-tracking-event\",function(t){var e=new Date;(a=JSON.parse(JSON.stringify(a))).eventInfo.timeStamp=e.toISOString(),a.eventInfo=Object.assign(a.eventInfo,t.detail.eventInfo),a.category=Object.assign(a.category,t.detail.category),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\")},!1)})}};qTrackingBootstrap({\"componentInfo\":{\"componentName\":\"Q\",\"componentID\":\"596f09f1501e5776fb09e4901bff6784\"},\"category\":{\"componentType\":\"storytelling\",\"componentSubType1\":\"Q graphic\",\"componentSubType2\":\"choropleth\"}},{\"eventInfo\":{\"eventName\":\"Storytelling Interaction\",\"eventAction\":\"load\",\"type\":\"story\",\"componentName\":\"Q\",\"eventNonInteractive\":true,\"componentID\":\"596f09f1501e5776fb09e4901bff6784\"},\"category\":{\"primaryCategory\":\"storytelling\",\"subCategory1\":\"Q graphic\",\"subCategory2\":\"choropleth\"}},\"6fa4524cb672ce4f8cae8d8e64561581da23e37a\")"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/choropleth/q-choropleth-1.2.6.js"
+     },
+     {
+      "type": "inline",
+      "content": "      (function () {        function initialize() {          const target = document.querySelector('#q_choropleth_596f09f1501e5776fb09e4901bff6784_q2a7278ad9d54487482c746e0f3f3658b_container');          if (!target) return;          target.innerHTML = '';          const qdoc = {\"_id\":\"596f09f1501e5776fb09e4901bff6784\",\"title\":\"Poles abroad voted overwhelmingly for Trzaskowski – with two exceptions\",\"subtitle\":\"Candidate with the highest share of votes in the second round among Poles abroad\",\"publication\":\"nzz\",\"acronym\":\"eik.\",\"data\":[[\"ID\",\"Value\"],[\"AFG\",\"\"],[\"AGO\",\"\"],[\"ALB\",\"Trzaskowski\"],[\"AND\",\"\"],[\"ARE\",\"Trzaskowski\"],[\"ARG\",\"\"],[\"ARM\",\"\"],[\"ATG\",\"\"],[\"AUS\",\"Trzaskowski\"],[\"AUT\",\"Trzaskowski\"],[\"AZE\",\"\"],[\"BDI\",\"\"],[\"BEL\",\"Trzaskowski\"],[\"BEN\",\"\"],[\"BFA\",\"\"],[\"BGD\",\"\"],[\"BGR\",\"Trzaskowski\"],[\"BHR\",\"\"],[\"BHS\",\"\"],[\"BIH\",\"\"],[\"BLR\",\"\"],[\"BLZ\",\"\"],[\"BOL\",\"\"],[\"BRA\",\"\"],[\"BRB\",\"\"],[\"BRN\",\"\"],[\"BTN\",\"\"],[\"BWA\",\"\"],[\"CAF\",\"\"],[\"CAN\",\"Nawrocki\"],[\"CHE\",\"Trzaskowski\"],[\"CHL\",\"\"],[\"CHN\",\"Trzaskowski\"],[\"CIV\",\"\"],[\"CMR\",\"\"],[\"COD\",\"\"],[\"COG\",\"\"],[\"COL\",\"\"],[\"COM\",\"\"],[\"CPV\",\"\"],[\"CRI\",\"\"],[\"CUB\",\"\"],[\"CUW\",\"\"],[\"CYP\",\"Trzaskowski\"],[\"CZE\",\"Trzaskowski\"],[\"DEU\",\"Trzaskowski\"],[\"DJI\",\"\"],[\"DMA\",\"\"],[\"DNK\",\"Trzaskowski\"],[\"DOM\",\"\"],[\"DZA\",\"\"],[\"ECU\",\"\"],[\"EGY\",\"Trzaskowski\"],[\"ERI\",\"\"],[\"ESH\",\"\"],[\"ESP\",\"Trzaskowski\"],[\"EST\",\"\"],[\"ETH\",\"\"],[\"FIN\",\"Trzaskowski\"],[\"FJI\",\"\"],[\"FRA\",\"Trzaskowski\"],[\"FRO\",\"\"],[\"FSM\",\"\"],[\"GAB\",\"\"],[\"GBR\",\"Trzaskowski\"],[\"GEO\",\"\"],[\"GHA\",\"\"],[\"GIN\",\"\"],[\"GMB\",\"\"],[\"GNB\",\"\"],[\"GNQ\",\"\"],[\"GRC\",\"Trzaskowski\"],[\"GRD\",\"\"],[\"GRL\",\"\"],[\"GTM\",\"\"],[\"GUM\",\"\"],[\"GUY\",\"\"],[\"HKG\",\"\"],[\"HMD\",\"\"],[\"HND\",\"\"],[\"HRV\",\"Trzaskowski\"],[\"HTI\",\"\"],[\"HUN\",\"Trzaskowski\"],[\"IDN\",\"\"],[\"IMN\",\"\"],[\"IND\",\"\"],[\"IRL\",\"Trzaskowski\"],[\"IRN\",\"\"],[\"IRQ\",\"\"],[\"ISL\",\"Trzaskowski\"],[\"ISR\",\"\"],[\"ITA\",\"Trzaskowski\"],[\"JAM\",\"\"],[\"JEY\",\"\"],[\"JOR\",\"\"],[\"JPN\",\"Trzaskowski\"],[\"KAZ\",\"\"],[\"KEN\",\"\"],[\"KGZ\",\"\"],[\"KHM\",\"\"],[\"KOR\",\"\"],[\"KWT\",\"\"],[\"LAO\",\"\"],[\"LBN\",\"\"],[\"LBR\",\"\"],[\"LBY\",\"\"],[\"LCA\",\"\"],[\"LIE\",\"\"],[\"LKA\",\"\"],[\"LSO\",\"\"],[\"LTU\",\"\"],[\"LUX\",\"Trzaskowski\"],[\"LVA\",\"\"],[\"MAR\",\"\"],[\"MDA\",\"\"],[\"MDG\",\"\"],[\"MEX\",\"\"],[\"MKD\",\"\"],[\"MLI\",\"\"],[\"MLT\",\"Trzaskowski\"],[\"MMR\",\"\"],[\"MNE\",\"\"],[\"MNG\",\"\"],[\"MOZ\",\"\"],[\"MRT\",\"\"],[\"MUS\",\"\"],[\"MWI\",\"\"],[\"MYS\",\"\"],[\"NAM\",\"\"],[\"NCL\",\"\"],[\"NER\",\"\"],[\"NGA\",\"\"],[\"NIC\",\"\"],[\"NIU\",\"\"],[\"NLD\",\"Trzaskowski\"],[\"NOR\",\"Trzaskowski\"],[\"NPL\",\"\"],[\"NZL\",\"\"],[\"OMN\",\"\"],[\"PAK\",\"\"],[\"PAN\",\"\"],[\"PER\",\"\"],[\"PHL\",\"\"],[\"PLW\",\"\"],[\"PNG\",\"\"],[\"POL\",\"\"],[\"PRI\",\"\"],[\"PRK\",\"\"],[\"PRT\",\"Trzaskowski\"],[\"PRY\",\"\"],[\"PYF\",\"\"],[\"QAT\",\"\"],[\"ROU\",\"\"],[\"RUS\",\"\"],[\"RWA\",\"\"],[\"SAU\",\"\"],[\"SDN\",\"\"],[\"SEN\",\"\"],[\"SGP\",\"\"],[\"SGS\",\"\"],[\"SLB\",\"\"],[\"SLE\",\"\"],[\"SLV\",\"\"],[\"SOM\",\"\"],[\"SRB\",\"\"],[\"SSD\",\"\"],[\"STP\",\"\"],[\"SUR\",\"\"],[\"SVK\",\"\"],[\"SVN\",\"\"],[\"SWE\",\"Trzaskowski\"],[\"SWZ\",\"\"],[\"SYC\",\"\"],[\"SYR\",\"\"],[\"TCA\",\"\"],[\"TCD\",\"\"],[\"TGO\",\"\"],[\"THA\",\"\"],[\"TJK\",\"\"],[\"TKM\",\"\"],[\"TLS\",\"\"],[\"TON\",\"\"],[\"TTO\",\"\"],[\"TUN\",\"\"],[\"TUR\",\"Trzaskowski\"],[\"TWN\",\"\"],[\"TZA\",\"\"],[\"UGA\",\"\"],[\"UKR\",\"\"],[\"URY\",\"\"],[\"USA\",\"Nawrocki\"],[\"UZB\"],[\"VCT\"],[\"VEN\"],[\"VIR\"],[\"VNM\"],[\"VUT\"],[\"XKX\"],[\"YEM\"],[\"ZAF\"],[\"ZMB\"],[\"ZWE\"]],\"sources\":[],\"baseMap\":\"world-countries-geographic\",\"version\":\"2024-01-01T00:00:00.000Z\",\"entityType\":\"iso3\",\"mapAnnotations\":[],\"options\":{\"categoricalOptions\":{\"colorOverwrites\":[{\"color\":\"#374e8e\",\"textColor\":\"light\",\"position\":1},{\"color\":\"#df7c18\",\"textColor\":\"light\",\"position\":2}],\"customCategoriesOrder\":[{\"category\":\"Nawrocki\"},{\"category\":\"Trzaskowski\"}],\"valuesOnMap\":false},\"choroplethType\":\"categorical\",\"hideBubbleMap\":true,\"numericalOptions\":{\"bucketType\":\"ckmeans\",\"colorOverwrites\":[],\"colorScheme\":\"one\",\"invertColorScheme\":false,\"labelLegend\":\"noLabel\",\"measuringUnit\":\"\",\"valuesOnMap\":false,\"numberBuckets\":7,\"scale\":\"sequential\"},\"hideNullValuesLegend\":true},\"updatedDate\":\"2025-06-03T13:52:42.263Z\",\"notes\":\"Only countries with at least 1000 valid votes.</br> Source: National Electoral Commission\"};          const toolRuntimeConfig = {\"displayOptions\":{\"hideTitle\":false,\"hideSubtitle\":false,\"hideFooter\":false,\"hideAcronym\":true},\"size\":{\"width\":[{\"value\":100,\"comparison\":\">\"}]},\"locale\":\"en-US\"};          const toolSettings = {\"qItemInstanceId\":\"q_choropleth_596f09f1501e5776fb09e4901bff6784_q2a7278ad9d54487482c746e0f3f3658b\",\"serverUrl\":\"https://q-server.nzz.ch\"};          let attempts = 0;          const maxAttempts = 100;          const checkAndInitialize = setInterval(() => {            if (window.qChoropleth) {              clearInterval(checkAndInitialize);              new window.qChoropleth({ target: target, props: {                qdoc: qdoc,                toolSettings: toolSettings,                toolRuntimeConfig: toolRuntimeConfig              } });            } else {              attempts++;              if (attempts >= maxAttempts) {                clearInterval(checkAndInitialize);                console.error('Failed to initialize qChoropleth after 30 seconds');              }            }          }, 300);        }        if (document.body.classList.contains('pagedone')) {          initialize();        } else {          window.addEventListener('pagedone', initialize);        }      })();    "
+     }
+    ]
+   },
+   "styles": {
+    "fullwidth-widget": "widget--containerwidth"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "divider"
+  },
+  {
+   "identifier": "divider",
+   "id": "doc-1isoa5ruh0",
+   "paidContent": true,
+   "prevElement": "q-embed",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1iso18l1q0",
+   "content": {
+    "title": "Poles knew how important the election was – and flocked to the polls.",
+    "id": "subtitle-poles-knew-how-important-the-election-was-and-flocked-to-the-polls"
+   },
+   "styles": {
+    "subtitle-type": "subtitle--numbered"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "divider",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1isof35ds0",
+   "content": {
+    "text": "The choice between Nawrocki and Trzaskowski was seen as a decision that could shape the country's future direction and have an impact on foreign policy: under Nawrocki, Poland could move closer to Trump's US and distance itself from its European partners. The Polish people also seemed to be aware of the significance of the election: voter turnout was over 71%, a record high for a presidential election."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "datawrapper"
+  },
+  {
+   "identifier": "datawrapper",
+   "id": "doc-yNiDHfxL4F",
+   "content": {
+    "html": {
+     "service": "free-html",
+     "params": {
+      "embedCode": "<iframe title=\"Highest voter turnout since the end of communism\" aria-label=\"Interactive line chart\" id=\"datawrapper-chart-u4JZP\" src=\"https://datawrapper.dwcdn.net/u4JZP/1/\" scrolling=\"no\" frameborder=\"0\" style=\"width: 0; min-width: 100% !important; border: none;\" height=\"400\" data-external=\"1\"></iframe><script type=\"text/javascript\">!function(){\"use strict\";window.addEventListener(\"message\",(function(a){if(void 0!==a.data[\"datawrapper-height\"]){var e=document.querySelectorAll(\"iframe\");for(var t in a.data[\"datawrapper-height\"])for(var r,i=0;r=e[i];i++)if(r.contentWindow===a.source){var d=a.data[\"datawrapper-height\"][t]+\"px\";r.style.height=d}}}))}();\n</script>"
+     },
+     "resolvedValue": {
+      "html": "<iframe title=\"Highest voter turnout since the end of communism\" aria-label=\"Interactive line chart\" id=\"datawrapper-chart-u4JZP\" src=\"https://datawrapper.dwcdn.net/u4JZP/1/\" scrolling=\"no\" frameborder=\"0\" style=\"width: 0; min-width: 100% !important; border: none;\" height=\"400\" data-external=\"1\"></iframe><script type=\"text/javascript\">!function(){\"use strict\";window.addEventListener(\"message\",(function(a){if(void 0!==a.data[\"datawrapper-height\"]){var e=document.querySelectorAll(\"iframe\");for(var t in a.data[\"datawrapper-height\"])for(var r,i=0;r=e[i];i++)if(r.contentWindow===a.source){var d=a.data[\"datawrapper-height\"][t]+\"px\";r.style.height=d}}}))}();\n</script>"
+     }
+    }
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "footnote"
+  },
+  {
+   "identifier": "footnote",
+   "id": "doc-1isomphbc0",
+   "content": {
+    "text": "<strong>Collaboration:</strong> Roland Shaw"
+   },
+   "paidContent": true,
+   "prevElement": "datawrapper",
+   "nextElement": "free-html"
+  },
+  {
+   "identifier": "free-html",
+   "id": "doc-gDRfN5D0w3",
+   "content": {
+    "html": "<div style=\"background: #EAECF5; font-family: Helvetica, sans-serif; font-weight:10; font-size:13px; padding:12px;\">\nPlease note that this story was machine translated with light editing by our editorial staff. \n</div>"
+   },
+   "paidContent": true,
+   "prevElement": "footnote",
+   "nextElement": "sharebox",
+   "lastContentElement": true
+  },
+  {
+   "identifier": "sharebox",
+   "id": "doc-1isnsgaje2",
+   "paidContent": true,
+   "prevElement": "free-html",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1gnpvabq60",
+   "content": {
+    "title": "Latest articles",
+    "id": "subtitle-latest-articles"
+   },
+   "styles": {
+    "subtitle-type": "subtitle--chapter"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "sharebox",
+   "nextElement": "free-html"
+  },
+  {
+   "identifier": "free-html",
+   "id": "doc-rKVAeP0y5b",
+   "content": {
+    "html": "<p class=\"articlecomponent text\" pagetype=\"Article\" componenttype=\"p\" is-new-line-child=\"true\"><em>Below, you’ll find links to a selection of our free content. If you’d like access to all of our premium content via the full version of our newsletter, <a target=\"_blank\" href=\"https://www.english.nzz.ch/subscribe\">please upgrade here</a>.</em></p>"
+   },
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "footnote"
+  },
+  {
+   "identifier": "footnote",
+   "id": "doc-1is8r3imi0",
+   "content": {
+    "text": "<strong>NZZ Geopolitics <strong>– The independent Swiss view</strong><br></strong><br> Standing outside the American media establishment, the NZZ offers distinctive insights that challenge the polarized narratives often found in US coverage. Our goal is to provide in-depth, nuanced reporting on global affairs, including developments in the United States, Europe, China and beyond. Taking a nonpartisan stance, we approach events with a sober and critical eye. Backed by a trusted network of international correspondents and expert reporters based in Switzerland, we deliver sharp analysis and a deeper understanding of geopolitics and the global economy.<br><br> Sign up for our <a href=\"https://www.nzz.ch/english/newsletter-signup-ld.1668517\">free newsletter</a> or follow us on <a target=\"_blank\" href=\"https://www.twitter.com/NZZReporting\">Twitter</a> , <a target=\"_blank\" href=\"https://www.facebook.com/NZZReporting\">Facebook</a> or <a target=\"_blank\" href=\"https://whatsapp.com/channel/0029Va7eJxSEawdrEZVOnO3Z\">WhatsApp</a> ."
+   },
+   "paidContent": true,
+   "prevElement": "free-html",
+   "nextElement": "",
+   "lastContentElement": true
+  }
+ ],
+ "metadata": {
+  "owner": "NZZ",
+  "germanyRelevant": false,
+  "flag": "Inside Europe",
+  "title": "The trends behind Karol Nawrocki's Polish election win",
+  "teaserImage": {
+   "originalUrl": "/2025/06/02/6ac36998-26b7-4918-8cf2-01e98a4bdae8.png?width=1024",
+   "url": "https://img-msp-prod.nzz.ch/2025/06/02/6ac36998-26b7-4918-8cf2-01e98a4bdae8.png?width=1024&quality=75&auto=webp",
+   "width": 1801,
+   "height": 1351,
+   "crops": [
+    {
+     "name": "16:9",
+     "crop": "1601,900,x112,y232"
+    },
+    {
+     "name": "1:1",
+     "crop": "1351,1351,x225,y0"
+    },
+    {
+     "name": "4:3",
+     "crop": "1601,1201,x52,y68"
+    },
+    {
+     "name": "3:4",
+     "crop": "1013,1351,x394,y0"
+    }
+   ],
+   "imageService": "fastly",
+   "teaserCaption": "Young men and a bit of help from Donald Trump? National conservative Karol Nawrocki won a narrow victory in Sunday's presidential election. Maps and charts explain four key insights from the results."
+  },
+  "nzzasFootnote": false,
+  "folioFootnote": false,
+  "language": {
+   "locale": "en-US"
+  },
+  "nzzId": "ld.1887401",
+  "readingTime": 180,
+  "authorLine": "Eike Hoppmann",
+  "showComments": false,
+  "characterCount": 4000,
+  "breadcrumbs": [
+   {
+    "name": "NZZ in English",
+    "path": "/english"
+   }
+  ],
+  "product": "NZZ.ch",
+  "documentId": 1887401,
+  "contentTypeGroup": "web",
+  "layout": "longformstandard",
+  "firstPublicationDate": "2025-06-04T07:24:17.862Z",
+  "publicationDate": "2025-06-04T07:24:17.862Z",
+  "publicationLastUpdated": "2025-06-04T07:24:17.862Z",
+  "significantUpdate": false,
+  "significantUpdateTill": "2025-06-04T19:24:17.862Z",
+  "teaserCaption": "Young men and a bit of help from Donald Trump? National conservative Karol Nawrocki won a narrow victory in Sunday's presidential election. Maps and charts explain four key insights from the results.",
+  "url": "/english/how-karol-nawrocki-won-the-polish-election-ld.1887401",
+  "department": {
+   "name": "NZZ in English",
+   "path": "/english"
+  },
+  "estimationWordCount": 686,
+  "premium": false,
+  "leadText": "Young men and a bit of help from Donald Trump? National conservative Karol Nawrocki won a narrow victory in Sunday's presidential election. Maps and charts explain four key insights from the results.",
+  "nzzSummaryEN": "- Karol Nawrocki narrowly won Poland's presidential election by just 1.8 percentage points over Rafał Trzaskowski. Nawrocki was backed by the national conservative PiS party, while Trzaskowski represented the pro-European Civic Platform.\n- The election revealed clear geographical and demographic divides: Nawrocki excelled in rural areas and the southeast, while Trzaskowski led in cities and the northwest. Young men increasingly lean to the right.\n- Polish expatriates in Europe favored Trzaskowski, whereas Nawrocki performed better in North America, benefiting from Donald Trump's endorsement. Voter turnout exceeded 71%, marking a record high.",
+  "nzzSummaryDE": "Karol Nawrocki won the narrow Polish presidential election by just 1.8 percentage points over Rafał Trzaskowski. He was supported by the national-conservative Law and Justice party (PiS), while Trzaskowski was backed by the pro-European Civic Platform.\n The election revealed a clear geographical and demographic divide: Nawrocki dominated in rural areas and the southeast, while Trzaskowski found more support in cities and the northwest. Young men, in particular, are increasingly leaning to the right.\n Polish voters abroad in Europe preferred Trzaskowski, while Nawrocki led in North America, thanks to support from Donald Trump. Voter turnout was record-breakingly high at over 71%.",
+  "nzzSummaryIsAuto": true,
+  "nzzSummaryModel": "gpt-4o-2024-11-20",
+  "nzzPrintTitle": "The trends behind Karol Nawrocki's Polish election win",
+  "nzzPrintSubtitle": "Young men and a bit of help from Donald Trump? National conservative Karol Nawrocki won a narrow victory in Sunday's presidential election. Maps and charts explain four key insights from the results.",
+  "allArticleLanguages": [
+   {
+    "locale": "en-US",
+    "urlPath": "/english/how-karol-nawrocki-won-the-polish-election-ld.1887401",
+    "seo": {}
+   },
+   {
+    "locale": "de-CH",
+    "urlPath": "/visuals/wahl-polen-2025-wie-karol-nawrocki-gewonnen-hat-ld.1887159",
+    "seo": {}
+   }
+  ],
+  "seo": {
+   "canonicalUrl": "https://www.nzz.ch/english/how-karol-nawrocki-won-the-polish-election-ld.1887401",
+   "title": "The trends behind Karol Nawrocki's Polish election win",
+   "socialMediaTitle": "The trends behind Karol Nawrocki's Polish election win",
+   "description": "Young men and a bit of help from Donald Trump? National conservative Karol Nawrocki won a narrow victory in Sunday's presidential election. Maps and charts explain four key insights from the results.",
+   "excludeFromSpiders": false,
+   "image": "https://img-msp-prod.nzz.ch/2025/06/02/6ac36998-26b7-4918-8cf2-01e98a4bdae8.png?width=1200&height=674&fit=bounds&quality=75&auto=webp&crop=1601,900,x112,y232&wmark=nzz"
+  },
+  "ldPublicationId": 2359651,
+  "isHighlightedHeader": false,
+  "barrierIndex": 2,
+  "outlinks": {
+   "mehrZumThema": [],
+   "artikelListe": [],
+   "aliasTeaserEmbedList": []
+  },
+  "tts": true,
+  "hasQ": true,
+  "mp3": true,
+  "mp3Duration": 213480,
+  "project": "nzz",
+  "machineTranslated": true,
+  "machineTranslationValidated": false
+ },
+ "isReduced": false,
+ "isPaid": false,
+ "isVamp": false,
+ "isWebview": false,
+ "digitalData": {
+  "component": [
+   {
+    "id": "ld.1887401",
+    "name": "The trends behind Karol Nawrocki's Polish election win",
+    "type": "article",
+    "subType1": "longformstandard",
+    "subType2": "",
+    "primaryCategory": "NZZ in English",
+    "subCategory1": "",
+    "attributes": {
+     "headline": "The trends behind Karol Nawrocki's Polish election win",
+     "firstPublishTitle": "",
+     "catchline": "",
+     "authors": [],
+     "issueTimestamp": "2025-06-04T07:24:17.862Z",
+     "updateTimestamp": "2025-06-04T07:24:17.862Z",
+     "isSponsoredContent": false,
+     "isPro": false,
+     "isLiveticker": false,
+     "flag": "Inside Europe",
+     "owner": "NZZ"
+    }
+   }
+  ],
+  "page": {
+   "pageId": "ld.1887401",
+   "pageType": "longformstandard",
+   "primaryCategory": "NZZ in English",
+   "subCategory1": "",
+   "subCategory2": "",
+   "language": "en-US"
+  },
+  "version": "2.0",
+  "user": {},
+  "event": []
+ },
+ "seoData": {
+  "title": "The trends behind Karol Nawrocki's Polish election win",
+  "image": {
+   "url": "https://img-msp-prod.nzz.ch/2025/06/02/6ac36998-26b7-4918-8cf2-01e98a4bdae8.png?width=1200&height=674&fit=bounds&quality=75&auto=webp&crop=1601,900,x112,y232&wmark=nzz",
+   "type": "image/png",
+   "width": 1200,
+   "height": 674
+  },
+  "author": "Eike Hoppmann",
+  "description": "Young men and a bit of help from Donald Trump? National conservative Karol Nawrocki won a narrow victory in Sunday's presidential election. Maps and charts explain four key insights from the results.",
+  "news_keywords": "The trends behind Karol Nawrocki's Polish election win, Inside Europe, NZZ in English, News, NZZ",
+  "type": "article",
+  "last-modified": "2025-06-04T11:24:17+02:00",
+  "date": "2025-06-04T11:24:17+02:00",
+  "canonical": "https://www.nzz.ch/english/how-karol-nawrocki-won-the-polish-election-ld.1887401",
+  "fb:app_id": 138008459595436,
+  "fb:pages": 143694099006529,
+  "fb:admins": 1592685173,
+  "locale": "en-US",
+  "email": "online.redaktion@nzz.ch",
+  "site_name": "Neue Zürcher Zeitung",
+  "copyright": "2026 Neue Zürcher Zeitung AG, Schweiz",
+  "robots": "noindex, nofollow, noarchive, noodp",
+  "hreflang": [
+   {
+    "hreflang": "en",
+    "href": "https://www.nzz.ch/english/how-karol-nawrocki-won-the-polish-election-ld.1887401"
+   },
+   {
+    "hreflang": "de",
+    "href": "https://www.nzz.ch/visuals/wahl-polen-2025-wie-karol-nawrocki-gewonnen-hat-ld.1887159"
+   }
+  ],
+  "sharedTitle": "INSIDE EUROPE - The trends behind Karol Nawrocki's Polish election win",
+  "ogTitle": "The trends behind Karol Nawrocki's Polish election win",
+  "ogUrl": "https://www.nzz.ch/english/how-karol-nawrocki-won-the-polish-election-ld.1887401",
+  "mrf:cms_id": "nzz:ld.1887401",
+  "mrf:sections": "NZZ in English",
+  "mrf:tags": "Page Type:longformstandard;Editorial Owner:NZZ;Content Type:Standard Article;Article ID:ld.1887401",
+  "nzzAuthors": [
+   {
+    "name": "Eike Hoppmann"
+   }
+  ],
+  "links": [
+   {
+    "rel": "canonical",
+    "href": "https://www.nzz.ch/english/how-karol-nawrocki-won-the-polish-election-ld.1887401"
+   },
+   {
+    "rel": "search",
+    "href": "/suche",
+    "title": "Suche Neue Zürcher Zeitung, Schweiz, https://www.nzz.ch/suche"
+   },
+   {
+    "rel": "alternate",
+    "href": "https://www.nzz.ch/english/how-karol-nawrocki-won-the-polish-election-ld.1887401",
+    "hreflang": "en"
+   },
+   {
+    "rel": "alternate",
+    "href": "https://www.nzz.ch/visuals/wahl-polen-2025-wie-karol-nawrocki-gewonnen-hat-ld.1887159",
+    "hreflang": "de"
+   }
+  ],
+  "renderedAt": "Thu, 03 Sep 2026 10:02:35 GMT"
+ },
+ "structuredData": [
+  {
+   "@context": "https://schema.org",
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "item": {
+      "@id": "/",
+      "name": "Home"
+     }
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "item": {
+      "@id": "/english",
+      "name": "NZZ in English"
+     }
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "The trends behind Karol Nawrocki's Polish election win"
+    }
+   ]
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": "NewsArticle",
+   "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.nzz.ch/english/how-karol-nawrocki-won-the-polish-election-ld.1887401"
+   },
+   "headline": "The trends behind Karol Nawrocki's Polish election win",
+   "datePublished": "2025-06-04T11:24:17+02:00",
+   "dateModified": "2025-06-04T11:24:17+02:00",
+   "publisher": {
+    "@type": "NewsMediaOrganization",
+    "name": "Neue Zürcher Zeitung",
+    "url": "https://www.nzz.ch",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://www.nzz.ch/logo.png",
+     "width": 413,
+     "height": 60
+    },
+    "contactPoint": [
+     {
+      "@type": "ContactPoint",
+      "telephone": "+41-44-2581000",
+      "contactType": "customer service"
+     }
+    ],
+    "sameAs": [
+     "https://www.facebook.com/nzz",
+     "https://www.twitter.com/nzz",
+     "https://www.youtube.com/channel/UCK1aTcR0AckQRLTlK0c4fuQ",
+     "https://www.linkedin.com/company/neue-zurcher-zeitung",
+     "https://www.instagram.com/nzz/",
+     "https://de.wikipedia.org/wiki/Neue_Z%C3%BCrcher_Zeitung",
+     "https://www.wikidata.org/wiki/Q658945",
+     "https://plus.google.com/+nzz/",
+     "http://www.freebase.com/m/041b43"
+    ],
+    "masthead": "https://www.nzz.ch/impressum/impressum-ld.148422",
+    "foundingDate": "1780"
+   },
+   "description": "Young men and a bit of help from Donald Trump? National conservative Karol Nawrocki won a narrow victory in Sunday's presidential election. Maps and charts explain four key insights from the results.",
+   "isAccessibleForFree": false,
+   "articleSection": "NZZ in English",
+   "hasPart": {
+    "@type": "WebPageElement",
+    "isAccessibleForFree": false,
+    "cssSelector": ".nzzinteraction"
+   },
+   "image": {
+    "@type": "ImageObject",
+    "url": "https://img-msp-prod.nzz.ch/2025/06/02/6ac36998-26b7-4918-8cf2-01e98a4bdae8.png?width=1200&height=674&fit=bounds&quality=75&auto=webp&crop=1601,900,x112,y232&wmark=nzz",
+    "width": 1200,
+    "height": 674
+   },
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Eike Hoppmann"
+    }
+   ],
+   "inLanguage": "en"
+  }
+ ],
+ "mp3": true,
+ "mp3Duration": 213480,
+ "bT": {
+  "standard": {
+   "Tags": [
+    "/english/how-karol-nawrocki-won-the-polish-election-ld.1887401",
+    "classification=default",
+    "relevance=default",
+    "layout=longformstandard",
+    "inside-europe",
+    "owner=nzz",
+    "product=nzz",
+    "doctype=article",
+    "pagetype=article",
+    "ldid=ld.1887401",
+    "channel=NZZ in English"
+   ],
+   "ContentCreated": "2025-06-04T07:24:17.862Z",
+   "ContentAuthor": "Eike Hoppmann",
+   "ContentSection": "NZZ in English",
+   "ContentIsNative": true
+  },
+  "custom": {
+   "product": "nzz",
+   "docType": "article",
+   "pageType": "article",
+   "layout": "longformstandard",
+   "ldId": "ld.1887401",
+   "channel": "NZZ in English",
+   "heading": "The trends behind Karol Nawrocki’s Polish election win",
+   "language": "en-US"
+  }
+ },
+ "webviewMetadata": {},
+ "cacheTime": 3600
+}

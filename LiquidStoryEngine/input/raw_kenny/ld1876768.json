@@ -1,0 +1,2217 @@
+{
+ "content": [
+  {
+   "identifier": "header",
+   "id": "doc-1in1c6ik70",
+   "content": {
+    "title": "Not keen on military service? Europe's defense has a recruitment problem. The big picture",
+    "lead": "European countries are debating the reintroduction of conscription. Where does it apply? Where doesn't it? And what do Europe's youth think?",
+    "authorline": "Julia Monn",
+    "author": "Julia Monn"
+   },
+   "containers": {
+    "authors": []
+   },
+   "prevElement": "",
+   "nextElement": "image",
+   "firstContentElement": true
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1inm360e60",
+   "content": {
+    "image": {
+     "author": "",
+     "caption": "",
+     "originalUrl": "/2025/04/01/b9957397-acaf-4337-9ada-cf62e5c3692b.png?width=1024",
+     "width": 1912,
+     "height": 1348,
+     "imageService": "fastly"
+    },
+    "author": "",
+    "caption": ""
+   },
+   "prevElement": "header",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1in8vl1f80",
+   "content": {
+    "text": "Europe plans to prepare for a more uncertain world by investing billions in new tanks, aircraft, and missile defense systems. But while the debate rages over where all this money will come from, the next, and potentially even bigger, problem is already emerging: Who will operate all this equipment? There is a shortage of soldiers, and a significant one at that, say experts, including <a href=\"https://www.nzz.ch/international/interview-cameron-abadi-kampfbereitschaft-setzt-kulturwandel-voraus-ld.1878011\">Cameron Abadi in an interview with the NZZ.</a>"
+   },
+   "data": {},
+   "prevElement": "image",
+   "nextElement": "barrier"
+  },
+  {
+   "id": "doc-21670142",
+   "identifier": "barrier",
+   "prevElement": "p-text",
+   "nextElement": "content-table"
+  },
+  {
+   "identifier": "content-table",
+   "id": "doc-1inef17050",
+   "content": {
+    "title": "Table of Contents",
+    "items": [
+     {
+      "html": "How many soldiers does Europe have, and where is military service compulsory?",
+      "id": "subtitle-wie-viele-soldaten-hat-europa-und-wo-gilt-die-wehrpflicht"
+     },
+     {
+      "html": "How have troop strengths changed?",
+      "id": "subtitle-wie-haben-sich-die-truppenst-rken-ver-ndert"
+     },
+     {
+      "html": "What does the population think about a reintroduction?",
+      "id": "subtitle-was-h-lt-die-bev-lkerung-von-einer-wiedereinf-hrung"
+     },
+     {
+      "html": "How high is the willingness to fight in an emergency?",
+      "id": "subtitle-wie-hoch-ist-die-bereitschaft-im-ernstfall-zu-k-mpfen"
+     }
+    ]
+   },
+   "styles": {
+    "content-table-sticky": "content-table-sticky--enabled"
+   },
+   "paidContent": true,
+   "prevElement": "barrier",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1in9mrnn00",
+   "content": {
+    "title": "How many soldiers does Europe have, and where is military service compulsory?",
+    "id": "subtitle-wie-viele-soldaten-hat-europa-und-wo-gilt-die-wehrpflicht"
+   },
+   "contentTable": true,
+   "paidContent": true,
+   "prevElement": "content-table",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1in97k4s60",
+   "content": {
+    "text": "If war were to break out today, the more than thirty countries of Europe could together mobilize just under two million active soldiers. That is only slightly more than the USA alone can provide. This refers to professional soldiers who would be ready for immediate deployment. Additional forces, i.e., reservists, would first have to be mobilized and equipped."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "datawrapper"
+  },
+  {
+   "identifier": "datawrapper",
+   "id": "doc-dAU6TG59j3",
+   "content": {
+    "html": {
+     "service": "free-html",
+     "params": {
+      "embedCode": "<iframe title=\"Die Türkei stellt in Europa die grösste Armee\" aria-label=\"Balken\" id=\"datawrapper-chart-G5YZb\" src=\"https://datawrapper.dwcdn.net/G5YZb/11/\" scrolling=\"no\" frameborder=\"0\" style=\"width: 0; min-width: 100% !important; border: none;\" height=\"431\" data-external=\"1\"></iframe><script type=\"text/javascript\">!function(){\"use strict\";window.addEventListener(\"message\",(function(a){if(void 0!==a.data[\"datawrapper-height\"]){var e=document.querySelectorAll(\"iframe\");for(var t in a.data[\"datawrapper-height\"])for(var r,i=0;r=e[i];i++)if(r.contentWindow===a.source){var d=a.data[\"datawrapper-height\"][t]+\"px\";r.style.height=d}}}))}();\n</script>"
+     },
+     "resolvedValue": {
+      "html": "<iframe title=\"Die Türkei stellt in Europa die grösste Armee\" aria-label=\"Balken\" id=\"datawrapper-chart-G5YZb\" src=\"https://datawrapper.dwcdn.net/G5YZb/11/\" scrolling=\"no\" frameborder=\"0\" style=\"width: 0; min-width: 100% !important; border: none;\" height=\"431\" data-external=\"1\"></iframe><script type=\"text/javascript\">!function(){\"use strict\";window.addEventListener(\"message\",(function(a){if(void 0!==a.data[\"datawrapper-height\"]){var e=document.querySelectorAll(\"iframe\");for(var t in a.data[\"datawrapper-height\"])for(var r,i=0;r=e[i];i++)if(r.contentWindow===a.source){var d=a.data[\"datawrapper-height\"][t]+\"px\";r.style.height=d}}}))}();\n</script>"
+     }
+    }
+   },
+   "styles": {
+    "fullwidth-component": "articlecomponent--fullwidth"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1in9det9j0",
+   "content": {
+    "text": "It is striking that among the ten countries with the most active soldiers, only Turkey and Greece rely on conscription. Both countries are also using military means to wage their dispute over islands and resources in the eastern Mediterranean."
+   },
+   "paidContent": true,
+   "prevElement": "datawrapper",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1indujao71",
+   "content": {
+    "text": "Otherwise, conscription is maintained primarily in countries bordering Russia—such as those in Scandinavia and the Baltic states—or in the neutral states of Switzerland and Austria. In the Balkans <a target=\"_blank\" href=\"https://english.elpais.com/international/2024-10-10/military-service-returns-to-the-heart-of-the-balkans-croatia-and-serbia-to-reintroduce-conscription.html\">, Croatia and Serbia</a> are reintroducing conscription this year. Furthermore, Denmark, as the second European country after Norway, is extending compulsory military service to women."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1injcppgt1",
+   "content": {
+    "text": "However, the length of service, the age at which soldiers are drafted, and whether there are alternatives such as civilian service are regulated differently everywhere."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "q-embed"
+  },
+  {
+   "identifier": "q-embed",
+   "id": "doc-1in1c7igo0",
+   "content": {
+    "q-embed": {
+     "service": "q-tool",
+     "params": {
+      "id": "345456dee30e23ccd832188381b3195b",
+      "conf": {},
+      "toolConfig": {},
+      "toolRuntimeConfig": {
+       "size": {
+        "width": [
+         {
+          "value": 100,
+          "comparison": ">"
+         }
+        ]
+       },
+       "displayOptions": {
+        "hideTitle": false,
+        "hideSubtitle": false,
+        "hideFooter": false,
+        "hideAcronym": false
+       },
+       "locale": "en_US"
+      },
+      "size": "content"
+     },
+     "resolvedValue": {}
+    },
+    "html": "      <div        class=\"q-choropleth-container\"        id=\"q_choropleth_345456dee30e23ccd832188381b3195b_q65a962c2d61f4c479cc59de25edecab2_container\"        data-q-item-id=\"345456dee30e23ccd832188381b3195b\"        data-q-request-id=\"282c992b118c0d5cfd47e221e882711b70165458\"      ></div>",
+    "stylesheets": [
+     {
+      "type": "remote",
+      "content": "https://service.sophie.nzz.ch/bundle/sophie-color%23master,sophie-font%23master,sophie-input%23master[button+field],sophie-legend%23master[icon-label],sophie-q%23master,sophie-viz-color%23master.css"
+     },
+     {
+      "type": "inline",
+      "content": "  @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff) format(\"woff\");  }    @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff) format(\"woff\");    unicode-range: U+0020-00FF,U+2005,U+2082;  }      "
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/css-theme-layer/nzz-0.2.0.css"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/choropleth/q-choropleth-1.2.6.css"
+     }
+    ],
+    "scripts": [
+     {
+      "type": "inline",
+      "content": "function qTrackingBootstrap(t,e,n){if(window.digitalData&&window.digitalData.component&&window.digitalData.component.push){window.digitalData.component.push(t),window.digitalData.event&&window.digitalData.event.length||(window.digitalData.event=[]);var i=new Date,a=e;a.eventInfo.timeStamp=i.toISOString(),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\");var o=document.querySelectorAll(\"[data-q-request-id='\"+n+\"']\");[].forEach.call(o,function(t){t.addEventListener(\"q-tracking-event\",function(t){var e=new Date;(a=JSON.parse(JSON.stringify(a))).eventInfo.timeStamp=e.toISOString(),a.eventInfo=Object.assign(a.eventInfo,t.detail.eventInfo),a.category=Object.assign(a.category,t.detail.category),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\")},!1)})}};qTrackingBootstrap({\"componentInfo\":{\"componentName\":\"Q\",\"componentID\":\"345456dee30e23ccd832188381b3195b\"},\"category\":{\"componentType\":\"storytelling\",\"componentSubType1\":\"Q graphic\",\"componentSubType2\":\"choropleth\"}},{\"eventInfo\":{\"eventName\":\"Storytelling Interaction\",\"eventAction\":\"load\",\"type\":\"story\",\"componentName\":\"Q\",\"eventNonInteractive\":true,\"componentID\":\"345456dee30e23ccd832188381b3195b\"},\"category\":{\"primaryCategory\":\"storytelling\",\"subCategory1\":\"Q graphic\",\"subCategory2\":\"choropleth\"}},\"282c992b118c0d5cfd47e221e882711b70165458\")"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/choropleth/q-choropleth-1.2.6.js"
+     },
+     {
+      "type": "inline",
+      "content": "      (function () {        function initialize() {          const target = document.querySelector('#q_choropleth_345456dee30e23ccd832188381b3195b_q65a962c2d61f4c479cc59de25edecab2_container');          if (!target) return;          target.innerHTML = '';          const qdoc = {\"_id\":\"345456dee30e23ccd832188381b3195b\",\"title\":\"In these European countries, military service is compulsory for parts of the population\",\"subtitle\":\"\",\"publication\":\"nzz\",\"acronym\":\"jum.\",\"data\":[[\"ID\",\"Value\"],[\"Albania\",\"No compulsory service\"],[\"Andorra\",\"No compulsory service\"],[\"Austria\",\"Duty to perform military or alternative service\"],[\"Belarus\",\"Duty to perform military or alternative service\"],[\"Belgium\",\"No compulsory service\"],[\"Bosnia and Herzegovina\",\"No compulsory service\"],[\"Bulgaria\",\"No compulsory service\"],[\"Croatia\",\"Duty to perform military or alternative service\"],[\"Cyprus\",\"Duty to perform military or alternative service\"],[\"Czech Republic\",\"No compulsory service\"],[\"Denmark\",\"Duty to perform military or alternative service\"],[\"Estonia\",\"Duty to perform military or alternative service\"],[\"Finland\",\"Duty to perform military or alternative service\"],[\"France\",\"No compulsory service\"],[\"Germany\",\"No compulsory service\"],[\"Greece\",\"Duty to perform military or alternative service\"],[\"Hungary\",\"No compulsory service\"],[\"Iceland\",\"No compulsory service\"],[\"Ireland\",\"No compulsory service\"],[\"Italy\",\"No compulsory service\"],[\"Kosovo\",\"No compulsory service\"],[\"Latvia\",\"Duty to perform military or alternative service\"],[\"Liechtenstein\",\"Duty to perform military or alternative service\"],[\"Lithuania\",\"Duty to perform military or alternative service\"],[\"Luxembourg\",\"No compulsory service\"],[\"Malta\",\"No compulsory service\"],[\"Moldova\",\"Duty to perform military or alternative service\"],[\"Monaco\",\"No compulsory service\"],[\"Montenegro\",\"No compulsory service\"],[\"Netherlands\",\"No compulsory service\"],[\"North Macedonia\",\"No compulsory service\"],[\"Norway\",\"Duty to perform military or alternative service\"],[\"Poland\",\"No compulsory service\"],[\"Portugal\",\"No compulsory service\"],[\"Romania\",\"No compulsory service\"],[\"Russia\",\"Country at war\"],[\"San Marino\",\"No compulsory service\"],[\"Serbia\",\"Duty to perform military or alternative service\"],[\"Slovakia\",\"No compulsory service\"],[\"Slovenia\",\"No compulsory service\"],[\"Spain\",\"No compulsory service\"],[\"Sweden\",\"Duty to perform military or alternative service\"],[\"Switzerland\",\"Duty to perform military or alternative service\"],[\"Turkey\",\"Duty to perform military or alternative service\"],[\"Ukraine\",\"Country at war\"],[\"United Kingdom\",\"No compulsory service\"],[\"Vatican City\",\"No compulsory service\"]],\"sources\":[{\"text\":\"CIA World Factbook\",\"link\":{\"url\":\"https://www.cia.gov/the-world-factbook/field/military-service-age-and-obligation/\"}},{\"text\":\"own research\",\"link\":{\"url\":\"\"}}],\"baseMap\":\"europe-countries-geographic\",\"version\":\"2023-01-31T00:00:00.000Z\",\"entityType\":\"name\",\"mapAnnotations\":[],\"options\":{\"categoricalOptions\":{\"colorOverwrites\":[{\"color\":\"#dbb783\",\"textColor\":\"light\",\"position\":1},{\"color\":\"#93144b\",\"textColor\":\"light\",\"position\":3},{\"color\":\"#ce4731\",\"textColor\":\"light\",\"position\":2}],\"customCategoriesOrder\":[],\"valuesOnMap\":false},\"choroplethType\":\"categorical\",\"hideBubbleMap\":false,\"numericalOptions\":{\"bucketType\":\"ckmeans\",\"colorOverwrites\":[],\"colorScheme\":\"one\",\"invertColorScheme\":false,\"labelLegend\":\"noLabel\",\"measuringUnit\":\"\",\"valuesOnMap\":false,\"numberBuckets\":7,\"scale\":\"sequential\"},\"hideMicroStates\":true},\"updatedDate\":\"2025-03-30T09:06:20.101Z\",\"notes\":\"\"};          const toolRuntimeConfig = {\"displayOptions\":{\"hideTitle\":false,\"hideSubtitle\":false,\"hideFooter\":false,\"hideAcronym\":false},\"size\":{\"width\":[{\"value\":100,\"comparison\":\">\"}]},\"locale\":\"en-US\"};          const toolSettings = {\"qItemInstanceId\":\"q_choropleth_345456dee30e23ccd832188381b3195b_q65a962c2d61f4c479cc59de25edecab2\",\"serverUrl\":\"https://q-server.nzz.ch\"};          let attempts = 0;          const maxAttempts = 100;          const checkAndInitialize = setInterval(() => {            if (window.qChoropleth) {              clearInterval(checkAndInitialize);              new window.qChoropleth({ target: target, props: {                qdoc: qdoc,                toolSettings: toolSettings,                toolRuntimeConfig: toolRuntimeConfig              } });            } else {              attempts++;              if (attempts >= maxAttempts) {                clearInterval(checkAndInitialize);                console.error('Failed to initialize qChoropleth after 30 seconds');              }            }          }, 300);        }        if (document.body.classList.contains('pagedone')) {          initialize();        } else {          window.addEventListener('pagedone', initialize);        }      })();    "
+     }
+    ]
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1in9mdall0",
+   "content": {
+    "text": "Here are three examples: In Turkey, men between the ages of 20 and 41 are required to perform 6 to 12 months of military service. However, it is possible to <a target=\"_blank\" href=\"https://taz.de/Freikauf-vom-Wehrdienst-in-der-Tuerkei/!5529681/\">pay a fee to be exempt from this service</a> . Furthermore, those who are studying or work in certain professions in research, the arts, or elite sports are allowed to postpone their service."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "q-embed",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1inbh8rbq1",
+   "content": {
+    "text": "Finland has a different system. Men aged 18 and over complete 5.5 to 12 months of military, border guard, or civilian service. After that, they belong to the reserves and can be called up in an emergency until the age of 50, or until the age of 60 for non-commissioned officers or officers."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1inbi12sj0",
+   "content": {
+    "text": "<a target=\"_blank\" href=\"https://www.armee.ch/de/militaerdienst-rs-und-wk\">Switzerland</a> also pursues its own approach with its militia system. Every Swiss citizen is obligated to perform military service or civilian service. The majority complete their service over several years following a short basic training course, with refresher courses. Military service lasts at least 245 days, civilian service 368 days. Service is generally completed between the ages of 18 and 30. Afterward, one belongs to the reserves; the length of service depends on rank."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "divider"
+  },
+  {
+   "identifier": "divider",
+   "id": "doc-1ino3tanr0",
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1in9mnh2i0",
+   "content": {
+    "title": "How have troop strengths changed?",
+    "id": "subtitle-wie-haben-sich-die-truppenst-rken-ver-ndert"
+   },
+   "contentTable": true,
+   "paidContent": true,
+   "prevElement": "divider",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1inbqkg680",
+   "content": {
+    "text": "Despite different models, European countries with conscription have one thing in common: they have thousands of soldiers in reserve who must be ready for deployment in case of emergency."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "datawrapper"
+  },
+  {
+   "identifier": "datawrapper",
+   "id": "doc-lZYlhb6yhh",
+   "content": {
+    "html": {
+     "service": "free-html",
+     "params": {
+      "embedCode": "<iframe title=\"Neben der Türkei verfügen Finnland und die Schweiz über die grössten Reservetruppen – doch sie schrumpfen\" aria-label=\"Balken (gestapelt)\" id=\"datawrapper-chart-xwkUe\" src=\"https://datawrapper.dwcdn.net/xwkUe/10/\" scrolling=\"no\" frameborder=\"0\" style=\"width: 0; min-width: 100% !important; border: none;\" height=\"730\" data-external=\"1\"></iframe><script type=\"text/javascript\">!function(){\"use strict\";window.addEventListener(\"message\",(function(a){if(void 0!==a.data[\"datawrapper-height\"]){var e=document.querySelectorAll(\"iframe\");for(var t in a.data[\"datawrapper-height\"])for(var r,i=0;r=e[i];i++)if(r.contentWindow===a.source){var d=a.data[\"datawrapper-height\"][t]+\"px\";r.style.height=d}}}))}();\n</script>"
+     },
+     "resolvedValue": {
+      "html": "<iframe title=\"Neben der Türkei verfügen Finnland und die Schweiz über die grössten Reservetruppen – doch sie schrumpfen\" aria-label=\"Balken (gestapelt)\" id=\"datawrapper-chart-xwkUe\" src=\"https://datawrapper.dwcdn.net/xwkUe/10/\" scrolling=\"no\" frameborder=\"0\" style=\"width: 0; min-width: 100% !important; border: none;\" height=\"730\" data-external=\"1\"></iframe><script type=\"text/javascript\">!function(){\"use strict\";window.addEventListener(\"message\",(function(a){if(void 0!==a.data[\"datawrapper-height\"]){var e=document.querySelectorAll(\"iframe\");for(var t in a.data[\"datawrapper-height\"])for(var r,i=0;r=e[i];i++)if(r.contentWindow===a.source){var d=a.data[\"datawrapper-height\"][t]+\"px\";r.style.height=d}}}))}();\n</script>"
+     }
+    }
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1inbqvlpq0",
+   "content": {
+    "text": "Over the past decade, many countries have significantly reduced their armed forces – and not only in countries with conscription. Large all-volunteer armies like those of Great Britain, France, and Italy also saw substantial personnel reductions between 2015 and 2025. In Germany and Spain, troop strength increased only minimally. And the situation is no better with reserves: even in large NATO countries, they remain manageable, often numbering only a few tens of thousands of soldiers."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "datawrapper",
+   "nextElement": "datawrapper"
+  },
+  {
+   "identifier": "datawrapper",
+   "id": "doc-96NqQDlQHl",
+   "content": {
+    "html": {
+     "service": "free-html",
+     "params": {
+      "embedCode": "<iframe title=\"Unter den grossen Ländern ohne Wehrpflicht konnte nur Polen seine Armee im letzten Jahrzehnt deutlich aufstocken\n\" aria-label=\"Pfeile\" id=\"datawrapper-chart-27IfA\" src=\"https://datawrapper.dwcdn.net/27IfA/4/\" scrolling=\"no\" frameborder=\"0\" style=\"width: 0; min-width: 100% !important; border: none;\" height=\"232\" data-external=\"1\"></iframe><script type=\"text/javascript\">!function(){\"use strict\";window.addEventListener(\"message\",(function(a){if(void 0!==a.data[\"datawrapper-height\"]){var e=document.querySelectorAll(\"iframe\");for(var t in a.data[\"datawrapper-height\"])for(var r,i=0;r=e[i];i++)if(r.contentWindow===a.source){var d=a.data[\"datawrapper-height\"][t]+\"px\";r.style.height=d}}}))}();\n</script>"
+     },
+     "resolvedValue": {
+      "html": "<iframe title=\"Unter den grossen Ländern ohne Wehrpflicht konnte nur Polen seine Armee im letzten Jahrzehnt deutlich aufstocken\n\" aria-label=\"Pfeile\" id=\"datawrapper-chart-27IfA\" src=\"https://datawrapper.dwcdn.net/27IfA/4/\" scrolling=\"no\" frameborder=\"0\" style=\"width: 0; min-width: 100% !important; border: none;\" height=\"232\" data-external=\"1\"></iframe><script type=\"text/javascript\">!function(){\"use strict\";window.addEventListener(\"message\",(function(a){if(void 0!==a.data[\"datawrapper-height\"]){var e=document.querySelectorAll(\"iframe\");for(var t in a.data[\"datawrapper-height\"])for(var r,i=0;r=e[i];i++)if(r.contentWindow===a.source){var d=a.data[\"datawrapper-height\"][t]+\"px\";r.style.height=d}}}))}();\n</script>"
+     }
+    }
+   },
+   "styles": {
+    "fullwidth-component": "articlecomponent--fullwidth"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1inc4ti3b0",
+   "content": {
+    "text": "The abolition of conscription marked the beginning of the decline in army numbers. Great Britain started the process in 1960, followed by France in 1997, Spain in 2001, and Italy in 2005. Germany was the last to take this step, suspending conscription there only in 2011."
+   },
+   "paidContent": true,
+   "prevElement": "datawrapper",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1infa0vi80",
+   "content": {
+    "text": "The restructuring of the armed forces was the result of <a target=\"_blank\" href=\"https://css.ethz.ch/content/dam/ethz/special-interest/gess/cis/center-for-securities-studies/pdfs/CSS-Analysen-75.pdf\">shifts</a> in security and socio-political contexts. With the end of the Cold War, traditional national defense and conventional warfare lost importance. They were replaced by deployments abroad in crisis regions and disaster relief. Full-time soldiers were considered better suited for these tasks than conscripts."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1infa60fj1",
+   "content": {
+    "text": "Governments and experts assumed that professional armies were not only more efficient in handling increasingly complex weapons systems, but also cheaper than massive mass armies. This was because the latter were expensive not only in terms of recruitment, but also in terms of housing, equipment, and training. At the same time, the willingness to perform military service declined in many societies. Military service was considered outdated, whether for pacifist reasons or because of a lack of financial and social incentives."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1ine405dt0",
+   "content": {
+    "text": "The Russian war of aggression against Ukraine has changed the security landscape since 2022. Yet only one large all-volunteer army has responded: <a href=\"https://www.nzz.ch/international/europas-musterschueler-hofft-noch-auf-trumps-nachsicht-ld.1871437\">Poland</a> . Since the outbreak of the war in Ukraine alone, its armed forces have grown by approximately 50,000 soldiers and are set to expand further. While the Polish government does not intend to reinstate conscription, it is planning <a target=\"_blank\" href=\"https://www.mdr.de/nachrichten/welt/osteuropa/politik/polen-militaer-armee-verteidigung-ferien-aufruestung-100.html\">voluntary military training</a> for all adult men to ensure a broader troop pool in case of emergency."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "divider"
+  },
+  {
+   "identifier": "divider",
+   "id": "doc-1ino3tkd50",
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1in9n4n6h0",
+   "content": {
+    "title": "What does the population think about a reintroduction?",
+    "id": "subtitle-was-h-lt-die-bev-lkerung-von-einer-wiedereinf-hrung"
+   },
+   "contentTable": true,
+   "paidContent": true,
+   "prevElement": "divider",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1inj9khdo0",
+   "content": {
+    "text": "Poland's continued reliance on voluntary military service, despite its direct proximity to the war in Ukraine, is drawing <a target=\"_blank\" href=\"https://www.politico.eu/article/poland-military-training-war-defense-russia-belarus/\">criticism</a> within the country itself. Conservative politicians and high-ranking military officials are calling for a return to conscription. They believe the population supports them. According to recent polls, 55 percent of the population favors the reintroduction of military service."
+   },
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "q-embed"
+  },
+  {
+   "identifier": "q-embed",
+   "id": "doc-1inm6b2ig0",
+   "content": {
+    "q-embed": {
+     "service": "q-tool",
+     "params": {
+      "id": "50f5f9f48c3ba32070a3a08cc65fa8b5",
+      "conf": {},
+      "toolConfig": {},
+      "toolRuntimeConfig": {
+       "size": {
+        "width": [
+         {
+          "value": 100,
+          "comparison": ">"
+         }
+        ]
+       },
+       "displayOptions": {
+        "hideTitle": true,
+        "hideSubtitle": false,
+        "hideFooter": false,
+        "hideAcronym": false,
+        "size": "basic"
+       },
+       "locale": "en_US"
+      },
+      "size": "content"
+     },
+     "resolvedValue": {}
+    },
+    "html": "      <div        class=\"q-chart-container\"        id=\"q_chart_50f5f9f48c3ba32070a3a08cc65fa8b5_qf123e24b40ce4e67842c95ee1fb4232f_container\"        data-q-item-id=\"50f5f9f48c3ba32070a3a08cc65fa8b5\"        data-q-request-id=\"47b5ff21cb57b8150336eb21abf0b73295ab8819\"      ></div>",
+    "stylesheets": [
+     {
+      "type": "remote",
+      "content": "https://service.sophie.nzz.ch/bundle/sophie-color%23master,sophie-font%23master,sophie-input%23master[button+field],sophie-legend%23master[icon-label],sophie-q%23master,sophie-viz-color%23master.css"
+     },
+     {
+      "type": "inline",
+      "content": "  @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff) format(\"woff\");  }    @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff) format(\"woff\");    unicode-range: U+0020-00FF,U+2005,U+2082;  }      "
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/css-theme-layer/nzz-0.2.0.css"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/chart/q-chart-1.2.6.css"
+     }
+    ],
+    "scripts": [
+     {
+      "type": "inline",
+      "content": "function qTrackingBootstrap(t,e,n){if(window.digitalData&&window.digitalData.component&&window.digitalData.component.push){window.digitalData.component.push(t),window.digitalData.event&&window.digitalData.event.length||(window.digitalData.event=[]);var i=new Date,a=e;a.eventInfo.timeStamp=i.toISOString(),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\");var o=document.querySelectorAll(\"[data-q-request-id='\"+n+\"']\");[].forEach.call(o,function(t){t.addEventListener(\"q-tracking-event\",function(t){var e=new Date;(a=JSON.parse(JSON.stringify(a))).eventInfo.timeStamp=e.toISOString(),a.eventInfo=Object.assign(a.eventInfo,t.detail.eventInfo),a.category=Object.assign(a.category,t.detail.category),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\")},!1)})}};qTrackingBootstrap({\"componentInfo\":{\"componentName\":\"Q\",\"componentID\":\"50f5f9f48c3ba32070a3a08cc65fa8b5\"},\"category\":{\"componentType\":\"storytelling\",\"componentSubType1\":\"Q graphic\",\"componentSubType2\":\"chart\"}},{\"eventInfo\":{\"eventName\":\"Storytelling Interaction\",\"eventAction\":\"load\",\"type\":\"story\",\"componentName\":\"Q\",\"eventNonInteractive\":true,\"componentID\":\"50f5f9f48c3ba32070a3a08cc65fa8b5\"},\"category\":{\"primaryCategory\":\"storytelling\",\"subCategory1\":\"Q graphic\",\"subCategory2\":\"chart\"}},\"47b5ff21cb57b8150336eb21abf0b73295ab8819\")"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/chart/q-chart-1.2.6.js"
+     },
+     {
+      "type": "inline",
+      "content": "      (function () {        function initialize() {          const target = document.querySelector('#q_chart_50f5f9f48c3ba32070a3a08cc65fa8b5_qf123e24b40ce4e67842c95ee1fb4232f_container');          if (!target) return;          target.innerHTML = '';          const qdoc = {\"_id\":\"50f5f9f48c3ba32070a3a08cc65fa8b5\",\"allowDownloadData\":false,\"title\":\"Poland\",\"subtitle\":\"Percentage of Poles surveyed who were for or against compulsory military service\",\"publication\":\"nzz\",\"acronym\":\"jum.\",\"data\":[[\"zero\",\"For that\",\"draw\",\"Against it\"],[\"What\",\"55\",\"9\",\"36\"]],\"sources\":[{\"text\":\"Ibris\",\"link\":{\"url\":\"https://www.rp.pl/wojsko/art41908651-sondaz-dla-rz-czy-polacy-popieraja-przywrocenie-poboru-do-wojska\"}}],\"events\":[],\"options\":{\"annotations\":{\"valuesOnBars\":true},\"areaChartOptions\":{\"areaInterpolation\":\"linear\",\"stackType\":\"zero\"},\"arrowOptions\":{\"colorScheme\":0,\"invertColorScheme\":false},\"barOptions\":{\"isBarChart\":true,\"forceBarsOnSmall\":false},\"chartType\":\"StackedBar\",\"colorOverwritesRows\":[],\"colorOverwritesSeries\":[{\"color\":\"#ce4631\",\"colorLight\":\"\",\"position\":3},{\"color\":\"#8d7a81\",\"colorLight\":\"\",\"position\":2}],\"dateSeriesOptions\":{\"interval\":\"auto\",\"labels\":\"many\",\"prognosisStart\":null},\"dotplotOptions\":{},\"hideAxisLabel\":true,\"highlightDataRows\":[],\"highlightDataSeries\":[],\"lineChartOptions\":{\"yScaleType\":\"linear\",\"reverseYScale\":false,\"lineInterpolation\":\"linear\",\"isStockChart\":false},\"largeNumbers\":{\"divideBy\":0}},\"updatedDate\":\"2025-04-01T20:32:55.417Z\",\"notes\":\"The survey was conducted between March 7th and 8th, 2025, with 1070 people.\"};          const toolRuntimeConfig = {\"displayOptions\":{\"hideTitle\":true,\"hideSubtitle\":false,\"hideFooter\":false,\"hideAcronym\":false,\"size\":\"basic\"},\"size\":{\"width\":[{\"value\":100,\"comparison\":\">\"}]},\"locale\":\"en-US\"};          const toolSettings = {\"qItemInstanceId\":\"q_chart_50f5f9f48c3ba32070a3a08cc65fa8b5_qf123e24b40ce4e67842c95ee1fb4232f\"};          let attempts = 0;          const maxAttempts = 100;          const checkAndInitialize = setInterval(() => {            if (window.qChart) {              clearInterval(checkAndInitialize);              new window.qChart({ target: target, props: {                qdoc: qdoc,                toolSettings: toolSettings,                toolRuntimeConfig: toolRuntimeConfig              } });            } else {              attempts++;              if (attempts >= maxAttempts) {                clearInterval(checkAndInitialize);                console.error('Failed to initialize qChart after 30 seconds');              }            }          }, 300);        }        if (document.body.classList.contains('pagedone')) {          initialize();        } else {          window.addEventListener('pagedone', initialize);        }      })();    "
+     }
+    ]
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1inj9sfpj0",
+   "content": {
+    "text": "However, there is a clear difference between the generations: While the 18- to 29-year-olds – i.e., potential recruits – are mostly against conscription, those over 30 are clearly in favor of it."
+   },
+   "paidContent": true,
+   "prevElement": "q-embed",
+   "nextElement": "q-embed"
+  },
+  {
+   "identifier": "q-embed",
+   "id": "doc-1inj7uhi30",
+   "content": {
+    "q-embed": {
+     "service": "q-tool",
+     "params": {
+      "id": "50f5f9f48c3ba32070a3a08cc6410660",
+      "conf": {},
+      "toolConfig": {},
+      "toolRuntimeConfig": {
+       "size": {
+        "width": [
+         {
+          "value": 100,
+          "comparison": ">"
+         }
+        ]
+       },
+       "displayOptions": {
+        "hideTitle": true,
+        "hideSubtitle": false,
+        "hideFooter": false,
+        "hideAcronym": false,
+        "size": "basic"
+       },
+       "locale": "en_US"
+      },
+      "size": "content"
+     },
+     "resolvedValue": {}
+    },
+    "html": "      <div        class=\"q-chart-container\"        id=\"q_chart_50f5f9f48c3ba32070a3a08cc6410660_q92e23bb4fe7d412592af67fb38a6a974_container\"        data-q-item-id=\"50f5f9f48c3ba32070a3a08cc6410660\"        data-q-request-id=\"a6e4004d79d6c64e4e96ec7c6a8ae56cc9bda20e\"      ></div>",
+    "stylesheets": [
+     {
+      "type": "remote",
+      "content": "https://service.sophie.nzz.ch/bundle/sophie-color%23master,sophie-font%23master,sophie-input%23master[button+field],sophie-legend%23master[icon-label],sophie-q%23master,sophie-viz-color%23master.css"
+     },
+     {
+      "type": "inline",
+      "content": "  @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff) format(\"woff\");  }    @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff) format(\"woff\");    unicode-range: U+0020-00FF,U+2005,U+2082;  }      "
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/css-theme-layer/nzz-0.2.0.css"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/chart/q-chart-1.2.6.css"
+     }
+    ],
+    "scripts": [
+     {
+      "type": "inline",
+      "content": "function qTrackingBootstrap(t,e,n){if(window.digitalData&&window.digitalData.component&&window.digitalData.component.push){window.digitalData.component.push(t),window.digitalData.event&&window.digitalData.event.length||(window.digitalData.event=[]);var i=new Date,a=e;a.eventInfo.timeStamp=i.toISOString(),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\");var o=document.querySelectorAll(\"[data-q-request-id='\"+n+\"']\");[].forEach.call(o,function(t){t.addEventListener(\"q-tracking-event\",function(t){var e=new Date;(a=JSON.parse(JSON.stringify(a))).eventInfo.timeStamp=e.toISOString(),a.eventInfo=Object.assign(a.eventInfo,t.detail.eventInfo),a.category=Object.assign(a.category,t.detail.category),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\")},!1)})}};qTrackingBootstrap({\"componentInfo\":{\"componentName\":\"Q\",\"componentID\":\"50f5f9f48c3ba32070a3a08cc6410660\"},\"category\":{\"componentType\":\"storytelling\",\"componentSubType1\":\"Q graphic\",\"componentSubType2\":\"chart\"}},{\"eventInfo\":{\"eventName\":\"Storytelling Interaction\",\"eventAction\":\"load\",\"type\":\"story\",\"componentName\":\"Q\",\"eventNonInteractive\":true,\"componentID\":\"50f5f9f48c3ba32070a3a08cc6410660\"},\"category\":{\"primaryCategory\":\"storytelling\",\"subCategory1\":\"Q graphic\",\"subCategory2\":\"chart\"}},\"a6e4004d79d6c64e4e96ec7c6a8ae56cc9bda20e\")"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/chart/q-chart-1.2.6.js"
+     },
+     {
+      "type": "inline",
+      "content": "      (function () {        function initialize() {          const target = document.querySelector('#q_chart_50f5f9f48c3ba32070a3a08cc6410660_q92e23bb4fe7d412592af67fb38a6a974_container');          if (!target) return;          target.innerHTML = '';          const qdoc = {\"_id\":\"50f5f9f48c3ba32070a3a08cc6410660\",\"allowDownloadData\":false,\"title\":\"Poland\",\"subtitle\":\"Percentage of Poles surveyed who are in favor of reintroducing conscription\",\"publication\":\"nzz\",\"acronym\":\"jum.\",\"data\":[[null,\"18- to 29-year-olds\",\"30-year-olds and older\"],[\"For that\",\"45\",\"56\"]],\"sources\":[{\"text\":\"Ibris\",\"link\":{\"url\":\"https://www.rp.pl/wojsko/art41908651-sondaz-dla-rz-czy-polacy-popieraja-przywrocenie-poboru-do-wojska\"}}],\"events\":[],\"options\":{\"annotations\":{\"valuesOnBars\":true},\"areaChartOptions\":{\"areaInterpolation\":\"linear\",\"stackType\":\"zero\"},\"arrowOptions\":{\"colorScheme\":0,\"invertColorScheme\":false},\"barOptions\":{\"isBarChart\":true,\"forceBarsOnSmall\":false},\"chartType\":\"Bar\",\"colorOverwritesRows\":[],\"colorOverwritesSeries\":[{\"color\":\"#cad8d4\",\"colorLight\":\"\",\"position\":1},{\"color\":\"#84b0b6\",\"colorLight\":\"\",\"position\":2},{\"color\":\"#66722b\",\"colorLight\":\"\",\"position\":3}],\"dateSeriesOptions\":{\"interval\":\"auto\",\"labels\":\"many\",\"prognosisStart\":null},\"dotplotOptions\":{},\"hideAxisLabel\":true,\"highlightDataRows\":[],\"highlightDataSeries\":[],\"lineChartOptions\":{\"yScaleType\":\"linear\",\"reverseYScale\":false,\"lineInterpolation\":\"linear\",\"isStockChart\":false},\"largeNumbers\":{\"divideBy\":0}},\"updatedDate\":\"2025-04-01T20:32:38.346Z\",\"notes\":\"The survey was conducted between March 7th and 8th, 2025, with 1070 people.\"};          const toolRuntimeConfig = {\"displayOptions\":{\"hideTitle\":true,\"hideSubtitle\":false,\"hideFooter\":false,\"hideAcronym\":false,\"size\":\"basic\"},\"size\":{\"width\":[{\"value\":100,\"comparison\":\">\"}]},\"locale\":\"en-US\"};          const toolSettings = {\"qItemInstanceId\":\"q_chart_50f5f9f48c3ba32070a3a08cc6410660_q92e23bb4fe7d412592af67fb38a6a974\"};          let attempts = 0;          const maxAttempts = 100;          const checkAndInitialize = setInterval(() => {            if (window.qChart) {              clearInterval(checkAndInitialize);              new window.qChart({ target: target, props: {                qdoc: qdoc,                toolSettings: toolSettings,                toolRuntimeConfig: toolRuntimeConfig              } });            } else {              attempts++;              if (attempts >= maxAttempts) {                clearInterval(checkAndInitialize);                console.error('Failed to initialize qChart after 30 seconds');              }            }          }, 300);        }        if (document.body.classList.contains('pagedone')) {          initialize();        } else {          window.addEventListener('pagedone', initialize);        }      })();    "
+     }
+    ]
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1injdjg5q0",
+   "content": {
+    "text": "Even the idea of ​​voluntary military training divides the generations in Poland. While a majority of the population supports it, <a target=\"_blank\" href=\"https://wiadomosci.onet.pl/tylko-w-onecie/co-sadzimy-o-szkoleniach-wojskowych-zarysowaly-sie-wyrazne-roznice-sondaz/yhg4gzr?utm_source=www.politico.eu_viasg_wiadomosci&utm_medium=referal&utm_campaign=leo_automatic&srcc=undefined&utm_v=2\">many under 30</a> reject the idea. Nevertheless, Poland's compromise between volunteering and conscription is likely to be closely watched in Western European capitals. From Paris to Berlin to Madrid, the question of mandatory service is once again resurfacing in public debate."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "q-embed",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1injefqb80",
+   "content": {
+    "text": "However, only in France and Germany is there currently a clear majority of the population in favor of reintroducing compulsory military service. The situation is different in Italy, Great Britain, and Spain, where a majority opposes its reintroduction. This is shown by a survey conducted in March by the YouGov polling institute for these countries."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "datawrapper"
+  },
+  {
+   "identifier": "datawrapper",
+   "id": "doc-5VuzcoyffO",
+   "content": {
+    "html": {
+     "service": "free-html",
+     "params": {
+      "embedCode": "<iframe title=\"In Deutschland und Frankreich befürwortet die Bevölkerung die Wiedereinführung der Wehrpflicht\" aria-label=\"Balken (separat)\" id=\"datawrapper-chart-VwmSF\" src=\"https://datawrapper.dwcdn.net/VwmSF/8/\" scrolling=\"no\" frameborder=\"0\" style=\"width: 0; min-width: 100% !important; border: none;\" height=\"359\" data-external=\"1\"></iframe><script type=\"text/javascript\">!function(){\"use strict\";window.addEventListener(\"message\",(function(a){if(void 0!==a.data[\"datawrapper-height\"]){var e=document.querySelectorAll(\"iframe\");for(var t in a.data[\"datawrapper-height\"])for(var r,i=0;r=e[i];i++)if(r.contentWindow===a.source){var d=a.data[\"datawrapper-height\"][t]+\"px\";r.style.height=d}}}))}();\n</script>"
+     },
+     "resolvedValue": {
+      "html": "<iframe title=\"In Deutschland und Frankreich befürwortet die Bevölkerung die Wiedereinführung der Wehrpflicht\" aria-label=\"Balken (separat)\" id=\"datawrapper-chart-VwmSF\" src=\"https://datawrapper.dwcdn.net/VwmSF/8/\" scrolling=\"no\" frameborder=\"0\" style=\"width: 0; min-width: 100% !important; border: none;\" height=\"359\" data-external=\"1\"></iframe><script type=\"text/javascript\">!function(){\"use strict\";window.addEventListener(\"message\",(function(a){if(void 0!==a.data[\"datawrapper-height\"]){var e=document.querySelectorAll(\"iframe\");for(var t in a.data[\"datawrapper-height\"])for(var r,i=0;r=e[i];i++)if(r.contentWindow===a.source){var d=a.data[\"datawrapper-height\"][t]+\"px\";r.style.height=d}}}))}();\n</script>"
+     }
+    }
+   },
+   "styles": {
+    "fullwidth-component": "articlecomponent--fullwidth"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1ineis0gd0",
+   "content": {
+    "text": "The results also reflect other national surveys. However, as in Poland, it shows that even in France and Germany, young people have little support for compulsory military service. It is the 35- to 40-year-olds who overwhelmingly favor it."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "datawrapper",
+   "nextElement": "q-embed"
+  },
+  {
+   "identifier": "q-embed",
+   "id": "doc-1inegpseo0",
+   "content": {
+    "q-embed": {
+     "service": "q-tool",
+     "params": {
+      "id": "ff42fc9dffbfb98a85c0a482801befae",
+      "conf": {},
+      "toolConfig": {},
+      "toolRuntimeConfig": {
+       "size": {
+        "width": [
+         {
+          "value": 100,
+          "comparison": ">"
+         }
+        ]
+       },
+       "displayOptions": {
+        "hideTitle": false,
+        "hideSubtitle": false,
+        "hideFooter": false,
+        "hideAcronym": false,
+        "size": "basic"
+       },
+       "locale": "en_US"
+      },
+      "size": "content"
+     },
+     "resolvedValue": {}
+    },
+    "html": "      <div        class=\"q-chart-container\"        id=\"q_chart_ff42fc9dffbfb98a85c0a482801befae_q6b81cd84b2194d57901f5f1751609bda_container\"        data-q-item-id=\"ff42fc9dffbfb98a85c0a482801befae\"        data-q-request-id=\"ad46cd3e695e8a7dc54b5cdccfb1517c0ba1c274\"      ></div>",
+    "stylesheets": [
+     {
+      "type": "remote",
+      "content": "https://service.sophie.nzz.ch/bundle/sophie-color%23master,sophie-font%23master,sophie-input%23master[button+field],sophie-legend%23master[icon-label],sophie-q%23master,sophie-viz-color%23master.css"
+     },
+     {
+      "type": "inline",
+      "content": "  @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff) format(\"woff\");  }    @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff) format(\"woff\");    unicode-range: U+0020-00FF,U+2005,U+2082;  }      "
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/css-theme-layer/nzz-0.2.0.css"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/chart/q-chart-1.2.6.css"
+     }
+    ],
+    "scripts": [
+     {
+      "type": "inline",
+      "content": "function qTrackingBootstrap(t,e,n){if(window.digitalData&&window.digitalData.component&&window.digitalData.component.push){window.digitalData.component.push(t),window.digitalData.event&&window.digitalData.event.length||(window.digitalData.event=[]);var i=new Date,a=e;a.eventInfo.timeStamp=i.toISOString(),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\");var o=document.querySelectorAll(\"[data-q-request-id='\"+n+\"']\");[].forEach.call(o,function(t){t.addEventListener(\"q-tracking-event\",function(t){var e=new Date;(a=JSON.parse(JSON.stringify(a))).eventInfo.timeStamp=e.toISOString(),a.eventInfo=Object.assign(a.eventInfo,t.detail.eventInfo),a.category=Object.assign(a.category,t.detail.category),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\")},!1)})}};qTrackingBootstrap({\"componentInfo\":{\"componentName\":\"Q\",\"componentID\":\"ff42fc9dffbfb98a85c0a482801befae\"},\"category\":{\"componentType\":\"storytelling\",\"componentSubType1\":\"Q graphic\",\"componentSubType2\":\"chart\"}},{\"eventInfo\":{\"eventName\":\"Storytelling Interaction\",\"eventAction\":\"load\",\"type\":\"story\",\"componentName\":\"Q\",\"eventNonInteractive\":true,\"componentID\":\"ff42fc9dffbfb98a85c0a482801befae\"},\"category\":{\"primaryCategory\":\"storytelling\",\"subCategory1\":\"Q graphic\",\"subCategory2\":\"chart\"}},\"ad46cd3e695e8a7dc54b5cdccfb1517c0ba1c274\")"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/chart/q-chart-1.2.6.js"
+     },
+     {
+      "type": "inline",
+      "content": "      (function () {        function initialize() {          const target = document.querySelector('#q_chart_ff42fc9dffbfb98a85c0a482801befae_q6b81cd84b2194d57901f5f1751609bda_container');          if (!target) return;          target.innerHTML = '';          const qdoc = {\"_id\":\"ff42fc9dffbfb98a85c0a482801befae\",\"allowDownloadData\":false,\"title\":\"France\",\"subtitle\":\"Percentage of respondents in favor of reintroducing conscription\",\"publication\":\"nzz\",\"acronym\":\"jum.\",\"data\":[[null,\"Under 35s\",\"35- to 59-year-olds\",\"60-year-olds and older\"],[\"For that\",\"41\",\"54\",\"63\"]],\"sources\":[{\"text\":\"Ipsos\",\"link\":{\"url\":\"https://www.ipsos.com/fr-fr/les-francais-favorables-un-service-militaire-mais-pas-forcement-obligatoire\"}}],\"events\":[],\"options\":{\"annotations\":{\"valuesOnBars\":true},\"areaChartOptions\":{\"areaInterpolation\":\"linear\",\"stackType\":\"zero\"},\"arrowOptions\":{\"colorScheme\":0,\"invertColorScheme\":false},\"barOptions\":{\"isBarChart\":true,\"forceBarsOnSmall\":false},\"chartType\":\"Bar\",\"colorOverwritesRows\":[],\"colorOverwritesSeries\":[{\"color\":\"#cad8d4\",\"colorLight\":\"\",\"position\":1},{\"color\":\"#84b0b6\",\"colorLight\":\"\",\"position\":2},{\"color\":\"#6899ab\",\"colorLight\":\"\",\"position\":3}],\"dateSeriesOptions\":{\"interval\":\"auto\",\"labels\":\"many\",\"prognosisStart\":null},\"dotplotOptions\":{},\"hideAxisLabel\":true,\"highlightDataRows\":[],\"highlightDataSeries\":[],\"lineChartOptions\":{\"yScaleType\":\"linear\",\"reverseYScale\":false,\"lineInterpolation\":\"linear\",\"isStockChart\":false},\"largeNumbers\":{\"divideBy\":0}},\"updatedDate\":\"2025-04-01T11:17:33.131Z\",\"notes\":\"The survey was conducted between March 12th and 14th, 2025, with 1000 people.\"};          const toolRuntimeConfig = {\"displayOptions\":{\"hideTitle\":false,\"hideSubtitle\":false,\"hideFooter\":false,\"hideAcronym\":false,\"size\":\"basic\"},\"size\":{\"width\":[{\"value\":100,\"comparison\":\">\"}]},\"locale\":\"en-US\"};          const toolSettings = {\"qItemInstanceId\":\"q_chart_ff42fc9dffbfb98a85c0a482801befae_q6b81cd84b2194d57901f5f1751609bda\"};          let attempts = 0;          const maxAttempts = 100;          const checkAndInitialize = setInterval(() => {            if (window.qChart) {              clearInterval(checkAndInitialize);              new window.qChart({ target: target, props: {                qdoc: qdoc,                toolSettings: toolSettings,                toolRuntimeConfig: toolRuntimeConfig              } });            } else {              attempts++;              if (attempts >= maxAttempts) {                clearInterval(checkAndInitialize);                console.error('Failed to initialize qChart after 30 seconds');              }            }          }, 300);        }        if (document.body.classList.contains('pagedone')) {          initialize();        } else {          window.addEventListener('pagedone', initialize);        }      })();    "
+     }
+    ]
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "q-embed"
+  },
+  {
+   "identifier": "q-embed",
+   "id": "doc-1inegq9hb0",
+   "content": {
+    "q-embed": {
+     "service": "q-tool",
+     "params": {
+      "id": "ff42fc9dffbfb98a85c0a48280674f61",
+      "conf": {},
+      "toolConfig": {},
+      "toolRuntimeConfig": {
+       "size": {
+        "width": [
+         {
+          "value": 100,
+          "comparison": ">"
+         }
+        ]
+       },
+       "displayOptions": {
+        "hideTitle": false,
+        "hideSubtitle": true,
+        "hideFooter": false,
+        "hideAcronym": false,
+        "size": "basic"
+       },
+       "locale": "en_US"
+      },
+      "size": "content"
+     },
+     "resolvedValue": {}
+    },
+    "html": "      <div        class=\"q-chart-container\"        id=\"q_chart_ff42fc9dffbfb98a85c0a48280674f61_qc8c21fd1b2ae40e1b7613653cbaec8d3_container\"        data-q-item-id=\"ff42fc9dffbfb98a85c0a48280674f61\"        data-q-request-id=\"60791cec0de23589565bf854bd0aa7d9906967f3\"      ></div>",
+    "stylesheets": [
+     {
+      "type": "remote",
+      "content": "https://service.sophie.nzz.ch/bundle/sophie-color%23master,sophie-font%23master,sophie-input%23master[button+field],sophie-legend%23master[icon-label],sophie-q%23master,sophie-viz-color%23master.css"
+     },
+     {
+      "type": "inline",
+      "content": "  @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff) format(\"woff\");  }    @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff) format(\"woff\");    unicode-range: U+0020-00FF,U+2005,U+2082;  }      "
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/css-theme-layer/nzz-0.2.0.css"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/chart/q-chart-1.2.6.css"
+     }
+    ],
+    "scripts": [
+     {
+      "type": "inline",
+      "content": "function qTrackingBootstrap(t,e,n){if(window.digitalData&&window.digitalData.component&&window.digitalData.component.push){window.digitalData.component.push(t),window.digitalData.event&&window.digitalData.event.length||(window.digitalData.event=[]);var i=new Date,a=e;a.eventInfo.timeStamp=i.toISOString(),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\");var o=document.querySelectorAll(\"[data-q-request-id='\"+n+\"']\");[].forEach.call(o,function(t){t.addEventListener(\"q-tracking-event\",function(t){var e=new Date;(a=JSON.parse(JSON.stringify(a))).eventInfo.timeStamp=e.toISOString(),a.eventInfo=Object.assign(a.eventInfo,t.detail.eventInfo),a.category=Object.assign(a.category,t.detail.category),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\")},!1)})}};qTrackingBootstrap({\"componentInfo\":{\"componentName\":\"Q\",\"componentID\":\"ff42fc9dffbfb98a85c0a48280674f61\"},\"category\":{\"componentType\":\"storytelling\",\"componentSubType1\":\"Q graphic\",\"componentSubType2\":\"chart\"}},{\"eventInfo\":{\"eventName\":\"Storytelling Interaction\",\"eventAction\":\"load\",\"type\":\"story\",\"componentName\":\"Q\",\"eventNonInteractive\":true,\"componentID\":\"ff42fc9dffbfb98a85c0a48280674f61\"},\"category\":{\"primaryCategory\":\"storytelling\",\"subCategory1\":\"Q graphic\",\"subCategory2\":\"chart\"}},\"60791cec0de23589565bf854bd0aa7d9906967f3\")"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/chart/q-chart-1.2.6.js"
+     },
+     {
+      "type": "inline",
+      "content": "      (function () {        function initialize() {          const target = document.querySelector('#q_chart_ff42fc9dffbfb98a85c0a48280674f61_qc8c21fd1b2ae40e1b7613653cbaec8d3_container');          if (!target) return;          target.innerHTML = '';          const qdoc = {\"_id\":\"ff42fc9dffbfb98a85c0a48280674f61\",\"allowDownloadData\":false,\"title\":\"Germany\",\"subtitle\":\"Percentage of respondents in favor of reintroducing conscription\",\"publication\":\"nzz\",\"acronym\":\"jum.\",\"data\":[[null,\"18- to 29-year-olds\",\"30- to 39-year-olds\",\"40- to 49-year-olds\",\"50- to 59-year-olds\",\"60- to 69-year-olds\",\"70-year-olds and older\"],[\"For that\",\"28\",\"42\",\"46\",\"53\",\"61\",\"60\"]],\"sources\":[{\"text\":\"Insa\",\"link\":{\"url\":\"https://www.bild.de/politik/inland/bundeswehr-diskussion-aeltere-fuer-wehrpflicht-juengere-dagegen-67e958927d9ef62cd5d09818#fromWall\"}}],\"events\":[],\"options\":{\"annotations\":{\"valuesOnBars\":true},\"areaChartOptions\":{\"areaInterpolation\":\"linear\",\"stackType\":\"zero\"},\"arrowOptions\":{\"colorScheme\":0,\"invertColorScheme\":false},\"barOptions\":{\"isBarChart\":true,\"forceBarsOnSmall\":false},\"chartType\":\"Bar\",\"colorOverwritesRows\":[],\"colorOverwritesSeries\":[{\"color\":\"#cad8d4\",\"colorLight\":\"\",\"position\":1},{\"color\":\"#84b0b6\",\"colorLight\":\"\",\"position\":2},{\"color\":\"#6899ab\",\"colorLight\":\"\",\"position\":3},{\"color\":\"#5082a1\",\"colorLight\":\"\",\"position\":4},{\"color\":\"#53b4d9\",\"colorLight\":\"\",\"position\":6}],\"dateSeriesOptions\":{\"interval\":\"auto\",\"labels\":\"many\",\"prognosisStart\":null},\"dotplotOptions\":{},\"hideAxisLabel\":true,\"highlightDataRows\":[],\"highlightDataSeries\":[],\"lineChartOptions\":{\"yScaleType\":\"linear\",\"reverseYScale\":false,\"lineInterpolation\":\"linear\",\"isStockChart\":false},\"largeNumbers\":{\"divideBy\":0}},\"updatedDate\":\"2025-04-01T11:45:00.999Z\",\"notes\":\"The survey was conducted between March 27th and 28th, 2025, with 1003 participants. The margin of error is ±3 percentage points.\"};          const toolRuntimeConfig = {\"displayOptions\":{\"hideTitle\":false,\"hideSubtitle\":true,\"hideFooter\":false,\"hideAcronym\":false,\"size\":\"basic\"},\"size\":{\"width\":[{\"value\":100,\"comparison\":\">\"}]},\"locale\":\"en-US\"};          const toolSettings = {\"qItemInstanceId\":\"q_chart_ff42fc9dffbfb98a85c0a48280674f61_qc8c21fd1b2ae40e1b7613653cbaec8d3\"};          let attempts = 0;          const maxAttempts = 100;          const checkAndInitialize = setInterval(() => {            if (window.qChart) {              clearInterval(checkAndInitialize);              new window.qChart({ target: target, props: {                qdoc: qdoc,                toolSettings: toolSettings,                toolRuntimeConfig: toolRuntimeConfig              } });            } else {              attempts++;              if (attempts >= maxAttempts) {                clearInterval(checkAndInitialize);                console.error('Failed to initialize qChart after 30 seconds');              }            }          }, 300);        }        if (document.body.classList.contains('pagedone')) {          initialize();        } else {          window.addEventListener('pagedone', initialize);        }      })();    "
+     }
+    ]
+   },
+   "paidContent": true,
+   "prevElement": "q-embed",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1injdushq0",
+   "content": {
+    "text": "In Italy and Spain, even among older generations, there is a lack of clear support for conscription. However, support is lowest among potential recruits, where only about a third would be in favor of mandatory service."
+   },
+   "paidContent": true,
+   "prevElement": "q-embed",
+   "nextElement": "q-embed"
+  },
+  {
+   "identifier": "q-embed",
+   "id": "doc-1inegqcbd0",
+   "content": {
+    "q-embed": {
+     "service": "q-tool",
+     "params": {
+      "id": "50f5f9f48c3ba32070a3a08cc60fbbd9",
+      "conf": {},
+      "toolConfig": {},
+      "toolRuntimeConfig": {
+       "size": {
+        "width": [
+         {
+          "value": 100,
+          "comparison": ">"
+         }
+        ]
+       },
+       "displayOptions": {
+        "hideTitle": false,
+        "hideSubtitle": true,
+        "hideFooter": false,
+        "hideAcronym": false,
+        "size": "basic"
+       },
+       "locale": "en_US"
+      },
+      "size": "content"
+     },
+     "resolvedValue": {}
+    },
+    "html": "      <div        class=\"q-chart-container\"        id=\"q_chart_50f5f9f48c3ba32070a3a08cc60fbbd9_qbee57c2680c74c89bcd29d803b6c8b66_container\"        data-q-item-id=\"50f5f9f48c3ba32070a3a08cc60fbbd9\"        data-q-request-id=\"5ec935ada7195bc909fabefefad0897faa2b5ac2\"      ></div>",
+    "stylesheets": [
+     {
+      "type": "remote",
+      "content": "https://service.sophie.nzz.ch/bundle/sophie-color%23master,sophie-font%23master,sophie-input%23master[button+field],sophie-legend%23master[icon-label],sophie-q%23master,sophie-viz-color%23master.css"
+     },
+     {
+      "type": "inline",
+      "content": "  @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff) format(\"woff\");  }    @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff) format(\"woff\");    unicode-range: U+0020-00FF,U+2005,U+2082;  }      "
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/css-theme-layer/nzz-0.2.0.css"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/chart/q-chart-1.2.6.css"
+     }
+    ],
+    "scripts": [
+     {
+      "type": "inline",
+      "content": "function qTrackingBootstrap(t,e,n){if(window.digitalData&&window.digitalData.component&&window.digitalData.component.push){window.digitalData.component.push(t),window.digitalData.event&&window.digitalData.event.length||(window.digitalData.event=[]);var i=new Date,a=e;a.eventInfo.timeStamp=i.toISOString(),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\");var o=document.querySelectorAll(\"[data-q-request-id='\"+n+\"']\");[].forEach.call(o,function(t){t.addEventListener(\"q-tracking-event\",function(t){var e=new Date;(a=JSON.parse(JSON.stringify(a))).eventInfo.timeStamp=e.toISOString(),a.eventInfo=Object.assign(a.eventInfo,t.detail.eventInfo),a.category=Object.assign(a.category,t.detail.category),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\")},!1)})}};qTrackingBootstrap({\"componentInfo\":{\"componentName\":\"Q\",\"componentID\":\"50f5f9f48c3ba32070a3a08cc60fbbd9\"},\"category\":{\"componentType\":\"storytelling\",\"componentSubType1\":\"Q graphic\",\"componentSubType2\":\"chart\"}},{\"eventInfo\":{\"eventName\":\"Storytelling Interaction\",\"eventAction\":\"load\",\"type\":\"story\",\"componentName\":\"Q\",\"eventNonInteractive\":true,\"componentID\":\"50f5f9f48c3ba32070a3a08cc60fbbd9\"},\"category\":{\"primaryCategory\":\"storytelling\",\"subCategory1\":\"Q graphic\",\"subCategory2\":\"chart\"}},\"5ec935ada7195bc909fabefefad0897faa2b5ac2\")"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/chart/q-chart-1.2.6.js"
+     },
+     {
+      "type": "inline",
+      "content": "      (function () {        function initialize() {          const target = document.querySelector('#q_chart_50f5f9f48c3ba32070a3a08cc60fbbd9_qbee57c2680c74c89bcd29d803b6c8b66_container');          if (!target) return;          target.innerHTML = '';          const qdoc = {\"_id\":\"50f5f9f48c3ba32070a3a08cc60fbbd9\",\"allowDownloadData\":false,\"title\":\"Italy\",\"subtitle\":\"Percentage of respondents in favor of reintroducing conscription\",\"publication\":\"nzz\",\"acronym\":\"jum.\",\"data\":[[null,\"18- to 34-year-olds\",\"35- to 54-year-olds\",\"55-year-olds and older\"],[\"For that\",\"36\",\"51\",\"49\"]],\"sources\":[],\"events\":[],\"options\":{\"annotations\":{\"valuesOnBars\":true},\"areaChartOptions\":{\"areaInterpolation\":\"linear\",\"stackType\":\"zero\"},\"arrowOptions\":{\"colorScheme\":0,\"invertColorScheme\":false},\"barOptions\":{\"isBarChart\":true,\"forceBarsOnSmall\":false},\"chartType\":\"Bar\",\"colorOverwritesRows\":[],\"colorOverwritesSeries\":[{\"color\":\"#cad8d4\",\"colorLight\":\"\",\"position\":1},{\"color\":\"#84b0b6\",\"colorLight\":\"\",\"position\":2},{\"color\":\"#6899ab\",\"colorLight\":\"\",\"position\":3}],\"dateSeriesOptions\":{\"interval\":\"auto\",\"labels\":\"many\",\"prognosisStart\":null},\"dotplotOptions\":{},\"hideAxisLabel\":true,\"highlightDataRows\":[],\"highlightDataSeries\":[],\"lineChartOptions\":{\"yScaleType\":\"linear\",\"reverseYScale\":false,\"lineInterpolation\":\"linear\",\"isStockChart\":false},\"largeNumbers\":{\"divideBy\":0}},\"updatedDate\":\"2025-04-03T07:07:12.025Z\",\"notes\":\"The survey was conducted between September 18 and 20, 2024, with 1203 participants. The margin of error is ±2.8 percentage points. Source: <a href=\\\"https://tg24.sky.it/politica/2024/09/23/leva-obbligatoria-sondaggio-italiani\\n\\\">Youtrend</a>\"};          const toolRuntimeConfig = {\"displayOptions\":{\"hideTitle\":false,\"hideSubtitle\":true,\"hideFooter\":false,\"hideAcronym\":false,\"size\":\"basic\"},\"size\":{\"width\":[{\"value\":100,\"comparison\":\">\"}]},\"locale\":\"en-US\"};          const toolSettings = {\"qItemInstanceId\":\"q_chart_50f5f9f48c3ba32070a3a08cc60fbbd9_qbee57c2680c74c89bcd29d803b6c8b66\"};          let attempts = 0;          const maxAttempts = 100;          const checkAndInitialize = setInterval(() => {            if (window.qChart) {              clearInterval(checkAndInitialize);              new window.qChart({ target: target, props: {                qdoc: qdoc,                toolSettings: toolSettings,                toolRuntimeConfig: toolRuntimeConfig              } });            } else {              attempts++;              if (attempts >= maxAttempts) {                clearInterval(checkAndInitialize);                console.error('Failed to initialize qChart after 30 seconds');              }            }          }, 300);        }        if (document.body.classList.contains('pagedone')) {          initialize();        } else {          window.addEventListener('pagedone', initialize);        }      })();    "
+     }
+    ]
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "q-embed"
+  },
+  {
+   "identifier": "q-embed",
+   "id": "doc-1inja8q4d0",
+   "content": {
+    "q-embed": {
+     "service": "q-tool",
+     "params": {
+      "id": "50f5f9f48c3ba32070a3a08cc641a983",
+      "conf": {},
+      "toolConfig": {},
+      "toolRuntimeConfig": {
+       "size": {
+        "width": [
+         {
+          "value": 100,
+          "comparison": ">"
+         }
+        ]
+       },
+       "displayOptions": {
+        "hideTitle": false,
+        "hideSubtitle": true,
+        "hideFooter": false,
+        "hideAcronym": false,
+        "size": "basic"
+       },
+       "locale": "en_US"
+      },
+      "size": "content"
+     },
+     "resolvedValue": {}
+    },
+    "html": "      <div        class=\"q-chart-container\"        id=\"q_chart_50f5f9f48c3ba32070a3a08cc641a983_q0088f444158d485a83399a47d2170a8a_container\"        data-q-item-id=\"50f5f9f48c3ba32070a3a08cc641a983\"        data-q-request-id=\"751ac858bfc140114494add82a82151deac47362\"      ></div>",
+    "stylesheets": [
+     {
+      "type": "remote",
+      "content": "https://service.sophie.nzz.ch/bundle/sophie-color%23master,sophie-font%23master,sophie-input%23master[button+field],sophie-legend%23master[icon-label],sophie-q%23master,sophie-viz-color%23master.css"
+     },
+     {
+      "type": "inline",
+      "content": "  @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff) format(\"woff\");  }    @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff) format(\"woff\");    unicode-range: U+0020-00FF,U+2005,U+2082;  }      "
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/css-theme-layer/nzz-0.2.0.css"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/chart/q-chart-1.2.6.css"
+     }
+    ],
+    "scripts": [
+     {
+      "type": "inline",
+      "content": "function qTrackingBootstrap(t,e,n){if(window.digitalData&&window.digitalData.component&&window.digitalData.component.push){window.digitalData.component.push(t),window.digitalData.event&&window.digitalData.event.length||(window.digitalData.event=[]);var i=new Date,a=e;a.eventInfo.timeStamp=i.toISOString(),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\");var o=document.querySelectorAll(\"[data-q-request-id='\"+n+\"']\");[].forEach.call(o,function(t){t.addEventListener(\"q-tracking-event\",function(t){var e=new Date;(a=JSON.parse(JSON.stringify(a))).eventInfo.timeStamp=e.toISOString(),a.eventInfo=Object.assign(a.eventInfo,t.detail.eventInfo),a.category=Object.assign(a.category,t.detail.category),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\")},!1)})}};qTrackingBootstrap({\"componentInfo\":{\"componentName\":\"Q\",\"componentID\":\"50f5f9f48c3ba32070a3a08cc641a983\"},\"category\":{\"componentType\":\"storytelling\",\"componentSubType1\":\"Q graphic\",\"componentSubType2\":\"chart\"}},{\"eventInfo\":{\"eventName\":\"Storytelling Interaction\",\"eventAction\":\"load\",\"type\":\"story\",\"componentName\":\"Q\",\"eventNonInteractive\":true,\"componentID\":\"50f5f9f48c3ba32070a3a08cc641a983\"},\"category\":{\"primaryCategory\":\"storytelling\",\"subCategory1\":\"Q graphic\",\"subCategory2\":\"chart\"}},\"751ac858bfc140114494add82a82151deac47362\")"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/chart/q-chart-1.2.6.js"
+     },
+     {
+      "type": "inline",
+      "content": "      (function () {        function initialize() {          const target = document.querySelector('#q_chart_50f5f9f48c3ba32070a3a08cc641a983_q0088f444158d485a83399a47d2170a8a_container');          if (!target) return;          target.innerHTML = '';          const qdoc = {\"_id\":\"50f5f9f48c3ba32070a3a08cc641a983\",\"allowDownloadData\":false,\"title\":\"Spain\",\"subtitle\":\"Percentage of respondents in favor of reintroducing conscription\",\"publication\":\"nzz\",\"acronym\":\"jum.\",\"data\":[[null,\"18- to 24-year-olds\",\"25- to 34-year-olds\",\"35- to 44-year-olds\",\"45- to 54-year-olds\",\"55-year-olds and older\"],[\"For that\",\"34\",\"34\",\"40\",\"47\",\"44\"]],\"sources\":[{\"text\":\"Yougov via «El País»\",\"link\":{\"url\":\"https://elpais.com/actualidad/newsletter-kiko-llaneras/2025-03-22/quien-quiere-recuperar-la-mili-datos-por-edad-sexo-e-ideologia.html\"}}],\"events\":[],\"options\":{\"annotations\":{\"valuesOnBars\":true},\"areaChartOptions\":{\"areaInterpolation\":\"linear\",\"stackType\":\"zero\"},\"arrowOptions\":{\"colorScheme\":0,\"invertColorScheme\":false},\"barOptions\":{\"isBarChart\":true,\"forceBarsOnSmall\":false},\"chartType\":\"Bar\",\"colorOverwritesRows\":[],\"colorOverwritesSeries\":[{\"color\":\"#cad8d4\",\"colorLight\":\"\",\"position\":1},{\"color\":\"#84b0b6\",\"colorLight\":\"\",\"position\":2},{\"color\":\"#6899ab\",\"colorLight\":\"\",\"position\":3},{\"color\":\"#5082a1\",\"colorLight\":\"\",\"position\":4},{\"color\":\"#3f6998\",\"colorLight\":\"\",\"position\":5}],\"dateSeriesOptions\":{\"interval\":\"auto\",\"labels\":\"many\",\"prognosisStart\":null},\"dotplotOptions\":{},\"hideAxisLabel\":true,\"highlightDataRows\":[],\"highlightDataSeries\":[],\"lineChartOptions\":{\"yScaleType\":\"linear\",\"reverseYScale\":false,\"lineInterpolation\":\"linear\",\"isStockChart\":false},\"largeNumbers\":{\"divideBy\":0}},\"updatedDate\":\"2025-04-01T11:20:48.881Z\",\"notes\":\"The survey was conducted between February 25th and March 4th, 2025, with 1000 people.\"};          const toolRuntimeConfig = {\"displayOptions\":{\"hideTitle\":false,\"hideSubtitle\":true,\"hideFooter\":false,\"hideAcronym\":false,\"size\":\"basic\"},\"size\":{\"width\":[{\"value\":100,\"comparison\":\">\"}]},\"locale\":\"en-US\"};          const toolSettings = {\"qItemInstanceId\":\"q_chart_50f5f9f48c3ba32070a3a08cc641a983_q0088f444158d485a83399a47d2170a8a\"};          let attempts = 0;          const maxAttempts = 100;          const checkAndInitialize = setInterval(() => {            if (window.qChart) {              clearInterval(checkAndInitialize);              new window.qChart({ target: target, props: {                qdoc: qdoc,                toolSettings: toolSettings,                toolRuntimeConfig: toolRuntimeConfig              } });            } else {              attempts++;              if (attempts >= maxAttempts) {                clearInterval(checkAndInitialize);                console.error('Failed to initialize qChart after 30 seconds');              }            }          }, 300);        }        if (document.body.classList.contains('pagedone')) {          initialize();        } else {          window.addEventListener('pagedone', initialize);        }      })();    "
+     }
+    ]
+   },
+   "paidContent": true,
+   "prevElement": "q-embed",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1injgmti00",
+   "content": {
+    "text": "The situation is quite different in Switzerland, where conscription is still in place. According to the latest <a target=\"_blank\" href=\"https://www.newsd.admin.ch/newsd/message/attachments/86738.pdf\">study by the army,</a> only 31 percent of those surveyed want to abolish the system. Among 18- to 34-year-olds, the figure is higher at 39 percent – ​​but this represents a significant decline: in 2023, almost half of young people were in favor of ending conscription."
+   },
+   "paidContent": true,
+   "prevElement": "q-embed",
+   "nextElement": "divider"
+  },
+  {
+   "identifier": "divider",
+   "id": "doc-1ino3tr2o0",
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1in9n5mjr0",
+   "content": {
+    "title": "How high is the willingness to fight in an emergency?",
+    "id": "subtitle-wie-hoch-ist-die-bereitschaft-im-ernstfall-zu-k-mpfen"
+   },
+   "contentTable": true,
+   "paidContent": true,
+   "prevElement": "divider",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1inj96og10",
+   "content": {
+    "text": "While the debate about military service is often conducted theoretically, in a real emergency a completely different question comes to the fore: Who would actually be willing to fight for their country in a crisis?"
+   },
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1injhcpqq0",
+   "content": {
+    "text": "A year ago, a survey in Great Britain caused a stir in this context. It showed that not only do many Britons oppose conscription; around a third of those under 40 even stated that they would refuse military service if their country were threatened with invasion."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "q-embed"
+  },
+  {
+   "identifier": "q-embed",
+   "id": "doc-1inegqjf20",
+   "content": {
+    "q-embed": {
+     "service": "q-tool",
+     "params": {
+      "id": "50f5f9f48c3ba32070a3a08cc65962d1",
+      "conf": {},
+      "toolConfig": {},
+      "toolRuntimeConfig": {
+       "size": {
+        "width": [
+         {
+          "value": 100,
+          "comparison": ">"
+         }
+        ]
+       },
+       "displayOptions": {
+        "hideTitle": true,
+        "hideSubtitle": false,
+        "hideFooter": false,
+        "hideAcronym": false,
+        "size": "basic"
+       },
+       "locale": "en_US"
+      },
+      "size": "content"
+     },
+     "resolvedValue": {}
+    },
+    "html": "      <div        class=\"q-chart-container\"        id=\"q_chart_50f5f9f48c3ba32070a3a08cc65962d1_qa2c91438c45c4853b2b2adaedf641824_container\"        data-q-item-id=\"50f5f9f48c3ba32070a3a08cc65962d1\"        data-q-request-id=\"38c73d2026d64ee818f9b2d72e9f7750bd4a063d\"      ></div>",
+    "stylesheets": [
+     {
+      "type": "remote",
+      "content": "https://service.sophie.nzz.ch/bundle/sophie-color%23master,sophie-font%23master,sophie-input%23master[button+field],sophie-legend%23master[icon-label],sophie-q%23master,sophie-viz-color%23master.css"
+     },
+     {
+      "type": "inline",
+      "content": "  @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff) format(\"woff\");  }    @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff) format(\"woff\");    unicode-range: U+0020-00FF,U+2005,U+2082;  }      "
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/css-theme-layer/nzz-0.2.0.css"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/chart/q-chart-1.2.6.css"
+     }
+    ],
+    "scripts": [
+     {
+      "type": "inline",
+      "content": "function qTrackingBootstrap(t,e,n){if(window.digitalData&&window.digitalData.component&&window.digitalData.component.push){window.digitalData.component.push(t),window.digitalData.event&&window.digitalData.event.length||(window.digitalData.event=[]);var i=new Date,a=e;a.eventInfo.timeStamp=i.toISOString(),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\");var o=document.querySelectorAll(\"[data-q-request-id='\"+n+\"']\");[].forEach.call(o,function(t){t.addEventListener(\"q-tracking-event\",function(t){var e=new Date;(a=JSON.parse(JSON.stringify(a))).eventInfo.timeStamp=e.toISOString(),a.eventInfo=Object.assign(a.eventInfo,t.detail.eventInfo),a.category=Object.assign(a.category,t.detail.category),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\")},!1)})}};qTrackingBootstrap({\"componentInfo\":{\"componentName\":\"Q\",\"componentID\":\"50f5f9f48c3ba32070a3a08cc65962d1\"},\"category\":{\"componentType\":\"storytelling\",\"componentSubType1\":\"Q graphic\",\"componentSubType2\":\"chart\"}},{\"eventInfo\":{\"eventName\":\"Storytelling Interaction\",\"eventAction\":\"load\",\"type\":\"story\",\"componentName\":\"Q\",\"eventNonInteractive\":true,\"componentID\":\"50f5f9f48c3ba32070a3a08cc65962d1\"},\"category\":{\"primaryCategory\":\"storytelling\",\"subCategory1\":\"Q graphic\",\"subCategory2\":\"chart\"}},\"38c73d2026d64ee818f9b2d72e9f7750bd4a063d\")"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/chart/q-chart-1.2.6.js"
+     },
+     {
+      "type": "inline",
+      "content": "      (function () {        function initialize() {          const target = document.querySelector('#q_chart_50f5f9f48c3ba32070a3a08cc65962d1_qa2c91438c45c4853b2b2adaedf641824_container');          if (!target) return;          target.innerHTML = '';          const qdoc = {\"_id\":\"50f5f9f48c3ba32070a3a08cc65962d1\",\"allowDownloadData\":false,\"title\":\"Around a third of Britons under 40 would refuse military service in the event of war\",\"subtitle\":\"Answers to the question of what would be done if a new world war broke out and Great Britain was threatened with invasion, in percent of respondents\",\"publication\":\"nzz\",\"acronym\":\"jum.\",\"data\":[[\"zero\",\"Volunteer for military service\",\"draw\",\"Not fit for service\",\"Not volunteering, but fulfilling a service obligation\",\"Not volunteering and refusing service\"],[\"18- to 40-year-olds\",\"11\",\"20\",\"16\",\"23\",\"30\"]],\"sources\":[{\"text\":\"Yougov\",\"link\":{\"url\":\"https://yougov.co.uk/politics/articles/48473-more-than-a-third-of-under-40s-would-refuse-conscription-in-the-event-of-a-world-war\"}}],\"events\":[],\"options\":{\"annotations\":{\"valuesOnBars\":true},\"areaChartOptions\":{\"areaInterpolation\":\"linear\",\"stackType\":\"zero\"},\"arrowOptions\":{\"colorScheme\":0,\"invertColorScheme\":false},\"barOptions\":{\"isBarChart\":true,\"forceBarsOnSmall\":false},\"chartType\":\"StackedBar\",\"colorOverwritesRows\":[],\"colorOverwritesSeries\":[{\"color\":\"#ce4731\",\"colorLight\":\"\",\"position\":4},{\"color\":\"#93144b\",\"colorLight\":\"\",\"position\":5},{\"color\":\"#c7c7c7\",\"colorLight\":\"\",\"position\":3},{\"color\":\"#7e7e8f\",\"colorLight\":\"\",\"position\":2}],\"dateSeriesOptions\":{\"interval\":\"auto\",\"labels\":\"many\",\"prognosisStart\":null},\"dotplotOptions\":{},\"hideAxisLabel\":true,\"highlightDataRows\":[],\"highlightDataSeries\":[],\"lineChartOptions\":{\"yScaleType\":\"linear\",\"reverseYScale\":false,\"lineInterpolation\":\"linear\",\"isStockChart\":false},\"largeNumbers\":{\"divideBy\":0}},\"updatedDate\":\"2025-04-01T11:24:48.665Z\",\"notes\":\"The survey was conducted on January 26, 2024, with over 3000 people.\"};          const toolRuntimeConfig = {\"displayOptions\":{\"hideTitle\":true,\"hideSubtitle\":false,\"hideFooter\":false,\"hideAcronym\":false,\"size\":\"basic\"},\"size\":{\"width\":[{\"value\":100,\"comparison\":\">\"}]},\"locale\":\"en-US\"};          const toolSettings = {\"qItemInstanceId\":\"q_chart_50f5f9f48c3ba32070a3a08cc65962d1_qa2c91438c45c4853b2b2adaedf641824\"};          let attempts = 0;          const maxAttempts = 100;          const checkAndInitialize = setInterval(() => {            if (window.qChart) {              clearInterval(checkAndInitialize);              new window.qChart({ target: target, props: {                qdoc: qdoc,                toolSettings: toolSettings,                toolRuntimeConfig: toolRuntimeConfig              } });            } else {              attempts++;              if (attempts >= maxAttempts) {                clearInterval(checkAndInitialize);                console.error('Failed to initialize qChart after 30 seconds');              }            }          }, 300);        }        if (document.body.classList.contains('pagedone')) {          initialize();        } else {          window.addEventListener('pagedone', initialize);        }      })();    "
+     }
+    ]
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1injgo2jv0",
+   "content": {
+    "text": "The willingness to fight for one's country in a crisis is, in recent times, about as moderate among the British as in other major European countries. According to a Gallup poll conducted every ten years, in 2024 less than half of respondents in most European countries would take up arms to defend their country in a crisis."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "q-embed",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1inm7b3pg1",
+   "content": {
+    "text": "In Great Britain and Spain, around a third of the population would still fight. In Germany and Austria, this figure drops to 20 percent. Italy brings up the rear: only 14 percent of the population would be prepared to defend the country in a crisis. Compared to the 2014 survey, this willingness has declined even further."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "q-embed"
+  },
+  {
+   "identifier": "q-embed",
+   "id": "doc-1inm5ua9t0",
+   "content": {
+    "q-embed": {
+     "service": "q-tool",
+     "params": {
+      "id": "50f5f9f48c3ba32070a3a08cc63f89f2",
+      "conf": {},
+      "toolConfig": {},
+      "toolRuntimeConfig": {
+       "size": {
+        "width": [
+         {
+          "value": 100,
+          "comparison": ">"
+         }
+        ]
+       },
+       "displayOptions": {
+        "hideTitle": false,
+        "hideSubtitle": false,
+        "hideFooter": false,
+        "hideAcronym": false
+       },
+       "locale": "en_US"
+      },
+      "size": "content"
+     },
+     "resolvedValue": {}
+    },
+    "html": "      <div        class=\"q-table-container\"        id=\"q_table_50f5f9f48c3ba32070a3a08cc63f89f2_qcfcbfa210cc64f88b56d980944ca7f91_container\"        data-q-item-id=\"50f5f9f48c3ba32070a3a08cc63f89f2\"        data-q-request-id=\"02c58e5d4598ecdf577347f9488ad07dcc897f3f\"      ></div>",
+    "stylesheets": [
+     {
+      "type": "remote",
+      "content": "https://service.sophie.nzz.ch/bundle/sophie-color%23master,sophie-font%23master,sophie-input%23master[button+field],sophie-legend%23master[icon-label],sophie-q%23master,sophie-viz-color%23master.css"
+     },
+     {
+      "type": "inline",
+      "content": "  @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff) format(\"woff\");  }    @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff) format(\"woff\");    unicode-range: U+0020-00FF,U+2005,U+2082;  }      "
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/css-theme-layer/nzz-0.2.0.css"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/table/q-table-7.10.6.css"
+     }
+    ],
+    "scripts": [
+     {
+      "type": "inline",
+      "content": "function qTrackingBootstrap(t,e,n){if(window.digitalData&&window.digitalData.component&&window.digitalData.component.push){window.digitalData.component.push(t),window.digitalData.event&&window.digitalData.event.length||(window.digitalData.event=[]);var i=new Date,a=e;a.eventInfo.timeStamp=i.toISOString(),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\");var o=document.querySelectorAll(\"[data-q-request-id='\"+n+\"']\");[].forEach.call(o,function(t){t.addEventListener(\"q-tracking-event\",function(t){var e=new Date;(a=JSON.parse(JSON.stringify(a))).eventInfo.timeStamp=e.toISOString(),a.eventInfo=Object.assign(a.eventInfo,t.detail.eventInfo),a.category=Object.assign(a.category,t.detail.category),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\")},!1)})}};qTrackingBootstrap({\"componentInfo\":{\"componentName\":\"Q\",\"componentID\":\"50f5f9f48c3ba32070a3a08cc63f89f2\"},\"category\":{\"componentType\":\"storytelling\",\"componentSubType1\":\"Q graphic\",\"componentSubType2\":\"table\"}},{\"eventInfo\":{\"eventName\":\"Storytelling Interaction\",\"eventAction\":\"load\",\"type\":\"story\",\"componentName\":\"Q\",\"eventNonInteractive\":true,\"componentID\":\"50f5f9f48c3ba32070a3a08cc63f89f2\"},\"category\":{\"primaryCategory\":\"storytelling\",\"subCategory1\":\"Q graphic\",\"subCategory2\":\"table\"}},\"02c58e5d4598ecdf577347f9488ad07dcc897f3f\")"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/table/q-table-7.10.6.js"
+     },
+     {
+      "type": "inline",
+      "content": "      (function () {        function initialize() {          const target = document.querySelector('#q_table_50f5f9f48c3ba32070a3a08cc63f89f2_qcfcbfa210cc64f88b56d980944ca7f91_container');          if (!target) return;          target.innerHTML = '';          const qdoc = {\"_id\":\"50f5f9f48c3ba32070a3a08cc63f89f2\",\"title\":\"Not everywhere in Europe are people prepared to resort to weapons in an emergency\",\"subtitle\":\"Percentage of respondents who answered «yes» to the question of whether they would defend their country in the event of war\",\"publication\":\"nzz\",\"acronym\":\"jum.\",\"data\":{\"table\":[[\"country\",\"2014\",\"2024\",\"change\"],[\"Finland*\",\"74\",\"-\",null],[\"Türkiye*\",\"73\",\"-\",null],[\"Sweden\",\"55\",\"47\",\"-8\"],[\"Poland\",\"47\",\"45\",\"-2\"],[\"Switzerland\",\"39\",\"41\",\"+2\"],[\"Bosnia and Herzegovina\",\"55\",\"40\",\"-15\"],[\"Portugal*\",\"28\",\"39\",\"+11\"],[\"Denmark*\",\"37\",\"-\",\"\"],[\"Great Britain\",\"27\",\"33\",\"+6\"],[\"France*\",\"29\",\"-\",\"\"],[\"Spain\",\"22\",\"29\",\"+7\"],[\"Germany\",\"18\",\"23\",\"+5\"],[\"Austria\",\"21\",\"20\",\"-1\"],[\"Italy\",\"20\",\"14\",\"-6\"],[\"Netherlands*\",\"15\",\"-\"]],\"metaData\":{\"cells\":[]}},\"sources\":[{\"text\":\"Gallup 2014\",\"link\":{\"url\":\"https://www.gallup-international.com/fileadmin/user_upload/publications/GIA-Book-2015.pdf\"}},{\"text\":\"2024\",\"link\":{\"url\":\"https://www.gallup-international.bg/en/48127/fewer-people-are-willing-to-fight-for-their-country-compared-to-ten-years-ago/\"}}],\"options\":{\"hideTableHeader\":false,\"showTableSearch\":false,\"cardLayout\":false,\"cardLayoutIfSmall\":false,\"hideLegend\":false,\"pageSize\":15,\"frozenRowKey\":null,\"sorting\":[{\"column\":2,\"sortingDirection\":\"asc\"},{\"column\":1,\"sortingDirection\":\"asc\"}],\"formatting\":[{\"column\":1,\"formattingType\":\"0%\"},{\"column\":2,\"formattingType\":\"0%\"}],\"minibar\":{\"selectedColumn\":3,\"invertColors\":false,\"barColor\":{\"positive\":{\"className\":\"\",\"colorCode\":\"\"},\"negative\":{\"className\":\"\",\"colorCode\":\"\"}}},\"colorColumn\":{\"colorColumnType\":\"numerical\",\"selectedColumn\":null,\"numericalOptions\":{\"labelLegend\":\"noLabel\",\"bucketType\":\"ckmeans\",\"numberBuckets\":5,\"scale\":\"sequential\",\"colorScheme\":\"one\",\"colorOverwrites\":[],\"customBuckets\":\"\"},\"categoricalOptions\":{\"colorOverwrites\":[],\"customCategoriesOrder\":[]}}},\"updatedDate\":\"2025-04-01T10:17:23.756Z\",\"notes\":\"* Countries not included in the 2024 Gallup study.<br/> The surveys took place between October and December, with at least 1000 participants per country. The margin of error is ±3 percentage points.\"};          const toolRuntimeConfig = {\"displayOptions\":{\"hideTitle\":false,\"hideSubtitle\":false,\"hideFooter\":false,\"hideAcronym\":false},\"size\":{\"width\":[{\"value\":100,\"comparison\":\">\"}]},\"locale\":\"en-US\"};          const toolSettings = {\"qItemInstanceId\":\"q_table_50f5f9f48c3ba32070a3a08cc63f89f2_qcfcbfa210cc64f88b56d980944ca7f91\"};          let attempts = 0;          const maxAttempts = 100;          const checkAndInitialize = setInterval(() => {            if (window.qTable) {              clearInterval(checkAndInitialize);              new window.qTable({ target: target, props: {                qdoc: qdoc,                toolSettings: toolSettings,                toolRuntimeConfig: toolRuntimeConfig              } });            } else {              attempts++;              if (attempts >= maxAttempts) {                clearInterval(checkAndInitialize);                console.error('Failed to initialize qTable after 30 seconds');              }            }          }, 300);        }        if (document.body.classList.contains('pagedone')) {          initialize();        } else {          window.addEventListener('pagedone', initialize);        }      })();    "
+     }
+    ]
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1injgu0bd0",
+   "content": {
+    "text": "The situation is different in Finland. Ten years ago, two-thirds of Finns declared their willingness to fight for their country in a crisis – even though Russia had not yet attacked Ukraine and Finland was not yet a NATO member. Both of these things have changed since then."
+   },
+   "paidContent": true,
+   "prevElement": "q-embed",
+   "nextElement": "sharebox",
+   "lastContentElement": true
+  },
+  {
+   "identifier": "sharebox",
+   "id": "doc-1in1c6ik72",
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "related-articles-container"
+  },
+  {
+   "identifier": "related-articles-container",
+   "id": "doc-1in1c6ik73",
+   "content": {
+    "title": "Related articles"
+   },
+   "containers": {
+    "related-articles": [
+     {
+      "identifier": "teaser",
+      "id": "doc-1in1c6ik74",
+      "content": {
+       "owner": "NZZ",
+       "flag": "interview",
+       "title": "«The slogan that Europe is being defended in Ukraine does not convince people.»",
+       "teaserImage": {
+        "originalUrl": "/2025/04/01/4c72039f-40cf-42d5-a5f3-2bec0032313c.jpeg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2025/04/01/4c72039f-40cf-42d5-a5f3-2bec0032313c.jpeg?width=1024&quality=75&auto=webp",
+        "width": 4736,
+        "height": 3507,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "4736,2664,x0,y289"
+         },
+         {
+          "name": "1:1",
+          "crop": "599,599,x2657,y559"
+         },
+         {
+          "name": "4:3",
+          "crop": "4676,3507,x0,y0"
+         },
+         {
+          "name": "3:4",
+          "crop": "2630,3507,x1300,y0"
+         }
+        ],
+        "imageService": "fastly",
+        "teaserCaption": "Despite the increasing military threat, only a small percentage of Europeans are willing to fight. Political philosopher and editor Cameron Abadi explains why.",
+        "teaserAuthor": "Leonhard Foeger / Reuters"
+       },
+       "teaserAuthor": "Leonhard Foeger / Reuters",
+       "nzzasFootnote": false,
+       "folioFootnote": false,
+       "language": {
+        "locale": "de-CH"
+       },
+       "nzzId": "ld.1878011",
+       "readingTime": 420,
+       "authorLine": "Andreas Ernst",
+       "characterCount": 8777,
+       "product": "NZZ.ch",
+       "documentId": 1878011,
+       "layout": "regular",
+       "publicationDate": "2025-04-02T03:30:00.000Z",
+       "publicationLastUpdated": "2025-04-02T08:29:45.888Z",
+       "significantUpdate": false,
+       "significantUpdateTill": "2025-04-02T15:30:00.000Z",
+       "teaserCaption": "Despite the increasing military threat, only a small percentage of Europeans are willing to fight. Political philosopher and editor Cameron Abadi explains why.",
+       "url": "/international/interview-cameron-abadi-kampfbereitschaft-setzt-kulturwandel-voraus-ld.1878011",
+       "department": {
+        "name": "International",
+        "path": "/international"
+       },
+       "estimationWordCount": 1326,
+       "leadText": "Despite the increasing military threat, only a small percentage of Europeans are willing to fight. Political philosopher and editor Cameron Abadi explains why."
+      }
+     },
+     {
+      "identifier": "teaser",
+      "id": "doc-1in1c6ik75",
+      "content": {
+       "owner": "NZZ",
+       "flag": "interview",
+       "title": "\"If an aggressor tests us, we are unfortunately lost,\" says Switzerland's most flamboyant diplomat.",
+       "teaserImage": {
+        "originalUrl": "/2025/03/27/65bfce21-9ffe-44f7-9b05-28ec4aec8a8b.jpeg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2025/03/27/65bfce21-9ffe-44f7-9b05-28ec4aec8a8b.jpeg?width=1024&quality=75&auto=webp",
+        "width": 2810,
+        "height": 4223,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "2810,1581,x0,y1434"
+         },
+         {
+          "name": "1:1",
+          "crop": "1559,1559,x691,y1378"
+         },
+         {
+          "name": "4:3",
+          "crop": "2810,2108,x0,y1341"
+         },
+         {
+          "name": "3:4",
+          "crop": "1974,2632,x508,y1409"
+         }
+        ],
+        "imageService": "fastly",
+        "teaserCaption": "Jacques Pitteloud, the permanent representative to NATO, explains what his war experience has taught him, where he sees the greatest danger for Europe – and what neutral Switzerland must now do.",
+        "teaserAuthor": "Nathalie Taiana / NZZ"
+       },
+       "teaserAuthor": "Nathalie Taiana / NZZ",
+       "nzzasFootnote": false,
+       "folioFootnote": false,
+       "language": {
+        "locale": "de-CH"
+       },
+       "nzzId": "ld.1877472",
+       "readingTime": 780,
+       "authorLine": "Marc Tribelhorn, Antonio Fumagalli, Brussels",
+       "characterCount": 17817,
+       "product": "NZZ.ch",
+       "documentId": 1877472,
+       "layout": "longformstandard",
+       "publicationDate": "2025-03-28T04:38:23.674Z",
+       "publicationLastUpdated": "2025-03-28T04:38:23.674Z",
+       "significantUpdate": false,
+       "significantUpdateTill": "2025-03-28T16:38:23.674Z",
+       "teaserCaption": "Jacques Pitteloud, the permanent representative to NATO, explains what his war experience has taught him, where he sees the greatest danger for Europe – and what neutral Switzerland must now do.",
+       "url": "/schweiz/wenn-uns-ein-aggressor-testet-sind-wir-leider-verloren-sagt-der-schillerndste-diplomat-der-schweiz-ld.1877472",
+       "department": {
+        "name": "Switzerland",
+        "path": "/schweiz"
+       },
+       "estimationWordCount": 2697,
+       "leadText": "Jacques Pitteloud, the permanent representative to NATO, explains what his war experience has taught him, where he sees the greatest danger for Europe – and what neutral Switzerland must now do."
+      }
+     },
+     {
+      "identifier": "teaser",
+      "id": "doc-1in1c6ik76",
+      "content": {
+       "owner": "NZZ",
+       "title": "The Europeans are courting Turkey",
+       "teaserImage": {
+        "originalUrl": "/2025/03/20/faff2009-08a6-4b34-b8af-a0f8a40642bd.jpeg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2025/03/20/faff2009-08a6-4b34-b8af-a0f8a40642bd.jpeg?width=1024&quality=75&auto=webp",
+        "width": 3332,
+        "height": 2019,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "3332,1874,x0,y145"
+         },
+         {
+          "name": "1:1",
+          "crop": "1418,1418,x1259,y400"
+         },
+         {
+          "name": "4:3",
+          "crop": "2692,2019,x394,y0"
+         },
+         {
+          "name": "3:4",
+          "crop": "1514,2019,x1351,y0"
+         }
+        ],
+        "imageService": "fastly",
+        "teaserCaption": "Turkey has a strong arms industry and battle-tested armed forces. This has also been recognized in Europe. Therefore, President Erdogan sees himself in a strong negotiating position vis-à-vis the EU.",
+        "teaserAuthor": "Kenan Gurbuz / Reuters"
+       },
+       "teaserAuthor": "Kenan Gurbuz / Reuters",
+       "nzzasFootnote": false,
+       "folioFootnote": false,
+       "paywallQuestionOne": "What makes Turkey interesting for the EU?",
+       "paywallQuestionTwo": "How is European interest in Turkey manifesting itself?",
+       "paywallQuestionThree": "What are the points of contention between the EU and Turkey?",
+       "language": {
+        "locale": "de-CH"
+       },
+       "nzzId": "ld.1875653",
+       "readingTime": 300,
+       "authorLine": "Volker Pabst, Istanbul",
+       "characterCount": 6658,
+       "product": "NZZ.ch",
+       "documentId": 1875653,
+       "layout": "longformstandard",
+       "publicationDate": "2025-03-21T04:30:00.000Z",
+       "publicationLastUpdated": "2025-03-21T04:30:00.000Z",
+       "significantUpdate": false,
+       "significantUpdateTill": "2025-03-21T16:30:00.000Z",
+       "teaserCaption": "Turkey has a strong arms industry and battle-tested armed forces. This has also been recognized in Europe. Therefore, President Erdogan sees himself in a strong negotiating position vis-à-vis the EU.",
+       "url": "/international/erdogan-in-machtposition-die-tuerkei-ist-fuer-europas-sicherheit-wichtig-ld.1875653",
+       "department": {
+        "name": "International",
+        "path": "/international"
+       },
+       "estimationWordCount": 983,
+       "premium": true,
+       "leadText": "Turkey has a strong arms industry and battle-tested armed forces. This has also been recognized in Europe. Therefore, President Erdogan sees himself in a strong negotiating position vis-à-vis the EU."
+      }
+     }
+    ]
+   },
+   "paidContent": true,
+   "prevElement": "sharebox",
+   "nextElement": "",
+   "lastContentElement": true
+  }
+ ],
+ "metadata": {
+  "owner": "NZZ",
+  "germanyRelevant": true,
+  "flag": "Data analysis",
+  "title": "Not keen on military service? Europe's defense has a recruitment problem. The big picture.",
+  "teaserImage": {
+   "originalUrl": "/2025/04/01/b9957397-acaf-4337-9ada-cf62e5c3692b.png?width=1024",
+   "url": "https://img-msp-prod.nzz.ch/2025/04/01/b9957397-acaf-4337-9ada-cf62e5c3692b.png?width=1024&quality=75&auto=webp",
+   "width": 1912,
+   "height": 1348,
+   "crops": [
+    {
+     "name": "16:9",
+     "crop": "1912,1075,x0,y136"
+    },
+    {
+     "name": "1:1",
+     "crop": "1348,1348,x327,y0"
+    },
+    {
+     "name": "4:3",
+     "crop": "1797,1348,x57,y0"
+    },
+    {
+     "name": "3:4",
+     "crop": "1011,1348,x544,y0"
+    }
+   ],
+   "imageService": "fastly",
+   "teaserCaption": "European countries are debating the reintroduction of conscription. Where does it apply? Where doesn't it? And what do Europe's youth think?"
+  },
+  "nzzasFootnote": false,
+  "folioFootnote": false,
+  "language": {
+   "locale": "en-US"
+  },
+  "nzzId": "ld.1876768",
+  "readingTime": 420,
+  "authorLine": "Julia Monn",
+  "characterCount": 9074,
+  "breadcrumbs": [
+   {
+    "name": "International",
+    "path": "/international"
+   }
+  ],
+  "product": "NZZ.ch",
+  "documentId": 1876768,
+  "contentTypeGroup": "web",
+  "layout": "longformstandard",
+  "firstPublicationDate": "2025-04-02T03:30:00.000Z",
+  "publicationDate": "2025-04-02T03:30:00.000Z",
+  "publicationLastUpdated": "2025-04-08T09:26:23.795Z",
+  "significantUpdate": false,
+  "significantUpdateTill": "2025-04-02T15:30:00.000Z",
+  "teaserCaption": "European countries are debating the reintroduction of conscription. Where does it apply? Where doesn't it? And what do Europe's youth think?",
+  "url": "/international/wehrpflicht-in-europa-zahlen-fakten-und-aktuelle-umfragen-im-ueberblick-ld.1876768",
+  "department": {
+   "name": "International",
+   "path": "/international"
+  },
+  "estimationWordCount": 1345,
+  "premium": true,
+  "leadText": "European countries are debating the reintroduction of conscription. Where does it apply? Where doesn't it? And what do Europe's youth think?",
+  "nzzSummaryModel": "gpt-4o-2024-11-20",
+  "nzzPrintTitle": "Armaments, but without us – Europe's youth have no desire for uniforms",
+  "nzzPrintSubtitle": "Without enough soldiers, even the best armies are useless. But Europe's young people want nothing to do with conscription",
+  "allArticleLanguages": [
+   {
+    "locale": "en-US",
+    "urlPath": "/english/europes-militaries-struggle-to-attract-the-next-generation-ld.1878300",
+    "seo": {}
+   },
+   {
+    "locale": "de-CH",
+    "urlPath": "/international/wehrpflicht-in-europa-zahlen-fakten-und-aktuelle-umfragen-im-ueberblick-ld.1876768",
+    "seo": {}
+   }
+  ],
+  "seo": {
+   "canonicalUrl": "https://www.nzz.ch/international/wehrpflicht-in-europa-zahlen-fakten-und-aktuelle-umfragen-im-ueberblick-ld.1876768",
+   "title": "Conscription in Europe: An overview of figures, facts and recent surveys",
+   "socialMediaTitle": "Military service? No thanks: Europe's defense has a recruitment problem",
+   "description": "Without enough soldiers, even the best armies are useless. That's why politicians in various countries are discussing the reintroduction of conscription.",
+   "excludeFromSpiders": false,
+   "image": "https://img-msp-prod.nzz.ch/2025/04/01/b9957397-acaf-4337-9ada-cf62e5c3692b.png?width=1200&height=674&fit=bounds&quality=75&auto=webp&crop=1912,1075,x0,y136&wmark=nzz"
+  },
+  "ldPublicationId": 2359711,
+  "isHighlightedHeader": false,
+  "nzzTopics": [
+   {
+    "name": "Great Britain",
+    "slug": "/themen/grossbritannien"
+   },
+   {
+    "name": "Spain",
+    "slug": "/themen/spanien"
+   },
+   {
+    "name": "Poland",
+    "slug": "/themen/polen"
+   },
+   {
+    "name": "Germany",
+    "slug": "/themen/deutschland"
+   },
+   {
+    "name": "Italy",
+    "slug": "/themen/italien"
+   },
+   {
+    "name": "Ukraine",
+    "slug": "/themen/ukraine"
+   },
+   {
+    "name": "France",
+    "slug": "/themen/frankreich"
+   },
+   {
+    "name": "USA",
+    "slug": "/themen/usa"
+   },
+   {
+    "name": "Russia",
+    "slug": "/themen/russland"
+   },
+   {
+    "name": "Finland",
+    "slug": "/themen/finnland"
+   },
+   {
+    "name": "Serbia",
+    "slug": "/themen/serbien"
+   },
+   {
+    "name": "Croatia",
+    "slug": "/themen/kroatien"
+   }
+  ],
+  "barrierIndex": 3,
+  "outlinks": {
+   "mehrZumThema": [
+    "ld.1878011",
+    "ld.1877472",
+    "ld.1875653"
+   ],
+   "artikelListe": [],
+   "aliasTeaserEmbedList": []
+  },
+  "tts": true,
+  "hasQ": true,
+  "mp3": true,
+  "mp3Duration": 601536,
+  "colorSchema": "color-schema--premium",
+  "project": "nzz",
+  "machineTranslated": true,
+  "machineTranslationValidated": false
+ },
+ "isReduced": false,
+ "isPaid": false,
+ "isVamp": false,
+ "isWebview": false,
+ "btaFeed": {
+  "meta": {
+   "id": "grossbritannien",
+   "name": "Great Britain",
+   "tagName": "Great Britain",
+   "qId": "Q145",
+   "seoTitle": "Great Britain – All news, articles and information on the topic | NZZ",
+   "description": null,
+   "firstName": null,
+   "lastName": null,
+   "category": "LOC",
+   "createdDate": "2025-04-08 18:55:21.542Z",
+   "imageURL": null,
+   "imageCroppedURL": null,
+   "imageWidth": null,
+   "imageHeight": null,
+   "imageCredits": null,
+   "url": "https://nzz.ch/themen/grossbritannien",
+   "size": 1776,
+   "relatedTopics": [
+    {
+     "name": "Spanien",
+     "slug": "/themen/spanien"
+    },
+    {
+     "name": "Polen",
+     "slug": "/themen/polen"
+    },
+    {
+     "name": "Deutschland",
+     "slug": "/themen/deutschland"
+    },
+    {
+     "name": "Italien",
+     "slug": "/themen/italien"
+    },
+    {
+     "name": "Ukraine",
+     "slug": "/themen/ukraine"
+    },
+    {
+     "name": "Frankreich",
+     "slug": "/themen/frankreich"
+    },
+    {
+     "name": "USA",
+     "slug": "/themen/usa"
+    },
+    {
+     "name": "Russland",
+     "slug": "/themen/russland"
+    },
+    {
+     "name": "Finnland",
+     "slug": "/themen/finnland"
+    },
+    {
+     "name": "Serbien",
+     "slug": "/themen/serbien"
+    },
+    {
+     "name": "Kroatien",
+     "slug": "/themen/kroatien"
+    }
+   ]
+  },
+  "data": [
+   {
+    "title": "«Obscene, sometimes pornographic stories circulated about Marie Antoinette – the fake news of the 18th century»",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "tags": [
+     "Europa"
+    ],
+    "teaserImage": {
+     "originalUrl": "/2025/09/19/926b9752-e963-4837-9445-173b8f1fde99.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2025/09/19/926b9752-e963-4837-9445-173b8f1fde99.jpg?width=1024&quality=75&auto=webp",
+     "width": 5406,
+     "height": 3604,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "5406,3041,x0,y326"
+      },
+      {
+       "name": "4:3",
+       "crop": "4805,3604,x150,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "1528,1528,x1687,y451"
+      },
+      {
+       "name": "3:4",
+       "crop": "2234,2979,x1680,y339"
+      },
+      {
+       "name": "3:2",
+       "crop": "5406,3604,x0,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "France is facing the end of the Macron era. Writer Stephen Clarke explains why he isn't worried about the country, what went wrong with the 1789 revolution, and why champagne is actually a British invention.",
+     "teaserAuthor": "Yoan Valat / EPA"
+    },
+    "teaserAuthor": "Yoan Valat / EPA",
+    "editor": "1373299",
+    "nzzId": "ld.10021025",
+    "readingTime": 540,
+    "paywallQuestionOne": "How does the myth of the Revolution influence French identity?",
+    "paywallQuestionTwo": "Was democracy in France possible without a revolution?",
+    "paywallQuestionThree": "Why is champagne considered a British invention?",
+    "characterCount": 12376,
+    "flag": "interview",
+    "product": "NZZ.ch",
+    "documentId": "10021025",
+    "layout": "longformstandard",
+    "publicationDate": "2026-09-03T03:30:00.000Z",
+    "publicationLastUpdated": "2026-09-03T05:57:21.198Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-09-03T15:30:00.000Z",
+    "teaserCaption": "France is facing the end of the Macron era. Writer Stephen Clarke explains why he isn't worried about the country, what went wrong with the 1789 revolution, and why champagne is actually a British invention.",
+    "authorLine": "Daniel Steinvorth, Paris",
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2024/12/12/2ffdb660-57c7-4de4-9a34-e51761fb6ea4.jpeg?crop=3300,3300,x1349,y242&width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/international/warum-louis-xvi-kein-boesewicht-war-stephen-clarke-ueber-den-mythos-von-1789-ld.10021025",
+    "department": {
+     "name": "International",
+     "path": "/international"
+    },
+    "estimationWordCount": 1856,
+    "leadText": "France is facing the end of the Macron era. Writer Stephen Clarke explains why he isn't worried about the country, what went wrong with the 1789 revolution, and why champagne is actually a British invention.",
+    "nzzSummaryIsAuto": true,
+    "locale": "de-CH"
+   },
+   {
+    "title": "The suffering of the spoiled prince: What the drama surrounding Harry and Meghan's return says about the British and their relationship with the royals",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "tags": [
+     "Europa"
+    ],
+    "teaserImage": {
+     "originalUrl": "/2026/09/02/0c4d7209-f955-401a-9893-7e21c8bc8911.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/09/02/0c4d7209-f955-401a-9893-7e21c8bc8911.jpg?width=1024&quality=75&auto=webp",
+     "width": 3520,
+     "height": 2352,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "3520,1980,x0,y161"
+      },
+      {
+       "name": "4:3",
+       "crop": "3136,2352,x46,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "2138,2138,x567,y160"
+      },
+      {
+       "name": "3:4",
+       "crop": "1764,2352,x132,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "3200,2134,x41,y104"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "King Charles's youngest son and his wife have returned to England from the USA. The reaction in the tabloids is nothing short of hysterical. Undoubtedly, the Prince's behavior is often contradictory – but so is that of the media and the public.",
+     "teaserAuthor": "Hollie Adams / Reuters"
+    },
+    "teaserAuthor": "Hollie Adams / Reuters",
+    "nzzId": "ld.10021792",
+    "readingTime": 360,
+    "paywallQuestionOne": "Why is the return of Harry and Meghan polarizing the British public?",
+    "paywallQuestionTwo": "How does the Diana story influence the perception of Meghan and Harry?",
+    "paywallQuestionThree": "What role do the media play in the British relationship with the monarchy?",
+    "characterCount": 7243,
+    "product": "NZZ.ch",
+    "documentId": "10021792",
+    "layout": "regular",
+    "publicationDate": "2026-09-02T14:30:00.000Z",
+    "publicationLastUpdated": "2026-09-02T15:55:28.508Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-09-03T02:30:00.000Z",
+    "teaserCaption": "King Charles's youngest son and his wife have returned to England from the USA. The reaction in the tabloids is nothing short of hysterical. Undoubtedly, the Prince's behavior is often contradictory – but so is that of the media and the public.",
+    "authorLine": "David Signer, London",
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2022/09/14/c7293c90-04fc-4a20-a0dd-68d626e919d3.png?crop=800,800,x0,y0&width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/international/prinz-harrys-rueckkehr-was-die-aufregung-ueber-die-britische-gesellschaft-verraet-ld.10021792",
+    "department": {
+     "name": "International",
+     "path": "/international"
+    },
+    "estimationWordCount": 1129,
+    "leadText": "King Charles's youngest son and his wife have returned to England from the USA. The reaction in the tabloids is nothing short of hysterical. Undoubtedly, the Prince's behavior is often contradictory – but so is that of the media and the public.",
+    "nzzSummaryIsAuto": true,
+    "locale": "de-CH"
+   },
+   {
+    "title": "When the Union Jack becomes a «security risk»: a flag culture war rages in Great Britain",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "editor": "1373070",
+    "teaserImage": {
+     "originalUrl": "/2026/09/01/44fcfe44-1f5d-4def-b367-15262cc90c1f.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/09/01/44fcfe44-1f5d-4def-b367-15262cc90c1f.jpg?width=1024&quality=75&auto=webp",
+     "width": 5568,
+     "height": 3712,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "5568,3132,x0,y580"
+      },
+      {
+       "name": "4:3",
+       "crop": "4949,3712,x0,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "3712,3712,x822,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "2784,3712,x1392,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "5568,3712,x0,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "First Gaza flags were everywhere, now nationalist groups are raising British flags en masse. This is causing scandals, riots, and bans.",
+     "teaserAuthor": "Imago"
+    },
+    "teaserAuthor": "Imago",
+    "authorLine": "Marion Löhndorf",
+    "nzzId": "ld.10021882",
+    "readingTime": 300,
+    "paywallQuestionOne": "How does flag flying affect social cohesion in Birmingham?",
+    "paywallQuestionTwo": "What role do far-right groups play in the flag movement?",
+    "paywallQuestionThree": "Why are the flags considered a security risk and how are the authorities reacting?",
+    "characterCount": 6523,
+    "product": "NZZ.ch",
+    "documentId": "10021882",
+    "layout": "longformstandard",
+    "publicationDate": "2026-09-02T03:30:00.000Z",
+    "publicationLastUpdated": "2026-09-02T03:30:00.000Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-09-02T15:30:00.000Z",
+    "teaserCaption": "First Gaza flags were everywhere, now nationalist groups are raising British flags en masse. This is causing scandals, riots, and bans.",
+    "url": "https://www.nzz.ch/feuilleton/wenn-der-union-jack-zum-sicherheitsrisiko-wird-in-grossbritannien-tobt-ein-kulturkampf-um-flaggen-ld.10021882",
+    "department": {
+     "name": "Arts & Culture",
+     "path": "/feuilleton"
+    },
+    "estimationWordCount": 909,
+    "leadText": "First Gaza flags were everywhere, now nationalist groups are raising British flags en masse. This is causing scandals, riots, and bans.",
+    "nzzSummaryIsAuto": true,
+    "locale": "de-CH"
+   },
+   {
+    "title": "A state for the emir – How the Kingdom of Jordan arises from the bankrupt estate of the Ottoman Empire",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "authorLine": "Chaim Noll",
+    "flag": "Guest opinion",
+    "editor": "1371769",
+    "teaserImage": {
+     "originalUrl": "/2026/08/28/23927cf3-0489-4244-bc5b-4248a63fdf33.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/08/28/23927cf3-0489-4244-bc5b-4248a63fdf33.jpg?width=1024&quality=75&auto=webp",
+     "width": 5000,
+     "height": 3486,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "5000,2812,x0,y80"
+      },
+      {
+       "name": "4:3",
+       "crop": "4648,3486,x352,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "3486,3486,x1514,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "2615,3486,x2385,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "5000,3333,x0,y0"
+      }
+     ],
+     "focalPoint": {
+      "x": 4071,
+      "y": 1486
+     },
+     "imageService": "fastly",
+     "teaserCaption": "Progressive Western circles often criticize Israel as a settler-colonialist state that has destroyed the established Arab order. This denunciatory view is historically unfounded. The origins of the state of Jordan, for example, clearly demonstrate this.",
+     "teaserAuthor": "UIG / Getty"
+    },
+    "teaserAuthor": "UIG / Getty",
+    "showComments": true,
+    "paywallQuestionOne": "How did Jordan emerge from the bankrupt remains of the Ottoman Empire?",
+    "paywallQuestionTwo": "What role did Great Britain play in the founding of Jordan?",
+    "paywallQuestionThree": "Is Israel rightly criticized as colonialist?",
+    "nzzId": "ld.10017128",
+    "readingTime": 540,
+    "characterCount": 12821,
+    "product": "NZZ.ch",
+    "documentId": "10017128",
+    "layout": "opinion",
+    "publicationDate": "2026-08-31T07:36:35.870Z",
+    "publicationLastUpdated": "2026-08-31T07:36:35.870Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-08-31T19:36:35.870Z",
+    "teaserCaption": "Progressive Western circles often criticize Israel as a settler-colonialist state that has destroyed the established Arab order. This denunciatory view is historically unfounded. The origins of the state of Jordan, for example, clearly demonstrate this.",
+    "url": "https://www.nzz.ch/meinung/ein-staat-fuer-den-emir-wie-das-koenigreich-jordanien-aus-der-konkursmasse-des-osmanischen-reiches-zustande-kam-ld.10017128",
+    "department": {
+     "name": "Opinion",
+     "path": "/meinung"
+    },
+    "estimationWordCount": 1861,
+    "premium": true,
+    "leadText": "Progressive Western circles often criticize Israel as a settler-colonialist state that has destroyed the established Arab order. This denunciatory view is historically unfounded. The origins of the state of Jordan, for example, clearly demonstrate this.",
+    "nzzSummaryIsAuto": true,
+    "commentsCount": 8,
+    "openToComment": false,
+    "hasQ": true,
+    "locale": "de-CH"
+   },
+   {
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "title": "The global real estate dilemma: Growth and construction blockages from Zurich to Sydney are making housing unaffordable",
+    "teaserImage": {
+     "originalUrl": "/2026/02/11/d3474e55-869d-4093-a54b-489c083327f8.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/02/11/d3474e55-869d-4093-a54b-489c083327f8.jpg?width=1024&quality=75&auto=webp",
+     "width": 7536,
+     "height": 5024,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "7536,4239,x0,y0"
+      },
+      {
+       "name": "4:3",
+       "crop": "6699,5023,x0,y1"
+      },
+      {
+       "name": "1:1",
+       "crop": "5024,5024,x0,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "3768,5024,x0,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "7536,5023,x0,y1"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "People are moving to cities everywhere, but less and less is being built. Projects fail due to local resistance and a lack of land reserves. An analysis of OECD data reveals long-term causes.",
+     "teaserAuthor": "Annick Ramp / NZZ"
+    },
+    "teaserAuthor": "Annick Ramp / NZZ",
+    "showComments": true,
+    "nzzId": "ld.10020369",
+    "readingTime": 360,
+    "paywallQuestionOne": "Why are Swiss real estate prices decoupling from those in other European countries?",
+    "paywallQuestionTwo": "How does spatial planning influence price developments on the Swiss real estate market?",
+    "paywallQuestionThree": "What are the consequences of increased building density for affordable housing in Switzerland?",
+    "characterCount": 9033,
+    "product": "NZZ.ch",
+    "documentId": "10020369",
+    "layout": "regular",
+    "publicationDate": "2026-08-31T03:30:00.000Z",
+    "publicationLastUpdated": "2026-08-31T14:42:39.775Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-08-31T15:30:00.000Z",
+    "teaserCaption": "People are moving to cities everywhere, but less and less is being built. Projects fail due to local resistance and a lack of land reserves. An analysis of OECD data reveals long-term causes.",
+    "authorLine": "Jürg Zulliger",
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2024/01/31/abcf5b13-0bb2-4dd2-91da-b56035766bfb.jpeg?crop=2625,2625,x0,y438&width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/wirtschaft/das-ende-des-schweizer-sonderfalls-die-immobilienpreise-entkoppeln-sich-von-jenen-im-rest-europas-ld.10020369",
+    "department": {
+     "name": "Economy",
+     "path": "/wirtschaft"
+    },
+    "estimationWordCount": 1295,
+    "premium": true,
+    "leadText": "People are moving to cities everywhere, but less and less is being built. Projects fail due to local resistance and a lack of land reserves. An analysis of OECD data reveals long-term causes.",
+    "nzzSummaryIsAuto": true,
+    "commentsCount": 6,
+    "openToComment": false,
+    "hasQ": true,
+    "locale": "de-CH"
+   },
+   {
+    "title": "British star educator Birbalsingh: «Generation Alpha will be a nightmare»",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "teaserImage": {
+     "originalUrl": "/2026/08/27/3fe8f53d-b37c-4ec2-9c8e-029684442ff7.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/08/27/3fe8f53d-b37c-4ec2-9c8e-029684442ff7.jpg?width=1024&quality=75&auto=webp",
+     "width": 6192,
+     "height": 6761,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "6192,3483,x0,y591"
+      },
+      {
+       "name": "4:3",
+       "crop": "6192,4644,x0,y224"
+      },
+      {
+       "name": "1:1",
+       "crop": "1225,1225,x2805,y601"
+      },
+      {
+       "name": "3:4",
+       "crop": "5071,6760,x935,y1"
+      },
+      {
+       "name": "3:2",
+       "crop": "6192,4128,x0,y380"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "Katharine Birbalsingh is considered Britain's strictest headmistress. In this interview, she explains why patriotism is needed in education and why there is no Muslim prayer room in her school.",
+     "teaserAuthor": "Chris Floyd / Camera Press"
+    },
+    "tags": [
+     "Europa"
+    ],
+    "teaserAuthor": "Chris Floyd / Camera Press",
+    "nzzId": "ld.10020396",
+    "readingTime": 540,
+    "paywallQuestionOne": "Why does Birbalsingh see Generation Alpha as a nightmare?",
+    "paywallQuestionTwo": "What role does patriotism play in their upbringing?",
+    "paywallQuestionThree": "How does the victim mentality influence Western education?",
+    "characterCount": 12117,
+    "flag": "interview",
+    "product": "NZZ.ch",
+    "documentId": "10020396",
+    "layout": "longformstandard",
+    "publicationDate": "2026-08-28T03:30:00.000Z",
+    "publicationLastUpdated": "2026-08-28T12:12:47.601Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-08-28T15:30:00.000Z",
+    "teaserCaption": "Katharine Birbalsingh is considered Britain's strictest headmistress. In this interview, she explains why patriotism is needed in education and why there is no Muslim prayer room in her school.",
+    "authorLine": "Daniel Rickenbacher, Benedict Neff",
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2025/10/20/1e41ab25-8967-4bf8-9fec-69f8d60ceb81.jpg?width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/international/katharine-birbalsingh-warum-die-generation-alpha-ein-albtraum-wird-ld.10020396",
+    "department": {
+     "name": "International",
+     "path": "/international"
+    },
+    "estimationWordCount": 1863,
+    "leadText": "Katharine Birbalsingh is considered Britain's strictest headmistress. In this interview, she explains why patriotism is needed in education and why there is no Muslim prayer room in her school.",
+    "nzzSummaryIsAuto": true,
+    "locale": "de-CH"
+   }
+  ]
+ },
+ "digitalData": {
+  "component": [
+   {
+    "id": "ld.1876768",
+    "name": "Not keen on military service? Europe's defense has a recruitment problem. The big picture.",
+    "type": "article",
+    "subType1": "longformstandard",
+    "subType2": "",
+    "primaryCategory": "International",
+    "subCategory1": "",
+    "attributes": {
+     "headline": "Not keen on military service? Europe's defense has a recruitment problem. The big picture.",
+     "firstPublishTitle": "",
+     "catchline": "",
+     "authors": [],
+     "issueTimestamp": "2025-04-02T03:30:00.000Z",
+     "updateTimestamp": "2025-04-08T09:26:23.795Z",
+     "isSponsoredContent": false,
+     "isPro": true,
+     "isLiveticker": false,
+     "flag": "Data analysis",
+     "owner": "NZZ"
+    }
+   }
+  ],
+  "page": {
+   "pageId": "ld.1876768",
+   "pageType": "longformstandard",
+   "primaryCategory": "International",
+   "subCategory1": "",
+   "subCategory2": "",
+   "language": "en-US"
+  },
+  "version": "2.0",
+  "user": {},
+  "event": []
+ },
+ "seoData": {
+  "title": "Conscription in Europe: An overview of figures, facts and recent surveys",
+  "image": {
+   "url": "https://img-msp-prod.nzz.ch/2025/04/01/b9957397-acaf-4337-9ada-cf62e5c3692b.png?width=1200&height=674&fit=bounds&quality=75&auto=webp&crop=1912,1075,x0,y136&wmark=nzz",
+   "type": "image/png",
+   "width": 1200,
+   "height": 674
+  },
+  "author": "Julia Monn",
+  "description": "Without enough soldiers, even the best armies are useless. That's why politicians in various countries are discussing the reintroduction of conscription.",
+  "news_keywords": "Not keen on military service? Europe's defense has a recruitment problem. The big overview, data analysis, international news, NZZ",
+  "type": "article",
+  "last-modified": "2025-04-08T13:26:23+02:00",
+  "date": "2025-04-02T07:30:00+02:00",
+  "canonical": "https://www.nzz.ch/international/wehrpflicht-in-europa-zahlen-fakten-und-aktuelle-umfragen-im-ueberblick-ld.1876768",
+  "fb:app_id": 138008459595436,
+  "fb:pages": 143694099006529,
+  "fb:admins": 1592685173,
+  "locale": "de-CH",
+  "email": "online.redaktion@nzz.ch",
+  "site_name": "Neue Zürcher Zeitung",
+  "copyright": "2026 Neue Zürcher Zeitung AG, Schweiz",
+  "robots": "noindex, nofollow, noarchive, noodp",
+  "hreflang": [
+   {
+    "hreflang": "en",
+    "href": "https://www.nzz.ch/english/europes-militaries-struggle-to-attract-the-next-generation-ld.1878300"
+   },
+   {
+    "hreflang": "de",
+    "href": "https://www.nzz.ch/international/wehrpflicht-in-europa-zahlen-fakten-und-aktuelle-umfragen-im-ueberblick-ld.1876768"
+   }
+  ],
+  "sharedTitle": "DATA ANALYSIS - Not keen on military service? Europe's defense has a recruitment problem. The big overview",
+  "ogTitle": "Military service? No thanks: Europe's defense has a recruitment problem",
+  "ogUrl": "https://www.nzz.ch/international/wehrpflicht-in-europa-zahlen-fakten-und-aktuelle-umfragen-im-ueberblick-ld.1876768",
+  "mrf:cms_id": "nzz:ld.1876768",
+  "mrf:sections": "International",
+  "mrf:tags": "Page Type:longformstandard;Editorial Owner:NZZ;Content Type:Pro Article;Article ID:ld.1876768",
+  "nzzAuthors": [
+   {
+    "name": "Julia Monn"
+   }
+  ],
+  "links": [
+   {
+    "rel": "canonical",
+    "href": "https://www.nzz.ch/international/wehrpflicht-in-europa-zahlen-fakten-und-aktuelle-umfragen-im-ueberblick-ld.1876768"
+   },
+   {
+    "rel": "search",
+    "href": "/suche",
+    "title": "Suche Neue Zürcher Zeitung, Schweiz, https://www.nzz.ch/suche"
+   },
+   {
+    "rel": "alternate",
+    "href": "https://www.nzz.ch/english/europes-militaries-struggle-to-attract-the-next-generation-ld.1878300",
+    "hreflang": "en"
+   },
+   {
+    "rel": "alternate",
+    "href": "https://www.nzz.ch/international/wehrpflicht-in-europa-zahlen-fakten-und-aktuelle-umfragen-im-ueberblick-ld.1876768",
+    "hreflang": "de"
+   }
+  ],
+  "renderedAt": "Thu, 03 Sep 2026 09:31:18 GMT"
+ },
+ "structuredData": [
+  {
+   "@context": "https://schema.org",
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "item": {
+      "@id": "/",
+      "name": "Home"
+     }
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "item": {
+      "@id": "/international",
+      "name": "International"
+     }
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Conscription in Europe: An overview of figures, facts and recent surveys"
+    }
+   ]
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": "NewsArticle",
+   "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.nzz.ch/international/wehrpflicht-in-europa-zahlen-fakten-und-aktuelle-umfragen-im-ueberblick-ld.1876768"
+   },
+   "headline": "Conscription in Europe: An overview of figures, facts and recent surveys",
+   "datePublished": "2025-04-02T07:30:00+02:00",
+   "dateModified": "2025-04-08T13:26:23+02:00",
+   "publisher": {
+    "@type": "NewsMediaOrganization",
+    "name": "Neue Zürcher Zeitung",
+    "url": "https://www.nzz.ch",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://www.nzz.ch/logo.png",
+     "width": 413,
+     "height": 60
+    },
+    "contactPoint": [
+     {
+      "@type": "ContactPoint",
+      "telephone": "+41-44-2581000",
+      "contactType": "customer service"
+     }
+    ],
+    "sameAs": [
+     "https://www.facebook.com/nzz",
+     "https://www.twitter.com/nzz",
+     "https://www.youtube.com/channel/UCK1aTcR0AckQRLTlK0c4fuQ",
+     "https://www.linkedin.com/company/neue-zurcher-zeitung",
+     "https://www.instagram.com/nzz/",
+     "https://de.wikipedia.org/wiki/Neue_Z%C3%BCrcher_Zeitung",
+     "https://www.wikidata.org/wiki/Q658945",
+     "https://plus.google.com/+nzz/",
+     "http://www.freebase.com/m/041b43"
+    ],
+    "masthead": "https://www.nzz.ch/impressum/impressum-ld.148422",
+    "foundingDate": "1780"
+   },
+   "description": "Without enough soldiers, even the best armies are useless. That's why politicians in various countries are discussing the reintroduction of conscription.",
+   "isAccessibleForFree": false,
+   "articleSection": "International",
+   "hasPart": {
+    "@type": "WebPageElement",
+    "isAccessibleForFree": false,
+    "cssSelector": ".nzzinteraction"
+   },
+   "image": {
+    "@type": "ImageObject",
+    "url": "https://img-msp-prod.nzz.ch/2025/04/01/b9957397-acaf-4337-9ada-cf62e5c3692b.png?width=1200&height=674&fit=bounds&quality=75&auto=webp&crop=1912,1075,x0,y136&wmark=nzz",
+    "width": 1200,
+    "height": 674
+   },
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Julia Monn"
+    }
+   ],
+   "inLanguage": "de"
+  }
+ ],
+ "mp3": true,
+ "mp3Duration": 601536,
+ "bT": {
+  "standard": {
+   "Tags": [
+    "/international/wehrpflicht-in-europa-zahlen-fakten-und-aktuelle-umfragen-im-ueberblick-ld.1876768",
+    "classification=premium",
+    "relevance=germany",
+    "layout=longformstandard",
+    "datenanalyse",
+    "owner=nzz",
+    "product=nzz",
+    "doctype=article",
+    "pagetype=article",
+    "ldid=ld.1876768",
+    "channel=International"
+   ],
+   "ContentCreated": "2025-04-02T03:30:00.000Z",
+   "ContentAuthor": "Julia Monn",
+   "ContentSection": "International",
+   "ContentIsNative": true
+  },
+  "custom": {
+   "product": "nzz",
+   "docType": "article",
+   "pageType": "article",
+   "layout": "longformstandard",
+   "nzzAbstract": "Why are experts discussing reinstating conscription?\nHow has military service perception shifted among EU youth?\nWhat's the regional stance on conscription in Europe?",
+   "ldId": "ld.1876768",
+   "channel": "International",
+   "heading": "Kein Bock auf Militärdienst? Europas Verteidigung hat ein Nachwuchsproblem. Die grosse Übersicht",
+   "language": "en-US"
+  }
+ },
+ "webviewMetadata": {},
+ "cacheTime": 3600
+}

@@ -1,0 +1,497 @@
+{
+  "_id": "2986658532c8ae3c1b229345b990d664",
+  "_rev": "2-12e25ab21c6fb8e572164e22afa1681e",
+  "data": [
+    [
+      "Monat",
+      "Rate"
+    ],
+    [
+      "Jan 17",
+      "6.74"
+    ],
+    [
+      "Feb 17",
+      "6.72"
+    ],
+    [
+      "Mrz 17",
+      "6.79"
+    ],
+    [
+      "Apr 17",
+      "6.8"
+    ],
+    [
+      "Mai 17",
+      "6.88"
+    ],
+    [
+      "Jun 17",
+      "6.83"
+    ],
+    [
+      "Jul 17",
+      "6.87"
+    ],
+    [
+      "Aug 17",
+      "6.95"
+    ],
+    [
+      "Sep 17",
+      "6.96"
+    ],
+    [
+      "Okt 17",
+      "6.99"
+    ],
+    [
+      "Nov 17",
+      "7.03"
+    ],
+    [
+      "Dez 17",
+      "7.06"
+    ],
+    [
+      "Jan 18",
+      "7.11"
+    ],
+    [
+      "Feb 18",
+      "7.16"
+    ],
+    [
+      "Mrz 18",
+      "7.17"
+    ],
+    [
+      "Apr 18",
+      "7.17"
+    ],
+    [
+      "Mai 18",
+      "7.18"
+    ],
+    [
+      "Jun 18",
+      "7.24"
+    ],
+    [
+      "Jul 18",
+      "7.27"
+    ],
+    [
+      "Aug 18",
+      "7.29"
+    ],
+    [
+      "Sep 18",
+      "7.31"
+    ],
+    [
+      "Okt 18",
+      "7.32"
+    ],
+    [
+      "Nov 18",
+      "7.34"
+    ],
+    [
+      "Dez 18",
+      "7.38"
+    ],
+    [
+      "Jan 19",
+      "7.43"
+    ],
+    [
+      "Feb 19",
+      "7.42"
+    ],
+    [
+      "Mrz 19",
+      "7.45"
+    ],
+    [
+      "Apr 19",
+      "7.47"
+    ],
+    [
+      "Mai 19",
+      "7.43"
+    ],
+    [
+      "Jun 19",
+      "7.45"
+    ],
+    [
+      "Jul 19",
+      "7.41"
+    ],
+    [
+      "Aug 19",
+      "7.41"
+    ],
+    [
+      "Sep 19",
+      "7.42"
+    ],
+    [
+      "Okt 19",
+      "7.45"
+    ],
+    [
+      "Nov 19",
+      "7.42"
+    ],
+    [
+      "Dez 19",
+      "7.40"
+    ],
+    [
+      "Jan 20",
+      "7.39"
+    ],
+    [
+      "Feb 20",
+      "7.39"
+    ],
+    [
+      "Mrz 20",
+      "7.36"
+    ],
+    [
+      "Apr 20",
+      "7.07"
+    ],
+    [
+      "Mai 20",
+      "6.76"
+    ],
+    [
+      "Jun 20",
+      "6.59"
+    ],
+    [
+      "Jul 20",
+      "6.44"
+    ],
+    [
+      "Aug 20",
+      "6.30"
+    ],
+    [
+      "Sep 20",
+      "6.23"
+    ],
+    [
+      "Okt 20",
+      "6.20"
+    ],
+    [
+      "Nov 20",
+      "6.18"
+    ],
+    [
+      "Dez 20",
+      "6.12"
+    ],
+    [
+      "Jan 21",
+      "6.01"
+    ],
+    [
+      "Feb 21",
+      "5.88"
+    ],
+    [
+      "Mrz 21",
+      "5.75"
+    ],
+    [
+      "Apr 21",
+      "5.87"
+    ],
+    [
+      "Mai 21",
+      "6.02"
+    ],
+    [
+      "Jun 21",
+      "6.14"
+    ],
+    [
+      "Jul 21",
+      "6.27"
+    ],
+    [
+      "Aug 21",
+      "6.33"
+    ],
+    [
+      "Sep 21",
+      "6.38"
+    ],
+    [
+      "Okt 21",
+      "6.34"
+    ],
+    [
+      "Nov 21",
+      "6.33"
+    ],
+    [
+      "Dez 21",
+      "6.39"
+    ],
+    [
+      "Jan 22",
+      "6.45"
+    ],
+    [
+      "Feb 22",
+      "6.56"
+    ],
+    [
+      "Mrz 22",
+      "6.62"
+    ],
+    [
+      "Apr 22",
+      "6.63"
+    ],
+    [
+      "Mai 22",
+      "6.63"
+    ],
+    [
+      "Jun 22",
+      "6.58"
+    ],
+    [
+      "Jul 22",
+      "6.49"
+    ],
+    [
+      "Aug 22",
+      "6.40"
+    ],
+    [
+      "Sep 22",
+      "6.34"
+    ],
+    [
+      "Okt 22",
+      "6.28"
+    ],
+    [
+      "Nov 22",
+      "6.22"
+    ],
+    [
+      "Dez 22",
+      "6.14"
+    ],
+    [
+      "Jan 23",
+      "6.07"
+    ],
+    [
+      "Feb 23",
+      "6.02"
+    ],
+    [
+      "Mrz 23",
+      "5.97"
+    ],
+    [
+      "Apr 23",
+      "5.93"
+    ],
+    [
+      "Mai 23",
+      "5.87"
+    ],
+    [
+      "Jun 23",
+      "5.83"
+    ],
+    [
+      "Jul 23",
+      "5.81"
+    ],
+    [
+      "Aug 23",
+      "5.82"
+    ],
+    [
+      "Sep 23",
+      "5.77"
+    ],
+    [
+      "Okt 23",
+      "5.74"
+    ],
+    [
+      "Nov 23",
+      "5.74"
+    ],
+    [
+      "Dez 23",
+      "5.74"
+    ],
+    [
+      "Jan 24",
+      "5.78"
+    ],
+    [
+      "Feb 24",
+      "5.70"
+    ],
+    [
+      "Mrz 24",
+      "5.71"
+    ],
+    [
+      "Apr 24",
+      "5.76"
+    ],
+    [
+      "Mai 24",
+      "5.76"
+    ],
+    [
+      "Jun 24",
+      "5.72"
+    ],
+    [
+      "Jul 24",
+      "5.76"
+    ],
+    [
+      "Aug 24",
+      "5.71"
+    ],
+    [
+      "Sep 24",
+      "5.70"
+    ],
+    [
+      "Okt 24",
+      "5.74"
+    ],
+    [
+      "Nov 24",
+      "5.73"
+    ],
+    [
+      "Dez 24",
+      "5.71"
+    ],
+    [
+      "Jan 25",
+      "5.65"
+    ],
+    [
+      "Feb 25",
+      "5.68"
+    ],
+    [
+      "Mrz 25",
+      "5.67"
+    ],
+    [
+      "Apr 25",
+      "5.62"
+    ],
+    [
+      "Mai 25",
+      "5.63"
+    ],
+    [
+      "Jun 25",
+      "5.64"
+    ],
+    [
+      "Jul 25",
+      "5.61"
+    ],
+    [
+      "Aug 25",
+      "5.64"
+    ],
+    [
+      "Sep 25",
+      "5.65"
+    ],
+    [
+      "Okt 25",
+      "5.66"
+    ],
+    [
+      "Nov 25",
+      "5.66"
+    ]
+  ],
+  "tool": "chart",
+  "title": "Deutsche Arbeitslose haben es immer schwerer",
+  "active": true,
+  "events": [],
+  "acronym": "jab.",
+  "options": {
+    "chartType": "Line",
+    "barOptions": {
+      "isBarChart": false,
+      "forceBarsOnSmall": false
+    },
+    "annotations": {},
+    "arrowOptions": {
+      "colorScheme": 0,
+      "invertColorScheme": false
+    },
+    "largeNumbers": {
+      "divideBy": 0
+    },
+    "hideAxisLabel": true,
+    "dotplotOptions": {},
+    "areaChartOptions": {
+      "stackType": "zero",
+      "areaInterpolation": "linear"
+    },
+    "lineChartOptions": {
+      "maxValue": null,
+      "minValue": 5,
+      "yScaleType": "linear",
+      "isStockChart": false,
+      "reverseYScale": false,
+      "lineInterpolation": "linear"
+    },
+    "dateSeriesOptions": {
+      "labels": "many",
+      "interval": "auto",
+      "prognosisStart": null
+    },
+    "highlightDataRows": [],
+    "colorOverwritesRows": [],
+    "highlightDataSeries": [],
+    "colorOverwritesSeries": []
+  },
+  "sources": [
+    {
+      "link": {
+        "url": "https://statistik.arbeitsagentur.de/SiteGlobals/Forms/Suche/Einzelheftsuche_Formular.html?topic_f=analyse-d-chancen-risiken-wz"
+      },
+      "text": "Bundesagentur für Arbeit"
+    }
+  ],
+  "subtitle": "Anteil der Arbeitslosen, die innert eines Monats eine Stelle antreten (in Prozent)",
+  "createdBy": "jannik.belser@nzz.ch",
+  "updatedBy": "jannik.belser@nzz.ch",
+  "department": "Wirtschaft",
+  "createdDate": "2025-12-30T09:59:13.133Z",
+  "publication": "nzz",
+  "updatedDate": "2025-12-30T09:59:14.603Z",
+  "allowDownloadData": false
+}

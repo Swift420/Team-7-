@@ -1,0 +1,101 @@
+{
+  "_id": "596f09f1501e5776fb09e4901bfea993",
+  "_rev": "3-ddd0ba51434dbc3d681251960b115594",
+  "data": [
+    [
+      null,
+      "Nawrocki",
+      "Trzaskowski"
+    ],
+    [
+      "18–29",
+      "53.2",
+      "46.8"
+    ],
+    [
+      "30–39",
+      "54",
+      "46"
+    ],
+    [
+      "40–49",
+      "47.9",
+      "52.1"
+    ],
+    [
+      "50–59",
+      "49.4",
+      "50.6"
+    ],
+    [
+      "60+",
+      "51",
+      "49"
+    ]
+  ],
+  "tool": "chart",
+  "notes": "Source: Ipsos",
+  "title": "Nawrocki won over younger voters",
+  "active": true,
+  "events": [],
+  "acronym": "eik.",
+  "options": {
+    "chartType": "Bar",
+    "barOptions": {
+      "maxValue": null,
+      "isBarChart": true,
+      "forceBarsOnSmall": false
+    },
+    "annotations": {
+      "valuesOnBars": true
+    },
+    "arrowOptions": {
+      "colorScheme": 0,
+      "invertColorScheme": false
+    },
+    "largeNumbers": {
+      "divideBy": 0
+    },
+    "hideAxisLabel": true,
+    "dotplotOptions": {},
+    "areaChartOptions": {
+      "stackType": "zero",
+      "areaInterpolation": "linear"
+    },
+    "lineChartOptions": {
+      "yScaleType": "linear",
+      "isStockChart": false,
+      "reverseYScale": false,
+      "lineInterpolation": "linear"
+    },
+    "dateSeriesOptions": {
+      "labels": "many",
+      "interval": "auto",
+      "prognosisStart": null
+    },
+    "highlightDataRows": [],
+    "colorOverwritesRows": [],
+    "highlightDataSeries": [],
+    "colorOverwritesSeries": [
+      {
+        "color": "#df7c18",
+        "position": 2,
+        "colorLight": ""
+      },
+      {
+        "color": "#374e8e",
+        "position": 1,
+        "colorLight": ""
+      }
+    ]
+  },
+  "sources": [],
+  "subtitle": "Share of votes by age group, in %",
+  "createdBy": "gretchen.vogel@lieferanten.nzz.ch",
+  "updatedBy": "gretchen.vogel@lieferanten.nzz.ch",
+  "department": "Visuals",
+  "createdDate": "2025-06-03T13:47:28.420Z",
+  "publication": "nzz",
+  "updatedDate": "2025-06-03T13:48:52.135Z",
+  "allowDownloadData": false
+}

@@ -1,0 +1,1664 @@
+{
+ "content": [
+  {
+   "identifier": "header",
+   "id": "doc-1iips1j570",
+   "content": {
+    "title": "Trump and the threat from Russia force a change: Europe agrees on much higher military spending",
+    "lead": "From two to five percent: NATO's new spending target represents a huge leap. What's behind this new percentage, and how far are NATO countries from achieving it?",
+    "authorline": "Andreas Rüesch",
+    "author": "Andreas Rüesch"
+   },
+   "containers": {
+    "authors": [
+     {
+      "identifier": "author-teaser",
+      "id": "doc-q4k6PgkPPw",
+      "content": {
+       "layout": "authorprofile",
+       "title": "Andreas Rüesch",
+       "url": "/impressum/andreas-rueesch-ld.155169",
+       "teaserImage": {
+        "originalUrl": "/2024/09/23/b6be8592-31cf-4a48-b022-81e3c315218a.jpeg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2024/09/23/b6be8592-31cf-4a48-b022-81e3c315218a.jpeg?width=1024&quality=75&auto=webp",
+        "width": 6000,
+        "height": 4000,
+        "crops": [
+         {
+          "name": "web-teaser",
+          "crop": "6000,3375,x0,y0"
+         },
+         {
+          "name": "1:1",
+          "crop": "2809,2809,x1566,y389"
+         },
+         {
+          "name": "4:3",
+          "crop": "5333,4000,x210,y0"
+         },
+         {
+          "name": "3:4",
+          "crop": "3000,4000,x1376,y0"
+         }
+        ],
+        "imageService": "fastly"
+       }
+      }
+     }
+    ]
+   },
+   "prevElement": "",
+   "nextElement": "image",
+   "firstContentElement": true
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1iirbl3oj1",
+   "content": {
+    "image": {
+     "author": "Mindaugas Kulbis / AP",
+     "caption": "NATO is practicing much more intensively than before for a possible defensive war against Russia, but military planners have identified huge gaps in the armed forces.",
+     "originalUrl": "/2024/06/03/72f32231-9c80-4f8d-9566-a1d58148556b.jpeg?width=1024",
+     "width": 4441,
+     "height": 2961,
+     "altText": "German soldiers take part in the Lithuanian-German division-level international military exercise 'Grand Quadriga 2024' at a training range in Pabrade, north of the capital Vilnius, Lithuania on Wednesday, May 29, 2024. 'Grand Quadriga 2024', a wide-scale exercise of the German Bundeswehr that rehearses moving two divisions from the central part of Europe to the east. Over 3 thousand German troops and military equipment have been moved to Lithuania.(AP Photo/Mindaugas Kulbis)",
+     "origins": [
+      {
+       "name": "Hugo",
+       "identifier": "2156282376"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "caption": "NATO is practicing much more intensively than before for a possible defensive war against Russia, but military planners have identified huge gaps in the armed forces.",
+    "author": "Mindaugas Kulbis / AP"
+   },
+   "styles": {
+    "fullwidth-widget": "widget--containerwidth"
+   },
+   "prevElement": "header",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iips1oa20",
+   "content": {
+    "text": "Just a few years ago, such news would have been sensational: All NATO members are spending at least two percent of their economic output (GDP) on defense this year, the alliance recently announced. NATO had been working toward this goal for two decades, primarily at the urging of the United States. Last year, only 22 of the 32 member states met the target. But no sooner has the goal been achieved than it is already considered inadequate. Russia's belligerent course makes it clear that the Western alliance must invest significantly more to regain its deterrent capability."
+   },
+   "prevElement": "image",
+   "nextElement": "barrier"
+  },
+  {
+   "id": "doc-56450d33",
+   "identifier": "barrier",
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iips1oa60",
+   "content": {
+    "text": "After US President Donald Trump called for a new 5% spending target at the World Economic Forum in Davos in January, intense debates raged within the alliance. NATO Secretary General Mark Rutte initially proposed a 3% target. But now the discussions are over: the US prevailed; at the NATO summit at the end of June, the alliance announced the new 5% target. However, members are only required to spend 3.5% of their GDP on military expenditures; the remaining 1.5% can be allocated to militarily relevant infrastructure. This leaves room for some accounting maneuvering. Furthermore, there is a long transition period."
+   },
+   "paidContent": true,
+   "prevElement": "barrier",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1iirahbtq0",
+   "content": {
+    "title": "We're talking about trillions of dollars",
+    "id": "subtitle-es-geht-um-billionen-von-dollar"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iub4av901",
+   "content": {
+    "text": "But even military spending of 3.5 percent is an extremely ambitious target. According to <a target=\"_blank\" href=\"https://www.nato.int/nato_static_fl2014/assets/pdf/2025/4/pdf/sgar24-en.pdf#page=58\">NATO,</a> only one country exceeded this last year – Poland, with 4.1 percent. Even the US, at 3.2 percent, failed to reach the required level. The European average was just over 2 percent. The <a target=\"_blank\" href=\"https://www.nato.int/nato_static_fl2014/assets/pdf/2025/8/pdf/250827-def-exp-2025-en.pdf\">provisional figures for 2025</a> do not paint a completely different picture: in addition to Poland, Lithuania and Latvia are now also above the 3.5 percent mark. However, the overall European average remains at around 2.2 percent."
+   },
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iips1oa90",
+   "content": {
+    "text": "Behind this abstract future target lie gigantic additional expenditures. According to the latest NATO statistics, the 30 European member states budgeted a total of around $560 billion for military spending this year. With a target of 3.5 percent of GDP, this translates to additional expenditures of approximately $330 billion per year. Over a decade, and with a steadily growing economy, these expenditures would accumulate to several trillion dollars. Political resistance to such burdens is already evident, even if governments are currently emphasizing their defense efforts."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iips1oac0",
+   "content": {
+    "text": "A glance at the map of NATO territory below reveals a wide range of defense policy ambitions. Unsurprisingly, spending in 2024 was particularly high on NATO's eastern flank, often well above the two percent target. However, nine countries, in the west and south of the continent, still failed to meet the minimum requirement."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "q-embed"
+  },
+  {
+   "identifier": "q-embed",
+   "id": "doc-1iips6ohv0",
+   "content": {
+    "q-embed": {
+     "service": "q-tool",
+     "params": {
+      "id": "161cd517db048a316b465e1c46330888",
+      "conf": {},
+      "toolConfig": {},
+      "toolRuntimeConfig": {
+       "size": {
+        "width": [
+         {
+          "value": 100,
+          "comparison": ">"
+         }
+        ]
+       },
+       "displayOptions": {
+        "hideTitle": false,
+        "hideSubtitle": false,
+        "hideFooter": false,
+        "hideAcronym": false
+       },
+       "locale": "en_US"
+      },
+      "size": "content"
+     },
+     "resolvedValue": {}
+    },
+    "html": "      <div        class=\"q-choropleth-container\"        id=\"q_choropleth_161cd517db048a316b465e1c46330888_qb569941619704747ab0e6c38955cbd9e_container\"        data-q-item-id=\"161cd517db048a316b465e1c46330888\"        data-q-request-id=\"b0fd461ecd4bcf8a1068f4e1705539400e8a4abe\"      ></div>",
+    "stylesheets": [
+     {
+      "type": "remote",
+      "content": "https://service.sophie.nzz.ch/bundle/sophie-color%23master,sophie-font%23master,sophie-legend%23master[icon-label],sophie-q%23master,sophie-viz-color%23master.css"
+     },
+     {
+      "type": "inline",
+      "content": "  @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff) format(\"woff\");  }    @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff) format(\"woff\");    unicode-range: U+0020-00FF,U+2005,U+2082;  }      "
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/css-theme-layer/nzz-0.2.0.css"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/choropleth/q-choropleth-1.2.6.css"
+     }
+    ],
+    "scripts": [
+     {
+      "type": "inline",
+      "content": "function qTrackingBootstrap(t,e,n){if(window.digitalData&&window.digitalData.component&&window.digitalData.component.push){window.digitalData.component.push(t),window.digitalData.event&&window.digitalData.event.length||(window.digitalData.event=[]);var i=new Date,a=e;a.eventInfo.timeStamp=i.toISOString(),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\");var o=document.querySelectorAll(\"[data-q-request-id='\"+n+\"']\");[].forEach.call(o,function(t){t.addEventListener(\"q-tracking-event\",function(t){var e=new Date;(a=JSON.parse(JSON.stringify(a))).eventInfo.timeStamp=e.toISOString(),a.eventInfo=Object.assign(a.eventInfo,t.detail.eventInfo),a.category=Object.assign(a.category,t.detail.category),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\")},!1)})}};qTrackingBootstrap({\"componentInfo\":{\"componentName\":\"Q\",\"componentID\":\"161cd517db048a316b465e1c46330888\"},\"category\":{\"componentType\":\"storytelling\",\"componentSubType1\":\"Q graphic\",\"componentSubType2\":\"choropleth\"}},{\"eventInfo\":{\"eventName\":\"Storytelling Interaction\",\"eventAction\":\"load\",\"type\":\"story\",\"componentName\":\"Q\",\"eventNonInteractive\":true,\"componentID\":\"161cd517db048a316b465e1c46330888\"},\"category\":{\"primaryCategory\":\"storytelling\",\"subCategory1\":\"Q graphic\",\"subCategory2\":\"choropleth\"}},\"b0fd461ecd4bcf8a1068f4e1705539400e8a4abe\")"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/choropleth/q-choropleth-1.2.6.js"
+     },
+     {
+      "type": "inline",
+      "content": "      (function () {        function initialize() {          const target = document.querySelector('#q_choropleth_161cd517db048a316b465e1c46330888_qb569941619704747ab0e6c38955cbd9e_container');          if (!target) return;          target.innerHTML = '';          const qdoc = {\"_id\":\"161cd517db048a316b465e1c46330888\",\"publication\":\"nzz\",\"acronym\":\"A. R.\",\"title\":\"Some NATO countries did not reach the two percent target in 2024\",\"baseMap\":\"europe-countries-geographic\",\"version\":\"2023-01-31T00:00:00.000Z\",\"data\":[[\"ID\",\"Value\"],[\"Albania\",\"Goal narrowly achieved\"],[\"Andorra\",\"not a member\"],[\"Austria\",\"not a member\"],[\"Belarus\",\"not a member\"],[\"Belgium\",\"<1.5%\"],[\"Bosnia and Herzegovina\",\"not a member\"],[\"Bulgaria\",\"Goal narrowly achieved\"],[\"Croatia\",\"1.5–1.9%\"],[\"Cyprus\",\"not a member\"],[\"Czech Republic\",\"Goal narrowly achieved\"],[\"Denmark\",\"2.2–3%\"],[\"Estonia\",\">3%\"],[\"Finland\",\"2.2–3%\"],[\"France\",\"Goal narrowly achieved\"],[\"Germany\",\"Goal narrowly achieved\"],[\"Greece\",\"2.2–3%\"],[\"Hungary\",\"Goal narrowly achieved\"],[\"Iceland\",\"<1.5%\"],[\"Ireland\",\"not a member\"],[\"Italy\",\"1.5–1.9%\"],[\"Kosovo\",\"not a member\"],[\"Latvia\",\">3%\"],[\"Liechtenstein\",\"not a member\"],[\"Lithuania\",\">3%\"],[\"Luxembourg\",\"<1.5%\"],[\"Malta\",\"not a member\"],[\"Moldova\",\"not a member\"],[\"Monaco\",\"not a member\"],[\"Montenegro\",\"1.5–1.9%\"],[\"Netherlands\",\"Goal narrowly achieved\"],[\"North Macedonia\",\"Goal narrowly achieved\"],[\"Norway\",\"2.2–3%\"],[\"Poland\",\">3%\"],[\"Portugal\",\"<1.5%\"],[\"Romania\",\"2.2–3%\"],[\"Russia\",\"not a member\"],[\"San Marino\",\"not a member\"],[\"Serbia\",\"not a member\"],[\"Slovakia\",\"Goal narrowly achieved\"],[\"Slovenia\",\"<1.5%\"],[\"Spain\",\"<1.5%\"],[\"Sweden\",\"2.2–3%\"],[\"Switzerland\",\"not a member\"],[\"Turkey\",\"Goal narrowly achieved\"],[\"Ukraine\",\"not a member\"],[\"United Kingdom\",\"2.2–3%\"],[\"Vatican City\",\"not a member\"]],\"mapAnnotations\":[],\"sources\":[{\"text\":\"NATO\",\"link\":{\"url\":\"https://www.nato.int/nato_static_fl2014/assets/pdf/2025/4/pdf/sgar24-en.pdf#page=58\"}}],\"options\":{\"choroplethType\":\"categorical\",\"numericalOptions\":{\"noValuesOnMap\":false,\"labelLegend\":\"noLabel\",\"bucketType\":\"ckmeans\",\"numberBuckets\":5,\"scale\":\"sequential\",\"colorScheme\":\"one\",\"invertColorScheme\":false,\"colorOverwrites\":[]},\"categoricalOptions\":{\"valuesOnMap\":false,\"colorOverwrites\":[{\"textColor\":\"light\",\"color\":\"#cdcdd1\",\"position\":6},{\"textColor\":\"light\",\"color\":\"#374e8e\",\"position\":5},{\"textColor\":\"light\",\"color\":\"#cad5ec\",\"position\":3},{\"textColor\":\"light\",\"color\":\"#e98977\",\"position\":1},{\"textColor\":\"light\",\"color\":\"#f1cbc3\",\"position\":2},{\"textColor\":\"light\",\"color\":\"#768fcd\",\"position\":4}],\"customCategoriesOrder\":[{\"category\":\"<1,4%\"},{\"category\":\"1,4–1,9%\"},{\"category\":\"Ziel knapp erreicht\"},{\"category\":\"2,2–3%\"},{\"category\":\">3%\"},{\"category\":\"kein Mitglied\"}]},\"hideBubbleMap\":false,\"hideMicroStates\":true},\"entityType\":\"name\",\"updatedDate\":\"2025-06-22T06:34:49.163Z\",\"notes\":\"NATO estimates. Iceland is a special case, as it has no army.\",\"subtitle\":\"Military spending as a percentage of GDP in 2024\"};          const toolRuntimeConfig = {\"displayOptions\":{\"hideTitle\":false,\"hideSubtitle\":false,\"hideFooter\":false,\"hideAcronym\":false},\"size\":{\"width\":[{\"value\":100,\"comparison\":\">\"}]},\"locale\":\"en-US\"};          const toolSettings = {\"qItemInstanceId\":\"q_choropleth_161cd517db048a316b465e1c46330888_qb569941619704747ab0e6c38955cbd9e\",\"serverUrl\":\"https://q-server.nzz.ch\"};          let attempts = 0;          const maxAttempts = 100;          const checkAndInitialize = setInterval(() => {            if (window.qChoropleth) {              clearInterval(checkAndInitialize);              new window.qChoropleth({ target: target, props: {                qdoc: qdoc,                toolSettings: toolSettings,                toolRuntimeConfig: toolRuntimeConfig              } });            } else {              attempts++;              if (attempts >= maxAttempts) {                clearInterval(checkAndInitialize);                console.error('Failed to initialize qChoropleth after 30 seconds');              }            }          }, 300);        }        if (document.body.classList.contains('pagedone')) {          initialize();        } else {          window.addEventListener('pagedone', initialize);        }      })();    "
+     }
+    ]
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iiqv1tlo1",
+   "content": {
+    "text": "Spain stands out as being at the bottom of the list, having clearly missed NATO targets with military spending of less than 1.3 percent of GDP. According to provisional NATO figures for 2025, Spain has now suddenly cleared the 2 percent hurdle – as have Italy, Portugal, and the other laggards. However, this miraculous increase raises questions about its sustainability, and Spain has already made it clear that it will ignore the five percent target."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "q-embed",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1j3r8r2ce1",
+   "content": {
+    "text": "But everything is relative: If Switzerland were a member of NATO, it would be at the bottom of the rankings with a value of 0.7 percent. Poland and the Baltic states, on the other hand, can face the new target of 3.5 percent with equanimity. The situation is different for economic heavyweights like Germany and France, which only just barely reached the two percent target – and <a href=\"https://www.nzz.ch/international/mogelpackung-zwei-prozent-ziel-wie-deutschland-die-nato-vorgabe-erfuellt-ld.1814047\">in Germany's case,</a> only through budgetary maneuvering."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "q-embed"
+  },
+  {
+   "identifier": "q-embed",
+   "id": "doc-1iips3tpf0",
+   "content": {
+    "q-embed": {
+     "service": "q-tool",
+     "params": {
+      "id": "06cc666c08afbb7c4b905e6dd8a1bc62",
+      "conf": {},
+      "toolConfig": {},
+      "toolRuntimeConfig": {
+       "size": {
+        "width": [
+         {
+          "value": 100,
+          "comparison": ">"
+         }
+        ]
+       },
+       "displayOptions": {
+        "hideTitle": false,
+        "hideSubtitle": false,
+        "hideFooter": false,
+        "hideAcronym": false,
+        "size": "basic"
+       },
+       "locale": "en_US"
+      },
+      "size": "containerwidth"
+     },
+     "resolvedValue": {}
+    },
+    "html": "      <div        class=\"q-chart-container\"        id=\"q_chart_06cc666c08afbb7c4b905e6dd8a1bc62_q75415a6c2e1345f08aa3df03896d723b_container\"        data-q-item-id=\"06cc666c08afbb7c4b905e6dd8a1bc62\"        data-q-request-id=\"ac21fd564933ac3b86e576ffe8131bda8967cf72\"      ></div>",
+    "stylesheets": [
+     {
+      "type": "remote",
+      "content": "https://service.sophie.nzz.ch/bundle/sophie-color%23master,sophie-font%23master,sophie-legend%23master[icon-label],sophie-q%23master,sophie-viz-color%23master.css"
+     },
+     {
+      "type": "inline",
+      "content": "  @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff) format(\"woff\");  }    @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff) format(\"woff\");    unicode-range: U+0020-00FF,U+2005,U+2082;  }      "
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/css-theme-layer/nzz-0.2.0.css"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/chart/q-chart-1.2.6.css"
+     }
+    ],
+    "scripts": [
+     {
+      "type": "inline",
+      "content": "function qTrackingBootstrap(t,e,n){if(window.digitalData&&window.digitalData.component&&window.digitalData.component.push){window.digitalData.component.push(t),window.digitalData.event&&window.digitalData.event.length||(window.digitalData.event=[]);var i=new Date,a=e;a.eventInfo.timeStamp=i.toISOString(),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\");var o=document.querySelectorAll(\"[data-q-request-id='\"+n+\"']\");[].forEach.call(o,function(t){t.addEventListener(\"q-tracking-event\",function(t){var e=new Date;(a=JSON.parse(JSON.stringify(a))).eventInfo.timeStamp=e.toISOString(),a.eventInfo=Object.assign(a.eventInfo,t.detail.eventInfo),a.category=Object.assign(a.category,t.detail.category),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\")},!1)})}};qTrackingBootstrap({\"componentInfo\":{\"componentName\":\"Q\",\"componentID\":\"06cc666c08afbb7c4b905e6dd8a1bc62\"},\"category\":{\"componentType\":\"storytelling\",\"componentSubType1\":\"Q graphic\",\"componentSubType2\":\"chart\"}},{\"eventInfo\":{\"eventName\":\"Storytelling Interaction\",\"eventAction\":\"load\",\"type\":\"story\",\"componentName\":\"Q\",\"eventNonInteractive\":true,\"componentID\":\"06cc666c08afbb7c4b905e6dd8a1bc62\"},\"category\":{\"primaryCategory\":\"storytelling\",\"subCategory1\":\"Q graphic\",\"subCategory2\":\"chart\"}},\"ac21fd564933ac3b86e576ffe8131bda8967cf72\")"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/chart/q-chart-1.2.6.js"
+     },
+     {
+      "type": "inline",
+      "content": "      (function () {        function initialize() {          const target = document.querySelector('#q_chart_06cc666c08afbb7c4b905e6dd8a1bc62_q75415a6c2e1345f08aa3df03896d723b_container');          if (!target) return;          target.innerHTML = '';          const qdoc = {\"_id\":\"06cc666c08afbb7c4b905e6dd8a1bc62\",\"publication\":\"nzz\",\"acronym\":\"A. R.\",\"data\":[[\"country\",\"Portion\"],[\"Poland\",\"4.3\"],[\"Lithuania\",\"4\"],[\"Latvia\",\"3.74\"],[\"Estonia\",\"3.42\"],[\"Denmark\",\"3.34\"],[\"Norway\",\"3.2\"],[\"Finland\",\"2.87\"],[\"Greece\",\"2.79\"],[\"Netherlands\",\"2.59\"],[\"Sweden\",\"2.5\"],[\"Germany\",\"2.39\"],[\"Turkey\",\"2.33\"],[\"Great Britain\",\"2.31\"],[\"France\",\"2.05\"],[\"Italy\",\"2.01\"],[\"Spain\",\"2\"]],\"allowDownloadData\":false,\"events\":[],\"sources\":[{\"text\":\"NATO\",\"link\":{\"url\":\"https://www.nato.int/nato_static_fl2014/assets/pdf/2025/8/pdf/250827-def-exp-2025-en.pdf\"}},{\"text\":\"German government.\",\"link\":{\"url\":\"https://www.zdfheute.de/politik/deutschland/haushalt-entwurf-schulden-milliarden-100.html\"}}],\"options\":{\"chartType\":\"Bar\",\"hideAxisLabel\":true,\"highlightDataSeries\":[],\"highlightDataRows\":[],\"annotations\":{\"valuesOnBars\":true},\"barOptions\":{\"isBarChart\":true,\"forceBarsOnSmall\":false},\"dateSeriesOptions\":{\"interval\":\"auto\",\"labels\":\"few\",\"prognosisStart\":null},\"lineChartOptions\":{\"yScaleType\":\"linear\",\"reverseYScale\":false,\"lineInterpolation\":\"linear\",\"isStockChart\":false},\"areaChartOptions\":{\"areaInterpolation\":\"linear\",\"stackType\":\"zero\"},\"dotplotOptions\":{},\"arrowOptions\":{\"colorScheme\":0,\"invertColorScheme\":false},\"colorOverwritesSeries\":[],\"colorOverwritesRows\":[{\"color\":\"#cad5ec\",\"position\":16},{\"color\":\"#cad5ec\",\"position\":15},{\"color\":\"#cad5ec\",\"position\":14},{\"color\":\"#cad5ec\",\"position\":13},{\"color\":\"#cad5ec\",\"position\":12},{\"color\":\"#cad5ec\",\"position\":11},{\"color\":\"#cad5ec\",\"position\":10},{\"color\":\"#cad5ec\",\"position\":9},{\"color\":\"#cad5ec\",\"position\":8},{\"color\":\"#cad5ec\",\"position\":7},{\"color\":\"#768fcd\",\"position\":6},{\"color\":\"#768fcd\",\"position\":5},{\"color\":\"#768fcd\",\"colorLight\":\"\",\"position\":4}],\"largeNumbers\":{\"divideBy\":0}},\"title\":\"Poland spends twice as much as France and Germany relative to its economic output\",\"subtitle\":\"Military spending of selected European NATO states in 2025, as a percentage of GDP\",\"notes\":\"Sixteen of the 32 member countries were taken into account (the six largest economies and the ten with the highest expenditures).\",\"updatedDate\":\"2026-03-27T17:34:29.406Z\"};          const toolRuntimeConfig = {\"displayOptions\":{\"hideTitle\":false,\"hideSubtitle\":false,\"hideFooter\":false,\"hideAcronym\":false,\"size\":\"basic\"},\"size\":{\"width\":[{\"value\":100,\"comparison\":\">\"}]},\"locale\":\"en-US\"};          const toolSettings = {\"qItemInstanceId\":\"q_chart_06cc666c08afbb7c4b905e6dd8a1bc62_q75415a6c2e1345f08aa3df03896d723b\"};          let attempts = 0;          const maxAttempts = 100;          const checkAndInitialize = setInterval(() => {            if (window.qChart) {              clearInterval(checkAndInitialize);              new window.qChart({ target: target, props: {                qdoc: qdoc,                toolSettings: toolSettings,                toolRuntimeConfig: toolRuntimeConfig              } });            } else {              attempts++;              if (attempts >= maxAttempts) {                clearInterval(checkAndInitialize);                console.error('Failed to initialize qChart after 30 seconds');              }            }          }, 300);        }        if (document.body.classList.contains('pagedone')) {          initialize();        } else {          window.addEventListener('pagedone', initialize);        }      })();    "
+     }
+    ]
+   },
+   "styles": {
+    "fullwidth-widget": "widget--containerwidth"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iips1oah1",
+   "content": {
+    "text": "The two percent target, enshrined in 2014, was already frequently criticized, and a five percent target would be even more so. Her main objection is that a rigid budget target offers no guarantee of achieving the goal – making Europe safe. These percentages don't reveal how efficiently and effectively governments spend the money. Furthermore, not every euro serves collective security – France, for example, also uses its military to pursue its great power ambitions overseas. Different national budgeting methods further complicate comparisons."
+   },
+   "paidContent": true,
+   "prevElement": "q-embed",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iips1oai0",
+   "content": {
+    "text": "But percentage targets are a means of driving policy. A comparison with the past is also illuminating: During the Cold War, much higher military spending was the norm for decades. Since a hot war is currently raging in Europe and NATO is facing its most serious threat in a long time, the comparative figures from that era are relevant."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iips1oaj0",
+   "content": {
+    "text": "As the graph below shows, in the 1970s the British spent around five percent, the French and Germans around three percent, and the Swiss two percent of their economic output on the military."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "q-embed"
+  },
+  {
+   "identifier": "q-embed",
+   "id": "doc-1iipsegi30",
+   "content": {
+    "q-embed": {
+     "service": "q-tool",
+     "params": {
+      "id": "161cd517db048a316b465e1c4617c327",
+      "conf": {},
+      "toolConfig": {},
+      "toolRuntimeConfig": {
+       "size": {
+        "width": [
+         {
+          "value": 100,
+          "comparison": ">"
+         }
+        ]
+       },
+       "displayOptions": {
+        "hideTitle": false,
+        "hideSubtitle": false,
+        "hideFooter": false,
+        "hideAcronym": false,
+        "size": "basic"
+       },
+       "locale": "en_US"
+      },
+      "size": "containerwidth"
+     },
+     "resolvedValue": {}
+    },
+    "html": "      <div        class=\"q-chart-container\"        id=\"q_chart_161cd517db048a316b465e1c4617c327_q9ff868adae23462ba49286bd9f87ee80_container\"        data-q-item-id=\"161cd517db048a316b465e1c4617c327\"        data-q-request-id=\"5f12ac6a4179b3e5c5a3c9a1e8fc21859609cf7d\"      ></div>",
+    "stylesheets": [
+     {
+      "type": "remote",
+      "content": "https://service.sophie.nzz.ch/bundle/sophie-color%23master,sophie-font%23master,sophie-legend%23master[icon-label],sophie-q%23master,sophie-viz-color%23master.css"
+     },
+     {
+      "type": "inline",
+      "content": "  @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff) format(\"woff\");  }    @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff) format(\"woff\");    unicode-range: U+0020-00FF,U+2005,U+2082;  }      "
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/css-theme-layer/nzz-0.2.0.css"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/chart/q-chart-1.2.6.css"
+     }
+    ],
+    "scripts": [
+     {
+      "type": "inline",
+      "content": "function qTrackingBootstrap(t,e,n){if(window.digitalData&&window.digitalData.component&&window.digitalData.component.push){window.digitalData.component.push(t),window.digitalData.event&&window.digitalData.event.length||(window.digitalData.event=[]);var i=new Date,a=e;a.eventInfo.timeStamp=i.toISOString(),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\");var o=document.querySelectorAll(\"[data-q-request-id='\"+n+\"']\");[].forEach.call(o,function(t){t.addEventListener(\"q-tracking-event\",function(t){var e=new Date;(a=JSON.parse(JSON.stringify(a))).eventInfo.timeStamp=e.toISOString(),a.eventInfo=Object.assign(a.eventInfo,t.detail.eventInfo),a.category=Object.assign(a.category,t.detail.category),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\")},!1)})}};qTrackingBootstrap({\"componentInfo\":{\"componentName\":\"Q\",\"componentID\":\"161cd517db048a316b465e1c4617c327\"},\"category\":{\"componentType\":\"storytelling\",\"componentSubType1\":\"Q graphic\",\"componentSubType2\":\"chart\"}},{\"eventInfo\":{\"eventName\":\"Storytelling Interaction\",\"eventAction\":\"load\",\"type\":\"story\",\"componentName\":\"Q\",\"eventNonInteractive\":true,\"componentID\":\"161cd517db048a316b465e1c4617c327\"},\"category\":{\"primaryCategory\":\"storytelling\",\"subCategory1\":\"Q graphic\",\"subCategory2\":\"chart\"}},\"5f12ac6a4179b3e5c5a3c9a1e8fc21859609cf7d\")"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/chart/q-chart-1.2.6.js"
+     },
+     {
+      "type": "inline",
+      "content": "      (function () {        function initialize() {          const target = document.querySelector('#q_chart_161cd517db048a316b465e1c4617c327_q9ff868adae23462ba49286bd9f87ee80_container');          if (!target) return;          target.innerHTML = '';          const qdoc = {\"_id\":\"161cd517db048a316b465e1c4617c327\",\"publication\":\"nzz\",\"acronym\":\"A. R.\",\"data\":[[\"Year\",\"Germany\",\"France\",\"Great Britain\",\"Italy\",\"Switzerland\"],[\"1970\",\"3.01\",\"3.46\",\"5.2\",\"2.06\",\"2.1\"],[\"1971\",\"3.06\",\"3.32\",\"5.08\",\"2.24\",\"2.05\"],[\"1972\",\"3.17\",\"3.23\",\"5.17\",\"2.39\",\"1.97\"],[\"1973\",\"3.16\",\"3.14\",\"4.91\",\"2.2\",\"1.86\"],[\"1974\",\"3.26\",\"3.09\",\"5.07\",\"2.07\",\"1.88\"],[\"1975\",\"3.28\",\"3.2\",\"5.34\",\"1.98\",\"1.9\"],[\"1976\",\"3.14\",\"3.16\",\"5.18\",\"1.83\",\"2.16\"],[\"1977\",\"3.04\",\"3.23\",\"4.92\",\"1.89\",\"2.02\"],[\"1978\",\"3.05\",\"3.15\",\"4.73\",\"1.88\",\"1.97\"],[\"1979\",\"2.96\",\"3.14\",\"4.68\",\"1.87\",\"2.04\"],[\"1980\",\"2.96\",\"3.16\",\"5.02\",\"1.76\",\"1.68\"],[\"1981\",\"3.04\",\"3.25\",\"4.98\",\"1.82\",\"1.66\"],[\"1982\",\"3.03\",\"3.22\",\"5.38\",\"2.01\",\"1.73\"],[\"1983\",\"3.03\",\"3.24\",\"5.4\",\"2.02\",\"1.75\"],[\"1984\",\"2.93\",\"3.19\",\"5.51\",\"2.01\",\"1.7\"],[\"1985\",\"2.87\",\"3.14\",\"5.32\",\"1.94\",\"1.82\"],[\"1986\",\"2.79\",\"3.09\",\"5.06\",\"1.98\",\"1.66\"],[\"1987\",\"2.77\",\"3.12\",\"4.69\",\"2.06\",\"1.56\"],[\"1988\",\"2.64\",\"2.96\",\"4.21\",\"2.07\",\"1.56\"],[\"1989\",\"2.53\",\"2.88\",\"4.04\",\"2.03\",\"1.52\"],[\"1990\",\"2.52\",\"2.81\",\"3.98\",\"1.88\",\"1.57\"],[\"1991\",\"2\",\"2.81\",\"4.12\",\"1.86\",\"1.54\"],[\"1992\",\"1.86\",\"2.69\",\"3.86\",\"1.75\",\"1.52\"],[\"1993\",\"1.69\",\"2.69\",\"3.59\",\"1.79\",\"1.37\"],[\"1994\",\"1.55\",\"2.66\",\"3.38\",\"1.71\",\"1.33\"],[\"1995\",\"1.5\",\"2.49\",\"2.85\",\"1.47\",\"1.36\"],[\"1996\",\"1.47\",\"2.41\",\"2.72\",\"1.59\",\"1.28\"],[\"1997\",\"1.41\",\"2.38\",\"2.56\",\"1.63\",\"1.22\"],[\"1998\",\"1.39\",\"2.23\",\"2.5\",\"1.64\",\"1.19\"],[\"1999\",\"1.4\",\"2.18\",\"2.42\",\"1.68\",\"1.09\"],[\"2000\",\"1.36\",\"2.09\",\"2.37\",\"1.74\",\"1.03\"],[\"2001\",\"1.32\",\"2.03\",\"2.41\",\"1.68\",\"0.99\"],[\"2002\",\"1.33\",\"2.05\",\"2.49\",\"1.71\",\"0.96\"],[\"2003\",\"1.32\",\"2.1\",\"2.55\",\"1.71\",\"0.93\"],[\"2004\",\"1.27\",\"2.1\",\"2.5\",\"1.68\",\"0.89\"],[\"2005\",\"1.07\",\"2.02\",\"2.42\",\"1.6\",\"0.83\"],[\"2006\",\"1.2\",\"1.98\",\"2.37\",\"1.52\",\"0.75\"],[\"2007\",\"1.17\",\"1.91\",\"2.37\",\"1.45\",\"0.72\"],[\"2008\",\"1.21\",\"1.9\",\"2.49\",\"1.54\",\"0.72\"],[\"2009\",\"1.31\",\"2.1\",\"2.65\",\"1.55\",\"0.73\"],[\"2010\",\"1.27\",\"1.97\",\"2.57\",\"1.5\",\"0.69\"],[\"2011\",\"1.21\",\"1.89\",\"2.5\",\"1.48\",\"0.69\"],[\"2012\",\"1.24\",\"1.87\",\"2.42\",\"1.43\",\"0.67\"],[\"2013\",\"1.19\",\"1.85\",\"2.29\",\"1.4\",\"0.71\"],[\"2014\",\"1.15\",\"1.86\",\"2.18\",\"1.28\",\"0.63\"],[\"2015\",\"1.14\",\"1.87\",\"2.05\",\"1.21\",\"0.65\"],[\"2016\",\"1.15\",\"1.92\",\"1.98\",\"1.33\",\"0.66\"],[\"2017\",\"1.15\",\"1.91\",\"1.95\",\"1.36\",\"0.67\"],[\"2018\",\"1.17\",\"1.84\",\"1.94\",\"1.36\",\"0.65\"],[\"2019\",\"1.26\",\"1.84\",\"1.99\",\"1.31\",\"0.7\"],[\"2020\",\"1.37\",\"2\",\"2.16\",\"1.74\",\"0.77\"],[\"2021\",\"1.30\",\"1.98\",\"2.07\",\"1.66\",\"0.67\"],[\"2022\",\"1.35\",\"1.96\",\"2.06\",\"1.65\",\"0.68\"],[\"2023\",\"1.49\",\"1.95\",\"2.23\",\"1.61\",\"0.71\"],[\"2024\",\"1.89\",\"2.05\",\"2.28\",\"1.61\",\"0.72\"]],\"allowDownloadData\":false,\"events\":[],\"sources\":[{\"link\":{\"url\":\"https://milex.sipri.org/sipri\",\"isValid\":true},\"text\":\"Sipri\"}],\"options\":{\"chartType\":\"Line\",\"hideAxisLabel\":true,\"highlightDataSeries\":[],\"highlightDataRows\":[],\"annotations\":{},\"barOptions\":{\"isBarChart\":false,\"forceBarsOnSmall\":false},\"dateSeriesOptions\":{\"interval\":\"auto\",\"labels\":\"many\",\"prognosisStart\":null},\"lineChartOptions\":{\"yScaleType\":\"linear\",\"reverseYScale\":false,\"lineInterpolation\":\"linear\",\"isStockChart\":false},\"areaChartOptions\":{\"areaInterpolation\":\"linear\",\"stackType\":\"zero\"},\"dotplotOptions\":{},\"arrowOptions\":{\"colorScheme\":0,\"invertColorScheme\":false},\"colorOverwritesSeries\":[{\"color\":\"#E3B13E\",\"position\":1},{\"color\":\"#ce4732\",\"position\":5},{\"color\":\"#478c5b\",\"position\":4},{\"color\":\"#8aabfd\",\"position\":2},{\"color\":\"#374e8e\",\"position\":3}],\"colorOverwritesRows\":[],\"largeNumbers\":{\"divideBy\":0}},\"title\":\"Military spending of selected countries\",\"subtitle\":\"Share of respective GDP, in percent\",\"annotations\":\"Figures for Switzerland do not include expenditure on military pensions or paramilitary forces, or spending by cantons and local government. From 1990-2006, military spending by cantons and local government typically amounted to between 5-8% of the central government spending figures.\",\"updatedDate\":\"2025-06-20T16:59:05.277Z\",\"deactivateDate\":\"2025-01-27T13:50:40.523Z\",\"activateDate\":\"2025-01-27T14:09:41.552Z\"};          const toolRuntimeConfig = {\"displayOptions\":{\"hideTitle\":false,\"hideSubtitle\":false,\"hideFooter\":false,\"hideAcronym\":false,\"size\":\"basic\"},\"size\":{\"width\":[{\"value\":100,\"comparison\":\">\"}]},\"locale\":\"en-US\"};          const toolSettings = {\"qItemInstanceId\":\"q_chart_161cd517db048a316b465e1c4617c327_q9ff868adae23462ba49286bd9f87ee80\"};          let attempts = 0;          const maxAttempts = 100;          const checkAndInitialize = setInterval(() => {            if (window.qChart) {              clearInterval(checkAndInitialize);              new window.qChart({ target: target, props: {                qdoc: qdoc,                toolSettings: toolSettings,                toolRuntimeConfig: toolRuntimeConfig              } });            } else {              attempts++;              if (attempts >= maxAttempts) {                clearInterval(checkAndInitialize);                console.error('Failed to initialize qChart after 30 seconds');              }            }          }, 300);        }        if (document.body.classList.contains('pagedone')) {          initialize();        } else {          window.addEventListener('pagedone', initialize);        }      })();    "
+     }
+    ]
+   },
+   "styles": {
+    "fullwidth-widget": "widget--containerwidth"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iips1oak1",
+   "content": {
+    "text": "The figures for these countries only fell significantly after the collapse of the Soviet Union in 1991. This reflected the desire for a «peace dividend.» In the case of Great Britain, Germany, and Switzerland, this amounted to roughly half of their previous military spending. Austerity measures continued everywhere until the 2010s, before increased funding for the armed forces began to flow again from 2020 onward."
+   },
+   "paidContent": true,
+   "prevElement": "q-embed",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1iiraibmv0",
+   "content": {
+    "title": "Suddenly, 60 percent more combat brigades are needed",
+    "id": "subtitle-pl-tzlich-braucht-es-60-prozent-mehr-kampfbrigaden"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iir0njir0",
+   "content": {
+    "text": "Now, spending curves are expected to rise sharply. This is not only a consequence of the change of power in the White House, but also of NATO's new defense plans. For the first time since the Cold War, as NATO's Supreme Allied Commander Europe, <a target=\"_blank\" href=\"https://www.cfr.org/event/conversation-supreme-allied-commander-europe-saceur-christopher-g-cavoli-0\">General Christopher Cavoli</a> , put it, there are once again classic operational plans: These specify precisely how certain areas are to be defended and what resources are needed for this purpose."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iub6f8od1",
+   "content": {
+    "text": "In recent months, the corresponding responsibilities have been distributed among the individual alliance members. This results in a concrete need for expenditure – and not solely from a seemingly arbitrary percentage. «It is the plans that dictate our needs, not some pledged ambitions,» said <a target=\"_blank\" href=\"https://www.nato.int/cps/en/natohq/opinions_232213.htm?selectedLocale=en\">French Admiral Pierre Vandier, Supreme Allied Commander for NATO Transformation, in Brussels</a> in mid-January."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iir1oj4s0",
+   "content": {
+    "text": "NATO's defense plans and the «Minimum Capability Requirements» set by the High Command are secret, but it has been leaked that the alliance has identified significant gaps. Citing confidential documents from the German Ministry of Defense <a target=\"_blank\" href=\"https://www.welt.de/politik/deutschland/article253847236/Absicherung-gegen-Russland-Nato-fordert-49-weitere-Kampftruppen-Brigaden.html\">, the newspaper «Welt am Sonntag» reported</a> as early as October that the number of available combat brigades (of around 5,000 troops) is to increase from 82 to 131, and the number of division headquarters from 24 to 38."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iir5lhqj0",
+   "content": {
+    "text": "Air defense is considered a particularly weak point. NATO has apparently calculated that with currently available resources, it could <a target=\"_blank\" href=\"https://icds.ee/wp-content/uploads/dlm_uploads/2024/07/No-5_NATOs-Regional-Defence-Plans_Nele-Loorents.pdf\">only defend five percent of its eastern flank</a> . Given the backdrop of the Russian air war against Ukraine, not only with missiles but also with a growing number of kamikaze drones, such a finding is highly significant. The German Bundeswehr, in particular, has been weakened – at the end of the Cold War, it had 36 Patriot air defense batteries; today, it has only 9, and of those, only 6 are operational in Germany."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iir60nkl0",
+   "content": {
+    "text": "Time is of the essence for NATO. The question is what the collective defense shield should look like on land, at sea, in the air, in cyberspace, and in outer space, and whether each alliance member will contribute its share. These discussions have not ended with the recent NATO summit and the agreement on higher spending targets."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "footnote"
+  },
+  {
+   "identifier": "footnote",
+   "id": "doc-1iuc461ev0",
+   "content": {
+    "text": "This article is an updated version of a previously published text."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "sharebox",
+   "lastContentElement": true
+  },
+  {
+   "identifier": "sharebox",
+   "id": "doc-1iips1j581",
+   "paidContent": true,
+   "prevElement": "footnote",
+   "nextElement": "related-articles-container"
+  },
+  {
+   "identifier": "related-articles-container",
+   "id": "doc-1iips1j582",
+   "content": {
+    "title": "Related articles"
+   },
+   "containers": {
+    "related-articles": [
+     {
+      "identifier": "teaser",
+      "id": "doc-1iips1j585",
+      "content": {
+       "owner": "NZZ",
+       "title": "The great misunderstanding about NATO: Why the world's most powerful alliance is weak without political will",
+       "teaserImage": {
+        "originalUrl": "/2025/06/20/043c6ff6-e6b1-429c-836a-0d818ba4c104.jpeg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2025/06/20/043c6ff6-e6b1-429c-836a-0d818ba4c104.jpeg?width=1024&quality=75&auto=webp",
+        "width": 5295,
+        "height": 3436,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "5295,2978,x0,y229"
+         },
+         {
+          "name": "1:1",
+          "crop": "3436,3436,x930,y0"
+         },
+         {
+          "name": "4:3",
+          "crop": "4581,3436,x357,y0"
+         },
+         {
+          "name": "3:4",
+          "crop": "2577,3436,x1359,y0"
+         },
+         {
+          "name": "3:2",
+          "crop": "5154,3436,x71,y0"
+         }
+        ],
+        "imageService": "fastly",
+        "teaserCaption": "For decades, NATO membership was considered the best guarantee of security. But Donald Trump has plunged the alliance into crisis. It is therefore worthwhile to examine the true value of the mythical Article 5 concerning the mutual defense obligation.",
+        "teaserAuthor": "Sean Gallup / Getty"
+       },
+       "teaserAuthor": "Sean Gallup / Getty",
+       "nzzasFootnote": false,
+       "folioFootnote": false,
+       "language": {
+        "locale": "de-CH"
+       },
+       "nzzId": "ld.1886699",
+       "readingTime": 420,
+       "authorLine": "Andreas Rüesch",
+       "characterCount": 8511,
+       "product": "NZZ.ch",
+       "documentId": 1886699,
+       "layout": "longformstandard",
+       "publicationDate": "2025-06-21T03:30:00.000Z",
+       "publicationLastUpdated": "2025-06-21T03:30:00.000Z",
+       "significantUpdate": false,
+       "significantUpdateTill": "2025-06-21T15:30:00.000Z",
+       "teaserCaption": "For decades, NATO membership was considered the best guarantee of security. But Donald Trump has plunged the alliance into crisis. It is therefore worthwhile to examine the true value of the mythical Article 5 concerning the mutual defense obligation.",
+       "url": "/international/das-grosse-missverstaendnis-um-die-nato-weshalb-das-maechtigste-buendnis-in-der-krise-steckt-ld.1886699",
+       "department": {
+        "name": "International",
+        "path": "/international"
+       },
+       "estimationWordCount": 1309,
+       "leadText": "For decades, NATO membership was considered the best guarantee of security. But Donald Trump has plunged the alliance into crisis. It is therefore worthwhile to examine the true value of the mythical Article 5 concerning the mutual defense obligation.",
+       "nzzSummaryIsAuto": true
+      }
+     },
+     {
+      "identifier": "teaser",
+      "id": "doc-1iips1j583",
+      "content": {
+       "owner": "NZZ",
+       "title": "Five percent for defense is a lot of money – what goals does NATO want to achieve with it?",
+       "teaserImage": {
+        "originalUrl": "/2025/06/20/4698986a-e183-4549-9b31-db27570a1540.jpeg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2025/06/20/4698986a-e183-4549-9b31-db27570a1540.jpeg?width=1024&quality=75&auto=webp",
+        "width": 4000,
+        "height": 2655,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "4000,2250,x0,y197"
+         },
+         {
+          "name": "1:1",
+          "crop": "2360,2360,x63,y0"
+         },
+         {
+          "name": "4:3",
+          "crop": "3540,2655,x230,y0"
+         },
+         {
+          "name": "3:4",
+          "crop": "1991,2655,x253,y0"
+         },
+         {
+          "name": "3:2",
+          "crop": "3983,2655,x9,y0"
+         }
+        ],
+        "imageService": "fastly",
+        "teaserCaption": "Nervousness is rising ahead of the NATO summit in The Hague because Spain is opposing the new spending target – with a confusing line of reasoning.",
+        "teaserAuthor": "Andrey Rudakov/Bloomberg/Getty"
+       },
+       "teaserAuthor": "Andrey Rudakov/Bloomberg/Getty",
+       "nzzasFootnote": false,
+       "folioFootnote": false,
+       "language": {
+        "locale": "de-CH"
+       },
+       "nzzId": "ld.1889933",
+       "readingTime": 180,
+       "authorLine": "Antonio Fumagalli, Brussels",
+       "characterCount": 3840,
+       "product": "NZZ.ch",
+       "documentId": 1889933,
+       "layout": "regular",
+       "publicationDate": "2025-06-21T03:30:00.000Z",
+       "publicationLastUpdated": "2025-06-21T03:30:00.000Z",
+       "significantUpdate": false,
+       "significantUpdateTill": "2025-06-21T15:30:00.000Z",
+       "teaserCaption": "Nervousness is rising ahead of the NATO summit in The Hague because Spain is opposing the new spending target – with a confusing line of reasoning.",
+       "url": "/international/5-prozent-fuer-nato-verteidigung-faehigkeitsziele-bei-brigaden-und-flugabwehr-ld.1889933",
+       "department": {
+        "name": "International",
+        "path": "/international"
+       },
+       "estimationWordCount": 596,
+       "leadText": "Nervousness is rising ahead of the NATO summit in The Hague because Spain is opposing the new spending target – with a confusing line of reasoning.",
+       "nzzSummaryIsAuto": true
+      }
+     },
+     {
+      "identifier": "teaser",
+      "id": "doc-1iips1j584",
+      "content": {
+       "owner": "NZZ",
+       "title": "Ahead of the NATO summit: Can Europe deter the Russians? Not at all, say new data",
+       "teaserImage": {
+        "originalUrl": "/2025/04/09/371c233a-1215-43ed-961b-4fab166e014d.jpeg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2025/04/09/371c233a-1215-43ed-961b-4fab166e014d.jpeg?width=1024&quality=75&auto=webp",
+        "width": 5000,
+        "height": 3958,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "5000,2812,x0,y671"
+         },
+         {
+          "name": "1:1",
+          "crop": "3958,3958,x1042,y0"
+         },
+         {
+          "name": "4:3",
+          "crop": "5000,3750,x0,y109"
+         },
+         {
+          "name": "3:4",
+          "crop": "2969,3958,x1722,y0"
+         },
+         {
+          "name": "3:2",
+          "crop": "5000,3333,x0,y230"
+         }
+        ],
+        "imageService": "fastly",
+        "teaserCaption": "Russia is heavily rearming. The US is demanding that European NATO members be able to deter Moscow on their own soon. At the current pace of rearmament, however, this would take decades. And more money alone is not enough.",
+        "teaserAuthor": "Imago"
+       },
+       "teaserAuthor": "Imago",
+       "nzzasFootnote": false,
+       "folioFootnote": false,
+       "paywallQuestionOne": "How much do European countries actually spend on their defense?",
+       "paywallQuestionTwo": "What is the state of their armies' equipment?",
+       "paywallQuestionThree": "What does the European arms industry need to do to become better than the Russian one?",
+       "language": {
+        "locale": "de-CH"
+       },
+       "nzzId": "ld.1890110",
+       "readingTime": 420,
+       "authorLine": "Peter A. Fischer",
+       "characterCount": 9700,
+       "product": "NZZ.ch",
+       "documentId": 1890110,
+       "layout": "longformstandard",
+       "publicationDate": "2025-06-23T03:30:00.000Z",
+       "publicationLastUpdated": "2025-06-24T15:47:19.459Z",
+       "significantUpdate": false,
+       "significantUpdateTill": "2025-06-23T15:30:00.000Z",
+       "teaserCaption": "Russia is heavily rearming. The US is demanding that European NATO members be able to deter Moscow on their own soon. At the current pace of rearmament, however, this would take decades. And more money alone is not enough.",
+       "url": "/pro/vor-dem-nato-gipfel-kann-europa-die-russen-abschrecken-mitnichten-sagen-neue-daten-ld.1890110",
+       "department": {
+        "name": "Pro",
+        "path": "/pro"
+       },
+       "estimationWordCount": 1373,
+       "premium": true,
+       "leadText": "Russia is heavily rearming. The US is demanding that European NATO members be able to deter Moscow on their own soon. At the current pace of rearmament, however, this would take decades. And more money alone is not enough.",
+       "nzzSummaryIsAuto": true,
+       "hasQ": true
+      }
+     }
+    ]
+   },
+   "paidContent": true,
+   "prevElement": "sharebox",
+   "nextElement": "",
+   "lastContentElement": true
+  }
+ ],
+ "metadata": {
+  "owner": "NZZ",
+  "title": "Trump and the threat from Russia force a change: Europe agrees on much higher military spending",
+  "teaserImage": {
+   "originalUrl": "/2024/06/03/72f32231-9c80-4f8d-9566-a1d58148556b.jpeg?width=1024",
+   "url": "https://img-msp-prod.nzz.ch/2024/06/03/72f32231-9c80-4f8d-9566-a1d58148556b.jpeg?width=1024&quality=75&auto=webp",
+   "width": 4441,
+   "height": 2961,
+   "crops": [
+    {
+     "name": "16:9",
+     "crop": "4441,2498,x0,y198"
+    },
+    {
+     "name": "1:1",
+     "crop": "2961,2961,x76,y0"
+    },
+    {
+     "name": "4:3",
+     "crop": "3948,2961,x0,y0"
+    },
+    {
+     "name": "3:4",
+     "crop": "2221,2961,x369,y0"
+    },
+    {
+     "name": "3:2",
+     "crop": "3509,2340,x189,y296"
+    }
+   ],
+   "imageService": "fastly",
+   "teaserCaption": "From two to five percent: NATO's new spending target represents a huge leap. What's behind this new percentage, and how far are NATO countries from achieving it?",
+   "teaserAuthor": "Mindaugas Kulbis / AP"
+  },
+  "teaserAuthor": "Mindaugas Kulbis / AP",
+  "nzzasFootnote": false,
+  "folioFootnote": false,
+  "language": {
+   "locale": "en-US"
+  },
+  "nzzId": "ld.1890045",
+  "readingTime": 360,
+  "authorLine": "Andreas Rüesch",
+  "characterCount": 7807,
+  "breadcrumbs": [
+   {
+    "name": "International",
+    "path": "/international"
+   }
+  ],
+  "product": "NZZ.ch",
+  "documentId": 1890045,
+  "contentTypeGroup": "web",
+  "layout": "longformstandard",
+  "firstPublicationDate": "2025-06-23T03:30:00.000Z",
+  "publicationDate": "2025-09-01T05:00:00.000Z",
+  "publicationLastUpdated": "2025-09-09T16:13:26.676Z",
+  "significantUpdate": true,
+  "significantUpdateTill": "2025-09-01T17:00:00.000Z",
+  "teaserCaption": "From two to five percent: NATO's new spending target represents a huge leap. What's behind this new percentage, and how far are NATO countries from achieving it?",
+  "nzzAuthors": [
+   {
+    "id": 1371879,
+    "name": "Andreas Rüesch",
+    "shortName": "AR",
+    "pianoId": "fce32a4b-df05-4f15-aef5-a15a209cda8e",
+    "external": false
+   }
+  ],
+  "authorImage": {
+   "originalUrl": "/2024/09/23/b6be8592-31cf-4a48-b022-81e3c315218a.jpeg?width=1024",
+   "url": "https://img-msp-prod.nzz.ch/2024/09/23/b6be8592-31cf-4a48-b022-81e3c315218a.jpeg?width=1024&quality=75&auto=webp",
+   "width": 6000,
+   "height": 4000,
+   "crops": [
+    {
+     "name": "1:1",
+     "crop": "2809,2809,x1566,y389"
+    }
+   ],
+   "imageService": "fastly"
+  },
+  "nzzAuthorProfileDataCollection": [
+   {
+    "documentId": 155169,
+    "name": "Andreas Rüesch (AR)",
+    "teaserImageUrl": "https://img-msp-prod.nzz.ch/2024/09/23/b6be8592-31cf-4a48-b022-81e3c315218a.jpeg?width=1024&quality=75&auto=webp"
+   }
+  ],
+  "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2024/09/23/b6be8592-31cf-4a48-b022-81e3c315218a.jpeg?width=1024&quality=75&auto=webp",
+  "url": "/international/nato-militaerausgaben-steigen-stark-an-trump-und-die-russland-gefahr-erzwingen-eine-wende-ld.1890045",
+  "department": {
+   "name": "International",
+   "path": "/international"
+  },
+  "estimationWordCount": 1183,
+  "leadText": "From two to five percent: NATO's new spending target represents a huge leap. What's behind this new percentage, and how far are NATO countries from achieving it?",
+  "nzzSummaryEN": "- NATO plans to raise military spending to a new target of five percent of GDP, with 3.5 percent allocated to military spending and 1.5 percent to infrastructure.\n- This goal derives from the changed threat posed by Russia and intense discussions within NATO, with the U.S. playing a key role.\n- Significant cost increases and infrastructural gaps are expected; particularly in air defense and combat brigades, deficits remain.",
+  "nzzSummaryDE": "NATO plans to increase military spending to a new target of five percent of GDP. Three point five percent is to be allocated to military expenditures and one point five percent to infrastructure.\n - This goal results from the changed threat situation posed by Russia and intensive discussions within NATO, in which the USA played a key role.\n - Enormous cost increases and infrastructure gaps are expected; there are particular deficiencies in air defense and combat brigades.",
+  "nzzSummaryIsAuto": true,
+  "nzzSummaryModel": "gpt-4o-2024-11-20",
+  "nzzPrintTitle": "x",
+  "nzzPrintSubtitle": "x",
+  "allArticleLanguages": [
+   {
+    "locale": "de-CH",
+    "urlPath": "/international/nato-militaerausgaben-steigen-stark-an-trump-und-die-russland-gefahr-erzwingen-eine-wende-ld.1890045",
+    "seo": {}
+   }
+  ],
+  "seo": {
+   "canonicalUrl": "https://www.nzz.ch/international/nato-militaerausgaben-steigen-stark-an-trump-und-die-russland-gefahr-erzwingen-eine-wende-ld.1890045",
+   "title": "NATO military spending: Trump and the threat of Russia force a change of course",
+   "socialMediaTitle": "NATO military spending is rising sharply: Trump and the threat from Russia are forcing a change of course",
+   "excludeFromSpiders": false,
+   "image": "https://img-msp-prod.nzz.ch/2024/06/03/72f32231-9c80-4f8d-9566-a1d58148556b.jpeg?width=1200&height=674&fit=bounds&quality=75&auto=webp&crop=4441,2498,x0,y198&wmark=nzz"
+  },
+  "ldPublicationId": 2409507,
+  "isHighlightedHeader": false,
+  "nzzTopics": [
+   {
+    "name": "NATO",
+    "slug": "/themen/nato"
+   },
+   {
+    "name": "Russia",
+    "slug": "/themen/russland"
+   },
+   {
+    "name": "Donald Trump",
+    "slug": "/themen/donald-trump"
+   },
+   {
+    "name": "USA",
+    "slug": "/themen/usa"
+   },
+   {
+    "name": "Cold War",
+    "slug": "/themen/kalter-krieg"
+   },
+   {
+    "name": "Germany",
+    "slug": "/themen/deutschland"
+   },
+   {
+    "name": "France",
+    "slug": "/themen/frankreich"
+   },
+   {
+    "name": "Poland",
+    "slug": "/themen/polen"
+   },
+   {
+    "name": "Spain",
+    "slug": "/themen/spanien"
+   },
+   {
+    "name": "Great Britain",
+    "slug": "/themen/grossbritannien"
+   },
+   {
+    "name": "Latvia",
+    "slug": "/themen/lettland"
+   },
+   {
+    "name": "Italy",
+    "slug": "/themen/italien"
+   },
+   {
+    "name": "German Armed Forces",
+    "slug": "/themen/bundeswehr"
+   },
+   {
+    "name": "Lithuania",
+    "slug": "/themen/litauen"
+   },
+   {
+    "name": "Portugal",
+    "slug": "/themen/portugal"
+   }
+  ],
+  "barrierIndex": 3,
+  "outlinks": {
+   "mehrZumThema": [
+    "ld.1886699",
+    "ld.1889933",
+    "ld.1890110"
+   ],
+   "artikelListe": [],
+   "aliasTeaserEmbedList": []
+  },
+  "tts": true,
+  "hasQ": true,
+  "mp3": true,
+  "mp3Duration": 520725,
+  "project": "nzz",
+  "machineTranslated": true,
+  "machineTranslationValidated": false
+ },
+ "isReduced": false,
+ "isPaid": false,
+ "isVamp": false,
+ "isWebview": false,
+ "btaFeed": {
+  "meta": {
+   "id": "nato",
+   "name": "NATO",
+   "tagName": "NATO",
+   "qId": "Q7184",
+   "seoTitle": "NATO – All articles on the organization of the North Atlantic Treaty | NZZ",
+   "description": null,
+   "firstName": null,
+   "lastName": null,
+   "category": "ORG",
+   "createdDate": "2025-04-08 17:08:34.868Z",
+   "imageURL": null,
+   "imageCroppedURL": null,
+   "imageWidth": null,
+   "imageHeight": null,
+   "imageCredits": null,
+   "url": "https://nzz.ch/themen/nato",
+   "size": 1223,
+   "relatedTopics": [
+    {
+     "name": "Russland",
+     "slug": "/themen/russland"
+    },
+    {
+     "name": "Donald Trump",
+     "slug": "/themen/donald-trump"
+    },
+    {
+     "name": "USA",
+     "slug": "/themen/usa"
+    },
+    {
+     "name": "Kalter Krieg",
+     "slug": "/themen/kalter-krieg"
+    },
+    {
+     "name": "Deutschland",
+     "slug": "/themen/deutschland"
+    },
+    {
+     "name": "Frankreich",
+     "slug": "/themen/frankreich"
+    },
+    {
+     "name": "Polen",
+     "slug": "/themen/polen"
+    },
+    {
+     "name": "Spanien",
+     "slug": "/themen/spanien"
+    },
+    {
+     "name": "Grossbritannien",
+     "slug": "/themen/grossbritannien"
+    },
+    {
+     "name": "Lettland",
+     "slug": "/themen/lettland"
+    },
+    {
+     "name": "Italien",
+     "slug": "/themen/italien"
+    },
+    {
+     "name": "Bundeswehr",
+     "slug": "/themen/bundeswehr"
+    },
+    {
+     "name": "Litauen",
+     "slug": "/themen/litauen"
+    },
+    {
+     "name": "Portugal",
+     "slug": "/themen/portugal"
+    }
+   ]
+  },
+  "data": [
+   {
+    "title": "«Switzerland is also a strategic target for Russia»",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "teaserAuthor": "Diego Fedele / Getty",
+    "teaserImage": {
+     "originalUrl": "/2026/09/02/1e828ab3-c33d-47a3-87af-992514986a7a.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/09/02/1e828ab3-c33d-47a3-87af-992514986a7a.jpg?width=1024&quality=75&auto=webp",
+     "width": 4405,
+     "height": 2937,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "4405,2478,x0,y459"
+      },
+      {
+       "name": "4:3",
+       "crop": "3916,2937,x0,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "2937,2937,x217,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "2203,2937,x720,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "4405,2937,x0,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "Small states cannot defend themselves alone in the 21st century, says Franz-Stefan Gady, one of Europe's leading military experts. He explains why neutrality offers no protection in times of war and what makes Putin so dangerous for Europe.",
+     "teaserAuthor": "Diego Fedele / Getty"
+    },
+    "nzzId": "ld.10020535",
+    "readingTime": 540,
+    "paywallQuestionOne": "How vulnerable is Switzerland to Russian attack plans?",
+    "paywallQuestionTwo": "Why does neutrality offer no protection in the event of war?",
+    "paywallQuestionThree": "What measures does Switzerland need by 2029?",
+    "characterCount": 12716,
+    "product": "NZZ.ch",
+    "documentId": "10020535",
+    "layout": "regular",
+    "publicationDate": "2026-09-03T03:30:00.000Z",
+    "publicationLastUpdated": "2026-09-03T03:30:00.000Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-09-03T15:30:00.000Z",
+    "teaserCaption": "Small states cannot defend themselves alone in the 21st century, says Franz-Stefan Gady, one of Europe's leading military experts. He explains why neutrality offers no protection in times of war and what makes Putin so dangerous for Europe.",
+    "authorLine": "Meret Baumann, Selina Berner",
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2022/06/22/0ae19a9d-3bad-48bc-886b-1bfee061e0e8.png?width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/schweiz/sicherheitspolitik/auch-die-schweiz-ist-fuer-russland-ein-strategisches-ziel-ld.10020535",
+    "department": {
+     "name": "Security Policy",
+     "path": "/schweiz/sicherheitspolitik"
+    },
+    "estimationWordCount": 1898,
+    "leadText": "Small states cannot defend themselves alone in the 21st century, says Franz-Stefan Gady, one of Europe's leading military experts. He explains why neutrality offers no protection in times of war and what makes Putin so dangerous for Europe.",
+    "nzzSummaryIsAuto": true,
+    "locale": "de-CH"
+   },
+   {
+    "title": "«I believe that Putin is increasingly detached from reality»",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "teaserImage": {
+     "originalUrl": "/2026/08/25/cf43e31c-11e1-490d-9fb1-79df83cbc4dd.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/08/25/cf43e31c-11e1-490d-9fb1-79df83cbc4dd.jpg?width=1024&quality=75&auto=webp",
+     "width": 5996,
+     "height": 3785,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "5996,3372,x0,y413"
+      },
+      {
+       "name": "4:3",
+       "crop": "5047,3785,x0,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "3785,3785,x371,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "2839,3785,x817,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "5678,3784,x0,y1"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "Russia expert Matthias Uhl believes the Putin regime's military strength is overestimated. Nevertheless, Europe must prepare for a new geopolitical era.",
+     "teaserAuthor": "Shamil Zhumatov / Reuters"
+    },
+    "teaserAuthor": "Shamil Zhumatov / Reuters",
+    "editor": "1750700",
+    "flag": "interview",
+    "showComments": true,
+    "tags": [
+     "Pro: Fokus"
+    ],
+    "nzzId": "ld.10020200",
+    "readingTime": 660,
+    "paywallQuestionOne": "How strong is the military threat from Russia really?",
+    "paywallQuestionTwo": "What role does Ukraine play in the changing nature of warfare?",
+    "paywallQuestionThree": "How does Putin's detachment from reality affect Russian strategy?",
+    "characterCount": 14609,
+    "product": "NZZ.ch",
+    "documentId": "10020200",
+    "layout": "longformstandard",
+    "publicationDate": "2026-09-02T03:30:00.000Z",
+    "publicationLastUpdated": "2026-09-02T09:06:22.310Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-09-02T15:30:00.000Z",
+    "teaserCaption": "Russia expert Matthias Uhl believes the Putin regime's military strength is overestimated. Nevertheless, Europe must prepare for a new geopolitical era.",
+    "authorLine": "Marco Seliger",
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2023/07/11/655ec6f0-bdde-427b-b1d1-ef0074b1ee76.jpeg?width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/pro/matthias-uhl-warum-russlands-armee-schwaecher-ist-als-gedacht-ld.10020200",
+    "department": {
+     "name": "Pro",
+     "path": "/pro"
+    },
+    "estimationWordCount": 2114,
+    "premium": true,
+    "leadText": "Russia expert Matthias Uhl believes the Putin regime's military strength is overestimated. Nevertheless, Europe must prepare for a new geopolitical era.",
+    "nzzSummaryIsAuto": true,
+    "commentsCount": 12,
+    "openToComment": false,
+    "locale": "de-CH"
+   },
+   {
+    "title": "Does neutrality still help Switzerland – and if so, what kind?",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "teaserImage": {
+     "originalUrl": "/2026/04/30/91de7da2-e060-41de-98ad-1ab18adfabf2.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/04/30/91de7da2-e060-41de-98ad-1ab18adfabf2.jpg?width=1024&quality=75&auto=webp",
+     "width": 2383,
+     "height": 1960,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "2383,1340,x0,y310"
+      },
+      {
+       "name": "4:3",
+       "crop": "2383,1787,x0,y86"
+      },
+      {
+       "name": "1:1",
+       "crop": "1960,1960,x212,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "1470,1960,x457,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "2383,1589,x0,y186"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "NZZ Pro analysis: Benefits and costs of neutrality: Finnish and Swedish experiences, economic effects, and security policy",
+     "teaserAuthor": "Walter Studer / Photopress Archive / Keystone"
+    },
+    "teaserAuthor": "Walter Studer / Photopress Archive / Keystone",
+    "tags": [
+     "Abstimmung Neutralitätsinitiative"
+    ],
+    "showComments": true,
+    "paywallQuestionOne": "How does neutrality affect the security and sovereignty of Switzerland?",
+    "paywallQuestionTwo": "What are the economic advantages and disadvantages of neutrality?",
+    "paywallQuestionThree": "Should Switzerland interpret its neutrality in a more cooperative manner to avoid international criticism?",
+    "nzzId": "ld.10021511",
+    "readingTime": 600,
+    "characterCount": 14394,
+    "product": "NZZ.ch",
+    "documentId": "10021511",
+    "layout": "regular",
+    "publicationDate": "2026-09-01T04:13:32.360Z",
+    "publicationLastUpdated": "2026-09-01T04:13:32.360Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-09-01T16:13:32.360Z",
+    "teaserCaption": "NZZ Pro analysis: Benefits and costs of neutrality: Finnish and Swedish experiences, economic effects, and security policy",
+    "authorLine": "Peter A. Fischer, Georg Häsler, Linda Koponen",
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2022/07/27/d59a0238-12f1-43d7-8905-6e94594be820.png?width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/pro/hilft-der-schweiz-die-neutralitaet-noch-und-wenn-ja-was-fuer-eine-ld.10021511",
+    "department": {
+     "name": "Pro",
+     "path": "/pro"
+    },
+    "estimationWordCount": 2064,
+    "premium": true,
+    "leadText": "NZZ Pro analysis: Benefits and costs of neutrality: Finnish and Swedish experiences, economic effects, and security policy",
+    "nzzSummaryIsAuto": true,
+    "commentsCount": 18,
+    "openToComment": false,
+    "locale": "de-CH"
+   },
+   {
+    "title": "No to accession negotiations: Iceland does not need EU membership, NATO is enough",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "teaserImage": {
+     "originalUrl": "/2026/08/30/341ba211-a4e5-4abc-b4eb-19f959722cde.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/08/30/341ba211-a4e5-4abc-b4eb-19f959722cde.jpg?width=1024&quality=75&auto=webp",
+     "width": 7939,
+     "height": 5293,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "7939,4466,x0,y685"
+      },
+      {
+       "name": "4:3",
+       "crop": "7057,5293,x368,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "2716,2716,x3450,y1473"
+      },
+      {
+       "name": "3:4",
+       "crop": "2983,3977,x3619,y1200"
+      },
+      {
+       "name": "3:2",
+       "crop": "7939,5293,x0,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "The Icelandic population has delivered a surprisingly clear rejection of Brussels. The rapprochement was based on an illusion. Reykjavik sought the protection of the EU, but in doing so, it ignored the high price of losing sovereignty.",
+     "teaserAuthor": "Marco Di Marco / AP"
+    },
+    "teaserAuthor": "Marco Di Marco / AP",
+    "nzzId": "ld.10021638",
+    "readingTime": 180,
+    "paywallQuestionOne": "Why does Iceland reject EU membership?",
+    "paywallQuestionTwo": "What role does fishing play in the decision?",
+    "paywallQuestionThree": "How does Iceland assess NATO's security guarantees?",
+    "characterCount": 3616,
+    "flag": "Opinion",
+    "showComments": true,
+    "product": "NZZ.ch",
+    "documentId": "10021638",
+    "layout": "opinion",
+    "publicationDate": "2026-08-31T03:30:00.000Z",
+    "publicationLastUpdated": "2026-08-31T07:50:54.158Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-08-31T15:30:00.000Z",
+    "teaserCaption": "The Icelandic population has delivered a surprisingly clear rejection of Brussels. The rapprochement was based on an illusion. Reykjavik sought the protection of the EU, but in doing so, it ignored the high price of losing sovereignty.",
+    "authorLine": "Marco Kauffmann Bossart",
+    "authorImage": {
+     "originalUrl": "/2022/08/16/dd911f36-27dd-41dd-8901-3a1c0b1fd7af.png?crop=800,800,x0,y0",
+     "url": "https://img-msp-prod.nzz.ch/2022/08/16/dd911f36-27dd-41dd-8901-3a1c0b1fd7af.png?crop=800,800,x0,y0&width=1024&quality=75&auto=webp",
+     "width": 800,
+     "height": 800,
+     "imageService": "fastly",
+     "crop": {
+      "name": "1:1",
+      "x": 0,
+      "y": 0,
+      "width": 800,
+      "height": 800
+     },
+     "crops": []
+    },
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2022/08/16/dd911f36-27dd-41dd-8901-3a1c0b1fd7af.png?crop=800,800,x0,y0&width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/international/nein-zu-beitrittsverhandlungen-island-braucht-keine-eu-mitgliedschaft-die-nato-reicht-ld.10021638",
+    "department": {
+     "name": "International",
+     "path": "/international"
+    },
+    "estimationWordCount": 509,
+    "leadText": "The Icelandic population has delivered a surprisingly clear rejection of Brussels. The rapprochement was based on an illusion. Reykjavik sought the protection of the EU, but in doing so, it ignored the high price of losing sovereignty.",
+    "nzzSummaryIsAuto": true,
+    "commentsCount": 23,
+    "openToComment": false,
+    "locale": "de-CH"
+   },
+   {
+    "title": "The Americans are once again demonstrating their presence in Europe. Can NATO truly prevent the Kremlin from escalating the war?",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "teaserImage": {
+     "originalUrl": "/2026/08/27/d56e38ce-966f-4129-853c-ed7a9762a3f0.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/08/27/d56e38ce-966f-4129-853c-ed7a9762a3f0.jpg?width=1024&quality=75&auto=webp",
+     "width": 7404,
+     "height": 4936,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "7404,4165,x0,y386"
+      },
+      {
+       "name": "4:3",
+       "crop": "6581,4936,x411,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "4936,4936,x1234,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "3702,4936,x1851,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "7404,4936,x0,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "Russia intensifies its shadow war against Ukraine's supporters since the beginning of the year. Now the Western military alliance responds with a maneuver around Kaliningrad.",
+     "teaserAuthor": "Omar Marques / Getty"
+    },
+    "teaserAuthor": "Omar Marques / Getty",
+    "showComments": true,
+    "paywallQuestionOne": "How is NATO responding to Russia's hybrid warfare?",
+    "paywallQuestionTwo": "What role do the USA play in NATO's strategy against Russia?",
+    "paywallQuestionThree": "How could Russia test NATO through escalation?",
+    "nzzId": "ld.10020826",
+    "readingTime": 480,
+    "characterCount": 10870,
+    "product": "NZZ.ch",
+    "documentId": "10020826",
+    "layout": "longformstandard",
+    "publicationDate": "2026-08-28T06:26:14.795Z",
+    "publicationLastUpdated": "2026-08-28T06:26:14.795Z",
+    "significantUpdate": true,
+    "significantUpdateTill": "2026-08-28T18:26:14.795Z",
+    "teaserCaption": "Russia intensifies its shadow war against Ukraine's supporters since the beginning of the year. Now the Western military alliance responds with a maneuver around Kaliningrad.",
+    "authorLine": "Georg Häsler, Roland Shaw",
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2022/06/22/3a7c138f-f552-4167-935f-50425072b553.png?width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/international/die-amerikaner-demonstrieren-wieder-praesenz-in-europa-kann-die-nato-den-kreml-wirklich-vor-einer-ausweitung-des-kriegs-abhalten-ld.10020826",
+    "department": {
+     "name": "International",
+     "path": "/international"
+    },
+    "estimationWordCount": 1559,
+    "premium": true,
+    "leadText": "Russia intensifies its shadow war against Ukraine's supporters since the beginning of the year. Now the Western military alliance responds with a maneuver around Kaliningrad.",
+    "nzzSummaryIsAuto": true,
+    "commentsCount": 15,
+    "openToComment": false,
+    "hasQ": true,
+    "locale": "de-CH"
+   },
+   {
+    "title": "War in Ukraine: Zelenskyy warns against flights over Russia; Putin admits damage to ships",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "flag": "Live ticker",
+    "teaserImage": {
+     "originalUrl": "/2026/08/29/c54a8993-7dfd-456d-8b81-7f4842ec21d2.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/08/29/c54a8993-7dfd-456d-8b81-7f4842ec21d2.jpg?width=1024&quality=75&auto=webp",
+     "width": 5771,
+     "height": 3847,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "5771,3246,x0,y300"
+      },
+      {
+       "name": "4:3",
+       "crop": "5129,3847,x321,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "3847,3847,x962,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "2885,3847,x1443,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "5771,3847,x0,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "Russia's war in Ukraine: key developments",
+     "teaserAuthor": "Alina Smutko / REUTERS"
+    },
+    "teaserAuthor": "Alina Smutko / REUTERS",
+    "nzzId": "ld.10021245",
+    "readingTime": 60,
+    "liveCenterId": "85278",
+    "paywallQuestionOne": "What role does the CIA play in the Ukraine war?",
+    "paywallQuestionTwo": "How is Russia reacting to the CIA's warnings?",
+    "paywallQuestionThree": "What impact will the war have on NATO?",
+    "characterCount": 94,
+    "tags": [
+     "Ukraine-Krieg"
+    ],
+    "product": "NZZ.ch",
+    "documentId": "10021245",
+    "layout": "regular",
+    "publicationDate": "2026-09-02T16:29:33.357Z",
+    "publicationLastUpdated": "2026-09-02T16:29:33.357Z",
+    "significantUpdate": true,
+    "significantUpdateTill": "2026-09-03T04:29:33.357Z",
+    "teaserCaption": "Russia's war in Ukraine: key developments",
+    "url": "https://www.nzz.ch/international/krieg-in-der-ukraine-cia-chef-ratcliffe-warnte-russland-laut-berichten-vor-angriff-auf-nato-ld.10021245",
+    "department": {
+     "name": "International",
+     "path": "/international"
+    },
+    "estimationWordCount": 49,
+    "leadText": "Russia's war in Ukraine: key developments",
+    "nzzSummaryIsAuto": true,
+    "hasQ": true,
+    "locale": "de-CH"
+   }
+  ]
+ },
+ "digitalData": {
+  "component": [
+   {
+    "id": "ld.1890045",
+    "name": "Trump and the threat from Russia force a change: Europe agrees on much higher military spending",
+    "type": "article",
+    "subType1": "longformstandard",
+    "subType2": "",
+    "primaryCategory": "International",
+    "subCategory1": "",
+    "attributes": {
+     "headline": "Trump and the threat from Russia force a change: Europe agrees on much higher military spending",
+     "firstPublishTitle": "",
+     "catchline": "",
+     "authors": [
+      {
+       "id": 1371879,
+       "name": "Andreas Rüesch",
+       "shortName": "AR",
+       "pianoId": "fce32a4b-df05-4f15-aef5-a15a209cda8e",
+       "external": false
+      }
+     ],
+     "issueTimestamp": "2025-09-01T05:00:00.000Z",
+     "updateTimestamp": "2025-09-09T16:13:26.676Z",
+     "isSponsoredContent": false,
+     "isPro": false,
+     "isLiveticker": false,
+     "flag": "",
+     "owner": "NZZ"
+    }
+   }
+  ],
+  "page": {
+   "pageId": "ld.1890045",
+   "pageType": "longformstandard",
+   "primaryCategory": "International",
+   "subCategory1": "",
+   "subCategory2": "",
+   "language": "en-US"
+  },
+  "version": "2.0",
+  "user": {},
+  "event": []
+ },
+ "seoData": {
+  "title": "NATO military spending: Trump and the threat of Russia force a change of course",
+  "image": {
+   "url": "https://img-msp-prod.nzz.ch/2024/06/03/72f32231-9c80-4f8d-9566-a1d58148556b.jpeg?width=1200&height=674&fit=bounds&quality=75&auto=webp&crop=4441,2498,x0,y198&wmark=nzz",
+   "type": "image/jpeg",
+   "width": 1200,
+   "height": 674
+  },
+  "author": "Andreas Rüesch",
+  "description": "From two to five percent: NATO's new spending target represents a huge leap. What's behind this new percentage, and how far are NATO countries from achieving it?",
+  "news_keywords": "Trump and the Russia threat force a change: Europe agrees on much higher military spending, International, News, NZZ",
+  "type": "article",
+  "last-modified": "2025-09-09T20:13:26+02:00",
+  "date": "2025-06-23T07:30:00+02:00",
+  "canonical": "https://www.nzz.ch/international/nato-militaerausgaben-steigen-stark-an-trump-und-die-russland-gefahr-erzwingen-eine-wende-ld.1890045",
+  "fb:app_id": 138008459595436,
+  "fb:pages": 143694099006529,
+  "fb:admins": 1592685173,
+  "locale": "de-CH",
+  "email": "online.redaktion@nzz.ch",
+  "site_name": "Neue Zürcher Zeitung",
+  "copyright": "2026 Neue Zürcher Zeitung AG, Schweiz",
+  "robots": "noindex, nofollow, noarchive, noodp",
+  "hreflang": [],
+  "sharedTitle": "Trump and the threat from Russia force a change: Europe agrees on much higher military spending",
+  "ogTitle": "NATO military spending is rising sharply: Trump and the threat from Russia are forcing a change of course",
+  "ogUrl": "https://www.nzz.ch/international/nato-militaerausgaben-steigen-stark-an-trump-und-die-russland-gefahr-erzwingen-eine-wende-ld.1890045",
+  "mrf:cms_id": "nzz:ld.1890045",
+  "mrf:sections": "International",
+  "mrf:tags": "Page Type:longformstandard;Editorial Owner:NZZ;Content Type:Standard Article;Article ID:ld.1890045",
+  "nzzAuthors": [
+   {
+    "id": 1371879,
+    "name": "Andreas Rüesch",
+    "shortName": "AR",
+    "pianoId": "fce32a4b-df05-4f15-aef5-a15a209cda8e",
+    "external": false
+   }
+  ],
+  "links": [
+   {
+    "rel": "canonical",
+    "href": "https://www.nzz.ch/international/nato-militaerausgaben-steigen-stark-an-trump-und-die-russland-gefahr-erzwingen-eine-wende-ld.1890045"
+   },
+   {
+    "rel": "search",
+    "href": "/suche",
+    "title": "Suche Neue Zürcher Zeitung, Schweiz, https://www.nzz.ch/suche"
+   }
+  ],
+  "renderedAt": "Thu, 03 Sep 2026 10:02:40 GMT"
+ },
+ "structuredData": [
+  {
+   "@context": "https://schema.org",
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "item": {
+      "@id": "/",
+      "name": "Home"
+     }
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "item": {
+      "@id": "/international",
+      "name": "International"
+     }
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "NATO military spending: Trump and the threat of Russia force a change of course"
+    }
+   ]
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": "NewsArticle",
+   "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.nzz.ch/international/nato-militaerausgaben-steigen-stark-an-trump-und-die-russland-gefahr-erzwingen-eine-wende-ld.1890045"
+   },
+   "headline": "NATO military spending: Trump and the threat of Russia force a change of course",
+   "datePublished": "2025-06-23T07:30:00+02:00",
+   "dateModified": "2025-09-09T20:13:26+02:00",
+   "publisher": {
+    "@type": "NewsMediaOrganization",
+    "name": "Neue Zürcher Zeitung",
+    "url": "https://www.nzz.ch",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://www.nzz.ch/logo.png",
+     "width": 413,
+     "height": 60
+    },
+    "contactPoint": [
+     {
+      "@type": "ContactPoint",
+      "telephone": "+41-44-2581000",
+      "contactType": "customer service"
+     }
+    ],
+    "sameAs": [
+     "https://www.facebook.com/nzz",
+     "https://www.twitter.com/nzz",
+     "https://www.youtube.com/channel/UCK1aTcR0AckQRLTlK0c4fuQ",
+     "https://www.linkedin.com/company/neue-zurcher-zeitung",
+     "https://www.instagram.com/nzz/",
+     "https://de.wikipedia.org/wiki/Neue_Z%C3%BCrcher_Zeitung",
+     "https://www.wikidata.org/wiki/Q658945",
+     "https://plus.google.com/+nzz/",
+     "http://www.freebase.com/m/041b43"
+    ],
+    "masthead": "https://www.nzz.ch/impressum/impressum-ld.148422",
+    "foundingDate": "1780"
+   },
+   "description": "From two to five percent: NATO's new spending target represents a huge leap. What's behind this new percentage, and how far are NATO countries from achieving it?",
+   "isAccessibleForFree": false,
+   "articleSection": "International",
+   "hasPart": {
+    "@type": "WebPageElement",
+    "isAccessibleForFree": false,
+    "cssSelector": ".nzzinteraction"
+   },
+   "image": {
+    "@type": "ImageObject",
+    "url": "https://img-msp-prod.nzz.ch/2024/06/03/72f32231-9c80-4f8d-9566-a1d58148556b.jpeg?width=1200&height=674&fit=bounds&quality=75&auto=webp&crop=4441,2498,x0,y198&wmark=nzz",
+    "width": 1200,
+    "height": 674
+   },
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Andreas Rüesch"
+    }
+   ],
+   "inLanguage": "de"
+  }
+ ],
+ "mp3": true,
+ "mp3Duration": 520725,
+ "bT": {
+  "standard": {
+   "Tags": [
+    "/international/nato-militaerausgaben-steigen-stark-an-trump-und-die-russland-gefahr-erzwingen-eine-wende-ld.1890045",
+    "classification=default",
+    "relevance=default",
+    "layout=longformstandard",
+    "owner=nzz",
+    "product=nzz",
+    "doctype=article",
+    "pagetype=article",
+    "ldid=ld.1890045",
+    "channel=International"
+   ],
+   "ContentCreated": "2025-06-23T03:30:00.000Z",
+   "ContentAuthor": "Andreas Rüesch",
+   "ContentSection": "International",
+   "ContentIsNative": true
+  },
+  "custom": {
+   "product": "nzz",
+   "docType": "article",
+   "pageType": "article",
+   "layout": "longformstandard",
+   "ldId": "ld.1890045",
+   "channel": "International",
+   "heading": "Trump und die Russland-Gefahr erzwingen eine Wende: Europa einigt sich auf viel höhere Militärausgaben",
+   "language": "en-US"
+  }
+ },
+ "webviewMetadata": {},
+ "cacheTime": 3600
+}

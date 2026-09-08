@@ -1,0 +1,70 @@
+{
+  "_id": "a02936c58815d506796673dd0d176a16",
+  "_rev": "31-8193ce39df05f38c46795c7b6741297a",
+  "tool": "election_seats",
+  "notes": "Für eine absolute Mehrheit sind 172 Sitze nötig. </br>Stand: 30.4, 9 Uhr ",
+  "title": "Liberale verfehlen absolute Mehrheit",
+  "active": true,
+  "acronym": "jum.",
+  "options": {
+    "hideUpdatedDate": false
+  },
+  "parties": [
+    {
+      "name": "Liberals",
+      "color": {
+        "colorCode": "#d71920"
+      },
+      "seats": 169,
+      "previous": 160
+    },
+    {
+      "name": "Konservative",
+      "color": {
+        "colorCode": "#0b2643"
+      },
+      "seats": 144,
+      "previous": 119
+    },
+    {
+      "name": "Bloc Québécois",
+      "color": {
+        "colorCode": "#093c71"
+      },
+      "seats": 22,
+      "previous": 32
+    },
+    {
+      "name": "New Democratic Party (NDP)",
+      "color": {
+        "colorCode": "#f89920"
+      },
+      "seats": 7,
+      "previous": 25
+    },
+    {
+      "name": "Green Party",
+      "color": {
+        "colorCode": "#66a622"
+      },
+      "seats": 1,
+      "previous": 2
+    }
+  ],
+  "sources": [
+    {
+      "link": {
+        "url": "https://www.ctvnews.ca/federal-election-2025/"
+      },
+      "text": "CTV News"
+    }
+  ],
+  "subtitle": "Sitzverteilung im kanadischen Parlament nach der Wahl 2025",
+  "createdBy": "julia.monn@nzz.ch",
+  "updatedBy": "julia.monn@nzz.ch",
+  "department": "Visuals",
+  "totalSeats": 343,
+  "createdDate": "2025-04-29T03:40:58.783Z",
+  "publication": "nzz",
+  "updatedDate": "2025-04-30T06:54:08.368Z"
+}

@@ -1,0 +1,83 @@
+# Even with tariffs on hold, Trump continues to steer the US toward isolation
+
+*The suspension of the Trump administration's steep «reciprocal» tariffs is set to expire on July 8. Few expect them to take effect as planned. Behind the scenes, Trump has already reshaped America's global posture, steering the country further into economic isolation.*
+
+**Peter A. Fischer** · NZZ in English · 2025-07-01 · 1592 words · [ld.1891391](https://www.nzz.ch/english/even-with-tariffs-on-hold-trump-continues-to-steer-the-us-toward-isolation-ld.1891391)
+
+![A color-coded chart shocks the world: US President Donald Trump unveils his board of «reciprocal» tariff rates by country in the White House Rose Garden on April 2.](https://img-msp-prod.nzz.ch/2025/06/28/65b88d4f-6bbe-4cd6-9f2d-2fa9819cc5d7.jpeg?width=1024)
+*A color-coded chart shocks the world: US President Donald Trump unveils his board of «reciprocal» tariff rates by country in the White House Rose Garden on April 2.* (Mark Schiefelbein / AP)
+
+> Summary
+> -  Donald Trump's trade policies have significantly raised average U.S. tariffs, even as the announced «reciprocal» tariffs remain suspended.
+> - Protectionist measures by the U.S. have heavily impact countries like China, Canada, Mexico and the EU, creating uncertainty and economic consequences.
+> - Despite international criticism and negotiations, the Trump administration continues to use tariffs as economic and negotiating leverage.
+
+In what is likely to become an iconic image, US President Donald Trump stood in the White House Rose Garden on April 2 holding a color-coded board outlining «reciprocal» tariff rates by country. It signaled a strong escalation: an additional 46% tariff on imports from friendly Vietnam, 31% on goods from Switzerland, and 20% on products from the European Union. These figures stood in sharp contrast to the United States' previously applied average effective tariff rate of just 2.1%.
+
+To date, the shock has yet to become more than a dramatic flare-up. After Trump's announcement, an across-the-board 10% tariff on most imports took effect on April 5, followed by the steep country-specific «reciprocal» tariffs on April 9. Markets and foreign governments reacted with alarm; bond yields surged. Within hours, the administration hit the pause button, suspending the new tariffs for 90 days.
+
+To stave off their implementation, numerous affected countries – including Switzerland and the EU – have entered into negotiations with Washington. So far, only the United Kingdom has reached a (non-binding) agreement. US Treasury Secretary Scott Bessent said the deadline could be extended if no serious breakthrough is reached by July 9.
+
+Is this all just a big show? At least many investors seem to think so. The prevailing mantra is «TACO» – short for «Trump always chickens out.» The president blusters, then backs down. The S&P 500 closed last week 8.8% higher than it stood on April 2, the day Trump first unveiled his tariff plan.
+
+## The US market is already much more closed off.
+
+In any case, Trump's strategy might just be to make enough noise and put on enough of a show to keep the public eye away from the real, fundamental shifts taking place behind the scenes.
+
+> [embed: q-tool (chart/map) 7597fc573c06cfa8c88627842fac9fc4]
+
+The World Trade Organization (WTO), together with the International Monetary Fund (IMF), recently launched a new portal that tracks actual tariff rates applied to all categories of goods. WTO experts continuously update the data – and the results clearly speak volumes.
+
+While the Trump administration has suspended its «reciprocal» tariffs, it has gradually imposed a raft of additional duties. As a result, the average US tariff on imports from the rest of the world has jumped from 2.1% at the start of Trump's second term to 13.7% today. By now, 81.4% of all imported goods and 100% of tariff categories are affected.
+
+The shift has turned the US into a protectionist power – more so, on average, than China. That's largely due to three layers of measures: first, punitive tariffs on Chinese goods, which were rolled out in phases and riddled with exceptions;  second, a general 10% tariff on most imports; and, third, gradual increases on tariffs for cars, car parts, steel and aluminum. The latest round now even targets goods that merely contain traces of steel or aluminum. For businesses and their logistics providers, figuring out which tariffs apply to any given export to the US has become increasingly complex and unpredictable.
+
+> [embed: q-tool (chart/map) 6d4c90af52f402ffb7ca3835cabd4e01]
+
+American protectionism is hitting its largest trading partners hardest. China has been the only country to respond immediately with forceful countermeasures, earning a 90-day «truce» from Washington on May 14. Still, according to WTO calculations based on six-digit tariff codes, Chinese goods entering the US face an average import duty of a staggering 49.9%.
+
+Ironically, countries with which America has free trade agreements have also been targeted. Imports from Canada now face average tariffs of 19.44%, and those from Mexico 20.04% – up dramatically from just 0.25% at the start of the year. For Canadian firms that compete directly with American companies under what used to be free trade conditions, the impact could be severe: diminished competitiveness in the US market or extreme margin reductions. The upshot is likely a decline in market competition and innovation within the US itself.
+
+Goods from the EU and Switzerland haven't been spared, either. WTO data show the average tariff on those imports has risen substantially, from 3.47% to 14.95%.
+
+What's striking, though, is how little tariffs have risen on average in the affected countries themselves – China, Canada and Mexico – when applied to the rest of the world. Their retaliation has so far remained narrowly focused on US goods, and many of their broader threats have yet to materialize.
+
+## From WTO guardian to hacker
+
+For now, there is at least a chance that the multilateral trading system will remain largely intact – mainly because most of the world continues, more or less, to abide by its rules. The Trump administration, however, is redrawing the global economic map by breaking away from the existing international trade order and its core principles.
+
+America's departure marks a fundamental shift. The US was once a leading force behind the WTO's foundational tenets of nondiscrimination and most-favored-nation treatment. That position stemmed in part from hard-learned lessons from the Great Depression, when punitive tariffs on targeted countries sparked retaliation and trade wars. In 1941, President Franklin D. Roosevelt and British Prime Minister Winston Churchill laid the groundwork for a postwar global order that included a multilateral trade system, as economic historian Kevin O'Rourke recounts in a paper for the Center for Economic Policy Research (CEPR). Under this system, countries were not allowed to play others off one another. Tariff reductions granted to one country were to be extended to all, unless made under comprehensive free trade agreements. This principle gave rise to the General Agreement on Tariffs and Trade (GATT), the predecessor of today's WTO, in the aftermath of the war.
+
+Trump's country-specific «reciprocal» tariffs – enacted under emergency powers and then partially suspended – clearly violate that most-favored-nation principle, dragging the US back toward a mercantilist-style marketplace. Whether these measures will survive constitutional scrutiny remains unclear. A trade court in New York initially rejected a challenge to the tariffs, but an appeals court has stayed their enforcement pending further review.
+
+Perhaps anticipating legal setbacks, the Trump administration appears to be shifting course. Rather than singling out countries, it is now introducing broader tariffs on specific goods, citing national security concerns. These measures require more detailed justification and take longer to implement. But in sectors critical to countries like Switzerland, such as pharmaceuticals, these kinds of tariffs have already been threatened.
+
+## Negotiating away the uncertainty
+
+The sharply higher tariffs on imports into the US are expected to drive up prices – mainly for US consumers. So far, the impact has been muted. Many importers managed to stock up before the new tariffs kicked in, and numerous key goods were exempted. Nor have there been major diversionary effects, such as a surge of Chinese goods rerouted to European markets – or at least not yet, as trade economist Simon Evenett recently demonstrated in a data analysis.
+
+What has increased markedly, however, is economic and geopolitical uncertainty. That uncertainty is already prompting companies to delay investment decisions, which has knock-on effects on growth.
+
+> [embed: q-tool (chart/map) 1e3de0053155572a5cd591ccecc84d7b]
+
+This uncertainty is precisely what Switzerland – and, to a certain degree, the EU – is trying to resolve by negotiating with Washington.
+
+Switzerland is already far along. Swiss firms, among the largest foreign investors in the US, are promising to inject roughly $150 billion in new investment over the coming years. In addition to eliminating industrial tariffs, the Swiss are offering to ease restrictions on imports of agricultural goods that Swiss farmers don't typically produce and to reduce technical barriers to trade. Switzerland and its companies have also pledged to help the US upgrade its apprenticeship and vocational training system. In return, the Trump administration will reportedly drop the punitive 31% «reciprocal» tariff currently aimed at Swiss goods and grant broad exemptions from the across-the-board 10% tariff.
+
+Like the UK deal, the Swiss agreement could take the form of a nonbinding letter of intent and serve as a stepping stone towards a future bilateral free trade agreement. However, Bern is seeking assurances that it won't be blindsided by harsh new measures targeting its pharmaceutical industry once a deal is in place.
+
+Whether Washington is willing to offer such guarantees remains uncertain. But the broader trend is clear: President Trump and his administration view tariffs and trade restrictions not as emergency tools but as leverage – as a means to enhance US negotiating power, raise revenues for a chronically deficit-ridden federal budget, and push companies to shift production back to America. Behind the spectacle of «massive reciprocal tariffs» and the theatrical suspense they create, the US – once the flag-bearer of free trade – has quietly become one of the world's leading protectionist powers.
+
+> Please note that this story was machine translated with light editing by our editorial staff.
+
+## Latest articles
+
+> _Below, you’ll find links to a selection of our free content. If you’d like access to all of our premium content via the full version of our newsletter, please upgrade here._
+
+_**NZZ Geopolitics **– The independent Swiss view**** Standing outside the American media establishment, the NZZ offers distinctive insights that challenge the polarized narratives often found in US coverage. Our goal is to provide in-depth, nuanced reporting on global affairs, including developments in the United States, Europe, China and beyond. Taking a nonpartisan stance, we approach events with a sober and critical eye. Backed by a trusted network of international correspondents and expert reporters based in Switzerland, we deliver sharp analysis and a deeper understanding of geopolitics and the global economy. Sign up for our free newsletter or follow us on Twitter , Facebook or WhatsApp ._
+
+---
+**Auto summary (NZZ, GPT-generated):**
+- The Trump administration has raised U.S. average tariffs from 2.1% to 13.7%, further isolating the country through both specific and general duties.
+- Countries like China, Canada, and Mexico are particularly hit by the new U.S. tariffs, while retaliation measures remain limited so far.
+- U.S. protectionist policies heighten global economic uncertainty and delay investments, with negotiations like those with Switzerland seeking to de-escalate tensions.

@@ -1,0 +1,125 @@
+{
+  "_id": "1ed8c50ee4eadee1ad33ff1708900ec9",
+  "_rev": "8-fffe4cf1b3399e23c65894da138b7ab5",
+  "data": [
+    [
+      "Jahr",
+      "Wert"
+    ],
+    [
+      "2012",
+      "66.75"
+    ],
+    [
+      "2013",
+      "66.91"
+    ],
+    [
+      "2014",
+      "74.37"
+    ],
+    [
+      "2015",
+      "71.28"
+    ],
+    [
+      "2016",
+      "76.05"
+    ],
+    [
+      "2017",
+      "86.14"
+    ],
+    [
+      "2018",
+      "93"
+    ],
+    [
+      "2019",
+      "95.98"
+    ],
+    [
+      "2020",
+      "95.84"
+    ],
+    [
+      "2021",
+      "103.56"
+    ],
+    [
+      "2022",
+      "106.76"
+    ],
+    [
+      "2023",
+      "97.35"
+    ],
+    [
+      "2024",
+      "89.93"
+    ],
+    [
+      "2025*",
+      "79"
+    ]
+  ],
+  "tool": "chart",
+  "notes": "* Wert für 2025 geschätzt, da die Daten fürs vierte Quartal ausstehen",
+  "title": "Immer weniger deutsche Exporte nach China",
+  "active": true,
+  "events": [],
+  "acronym": "jab.",
+  "options": {
+    "chartType": "Bar",
+    "barOptions": {
+      "isBarChart": false,
+      "forceBarsOnSmall": true
+    },
+    "annotations": {},
+    "arrowOptions": {
+      "colorScheme": 0,
+      "invertColorScheme": false
+    },
+    "largeNumbers": {
+      "divideBy": 0
+    },
+    "hideAxisLabel": true,
+    "dotplotOptions": {},
+    "areaChartOptions": {
+      "stackType": "zero",
+      "areaInterpolation": "linear"
+    },
+    "lineChartOptions": {
+      "minValue": 50,
+      "yScaleType": "linear",
+      "isStockChart": false,
+      "reverseYScale": false,
+      "lineInterpolation": "linear"
+    },
+    "dateSeriesOptions": {
+      "labels": "many",
+      "interval": "auto",
+      "prognosisStart": null
+    },
+    "highlightDataRows": [],
+    "colorOverwritesRows": [],
+    "highlightDataSeries": [],
+    "colorOverwritesSeries": []
+  },
+  "sources": [
+    {
+      "link": {
+        "url": ""
+      },
+      "text": "Statistisches Bundesamt, eigene Berechnungen"
+    }
+  ],
+  "subtitle": "Werte der jährlichen Ausfuhren nach China, in Milliarden Euro",
+  "createdBy": "jannik.belser@nzz.ch",
+  "updatedBy": "mina.tuemer@nzz.ch",
+  "department": "Wirtschaft",
+  "createdDate": "2025-12-30T10:39:36.555Z",
+  "publication": "nzz",
+  "updatedDate": "2025-12-30T15:33:59.251Z",
+  "allowDownloadData": false
+}

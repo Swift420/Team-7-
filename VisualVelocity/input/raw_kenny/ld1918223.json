@@ -1,0 +1,1908 @@
+{
+ "content": [
+  {
+   "identifier": "header",
+   "id": "doc-1jdnc599q0",
+   "content": {
+    "title": "The German economy remains in crisis. Five charts illustrating the seriousness of the situation.",
+    "lead": "A special fund for investments and an \"autumn of reforms\": 2025 was supposed to be a year of improvement. But as the year draws to a close, the challenges for German politicians and business leaders remain significant.",
+    "author": ""
+   },
+   "containers": {
+    "authors": [
+     {
+      "identifier": "author-teaser",
+      "id": "doc-1kVeGjHFeA",
+      "content": {
+       "layout": "authorprofile",
+       "title": "Jannik Belser, Berlin",
+       "url": "/impressum/jannik-belser-ld.1850189",
+       "teaserImage": {
+        "url": "https://img-msp-prod.nzz.ch/2024/09/26/589f66d5-add1-41ab-8cb3-f8285d444b94.jpeg?width=1024&quality=75&auto=webp",
+        "originalUrl": "/2024/09/26/589f66d5-add1-41ab-8cb3-f8285d444b94.jpeg?width=1024",
+        "imageService": "fastly",
+        "width": 4128,
+        "height": 2752
+       }
+      }
+     }
+    ]
+   },
+   "prevElement": "",
+   "nextElement": "image",
+   "firstContentElement": true
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1jdnd4m221",
+   "content": {
+    "image": {
+     "author": "Jasper Walter Bastian for NZZ",
+     "caption": "A car hubcap on the roadside in front of the Bosch plant in Stuttgart-Feuerbach. A symbolic image for one of the trickiest problems for German business leaders: the very goods that made the country an export world champion are selling increasingly poorly abroad.",
+     "originalUrl": "/2025/10/30/f100c099-91e0-43a9-9fb7-3fdb2b7030b7.jpg?width=1024",
+     "width": 5000,
+     "height": 3750,
+     "altText": "A car hubcap lies on the roadside in front of the Bosch plant in Stuttgart-Feuerbach. The automotive industry is in deep crisis, including in the Stuttgart region, where Mercedes, Porsche, and Bosch see thousands of jobs at risk. Stuttgart, Thursday, September 23, 2025. +++ ATTENTION: USE WITHIN 5 YEARS FOR ALL NZZ TITLES IS FREE OF CHARGE. AFTER THAT, THE IMAGE WILL BE SUBJECT TO A CHARGE. USE ONLY AFTER CONSULTATION WITH THE PICTURE EDITORS +++",
+     "origins": [
+      {
+       "name": "Hugo",
+       "identifier": "2175286731"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "caption": "A car hubcap on the roadside in front of the Bosch plant in Stuttgart-Feuerbach. A symbolic image for one of the trickiest problems for German business leaders: the very goods that made the country an export world champion are selling increasingly poorly abroad.",
+    "author": "Jasper Walter Bastian for NZZ"
+   },
+   "styles": {
+    "fullwidth-widget": "widget--containerwidth"
+   },
+   "prevElement": "header",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jdnc599r0",
+   "content": {
+    "text": "Friedrich Merz made many promises. He said upon taking office in May that Germans would feel the economic recovery as early as summer. Then he proclaimed an «autumn of reforms.» By the end of the year, it's clear that neither of these things really came to pass."
+   },
+   "data": {},
+   "prevElement": "image",
+   "nextElement": "barrier"
+  },
+  {
+   "id": "doc-dc5ac725",
+   "identifier": "barrier",
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jdnj687k1",
+   "content": {
+    "text": "Germany remains mired in an economic crisis. Five developments illustrate the seriousness of the situation – and provide clues as to what needs to change by 2026."
+   },
+   "paidContent": true,
+   "prevElement": "barrier",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1jdnc599r2",
+   "content": {
+    "title": "1. The German economy has been stagnating for years",
+    "id": "subtitle-1-die-deutsche-volkswirtschaft-stagniert-seit-jahren"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jdnc599s0",
+   "content": {
+    "text": "After two years of economic contraction, Germany's gross domestic product (GDP) did increase again in 2025. However, the growth was moderate: The International Monetary Fund (IMF) forecasts an inflation-adjusted increase of 0.2 percent. While other economies such as the US and China quickly returned to a growth trajectory after the pandemic, German economic output remains at a similar level to 2019."
+   },
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "q-embed"
+  },
+  {
+   "identifier": "q-embed",
+   "id": "doc-1jdnc599s1",
+   "content": {
+    "q-embed": {
+     "service": "q-tool",
+     "params": {
+      "id": "2986658532c8ae3c1b229345b9ad297b",
+      "conf": {},
+      "toolConfig": {},
+      "toolRuntimeConfig": {
+       "size": {
+        "width": [
+         {
+          "value": 100,
+          "comparison": ">"
+         }
+        ]
+       },
+       "displayOptions": {
+        "hideTitle": false,
+        "hideSubtitle": false,
+        "hideFooter": false,
+        "hideAcronym": false,
+        "size": "basic"
+       },
+       "locale": "en_US"
+      },
+      "size": "content"
+     },
+     "resolvedValue": {}
+    },
+    "html": "      <div        class=\"q-chart-container\"        id=\"q_chart_2986658532c8ae3c1b229345b9ad297b_q8f11901b368c4aeba49259739fe437ca_container\"        data-q-item-id=\"2986658532c8ae3c1b229345b9ad297b\"        data-q-request-id=\"7b99747989f694737e423361cb8a3d97ef7ec883\"      ></div>",
+    "stylesheets": [
+     {
+      "type": "remote",
+      "content": "https://service.sophie.nzz.ch/bundle/sophie-color%23master,sophie-font%23master,sophie-legend%23master[icon-label],sophie-q%23master,sophie-viz-color%23master[general].css"
+     },
+     {
+      "type": "inline",
+      "content": "  @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff) format(\"woff\");  }    @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff) format(\"woff\");    unicode-range: U+0020-00FF,U+2005,U+2082;  }      "
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/css-theme-layer/nzz-0.2.0.css"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/chart/q-chart-1.2.6.css"
+     }
+    ],
+    "scripts": [
+     {
+      "type": "inline",
+      "content": "function qTrackingBootstrap(t,e,n){if(window.digitalData&&window.digitalData.component&&window.digitalData.component.push){window.digitalData.component.push(t),window.digitalData.event&&window.digitalData.event.length||(window.digitalData.event=[]);var i=new Date,a=e;a.eventInfo.timeStamp=i.toISOString(),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\");var o=document.querySelectorAll(\"[data-q-request-id='\"+n+\"']\");[].forEach.call(o,function(t){t.addEventListener(\"q-tracking-event\",function(t){var e=new Date;(a=JSON.parse(JSON.stringify(a))).eventInfo.timeStamp=e.toISOString(),a.eventInfo=Object.assign(a.eventInfo,t.detail.eventInfo),a.category=Object.assign(a.category,t.detail.category),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\")},!1)})}};qTrackingBootstrap({\"componentInfo\":{\"componentName\":\"Q\",\"componentID\":\"2986658532c8ae3c1b229345b9ad297b\"},\"category\":{\"componentType\":\"storytelling\",\"componentSubType1\":\"Q graphic\",\"componentSubType2\":\"chart\"}},{\"eventInfo\":{\"eventName\":\"Storytelling Interaction\",\"eventAction\":\"load\",\"type\":\"story\",\"componentName\":\"Q\",\"eventNonInteractive\":true,\"componentID\":\"2986658532c8ae3c1b229345b9ad297b\"},\"category\":{\"primaryCategory\":\"storytelling\",\"subCategory1\":\"Q graphic\",\"subCategory2\":\"chart\"}},\"7b99747989f694737e423361cb8a3d97ef7ec883\")"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/chart/q-chart-1.2.6.js"
+     },
+     {
+      "type": "inline",
+      "content": "      (function () {        function initialize() {          const target = document.querySelector('#q_chart_2986658532c8ae3c1b229345b9ad297b_q8f11901b368c4aeba49259739fe437ca_container');          if (!target) return;          target.innerHTML = '';          const qdoc = {\"_id\":\"2986658532c8ae3c1b229345b9ad297b\",\"allowDownloadData\":false,\"title\":\"The German economy is at a similar level to 2019\",\"subtitle\":\"Price-adjusted gross domestic product (GDP) in the respective quarter (100 = average economic output in 2020)\",\"publication\":\"nzz\",\"acronym\":\"jab.\",\"data\":[[\"Time\",\"Value\"],[\"Q1 2018\",\"102,81\"],[\"Q2 2018\",\"102,69\"],[\"Q3 2018\",\"102,90\"],[\"Q4 2018\",\"104,80\"],[\"Q1 2019\",\"104,02\"],[\"Q2 2019\",\"102,76\"],[\"Q3 2019\",\"104,97\"],[\"Q4 2019\",\"105,47\"],[\"Q1 2020\",\"102,41\"],[\"Q2 2020\",\"91,66\"],[\"Q3 2020\",\"101,62\"],[\"Q4 2020\",\"104,31\"],[\"Q1 2021\",\"101,69\"],[\"Q2 2021\",\"102,67\"],[\"Q3 2021\",\"104,48\"],[\"Q4 2021\",\"106,81\"],[\"Q1 2022\",\"105,77\"],[\"Q2 2022\",\"104,20\"],[\"Q3 2022\",\"106,17\"],[\"Q4 2022\",\"107,02\"],[\"Q1 2023\",\"105,74\"],[\"Q2 2023\",\"103,04\"],[\"Q3 2023\",\"104,77\"],[\"Q4 2023\",\"105,92\"],[\"Q1 2024\",\"104,57\"],[\"Q2 2024\",\"102,74\"],[\"Q3 2024\",\"104,58\"],[\"Q4 2024\",\"105,50\"],[\"Q1 2025\",\"104,63\"],[\"Q2 2025\",\"102,69\"],[\"Q3 2025\",\"104,93\"],[\"Q4 2025\",\"106,12\"]],\"sources\":[{\"text\":\"Federal Statistical Office\",\"link\":{\"url\":\"https://www.destatis.de/DE/Service/OpenData/konjunkturindikatoren-csv.html\"}}],\"events\":[],\"options\":{\"annotations\":{},\"areaChartOptions\":{\"areaInterpolation\":\"linear\",\"stackType\":\"zero\"},\"arrowOptions\":{\"colorScheme\":0,\"invertColorScheme\":false},\"barOptions\":{\"isBarChart\":false,\"forceBarsOnSmall\":false},\"chartType\":\"Line\",\"colorOverwritesRows\":[],\"colorOverwritesSeries\":[],\"dateSeriesOptions\":{\"interval\":\"auto\",\"labels\":\"many\",\"prognosisStart\":null},\"dotplotOptions\":{},\"hideAxisLabel\":true,\"highlightDataRows\":[],\"highlightDataSeries\":[],\"lineChartOptions\":{\"yScaleType\":\"linear\",\"reverseYScale\":false,\"lineInterpolation\":\"linear\",\"isStockChart\":false,\"minValue\":90},\"largeNumbers\":{\"divideBy\":0}},\"updatedDate\":\"2026-01-30T13:00:09.963Z\",\"notes\":\"As of December 30, 2025\"};          const toolRuntimeConfig = {\"displayOptions\":{\"hideTitle\":false,\"hideSubtitle\":false,\"hideFooter\":false,\"hideAcronym\":false,\"size\":\"basic\"},\"size\":{\"width\":[{\"value\":100,\"comparison\":\">\"}]},\"locale\":\"en-US\"};          const toolSettings = {\"qItemInstanceId\":\"q_chart_2986658532c8ae3c1b229345b9ad297b_q8f11901b368c4aeba49259739fe437ca\"};          let attempts = 0;          const maxAttempts = 100;          const checkAndInitialize = setInterval(() => {            if (window.qChart) {              clearInterval(checkAndInitialize);              new window.qChart({ target: target, props: {                qdoc: qdoc,                toolSettings: toolSettings,                toolRuntimeConfig: toolRuntimeConfig              } });            } else {              attempts++;              if (attempts >= maxAttempts) {                clearInterval(checkAndInitialize);                console.error('Failed to initialize qChart after 30 seconds');              }            }          }, 300);        }        if (document.body.classList.contains('pagedone')) {          initialize();        } else {          window.addEventListener('pagedone', initialize);        }      })();    "
+     }
+    ]
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1jdnc599s2",
+   "content": {
+    "title": "2. The industry is shrinking further and further",
+    "id": "subtitle-2-die-industrie-schrumpft-immer-weiter"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "q-embed",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jdnc599s3",
+   "content": {
+    "text": "The weakness is most evident in the industrial sector, which for decades was a symbol of the success of the German economic model. Now, industrial companies are complaining about the high costs of their location, especially the increased energy prices."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jdnc599s4",
+   "content": {
+    "text": "The Federation of German Industries (BDI) anticipates a two percent decline in manufacturing output in 2025 compared to the previous year. This would mark the fourth consecutive year of recession for the industry. As a result, German industry continues to lose ground, while it grows in other European countries."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "q-embed"
+  },
+  {
+   "identifier": "q-embed",
+   "id": "doc-1jdnfafk20",
+   "content": {
+    "q-embed": {
+     "service": "q-tool",
+     "params": {
+      "id": "1ed8c50ee4eadee1ad33ff170896ec52",
+      "conf": {},
+      "toolConfig": {},
+      "toolRuntimeConfig": {
+       "size": {
+        "width": [
+         {
+          "value": 100,
+          "comparison": ">"
+         }
+        ]
+       },
+       "displayOptions": {
+        "hideTitle": false,
+        "hideSubtitle": false,
+        "hideFooter": false,
+        "hideAcronym": false,
+        "size": "basic"
+       },
+       "locale": "en_US"
+      },
+      "size": "content"
+     },
+     "resolvedValue": {}
+    },
+    "html": "      <div        class=\"q-chart-container\"        id=\"q_chart_1ed8c50ee4eadee1ad33ff170896ec52_q3a9dacd45951453097b1278ed4b59a63_container\"        data-q-item-id=\"1ed8c50ee4eadee1ad33ff170896ec52\"        data-q-request-id=\"3404ff9abf21c3f25049e110aa6d024626244b7d\"      ></div>",
+    "stylesheets": [
+     {
+      "type": "remote",
+      "content": "https://service.sophie.nzz.ch/bundle/sophie-color%23master,sophie-font%23master,sophie-legend%23master[icon-label],sophie-q%23master,sophie-viz-color%23master[general].css"
+     },
+     {
+      "type": "inline",
+      "content": "  @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff) format(\"woff\");  }    @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff) format(\"woff\");    unicode-range: U+0020-00FF,U+2005,U+2082;  }      "
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/css-theme-layer/nzz-0.2.0.css"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/chart/q-chart-1.2.6.css"
+     }
+    ],
+    "scripts": [
+     {
+      "type": "inline",
+      "content": "function qTrackingBootstrap(t,e,n){if(window.digitalData&&window.digitalData.component&&window.digitalData.component.push){window.digitalData.component.push(t),window.digitalData.event&&window.digitalData.event.length||(window.digitalData.event=[]);var i=new Date,a=e;a.eventInfo.timeStamp=i.toISOString(),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\");var o=document.querySelectorAll(\"[data-q-request-id='\"+n+\"']\");[].forEach.call(o,function(t){t.addEventListener(\"q-tracking-event\",function(t){var e=new Date;(a=JSON.parse(JSON.stringify(a))).eventInfo.timeStamp=e.toISOString(),a.eventInfo=Object.assign(a.eventInfo,t.detail.eventInfo),a.category=Object.assign(a.category,t.detail.category),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\")},!1)})}};qTrackingBootstrap({\"componentInfo\":{\"componentName\":\"Q\",\"componentID\":\"1ed8c50ee4eadee1ad33ff170896ec52\"},\"category\":{\"componentType\":\"storytelling\",\"componentSubType1\":\"Q graphic\",\"componentSubType2\":\"chart\"}},{\"eventInfo\":{\"eventName\":\"Storytelling Interaction\",\"eventAction\":\"load\",\"type\":\"story\",\"componentName\":\"Q\",\"eventNonInteractive\":true,\"componentID\":\"1ed8c50ee4eadee1ad33ff170896ec52\"},\"category\":{\"primaryCategory\":\"storytelling\",\"subCategory1\":\"Q graphic\",\"subCategory2\":\"chart\"}},\"3404ff9abf21c3f25049e110aa6d024626244b7d\")"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/chart/q-chart-1.2.6.js"
+     },
+     {
+      "type": "inline",
+      "content": "      (function () {        function initialize() {          const target = document.querySelector('#q_chart_1ed8c50ee4eadee1ad33ff170896ec52_q3a9dacd45951453097b1278ed4b59a63_container');          if (!target) return;          target.innerHTML = '';          const qdoc = {\"_id\":\"1ed8c50ee4eadee1ad33ff170896ec52\",\"allowDownloadData\":false,\"title\":\"In some countries, industry has grown since the energy price shock\",\"subtitle\":\"Percentage change in production in the third quarter of 2025 compared to 2021\",\"publication\":\"nzz\",\"acronym\":\"jab.\",\"data\":[[\"country\",\"change\"],[\"Germany\",\"-5.4\"],[\"Italy\",\"-5.6\"],[\"Hungary\",\"-5\"],[\"EU average\",\"1\"],[\"France\",\"2.7\"],[\"Spain\",\"2.7\"],[\"Czech Republic\",\"3.9\"],[\"Sweden\",\"7.4\"],[\"Poland\",\"11.5\"]],\"sources\":[{\"text\":\"Federation of German Industries\",\"link\":{\"url\":\"https://bdi.eu/publikation/news/industriebericht-dezember-2025\"}}],\"events\":[],\"options\":{\"annotations\":{},\"areaChartOptions\":{\"areaInterpolation\":\"linear\",\"stackType\":\"zero\"},\"arrowOptions\":{\"colorScheme\":0,\"invertColorScheme\":false},\"barOptions\":{\"isBarChart\":true,\"forceBarsOnSmall\":false},\"chartType\":\"Bar\",\"colorOverwritesRows\":[],\"colorOverwritesSeries\":[],\"dateSeriesOptions\":{\"interval\":\"auto\",\"labels\":\"many\",\"prognosisStart\":null},\"dotplotOptions\":{},\"hideAxisLabel\":true,\"highlightDataRows\":[0],\"highlightDataSeries\":[],\"lineChartOptions\":{\"yScaleType\":\"linear\",\"reverseYScale\":false,\"lineInterpolation\":\"linear\",\"isStockChart\":false},\"largeNumbers\":{\"divideBy\":0}},\"updatedDate\":\"2025-12-30T15:24:34.997Z\"};          const toolRuntimeConfig = {\"displayOptions\":{\"hideTitle\":false,\"hideSubtitle\":false,\"hideFooter\":false,\"hideAcronym\":false,\"size\":\"basic\"},\"size\":{\"width\":[{\"value\":100,\"comparison\":\">\"}]},\"locale\":\"en-US\"};          const toolSettings = {\"qItemInstanceId\":\"q_chart_1ed8c50ee4eadee1ad33ff170896ec52_q3a9dacd45951453097b1278ed4b59a63\"};          let attempts = 0;          const maxAttempts = 100;          const checkAndInitialize = setInterval(() => {            if (window.qChart) {              clearInterval(checkAndInitialize);              new window.qChart({ target: target, props: {                qdoc: qdoc,                toolSettings: toolSettings,                toolRuntimeConfig: toolRuntimeConfig              } });            } else {              attempts++;              if (attempts >= maxAttempts) {                clearInterval(checkAndInitialize);                console.error('Failed to initialize qChart after 30 seconds');              }            }          }, 300);        }        if (document.body.classList.contains('pagedone')) {          initialize();        } else {          window.addEventListener('pagedone', initialize);        }      })();    "
+     }
+    ]
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1jdnc599t0",
+   "content": {
+    "title": "3. Major countries are buying fewer German goods",
+    "id": "subtitle-3-wichtige-l-nder-kaufen-weniger-deutsche-g-ter"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "q-embed",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jdnc599t1",
+   "content": {
+    "text": "According to figures from the German Economic Institute, exports to the USA fell by almost eight percent in the first three quarters of the year compared to the same period last year, and exports to China by more than twelve percent. While increasing exports to European countries such as Poland, Switzerland, and Spain offset this effect, Germany, as an export nation, faces a challenge in the medium term: In key markets where the economy is currently experiencing the fastest growth, it is selling fewer and fewer goods."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jdnc599t2",
+   "content": {
+    "text": "This is particularly dramatic in the relationship with China. For years, exports to the People's Republic grew, and German companies had full order books. But what the Chinese used to only be able to buy in Germany, they are now increasingly manufacturing themselves. China is now only the sixth-largest buyer of German exports."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "q-embed"
+  },
+  {
+   "identifier": "q-embed",
+   "id": "doc-1jdnc599u0",
+   "content": {
+    "q-embed": {
+     "service": "q-tool",
+     "params": {
+      "id": "1ed8c50ee4eadee1ad33ff1708900ec9",
+      "conf": {},
+      "toolConfig": {},
+      "toolRuntimeConfig": {
+       "size": {
+        "width": [
+         {
+          "value": 100,
+          "comparison": ">"
+         }
+        ]
+       },
+       "displayOptions": {
+        "hideTitle": false,
+        "hideSubtitle": false,
+        "hideFooter": false,
+        "hideAcronym": false,
+        "size": "basic"
+       },
+       "locale": "en_US"
+      },
+      "size": "content"
+     },
+     "resolvedValue": {}
+    },
+    "html": "      <div        class=\"q-chart-container\"        id=\"q_chart_1ed8c50ee4eadee1ad33ff1708900ec9_qbd7b9bc2a431498da9046abe711c00a5_container\"        data-q-item-id=\"1ed8c50ee4eadee1ad33ff1708900ec9\"        data-q-request-id=\"aec3f3143fc2dd31fdc1016897b64f0a3fe6d69b\"      ></div>",
+    "stylesheets": [
+     {
+      "type": "remote",
+      "content": "https://service.sophie.nzz.ch/bundle/sophie-color%23master,sophie-font%23master,sophie-legend%23master[icon-label],sophie-q%23master,sophie-viz-color%23master[general].css"
+     },
+     {
+      "type": "inline",
+      "content": "  @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff) format(\"woff\");  }    @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff) format(\"woff\");    unicode-range: U+0020-00FF,U+2005,U+2082;  }      "
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/css-theme-layer/nzz-0.2.0.css"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/chart/q-chart-1.2.6.css"
+     }
+    ],
+    "scripts": [
+     {
+      "type": "inline",
+      "content": "function qTrackingBootstrap(t,e,n){if(window.digitalData&&window.digitalData.component&&window.digitalData.component.push){window.digitalData.component.push(t),window.digitalData.event&&window.digitalData.event.length||(window.digitalData.event=[]);var i=new Date,a=e;a.eventInfo.timeStamp=i.toISOString(),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\");var o=document.querySelectorAll(\"[data-q-request-id='\"+n+\"']\");[].forEach.call(o,function(t){t.addEventListener(\"q-tracking-event\",function(t){var e=new Date;(a=JSON.parse(JSON.stringify(a))).eventInfo.timeStamp=e.toISOString(),a.eventInfo=Object.assign(a.eventInfo,t.detail.eventInfo),a.category=Object.assign(a.category,t.detail.category),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\")},!1)})}};qTrackingBootstrap({\"componentInfo\":{\"componentName\":\"Q\",\"componentID\":\"1ed8c50ee4eadee1ad33ff1708900ec9\"},\"category\":{\"componentType\":\"storytelling\",\"componentSubType1\":\"Q graphic\",\"componentSubType2\":\"chart\"}},{\"eventInfo\":{\"eventName\":\"Storytelling Interaction\",\"eventAction\":\"load\",\"type\":\"story\",\"componentName\":\"Q\",\"eventNonInteractive\":true,\"componentID\":\"1ed8c50ee4eadee1ad33ff1708900ec9\"},\"category\":{\"primaryCategory\":\"storytelling\",\"subCategory1\":\"Q graphic\",\"subCategory2\":\"chart\"}},\"aec3f3143fc2dd31fdc1016897b64f0a3fe6d69b\")"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/chart/q-chart-1.2.6.js"
+     },
+     {
+      "type": "inline",
+      "content": "      (function () {        function initialize() {          const target = document.querySelector('#q_chart_1ed8c50ee4eadee1ad33ff1708900ec9_qbd7b9bc2a431498da9046abe711c00a5_container');          if (!target) return;          target.innerHTML = '';          const qdoc = {\"_id\":\"1ed8c50ee4eadee1ad33ff1708900ec9\",\"allowDownloadData\":false,\"title\":\"Fewer and fewer German exports to China\",\"subtitle\":\"Value of annual exports to China, in billions of euros\",\"publication\":\"nzz\",\"acronym\":\"jab.\",\"data\":[[\"Year\",\"Value\"],[\"2012\",\"66.75\"],[\"2013\",\"66.91\"],[\"2014\",\"74.37\"],[\"2015\",\"71.28\"],[\"2016\",\"76.05\"],[\"2017\",\"86.14\"],[\"2018\",\"93\"],[\"2019\",\"95.98\"],[\"2020\",\"95.84\"],[\"2021\",\"103.56\"],[\"2022\",\"106.76\"],[\"2023\",\"97.35\"],[\"2024\",\"89.93\"],[\"2025*\",\"79\"]],\"sources\":[{\"text\":\"Federal Statistical Office, own calculations\",\"link\":{\"url\":\"\"}}],\"events\":[],\"options\":{\"annotations\":{},\"areaChartOptions\":{\"areaInterpolation\":\"linear\",\"stackType\":\"zero\"},\"arrowOptions\":{\"colorScheme\":0,\"invertColorScheme\":false},\"barOptions\":{\"isBarChart\":false,\"forceBarsOnSmall\":true},\"chartType\":\"Bar\",\"colorOverwritesRows\":[],\"colorOverwritesSeries\":[],\"dateSeriesOptions\":{\"interval\":\"auto\",\"labels\":\"many\",\"prognosisStart\":null},\"dotplotOptions\":{},\"hideAxisLabel\":true,\"highlightDataRows\":[],\"highlightDataSeries\":[],\"lineChartOptions\":{\"yScaleType\":\"linear\",\"reverseYScale\":false,\"lineInterpolation\":\"linear\",\"isStockChart\":false,\"minValue\":50},\"largeNumbers\":{\"divideBy\":0}},\"updatedDate\":\"2025-12-30T15:33:59.251Z\",\"notes\":\"* Value for 2025 estimated, as data for the fourth quarter is pending\"};          const toolRuntimeConfig = {\"displayOptions\":{\"hideTitle\":false,\"hideSubtitle\":false,\"hideFooter\":false,\"hideAcronym\":false,\"size\":\"basic\"},\"size\":{\"width\":[{\"value\":100,\"comparison\":\">\"}]},\"locale\":\"en-US\"};          const toolSettings = {\"qItemInstanceId\":\"q_chart_1ed8c50ee4eadee1ad33ff1708900ec9_qbd7b9bc2a431498da9046abe711c00a5\"};          let attempts = 0;          const maxAttempts = 100;          const checkAndInitialize = setInterval(() => {            if (window.qChart) {              clearInterval(checkAndInitialize);              new window.qChart({ target: target, props: {                qdoc: qdoc,                toolSettings: toolSettings,                toolRuntimeConfig: toolRuntimeConfig              } });            } else {              attempts++;              if (attempts >= maxAttempts) {                clearInterval(checkAndInitialize);                console.error('Failed to initialize qChart after 30 seconds');              }            }          }, 300);        }        if (document.body.classList.contains('pagedone')) {          initialize();        } else {          window.addEventListener('pagedone', initialize);        }      })();    "
+     }
+    ]
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1jdnc59a10",
+   "content": {
+    "title": "4. The unemployment rate is still stable. But anyone who loses their job now has a problem",
+    "id": "subtitle-4-noch-ist-die-arbeitslosenquote-stabil-aber-wer-jetzt-seinen-job-verliert-hat-ein-problem"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "q-embed",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jdnc59a11",
+   "content": {
+    "text": "Numerous German companies, such as <a href=\"https://www.nzz.ch/wirtschaft/bosch-muss-sparen-13-000-stellen-fallen-dem-schwachen-automarkt-zum-opfer-ld.1904222\">Bosch</a> and <a href=\"https://www.nzz.ch/wirtschaft/audi-streicht-innert-vier-jahren-7500-stellen-in-deutschland-ld.1875874\">Audi,</a> announced plans to reduce their workforce in 2025. Nevertheless, the unemployment rate remained largely stable this year because many companies are spreading out the layoffs over a longer period and covering at least part of the losses with retirements. Currently, it stands at 6.1 percent – ​​a moderate figure compared to the early 2000s, when the German unemployment rate hovered around 11 percent and the Schröder government subjected the welfare state to a series of sweeping reforms."
+   },
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jdnc59a12",
+   "content": {
+    "text": "Nevertheless, there are problematic developments on the German labor market. Due to uncertainty, fewer and fewer employees are voluntarily changing jobs. For those entering the workforce or the unemployed, this means fewer positions are becoming available. The exit rate from unemployment has fallen to a record low this year."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "q-embed"
+  },
+  {
+   "identifier": "q-embed",
+   "id": "doc-1jdnc59a13",
+   "content": {
+    "q-embed": {
+     "service": "q-tool",
+     "params": {
+      "id": "2986658532c8ae3c1b229345b990d664",
+      "conf": {},
+      "toolConfig": {},
+      "toolRuntimeConfig": {
+       "size": {
+        "width": [
+         {
+          "value": 100,
+          "comparison": ">"
+         }
+        ]
+       },
+       "displayOptions": {
+        "hideTitle": false,
+        "hideSubtitle": false,
+        "hideFooter": false,
+        "hideAcronym": false,
+        "size": "basic"
+       },
+       "locale": "en_US"
+      },
+      "size": "content"
+     },
+     "resolvedValue": {}
+    },
+    "html": "      <div        class=\"q-chart-container\"        id=\"q_chart_2986658532c8ae3c1b229345b990d664_q0620e3a111124574abc61d324ab513c4_container\"        data-q-item-id=\"2986658532c8ae3c1b229345b990d664\"        data-q-request-id=\"3404ff9abf21c3f25049e110aa6d024626244b7d\"      ></div>",
+    "stylesheets": [
+     {
+      "type": "remote",
+      "content": "https://service.sophie.nzz.ch/bundle/sophie-color%23master,sophie-font%23master,sophie-legend%23master[icon-label],sophie-q%23master,sophie-viz-color%23master[general].css"
+     },
+     {
+      "type": "inline",
+      "content": "  @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff) format(\"woff\");  }    @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff) format(\"woff\");    unicode-range: U+0020-00FF,U+2005,U+2082;  }      "
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/css-theme-layer/nzz-0.2.0.css"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/chart/q-chart-1.2.6.css"
+     }
+    ],
+    "scripts": [
+     {
+      "type": "inline",
+      "content": "function qTrackingBootstrap(t,e,n){if(window.digitalData&&window.digitalData.component&&window.digitalData.component.push){window.digitalData.component.push(t),window.digitalData.event&&window.digitalData.event.length||(window.digitalData.event=[]);var i=new Date,a=e;a.eventInfo.timeStamp=i.toISOString(),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\");var o=document.querySelectorAll(\"[data-q-request-id='\"+n+\"']\");[].forEach.call(o,function(t){t.addEventListener(\"q-tracking-event\",function(t){var e=new Date;(a=JSON.parse(JSON.stringify(a))).eventInfo.timeStamp=e.toISOString(),a.eventInfo=Object.assign(a.eventInfo,t.detail.eventInfo),a.category=Object.assign(a.category,t.detail.category),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\")},!1)})}};qTrackingBootstrap({\"componentInfo\":{\"componentName\":\"Q\",\"componentID\":\"2986658532c8ae3c1b229345b990d664\"},\"category\":{\"componentType\":\"storytelling\",\"componentSubType1\":\"Q graphic\",\"componentSubType2\":\"chart\"}},{\"eventInfo\":{\"eventName\":\"Storytelling Interaction\",\"eventAction\":\"load\",\"type\":\"story\",\"componentName\":\"Q\",\"eventNonInteractive\":true,\"componentID\":\"2986658532c8ae3c1b229345b990d664\"},\"category\":{\"primaryCategory\":\"storytelling\",\"subCategory1\":\"Q graphic\",\"subCategory2\":\"chart\"}},\"3404ff9abf21c3f25049e110aa6d024626244b7d\")"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/chart/q-chart-1.2.6.js"
+     },
+     {
+      "type": "inline",
+      "content": "      (function () {        function initialize() {          const target = document.querySelector('#q_chart_2986658532c8ae3c1b229345b990d664_q0620e3a111124574abc61d324ab513c4_container');          if (!target) return;          target.innerHTML = '';          const qdoc = {\"_id\":\"2986658532c8ae3c1b229345b990d664\",\"allowDownloadData\":false,\"title\":\"German unemployed people are finding it increasingly difficult\",\"subtitle\":\"Percentage of unemployed people who find a job within one month\",\"publication\":\"nzz\",\"acronym\":\"jab.\",\"data\":[[\"Month\",\"rate\"],[\"Jan 17\",\"6.74\"],[\"Feb 17\",\"6.72\"],[\"March 17\",\"6.79\"],[\"Apr 17\",\"6.8\"],[\"May 17\",\"6.88\"],[\"June 17\",\"6.83\"],[\"Jul 17\",\"6.87\"],[\"Aug 17\",\"6.95\"],[\"Sep 17\",\"6.96\"],[\"Oct 17\",\"6.99\"],[\"Nov 17\",\"7.03\"],[\"Dec 17\",\"7.06\"],[\"Jan 18\",\"7.11\"],[\"Feb 18\",\"7.16\"],[\"March 18\",\"7.17\"],[\"Apr 18\",\"7.17\"],[\"May 18\",\"7.18\"],[\"June 18\",\"7.24\"],[\"Jul 18\",\"7.27\"],[\"Aug 18\",\"7.29\"],[\"Sep 18\",\"7.31\"],[\"Oct 18\",\"7.32\"],[\"Nov 18\",\"7.34\"],[\"Dec 18\",\"7.38\"],[\"Jan 19\",\"7.43\"],[\"Feb 19\",\"7.42\"],[\"March 19\",\"7.45\"],[\"Apr 19\",\"7.47\"],[\"May 19\",\"7.43\"],[\"June 19\",\"7.45\"],[\"Jul 19\",\"7.41\"],[\"Aug 19\",\"7.41\"],[\"Sep 19\",\"7.42\"],[\"Oct 19\",\"7.45\"],[\"Nov 19\",\"7.42\"],[\"Dec 19\",\"7.40\"],[\"Jan 20\",\"7.39\"],[\"Feb 20\",\"7.39\"],[\"March 20\",\"7.36\"],[\"Apr 20\",\"7.07\"],[\"May 20\",\"6.76\"],[\"June 20\",\"6.59\"],[\"Jul 20\",\"6.44\"],[\"Aug 20\",\"6.30\"],[\"Sep 20\",\"6.23\"],[\"Oct 20\",\"6.20\"],[\"Nov 20\",\"6.18\"],[\"Dec 20\",\"6.12\"],[\"Jan 21\",\"6.01\"],[\"Feb 21\",\"5.88\"],[\"March 21\",\"5.75\"],[\"Apr 21\",\"5.87\"],[\"May 21\",\"6.02\"],[\"June 21\",\"6.14\"],[\"Jul 21\",\"6.27\"],[\"Aug 21\",\"6.33\"],[\"Sep 21\",\"6.38\"],[\"Oct 21\",\"6.34\"],[\"Nov 21\",\"6.33\"],[\"Dec 21\",\"6.39\"],[\"Jan 22\",\"6.45\"],[\"Feb 22\",\"6.56\"],[\"March 22\",\"6.62\"],[\"Apr 22\",\"6.63\"],[\"May 22\",\"6.63\"],[\"June 22\",\"6.58\"],[\"Jul 22\",\"6.49\"],[\"Aug 22\",\"6.40\"],[\"Sep 22\",\"6.34\"],[\"Oct 22\",\"6.28\"],[\"Nov 22\",\"6.22\"],[\"Dec 22\",\"6.14\"],[\"Jan 23\",\"6.07\"],[\"Feb 23\",\"6.02\"],[\"March 23\",\"5.97\"],[\"Apr 23\",\"5.93\"],[\"May 23\",\"5.87\"],[\"June 23\",\"5.83\"],[\"Jul 23\",\"5.81\"],[\"Aug 23\",\"5.82\"],[\"Sep 23\",\"5.77\"],[\"Oct 23\",\"5.74\"],[\"Nov 23\",\"5.74\"],[\"Dec 23\",\"5.74\"],[\"Jan 24\",\"5.78\"],[\"Feb 24\",\"5.70\"],[\"March 24\",\"5.71\"],[\"Apr 24\",\"5.76\"],[\"May 24\",\"5.76\"],[\"June 24\",\"5.72\"],[\"Jul 24\",\"5.76\"],[\"Aug 24\",\"5.71\"],[\"Sep 24\",\"5.70\"],[\"Oct 24\",\"5.74\"],[\"Nov 24\",\"5.73\"],[\"Dec 24\",\"5.71\"],[\"Jan 25\",\"5.65\"],[\"Feb 25\",\"5.68\"],[\"March 25\",\"5.67\"],[\"Apr 25\",\"5.62\"],[\"May 25\",\"5.63\"],[\"June 25\",\"5.64\"],[\"Jul 25\",\"5.61\"],[\"Aug 25\",\"5.64\"],[\"Sep 25\",\"5.65\"],[\"Oct 25\",\"5.66\"],[\"Nov 25\",\"5.66\"]],\"sources\":[{\"text\":\"Federal Employment Agency\",\"link\":{\"url\":\"https://statistik.arbeitsagentur.de/SiteGlobals/Forms/Suche/Einzelheftsuche_Formular.html?topic_f=analyse-d-chancen-risiken-wz\"}}],\"events\":[],\"options\":{\"annotations\":{},\"areaChartOptions\":{\"areaInterpolation\":\"linear\",\"stackType\":\"zero\"},\"arrowOptions\":{\"colorScheme\":0,\"invertColorScheme\":false},\"barOptions\":{\"isBarChart\":false,\"forceBarsOnSmall\":false},\"chartType\":\"Line\",\"colorOverwritesRows\":[],\"colorOverwritesSeries\":[],\"dateSeriesOptions\":{\"interval\":\"auto\",\"labels\":\"many\",\"prognosisStart\":null},\"dotplotOptions\":{},\"hideAxisLabel\":true,\"highlightDataRows\":[],\"highlightDataSeries\":[],\"lineChartOptions\":{\"yScaleType\":\"linear\",\"reverseYScale\":false,\"lineInterpolation\":\"linear\",\"isStockChart\":false,\"maxValue\":null,\"minValue\":5},\"largeNumbers\":{\"divideBy\":0}},\"updatedDate\":\"2025-12-30T09:59:14.603Z\"};          const toolRuntimeConfig = {\"displayOptions\":{\"hideTitle\":false,\"hideSubtitle\":false,\"hideFooter\":false,\"hideAcronym\":false,\"size\":\"basic\"},\"size\":{\"width\":[{\"value\":100,\"comparison\":\">\"}]},\"locale\":\"en-US\"};          const toolSettings = {\"qItemInstanceId\":\"q_chart_2986658532c8ae3c1b229345b990d664_q0620e3a111124574abc61d324ab513c4\"};          let attempts = 0;          const maxAttempts = 100;          const checkAndInitialize = setInterval(() => {            if (window.qChart) {              clearInterval(checkAndInitialize);              new window.qChart({ target: target, props: {                qdoc: qdoc,                toolSettings: toolSettings,                toolRuntimeConfig: toolRuntimeConfig              } });            } else {              attempts++;              if (attempts >= maxAttempts) {                clearInterval(checkAndInitialize);                console.error('Failed to initialize qChart after 30 seconds');              }            }          }, 300);        }        if (document.body.classList.contains('pagedone')) {          initialize();        } else {          window.addEventListener('pagedone', initialize);        }      })();    "
+     }
+    ]
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jdnc59a20",
+   "content": {
+    "text": "Andrea Nahles, the head of the Federal Employment Agency, <a href=\"https://www.nzz.ch/wirtschaft/die-arbeitslosenzahl-in-deutschland-koennte-bald-wieder-ueber-die-marke-von-3-millionen-klettern-ld.1918063\">recently said</a> that the labor market has been «as rigid as a board» for months. There is no group of workers who are protected from job loss."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "q-embed",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jdnqq1s91",
+   "content": {
+    "text": "And anyone who loses their job in Germany now will have difficulty finding a new one."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1jdnc59a21",
+   "content": {
+    "title": "5. National debt is rising – but the money only partially reaches where it was promised",
+    "id": "subtitle-5-die-staatsverschuldung-steigt-doch-das-geld-kommt-nur-teilweise-dort-an-wo-es-versprochen-wurde"
+   },
+   "data": {},
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jdnc59a22",
+   "content": {
+    "text": "Even before the black-red coalition government took office, it created fiscal leeway by establishing a special fund. Investments totaling 500 billion euros are <a href=\"https://www.nzz.ch/international/union-und-spd-einigen-sich-auf-milliardenkredite-fuer-verteidigung-und-infrastruktur-ld.1873951\">to flow into infrastructure projects over the next few years, bypassing the debt brake</a> . In the federal budget for 2025, public debt increased by 140 billion euros, reaching an all-time high in the history of the Federal Republic."
+   },
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "q-embed"
+  },
+  {
+   "identifier": "q-embed",
+   "id": "doc-1jdnc59a23",
+   "content": {
+    "q-embed": {
+     "service": "q-tool",
+     "params": {
+      "id": "1ed8c50ee4eadee1ad33ff170893c357",
+      "conf": {},
+      "toolConfig": {},
+      "toolRuntimeConfig": {
+       "size": {
+        "width": [
+         {
+          "value": 100,
+          "comparison": ">"
+         }
+        ]
+       },
+       "displayOptions": {
+        "hideTitle": false,
+        "hideSubtitle": false,
+        "hideFooter": false,
+        "hideAcronym": false,
+        "size": "basic"
+       },
+       "locale": "en_US"
+      },
+      "size": "content"
+     },
+     "resolvedValue": {}
+    },
+    "html": "      <div        class=\"q-chart-container\"        id=\"q_chart_1ed8c50ee4eadee1ad33ff170893c357_qa0934dfbde40441bb7358313c0feae3b_container\"        data-q-item-id=\"1ed8c50ee4eadee1ad33ff170893c357\"        data-q-request-id=\"aec3f3143fc2dd31fdc1016897b64f0a3fe6d69b\"      ></div>",
+    "stylesheets": [
+     {
+      "type": "remote",
+      "content": "https://service.sophie.nzz.ch/bundle/sophie-color%23master,sophie-font%23master,sophie-legend%23master[icon-label],sophie-q%23master,sophie-viz-color%23master[general].css"
+     },
+     {
+      "type": "inline",
+      "content": "  @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff) format(\"woff\");  }    @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff) format(\"woff\");    unicode-range: U+0020-00FF,U+2005,U+2082;  }      "
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/css-theme-layer/nzz-0.2.0.css"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/chart/q-chart-1.2.6.css"
+     }
+    ],
+    "scripts": [
+     {
+      "type": "inline",
+      "content": "function qTrackingBootstrap(t,e,n){if(window.digitalData&&window.digitalData.component&&window.digitalData.component.push){window.digitalData.component.push(t),window.digitalData.event&&window.digitalData.event.length||(window.digitalData.event=[]);var i=new Date,a=e;a.eventInfo.timeStamp=i.toISOString(),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\");var o=document.querySelectorAll(\"[data-q-request-id='\"+n+\"']\");[].forEach.call(o,function(t){t.addEventListener(\"q-tracking-event\",function(t){var e=new Date;(a=JSON.parse(JSON.stringify(a))).eventInfo.timeStamp=e.toISOString(),a.eventInfo=Object.assign(a.eventInfo,t.detail.eventInfo),a.category=Object.assign(a.category,t.detail.category),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\")},!1)})}};qTrackingBootstrap({\"componentInfo\":{\"componentName\":\"Q\",\"componentID\":\"1ed8c50ee4eadee1ad33ff170893c357\"},\"category\":{\"componentType\":\"storytelling\",\"componentSubType1\":\"Q graphic\",\"componentSubType2\":\"chart\"}},{\"eventInfo\":{\"eventName\":\"Storytelling Interaction\",\"eventAction\":\"load\",\"type\":\"story\",\"componentName\":\"Q\",\"eventNonInteractive\":true,\"componentID\":\"1ed8c50ee4eadee1ad33ff170893c357\"},\"category\":{\"primaryCategory\":\"storytelling\",\"subCategory1\":\"Q graphic\",\"subCategory2\":\"chart\"}},\"aec3f3143fc2dd31fdc1016897b64f0a3fe6d69b\")"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/chart/q-chart-1.2.6.js"
+     },
+     {
+      "type": "inline",
+      "content": "      (function () {        function initialize() {          const target = document.querySelector('#q_chart_1ed8c50ee4eadee1ad33ff170893c357_qa0934dfbde40441bb7358313c0feae3b_container');          if (!target) return;          target.innerHTML = '';          const qdoc = {\"_id\":\"1ed8c50ee4eadee1ad33ff170893c357\",\"allowDownloadData\":false,\"title\":\"German national debt is growing rapidly\",\"subtitle\":\"Value of loans to finance the federal budget and special funds in billions of euros\",\"publication\":\"nzz\",\"acronym\":\"jab.\",\"data\":[[\"Month\",\"Value\"],[\"Jan 96\",\"665.2213475\"],[\"Feb 96\",\"664.2117484\"],[\"March 1996\",\"665.810432\"],[\"Apr 96\",\"666.0113465\"],[\"May 1996\",\"665.8378563\"],[\"June 1996\",\"663.1423815\"],[\"Jul 96\",\"666.1618265\"],[\"Aug 96\",\"663.7337316\"],[\"Sep 96\",\"663.6771256\"],[\"Oct 96\",\"665.4988275\"],[\"Nov 96\",\"672.385911\"],[\"Dec 96\",\"692.9772716\"],[\"Jan 97\",\"698.1080482\"],[\"Feb 97\",\"704.3115391\"],[\"March 1997\",\"700.6846699\"],[\"Apr 97\",\"711.5652635\"],[\"May 1997\",\"713.0457461\"],[\"June 1997\",\"716.0578962\"],[\"Jul 97\",\"713.2594101\"],[\"Aug 97\",\"713.3196871\"],[\"Sep 97\",\"707.9008678\"],[\"Oct 97\",\"705.8258628\"],[\"Nov 97\",\"702.9509153\"],[\"Dec 97\",\"723.4427086\"],[\"Jan 98\",\"725.5136323\"],[\"Feb 98\",\"733.5281898\"],[\"March 1998\",\"732.5798998\"],[\"Apr 98\",\"735.2660084\"],[\"May 1998\",\"731.8399519\"],[\"June 1998\",\"731.373053\"],[\"Jul 98\",\"733.3166249\"],[\"Aug 98\",\"730.4684364\"],[\"Sep 98\",\"728.1841036\"],[\"Oct 98\",\"731.7058298\"],[\"Nov 98\",\"729.8290599\"],[\"Dec 98\",\"743.5126276\"],[\"Jan 99\",\"747.343725\"],[\"Feb 99\",\"744.9628933\"],[\"March 1999\",\"744.5746665\"],[\"Apr 99\",\"743.146393\"],[\"May 1999\",\"745.5599206\"],[\"June 1999\",\"744.7962396\"],[\"Jul 99\",\"753.8031218\"],[\"Aug 99\",\"761.8898896\"],[\"Sep 99\",\"755.1277351\"],[\"Oct 99\",\"756.6684754\"],[\"Nov 99\",\"757.2407387\"],[\"Dec 99\",\"764.5619625\"],[\"Jan 00\",\"769.9629344\"],[\"Feb 00\",\"777.4980206\"],[\"March 2000\",\"772.4907762\"],[\"Apr 00\",\"771.5266154\"],[\"May 00\",\"769.6697285\"],[\"June 2000\",\"768.4782011\"],[\"Jul 00\",\"772.6001802\"],[\"Aug 00\",\"768.7073833\"],[\"Sep 00\",\"767.6867334\"],[\"Oct 00\",\"768.5091563\"],[\"Nov 00\",\"765.9064789\"],[\"Dec 00\",\"774.6218799\"],[\"Jan 01\",\"772.2780468\"],[\"Feb 01\",\"770.5763749\"],[\"March 1\",\"771.5720353\"],[\"Apr 01\",\"771.8874085\"],[\"May 1\",\"773.8191526\"],[\"June 1\",\"773.4238059\"],[\"Jul 01\",\"781.8836356\"],[\"Aug 01\",\"777.6043433\"],[\"Sep 01\",\"775.8574973\"],[\"Oct 01\",\"778.1826544\"],[\"Nov 01\",\"772.9658158\"],[\"Dec 01\",\"756.3511765\"],[\"Jan 02\",\"759.5770081\"],[\"Feb 02\",\"763.2299734\"],[\"Mar 02\",\"761.7628892\"],[\"Apr 02\",\"766.8318074\"],[\"May 2\",\"767.4789284\"],[\"June 2\",\"771.6461091\"],[\"Jul 02\",\"775.7104808\"],[\"Aug 02\",\"780.4328467\"],[\"Sep 02\",\"784.9777167\"],[\"Oct 02\",\"785.8527857\"],[\"Nov 02\",\"791.4759026\"],[\"Dec 02\",\"778.5615022\"],[\"Jan 03\",\"785.1420279\"],[\"Feb 03\",\"788.7877427\"],[\"March 3\",\"794.3426124\"],[\"Apr 03\",\"791.43996\"],[\"May 3\",\"795.6333213\"],[\"June 3\",\"796.4288097\"],[\"Jul 03\",\"803.7266433\"],[\"Aug 03\",\"806.8124332\"],[\"Sep 03\",\"806.4025898\"],[\"Oct 03\",\"822.6000291\"],[\"Nov 03\",\"819.8670436\"],[\"Dec 03\",\"819.2407526\"],[\"Jan 04\",\"834.9006816\"],[\"Feb 04\",\"838.4025879\"],[\"Mar 04\",\"839.3822407\"],[\"Apr 04\",\"843.0784731\"],[\"May 4\",\"850.3817244\"],[\"June 4\",\"846.5914411\"],[\"Jul 04\",\"859.6422209\"],[\"Aug 04\",\"870.8143836\"],[\"Sep 04\",\"859.5104555\"],[\"Oct 04\",\"871.0138438\"],[\"Nov 04\",\"869.4217786\"],[\"Dec 04\",\"860.2420871\"],[\"Jan 05\",\"873.4825025\"],[\"Feb 05\",\"872.2751366\"],[\"March 5\",\"868.4893546\"],[\"Apr 05\",\"879.956072\"],[\"May 5\",\"871.8720402\"],[\"June 5\",\"873.6779494\"],[\"Jul 05\",\"889.3449906\"],[\"Aug 05\",\"882.2479274\"],[\"Sep 05\",\"882.6014421\"],[\"Oct 05\",\"881.6231237\"],[\"Nov 05\",\"887.7178564\"],[\"Dec 05\",\"887.9694268\"],[\"Jan 06\",\"899.2560091\"],[\"Feb 06\",\"887.0724324\"],[\"March 6\",\"892.2241632\"],[\"Apr 06\",\"897.7630779\"],[\"May 6\",\"906.4289805\"],[\"June 6\",\"899.16613\"],[\"Jul 06\",\"918.1268532\"],[\"Aug 06\",\"912.4305497\"],[\"Sep 06\",\"910.2216753\"],[\"Oct 06\",\"917.7831732\"],[\"Nov 06\",\"922.835118\"],[\"Dec 06\",\"916.562701\"],[\"Jan 07\",\"924.1100797\"],[\"Feb 07\",\"912.422071\"],[\"March 7\",\"908.2107805\"],[\"Apr 07\",\"915.3890821\"],[\"May 07\",\"926.1055345\"],[\"June 7\",\"924.3617155\"],[\"Jul 07\",\"925.3710791\"],[\"Aug 07\",\"912.466426\"],[\"Sep 07\",\"908.86058\"],[\"Oct 07\",\"913.2649897\"],[\"Nov 07\",\"928.9157409\"],[\"Dec 07\",\"922.104109\"],[\"Jan 08\",\"926.931765\"],[\"Feb 08\",\"918.2865563\"],[\"March 8\",\"920.1468843\"],[\"Apr 08\",\"912.6832072\"],[\"May 08\",\"922.4848774\"],[\"June 8\",\"922.7569067\"],[\"Jul 08\",\"918.4576407\"],[\"Aug 08\",\"926.6359549\"],[\"Sep 08\",\"931.2563298\"],[\"Oct 08\",\"930.2106543\"],[\"Nov 08\",\"939.5988482\"],[\"Dec 08\",\"941.3313365\"],[\"Jan 09\",\"944.2026395\"],[\"Feb 09\",\"956.4855213\"],[\"Mar 09\",\"963.9523471\"],[\"Apr 09\",\"969.494242\"],[\"May 09\",\"1000.334196\"],[\"June 9\",\"1013.378098\"],[\"Jul 09\",\"999.3243182\"],[\"Aug 09\",\"1006.698808\"],[\"Sep 09\",\"1016.497736\"],[\"Oct 09\",\"1016.034284\"],[\"Nov 09\",\"1034.367843\"],[\"Dec 09\",\"1018.803805\"],[\"Jan 10\",\"1025.082565\"],[\"Feb 10\",\"1038.201786\"],[\"March 10\",\"1036.153858\"],[\"Apr 10\",\"1040.688568\"],[\"May 10\",\"1053.59239\"],[\"June 10\",\"1043.940371\"],[\"Jul 10\",\"1042.622082\"],[\"Aug 10\",\"1055.248065\"],[\"Sep 10\",\"1057.532751\"],[\"Oct 10\",\"1051.101979\"],[\"Nov 10\",\"1068.159732\"],[\"Dec 10\",\"1065.25249\"],[\"Jan 11\",\"1069.186045\"],[\"Feb 11\",\"1079.341916\"],[\"March 11\",\"1080.970819\"],[\"Apr 11\",\"1080.435655\"],[\"May 11\",\"1095.349918\"],[\"June 11\",\"1091.490081\"],[\"Jul 11\",\"1081.618244\"],[\"Aug 11\",\"1091.791888\"],[\"Sep 11\",\"1087.418048\"],[\"Oct 11\",\"1076.371022\"],[\"Nov 11\",\"1088.595479\"],[\"Dec 11\",\"1075.663749\"],[\"Jan 12\",\"1074.610041\"],[\"Feb 12\",\"1086.365169\"],[\"March 12\",\"1079.68531\"],[\"Apr 12\",\"1079.371579\"],[\"May 12\",\"1095.604341\"],[\"June 12\",\"1091.16096\"],[\"Jul 12\",\"1081.212111\"],[\"Aug 12\",\"1093.945119\"],[\"Sep 12\",\"1089.668014\"],[\"Oct 12\",\"1088.616481\"],[\"Nov 12\",\"1108.93717\"],[\"Dec 12\",\"1095.532742\"],[\"Jan 13\",\"1094.479248\"],[\"Feb 13\",\"1109.053746\"],[\"March 13\",\"1103.920427\"],[\"Apr 13\",\"1088.567602\"],[\"May 13\",\"1108.062858\"],[\"June 13\",\"1106.926146\"],[\"Jul 13\",\"1099.472633\"],[\"Aug 13\",\"1111.408506\"],[\"Sep 13\",\"1108.057853\"],[\"Oct 13\",\"1106.607323\"],[\"Nov 13\",\"1122.396151\"],[\"Dec 13\",\"1113.585623\"],[\"Jan 14\",\"1111.874154\"],[\"Feb 14\",\"1123.587018\"],[\"March 14\",\"1118.321374\"],[\"Apr 14\",\"1109.707528\"],[\"May 14\",\"1123.890579\"],[\"June 14\",\"1121.888432\"],[\"Jul 14\",\"1110.205944\"],[\"Aug 14\",\"1119.419446\"],[\"Sep 14\",\"1115.694241\"],[\"Oct 14\",\"1116.904083\"],[\"Nov 14\",\"1123.810853\"],[\"Dec 14\",\"1114.973286\"],[\"Jan 15\",\"1116.28405\"],[\"Feb 15\",\"1111.29332\"],[\"March 15\",\"1105.892403\"],[\"Apr 15\",\"1099.122708\"],[\"May 15\",\"1114.044973\"],[\"June 15\",\"1112.897358\"],[\"Jul 15\",\"1102.496794\"],[\"Aug 15\",\"1111.028266\"],[\"Sep 15\",\"1105.359801\"],[\"Oct 15\",\"1098.62666\"],[\"Nov 15\",\"1107.10773\"],[\"Dec 15\",\"1097.174956\"],[\"Jan 16\",\"1097.414144\"],[\"Feb 16\",\"1098.251467\"],[\"March 16\",\"1098.638167\"],[\"Apr 16\",\"1083.225815\"],[\"May 16\",\"1100.631489\"],[\"June 16\",\"1101.932258\"],[\"Jul 16\",\"1092.002263\"],[\"Aug 16\",\"1103.822734\"],[\"Sep 16\",\"1105.477791\"],[\"Oct 16\",\"1095.117621\"],[\"Nov 16\",\"1101.188996\"],[\"Dec 16\",\"1089.151399\"],[\"Jan 17\",\"1086.874989\"],[\"Feb 17\",\"1078.264137\"],[\"March 17\",\"1081.732481\"],[\"Apr 17\",\"1073.855808\"],[\"May 17\",\"1088.439053\"],[\"June 17\",\"1086.687906\"],[\"Jul 17\",\"1078.172506\"],[\"Aug 17\",\"1093.583098\"],[\"Sep 17\",\"1089.596637\"],[\"Oct 17\",\"1085.907649\"],[\"Nov 17\",\"1096.694374\"],[\"Dec 17\",\"1086.310994\"],[\"Jan 18\",\"1084.551128\"],[\"Feb 18\",\"1083.47735\"],[\"March 18\",\"1086.503129\"],[\"Apr 18\",\"1067.772213\"],[\"May 18\",\"1080.937675\"],[\"June 18\",\"1080.715551\"],[\"Jul 18\",\"1074.919663\"],[\"Aug 18\",\"1082.935684\"],[\"Sep 18\",\"1083.884239\"],[\"Oct 18\",\"1072.771405\"],[\"Nov 18\",\"1086.349037\"],[\"Dec 18\",\"1070.154413\"],[\"Jan 19\",\"1071.339964\"],[\"Feb 19\",\"1063.761306\"],[\"March 19\",\"1068.207203\"],[\"Apr 19\",\"1056.846746\"],[\"May 19\",\"1076.118272\"],[\"June 19\",\"1068.377775\"],[\"Jul 19\",\"1056.79536\"],[\"Aug 19\",\"1066.74525\"],[\"Sep 19\",\"1065.231824\"],[\"Oct 19\",\"1053.508798\"],[\"Nov 19\",\"1067.82036\"],[\"Dec 19\",\"1053.261093\"],[\"Jan 20\",\"1060.267331\"],[\"Feb 20\",\"1070.706597\"],[\"March 20\",\"1071.820641\"],[\"Apr 20\",\"1068.595192\"],[\"May 20\",\"1127.123995\"],[\"June 20\",\"1165.694311\"],[\"Jul 20\",\"1182.91503\"],[\"Aug 20\",\"1213.537868\"],[\"Sep 20\",\"1225.025298\"],[\"Oct 20\",\"1215.401477\"],[\"Nov 20\",\"1222.412354\"],[\"Dec 20\",\"1203.95215\"],[\"Jan 21\",\"1216.393289\"],[\"Feb 21\",\"1235.14759\"],[\"March 21\",\"1250.633623\"],[\"Apr 21\",\"1253.311261\"],[\"May 21\",\"1285.38909\"],[\"June 21\",\"1299.787308\"],[\"Jul 21\",\"1305.924289\"],[\"Aug 21\",\"1324.415775\"],[\"Sep 21\",\"1325.400336\"],[\"Oct 21\",\"1326.929089\"],[\"Nov 21\",\"1348.272001\"],[\"Dec 21\",\"1347.989895\"],[\"Jan 22\",\"1356.286528\"],[\"Feb 22\",\"1364.07147\"],[\"March 22\",\"1374.374009\"],[\"Apr 22\",\"1371.741187\"],[\"May 22\",\"1392.960821\"],[\"June 22\",\"1402.997628\"],[\"Jul 22\",\"1398.295457\"],[\"Aug 22\",\"1413.167407\"],[\"Sep 22\",\"1401.498271\"],[\"Oct 22\",\"1404.061144\"],[\"Nov 22\",\"1420.956247\"],[\"Dec 22\",\"1441.993132\"],[\"Jan 23\",\"1419.680196\"],[\"Feb 23\",\"1424.019475\"],[\"March 23\",\"1462.713653\"],[\"Apr 23\",\"1463.58656\"],[\"May 23\",\"1474.166664\"],[\"June 23\",\"1500.916954\"],[\"Jul 23\",\"1524.788286\"],[\"Aug 23\",\"1530.193603\"],[\"Sep 23\",\"1548.581703\"],[\"Oct 23\",\"1550.67228\"],[\"Nov 23\",\"1567.163188\"],[\"Dec 23\",\"1548.526324\"],[\"Jan 24\",\"1554.009373\"],[\"Feb 24\",\"1555.677676\"],[\"March 24\",\"1553.217544\"],[\"Apr 24\",\"1552.593073\"],[\"May 24\",\"1548.182764\"],[\"June 24\",\"1553.660585\"],[\"Jul 24\",\"1572.22299\"],[\"Aug 24\",\"1574.464333\"],[\"Sep 24\",\"1576.697527\"],[\"Oct 24\",\"1584.364089\"],[\"Nov 24\",\"1607.607528\"],[\"Dec 24\",\"1613.795771\"],[\"Jan 25\",\"1627.498622\"],[\"Feb 25\",\"1610.53789\"],[\"March 25\",\"1617.145895\"],[\"Apr 25\",\"1617.442195\"],[\"May 25\",\"1639.780858\"],[\"June 25\",\"1644.420842\"],[\"Jul 25\",\"1679.61332\"],[\"Aug 25\",\"1677.527967\"],[\"Sep 25\",\"1695.278883\"],[\"Oct 25\",\"1706.880894\"],[\"Nov 25\",\"1727.451808\"]],\"sources\":[{\"text\":\"Federal Ministry of Finance\",\"link\":{\"url\":\"https://www.bundesfinanzministerium.de/Datenportal/Daten/offene-daten/haushalt-oeffentliche-finanzen/Zeitreihe-Kredit-Bruttokredit-Tilgung-Zinsen/Kreditbestand-Bruttokredit-Tilgung-Zinsen.html\"}}],\"events\":[],\"options\":{\"annotations\":{},\"areaChartOptions\":{\"areaInterpolation\":\"linear\",\"stackType\":\"zero\"},\"arrowOptions\":{\"colorScheme\":0,\"invertColorScheme\":false},\"barOptions\":{\"isBarChart\":false,\"forceBarsOnSmall\":false},\"chartType\":\"Line\",\"colorOverwritesRows\":[],\"colorOverwritesSeries\":[],\"dateSeriesOptions\":{\"interval\":\"auto\",\"labels\":\"many\",\"prognosisStart\":null},\"dotplotOptions\":{},\"hideAxisLabel\":true,\"highlightDataRows\":[],\"highlightDataSeries\":[],\"lineChartOptions\":{\"yScaleType\":\"linear\",\"reverseYScale\":false,\"lineInterpolation\":\"linear\",\"isStockChart\":false},\"largeNumbers\":{\"divideBy\":0}},\"updatedDate\":\"2025-12-30T11:08:11.363Z\"};          const toolRuntimeConfig = {\"displayOptions\":{\"hideTitle\":false,\"hideSubtitle\":false,\"hideFooter\":false,\"hideAcronym\":false,\"size\":\"basic\"},\"size\":{\"width\":[{\"value\":100,\"comparison\":\">\"}]},\"locale\":\"en-US\"};          const toolSettings = {\"qItemInstanceId\":\"q_chart_1ed8c50ee4eadee1ad33ff170893c357_qa0934dfbde40441bb7358313c0feae3b\"};          let attempts = 0;          const maxAttempts = 100;          const checkAndInitialize = setInterval(() => {            if (window.qChart) {              clearInterval(checkAndInitialize);              new window.qChart({ target: target, props: {                qdoc: qdoc,                toolSettings: toolSettings,                toolRuntimeConfig: toolRuntimeConfig              } });            } else {              attempts++;              if (attempts >= maxAttempts) {                clearInterval(checkAndInitialize);                console.error('Failed to initialize qChart after 30 seconds');              }            }          }, 300);        }        if (document.body.classList.contains('pagedone')) {          initialize();        } else {          window.addEventListener('pagedone', initialize);        }      })();    "
+     }
+    ]
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jdnc59a30",
+   "content": {
+    "text": "More money would offer the opportunity for more growth. But private investment declined again in 2025 – and public funds only partially reached their intended destinations. Barely half of the new money flowed into additional infrastructure projects. The remainder was used by policymakers to cover expenditures already budgeted for. Economists describe this as a <a href=\"https://www.nzz.ch/wirtschaft/tricksereien-mit-steuergeld-das-deutsche-schuldenpaket-droht-zur-mogelpackung-zu-werden-ld.1902421\">«drifting operation»</a> and point out that the special fund's impact is being wasted."
+   },
+   "paidContent": true,
+   "prevElement": "q-embed",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jdnj8b801",
+   "content": {
+    "text": "Moritz Schularick, the president of the Kiel Institute for the World Economy and <a href=\"https://www.nzz.ch/international/bis-zu-900-milliarden-euro-deutschland-erwaegt-weitere-sondervermoegen-ld.1873762\">generally a supporter of the special fund</a> , recently criticized the government in the «Frankfurter Allgemeine Sonntagszeitung»: «To this day, we have failed to present a strategy for how we can spend the money wisely while simultaneously achieving greater security and European independence, industrial stimulus and a technological upgrade.»"
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1jdnc59a31",
+   "content": {
+    "title": "Will the economic upswing finally come in 2026?",
+    "id": "subtitle-kommt-2026-endlich-der-aufschwung"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jdnc59a33",
+   "content": {
+    "text": "The IMF expects Germany to achieve higher GDP growth of just under one percent in 2026, as the country will benefit in the short term from the relaxation of the debt brake. However, structural reforms are needed for a sustained upswing, such as better integration of women and pensioners into the labor market or a reduction in bureaucracy. Clemens Fuest, president of the Ifo Institute for Economic Research, recently warned of «permanent stagnation.» According to Fuest, policymakers have actually exacerbated the problems for the private sector with new spending projects like the recent pension package."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jdnrotdq0",
+   "content": {
+    "text": "Are there any developments that bode well for the new year? Absolutely: Investments in research and development increased in 2025, and the number of startups rose compared to previous years. Many CEOs are also praising the efforts of the new Ministry for Digital Affairs and Public Sector Modernization to streamline bureaucracy. <a target=\"_blank\" href=\"https://www.iwkoeln.de/presse/pressemitteilungen/michael-groemling-mehrheit-der-wirtschaftsverbaende-rechnet-mit-stellenabbau-im-neuen-jahr.html\">In a survey conducted by the German Economic Institute,</a> 19 out of 46 German business associations anticipate positive growth in their respective sectors next year. While not a majority, this is still more than the nine associations that expect further contraction."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jdnc59a35",
+   "content": {
+    "text": "German business representatives are where they were a year ago: hoping that something will finally happen. As soon as possible, somehow."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "sharebox",
+   "lastContentElement": true
+  },
+  {
+   "identifier": "sharebox",
+   "id": "doc-1jdnc59a36",
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "related-articles-container"
+  },
+  {
+   "identifier": "related-articles-container",
+   "id": "doc-1jdnc59a40",
+   "content": {
+    "title": "Related articles"
+   },
+   "containers": {
+    "related-articles": [
+     {
+      "identifier": "teaser",
+      "id": "doc-1jdnc59a41",
+      "content": {
+       "owner": "NZZ",
+       "flag": "interview",
+       "title": "Germany's top economic advisor says: \"If we continue as before, we will lose prosperity.\"",
+       "teaserImage": {
+        "originalUrl": "/2025/10/08/7c248b4b-8a87-4250-948d-d3f4be4fe65f.jpg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2025/10/08/7c248b4b-8a87-4250-948d-d3f4be4fe65f.jpg?width=1024&quality=75&auto=webp",
+        "width": 1658,
+        "height": 1124,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "1658,933,x0,y0"
+         },
+         {
+          "name": "1:1",
+          "crop": "999,999,x373,y0"
+         },
+         {
+          "name": "4:3",
+          "crop": "1499,1124,x159,y0"
+         },
+         {
+          "name": "3:4",
+          "crop": "843,1124,x459,y0"
+         },
+         {
+          "name": "3:2",
+          "crop": "1658,1105,x0,y0"
+         }
+        ],
+        "imageService": "fastly",
+        "teaserCaption": "Monika Schnitzer, chairwoman of the Council of Economic Experts, demands more honesty from politicians – and courage to change from companies.",
+        "teaserAuthor": "Metodi Popow / Imago"
+       },
+       "teaserAuthor": "Metodi Popow / Imago",
+       "nzzasFootnote": false,
+       "folioFootnote": false,
+       "paywallQuestionOne": "How can Germany preserve its economic prosperity?",
+       "paywallQuestionTwo": "What does Schnitzer say about Friedrich Merz's automotive summit?",
+       "paywallQuestionThree": "What can Germany learn from Switzerland?",
+       "language": {
+        "locale": "de-CH"
+       },
+       "nzzId": "ld.1905919",
+       "readingTime": 600,
+       "authorLine": "Jannik Belser, Malte Fischer",
+       "characterCount": 13402,
+       "product": "NZZ.ch",
+       "documentId": 1905919,
+       "layout": "longformstandard",
+       "publicationDate": "2025-10-09T03:30:00.000Z",
+       "publicationLastUpdated": "2025-10-09T03:30:00.000Z",
+       "significantUpdate": false,
+       "significantUpdateTill": "2025-10-09T15:30:00.000Z",
+       "teaserCaption": "Monika Schnitzer, chairwoman of the Council of Economic Experts, demands more honesty from politicians – and courage to change from companies.",
+       "authorImage": {
+        "originalUrl": "/2024/09/26/589f66d5-add1-41ab-8cb3-f8285d444b94.jpeg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2024/09/26/589f66d5-add1-41ab-8cb3-f8285d444b94.jpeg?width=1024&quality=75&auto=webp",
+        "width": 4128,
+        "height": 2752,
+        "crops": [
+         {
+          "name": "1:1",
+          "crop": "2752,2752,x688,y0"
+         }
+        ],
+        "imageService": "fastly"
+       },
+       "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2024/09/26/589f66d5-add1-41ab-8cb3-f8285d444b94.jpeg?width=1024&quality=75&auto=webp",
+       "url": "/wirtschaft/deutschlands-oberste-wirtschaftsweise-sagt-wenn-wir-weitermachen-wie-bisher-werden-wir-den-wohlstand-verlieren-ld.1905919",
+       "department": {
+        "name": "Economy",
+        "path": "/wirtschaft"
+       },
+       "estimationWordCount": 1910,
+       "premium": true,
+       "leadText": "Monika Schnitzer, chairwoman of the Council of Economic Experts, demands more honesty from politicians – and courage to change from companies.",
+       "nzzSummaryIsAuto": true
+      }
+     },
+     {
+      "identifier": "teaser",
+      "id": "doc-1jdnmhmtp0",
+      "content": {
+       "owner": "NZZ",
+       "flag": "Data analysis",
+       "title": "German industry is shrinking – these figures prove just how dramatic the decline really is.",
+       "teaserImage": {
+        "originalUrl": "/2025/11/10/9e36cee8-d984-435e-b2b9-e1aa33c4a2dd.jpg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2025/11/10/9e36cee8-d984-435e-b2b9-e1aa33c4a2dd.jpg?width=1024&quality=75&auto=webp",
+        "width": 2300,
+        "height": 1725,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "1135,638,x613,y689"
+         },
+         {
+          "name": "1:1",
+          "crop": "1212,1212,x594,y256"
+         },
+         {
+          "name": "4:3",
+          "crop": "1276,957,x535,y368"
+         },
+         {
+          "name": "3:4",
+          "crop": "638,852,x756,y580"
+         },
+         {
+          "name": "3:2",
+          "crop": "1276,851,x536,y472"
+         }
+        ],
+        "imageService": "fastly",
+        "teaserCaption": "When the decline began, why it is now accelerating – and which sectors are developing surprisingly positively."
+       },
+       "nzzasFootnote": false,
+       "folioFootnote": false,
+       "language": {
+        "locale": "de-CH"
+       },
+       "nzzId": "ld.1911067",
+       "readingTime": 180,
+       "freeToRead": true,
+       "authorLine": "Simon Off, Benedikt Mayer, Sophia Kissling",
+       "tags": [
+        "Visuals-Auswahl DE (nicht verwenden)"
+       ],
+       "characterCount": 3696,
+       "product": "NZZ.ch",
+       "documentId": 1911067,
+       "layout": "headlesslongformvisual",
+       "publicationDate": "2025-11-17T04:30:00.000Z",
+       "publicationLastUpdated": "2026-05-26T14:02:51.747Z",
+       "significantUpdate": false,
+       "significantUpdateTill": "2025-11-17T16:30:00.000Z",
+       "teaserCaption": "When the decline began, why it is now accelerating – and which sectors are developing surprisingly positively.",
+       "authorImage": {
+        "originalUrl": "/2022/10/20/574103fc-a499-43d8-b417-f09ea47b2da1.jpeg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2022/10/20/574103fc-a499-43d8-b417-f09ea47b2da1.jpeg?width=1024&quality=75&auto=webp",
+        "width": 1388,
+        "height": 1388,
+        "crops": [
+         {
+          "name": "1:1",
+          "crop": "1388,1388,x0,y0"
+         }
+        ],
+        "imageService": "fastly"
+       },
+       "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2022/10/20/574103fc-a499-43d8-b417-f09ea47b2da1.jpeg?width=1024&quality=75&auto=webp",
+       "url": "/visuals/die-deutsche-industrie-schrumpft-diese-zahlen-belegen-wie-dramatisch-der-abstieg-wirklich-ist-ld.1911067",
+       "department": {
+        "name": "Visual Stories",
+        "path": "/visuals"
+       },
+       "estimationWordCount": 556,
+       "leadText": "When the decline began, why it is now accelerating – and which sectors are developing surprisingly positively.",
+       "nzzSummaryIsAuto": false,
+       "hasQ": true
+      }
+     },
+     {
+      "identifier": "teaser",
+      "id": "doc-1jdnc59a42",
+      "content": {
+       "owner": "NZZ",
+       "flag": "series",
+       "title": "Comeback or economic decline? What Germany could look like in 2050.",
+       "teaserImage": {
+        "originalUrl": "/2025/12/16/dbc07261-03d0-429c-a1c0-a28a2684dcc6.jpg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2025/12/16/dbc07261-03d0-429c-a1c0-a28a2684dcc6.jpg?width=1024&quality=75&auto=webp",
+        "width": 2800,
+        "height": 2100,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "2800,1575,x0,y263"
+         },
+         {
+          "name": "1:1",
+          "crop": "2100,2100,x350,y0"
+         },
+         {
+          "name": "4:3",
+          "crop": "2800,2100,x0,y0"
+         },
+         {
+          "name": "3:4",
+          "crop": "1575,2100,x613,y0"
+         },
+         {
+          "name": "3:2",
+          "crop": "2800,1867,x0,y117"
+         }
+        ],
+        "imageService": "fastly",
+        "teaserCaption": "This decade will determine whether Germany will still be an attractive industrial nation in 25 years. If the wrong course is set, massive disruptions are likely."
+       },
+       "nzzasFootnote": false,
+       "folioFootnote": false,
+       "language": {
+        "locale": "de-CH"
+       },
+       "nzzId": "ld.1916518",
+       "readingTime": 600,
+       "authorLine": "Malte Fischer, Düsseldorf",
+       "characterCount": 14258,
+       "product": "NZZ.ch",
+       "documentId": 1916518,
+       "layout": "longformvisual",
+       "publicationDate": "2025-12-23T21:30:00.000Z",
+       "publicationLastUpdated": "2025-12-23T21:30:00.000Z",
+       "significantUpdate": false,
+       "significantUpdateTill": "2025-12-24T09:30:00.000Z",
+       "teaserCaption": "This decade will determine whether Germany will still be an attractive industrial nation in 25 years. If the wrong course is set, massive disruptions are likely.",
+       "authorImage": {
+        "url": "https://img-msp-prod.nzz.ch/2025/10/09/0c27c5b3-7356-4a0b-b1eb-9f8a508bae31.jpg?width=1024&quality=75&auto=webp",
+        "originalUrl": "/2025/10/09/0c27c5b3-7356-4a0b-b1eb-9f8a508bae31.jpg?width=1024",
+        "imageService": "fastly",
+        "width": 6000,
+        "height": 4000,
+        "crops": []
+       },
+       "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2025/10/09/0c27c5b3-7356-4a0b-b1eb-9f8a508bae31.jpg?width=1024&quality=75&auto=webp",
+       "url": "/international/comeback-oder-wirtschaftlicher-abstieg-wie-der-standort-deutschland-2050-aussehen-koennte-ld.1916518",
+       "department": {
+        "name": "International",
+        "path": "/international"
+       },
+       "estimationWordCount": 1910,
+       "leadText": "This decade will determine whether Germany will still be an attractive industrial nation in 25 years. If the wrong course is set, massive disruptions are likely.",
+       "nzzSummaryIsAuto": true,
+       "hasQ": true
+      }
+     },
+     {
+      "identifier": "teaser",
+      "id": "doc-1jdnc59a43",
+      "content": {
+       "owner": "NZZ",
+       "flag": "Opinion",
+       "title": "Poor economic policy and wrong priorities: Germany has become a cautionary tale for the world.",
+       "teaserImage": {
+        "originalUrl": "/2025/12/29/9a0cd776-dac8-442f-bdfc-5de6ef08b34a.jpg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2025/12/29/9a0cd776-dac8-442f-bdfc-5de6ef08b34a.jpg?width=1024&quality=75&auto=webp",
+        "width": 3437,
+        "height": 1933,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "3436,1933,x0,y0"
+         },
+         {
+          "name": "1:1",
+          "crop": "1933,1933,x625,y0"
+         },
+         {
+          "name": "4:3",
+          "crop": "2577,1933,x430,y0"
+         },
+         {
+          "name": "3:4",
+          "crop": "1450,1933,x714,y0"
+         },
+         {
+          "name": "3:2",
+          "crop": "2900,1933,x269,y0"
+         }
+        ],
+        "imageService": "fastly",
+        "teaserCaption": "\"Climate first, prosperity last\" – with this unsustainable motto, Germany has driven its economy into the ground over the last decade. If the new government doesn't finally initiate a real turnaround, deindustrialization and economic decline will intensify."
+       },
+       "nzzasFootnote": false,
+       "folioFootnote": false,
+       "language": {
+        "locale": "de-CH"
+       },
+       "nzzId": "ld.1916489",
+       "readingTime": 360,
+       "showComments": true,
+       "authorLine": "Michael Rasch, Frankfurt",
+       "characterCount": 9022,
+       "product": "NZZ.ch",
+       "documentId": 1916489,
+       "layout": "opinion",
+       "publicationDate": "2025-12-29T17:08:22.980Z",
+       "publicationLastUpdated": "2025-12-29T17:08:22.980Z",
+       "significantUpdate": false,
+       "significantUpdateTill": "2025-12-30T05:08:22.980Z",
+       "teaserCaption": "\"Climate first, prosperity last\" – with this unsustainable motto, Germany has driven its economy into the ground over the last decade. If the new government doesn't finally initiate a real turnaround, deindustrialization and economic decline will intensify.",
+       "authorImage": {
+        "url": "https://img-msp-prod.nzz.ch/2022/09/14/5d4cbc9a-6dd6-47e9-a749-844afb0d53e2.png?width=1024&quality=75&auto=webp",
+        "originalUrl": "/2022/09/14/5d4cbc9a-6dd6-47e9-a749-844afb0d53e2.png?width=1024",
+        "imageService": "fastly",
+        "width": 800,
+        "height": 800,
+        "crops": []
+       },
+       "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2022/09/14/5d4cbc9a-6dd6-47e9-a749-844afb0d53e2.png?width=1024&quality=75&auto=webp",
+       "url": "/meinung/schlechte-wirtschaftspolitik-und-falsche-prioritaeten-deutschland-ist-fuer-die-welt-nur-noch-ein-abschreckendes-beispiel-ld.1916489",
+       "department": {
+        "name": "Opinion",
+        "path": "/meinung"
+       },
+       "estimationWordCount": 1264,
+       "leadText": "\"Climate first, prosperity last\" – with this unsustainable motto, Germany has driven its economy into the ground over the last decade. If the new government doesn't finally initiate a real turnaround, deindustrialization and economic decline will intensify."
+      }
+     }
+    ]
+   },
+   "paidContent": true,
+   "prevElement": "sharebox",
+   "nextElement": "",
+   "lastContentElement": true
+  }
+ ],
+ "metadata": {
+  "owner": "NZZ",
+  "germanyRelevant": true,
+  "title": "The German economy remains in crisis. Five charts illustrating the seriousness of the situation.",
+  "teaserImage": {
+   "originalUrl": "/2025/10/30/f100c099-91e0-43a9-9fb7-3fdb2b7030b7.jpg?width=1024",
+   "url": "https://img-msp-prod.nzz.ch/2025/10/30/f100c099-91e0-43a9-9fb7-3fdb2b7030b7.jpg?width=1024&quality=75&auto=webp",
+   "width": 5000,
+   "height": 3750,
+   "crops": [
+    {
+     "name": "16:9",
+     "crop": "5000,2812,x0,y0"
+    },
+    {
+     "name": "1:1",
+     "crop": "2963,2963,x1048,y211"
+    },
+    {
+     "name": "4:3",
+     "crop": "5000,3750,x0,y0"
+    },
+    {
+     "name": "3:4",
+     "crop": "2500,3333,x1267,y417"
+    },
+    {
+     "name": "3:2",
+     "crop": "5000,3333,x0,y0"
+    }
+   ],
+   "imageService": "fastly",
+   "teaserCaption": "A special fund for investments and an \"autumn of reforms\": 2025 was supposed to be a year of improvement. But as the year draws to a close, the challenges for German politicians and business leaders remain significant.",
+   "teaserAuthor": "Jasper Walter Bastian for NZZ"
+  },
+  "teaserAuthor": "Jasper Walter Bastian for NZZ",
+  "nzzasFootnote": false,
+  "folioFootnote": false,
+  "language": {
+   "locale": "en-US"
+  },
+  "nzzId": "ld.1918223",
+  "readingTime": 300,
+  "authorLine": "Jannik Belser, Berlin",
+  "characterCount": 6675,
+  "breadcrumbs": [
+   {
+    "name": "Economy",
+    "path": "/wirtschaft"
+   }
+  ],
+  "product": "NZZ.ch",
+  "documentId": 1918223,
+  "contentTypeGroup": "web",
+  "layout": "longformstandard",
+  "firstPublicationDate": "2025-12-31T04:30:00.000Z",
+  "publicationDate": "2025-12-31T04:30:00.000Z",
+  "publicationLastUpdated": "2025-12-31T04:30:00.000Z",
+  "significantUpdate": false,
+  "significantUpdateTill": "2025-12-31T16:30:00.000Z",
+  "teaserCaption": "A special fund for investments and an \"autumn of reforms\": 2025 was supposed to be a year of improvement. But as the year draws to a close, the challenges for German politicians and business leaders remain significant.",
+  "nzzAuthors": [
+   {
+    "id": 1837261,
+    "name": "Jannik Belser",
+    "shortName": "jab",
+    "pianoId": "53769fe4-7436-4cc9-a699-be5b4bfd8a4d",
+    "external": false
+   }
+  ],
+  "authorImage": {
+   "url": "https://img-msp-prod.nzz.ch/2024/09/26/589f66d5-add1-41ab-8cb3-f8285d444b94.jpeg?width=1024&quality=75&auto=webp",
+   "originalUrl": "/2024/09/26/589f66d5-add1-41ab-8cb3-f8285d444b94.jpeg?width=1024",
+   "imageService": "fastly",
+   "width": 4128,
+   "height": 2752,
+   "crops": []
+  },
+  "nzzAuthorProfileDataCollection": [
+   {
+    "documentId": 1850189,
+    "name": "Jannik Belser, Berlin",
+    "teaserImageUrl": "https://img-msp-prod.nzz.ch/2024/09/26/589f66d5-add1-41ab-8cb3-f8285d444b94.jpeg?width=1024&quality=75&auto=webp"
+   }
+  ],
+  "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2024/09/26/589f66d5-add1-41ab-8cb3-f8285d444b94.jpeg?width=1024&quality=75&auto=webp",
+  "url": "/wirtschaft/die-deutsche-wirtschaft-steckt-weiterhin-in-der-krise-fuenf-grafiken-zum-ernst-der-lage-ld.1918223",
+  "department": {
+   "name": "Economy",
+   "path": "/wirtschaft"
+  },
+  "estimationWordCount": 1022,
+  "premium": true,
+  "leadText": "A special fund for investments and an \"autumn of reforms\": 2025 was supposed to be a year of improvement. But as the year draws to a close, the challenges for German politicians and business leaders remain significant.",
+  "nzzSummaryEN": "- The German economy stagnated in 2025, with moderate GDP growth of 0.2%, while industrial production declined further and exports to key markets like the US and China decreased.\n- Despite a stable unemployment rate, the labor market became rigid, making it difficult for job seekers to find employment; the state invested inefficiently and increased debt.\n- Positive developments include increased research investments and rising start-up activities; however, structural reforms remain essential for lasting economic recovery.",
+  "nzzSummaryDE": "- The German economy stagnated in 2025, with moderate GDP growth of 0.2%, while industrial production continued to decline and exports to key markets such as the US and China decreased.\n - Despite a stable unemployment rate, the labor market became rigid, making it difficult for job seekers to find positions; the state invested ineffectively in some cases and increased debt.\n Positive developments include increased research investments and growing start-up activity; however, structural reforms remain essential for a sustained recovery.",
+  "nzzSummaryIsAuto": true,
+  "nzzSummaryModel": "gpt-4o-2024-11-20",
+  "nzzPrintTitle": "At the turn of the year, Germany remains mired in economic crisis",
+  "nzzPrintSubtitle": "German politicians and business leaders must stop these developments by 2026.",
+  "allArticleLanguages": [
+   {
+    "locale": "de-CH",
+    "urlPath": "/wirtschaft/die-deutsche-wirtschaft-steckt-weiterhin-in-der-krise-fuenf-grafiken-zum-ernst-der-lage-ld.1918223",
+    "seo": {}
+   }
+  ],
+  "seo": {
+   "canonicalUrl": "https://www.nzz.ch/wirtschaft/die-deutsche-wirtschaft-steckt-weiterhin-in-der-krise-fuenf-grafiken-zum-ernst-der-lage-ld.1918223",
+   "title": "Economic crisis: Why Germany continues to stagnate",
+   "socialMediaTitle": "Germany: Will the promised economic upswing finally arrive in 2026?",
+   "excludeFromSpiders": false,
+   "image": "https://img-msp-prod.nzz.ch/2025/10/30/f100c099-91e0-43a9-9fb7-3fdb2b7030b7.jpg?width=1200&height=674&fit=bounds&quality=75&auto=webp&crop=5000,2812,x0,y0&wmark=nzz"
+  },
+  "ldPublicationId": 2402737,
+  "isHighlightedHeader": false,
+  "nzzTopics": [
+   {
+    "name": "Germany",
+    "slug": "/themen/deutschland"
+   },
+   {
+    "name": "China",
+    "slug": "/themen/china"
+   },
+   {
+    "name": "IMF",
+    "slug": "/themen/iwf"
+   },
+   {
+    "name": "unemployment",
+    "slug": "/themen/arbeitslosigkeit"
+   },
+   {
+    "name": "USA",
+    "slug": "/themen/usa"
+   },
+   {
+    "name": "Friedrich Merz",
+    "slug": "/themen/friedrich-merz"
+   },
+   {
+    "name": "Andrea Nahles",
+    "slug": "/themen/andrea-nahles"
+   },
+   {
+    "name": "Bosch",
+    "slug": "/themen/bosch"
+   },
+   {
+    "name": "Audi",
+    "slug": "/themen/audi"
+   },
+   {
+    "name": "Poland",
+    "slug": "/themen/polen"
+   },
+   {
+    "name": "Spain",
+    "slug": "/themen/spanien"
+   }
+  ],
+  "barrierIndex": 3,
+  "outlinks": {
+   "mehrZumThema": [
+    "ld.1905919",
+    "ld.1911067",
+    "ld.1916518",
+    "ld.1916489"
+   ],
+   "artikelListe": [],
+   "aliasTeaserEmbedList": []
+  },
+  "tts": true,
+  "hasQ": true,
+  "mp3": true,
+  "mp3Duration": 441051,
+  "colorSchema": "color-schema--premium",
+  "project": "nzz",
+  "machineTranslated": true,
+  "machineTranslationValidated": false
+ },
+ "isReduced": false,
+ "isPaid": false,
+ "isVamp": false,
+ "isWebview": false,
+ "btaFeed": {
+  "meta": {
+   "id": "deutschland",
+   "name": "Germany",
+   "tagName": "Germany",
+   "qId": "Q183",
+   "seoTitle": "Germany – All news, articles and information on the topic | NZZ",
+   "description": null,
+   "firstName": null,
+   "lastName": null,
+   "category": "LOC",
+   "createdDate": "2025-04-08 18:02:18.055Z",
+   "imageURL": null,
+   "imageCroppedURL": null,
+   "imageWidth": null,
+   "imageHeight": null,
+   "imageCredits": null,
+   "url": "https://nzz.ch/themen/deutschland",
+   "size": 9443,
+   "relatedTopics": [
+    {
+     "name": "China",
+     "slug": "/themen/china"
+    },
+    {
+     "name": "IWF",
+     "slug": "/themen/iwf"
+    },
+    {
+     "name": "Arbeitslosigkeit",
+     "slug": "/themen/arbeitslosigkeit"
+    },
+    {
+     "name": "USA",
+     "slug": "/themen/usa"
+    },
+    {
+     "name": "Friedrich Merz",
+     "slug": "/themen/friedrich-merz"
+    },
+    {
+     "name": "Andrea Nahles",
+     "slug": "/themen/andrea-nahles"
+    },
+    {
+     "name": "Bosch",
+     "slug": "/themen/bosch"
+    },
+    {
+     "name": "Audi",
+     "slug": "/themen/audi"
+    },
+    {
+     "name": "Polen",
+     "slug": "/themen/polen"
+    },
+    {
+     "name": "Spanien",
+     "slug": "/themen/spanien"
+    }
+   ]
+  },
+  "data": [
+   {
+    "title": "Moscow closes Goethe-Institutes, hardens tone toward Berlin",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "authorLine": "Armin Arbeiter, Berlin",
+    "teaserImage": {
+     "originalUrl": "/2026/09/03/1d0c88bc-0381-4837-b510-c87d61af4624.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/09/03/1d0c88bc-0381-4837-b510-c87d61af4624.jpg?width=1024&quality=75&auto=webp",
+     "width": 2823,
+     "height": 1825,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "2823,1588,x0,y59"
+      },
+      {
+       "name": "4:3",
+       "crop": "2433,1825,x390,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "1508,1508,x940,y49"
+      },
+      {
+       "name": "3:4",
+       "crop": "1369,1825,x953,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "2738,1825,x85,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "Russia is reacting to the German measures taken after the drone attack in Leipzig. Wild speculation is rife on Russian social media.",
+     "teaserAuthor": "Ramil Sitdikov / Reuters"
+    },
+    "teaserAuthor": "Ramil Sitdikov / Reuters",
+    "nzzId": "ld.10022202",
+    "readingTime": 180,
+    "paywallQuestionOne": "Why is Moscow closing the Goethe Institutes in response to German measures?",
+    "paywallQuestionTwo": "According to Russia, what evidence is missing in the case of the drone attack in Leipzig?",
+    "paywallQuestionThree": "How does the closure of the Goethe-Institut affect pro-European Russians?",
+    "characterCount": 4616,
+    "product": "NZZ.ch",
+    "documentId": "10022202",
+    "layout": "regular",
+    "publicationDate": "2026-09-03T08:56:31.247Z",
+    "publicationLastUpdated": "2026-09-03T09:34:43.715Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-09-03T20:56:31.247Z",
+    "teaserCaption": "Russia is reacting to the German measures taken after the drone attack in Leipzig. Wild speculation is rife on Russian social media.",
+    "url": "https://www.nzz.ch/deutschland/politik/moskau-schliesst-die-goethe-institute-und-verschaerft-den-ton-gegenueber-berlin-ld.10022202",
+    "department": {
+     "name": "Politics (Germany)",
+     "path": "/deutschland/politik"
+    },
+    "estimationWordCount": 666,
+    "leadText": "Russia is reacting to the German measures taken after the drone attack in Leipzig. Wild speculation is rife on Russian social media.",
+    "nzzSummaryIsAuto": true,
+    "locale": "de-CH"
+   },
+   {
+    "title": "The Lonely Men of the East",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "teaserImage": {
+     "originalUrl": "/2026/09/01/2da09beb-dbb0-4939-92b8-bb21c3739c6b.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/09/01/2da09beb-dbb0-4939-92b8-bb21c3739c6b.jpg?width=1024&quality=75&auto=webp",
+     "width": 5152,
+     "height": 3440,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "5152,2898,x0,y423"
+      },
+      {
+       "name": "4:3",
+       "crop": "4587,3440,x283,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "3440,3440,x259,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "2580,3440,x467,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "5152,3435,x0,y3"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "Nowhere in Germany do so few young women live as in the eastern federal states. This has fatal consequences for the regions. The AfD profits from this.",
+     "teaserAuthor": "Fabrizio Bensch / Reuters"
+    },
+    "teaserAuthor": "Fabrizio Bensch / Reuters",
+    "tags": [
+     "Pro: Fokus"
+    ],
+    "showComments": true,
+    "nzzId": "ld.10021328",
+    "readingTime": 420,
+    "paywallQuestionOne": "Why are so many young women leaving East Germany?",
+    "paywallQuestionTwo": "How does the shortage of women affect society in East Germany?",
+    "paywallQuestionThree": "What role does the AfD play in the political mood in the East?",
+    "characterCount": 9768,
+    "product": "NZZ.ch",
+    "documentId": "10021328",
+    "layout": "longformstandard",
+    "publicationDate": "2026-09-03T03:30:00.000Z",
+    "publicationLastUpdated": "2026-09-03T03:30:00.000Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-09-03T15:30:00.000Z",
+    "teaserCaption": "Nowhere in Germany do so few young women live as in the eastern federal states. This has fatal consequences for the regions. The AfD profits from this.",
+    "authorLine": "Leon Hedgehog",
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2024/06/12/eb10e36e-8f54-4722-adf7-421086aa6dd9.jpeg?width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/pro/in-ostdeutschland-fehlen-frauen-die-afd-profitiert-von-strukturellen-problemen-ld.10021328",
+    "department": {
+     "name": "Pro",
+     "path": "/pro"
+    },
+    "estimationWordCount": 1479,
+    "premium": true,
+    "leadText": "Nowhere in Germany do so few young women live as in the eastern federal states. This has fatal consequences for the regions. The AfD profits from this.",
+    "nzzSummaryIsAuto": true,
+    "commentsCount": 7,
+    "openToComment": false,
+    "hasQ": true,
+    "locale": "de-CH"
+   },
+   {
+    "owner": "NZZ",
+    "flag": "Podcast «NZZ Machtspiel»",
+    "title": "How the CDU can escape the impasse: Andreas Rödder",
+    "teaserImage": {
+     "originalUrl": "/2026/09/02/0d740e74-9b6e-435b-9486-fcc663cc8218.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/09/02/0d740e74-9b6e-435b-9486-fcc663cc8218.jpg?width=1024&quality=75&auto=webp",
+     "width": 3000,
+     "height": 3000,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "3000,1687,x0,y66"
+      },
+      {
+       "name": "4:3",
+       "crop": "3000,2250,x0,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "3000,3000,x0,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "2250,3000,x375,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "3000,2000,x0,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "He is the bourgeois-conservative leading thinker of the CDU: Andreas Rödder, historian and head of the think tank Republik21, criticizes the Union's entrenched coalition logics in «NZZ Machtspiel» and recommends a fundamental change of course."
+    },
+    "showHeader": true,
+    "editor": "1867936",
+    "paywallQuestionOne": "How could the CDU become strategically capable of action by using red lines instead of firewalls?",
+    "paywallQuestionTwo": "Why does Andreas Rödder consider flexible majorities a viable government option for the future?",
+    "paywallQuestionThree": "How does Rödder assess the double standards in the debate about banning the AfD?",
+    "language": {
+     "locale": "de"
+    },
+    "readingTime": 120,
+    "nzzId": "ld.10021940",
+    "characterCount": 2253,
+    "showComments": true,
+    "product": "NZZ.ch",
+    "documentId": "10021940",
+    "layout": "regular",
+    "publicationDate": "2026-09-03T03:00:00.000Z",
+    "publicationLastUpdated": "2026-09-03T03:00:00.000Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-09-03T15:00:00.000Z",
+    "teaserCaption": "He is the bourgeois-conservative leading thinker of the CDU: Andreas Rödder, historian and head of the think tank Republik21, criticizes the Union's entrenched coalition logics in «NZZ Machtspiel» and recommends a fundamental change of course.",
+    "authorLine": "Utz Dräger",
+    "url": "https://www.nzz.ch/podcast/machtspiel/wie-kommt-die-cdu-aus-der-sackgasse-andreas-roedder-ld.10021940",
+    "department": {
+     "name": "Power play",
+     "path": "/podcast/machtspiel"
+    },
+    "estimationWordCount": 356,
+    "leadText": "He is the bourgeois-conservative leading thinker of the CDU: Andreas Rödder, historian and head of the think tank Republik21, criticizes the Union's entrenched coalition logics in «NZZ Machtspiel» and recommends a fundamental change of course.",
+    "nzzSummaryIsAuto": true,
+    "teaserPodcastTitle": "How the CDU can escape the impasse: Andreas Rödder",
+    "teaserPodcastAuthor": "Florian Eder, Andreas Rödder",
+    "teaserPodcastDate": "03.09.2026",
+    "teaserPodcastUrl": "https://audio.podigee-cdn.net/2585342-m-bb3033a2954d218684744abd1d123552.mp3",
+    "teaserPodcastDuration": "39",
+    "commentsCount": 4,
+    "openToComment": false,
+    "locale": "de-CH"
+   },
+   {
+    "title": "Following Germany's accusations against Moscow: The EU is preparing new sanctions – Switzerland was also at the table for the first time",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "teaserImage": {
+     "originalUrl": "/2026/09/02/2f87c52a-e1e8-4f99-a7f6-3a8662b16ba7.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/09/02/2f87c52a-e1e8-4f99-a7f6-3a8662b16ba7.jpg?width=1024&quality=75&auto=webp",
+     "width": 5642,
+     "height": 3761,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "5642,3174,x0,y16"
+      },
+      {
+       "name": "4:3",
+       "crop": "5015,3761,x381,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "3761,3761,x941,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "2821,3761,x1411,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "5642,3761,x0,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "Germany blames Russia for the drone incident in Leipzig and receives considerable support from EU member states. Ukraine wants more than just words.",
+     "teaserAuthor": "Thomas Imo via Imago"
+    },
+    "nzzId": "ld.10022079",
+    "readingTime": 180,
+    "paywallQuestionOne": "What role did Switzerland play at the EU meeting in Ireland?",
+    "paywallQuestionTwo": "How is the EU reacting to the accusation against Russia?",
+    "paywallQuestionThree": "What support is Ukraine requesting from the EU?",
+    "characterCount": 3814,
+    "tags": [
+     "Europa",
+     "Ukraine-Krieg"
+    ],
+    "teaserAuthor": "Thomas Imo via Imago",
+    "product": "NZZ.ch",
+    "documentId": "10022079",
+    "layout": "regular",
+    "publicationDate": "2026-09-02T14:59:06.671Z",
+    "publicationLastUpdated": "2026-09-02T16:17:27.748Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-09-03T02:59:06.671Z",
+    "teaserCaption": "Germany blames Russia for the drone incident in Leipzig and receives considerable support from EU member states. Ukraine wants more than just words.",
+    "authorLine": "Antonio Fumagalli, Brussels",
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2024/08/14/6124518e-3d18-4aa2-826c-c005a3361e94.jpeg?crop=3956,3956,x0,y321&width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/international/nach-deutschlands-vorwuerfen-an-moskau-die-eu-bereitet-neue-sanktionen-vor-zum-ersten-mal-sass-auch-die-schweiz-am-tisch-ld.10022079",
+    "department": {
+     "name": "International",
+     "path": "/international"
+    },
+    "estimationWordCount": 565,
+    "leadText": "Germany blames Russia for the drone incident in Leipzig and receives considerable support from EU member states. Ukraine wants more than just words.",
+    "nzzSummaryIsAuto": true,
+    "locale": "de-CH"
+   },
+   {
+    "title": "Germany protests, and the Russian Finance Minister parleys in the U.S.: This is not how sanctions work",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "flag": "Opinion",
+    "showComments": true,
+    "teaserImage": {
+     "originalUrl": "/2026/09/02/0f7820ef-f01e-49e7-9e43-eec6448cefbb.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/09/02/0f7820ef-f01e-49e7-9e43-eec6448cefbb.jpg?width=1024&quality=75&auto=webp",
+     "width": 6500,
+     "height": 4335,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "6500,3656,x0,y555"
+      },
+      {
+       "name": "4:3",
+       "crop": "5780,4335,x398,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "2961,2961,x392,y484"
+      },
+      {
+       "name": "3:4",
+       "crop": "3251,4335,x550,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "6500,4333,x0,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "Germany wants to hold Russia more accountable – and Donald Trump's administration is in the US talking with the Russian finance minister about cooperation in the international financial system. If sanctions are to be effective, they must be used more effectively and consistently.",
+     "teaserAuthor": "Sam Wolfe / Reuters"
+    },
+    "teaserAuthor": "Sam Wolfe / Reuters",
+    "editor": "1373452",
+    "paywallQuestionOne": "Who is the Russian Finance Minister Anton Siluanov, and why was he sanctioned?",
+    "paywallQuestionTwo": "What are sanctions intended to achieve and how do they work?",
+    "paywallQuestionThree": "How are the signals from the USA affecting us, and what would need to change?",
+    "nzzId": "ld.10022026",
+    "readingTime": 240,
+    "characterCount": 5319,
+    "product": "NZZ.ch",
+    "documentId": "10022026",
+    "layout": "opinion",
+    "publicationDate": "2026-09-02T11:58:27.752Z",
+    "publicationLastUpdated": "2026-09-02T17:58:55.039Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-09-02T23:58:27.752Z",
+    "teaserCaption": "Germany wants to hold Russia more accountable – and Donald Trump's administration is in the US talking with the Russian finance minister about cooperation in the international financial system. If sanctions are to be effective, they must be used more effectively and consistently.",
+    "authorLine": "Peter A. Fischer",
+    "authorImage": {
+     "originalUrl": "/2022/07/27/d59a0238-12f1-43d7-8905-6e94594be820.png?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2022/07/27/d59a0238-12f1-43d7-8905-6e94594be820.png?width=1024&quality=75&auto=webp",
+     "width": 800,
+     "height": 800,
+     "crops": [
+      {
+       "name": "1:1",
+       "crop": "800,800,x0,y0"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2022/07/27/d59a0238-12f1-43d7-8905-6e94594be820.png?width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/meinung/deutschland-protestiert-und-der-russische-finanzminister-parliert-in-den-usa-so-funktionieren-sanktionen-nicht-ld.10022026",
+    "department": {
+     "name": "Opinion",
+     "path": "/meinung"
+    },
+    "estimationWordCount": 781,
+    "premium": true,
+    "leadText": "Germany wants to hold Russia more accountable – and Donald Trump's administration is in the US talking with the Russian finance minister about cooperation in the international financial system. If sanctions are to be effective, they must be used more effectively and consistently.",
+    "nzzSummaryIsAuto": true,
+    "commentsCount": 7,
+    "openToComment": false,
+    "locale": "de-CH"
+   },
+   {
+    "title": "German-Russian relations at an all-time low: Putin speaks of a «grave mistake» after German sanctions",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "teaserImage": {
+     "originalUrl": "/2026/09/02/8a3854ef-1dfe-4b69-a0ed-adc25cd3c44d.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/09/02/8a3854ef-1dfe-4b69-a0ed-adc25cd3c44d.jpg?width=1024&quality=75&auto=webp",
+     "width": 5128,
+     "height": 3419,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "5128,2884,x0,y130"
+      },
+      {
+       "name": "4:3",
+       "crop": "4559,3419,x324,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "3419,3419,x937,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "2564,3419,x1364,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "5128,3419,x0,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "Kremlin denies responsibility for Leipzig drone incident; German accusations called desperate; Moscow's countermeasures",
+     "teaserAuthor": "Kristina Solovyova / Imago"
+    },
+    "teaserAuthor": "Kristina Solovyova / Imago",
+    "nzzId": "ld.10022027",
+    "readingTime": 240,
+    "paywallQuestionOne": "How do the sanctions affect German-Russian relations?",
+    "paywallQuestionTwo": "What specific countermeasures is Russia planning?",
+    "paywallQuestionThree": "How is the Kremlin reacting to the allegations regarding the drone incident?",
+    "characterCount": 5880,
+    "product": "NZZ.ch",
+    "documentId": "10022027",
+    "layout": "regular",
+    "publicationDate": "2026-09-02T11:29:35.291Z",
+    "publicationLastUpdated": "2026-09-02T13:56:01.973Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-09-02T23:29:35.291Z",
+    "teaserCaption": "Kremlin denies responsibility for Leipzig drone incident; German accusations called desperate; Moscow's countermeasures",
+    "authorLine": "Volker Pabst",
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2022/09/14/9567e6f0-1e03-4fc3-8baa-346362e7a28d.png?width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/international/deutsch-russische-beziehungen-am-tiefpunkt-putin-spricht-nach-deutschen-sanktionen-von-einem-schweren-fehler-ld.10022027",
+    "department": {
+     "name": "International",
+     "path": "/international"
+    },
+    "estimationWordCount": 834,
+    "leadText": "Kremlin denies responsibility for Leipzig drone incident; German accusations called desperate; Moscow's countermeasures",
+    "nzzSummaryIsAuto": true,
+    "locale": "de-CH"
+   }
+  ]
+ },
+ "digitalData": {
+  "component": [
+   {
+    "id": "ld.1918223",
+    "name": "The German economy remains in crisis. Five charts illustrating the seriousness of the situation.",
+    "type": "article",
+    "subType1": "longformstandard",
+    "subType2": "",
+    "primaryCategory": "Wirtschaft",
+    "subCategory1": "",
+    "attributes": {
+     "headline": "The German economy remains in crisis. Five charts illustrating the seriousness of the situation.",
+     "firstPublishTitle": "",
+     "catchline": "",
+     "authors": [
+      {
+       "id": 1837261,
+       "name": "Jannik Belser",
+       "shortName": "jab",
+       "pianoId": "53769fe4-7436-4cc9-a699-be5b4bfd8a4d",
+       "external": false
+      }
+     ],
+     "issueTimestamp": "2025-12-31T04:30:00.000Z",
+     "updateTimestamp": "2025-12-31T04:30:00.000Z",
+     "isSponsoredContent": false,
+     "isPro": true,
+     "isLiveticker": false,
+     "flag": "",
+     "owner": "NZZ"
+    }
+   }
+  ],
+  "page": {
+   "pageId": "ld.1918223",
+   "pageType": "longformstandard",
+   "primaryCategory": "Wirtschaft",
+   "subCategory1": "",
+   "subCategory2": "",
+   "language": "en-US"
+  },
+  "version": "2.0",
+  "user": {},
+  "event": []
+ },
+ "seoData": {
+  "title": "Economic crisis: Why Germany continues to stagnate",
+  "image": {
+   "url": "https://img-msp-prod.nzz.ch/2025/10/30/f100c099-91e0-43a9-9fb7-3fdb2b7030b7.jpg?width=1200&height=674&fit=bounds&quality=75&auto=webp&crop=5000,2812,x0,y0&wmark=nzz",
+   "type": "image/jpeg",
+   "width": 1200,
+   "height": 674
+  },
+  "author": "Jannik Belser, Berlin",
+  "description": "A special fund for investments and an \"autumn of reforms\": 2025 was supposed to be a year of improvement. But as the year draws to a close, the challenges for German politicians and business leaders remain significant.",
+  "news_keywords": "The German economy remains mired in crisis. Five charts illustrating the seriousness of the situation. (Economy, News, NZZ)",
+  "type": "article",
+  "last-modified": "2025-12-31T07:30:00+02:00",
+  "date": "2025-12-31T07:30:00+02:00",
+  "canonical": "https://www.nzz.ch/wirtschaft/die-deutsche-wirtschaft-steckt-weiterhin-in-der-krise-fuenf-grafiken-zum-ernst-der-lage-ld.1918223",
+  "fb:app_id": 138008459595436,
+  "fb:pages": 143694099006529,
+  "fb:admins": 1592685173,
+  "locale": "de-CH",
+  "email": "online.redaktion@nzz.ch",
+  "site_name": "Neue Zürcher Zeitung",
+  "copyright": "2026 Neue Zürcher Zeitung AG, Schweiz",
+  "robots": "noindex, nofollow, noarchive, noodp",
+  "hreflang": [],
+  "sharedTitle": "The German economy remains in crisis. Five charts illustrating the seriousness of the situation.",
+  "ogTitle": "Germany: Will the promised economic upswing finally arrive in 2026?",
+  "ogUrl": "https://www.nzz.ch/wirtschaft/die-deutsche-wirtschaft-steckt-weiterhin-in-der-krise-fuenf-grafiken-zum-ernst-der-lage-ld.1918223",
+  "mrf:cms_id": "nzz:ld.1918223",
+  "mrf:sections": "Wirtschaft;Wirtschaft & Finanzen",
+  "mrf:tags": "Page Type:longformstandard;Editorial Owner:NZZ;Content Type:Pro Article;Article ID:ld.1918223",
+  "nzzAuthors": [
+   {
+    "id": 1837261,
+    "name": "Jannik Belser",
+    "shortName": "jab",
+    "pianoId": "53769fe4-7436-4cc9-a699-be5b4bfd8a4d",
+    "external": false
+   }
+  ],
+  "links": [
+   {
+    "rel": "canonical",
+    "href": "https://www.nzz.ch/wirtschaft/die-deutsche-wirtschaft-steckt-weiterhin-in-der-krise-fuenf-grafiken-zum-ernst-der-lage-ld.1918223"
+   },
+   {
+    "rel": "search",
+    "href": "/suche",
+    "title": "Suche Neue Zürcher Zeitung, Schweiz, https://www.nzz.ch/suche"
+   }
+  ],
+  "renderedAt": "Thu, 03 Sep 2026 10:02:22 GMT"
+ },
+ "structuredData": [
+  {
+   "@context": "https://schema.org",
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "item": {
+      "@id": "/",
+      "name": "Home"
+     }
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "item": {
+      "@id": "/wirtschaft",
+      "name": "Economy"
+     }
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Economic crisis: Why Germany continues to stagnate"
+    }
+   ]
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": "NewsArticle",
+   "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.nzz.ch/wirtschaft/die-deutsche-wirtschaft-steckt-weiterhin-in-der-krise-fuenf-grafiken-zum-ernst-der-lage-ld.1918223"
+   },
+   "headline": "Economic crisis: Why Germany continues to stagnate",
+   "datePublished": "2025-12-31T07:30:00+02:00",
+   "dateModified": "2025-12-31T07:30:00+02:00",
+   "publisher": {
+    "@type": "NewsMediaOrganization",
+    "name": "Neue Zürcher Zeitung",
+    "url": "https://www.nzz.ch",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://www.nzz.ch/logo.png",
+     "width": 413,
+     "height": 60
+    },
+    "contactPoint": [
+     {
+      "@type": "ContactPoint",
+      "telephone": "+41-44-2581000",
+      "contactType": "customer service"
+     }
+    ],
+    "sameAs": [
+     "https://www.facebook.com/nzz",
+     "https://www.twitter.com/nzz",
+     "https://www.youtube.com/channel/UCK1aTcR0AckQRLTlK0c4fuQ",
+     "https://www.linkedin.com/company/neue-zurcher-zeitung",
+     "https://www.instagram.com/nzz/",
+     "https://de.wikipedia.org/wiki/Neue_Z%C3%BCrcher_Zeitung",
+     "https://www.wikidata.org/wiki/Q658945",
+     "https://plus.google.com/+nzz/",
+     "http://www.freebase.com/m/041b43"
+    ],
+    "masthead": "https://www.nzz.ch/impressum/impressum-ld.148422",
+    "foundingDate": "1780"
+   },
+   "description": "A special fund for investments and an \"autumn of reforms\": 2025 was supposed to be a year of improvement. But as the year draws to a close, the challenges for German politicians and business leaders remain significant.",
+   "isAccessibleForFree": false,
+   "articleSection": "Wirtschaft",
+   "hasPart": {
+    "@type": "WebPageElement",
+    "isAccessibleForFree": false,
+    "cssSelector": ".nzzinteraction"
+   },
+   "image": {
+    "@type": "ImageObject",
+    "url": "https://img-msp-prod.nzz.ch/2025/10/30/f100c099-91e0-43a9-9fb7-3fdb2b7030b7.jpg?width=1200&height=674&fit=bounds&quality=75&auto=webp&crop=5000,2812,x0,y0&wmark=nzz",
+    "width": 1200,
+    "height": 674
+   },
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Jannik Belser"
+    }
+   ],
+   "inLanguage": "de"
+  }
+ ],
+ "mp3": true,
+ "mp3Duration": 441051,
+ "bT": {
+  "standard": {
+   "Tags": [
+    "/wirtschaft/die-deutsche-wirtschaft-steckt-weiterhin-in-der-krise-fuenf-grafiken-zum-ernst-der-lage-ld.1918223",
+    "classification=premium",
+    "relevance=germany",
+    "layout=longformstandard",
+    "owner=nzz",
+    "product=nzz",
+    "doctype=article",
+    "pagetype=article",
+    "ldid=ld.1918223",
+    "channel=Wirtschaft"
+   ],
+   "ContentCreated": "2025-12-31T04:30:00.000Z",
+   "ContentAuthor": "Jannik Belser, Berlin",
+   "ContentSection": "Wirtschaft",
+   "ContentIsNative": true
+  },
+  "custom": {
+   "product": "nzz",
+   "docType": "article",
+   "pageType": "article",
+   "layout": "longformstandard",
+   "nzzAbstract": "Was sind die Hauptursachen für die deutsche Wirtschaftskrise?\nWarum sind die Arbeitslosenzahlen weiterhin stabil?\nWelche Impulse fordern führende Ökonomen?",
+   "ldId": "ld.1918223",
+   "channel": "Wirtschaft",
+   "heading": "Die deutsche Wirtschaft steckt weiterhin in der Krise. Fünf Grafiken zum Ernst der Lage",
+   "language": "en-US"
+  }
+ },
+ "webviewMetadata": {},
+ "cacheTime": 3600
+}

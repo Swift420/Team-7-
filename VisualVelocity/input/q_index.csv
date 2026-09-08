@@ -1,0 +1,61 @@
+ld_id,q_id,tool,chart_type,title,data_rows,has_table,has_votes,has_geojson,source,images,captured_from
+10004103,918a51e86457ce5db223e7ba09f89719,locator_map,locator_map,Alternative Routen zur Strasse von Malakka,0,no,no,yes,,0,dragon capture
+10012805,61555fb2e72649e3a4f526fe4204df28,chart,Line,"Indien: Die Bevölkerung nimmt zu, die Geburtenrate sinkt stark.",9,yes,no,no,,0,dragon capture
+10014321,833c3c20b50add8a4b6f9530078b3d8f,chart,StackedBar (bar),Der Strommix der Schweiz ist sauberer als der deutsche,2,yes,no,no,Ember,0,dragon capture
+10014321,d6f71b15d01356c1168cbb262cb0a829,chart,Line,Die Preise für Klimaanlagen stiegen während der Hitzewelle stark an,409,yes,no,no,Galaxus,0,dragon capture
+10014321,d6f71b15d01356c1168cbb262ca1cbe4,chart,Bar (bar),"Wer jetzt eine Klimaanlage bestellt, muss oft lange warten",6,yes,no,no,Galaxus,0,dragon capture
+10014321,85a7e70188cdb319eb095476128cf5a0,infographic,infographic,Der Unterschied zwischen Monoblock- und Split-Klimaanlagen,0,no,no,no,,1,dragon capture
+10014321,833c3c20b50add8a4b6f953007c51e5b,infographic,infographic,Die meisten mobilen Klimageräte kühlen mit Propan,0,no,no,no,Galaxus,1,dragon capture
+10014321,25adbb1c7f644d6e4d79c92af9ea55ea,infographic,infographic,Stark überbaute Gebiete kühlen in der Nacht weniger ab,0,no,no,no,Kanton Zürich,0,dragon capture
+10014321,2b2fd4dfb963e0e718f531129433b851,scroll_graphic,scroll_graphic,So funktioniert eine Klimaanlage,0,no,no,no,,7,dragon capture
+10015775,0bab4f4ac565cbdff5f5748d6cb5e31d,choropleth,categorical / base map europe-countries-geographic,Wo die Sterbehilfe in Europa erlaubt ist,47,yes,no,no,Deutsche Gesellschaft für Humanes Sterben (DGHS) e. V.,0,dragon capture
+10016497,173b1563b00e7d95b48f736b38c77de9,chart,Bar (bar),Iran hat rund 1500 Raketen und Drohnen auf Kuwait abgeschossen,6,yes,no,no,INSS,0,dragon capture
+10016497,de266d4e66d3d94e4de7bfd577658052,locator_map,locator_map,Kuwait ist von der Strasse von Hormuz abhängig,0,no,no,yes,,0,dragon capture
+10016531,a548a7ae724c40cd65dc49e472f52a75,chart,Line,Nach den Ausschlägen von 2024 steigt der Kakaopreis erneut an,891,yes,no,no,ICE via Bloomberg ,0,dragon capture
+10016531,5de66948dc6755d9a22e9bf89df1ce5b,chart,Line,Seit Anfang Jahr ist der Reispreis stark gestiegen ,251,yes,no,no,CBOT via Bloomberg ,0,dragon capture
+1875099,8070264e05de394ee6dd77670a2fc679,chart,Area,Mehr Kokain in Europa als je zuvor,11,yes,no,no,EUDA,0,dragon capture
+1875099,5cde6d33c8c4f3aad5c88cd2192a8da4,chart,Area,Seit 2018 wird in West- und Zentralafrika mehr Kokain beschlagnahmt als in Nordafrika,6,yes,no,no,Unodc,0,dragon capture
+1875099,914387acc4e7abb7df0e8ee47291e8f6,infographic,infographic,Geschenkübergabe Jos,0,no,no,no,,1,dragon capture
+1875099,914387acc4e7abb7df0e8ee47292df2e,infographic,infographic,Gesucht: Jos ,0,no,no,no,,1,dragon capture
+1875099,5cde6d33c8c4f3aad5c88cd219326245,infographic,infographic,Holly,0,no,no,no,,1,dragon capture
+1875099,5cde6d33c8c4f3aad5c88cd21938308c,infographic,infographic,Karte Routen,0,no,no,no,,1,dragon capture
+1875099,5cde6d33c8c4f3aad5c88cd2192bb6bd,table,table,In Belgien wurden in den letzten zwei Jahren 18 Tonnen Kokain aus Sierra Leone beschlagnahmt,3,yes,no,no,AD,0,dragon capture
+1881978,a02936c58815d506796673dd0d176a16,election_seats,election_seats,Liberale verfehlen absolute Mehrheit,5,yes,no,no,CTV News,0,dragon capture
+1881978,7e524653bbb3014e32d5d164fc3b5e49,election_votes,election_votes,tba.,6,yes,no,no,CTV News,0,dragon capture
+1887401,8fcbd28255e890417dc9a282f5eae092,chart,Bar (bar),"Men voted overwhelmingly for Nawrocki, women for Trzaskowski",2,yes,no,no,,0,dragon capture
+1887401,596f09f1501e5776fb09e4901bfea993,chart,Bar (bar),Nawrocki won over younger voters,5,yes,no,no,,0,dragon capture
+1887401,596f09f1501e5776fb09e4901bff6784,choropleth,categorical / base map world-countries-geographic,Poles abroad voted overwhelmingly for Trzaskowski – with two exceptions,202,yes,no,no,,0,dragon capture
+1887401,596f09f1501e5776fb09e4901bf89961,election_executive,election_executive,Presidential election in Poland,2,yes,no,no,,0,dragon capture
+1890045,161cd517db048a316b465e1c4617c327,chart,Line,Militärausgaben ausgewählter Länder,55,yes,no,no,Sipri,0,dragon capture
+1890045,06cc666c08afbb7c4b905e6dd8a1bc62,chart,Bar (bar),Polen gibt im Verhältnis zur Wirtschaftskraft doppelt so viel aus wie Frankreich und Deutschland,16,yes,no,no,Nato,0,dragon capture
+1890045,161cd517db048a316b465e1c46330888,choropleth,categorical / base map europe-countries-geographic,Einige Nato-Staaten erreichten 2024 das Zwei-Prozent-Ziel noch nicht,47,yes,no,no,Nato,0,dragon capture
+1891391,6d4c90af52f402ffb7ca3835cabd4e01,chart,Line,"China, Canada and Mexico – America’s top trading partners – face the toughest penalties",13,yes,no,no,,0,dragon capture
+1891391,1e3de0053155572a5cd591ccecc84d7b,chart,Line,Sharp rise in economic policy uncertainty,1826,yes,no,no,,0,dragon capture
+1891391,7597fc573c06cfa8c88627842fac9fc4,chart,Line,The U.S. is now more protectionist than China,18,yes,no,no,,0,dragon capture
+1891922,e04b3f8213be4c15620cb6c2d3461bfa,chart,Bar (bar),Die Amerikaner lehnen das Reformpaket mehrheitlich ab,2,yes,no,no,KFF,0,dragon capture
+1891922,9639ea59068c1c3ecc0f43d4d2100606,chart,Dotplot,Gutverdiener profitieren mehr,5,yes,no,no,Tax Policy Center,0,dragon capture
+1891922,e04b3f8213be4c15620cb6c2d346d388,chart,StackedBar,Trump-Fans unterstützen die Reform deutlicher als traditionelle Republikaner,2,yes,no,no,KFF,0,dragon capture
+1891922,9639ea59068c1c3ecc0f43d4d258b74c,chart,StackedBar,Vor allem Demokraten und Parteilose kritisieren die Reform,3,yes,no,no,KFF,0,dragon capture
+1891922,9639ea59068c1c3ecc0f43d4d25d4c47,choropleth,categorical / base map usa-states-geographic,Medicaid-Versicherte variieren stark im Land,52,yes,no,no,Pew Research,0,dragon capture
+1891922,9639ea59068c1c3ecc0f43d4d25f9009,choropleth,categorical / base map usa-states-geographic,Vermögende in Texas profitieren mit am meisten,52,yes,no,no,Institute on Taxation and Economic Policy,0,dragon capture
+1897238,2f79c8865032787a54771530bd41d4c6,locator_map,locator_map,The long journey of smuggled elephants,0,no,no,yes,,0,dragon capture
+1899514,027fad6a889b676d3b73020c77900d81,chart,Bar (bar),Mehr als doppelt so viel Geld für neue Spieler als 2016,10,yes,no,no,,0,dragon capture
+1901856,374b77ace7df113a9b14bd0129752fa3,chart,Line,Die Schluckimpfung gegen das Poliovirus war ein grosser Erfolg,91,yes,no,no,"Historische Statistik Schweiz, Bundesamt für Statistik",0,dragon capture
+1901856,031ab1cfed0d0ba29f3417a5170f0dc6,chart,Bar (bar),In den USA sind ähnlich viele Kinder gegen Masern geimpft wie hier,3,yes,no,no,"CDC, GBE, BAG",0,dragon capture
+1909329,7b73f2997dddf65018467c6221de5e70,election_seats,election_seats,Parlamentswahl in den Niederlanden 2025,11,yes,no,no,NOS,0,dragon capture
+1910697,937b3fb8865023b0e41787d687b1f367,infographic,infographic,Karte Nagorni Karabach aktuell,0,no,no,no,Crisisgroup,1,dragon capture
+1910697,937dd499597158b63c8944b41d6677d9,locator_map,locator_map,Geteiltes Zypern,0,no,no,yes,,0,dragon capture
+1910697,bd7c8c3c187f6272d72cbfebb44a84fa,locator_map,locator_map,Korea: Seit 80 Jahren geteilt,0,no,no,yes,,0,dragon capture
+1914752,0dddf37557fc328c1415986921b997fb,chart,Line,Die Staatschulden haben Weltkriegsniveau erreicht,124,yes,no,no,"Public Finance in Modern History, IMF 2023",0,dragon capture
+1914752,68d425d4699e9424f42875706c7d9461,chart,Bar,Die USA und Frankreich zahlen mehr für Zinsen als fürs Militär,14,yes,no,no,"Zinskosten: IMF, World Development Indicators, Herbst 2025",0,dragon capture
+1914752,68d425d4699e9424f42875706caef74a,chart,Bar (bar),Erhebliche Effizienzlücken bei den öffentlichen Ausgaben,12,yes,no,no,"IMF, Fiscal Monitor Herbst 2025",0,dragon capture
+1914752,68d425d4699e9424f42875706cc96c62,chart,Line,Konsolidierung ist möglich: Portugal,56,yes,no,no,,0,dragon capture
+1914752,5f0d990f01eef2d9275d2ca603a2a5e5,chart,Line,Konsolidierung ist möglich: Schweden,56,yes,no,no,,0,dragon capture
+1914752,68d425d4699e9424f42875706cb8f7f4,chart,Bar (bar),Öffentliche Angestellte werden überdurchschnittlich gut bezahlt ,1,yes,no,no,"International: IMF, Fiscal Monitor Herbst 2025",0,dragon capture
+1918223,2986658532c8ae3c1b229345b990d664,chart,Line,Deutsche Arbeitslose haben es immer schwerer,107,yes,no,no,Bundesagentur für Arbeit,0,dragon capture
+1918223,1ed8c50ee4eadee1ad33ff170893c357,chart,Line,Die deutsche Staatsverschuldung wächst rasant,359,yes,no,no,Bundesministerium der Finanzen,0,dragon capture
+1918223,2986658532c8ae3c1b229345b9ad297b,chart,Line,Die deutsche Wirtschaft ist auf ähnlichem Stand wie 2019,32,yes,no,no,Statistisches Bundesamt,0,dragon capture
+1918223,1ed8c50ee4eadee1ad33ff1708900ec9,chart,Bar,Immer weniger deutsche Exporte nach China,14,yes,no,no,"Statistisches Bundesamt, eigene Berechnungen",0,dragon capture
+1918223,1ed8c50ee4eadee1ad33ff170896ec52,chart,Bar (bar),In manchen Ländern ist die Industrie seit dem Energiepreisschock gewachsen,9,yes,no,no,Bundesverband der Deutschen Industrie,0,dragon capture
+1924371,6385b4301d554d238307e959f07f0505,chart,Bar (bar),China ist der mit Abstand grösste Kohleproduzent der Welt,8,yes,no,no,Internationale Energieagentur,0,dragon capture
+1924371,c1745b5b07ee7a7ffb15a38d968274bc,chart,Bar,China verbraucht mehr Kohle als der Rest der Welt zusammen,5,yes,no,no,Internationale Energieagentur,0,dragon capture

@@ -1,0 +1,3158 @@
+{
+ "content": [
+  {
+   "identifier": "header--hero",
+   "id": "doc-1jruua1bv1",
+   "content": {
+    "title": "The cradle of evil: Adolf Hitler's birthplace becomes a police station. Can a house be decontaminated?",
+    "lead": "A police command is moving into the building where Adolf Hitler was born. «So what?» some say, life goes on. «Are you serious?» others shout, saying memories are being erased here. A town in Austria is grappling with its toxic legacy.",
+    "image": {
+     "author": "Rear view of Salzburger Vorstadt 15, Hitler's birthplace",
+     "caption": "Hitler's birthplace in Braunau.",
+     "originalUrl": "/2026/06/25/bf30d58c-c955-46ad-a35a-b38597a70646.jpg?crop=3044,4566,x320,y479",
+     "width": 3683,
+     "height": 5525,
+     "altText": "Rear view of Salzburger Vorstadt 15, Hitler's birthplace",
+     "origins": [
+      {
+       "name": "Hugo",
+       "identifier": "2179199386"
+      }
+     ],
+     "crop": {
+      "x": 320,
+      "y": 479,
+      "width": 3044,
+      "height": 4566,
+      "name": "desktop"
+     },
+     "namedCrops": [
+      {
+       "x": 320,
+       "y": 479,
+       "width": 3044,
+       "height": 4566,
+       "name": "desktop"
+      },
+      {
+       "x": 320,
+       "y": 733,
+       "width": 3044,
+       "height": 4059,
+       "name": "tablet"
+      },
+      {
+       "x": 315,
+       "y": 572,
+       "width": 2568,
+       "height": 4566,
+       "name": "mobile"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "quelle": "Roderick Aichinger",
+    "caption": "Hitler's birthplace in Braunau.",
+    "author": ""
+   },
+   "containers": {
+    "authors": [
+     {
+      "identifier": "author-teaser",
+      "id": "doc-1jruua1bv2",
+      "content": {
+       "layout": "authorprofile",
+       "title": "Sacha Batthyany (text), Roderick Aichinger (photos)",
+       "url": "/impressum/sacha-batthyany-ld.1724032",
+       "teaserImage": {
+        "originalUrl": "/2023/01/31/ad9d3525-8102-44de-986b-375cf5df74f2.webp?crop=1181,1181,x0,y197",
+        "url": "https://img-msp-prod.nzz.ch/2023/01/31/ad9d3525-8102-44de-986b-375cf5df74f2.webp?crop=1181,1181,x0,y197&width=1024&quality=75&auto=webp",
+        "width": 1181,
+        "height": 1574,
+        "imageService": "fastly",
+        "crop": {
+         "name": "1:1",
+         "x": 0,
+         "y": 197,
+         "width": 1181,
+         "height": 1181
+        }
+       }
+      }
+     }
+    ]
+   },
+   "prevElement": "",
+   "nextElement": "p-text",
+   "firstContentElement": true
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jruua1bv5",
+   "content": {
+    "text": "It's a street like countless others in the provinces. A boutique selling Italian menswear. An organic bakery with watery coffee. A gun shop. A barbershop. A kebab shop."
+   },
+   "prevElement": "header--hero",
+   "nextElement": "barrier"
+  },
+  {
+   "id": "doc-a15e1244",
+   "identifier": "barrier",
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jruuipir0",
+   "content": {
+    "text": "Someone who knew nothing about it would drive by, quickly wolf down a kebab, and buy some bread. Maybe new shoes?"
+   },
+   "paidContent": true,
+   "prevElement": "barrier",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jruuipit0",
+   "content": {
+    "text": "Nothing earth-shattering happened here. At least, no crime. A child was born 137 years ago. The son of customs officer Alois, an amateur beekeeper, and Klara, née Pölzl. The midwife assigned to the family on that April 20, 1889, was named Franziska Pointecker, according to the city archives. A few days after his birth, the child was baptized Adolf in the nearby parish church of St. Stephen, known for its imposing bell tower."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jruuipiu0",
+   "content": {
+    "text": "That complicates things."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jruuipiu1",
+   "content": {
+    "text": "It casts a shadow over this high-gabled house, over this small town on the Austrian-German border, which is called Braunau of all places."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jruungjr1",
+   "content": {
+    "text": "It changes the way we look at the gun shop and at the faces of people who have done nothing except grow up in the same place as the presumably greatest mass murderer in history: What is it like to grow up with this shadow?"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jruunnf91",
+   "content": {
+    "text": "How much do the places where we live shape us?"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "image"
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1jruuo0s60",
+   "content": {
+    "image": {
+     "author": "NZZAS – Magazine NZZaS",
+     "caption": "In the barbershop: «Nazi tourists raise their arms and grin.»",
+     "originalUrl": "/2026/06/25/4432ccda-64ac-45e1-b098-2f29b83fd61b.jpg?crop=4000,6000,x0,y0",
+     "width": 4000,
+     "height": 6000,
+     "origins": [
+      {
+       "name": "Hugo",
+       "identifier": "2179199463"
+      }
+     ],
+     "crop": {
+      "x": 0,
+      "y": 0,
+      "width": 4000,
+      "height": 6000,
+      "name": "article-image"
+     },
+     "namedCrops": [
+      {
+       "x": 0,
+       "y": 0,
+       "width": 4000,
+       "height": 6000,
+       "name": "article-image"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "caption": "In the barbershop: «Nazi tourists raise their arms and grin.»",
+    "author": "NZZAS – Magazine NZZaS"
+   },
+   "styles": {
+    "fullwidth-widget": "widget--fullwidth"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jruuipiv1",
+   "content": {
+    "text": "«Oh, come on!» says Rotraud Steiger in her cozy living room. She has lived on this street for sixty years and recently had her cataracts removed by laser surgery."
+   },
+   "paidContent": true,
+   "prevElement": "image",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jrv1mtoj0",
+   "content": {
+    "text": "When she pulls back the curtains, she has a direct view of Adolf Hitler's birthplace. «That was all so long ago,» she says. People are also dying in Ukraine, she adds, and the same thing is supposedly happening there as it did here back then. «Why dredge up the past?»"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jruuipj00",
+   "content": {
+    "text": "«Every day the bald guys and the guys in bomber jackets come,» says one of the boys from the barbershop, showing photos."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jrv1n5q21",
+   "content": {
+    "text": "Some of these Nazi tourists lay down candles; others raise their right arm and grin. «Once, I was approached by a stranger in Cologne while driving my car with a Braunau license plate,» he says. «He told me I was always welcome and offered me his private parking space.»"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jruuipj01",
+   "content": {
+    "text": "«Braunau is a projection surface,» says the current mayor Johannes Waidbacher on the balcony of the town hall, squinting in the sun."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jrv1nfia1",
+   "content": {
+    "text": "«Our city will forever be in the history books and attract media attention. We have to deal with that.»"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jruuipj10",
+   "content": {
+    "text": "The house that makes this town world-famous and attracts visitors from all over the world, because Hitler spent his first months here, Salzburger Vorstadt 15, has a white facade and small mullioned windows."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jrv1nm431",
+   "content": {
+    "text": "After the war, it was first a school, later a library, and for a long time served as a workshop for people with disabilities. It has been empty since 2011, has undergone renovations costing 20 million euros in recent years and will reopen at the end of July."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jruuipj11",
+   "content": {
+    "text": "The district police headquarters will move into the building where Hitler was born in a few weeks. Interrogation rooms. Training rooms. Cells. This is either the bitterest irony or the most astute appropriation imaginable."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jruuipj12",
+   "content": {
+    "text": "Some wanted to tear it down instead. Others called for a museum, a House of Responsibility. The disability rights organization felt the Hitler House wasn't wheelchair accessible enough. Local residents were upset that they hadn't been consulted."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jruulp7c1",
+   "content": {
+    "text": "«Why not a café?» asks the owner of the men’s fashion store."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "imagegrid"
+  },
+  {
+   "identifier": "imagegrid",
+   "id": "doc-1jrv19tgs0",
+   "content": {
+    "caption": "«Braunau is a projection screen,» says Mayor Johannes Waidbacher. View of the inner courtyard of Hitler's house (right)."
+   },
+   "containers": {
+    "imageRows": [
+     {
+      "identifier": "imagegrid-row",
+      "id": "doc-1jrv19tgt0",
+      "containers": {
+       "imageRow": [
+        {
+         "identifier": "imagegrid-image",
+         "id": "doc-1jrv19tgt1",
+         "content": {
+          "image": {
+           "author": "",
+           "caption": "",
+           "originalUrl": "/2026/06/25/74920729-5396-47e1-9065-9d79c0e91aeb.jpg?crop=4000,6000,x0,y0",
+           "width": 4000,
+           "height": 6000,
+           "origins": [
+            {
+             "name": "Hugo",
+             "identifier": "2179199462"
+            }
+           ],
+           "crop": {
+            "x": 0,
+            "y": 0,
+            "width": 4000,
+            "height": 6000,
+            "name": "article-image"
+           },
+           "namedCrops": [
+            {
+             "x": 0,
+             "y": 0,
+             "width": 4000,
+             "height": 6000,
+             "name": "article-image"
+            }
+           ],
+           "imageService": "fastly"
+          },
+          "author": "",
+          "caption": ""
+         }
+        },
+        {
+         "identifier": "imagegrid-image",
+         "id": "doc-1jrv19tgt2",
+         "content": {
+          "image": {
+           "author": "",
+           "caption": "",
+           "originalUrl": "/2026/06/25/ba15201b-ab34-468e-a00c-de836b5ccc88.jpg?crop=4587,5734,x0,y0",
+           "width": 4587,
+           "height": 5734,
+           "altText": "Courtyard of Salzburger Vorstadt 15 (Hitler's birthplace)",
+           "origins": [
+            {
+             "name": "Hugo",
+             "identifier": "2179258150"
+            }
+           ],
+           "crop": {
+            "x": 0,
+            "y": 0,
+            "width": 4587,
+            "height": 5734,
+            "name": "article-image"
+           },
+           "namedCrops": [
+            {
+             "x": 0,
+             "y": 0,
+             "width": 4587,
+             "height": 5734,
+             "name": "article-image"
+            }
+           ],
+           "imageService": "fastly"
+          },
+          "author": "",
+          "caption": ""
+         }
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jruuipj20",
+   "content": {
+    "text": "The architectural competition that preceded the renovation stated: «The external redesign of the existing building should eliminate the memory of the Nazi era.»"
+   },
+   "paidContent": true,
+   "prevElement": "imagegrid",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jruum3b81",
+   "content": {
+    "text": "Then-Interior Minister Wolfgang Peschorn spoke of stripping Hitler's birthplace of its «memory.» There was also talk of a «complete neutralization.»"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jruuipj21",
+   "content": {
+    "text": "Should memories be erased? Should history be allowed to disappear? Will this small town on the Inn River, with its 18,000 inhabitants, lose its shadow if the most famous house in the area receives a gleaming white facade?"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "image"
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1jruumi9v0",
+   "content": {
+    "image": {
+     "author": "",
+     "caption": "View from the city gate into the street where the birthplace is located.",
+     "originalUrl": "/2026/06/25/d999945f-60a0-4dde-b47a-0d6aa71b4a37.jpg?crop=4000,6000,x0,y0",
+     "width": 4000,
+     "height": 6000,
+     "origins": [
+      {
+       "name": "Hugo",
+       "identifier": "2179199470"
+      }
+     ],
+     "crop": {
+      "x": 0,
+      "y": 0,
+      "width": 4000,
+      "height": 6000,
+      "name": "article-image"
+     },
+     "namedCrops": [
+      {
+       "x": 0,
+       "y": 0,
+       "width": 4000,
+       "height": 6000,
+       "name": "article-image"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "caption": "View from the city gate into the street where the birthplace is located.",
+    "author": ""
+   },
+   "styles": {
+    "fullwidth-widget": "widget--fullwidth"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jruuipj30",
+   "content": {
+    "text": "The debate about the future of the building coincides with a widespread desire to «draw a line under the Nazi era.» In the so-called Memo study series conducted by Bielefeld University, a representative opinion poll on the culture of remembrance in Germany, a majority has for the first time expressed support for letting the commemoration of the Holocaust rest. Eighty years is enough, they argue."
+   },
+   "paidContent": true,
+   "prevElement": "image",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jruuipj31",
+   "content": {
+    "text": "Willi Mernyi from Austria, chairman of the Mauthausen Committee, an association that advocates for the victims of the Nazi regime, reports a similar situation and speaks of an «indifference towards history.» He increasingly hears what the neighbor Rotraud Steiger also says: It's all ancient history! Always these accusations! Why constantly dwell on the past?"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jruuipj41",
+   "content": {
+    "text": "What is happening in Braunau is «typical for this country,» says Mernyi. «Ideally, they would have torn the house down and swept history under the rug. But since that’s not possible, they just set up a police station.» That way, he adds, they can immediately book the Nazis who take pictures of themselves on the street. «Passt schon,» people say, which he calls the most Austrian of all phrases."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jruuipj42",
+   "content": {
+    "text": "Mernyi admits that dealing with this house properly is not easy. «There is no normality in Braunau,» he says, just as there is reportedly no normality in Mauthausen, the site of the largest concentration camp on Austrian soil, where hundreds of thousands were shot and gassed."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jrv11drm1",
+   "content": {
+    "text": "For a long time in Austria, he says, people tried to suppress history and remained silent because the generation of perpetrators was supposedly still alive and former Nazis held high office."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jruuipj50",
+   "content": {
+    "text": "«Today, when all the criminals are dead, we are fighting against something much worse,» laments Willi Mernyi, «this historical apathy,» a numbness to the events of National Socialism."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jruupoi60",
+   "content": {
+    "text": "And when antisemitism increases, as it has recently, when autocrats are celebrated and there is talk of remigration, he says, «the outcry becomes quieter, the outrage less intense.» People no longer care, or they simply wave it away. «Passt schon.»"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "image"
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1jruuq3jr0",
+   "content": {
+    "image": {
+     "author": "",
+     "caption": "Auschwitz survivor Eva Umlauf: «You cannot separate yourself from your history.»",
+     "originalUrl": "/2026/06/25/6a88465c-92e0-4f33-ae6a-f0b1a61c3e53.jpg?crop=4000,6000,x0,y0",
+     "width": 4000,
+     "height": 6000,
+     "origins": [
+      {
+       "name": "Hugo",
+       "identifier": "2179199471"
+      }
+     ],
+     "crop": {
+      "x": 0,
+      "y": 0,
+      "width": 4000,
+      "height": 6000,
+      "name": "article-image"
+     },
+     "namedCrops": [
+      {
+       "x": 0,
+       "y": 0,
+       "width": 4000,
+       "height": 6000,
+       "name": "article-image"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "caption": "Auschwitz survivor Eva Umlauf: «You cannot separate yourself from your history.»",
+    "author": ""
+   },
+   "styles": {
+    "fullwidth-widget": "widget--fullwidth"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jruuipj51",
+   "content": {
+    "text": "Some 130 kilometers from Braunau, Austria, Eva Umlauf sits on the beige sofa of her penthouse apartment in Munich, in a villa district on the Isar River. Umlauf is a psychotherapist. The 83-year-old works with people's memories and has grappled with her own her entire life."
+   },
+   "paidContent": true,
+   "prevElement": "image",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jruuipj60",
+   "content": {
+    "text": "She pulls up the sleeve of her bottle-green sweater, which matches her eyes, and points to faded prisoner numbers on her forearm, distorted by all the years since they were tattooed under her skin in Auschwitz when she was a baby."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jruuipj61",
+   "content": {
+    "text": "A26959."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jruuipj62",
+   "content": {
+    "text": "When she goes to the doctor and offers her forearm for a blood draw, she says young nurses ask her: «What have you got smeared there?» For them, she notes, it was all so long ago. Some make jokes: «A tattoo at your age?»"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jruuipj70",
+   "content": {
+    "text": "«You can’t undo history, you can’t run away from it,» says Umlauf. She lives with these numbers and confronts them daily. «You can’t separate yourself from your history.»"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jruuipj71",
+   "content": {
+    "text": "She has several patients, descendants of perpetrators, who come to her for therapy, knowing that she survived Auschwitz, and tell her their family histories: Grandfathers who murdered, grandmothers who worshiped the Führer, fathers who remained silent their entire lives and drowned their war trauma in alcohol."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jruuipj80",
+   "content": {
+    "text": "«They expect absolution from me,» Umlauf says, «but I do not grant it. I only listen.»"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jruuipj90",
+   "content": {
+    "text": "Confronting our memories is fundamental, Umlauf says. «It makes us human.» We must reflect on our history, she adds, and know what happened in the past to prevent similar things from happening again."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jruuipja0",
+   "content": {
+    "text": "When she looks around today, it gives her a chill. «I see parallels to the rise of the Nazi Party in the 1930s.» Like Willi Mernyi, she warns against autocrats everywhere who are flirting with dictatorship. Strangers write to her after television appearances, like a recent one on the Markus Lanz talk show, saying, <a href=\"https://www.zdf.de/video/talk/markus-lanz-114/markus-lanz-vom-14-mai-2026-100\">«The Jews are killing children in Gaza.»</a> «Many are glad that the Jews are as bad as the Germans were back then,» she says. «They need a justification.»"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jruuipjb0",
+   "content": {
+    "text": "That's why she visits schools and talks to teenagers about the Holocaust. «I doubt I can achieve much. But I want to prevent young people from voting for the AfD.»"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jruuipjb1",
+   "content": {
+    "text": "<a href=\"https://hoffmann-und-campe.de/products/83815-genau-so-faengt-es-an\">Eva Umlauf has written a book, an appeal entitled «This Is Exactly How It Begins.»</a> «The fear is back. Jews are being threatened again, synagogues are being attacked again,» she writes. «And with the AfD, a party that the Office for the Protection of the Constitution considers a confirmed right-wing extremist group is reaching for power.»"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jruuipjc0",
+   "content": {
+    "text": "«Never again?» Umlauf asks in her book. She quotes the famous oath of the liberated inmates of the Buchenwald concentration camp and immediately provides the answer: «It’s happening again!»"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jruuipjc1",
+   "content": {
+    "text": "Last autumn, Eva Umlauf traveled to Braunau for the first time and told her life story at the «Contemporary History Days,» an annual congress: Of the 232,000 children deported to Auschwitz, around 600 survived. Eva was one of them."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jruuipjd0",
+   "content": {
+    "text": "She was on one of the last trains to Auschwitz in 1944. The day before, children from the ramp had still been sent directly «to the gas.» But her transport was delayed, and selection was no longer taking place, as Umlauf recounted in a trembling voice at the Braunau event center: «That is the only reason I am alive.»"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jruuipjd1",
+   "content": {
+    "text": "The morning after her presentation, she visited Hitler's house, which at that time was still covered with scaffolding and tarpaulins. Cameras guarded the construction site because strangers had traveled from afar to chisel stones out of Hitler's birthplace, just as they had once done with the Berlin Wall."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jruuipje0",
+   "content": {
+    "text": "Umlauf stands in her kitchen, making coffee. «A police station in Hitler's birthplace?» She pauses and looks out the window. «Wouldn't something more harmless and less symbolic be better? A beverage store?»"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jruuipje1",
+   "content": {
+    "text": "People like Eva Umlauf are called eyewitnesses, but is she really one? She was two years old when she and her mother were deported from the Sered transit camp in Slovakia to the Auschwitz extermination camp. She lost her father and most of her family. She is a victim of the Shoah, but she has no memory of the war."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jruuipjf0",
+   "content": {
+    "text": "When the last eyewitnesses are gone and soon there is no one left to tell of the horrors, what will remain?"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jruuipjf1",
+   "content": {
+    "text": "Places like Braunau."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "image"
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1jruvlk350",
+   "content": {
+    "image": {
+     "author": "",
+     "caption": "Idyllic Braunau.",
+     "originalUrl": "/2026/06/25/eef0be35-fc2f-4e9e-9142-434c82385b35.jpg?crop=5798,3865,x0,y0",
+     "width": 5798,
+     "height": 3865,
+     "origins": [
+      {
+       "name": "Hugo",
+       "identifier": "2179199466"
+      }
+     ],
+     "crop": {
+      "x": 0,
+      "y": 0,
+      "width": 5798,
+      "height": 3865,
+      "name": "article-image"
+     },
+     "namedCrops": [
+      {
+       "x": 0,
+       "y": 0,
+       "width": 5798,
+       "height": 3865,
+       "name": "article-image"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "caption": "Idyllic Braunau.",
+    "author": ""
+   },
+   "styles": {
+    "fullwidth-widget": "widget--fullwidth"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jruuipjg0",
+   "content": {
+    "text": "It's unclear on which floor the Hitler family lived. What is known is that the father, Alois, a customs officer in the Innviertel region on the edge of the Austro-Hungarian Monarchy, who oversaw the animal transports from Braunau to Munich, wanted to live as close as possible to his beehives and therefore moved twice within the town. This is how Florian Kotanko, the local historian who knows the story of every cobblestone here, tells it during a walk through the old town."
+   },
+   "paidContent": true,
+   "prevElement": "image",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jruuipjg1",
+   "content": {
+    "text": "Adolf Hitler returned to Braunau only once more. On his triumphant journey to Vienna in 1938, where he announced the «Anschluss» of Austria, he stopped in the town square. He also mentioned his birthplace in his inflammatory book «Mein Kampf.» <a href=\"https://www.nsdoku.de/lexikon/artikel/bormann-martin-99\">During the war, the house was purchased by Martin Bormann, the Reich Leader of the Nazi Party</a> , on behalf of the party, and transformed into a gallery in honor of the Führer."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jruuipjg2",
+   "content": {
+    "text": "«There’s a rumor that Hitler was born in a stable behind the house,» says Kotanko. It was a myth, he explains, meant to turn Braunau into the Bethlehem of the Third Reich, «but that’s all nonsense. Just like the legend that he was born in a precipitate birth right in the middle of the Inn Bridge.»"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jruuipjh0",
+   "content": {
+    "text": "The fact is that after 1945 the building first housed a school, and later a higher technical college. For a long time it was rented to Lebenshilfe, an organization for the care of people with physical and mental disabilities."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jruvo3uc1",
+   "content": {
+    "text": "Well into the 1980s, it was just one house among many on a street like countless others in the province. Braunau was Braunau – and not «Hitlertown,» as international media call the town today, because the name guarantees attention."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jruuipjj0",
+   "content": {
+    "text": "«The residents didn’t care at all who was born in this house,» says Kotanko. «They went to school here, not to Hitler’s house.» What we now call a culture of remembrance only emerged later, and with it, the place acquired a symbolic significance."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jruuipjk0",
+   "content": {
+    "text": "The process of coming to terms with Nazi crimes was slower in Austria than in Germany. Denazification was also less rigorous, with the result that many perpetrators returned to high-ranking positions after the war."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jruvu2og1",
+   "content": {
+    "text": "Braunau's mayor from 1967 to 1989, a certain Hermann Fuchs, was allegedly a member of the local Hitler Youth and reportedly felt personally attacked whenever the town's history was mentioned. No wonder everyone remained silent."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jruuipjk1",
+   "content": {
+    "text": "And so, not only in Braunau but throughout the entire country, people wrapped themselves in a comfortable blanket of silence, making themselves at ease in the deeply rooted victim myth that Austria became the first victim of Nazi Germany through «the Anschluss» in March 1938."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jrv25add1",
+   "content": {
+    "text": "And they concealed the fact that Hitler had been cheered by 250,000 people on Vienna's Heldenplatz: a country in a Führer frenzy."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "oembed"
+  },
+  {
+   "identifier": "oembed",
+   "id": "doc-1jrv2aqh80",
+   "content": {
+    "oembed-directive": {
+     "service": "li-oembed-service",
+     "params": {
+      "url": "https://youtu.be/L1ZYbEfvcfk",
+      "params": {}
+     },
+     "resolvedValue": {
+      "html": "<div style=\"position: relative; padding: 56.25% 0 0 0;\">\n        <iframe style=\"position: absolute; top: 0; left: 0; width: 100%; height: 100%;\" width=\"1280\" height=\"720\" src=\"https://www.youtube.com/embed/L1ZYbEfvcfk?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"WER HAT ANGST VOR BRAUNAU? Ein Haus und die Vergangenheit in uns - TRAILER\"></iframe>\n      </div>"
+     }
+    }
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jruuipjl0",
+   "content": {
+    "text": "Unlike in Germany, there was no significant 1968 movement in the country that raised uncomfortable questions about guilt and responsibility. That is, until the so-called Waldheim affair shook the nation from the mid-1980s onwards."
+   },
+   "paidContent": true,
+   "prevElement": "oembed",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jrv053q81",
+   "content": {
+    "text": "<a href=\"https://www.nzz.ch/international/waldheim-affaere-vor-vierzig-jahren-veraenderte-oesterreich-ld.10009053\">Former UN Secretary-General and later Austrian President Kurt Waldheim was suspected</a> of having been involved in war crimes in the Balkans as an officer in the Wehrmacht. «Everything came to light with Waldheim,» says historian Florian Kotanko."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jruuipjl1",
+   "content": {
+    "text": "On the occasion of Hitler's 100th birthday in 1989, Mayor Gerhard Skiba, Fuchs' successor, not only issued a ban on weddings for April 20 but also had a granite block from the quarry of the former Mauthausen concentration camp placed in front of the birthplace."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jrv05gig1",
+   "content": {
+    "text": "From that moment on, this house at Salzburger Vorstadt 15, which everyone had silently walked past for years, could no longer be overlooked. It had become a memorial. The media wrote about it and turned sleepy Braunau into «Hitlertown.» <a href=\"https://www.swissinfo.ch/ger/schweizer-schrie-ns-parolen-auf-stadtplatz-in-%C3%96sterreich/90658695\">Suddenly, Nazis and other misguided individuals were making pilgrimages to their Führer's temple in this small town on the matcha-green Inn and lighting candles. Recently, a drunken Swiss man with the Waffen-SS honorary ring on his finger was among them.</a>"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jruuipjl2",
+   "content": {
+    "text": "A once-forgotten place becomes a projection, as the mayor put it. A symbol against its will. And it pops up on the map of dark places, like Predappio, Mussolini's birthplace, where Duce supporters still salute with the Roman salute, or Stalin's Gori northwest of Tbilisi."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jruuipjm0",
+   "content": {
+    "text": "<a href=\"https://www.zeitgeschichte-braunau.at/index.php\">Simultaneously with this dubious fame, the Association for Contemporary History was founded, which continues to grapple with this toxic legacy</a> , organizing events and initiating debates. In 2011, Adolf Hitler was stripped of his honorary citizenship of the city, 66 years after the war."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jrv08ias1",
+   "content": {
+    "text": "And just a few months ago, the last street names that commemorated Nazi figures disappeared after fierce resistance from the right-wing conservative FPÖ, for whom «the administrative effort» was too high."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "imagegrid"
+  },
+  {
+   "identifier": "imagegrid",
+   "id": "doc-1jrv0rfm30",
+   "content": {
+    "caption": "Rotraud Steiger (left), a neighbor. Stefan Schlögl, head of the Association for Contemporary History."
+   },
+   "containers": {
+    "imageRows": [
+     {
+      "identifier": "imagegrid-row",
+      "id": "doc-1jrv0u6kl0",
+      "containers": {
+       "imageRow": [
+        {
+         "identifier": "imagegrid-image",
+         "id": "doc-1jrv0u6kl1",
+         "content": {
+          "image": {
+           "author": "",
+           "caption": "",
+           "originalUrl": "/2026/06/25/397b21d2-02a3-4bc8-ba9a-c8ab2fea5556.jpg?crop=4000,6000,x0,y0",
+           "width": 4000,
+           "height": 6000,
+           "origins": [
+            {
+             "name": "Hugo",
+             "identifier": "2179199472"
+            }
+           ],
+           "crop": {
+            "x": 0,
+            "y": 0,
+            "width": 4000,
+            "height": 6000,
+            "name": "article-image"
+           },
+           "namedCrops": [
+            {
+             "x": 0,
+             "y": 0,
+             "width": 4000,
+             "height": 6000,
+             "name": "article-image"
+            }
+           ],
+           "imageService": "fastly"
+          },
+          "author": "",
+          "caption": ""
+         }
+        },
+        {
+         "identifier": "imagegrid-image",
+         "id": "doc-1jrv0u6kl2",
+         "content": {
+          "image": {
+           "author": "",
+           "caption": "",
+           "originalUrl": "/2026/06/25/e2afc903-fe6a-43be-960e-62be29a0f749.jpg?crop=4000,6000,x0,y0",
+           "width": 4000,
+           "height": 6000,
+           "origins": [
+            {
+             "name": "Hugo",
+             "identifier": "2179199468"
+            }
+           ],
+           "crop": {
+            "x": 0,
+            "y": 0,
+            "width": 4000,
+            "height": 6000,
+            "name": "article-image"
+           },
+           "namedCrops": [
+            {
+             "x": 0,
+             "y": 0,
+             "width": 4000,
+             "height": 6000,
+             "name": "article-image"
+            }
+           ],
+           "imageService": "fastly"
+          },
+          "author": "",
+          "caption": ""
+         }
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jruuipjm1",
+   "content": {
+    "text": "«There is such a commotion about this house,» says her neighbor, Rotraud Steiger, who has been looking at this facade from across the street for 60 years and who, when she complains in her Innviertel dialect, immediately sounds like Thomas Bernhard."
+   },
+   "paidContent": true,
+   "prevElement": "imagegrid",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jrv0baoq1",
+   "content": {
+    "text": "A few years ago, during a skiing holiday, she was insulted by a Dutch stranger at the ski lift, simply because she was from Braunau. «One more word and you'll end up in the snow,» she barked back."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jruuipjm2",
+   "content": {
+    "text": "«Enough is enough,» she says calmly on her sofa. She has nothing against confronting the past. Her father, she says, regretted being a member of the Nazi Party his entire life. She just thinks «everything has gotten out of hand.» She’s had enough of the Hitler tourists, the TV crews, the same old memorial concerts and «all this theater.»"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jruuipjn0",
+   "content": {
+    "text": "Hence the police station. It's supposed to maintain order, decontaminate the poisoned house, keep «Hitlertown» out of the headlines, and drive out the Nazis. But this place is like a sauce stain on your pants: the harder you rub and scrub, the more determined you are to make it disappear, the bigger it gets."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jruuipjo0",
+   "content": {
+    "text": "«Braunau forces you to take a stand,» says Stefan Schlögl, who grew up here and now lives in Vienna. He recounts how he once sent strange old men, who had somewhat surreptitiously asked him as a child for directions to «that Hitler house,» to the garbage dump."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jruuipjo1",
+   "content": {
+    "text": "It all started in 1991, says Schlögl. News reports showed images of Nazi marches and burning asylum seeker accommodations in Hoyerswerda, Germany."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jrv0dgcn1",
+   "content": {
+    "text": "«That's when the young right-wingers in Braunau became active. Guys in bomber jackets, whom I knew from the sandbox, intercepted me on my way to the cinema and pushed me against the wall.»"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jruuipjo2",
+   "content": {
+    "text": "But he is not traumatized by it, says Schlögl, a freelance journalist who returned to his roots and has been heading the Association for Contemporary History in Braunau for a year. «Fights in the countryside were nothing unusual back then.»"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jrv2if4d1",
+   "content": {
+    "text": "They have since apologized to him, he says. «Nonsense back then,» they reportedly whispered to him. And he, in true Austrian fashion, replied: «Passt schon.»"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jruuipjp0",
+   "content": {
+    "text": "For a long time, he says, he has wondered from afar what the media made of his birthplace. The narrative of this «dark place» that refuses to confront its past, he says in an ice cream parlor café, has long been «part of journalistic folklore» in Austria."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jruuipjp1",
+   "content": {
+    "text": "Braunau and this house are «like that one crisis relationship in the family,» <a href=\"https://www.zeit.de/2026/17/hitler-geburtshaus-braunau-am-inn-nutzung-polizeistation\">about which everyone talks and has something to say, Schlögl recently wrote about his hometown in the newspaper «Die Zeit.»</a>"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jrv0fh9l1",
+   "content": {
+    "text": "Considering the three years Hitler lived here, Braunau's significance is grossly exaggerated, Schlögl says. «If some crackpot runs around in a Hitler uniform, international newspapers report on it.» Elsewhere, he notes, the same story would be worth only a brief mention."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jrv0fnhp1",
+   "content": {
+    "text": "Regarding the changing of street names, he adds, everyone was outraged. How could it be, people asked, that until a few months ago, alleys and stairways were still named after committed Nazis?"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jruuipjq0",
+   "content": {
+    "text": "What gets forgotten in all this, Schlögl says, is how much the town contributes to the culture of remembrance in Austria with its events, discussion evenings and films. «Braunau is much more progressive than other Austrian cities, like Salzburg, where more streets are still named after Nazi Party members than after women.»"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "image"
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1jrv0gu4i0",
+   "content": {
+    "image": {
+     "author": "",
+     "caption": "Hitler? «That only interests old people.»",
+     "originalUrl": "/2026/06/25/38c92a9c-7da0-415b-a71f-f99ed5dbec35.jpg?crop=4000,6000,x0,y0",
+     "width": 4000,
+     "height": 6000,
+     "origins": [
+      {
+       "name": "Hugo",
+       "identifier": "2179199469"
+      }
+     ],
+     "crop": {
+      "x": 0,
+      "y": 0,
+      "width": 4000,
+      "height": 6000,
+      "name": "article-image"
+     },
+     "namedCrops": [
+      {
+       "x": 0,
+       "y": 0,
+       "width": 4000,
+       "height": 6000,
+       "name": "article-image"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "caption": "Hitler? «That only interests old people.»",
+    "author": ""
+   },
+   "styles": {
+    "fullwidth-widget": "widget--fullwidth"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jruuipjq1",
+   "content": {
+    "text": "It's getting late in Hitler's birthplace; the mobile phone shops, bank branches and shoe stores around the cobbled town square have long since closed."
+   },
+   "paidContent": true,
+   "prevElement": "image",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jrv2jhvc1",
+   "content": {
+    "text": "The local youth gather in the parking lot of a shopping center outside the old town. They cruise around McDonald's in souped-up cars, listening to German rap and eating greasy pizza from cardboard boxes on the hood of their cars. It's a balmy early summer evening in May."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jruuipjq2",
+   "content": {
+    "text": "They heard about the Hitler house in school, says one of them as döner sauce runs down his hand. Others shrug. That only interests the old people."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jruuipjs0",
+   "content": {
+    "text": "«Nothing happening today,» they say. The «Herzog,» the local nightclub, is closed. They seem like they want to get away, out of Braunau, to somewhere that life is happening and time hasn't stood still."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jruuipjt0",
+   "content": {
+    "text": "Later, three young Romanian women in tight dresses pass by. They haven't lived in the area long; they stayed because they found work at the register of a furniture store. They have their own stories."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jruuipjt1",
+   "content": {
+    "text": "«Hitler was born here?» asks one woman as indifferently as possible, sounding neither surprised nor shocked, smoking slim cigarettes with a white filter."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jrv0iqt50",
+   "content": {
+    "text": "«I didn't know that.»"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "nzzas-footnote"
+  },
+  {
+   "identifier": "nzzas-footnote",
+   "id": "doc-c9900c25",
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "sharebox",
+   "lastContentElement": true
+  },
+  {
+   "identifier": "sharebox",
+   "id": "doc-1jruua1bv6",
+   "paidContent": true,
+   "prevElement": "nzzas-footnote",
+   "nextElement": "related-articles-container"
+  },
+  {
+   "identifier": "related-articles-container",
+   "id": "doc-1jruua1bv7",
+   "content": {
+    "title": "Related articles"
+   },
+   "containers": {
+    "related-articles": [
+     {
+      "identifier": "teaser",
+      "id": "doc-1jruua1bv8",
+      "content": {
+       "title": "Abandoning the myth of being «Hitler's first victim»: how the Waldheim affair forced Austria to confront its history",
+       "showHeader": true,
+       "owner": "NZZ",
+       "language": {
+        "locale": "de"
+       },
+       "teaserImage": {
+        "originalUrl": "/2026/06/05/f8f03478-9586-42b4-8c05-b36099efed97.jpg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2026/06/05/f8f03478-9586-42b4-8c05-b36099efed97.jpg?width=1024&quality=75&auto=webp",
+        "width": 3360,
+        "height": 2352,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "3360,1890,x0,y371"
+         },
+         {
+          "name": "4:3",
+          "crop": "3136,2352,x82,y0"
+         },
+         {
+          "name": "1:1",
+          "crop": "1460,1460,x979,y394"
+         },
+         {
+          "name": "3:4",
+          "crop": "1764,2352,x752,y0"
+         },
+         {
+          "name": "3:2",
+          "crop": "3360,2240,x0,y112"
+         }
+        ],
+        "imageService": "fastly",
+        "teaserCaption": "For decades, Austria ignored its own complicity in National Socialism and the Holocaust. The election of Kurt Waldheim as Federal President brought this convenient fiction crashing down forty years ago.",
+        "teaserAuthor": "Keystone"
+       },
+       "teaserAuthor": "Keystone",
+       "tags": [
+        "Europa"
+       ],
+       "editor": "1373097",
+       "nzzId": "ld.10009053",
+       "readingTime": 420,
+       "paywallQuestionOne": "How did the Waldheim affair influence Austria's handling of its Nazi past?",
+       "paywallQuestionTwo": "What role did the victim myth play in Austria's post-war narrative?",
+       "paywallQuestionThree": "Why did Kurt Waldheim remain president despite international criticism?",
+       "characterCount": 9387,
+       "product": "NZZ.ch",
+       "documentId": 10009053,
+       "layout": "regular",
+       "publicationDate": "2026-06-08T03:30:00.000Z",
+       "publicationLastUpdated": "2026-06-08T03:30:00.000Z",
+       "significantUpdate": false,
+       "significantUpdateTill": "2026-06-08T15:30:00.000Z",
+       "teaserCaption": "For decades, Austria ignored its own complicity in National Socialism and the Holocaust. The election of Kurt Waldheim as Federal President brought this convenient fiction crashing down forty years ago.",
+       "authorLine": "Meret Baumann, Vienna",
+       "authorImage": {
+        "originalUrl": "/2022/06/22/0ae19a9d-3bad-48bc-886b-1bfee061e0e8.png?crop=800,800,x0,y0",
+        "url": "https://img-msp-prod.nzz.ch/2022/06/22/0ae19a9d-3bad-48bc-886b-1bfee061e0e8.png?crop=800,800,x0,y0&width=1024&quality=75&auto=webp",
+        "width": 800,
+        "height": 800,
+        "imageService": "fastly",
+        "crop": {
+         "name": "1:1",
+         "x": 0,
+         "y": 0,
+         "width": 800,
+         "height": 800
+        },
+        "crops": []
+       },
+       "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2022/06/22/0ae19a9d-3bad-48bc-886b-1bfee061e0e8.png?crop=800,800,x0,y0&width=1024&quality=75&auto=webp",
+       "url": "/international/waldheim-affaere-vor-vierzig-jahren-veraenderte-oesterreich-ld.10009053",
+       "department": {
+        "name": "International",
+        "path": "/international"
+       },
+       "estimationWordCount": 1382,
+       "leadText": "For decades, Austria ignored its own complicity in National Socialism and the Holocaust. The election of Kurt Waldheim as Federal President brought this convenient fiction crashing down forty years ago.",
+       "nzzSummaryIsAuto": true,
+       "locale": "de-CH"
+      }
+     },
+     {
+      "identifier": "teaser",
+      "id": "doc-1jruua1bv9",
+      "content": {
+       "owner": "NZZ",
+       "title": "Criticism of the taboo: Austria discusses Vienna's Heldenplatz and the «Hitler balcony»",
+       "teaserImage": {
+        "originalUrl": "/2022/01/06/43302587-c537-4776-9b64-14400bf42540.jpeg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2022/01/06/43302587-c537-4776-9b64-14400bf42540.jpeg?width=1024&quality=75&auto=webp",
+        "width": 3720,
+        "height": 2731,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "3720,2092,x0,y639"
+         },
+         {
+          "name": "1:1",
+          "crop": "748,748,x1690,y1305"
+         },
+         {
+          "name": "4:3",
+          "crop": "3641,2731,x79,y0"
+         },
+         {
+          "name": "3:4",
+          "crop": "2048,2731,x1161,y0"
+         }
+        ],
+        "imageService": "fastly",
+        "teaserCaption": "While Austria celebrates its imperial past, it repeatedly struggles to deal with sites associated with the Nazi era. This is currently evident in the debate surrounding the country's most important square.",
+        "teaserAuthor": "Ullstein"
+       },
+       "teaserAuthor": "Ullstein",
+       "nzzasFootnote": false,
+       "folioFootnote": false,
+       "language": {
+        "locale": "de-CH"
+       },
+       "nzzId": "ld.1881244",
+       "readingTime": 360,
+       "authorLine": "Meret Baumann, Vienna",
+       "characterCount": 7714,
+       "product": "NZZ.ch",
+       "documentId": 1881244,
+       "layout": "regular",
+       "publicationDate": "2025-04-28T03:30:00.000Z",
+       "publicationLastUpdated": "2025-04-28T03:30:00.000Z",
+       "significantUpdate": false,
+       "significantUpdateTill": "2025-04-28T15:30:00.000Z",
+       "teaserCaption": "While Austria celebrates its imperial past, it repeatedly struggles to deal with sites associated with the Nazi era. This is currently evident in the debate surrounding the country's most important square.",
+       "url": "/feuilleton/oesterreichs-heldenplatz-debatte-um-den-hitlerbalkon-ld.1881244",
+       "department": {
+        "name": "Arts & Culture",
+        "path": "/feuilleton"
+       },
+       "estimationWordCount": 1151,
+       "leadText": "While Austria celebrates its imperial past, it repeatedly struggles to deal with sites associated with the Nazi era. This is currently evident in the debate surrounding the country's most important square.",
+       "nzzSummaryIsAuto": true
+      }
+     },
+     {
+      "identifier": "teaser",
+      "id": "doc-1jruua1bv10",
+      "content": {
+       "owner": "NZZaS",
+       "title": "«I don’t trust Europe,» says Fishel Rabinowicz, a centenarian who survived the Holocaust",
+       "teaserImage": {
+        "originalUrl": "/2024/09/04/61a91603-f2ef-4ec5-a54c-e8e15733d40e.jpeg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2024/09/04/61a91603-f2ef-4ec5-a54c-e8e15733d40e.jpeg?width=1024&quality=75&auto=webp",
+        "width": 5464,
+        "height": 8192,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "5464,3072,x0,y1049"
+         },
+         {
+          "name": "1:1",
+          "crop": "2695,2695,x1356,y1226"
+         },
+         {
+          "name": "4:3",
+          "crop": "3838,2878,x857,y1237"
+         },
+         {
+          "name": "3:4",
+          "crop": "5464,7285,x0,y907"
+         }
+        ],
+        "imageService": "fastly",
+        "teaserCaption": "He was once number 19037. Then he lived a normal family life and deconstructed his trauma through art. A visit on his 100th birthday."
+       },
+       "nzzasFootnote": true,
+       "folioFootnote": false,
+       "language": {
+        "locale": "de-CH"
+       },
+       "nzzId": "ld.1846255",
+       "readingTime": 360,
+       "authorLine": "Gina Bachmann (text), Maurice Haas (illustrations)",
+       "characterCount": 7588,
+       "product": "NZZ.ch",
+       "documentId": 1846255,
+       "layout": "longformstandard",
+       "publicationDate": "2024-09-07T19:45:00.000Z",
+       "publicationLastUpdated": "2025-01-22T12:22:39.128Z",
+       "significantUpdate": false,
+       "significantUpdateTill": "2024-09-08T07:45:00.000Z",
+       "teaserCaption": "He was once number 19037. Then he lived a normal family life and deconstructed his trauma through art. A visit on his 100th birthday.",
+       "url": "/report-und-debatte/ich-traue-europa-nicht-fishel-rabinowicz-holocaust-ueberlebender-ist-tot-ld.1846255",
+       "department": {
+        "name": "Report and debate",
+        "path": "/report-und-debatte"
+       },
+       "estimationWordCount": 1273,
+       "leadText": "He was once number 19037. Then he lived a normal family life and deconstructed his trauma through art. A visit on his 100th birthday."
+      }
+     }
+    ]
+   },
+   "paidContent": true,
+   "prevElement": "sharebox",
+   "nextElement": "",
+   "lastContentElement": true
+  }
+ ],
+ "metadata": {
+  "germanyRelevant": true,
+  "title": "The cradle of evil: Adolf Hitler's birthplace becomes a police station. Can a house be decontaminated?",
+  "showHeader": true,
+  "owner": "NZZaS",
+  "language": {
+   "locale": "en-US"
+  },
+  "dependencies": {},
+  "teaserImage": {
+   "originalUrl": "/2026/06/25/bf30d58c-c955-46ad-a35a-b38597a70646.jpg?width=1024",
+   "url": "https://img-msp-prod.nzz.ch/2026/06/25/bf30d58c-c955-46ad-a35a-b38597a70646.jpg?width=1024&quality=75&auto=webp",
+   "width": 3683,
+   "height": 5525,
+   "crops": [
+    {
+     "name": "16:9",
+     "crop": "3683,2072,x0,y1119"
+    },
+    {
+     "name": "4:3",
+     "crop": "3348,2511,x281,y699"
+    },
+    {
+     "name": "1:1",
+     "crop": "3348,3348,x167,y560"
+    },
+    {
+     "name": "3:4",
+     "crop": "3044,4059,x384,y0"
+    },
+    {
+     "name": "3:2",
+     "crop": "3348,2232,x293,y1062"
+    }
+   ],
+   "imageService": "fastly",
+   "teaserCaption": "A police command has moved into the city where Adolf Hitler was born. «So what?» some say, life goes on. «Are you kidding me?» others cry, memories are being erased here. A city in Austria is grappling with its toxic legacy.",
+   "teaserAuthor": "NZZAS – Magazine NZZaS"
+  },
+  "teaserAuthor": "NZZAS – Magazine NZZaS",
+  "nzzasFootnote": true,
+  "editor": "1371950",
+  "nzzId": "ld.10012889",
+  "readingTime": 900,
+  "characterCount": 19933,
+  "breadcrumbs": [
+   {
+    "name": "NZZ am Sonntag Magazine",
+    "path": "/nzz-am-sonntag-magazin"
+   }
+  ],
+  "product": "NZZ.ch",
+  "documentId": 10012889,
+  "contentTypeGroup": "web",
+  "layout": "longformvisual",
+  "firstPublicationDate": "2026-06-28T03:30:00.000Z",
+  "publicationDate": "2026-06-28T03:30:00.000Z",
+  "publicationLastUpdated": "2026-06-28T03:30:00.000Z",
+  "significantUpdate": false,
+  "significantUpdateTill": "2026-06-28T15:30:00.000Z",
+  "teaserCaption": "A police command has moved into the city where Adolf Hitler was born. «So what?» some say, life goes on. «Are you kidding me?» others cry, memories are being erased here. A city in Austria is grappling with its toxic legacy.",
+  "nzzAuthors": [
+   {
+    "id": 1371950,
+    "name": "Sacha Batthyany",
+    "shortName": "bat",
+    "pianoId": "5dbeb689-1c00-43ff-9581-9e446297618f",
+    "external": false
+   }
+  ],
+  "authorLine": "Sacha Batthyany (text), Roderick Aichinger (photos)",
+  "authorImage": {
+   "originalUrl": "/2023/01/31/ad9d3525-8102-44de-986b-375cf5df74f2.webp?crop=1181,1181,x0,y197",
+   "url": "https://img-msp-prod.nzz.ch/2023/01/31/ad9d3525-8102-44de-986b-375cf5df74f2.webp?crop=1181,1181,x0,y197&width=1024&quality=75&auto=webp",
+   "width": 1181,
+   "height": 1574,
+   "imageService": "fastly",
+   "crop": {
+    "name": "1:1",
+    "x": 0,
+    "y": 197,
+    "width": 1181,
+    "height": 1181
+   },
+   "crops": []
+  },
+  "nzzAuthorProfileDataCollection": [
+   {
+    "documentId": 1724032,
+    "name": "Sacha Batthyany (text), Roderick Aichinger (photos)",
+    "teaserImageUrl": "https://img-msp-prod.nzz.ch/2023/01/31/ad9d3525-8102-44de-986b-375cf5df74f2.webp?crop=1181,1181,x0,y197&width=1024&quality=75&auto=webp"
+   }
+  ],
+  "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2023/01/31/ad9d3525-8102-44de-986b-375cf5df74f2.webp?crop=1181,1181,x0,y197&width=1024&quality=75&auto=webp",
+  "url": "/nzz-am-sonntag-magazin/hitlers-geburtshaus-in-braunau-wird-zur-polizeiwache-geht-das-ld.10012889",
+  "department": {
+   "name": "NZZ am Sonntag Magazine",
+   "path": "/nzz-am-sonntag-magazin"
+  },
+  "estimationWordCount": 3070,
+  "premium": false,
+  "leadText": "A police command has moved into the city where Adolf Hitler was born. «So what?» some say, life goes on. «Are you kidding me?» others cry, memories are being erased here. A city in Austria is grappling with its toxic legacy.",
+  "nzzSummaryEN": "- Adolf Hitler's birthplace in Braunau is set to reopen as a district police station after extensive renovations, sparking controversial debates.\n- Some see this as a clever repurposing, while others fear it erases history, especially since places like Braunau retain symbolic significance.\n- Witnesses and historians stress the importance of confronting history, even as historical apathy increasingly takes hold.",
+  "nzzSummaryDE": "- Adolf Hitler's birthplace in Braunau is opened as a district police command post after extensive renovations, which causes controversial debates.\n Some see this as a clever redesign, while others fear that history is being suppressed, especially since places like Braunau continue to retain symbolic power.\n - Eyewitnesses and historians emphasize the importance of confronting history, while at the same time a certain historical apathy is spreading.",
+  "nzzSummaryIsAuto": true,
+  "nzzSummaryModel": "gpt-4o-2024-11-20",
+  "nzzPrintTitle": "Damned house",
+  "nzzPrintSubtitle": "Adolf Hitler's birthplace is being turned into a police station. «So what?» some say, life goes on. «Are you kidding me?» others cry, lamenting the erasure of memories. A city in Austria is grappling with its toxic legacy.",
+  "allArticleLanguages": [
+   {
+    "locale": "de",
+    "urlPath": "/nzz-am-sonntag-magazin/hitlers-geburtshaus-in-braunau-wird-zur-polizeiwache-geht-das-ld.10012889",
+    "seo": {}
+   }
+  ],
+  "seo": {
+   "canonicalUrl": "https://www.nzz.ch/nzz-am-sonntag-magazin/hitlers-geburtshaus-in-braunau-wird-zur-polizeiwache-geht-das-ld.10012889",
+   "title": "Hitler's birthplace in Braunau is being turned into a police station: Is that possible?",
+   "socialMediaTitle": "Police move into the town where Hitler was born: How is Braunau dealing with its toxic legacy?",
+   "description": "A police command is moving into the place where Adolf Hitler was born: Braunau, a city in Austria, is grappling with its toxic legacy.",
+   "excludeFromSpiders": false,
+   "image": "https://img-msp-prod.nzz.ch/2026/06/25/bf30d58c-c955-46ad-a35a-b38597a70646.jpg?width=1200&height=675&fit=bounds&quality=75&auto=webp&crop=3683,2072,x0,y1119&wmark=nzz"
+  },
+  "ldPublicationId": 2452482,
+  "isHighlightedHeader": true,
+  "nzzTopics": [
+   {
+    "name": "Adolf Hitler",
+    "slug": "/themen/adolf-hitler"
+   },
+   {
+    "name": "National Socialism",
+    "slug": "/themen/nationalsozialismus"
+   },
+   {
+    "name": "Austria",
+    "slug": "/themen/osterreich"
+   },
+   {
+    "name": "Germany",
+    "slug": "/themen/deutschland"
+   }
+  ],
+  "barrierIndex": 2,
+  "outlinks": {
+   "mehrZumThema": [
+    "ld.10009053",
+    "ld.1881244",
+    "ld.1846255"
+   ],
+   "artikelListe": [],
+   "aliasTeaserEmbedList": []
+  },
+  "tts": true,
+  "locale": "de-CH",
+  "mp3": true,
+  "mp3Duration": 1268952,
+  "project": "nzz",
+  "machineTranslated": true,
+  "machineTranslationValidated": true
+ },
+ "isReduced": false,
+ "isPaid": false,
+ "isVamp": false,
+ "isWebview": false,
+ "btaFeed": {
+  "meta": {
+   "id": "adolf-hitler",
+   "name": "Adolf Hitler",
+   "tagName": "Adolf Hitler",
+   "qId": "Q352",
+   "seoTitle": "Adolf Hitler – All articles on the topic | NZZ",
+   "description": null,
+   "firstName": "Adolf",
+   "lastName": "Hitler",
+   "category": "PER",
+   "createdDate": "2025-04-08 17:04:33.086Z",
+   "imageURL": null,
+   "imageCroppedURL": null,
+   "imageWidth": null,
+   "imageHeight": null,
+   "imageCredits": null,
+   "url": "https://nzz.ch/themen/adolf-hitler",
+   "size": 488,
+   "relatedTopics": [
+    {
+     "name": "Nationalsozialismus",
+     "slug": "/themen/nationalsozialismus"
+    },
+    {
+     "name": "Österreich",
+     "slug": "/themen/osterreich"
+    },
+    {
+     "name": "Deutschland",
+     "slug": "/themen/deutschland"
+    }
+   ]
+  },
+  "data": [
+   {
+    "title": "Hitler’s Forgotten Police Chief",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "authorLine": "Konstantin Sakkas",
+    "teaserImage": {
+     "originalUrl": "/2026/08/28/4833c269-66d5-4b69-b606-1556a7670389.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/08/28/4833c269-66d5-4b69-b606-1556a7670389.jpg?width=1024&quality=75&auto=webp",
+     "width": 2040,
+     "height": 2871,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "2040,1147,x0,y502"
+      },
+      {
+       "name": "4:3",
+       "crop": "2040,1530,x0,y302"
+      },
+      {
+       "name": "1:1",
+       "crop": "2040,2040,x0,y47"
+      },
+      {
+       "name": "3:4",
+       "crop": "2040,2720,x0,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "2040,1360,x0,y387"
+      }
+     ],
+     "focalPoint": {
+      "x": 968,
+      "y": 1067
+     },
+     "imageService": "fastly",
+     "teaserCaption": "Kurt Daluege was a Nazi from the very beginning and made a career in the «Third Reich»: As head of the Order Police, he was significantly involved in the Holocaust and war crimes. Now, the first scholarly monograph about him has been published.",
+     "teaserAuthor": "Ullstein/Getty"
+    },
+    "teaserAuthor": "Ullstein/Getty",
+    "nzzId": "ld.10021426",
+    "readingTime": 240,
+    "paywallQuestionOne": "What role did Kurt Daluege play in the Holocaust and war crimes?",
+    "paywallQuestionTwo": "How did the Ordnungspolizei (Order Police) under Daluege become an instrument of the Nazi regime?",
+    "paywallQuestionThree": "Why did Daluege remain in the shadow of other Nazi perpetrators for so long?",
+    "characterCount": 5481,
+    "product": "NZZ.ch",
+    "documentId": "10021426",
+    "layout": "longformstandard",
+    "publicationDate": "2026-08-29T03:30:00.000Z",
+    "publicationLastUpdated": "2026-08-29T09:21:53.662Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-08-29T15:30:00.000Z",
+    "teaserCaption": "Kurt Daluege was a Nazi from the very beginning and made a career in the «Third Reich»: As head of the Order Police, he was significantly involved in the Holocaust and war crimes. Now, the first scholarly monograph about him has been published.",
+    "url": "https://www.nzz.ch/feuilleton/hitlers-vergessener-polizeichef-ld.10021426",
+    "department": {
+     "name": "Arts & Culture",
+     "path": "/feuilleton"
+    },
+    "estimationWordCount": 810,
+    "leadText": "Kurt Daluege was a Nazi from the very beginning and made a career in the «Third Reich»: As head of the Order Police, he was significantly involved in the Holocaust and war crimes. Now, the first scholarly monograph about him has been published.",
+    "nzzSummaryIsAuto": true,
+    "locale": "de-CH"
+   },
+   {
+    "title": "Before the 1936 Olympics, Switzerland grappled with a boycott – but the fear of economic consequences prevailed",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "authorLine": "Marcel Gisler",
+    "teaserImage": {
+     "originalUrl": "/2026/07/23/8a12e6c9-d25c-43c0-bc12-258e46d50b1f.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/07/23/8a12e6c9-d25c-43c0-bc12-258e46d50b1f.jpg?width=1024&quality=75&auto=webp",
+     "width": 2599,
+     "height": 3575,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "2599,1462,x0,y1057"
+      },
+      {
+       "name": "4:3",
+       "crop": "2599,1949,x0,y813"
+      },
+      {
+       "name": "1:1",
+       "crop": "2599,2599,x0,y488"
+      },
+      {
+       "name": "3:4",
+       "crop": "2599,3465,x0,y55"
+      },
+      {
+       "name": "3:2",
+       "crop": "2599,1733,x0,y921"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "In 1936, the Swiss delegation traveled to Berlin despite heated debates in parliament. A look back reveals how the fear of diplomatic isolation overshadowed morale and how a gymnast made a stand against National Socialism.",
+     "teaserAuthor": "Photopress Archive / Keystone"
+    },
+    "teaserAuthor": "Photopress Archive / Keystone",
+    "teaserCarouselOne": {
+     "originalUrl": "/2026/07/23/8a12e6c9-d25c-43c0-bc12-258e46d50b1f.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/07/23/8a12e6c9-d25c-43c0-bc12-258e46d50b1f.jpg?width=1024&quality=75&auto=webp",
+     "width": 2599,
+     "height": 3575,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "2599,1462,x0,y231"
+      },
+      {
+       "name": "1:1",
+       "crop": "2599,2599,x0,y106"
+      },
+      {
+       "name": "4:3",
+       "crop": "2599,1949,x0,y156"
+      },
+      {
+       "name": "3:4",
+       "crop": "2599,3465,x0,y55"
+      },
+      {
+       "name": "3:2",
+       "crop": "2599,1733,x0,y181"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "teaserCarouselTwo": {
+     "originalUrl": "/2026/07/14/592b779e-00e0-4c3d-883d-386efb027b95.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/07/14/592b779e-00e0-4c3d-883d-386efb027b95.jpg?width=1024&quality=75&auto=webp",
+     "width": 3122,
+     "height": 1931,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "3122,1756,x0,y175"
+      },
+      {
+       "name": "1:1",
+       "crop": "1931,1931,x0,y0"
+      },
+      {
+       "name": "4:3",
+       "crop": "2575,1931,x0,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "1448,1931,x72,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "2897,1931,x0,y0"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "teaserCarouselThree": {
+     "originalUrl": "/2026/07/14/3022a51b-251b-4bd9-a109-97afb90255a3.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/07/14/3022a51b-251b-4bd9-a109-97afb90255a3.jpg?width=1024&quality=75&auto=webp",
+     "width": 3688,
+     "height": 5709,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "3688,2074,x0,y830"
+      },
+      {
+       "name": "1:1",
+       "crop": "3688,3688,x0,y615"
+      },
+      {
+       "name": "4:3",
+       "crop": "3688,2766,x0,y796"
+      },
+      {
+       "name": "3:4",
+       "crop": "3688,4917,x0,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "3688,2459,x0,y862"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "tags": [
+     "Sport: Empfehlungen",
+     "Olympische Spiele",
+     "Weitere Sportarten"
+    ],
+    "nzzId": "ld.10015302",
+    "readingTime": 420,
+    "paywallQuestionOne": "Why did Switzerland decide against a boycott of the 1936 Olympic Games?",
+    "paywallQuestionTwo": "How did Georges Miez take a stand against National Socialism in Berlin?",
+    "paywallQuestionThree": "What role did economic interests play in the Federal Council's decision?",
+    "characterCount": 8807,
+    "product": "NZZ.ch",
+    "documentId": "10015302",
+    "layout": "longformstandard",
+    "publicationDate": "2026-07-31T03:40:00.000Z",
+    "publicationLastUpdated": "2026-08-03T11:29:00.970Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-07-31T15:40:00.000Z",
+    "teaserCaption": "In 1936, the Swiss delegation traveled to Berlin despite heated debates in parliament. A look back reveals how the fear of diplomatic isolation overshadowed morale and how a gymnast made a stand against National Socialism.",
+    "url": "https://www.nzz.ch/sport/vor-olympia-1936-ringt-die-schweiz-um-einen-boykott-die-angst-vor-wirtschaftlichen-konsequenzen-setzt-sich-aber-durch-ld.10015302",
+    "department": {
+     "name": "Sport",
+     "path": "/sport"
+    },
+    "estimationWordCount": 1345,
+    "leadText": "In 1936, the Swiss delegation traveled to Berlin despite heated debates in parliament. A look back reveals how the fear of diplomatic isolation overshadowed morale and how a gymnast made a stand against National Socialism.",
+    "nzzSummaryIsAuto": true,
+    "locale": "de-CH"
+   },
+   {
+    "title": "Lee Miller: The woman who made Hitler's bathtub famous",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "tags": [
+     "Kunst, Architektur, Fotografie",
+     "Fotografie"
+    ],
+    "editor": "1373417",
+    "characterCount": 9417,
+    "teaserImage": {
+     "originalUrl": "/2026/07/21/874667ed-da7b-4428-84c5-a80c617f44ec.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/07/21/874667ed-da7b-4428-84c5-a80c617f44ec.jpg?width=1024&quality=75&auto=webp",
+     "width": 2200,
+     "height": 2997,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "2200,1237,x0,y952"
+      },
+      {
+       "name": "4:3",
+       "crop": "2200,1650,x0,y649"
+      },
+      {
+       "name": "1:1",
+       "crop": "2200,2200,x0,y303"
+      },
+      {
+       "name": "3:4",
+       "crop": "1653,2204,x388,y635"
+      },
+      {
+       "name": "3:2",
+       "crop": "2200,1467,x0,y761"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "A Paris exhibition presents the fascinating life of photographer Lee Miller. She is the woman who forced the world to look closely.",
+     "teaserAuthor": "Photographer Unknown / Lee Miller Archives"
+    },
+    "teaserAuthor": "Photographer Unknown / Lee Miller Archives",
+    "teaserCarouselOne": {
+     "originalUrl": "/2026/07/21/874667ed-da7b-4428-84c5-a80c617f44ec.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/07/21/874667ed-da7b-4428-84c5-a80c617f44ec.jpg?width=1024&quality=75&auto=webp",
+     "width": 2200,
+     "height": 2997,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "2200,1237,x0,y912"
+      },
+      {
+       "name": "1:1",
+       "crop": "2200,2200,x0,y382"
+      },
+      {
+       "name": "4:3",
+       "crop": "2200,1650,x0,y638"
+      },
+      {
+       "name": "3:4",
+       "crop": "2200,2933,x0,y64"
+      },
+      {
+       "name": "3:2",
+       "crop": "2200,1467,x0,y777"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "teaserCarouselTwo": {
+     "originalUrl": "/2026/07/21/cdefd2c5-faaa-4986-add8-d2611774ba75.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/07/21/cdefd2c5-faaa-4986-add8-d2611774ba75.jpg?width=1024&quality=75&auto=webp",
+     "width": 2200,
+     "height": 2296,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "2200,1237,x0,y392"
+      },
+      {
+       "name": "1:1",
+       "crop": "2200,2200,x0,y0"
+      },
+      {
+       "name": "4:3",
+       "crop": "2200,1650,x0,y203"
+      },
+      {
+       "name": "3:4",
+       "crop": "1722,2296,x4,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "2200,1467,x0,y261"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "teaserCarouselThree": {
+     "originalUrl": "/2026/07/21/469a095d-8134-47b1-b719-9f5baf452f92.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/07/21/469a095d-8134-47b1-b719-9f5baf452f92.jpg?width=1024&quality=75&auto=webp",
+     "width": 4900,
+     "height": 5244,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "4900,2756,x0,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "4900,4900,x0,y0"
+      },
+      {
+       "name": "4:3",
+       "crop": "4900,3675,x0,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "3933,5244,x604,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "4900,3267,x0,y1274"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "teaserCarouselFour": {
+     "originalUrl": "/2026/07/21/e82d39ca-c498-4ba7-8427-91334009edf0.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/07/21/e82d39ca-c498-4ba7-8427-91334009edf0.jpg?width=1024&quality=75&auto=webp",
+     "width": 2200,
+     "height": 2400,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "2200,1237,x0,y859"
+      },
+      {
+       "name": "1:1",
+       "crop": "2200,2200,x0,y200"
+      },
+      {
+       "name": "4:3",
+       "crop": "2200,1650,x0,y750"
+      },
+      {
+       "name": "3:4",
+       "crop": "1800,2400,x241,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "2200,1467,x0,y820"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "nzzId": "ld.10013822",
+    "readingTime": 480,
+    "paywallQuestionOne": "How did Lee Miller's versatility shape her artistic career?",
+    "paywallQuestionTwo": "What is the significance of the famous photograph in Hitler's bathtub?",
+    "paywallQuestionThree": "How does Miller's work reflect the connection between surrealism and reality?",
+    "product": "NZZ.ch",
+    "documentId": "10013822",
+    "layout": "longformvisual",
+    "publicationDate": "2026-07-27T03:30:00.000Z",
+    "publicationLastUpdated": "2026-08-14T16:43:11.368Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-07-27T15:30:00.000Z",
+    "teaserCaption": "A Paris exhibition presents the fascinating life of photographer Lee Miller. She is the woman who forced the world to look closely.",
+    "authorLine": "Jürg Müller, Paris (text), Andrea Mittelholzer (photo editing)",
+    "url": "https://www.nzz.ch/feuilleton/kunst_architektur/aus-irgendeinem-grund-moechte-ich-immer-lieber-woanders-hin-ld.10013822",
+    "department": {
+     "name": "Art & Architecture",
+     "path": "/feuilleton/kunst_architektur"
+    },
+    "estimationWordCount": 1538,
+    "leadText": "A Paris exhibition presents the fascinating life of photographer Lee Miller. She is the woman who forced the world to look closely.",
+    "nzzSummaryIsAuto": true,
+    "locale": "de-CH"
+   },
+   {
+    "title": "Police instead of pilgrimage site: Austria wants to strip Hitler's birthplace of its symbolic power",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "teaserImage": {
+     "originalUrl": "/2026/07/22/87b6b695-d2f4-4595-939a-08bf08d338d2.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/07/22/87b6b695-d2f4-4595-939a-08bf08d338d2.jpg?width=1024&quality=75&auto=webp",
+     "width": 5196,
+     "height": 3464,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "5196,2923,x0,y238"
+      },
+      {
+       "name": "4:3",
+       "crop": "4619,3464,x0,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "3464,3464,x0,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "2598,3464,x1299,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "5196,3464,x0,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "After years of controversy, a police station has moved into Braunau's most famous address. Austria wants to «neutralize» the location to keep neo-Nazis away.",
+     "teaserAuthor": "Martin Divisek / EPA"
+    },
+    "teaserAuthor": "Martin Divisek / EPA",
+    "tags": [
+     "Europa"
+    ],
+    "nzzId": "ld.10016134",
+    "readingTime": 360,
+    "paywallQuestionOne": "How does Austria intend to rid Hitler's birthplace of its symbolic power?",
+    "paywallQuestionTwo": "Why was a police station chosen as the building's use?",
+    "paywallQuestionThree": "Can the site be demystified despite the neo-Nazis' renovations?",
+    "characterCount": 7790,
+    "product": "NZZ.ch",
+    "documentId": "10016134",
+    "layout": "regular",
+    "publicationDate": "2026-07-23T03:30:00.000Z",
+    "publicationLastUpdated": "2026-07-23T10:46:39.717Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-07-23T15:30:00.000Z",
+    "teaserCaption": "After years of controversy, a police station has moved into Braunau's most famous address. Austria wants to «neutralize» the location to keep neo-Nazis away.",
+    "authorLine": "Meret Baumann, Braunau",
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2022/06/22/0ae19a9d-3bad-48bc-886b-1bfee061e0e8.png?crop=800,800,x0,y0&width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/international/polizei-statt-pilgerstaette-oesterreich-will-hitlers-geburtshaus-die-symbolkraft-nehmen-ld.10016134",
+    "department": {
+     "name": "International",
+     "path": "/international"
+    },
+    "estimationWordCount": 1182,
+    "leadText": "After years of controversy, a police station has moved into Braunau's most famous address. Austria wants to «neutralize» the location to keep neo-Nazis away.",
+    "nzzSummaryIsAuto": true,
+    "hasQ": true,
+    "locale": "de-CH"
+   },
+   {
+    "title": "Her father was involved in the Stauffenberg assassination attempt – how Christa Funk-Finckh escaped the Nazis",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "teaserImage": {
+     "originalUrl": "/2026/07/15/07d6a49f-7aad-4a9c-8753-62ad989fff59.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/07/15/07d6a49f-7aad-4a9c-8753-62ad989fff59.jpg?width=1024&quality=75&auto=webp",
+     "width": 2752,
+     "height": 1856,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "2752,1548,x0,y116"
+      },
+      {
+       "name": "4:3",
+       "crop": "2475,1856,x0,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "1856,1856,x47,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "1392,1856,x370,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "2752,1835,x0,y21"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "Eberhard Finckh was murdered by the Nazi regime in Berlin-Plötzensee. This is shown in documents that are being made available to the general public for the first time. His daughter was five years old at the time. Later, she moved to Zurich to live with her Jewish godmother.",
+     "teaserAuthor": "Ullstein / Getty"
+    },
+    "teaserAuthor": "Ullstein / Getty",
+    "characterCount": 16858,
+    "teaserCarouselOne": {
+     "originalUrl": "/2026/07/15/07d6a49f-7aad-4a9c-8753-62ad989fff59.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/07/15/07d6a49f-7aad-4a9c-8753-62ad989fff59.jpg?width=1024&quality=75&auto=webp",
+     "width": 2752,
+     "height": 1856,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "2752,1548,x0,y110"
+      },
+      {
+       "name": "1:1",
+       "crop": "1856,1856,x101,y0"
+      },
+      {
+       "name": "4:3",
+       "crop": "2475,1856,x0,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "1392,1856,x392,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "2752,1835,x0,y21"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "teaserCarouselTwo": {
+     "originalUrl": "/2026/07/15/4a0ec1ce-8a7f-425c-beba-a2ece93ee190.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/07/15/4a0ec1ce-8a7f-425c-beba-a2ece93ee190.jpg?width=1024&quality=75&auto=webp",
+     "width": 3713,
+     "height": 2755,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "3713,2089,x0,y404"
+      },
+      {
+       "name": "1:1",
+       "crop": "2755,2755,x55,y0"
+      },
+      {
+       "name": "4:3",
+       "crop": "3673,2755,x0,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "2066,2755,x256,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "3713,2475,x0,y280"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "teaserCarouselThree": {
+     "originalUrl": "/2026/07/15/953dbb3e-b26c-420c-b22d-a8ed44b00378.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/07/15/953dbb3e-b26c-420c-b22d-a8ed44b00378.jpg?width=1024&quality=75&auto=webp",
+     "width": 4128,
+     "height": 2752,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "4128,2322,x0,y211"
+      },
+      {
+       "name": "1:1",
+       "crop": "2752,2752,x710,y0"
+      },
+      {
+       "name": "4:3",
+       "crop": "3669,2752,x255,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "2064,2752,x521,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "4128,2752,x0,y0"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "editor": "1372409",
+    "nzzId": "ld.10009303",
+    "readingTime": 840,
+    "paywallQuestionOne": "How did Eberhard Finckh's stance influence the resistance against the Nazis?",
+    "paywallQuestionTwo": "What role did Christa Funk-Finckh's family play after the assassination?",
+    "paywallQuestionThree": "How did Christa Funk-Finckh experience the post-war period in Switzerland?",
+    "product": "NZZ.ch",
+    "documentId": "10009303",
+    "layout": "longformvisual",
+    "publicationDate": "2026-07-20T06:39:56.167Z",
+    "publicationLastUpdated": "2026-07-20T06:39:56.167Z",
+    "significantUpdate": true,
+    "significantUpdateTill": "2026-07-20T18:39:56.167Z",
+    "teaserCaption": "Eberhard Finckh was murdered by the Nazi regime in Berlin-Plötzensee. This is shown in documents that are being made available to the general public for the first time. His daughter was five years old at the time. Later, she moved to Zurich to live with her Jewish godmother.",
+    "authorLine": "Katja Baigger (text), Karin Hofer (images)",
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2023/08/29/8eae34de-c77d-4729-b6e1-4e0c694f50e4.png?crop=800,800,x0,y0&width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/zuerich/20-juli-1944-tochter-eines-hitler-attentaeters-erzaehlt-ihre-geschichte-ld.10009303",
+    "department": {
+     "name": "Zurich",
+     "path": "/zuerich"
+    },
+    "estimationWordCount": 2773,
+    "leadText": "Eberhard Finckh was murdered by the Nazi regime in Berlin-Plötzensee. This is shown in documents that are being made available to the general public for the first time. His daughter was five years old at the time. Later, she moved to Zurich to live with her Jewish godmother.",
+    "nzzSummaryIsAuto": true,
+    "locale": "de-CH"
+   },
+   {
+    "title": "The Bayreuth Festival and the question: Why do we like art that is morally questionable?",
+    "showHeader": true,
+    "owner": "NZZaS",
+    "language": {
+     "locale": "de"
+    },
+    "teaserImage": {
+     "originalUrl": "/2026/07/16/63f92318-e7d2-42cb-8d29-51a7c8bd928b.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/07/16/63f92318-e7d2-42cb-8d29-51a7c8bd928b.jpg?width=1024&quality=75&auto=webp",
+     "width": 3675,
+     "height": 2476,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "3675,2067,x0,y261"
+      },
+      {
+       "name": "4:3",
+       "crop": "3301,2476,x0,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "2476,2476,x127,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "1857,2476,x437,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "3675,2450,x0,y26"
+      }
+     ],
+     "focalPoint": {
+      "x": 1365,
+      "y": 1294
+     },
+     "imageService": "fastly",
+     "teaserCaption": "The Bayreuth festival is celebrating its 150th anniversary. And, as always, it is sold out, despite its dark past, which extends far beyond 1945.",
+     "teaserAuthor": "Miguel Villagran / Getty"
+    },
+    "teaserAuthor": "Miguel Villagran / Getty",
+    "nzzId": "ld.10015395",
+    "readingTime": 480,
+    "paywallQuestionOne": "Why does Richard Wagner fascinate people despite his anti-Semitic past?",
+    "paywallQuestionTwo": "How does aesthetics influence the moral evaluation of art and artists?",
+    "paywallQuestionThree": "Is it possible to separate the work and the ideology in the case of artists like Wagner or Riefenstahl?",
+    "characterCount": 10186,
+    "product": "NZZ.ch",
+    "documentId": "10015395",
+    "layout": "regular",
+    "publicationDate": "2026-07-19T03:30:00.000Z",
+    "publicationLastUpdated": "2026-07-22T09:51:55.589Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-07-19T15:30:00.000Z",
+    "teaserCaption": "The Bayreuth festival is celebrating its 150th anniversary. And, as always, it is sold out, despite its dark past, which extends far beyond 1945.",
+    "authorLine": "Anna Kardos",
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2024/04/30/cb001be7-3a1c-4d8a-8c6d-ef64caf31b52.png?width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/feuilleton/der-unwiderstehliche-reiz-der-unmoral-ld.10015395",
+    "department": {
+     "name": "Arts & Culture",
+     "path": "/feuilleton"
+    },
+    "estimationWordCount": 1535,
+    "leadText": "The Bayreuth festival is celebrating its 150th anniversary. And, as always, it is sold out, despite its dark past, which extends far beyond 1945.",
+    "nzzSummaryIsAuto": true,
+    "locale": "de-CH"
+   }
+  ]
+ },
+ "btaNZZaSFeed": {
+  "meta": {
+   "name": "NZZ am Sonntag",
+   "path": "/nzz-am-sonntag"
+  },
+  "data": [
+   {
+    "title": "Hybrid Warfare and Playing with Fire on the Eastern Flank: How Far Will Putin Go? And are Europeans prepared?",
+    "showHeader": true,
+    "owner": "NZZaS",
+    "language": {
+     "locale": "de"
+    },
+    "authorLine": "Andrea Jeska, David Axe, Alain Zucker",
+    "nzzasFootnote": true,
+    "nzzId": "ld.10021091",
+    "readingTime": 420,
+    "paywallQuestionOne": "How is Europe responding to Russia's hybrid attacks?",
+    "paywallQuestionTwo": "What role does support for Ukraine play in the conflict?",
+    "paywallQuestionThree": "How could Russia escalate further?",
+    "characterCount": 10159,
+    "teaserImage": {
+     "originalUrl": "/2026/08/29/f81cc725-5d33-4092-b102-c0c15f310843.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/08/29/f81cc725-5d33-4092-b102-c0c15f310843.jpg?width=1024&quality=75&auto=webp",
+     "width": 2836,
+     "height": 1474,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "2620,1474,x111,y0"
+      },
+      {
+       "name": "4:3",
+       "crop": "1965,1474,x417,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "1474,1474,x671,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "1106,1474,x825,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "2211,1474,x329,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "Russia warns Europeans about transferring missile technology to Ukraine. CIA chief John Ratcliffe flies to Moscow, while NATO holds an exercise on its eastern flank. Signs point to escalation.",
+     "teaserAuthor": "Illustration by Elia Barbieri for NZZaS"
+    },
+    "teaserAuthor": "Illustration by Elia Barbieri for NZZaS",
+    "product": "NZZ.ch",
+    "documentId": 10021091,
+    "layout": "regular",
+    "publicationDate": "2026-08-30T03:30:00.000Z",
+    "publicationLastUpdated": "2026-08-30T03:30:00.000Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-08-30T15:30:00.000Z",
+    "teaserCaption": "Russia warns Europeans about transferring missile technology to Ukraine. CIA chief John Ratcliffe flies to Moscow, while NATO holds an exercise on its eastern flank. Signs point to escalation.",
+    "url": "https://www.nzz.ch/international/hybrider-krieg-und-das-zuendeln-an-der-ostflanke-wie-weit-wird-putin-gehen-und-sind-die-europaeer-vorbereitet-ld.10021091",
+    "department": {
+     "name": "International",
+     "path": "/international"
+    },
+    "estimationWordCount": 1481,
+    "leadText": "Russia warns Europeans about transferring missile technology to Ukraine. CIA chief John Ratcliffe flies to Moscow, while NATO holds an exercise on its eastern flank. Signs point to escalation.",
+    "nzzSummaryIsAuto": true,
+    "containerId": "doc-1jje3h7kv0",
+    "containerPosition": 1,
+    "containerTitle": "NZZ am Sonntag",
+    "editorialScore": 0,
+    "positionInContainer": 1,
+    "hasQ": true,
+    "locale": "de-CH"
+   },
+   {
+    "showHeader": true,
+    "owner": "NZZaS",
+    "language": {
+     "locale": "de"
+    },
+    "teaserImage": {
+     "originalUrl": "/2026/08/28/fbe92494-1ec9-4631-9df3-31b7a615550e.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/08/28/fbe92494-1ec9-4631-9df3-31b7a615550e.jpg?width=1024&quality=75&auto=webp",
+     "width": 5602,
+     "height": 3735,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "5602,3151,x0,y439"
+      },
+      {
+       "name": "4:3",
+       "crop": "4116,3087,x1,y503"
+      },
+      {
+       "name": "1:1",
+       "crop": "2806,2806,x622,y594"
+      },
+      {
+       "name": "3:4",
+       "crop": "2315,3087,x842,y567"
+      },
+      {
+       "name": "3:2",
+       "crop": "4209,2806,x0,y492"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "The FDP politician criticizes parliamentary attempts to alter the negotiated agreement with the EU. She also defends her party's parliamentarians for ignoring a vote by their own delegates on a key provision.",
+     "teaserAuthor": "Andrea Zahle"
+    },
+    "teaserAuthor": "Andrea Zahle",
+    "title": "FDP co-president Susanne Vincenz-Stauffacher on the start of the European debate: «That was a false start»",
+    "nzzasFootnote": true,
+    "nzzId": "ld.10020993",
+    "readingTime": 540,
+    "paywallQuestionOne": "How does the FDP assess the attempts to change the EU negotiation outcome?",
+    "paywallQuestionTwo": "Why is the FDP ignoring the vote of its delegates against the majority of cantons?",
+    "paywallQuestionThree": "How does the FDP intend to finance the army without raising taxes?",
+    "characterCount": 11294,
+    "flag": "interview",
+    "tags": [
+     "Schweiz und die EU"
+    ],
+    "product": "NZZ.ch",
+    "documentId": 10020993,
+    "layout": "regular",
+    "publicationDate": "2026-08-29T19:45:00.000Z",
+    "publicationLastUpdated": "2026-08-31T08:16:16.249Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-08-30T07:45:00.000Z",
+    "teaserCaption": "The FDP politician criticizes parliamentary attempts to alter the negotiated agreement with the EU. She also defends her party's parliamentarians for ignoring a vote by their own delegates on a key provision.",
+    "authorLine": "Daniel Foppa, Simon Marti",
+    "authorImage": {
+     "originalUrl": "/2024/05/28/7536f440-0c11-4f0f-86f5-1139121b3bb6.webp?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2024/05/28/7536f440-0c11-4f0f-86f5-1139121b3bb6.webp?width=1024&quality=75&auto=webp",
+     "width": 480,
+     "height": 480,
+     "crops": [
+      {
+       "name": "1:1",
+       "crop": "480,480,x0,y0"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2024/05/28/7536f440-0c11-4f0f-86f5-1139121b3bb6.webp?width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/schweiz/fdp-co-praesidentin-vincenz-stauffacher-zum-auftakt-der-europadebatte-das-war-ein-fehlstart-ld.10020993",
+    "department": {
+     "name": "Switzerland",
+     "path": "/schweiz"
+    },
+    "estimationWordCount": 1703,
+    "leadText": "The FDP politician criticizes parliamentary attempts to alter the negotiated agreement with the EU. She also defends her party's parliamentarians for ignoring a vote by their own delegates on a key provision.",
+    "nzzSummaryIsAuto": true,
+    "containerId": "doc-1jje3h7kv0",
+    "containerPosition": 1,
+    "containerTitle": "NZZ am Sonntag",
+    "editorialScore": 0,
+    "positionInContainer": 2,
+    "locale": "de-CH"
+   },
+   {
+    "title": "Deep relaxation in nature, young people with ideas, and the best butter tea in the world. A small ode to Nepal",
+    "showHeader": true,
+    "owner": "NZZaS",
+    "language": {
+     "locale": "de"
+    },
+    "authorLine": "Stephanie Geiger",
+    "nzzasFootnote": true,
+    "teaserImage": {
+     "originalUrl": "/2026/08/29/d217a4cb-2734-400a-9291-ed353fc801cc.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/08/29/d217a4cb-2734-400a-9291-ed353fc801cc.jpg?width=1024&quality=75&auto=webp",
+     "width": 5500,
+     "height": 3712,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "5500,3094,x0,y309"
+      },
+      {
+       "name": "4:3",
+       "crop": "4949,3712,x275,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "3712,3712,x894,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "2784,3712,x1358,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "5500,3667,x0,y23"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "Despite the tragedy: A return to Nepal soon",
+     "teaserAuthor": "Francis Mascarenhas / Reuters"
+    },
+    "teaserAuthor": "Francis Mascarenhas / Reuters",
+    "nzzId": "ld.10021585",
+    "readingTime": 360,
+    "paywallQuestionOne": "How do natural disasters affect the lives of people in Nepal?",
+    "paywallQuestionTwo": "How is Nepal changing through electromobility and infrastructure projects?",
+    "paywallQuestionThree": "What role does the younger generation play in Nepal's development?",
+    "characterCount": 7555,
+    "product": "NZZ.ch",
+    "documentId": 10021585,
+    "layout": "regular",
+    "publicationDate": "2026-08-30T03:30:00.000Z",
+    "publicationLastUpdated": "2026-08-30T03:30:00.000Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-08-30T15:30:00.000Z",
+    "teaserCaption": "Despite the tragedy: A return to Nepal soon",
+    "url": "https://www.nzz.ch/international/tiefenentspannung-in-der-natur-junge-menschen-mit-ideen-und-der-beste-buttertee-der-welt-eine-kleine-ode-an-nepal-ld.10021585",
+    "department": {
+     "name": "International",
+     "path": "/international"
+    },
+    "estimationWordCount": 1239,
+    "leadText": "Despite the tragedy: A return to Nepal soon",
+    "nzzSummaryIsAuto": true,
+    "containerId": "doc-1jje3h7kv0",
+    "containerPosition": 1,
+    "containerTitle": "NZZ am Sonntag",
+    "editorialScore": 0,
+    "positionInContainer": 3,
+    "hasQ": true,
+    "locale": "de-CH"
+   },
+   {
+    "title": "Rapper Stress: «I measured my self-worth by how successful I am. Nothing good can come of that. Not even good music»",
+    "showHeader": true,
+    "owner": "NZZaS",
+    "language": {
+     "locale": "de"
+    },
+    "teaserImage": {
+     "originalUrl": "/2026/08/25/684e0281-49d4-4913-a6e8-b81c12707b8c.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/08/25/684e0281-49d4-4913-a6e8-b81c12707b8c.jpg?width=1024&quality=75&auto=webp",
+     "width": 1920,
+     "height": 1440,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "1920,1080,x0,y0"
+      },
+      {
+       "name": "4:3",
+       "crop": "1920,1440,x0,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "1440,1440,x373,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "1080,1440,x553,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "1920,1280,x0,y0"
+      }
+     ],
+     "focalPoint": {
+      "x": 1093,
+      "y": 307
+     },
+     "imageService": "fastly",
+     "teaserCaption": "Stress is the most successful rapper in Switzerland. For years he has spoken openly about his depression. He wanted to write a self-help book about how he found his way back to life – until physical pain forced him to start all over again.",
+     "teaserAuthor": "Sébastien Agnetti"
+    },
+    "teaserAuthor": "Sébastien Agnetti",
+    "nzzasFootnote": true,
+    "nzzId": "ld.10018314",
+    "readingTime": 780,
+    "paywallQuestionOne": "How did Stress's success affect his mental health?",
+    "paywallQuestionTwo": "Why does Stress view his book more as a testimony than as a guide?",
+    "paywallQuestionThree": "What role does childhood play in Stress's personal development?",
+    "characterCount": 14907,
+    "flag": "interview",
+    "product": "NZZ.ch",
+    "documentId": 10018314,
+    "layout": "longformstandard",
+    "publicationDate": "2026-08-30T03:29:00.000Z",
+    "publicationLastUpdated": "2026-08-30T03:29:00.000Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-08-30T15:29:00.000Z",
+    "teaserCaption": "Stress is the most successful rapper in Switzerland. For years he has spoken openly about his depression. He wanted to write a self-help book about how he found his way back to life – until physical pain forced him to start all over again.",
+    "authorLine": "Frank Heer",
+    "authorImage": {
+     "originalUrl": "/2025/02/19/4d0a1c14-762f-4a79-943b-8695aaa4d40d.jpeg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2025/02/19/4d0a1c14-762f-4a79-943b-8695aaa4d40d.jpeg?width=1024&quality=75&auto=webp",
+     "width": 4128,
+     "height": 2752,
+     "crops": [
+      {
+       "name": "1:1",
+       "crop": "2752,2752,x688,y0"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2025/02/19/4d0a1c14-762f-4a79-943b-8695aaa4d40d.jpeg?width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/feuilleton/rapper-stress-ich-habe-meinen-selbstwert-daran-gemessen-wie-erfolgreich-ich-bin-daraus-kann-nichts-gutes-entstehen-auch-keine-gute-musik-ld.10018314",
+    "department": {
+     "name": "Arts & Culture",
+     "path": "/feuilleton"
+    },
+    "estimationWordCount": 2521,
+    "leadText": "Stress is the most successful rapper in Switzerland. For years he has spoken openly about his depression. He wanted to write a self-help book about how he found his way back to life – until physical pain forced him to start all over again.",
+    "nzzSummaryIsAuto": true,
+    "containerId": "doc-1jje3h7kv0",
+    "containerPosition": 1,
+    "containerTitle": "NZZ am Sonntag",
+    "editorialScore": 0,
+    "positionInContainer": 4,
+    "locale": "de-CH"
+   },
+   {
+    "title": "Condominium nightmare: How owners become bitter enemies",
+    "showHeader": true,
+    "owner": "NZZaS",
+    "language": {
+     "locale": "de"
+    },
+    "characterCount": 13550,
+    "nzzasFootnote": true,
+    "nzzId": "ld.10014125",
+    "readingTime": 600,
+    "paywallQuestionOne": "What challenges does condominium ownership pose for the owners?",
+    "paywallQuestionTwo": "Why do renovations often fail due to financial and legal hurdles?",
+    "paywallQuestionThree": "How could the revision of condominium ownership law defuse conflicts?",
+    "teaserImage": {
+     "originalUrl": "/2026/08/29/75186538-5fe8-4736-8335-f7b57a064317.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/08/29/75186538-5fe8-4736-8335-f7b57a064317.jpg?width=1024&quality=75&auto=webp",
+     "width": 6034,
+     "height": 3395,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "6034,3394,x0,y0"
+      },
+      {
+       "name": "4:3",
+       "crop": "4527,3395,x754,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "3395,3395,x1320,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "2546,3395,x1744,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "5093,3395,x471,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "Those who can't afford a house opt for condominium ownership. But in practice, this often turns into a nerve-wracking battle over garden benches, awning colors, and bicycle shelters. And that's nothing compared to the woes associated with renovations.",
+     "teaserAuthor": "Illustration by Elia Barbieri for NZZaS"
+    },
+    "teaserAuthor": "Illustration by Elia Barbieri for NZZaS",
+    "product": "NZZ.ch",
+    "documentId": 10014125,
+    "layout": "regular",
+    "publicationDate": "2026-08-30T03:30:00.000Z",
+    "publicationLastUpdated": "2026-08-30T03:30:00.000Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-08-30T15:30:00.000Z",
+    "teaserCaption": "Those who can't afford a house opt for condominium ownership. But in practice, this often turns into a nerve-wracking battle over garden benches, awning colors, and bicycle shelters. And that's nothing compared to the woes associated with renovations.",
+    "authorLine": "Jürg Zulliger",
+    "authorImage": {
+     "originalUrl": "/2024/01/31/abcf5b13-0bb2-4dd2-91da-b56035766bfb.jpeg?crop=2625,2625,x0,y438",
+     "url": "https://img-msp-prod.nzz.ch/2024/01/31/abcf5b13-0bb2-4dd2-91da-b56035766bfb.jpeg?crop=2625,2625,x0,y438&width=1024&quality=75&auto=webp",
+     "width": 2625,
+     "height": 3500,
+     "imageService": "fastly",
+     "crop": {
+      "name": "1:1",
+      "x": 0,
+      "y": 438,
+      "width": 2625,
+      "height": 2625
+     },
+     "crops": []
+    },
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2024/01/31/abcf5b13-0bb2-4dd2-91da-b56035766bfb.jpeg?crop=2625,2625,x0,y438&width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/wirtschaft/albtraum-eigentumswohnung-wie-stockwerkeigentuemer-zu-erbitterten-feinden-werden-ld.10014125",
+    "department": {
+     "name": "Economy",
+     "path": "/wirtschaft"
+    },
+    "estimationWordCount": 1930,
+    "leadText": "Those who can't afford a house opt for condominium ownership. But in practice, this often turns into a nerve-wracking battle over garden benches, awning colors, and bicycle shelters. And that's nothing compared to the woes associated with renovations.",
+    "nzzSummaryIsAuto": true,
+    "containerId": "doc-1jje3h7kv0",
+    "containerPosition": 1,
+    "containerTitle": "NZZ am Sonntag",
+    "editorialScore": 0,
+    "positionInContainer": 5,
+    "locale": "de-CH"
+   }
+  ]
+ },
+ "digitalData": {
+  "component": [
+   {
+    "id": "ld.10012889",
+    "name": "The cradle of evil: Adolf Hitler's birthplace becomes a police station. Can a house be decontaminated?",
+    "type": "article",
+    "subType1": "longformvisual",
+    "subType2": "",
+    "primaryCategory": "NZZ am Sonntag Magazin",
+    "subCategory1": "",
+    "attributes": {
+     "headline": "The cradle of evil: Adolf Hitler's birthplace becomes a police station. Can a house be decontaminated?",
+     "firstPublishTitle": "",
+     "catchline": "",
+     "authors": [
+      {
+       "id": 1371950,
+       "name": "Sacha Batthyany",
+       "shortName": "bat",
+       "pianoId": "5dbeb689-1c00-43ff-9581-9e446297618f",
+       "external": false
+      }
+     ],
+     "issueTimestamp": "2026-06-28T03:30:00.000Z",
+     "updateTimestamp": "2026-06-28T03:30:00.000Z",
+     "isSponsoredContent": false,
+     "isPro": false,
+     "isLiveticker": false,
+     "flag": "",
+     "owner": "NZZaS"
+    }
+   }
+  ],
+  "page": {
+   "pageId": "ld.10012889",
+   "pageType": "longformvisual",
+   "primaryCategory": "NZZ am Sonntag Magazin",
+   "subCategory1": "",
+   "subCategory2": "",
+   "language": "en-US"
+  },
+  "version": "2.0",
+  "user": {},
+  "event": []
+ },
+ "seoData": {
+  "title": "Hitler's birthplace in Braunau is being turned into a police station: Is that possible?",
+  "image": {
+   "url": "https://img-msp-prod.nzz.ch/2026/06/25/bf30d58c-c955-46ad-a35a-b38597a70646.jpg?width=1200&height=675&fit=bounds&quality=75&auto=webp&crop=3683,2072,x0,y1119&wmark=nzz",
+   "type": "image/jpeg",
+   "width": 1200,
+   "height": 675
+  },
+  "author": "Sacha Batthyany (text), Roderick Aichinger (photos)",
+  "description": "A police command is moving into the place where Adolf Hitler was born: Braunau, a city in Austria, is grappling with its toxic legacy.",
+  "news_keywords": "The Cradle of Evil: Adolf Hitler's birthplace becomes a police station. Can a house be decontaminated?, NZZ am Sonntag Magazine, News, NZZ",
+  "type": "article",
+  "last-modified": "2026-06-28T07:30:00+02:00",
+  "date": "2026-06-28T07:30:00+02:00",
+  "canonical": "https://www.nzz.ch/nzz-am-sonntag-magazin/hitlers-geburtshaus-in-braunau-wird-zur-polizeiwache-geht-das-ld.10012889",
+  "fb:app_id": 138008459595436,
+  "fb:pages": 143694099006529,
+  "fb:admins": 1592685173,
+  "locale": "de",
+  "email": "online.redaktion@nzz.ch",
+  "site_name": "Neue Zürcher Zeitung",
+  "copyright": "2026 Neue Zürcher Zeitung AG, Schweiz",
+  "robots": "noindex, nofollow, noarchive, noodp",
+  "hreflang": [],
+  "sharedTitle": "The cradle of evil: Adolf Hitler's birthplace becomes a police station. Can a house be decontaminated?",
+  "ogTitle": "Police move into the town where Hitler was born: How is Braunau dealing with its toxic legacy?",
+  "ogUrl": "https://www.nzz.ch/nzz-am-sonntag-magazin/hitlers-geburtshaus-in-braunau-wird-zur-polizeiwache-geht-das-ld.10012889",
+  "mrf:cms_id": "nzz:ld.10012889",
+  "mrf:sections": "NZZ am Sonntag Magazin",
+  "mrf:tags": "Page Type:longformvisual;Editorial Owner:NZZaS;Content Type:Standard Article;Article ID:ld.10012889",
+  "nzzAuthors": [
+   {
+    "id": 1371950,
+    "name": "Sacha Batthyany",
+    "shortName": "bat",
+    "pianoId": "5dbeb689-1c00-43ff-9581-9e446297618f",
+    "external": false
+   }
+  ],
+  "links": [
+   {
+    "rel": "canonical",
+    "href": "https://www.nzz.ch/nzz-am-sonntag-magazin/hitlers-geburtshaus-in-braunau-wird-zur-polizeiwache-geht-das-ld.10012889"
+   },
+   {
+    "rel": "search",
+    "href": "/suche",
+    "title": "Suche Neue Zürcher Zeitung, Schweiz, https://www.nzz.ch/suche"
+   }
+  ],
+  "renderedAt": "Thu, 03 Sep 2026 09:31:52 GMT"
+ },
+ "structuredData": [
+  {
+   "@context": "https://schema.org",
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "item": {
+      "@id": "/",
+      "name": "Home"
+     }
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "item": {
+      "@id": "/nzz-am-sonntag-magazin",
+      "name": "NZZ am Sonntag Magazine"
+     }
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Hitler's birthplace in Braunau is being turned into a police station: Is that possible?"
+    }
+   ]
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": "NewsArticle",
+   "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.nzz.ch/nzz-am-sonntag-magazin/hitlers-geburtshaus-in-braunau-wird-zur-polizeiwache-geht-das-ld.10012889"
+   },
+   "headline": "Hitler's birthplace in Braunau is being turned into a police station: Is that possible?",
+   "datePublished": "2026-06-28T07:30:00+02:00",
+   "dateModified": "2026-06-28T07:30:00+02:00",
+   "publisher": {
+    "@type": "NewsMediaOrganization",
+    "name": "Neue Zürcher Zeitung",
+    "url": "https://www.nzz.ch",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://www.nzz.ch/logo.png",
+     "width": 413,
+     "height": 60
+    },
+    "contactPoint": [
+     {
+      "@type": "ContactPoint",
+      "telephone": "+41-44-2581000",
+      "contactType": "customer service"
+     }
+    ],
+    "sameAs": [
+     "https://www.facebook.com/nzz",
+     "https://www.twitter.com/nzz",
+     "https://www.youtube.com/channel/UCK1aTcR0AckQRLTlK0c4fuQ",
+     "https://www.linkedin.com/company/neue-zurcher-zeitung",
+     "https://www.instagram.com/nzz/",
+     "https://de.wikipedia.org/wiki/Neue_Z%C3%BCrcher_Zeitung",
+     "https://www.wikidata.org/wiki/Q658945",
+     "https://plus.google.com/+nzz/",
+     "http://www.freebase.com/m/041b43"
+    ],
+    "masthead": "https://www.nzz.ch/impressum/impressum-ld.148422",
+    "foundingDate": "1780"
+   },
+   "description": "A police command is moving into the place where Adolf Hitler was born: Braunau, a city in Austria, is grappling with its toxic legacy.",
+   "isAccessibleForFree": false,
+   "articleSection": "NZZ am Sonntag Magazin",
+   "hasPart": {
+    "@type": "WebPageElement",
+    "isAccessibleForFree": false,
+    "cssSelector": ".nzzinteraction"
+   },
+   "image": {
+    "@type": "ImageObject",
+    "url": "https://img-msp-prod.nzz.ch/2026/06/25/bf30d58c-c955-46ad-a35a-b38597a70646.jpg?width=1200&height=675&fit=bounds&quality=75&auto=webp&crop=3683,2072,x0,y1119&wmark=nzz",
+    "width": 1200,
+    "height": 675
+   },
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Sacha Batthyany"
+    }
+   ],
+   "inLanguage": "de"
+  }
+ ],
+ "mp3": true,
+ "mp3Duration": 1268952,
+ "bT": {
+  "standard": {
+   "Tags": [
+    "/nzz-am-sonntag-magazin/hitlers-geburtshaus-in-braunau-wird-zur-polizeiwache-geht-das-ld.10012889",
+    "classification=default",
+    "relevance=germany",
+    "layout=longformvisual",
+    "owner=nzzas",
+    "product=nzz",
+    "doctype=article",
+    "pagetype=article",
+    "ldid=ld.10012889",
+    "channel=NZZ am Sonntag Magazin"
+   ],
+   "ContentCreated": "2026-06-28T03:30:00.000Z",
+   "ContentAuthor": "Sacha Batthyany (Text), Roderick Aichinger (Fotos)",
+   "ContentSection": "NZZ am Sonntag Magazin",
+   "ContentIsNative": true
+  },
+  "custom": {
+   "product": "nzz",
+   "docType": "article",
+   "pageType": "article",
+   "layout": "longformvisual",
+   "nzzAbstract": "Wie beeinflusst Hitlers Geburtshaus die Identität von Braunau?\nIst die Umwandlung in eine Polizeiwache eine kluge Lösung?\nWie sollte mit NS-Erinnerungsorten umgegangen werden?",
+   "ldId": "ld.10012889",
+   "channel": "NZZ am Sonntag Magazin",
+   "heading": "Die Wiege des Bösen: Aus Adolf Hitlers Geburtsstätte wird eine Polizeiwache. Kann man ein Haus entgiften?",
+   "language": "en-US"
+  }
+ },
+ "webviewMetadata": {},
+ "cacheTime": 3600
+}

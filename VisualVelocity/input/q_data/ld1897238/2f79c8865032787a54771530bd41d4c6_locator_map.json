@@ -1,0 +1,264 @@
+{
+  "_id": "2f79c8865032787a54771530bd41d4c6",
+  "_rev": "11-cea74b381ab6717083ce143fe9eb84af",
+  "tool": "locator_map",
+  "title": "The long journey of smuggled elephants",
+  "active": true,
+  "acronym": "wai.",
+  "options": {
+    "minimap": {
+      "options": {
+        "type": "region",
+        "region": {
+          "id": "Q819",
+          "label": ""
+        },
+        "position": "bottom-right"
+      },
+      "showMinimap": false
+    },
+    "baseLayer": {
+      "style": "basic",
+      "layers": {
+        "label": false
+      }
+    },
+    "dimension": {
+      "bbox": [
+        93.06265185319596,
+        9.187483194563654,
+        112.02326781321102,
+        27.1149723224338
+      ],
+      "useDefaultAspectRatio": true
+    },
+    "showLegend": true,
+    "labelsBelowMap": false,
+    "highlightRegion": [
+      {
+        "id": "Q819",
+        "label": "China"
+      }
+    ],
+    "initialZoomLevel": -1,
+    "labelsBelowMapOneRow": true
+  },
+  "sources": [],
+  "subtitle": "Elephants are brought to Boten and then to China over the Laotian border",
+  "createdBy": "andrew.curry@lieferanten.nzz.ch",
+  "updatedBy": "simon.huwiler@nzz.ch",
+  "department": "default",
+  "createdDate": "2025-08-13T03:16:13.440Z",
+  "geojsonList": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.79600259661674,
+          22.01161287934399
+        ]
+      },
+      "properties": {
+        "type": "city",
+        "label": "Xishuangbanna",
+        "labelPosition": "left",
+        "useForInitialView": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.67259745299816,
+          21.184182299935024
+        ]
+      },
+      "properties": {
+        "type": "city",
+        "label": "Boten",
+        "labelPosition": "right",
+        "useForInitialView": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.70592289417982,
+          19.265310934125974
+        ]
+      },
+      "properties": {
+        "type": "city",
+        "label": "Xayaburi",
+        "labelPosition": "left",
+        "useForInitialView": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.6133705303073,
+          17.96409889648142
+        ]
+      },
+      "properties": {
+        "type": "city",
+        "label": "Vientiane",
+        "labelPosition": "right",
+        "useForInitialView": true
+      }
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                100.79600259661674,
+                22.01161287934399
+              ],
+              [
+                101.67259745299816,
+                21.184182299935024
+              ],
+              [
+                101.70592289417982,
+                19.265310934125974
+              ],
+              [
+                102.6133705303073,
+                17.96409889648142
+              ]
+            ]
+          },
+          "properties": {
+            "stroke": "#df7c18"
+          }
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.8541931127986,
+          15.232952256549892
+        ]
+      },
+      "properties": {
+        "type": "water",
+        "label": "South China Sea",
+        "labelPosition": "top",
+        "useForInitialView": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.87312733549165,
+          9.998911247267957
+        ]
+      },
+      "properties": {
+        "type": "water",
+        "label": "Andaman Sea",
+        "labelPosition": "top",
+        "useForInitialView": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.73248435091313,
+          15.010506985393905
+        ]
+      },
+      "properties": {
+        "type": "country",
+        "label": "Thailand",
+        "labelPosition": "top",
+        "useForInitialView": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.00380813779071,
+          19.96921171846087
+        ]
+      },
+      "properties": {
+        "type": "country",
+        "label": "Laos",
+        "labelPosition": "top",
+        "useForInitialView": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.36939911258594,
+          13.190816915661529
+        ]
+      },
+      "properties": {
+        "type": "country",
+        "label": "Vietnam",
+        "labelPosition": "top",
+        "useForInitialView": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          89.67212504090566,
+          24.477586690827636
+        ]
+      },
+      "properties": {
+        "type": "country",
+        "label": "Bangladesh",
+        "labelPosition": "top",
+        "useForInitialView": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.65767683841705,
+          25.81843296860704
+        ]
+      },
+      "properties": {
+        "type": "country",
+        "label": "China",
+        "labelPosition": "top",
+        "useForInitialView": true
+      }
+    }
+  ],
+  "publication": "nzz",
+  "updatedDate": "2025-08-13T07:42:46.875Z"
+}

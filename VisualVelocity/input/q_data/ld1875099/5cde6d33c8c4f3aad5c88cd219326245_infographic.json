@@ -1,0 +1,65 @@
+{
+  "_id": "5cde6d33c8c4f3aad5c88cd219326245",
+  "_rev": "8-a6981ef476cf5e916efa4109d44de670",
+  "tool": "infographic",
+  "title": "Holly",
+  "active": true,
+  "images": {
+    "variants": [
+      {
+        "images": [
+          {
+            "key": "2025/03/20/4mobile5x-ae1eeec5b6472cacb85227d1379510b8.png",
+            "url": "https://nzz-q-assets.s3.eu-west-1.amazonaws.com/2025/03/20/4mobile5x-ae1eeec5b6472cacb85227d1379510b8.png",
+            "size": 2886460,
+            "type": "image/png",
+            "width": 1851,
+            "height": 1470,
+            "originalName": "4mobile@5x.png"
+          }
+        ],
+        "minWidth": 0
+      },
+      {
+        "images": [
+          {
+            "key": "2025/03/20/4content5x-a97eabe49998d47121ab416464583114.png",
+            "url": "https://nzz-q-assets.s3.eu-west-1.amazonaws.com/2025/03/20/4content5x-a97eabe49998d47121ab416464583114.png",
+            "size": 4046147,
+            "type": "image/png",
+            "width": 3151,
+            "height": 1979,
+            "originalName": "4content@5x.png"
+          }
+        ],
+        "minWidth": 540
+      },
+      {
+        "images": [
+          {
+            "key": "2025/03/20/4container5x-a180ef891f5dbefb5533dd821a995848.png",
+            "url": "https://nzz-q-assets.s3.eu-west-1.amazonaws.com/2025/03/20/4container5x-a180ef891f5dbefb5533dd821a995848.png",
+            "size": 4540097,
+            "type": "image/png",
+            "width": 4501,
+            "height": 1919,
+            "originalName": "4container@5x.png"
+          }
+        ],
+        "minWidth": 830
+      }
+    ]
+  },
+  "acronym": "ida.",
+  "options": {
+    "serveLosslessWebP": false
+  },
+  "sources": [],
+  "subtitle": "",
+  "createdBy": "ida.goetz@nzz.ch",
+  "updatedBy": "ida.goetz@nzz.ch",
+  "department": "Visuals",
+  "createdDate": "2025-03-20T09:43:09.138Z",
+  "publication": "nzz",
+  "updatedDate": "2025-03-20T17:10:05.473Z"
+}

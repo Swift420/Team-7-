@@ -1,0 +1,87 @@
+{
+  "_id": "c1745b5b07ee7a7ffb15a38d968274bc",
+  "_rev": "3-1f8b0eb25ae4c7a3ff3eae1ded2e6a19",
+  "data": [
+    [
+      "Land",
+      "Menge"
+    ],
+    [
+      "China",
+      "4953"
+    ],
+    [
+      "Indien",
+      "1297"
+    ],
+    [
+      "USA",
+      "410"
+    ],
+    [
+      "EU",
+      "308"
+    ],
+    [
+      "Übrige Welt",
+      "1877"
+    ]
+  ],
+  "tool": "chart",
+  "title": "China verbraucht mehr Kohle als der Rest der Welt zusammen",
+  "active": true,
+  "events": [],
+  "acronym": "ra.",
+  "options": {
+    "chartType": "Bar",
+    "barOptions": {
+      "isBarChart": false,
+      "forceBarsOnSmall": false
+    },
+    "annotations": {},
+    "arrowOptions": {
+      "colorScheme": 0,
+      "invertColorScheme": false
+    },
+    "largeNumbers": {
+      "divideBy": 0
+    },
+    "hideAxisLabel": true,
+    "dotplotOptions": {},
+    "areaChartOptions": {
+      "stackType": "zero",
+      "areaInterpolation": "linear"
+    },
+    "lineChartOptions": {
+      "yScaleType": "linear",
+      "isStockChart": false,
+      "reverseYScale": false,
+      "lineInterpolation": "linear"
+    },
+    "dateSeriesOptions": {
+      "labels": "many",
+      "interval": "auto",
+      "prognosisStart": null
+    },
+    "highlightDataRows": [],
+    "colorOverwritesRows": [],
+    "highlightDataSeries": [],
+    "colorOverwritesSeries": []
+  },
+  "sources": [
+    {
+      "link": {
+        "url": "https://iea.blob.core.windows.net/assets/113a8274-500c-4684-951f-947d25bef3c9/Coal2025.pdf"
+      },
+      "text": "Internationale Energieagentur"
+    }
+  ],
+  "subtitle": "Grösste Konsumenten 2025, in Millionen Tonnen",
+  "createdBy": "michael.rasch@nzz.ch",
+  "updatedBy": "michael.rasch@nzz.ch",
+  "department": "Wirtschaft",
+  "createdDate": "2026-02-12T16:35:24.013Z",
+  "publication": "nzz",
+  "updatedDate": "2026-02-12T16:37:42.329Z",
+  "allowDownloadData": false
+}

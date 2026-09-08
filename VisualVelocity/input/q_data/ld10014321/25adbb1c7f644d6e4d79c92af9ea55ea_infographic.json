@@ -1,0 +1,64 @@
+{
+  "_id": "25adbb1c7f644d6e4d79c92af9ea55ea",
+  "_rev": "8-9326b9ba0ed47d38d030daccd56dc6dc",
+  "tool": "infographic",
+  "title": "Stark überbaute Gebiete kühlen in der Nacht weniger ab",
+  "active": true,
+  "images": {
+    "variants": [
+      {
+        "images": [
+          {
+            "key": "2025/08/12/Karte_ZurichZeichenflache-124x-35adf3614837fc18328e55ccc710da17.png",
+            "url": "https://nzz-q-assets2.static-nzz.ch/2025/08/12/Karte_ZurichZeichenflache-124x-35adf3614837fc18328e55ccc710da17.png",
+            "size": 745568,
+            "type": "image/png",
+            "width": 1481,
+            "height": 1607,
+            "originalName": "Karte_ZürichZeichenfläche 12@4x.png"
+          }
+        ],
+        "minWidth": 0
+      },
+      {
+        "images": [
+          {
+            "key": "2025/08/12/Karte_ZurichZeichenflache-12-Kopie4x-6931d734d1ed7ee100629cae57f5bf6a.png",
+            "url": "https://nzz-q-assets2.static-nzz.ch/2025/08/12/Karte_ZurichZeichenflache-12-Kopie4x-6931d734d1ed7ee100629cae57f5bf6a.png",
+            "size": 1201556,
+            "type": "image/png",
+            "width": 2521,
+            "height": 2204,
+            "originalName": "Karte_ZürichZeichenfläche 12 Kopie@4x.png"
+          }
+        ],
+        "minWidth": 540
+      },
+      {
+        "images": [
+          {}
+        ],
+        "minWidth": 830
+      }
+    ]
+  },
+  "acronym": "lea.",
+  "options": {
+    "serveLosslessWebP": false
+  },
+  "sources": [
+    {
+      "link": {
+        "url": "https://www.zh.ch/de/umwelt-tiere/klima/klimakarte-daten/karten/analysekarte_nacht.html"
+      },
+      "text": "Kanton Zürich"
+    }
+  ],
+  "subtitle": "Hitzeinseleffekt in der Stadt Zürich um 4 Uhr morgens, in Grad Celsius",
+  "createdBy": "anja.lemcke@nzz.ch",
+  "updatedBy": "nikolai.thelitz@nzz.ch",
+  "department": "Visuals",
+  "createdDate": "2025-07-14T15:02:45.084Z",
+  "publication": "nzz",
+  "updatedDate": "2026-06-22T11:46:55.451Z"
+}
