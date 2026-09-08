@@ -6,6 +6,7 @@ export interface TTSOptions {
   voiceName?: string;
   gender?: 'MALE' | 'FEMALE';
   author?: string;
+  mock?: boolean;
 }
 
 export interface AudioSynthesisResult {
@@ -14,7 +15,7 @@ export interface AudioSynthesisResult {
   wordCount: number;
   format: 'mp3';
   voiceUsed: string;
-  source: 'cloud-tts' | 'cache';
+  source: 'cloud-tts' | 'cache' | 'mock';
 }
 
 /**

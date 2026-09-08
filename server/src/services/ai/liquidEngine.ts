@@ -1,5 +1,5 @@
 import { buildLiquidPrompt, ArticleInput } from './liquidPromptBuilder.js';
-import { liquidDerivativesSchema, LiquidDerivatives } from './liquidSchemas.js';
+import { liquidDerivativesSchema, LiquidDerivatives, CarouselSlide } from './liquidSchemas.js';
 import { getAccessToken, getProjectId } from '../gcp/authService.js';
 import { getCached, setCached, generateCacheKey } from './cacheService.js';
 import { lintNZZStyle } from './nzzStyleLinter.js';
@@ -9,6 +9,7 @@ export interface GenerateOptions {
   model?: 'gemini-2.5-flash' | 'gemini-2.5-pro' | string;
   language?: 'en' | 'de';
   demoMode?: boolean;
+  mock?: boolean;
 }
 
 export async function generateLiquidDerivatives(

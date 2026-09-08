@@ -5,6 +5,7 @@ import multer from 'multer';
 import { mockCategories, mockOverview, mockPerformance, mockRegional, mockTimeSeries, mockTrafficSources } from './data/mockData.js';
 import { articleRouter } from './routes/articles.js';
 import { ArticleValidationError } from './services/articleParser.js';
+import { VisualizationAnalysisError } from './services/visualizationService.js';
 import { storyMapRouter } from './routes/storyMap.js';
 import { authRouter } from './routes/auth.js';
 import { liquidRouter } from './routes/liquidRoutes.js';

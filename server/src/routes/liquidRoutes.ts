@@ -152,9 +152,10 @@ liquidRouter.post('/articles', (req: Request, res: Response) => {
 // 1d. Update article
 liquidRouter.put('/articles/:id', (req: Request, res: Response) => {
   try {
-    const updated = db.updateArticle(req.params.id, req.body);
+    const articleId = String(req.params.id);
+    const updated = db.updateArticle(articleId, req.body);
     if (!updated) {
-      return res.status(404).json({ success: false, error: `Article ${req.params.id} not found` });
+      return res.status(404).json({ success: false, error: `Article ${articleId} not found` });
     }
     res.json({ success: true, article: updated });
   } catch (err: any) {
@@ -165,7 +166,8 @@ liquidRouter.put('/articles/:id', (req: Request, res: Response) => {
 // 1e. Delete article
 liquidRouter.delete('/articles/:id', (req: Request, res: Response) => {
   try {
-    const deleted = db.deleteArticle(req.params.id);
+    const articleId = String(req.params.id);
+    const deleted = db.deleteArticle(articleId);
     res.json({ success: true, deleted });
   } catch (err: any) {
     res.status(500).json({ success: false, error: err.message });

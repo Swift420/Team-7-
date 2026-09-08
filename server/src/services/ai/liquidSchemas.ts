@@ -248,3 +248,10 @@ export const liquidDerivativesSchema = z.object({
 });
 
 export type LiquidDerivatives = z.infer<typeof liquidDerivativesSchema>;
+export type CarouselSlide = z.infer<typeof carouselSlideSchema>;
+export type AudioBrief = z.infer<typeof audioBriefSchema>;
+export type ExecutiveNewsletter = z.infer<typeof executiveNewsletterSchema>;
+export type SocialStoryboard = z.infer<typeof socialStoryboardSchema>;
+export type InstagramCarousel = z.infer<typeof instagramCarouselSchema>;
+export type FactBox = z.infer<typeof factBoxSchema>;
+export type DialecticalFaq = z.infer<typeof dialecticalFaqSchema>;

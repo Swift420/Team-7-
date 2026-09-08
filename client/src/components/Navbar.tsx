@@ -1,5 +1,5 @@
 import React from 'react';
-import { BookOpen, ChevronDown, FilePenLine, FileUp, Lock, Search, Shield, UserRound, Sparkles } from 'lucide-react';
+import { ChevronDown, FilePenLine, FileUp, Lock, Search, Shield, UserRound } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
 import { useArticles } from '../context/ArticleContext';
 

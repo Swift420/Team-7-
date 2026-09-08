@@ -682,7 +682,7 @@
     "articleId": "ld.1886544",
     "payload": {
       "articleId": "ld.1886544",
-      "generatedAt": "2026-09-08T22:15:01.732Z",
+      "generatedAt": "2026-09-08T23:49:51.132Z",
       "source": "template",
       "model": "gemini-3.8-flash",
       "detectedCategory": "Mobility & Automotive",
@@ -695,9 +695,9 @@
         "#NZZ"
       ],
       "editorialAnalysis": {
-        "articleDepth": "standard",
-        "slideCount": 6,
-        "reasoning": "Determined from word count of 2143 words and topical density"
+        "articleDepth": "deep",
+        "slideCount": 7,
+        "reasoning": "NZZ Inspo Design System: strictly configured 7 slides for 2143 words and topical density"
       },
       "audioBrief": {
         "headline": "Germany's welfare state is threatened with financial collapse",
@@ -785,72 +785,165 @@
       "instagramCarousel": {
         "title": "Germany's welfare state is threatened with financial collapse",
         "aspectRatio": "4:5",
+        "theme": "dark",
         "slides": [
           {
             "slideNumber": 1,
             "slideType": "cover",
+            "layout": "hook_hero",
             "headline": "Germany's welfare state is threatened with financial collapse",
+            "subhead": "Demographic trends and medical advances are causing social security contributions in Germany to rise rapidly.",
             "bodyText": "Demographic trends and medical advances are causing social security contributions in Germany to rise rapidly.",
-            "imagePrompt": "Authentic 35mm editorial documentary photography for Neue Zürcher Zeitung: Guards Red Porsche 911 GT3 RS (992 generation) with active swan-neck carbon rear wing and front diffuser, carving a high-alpine hairpin curve on the Swiss Sustenpass at dusk. Authentic motion blur on wheel spokes, crisp tire contact on damp mountain asphalt, dramatic granite mountain peaks in natural overcast backlight, Hasselblad X2D medium format, Leica 50mm f/1.4, photorealistic textures, zero CGI, zero 3D render, award-winning automotive photojournalism.",
-            "imageUrl": "https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?auto=format&fit=crop&w=1080&q=80",
-            "detailZoomUrl": "https://images.unsplash.com/photo-1617814076367-b759c7d7e738?auto=format&fit=crop&w=400&q=80",
-            "detailZoomLabel": "SWAN-NECK AERO"
+            "badge": "MOBILITY & AUTOMOTIVE",
+            "theme": "dark",
+            "hasImage": true,
+            "imagePrompt": "Authentic 35mm editorial documentary photography for Neue Zürcher Zeitung: Cybersecurity operations center, illuminated server racks, subtle glowing fiber optic cables, moody atmospheric lighting, candid photojournalism.",
+            "imageUrl": "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&w=1080&q=80",
+            "detailZoomUrl": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?auto=format&fit=crop&w=400&q=80",
+            "detailZoomLabel": "API ATTACK VECTOR"
           },
           {
             "slideNumber": 2,
             "slideType": "data_point",
-            "headline": "The Defining Metric",
+            "layout": "dual_cards",
+            "headline": "The Empirical Baseline",
             "bodyText": "This jeopardizes jobs and slows growth.",
-            "metricHighlight": {
-              "value": "100 billion",
-              "label": "Quantified Indicator"
+            "theme": "dark",
+            "hasImage": false,
+            "comparisonCards": {
+              "card1": {
+                "title": "STATUS QUO",
+                "text": "This jeopardizes jobs and slows growth.",
+                "badge": "EXISTING",
+                "variant": "default"
+              },
+              "card2": {
+                "title": "SYSTEMIC PRESSURE",
+                "text": "The welfare state is in danger of destroying its own foundations.",
+                "badge": "RISK",
+                "variant": "loser"
+              }
             },
-            "imagePrompt": "Authentic 35mm editorial documentary photography for Neue Zürcher Zeitung: Candid macro detail of Porsche 911 GT3 RS cockpit interior from driver perspective. Tactile alcantara steering wheel with yellow top center stripe, four steering-wheel rotary dials for damper rebound and compression telemetry, analog mechanical tachometer gauge needle at 9000 RPM, brushed titanium switches, natural diffuse alpine daylight through windshield, Leica SL2, authentic luxury interior reportage, zero plastic sheen.",
-            "imageUrl": "https://images.unsplash.com/photo-1617814076367-b759c7d7e738?auto=format&fit=crop&w=1080&q=80",
-            "detailZoomUrl": "https://images.unsplash.com/photo-1617814076367-b759c7d7e738?auto=format&fit=crop&w=1080&q=80",
-            "detailZoomLabel": "COCKPIT TELEMETRY"
+            "chartData": {
+              "type": "bar",
+              "title": "Comparative Baseline",
+              "items": [
+                {
+                  "label": "Baseline 2018-2022",
+                  "value": "18.5%",
+                  "isHighlighted": false
+                },
+                {
+                  "label": "Average 2023-2024",
+                  "value": "21.2%",
+                  "isHighlighted": false
+                },
+                {
+                  "label": "Current Measure",
+                  "value": "100 billion",
+                  "isHighlighted": true
+                }
+              ],
+              "caption": "Source: NZZ Quantitative Analysis"
+            },
+            "imagePrompt": "Authentic 35mm editorial documentary photography for Neue Zürcher Zeitung: Cybersecurity operations center, illuminated server racks, subtle glowing fiber optic cables, moody atmospheric lighting, candid photojournalism.",
+            "detailZoomLabel": "API ATTACK VECTOR"
           },
           {
             "slideNumber": 3,
             "slideType": "context",
-            "headline": "The Structural Context",
+            "layout": "stat_callout",
+            "headline": "The Defining Metric",
             "bodyText": "The welfare state is in danger of destroying its own foundations.",
-            "imagePrompt": "Authentic 35mm editorial documentary photography for Neue Zürcher Zeitung: High-resolution industrial close-up inside engineering development workshop. Porsche flat-six naturally aspirated 4.0-liter boxer powertrain assembly, titanium exhaust headers with heat oxidation bluing, active aerodynamic carbon diffuser, clean documentary lighting, genuine mechanical patina and engineering precision.",
-            "imageUrl": "https://images.unsplash.com/photo-1580273916550-e323be2ae537?auto=format&fit=crop&w=1080&q=80",
-            "detailZoomUrl": "https://images.unsplash.com/photo-1580273916550-e323be2ae537?auto=format&fit=crop&w=1080&q=80",
-            "detailZoomLabel": "FLAT-SIX MOTOR"
+            "theme": "dark",
+            "hasImage": false,
+            "metricHighlight": {
+              "value": "100 billion",
+              "label": "VERIFIED FIGURE",
+              "sublabel": "NZZ Quantitative Audit"
+            },
+            "imagePrompt": "Authentic 35mm editorial documentary photography for Neue Zürcher Zeitung: Cybersecurity operations center, illuminated server racks, subtle glowing fiber optic cables, moody atmospheric lighting, candid photojournalism.",
+            "detailZoomLabel": "API ATTACK VECTOR"
           },
           {
             "slideNumber": 4,
-            "slideType": "quote",
-            "headline": "Core Statement",
-            "quote": {
-              "text": "«more dramatic than previously assumed.»",
-              "speaker": "Malte Fischer, Düsseldorf"
+            "slideType": "context",
+            "layout": "dual_cards",
+            "headline": "The Strategic Dichotomy",
+            "theme": "dark",
+            "hasImage": false,
+            "comparisonCards": {
+              "card1": {
+                "title": "PERSPECTIVE A: ADVANTAGE",
+                "text": "Germany's welfare state is threatened with financial collapse Demographic trends and medical advances are causing social",
+                "badge": "FRONT-RUNNER",
+                "variant": "winner"
+              },
+              "card2": {
+                "title": "PERSPECTIVE B: VULNERABILITY",
+                "text": "The welfare state is in danger of destroying its own foundations.",
+                "badge": "EXPOSURE",
+                "variant": "loser"
+              }
             },
-            "imagePrompt": "Authentic 35mm editorial documentary photography for Neue Zürcher Zeitung: Trackside telephoto Porsche 911 GT3 RS clipping test track apex under wet atmospheric conditions. Fine rainwater rooster-tail spray lifting off semi-slick Michelin Cup 2 R rear tires, active swan-neck rear wing downforce, overcast moody European sky, candid motorsport journalism, 70-200mm f/2.8 compression.",
-            "imageUrl": "https://images.unsplash.com/photo-1611821064430-0d40291d0f0d?auto=format&fit=crop&w=1080&q=80",
-            "detailZoomUrl": "https://images.unsplash.com/photo-1611821064430-0d40291d0f0d?auto=format&fit=crop&w=1080&q=80",
-            "detailZoomLabel": "TRACK DOWNFORCE"
+            "imagePrompt": "Authentic 35mm editorial documentary photography for Neue Zürcher Zeitung: Cybersecurity operations center, illuminated server racks, subtle glowing fiber optic cables, moody atmospheric lighting, candid photojournalism.",
+            "detailZoomLabel": "API ATTACK VECTOR"
           },
           {
             "slideNumber": 5,
             "slideType": "consequences",
-            "headline": "Strategic Horizons",
-            "bodyText": "1. Demographic trends and medical advances are causing social securi\n2. This jeopardizes jobs and slows growth.\n3. The welfare state is in danger of destroying its own foundations.",
-            "imagePrompt": "Authentic 35mm editorial documentary photography for Neue Zürcher Zeitung: Minimalist architectural side profile portrait of the Guards Red Porsche 911 GT3 RS parked outside brutalist exposed-concrete Swiss alpine tunnel pavilion. Rain puddles reflecting aerodynamic carbon roofline, subtle silhouette in twilight, Architectural Digest aesthetic, clean restrained composition.",
-            "imageUrl": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1080&q=80",
-            "detailZoomUrl": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1080&q=80",
-            "detailZoomLabel": "CHASSIS FORM"
+            "layout": "bullets_list",
+            "headline": "Three Critical Drivers",
+            "theme": "dark",
+            "hasImage": false,
+            "bulletItems": [
+              {
+                "icon": "leaf",
+                "title": "Structure",
+                "text": "Demographic trends and medical advances are causing social security contrib"
+              },
+              {
+                "icon": "energy",
+                "title": "Dynamics",
+                "text": "This jeopardizes jobs and slows growth."
+              },
+              {
+                "icon": "alert",
+                "title": "Consequence",
+                "text": "The welfare state is in danger of destroying its own foundations."
+              }
+            ],
+            "imagePrompt": "Authentic 35mm editorial documentary photography for Neue Zürcher Zeitung: Cybersecurity operations center, illuminated server racks, subtle glowing fiber optic cables, moody atmospheric lighting, candid photojournalism.",
+            "detailZoomLabel": "API ATTACK VECTOR"
           },
           {
             "slideNumber": 6,
+            "slideType": "quote",
+            "layout": "quote",
+            "headline": "Core Statement",
+            "theme": "dark",
+            "hasImage": false,
+            "quote": {
+              "text": "«more dramatic than previously assumed.»",
+              "speaker": "Malte Fischer, Düsseldorf",
+              "speakerTitle": "NZZ Senior Analyst"
+            },
+            "imagePrompt": "Authentic 35mm editorial documentary photography for Neue Zürcher Zeitung: Cybersecurity operations center, illuminated server racks, subtle glowing fiber optic cables, moody atmospheric lighting, candid photojournalism.",
+            "detailZoomLabel": "API ATTACK VECTOR"
+          },
+          {
+            "slideNumber": 7,
             "slideType": "outro",
-            "headline": "In-Depth Analysis at NZZ",
-            "bodyText": "Read the complete investigation by Malte Fischer, Düsseldorf on nzz.ch.",
-            "imagePrompt": "Authentic 35mm editorial documentary photography for Neue Zürcher Zeitung: Moody dusk shot looking down winding alpine mountain pass road as car tail-light LED bar recedes into mountain fog. Quiet atmospheric twilight, deep charcoal tones, discrete red editorial mood, solemn Swiss landscape journalism.",
-            "imageUrl": "https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?auto=format&fit=crop&w=1080&q=80",
-            "detailZoomUrl": "https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?auto=format&fit=crop&w=1080&q=80",
+            "layout": "cta_conversion",
+            "headline": "Understand the forces shaping tomorrow.",
+            "theme": "dark",
+            "hasImage": false,
+            "cta": {
+              "headline": "Understand the forces shaping tomorrow.",
+              "subtext": "Read the full in-depth investigation by Malte Fischer, Düsseldorf on nzz.ch.",
+              "buttonText": "READ ON NZZ.CH"
+            },
+            "imagePrompt": "Authentic 35mm editorial documentary photography for Neue Zürcher Zeitung: Cybersecurity operations center, illuminated server racks, subtle glowing fiber optic cables, moody atmospheric lighting, candid photojournalism.",
             "detailZoomLabel": "NZZ VERDICT"
           }
         ],
