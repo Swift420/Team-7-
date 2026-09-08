@@ -13,6 +13,7 @@ import type {
   VisualizationApproval,
   VisualizationOpportunity,
   CountryCoverage,
+  CountryConnection,
   CountryStorySummary,
 } from '../types';
 
@@ -100,6 +101,10 @@ export function fetchArticles(): Promise<Article[]> {
 
 export function fetchCountryCoverage(): Promise<CountryCoverage[]> {
   return apiRequest<CountryCoverage[]>('/api/story-map/countries');
+}
+
+export function fetchCountryConnections(): Promise<CountryConnection[]> {
+  return apiRequest<CountryConnection[]>('/api/story-map/connections?limit=120');
 }
 
 export function fetchCountryStories(countryCode: string): Promise<CountryStorySummary[]> {

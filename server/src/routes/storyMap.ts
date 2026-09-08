@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { listCountryCoverage, listCountryStories } from '../repositories/countryRepository.js';
+import { listCountryConnections, listCountryCoverage, listCountryStories } from '../repositories/countryRepository.js';
 
 const router = Router();
 const countryCode = /^[A-Z]{2}$/i;
@@ -12,6 +12,14 @@ router.get('/countries/:code/articles', async (req, res, next) => {
   try {
     if (!countryCode.test(req.params.code)) { res.status(400).json({ success: false, error: { code: 'INVALID_COUNTRY_CODE', message: 'Country code must be two letters' } }); return; }
     res.json({ success: true, data: await listCountryStories(req.params.code) });
+  } catch (error) { next(error); }
+});
+
+router.get('/connections', async (req, res, next) => {
+  try {
+    const requestedLimit = Number(req.query.limit || 120);
+    const limit = Number.isFinite(requestedLimit) ? Math.min(200, Math.max(1, Math.floor(requestedLimit))) : 120;
+    res.json({ success: true, data: await listCountryConnections(limit) });
   } catch (error) { next(error); }
 });
 

@@ -1,5 +1,5 @@
 import { query, withTransaction } from '../config/database.js';
-import { CountryCoverage, CountryStorySummary } from '../types/country.js';
+import { CountryConnection, CountryCoverage, CountryStorySummary } from '../types/country.js';
 
 export interface CountryAssignment { code: string; name: string; relevance: number; confidence: number; evidence: string[] }
 
@@ -20,4 +20,25 @@ export async function listCountryCoverage(): Promise<CountryCoverage[]> {
 export async function listCountryStories(code: string): Promise<CountryStorySummary[]> {
   const result = await query<{ id: string; headline: string; lead: string | null; section: string | null; published_at: Date | null; teaser_image: Record<string, unknown> | null; tags: string[] }>(`SELECT a.id, a.headline, a.lead, a.section, a.published_at, a.teaser_image, a.tags FROM article_countries ac JOIN articles a ON a.id = ac.article_id WHERE ac.country_code = $1 ORDER BY a.published_at DESC NULLS LAST, a.created_at DESC`, [code.toUpperCase()]);
   return result.rows.map((row) => ({ id: row.id, headline: row.headline, lead: row.lead, section: row.section, publishedAt: row.published_at, teaserImage: row.teaser_image, tags: row.tags || [] }));
+}
+
+export async function listCountryConnections(limit = 120): Promise<CountryConnection[]> {
+  const result = await query<{ article_id: string; headline: string; lead: string | null; section: string | null; published_at: Date | null; teaser_image: Record<string, unknown> | null; tags: string[]; source_code: string; source_name: string; target_code: string; target_name: string }>(`
+    SELECT a.id AS article_id, a.headline, a.lead, a.section, a.published_at, a.teaser_image, a.tags,
+      ac1.country_code AS source_code, ac1.country_name AS source_name,
+      ac2.country_code AS target_code, ac2.country_name AS target_name
+    FROM article_countries ac1
+    JOIN article_countries ac2 ON ac2.article_id = ac1.article_id AND ac1.country_code < ac2.country_code
+    JOIN articles a ON a.id = ac1.article_id
+    ORDER BY a.published_at DESC NULLS LAST, a.created_at DESC
+    LIMIT $1`, [Math.max(1, limit * 8)]);
+  const grouped = new Map<string, CountryConnection>();
+  for (const row of result.rows) {
+    const id = `${row.source_code}-${row.target_code}`;
+    const connection = grouped.get(id) || { id, source: { countryCode: row.source_code, countryName: row.source_name }, target: { countryCode: row.target_code, countryName: row.target_name }, storyCount: 0, stories: [] };
+    connection.storyCount += 1;
+    if (!connection.stories.some((story) => story.id === row.article_id)) connection.stories.push({ id: row.article_id, headline: row.headline, lead: row.lead, section: row.section, publishedAt: row.published_at, teaserImage: row.teaser_image, tags: row.tags || [] });
+    grouped.set(id, connection);
+  }
+  return [...grouped.values()].sort((a, b) => b.storyCount - a.storyCount).slice(0, limit);
 }

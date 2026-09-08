@@ -186,4 +186,4 @@ export interface ArticleCategory {
   restrictedToEditors?: boolean;
 }
 
-export type { CountryCoverage, CountryStorySummary } from './country';
+export type { CountryConnection, CountryCoverage, CountryStorySummary } from './country';

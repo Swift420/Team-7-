@@ -15,3 +15,11 @@ export interface CountryStorySummary {
   teaserImage: Record<string, unknown> | null;
   tags: string[];
 }
+
+export interface CountryConnection {
+  id: string;
+  source: { countryCode: string; countryName: string };
+  target: { countryCode: string; countryName: string };
+  storyCount: number;
+  stories: CountryStorySummary[];
+}

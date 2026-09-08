@@ -1926,6 +1926,9 @@
 .story-globe-stats { display: grid; grid-template-columns: auto auto; column-gap: .45rem; row-gap: .1rem; text-align: right; color: #94a3b8; font-size: .7rem; text-transform: uppercase; letter-spacing: .08em; }
 .story-globe-stats strong { color: #f8fafc; font-size: 1.25rem; letter-spacing: normal; }
 .story-globe-heading-actions { display: flex; align-items: flex-start; gap: .75rem; }
+.story-globe-toggle { display: inline-flex; align-items: center; gap: .35rem; border: 1px solid rgba(251,146,60,.42); border-radius: .45rem; padding: .42rem .58rem; background: rgba(15,23,42,.5); color: #fdba74; font: inherit; font-size: .7rem; cursor: pointer; white-space: nowrap; }
+.story-globe-toggle:hover:not(:disabled), .story-globe-toggle.is-active { border-color: rgba(251,146,60,.8); background: rgba(124,45,18,.25); }
+.story-globe-toggle:disabled { opacity: .45; cursor: not-allowed; }
 .story-globe-close { margin-top: -.15rem; }
 .create-article-modal { max-width: 760px; }
 .create-article-form { display: flex; flex-direction: column; gap: 1rem; }

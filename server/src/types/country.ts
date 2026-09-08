@@ -8,6 +8,14 @@ export interface CountryStorySummary {
   tags: string[];
 }
 
+export interface CountryConnection {
+  id: string;
+  source: { countryCode: string; countryName: string };
+  target: { countryCode: string; countryName: string };
+  storyCount: number;
+  stories: CountryStorySummary[];
+}
+
 export interface CountryCoverage {
   countryCode: string;
   countryName: string;
