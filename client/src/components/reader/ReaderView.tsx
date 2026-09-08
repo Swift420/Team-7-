@@ -17,7 +17,11 @@ import { StoryboardPreview } from '../liquid/StoryboardPreview';
 import { CarouselPreview } from '../liquid/CarouselPreview';
 import { Headphones, Video, Layers, BookOpen, Sparkles, FileText } from 'lucide-react';
 
-export const ReaderView: React.FC = () => {
+interface ReaderViewProps {
+  language?: 'en' | 'de';
+}
+
+export const ReaderView: React.FC<ReaderViewProps> = ({ language = 'en' }) => {
   const [articles, setArticles] = useState<ArticleSummary[]>([]);
   const [selectedArticleId, setSelectedArticleId] = useState<string>('');
   const [article, setArticle] = useState<ArticleDetail | null>(null);
@@ -42,7 +46,7 @@ export const ReaderView: React.FC = () => {
     if (!selectedArticleId) return;
     fetchArticleDetail(selectedArticleId).then((data) => setArticle(data));
     fetchPublishedFormats(selectedArticleId).then((pub) => setPublished(pub));
-  }, [selectedArticleId]);
+  }, [selectedArticleId, language]);
 
   if (!article) {
     return (

@@ -99,7 +99,7 @@ describe('Liquid Story Engine API Route Handlers (Socket-Free)', () => {
     assert.ok(result.body.data.audioBrief);
     assert.equal(result.body.data.executiveNewsletter.bullets.length, 3);
     assert.equal(result.body.data.socialStoryboard.scenes.length, 5);
-    assert.equal(result.body.data.instagramCarousel.slides.length, 6);
+    assert.equal(result.body.data.instagramCarousel.slides.length, 7);
   });
 
   it('POST /synthesize-audio returns mp3 stream info', async () => {

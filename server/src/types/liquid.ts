@@ -41,26 +41,69 @@ export interface SocialStoryboardFormat {
   approved: boolean;
 }
 
+export type CarouselTheme = 'dark' | 'sand' | 'lavender' | 'grey' | 'white';
+export type CarouselSlideLayout =
+  | 'hook_hero'
+  | 'split_media'
+  | 'stat_callout'
+  | 'dual_cards'
+  | 'chart_data'
+  | 'bullets_list'
+  | 'quote'
+  | 'cta_conversion';
+
 export interface CarouselSlide {
-  slideNumber: number; // 1 to 6
-  slideType: 'cover' | 'data_point' | 'context' | 'quote' | 'consequences' | 'outro';
+  slideNumber: number; // 1 to 7
+  slideType: 'cover' | 'data_point' | 'context' | 'quote' | 'consequences' | 'outro' | string;
+  layout?: CarouselSlideLayout;
   headline: string;
+  subhead?: string;
   bodyText?: string;
+  badge?: string;
+  theme?: CarouselTheme;
+  hasImage?: boolean;
   metricHighlight?: {
     value: string;
     label: string;
+    sublabel?: string;
   };
+  comparisonCards?: {
+    card1: { title: string; text: string; badge?: string; variant?: 'default' | 'winner' | 'unacceptable' };
+    card2: { title: string; text: string; badge?: string; variant?: 'default' | 'loser' | 'high_risk' };
+    card3?: { title: string; text: string; badge?: string; variant?: 'default' | 'neutral' | 'limited_risk' };
+  };
+  chartData?: {
+    type?: 'bar' | 'line';
+    title?: string;
+    items?: { label: string; value: string; isHighlighted?: boolean; percent?: number }[];
+    caption?: string;
+  };
+  bulletItems?: {
+    icon?: string;
+    title?: string;
+    text: string;
+  }[];
   quote?: {
     text: string;
     speaker: string;
+    speakerTitle?: string;
   };
-  imagePrompt: string; // Prompt for Google Imagen 3
+  cta?: {
+    headline: string;
+    subtext: string;
+    buttonText: string;
+  };
+  imagePrompt: string; // Prompt for Google Imagen 3 / Flux
+  imageUrl?: string;
+  detailZoomUrl?: string;
+  detailZoomLabel?: string;
 }
 
 export interface InstagramCarouselFormat {
   title: string;
   aspectRatio: '1:1' | '4:5';
-  slides: CarouselSlide[]; // Exactly 6 slides
+  theme?: CarouselTheme;
+  slides: CarouselSlide[]; // Strictly 7 slides per NZZ Design System
   captionText: string; // Ready-to-publish social copy
   hashtags: string[];
   approved: boolean;
@@ -93,10 +136,19 @@ export interface DialecticalFAQFormat {
   approved: boolean;
 }
 
+export interface EditorialAnalysis {
+  articleDepth: 'brief' | 'standard' | 'deep';
+  slideCount: number;
+  reasoning: string;
+}
+
 export interface LiquidDerivativesPayload {
   articleId: string;
   generatedAt: string;
-  model: 'gemini-3.8-flash' | 'gemini-3.8-pro';
+  model: string;
+  detectedCategory?: string;
+  suggestedTags?: string[];
+  editorialAnalysis?: EditorialAnalysis;
   audioBrief: AudioBriefFormat;
   executiveNewsletter: ExecutiveNewsletterFormat;
   socialStoryboard: SocialStoryboardFormat;

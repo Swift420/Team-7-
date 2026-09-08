@@ -31,10 +31,13 @@ describe('Liquid Engine AI Generation', () => {
     assert.equal(result.socialStoryboard.aspectRatio, '9:16');
     assert.ok(result.socialStoryboard.scenes[0].visualPrompt.length > 10);
 
-    // Instagram / LinkedIn Carousel (6 slides)
-    assert.equal(result.instagramCarousel.slides.length, 6);
+    // Instagram / LinkedIn Carousel strictly adhering to NZZ 7-slide Inspo Design System
+    assert.equal(result.instagramCarousel.slides.length, 7);
     assert.ok(result.instagramCarousel.captionText.length > 20);
     assert.ok(result.instagramCarousel.hashtags.length >= 2);
+    // Style A: Cover Slide 1 must have photorealistic documentary image populated
+    assert.ok(result.instagramCarousel.slides[0].imageUrl, 'Cover slide must have imageUrl populated');
+    assert.ok(result.instagramCarousel.slides[0].imageUrl.startsWith('https://images.unsplash.com/'));
 
     // Fact Box
     assert.ok(result.factBox.metrics.length >= 3);
@@ -42,6 +45,27 @@ describe('Liquid Engine AI Generation', () => {
     // Dialectical FAQ (3 items)
     assert.equal(result.dialecticalFaq.items.length, 3);
     assert.equal(result.dialecticalFaq.items[1].perspective, 'counterargument');
+    // English translation purity: No German questions when language is English
+    const faqText = JSON.stringify(result.dialecticalFaq);
+    assert.ok(!faqText.includes('Wie begründen Befürworter'), 'No German phrases in English FAQ');
+  });
+
+  it('selects photorealistic naval imagery for submarine articles', async () => {
+    const submarineArticle = {
+      id: 'ld.submarine-test',
+      headline: 'Nukleare U-Boote im Indopazifik: Die lautlose Aufrüstung',
+      lead: 'Im Pazifik patrouillieren atomgetriebene Jagd-U-Boote und sichern maritime Transitrouten.',
+      body: 'Unterwasser-Operationen und nukleare Antriebe bilden das Rückgrat maritimer Abschreckung.',
+      author: 'NZZ Sicherheitspolitik',
+      section: 'International',
+      language: 'en' as const,
+    };
+
+    const result = await generateLiquidDerivatives(submarineArticle, { mock: true, model: 'gemini-3.8-flash', language: 'en' });
+    const coverSlide = result.instagramCarousel.slides[0];
+    assert.ok(coverSlide.imageUrl);
+    assert.ok(coverSlide.imageUrl.includes('photo-1544620347-c4fd4a3d5957'), 'Matches authentic submarine documentary photo');
+    assert.equal(coverSlide.detailZoomLabel, 'S9G REACTOR');
   });
 });
 

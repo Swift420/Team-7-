@@ -7,7 +7,10 @@ import type {
   TrafficSource,
 } from '../types';
 
-const API_BASE = '/api';
+const API_BASE =
+  typeof window !== 'undefined' && (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1')
+    ? 'http://localhost:5001/api'
+    : '/api';
 
 const DEFAULT_OVERVIEW: MetricOverview = {
   totalRevenue: 1248500,
