@@ -1,0 +1,2360 @@
+{
+ "content": [
+  {
+   "identifier": "header--hero",
+   "id": "doc-1im56a5id0",
+   "content": {
+    "title": "«Fat Jos» and the President: What is one of Europe's most wanted criminals doing at the side of an African ruling family?",
+    "lead": "A multi-billionaire cocaine trafficker repeatedly evades European justice. But videos show him partying with Sierra Leone's powerful figures. An investigation into new developments in the international drug trade.",
+    "authorline": "Antonio Fumagalli, Ida Götz, Samuel Misteli, Adina Renner",
+    "image": {
+     "author": "",
+     "caption": "",
+     "originalUrl": "/2025/03/20/be5d74c0-1afb-41c4-b1da-05a1465d8901.png?crop=2401,1351,x0,y228",
+     "width": 2401,
+     "height": 1806,
+     "crop": {
+      "x": 0,
+      "y": 228,
+      "width": 2401,
+      "height": 1351,
+      "name": "desktop",
+      "isAutomatic": true
+     },
+     "namedCrops": [
+      {
+       "x": 0,
+       "y": 228,
+       "width": 2401,
+       "height": 1351,
+       "name": "desktop",
+       "isAutomatic": true
+      },
+      {
+       "x": 523,
+       "y": 0,
+       "width": 1355,
+       "height": 1806,
+       "name": "tablet",
+       "isAutomatic": true
+      },
+      {
+       "x": 693,
+       "y": 0,
+       "width": 1016,
+       "height": 1806,
+       "name": "mobile",
+       "isAutomatic": true
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "quelle": "",
+    "caption": "",
+    "author": ""
+   },
+   "data": {
+    "_authorDirective": {},
+    "_leadDirective": {}
+   },
+   "containers": {
+    "authors": []
+   },
+   "prevElement": "",
+   "nextElement": "p-text",
+   "firstContentElement": true
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1im5717th0",
+   "content": {
+    "text": "The man is young, his hair slicked back, his gaze focused straight ahead. He stands out, almost the only white person in a packed African church. His companion is also prominent. Next to him sits the daughter of the President of Sierra Leone. She represents her country as a diplomat at the UN in New York. Two rows ahead, the President himself and the First Lady are seated."
+   },
+   "data": {},
+   "prevElement": "header--hero",
+   "nextElement": "barrier"
+  },
+  {
+   "id": "doc-10b6c17f",
+   "identifier": "barrier",
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1immq33000",
+   "content": {
+    "text": "The man in the video, which was recorded earlier this year, could be an influential Western missionary, of which there are many in Africa. Or a European ambassador with close ties to Sierra Leone's presidential family."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "barrier",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1immq33060",
+   "content": {
+    "text": "He is indeed one of Europe's most wanted criminals. Europol, the EU's police agency, has placed a €200,000 reward on his head. The man has many names, but he was born Joseph Johannes Leijdekkers – Jos for short. Courts have sentenced him to dozens of years in prison. In absentia, because Leijdekkers has been on the run for years."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "q-embed"
+  },
+  {
+   "identifier": "q-embed",
+   "id": "doc-1imna9dld0",
+   "content": {
+    "q-embed": {
+     "service": "q-tool",
+     "params": {
+      "id": "914387acc4e7abb7df0e8ee47292df2e",
+      "conf": {},
+      "toolConfig": {},
+      "toolRuntimeConfig": {
+       "size": {
+        "width": [
+         {
+          "value": 735,
+          "unit": "px",
+          "comparison": ">"
+         },
+         {
+          "value": 1200,
+          "unit": "px",
+          "comparison": "<"
+         }
+        ]
+       },
+       "displayOptions": {
+        "hideTitle": true,
+        "hideSubtitle": false,
+        "hideFooter": false,
+        "hideAcronym": true
+       },
+       "locale": "en_US"
+      },
+      "size": "fullwidth"
+     },
+     "resolvedValue": {}
+    },
+    "html": "      <div        class=\"q-infographic-container\"        id=\"q_infographic_914387acc4e7abb7df0e8ee47292df2e_q3cc82ced18314894aa5666673f7df2dc_container\"        data-q-item-id=\"914387acc4e7abb7df0e8ee47292df2e\"        data-q-request-id=\"0957e9456bb6990b04c07509d033e867a2d1b563\"      ></div>",
+    "stylesheets": [
+     {
+      "type": "remote",
+      "content": "https://service.sophie.nzz.ch/bundle/sophie-color%23master,sophie-font%23master,sophie-input%23master[button+field],sophie-legend%23master[icon-label],sophie-q%23master,sophie-viz-color%23master.css"
+     },
+     {
+      "type": "inline",
+      "content": "  @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff) format(\"woff\");  }    @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff) format(\"woff\");    unicode-range: U+0020-00FF,U+2005,U+2082;  }      "
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/css-theme-layer/nzz-0.2.0.css"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/infographic/q-infographic-1.2.9.css"
+     }
+    ],
+    "scripts": [
+     {
+      "type": "inline",
+      "content": "function qTrackingBootstrap(t,e,n){if(window.digitalData&&window.digitalData.component&&window.digitalData.component.push){window.digitalData.component.push(t),window.digitalData.event&&window.digitalData.event.length||(window.digitalData.event=[]);var i=new Date,a=e;a.eventInfo.timeStamp=i.toISOString(),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\");var o=document.querySelectorAll(\"[data-q-request-id='\"+n+\"']\");[].forEach.call(o,function(t){t.addEventListener(\"q-tracking-event\",function(t){var e=new Date;(a=JSON.parse(JSON.stringify(a))).eventInfo.timeStamp=e.toISOString(),a.eventInfo=Object.assign(a.eventInfo,t.detail.eventInfo),a.category=Object.assign(a.category,t.detail.category),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\")},!1)})}};qTrackingBootstrap({\"componentInfo\":{\"componentName\":\"Q\",\"componentID\":\"914387acc4e7abb7df0e8ee47292df2e\"},\"category\":{\"componentType\":\"storytelling\",\"componentSubType1\":\"Q graphic\",\"componentSubType2\":\"infographic\"}},{\"eventInfo\":{\"eventName\":\"Storytelling Interaction\",\"eventAction\":\"load\",\"type\":\"story\",\"componentName\":\"Q\",\"eventNonInteractive\":true,\"componentID\":\"914387acc4e7abb7df0e8ee47292df2e\"},\"category\":{\"primaryCategory\":\"storytelling\",\"subCategory1\":\"Q graphic\",\"subCategory2\":\"infographic\"}},\"0957e9456bb6990b04c07509d033e867a2d1b563\")"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/infographic/q-infographic-1.2.9.js"
+     },
+     {
+      "type": "inline",
+      "content": "      (function () {        function initialize() {          const target = document.querySelector('#q_infographic_914387acc4e7abb7df0e8ee47292df2e_q3cc82ced18314894aa5666673f7df2dc_container');          if (!target) return;          target.innerHTML = '';          const qdoc = {\"_id\":\"914387acc4e7abb7df0e8ee47292df2e\",\"title\":\"Wanted: Jos\",\"subtitle\":\"\",\"publication\":\"nzz\",\"acronym\":\"ida.\",\"sources\":[],\"images\":{\"variants\":[{\"images\":[{\"key\":\"2025/03/20/4mobile5x-0fdeeaaeeb9ffe3b7064b5f4871eb78f.png\",\"url\":\"https://nzz-q-assets.s3.eu-west-1.amazonaws.com/2025/03/20/4mobile5x-0fdeeaaeeb9ffe3b7064b5f4871eb78f.png\",\"size\":3002487,\"type\":\"image/png\",\"width\":1851,\"height\":1571,\"originalName\":\"4mobile@5x.png\"}],\"minWidth\":0},{\"images\":[{\"key\":\"2025/03/20/4content5x-aaebb860889a97a84c7d3d9ded78f4cf.png\",\"url\":\"https://nzz-q-assets.s3.eu-west-1.amazonaws.com/2025/03/20/4content5x-aaebb860889a97a84c7d3d9ded78f4cf.png\",\"size\":3178098,\"type\":\"image/png\",\"width\":3151,\"height\":1462,\"originalName\":\"4content@5x.png\"}],\"minWidth\":540},{\"images\":[{\"key\":\"2025/03/20/4container5x-587deecd5a1b0f4f3e9a61e0522071ae.png\",\"url\":\"https://nzz-q-assets.s3.eu-west-1.amazonaws.com/2025/03/20/4container5x-587deecd5a1b0f4f3e9a61e0522071ae.png\",\"size\":3306399,\"type\":\"image/png\",\"width\":4501,\"height\":1447,\"originalName\":\"4container@5x.png\"}],\"minWidth\":830}]},\"options\":{\"serveLosslessWebP\":false},\"updatedDate\":\"2025-03-20T16:42:44.273Z\"};          const toolRuntimeConfig = {\"displayOptions\":{\"hideTitle\":true,\"hideSubtitle\":false,\"hideFooter\":false,\"hideAcronym\":true},\"size\":{\"width\":[{\"value\":735,\"comparison\":\">\",\"unit\":\"px\"},{\"value\":1200,\"unit\":\"px\",\"comparison\":\"<\"}]},\"locale\":\"en-US\"};          const toolSettings = {\"qItemInstanceId\":\"q_infographic_914387acc4e7abb7df0e8ee47292df2e_q3cc82ced18314894aa5666673f7df2dc\",\"imageServiceUrl\":\"https://nzz-q-assets2.static-nzz.ch\",\"imageServiceType\":\"cloudflare\"};          let attempts = 0;          const maxAttempts = 100;          const checkAndInitialize = setInterval(() => {            if (window.qInfographic) {              clearInterval(checkAndInitialize);              new window.qInfographic({ target: target, props: {                qdoc: qdoc,                toolSettings: toolSettings,                toolRuntimeConfig: toolRuntimeConfig              } });            } else {              attempts++;              if (attempts >= maxAttempts) {                clearInterval(checkAndInitialize);                console.error('Failed to initialize qInfographic after 30 seconds');              }            }          }, 300);        }        if (document.body.classList.contains('pagedone')) {          initialize();        } else {          window.addEventListener('pagedone', initialize);        }      })();    "
+     }
+    ]
+   },
+   "styles": {
+    "fullwidth-widget": "widget--fullwidth"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1immq33070",
+   "content": {
+    "text": "«Bolle Jos» («Fat Jos»), as he is known in the Netherlands, seems to be only half-heartedly hiding his true identity. He appears in public alongside the most powerful politicians in a West African country."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "q-embed",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1immq33080",
+   "content": {
+    "title": "Refuge in Sierra Leone",
+    "id": "subtitle-zuflucht-in-sierra-leone"
+   },
+   "styles": {
+    "subtitle-type": "subtitle--chapter"
+   },
+   "data": {},
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1immq330a0",
+   "content": {
+    "text": "Thousands of tons of cocaine are smuggled from South America to other parts of the world every year. In recent years, smuggling to Europe has increasingly routed through West Africa. According to Dutch police, Jos Leijdekkers, 33, is one of the key figures in the international cocaine trade. He is estimated to earn up to 2 billion euros a year. For someone like him, West Africa is an attractive market."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1immq330c0",
+   "content": {
+    "text": "In Sierra Leone – almost twice the size of Switzerland, with nine million inhabitants – Leijdekkers' presence is an open secret. In recent months, opposition figures have posted videos of him on social media, claiming that one of Europe's most powerful drug traffickers has infiltrated, if not bought, the country's elite."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1immq330d0",
+   "content": {
+    "text": "In January, international media also began reporting on the story. The <a target=\"_blank\" href=\"https://www.ftm.nl/artikelen/nederlandse-cokebaron-bolle-jos-zit-in-sierra-leone?share=CdqOJwa0omi0PZw7IH5kT7%2Bi2qzM5Pknj1zGBqtG8SFTskOUounWNolqqQuOSw8%3D\">Dutch investigative platform «Follow the Money»</a> and <a target=\"_blank\" href=\"https://www.ad.nl/binnenland/bolle-jos-nederlands-meestgezochte-crimineel-houdt-zich-schuil-in-sierra-leone~aca46829e/\">the newspaper «Algemeen Dagblad»</a> published the aforementioned video from the church. It shows Leijdekkers and the president's family on New Year's Day in the hometown of President Julius Maada Bio. Sources in Sierra Leone say that the president's daughter and diplomat, Agnes Bio, is the drug trafficker's girlfriend, possibly his fiancée. Other powerful government officials are also present. The video shows Leijdekkers embracing the country's former police chief."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "jw-clips"
+  },
+  {
+   "identifier": "jw-clips",
+   "id": "doc-lmiWyEvunK",
+   "content": {
+    "jw": {
+     "service": "jw",
+     "params": {
+      "html": "<div style=\"left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;\"><iframe src=\"https://cdn.jwplayer.com/players/9lvwRpag-55rmlnEm.html\" style=\"top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;\" allowfullscreen allow=\"encrypted-media;\"></iframe></div>",
+      "mediaid": "9lvwRpag",
+      "property": "55rmlnEm",
+      "posterImage": "https://cdn.jwplayer.com/v2/media/9lvwRpag/poster.jpg?width=720",
+      "title": "Excerpt from the video broadcast on January 1, 2025 from the «St. Joseph Catholic Church» in Sierra Leone, featuring Jos Leijdekkers.",
+      "versions": [
+       {
+        "key": "mediaid"
+       }
+      ]
+     },
+     "resolvedValue": {
+      "html": "\n    <div style=\"position: relative; padding-bottom: 56.25%\">\n      <iframe\n      src=\"https://cdn.jwplayer.com/previews/9lvwRpag\"\n      width=\"100%\"\n      height=\"100%\"\n      frameborder=\"0\"\n      style=\"position: absolute; top: 0; left: 0; width: 100%;\"\n      ></iframe>\n    </div>\n  "
+     }
+    },
+    "caption": "Excerpt from the video broadcast on January 1, 2025 from the «St. Joseph Catholic Church» in Sierra Leone, featuring Jos Leijdekkers.",
+    "author": "Source: <a target=\"_blank\" href=\"https://www.facebook.com/watch/live/?ref=watch_permalink&v=649202427433858\">Fatima Maada Bio</a> Facebook page",
+    "article": {
+     "content": {
+      "mediaid": {
+       "title": "Jos Leijdekkers Bolle Jos Sierra Leone Kirche",
+       "description": "",
+       "kind": "Single Item",
+       "siteid": "55rmlnEm",
+       "playlist": [
+        {
+         "title": "Jos Leijdekkers Bolle Jos Sierra Leone Kirche",
+         "mediaid": "9lvwRpag",
+         "link": "https://cdn.jwplayer.com/previews/9lvwRpag",
+         "image": "https://cdn.jwplayer.com/v2/media/9lvwRpag/poster.jpg?width=720",
+         "images": [
+          {
+           "src": "https://cdn.jwplayer.com/v2/media/9lvwRpag/poster.jpg?width=320",
+           "width": 320,
+           "type": "image/jpeg"
+          },
+          {
+           "src": "https://cdn.jwplayer.com/v2/media/9lvwRpag/poster.jpg?width=480",
+           "width": 480,
+           "type": "image/jpeg"
+          },
+          {
+           "src": "https://cdn.jwplayer.com/v2/media/9lvwRpag/poster.jpg?width=640",
+           "width": 640,
+           "type": "image/jpeg"
+          },
+          {
+           "src": "https://cdn.jwplayer.com/v2/media/9lvwRpag/poster.jpg?width=720",
+           "width": 720,
+           "type": "image/jpeg"
+          },
+          {
+           "src": "https://cdn.jwplayer.com/v2/media/9lvwRpag/poster.jpg?width=1280",
+           "width": 1280,
+           "type": "image/jpeg"
+          },
+          {
+           "src": "https://cdn.jwplayer.com/v2/media/9lvwRpag/poster.jpg?width=1920",
+           "width": 1920,
+           "type": "image/jpeg"
+          }
+         ],
+         "siteid": "55rmlnEm",
+         "duration": 16,
+         "content_source_type": "file",
+         "pubdate": 1742485911,
+         "updated": 1742486355,
+         "description": "",
+         "sources": [
+          {
+           "file": "https://cdn.jwplayer.com/manifests/9lvwRpag.m3u8",
+           "type": "application/vnd.apple.mpegurl"
+          },
+          {
+           "file": "https://cdn.jwplayer.com/videos/9lvwRpag-0SpmHVyW.mp4",
+           "type": "video/mp4",
+           "height": 360,
+           "width": 640,
+           "label": "360p",
+           "bitrate": 806206,
+           "filesize": 1612413,
+           "framerate": 15
+          },
+          {
+           "file": "https://cdn.jwplayer.com/videos/9lvwRpag-u9i8xClQ.mp4",
+           "type": "video/mp4",
+           "height": 270,
+           "width": 480,
+           "label": "270p",
+           "bitrate": 737320,
+           "filesize": 1474640,
+           "framerate": 15
+          },
+          {
+           "file": "https://cdn.jwplayer.com/videos/9lvwRpag-IBEUDFZ7.mp4",
+           "type": "video/mp4",
+           "height": 180,
+           "width": 320,
+           "label": "180p",
+           "bitrate": 475559,
+           "filesize": 951119,
+           "framerate": 15
+          }
+         ],
+         "tracks": [
+          {
+           "file": "https://cdn.jwplayer.com/strips/9lvwRpag-120.vtt",
+           "kind": "thumbnails"
+          }
+         ],
+         "variations": {},
+         "Autostart-Mute-Off": "",
+         "Controls-Menu": "",
+         "Loop": "",
+         "Mute": ""
+        }
+       ],
+       "feed_instance_id": "706bb685-2720-4192-a038-5e11e29fe6c9",
+       "playerId": "oPIyZHlf",
+       "intl": {
+        "de": {
+         "advertising": {
+          "skiptext": "Überspringen"
+         }
+        }
+       },
+       "playerConfig": {
+        "controls": true,
+        "autostart": "viewable",
+        "mute": true,
+        "repeat": false
+       }
+      }
+     }
+    }
+   },
+   "styles": {
+    "fullwidth-component": "articlecomponent--containerwidth"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "jw-clips"
+  },
+  {
+   "identifier": "jw-clips",
+   "id": "doc-P5zSTB2fYr",
+   "content": {
+    "jw": {
+     "service": "jw",
+     "params": {
+      "html": "<div style=\"left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;\"><iframe src=\"https://cdn.jwplayer.com/players/9sjB6yqt-55rmlnEm.html\" style=\"top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;\" allowfullscreen allow=\"encrypted-media;\"></iframe></div>",
+      "mediaid": "9sjB6yqt",
+      "property": "55rmlnEm",
+      "posterImage": "https://cdn.jwplayer.com/v2/media/9sjB6yqt/poster.jpg?width=720",
+      "title": "Video published in March 2025, also showing Leijdekkers in Sierra Leone.",
+      "versions": [
+       {
+        "key": "mediaid"
+       }
+      ]
+     },
+     "resolvedValue": {
+      "html": "\n    <div style=\"position: relative; padding-bottom: 56.25%\">\n      <iframe\n      src=\"https://cdn.jwplayer.com/previews/9sjB6yqt\"\n      width=\"100%\"\n      height=\"100%\"\n      frameborder=\"0\"\n      style=\"position: absolute; top: 0; left: 0; width: 100%;\"\n      ></iframe>\n    </div>\n  "
+     }
+    },
+    "caption": "Video published in March 2025, also showing Leijdekkers in Sierra Leone.",
+    "author": "<a target=\"_blank\" href=\"https://www.ftm.eu/articles/most-wanted-drug-lord-partying-in-sierra-leone-evades-capture\">Follow the Money,</a> <a target=\"_blank\" href=\"https://www.ad.nl/binnenland/hoofd-drugsbestrijding-sierra-leone-feestend-samen-met-bolle-jos-in-nieuwe-video~aa31299b/\">Algemeen Dagblad</a>",
+    "article": {
+     "content": {
+      "mediaid": {
+       "title": "Jos Leijdekkers Bolle Jos Sierra Leone Party",
+       "description": "",
+       "kind": "Single Item",
+       "siteid": "55rmlnEm",
+       "playlist": [
+        {
+         "title": "Jos Leijdekkers Bolle Jos Sierra Leone Party",
+         "mediaid": "9sjB6yqt",
+         "link": "https://cdn.jwplayer.com/previews/9sjB6yqt",
+         "image": "https://cdn.jwplayer.com/v2/media/9sjB6yqt/poster.jpg?width=720",
+         "images": [
+          {
+           "src": "https://cdn.jwplayer.com/v2/media/9sjB6yqt/poster.jpg?width=320",
+           "width": 320,
+           "type": "image/jpeg"
+          },
+          {
+           "src": "https://cdn.jwplayer.com/v2/media/9sjB6yqt/poster.jpg?width=480",
+           "width": 480,
+           "type": "image/jpeg"
+          },
+          {
+           "src": "https://cdn.jwplayer.com/v2/media/9sjB6yqt/poster.jpg?width=640",
+           "width": 640,
+           "type": "image/jpeg"
+          },
+          {
+           "src": "https://cdn.jwplayer.com/v2/media/9sjB6yqt/poster.jpg?width=720",
+           "width": 720,
+           "type": "image/jpeg"
+          },
+          {
+           "src": "https://cdn.jwplayer.com/v2/media/9sjB6yqt/poster.jpg?width=1280",
+           "width": 1280,
+           "type": "image/jpeg"
+          },
+          {
+           "src": "https://cdn.jwplayer.com/v2/media/9sjB6yqt/poster.jpg?width=1920",
+           "width": 1920,
+           "type": "image/jpeg"
+          }
+         ],
+         "siteid": "55rmlnEm",
+         "duration": 22,
+         "content_source_type": "file",
+         "pubdate": 1742485802,
+         "updated": 1742485953,
+         "description": "",
+         "sources": [
+          {
+           "file": "https://cdn.jwplayer.com/manifests/9sjB6yqt.m3u8",
+           "type": "application/vnd.apple.mpegurl"
+          },
+          {
+           "file": "https://cdn.jwplayer.com/videos/9sjB6yqt-0SpmHVyW.mp4",
+           "type": "video/mp4",
+           "height": 640,
+           "width": 362,
+           "label": "360p",
+           "bitrate": 560304,
+           "filesize": 1540837,
+           "framerate": 30
+          },
+          {
+           "file": "https://cdn.jwplayer.com/videos/9sjB6yqt-u9i8xClQ.mp4",
+           "type": "video/mp4",
+           "height": 480,
+           "width": 272,
+           "label": "270p",
+           "bitrate": 497270,
+           "filesize": 1367495,
+           "framerate": 30
+          },
+          {
+           "file": "https://cdn.jwplayer.com/videos/9sjB6yqt-IBEUDFZ7.mp4",
+           "type": "video/mp4",
+           "height": 322,
+           "width": 182,
+           "label": "180p",
+           "bitrate": 344866,
+           "filesize": 948384,
+           "framerate": 30
+          }
+         ],
+         "tracks": [
+          {
+           "file": "https://cdn.jwplayer.com/strips/9sjB6yqt-120.vtt",
+           "kind": "thumbnails"
+          }
+         ],
+         "variations": {},
+         "Autostart-Mute-Off": "",
+         "Controls-Menu": "",
+         "Loop": "",
+         "Mute": ""
+        }
+       ],
+       "feed_instance_id": "e4edfc06-931c-4926-8766-f7b1200c0e9a",
+       "playerId": "oPIyZHlf",
+       "intl": {
+        "de": {
+         "advertising": {
+          "skiptext": "Überspringen"
+         }
+        }
+       },
+       "playerConfig": {
+        "controls": true,
+        "autostart": "viewable",
+        "mute": true,
+        "repeat": false
+       }
+      }
+     }
+    }
+   },
+   "paidContent": true,
+   "prevElement": "jw-clips",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1immq330e0",
+   "content": {
+    "text": "Another video, taken by an opposition figure and also published by <a target=\"_blank\" href=\"https://www.ftm.eu/articles/most-wanted-drug-lord-partying-in-sierra-leone-evades-capture\">«Follow the Money»</a> and <a target=\"_blank\" href=\"https://www.ad.nl/binnenland/hoofd-drugsbestrijding-sierra-leone-feestend-samen-met-bolle-jos-in-nieuwe-video~aa31299b/\">«Algemeen Dagblad,»</a> shows Leijdekkers at a birthday party in a restaurant in the capital, Freetown. The restaurant, «Lor,» is one of the most elegant in the country. Leijdekkers is wearing a Versace shirt and is in high spirits. He presents the birthday celebrant with a gift. The two laugh heartily. The recipient is Alusine Kanneh, the head of Sierra Leone's migration authority. Standing right next to him is Andrew Jaiah Kaikai, the head of the anti-drug agency."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "jw-clips",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1immq330f0",
+   "content": {
+    "text": "The videos reveal that a major European criminal is moving in the inner circle of power in a small African country. What is Jos Leijdekkers doing there? It's a story that leads from the Netherlands to West Africa and back again – along the routes of the international drug trade."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1im56c8nk0",
+   "content": {
+    "title": "Who is Jos Leijdekkers?",
+    "id": "subtitle-wer-ist-jos-leijdekkers"
+   },
+   "styles": {
+    "subtitle-type": "subtitle--chapter"
+   },
+   "data": {},
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "q-embed"
+  },
+  {
+   "identifier": "q-embed",
+   "id": "doc-1imk47dim0",
+   "content": {
+    "q-embed": {
+     "service": "q-tool",
+     "params": {
+      "id": "914387acc4e7abb7df0e8ee47291e8f6",
+      "conf": {},
+      "toolConfig": {},
+      "toolRuntimeConfig": {
+       "size": {
+        "width": [
+         {
+          "value": 735,
+          "unit": "px",
+          "comparison": ">"
+         },
+         {
+          "value": 1200,
+          "unit": "px",
+          "comparison": "<"
+         }
+        ]
+       },
+       "displayOptions": {
+        "hideTitle": true,
+        "hideSubtitle": false,
+        "hideFooter": false,
+        "hideAcronym": true
+       },
+       "locale": "en_US"
+      },
+      "size": "fullwidth"
+     },
+     "resolvedValue": {}
+    },
+    "html": "      <div        class=\"q-infographic-container\"        id=\"q_infographic_914387acc4e7abb7df0e8ee47291e8f6_qc1153f2bf10344e0afcf96d20d557652_container\"        data-q-item-id=\"914387acc4e7abb7df0e8ee47291e8f6\"        data-q-request-id=\"9ec4011d312fbb70f9ca569a7ac12bf891a112ae\"      ></div>",
+    "stylesheets": [
+     {
+      "type": "remote",
+      "content": "https://service.sophie.nzz.ch/bundle/sophie-color%23master,sophie-font%23master,sophie-input%23master[button+field],sophie-legend%23master[icon-label],sophie-q%23master,sophie-viz-color%23master.css"
+     },
+     {
+      "type": "inline",
+      "content": "  @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff) format(\"woff\");  }    @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff) format(\"woff\");    unicode-range: U+0020-00FF,U+2005,U+2082;  }      "
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/css-theme-layer/nzz-0.2.0.css"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/infographic/q-infographic-1.2.9.css"
+     }
+    ],
+    "scripts": [
+     {
+      "type": "inline",
+      "content": "function qTrackingBootstrap(t,e,n){if(window.digitalData&&window.digitalData.component&&window.digitalData.component.push){window.digitalData.component.push(t),window.digitalData.event&&window.digitalData.event.length||(window.digitalData.event=[]);var i=new Date,a=e;a.eventInfo.timeStamp=i.toISOString(),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\");var o=document.querySelectorAll(\"[data-q-request-id='\"+n+\"']\");[].forEach.call(o,function(t){t.addEventListener(\"q-tracking-event\",function(t){var e=new Date;(a=JSON.parse(JSON.stringify(a))).eventInfo.timeStamp=e.toISOString(),a.eventInfo=Object.assign(a.eventInfo,t.detail.eventInfo),a.category=Object.assign(a.category,t.detail.category),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\")},!1)})}};qTrackingBootstrap({\"componentInfo\":{\"componentName\":\"Q\",\"componentID\":\"914387acc4e7abb7df0e8ee47291e8f6\"},\"category\":{\"componentType\":\"storytelling\",\"componentSubType1\":\"Q graphic\",\"componentSubType2\":\"infographic\"}},{\"eventInfo\":{\"eventName\":\"Storytelling Interaction\",\"eventAction\":\"load\",\"type\":\"story\",\"componentName\":\"Q\",\"eventNonInteractive\":true,\"componentID\":\"914387acc4e7abb7df0e8ee47291e8f6\"},\"category\":{\"primaryCategory\":\"storytelling\",\"subCategory1\":\"Q graphic\",\"subCategory2\":\"infographic\"}},\"9ec4011d312fbb70f9ca569a7ac12bf891a112ae\")"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/infographic/q-infographic-1.2.9.js"
+     },
+     {
+      "type": "inline",
+      "content": "      (function () {        function initialize() {          const target = document.querySelector('#q_infographic_914387acc4e7abb7df0e8ee47291e8f6_qc1153f2bf10344e0afcf96d20d557652_container');          if (!target) return;          target.innerHTML = '';          const qdoc = {\"_id\":\"914387acc4e7abb7df0e8ee47291e8f6\",\"title\":\"Gift presentation Jos\",\"subtitle\":\"\",\"publication\":\"nzz\",\"acronym\":\"ida.\",\"sources\":[],\"images\":{\"variants\":[{\"images\":[{\"key\":\"2025/03/21/4mobile6x-bdbd856eb3fd980313de6e672b2544b6.png\",\"url\":\"https://nzz-q-assets.s3.eu-west-1.amazonaws.com/2025/03/21/4mobile6x-bdbd856eb3fd980313de6e672b2544b6.png\",\"size\":3042401,\"type\":\"image/png\",\"width\":2221,\"height\":2006,\"originalName\":\"4mobile@6x.png\"}],\"minWidth\":0},{\"images\":[{\"key\":\"2025/03/21/4content6x-4dbfdb463c96c06173b6495afba7bf58.png\",\"url\":\"https://nzz-q-assets.s3.eu-west-1.amazonaws.com/2025/03/21/4content6x-4dbfdb463c96c06173b6495afba7bf58.png\",\"size\":3985338,\"type\":\"image/png\",\"width\":3781,\"height\":2331,\"originalName\":\"4content@6x.png\"}],\"minWidth\":540},{\"images\":[{\"key\":\"2025/03/21/4container6x-144aa8bceac7acc11481dc87fdd73dbe.png\",\"url\":\"https://nzz-q-assets.s3.eu-west-1.amazonaws.com/2025/03/21/4container6x-144aa8bceac7acc11481dc87fdd73dbe.png\",\"size\":4098720,\"type\":\"image/png\",\"width\":5401,\"height\":2302,\"originalName\":\"4container@6x.png\"}],\"minWidth\":830}]},\"options\":{\"serveLosslessWebP\":false},\"updatedDate\":\"2025-03-21T10:40:06.076Z\"};          const toolRuntimeConfig = {\"displayOptions\":{\"hideTitle\":true,\"hideSubtitle\":false,\"hideFooter\":false,\"hideAcronym\":true},\"size\":{\"width\":[{\"value\":735,\"comparison\":\">\",\"unit\":\"px\"},{\"value\":1200,\"unit\":\"px\",\"comparison\":\"<\"}]},\"locale\":\"en-US\"};          const toolSettings = {\"qItemInstanceId\":\"q_infographic_914387acc4e7abb7df0e8ee47291e8f6_qc1153f2bf10344e0afcf96d20d557652\",\"imageServiceUrl\":\"https://nzz-q-assets2.static-nzz.ch\",\"imageServiceType\":\"cloudflare\"};          let attempts = 0;          const maxAttempts = 100;          const checkAndInitialize = setInterval(() => {            if (window.qInfographic) {              clearInterval(checkAndInitialize);              new window.qInfographic({ target: target, props: {                qdoc: qdoc,                toolSettings: toolSettings,                toolRuntimeConfig: toolRuntimeConfig              } });            } else {              attempts++;              if (attempts >= maxAttempts) {                clearInterval(checkAndInitialize);                console.error('Failed to initialize qInfographic after 30 seconds');              }            }          }, 300);        }        if (document.body.classList.contains('pagedone')) {          initialize();        } else {          window.addEventListener('pagedone', initialize);        }      })();    "
+     }
+    ]
+   },
+   "styles": {
+    "fullwidth-widget": "widget--fullwidth"
+   },
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1im56e57n0",
+   "content": {
+    "text": "Jos Leijdekkers was born into the underworld: His father ran a brothel in the small Dutch town of Breda. His clients came from the drug scene, and thanks to them, his father presumably maintained contacts in Europe's two largest ports, Rotterdam in the Netherlands and Antwerp in Belgium. These contacts would later prove useful to his son."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "q-embed",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1imiprc3h0",
+   "content": {
+    "text": "According to the Dutch newspaper «Het Parool,» young Jos attracted attention early on for his disobedience, forcing him to change schools several times. At 17, he and his friends beat a boy so badly he required hospitalization, resulting in a 27-day sentence in juvenile detention and 40 hours of community service. The judges offered a bleak prognosis: Leijdekkers' self-reflection was deemed «very limited.» He only saw his own rights and didn't listen to what others had to say."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1imiprc3l0",
+   "content": {
+    "text": "They were right. A year and a half later, Jos Leijdekkers got into an argument with two brothers over a bar stool in the coastal town of Scheveningen. Outside the bar, he gunned down his opponents with several shots. Only by sheer luck did both survive. Leijdekkers, now an adult, was sentenced to six years in prison in 2011."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1imiprc3o0",
+   "content": {
+    "text": "He spent four years behind bars – but it wasn't wasted time for him. «Prison is a university for crime,» says criminologist Hans Werdmölder, who wrote a biography of the drug lord that was published a few weeks ago. In prison, Leijdekkers met other gangsters. They opened the doors to the biggest deals for him."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1imiprc3r0",
+   "content": {
+    "text": "Once free, he embarks on a career as a criminal. His business model is simple: He organizes large cocaine shipments from South America to Rotterdam and Antwerp, knows exactly which containers hold the valuable cargo, and smuggles it out of the area with the help of bribed port workers and customs officials."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1imiprc3u0",
+   "content": {
+    "text": "Most of the time, it works out well; Leijdekkers imports tons of drugs into Europe. His rise coincides with a sharp increase in the cocaine trade in Europe. In 2022, the amount of seized drugs exceeded 320 tons – five times as much as in 2012."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "q-embed"
+  },
+  {
+   "identifier": "q-embed",
+   "id": "doc-1imnf8nig0",
+   "content": {
+    "q-embed": {
+     "service": "q-tool",
+     "params": {
+      "id": "8070264e05de394ee6dd77670a2fc679",
+      "conf": {},
+      "toolConfig": {},
+      "toolRuntimeConfig": {
+       "size": {
+        "width": [
+         {
+          "value": 100,
+          "comparison": ">"
+         }
+        ]
+       },
+       "displayOptions": {
+        "hideTitle": false,
+        "hideSubtitle": false,
+        "hideFooter": false,
+        "hideAcronym": true,
+        "size": "basic"
+       },
+       "locale": "en_US"
+      },
+      "size": "content"
+     },
+     "resolvedValue": {}
+    },
+    "html": "      <div        class=\"q-chart-container\"        id=\"q_chart_8070264e05de394ee6dd77670a2fc679_q90ba07eec8094067a9074688e8fed7cd_container\"        data-q-item-id=\"8070264e05de394ee6dd77670a2fc679\"        data-q-request-id=\"8a30d59fd4bd9295bd7b2373c424c99a9587e51a\"      ></div>",
+    "stylesheets": [
+     {
+      "type": "remote",
+      "content": "https://service.sophie.nzz.ch/bundle/sophie-color%23master,sophie-font%23master,sophie-input%23master[button+field],sophie-legend%23master[icon-label],sophie-q%23master,sophie-viz-color%23master.css"
+     },
+     {
+      "type": "inline",
+      "content": "  @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff) format(\"woff\");  }    @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff) format(\"woff\");    unicode-range: U+0020-00FF,U+2005,U+2082;  }      "
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/css-theme-layer/nzz-0.2.0.css"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/chart/q-chart-1.2.6.css"
+     }
+    ],
+    "scripts": [
+     {
+      "type": "inline",
+      "content": "function qTrackingBootstrap(t,e,n){if(window.digitalData&&window.digitalData.component&&window.digitalData.component.push){window.digitalData.component.push(t),window.digitalData.event&&window.digitalData.event.length||(window.digitalData.event=[]);var i=new Date,a=e;a.eventInfo.timeStamp=i.toISOString(),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\");var o=document.querySelectorAll(\"[data-q-request-id='\"+n+\"']\");[].forEach.call(o,function(t){t.addEventListener(\"q-tracking-event\",function(t){var e=new Date;(a=JSON.parse(JSON.stringify(a))).eventInfo.timeStamp=e.toISOString(),a.eventInfo=Object.assign(a.eventInfo,t.detail.eventInfo),a.category=Object.assign(a.category,t.detail.category),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\")},!1)})}};qTrackingBootstrap({\"componentInfo\":{\"componentName\":\"Q\",\"componentID\":\"8070264e05de394ee6dd77670a2fc679\"},\"category\":{\"componentType\":\"storytelling\",\"componentSubType1\":\"Q graphic\",\"componentSubType2\":\"chart\"}},{\"eventInfo\":{\"eventName\":\"Storytelling Interaction\",\"eventAction\":\"load\",\"type\":\"story\",\"componentName\":\"Q\",\"eventNonInteractive\":true,\"componentID\":\"8070264e05de394ee6dd77670a2fc679\"},\"category\":{\"primaryCategory\":\"storytelling\",\"subCategory1\":\"Q graphic\",\"subCategory2\":\"chart\"}},\"8a30d59fd4bd9295bd7b2373c424c99a9587e51a\")"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/chart/q-chart-1.2.6.js"
+     },
+     {
+      "type": "inline",
+      "content": "      (function () {        function initialize() {          const target = document.querySelector('#q_chart_8070264e05de394ee6dd77670a2fc679_q90ba07eec8094067a9074688e8fed7cd_container');          if (!target) return;          target.innerHTML = '';          const qdoc = {\"_id\":\"8070264e05de394ee6dd77670a2fc679\",\"allowDownloadData\":false,\"title\":\"More cocaine in Europe than ever before\",\"subtitle\":\"Cocaine seized in European countries, in tons\",\"publication\":\"nzz\",\"acronym\":\"adi.\",\"data\":[[\"Country\",\"Turkey\",\"Portugal\",\"Italy\",\"France\",\"Spain\",\"Belgium\",\"Other countries\"],[\"2012\",\"0.5\",\"4\",\"5.3\",\"5.6\",\"20.8\",\"19.2\",\"12.9\"],[\"2013\",\"0.4\",\"2.4\",\"5\",\"5.6\",\"26.7\",\"6.5\",\"15.6\"],[\"2014\",\"0.4\",\"3.7\",\"3.9\",\"6.9\",\"21.7\",\"9.3\",\"12.6\"],[\"2015\",\"0.5\",\"6\",\"4\",\"10.9\",\"21.6\",\"17.5\",\"17.4\"],[\"2016\",\"0.8\",\"1\",\"4.1\",\"8.5\",\"15.6\",\"30.3\",\"17.9\"],[\"2017\",\"1.5\",\"2.7\",\"4.1\",\"17.5\",\"41\",\"44.8\",\"24.9\"],[\"2018\",\"1.5\",\"5.5\",\"3.6\",\"16.4\",\"48.5\",\"53\",\"45.7\"],[\"2019\",\"1.6\",\"10.6\",\"8.2\",\"15.8\",\"37.9\",\"65.2\",\"62.6\"],[\"2020\",\"2\",\"10.1\",\"13.4\",\"13.1\",\"36.9\",\"70.3\",\"67.4\"],[\"2021\",\"2.8\",\"9.9\",\"20.1\",\"26.5\",\"48.9\",\"96.3\",\"101.8\"],[\"2022\",\"2.3\",\"16.5\",\"26.1\",\"27.7\",\"58.3\",\"110.9\",\"83.1\"]],\"sources\":[{\"text\":\"EUDA\",\"link\":{\"url\":\"https://www.euda.europa.eu/publications/european-drug-report/2024/cocaine_en#level-8\"}}],\"events\":[],\"options\":{\"annotations\":{},\"areaChartOptions\":{\"areaInterpolation\":\"linear\",\"stackType\":\"zero\"},\"arrowOptions\":{\"colorScheme\":0,\"invertColorScheme\":false},\"barOptions\":{\"isBarChart\":false,\"forceBarsOnSmall\":false},\"chartType\":\"Area\",\"colorOverwritesRows\":[],\"colorOverwritesSeries\":[{\"color\":\"#8d579b\",\"colorLight\":\"\",\"position\":5},{\"color\":\"#e9cf8f\",\"colorLight\":\"\",\"position\":6},{\"color\":\"#aaaaaa\",\"colorLight\":\"\",\"position\":2},{\"color\":\"#DC6436\",\"colorLight\":\"\",\"position\":4},{\"color\":\"#290732\",\"colorLight\":\"\",\"position\":1},{\"color\":\"#f0ecdd\",\"colorLight\":\"\",\"position\":7},{\"color\":\"#803418\",\"colorLight\":\"\",\"position\":3}],\"dateSeriesOptions\":{\"interval\":\"auto\",\"labels\":\"many\",\"prognosisStart\":null},\"dotplotOptions\":{},\"hideAxisLabel\":true,\"highlightDataRows\":[],\"highlightDataSeries\":[],\"lineChartOptions\":{\"yScaleType\":\"linear\",\"reverseYScale\":false,\"lineInterpolation\":\"linear\",\"isStockChart\":false},\"largeNumbers\":{\"divideBy\":0}},\"updatedDate\":\"2025-03-20T16:29:48.545Z\",\"notes\":\"Information regarding the Netherlands is incomplete, according to the European Union Agency for Drugs and Drug Addiction (EUDA).\"};          const toolRuntimeConfig = {\"displayOptions\":{\"hideTitle\":false,\"hideSubtitle\":false,\"hideFooter\":false,\"hideAcronym\":true,\"size\":\"basic\"},\"size\":{\"width\":[{\"value\":100,\"comparison\":\">\"}]},\"locale\":\"en-US\"};          const toolSettings = {\"qItemInstanceId\":\"q_chart_8070264e05de394ee6dd77670a2fc679_q90ba07eec8094067a9074688e8fed7cd\"};          let attempts = 0;          const maxAttempts = 100;          const checkAndInitialize = setInterval(() => {            if (window.qChart) {              clearInterval(checkAndInitialize);              new window.qChart({ target: target, props: {                qdoc: qdoc,                toolSettings: toolSettings,                toolRuntimeConfig: toolRuntimeConfig              } });            } else {              attempts++;              if (attempts >= maxAttempts) {                clearInterval(checkAndInitialize);                console.error('Failed to initialize qChart after 30 seconds');              }            }          }, 300);        }        if (document.body.classList.contains('pagedone')) {          initialize();        } else {          window.addEventListener('pagedone', initialize);        }      })();    "
+     }
+    ]
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1imn963k31",
+   "content": {
+    "text": "According to experts, Leijdekkers' organization is not a complexly structured mafia. Rather, he has a few close confidants plus several dozen accomplices, of whom he uses different ones depending on the task."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "q-embed",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1imiprc410",
+   "content": {
+    "text": "Sometimes mistakes happen in the supply chain. In December 2019, Leijdekkers' men failed to remove a shipment of cocaine in time at the port of Rotterdam. It was shipped on to Finland. According to the Dutch public prosecutor's office, Leijdekkers sent a group of henchmen to secure the shipment in Helsinki. There, they assaulted a port employee and were subsequently arrested."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1imiprc470",
+   "content": {
+    "text": "Dutch and Belgian police have long been investigating Leijdekkers. The extent of his role in international drug trafficking only became clear to investigators in 2021 when they succeeded in hacking the Sky ECC messaging service used by criminals. Leijdekkers was active there under various aliases, including «El Presidente,» «Holly» (from Hollywood), and «El Ganador» («the winner») – pseudonyms that were sometimes even written on the cocaine bars from South America."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "q-embed"
+  },
+  {
+   "identifier": "q-embed",
+   "id": "doc-1impevu1r0",
+   "content": {
+    "q-embed": {
+     "service": "q-tool",
+     "params": {
+      "id": "5cde6d33c8c4f3aad5c88cd219326245",
+      "conf": {},
+      "toolConfig": {},
+      "toolRuntimeConfig": {
+       "size": {
+        "width": [
+         {
+          "value": 735,
+          "unit": "px",
+          "comparison": ">"
+         },
+         {
+          "value": 1200,
+          "unit": "px",
+          "comparison": "<"
+         }
+        ]
+       },
+       "displayOptions": {
+        "hideTitle": true,
+        "hideSubtitle": false,
+        "hideFooter": false,
+        "hideAcronym": true
+       },
+       "locale": "en_US"
+      },
+      "size": "fullwidth"
+     },
+     "resolvedValue": {}
+    },
+    "html": "      <div        class=\"q-infographic-container\"        id=\"q_infographic_5cde6d33c8c4f3aad5c88cd219326245_q3a7e8bb18939497e9088ccec509cbeda_container\"        data-q-item-id=\"5cde6d33c8c4f3aad5c88cd219326245\"        data-q-request-id=\"0b4d86aeaa913aa9f8e48a6e60c23aeafb8fe8ba\"      ></div>",
+    "stylesheets": [
+     {
+      "type": "remote",
+      "content": "https://service.sophie.nzz.ch/bundle/sophie-color%23master,sophie-font%23master,sophie-input%23master[button+field],sophie-legend%23master[icon-label],sophie-q%23master,sophie-viz-color%23master.css"
+     },
+     {
+      "type": "inline",
+      "content": "  @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff) format(\"woff\");  }    @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff) format(\"woff\");    unicode-range: U+0020-00FF,U+2005,U+2082;  }      "
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/css-theme-layer/nzz-0.2.0.css"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/infographic/q-infographic-1.2.9.css"
+     }
+    ],
+    "scripts": [
+     {
+      "type": "inline",
+      "content": "function qTrackingBootstrap(t,e,n){if(window.digitalData&&window.digitalData.component&&window.digitalData.component.push){window.digitalData.component.push(t),window.digitalData.event&&window.digitalData.event.length||(window.digitalData.event=[]);var i=new Date,a=e;a.eventInfo.timeStamp=i.toISOString(),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\");var o=document.querySelectorAll(\"[data-q-request-id='\"+n+\"']\");[].forEach.call(o,function(t){t.addEventListener(\"q-tracking-event\",function(t){var e=new Date;(a=JSON.parse(JSON.stringify(a))).eventInfo.timeStamp=e.toISOString(),a.eventInfo=Object.assign(a.eventInfo,t.detail.eventInfo),a.category=Object.assign(a.category,t.detail.category),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\")},!1)})}};qTrackingBootstrap({\"componentInfo\":{\"componentName\":\"Q\",\"componentID\":\"5cde6d33c8c4f3aad5c88cd219326245\"},\"category\":{\"componentType\":\"storytelling\",\"componentSubType1\":\"Q graphic\",\"componentSubType2\":\"infographic\"}},{\"eventInfo\":{\"eventName\":\"Storytelling Interaction\",\"eventAction\":\"load\",\"type\":\"story\",\"componentName\":\"Q\",\"eventNonInteractive\":true,\"componentID\":\"5cde6d33c8c4f3aad5c88cd219326245\"},\"category\":{\"primaryCategory\":\"storytelling\",\"subCategory1\":\"Q graphic\",\"subCategory2\":\"infographic\"}},\"0b4d86aeaa913aa9f8e48a6e60c23aeafb8fe8ba\")"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/infographic/q-infographic-1.2.9.js"
+     },
+     {
+      "type": "inline",
+      "content": "      (function () {        function initialize() {          const target = document.querySelector('#q_infographic_5cde6d33c8c4f3aad5c88cd219326245_q3a7e8bb18939497e9088ccec509cbeda_container');          if (!target) return;          target.innerHTML = '';          const qdoc = {\"_id\":\"5cde6d33c8c4f3aad5c88cd219326245\",\"title\":\"Holly\",\"subtitle\":\"\",\"publication\":\"nzz\",\"acronym\":\"ida.\",\"sources\":[],\"images\":{\"variants\":[{\"images\":[{\"key\":\"2025/03/20/4mobile5x-ae1eeec5b6472cacb85227d1379510b8.png\",\"url\":\"https://nzz-q-assets.s3.eu-west-1.amazonaws.com/2025/03/20/4mobile5x-ae1eeec5b6472cacb85227d1379510b8.png\",\"size\":2886460,\"type\":\"image/png\",\"width\":1851,\"height\":1470,\"originalName\":\"4mobile@5x.png\"}],\"minWidth\":0},{\"images\":[{\"key\":\"2025/03/20/4content5x-a97eabe49998d47121ab416464583114.png\",\"url\":\"https://nzz-q-assets.s3.eu-west-1.amazonaws.com/2025/03/20/4content5x-a97eabe49998d47121ab416464583114.png\",\"size\":4046147,\"type\":\"image/png\",\"width\":3151,\"height\":1979,\"originalName\":\"4content@5x.png\"}],\"minWidth\":540},{\"images\":[{\"key\":\"2025/03/20/4container5x-a180ef891f5dbefb5533dd821a995848.png\",\"url\":\"https://nzz-q-assets.s3.eu-west-1.amazonaws.com/2025/03/20/4container5x-a180ef891f5dbefb5533dd821a995848.png\",\"size\":4540097,\"type\":\"image/png\",\"width\":4501,\"height\":1919,\"originalName\":\"4container@5x.png\"}],\"minWidth\":830}]},\"options\":{\"serveLosslessWebP\":false},\"updatedDate\":\"2025-03-20T17:10:05.473Z\"};          const toolRuntimeConfig = {\"displayOptions\":{\"hideTitle\":true,\"hideSubtitle\":false,\"hideFooter\":false,\"hideAcronym\":true},\"size\":{\"width\":[{\"value\":735,\"comparison\":\">\",\"unit\":\"px\"},{\"value\":1200,\"unit\":\"px\",\"comparison\":\"<\"}]},\"locale\":\"en-US\"};          const toolSettings = {\"qItemInstanceId\":\"q_infographic_5cde6d33c8c4f3aad5c88cd219326245_q3a7e8bb18939497e9088ccec509cbeda\",\"imageServiceUrl\":\"https://nzz-q-assets2.static-nzz.ch\",\"imageServiceType\":\"cloudflare\"};          let attempts = 0;          const maxAttempts = 100;          const checkAndInitialize = setInterval(() => {            if (window.qInfographic) {              clearInterval(checkAndInitialize);              new window.qInfographic({ target: target, props: {                qdoc: qdoc,                toolSettings: toolSettings,                toolRuntimeConfig: toolRuntimeConfig              } });            } else {              attempts++;              if (attempts >= maxAttempts) {                clearInterval(checkAndInitialize);                console.error('Failed to initialize qInfographic after 30 seconds');              }            }          }, 300);        }        if (document.body.classList.contains('pagedone')) {          initialize();        } else {          window.addEventListener('pagedone', initialize);        }      })();    "
+     }
+    ]
+   },
+   "styles": {
+    "fullwidth-widget": "widget--fullwidth"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1imiprc490",
+   "content": {
+    "text": "Some of the messenger messages are shocking. On January 31, 2020, according to the Dutch public prosecutor's office, Leijdekkers wrote to an accomplice: «Brother, we have to let someone sleep.» Investigators know exactly what that means: to kill someone. Apparently, a rival was to be eliminated. It is not the only such message. After analyzing all the supposedly encrypted messages, the investigators wrote: «The ease with which it is repeatedly said that someone should ‹go to sleep› is appalling.»"
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "q-embed",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1imiprc4d0",
+   "content": {
+    "text": "Although proving his case is difficult and potential witnesses are intimidated, Leijdekkers has already been convicted in several countries for drug trafficking and violent crimes. In June 2024, a court in Rotterdam sentenced him to 24 years in prison; in September in Antwerp, Leijdekkers received a 10-year sentence, and in February, a 13-year sentence. Another trial is currently taking place in Belgium."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1imiprc4j0",
+   "content": {
+    "text": "If Leijdekkers were caught, he would face decades in prison. But so far, he has consistently eluded investigators. He is also believed to have lived in Dubai. In 2023, he was sighted in Turkey and, according to criminologist Werdmölder, arrested. However, he allegedly bribed the judges with €250,000 each to secure his release."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1im56vbmm0",
+   "content": {
+    "title": "Cocaine hub West Africa: what brings «fat Jos» to Sierra Leone",
+    "id": "subtitle-kokain-hub-westafrika-was-den-dicken-jos-nach-sierra-leone-bringt"
+   },
+   "styles": {
+    "subtitle-type": "subtitle--chapter"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1im5705vr0",
+   "content": {
+    "text": "So why is Jos Leijdekkers looking for something in Sierra Leone of all places? In a country that, while it has beautiful beaches, is one of the poorest countries in the world. You won't find glittering skyscrapers like in Dubai or luxurious city palaces like in Istanbul here."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1immvhij00",
+   "content": {
+    "text": "It helps to look at the routes of the global cocaine trade."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "q-embed"
+  },
+  {
+   "identifier": "q-embed",
+   "id": "doc-1impihes60",
+   "content": {
+    "q-embed": {
+     "service": "q-tool",
+     "params": {
+      "id": "5cde6d33c8c4f3aad5c88cd21938308c",
+      "conf": {},
+      "toolConfig": {},
+      "toolRuntimeConfig": {
+       "size": {
+        "width": [
+         {
+          "value": 735,
+          "unit": "px",
+          "comparison": ">"
+         },
+         {
+          "value": 1200,
+          "unit": "px",
+          "comparison": "<"
+         }
+        ]
+       },
+       "displayOptions": {
+        "hideTitle": true,
+        "hideSubtitle": false,
+        "hideFooter": false,
+        "hideAcronym": true
+       },
+       "locale": "en_US"
+      },
+      "size": "fullwidth"
+     },
+     "resolvedValue": {}
+    },
+    "html": "      <div        class=\"q-infographic-container\"        id=\"q_infographic_5cde6d33c8c4f3aad5c88cd21938308c_q1614a3dc367042f19b2942a059584958_container\"        data-q-item-id=\"5cde6d33c8c4f3aad5c88cd21938308c\"        data-q-request-id=\"c238c9b6950cf16dd99fe77e508d3dea55f9c793\"      ></div>",
+    "stylesheets": [
+     {
+      "type": "remote",
+      "content": "https://service.sophie.nzz.ch/bundle/sophie-color%23master,sophie-font%23master,sophie-input%23master[button+field],sophie-legend%23master[icon-label],sophie-q%23master,sophie-viz-color%23master.css"
+     },
+     {
+      "type": "inline",
+      "content": "  @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff) format(\"woff\");  }    @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff) format(\"woff\");    unicode-range: U+0020-00FF,U+2005,U+2082;  }      "
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/css-theme-layer/nzz-0.2.0.css"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/infographic/q-infographic-1.2.9.css"
+     }
+    ],
+    "scripts": [
+     {
+      "type": "inline",
+      "content": "function qTrackingBootstrap(t,e,n){if(window.digitalData&&window.digitalData.component&&window.digitalData.component.push){window.digitalData.component.push(t),window.digitalData.event&&window.digitalData.event.length||(window.digitalData.event=[]);var i=new Date,a=e;a.eventInfo.timeStamp=i.toISOString(),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\");var o=document.querySelectorAll(\"[data-q-request-id='\"+n+\"']\");[].forEach.call(o,function(t){t.addEventListener(\"q-tracking-event\",function(t){var e=new Date;(a=JSON.parse(JSON.stringify(a))).eventInfo.timeStamp=e.toISOString(),a.eventInfo=Object.assign(a.eventInfo,t.detail.eventInfo),a.category=Object.assign(a.category,t.detail.category),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\")},!1)})}};qTrackingBootstrap({\"componentInfo\":{\"componentName\":\"Q\",\"componentID\":\"5cde6d33c8c4f3aad5c88cd21938308c\"},\"category\":{\"componentType\":\"storytelling\",\"componentSubType1\":\"Q graphic\",\"componentSubType2\":\"infographic\"}},{\"eventInfo\":{\"eventName\":\"Storytelling Interaction\",\"eventAction\":\"load\",\"type\":\"story\",\"componentName\":\"Q\",\"eventNonInteractive\":true,\"componentID\":\"5cde6d33c8c4f3aad5c88cd21938308c\"},\"category\":{\"primaryCategory\":\"storytelling\",\"subCategory1\":\"Q graphic\",\"subCategory2\":\"infographic\"}},\"c238c9b6950cf16dd99fe77e508d3dea55f9c793\")"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/infographic/q-infographic-1.2.9.js"
+     },
+     {
+      "type": "inline",
+      "content": "      (function () {        function initialize() {          const target = document.querySelector('#q_infographic_5cde6d33c8c4f3aad5c88cd21938308c_q1614a3dc367042f19b2942a059584958_container');          if (!target) return;          target.innerHTML = '';          const qdoc = {\"_id\":\"5cde6d33c8c4f3aad5c88cd21938308c\",\"title\":\"Map Routes\",\"subtitle\":\"\",\"publication\":\"nzz\",\"acronym\":\"ida.\",\"sources\":[],\"images\":{\"variants\":[{\"images\":[{\"key\":\"2025/03/21/4mobile6x-989c5107279ab69013128724978e6895.png\",\"url\":\"https://nzz-q-assets.s3.eu-west-1.amazonaws.com/2025/03/21/4mobile6x-989c5107279ab69013128724978e6895.png\",\"size\":5639435,\"type\":\"image/png\",\"width\":2221,\"height\":2063,\"originalName\":\"4mobile@6x.png\"}],\"minWidth\":0},{\"images\":[{\"key\":\"2025/03/21/4content6x-a8399241143a88f24f149cc468aaefe6.png\",\"url\":\"https://nzz-q-assets.s3.eu-west-1.amazonaws.com/2025/03/21/4content6x-a8399241143a88f24f149cc468aaefe6.png\",\"size\":8765838,\"type\":\"image/png\",\"width\":3781,\"height\":2523,\"originalName\":\"4content@6x.png\"}],\"minWidth\":540},{\"images\":[{\"key\":\"2025/03/21/4container6x-9ede9ffc0e73c63e249523c670f1f50c.png\",\"url\":\"https://nzz-q-assets.s3.eu-west-1.amazonaws.com/2025/03/21/4container6x-9ede9ffc0e73c63e249523c670f1f50c.png\",\"size\":8975854,\"type\":\"image/png\",\"width\":5401,\"height\":2600,\"originalName\":\"4container@6x.png\"}],\"minWidth\":830}]},\"options\":{\"serveLosslessWebP\":false},\"updatedDate\":\"2025-03-21T10:47:09.798Z\"};          const toolRuntimeConfig = {\"displayOptions\":{\"hideTitle\":true,\"hideSubtitle\":false,\"hideFooter\":false,\"hideAcronym\":true},\"size\":{\"width\":[{\"value\":735,\"comparison\":\">\",\"unit\":\"px\"},{\"value\":1200,\"unit\":\"px\",\"comparison\":\"<\"}]},\"locale\":\"en-US\"};          const toolSettings = {\"qItemInstanceId\":\"q_infographic_5cde6d33c8c4f3aad5c88cd21938308c_q1614a3dc367042f19b2942a059584958\",\"imageServiceUrl\":\"https://nzz-q-assets2.static-nzz.ch\",\"imageServiceType\":\"cloudflare\"};          let attempts = 0;          const maxAttempts = 100;          const checkAndInitialize = setInterval(() => {            if (window.qInfographic) {              clearInterval(checkAndInitialize);              new window.qInfographic({ target: target, props: {                qdoc: qdoc,                toolSettings: toolSettings,                toolRuntimeConfig: toolRuntimeConfig              } });            } else {              attempts++;              if (attempts >= maxAttempts) {                clearInterval(checkAndInitialize);                console.error('Failed to initialize qInfographic after 30 seconds');              }            }          }, 300);        }        if (document.body.classList.contains('pagedone')) {          initialize();        } else {          window.addEventListener('pagedone', initialize);        }      })();    "
+     }
+    ]
+   },
+   "styles": {
+    "fullwidth-widget": "widget--fullwidth"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1immvhij80",
+   "content": {
+    "text": "Since the 2000s, criminal organizations have increasingly used West Africa as a route to supply Europe with cocaine. This is because the direct route from South America to Europe has become riskier, and European countries have tightened controls at ports and airports. West Africa is close to both South America and Europe. Most of its countries are poor, and their port authorities and police are poorly paid and susceptible to corruption."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "q-embed",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1immvhijb0",
+   "content": {
+    "text": "From the West African coast, drug smugglers transport the narcotics, mostly in boats, along the coast towards Europe, where they are unloaded in places like Spain or France. Some of the smuggling also goes through the Sahara. Many actors are involved: Mauritanian fishermen, Malian jihadists, Nigerian gangs, corrupt officials, and politicians."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1immvhijc0",
+   "content": {
+    "text": "Sierra Leone is the ideal hub. It lies opposite Brazil on Africa's west coast, with many small bays where smugglers' boats can land undisturbed. The UN <a href=\"https://news.un.org/en/story/2009/02/289762\">wrote as early as 2009:</a> «The cocaine trade is the greatest threat to Sierra Leone.»"
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1immvhije0",
+   "content": {
+    "text": "Recent events show that Sierra Leone has indeed become an important transit hub. In October 2023, port authorities in Antwerp, Belgium, discovered a shipment of 10 tons of cocaine hidden among soy flour. The shipment originated in Sierra Leone."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1imqc034g0",
+   "content": {
+    "text": "In December 2024, a British court sentenced a group of criminals from Liverpool to long prison terms. They had attempted to smuggle cocaine worth £140 million (160 million Swiss francs) into Great Britain. The shipment originated in Sierra Leone."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "q-embed"
+  },
+  {
+   "identifier": "q-embed",
+   "id": "doc-1impbqek10",
+   "content": {
+    "q-embed": {
+     "service": "q-tool",
+     "params": {
+      "id": "5cde6d33c8c4f3aad5c88cd2192bb6bd",
+      "conf": {},
+      "toolConfig": {},
+      "toolRuntimeConfig": {
+       "size": {
+        "width": [
+         {
+          "value": 100,
+          "comparison": ">"
+         }
+        ]
+       },
+       "displayOptions": {
+        "hideTitle": false,
+        "hideSubtitle": false,
+        "hideFooter": false,
+        "hideAcronym": true
+       },
+       "locale": "en_US"
+      },
+      "size": "content"
+     },
+     "resolvedValue": {}
+    },
+    "html": "      <div        class=\"q-table-container\"        id=\"q_table_5cde6d33c8c4f3aad5c88cd2192bb6bd_q8c525bfcee1746309709c4456710f31f_container\"        data-q-item-id=\"5cde6d33c8c4f3aad5c88cd2192bb6bd\"        data-q-request-id=\"231511b967c127f20ed3602f24dcc33c6fb0f032\"      ></div>",
+    "stylesheets": [
+     {
+      "type": "remote",
+      "content": "https://service.sophie.nzz.ch/bundle/sophie-color%23master,sophie-font%23master,sophie-input%23master[button+field],sophie-legend%23master[icon-label],sophie-q%23master,sophie-viz-color%23master.css"
+     },
+     {
+      "type": "inline",
+      "content": "  @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff) format(\"woff\");  }    @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff) format(\"woff\");    unicode-range: U+0020-00FF,U+2005,U+2082;  }      "
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/css-theme-layer/nzz-0.2.0.css"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/table/q-table-7.10.6.css"
+     }
+    ],
+    "scripts": [
+     {
+      "type": "inline",
+      "content": "function qTrackingBootstrap(t,e,n){if(window.digitalData&&window.digitalData.component&&window.digitalData.component.push){window.digitalData.component.push(t),window.digitalData.event&&window.digitalData.event.length||(window.digitalData.event=[]);var i=new Date,a=e;a.eventInfo.timeStamp=i.toISOString(),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\");var o=document.querySelectorAll(\"[data-q-request-id='\"+n+\"']\");[].forEach.call(o,function(t){t.addEventListener(\"q-tracking-event\",function(t){var e=new Date;(a=JSON.parse(JSON.stringify(a))).eventInfo.timeStamp=e.toISOString(),a.eventInfo=Object.assign(a.eventInfo,t.detail.eventInfo),a.category=Object.assign(a.category,t.detail.category),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\")},!1)})}};qTrackingBootstrap({\"componentInfo\":{\"componentName\":\"Q\",\"componentID\":\"5cde6d33c8c4f3aad5c88cd2192bb6bd\"},\"category\":{\"componentType\":\"storytelling\",\"componentSubType1\":\"Q graphic\",\"componentSubType2\":\"table\"}},{\"eventInfo\":{\"eventName\":\"Storytelling Interaction\",\"eventAction\":\"load\",\"type\":\"story\",\"componentName\":\"Q\",\"eventNonInteractive\":true,\"componentID\":\"5cde6d33c8c4f3aad5c88cd2192bb6bd\"},\"category\":{\"primaryCategory\":\"storytelling\",\"subCategory1\":\"Q graphic\",\"subCategory2\":\"table\"}},\"231511b967c127f20ed3602f24dcc33c6fb0f032\")"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/table/q-table-7.10.6.js"
+     },
+     {
+      "type": "inline",
+      "content": "      (function () {        function initialize() {          const target = document.querySelector('#q_table_5cde6d33c8c4f3aad5c88cd2192bb6bd_q8c525bfcee1746309709c4456710f31f_container');          if (!target) return;          target.innerHTML = '';          const qdoc = {\"_id\":\"5cde6d33c8c4f3aad5c88cd2192bb6bd\",\"title\":\"In Belgium, 18 tons of cocaine from Sierra Leone have been seized in the last two years\",\"subtitle\":\"\",\"publication\":\"nzz\",\"acronym\":\"adi.\",\"data\":{\"table\":[[\"Date\",\"Quantity (tons)\",\"hideout\"],[\"16. 10. 2023\",\"10\",\"soy flour\"],[\"23. 10. 2023\",\"2\",\"Wood\"],[\"10. 4. 2024\",\"6\",\"Palm oil\"]],\"metaData\":{\"cells\":[]}},\"sources\":[{\"text\":\"AD\",\"link\":{\"url\":\"\"}}],\"options\":{\"hideTableHeader\":false,\"showTableSearch\":false,\"cardLayout\":false,\"cardLayoutIfSmall\":false,\"hideLegend\":true,\"pageSize\":10,\"frozenRowKey\":null,\"sorting\":[],\"formatting\":[],\"minibar\":{\"selectedColumn\":1,\"invertColors\":false,\"barColor\":{\"positive\":{\"className\":\"\",\"colorCode\":\"#8d579b\"},\"negative\":{\"className\":\"\",\"colorCode\":\"\"}}},\"colorColumn\":{\"colorColumnType\":\"numerical\",\"selectedColumn\":null,\"numericalOptions\":{\"labelLegend\":\"noLabel\",\"bucketType\":\"ckmeans\",\"numberBuckets\":5,\"scale\":\"sequential\",\"colorScheme\":\"one\",\"colorOverwrites\":[],\"customBuckets\":\"\"},\"categoricalOptions\":{\"colorOverwrites\":[],\"customCategoriesOrder\":[]}}},\"updatedDate\":\"2025-03-20T15:33:47.504Z\"};          const toolRuntimeConfig = {\"displayOptions\":{\"hideTitle\":false,\"hideSubtitle\":false,\"hideFooter\":false,\"hideAcronym\":true},\"size\":{\"width\":[{\"value\":100,\"comparison\":\">\"}]},\"locale\":\"en-US\"};          const toolSettings = {\"qItemInstanceId\":\"q_table_5cde6d33c8c4f3aad5c88cd2192bb6bd_q8c525bfcee1746309709c4456710f31f\"};          let attempts = 0;          const maxAttempts = 100;          const checkAndInitialize = setInterval(() => {            if (window.qTable) {              clearInterval(checkAndInitialize);              new window.qTable({ target: target, props: {                qdoc: qdoc,                toolSettings: toolSettings,                toolRuntimeConfig: toolRuntimeConfig              } });            } else {              attempts++;              if (attempts >= maxAttempts) {                clearInterval(checkAndInitialize);                console.error('Failed to initialize qTable after 30 seconds');              }            }          }, 300);        }        if (document.body.classList.contains('pagedone')) {          initialize();        } else {          window.addEventListener('pagedone', initialize);        }      })();    "
+     }
+    ]
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1immvhijg0",
+   "content": {
+    "text": "A few sentences on a US State Department website about Sierra Leone succinctly summarize what brings a man like Jos Leijdekkers to West Africa: «Drug trafficking and money laundering are widespread in Sierra Leone. The country is used as a transit point from South America/Asia to Europe and, to a lesser extent, to the USA. Corruption is a pervasive problem in Sierra Leone. The criminal justice system is inefficient and overburdened.»"
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "q-embed",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1immvhiji0",
+   "content": {
+    "text": "There is considerable evidence that the most powerful people in Sierra Leone profit from the millions that the drug trade brings into the country. For example, in January, police in neighboring Guinea found seven suitcases containing 180 kilograms of cocaine and $100,000 in cash in a car belonging to the Sierra Leonean embassy."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1immvhijk0",
+   "content": {
+    "text": "This is the soil in which Jos Leijdekkers' businesses thrive."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "q-embed"
+  },
+  {
+   "identifier": "q-embed",
+   "id": "doc-1impb19p50",
+   "content": {
+    "q-embed": {
+     "service": "q-tool",
+     "params": {
+      "id": "5cde6d33c8c4f3aad5c88cd2192a8da4",
+      "conf": {},
+      "toolConfig": {},
+      "toolRuntimeConfig": {
+       "size": {
+        "width": [
+         {
+          "value": 100,
+          "comparison": ">"
+         }
+        ]
+       },
+       "displayOptions": {
+        "hideTitle": false,
+        "hideSubtitle": false,
+        "hideFooter": false,
+        "hideAcronym": true,
+        "size": "basic"
+       },
+       "locale": "en_US"
+      },
+      "size": "content"
+     },
+     "resolvedValue": {}
+    },
+    "html": "      <div        class=\"q-chart-container\"        id=\"q_chart_5cde6d33c8c4f3aad5c88cd2192a8da4_q46de063388d246a394cb68bc1b5b05be_container\"        data-q-item-id=\"5cde6d33c8c4f3aad5c88cd2192a8da4\"        data-q-request-id=\"cd9a9cc72efee9bc0619229213ba90fecefe3016\"      ></div>",
+    "stylesheets": [
+     {
+      "type": "remote",
+      "content": "https://service.sophie.nzz.ch/bundle/sophie-color%23master,sophie-font%23master,sophie-input%23master[button+field],sophie-legend%23master[icon-label],sophie-q%23master,sophie-viz-color%23master.css"
+     },
+     {
+      "type": "inline",
+      "content": "  @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff) format(\"woff\");  }    @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff) format(\"woff\");    unicode-range: U+0020-00FF,U+2005,U+2082;  }      "
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/css-theme-layer/nzz-0.2.0.css"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/chart/q-chart-1.2.6.css"
+     }
+    ],
+    "scripts": [
+     {
+      "type": "inline",
+      "content": "function qTrackingBootstrap(t,e,n){if(window.digitalData&&window.digitalData.component&&window.digitalData.component.push){window.digitalData.component.push(t),window.digitalData.event&&window.digitalData.event.length||(window.digitalData.event=[]);var i=new Date,a=e;a.eventInfo.timeStamp=i.toISOString(),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\");var o=document.querySelectorAll(\"[data-q-request-id='\"+n+\"']\");[].forEach.call(o,function(t){t.addEventListener(\"q-tracking-event\",function(t){var e=new Date;(a=JSON.parse(JSON.stringify(a))).eventInfo.timeStamp=e.toISOString(),a.eventInfo=Object.assign(a.eventInfo,t.detail.eventInfo),a.category=Object.assign(a.category,t.detail.category),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\")},!1)})}};qTrackingBootstrap({\"componentInfo\":{\"componentName\":\"Q\",\"componentID\":\"5cde6d33c8c4f3aad5c88cd2192a8da4\"},\"category\":{\"componentType\":\"storytelling\",\"componentSubType1\":\"Q graphic\",\"componentSubType2\":\"chart\"}},{\"eventInfo\":{\"eventName\":\"Storytelling Interaction\",\"eventAction\":\"load\",\"type\":\"story\",\"componentName\":\"Q\",\"eventNonInteractive\":true,\"componentID\":\"5cde6d33c8c4f3aad5c88cd2192a8da4\"},\"category\":{\"primaryCategory\":\"storytelling\",\"subCategory1\":\"Q graphic\",\"subCategory2\":\"chart\"}},\"cd9a9cc72efee9bc0619229213ba90fecefe3016\")"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/chart/q-chart-1.2.6.js"
+     },
+     {
+      "type": "inline",
+      "content": "      (function () {        function initialize() {          const target = document.querySelector('#q_chart_5cde6d33c8c4f3aad5c88cd2192a8da4_q46de063388d246a394cb68bc1b5b05be_container');          if (!target) return;          target.innerHTML = '';          const qdoc = {\"_id\":\"5cde6d33c8c4f3aad5c88cd2192a8da4\",\"allowDownloadData\":false,\"title\":\"Since 2018, more cocaine has been seized in West and Central Africa than in North Africa\",\"subtitle\":\"Seized cocaine, in tons\",\"publication\":\"nzz\",\"acronym\":\"adi.\",\"data\":[[\"Year\",\"North Africa\",\"West and Central Africa\"],[\"2017\",\"2.90\",\"0.16\"],[\"2018\",\"2.37\",\"0.28\"],[\"2019\",\"1.86\",\"11.21\"],[\"2020\",\"0.27\",\"0.86\"],[\"2021\",\"2.36\",\"10.16\"],[\"2022\",\"0.33\",\"16.44\"]],\"sources\":[{\"text\":\"Unodc\",\"link\":{\"url\":\"https://dataunodc.un.org/dp-drug-seizures\"}}],\"events\":[],\"options\":{\"annotations\":{},\"areaChartOptions\":{\"areaInterpolation\":\"linear\",\"stackType\":\"zero\"},\"arrowOptions\":{\"colorScheme\":0,\"invertColorScheme\":false},\"barOptions\":{\"isBarChart\":false,\"forceBarsOnSmall\":false},\"chartType\":\"Area\",\"colorOverwritesRows\":[],\"colorOverwritesSeries\":[{\"color\":\"#8d579b\",\"colorLight\":\"\",\"position\":1},{\"color\":\"#e9cf8f\",\"colorLight\":\"\",\"position\":2}],\"dateSeriesOptions\":{\"interval\":\"auto\",\"labels\":\"many\",\"prognosisStart\":null},\"dotplotOptions\":{},\"hideAxisLabel\":true,\"highlightDataRows\":[],\"highlightDataSeries\":[],\"lineChartOptions\":{\"yScaleType\":\"linear\",\"reverseYScale\":false,\"lineInterpolation\":\"linear\",\"isStockChart\":false},\"largeNumbers\":{\"divideBy\":0}},\"updatedDate\":\"2025-03-21T09:50:40.075Z\"};          const toolRuntimeConfig = {\"displayOptions\":{\"hideTitle\":false,\"hideSubtitle\":false,\"hideFooter\":false,\"hideAcronym\":true,\"size\":\"basic\"},\"size\":{\"width\":[{\"value\":100,\"comparison\":\">\"}]},\"locale\":\"en-US\"};          const toolSettings = {\"qItemInstanceId\":\"q_chart_5cde6d33c8c4f3aad5c88cd2192a8da4_q46de063388d246a394cb68bc1b5b05be\"};          let attempts = 0;          const maxAttempts = 100;          const checkAndInitialize = setInterval(() => {            if (window.qChart) {              clearInterval(checkAndInitialize);              new window.qChart({ target: target, props: {                qdoc: qdoc,                toolSettings: toolSettings,                toolRuntimeConfig: toolRuntimeConfig              } });            } else {              attempts++;              if (attempts >= maxAttempts) {                clearInterval(checkAndInitialize);                console.error('Failed to initialize qChart after 30 seconds');              }            }          }, 300);        }        if (document.body.classList.contains('pagedone')) {          initialize();        } else {          window.addEventListener('pagedone', initialize);        }      })();    "
+     }
+    ]
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1immvhijl0",
+   "content": {
+    "text": "According to the investigative platform «Follow the Money,» Leijdekkers controls airstrips for aircraft in the interior of the country as well as port facilities in the capital. The magazine « <a href=\"https://www.africa-confidential.com/special-report/id/49/president-bio-keeps-cocaine-lord-in-the-family\">Africa Confidential» reports</a> that Leijdekkers has taken control of the existing smuggling network in Sierra Leone and pays enormous sums in bribes. He has recruited police officers and soldiers to ensure the security of his drug shipments. High-ranking government officials reportedly drive luxury SUVs paid for by Leijdekkers."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "q-embed",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1immvhijm0",
+   "content": {
+    "text": "It looks like «Fat Jos» has bought himself an African country. And sealed the deal with a relationship with the president's favorite daughter. According to <a target=\"_blank\" href=\"https://www.telegraaf.nl/nieuws/212448623/vriendin-bolle-jos-leijdekkers-in-sierra-leone-zou-zwanger-zijn-kans-op-uitlevering-steeds-kleiner\">some reports,</a> Agnes Bio is expecting a child with Leijdekkers."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1immvhijn0",
+   "content": {
+    "text": "Sierra Leone's government categorically denies any connection to one of Europe's most wanted criminals. In an <a href=\"https://moice.gov.sl/government-of-sierra-leones-statement-on-recent-reports-concerning-convicted-drug-felon-jos-leijdekkers/\">official statement</a> at the end of January, it wrote: «The President has no knowledge regarding the person in question.» First Lady Fatima Bio also stated that she did not know this «white man.»"
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1immvhijp0",
+   "content": {
+    "text": "The Netherlands is demanding Leijdekker's extradition from Sierra Leone. However, there is no extradition treaty between the two countries."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1immvhijq0",
+   "content": {
+    "text": "While Jos Leijdekkers celebrates masses and parties with the powerful in Sierra Leone, a drug epidemic is spreading throughout the country. More and more people are consuming synthetic cannabis, the painkiller tramadol – and cocaine, Leijdekkers' drug of choice. In April 2024, President Bio declared a national health emergency."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "infobox-advanced"
+  },
+  {
+   "identifier": "infobox-advanced",
+   "id": "doc-1impgsuvp0",
+   "content": {
+    "title": "Where the evidence videos came from and how we verified them"
+   },
+   "containers": {
+    "infobox": [
+     {
+      "identifier": "p-text",
+      "id": "doc-1imph527u0",
+      "content": {
+       "text": "adi. · Videos showing Jos Leijdekkers in Sierra Leone have been circulating for some time. In early 2025 <a target=\"_blank\" href=\"https://www.facebook.com/watch/?v=1049588170262275\">, opposition leader Mohamed Mansaray posted a recording on Facebook.</a> The video shows Leijdekkers during an altercation at the «Mamba Point» hotel in Freetown, as a comparison with user images on Google reveals. A message on a screen wishes someone a «Happy New Year 2023,» suggesting that it was recorded around New Year's Day 2023. Alusine Kanneh is also visible in the video, <a target=\"_blank\" href=\"https://owlpress-sl.com/disclaimer-immigration-chief-hon-alusine-kanneh-old-video-circulating-on-social-media/\">and according to a media report,</a> he distanced himself from it after its release. He stated that he had only acted as a peacemaker and was not with Leijdekkers."
+      },
+      "data": {
+       "_textDirective": {}
+      }
+     },
+     {
+      "identifier": "p-text",
+      "id": "doc-1imphll670",
+      "content": {
+       "text": "The video showing Leijdekkers at the birthday party was published by <a target=\"_blank\" href=\"https://www.ftm.eu/articles/most-wanted-drug-lord-partying-in-sierra-leone-evades-capture\">«Follow the Money»</a> and the <a target=\"_blank\" href=\"https://www.ad.nl/binnenland/hoofd-drugsbestrijding-sierra-leone-feestend-samen-met-bolle-jos-in-nieuwe-video~aa31299b/\">«Algemeen Dagblad»</a> . Facial recognition software confirms that Leijdekkers and Kanneh are very likely the people in the video. The NZZ has verified the location as the «Lor» restaurant in Freetown."
+      }
+     },
+     {
+      "identifier": "p-text",
+      "id": "doc-1imphmts60",
+      "content": {
+       "text": "Leijdekkers is also identifiable in the video from January 1, 2025, where he can be seen in St. Joseph Catholic Church in Tihun. The location was identified by Follow the Money and verified by the NZZ. The video was <a target=\"_blank\" href=\"https://www.facebook.com/watch/live/?ref=watch_permalink&v=649202427433858\">live-streamed on the Facebook page of the president's wife, Fatima Maada Bio.</a>"
+      },
+      "data": {
+       "_textDirective": {}
+      }
+     }
+    ]
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "footnote"
+  },
+  {
+   "identifier": "footnote",
+   "id": "doc-1impc8ojn0",
+   "content": {
+    "text": "Text: Antonio Fumagalli, Samuel Misteli<br> Research: Antonio Fumagalli, Samuel Misteli, Adina Renner<br> Graphics: Ida Götz, Adina Renner"
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "infobox-advanced",
+   "nextElement": "sharebox",
+   "lastContentElement": true
+  },
+  {
+   "identifier": "sharebox",
+   "id": "doc-1im56a5id2",
+   "paidContent": true,
+   "prevElement": "footnote",
+   "nextElement": "related-articles-container"
+  },
+  {
+   "identifier": "related-articles-container",
+   "id": "doc-1im569uj01",
+   "content": {
+    "title": "Related articles"
+   },
+   "containers": {
+    "related-articles": [
+     {
+      "identifier": "teaser",
+      "id": "doc-1im569uj02",
+      "content": {
+       "title": "When a mayor smuggles 200 kilograms of cocaine across the desert: More and more drugs are reaching Europe via the Sahara",
+       "teaserImage": {
+        "originalUrl": "/2022/04/25/56b06d40-6c30-4500-bace-8a7b6f1db49e.jpeg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2022/04/25/56b06d40-6c30-4500-bace-8a7b6f1db49e.jpeg?width=1024&quality=75&auto=webp",
+        "width": 4000,
+        "height": 2662,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "4000,2250,x0,y300"
+         },
+         {
+          "name": "1:1",
+          "crop": "729,729,x2089,y525"
+         }
+        ],
+        "imageService": "fastly",
+        "teaserCaption": "The transit route through the desert has gained importance in the international drug trade. Cocaine and cannabis are the main drugs smuggled – often via perilous routes.",
+        "teaserAuthor": "Joerg Boethling / Imago"
+       },
+       "teaserAuthor": "Joerg Boethling / Imago",
+       "nzzasFootnote": false,
+       "folioFootnote": false,
+       "language": {
+        "locale": "de-CH"
+       },
+       "nzzId": "ld.1669118",
+       "readingTime": 360,
+       "authorLine": "Fabian Urech",
+       "characterCount": 7397,
+       "product": "NZZ.ch",
+       "documentId": 1669118,
+       "layout": "longformstandard",
+       "publicationDate": "2022-04-25T16:33:08.258Z",
+       "publicationLastUpdated": "2022-04-25T16:33:08.258Z",
+       "significantUpdate": false,
+       "significantUpdateTill": "2022-04-26T04:33:08.258Z",
+       "teaserCaption": "The transit route through the desert has gained importance in the international drug trade. Cocaine and cannabis are the main drugs smuggled – often via perilous routes.",
+       "url": "/international/drogenschmuggel-die-sahara-route-wird-wichtiger-ld.1669118",
+       "department": {
+        "name": "International",
+        "path": "/international"
+       },
+       "estimationWordCount": 1173,
+       "leadText": "The transit route through the desert has gained importance in the international drug trade. Cocaine and cannabis are the main drugs smuggled – often via perilous routes.",
+       "hasQ": true
+      }
+     },
+     {
+      "identifier": "teaser",
+      "id": "doc-1im569uj11",
+      "content": {
+       "title": "Cannabis craze in Malawi: One of the world's poorest countries wants to get rich with cannabis. A dubious company – and Mike Tyson – are supposed to help",
+       "teaserImage": {
+        "originalUrl": "/2022/04/14/e5c7fffc-ef41-485e-8085-6c044798927e.jpeg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2022/04/14/e5c7fffc-ef41-485e-8085-6c044798927e.jpeg?width=1024&quality=75&auto=webp",
+        "width": 3150,
+        "height": 2336,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "3150,1772,x0,y10"
+         },
+         {
+          "name": "1:1",
+          "crop": "2336,2336,x407,y0"
+         }
+        ],
+        "imageService": "fastly",
+        "teaserCaption": "Can this end well?",
+        "teaserAuthor": "Amos Gumulira / NZZ"
+       },
+       "teaserAuthor": "Amos Gumulira / NZZ",
+       "nzzasFootnote": false,
+       "folioFootnote": false,
+       "language": {
+        "locale": "de-CH"
+       },
+       "nzzId": "ld.1679630",
+       "readingTime": 1320,
+       "authorLine": "Samuel Misteli (text) and Amos Gumulira (images), Lilongwe",
+       "characterCount": 28147,
+       "product": "NZZ.ch",
+       "documentId": 1679630,
+       "layout": "longformvisual",
+       "publicationDate": "2022-04-15T13:51:46.986Z",
+       "publicationLastUpdated": "2022-04-17T03:55:10.779Z",
+       "significantUpdate": false,
+       "significantUpdateTill": "2022-04-16T01:51:46.986Z",
+       "teaserCaption": "Can this end well?",
+       "url": "/gesellschaft/malawi-will-mit-cannabis-reich-werden-kann-das-gut-gehen-ld.1679630",
+       "department": {
+        "name": "Society",
+        "path": "/gesellschaft"
+       },
+       "estimationWordCount": 4382,
+       "leadText": "Can this end well?",
+       "hasQ": true
+      }
+     },
+     {
+      "identifier": "teaser",
+      "id": "doc-1im569uj10",
+      "content": {
+       "title": "How the east coast of Africa became the «Heroin Coast»",
+       "teaserImage": {
+        "originalUrl": "/2018/7/19/70755a27-61e7-4a38-9ce3-e0ce6d86672b.jpeg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2018/7/19/70755a27-61e7-4a38-9ce3-e0ce6d86672b.jpeg?width=1024&quality=75&auto=webp",
+        "width": 3477,
+        "height": 2315,
+        "imageService": "fastly",
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "3477,1956,x0,y180"
+         },
+         {
+          "name": "1:1",
+          "crop": "2315,2315,x581,y0"
+         }
+        ],
+        "teaserCaption": "The heroin trade in East Africa is on the rise. Politicians are often involved. This undermines fragile democracies."
+       },
+       "nzzasFootnote": false,
+       "folioFootnote": false,
+       "language": {
+        "locale": "de-CH"
+       },
+       "nzzId": "ld.1404752",
+       "readingTime": 240,
+       "authorLine": "Samuel Burri, Nairobi",
+       "characterCount": 5705,
+       "product": "NZZ.ch",
+       "documentId": 1404752,
+       "layout": "regular",
+       "publicationDate": "2018-08-02T14:51:07.016Z",
+       "publicationLastUpdated": "2018-08-03T09:34:24.476Z",
+       "significantUpdate": false,
+       "significantUpdateTill": "2018-08-03T02:51:07.016Z",
+       "teaserCaption": "The heroin trade in East Africa is on the rise. Politicians are often involved. This undermines fragile democracies.",
+       "url": "/international/heikle-drogen-politik-an-afrikas-heroinkueste-ld.1404752",
+       "department": {
+        "name": "International",
+        "path": "/international"
+       },
+       "estimationWordCount": 839,
+       "leadText": "The heroin trade in East Africa is on the rise. Politicians are often involved. This undermines fragile democracies.",
+       "hasQ": true
+      }
+     }
+    ]
+   },
+   "paidContent": true,
+   "prevElement": "sharebox",
+   "nextElement": "",
+   "lastContentElement": true
+  }
+ ],
+ "metadata": {
+  "owner": "NZZ",
+  "germanyRelevant": true,
+  "title": "«Fat Jos» and the President: What is one of Europe's most wanted criminals doing at the side of an African ruling family?",
+  "teaserImage": {
+   "originalUrl": "/2025/03/24/b37638ec-3744-4e50-9bdd-34bb82ad1d6d.gif?width=1024",
+   "url": "https://img-msp-prod.nzz.ch/2025/03/24/b37638ec-3744-4e50-9bdd-34bb82ad1d6d.gif?width=1024&quality=75&auto=webp",
+   "width": 1920,
+   "height": 1444,
+   "crops": [
+    {
+     "name": "16:9",
+     "crop": "1920,1080,x0,y168"
+    },
+    {
+     "name": "1:1",
+     "crop": "1284,1284,x332,y47"
+    },
+    {
+     "name": "4:3",
+     "crop": "1920,1440,x0,y2"
+    },
+    {
+     "name": "3:4",
+     "crop": "1083,1444,x447,y0"
+    }
+   ],
+   "imageService": "fastly",
+   "teaserCaption": "A multi-billionaire cocaine trafficker repeatedly evades European justice. But videos show him partying with Sierra Leone's powerful figures. An investigation into new developments in the international drug trade."
+  },
+  "nzzasFootnote": false,
+  "folioFootnote": false,
+  "language": {
+   "locale": "en-US"
+  },
+  "nzzId": "ld.1875099",
+  "embeds": {
+   "videos": [
+    {
+     "id": "9lvwRpag",
+     "provider": "jw",
+     "teaser": false
+    },
+    {
+     "id": "9sjB6yqt",
+     "provider": "jw",
+     "teaser": false
+    }
+   ]
+  },
+  "readingTime": 600,
+  "authorLine": "Antonio Fumagalli, Ida Götz, Samuel Misteli, Adina Renner",
+  "characterCount": 14475,
+  "breadcrumbs": [
+   {
+    "name": "International",
+    "path": "/international"
+   }
+  ],
+  "product": "NZZ.ch",
+  "documentId": 1875099,
+  "contentTypeGroup": "web",
+  "layout": "longformvisual",
+  "firstPublicationDate": "2025-03-24T04:30:00.000Z",
+  "publicationDate": "2025-03-24T04:30:00.000Z",
+  "publicationLastUpdated": "2025-03-25T08:57:18.831Z",
+  "significantUpdate": false,
+  "significantUpdateTill": "2025-03-24T16:30:00.000Z",
+  "teaserCaption": "A multi-billionaire cocaine trafficker repeatedly evades European justice. But videos show him partying with Sierra Leone's powerful figures. An investigation into new developments in the international drug trade.",
+  "url": "/international/bolle-jos-leijdekkers-europas-meistgesuchter-kokain-haendler-in-sierra-leone-ld.1875099",
+  "department": {
+   "name": "International",
+   "path": "/international"
+  },
+  "estimationWordCount": 2058,
+  "leadText": "A multi-billionaire cocaine trafficker repeatedly evades European justice. But videos show him partying with Sierra Leone's powerful figures. An investigation into new developments in the international drug trade.",
+  "nzzSummaryModel": "gpt-4o-2024-11-20",
+  "nzzPrintTitle": "«Fat Jos» and his friend, the President of Sierra Leone",
+  "nzzPrintSubtitle": "One of Europe's most wanted drug lords apparently maintains excellent relations with an African ruling family",
+  "allArticleLanguages": [
+   {
+    "locale": "en-US",
+    "urlPath": "/english/how-a-fugitive-drug-lord-found-a-home-among-west-africas-elite-ld.1877196",
+    "seo": {}
+   },
+   {
+    "locale": "de-CH",
+    "urlPath": "/international/bolle-jos-leijdekkers-europas-meistgesuchter-kokain-haendler-in-sierra-leone-ld.1875099",
+    "seo": {}
+   }
+  ],
+  "seo": {
+   "canonicalUrl": "https://www.nzz.ch/international/bolle-jos-leijdekkers-europas-meistgesuchter-kokain-haendler-in-sierra-leone-ld.1875099",
+   "title": "Bolle Jos Leijdekkers: Europe's most wanted cocaine trafficker in Sierra Leone",
+   "socialMediaTitle": "Cocaine: What a European drug lord is doing alongside an African president",
+   "excludeFromSpiders": false,
+   "image": "https://img-msp-prod.nzz.ch/2025/03/24/b37638ec-3744-4e50-9bdd-34bb82ad1d6d.gif?width=1200&height=675&fit=bounds&quality=75&auto=webp&crop=1920,1080,x0,y168&wmark=nzz"
+  },
+  "ldPublicationId": 2361242,
+  "isHighlightedHeader": true,
+  "nzzTopics": [
+   {
+    "name": "Netherlands",
+    "slug": "/themen/niederlande"
+   },
+   {
+    "name": "Drugs",
+    "slug": "/themen/drogen"
+   },
+   {
+    "name": "cocaine",
+    "slug": "/themen/kokain"
+   },
+   {
+    "name": "Belgium",
+    "slug": "/themen/belgien"
+   }
+  ],
+  "barrierIndex": 2,
+  "outlinks": {
+   "mehrZumThema": [
+    "ld.1669118",
+    "ld.1679630",
+    "ld.1404752"
+   ],
+   "artikelListe": [],
+   "aliasTeaserEmbedList": []
+  },
+  "tts": true,
+  "hasQ": true,
+  "mp3": true,
+  "mp3Duration": 955440,
+  "project": "nzz",
+  "machineTranslated": true,
+  "machineTranslationValidated": false
+ },
+ "isReduced": false,
+ "isPaid": false,
+ "isVamp": false,
+ "isWebview": false,
+ "btaFeed": {
+  "meta": {
+   "id": "niederlande",
+   "name": "Netherlands",
+   "tagName": "Netherlands",
+   "qId": "Q55",
+   "seoTitle": "Netherlands – All news, articles and information on the topic | NZZ",
+   "description": null,
+   "firstName": null,
+   "lastName": null,
+   "category": "LOC",
+   "createdDate": "2025-04-08 17:13:16.775Z",
+   "imageURL": null,
+   "imageCroppedURL": null,
+   "imageWidth": null,
+   "imageHeight": null,
+   "imageCredits": null,
+   "url": "https://nzz.ch/themen/niederlande",
+   "size": 896,
+   "relatedTopics": [
+    {
+     "name": "Drogen",
+     "slug": "/themen/drogen"
+    },
+    {
+     "name": "Kokain",
+     "slug": "/themen/kokain"
+    },
+    {
+     "name": "Belgien",
+     "slug": "/themen/belgien"
+    }
+   ]
+  },
+  "data": [
+   {
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "authorLine": "Volker Reinhardt",
+    "teaserImage": {
+     "originalUrl": "/2026/08/14/8f72a2ec-dd08-43fc-b76e-baf8d11efe29.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/08/14/8f72a2ec-dd08-43fc-b76e-baf8d11efe29.jpg?width=1024&quality=75&auto=webp",
+     "width": 4500,
+     "height": 3000,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "4500,2531,x0,y234"
+      },
+      {
+       "name": "4:3",
+       "crop": "4000,3000,x250,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "3000,3000,x750,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "2250,3000,x1125,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "4500,3000,x0,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "In March 1580, Philip II called upon «all men of good will» to kill the «servant of Satan.» He was referring to William of Orange. A young man did so, making William a national martyr.",
+     "teaserAuthor": "Illustration by Simon Tanner / NZZ"
+    },
+    "teaserAuthor": "Illustration by Simon Tanner / NZZ",
+    "title": "King of Spain orders Prince of Orange killed, founding the Kingdom of the Netherlands",
+    "nzzId": "ld.10019555",
+    "readingTime": 780,
+    "paywallQuestionOne": "How did William's death affect Dutch independence?",
+    "paywallQuestionTwo": "Why was tolerance so dangerous in the 16th century?",
+    "paywallQuestionThree": "What were the consequences of Philip's call for murder for the Netherlands?",
+    "characterCount": 19117,
+    "flag": "series",
+    "product": "NZZ.ch",
+    "documentId": "10019555",
+    "layout": "longformstandard",
+    "publicationDate": "2026-08-23T03:30:00.000Z",
+    "publicationLastUpdated": "2026-08-23T03:30:00.000Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-08-23T15:30:00.000Z",
+    "teaserCaption": "In March 1580, Philip II called upon «all men of good will» to kill the «servant of Satan.» He was referring to William of Orange. A young man did so, making William a national martyr.",
+    "url": "https://www.nzz.ch/feuilleton/der-koenig-von-spanien-liess-den-prinzen-von-oranien-toeten-und-machte-ihn-damit-zum-maertyrer-der-niederlande-ld.10019555",
+    "department": {
+     "name": "Arts & Culture",
+     "path": "/feuilleton"
+    },
+    "estimationWordCount": 2694,
+    "leadText": "In March 1580, Philip II called upon «all men of good will» to kill the «servant of Satan.» He was referring to William of Orange. A young man did so, making William a national martyr.",
+    "nzzSummaryIsAuto": true,
+    "locale": "de-CH"
+   },
+   {
+    "title": "Heat in Europe: Climate researcher warns of more extreme weather; hundreds flee wildfires in Spain",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "flag": "Live ticker",
+    "teaserImage": {
+     "originalUrl": "/2026/08/16/d2612d92-7a98-4fc1-a944-56823092d486.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/08/16/d2612d92-7a98-4fc1-a944-56823092d486.jpg?width=1024&quality=75&auto=webp",
+     "width": 5315,
+     "height": 3543,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "5315,3543,x0,y0"
+      },
+      {
+       "name": "4:3",
+       "crop": "5315,3543,x0,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "5315,3543,x0,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "5315,3543,x0,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "Where is it particularly hot right now? And what are the effects on people and the environment? The latest news on the heatwave in Europe.",
+     "teaserAuthor": "Federico Gambarini / Keystone"
+    },
+    "teaserAuthor": "Federico Gambarini / Keystone",
+    "authorLine": "NZZ Editorial Team",
+    "nzzId": "ld.10008673",
+    "readingTime": 60,
+    "liveCenterId": "86247",
+    "embeds": {
+     "videos": [
+      {
+       "id": "TZNqnPW9",
+       "provider": "jw",
+       "teaser": true,
+       "duration": 9,
+       "sources": [
+        {
+         "file": "https://cdn.jwplayer.com/videos/TZNqnPW9-IBEUDFZ7.mp4",
+         "label": "180p"
+        }
+       ]
+      }
+     ]
+    },
+    "paywallQuestionOne": "How do heat waves affect people, animals and the environment in Switzerland?",
+    "paywallQuestionTwo": "Which regions of Europe are affected by record temperatures?",
+    "paywallQuestionThree": "What measures does the federal government recommend to combat the heat?",
+    "characterCount": 19,
+    "videoTeaser": "TZNqnPW9",
+    "product": "NZZ.ch",
+    "documentId": "10008673",
+    "layout": "regular",
+    "publicationDate": "2026-08-27T06:52:11.732Z",
+    "publicationLastUpdated": "2026-08-27T06:52:11.732Z",
+    "significantUpdate": true,
+    "significantUpdateTill": "2026-08-27T18:52:11.732Z",
+    "teaserCaption": "Where is it particularly hot right now? And what are the effects on people and the environment? The latest news on the heatwave in Europe.",
+    "url": "https://www.nzz.ch/panorama/hitze-in-europa-klimaforscher-warnt-vor-mehr-extremwetter-hunderte-menschen-in-spanien-wegen-waldbrand-evakuiert-ld.10008673",
+    "department": {
+     "name": "Panorama",
+     "path": "/panorama"
+    },
+    "estimationWordCount": 45,
+    "leadText": "Where is it particularly hot right now? And what are the effects on people and the environment? The latest news on the heatwave in Europe.",
+    "nzzSummaryIsAuto": true,
+    "locale": "de-CH"
+   },
+   {
+    "title": "Fire outside asylum accommodation: Loosdrecht becomes a symbol of the fight against Dutch migration policy",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "teaserImage": {
+     "originalUrl": "/2026/07/28/39c21b48-85cc-4afe-b6de-44284df5dacd.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/07/28/39c21b48-85cc-4afe-b6de-44284df5dacd.jpg?width=1024&quality=75&auto=webp",
+     "width": 6240,
+     "height": 4160,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "5673,3190,x0,y970"
+      },
+      {
+       "name": "4:3",
+       "crop": "5547,4160,x60,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "4160,4159,x0,y1"
+      },
+      {
+       "name": "3:4",
+       "crop": "3120,4160,x0,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "6240,4159,x0,y1"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "In a provincial backwater: Anger against asylum seekers turns to open violence, rioters cite housing shortages and crime, but statistics paint a different picture.",
+     "teaserAuthor": "Georgios Kostomitsopoulos/NurPhoto/Getty"
+    },
+    "teaserAuthor": "Georgios Kostomitsopoulos/NurPhoto/Getty",
+    "videoTeaser": "g3OSnXKr",
+    "nzzId": "ld.10016874",
+    "readingTime": 480,
+    "embeds": {
+     "videos": [
+      {
+       "id": "g3OSnXKr",
+       "provider": "jw",
+       "teaser": true,
+       "duration": 9,
+       "sources": [
+        {
+         "file": "https://cdn.jwplayer.com/videos/g3OSnXKr-IBEUDFZ7.mp4",
+         "label": "180p"
+        }
+       ]
+      },
+      {
+       "id": "1W24ussG",
+       "provider": "jw",
+       "teaser": false,
+       "duration": 34,
+       "sources": [
+        {
+         "file": "https://cdn.jwplayer.com/videos/1W24ussG-2KuhEkuQ.mp4",
+         "label": "180p"
+        }
+       ]
+      },
+      {
+       "id": "vf3Wsslr",
+       "provider": "jw",
+       "teaser": false,
+       "duration": 41,
+       "sources": [
+        {
+         "file": "https://cdn.jwplayer.com/videos/vf3Wsslr-2KuhEkuQ.mp4",
+         "label": "180p"
+        }
+       ]
+      }
+     ]
+    },
+    "paywallQuestionOne": "How does the housing shortage influence attitudes towards asylum seekers in Loosdrecht?",
+    "paywallQuestionTwo": "What role do far-right groups play in the protests against asylum accommodations?",
+    "paywallQuestionThree": "Are asylum seekers actually involved in crimes at an above-average rate?",
+    "characterCount": 11498,
+    "product": "NZZ.ch",
+    "documentId": "10016874",
+    "layout": "longformstandard",
+    "publicationDate": "2026-08-11T03:30:00.000Z",
+    "publicationLastUpdated": "2026-08-11T03:30:00.000Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-08-11T15:30:00.000Z",
+    "teaserCaption": "In a provincial backwater: Anger against asylum seekers turns to open violence, rioters cite housing shortages and crime, but statistics paint a different picture.",
+    "authorLine": "Antonio Fumagalli, Loosdrecht",
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2024/08/14/6124518e-3d18-4aa2-826c-c005a3361e94.jpeg?crop=3956,3956,x0,y321&width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/international/feuer-vor-der-asylunterkunft-loosdrecht-wird-zum-symbol-fuer-den-kampf-gegen-die-niederlaendische-migrationspolitik-ld.10016874",
+    "department": {
+     "name": "International",
+     "path": "/international"
+    },
+    "estimationWordCount": 1660,
+    "leadText": "In a provincial backwater: Anger against asylum seekers turns to open violence, rioters cite housing shortages and crime, but statistics paint a different picture.",
+    "nzzSummaryIsAuto": true,
+    "hasQ": true,
+    "locale": "de-CH"
+   },
+   {
+    "title": "Could a phone call to FIFA have brought Switzerland to the semi-finals?",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "teaserImage": {
+     "originalUrl": "/2026/07/16/29625b07-ceb3-43f8-984b-d47ef1b60cbd.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/07/16/29625b07-ceb3-43f8-984b-d47ef1b60cbd.jpg?width=1024&quality=75&auto=webp",
+     "width": 3775,
+     "height": 2939,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "3775,2123,x0,y0"
+      },
+      {
+       "name": "4:3",
+       "crop": "3775,2831,x0,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "2939,2939,x425,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "2204,2939,x1145,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "3775,2517,x0,y0"
+      }
+     ],
+     "focalPoint": {
+      "x": 1271,
+      "y": 91
+     },
+     "imageService": "fastly",
+     "teaserCaption": "How would the World Cup story have unfolded if heads of state had intervened with FIFA earlier, like Donald Trump? Without the world champion Maradona, but at least German-Dutch relations would have been more relaxed.",
+     "teaserAuthor": "Keystone"
+    },
+    "teaserAuthor": "Keystone",
+    "nzzId": "ld.10015723",
+    "readingTime": 480,
+    "paywallQuestionOne": "How could a phone call to FIFA have influenced the course of the World Cup?",
+    "paywallQuestionTwo": "What role does counterfactual history play in football?",
+    "paywallQuestionThree": "How would a World Cup victory in 2002 have changed German football?",
+    "characterCount": 10171,
+    "tags": [
+     "WM 2026",
+     "Fussball"
+    ],
+    "product": "NZZ.ch",
+    "documentId": "10015723",
+    "layout": "longformstandard",
+    "publicationDate": "2026-07-17T03:30:00.000Z",
+    "publicationLastUpdated": "2026-07-17T03:30:00.000Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-07-17T15:30:00.000Z",
+    "teaserCaption": "How would the World Cup story have unfolded if heads of state had intervened with FIFA earlier, like Donald Trump? Without the world champion Maradona, but at least German-Dutch relations would have been more relaxed.",
+    "authorLine": "Stefan Osterhaus, New York",
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2024/12/04/492ebd79-ba68-4245-88ad-824b79ac53c8.jpeg?crop=3712,3712,x1305,y0&width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/sport/fussball/wm-2026/wm-2026-und-trumps-intervention-was-wenn-es-das-schon-frueher-gegeben-haette-ld.10015723",
+    "department": {
+     "name": "World Cup 2026",
+     "path": "/sport/fussball/wm-2026"
+    },
+    "estimationWordCount": 1565,
+    "leadText": "How would the World Cup story have unfolded if heads of state had intervened with FIFA earlier, like Donald Trump? Without the world champion Maradona, but at least German-Dutch relations would have been more relaxed.",
+    "nzzSummaryIsAuto": true,
+    "locale": "de-CH"
+   },
+   {
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "title": "Turmoil in the Netherlands after World Cup exit: Coach Koeman is out, players face racist abuse online",
+    "teaserImage": {
+     "originalUrl": "/2026/07/01/67d3bc38-07de-4bd2-9d25-29ed7c833eaa.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/07/01/67d3bc38-07de-4bd2-9d25-29ed7c833eaa.jpg?width=1024&quality=75&auto=webp",
+     "width": 3543,
+     "height": 2364,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "3543,1993,x0,y29"
+      },
+      {
+       "name": "4:3",
+       "crop": "2605,1954,x567,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "1776,1776,x1006,y48"
+      },
+      {
+       "name": "3:4",
+       "crop": "1773,2364,x998,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "3543,2362,x0,y1"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "The Netherlands' defeat against Morocco is having far-reaching consequences. What's being forgotten is that the Dutch footballing self-image no longer reflects reality – they lack the quality of their earlier days.",
+     "teaserAuthor": "Imago"
+    },
+    "teaserAuthor": "Imago",
+    "tags": [
+     "WM 2026",
+     "Fussball"
+    ],
+    "nzzId": "ld.10013827",
+    "readingTime": 180,
+    "paywallQuestionOne": "Why did Ronald Koeman's change of tactics fail against Morocco?",
+    "paywallQuestionTwo": "How does self-image influence Dutch football?",
+    "paywallQuestionThree": "What are the consequences of the racist attacks following Germany's elimination from the World Cup?",
+    "characterCount": 3706,
+    "product": "NZZ.ch",
+    "documentId": "10013827",
+    "layout": "regular",
+    "publicationDate": "2026-07-02T09:54:14.141Z",
+    "publicationLastUpdated": "2026-07-02T10:11:06.098Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-07-02T21:54:14.141Z",
+    "teaserCaption": "The Netherlands' defeat against Morocco is having far-reaching consequences. What's being forgotten is that the Dutch footballing self-image no longer reflects reality – they lack the quality of their earlier days.",
+    "authorLine": "Sven Haist, Monterrey",
+    "url": "https://www.nzz.ch/sport/selbstzerfleischung-in-den-niederlanden-nach-dem-wm-out-der-trainer-koeman-ist-weg-im-netz-werden-spieler-rassistisch-angefeindet-ld.10013827",
+    "department": {
+     "name": "Sport",
+     "path": "/sport"
+    },
+    "estimationWordCount": 558,
+    "leadText": "The Netherlands' defeat against Morocco is having far-reaching consequences. What's being forgotten is that the Dutch footballing self-image no longer reflects reality – they lack the quality of their earlier days.",
+    "nzzSummaryIsAuto": true,
+    "locale": "de-CH"
+   }
+  ]
+ },
+ "digitalData": {
+  "component": [
+   {
+    "id": "ld.1875099",
+    "name": "«Fat Jos» and the President: What is one of Europe's most wanted criminals doing at the side of an African ruling family?",
+    "type": "article",
+    "subType1": "longformvisual",
+    "subType2": "",
+    "primaryCategory": "International",
+    "subCategory1": "",
+    "attributes": {
+     "headline": "«Fat Jos» and the President: What is one of Europe's most wanted criminals doing at the side of an African ruling family?",
+     "firstPublishTitle": "",
+     "catchline": "",
+     "authors": [],
+     "issueTimestamp": "2025-03-24T04:30:00.000Z",
+     "updateTimestamp": "2025-03-25T08:57:18.831Z",
+     "isSponsoredContent": false,
+     "isPro": false,
+     "isLiveticker": false,
+     "flag": "",
+     "owner": "NZZ"
+    }
+   }
+  ],
+  "page": {
+   "pageId": "ld.1875099",
+   "pageType": "longformvisual",
+   "primaryCategory": "International",
+   "subCategory1": "",
+   "subCategory2": "",
+   "language": "en-US"
+  },
+  "version": "2.0",
+  "user": {},
+  "event": []
+ },
+ "seoData": {
+  "title": "Bolle Jos Leijdekkers: Europe's most wanted cocaine trafficker in Sierra Leone",
+  "image": {
+   "url": "https://img-msp-prod.nzz.ch/2025/03/24/b37638ec-3744-4e50-9bdd-34bb82ad1d6d.gif?width=1200&height=675&fit=bounds&quality=75&auto=webp&crop=1920,1080,x0,y168&wmark=nzz",
+   "type": "image/jpeg",
+   "width": 1200,
+   "height": 675
+  },
+  "author": "Antonio Fumagalli, Ida Götz, Samuel Misteli, Adina Renner",
+  "description": "A multi-billionaire cocaine trafficker repeatedly evades European justice. But videos show him partying with Sierra Leone's powerful figures. An investigation into new developments in the international drug trade.",
+  "news_keywords": "«Fat Jos» and the President: What is one of Europe's most wanted criminals doing at the side of an African ruling family?, International, News, NZZ",
+  "type": "article",
+  "last-modified": "2025-03-25T11:57:18+02:00",
+  "date": "2025-03-24T07:30:00+02:00",
+  "canonical": "https://www.nzz.ch/international/bolle-jos-leijdekkers-europas-meistgesuchter-kokain-haendler-in-sierra-leone-ld.1875099",
+  "fb:app_id": 138008459595436,
+  "fb:pages": 143694099006529,
+  "fb:admins": 1592685173,
+  "locale": "de-CH",
+  "email": "online.redaktion@nzz.ch",
+  "site_name": "Neue Zürcher Zeitung",
+  "copyright": "2026 Neue Zürcher Zeitung AG, Schweiz",
+  "robots": "noindex, nofollow, noarchive, noodp",
+  "hreflang": [
+   {
+    "hreflang": "en",
+    "href": "https://www.nzz.ch/english/how-a-fugitive-drug-lord-found-a-home-among-west-africas-elite-ld.1877196"
+   },
+   {
+    "hreflang": "de",
+    "href": "https://www.nzz.ch/international/bolle-jos-leijdekkers-europas-meistgesuchter-kokain-haendler-in-sierra-leone-ld.1875099"
+   }
+  ],
+  "sharedTitle": "«Fat Jos» and the President: What is one of Europe's most wanted criminals doing at the side of an African ruling family?",
+  "ogTitle": "Cocaine: What a European drug lord is doing alongside an African president",
+  "ogUrl": "https://www.nzz.ch/international/bolle-jos-leijdekkers-europas-meistgesuchter-kokain-haendler-in-sierra-leone-ld.1875099",
+  "mrf:cms_id": "nzz:ld.1875099",
+  "mrf:sections": "International",
+  "mrf:tags": "Page Type:longformvisual;Editorial Owner:NZZ;Content Type:Standard Article;Article ID:ld.1875099",
+  "nzzAuthors": [
+   {
+    "name": "Antonio Fumagalli, Ida Götz, Samuel Misteli, Adina Renner"
+   }
+  ],
+  "links": [
+   {
+    "rel": "canonical",
+    "href": "https://www.nzz.ch/international/bolle-jos-leijdekkers-europas-meistgesuchter-kokain-haendler-in-sierra-leone-ld.1875099"
+   },
+   {
+    "rel": "search",
+    "href": "/suche",
+    "title": "Suche Neue Zürcher Zeitung, Schweiz, https://www.nzz.ch/suche"
+   },
+   {
+    "rel": "alternate",
+    "href": "https://www.nzz.ch/english/how-a-fugitive-drug-lord-found-a-home-among-west-africas-elite-ld.1877196",
+    "hreflang": "en"
+   },
+   {
+    "rel": "alternate",
+    "href": "https://www.nzz.ch/international/bolle-jos-leijdekkers-europas-meistgesuchter-kokain-haendler-in-sierra-leone-ld.1875099",
+    "hreflang": "de"
+   }
+  ],
+  "renderedAt": "Thu, 03 Sep 2026 10:02:44 GMT"
+ },
+ "structuredData": [
+  {
+   "@context": "https://schema.org",
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "item": {
+      "@id": "/",
+      "name": "Home"
+     }
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "item": {
+      "@id": "/international",
+      "name": "International"
+     }
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Bolle Jos Leijdekkers: Europe's most wanted cocaine trafficker in Sierra Leone"
+    }
+   ]
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": "NewsArticle",
+   "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.nzz.ch/international/bolle-jos-leijdekkers-europas-meistgesuchter-kokain-haendler-in-sierra-leone-ld.1875099"
+   },
+   "headline": "Bolle Jos Leijdekkers: Europe's most wanted cocaine trafficker in Sierra Leone",
+   "datePublished": "2025-03-24T07:30:00+02:00",
+   "dateModified": "2025-03-25T11:57:18+02:00",
+   "publisher": {
+    "@type": "NewsMediaOrganization",
+    "name": "Neue Zürcher Zeitung",
+    "url": "https://www.nzz.ch",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://www.nzz.ch/logo.png",
+     "width": 413,
+     "height": 60
+    },
+    "contactPoint": [
+     {
+      "@type": "ContactPoint",
+      "telephone": "+41-44-2581000",
+      "contactType": "customer service"
+     }
+    ],
+    "sameAs": [
+     "https://www.facebook.com/nzz",
+     "https://www.twitter.com/nzz",
+     "https://www.youtube.com/channel/UCK1aTcR0AckQRLTlK0c4fuQ",
+     "https://www.linkedin.com/company/neue-zurcher-zeitung",
+     "https://www.instagram.com/nzz/",
+     "https://de.wikipedia.org/wiki/Neue_Z%C3%BCrcher_Zeitung",
+     "https://www.wikidata.org/wiki/Q658945",
+     "https://plus.google.com/+nzz/",
+     "http://www.freebase.com/m/041b43"
+    ],
+    "masthead": "https://www.nzz.ch/impressum/impressum-ld.148422",
+    "foundingDate": "1780"
+   },
+   "description": "A multi-billionaire cocaine trafficker repeatedly evades European justice. But videos show him partying with Sierra Leone's powerful figures. An investigation into new developments in the international drug trade.",
+   "isAccessibleForFree": false,
+   "articleSection": "International",
+   "hasPart": {
+    "@type": "WebPageElement",
+    "isAccessibleForFree": false,
+    "cssSelector": ".nzzinteraction"
+   },
+   "image": {
+    "@type": "ImageObject",
+    "url": "https://img-msp-prod.nzz.ch/2025/03/24/b37638ec-3744-4e50-9bdd-34bb82ad1d6d.gif?width=1200&height=675&fit=bounds&quality=75&auto=webp&crop=1920,1080,x0,y168&wmark=nzz",
+    "width": 1200,
+    "height": 675
+   },
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Antonio Fumagalli, Ida Götz, Samuel Misteli, Adina Renner"
+    }
+   ],
+   "inLanguage": "de"
+  }
+ ],
+ "mp3": true,
+ "mp3Duration": 955440,
+ "bT": {
+  "standard": {
+   "Tags": [
+    "/international/bolle-jos-leijdekkers-europas-meistgesuchter-kokain-haendler-in-sierra-leone-ld.1875099",
+    "classification=default",
+    "relevance=germany",
+    "layout=longformvisual",
+    "owner=nzz",
+    "product=nzz",
+    "doctype=article",
+    "pagetype=article",
+    "ldid=ld.1875099",
+    "channel=International"
+   ],
+   "ContentCreated": "2025-03-24T04:30:00.000Z",
+   "ContentAuthor": "Antonio Fumagalli, Ida Götz, Samuel Misteli, Adina Renner",
+   "ContentSection": "International",
+   "ContentIsNative": true
+  },
+  "custom": {
+   "product": "nzz",
+   "docType": "article",
+   "pageType": "article",
+   "layout": "longformvisual",
+   "ldId": "ld.1875099",
+   "channel": "International",
+   "heading": "Der «dicke Jos» und der Präsident: Was macht einer der meistgesuchten Verbrecher Europas an der Seite einer afrikanischen Herrscherfamilie?",
+   "language": "en-US"
+  }
+ },
+ "webviewMetadata": {},
+ "cacheTime": 3600
+}

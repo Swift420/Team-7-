@@ -1,0 +1,1798 @@
+{
+ "content": [
+  {
+   "identifier": "header",
+   "id": "doc-1iqfol7hd0",
+   "content": {
+    "title": "He says he's not a gangster. The US government says he's lying. How a deported immigrant became the face of Donald Trump's immigration policy",
+    "lead": "The complicated story of Kilmar Ábrego García from El Salvador.",
+    "authorline": "Flurin Clalüna",
+    "author": "Flurin Clalüna"
+   },
+   "containers": {
+    "authors": []
+   },
+   "prevElement": "",
+   "nextElement": "image",
+   "firstContentElement": true
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1iqnrj6dg1",
+   "content": {
+    "image": {
+     "author": "Ábrego García Family via Reuters",
+     "caption": "Kilmar Ábrego García has lived in the USA for 13 years. In March he will be deported back to El Salvador.",
+     "originalUrl": "/2025/05/05/11dc5f54-aceb-4351-95c4-3bb82f0b4fc0.jpeg?crop=3024,2016,x0,y501",
+     "width": 3024,
+     "height": 4032,
+     "altText": "Kilmar Abrego Garcia, a Salvadoran migrant who lived in the US legally with a work permit and was erroneously deported to El Salvador, is seen in this handout image obtained by Reuters on April 9, 2025. Abrego Garcia Family/Handout via REUTERS THIS IMAGE HAS BEEN SUPPLIED BY A THIRD PARTY. MANDATORY CREDIT.",
+     "origins": [
+      {
+       "name": "Hugo",
+       "identifier": "2168250823"
+      }
+     ],
+     "crop": {
+      "x": 0,
+      "y": 501,
+      "width": 3024,
+      "height": 2016
+     },
+     "imageService": "fastly"
+    },
+    "caption": "Kilmar Ábrego García has lived in the USA for 13 years. In March he will be deported back to El Salvador.",
+    "author": "Ábrego García Family via Reuters"
+   },
+   "styles": {
+    "fullwidth-widget": "widget--containerwidth"
+   },
+   "prevElement": "header",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iqndtk7b0",
+   "content": {
+    "text": "On the afternoon of March 12, 2025, Kilmar Ábrego García was driving home from work. His five-year-old son, whom he had picked up from his grandparents' house, was in the back seat. In College Park, a small town in Maryland a few miles from his home, a police officer pulled García over. He assumed it was a traffic stop and pulled into the parking lot of an IKEA store. Then he called his wife, Jennifer."
+   },
+   "data": {},
+   "prevElement": "image",
+   "nextElement": "barrier"
+  },
+  {
+   "id": "doc-d5d1362a",
+   "identifier": "barrier",
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iqnf4rmf1",
+   "content": {
+    "text": "This is what they agreed upon: Because English isn't his native language, García would use speakerphone in such situations. Jennifer hears the police officer tell her husband to turn off the engine and get out of the car. García says his son is in the back; he's disabled, doesn't speak, and is autistic. Then Jennifer hears the police officer take her husband's cell phone and hang up."
+   },
+   "paidContent": true,
+   "prevElement": "barrier",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iqntojra1",
+   "content": {
+    "text": "Jennifer immediately notices that something is wrong. But she has no idea yet how much her husband's life is about to change: Kilmar Ábrego García, a 29-year-old metalworker born in El Salvador, will become the most famous face of Donald Trump's immigration policy."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iqne1hho1",
+   "content": {
+    "text": "Shortly after ending the call, the police officer called Jennifer back on Kilmar's cell phone. He said he was from the Department of Homeland Security. Jennifer had ten minutes to pick up her son. When she arrived, her husband was sitting on the curb in the Ikea parking lot. He was barefoot and beltless, but handcuffed. «They claimed Kilmar's immigration status had changed and that they were taking him away.»"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iqntrirp1",
+   "content": {
+    "text": "As the police officers take him away, Kilmar is crying. Jennifer tells him: «You will come home again. You haven't done anything wrong.»"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1iqne2fsg0",
+   "content": {
+    "title": "Two truths",
+    "id": "subtitle-zwei-wahrheiten"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iqndtk7i0",
+   "content": {
+    "text": "We know exactly what happened on March 12th because Kilmar García's wife, Jennifer Vásquez, made it public in a <a href=\"https://www.documentcloud.org/documents/25896899-govuscourtsmdd57881512-2-1/?q=30&mode=document#document/p5\">sworn affidavit</a> . The subsequent course of the story can be followed in American newspapers: how a small life becomes entangled in high politics; how García becomes more important than his case; and how his name is used to manipulate public opinion: as a criminal immigrant or as an innocent deportee."
+   },
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iqne4sqm1",
+   "content": {
+    "text": "Three days after García's arrest, three deportation planes bound for El Salvador were parked on the tarmac at Harlingen Airport in Texas. Along with more than 260 undocumented immigrants and suspected gang members, García was flown back to his homeland."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iqnf5lff1",
+   "content": {
+    "text": "First, he is taken to a maximum-security prison an hour outside the capital, San Salvador. With space for 40,000 prisoners, it is the largest prison in Latin America. Human rights experts compare it to Guantanamo."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iqndtk7j0",
+   "content": {
+    "text": "A few days later, García was transferred to another city – to a prison with better conditions. He is still there."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iqndtk7k0",
+   "content": {
+    "text": "The Foreign Ministry says García is in «excellent health» at the new institution. His family says this is not true."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "image"
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1iqnsnc2e1",
+   "content": {
+    "image": {
+     "author": "Secretaría De Prensa De La Presi via Reuters",
+     "caption": "Kilmar Ábrego García (bottom row, fifth from the left) in the high-security prison Centro de Confinamiento del Terrorismo in El Salvador. His relatives recognize him by his tattoos.",
+     "originalUrl": "/2025/05/08/de92c83e-e7b0-4a41-ab07-057d455aac90.jpeg?crop=7124,4752,x891,y594",
+     "width": 8015,
+     "height": 5346,
+     "altText": "Salvadoran police officers escort alleged members of the Venezuelan gang Tren de Aragua recently deported by the US government to be imprisoned in the Terrorism Confinement Center (CECOT) prison, as part of an agreement with the Salvadoran government, in Tecoluca, El Salvador, in this handout image obtained March 16, 2025. Secretaria de Prensa de la Presidencia/Handout via REUTERS ATTENTION EDITORS - THIS IMAGE HAS BEEN SUPPLIED BY A THIRD PARTY. NO SALES. NO ARCHIVES",
+     "origins": [
+      {
+       "name": "Hugo",
+       "identifier": "2167359313"
+      }
+     ],
+     "crop": {
+      "x": 891,
+      "y": 594,
+      "width": 7124,
+      "height": 4752
+     },
+     "imageService": "fastly"
+    },
+    "caption": "Kilmar Ábrego García (bottom row, fifth from the left) in the high-security prison Centro de Confinamiento del Terrorismo in El Salvador. His relatives recognize him by his tattoos.",
+    "author": "Secretaría De Prensa De La Presi via Reuters"
+   },
+   "styles": {
+    "fullwidth-widget": "widget--containerwidth"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1iqne5ogi0",
+   "content": {
+    "title": "«Wonderful gentleman from Maryland»",
+    "id": "subtitle-wundervoller-gentleman-aus-maryland"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "image",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iqndtk7m0",
+   "content": {
+    "text": "What is true and what isn't in the García case? And who is this man that all of America and half the world have been talking about for weeks? Depending on whom you believe and which documents you read, a different picture emerges. Almost as if García had lived two lives."
+   },
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iqndtk7p0",
+   "content": {
+    "text": "According to documents released by the government about García, he is a member of MS-13, a criminal street gang with roots in El Salvador, which the government designated a terrorist organization in February. There are also reports describing him as an abusive husband. Trump mockingly calls him «a wonderful gentleman from Maryland.»"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iqne6ovi1",
+   "content": {
+    "text": "According to his wife, the activists, and the union members who have been demonstrating for him for weeks, García has nothing to do with gangs. He is an upstanding father who works hard and lovingly cares for his disabled children."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iqndtk7q0",
+   "content": {
+    "text": "Who is right, who is wrong?"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iqndtk7r0",
+   "content": {
+    "text": "This case has long ceased to be about truth. It's about who can better convince the public of their version of the truth: The government needs the image of the dangerous criminal to justify its harsh immigration policy; the family's lawyers portray García as a victim of a system that persecutes innocent people. Even a Democratic senator is advocating for him and has visited him in El Salvador."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iqne7mmv1",
+   "content": {
+    "text": "García is a man caught between two narratives: either he should be immediately brought back from El Salvador to the USA because he has done nothing wrong, or he should stay where he is because he deserves nothing better. These narratives are like tools: whoever controls the interpretation of García's life controls how people think about him."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iqndtk7v0",
+   "content": {
+    "text": "More important than the interpretation of his life story is its legal classification: Kilmar Ábrego García was never convicted of a crime and should never have been deported to El Salvador. The US <a href=\"https://www.supremecourt.gov/opinions/24pdf/24a949_lkhn.pdf\">Supreme Court ruled the deportation illegal.</a> The government called it «an administrative error.»"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iqne821f1",
+   "content": {
+    "text": "To understand why García ended up in this situation, one has to go far back in his life, read old court rulings, and talk to family members. This is exactly what reporters from the <a href=\"https://www.nytimes.com/2025/05/02/us/abrego-garcia-mistakenly-deported.html\">«New York Times»</a> and <a href=\"https://cnnespanol.cnn.com/2025/04/19/eeuu/abrego-garcia-recuerdos-vecinos-el-salvador-trax\">CNN</a> did, delving into García's past."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "image"
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1iqnrr7o30",
+   "content": {
+    "image": {
+     "author": "Astrid Riecken/The Washington Post via Getty",
+     "caption": "Demonstrations in support of Kilmar Ábrego García in front of the White House in Washington.",
+     "originalUrl": "/2025/05/05/e72e458e-994a-40da-ad63-d805cc17dfd2.jpeg?width=1024",
+     "width": 8256,
+     "height": 5504,
+     "altText": "WASHINGTON, DC - APRIL 14: An interfaith prayer vigil for Kilmar Abrego Garcia is held at the White House in Washington, DC, April 14, 2025, during the visit of El Salvador's president to the WH. Abrego Garcia was wrongly deported to a prison in El Salvador despite having paperwork to remain in the USA. His wife and children await his return at their Maryland home. (Astrid Riecken For The Washington Post via Getty Images)",
+     "origins": [
+      {
+       "name": "Hugo",
+       "identifier": "2169198790"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "caption": "Demonstrations in support of Kilmar Ábrego García in front of the White House in Washington.",
+    "author": "Astrid Riecken/The Washington Post via Getty"
+   },
+   "styles": {
+    "fullwidth-widget": "widget--containerwidth"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1iqne8gef0",
+   "content": {
+    "title": "Escape to the USA",
+    "id": "subtitle-flucht-in-die-usa"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "image",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iqndtk840",
+   "content": {
+    "text": "Kilmar Ábrego García grew up in the mid-1990s in a working-class neighborhood on the outskirts of San Salvador. His father was a police officer and soldier who later drove a taxi; his mother sold tortillas and flatbreads from the garage of their house. This was a time when gang crime was on the rise in El Salvador after the end of the civil war."
+   },
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iqndtk850",
+   "content": {
+    "text": "The Barrio 18 gang also extorted money from the García family at that time. The gang demanded protection money and tried to recruit the two brothers. Out of fear, the Garcías first sent the older brother, Cesar, to the USA, and later Kilmar as well."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iqnea6cb1",
+   "content": {
+    "text": "In 2012, Kilmar, aged 16, began his journey through the desert and crossed the border near the small town of McAllen in Texas."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iqnu89do1",
+   "content": {
+    "text": "García moved to the East Coast, to Maryland, and lived as inconspicuously as possible—like many of the roughly one million undocumented immigrants from El Salvador in the US. He worked in construction, sometimes he had a job, sometimes he was a day laborer, sometimes unemployed. In 2018, García met his future wife, Jennifer Vásquez, an American woman who brought two disabled children into the relationship."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iqndtk860",
+   "content": {
+    "text": "The problems began in 2019, seven years after the immigration. This is where the narrative of the criminal immigrant began. After that, nothing was ever the same again."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iqnkhs0i1",
+   "content": {
+    "text": "On March 27, 2019, García was standing with three men in the parking lot of a hardware store in the small town of Hyattsville, Maryland. The <a href=\"https://www.justice.gov/ag/media/1396906/dl?inline=&utm_source=chatgpt.com\">police report</a> states that the men were «loitering.» The police officers believed them to be members of the MS-13 gang."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iqnu8jl71",
+   "content": {
+    "text": "The report states regarding García: «Officers observed that he was wearing a Chicago Bulls cap and a hoodie depicting banknotes.» The basketball cap and the banknotes—with the eyes, ears, and mouths of the US presidents obscured—were, in the officers' view, typical of Hispanic gang culture. When an anonymous informant confirmed García's identity as a gang member and also revealed his gang nickname («Chele»), they were certain: García must belong to MS-13."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iqnua7v71",
+   "content": {
+    "text": "García tells the police his whole story, from childhood to his escape. Everything is recorded in the <a href=\"https://storage.courtlistener.com/recap/gov.uscourts.mdd.578815/gov.uscourts.mdd.578815.1.1_3.pdf\">interrogation transcript.</a> But it also states that he is a gang member. He will never shake that reputation."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1iqnebu890",
+   "content": {
+    "title": "Marriage in prison",
+    "id": "subtitle-heirat-im-gef-ngnis"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iqndtk8f0",
+   "content": {
+    "text": "García remains in custody for several months and is sent to a deportation center. Because no one knows if he will be deported, Jennifer and Kilmar decide to get married. Jennifer is pregnant; she is expecting her third child. In June 2019, a priest comes to the prison to perform the wedding ceremony."
+   },
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iqnecqel1",
+   "content": {
+    "text": "Jennifer Vásquez writes in her statement: «We were separated by a glass partition and were not allowed any physical contact. An official had to hand over the rings. It was unbearable not being able to hug him.»"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "image"
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1iqnseeba1",
+   "content": {
+    "image": {
+     "author": "Carol Guzy / Imago",
+     "caption": "García's wife, Jennifer Vásquez: «It was unbearable not being able to hug him.»",
+     "originalUrl": "/2025/04/24/ae13b062-84ac-4366-80be-9d07aae7ca7a.jpeg?width=1024",
+     "width": 6054,
+     "height": 4738,
+     "altText": "April 15, 2025, Greenbelt, MD, USA: Jennifer Vasquez Sura attends a hearing in the case of her husband Kilmar Abrego Garcia who was deported to a notorious prison in El Salvador due to a Trump administrative error at the US District Court for the District of Maryland in Greenbelt MD on April 15, 2025. Judge Xinis was critical of the government's response to a Supreme Court ruling that they facilitated his return, writing in her order that ÃâoeDefendants have done nothing at all.ÃâÂ She ordered discovery which could determine if the government is in contempt of court. She is supported by CASA. Greenbelt USA - ZUMAg208 20250415_aap_g208_015 Copyright: xCarolxGuzyx",
+     "origins": [
+      {
+       "name": "Hugo",
+       "identifier": "2168521091"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "caption": "García's wife, Jennifer Vásquez: «It was unbearable not being able to hug him.»",
+    "author": "Carol Guzy / Imago"
+   },
+   "styles": {
+    "fullwidth-widget": "widget--containerwidth"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iqndtk8i0",
+   "content": {
+    "text": "Four months after the wedding, an immigration judge <a href=\"https://storage.courtlistener.com/recap/gov.uscourts.mdd.578815/gov.uscourts.mdd.578815.1.1_3.pdf\">ruled that</a> García's fear of the gangs in El Salvador that had threatened him and his family years before was justified. He was released and granted protected status, known as «withholding of removal,» which means García cannot be deported to his home country. He can stay and work in the US, but he doesn't know for how long."
+   },
+   "paidContent": true,
+   "prevElement": "image",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iqned7ln1",
+   "content": {
+    "text": "After his release, García is doing an apprenticeship at a building technology company and attending further training courses."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iqnuegam1",
+   "content": {
+    "text": "In December 2022, he ran into trouble with the authorities again: the highway patrol stopped him for speeding. When the officers checked the car, they discovered eight people inside. In the <a href=\"https://www.dhs.gov/news/2025/04/18/dhs-releases-bombshell-investigative-report-kilmar-abrego-garcia-suspected-human\">report,</a> they suspected García of being involved in human trafficking. But because there was no evidence, nothing happened. García only received a fine because his driver's license had expired."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iqndtk8l0",
+   "content": {
+    "text": "Family life is also difficult. Not only do Jennifer's two children from her previous relationship suffer from autism and epilepsy, but their son is also autistic. Vásquez writes in her statement: «Although raising three young children with special needs is challenging, Kilmar and I love our children. Having Kilmar as my life partner is the greatest blessing for our family.»"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1iqneeajr0",
+   "content": {
+    "title": "Hidden violence",
+    "id": "subtitle-verschwiegene-gewalt"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iqndtk8m0",
+   "content": {
+    "text": "Vásquez doesn't tell everything about her husband. What she omits is contained in a <a href=\"https://www.dhs.gov/news/2025/04/30/dhs-reveals-second-domestic-abuse-filing-filed-kilmar-abrego-garcias-wife\">statement</a> published by the Ministry of Internal Security in April 2025: Vásquez has filed several complaints against García. She claims her husband beat, kicked, and pushed her; once, he dragged her by the hair from the car and left her standing in the street; furthermore, he locked the children in the bedroom and smashed doors, tablets, televisions, and phones."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iqndtk8p0",
+   "content": {
+    "text": "When asked about the incidents, Vásquez told the media that she and her husband had gone through a «difficult time» after his first imprisonment, but had overcome it through therapy. She has withdrawn the charges against her husband."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iqnluv881",
+   "content": {
+    "text": "Is Kilmar Ábrego García a good person? And does that even matter? Democratic Senator Chris Van Hollen of Maryland says: «I'm not defending the man, but his right to a fair trial.» To make it clear that he will not advocate for García's repatriation from El Salvador, Donald Trump simultaneously releases a photo of García's knuckles. The letters MS-13 are written on them, with symbols tattooed below."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "image"
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1iqns5ulk0",
+   "content": {
+    "image": {
+     "author": "Press Office Senator Van Hollen, via AP",
+     "caption": "Senator Chris Van Hollen is visiting Kilmar Ábrego García in El Salvador. The meeting is taking place at Van Hollen's hotel.",
+     "originalUrl": "/2025/05/08/bb3853a2-dfe5-4e6b-8a52-6477c09e1d5c.jpeg?width=1024",
+     "width": 5472,
+     "height": 3648,
+     "altText": "Maryland Sen. Chris Van Hollen, right, speaks with Kilmar Abrego Garcia, a Salvadoran citizen who was living in Maryland and deported to El Salvador by the Trump administration, in a hotel restaurant in San Salvador, El Salvador, Thursday, April 17, 2025. (Press Office Senator Van Hollen, via AP) El Salvador Deportation Error",
+     "origins": [
+      {
+       "name": "Hugo",
+       "identifier": "2168553829"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "caption": "Senator Chris Van Hollen is visiting Kilmar Ábrego García in El Salvador. The meeting is taking place at Van Hollen's hotel.",
+    "author": "Press Office Senator Van Hollen, via AP"
+   },
+   "styles": {
+    "fullwidth-widget": "widget--containerwidth"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iqnm0fjo1",
+   "content": {
+    "text": "Experts have been arguing about the tattoos ever since. Some say they are proof of García's gang membership. Others say they prove nothing at all."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "image",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iqnups3k0",
+   "content": {
+    "text": "What remains is a man whose story tells more about a divided America than about himself."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "sharebox",
+   "lastContentElement": true
+  },
+  {
+   "identifier": "sharebox",
+   "id": "doc-1iqfol7hd2",
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "related-articles-container"
+  },
+  {
+   "identifier": "related-articles-container",
+   "id": "doc-1iqfol7hd3",
+   "content": {
+    "title": "Related articles"
+   },
+   "containers": {
+    "related-articles": [
+     {
+      "identifier": "teaser",
+      "id": "doc-1iqfol7hd4",
+      "content": {
+       "owner": "NZZ",
+       "title": "A tattoo led to the mistaken deportation of Kilmar Ábrego García – could Americans soon face the same fate?",
+       "teaserImage": {
+        "originalUrl": "/2025/05/02/27b4e9c1-e28e-4f82-9b7f-88b3a5bbdd81.jpeg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2025/05/02/27b4e9c1-e28e-4f82-9b7f-88b3a5bbdd81.jpeg?width=1024&quality=75&auto=webp",
+        "width": 5164,
+        "height": 3443,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "5164,2905,x0,y180"
+         },
+         {
+          "name": "1:1",
+          "crop": "3443,3443,x654,y0"
+         },
+         {
+          "name": "4:3",
+          "crop": "4591,3443,x573,y0"
+         },
+         {
+          "name": "3:4",
+          "crop": "2582,3443,x1568,y0"
+         }
+        ],
+        "imageService": "fastly",
+        "teaserCaption": "Republicans in the House of Representatives are not ruling out the possibility of deporting even criminal US citizens. Given the administration's arbitrary handling of «evidence» in the Salvadoran man's case, this is worrying many Americans.",
+        "teaserAuthor": "Allison Bailey / Imago"
+       },
+       "teaserAuthor": "Allison Bailey / Imago",
+       "nzzasFootnote": false,
+       "folioFootnote": false,
+       "language": {
+        "locale": "de-CH"
+       },
+       "nzzId": "ld.1882569",
+       "readingTime": 240,
+       "authorLine": "David Signer, Chicago",
+       "characterCount": 5455,
+       "product": "NZZ.ch",
+       "documentId": 1882569,
+       "layout": "regular",
+       "publicationDate": "2025-05-03T03:30:00.000Z",
+       "publicationLastUpdated": "2025-05-04T19:04:16.547Z",
+       "significantUpdate": false,
+       "significantUpdateTill": "2025-05-03T15:30:00.000Z",
+       "teaserCaption": "Republicans in the House of Representatives are not ruling out the possibility of deporting even criminal US citizens. Given the administration's arbitrary handling of «evidence» in the Salvadoran man's case, this is worrying many Americans.",
+       "url": "/international/ein-tattoo-fuehrte-zur-irrtuemlichen-ausschaffung-von-kilmar-abrego-garcia-kann-bald-waschechten-amerikanern-dasselbe-schicksal-bluehen-ld.1882569",
+       "department": {
+        "name": "International",
+        "path": "/international"
+       },
+       "estimationWordCount": 892,
+       "leadText": "Republicans in the House of Representatives are not ruling out the possibility of deporting even criminal US citizens. Given the administration's arbitrary handling of «evidence» in the Salvadoran man's case, this is worrying many Americans.",
+       "nzzSummaryIsAuto": true
+      }
+     },
+     {
+      "identifier": "teaser",
+      "id": "doc-1iqfol7hd5",
+      "content": {
+       "owner": "NZZ",
+       "title": "The Kilmar Ábrego García case is proving to be a trap for the Democrats",
+       "teaserImage": {
+        "originalUrl": "/2025/04/24/59857289-6720-4b00-9c61-8e98eb7be87a.jpeg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2025/04/24/59857289-6720-4b00-9c61-8e98eb7be87a.jpeg?width=1024&quality=75&auto=webp",
+        "width": 2667,
+        "height": 4000,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "2667,1500,x0,y470"
+         },
+         {
+          "name": "1:1",
+          "crop": "1873,1873,x502,y296"
+         },
+         {
+          "name": "4:3",
+          "crop": "2371,1778,x185,y384"
+         },
+         {
+          "name": "3:4",
+          "crop": "2667,3556,x0,y198"
+         }
+        ],
+        "imageService": "fastly",
+        "teaserCaption": "The Salvadoran man, who was deported «by mistake» and therefore illegally, has a dubious reputation. This makes him an unsuitable hero for the opposition.",
+        "teaserAuthor": "Nayib Bukele / Imago"
+       },
+       "teaserAuthor": "Nayib Bukele / Imago",
+       "nzzasFootnote": false,
+       "folioFootnote": false,
+       "language": {
+        "locale": "de-CH"
+       },
+       "nzzId": "ld.1881296",
+       "readingTime": 300,
+       "authorLine": "Christian Weisflog, Washington",
+       "characterCount": 7175,
+       "product": "NZZ.ch",
+       "documentId": 1881296,
+       "layout": "regular",
+       "publicationDate": "2025-04-24T03:30:00.000Z",
+       "publicationLastUpdated": "2025-04-24T10:56:48.938Z",
+       "significantUpdate": false,
+       "significantUpdateTill": "2025-04-24T15:30:00.000Z",
+       "teaserCaption": "The Salvadoran man, who was deported «by mistake» and therefore illegally, has a dubious reputation. This makes him an unsuitable hero for the opposition.",
+       "url": "/international/ein-zwiespaeltiger-held-abrego-garcia-entzweit-die-us-demokraten-ld.1881296",
+       "department": {
+        "name": "International",
+        "path": "/international"
+       },
+       "estimationWordCount": 1062,
+       "leadText": "The Salvadoran man, who was deported «by mistake» and therefore illegally, has a dubious reputation. This makes him an unsuitable hero for the opposition.",
+       "nzzSummaryIsAuto": true
+      }
+     },
+     {
+      "identifier": "teaser",
+      "id": "doc-1iqfol7hd6",
+      "content": {
+       "owner": "NZZ",
+       "title": "Trump and the judiciary: The cat-and-mouse game surrounding the illegally deported Kilmar García",
+       "teaserImage": {
+        "originalUrl": "/2025/04/16/e5ed9e72-eac1-434e-ae65-c60751c92ae0.jpeg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2025/04/16/e5ed9e72-eac1-434e-ae65-c60751c92ae0.jpeg?width=1024&quality=75&auto=webp",
+        "width": 4000,
+        "height": 2667,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "4000,2250,x0,y97"
+         },
+         {
+          "name": "1:1",
+          "crop": "2667,2667,x1040,y0"
+         },
+         {
+          "name": "4:3",
+          "crop": "3556,2667,x444,y0"
+         },
+         {
+          "name": "3:4",
+          "crop": "2000,2667,x1238,y0"
+         }
+        ],
+        "imageService": "fastly",
+        "teaserCaption": "The US government refuses to bring a 29-year-old back from El Salvador – even though the Supreme Court says he was wrongly deported."
+       },
+       "nzzasFootnote": false,
+       "folioFootnote": false,
+       "language": {
+        "locale": "de-CH"
+       },
+       "nzzId": "ld.1881448",
+       "readingTime": 60,
+       "authorLine": "Simon Schaffer",
+       "characterCount": 1637,
+       "product": "NZZ.ch",
+       "documentId": 1881448,
+       "layout": "regular",
+       "publicationDate": "2025-04-25T03:30:00.000Z",
+       "publicationLastUpdated": "2025-04-25T03:30:00.000Z",
+       "significantUpdate": false,
+       "significantUpdateTill": "2025-04-25T15:30:00.000Z",
+       "teaserCaption": "The US government refuses to bring a 29-year-old back from El Salvador – even though the Supreme Court says he was wrongly deported.",
+       "url": "/podcast/ausschaffung-trump-und-der-fall-kilmar-garcia-ld.1881448",
+       "department": {},
+       "estimationWordCount": 286,
+       "leadText": "The US government refuses to bring a 29-year-old back from El Salvador – even though the Supreme Court says he was wrongly deported.",
+       "nzzSummaryIsAuto": true,
+       "teaserPodcastTitle": "Deportation: Trump is toying with the justice system",
+       "teaserPodcastAuthor": "Simon Schaffer und Isabelle Jacobi",
+       "teaserPodcastDate": "25.04.2025",
+       "teaserPodcastUrl": "https://audio.podigee-cdn.net/1893638-m-6ce3e5f953f1e759a198825edb268fff.mp3",
+       "teaserPodcastDuration": "16"
+      }
+     }
+    ]
+   },
+   "paidContent": true,
+   "prevElement": "sharebox",
+   "nextElement": "",
+   "lastContentElement": true
+  }
+ ],
+ "metadata": {
+  "owner": "NZZ",
+  "title": "He says he's not a gangster. The US government says he's lying. How a deported immigrant became the face of Donald Trump's immigration policy",
+  "teaserImage": {
+   "originalUrl": "/2025/05/05/11dc5f54-aceb-4351-95c4-3bb82f0b4fc0.jpeg?width=1024",
+   "url": "https://img-msp-prod.nzz.ch/2025/05/05/11dc5f54-aceb-4351-95c4-3bb82f0b4fc0.jpeg?width=1024&quality=75&auto=webp",
+   "width": 3024,
+   "height": 4032,
+   "crops": [
+    {
+     "name": "16:9",
+     "crop": "3024,1701,x0,y492"
+    },
+    {
+     "name": "1:1",
+     "crop": "1678,1678,x0,y472"
+    },
+    {
+     "name": "4:3",
+     "crop": "3024,2268,x0,y520"
+    },
+    {
+     "name": "3:4",
+     "crop": "2688,3584,x0,y279"
+    }
+   ],
+   "imageService": "fastly",
+   "teaserCaption": "The complicated story of Kilmar Ábrego García from El Salvador.",
+   "teaserAuthor": "Ábrego García Family via Reuters"
+  },
+  "teaserAuthor": "Ábrego García Family via Reuters",
+  "nzzasFootnote": false,
+  "folioFootnote": false,
+  "teaserCarouselOne": {
+   "originalUrl": "/2025/05/05/11dc5f54-aceb-4351-95c4-3bb82f0b4fc0.jpeg?width=1024",
+   "url": "https://img-msp-prod.nzz.ch/2025/05/05/11dc5f54-aceb-4351-95c4-3bb82f0b4fc0.jpeg?width=1024&quality=75&auto=webp",
+   "width": 3024,
+   "height": 4032,
+   "crops": [
+    {
+     "name": "16:9",
+     "crop": "2688,1512,x0,y601"
+    },
+    {
+     "name": "1:1",
+     "crop": "1888,1888,x0,y453"
+    },
+    {
+     "name": "4:3",
+     "crop": "3024,2268,x0,y510"
+    },
+    {
+     "name": "3:4",
+     "crop": "2688,3584,x0,y414"
+    }
+   ],
+   "imageService": "fastly"
+  },
+  "teaserCarouselTwo": {
+   "originalUrl": "/2025/05/08/de92c83e-e7b0-4a41-ab07-057d455aac90.jpeg?width=1024",
+   "url": "https://img-msp-prod.nzz.ch/2025/05/08/de92c83e-e7b0-4a41-ab07-057d455aac90.jpeg?width=1024&quality=75&auto=webp",
+   "width": 8015,
+   "height": 5346,
+   "crops": [
+    {
+     "name": "16:9",
+     "crop": "7124,4007,x891,y1023"
+    },
+    {
+     "name": "1:1",
+     "crop": "3337,3337,x1640,y1473"
+    },
+    {
+     "name": "4:3",
+     "crop": "7128,5346,x444,y0"
+    },
+    {
+     "name": "3:4",
+     "crop": "2503,3337,x3338,y2008"
+    }
+   ],
+   "imageService": "fastly"
+  },
+  "teaserCarouselThree": {
+   "originalUrl": "/2025/05/05/e72e458e-994a-40da-ad63-d805cc17dfd2.jpeg?width=1024",
+   "url": "https://img-msp-prod.nzz.ch/2025/05/05/e72e458e-994a-40da-ad63-d805cc17dfd2.jpeg?width=1024&quality=75&auto=webp",
+   "width": 8256,
+   "height": 5504,
+   "crops": [
+    {
+     "name": "16:9",
+     "crop": "8256,4643,x0,y861"
+    },
+    {
+     "name": "1:1",
+     "crop": "5504,5503,x1882,y1"
+    },
+    {
+     "name": "4:3",
+     "crop": "7339,5503,x917,y1"
+    },
+    {
+     "name": "3:4",
+     "crop": "3669,4892,x2824,y612"
+    }
+   ],
+   "imageService": "fastly"
+  },
+  "language": {
+   "locale": "en-US"
+  },
+  "nzzId": "ld.1882781",
+  "readingTime": 540,
+  "authorLine": "Flurin Clalüna",
+  "characterCount": 11035,
+  "breadcrumbs": [
+   {
+    "name": "Society",
+    "path": "/gesellschaft"
+   }
+  ],
+  "product": "NZZ.ch",
+  "documentId": 1882781,
+  "contentTypeGroup": "web",
+  "layout": "longformstandard",
+  "firstPublicationDate": "2025-05-09T03:03:00.000Z",
+  "publicationDate": "2025-05-09T03:03:00.000Z",
+  "publicationLastUpdated": "2025-05-09T19:36:49.248Z",
+  "significantUpdate": false,
+  "significantUpdateTill": "2025-05-09T15:03:00.000Z",
+  "teaserCaption": "The complicated story of Kilmar Ábrego García from El Salvador.",
+  "url": "/gesellschaft/von-trumps-usa-bis-el-salvador-wer-ist-kilmar-abrego-garcia-ld.1882781",
+  "department": {
+   "name": "Society",
+   "path": "/gesellschaft"
+  },
+  "estimationWordCount": 1816,
+  "leadText": "The complicated story of Kilmar Ábrego García from El Salvador.",
+  "nzzSummaryEN": "- Kilmar Abrego Garcia, an immigrant from El Salvador, was arrested and deported in the US over alleged ties to the MS13 gang, even though the Supreme Court deemed his deportation illegal.\n- His story has become a symbol of Donald Trump's strict immigration policy, with differing narratives painting him as either a gang member or an innocent family man.\n- Despite allegations of domestic abuse and questionable evidence, Garcia's situation remains a politically and legally contentious issue.",
+  "nzzSummaryDE": "- Kilmar Abrego Garcia, an immigrant from El Salvador, was arrested and deported to the US for his alleged association with the MS13 gang, although the Supreme Court ruled his deportation illegal.\n His story has become a symbol of Donald Trump's strict immigration policy; depending on the perspective, he is portrayed as either a criminal gang member or an innocent family man.\n Despite allegations of domestic violence and questionable evidence, Garcia's fate remains a politically and legally controversial issue.",
+  "nzzSummaryIsAuto": true,
+  "nzzSummaryModel": "gpt-4o-2024-11-20",
+  "nzzPrintTitle": "He says he's not a gangster. The US government says he's lying. How a deported immigrant became the face of Donald Trump's immigration policy",
+  "nzzPrintSubtitle": "The complicated story of Kilmar Ábrego García from El Salvador.",
+  "allArticleLanguages": [
+   {
+    "locale": "de-CH",
+    "urlPath": "/gesellschaft/von-trumps-usa-bis-el-salvador-wer-ist-kilmar-abrego-garcia-ld.1882781",
+    "seo": {}
+   }
+  ],
+  "seo": {
+   "canonicalUrl": "https://www.nzz.ch/gesellschaft/von-trumps-usa-bis-el-salvador-wer-ist-kilmar-abrego-garcia-ld.1882781",
+   "title": "From Trump's USA to El Salvador: Who is Kilmar Abrego Garcia?",
+   "socialMediaTitle": "Hero or criminal? How Kilmar Garcia became the face of Trump's immigration policy",
+   "excludeFromSpiders": false,
+   "image": "https://img-msp-prod.nzz.ch/2025/05/05/11dc5f54-aceb-4351-95c4-3bb82f0b4fc0.jpeg?width=1200&height=675&fit=bounds&quality=75&auto=webp&crop=3024,1701,x0,y492&wmark=nzz"
+  },
+  "ldPublicationId": 1839370,
+  "isHighlightedHeader": false,
+  "nzzTopics": [
+   {
+    "name": "USA",
+    "slug": "/themen/usa"
+   },
+   {
+    "name": "El Salvador",
+    "slug": "/themen/el-salvador"
+   },
+   {
+    "name": "Donald Trump",
+    "slug": "/themen/donald-trump"
+   }
+  ],
+  "barrierIndex": 3,
+  "outlinks": {
+   "mehrZumThema": [
+    "ld.1882569",
+    "ld.1881296",
+    "ld.1881448"
+   ],
+   "artikelListe": [],
+   "aliasTeaserEmbedList": []
+  },
+  "tts": true,
+  "mp3": true,
+  "mp3Duration": 753864,
+  "project": "nzz",
+  "machineTranslated": true,
+  "machineTranslationValidated": false
+ },
+ "isReduced": false,
+ "isPaid": false,
+ "isVamp": false,
+ "isWebview": false,
+ "btaFeed": {
+  "meta": {
+   "id": "usa",
+   "name": "USA",
+   "tagName": "USA",
+   "qId": "Q30",
+   "seoTitle": "USA – All news and articles about the United States of America | NZZ",
+   "description": null,
+   "firstName": null,
+   "lastName": null,
+   "category": "LOC",
+   "createdDate": "2025-04-08 14:37:30.759Z",
+   "imageURL": null,
+   "imageCroppedURL": null,
+   "imageWidth": null,
+   "imageHeight": null,
+   "imageCredits": null,
+   "url": "https://nzz.ch/themen/usa",
+   "size": 8114,
+   "relatedTopics": [
+    {
+     "name": "El Salvador",
+     "slug": "/themen/el-salvador"
+    },
+    {
+     "name": "Donald Trump",
+     "slug": "/themen/donald-trump"
+    }
+   ]
+  },
+  "data": [
+   {
+    "owner": "NZZ",
+    "flag": "Data analysis",
+    "title": "How Popular Is Donald Trump?",
+    "teaserImage": {
+     "originalUrl": "/2025/05/14/154a166c-8b2d-43cc-a217-b54eff571553.png?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2025/05/14/154a166c-8b2d-43cc-a217-b54eff571553.png?width=1024&quality=75&auto=webp",
+     "width": 1801,
+     "height": 1351,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "1801,1013,x0,y169"
+      },
+      {
+       "name": "4:3",
+       "crop": "1801,1351,x0,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "1351,1351,x225,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "1013,1351,x394,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "1801,1201,x0,y75"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "Daily updated poll numbers: American sentiment toward their president's administration. An overview in graphics.",
+     "teaserAuthor": "Illustration by Jasmin Hegetschweiler / NZZ"
+    },
+    "teaserAuthor": "Illustration by Jasmin Hegetschweiler / NZZ",
+    "nzzasFootnote": false,
+    "folioFootnote": false,
+    "language": {
+     "locale": "de-CH"
+    },
+    "nzzId": "ld.1883243",
+    "readingTime": 120,
+    "authorLine": "Nikolai Thelitz",
+    "paywallQuestionOne": "Why has Trump's popularity declined?",
+    "paywallQuestionTwo": "What is Trump's stance on the economic situation?",
+    "paywallQuestionThree": "How do Americans view Trump's immigration policy?",
+    "characterCount": 2062,
+    "product": "NZZ.ch",
+    "documentId": "1883243",
+    "layout": "regular",
+    "publicationDate": "2026-09-03T07:57:50.000Z",
+    "publicationLastUpdated": "2026-09-03T07:57:50.000Z",
+    "significantUpdate": true,
+    "significantUpdateTill": "2026-09-03T19:57:50.000Z",
+    "teaserCaption": "Daily updated poll numbers: American sentiment toward their president's administration. An overview in graphics.",
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2026/06/08/e254b9af-5f2d-4473-af8c-a9de53509f60.jpg?width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/visuals/trump-umfragewerte-aktuell-2026-so-beliebt-ist-er-in-den-usa-ld.1883243",
+    "department": {
+     "name": "Visual Stories",
+     "path": "/visuals"
+    },
+    "estimationWordCount": 317,
+    "leadText": "Daily updated poll numbers: American sentiment toward their president's administration. An overview in graphics.",
+    "nzzSummaryIsAuto": true,
+    "hasQ": true
+   },
+   {
+    "title": "10 dollars for a coffee, 600% inflation – and hope for new oil billions: Welcome to everyday life in Venezuela",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "teaserImage": {
+     "originalUrl": "/2026/08/26/7b3cc737-abbf-4cb8-969f-49ba1900d8de.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/08/26/7b3cc737-abbf-4cb8-969f-49ba1900d8de.jpg?width=1024&quality=75&auto=webp",
+     "width": 7864,
+     "height": 5200,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "7864,4423,x0,y776"
+      },
+      {
+       "name": "4:3",
+       "crop": "6933,5200,x255,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "4298,4298,x1520,y635"
+      },
+      {
+       "name": "3:4",
+       "crop": "3223,4298,x2395,y902"
+      },
+      {
+       "name": "3:2",
+       "crop": "7091,4727,x300,y472"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "Much of the former glory of Venezuela's oil wealth has faded. But things are changing: investors and returning residents are rediscovering Venezuela. And now Donald Trump has big plans, too.",
+     "teaserAuthor": "NZZ"
+    },
+    "teaserAuthor": "NZZ",
+    "showComments": true,
+    "tags": [
+     "Fotografie"
+    ],
+    "teaserCarouselOne": {
+     "originalUrl": "/2026/08/26/7b3cc737-abbf-4cb8-969f-49ba1900d8de.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/08/26/7b3cc737-abbf-4cb8-969f-49ba1900d8de.jpg?width=1024&quality=75&auto=webp",
+     "width": 7864,
+     "height": 5200,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "7864,4423,x0,y388"
+      },
+      {
+       "name": "1:1",
+       "crop": "5200,5200,x1332,y0"
+      },
+      {
+       "name": "4:3",
+       "crop": "6933,5200,x465,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "3900,5200,x1982,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "7800,5200,x32,y0"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "teaserCarouselTwo": {
+     "originalUrl": "/2026/08/28/63a7de33-abc5-42fc-b8dd-be1ea6c32358.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/08/28/63a7de33-abc5-42fc-b8dd-be1ea6c32358.jpg?width=1024&quality=75&auto=webp",
+     "width": 7000,
+     "height": 4659,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "7000,3937,x0,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "4659,4659,x340,y0"
+      },
+      {
+       "name": "4:3",
+       "crop": "6212,4659,x0,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "3494,4659,x922,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "6989,4659,x0,y0"
+      }
+     ],
+     "focalPoint": {
+      "x": 2669,
+      "y": 1695
+     },
+     "imageService": "fastly"
+    },
+    "teaserCarouselThree": {
+     "originalUrl": "/2026/08/27/1f3f06d2-eb2c-4583-b4c6-97fda2f94e62.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/08/27/1f3f06d2-eb2c-4583-b4c6-97fda2f94e62.jpg?width=1024&quality=75&auto=webp",
+     "width": 7000,
+     "height": 4629,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "7000,3937,x0,y646"
+      },
+      {
+       "name": "1:1",
+       "crop": "4629,4629,x0,y0"
+      },
+      {
+       "name": "4:3",
+       "crop": "6172,4629,x0,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "3472,4629,x331,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "6944,4629,x0,y0"
+      }
+     ],
+     "focalPoint": {
+      "x": 2067,
+      "y": 2614
+     },
+     "imageService": "fastly"
+    },
+    "nzzId": "ld.10020261",
+    "readingTime": 600,
+    "paywallQuestionOne": "How will Trump's oil deal affect Venezuela's economic future?",
+    "paywallQuestionTwo": "What role do returning refugees and investors play in Venezuela's recovery?",
+    "paywallQuestionThree": "Why does the oil sector remain unsafe for investors despite reforms?",
+    "characterCount": 11936,
+    "product": "NZZ.ch",
+    "documentId": "10020261",
+    "layout": "longformvisual",
+    "publicationDate": "2026-09-03T03:30:00.000Z",
+    "publicationLastUpdated": "2026-09-03T03:30:00.000Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-09-03T15:30:00.000Z",
+    "teaserCaption": "Much of the former glory of Venezuela's oil wealth has faded. But things are changing: investors and returning residents are rediscovering Venezuela. And now Donald Trump has big plans, too.",
+    "authorLine": "Alexander Busch (text), Ana Gosen (images), Caracas",
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2024/02/21/c267e623-a396-4320-8b54-9d2b88c6b73a.png?crop=800,800,x0,y0&width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/wirtschaft/10-dollar-fuer-einen-kaffee-600-prozent-inflation-und-hoffnung-auf-neue-erdoelmilliarden-willkommen-im-alltag-in-venezuela-ld.10020261",
+    "department": {
+     "name": "Economy",
+     "path": "/wirtschaft"
+    },
+    "estimationWordCount": 1908,
+    "premium": true,
+    "leadText": "Much of the former glory of Venezuela's oil wealth has faded. But things are changing: investors and returning residents are rediscovering Venezuela. And now Donald Trump has big plans, too.",
+    "nzzSummaryIsAuto": true,
+    "commentsCount": 1,
+    "openToComment": false,
+    "locale": "de-CH"
+   },
+   {
+    "title": "September begins turbulently on the stock market: seven developments that are making the financial markets nervous",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "teaserImage": {
+     "originalUrl": "/2026/09/02/600ca9a6-b4aa-47c2-8d9d-f918ab920965.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/09/02/600ca9a6-b4aa-47c2-8d9d-f918ab920965.jpg?width=1024&quality=75&auto=webp",
+     "width": 7898,
+     "height": 5268,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "7898,4443,x0,y187"
+      },
+      {
+       "name": "4:3",
+       "crop": "7024,5268,x143,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "5268,5268,x1162,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "3951,5268,x1731,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "7898,5265,x0,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "Rising yields, expensive oil, and the insatiable demand for funding for AI – all problems for which no quick solution is in sight. An overview of what investors need to prepare for.",
+     "teaserAuthor": "Jacquelyn Martin / AP"
+    },
+    "teaserAuthor": "Jacquelyn Martin / AP",
+    "nzzId": "ld.10022036",
+    "readingTime": 360,
+    "paywallQuestionOne": "Why are American Treasury bonds experiencing a historic sell-off?",
+    "paywallQuestionTwo": "How do rising oil prices and interest rates affect global financial markets?",
+    "paywallQuestionThree": "What role do AI investments play in the competition with government bonds?",
+    "characterCount": 7839,
+    "product": "NZZ.ch",
+    "documentId": "10022036",
+    "layout": "regular",
+    "publicationDate": "2026-09-02T14:02:39.657Z",
+    "publicationLastUpdated": "2026-09-02T14:45:50.108Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-09-03T02:02:39.657Z",
+    "teaserCaption": "Rising yields, expensive oil, and the insatiable demand for funding for AI – all problems for which no quick solution is in sight. An overview of what investors need to prepare for.",
+    "authorLine": "Benjamin Triebe",
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2024/05/28/66e46add-875c-44d3-97bc-9ef706f6bc3d.jpeg?width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/finanzen/ausverkauf-bei-staatsanleihen-die-gruende-fuer-die-boersen-unruhe-sind-hartnaeckig-ld.10022036",
+    "department": {
+     "name": "Finance",
+     "path": "/finanzen"
+    },
+    "estimationWordCount": 1151,
+    "leadText": "Rising yields, expensive oil, and the insatiable demand for funding for AI – all problems for which no quick solution is in sight. An overview of what investors need to prepare for.",
+    "nzzSummaryIsAuto": true,
+    "hasQ": true,
+    "locale": "de-CH"
+   },
+   {
+    "title": "Germany protests, and the Russian Finance Minister parleys in the U.S.: This is not how sanctions work",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "flag": "Opinion",
+    "showComments": true,
+    "teaserImage": {
+     "originalUrl": "/2026/09/02/0f7820ef-f01e-49e7-9e43-eec6448cefbb.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/09/02/0f7820ef-f01e-49e7-9e43-eec6448cefbb.jpg?width=1024&quality=75&auto=webp",
+     "width": 6500,
+     "height": 4335,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "6500,3656,x0,y555"
+      },
+      {
+       "name": "4:3",
+       "crop": "5780,4335,x398,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "2961,2961,x392,y484"
+      },
+      {
+       "name": "3:4",
+       "crop": "3251,4335,x550,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "6500,4333,x0,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "Germany wants to hold Russia more accountable – and Donald Trump's administration is in the US talking with the Russian finance minister about cooperation in the international financial system. If sanctions are to be effective, they must be used more effectively and consistently.",
+     "teaserAuthor": "Sam Wolfe / Reuters"
+    },
+    "teaserAuthor": "Sam Wolfe / Reuters",
+    "editor": "1373452",
+    "paywallQuestionOne": "Who is the Russian Finance Minister Anton Siluanov, and why was he sanctioned?",
+    "paywallQuestionTwo": "What are sanctions intended to achieve and how do they work?",
+    "paywallQuestionThree": "How are the signals from the USA affecting us, and what would need to change?",
+    "nzzId": "ld.10022026",
+    "readingTime": 240,
+    "characterCount": 5319,
+    "product": "NZZ.ch",
+    "documentId": "10022026",
+    "layout": "opinion",
+    "publicationDate": "2026-09-02T11:58:27.752Z",
+    "publicationLastUpdated": "2026-09-02T17:58:55.039Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-09-02T23:58:27.752Z",
+    "teaserCaption": "Germany wants to hold Russia more accountable – and Donald Trump's administration is in the US talking with the Russian finance minister about cooperation in the international financial system. If sanctions are to be effective, they must be used more effectively and consistently.",
+    "authorLine": "Peter A. Fischer",
+    "authorImage": {
+     "originalUrl": "/2022/07/27/d59a0238-12f1-43d7-8905-6e94594be820.png?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2022/07/27/d59a0238-12f1-43d7-8905-6e94594be820.png?width=1024&quality=75&auto=webp",
+     "width": 800,
+     "height": 800,
+     "crops": [
+      {
+       "name": "1:1",
+       "crop": "800,800,x0,y0"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2022/07/27/d59a0238-12f1-43d7-8905-6e94594be820.png?width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/meinung/deutschland-protestiert-und-der-russische-finanzminister-parliert-in-den-usa-so-funktionieren-sanktionen-nicht-ld.10022026",
+    "department": {
+     "name": "Opinion",
+     "path": "/meinung"
+    },
+    "estimationWordCount": 781,
+    "premium": true,
+    "leadText": "Germany wants to hold Russia more accountable – and Donald Trump's administration is in the US talking with the Russian finance minister about cooperation in the international financial system. If sanctions are to be effective, they must be used more effectively and consistently.",
+    "nzzSummaryIsAuto": true,
+    "commentsCount": 7,
+    "openToComment": false,
+    "locale": "de-CH"
+   },
+   {
+    "title": "«Tanker for Tanker»: Trump escalates further in the Strait of Hormuz",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "teaserImage": {
+     "originalUrl": "/2026/09/02/e7ac2042-b8b6-4979-b234-1c4b2e17dd24.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/09/02/e7ac2042-b8b6-4979-b234-1c4b2e17dd24.jpg?width=1024&quality=75&auto=webp",
+     "width": 5500,
+     "height": 3666,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "5500,3094,x0,y306"
+      },
+      {
+       "name": "4:3",
+       "crop": "4444,3333,x427,y62"
+      },
+      {
+       "name": "1:1",
+       "crop": "3333,3333,x536,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "2273,3030,x487,y185"
+      },
+      {
+       "name": "3:2",
+       "crop": "4999,3333,x0,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "The battle for the strait intensifies again. For the first time, the U.S. also attacks Iranian oil tankers. In retaliation, Tehran targets U.S. military bases in the Middle East. Trump once again calls on Iranians to revolt.",
+     "teaserAuthor": "Majid Asgaripour/Wana News Agency via Reuters"
+    },
+    "teaserAuthor": "Majid Asgaripour/Wana News Agency via Reuters",
+    "tags": [
+     "Krieg in Nahost",
+     "Iran-Krieg",
+     "Die USA unter Trump"
+    ],
+    "nzzId": "ld.10022048",
+    "readingTime": 240,
+    "paywallQuestionOne": "How does the escalation in Hormuz affect the global oil supply?",
+    "paywallQuestionTwo": "What goals is Trump pursuing with the blockade against Iran?",
+    "paywallQuestionThree": "How is Iran reacting to the US attacks?",
+    "characterCount": 5043,
+    "product": "NZZ.ch",
+    "documentId": "10022048",
+    "layout": "regular",
+    "publicationDate": "2026-09-02T11:30:00.880Z",
+    "publicationLastUpdated": "2026-09-02T12:17:04.250Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-09-02T23:30:00.880Z",
+    "teaserCaption": "The battle for the strait intensifies again. For the first time, the U.S. also attacks Iranian oil tankers. In retaliation, Tehran targets U.S. military bases in the Middle East. Trump once again calls on Iranians to revolt.",
+    "authorLine": "Christian Weisflog",
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2022/06/29/610f656f-240a-49e1-b6b4-fec855be6253.png?width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/international/tanker-fuer-tanker-trump-zuendet-in-der-strasse-von-hormuz-die-naechste-eskalationsstufe-ld.10022048",
+    "department": {
+     "name": "International",
+     "path": "/international"
+    },
+    "estimationWordCount": 776,
+    "leadText": "The battle for the strait intensifies again. For the first time, the U.S. also attacks Iranian oil tankers. In retaliation, Tehran targets U.S. military bases in the Middle East. Trump once again calls on Iranians to revolt.",
+    "nzzSummaryIsAuto": true,
+    "locale": "de-CH"
+   },
+   {
+    "title": "Trump's grab for Venezuela's oil reserves remains a paper tiger",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "teaserImage": {
+     "originalUrl": "/2026/08/31/4d9de37a-1c64-49c3-9ba2-8e692b924573.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/08/31/4d9de37a-1c64-49c3-9ba2-8e692b924573.jpg?width=1024&quality=75&auto=webp",
+     "width": 5500,
+     "height": 3668,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "5500,3094,x0,y0"
+      },
+      {
+       "name": "4:3",
+       "crop": "4891,3668,x305,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "3668,3668,x916,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "2751,3668,x1375,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "5500,3667,x0,y1"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "With his agreement, Donald Trump aims to increase the US's strategic oil reserves. However, Venezuela currently produces only one percent of global crude oil. This cannot be changed easily or quickly.",
+     "teaserAuthor": "Gaby Oraa / Reuters"
+    },
+    "teaserAuthor": "Gaby Oraa / Reuters",
+    "flag": "Opinion",
+    "showComments": true,
+    "nzzId": "ld.10021740",
+    "readingTime": 180,
+    "paywallQuestionOne": "Why does Trump's deal with Venezuela remain meaningless for the world market?",
+    "paywallQuestionTwo": "How do mismanagement and sanctions affect Venezuela's oil production?",
+    "paywallQuestionThree": "What challenges exist for investments in Venezuela's oil sector?",
+    "characterCount": 4369,
+    "product": "NZZ.ch",
+    "documentId": "10021740",
+    "layout": "opinion",
+    "publicationDate": "2026-09-01T03:30:00.000Z",
+    "publicationLastUpdated": "2026-09-01T06:50:39.452Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-09-01T15:30:00.000Z",
+    "teaserCaption": "With his agreement, Donald Trump aims to increase the US's strategic oil reserves. However, Venezuela currently produces only one percent of global crude oil. This cannot be changed easily or quickly.",
+    "authorLine": "Catherine Bosley",
+    "authorImage": {
+     "originalUrl": "/2025/12/31/f4854fdf-6fd5-4b83-9089-75e151c90563.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2025/12/31/f4854fdf-6fd5-4b83-9089-75e151c90563.jpg?width=1024&quality=75&auto=webp",
+     "width": 6000,
+     "height": 4000,
+     "crops": [
+      {
+       "name": "1:1",
+       "crop": "4000,4000,x1000,y0"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2025/12/31/f4854fdf-6fd5-4b83-9089-75e151c90563.jpg?width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/meinung/trumps-griff-nach-venezuelas-erdoelschaetzen-bleibt-ein-papiertiger-ld.10021740",
+    "department": {
+     "name": "Opinion",
+     "path": "/meinung"
+    },
+    "estimationWordCount": 637,
+    "premium": true,
+    "leadText": "With his agreement, Donald Trump aims to increase the US's strategic oil reserves. However, Venezuela currently produces only one percent of global crude oil. This cannot be changed easily or quickly.",
+    "nzzSummaryIsAuto": true,
+    "commentsCount": 8,
+    "openToComment": false,
+    "hasQ": true,
+    "locale": "de-CH"
+   }
+  ]
+ },
+ "digitalData": {
+  "component": [
+   {
+    "id": "ld.1882781",
+    "name": "He says he's not a gangster. The US government says he's lying. How a deported immigrant became the face of Donald Trump's immigration policy",
+    "type": "article",
+    "subType1": "longformstandard",
+    "subType2": "",
+    "primaryCategory": "Gesellschaft",
+    "subCategory1": "",
+    "attributes": {
+     "headline": "He says he's not a gangster. The US government says he's lying. How a deported immigrant became the face of Donald Trump's immigration policy",
+     "firstPublishTitle": "",
+     "catchline": "",
+     "authors": [],
+     "issueTimestamp": "2025-05-09T03:03:00.000Z",
+     "updateTimestamp": "2025-05-09T19:36:49.248Z",
+     "isSponsoredContent": false,
+     "isPro": false,
+     "isLiveticker": false,
+     "flag": "",
+     "owner": "NZZ"
+    }
+   }
+  ],
+  "page": {
+   "pageId": "ld.1882781",
+   "pageType": "longformstandard",
+   "primaryCategory": "Gesellschaft",
+   "subCategory1": "",
+   "subCategory2": "",
+   "language": "en-US"
+  },
+  "version": "2.0",
+  "user": {},
+  "event": []
+ },
+ "seoData": {
+  "title": "From Trump's USA to El Salvador: Who is Kilmar Abrego Garcia?",
+  "image": {
+   "url": "https://img-msp-prod.nzz.ch/2025/05/05/11dc5f54-aceb-4351-95c4-3bb82f0b4fc0.jpeg?width=1200&height=675&fit=bounds&quality=75&auto=webp&crop=3024,1701,x0,y492&wmark=nzz",
+   "type": "image/jpeg",
+   "width": 1200,
+   "height": 675
+  },
+  "author": "Flurin Clalüna",
+  "description": "The complicated story of Kilmar Ábrego García from El Salvador.",
+  "news_keywords": "He says he's not a gangster. The US government says he's lying. How a deported immigrant became the face of Donald Trump's immigration policy. Society, News, NZZ",
+  "type": "article",
+  "last-modified": "2025-05-09T23:36:49+02:00",
+  "date": "2025-05-09T07:03:00+02:00",
+  "canonical": "https://www.nzz.ch/gesellschaft/von-trumps-usa-bis-el-salvador-wer-ist-kilmar-abrego-garcia-ld.1882781",
+  "fb:app_id": 138008459595436,
+  "fb:pages": 143694099006529,
+  "fb:admins": 1592685173,
+  "locale": "de-CH",
+  "email": "online.redaktion@nzz.ch",
+  "site_name": "Neue Zürcher Zeitung",
+  "copyright": "2026 Neue Zürcher Zeitung AG, Schweiz",
+  "robots": "noindex, nofollow, noarchive, noodp",
+  "hreflang": [],
+  "sharedTitle": "He says he's not a gangster. The US government says he's lying. How a deported immigrant became the face of Donald Trump's immigration policy",
+  "ogTitle": "Hero or criminal? How Kilmar Garcia became the face of Trump's immigration policy",
+  "ogUrl": "https://www.nzz.ch/gesellschaft/von-trumps-usa-bis-el-salvador-wer-ist-kilmar-abrego-garcia-ld.1882781",
+  "mrf:cms_id": "nzz:ld.1882781",
+  "mrf:sections": "Gesellschaft",
+  "mrf:tags": "Page Type:longformstandard;Editorial Owner:NZZ;Content Type:Standard Article;Article ID:ld.1882781",
+  "nzzAuthors": [
+   {
+    "name": "Flurin Clalüna"
+   }
+  ],
+  "links": [
+   {
+    "rel": "canonical",
+    "href": "https://www.nzz.ch/gesellschaft/von-trumps-usa-bis-el-salvador-wer-ist-kilmar-abrego-garcia-ld.1882781"
+   },
+   {
+    "rel": "search",
+    "href": "/suche",
+    "title": "Suche Neue Zürcher Zeitung, Schweiz, https://www.nzz.ch/suche"
+   }
+  ],
+  "renderedAt": "Thu, 03 Sep 2026 09:31:54 GMT"
+ },
+ "structuredData": [
+  {
+   "@context": "https://schema.org",
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "item": {
+      "@id": "/",
+      "name": "Home"
+     }
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "item": {
+      "@id": "/gesellschaft",
+      "name": "Society"
+     }
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "From Trump's USA to El Salvador: Who is Kilmar Abrego Garcia?"
+    }
+   ]
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": "NewsArticle",
+   "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.nzz.ch/gesellschaft/von-trumps-usa-bis-el-salvador-wer-ist-kilmar-abrego-garcia-ld.1882781"
+   },
+   "headline": "From Trump's USA to El Salvador: Who is Kilmar Abrego Garcia?",
+   "datePublished": "2025-05-09T07:03:00+02:00",
+   "dateModified": "2025-05-09T23:36:49+02:00",
+   "publisher": {
+    "@type": "NewsMediaOrganization",
+    "name": "Neue Zürcher Zeitung",
+    "url": "https://www.nzz.ch",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://www.nzz.ch/logo.png",
+     "width": 413,
+     "height": 60
+    },
+    "contactPoint": [
+     {
+      "@type": "ContactPoint",
+      "telephone": "+41-44-2581000",
+      "contactType": "customer service"
+     }
+    ],
+    "sameAs": [
+     "https://www.facebook.com/nzz",
+     "https://www.twitter.com/nzz",
+     "https://www.youtube.com/channel/UCK1aTcR0AckQRLTlK0c4fuQ",
+     "https://www.linkedin.com/company/neue-zurcher-zeitung",
+     "https://www.instagram.com/nzz/",
+     "https://de.wikipedia.org/wiki/Neue_Z%C3%BCrcher_Zeitung",
+     "https://www.wikidata.org/wiki/Q658945",
+     "https://plus.google.com/+nzz/",
+     "http://www.freebase.com/m/041b43"
+    ],
+    "masthead": "https://www.nzz.ch/impressum/impressum-ld.148422",
+    "foundingDate": "1780"
+   },
+   "description": "The complicated story of Kilmar Ábrego García from El Salvador.",
+   "isAccessibleForFree": false,
+   "articleSection": "Gesellschaft",
+   "hasPart": {
+    "@type": "WebPageElement",
+    "isAccessibleForFree": false,
+    "cssSelector": ".nzzinteraction"
+   },
+   "image": {
+    "@type": "ImageObject",
+    "url": "https://img-msp-prod.nzz.ch/2025/05/05/11dc5f54-aceb-4351-95c4-3bb82f0b4fc0.jpeg?width=1200&height=675&fit=bounds&quality=75&auto=webp&crop=3024,1701,x0,y492&wmark=nzz",
+    "width": 1200,
+    "height": 675
+   },
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Flurin Clalüna"
+    }
+   ],
+   "inLanguage": "de"
+  }
+ ],
+ "mp3": true,
+ "mp3Duration": 753864,
+ "bT": {
+  "standard": {
+   "Tags": [
+    "/gesellschaft/von-trumps-usa-bis-el-salvador-wer-ist-kilmar-abrego-garcia-ld.1882781",
+    "classification=default",
+    "relevance=default",
+    "layout=longformstandard",
+    "owner=nzz",
+    "product=nzz",
+    "doctype=article",
+    "pagetype=article",
+    "ldid=ld.1882781",
+    "channel=Gesellschaft"
+   ],
+   "ContentCreated": "2025-05-09T03:03:00.000Z",
+   "ContentAuthor": "Flurin Clalüna",
+   "ContentSection": "Gesellschaft",
+   "ContentIsNative": true
+  },
+  "custom": {
+   "product": "nzz",
+   "docType": "article",
+   "pageType": "article",
+   "layout": "longformstandard",
+   "ldId": "ld.1882781",
+   "channel": "Gesellschaft",
+   "heading": "Er sagt, er sei kein Gangster. Die US-Regierung sagt, er lüge. Wie ein abgeschobener Einwanderer zum Gesicht von Donald Trumps Migrationspolitik wurde",
+   "language": "en-US"
+  }
+ },
+ "webviewMetadata": {},
+ "cacheTime": 3600
+}

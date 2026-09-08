@@ -1,0 +1,2159 @@
+{
+ "content": [
+  {
+   "identifier": "header",
+   "id": "doc-1i5d0l76p0",
+   "content": {
+    "title": "A Russian scientist travels to the West to conduct research with colleagues – risking everything in the process. Our reporter accompanied her",
+    "lead": "Vera Petrow travels to Western Europe to continue her research projects: What was recently perfectly normal now involves high personal risks for her. A recounting of her week-long research trip to a German-speaking city.",
+    "authorline": "Andrew Müller (text), Florian Generotzky (images)",
+    "author": "Andrew Müller (text), Florian Generotzky (images)"
+   },
+   "containers": {
+    "authors": []
+   },
+   "prevElement": "",
+   "nextElement": "image",
+   "firstContentElement": true
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1i6f5mvqi2",
+   "content": {
+    "image": {
+     "author": "",
+     "caption": "Vera Petrow is in her mid-30s and a passionate arthropod researcher.",
+     "originalUrl": "/2024/09/01/b122559e-febf-4f3c-bb66-b1f0c240a03d.jpeg?crop=2251,3376,x181,y0",
+     "width": 2500,
+     "height": 3376,
+     "altText": "FOR ONE-TIME USE: Report by Andrew Müller for Wochenendbund",
+     "origins": [
+      {
+       "name": "Hugo",
+       "identifier": "2160072985"
+      }
+     ],
+     "crop": {
+      "x": 181,
+      "y": 0,
+      "width": 2251,
+      "height": 3376
+     },
+     "imageService": "fastly"
+    },
+    "caption": "Vera Petrow is in her mid-30s and a passionate arthropod researcher.",
+    "author": ""
+   },
+   "data": {
+    "_captionDirective": {}
+   },
+   "prevElement": "header",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1i5d0l76q0",
+   "content": {
+    "text": "<em>Russian biologist Vera Petrov simply wants to do her work, but since the war in Ukraine, she has had to operate almost like a secret agent. She smuggles money and hides research materials. She cannot reveal in this text exactly what she is researching. It is not drugs or even nuclear weapons, but small invertebrates from the phylum Arthropoda, which includes insects, crustaceans, and millipedes. Completely harmless. But if Petrov says something «wrong,» she risks being imprisoned by her own government. The new iron curtain runs not only along the border between Russia and Ukraine, but also right through the laboratories of the world.</em>"
+   },
+   "data": {},
+   "prevElement": "image",
+   "nextElement": "barrier"
+  },
+  {
+   "id": "doc-58cf4ea2",
+   "identifier": "barrier",
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1i5d2dnms0",
+   "content": {
+    "text": "The aquarium in the corner of the room babbles softly, as if nothing were amiss. Its sound mingles with the concentration in the air as the two young biologists lean over their microscopes. Around them are shallow plastic sample containers and wooden collection boxes filled with cardboard boxes of prepared arthropods. Vera Petrov sits with her back straight, looking through the microscope eyepiece, her hands resting beside the brightly lit stage."
+   },
+   "paidContent": true,
+   "prevElement": "barrier",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1i5lmqpgq1",
+   "content": {
+    "text": "She carefully holds small specimens up to the light. Every now and then she hums. When Petrow is examining arthropods she particularly likes, or when she's on the trail of something new, she rubs her hands together enthusiastically and smiles."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1i5d2dnmt0",
+   "content": {
+    "text": "She's been fascinated by these little creatures since her youth. In the early 1990s, when many people in Russia didn't have enough to eat, her parents moved to the countryside. They grew fruits and vegetables and gathered mushrooms and berries in the forest. There, instead of listening to the crude jokes of her schoolmates, Petrov took long walks, searching for animal tracks. She never saw the large mammals, which frustrated her. Then one day, lying in the grass, she observed the many small arthropods around her and understood: This is my mission!"
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1i6s8d6150",
+   "content": {
+    "title": "Even during the Cold War there was more cooperation",
+    "id": "subtitle-selbst-im-kalten-krieg-gab-es-mehr-zusammenarbeit"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1i5d2dnmu0",
+   "content": {
+    "text": "Petrov and her Western colleague Philip Blum have selected several genera of these small animals for revision. This means checking whether species have been recorded twice or whether specimens with the same scientific name actually belong to different species. They might even discover entirely new species in Blum's collection. This is fundamental taxonomic research, then, to catalog life on the planet – a cornerstone of biology."
+   },
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1i5d2dnmv0",
+   "content": {
+    "text": "The collaboration between Blum and Petrov almost failed. Western countries like Switzerland, Germany, and the USA largely severed all cooperation with Russian scientific institutions in order to isolate the Putin regime internationally; research funds and findings were not to benefit it. Even during the Cold War, Western and Soviet researchers collaborated more closely than they do today."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1i5lmoef21",
+   "content": {
+    "text": "The sanctions apply to all disciplines, whether weapons research or climate science, military geography or biodiversity research. They are supported by broad alliances of major scientific institutions. However, discussions sometimes arise: Isn't science a bridge to diplomacy? Do the sanctions do more harm than good?"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1i6s8e9lr0",
+   "content": {
+    "title": "She thought she would no longer be able to practice her profession",
+    "id": "subtitle-sie-dachte-sie-k-nne-ihren-beruf-nicht-mehr-aus-ben"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1i5d2dnmv1",
+   "content": {
+    "text": "Ultimately, science itself decides whether further collaboration is possible in a given case. Direct exchange with Russian researchers is even considered desirable. Thus, no one knows exactly how many smaller collaborations are taking place under the radar."
+   },
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1i5d2dnmv2",
+   "content": {
+    "text": "Petrov and Blum had connected via Facebook and had never met in person before. Blum had sent her prepared arthropods for identification, and they were considering joint publications. Originally, Philipp Blum, somewhat younger than Petrov, was supposed to travel to Russia for his doctoral research and visit her at her institute. But when the Russian army invaded Ukraine, that was no longer possible. Vera Petrov was shocked. «I thought I would no longer be able to practice my profession,» she says."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1i5d2dnmv3",
+   "content": {
+    "text": "For Petrov, the collaboration with Blum is crucial. She would benefit from joint publications; each article not only enhances her reputation in the scientific community but also boosts her meager salary. For many years, she has visited museums and institutes outside of Russia, conducting research and exchanging ideas with colleagues. Blum has access to promising collection material and performs genetic analyses that are extremely useful to Petrov in her work. For her institute in Russia, the method is too expensive."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1i5d2dnn00",
+   "content": {
+    "text": "Blum also relies on this cooperation. Without Petrow's expertise, it would be difficult for him to produce a good doctoral thesis. She is one of only a handful of leading experts worldwide on arthropods, the subject of Blum's research."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1i6s8gh1b0",
+   "content": {
+    "title": "Please, no ardent Putin supporters",
+    "id": "subtitle-bitte-keine-gl-hende-putin-anh-ngerin"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1i5d2dnn01",
+   "content": {
+    "text": "Petrov, who still had a valid Schengen visa, was planning to travel to Western Europe soon anyway to collaborate with colleagues. Perhaps, Blum's doctoral advisor suggested, an exception could be made in this case. After all, the collaboration had begun before the war, and it concerned a dissertation with a rapidly approaching deadline. Exceptions are most readily granted to junior researchers. However, Blum's advisor added, one couldn't simply invite Russian colleagues. One had to be certain, he said, that one wasn't inadvertently inviting a fervent Putin supporter."
+   },
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1i5d2dnn02",
+   "content": {
+    "text": "Ideological vetting is generally considered undemocratic and incompatible with academic freedom. But Philipp Blum saw no other way out and wrote an email to Petrov: «I'm a little embarrassed to ask you this, and I hope you don't misunderstand.» He asked her to sign a resolution against the war. «I didn't mean to offend her,» Blum says. «But I wanted to get it out of the way.»"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1i5d2dnn03",
+   "content": {
+    "text": "When Petrov read the email, she found Blum's question both understandable and silly. She believes politics and work should be kept separate. In Russia, it's forbidden to even speak of a war. Those who speak out against it rarely do so via email. Even if you're only researching arthropods, you never know who might be reading along."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1i6sakqdk0",
+   "content": {
+    "title": "«Of course I am against the war.»",
+    "id": "subtitle-nat-rlich-bin-ich-gegen-den-krieg"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1i5d2dnn04",
+   "content": {
+    "text": "Nevertheless, Petrov replied the very next morning. «Of course I am against the war,» she wrote. However, she was a single mother and had to be extremely careful. If she spoke out publicly against the war, she could be imprisoned. Indeed, the Putin regime has already imprisoned several scientists critical of the government."
+   },
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1i5d2dnn10",
+   "content": {
+    "text": "Philipp Blum understood the situation, and Petrov's email was sufficient for his doctoral advisor as well. However, it still needed to be clarified that no money would change hands that could prop up the Russian state. This is a core element of the sanctions. Previously, Blum's research institution would have covered Petrov's travel expenses. «When I learned that they were paying for the flight themselves,» says Blum's doctoral advisor, «I was incredibly relieved.»"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "imagegrid"
+  },
+  {
+   "identifier": "imagegrid",
+   "id": "doc-1i5l6p0qa0",
+   "content": {
+    "caption": "Petrow has discovered many new species in her research career. Blum discovered his first together with her – and named it after his mother."
+   },
+   "styles": {
+    "imagegrid-width": "imagegrid--containerwidth"
+   },
+   "containers": {
+    "imageRows": [
+     {
+      "identifier": "imagegrid-row",
+      "id": "doc-1i5l6p0qb0",
+      "containers": {
+       "imageRow": [
+        {
+         "identifier": "imagegrid-image",
+         "id": "doc-1i5l6p0qb2",
+         "content": {
+          "image": {
+           "author": "",
+           "caption": "",
+           "originalUrl": "/2024/09/01/edeea771-a21b-4f42-9576-c7ae639c473f.jpeg?width=1024",
+           "width": 2500,
+           "height": 3748,
+           "altText": "FOR ONE-TIME USE: Report by Andrew Müller for Wochenendbund",
+           "origins": [
+            {
+             "name": "Hugo",
+             "identifier": "2160072819"
+            }
+           ],
+           "imageService": "fastly"
+          },
+          "author": "",
+          "caption": ""
+         }
+        },
+        {
+         "identifier": "imagegrid-image",
+         "id": "doc-1i5l6p0qb1",
+         "content": {
+          "image": {
+           "author": "",
+           "caption": "",
+           "originalUrl": "/2024/09/01/0bf39d30-0bfd-4f9c-92c2-504a4b572948.jpeg?width=1024",
+           "width": 2500,
+           "height": 3748,
+           "altText": "FOR ONE-TIME USE: Report by Andrew Müller for Wochenendbund",
+           "origins": [
+            {
+             "name": "Hugo",
+             "identifier": "2160072820"
+            }
+           ],
+           "imageService": "fastly"
+          },
+          "author": "",
+          "caption": ""
+         }
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1i5d2dnn11",
+   "content": {
+    "text": "Petrov's journey lasts several weeks, with stops in four countries. Her first stop is Philipp Blum, who picks her up from the airport. From then on, they meet every morning at 9 a.m. in his laboratory. Blum and Petrov aim to produce at least two publications, and they don't have much time."
+   },
+   "paidContent": true,
+   "prevElement": "imagegrid",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1i5d2dnn12",
+   "content": {
+    "text": "A week after her arrival, Petrov is deep in work. With one hand on her forehead, she pores over arthropods and colorful lists on which she makes notes. Her gaze scans the specimens under the microscope. Petrov searches for differences between the specimens: a slightly shorter antenna, a smooth spot on the underside of the body, or indentations that are only visible at many times the magnification."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1i6s8p1pl0",
+   "content": {
+    "title": "She is constantly discovering new species",
+    "id": "subtitle-neue-arten-entdeckt-sie-andauernd"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1i5d2dnn13",
+   "content": {
+    "text": "Blum sits at the table diagonally next to Petrov. Using needle-like instruments, he prepares more specimens and hands them to her. Every now and then, the two joke, toss Latin species names back and forth, or discuss new observations."
+   },
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1i5d2dnn15",
+   "content": {
+    "text": "Petrov soon discovers a new species. «Just like that,» says Blum. For Petrov, this is nothing special anymore, but he has never described a species before. In the next few days, he will name one after his mother, as a birthday present for her."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1i5d2dnn16",
+   "content": {
+    "text": "One afternoon, the two researchers took a short walk together and bought some food at the supermarket. At the checkout, Petrov was amused by the brand name of the small vodka bottles on display: «Gorbachev,» like the last president of the Soviet Union."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1i6s8qm160",
+   "content": {
+    "title": "«Come on, they're just arthropods.»",
+    "id": "subtitle-come-on-es-sind-nur-gliederf-sser"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1i5d2dnn20",
+   "content": {
+    "text": "It's not a given that Petrov pays for her shopping by credit card. To get one, she had to travel abroad. Russian banks have been excluded from the international SWIFT system, so her cards are worthless elsewhere. The new Iron Curtain manifests itself in many such everyday things."
+   },
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1i6s8ls6j1",
+   "content": {
+    "text": "To pay the publishing fees of Western journals, Petrov also had to spend a whole week in a neighboring country of Russia, telling authorities and bank employees that she lived there, presenting documents, and paying the equivalent of around one hundred euros. «I'm a very persistent person,» she says, laughing. She often enjoys finding creative solutions to such problems. Then again, it all becomes too much, and she just wishes she could work in peace."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1i5d2dnn21",
+   "content": {
+    "text": "Vera Petrov finds the sanctions «understandable, but not right.» After all, she researches biodiversity, not nuclear technology, she says. «Come on, we're comparing apples and oranges,» Blum agrees. «That's hardly going to influence the war.»"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "imagegrid"
+  },
+  {
+   "identifier": "imagegrid",
+   "id": "doc-1i5l75nrv0",
+   "content": {
+    "caption": "What influence do arthropods have on war? Conversely, war massively disrupts research on them."
+   },
+   "styles": {
+    "imagegrid-width": "imagegrid--containerwidth"
+   },
+   "containers": {
+    "imageRows": [
+     {
+      "identifier": "imagegrid-row",
+      "id": "doc-1i5l75nrv1",
+      "containers": {
+       "imageRow": [
+        {
+         "identifier": "imagegrid-image",
+         "id": "doc-1i5l75ns00",
+         "content": {
+          "image": {
+           "author": "",
+           "caption": "",
+           "originalUrl": "/2024/09/01/30914a50-cb1e-480e-abd2-887a23454dd7.jpeg?width=1024",
+           "width": 2500,
+           "height": 3748,
+           "altText": "FOR ONE-TIME USE: Report by Andrew Müller for Wochenendbund",
+           "origins": [
+            {
+             "name": "Hugo",
+             "identifier": "2160072816"
+            }
+           ],
+           "imageService": "fastly"
+          },
+          "author": "",
+          "caption": ""
+         }
+        },
+        {
+         "identifier": "imagegrid-image",
+         "id": "doc-1i5l75nrv2",
+         "content": {
+          "image": {
+           "author": "",
+           "caption": "",
+           "originalUrl": "/2024/09/01/56b575bf-6dbe-440c-87b2-a912bac045df.jpeg?crop=2377,3565,x123,y122",
+           "width": 2500,
+           "height": 3748,
+           "altText": "FOR ONE-TIME USE: Report by Andrew Müller for Wochenendbund",
+           "origins": [
+            {
+             "name": "Hugo",
+             "identifier": "2160072818"
+            }
+           ],
+           "crop": {
+            "x": 123,
+            "y": 122,
+            "width": 2377,
+            "height": 3565
+           },
+           "imageService": "fastly"
+          },
+          "author": "",
+          "caption": ""
+         }
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1i5d2dnn22",
+   "content": {
+    "text": "In the early afternoon, Petrov and Blum are sitting in the break room of his research institute, chatting. Blum asks if it's true that Putin is primarily conscripting men in the country's provinces for military service. «They just grab them off the street,» Petrov says. And anyone who, like her, doesn't just watch state television, is also familiar with the horrific images from Ukraine: dead bodies, destruction, and screaming children."
+   },
+   "paidContent": true,
+   "prevElement": "imagegrid",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1i5d2dnn23",
+   "content": {
+    "text": "Then Petrov wants to change the subject. She reports that at her institute in Russia, they don't talk about politics either, but focus on work."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1i5d2dnn24",
+   "content": {
+    "text": "Blum's doctoral advisor is familiar with this from other Russian biologists. They had cultivated this practice of staying out of sensitive matters even during Soviet times. «But that's no longer possible,» he says."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1i5d2dnn30",
+   "content": {
+    "text": "Those in favor of the sanctions share a similar view, considering them the only option as long as the invasion of Ukraine continues. «Russia's war of aggression violates international law and betrays the rules and values ​​of international cooperation on which our science is also based,» says Christoph Hilgert, spokesperson for the German Rectors' Conference."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1i6s8seou0",
+   "content": {
+    "title": "It is naive to invoke scientific neutrality",
+    "id": "subtitle-naiv-sich-auf-wissenschaftliche-neutralit-t-zu-berufen"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1i5lm9sin1",
+   "content": {
+    "text": "The militarization and indoctrination of Russian society doesn't stop at the universities – therefore, it's naive to invoke academic neutrality. «For example, Russian propaganda uses joint publications to deny its own isolation and make the West appear divided,» says Hilgert. «They like to portray it as if the sanctions aren't even being enforced.»"
+   },
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1i5d2dnn31",
+   "content": {
+    "text": "Critics of the sanctions, however, warn that Western isolationism primarily affects Russian researchers, who are mostly blameless for Putin's delusions. Or they point to the climate crisis. Just as data on the thawing of Siberian permafrost is now lacking, biodiversity can only truly be viewed globally. A few days before Petrov's departure, she and Blum had already discovered several new species."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1i5d2dnn33",
+   "content": {
+    "text": "Often it's quiet for an hour; only the aquarium and the whirring of the microscopes as they focus the image can be heard. Once, Petrov receives a call from a colleague in Russia who asks if she can bring him some zoological material. Obtaining permits is difficult due to the sanctions, and postal service between the West and Russia is also disrupted. She gives him the address of the institute from where she will be returning."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1i5d2dnn34",
+   "content": {
+    "text": "Sometimes Petrov considers emigrating. She says all her friends and most of her colleagues are against the war. «Many have already left Russia.» She had actually saved money to buy an apartment – ​​but now she's keeping it so she can leave at any time if the situation worsens."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1i6s910v70",
+   "content": {
+    "title": "Russian science once had a good reputation",
+    "id": "subtitle-russische-wissenschaft-hatte-einst-einen-guten-ruf"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1i5d2dnn35",
+   "content": {
+    "text": "The emigration of skilled workers is considered a threat to the Russian scientific system, which for a long time enjoyed a good reputation. During the Cold War, the Soviet Union built large institutes that were also highly regarded in the West. Systemic rivalry often had a positive impact on funding. However, with the fall of communism, the decline of Russian research began, and this decline is now intensifying."
+   },
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1i5lmk32a1",
+   "content": {
+    "text": "Putin invests very little in areas not relevant to the war effort. Due to sanctions, Western research material is scarce, and access to databases and networks is blocked. While Western states welcome fleeing Russian researchers, some observers say that this isolation is driving them into the arms of other autocratic regimes like China."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1i5d2dnn40",
+   "content": {
+    "text": "So far, Petrov has remained in Russia primarily because of her parents, who look after her child while she travels. Another reason is her love for her work. Although she could conduct research elsewhere, she helped build the collection at her institute. Despite having far less space and inferior equipment compared to Blum's laboratory, Petrov feels comfortable there."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1i6s947iq0",
+   "content": {
+    "title": "Ukrainian researchers in a dilemma",
+    "id": "subtitle-ukrainische-forscher-im-dilemma"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1i5d2dnn42",
+   "content": {
+    "text": "«Other researchers have it harder than I do,» says Petrov – thinking of a colleague from Kyiv whom she had actually planned to visit. He has been an expert for decades in a field dominated by Russian researchers. Ukraine tries to prevent such collaborations. But if he doesn't publish with Russians, he can't practice his profession, Petrov explains. And if he continues to collaborate with Russians, he will lose his job in Ukraine."
+   },
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1i5d2dnn43",
+   "content": {
+    "text": "On the last day of her stay with Blum, Petrov packs her belongings, including some arthropods from his collection. She plans to take the animals back to Russia, compare them with specimens from her own collection, and identify them. Hundreds more will be added during her trip. She hopes she won't be checked on the flight home <em>.</em>"
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1i5d2dnn44",
+   "content": {
+    "text": "Philipp Blum accompanies Petrow to the bus station and waves goodbye to her. <em>&nbsp;</em> She travels to three other locations in Europe to conduct research with colleagues there as well. Because of the sanctions, there are no longer any direct flights to Russia, and the circuitous journey back takes almost 24 hours. Petrov smuggles dollar and euro bills, which she is not allowed to take with her due to the sanctions, into her bra."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1i5d2dnn50",
+   "content": {
+    "text": "The cardboard boxes containing over six hundred arthropods, which Petrov had hidden in her checked luggage, passed through customs without any problems. But Petrov doesn't yet know how she'll return Blum's specimens. Perhaps she'll take the animals with her to a conference in South Korea a year later and send them to him from there. Or perhaps she'll return soon – either for a visit or as a refugee."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "footnote"
+  },
+  {
+   "identifier": "footnote",
+   "id": "doc-1i6ut6n260",
+   "content": {
+    "text": "Note: Petrov and Blum's names have been changed. Images: Laif"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "nzzas-footnote"
+  },
+  {
+   "identifier": "nzzas-footnote",
+   "id": "doc-41516004",
+   "paidContent": true,
+   "prevElement": "footnote",
+   "nextElement": "sharebox",
+   "lastContentElement": true
+  },
+  {
+   "identifier": "sharebox",
+   "id": "doc-1i5d0l76q1",
+   "paidContent": true,
+   "prevElement": "nzzas-footnote",
+   "nextElement": "related-articles-container"
+  },
+  {
+   "identifier": "related-articles-container",
+   "id": "doc-1i6s9ptv30",
+   "content": {
+    "title": "Related articles"
+   },
+   "containers": {
+    "related-articles": [
+     {
+      "identifier": "teaser",
+      "id": "doc-1i6s9ptv31",
+      "content": {
+       "owner": "NZZ",
+       "title": "Putin wants to control the Black Sea to make Russia a global power. If he succeeds, he will turn his gaze westward.",
+       "teaserImage": {
+        "originalUrl": "/2024/09/02/f134fae8-ae5b-4ad8-8834-d841252a9c4c.jpeg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2024/09/02/f134fae8-ae5b-4ad8-8834-d841252a9c4c.jpeg?width=1024&quality=75&auto=webp",
+        "width": 6000,
+        "height": 4086,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "5333,3000,x60,y1085"
+         },
+         {
+          "name": "1:1",
+          "crop": "2267,2267,x1776,y1818"
+         },
+         {
+          "name": "4:3",
+          "crop": "4843,3632,x336,y453"
+         },
+         {
+          "name": "3:4",
+          "crop": "1512,2015,x2007,y2070"
+         }
+        ],
+        "imageService": "fastly",
+        "teaserCaption": "The war in Ukraine is dragging on. In Putin's calculations, the inland seas likely play a crucial role. Depending on the cost of the war, he will also incorporate the Baltic Sea into his power strategy.",
+        "teaserAuthor": "Stoyan Nenov / Reuters"
+       },
+       "teaserAuthor": "Stoyan Nenov / Reuters",
+       "nzzasFootnote": false,
+       "folioFootnote": false,
+       "language": {
+        "locale": "de-CH"
+       },
+       "nzzId": "ld.1846430",
+       "readingTime": 480,
+       "authorLine": "Herfried Münkler",
+       "characterCount": 10009,
+       "product": "NZZ.ch",
+       "documentId": 1846430,
+       "layout": "longformstandard",
+       "publicationDate": "2024-09-03T03:30:00.000Z",
+       "publicationLastUpdated": "2024-09-03T03:30:00.000Z",
+       "significantUpdate": false,
+       "significantUpdateTill": "2024-09-03T15:30:00.000Z",
+       "teaserCaption": "The war in Ukraine is dragging on. In Putin's calculations, the inland seas likely play a crucial role. Depending on the cost of the war, he will also incorporate the Baltic Sea into his power strategy.",
+       "url": "/feuilleton/russlands-griff-nach-dem-schwarzen-meer-putins-plan-zur-weltmacht-ld.1846430",
+       "department": {
+        "name": "Arts & Culture",
+        "path": "/feuilleton"
+       },
+       "estimationWordCount": 1621,
+       "premium": true,
+       "leadText": "The war in Ukraine is dragging on. In Putin's calculations, the inland seas likely play a crucial role. Depending on the cost of the war, he will also incorporate the Baltic Sea into his power strategy."
+      }
+     },
+     {
+      "identifier": "teaser",
+      "id": "doc-1i6s9ptv32",
+      "content": {
+       "owner": "NZZ",
+       "flag": "Photo series",
+       "title": "The Latest Developments in the Ukraine War in Pictures",
+       "teaserImage": {
+        "originalUrl": "/2026/08/04/f8441070-233e-4912-baf7-63a6fe28875b.jpg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2026/08/04/f8441070-233e-4912-baf7-63a6fe28875b.jpg?width=1024&quality=75&auto=webp",
+        "width": 5077,
+        "height": 3560,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "5077,2856,x0,y704"
+         },
+         {
+          "name": "4:3",
+          "crop": "4747,3560,x165,y0"
+         },
+         {
+          "name": "1:1",
+          "crop": "3560,3560,x531,y0"
+         },
+         {
+          "name": "3:4",
+          "crop": "2670,3560,x1280,y0"
+         },
+         {
+          "name": "3:2",
+          "crop": "5077,3385,x0,y175"
+         }
+        ],
+        "imageService": "fastly",
+        "teaserCaption": "The Russian invasion has driven millions of Ukrainians to flee. The war of attrition continues relentlessly. Current developments in pictures.",
+        "teaserAuthor": "Alina Smutko / Reuters"
+       },
+       "teaserAuthor": "Alina Smutko / Reuters",
+       "nzzasFootnote": false,
+       "folioFootnote": false,
+       "language": {
+        "locale": "de-CH"
+       },
+       "nzzId": "ld.1671702",
+       "readingTime": 2220,
+       "authorLine": "NZZ photo editors",
+       "tags": [
+        "Ukraine-Krieg",
+        "Fotografie"
+       ],
+       "paywallQuestionOne": "How does the US foreign policy realignment affect Ukraine?",
+       "paywallQuestionTwo": "What are the humanitarian consequences of the ongoing war in Ukraine?",
+       "paywallQuestionThree": "How is the international community reacting to the escalation in Ukraine?",
+       "teaserCarouselOne": {
+        "originalUrl": "/2026/08/05/f2a00c90-16fa-4b5c-9568-d29ceb63d60e.jpg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2026/08/05/f2a00c90-16fa-4b5c-9568-d29ceb63d60e.jpg?width=1024&quality=75&auto=webp",
+        "width": 5336,
+        "height": 3648,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "5336,3001,x0,y647"
+         },
+         {
+          "name": "1:1",
+          "crop": "3648,3648,x1422,y0"
+         },
+         {
+          "name": "4:3",
+          "crop": "4864,3648,x472,y0"
+         },
+         {
+          "name": "3:4",
+          "crop": "2736,3648,x1579,y0"
+         },
+         {
+          "name": "3:2",
+          "crop": "5336,3557,x0,y91"
+         }
+        ],
+        "imageService": "fastly"
+       },
+       "teaserCarouselTwo": {
+        "originalUrl": "/2026/08/05/3708bbac-b7af-404b-9de0-e9b08b3787aa.jpg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2026/08/05/3708bbac-b7af-404b-9de0-e9b08b3787aa.jpg?width=1024&quality=75&auto=webp",
+        "width": 6000,
+        "height": 4000,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "6000,3375,x0,y625"
+         },
+         {
+          "name": "1:1",
+          "crop": "4000,4000,x2000,y0"
+         },
+         {
+          "name": "4:3",
+          "crop": "5333,4000,x667,y0"
+         },
+         {
+          "name": "3:4",
+          "crop": "3000,4000,x2318,y0"
+         },
+         {
+          "name": "3:2",
+          "crop": "6000,4000,x0,y0"
+         }
+        ],
+        "imageService": "fastly"
+       },
+       "teaserCarouselThree": {
+        "originalUrl": "/2026/08/05/d4f62908-19a1-4a41-91d5-2bf85d306e29.jpg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2026/08/05/d4f62908-19a1-4a41-91d5-2bf85d306e29.jpg?width=1024&quality=75&auto=webp",
+        "width": 5732,
+        "height": 4000,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "5732,3224,x0,y776"
+         },
+         {
+          "name": "1:1",
+          "crop": "4000,4000,x866,y0"
+         },
+         {
+          "name": "4:3",
+          "crop": "5333,4000,x199,y0"
+         },
+         {
+          "name": "3:4",
+          "crop": "3000,4000,x1366,y0"
+         },
+         {
+          "name": "3:2",
+          "crop": "5732,3821,x0,y89"
+         }
+        ],
+        "imageService": "fastly"
+       },
+       "characterCount": 0,
+       "product": "NZZ.ch",
+       "documentId": 1671702,
+       "layout": "longformvisual",
+       "publicationDate": "2026-08-05T08:59:33.575Z",
+       "publicationLastUpdated": "2026-09-02T06:41:11.347Z",
+       "significantUpdate": true,
+       "significantUpdateTill": "2026-08-05T20:59:33.575Z",
+       "teaserCaption": "The Russian invasion has driven millions of Ukrainians to flee. The war of attrition continues relentlessly. Current developments in pictures.",
+       "authorImage": {
+        "originalUrl": "/2024/09/10/1edce276-ca0b-4506-be44-66b13207813f.jpeg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2024/09/10/1edce276-ca0b-4506-be44-66b13207813f.jpeg?width=1024&quality=75&auto=webp",
+        "width": 6000,
+        "height": 4000,
+        "crops": [
+         {
+          "name": "1:1",
+          "crop": "3556,3556,x1118,y163"
+         }
+        ],
+        "imageService": "fastly"
+       },
+       "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2024/09/10/1edce276-ca0b-4506-be44-66b13207813f.jpeg?width=1024&quality=75&auto=webp",
+       "url": "/fotografie/in-der-ukraine-herrscht-krieg-ld.1671702",
+       "department": {
+        "name": "Photography",
+        "path": "/fotografie"
+       },
+       "estimationWordCount": 7323,
+       "leadText": "The Russian invasion has driven millions of Ukrainians to flee. The war of attrition continues relentlessly. Current developments in pictures.",
+       "nzzSummaryIsAuto": true
+      }
+     }
+    ]
+   },
+   "paidContent": true,
+   "prevElement": "sharebox",
+   "nextElement": "",
+   "lastContentElement": true
+  }
+ ],
+ "metadata": {
+  "owner": "NZZaS",
+  "title": "A Russian scientist travels to the West to conduct research with colleagues – risking everything in the process. Our reporter accompanied her.",
+  "teaserImage": {
+   "originalUrl": "/2024/09/01/b122559e-febf-4f3c-bb66-b1f0c240a03d.jpeg?width=1024",
+   "url": "https://img-msp-prod.nzz.ch/2024/09/01/b122559e-febf-4f3c-bb66-b1f0c240a03d.jpeg?width=1024&quality=75&auto=webp",
+   "width": 2500,
+   "height": 3376,
+   "crops": [
+    {
+     "name": "16:9",
+     "crop": "2222,1250,x137,y431"
+    },
+    {
+     "name": "1:1",
+     "crop": "1387,1387,x581,y360"
+    },
+    {
+     "name": "4:3",
+     "crop": "2500,1875,x0,y325"
+    },
+    {
+     "name": "3:4",
+     "crop": "2222,2963,x134,y214"
+    }
+   ],
+   "imageService": "fastly",
+   "teaserCaption": "Vera Petrow travels to Western Europe to continue her research projects: What was recently perfectly normal now involves high personal risks for her. A recounting of her week-long research trip to a German-speaking city."
+  },
+  "nzzasFootnote": true,
+  "folioFootnote": false,
+  "language": {
+   "locale": "en-US"
+  },
+  "nzzId": "ld.1844050",
+  "readingTime": 720,
+  "authorLine": "Andrew Müller (text), Florian Generotzky (images)",
+  "characterCount": 15529,
+  "breadcrumbs": [
+   {
+    "name": "Science",
+    "path": "/wissenschaft"
+   }
+  ],
+  "product": "NZZ.ch",
+  "documentId": 1844050,
+  "contentTypeGroup": "web",
+  "layout": "longformstandard",
+  "firstPublicationDate": "2024-09-17T03:30:00.000Z",
+  "publicationDate": "2024-09-17T03:30:00.000Z",
+  "publicationLastUpdated": "2024-09-20T16:27:07.093Z",
+  "significantUpdate": false,
+  "significantUpdateTill": "2024-09-17T15:30:00.000Z",
+  "teaserCaption": "Vera Petrow travels to Western Europe to continue her research projects: What was recently perfectly normal now involves high personal risks for her. A recounting of her week-long research trip to a German-speaking city.",
+  "url": "/wissenschaft/der-eiserne-vorhang-im-labor-wie-russische-wissenschafter-die-sanktionen-umgehen-ld.1844050",
+  "department": {
+   "name": "Science",
+   "path": "/wissenschaft"
+  },
+  "estimationWordCount": 2373,
+  "leadText": "Vera Petrow travels to Western Europe to continue her research projects: What was recently perfectly normal now involves high personal risks for her. A recounting of her week-long research trip to a German-speaking city.",
+  "nzzSummaryModel": "gpt-4o-2024-11-20",
+  "nzzPrintTitle": "The iron curtain in the laboratory",
+  "nzzPrintSubtitle": "Vera Petrov travels to Western Europe to conduct research with colleagues: What was completely normal recently now involves high personal risks for her.",
+  "allArticleLanguages": [
+   {
+    "locale": "de-CH",
+    "urlPath": "/wissenschaft/der-eiserne-vorhang-im-labor-wie-russische-wissenschafter-die-sanktionen-umgehen-ld.1844050",
+    "seo": {}
+   }
+  ],
+  "seo": {
+   "canonicalUrl": "https://www.nzz.ch/wissenschaft/der-eiserne-vorhang-im-labor-wie-russische-wissenschafter-die-sanktionen-umgehen-ld.1844050",
+   "title": "Science in the shadow of war: Russian researcher circumvents sanctions ",
+   "socialMediaTitle": "A Russian scientist travels to the West to conduct research with colleagues – risking everything in the process. Our reporter accompanied her",
+   "excludeFromSpiders": false,
+   "image": "https://img-msp-prod.nzz.ch/2024/09/01/b122559e-febf-4f3c-bb66-b1f0c240a03d.jpeg?width=1200&height=675&fit=bounds&quality=75&auto=webp&crop=2222,1250,x137,y431&wmark=nzz"
+  },
+  "ldPublicationId": 1852076,
+  "isHighlightedHeader": false,
+  "nzzTopics": [
+   {
+    "name": "Russia",
+    "slug": "/themen/russland"
+   },
+   {
+    "name": "Ukraine",
+    "slug": "/themen/ukraine"
+   },
+   {
+    "name": "Vladimir Putin",
+    "slug": "/themen/wladimir-putin"
+   },
+   {
+    "name": "biodiversity",
+    "slug": "/themen/biodiversitat"
+   }
+  ],
+  "barrierIndex": 3,
+  "outlinks": {
+   "mehrZumThema": [
+    "ld.1846430",
+    "ld.1671702"
+   ],
+   "artikelListe": [],
+   "aliasTeaserEmbedList": []
+  },
+  "tts": true,
+  "mp3": true,
+  "mp3Duration": 996408,
+  "project": "nzz",
+  "machineTranslated": true,
+  "machineTranslationValidated": false
+ },
+ "isReduced": false,
+ "isPaid": false,
+ "isVamp": false,
+ "isWebview": false,
+ "btaFeed": {
+  "meta": {
+   "id": "russland",
+   "name": "Russia",
+   "tagName": "Russia",
+   "qId": "Q159",
+   "seoTitle": "Russia News – All articles and information on the topic",
+   "description": null,
+   "firstName": null,
+   "lastName": null,
+   "category": "LOC",
+   "createdDate": "2025-04-08 14:50:01.576Z",
+   "imageURL": null,
+   "imageCroppedURL": null,
+   "imageWidth": null,
+   "imageHeight": null,
+   "imageCredits": null,
+   "url": "https://nzz.ch/themen/russland",
+   "size": 6669,
+   "relatedTopics": [
+    {
+     "name": "Ukraine",
+     "slug": "/themen/ukraine"
+    },
+    {
+     "name": "Wladimir Putin",
+     "slug": "/themen/wladimir-putin"
+    },
+    {
+     "name": "Biodiversität",
+     "slug": "/themen/biodiversitat"
+    }
+   ]
+  },
+  "data": [
+   {
+    "title": "Moscow Closes Goethe Institutes, Hardens Tone Toward Berlin",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "authorLine": "Armin Arbeiter, Berlin",
+    "teaserImage": {
+     "originalUrl": "/2026/09/03/1d0c88bc-0381-4837-b510-c87d61af4624.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/09/03/1d0c88bc-0381-4837-b510-c87d61af4624.jpg?width=1024&quality=75&auto=webp",
+     "width": 2823,
+     "height": 1825,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "2823,1588,x0,y59"
+      },
+      {
+       "name": "4:3",
+       "crop": "2433,1825,x390,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "1508,1508,x940,y49"
+      },
+      {
+       "name": "3:4",
+       "crop": "1369,1825,x953,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "2738,1825,x85,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "Russia is reacting to the German measures taken after the drone attack in Leipzig. Wild speculation is circulating on Russian social media.",
+     "teaserAuthor": "Ramil Sitdikov / Reuters"
+    },
+    "teaserAuthor": "Ramil Sitdikov / Reuters",
+    "nzzId": "ld.10022202",
+    "readingTime": 180,
+    "paywallQuestionOne": "Why is Moscow closing the Goethe Institutes in response to German measures?",
+    "paywallQuestionTwo": "According to Russia, what evidence is missing in the case of the drone attack in Leipzig?",
+    "paywallQuestionThree": "How does the closure of the Goethe-Institut affect pro-European Russians?",
+    "characterCount": 4611,
+    "product": "NZZ.ch",
+    "documentId": "10022202",
+    "layout": "regular",
+    "publicationDate": "2026-09-03T08:56:31.247Z",
+    "publicationLastUpdated": "2026-09-03T08:56:31.247Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-09-03T20:56:31.247Z",
+    "teaserCaption": "Russia is reacting to the German measures taken after the drone attack in Leipzig. Wild speculation is circulating on Russian social media.",
+    "url": "https://www.nzz.ch/deutschland/politik/moskau-schliesst-die-goethe-institute-und-verschaerft-den-ton-gegenueber-berlin-ld.10022202",
+    "department": {
+     "name": "Politics (Germany)",
+     "path": "/deutschland/politik"
+    },
+    "estimationWordCount": 669,
+    "leadText": "Russia is reacting to the German measures taken after the drone attack in Leipzig. Wild speculation is circulating on Russian social media.",
+    "nzzSummaryIsAuto": true,
+    "locale": "de-CH"
+   },
+   {
+    "title": "Culture: Jazz singer Cassandra Wilson dies",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "teaserImage": {
+     "originalUrl": "/2026/09/03/0733329e-bd27-487b-9bf3-87b8ed46e1c8.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/09/03/0733329e-bd27-487b-9bf3-87b8ed46e1c8.jpg?width=1024&quality=75&auto=webp",
+     "width": 3000,
+     "height": 1992,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "3000,1687,x0,y0"
+      },
+      {
+       "name": "4:3",
+       "crop": "2656,1992,x344,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "1992,1992,x883,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "1494,1992,x1062,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "2988,1992,x6,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "The latest news.",
+     "teaserAuthor": "Kai Foersterling / EPA"
+    },
+    "teaserAuthor": "Kai Foersterling / EPA",
+    "flag": "Short news items",
+    "nzzId": "ld.10019050",
+    "readingTime": 960,
+    "paywallQuestionOne": "Which topics dominate the longlist for the German Book Prize 2026?",
+    "paywallQuestionTwo": "How many debut novels are on the longlist for the German Book Prize?",
+    "paywallQuestionThree": "What significance does the German Book Prize have for the literary scene?",
+    "characterCount": 21555,
+    "tags": [
+     "Bühne"
+    ],
+    "product": "NZZ.ch",
+    "documentId": "10019050",
+    "layout": "regular",
+    "publicationDate": "2026-09-03T06:31:43.764Z",
+    "publicationLastUpdated": "2026-09-03T08:15:21.364Z",
+    "significantUpdate": true,
+    "significantUpdateTill": "2026-09-03T18:31:43.764Z",
+    "teaserCaption": "The latest news.",
+    "url": "https://www.nzz.ch/feuilleton/kultur-die-neusten-meldungen-ld.10019050",
+    "department": {
+     "name": "Arts & Culture",
+     "path": "/feuilleton"
+    },
+    "estimationWordCount": 3283,
+    "leadText": "The latest news.",
+    "nzzSummaryIsAuto": true,
+    "locale": "de-CH"
+   },
+   {
+    "title": "«Switzerland is also a strategic target for Russia»",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "teaserAuthor": "Diego Fedele / Getty",
+    "teaserImage": {
+     "originalUrl": "/2026/09/02/1e828ab3-c33d-47a3-87af-992514986a7a.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/09/02/1e828ab3-c33d-47a3-87af-992514986a7a.jpg?width=1024&quality=75&auto=webp",
+     "width": 4405,
+     "height": 2937,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "4405,2478,x0,y459"
+      },
+      {
+       "name": "4:3",
+       "crop": "3916,2937,x0,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "2937,2937,x217,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "2203,2937,x720,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "4405,2937,x0,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "Small states cannot defend themselves alone in the 21st century, says Franz-Stefan Gady, one of Europe's leading military experts. He explains why neutrality offers no protection in times of war and what makes Putin so dangerous for Europe.",
+     "teaserAuthor": "Diego Fedele / Getty"
+    },
+    "nzzId": "ld.10020535",
+    "readingTime": 540,
+    "paywallQuestionOne": "How vulnerable is Switzerland to Russian attack plans?",
+    "paywallQuestionTwo": "Why does neutrality offer no protection in the event of war?",
+    "paywallQuestionThree": "What measures does Switzerland need by 2029?",
+    "characterCount": 12716,
+    "product": "NZZ.ch",
+    "documentId": "10020535",
+    "layout": "regular",
+    "publicationDate": "2026-09-03T03:30:00.000Z",
+    "publicationLastUpdated": "2026-09-03T03:30:00.000Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-09-03T15:30:00.000Z",
+    "teaserCaption": "Small states cannot defend themselves alone in the 21st century, says Franz-Stefan Gady, one of Europe's leading military experts. He explains why neutrality offers no protection in times of war and what makes Putin so dangerous for Europe.",
+    "authorLine": "Meret Baumann, Selina Berner",
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2022/06/22/0ae19a9d-3bad-48bc-886b-1bfee061e0e8.png?width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/schweiz/sicherheitspolitik/auch-die-schweiz-ist-fuer-russland-ein-strategisches-ziel-ld.10020535",
+    "department": {
+     "name": "Security Policy",
+     "path": "/schweiz/sicherheitspolitik"
+    },
+    "estimationWordCount": 1898,
+    "leadText": "Small states cannot defend themselves alone in the 21st century, says Franz-Stefan Gady, one of Europe's leading military experts. He explains why neutrality offers no protection in times of war and what makes Putin so dangerous for Europe.",
+    "nzzSummaryIsAuto": true,
+    "locale": "de-CH"
+   },
+   {
+    "title": "Zelensky issues harsh threat – with unforeseeable consequences",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "showComments": true,
+    "teaserImage": {
+     "originalUrl": "/2026/09/02/d31b7f63-a693-40e2-bf48-af30219f3d74.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/09/02/d31b7f63-a693-40e2-bf48-af30219f3d74.jpg?width=1024&quality=75&auto=webp",
+     "width": 4000,
+     "height": 2857,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "4000,2250,x0,y346"
+      },
+      {
+       "name": "4:3",
+       "crop": "3809,2857,x191,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "2857,2857,x953,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "2143,2857,x1296,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "4000,2667,x0,y55"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "So many Ukrainian drones are reportedly appearing in the skies over Russia that civilian aviation is becoming impossible. The Kremlin considers this a declaration of state terrorism. But Ukrainians do not need to shoot down planes to paralyze air traffic.",
+     "teaserAuthor": "Nurphoto/Getty"
+    },
+    "teaserAuthor": "Nurphoto/Getty",
+    "tags": [
+     "Ukraine-Krieg"
+    ],
+    "nzzId": "ld.10022044",
+    "readingTime": 240,
+    "paywallQuestionOne": "How does Ukraine intend to make Russian airspace unsafe?",
+    "paywallQuestionTwo": "What risks does the strategy pose for civilians?",
+    "paywallQuestionThree": "How are airlines reacting to the Ukrainian threat?",
+    "characterCount": 5590,
+    "product": "NZZ.ch",
+    "documentId": "10022044",
+    "layout": "regular",
+    "publicationDate": "2026-09-03T03:30:00.000Z",
+    "publicationLastUpdated": "2026-09-03T06:29:31.383Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-09-03T15:30:00.000Z",
+    "teaserCaption": "So many Ukrainian drones are reportedly appearing in the skies over Russia that civilian aviation is becoming impossible. The Kremlin considers this a declaration of state terrorism. But Ukrainians do not need to shoot down planes to paralyze air traffic.",
+    "authorLine": "Andreas Rüesch",
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2024/09/23/b6be8592-31cf-4a48-b022-81e3c315218a.jpeg?width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/international/ukraine-selenski-will-russlands-flugverkehr-unterbinden-ld.10022044",
+    "department": {
+     "name": "International",
+     "path": "/international"
+    },
+    "estimationWordCount": 831,
+    "premium": true,
+    "leadText": "So many Ukrainian drones are reportedly appearing in the skies over Russia that civilian aviation is becoming impossible. The Kremlin considers this a declaration of state terrorism. But Ukrainians do not need to shoot down planes to paralyze air traffic.",
+    "nzzSummaryIsAuto": true,
+    "commentsCount": 4,
+    "openToComment": false,
+    "locale": "de-CH"
+   },
+   {
+    "title": "A poetic history lesson from 1990: Yuri Andrukhovych exposes the Russian malaise",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "authorLine": "Ilma Rakusa",
+    "editor": "1371769",
+    "teaserImage": {
+     "originalUrl": "/2022/11/18/fa919684-a147-4c88-928e-2d741402613d.jpeg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2022/11/18/fa919684-a147-4c88-928e-2d741402613d.jpeg?width=1024&quality=75&auto=webp",
+     "width": 3648,
+     "height": 5472,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "3648,2052,x0,y1710"
+      },
+      {
+       "name": "4:3",
+       "crop": "3648,2736,x0,y1368"
+      },
+      {
+       "name": "1:1",
+       "crop": "3648,3648,x0,y912"
+      },
+      {
+       "name": "3:4",
+       "crop": "3648,4864,x0,y304"
+      },
+      {
+       "name": "3:2",
+       "crop": "3648,2432,x0,y1520"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "With his novels, Juri Andruchowytsch, born in Stanislav in 1960, paved the way for Ukrainian literature in German-speaking countries. Little is known, however, about his body of lyrical work, which holds eye-opening discoveries."
+    },
+    "nzzId": "ld.10017480",
+    "readingTime": 180,
+    "paywallQuestionOne": "What facets does Andrukhovych's poetry collection «Letters to Ukraine» reveal?",
+    "paywallQuestionTwo": "How does the series «Letters to Ukraine» reflect current political tensions?",
+    "paywallQuestionThree": "What themes and stylistic devices characterize Andrukhovych's poems?",
+    "characterCount": 3506,
+    "product": "NZZ.ch",
+    "documentId": "10017480",
+    "layout": "regular",
+    "publicationDate": "2026-09-03T03:30:00.000Z",
+    "publicationLastUpdated": "2026-09-03T03:30:00.000Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-09-03T15:30:00.000Z",
+    "teaserCaption": "With his novels, Juri Andruchowytsch, born in Stanislav in 1960, paved the way for Ukrainian literature in German-speaking countries. Little is known, however, about his body of lyrical work, which holds eye-opening discoveries.",
+    "url": "https://www.nzz.ch/feuilleton/barocker-ernst-juri-andruchowytschs-gedichtband-briefe-in-die-ukraine-ld.10017480",
+    "department": {
+     "name": "Arts & Culture",
+     "path": "/feuilleton"
+    },
+    "estimationWordCount": 559,
+    "leadText": "With his novels, Juri Andruchowytsch, born in Stanislav in 1960, paved the way for Ukrainian literature in German-speaking countries. Little is known, however, about his body of lyrical work, which holds eye-opening discoveries.",
+    "nzzSummaryIsAuto": true,
+    "locale": "de-CH"
+   },
+   {
+    "title": "Russia seeks to intimidate Denmark – Danish intelligence reportedly uncovers concrete plans",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "teaserImage": {
+     "originalUrl": "/2026/09/02/4c68e235-2d1b-40e3-8e60-ff22d498b8a4.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/09/02/4c68e235-2d1b-40e3-8e60-ff22d498b8a4.jpg?width=1024&quality=75&auto=webp",
+     "width": 4500,
+     "height": 3000,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "4500,2531,x0,y469"
+      },
+      {
+       "name": "4:3",
+       "crop": "4000,3000,x500,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "3000,3000,x1101,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "2250,3000,x1367,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "4500,3000,x0,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "The head of Danish counter-intelligence accuses Russia of seeking to prevent arms deliveries to Ukraine through attacks. The otherwise reserved intelligence service speaks of a «threat that must be taken seriously.»",
+     "teaserAuthor": "Imago/beckerbrede"
+    },
+    "teaserAuthor": "Imago/beckerbrede",
+    "editor": "1372295",
+    "nzzId": "ld.10022196",
+    "readingTime": 120,
+    "paywallQuestionOne": "What are Russia's goals with its sabotage in Denmark?",
+    "paywallQuestionTwo": "How is Denmark reacting to the threat from Russia?",
+    "paywallQuestionThree": "Why is the intelligence service warning about Russian recruitment?",
+    "characterCount": 1934,
+    "product": "NZZ.ch",
+    "documentId": "10022196",
+    "layout": "regular",
+    "publicationDate": "2026-09-02T22:48:15.840Z",
+    "publicationLastUpdated": "2026-09-03T05:02:58.070Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-09-03T10:48:15.840Z",
+    "teaserCaption": "The head of Danish counter-intelligence accuses Russia of seeking to prevent arms deliveries to Ukraine through attacks. The otherwise reserved intelligence service speaks of a «threat that must be taken seriously.»",
+    "url": "https://www.nzz.ch/international/daenemarks-geheimdienst-schlaegt-alarm-russland-soll-sabotage-und-brandstiftung-planen-ld.10022196",
+    "department": {
+     "name": "International",
+     "path": "/international"
+    },
+    "estimationWordCount": 323,
+    "leadText": "The head of Danish counter-intelligence accuses Russia of seeking to prevent arms deliveries to Ukraine through attacks. The otherwise reserved intelligence service speaks of a «threat that must be taken seriously.»",
+    "nzzSummaryIsAuto": true,
+    "locale": "de-CH"
+   }
+  ]
+ },
+ "btaNZZaSFeed": {
+  "meta": {
+   "name": "NZZ am Sonntag",
+   "path": "/nzz-am-sonntag"
+  },
+  "data": [
+   {
+    "title": "Hybrid Warfare and Playing with Fire on the Eastern Flank: How Far Will Putin Go? And are Europeans prepared?",
+    "showHeader": true,
+    "owner": "NZZaS",
+    "language": {
+     "locale": "de"
+    },
+    "authorLine": "Andrea Jeska, David Axe, Alain Zucker",
+    "nzzasFootnote": true,
+    "nzzId": "ld.10021091",
+    "readingTime": 420,
+    "paywallQuestionOne": "How is Europe responding to Russia's hybrid attacks?",
+    "paywallQuestionTwo": "What role does support for Ukraine play in the conflict?",
+    "paywallQuestionThree": "How could Russia escalate further?",
+    "characterCount": 10159,
+    "teaserImage": {
+     "originalUrl": "/2026/08/29/f81cc725-5d33-4092-b102-c0c15f310843.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/08/29/f81cc725-5d33-4092-b102-c0c15f310843.jpg?width=1024&quality=75&auto=webp",
+     "width": 2836,
+     "height": 1474,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "2620,1474,x111,y0"
+      },
+      {
+       "name": "4:3",
+       "crop": "1965,1474,x417,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "1474,1474,x671,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "1106,1474,x825,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "2211,1474,x329,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "Russia warns Europeans about transferring missile technology to Ukraine. CIA chief John Ratcliffe flies to Moscow, while NATO holds an exercise on its eastern flank. Signs point to escalation.",
+     "teaserAuthor": "Illustration by Elia Barbieri for NZZaS"
+    },
+    "teaserAuthor": "Illustration by Elia Barbieri for NZZaS",
+    "product": "NZZ.ch",
+    "documentId": 10021091,
+    "layout": "regular",
+    "publicationDate": "2026-08-30T03:30:00.000Z",
+    "publicationLastUpdated": "2026-08-30T03:30:00.000Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-08-30T15:30:00.000Z",
+    "teaserCaption": "Russia warns Europeans about transferring missile technology to Ukraine. CIA chief John Ratcliffe flies to Moscow, while NATO holds an exercise on its eastern flank. Signs point to escalation.",
+    "url": "https://www.nzz.ch/international/hybrider-krieg-und-das-zuendeln-an-der-ostflanke-wie-weit-wird-putin-gehen-und-sind-die-europaeer-vorbereitet-ld.10021091",
+    "department": {
+     "name": "International",
+     "path": "/international"
+    },
+    "estimationWordCount": 1481,
+    "leadText": "Russia warns Europeans about transferring missile technology to Ukraine. CIA chief John Ratcliffe flies to Moscow, while NATO holds an exercise on its eastern flank. Signs point to escalation.",
+    "nzzSummaryIsAuto": true,
+    "containerId": "doc-1jje3h7kv0",
+    "containerPosition": 1,
+    "containerTitle": "NZZ am Sonntag",
+    "editorialScore": 0,
+    "positionInContainer": 1,
+    "hasQ": true,
+    "locale": "de-CH"
+   },
+   {
+    "showHeader": true,
+    "owner": "NZZaS",
+    "language": {
+     "locale": "de"
+    },
+    "teaserImage": {
+     "originalUrl": "/2026/08/28/fbe92494-1ec9-4631-9df3-31b7a615550e.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/08/28/fbe92494-1ec9-4631-9df3-31b7a615550e.jpg?width=1024&quality=75&auto=webp",
+     "width": 5602,
+     "height": 3735,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "5602,3151,x0,y439"
+      },
+      {
+       "name": "4:3",
+       "crop": "4116,3087,x1,y503"
+      },
+      {
+       "name": "1:1",
+       "crop": "2806,2806,x622,y594"
+      },
+      {
+       "name": "3:4",
+       "crop": "2315,3087,x842,y567"
+      },
+      {
+       "name": "3:2",
+       "crop": "4209,2806,x0,y492"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "The FDP politician criticizes parliamentary attempts to alter the negotiated agreement with the EU. She also defends her party's parliamentarians for ignoring a vote by their own delegates on a key provision.",
+     "teaserAuthor": "Andrea Zahle"
+    },
+    "teaserAuthor": "Andrea Zahle",
+    "title": "FDP co-president Susanne Vincenz-Stauffacher on the start of the European debate: «That was a false start»",
+    "nzzasFootnote": true,
+    "nzzId": "ld.10020993",
+    "readingTime": 540,
+    "paywallQuestionOne": "How does the FDP assess the attempts to change the EU negotiation outcome?",
+    "paywallQuestionTwo": "Why is the FDP ignoring the vote of its delegates against the majority of cantons?",
+    "paywallQuestionThree": "How does the FDP intend to finance the army without raising taxes?",
+    "characterCount": 11294,
+    "flag": "interview",
+    "tags": [
+     "Schweiz und die EU"
+    ],
+    "product": "NZZ.ch",
+    "documentId": 10020993,
+    "layout": "regular",
+    "publicationDate": "2026-08-29T19:45:00.000Z",
+    "publicationLastUpdated": "2026-08-31T08:16:16.249Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-08-30T07:45:00.000Z",
+    "teaserCaption": "The FDP politician criticizes parliamentary attempts to alter the negotiated agreement with the EU. She also defends her party's parliamentarians for ignoring a vote by their own delegates on a key provision.",
+    "authorLine": "Daniel Foppa, Simon Marti",
+    "authorImage": {
+     "originalUrl": "/2024/05/28/7536f440-0c11-4f0f-86f5-1139121b3bb6.webp?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2024/05/28/7536f440-0c11-4f0f-86f5-1139121b3bb6.webp?width=1024&quality=75&auto=webp",
+     "width": 480,
+     "height": 480,
+     "crops": [
+      {
+       "name": "1:1",
+       "crop": "480,480,x0,y0"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2024/05/28/7536f440-0c11-4f0f-86f5-1139121b3bb6.webp?width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/schweiz/fdp-co-praesidentin-vincenz-stauffacher-zum-auftakt-der-europadebatte-das-war-ein-fehlstart-ld.10020993",
+    "department": {
+     "name": "Switzerland",
+     "path": "/schweiz"
+    },
+    "estimationWordCount": 1703,
+    "leadText": "The FDP politician criticizes parliamentary attempts to alter the negotiated agreement with the EU. She also defends her party's parliamentarians for ignoring a vote by their own delegates on a key provision.",
+    "nzzSummaryIsAuto": true,
+    "containerId": "doc-1jje3h7kv0",
+    "containerPosition": 1,
+    "containerTitle": "NZZ am Sonntag",
+    "editorialScore": 0,
+    "positionInContainer": 2,
+    "locale": "de-CH"
+   },
+   {
+    "title": "Deep relaxation in nature, young people with ideas, and the best butter tea in the world. A small ode to Nepal",
+    "showHeader": true,
+    "owner": "NZZaS",
+    "language": {
+     "locale": "de"
+    },
+    "authorLine": "Stephanie Geiger",
+    "nzzasFootnote": true,
+    "teaserImage": {
+     "originalUrl": "/2026/08/29/d217a4cb-2734-400a-9291-ed353fc801cc.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/08/29/d217a4cb-2734-400a-9291-ed353fc801cc.jpg?width=1024&quality=75&auto=webp",
+     "width": 5500,
+     "height": 3712,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "5500,3094,x0,y309"
+      },
+      {
+       "name": "4:3",
+       "crop": "4949,3712,x275,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "3712,3712,x894,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "2784,3712,x1358,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "5500,3667,x0,y23"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "Despite the tragedy: A return to Nepal soon",
+     "teaserAuthor": "Francis Mascarenhas / Reuters"
+    },
+    "teaserAuthor": "Francis Mascarenhas / Reuters",
+    "nzzId": "ld.10021585",
+    "readingTime": 360,
+    "paywallQuestionOne": "How do natural disasters affect the lives of people in Nepal?",
+    "paywallQuestionTwo": "How is Nepal changing through electromobility and infrastructure projects?",
+    "paywallQuestionThree": "What role does the younger generation play in Nepal's development?",
+    "characterCount": 7555,
+    "product": "NZZ.ch",
+    "documentId": 10021585,
+    "layout": "regular",
+    "publicationDate": "2026-08-30T03:30:00.000Z",
+    "publicationLastUpdated": "2026-08-30T03:30:00.000Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-08-30T15:30:00.000Z",
+    "teaserCaption": "Despite the tragedy: A return to Nepal soon",
+    "url": "https://www.nzz.ch/international/tiefenentspannung-in-der-natur-junge-menschen-mit-ideen-und-der-beste-buttertee-der-welt-eine-kleine-ode-an-nepal-ld.10021585",
+    "department": {
+     "name": "International",
+     "path": "/international"
+    },
+    "estimationWordCount": 1239,
+    "leadText": "Despite the tragedy: A return to Nepal soon",
+    "nzzSummaryIsAuto": true,
+    "containerId": "doc-1jje3h7kv0",
+    "containerPosition": 1,
+    "containerTitle": "NZZ am Sonntag",
+    "editorialScore": 0,
+    "positionInContainer": 3,
+    "hasQ": true,
+    "locale": "de-CH"
+   },
+   {
+    "title": "Rapper Stress: «I measured my self-worth by how successful I am. Nothing good can come of that. Not even good music»",
+    "showHeader": true,
+    "owner": "NZZaS",
+    "language": {
+     "locale": "de"
+    },
+    "teaserImage": {
+     "originalUrl": "/2026/08/25/684e0281-49d4-4913-a6e8-b81c12707b8c.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/08/25/684e0281-49d4-4913-a6e8-b81c12707b8c.jpg?width=1024&quality=75&auto=webp",
+     "width": 1920,
+     "height": 1440,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "1920,1080,x0,y0"
+      },
+      {
+       "name": "4:3",
+       "crop": "1920,1440,x0,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "1440,1440,x373,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "1080,1440,x553,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "1920,1280,x0,y0"
+      }
+     ],
+     "focalPoint": {
+      "x": 1093,
+      "y": 307
+     },
+     "imageService": "fastly",
+     "teaserCaption": "Stress is the most successful rapper in Switzerland. For years he has spoken openly about his depression. He wanted to write a self-help book about how he found his way back to life – until physical pain forced him to start all over again.",
+     "teaserAuthor": "Sébastien Agnetti"
+    },
+    "teaserAuthor": "Sébastien Agnetti",
+    "nzzasFootnote": true,
+    "nzzId": "ld.10018314",
+    "readingTime": 780,
+    "paywallQuestionOne": "How did Stress's success affect his mental health?",
+    "paywallQuestionTwo": "Why does Stress view his book more as a testimony than as a guide?",
+    "paywallQuestionThree": "What role does childhood play in Stress's personal development?",
+    "characterCount": 14907,
+    "flag": "interview",
+    "product": "NZZ.ch",
+    "documentId": 10018314,
+    "layout": "longformstandard",
+    "publicationDate": "2026-08-30T03:29:00.000Z",
+    "publicationLastUpdated": "2026-08-30T03:29:00.000Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-08-30T15:29:00.000Z",
+    "teaserCaption": "Stress is the most successful rapper in Switzerland. For years he has spoken openly about his depression. He wanted to write a self-help book about how he found his way back to life – until physical pain forced him to start all over again.",
+    "authorLine": "Frank Heer",
+    "authorImage": {
+     "originalUrl": "/2025/02/19/4d0a1c14-762f-4a79-943b-8695aaa4d40d.jpeg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2025/02/19/4d0a1c14-762f-4a79-943b-8695aaa4d40d.jpeg?width=1024&quality=75&auto=webp",
+     "width": 4128,
+     "height": 2752,
+     "crops": [
+      {
+       "name": "1:1",
+       "crop": "2752,2752,x688,y0"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2025/02/19/4d0a1c14-762f-4a79-943b-8695aaa4d40d.jpeg?width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/feuilleton/rapper-stress-ich-habe-meinen-selbstwert-daran-gemessen-wie-erfolgreich-ich-bin-daraus-kann-nichts-gutes-entstehen-auch-keine-gute-musik-ld.10018314",
+    "department": {
+     "name": "Arts & Culture",
+     "path": "/feuilleton"
+    },
+    "estimationWordCount": 2521,
+    "leadText": "Stress is the most successful rapper in Switzerland. For years he has spoken openly about his depression. He wanted to write a self-help book about how he found his way back to life – until physical pain forced him to start all over again.",
+    "nzzSummaryIsAuto": true,
+    "containerId": "doc-1jje3h7kv0",
+    "containerPosition": 1,
+    "containerTitle": "NZZ am Sonntag",
+    "editorialScore": 0,
+    "positionInContainer": 4,
+    "locale": "de-CH"
+   },
+   {
+    "title": "Condominium nightmare: How owners become bitter enemies",
+    "showHeader": true,
+    "owner": "NZZaS",
+    "language": {
+     "locale": "de"
+    },
+    "characterCount": 13550,
+    "nzzasFootnote": true,
+    "nzzId": "ld.10014125",
+    "readingTime": 600,
+    "paywallQuestionOne": "What challenges does condominium ownership pose for the owners?",
+    "paywallQuestionTwo": "Why do renovations often fail due to financial and legal hurdles?",
+    "paywallQuestionThree": "How could the revision of condominium ownership law defuse conflicts?",
+    "teaserImage": {
+     "originalUrl": "/2026/08/29/75186538-5fe8-4736-8335-f7b57a064317.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/08/29/75186538-5fe8-4736-8335-f7b57a064317.jpg?width=1024&quality=75&auto=webp",
+     "width": 6034,
+     "height": 3395,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "6034,3394,x0,y0"
+      },
+      {
+       "name": "4:3",
+       "crop": "4527,3395,x754,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "3395,3395,x1320,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "2546,3395,x1744,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "5093,3395,x471,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "Those who can't afford a house opt for condominium ownership. But in practice, this often turns into a nerve-wracking battle over garden benches, awning colors, and bicycle shelters. And that's nothing compared to the woes associated with renovations.",
+     "teaserAuthor": "Illustration by Elia Barbieri for NZZaS"
+    },
+    "teaserAuthor": "Illustration by Elia Barbieri for NZZaS",
+    "product": "NZZ.ch",
+    "documentId": 10014125,
+    "layout": "regular",
+    "publicationDate": "2026-08-30T03:30:00.000Z",
+    "publicationLastUpdated": "2026-08-30T03:30:00.000Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-08-30T15:30:00.000Z",
+    "teaserCaption": "Those who can't afford a house opt for condominium ownership. But in practice, this often turns into a nerve-wracking battle over garden benches, awning colors, and bicycle shelters. And that's nothing compared to the woes associated with renovations.",
+    "authorLine": "Jürg Zulliger",
+    "authorImage": {
+     "originalUrl": "/2024/01/31/abcf5b13-0bb2-4dd2-91da-b56035766bfb.jpeg?crop=2625,2625,x0,y438",
+     "url": "https://img-msp-prod.nzz.ch/2024/01/31/abcf5b13-0bb2-4dd2-91da-b56035766bfb.jpeg?crop=2625,2625,x0,y438&width=1024&quality=75&auto=webp",
+     "width": 2625,
+     "height": 3500,
+     "imageService": "fastly",
+     "crop": {
+      "name": "1:1",
+      "x": 0,
+      "y": 438,
+      "width": 2625,
+      "height": 2625
+     },
+     "crops": []
+    },
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2024/01/31/abcf5b13-0bb2-4dd2-91da-b56035766bfb.jpeg?crop=2625,2625,x0,y438&width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/wirtschaft/albtraum-eigentumswohnung-wie-stockwerkeigentuemer-zu-erbitterten-feinden-werden-ld.10014125",
+    "department": {
+     "name": "Economy",
+     "path": "/wirtschaft"
+    },
+    "estimationWordCount": 1930,
+    "leadText": "Those who can't afford a house opt for condominium ownership. But in practice, this often turns into a nerve-wracking battle over garden benches, awning colors, and bicycle shelters. And that's nothing compared to the woes associated with renovations.",
+    "nzzSummaryIsAuto": true,
+    "containerId": "doc-1jje3h7kv0",
+    "containerPosition": 1,
+    "containerTitle": "NZZ am Sonntag",
+    "editorialScore": 0,
+    "positionInContainer": 5,
+    "locale": "de-CH"
+   }
+  ]
+ },
+ "digitalData": {
+  "component": [
+   {
+    "id": "ld.1844050",
+    "name": "A Russian scientist travels to the West to conduct research with colleagues – risking everything in the process. Our reporter accompanied her.",
+    "type": "article",
+    "subType1": "longformstandard",
+    "subType2": "",
+    "primaryCategory": "Wissenschaft",
+    "subCategory1": "",
+    "attributes": {
+     "headline": "A Russian scientist travels to the West to conduct research with colleagues – risking everything in the process. Our reporter accompanied her.",
+     "firstPublishTitle": "",
+     "catchline": "",
+     "authors": [],
+     "issueTimestamp": "2024-09-17T03:30:00.000Z",
+     "updateTimestamp": "2024-09-20T16:27:07.093Z",
+     "isSponsoredContent": false,
+     "isPro": false,
+     "isLiveticker": false,
+     "flag": "",
+     "owner": "NZZaS"
+    }
+   }
+  ],
+  "page": {
+   "pageId": "ld.1844050",
+   "pageType": "longformstandard",
+   "primaryCategory": "Wissenschaft",
+   "subCategory1": "",
+   "subCategory2": "",
+   "language": "en-US"
+  },
+  "version": "2.0",
+  "user": {},
+  "event": []
+ },
+ "seoData": {
+  "title": "Science in the shadow of war: Russian researcher circumvents sanctions ",
+  "image": {
+   "url": "https://img-msp-prod.nzz.ch/2024/09/01/b122559e-febf-4f3c-bb66-b1f0c240a03d.jpeg?width=1200&height=675&fit=bounds&quality=75&auto=webp&crop=2222,1250,x137,y431&wmark=nzz",
+   "type": "image/jpeg",
+   "width": 1200,
+   "height": 675
+  },
+  "author": "Andrew Müller (text), Florian Generotzky (images)",
+  "description": "Vera Petrow travels to Western Europe to continue her research projects: What was recently perfectly normal now involves high personal risks for her. A recounting of her week-long research trip to a German-speaking city.",
+  "news_keywords": "A Russian scientist travels to the West to conduct research with colleagues – risking everything in the process. Our reporter accompanied her. (Science, News, NZZ)",
+  "type": "article",
+  "last-modified": "2024-09-20T20:27:07+02:00",
+  "date": "2024-09-17T07:30:00+02:00",
+  "canonical": "https://www.nzz.ch/wissenschaft/der-eiserne-vorhang-im-labor-wie-russische-wissenschafter-die-sanktionen-umgehen-ld.1844050",
+  "fb:app_id": 138008459595436,
+  "fb:pages": 143694099006529,
+  "fb:admins": 1592685173,
+  "locale": "de-CH",
+  "email": "online.redaktion@nzz.ch",
+  "site_name": "Neue Zürcher Zeitung",
+  "copyright": "2026 Neue Zürcher Zeitung AG, Schweiz",
+  "robots": "noindex, nofollow, noarchive, noodp",
+  "hreflang": [],
+  "sharedTitle": "A Russian scientist travels to the West to conduct research with colleagues – risking everything in the process. Our reporter accompanied her.",
+  "ogTitle": "A Russian scientist travels to the West to conduct research with colleagues – risking everything in the process. Our reporter accompanied her",
+  "ogUrl": "https://www.nzz.ch/wissenschaft/der-eiserne-vorhang-im-labor-wie-russische-wissenschafter-die-sanktionen-umgehen-ld.1844050",
+  "mrf:cms_id": "nzz:ld.1844050",
+  "mrf:sections": "Wissenschaft;WTM",
+  "mrf:tags": "Page Type:longformstandard;Editorial Owner:NZZaS;Content Type:Standard Article;Article ID:ld.1844050",
+  "nzzAuthors": [
+   {
+    "name": "Andrew Müller (Text), Florian Generotzky (Bilder)"
+   }
+  ],
+  "links": [
+   {
+    "rel": "canonical",
+    "href": "https://www.nzz.ch/wissenschaft/der-eiserne-vorhang-im-labor-wie-russische-wissenschafter-die-sanktionen-umgehen-ld.1844050"
+   },
+   {
+    "rel": "search",
+    "href": "/suche",
+    "title": "Suche Neue Zürcher Zeitung, Schweiz, https://www.nzz.ch/suche"
+   }
+  ],
+  "renderedAt": "Thu, 03 Sep 2026 09:31:59 GMT"
+ },
+ "structuredData": [
+  {
+   "@context": "https://schema.org",
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "item": {
+      "@id": "/",
+      "name": "Home"
+     }
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "item": {
+      "@id": "/wissenschaft",
+      "name": "Science"
+     }
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Science in the shadow of war: Russian researcher circumvents sanctions "
+    }
+   ]
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": "NewsArticle",
+   "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.nzz.ch/wissenschaft/der-eiserne-vorhang-im-labor-wie-russische-wissenschafter-die-sanktionen-umgehen-ld.1844050"
+   },
+   "headline": "Science in the shadow of war: Russian researcher circumvents sanctions ",
+   "datePublished": "2024-09-17T07:30:00+02:00",
+   "dateModified": "2024-09-20T20:27:07+02:00",
+   "publisher": {
+    "@type": "NewsMediaOrganization",
+    "name": "Neue Zürcher Zeitung",
+    "url": "https://www.nzz.ch",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://www.nzz.ch/logo.png",
+     "width": 413,
+     "height": 60
+    },
+    "contactPoint": [
+     {
+      "@type": "ContactPoint",
+      "telephone": "+41-44-2581000",
+      "contactType": "customer service"
+     }
+    ],
+    "sameAs": [
+     "https://www.facebook.com/nzz",
+     "https://www.twitter.com/nzz",
+     "https://www.youtube.com/channel/UCK1aTcR0AckQRLTlK0c4fuQ",
+     "https://www.linkedin.com/company/neue-zurcher-zeitung",
+     "https://www.instagram.com/nzz/",
+     "https://de.wikipedia.org/wiki/Neue_Z%C3%BCrcher_Zeitung",
+     "https://www.wikidata.org/wiki/Q658945",
+     "https://plus.google.com/+nzz/",
+     "http://www.freebase.com/m/041b43"
+    ],
+    "masthead": "https://www.nzz.ch/impressum/impressum-ld.148422",
+    "foundingDate": "1780"
+   },
+   "description": "Vera Petrow travels to Western Europe to continue her research projects: What was recently perfectly normal now involves high personal risks for her. A recounting of her week-long research trip to a German-speaking city.",
+   "isAccessibleForFree": false,
+   "articleSection": "Wissenschaft",
+   "hasPart": {
+    "@type": "WebPageElement",
+    "isAccessibleForFree": false,
+    "cssSelector": ".nzzinteraction"
+   },
+   "image": {
+    "@type": "ImageObject",
+    "url": "https://img-msp-prod.nzz.ch/2024/09/01/b122559e-febf-4f3c-bb66-b1f0c240a03d.jpeg?width=1200&height=675&fit=bounds&quality=75&auto=webp&crop=2222,1250,x137,y431&wmark=nzz",
+    "width": 1200,
+    "height": 675
+   },
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Andrew Müller (text), Florian Generotzky (images)"
+    }
+   ],
+   "inLanguage": "de"
+  }
+ ],
+ "mp3": true,
+ "mp3Duration": 996408,
+ "bT": {
+  "standard": {
+   "Tags": [
+    "/wissenschaft/der-eiserne-vorhang-im-labor-wie-russische-wissenschafter-die-sanktionen-umgehen-ld.1844050",
+    "classification=default",
+    "relevance=default",
+    "layout=longformstandard",
+    "owner=nzzas",
+    "product=nzz",
+    "doctype=article",
+    "pagetype=article",
+    "ldid=ld.1844050",
+    "channel=Wissenschaft"
+   ],
+   "ContentCreated": "2024-09-17T03:30:00.000Z",
+   "ContentAuthor": "Andrew Müller (Text), Florian Generotzky (Bilder)",
+   "ContentSection": "Wissenschaft",
+   "ContentIsNative": true
+  },
+  "custom": {
+   "product": "nzz",
+   "docType": "article",
+   "pageType": "article",
+   "layout": "longformstandard",
+   "ldId": "ld.1844050",
+   "channel": "Wissenschaft",
+   "heading": "Eine russische Wissenschafterin reist in den Westen, um mit Kollegen zu forschen - und riskiert dabei alles. Unser Autor hat sie begleitet",
+   "language": "en-US"
+  }
+ },
+ "webviewMetadata": {},
+ "cacheTime": 3600
+}

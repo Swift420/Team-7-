@@ -1,0 +1,2854 @@
+{
+ "content": [
+  {
+   "identifier": "header",
+   "id": "doc-1j5650g3c0",
+   "content": {
+    "title": "«Trump must have mistaken the USA for another country,» says Nassim Taleb, author of the book «The Black Swan»",
+    "lead": "In the interview, the renowned scientist expresses his profound disappointment with US President Trump. He also voices his concern about the high levels of debt accumulated by industrialized nations.",
+    "author": ""
+   },
+   "containers": {
+    "authors": [
+     {
+      "identifier": "author-teaser",
+      "id": "doc-CxYEqowYM6",
+      "content": {
+       "layout": "authorprofile",
+       "title": "Michael Ferber",
+       "url": "/impressum/michael-ferber-ld.1085430",
+       "teaserImage": {
+        "originalUrl": "/2025/01/17/53fdb0be-71ee-49f7-9ca6-7ca3b9360e0d.jpeg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2025/01/17/53fdb0be-71ee-49f7-9ca6-7ca3b9360e0d.jpeg?width=1024&quality=75&auto=webp",
+        "width": 4547,
+        "height": 3032,
+        "crops": [
+         {
+          "name": "web-teaser",
+          "crop": "4547,2558,x0,y432"
+         },
+         {
+          "name": "1:1",
+          "crop": "2396,2396,x938,y397"
+         },
+         {
+          "name": "4:3",
+          "crop": "4043,3032,x252,y0"
+         },
+         {
+          "name": "3:4",
+          "crop": "2274,3032,x1137,y0"
+         }
+        ],
+        "imageService": "fastly"
+       }
+      }
+     },
+     {
+      "identifier": "author-teaser",
+      "id": "doc-GxEIaB4sKP",
+      "content": {
+       "layout": "authorprofile",
+       "title": "Markus Städeli",
+       "url": "/impressum/markus-staedeli-ld.1723371",
+       "teaserImage": {
+        "originalUrl": "/2023/12/06/c8d63d85-2a0d-4fc5-9288-ba44fa4f5baf.png?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2023/12/06/c8d63d85-2a0d-4fc5-9288-ba44fa4f5baf.png?width=1024&quality=75&auto=webp",
+        "width": 800,
+        "height": 800,
+        "crops": [
+         {
+          "name": "web-teaser",
+          "crop": "800,450,x0,y175"
+         },
+         {
+          "name": "1:1",
+          "crop": "800,800,x0,y0"
+         },
+         {
+          "name": "4:3",
+          "crop": "800,600,x0,y100"
+         },
+         {
+          "name": "3:4",
+          "crop": "600,800,x100,y0"
+         }
+        ],
+        "imageService": "fastly"
+       }
+      }
+     }
+    ]
+   },
+   "prevElement": "",
+   "nextElement": "image",
+   "firstContentElement": true
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1j5b9biqo1",
+   "content": {
+    "image": {
+     "author": "Sarah Josephine Taleb / Penguin Random House",
+     "caption": "Nassim Taleb expects China to continue its rise.",
+     "originalUrl": "/2025/09/17/396de226-be84-4f28-85d0-721cc6cbd6f2.jpg?width=1024",
+     "width": 1546,
+     "height": 1846,
+     "imageService": "fastly"
+    },
+    "caption": "Nassim Taleb expects China to continue its rise.",
+    "author": "Sarah Josephine Taleb / Penguin Random House"
+   },
+   "prevElement": "header",
+   "nextElement": "question"
+  },
+  {
+   "identifier": "question",
+   "id": "doc-1j5650g3d0",
+   "content": {
+    "text": "You recently said that the financial system is more fragile than it has been in the last 20 or 30 years. Why is that?"
+   },
+   "prevElement": "image",
+   "nextElement": "barrier"
+  },
+  {
+   "id": "doc-196be9ab",
+   "identifier": "barrier",
+   "prevElement": "question",
+   "nextElement": "answer"
+  },
+  {
+   "identifier": "answer",
+   "id": "doc-1j5gia5pa0",
+   "content": {
+    "text": "To explain this, I need to elaborate a bit. It's related to the fact that economic growth follows an S-curve – it slows down as the market becomes saturated. This is true, for example, for Switzerland. Because people here are so wealthy and there are hardly any poor people, it's more difficult to grow. In Indonesia or Cameroon, on the other hand, it's easier."
+   },
+   "paidContent": true,
+   "prevElement": "barrier",
+   "nextElement": "question"
+  },
+  {
+   "identifier": "question",
+   "id": "doc-1j5gia5pc0",
+   "content": {
+    "text": "What are the consequences of this?"
+   },
+   "paidContent": true,
+   "prevElement": "answer",
+   "nextElement": "answer"
+  },
+  {
+   "identifier": "answer",
+   "id": "doc-1j5gia5pc1",
+   "content": {
+    "text": "The countries furthest up the S-curve have also accumulated the highest debts. «On ne prête qu'aux riches» (We only lend to the rich), goes a French proverb. Consequently, wealthy nations have become the most indebted. France, for example, is at the top of the curve. The country has improved in many ways in terms of lifestyle over the past few decades; for instance, cities now have far more bike paths and pedestrian zones. But the bills remain unpaid, and the economy is barely growing."
+   },
+   "paidContent": true,
+   "prevElement": "question",
+   "nextElement": "question"
+  },
+  {
+   "identifier": "question",
+   "id": "doc-1j5gia5pd0",
+   "content": {
+    "text": "And do the high levels of debt make the system increasingly fragile?"
+   },
+   "paidContent": true,
+   "prevElement": "answer",
+   "nextElement": "answer"
+  },
+  {
+   "identifier": "answer",
+   "id": "doc-1j5gia5pd1",
+   "content": {
+    "text": "Exactly. The debts have shifted. In 2008, when the financial crisis erupted, the banks were fragile. The financial system was stabilized at the cost of higher government debt. Added to this was the zero-interest-rate policy of the central banks, which made everything even worse. In the US, former Federal Reserve Chairman Ben Bernanke drastically lowered key interest rates to zero."
+   },
+   "paidContent": true,
+   "prevElement": "question",
+   "nextElement": "question"
+  },
+  {
+   "identifier": "question",
+   "id": "doc-1j5gia5pd2",
+   "content": {
+    "text": "Why has this increased the national debt?"
+   },
+   "paidContent": true,
+   "prevElement": "answer",
+   "nextElement": "answer"
+  },
+  {
+   "identifier": "answer",
+   "id": "doc-1j5gia5pe0",
+   "content": {
+    "text": "Bernanke enabled the US government to borrow money for free. But now that interest rates have risen, debt servicing costs more than a trillion dollars a year. This has also led to asset inflation; stock prices and real estate values ​​have risen sharply. This makes the entire system vulnerable."
+   },
+   "paidContent": true,
+   "prevElement": "question",
+   "nextElement": "question"
+  },
+  {
+   "identifier": "question",
+   "id": "doc-1j5gia5pe1",
+   "content": {
+    "text": "What can industrialized countries do to combat fragility?"
+   },
+   "paidContent": true,
+   "prevElement": "answer",
+   "nextElement": "answer"
+  },
+  {
+   "identifier": "answer",
+   "id": "doc-1j5gia5pe2",
+   "content": {
+    "text": "Before Donald Trump's second term as US president, there was a certain magic to the United States. The country benefited from an astonishing brain drain at the expense of other nations; most of its top scientists came from abroad. The economy also grew because the US brought poor people into the country. In the West, whether in the US or Europe, only people from poor countries clean toilets or mow lawns. Furthermore, the population was growing, which also supported economic growth. Now, Trump himself has put an end to that magic."
+   },
+   "paidContent": true,
+   "prevElement": "question",
+   "nextElement": "question"
+  },
+  {
+   "identifier": "question",
+   "id": "doc-1j5gia5pf0",
+   "content": {
+    "text": "So, in your view, his policies are detrimental to the economy?"
+   },
+   "paidContent": true,
+   "prevElement": "answer",
+   "nextElement": "answer"
+  },
+  {
+   "identifier": "answer",
+   "id": "doc-1j5gia5pf1",
+   "content": {
+    "text": "The unemployment rate in the US is 4 percent – ​​there aren't that many unemployed people who could be assigned the tasks that immigrants previously performed. In short, this means that doctors and engineers will have to mow their own lawns and will have less time to practice their profession."
+   },
+   "paidContent": true,
+   "prevElement": "question",
+   "nextElement": "question"
+  },
+  {
+   "identifier": "question",
+   "id": "doc-1j5gia5pf2",
+   "content": {
+    "text": "Are there a labor shortage?"
+   },
+   "paidContent": true,
+   "prevElement": "answer",
+   "nextElement": "answer"
+  },
+  {
+   "identifier": "answer",
+   "id": "doc-1j5gia5pf3",
+   "content": {
+    "text": "You can't be xenophobic and live in a mansion at the same time. Because then you need cheap labor. I recently had my house in New York renovated. The roofers, the floor layers, and the painters were all from Latin America. Many Americans are a bit schizophrenic. Take Texas, for example. Many people there vote for Trump, but at the same time, they're the biggest beneficiaries of agricultural labor from Mexico."
+   },
+   "paidContent": true,
+   "prevElement": "question",
+   "nextElement": "question"
+  },
+  {
+   "identifier": "question",
+   "id": "doc-1j5gia5pg0",
+   "content": {
+    "text": "Will Trump and his administration succeed in bringing industrial jobs back to the USA?"
+   },
+   "paidContent": true,
+   "prevElement": "answer",
+   "nextElement": "answer"
+  },
+  {
+   "identifier": "answer",
+   "id": "doc-1j5gia5pg1",
+   "content": {
+    "text": "Trump must have confused the US with another country. America has always imported both highly skilled and unskilled workers. Importing a top scientist from Switzerland or India creates jobs that the US can no longer acquire. And there's something else Trump hasn't grasped. Do you own an Apple phone?"
+   },
+   "paidContent": true,
+   "prevElement": "question",
+   "nextElement": "question"
+  },
+  {
+   "identifier": "question",
+   "id": "doc-1j5gia5pg2",
+   "content": {
+    "text": "Yes."
+   },
+   "paidContent": true,
+   "prevElement": "answer",
+   "nextElement": "answer"
+  },
+  {
+   "identifier": "answer",
+   "id": "doc-1j5gia5pg3",
+   "content": {
+    "text": "Where did you buy it?"
+   },
+   "paidContent": true,
+   "prevElement": "question",
+   "nextElement": "question"
+  },
+  {
+   "identifier": "question",
+   "id": "doc-1j5gia5pg4",
+   "content": {
+    "text": "In Zurich."
+   },
+   "paidContent": true,
+   "prevElement": "answer",
+   "nextElement": "answer"
+  },
+  {
+   "identifier": "answer",
+   "id": "doc-1j5gia5ph0",
+   "content": {
+    "text": "And who made the money from it?"
+   },
+   "paidContent": true,
+   "prevElement": "question",
+   "nextElement": "question"
+  },
+  {
+   "identifier": "question",
+   "id": "doc-1j5gia5pi0",
+   "content": {
+    "text": "Apple."
+   },
+   "paidContent": true,
+   "prevElement": "answer",
+   "nextElement": "answer"
+  },
+  {
+   "identifier": "answer",
+   "id": "doc-1j5gia5pi1",
+   "content": {
+    "text": "Is this part of the US trade balance?"
+   },
+   "paidContent": true,
+   "prevElement": "question",
+   "nextElement": "question"
+  },
+  {
+   "identifier": "question",
+   "id": "doc-1j5gia5pi2",
+   "content": {
+    "text": "No."
+   },
+   "paidContent": true,
+   "prevElement": "answer",
+   "nextElement": "answer"
+  },
+  {
+   "identifier": "answer",
+   "id": "doc-1j5gia5pj0",
+   "content": {
+    "text": "The problem is that the Trump administration focuses more on the trade balance than on financial flows. US companies make a lot of money abroad. Apple assembles phones in China with parts from South Korea, designs them in California, and earns large margins in Switzerland. Trump and his administration don't understand basic economic principles."
+   },
+   "paidContent": true,
+   "prevElement": "question",
+   "nextElement": "question"
+  },
+  {
+   "identifier": "question",
+   "id": "doc-1j5gia5pj1",
+   "content": {
+    "text": "Do you have any other examples?"
+   },
+   "paidContent": true,
+   "prevElement": "answer",
+   "nextElement": "answer"
+  },
+  {
+   "identifier": "answer",
+   "id": "doc-1j5gia5pj2",
+   "content": {
+    "text": "Trump hired Howard Lutnick as Secretary of Commerce; he's a stockbroker. Lutnick knows how to sell securities, but not much else. For example, he proposed taxing French wine and increasing wine production in the US. He seems unaware of how many years it would take to plant vines and wait for the first harvest. Planning and building factories also take a considerable amount of time."
+   },
+   "paidContent": true,
+   "prevElement": "question",
+   "nextElement": "question"
+  },
+  {
+   "identifier": "question",
+   "id": "doc-1j5gia5pk0",
+   "content": {
+    "text": "Such a strategy requires a long-term perspective."
+   },
+   "paidContent": true,
+   "prevElement": "answer",
+   "nextElement": "answer"
+  },
+  {
+   "identifier": "answer",
+   "id": "doc-1j5gia5pk1",
+   "content": {
+    "text": "And here's the next problem. How can one invest in the US long-term when Trump constantly changes his mind and doesn't keep his promises? The US government has created a great deal of uncertainty, which will harm US economic growth. But even under Joe Biden as US president, the US proved unpredictable and made a major mistake: After the start of the war in Ukraine, Russian assets were frozen."
+   },
+   "paidContent": true,
+   "prevElement": "question",
+   "nextElement": "question"
+  },
+  {
+   "identifier": "question",
+   "id": "doc-1j5gia5pk2",
+   "content": {
+    "text": "That was part of the sanctions against Russia. Why was that wrong in your view?"
+   },
+   "paidContent": true,
+   "prevElement": "answer",
+   "nextElement": "answer"
+  },
+  {
+   "identifier": "answer",
+   "id": "doc-1j5gia5pk3",
+   "content": {
+    "text": "When Biden froze Russian assets, I bought gold – as an investment, not for speculation. I don't want to be stuck in a financial system that depends on other people's whims. You don't have to be Russian to feel that way. Switzerland, too, was forced to freeze Russian funds – and without proper procedure. I consider that a huge mistake. This also explains why central banks are increasing their gold reserves and why the price of gold has risen so sharply. As a result, the dollar is losing importance as a store of value and reserve currency; it is increasingly becoming just a transaction currency."
+   },
+   "paidContent": true,
+   "prevElement": "question",
+   "nextElement": "question"
+  },
+  {
+   "identifier": "question",
+   "id": "doc-1j5gia5pk4",
+   "content": {
+    "text": "So gold will become the new reserve currency instead of the dollar?"
+   },
+   "paidContent": true,
+   "prevElement": "answer",
+   "nextElement": "answer"
+  },
+  {
+   "identifier": "answer",
+   "id": "doc-1j5gia5pl0",
+   "content": {
+    "text": "Yes, because it's the only thing everyone can agree on. But back to Russian assets: Biden forced everyone to freeze them. And then Trump came along, and he's now exacerbating the problems. Will the deficit increase massively under Trump? Of course."
+   },
+   "paidContent": true,
+   "prevElement": "question",
+   "nextElement": "question"
+  },
+  {
+   "identifier": "question",
+   "id": "doc-1j5gia5pl1",
+   "content": {
+    "text": "The proposed Big Beautiful Bill, for example, brings with it a great deal of new debt. Should we expect stagflation – that is, low economic growth coupled with high inflation?"
+   },
+   "paidContent": true,
+   "prevElement": "answer",
+   "nextElement": "answer"
+  },
+  {
+   "identifier": "answer",
+   "id": "doc-1j5gia5pl2",
+   "content": {
+    "text": "We already have stagflation. To see that, I only need to go to the supermarket in the USA. You pay more for potatoes and coffee."
+   },
+   "paidContent": true,
+   "prevElement": "question",
+   "nextElement": "question"
+  },
+  {
+   "identifier": "question",
+   "id": "doc-1j5gia5pl3",
+   "content": {
+    "text": "Will there be a debt crisis?"
+   },
+   "paidContent": true,
+   "prevElement": "answer",
+   "nextElement": "answer"
+  },
+  {
+   "identifier": "answer",
+   "id": "doc-1j5gia5pm0",
+   "content": {
+    "text": "The US is already caught in a debt spiral. This means it has to borrow more and more money to continue servicing its debts. There are essentially only two solutions for how America can avert a crisis: allow persistently higher inflation to inflate away the debt, or achieve exceptionally strong economic growth that would at least stabilize the mountain of debt relative to GDP. But with the Trump administration's flawed policies, there will be less, not more, growth."
+   },
+   "paidContent": true,
+   "prevElement": "question",
+   "nextElement": "question"
+  },
+  {
+   "identifier": "question",
+   "id": "doc-1j5gia5pm1",
+   "content": {
+    "text": "The US is becoming more fragile under Trump, and its debt continues to rise. What are the consequences for the world?"
+   },
+   "paidContent": true,
+   "prevElement": "answer",
+   "nextElement": "answer"
+  },
+  {
+   "identifier": "answer",
+   "id": "doc-1j5gia5pn0",
+   "content": {
+    "text": "An era is drawing to a close, and this is becoming increasingly apparent. China is rapidly becoming the sole superpower. Although debt is also rising in China, its economy is still growing. In 2007, the US and Europe each accounted for roughly 20 percent of global GDP, adjusted for purchasing power parity. China's share at that time was 6 percent. Today, China's share is likely around 20 percent, if not higher. The US has a share of 15 percent, and Europe 14 percent. The West no longer controls the largest share of the global economy and has the most debt."
+   },
+   "paidContent": true,
+   "prevElement": "question",
+   "nextElement": "question"
+  },
+  {
+   "identifier": "question",
+   "id": "doc-1j5gia5pn1",
+   "content": {
+    "text": "Could this lead to a war between China and the USA?"
+   },
+   "paidContent": true,
+   "prevElement": "answer",
+   "nextElement": "answer"
+  },
+  {
+   "identifier": "answer",
+   "id": "doc-1j5gia5pn2",
+   "content": {
+    "text": "I don't know. Unlike Russia, China has no tradition of military conflict. It hasn't invaded any neighboring countries in the past. Perhaps our world will become more stable if China gains more influence. Trump's ideas about how to make peace have so far had pretty much the opposite effect. What is certain is that the balance of power is shifting rapidly in China's favor, not only economically but also militarily."
+   },
+   "paidContent": true,
+   "prevElement": "question",
+   "nextElement": "question"
+  },
+  {
+   "identifier": "question",
+   "id": "doc-1j5gia5po0",
+   "content": {
+    "text": "Why?"
+   },
+   "paidContent": true,
+   "prevElement": "answer",
+   "nextElement": "answer"
+  },
+  {
+   "identifier": "answer",
+   "id": "doc-1j5gia5po1",
+   "content": {
+    "text": "The US spends roughly one trillion dollars annually on defense, while China spends only 300 billion dollars. Yet China gets far more for its investment. Consider this chair: Made in China, it costs one dollar. If it were manufactured in the US, the same chair would cost 30 dollars. Applying this to arms production clearly illustrates who is emerging as the true superpower. When it comes to weapons manufacturing, the US is simply not competitive."
+   },
+   "paidContent": true,
+   "prevElement": "question",
+   "nextElement": "question"
+  },
+  {
+   "identifier": "question",
+   "id": "doc-1j5gia5po2",
+   "content": {
+    "text": "Perhaps the American weapons systems are very expensive, but in the opinion of many experts they are also better."
+   },
+   "paidContent": true,
+   "prevElement": "answer",
+   "nextElement": "answer"
+  },
+  {
+   "identifier": "answer",
+   "id": "doc-1j5gia5po3",
+   "content": {
+    "text": "The reality of war is currently on display in Ukraine. Drones developed in Iran, which cost a few hundred dollars to produce, have to be eliminated with Western munitions, some of which cost hundreds of thousands of dollars. This asymmetry is very dangerous for the West."
+   },
+   "paidContent": true,
+   "prevElement": "question",
+   "nextElement": "question"
+  },
+  {
+   "identifier": "question",
+   "id": "doc-1j5gia5pp0",
+   "content": {
+    "text": "Returning to Trump: In your book «Skin in the Game,» you write that it was clear to you he would win the election because, compared to all the other candidates, he was willing to take risks. A certain amount of sympathy shone through there."
+   },
+   "paidContent": true,
+   "prevElement": "answer",
+   "nextElement": "answer"
+  },
+  {
+   "identifier": "answer",
+   "id": "doc-1j5gia5pp1",
+   "content": {
+    "text": "No, it's simply one explanation for why Trump won. A willingness to take risks is necessary for a good president, but it's certainly not enough on its own. Look: In Washington, there are all these warmongers who have never actually been on the front lines. That's the opposite of having «skin in the game.» Trump, too, never fought in a war, but he does at least take financial risks—even if he's incompetent and has lost a lot of money with his companies. But at least he hasn't just talked; he's actually done something in his life."
+   },
+   "paidContent": true,
+   "prevElement": "question",
+   "nextElement": "question"
+  },
+  {
+   "identifier": "question",
+   "id": "doc-1j5gia5pp2",
+   "content": {
+    "text": "And that's what makes him attractive from the voters' point of view?"
+   },
+   "paidContent": true,
+   "prevElement": "answer",
+   "nextElement": "answer"
+  },
+  {
+   "identifier": "answer",
+   "id": "doc-1j5gia5pp3",
+   "content": {
+    "text": "Yes, and paradoxically, so is his short attention span. President Obama spent two hours every morning being briefed on world affairs. Trump, on the other hand, loses interest after a few minutes. Having a short attention span prevents one from becoming a bureaucrat. It's much easier for Trump to act because he's completely unaware of the potential consequences."
+   },
+   "paidContent": true,
+   "prevElement": "question",
+   "nextElement": "question"
+  },
+  {
+   "identifier": "question",
+   "id": "doc-1j5gia5pp4",
+   "content": {
+    "text": "Trump is exerting massive pressure on the US Federal Reserve to force interest rate cuts – and he has now achieved his first one. Can he impose his will on the financial markets?"
+   },
+   "paidContent": true,
+   "prevElement": "answer",
+   "nextElement": "answer"
+  },
+  {
+   "identifier": "answer",
+   "id": "doc-1j5gia5pq0",
+   "content": {
+    "text": "No, nobody is bigger than the markets. Trump might be able to influence short-term interest rates, but at the same time, he risks driving up yields on government bonds with longer maturities. This is already evident. Long-term interest rates are trending upwards, as if the US were a developing country."
+   },
+   "paidContent": true,
+   "prevElement": "question",
+   "nextElement": "question"
+  },
+  {
+   "identifier": "question",
+   "id": "doc-1j5gia5pq1",
+   "content": {
+    "text": "And what if the Fed started buying bonds?"
+   },
+   "paidContent": true,
+   "prevElement": "answer",
+   "nextElement": "answer"
+  },
+  {
+   "identifier": "answer",
+   "id": "doc-1j5gia5pq2",
+   "content": {
+    "text": "If that had worked in the long run, the Weimar Republic would not have collapsed. Neither would Zimbabwe, Argentina, or Turkey have experienced hyperinflation."
+   },
+   "paidContent": true,
+   "prevElement": "question",
+   "nextElement": "question"
+  },
+  {
+   "identifier": "question",
+   "id": "doc-1j5gia5pq3",
+   "content": {
+    "text": "Is it conceivable that the USA could declare itself insolvent?"
+   },
+   "paidContent": true,
+   "prevElement": "answer",
+   "nextElement": "answer"
+  },
+  {
+   "identifier": "answer",
+   "id": "doc-1j5gia5pr0",
+   "content": {
+    "text": "A country like the USA doesn't go bankrupt simply because it can print more money at any time – but this comes at a very high price for its citizens. Currently, there are many simple-minded and opportunistic politicians in Congress. However, there are also many intelligent people among the Republicans who understand what's at stake. Unfortunately, the anti-Trump wing within the Republican Party is now barely represented in Congress."
+   },
+   "paidContent": true,
+   "prevElement": "question",
+   "nextElement": "question"
+  },
+  {
+   "identifier": "question",
+   "id": "doc-1j5gia5pr1",
+   "content": {
+    "text": "Have you not given up hope for a return to normality?"
+   },
+   "paidContent": true,
+   "prevElement": "answer",
+   "nextElement": "answer"
+  },
+  {
+   "identifier": "answer",
+   "id": "doc-1j5gia5pr2",
+   "content": {
+    "text": "Perhaps in a year or two it will become clear that Trump was merely a temporary phenomenon. For health reasons alone, there will be no third term for him."
+   },
+   "paidContent": true,
+   "prevElement": "question",
+   "nextElement": "question"
+  },
+  {
+   "identifier": "question",
+   "id": "doc-1j5gia5pr3",
+   "content": {
+    "text": "However, there is a risk that someone else will take their place and continue their policies."
+   },
+   "paidContent": true,
+   "prevElement": "answer",
+   "nextElement": "answer"
+  },
+  {
+   "identifier": "answer",
+   "id": "doc-1j5gia5pr4",
+   "content": {
+    "text": "There's no one with Trump's stature. Trump has charisma, something that Vice President J.D. Vance, for example, completely lacks. Trump is an exceptional talent. I, too, was deceived by Trump. I thought he was simply a businessman. But he isn't."
+   },
+   "paidContent": true,
+   "prevElement": "question",
+   "nextElement": "question"
+  },
+  {
+   "identifier": "question",
+   "id": "doc-1j5gia5ps0",
+   "content": {
+    "text": "You coined the term «black swan»: For you, it's an event with extreme consequences that appears out of nowhere. Is Trump a black swan?"
+   },
+   "paidContent": true,
+   "prevElement": "answer",
+   "nextElement": "answer"
+  },
+  {
+   "identifier": "answer",
+   "id": "doc-1j5gia5ps1",
+   "content": {
+    "text": "Wars, pandemics, and debt crises are white swans. They occur rarely and have a devastating impact, but they are predictable. Trump, on the other hand, is a black swan. Trump's behavior, however, is completely random. He is not merely deranged and schizophrenic, but utterly unpredictable."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "question",
+   "nextElement": "question"
+  },
+  {
+   "identifier": "question",
+   "id": "doc-1j5gia5ps2",
+   "content": {
+    "text": "You get emotional when you talk about the political situation in the US. How dangerous do you consider the situation?"
+   },
+   "paidContent": true,
+   "prevElement": "answer",
+   "nextElement": "answer"
+  },
+  {
+   "identifier": "answer",
+   "id": "doc-1j5gia5ps3",
+   "content": {
+    "text": "I am extremely disappointed in Trump. In his first term, he wasn't crazy, just odd, boastful, and tasteless. But Trump 2.0 is completely unpredictable, and I consider his entourage dangerous."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "question",
+   "nextElement": "question"
+  },
+  {
+   "identifier": "question",
+   "id": "doc-1j5gia5ps4",
+   "content": {
+    "text": "Why?"
+   },
+   "paidContent": true,
+   "prevElement": "answer",
+   "nextElement": "answer"
+  },
+  {
+   "identifier": "answer",
+   "id": "doc-1j5gia5pt0",
+   "content": {
+    "text": "Trump promotes anyone who promises him unconditional loyalty to key positions. His top aides are remarkably incompetent. I've already mentioned Lutnick, the Commerce Secretary, who clearly has no clue about his department. Others, like Stephen Miller, are simply malicious."
+   },
+   "paidContent": true,
+   "prevElement": "question",
+   "nextElement": "question"
+  },
+  {
+   "identifier": "question",
+   "id": "doc-1j5gia5pt1",
+   "content": {
+    "text": "How did you come to that conclusion?"
+   },
+   "paidContent": true,
+   "prevElement": "answer",
+   "nextElement": "answer"
+  },
+  {
+   "identifier": "answer",
+   "id": "doc-1j5gia5pt2",
+   "content": {
+    "text": "As the chief executive for the administration's immigration and security policy, Miller is in charge of ICE, an agency that systematically humiliates immigrants. Obama deported far more undocumented immigrants, but without humiliating them and without turning the rest of the world against the US. The US depends on both ordinary foreign workers and the world's brightest minds. Yet, especially at US universities, the level of uncertainty is now enormous."
+   },
+   "paidContent": true,
+   "prevElement": "question",
+   "nextElement": "question"
+  },
+  {
+   "identifier": "question",
+   "id": "doc-1j5gia5pt3",
+   "content": {
+    "text": "What exactly happens?"
+   },
+   "paidContent": true,
+   "prevElement": "answer",
+   "nextElement": "answer"
+  },
+  {
+   "identifier": "answer",
+   "id": "doc-1j5gia5pt4",
+   "content": {
+    "text": "I live in the US, but I also teach at a Lebanese university, where I'm now suddenly encountering numerous people returning to Lebanon and turning their backs on the US. Lebanon is certainly not an isolated case. Even those with a green card can no longer be sure in America that they won't suddenly be arrested and deported. There is no longer any legal certainty."
+   },
+   "paidContent": true,
+   "prevElement": "question",
+   "nextElement": "question"
+  },
+  {
+   "identifier": "question",
+   "id": "doc-1j5gia5pu0",
+   "content": {
+    "text": "What is at stake?"
+   },
+   "paidContent": true,
+   "prevElement": "answer",
+   "nextElement": "answer"
+  },
+  {
+   "identifier": "answer",
+   "id": "doc-1j5gia5pu1",
+   "content": {
+    "text": "A devastating brain drain. I know from my former university, New York University, that both professors and students are predominantly foreigners. Driving them away is just about the dumbest thing you can do. The way Trump is snubbing India is simply insane."
+   },
+   "paidContent": true,
+   "prevElement": "question",
+   "nextElement": "question"
+  },
+  {
+   "identifier": "question",
+   "id": "doc-1j5gia5pu2",
+   "content": {
+    "text": "Why?"
+   },
+   "paidContent": true,
+   "prevElement": "answer",
+   "nextElement": "answer"
+  },
+  {
+   "identifier": "answer",
+   "id": "doc-1j5gia5pu3",
+   "content": {
+    "text": "Leaving aside the fact that India is now moving closer to China, which is geopolitically bad for the US: Silicon Valley simply wouldn't function without Indians. Only a few make it to the US, but they are the very best. Those who have prevailed in a country of billions and thus in an exceptionally competitive environment. The US only functions because of this constant influx of talent."
+   },
+   "paidContent": true,
+   "prevElement": "question",
+   "nextElement": "question"
+  },
+  {
+   "identifier": "question",
+   "id": "doc-1j5gia5pv0",
+   "content": {
+    "text": "What advice would you give the USA?"
+   },
+   "paidContent": true,
+   "prevElement": "answer",
+   "nextElement": "answer"
+  },
+  {
+   "identifier": "answer",
+   "id": "doc-1j5gia5pv1",
+   "content": {
+    "text": "When people ask me what the US should do, I often say they need to become more like Switzerland again, which operates from <em>the bottom up</em> . The US is also a federation. Its president should never have been granted such extensive power as Trump. The president of a federation shouldn't play any role in people's daily lives."
+   },
+   "paidContent": true,
+   "prevElement": "question",
+   "nextElement": "question"
+  },
+  {
+   "identifier": "question",
+   "id": "doc-1j5gia5pv2",
+   "content": {
+    "text": "What is your hope?"
+   },
+   "paidContent": true,
+   "prevElement": "answer",
+   "nextElement": "answer"
+  },
+  {
+   "identifier": "answer",
+   "id": "doc-1j5gia5pv3",
+   "content": {
+    "text": "That the Supreme Court reins in Trump and that Republicans lose their majority in Congress in next year's midterm elections."
+   },
+   "paidContent": true,
+   "prevElement": "question",
+   "nextElement": "infobox-advanced"
+  },
+  {
+   "identifier": "infobox-advanced",
+   "id": "doc-1j5gm3b2n0",
+   "content": {
+    "title": "World-renowned scientist and author"
+   },
+   "containers": {
+    "infobox": [
+     {
+      "identifier": "p-text",
+      "id": "doc-1j5h0sg6u0",
+      "content": {
+       "text": "Nassim Nicholas Taleb, born in Lebanon in 1960, worked as a stockbroker for 21 years before becoming a scholar, researching philosophical, mathematical, and practical problems involving probabilities. He is the author of the multi-volume work «Incerto,» which explores various facets of uncertainty. Part of this work is the 2007 book «The Black Swan,» which brought Taleb fame as a writer. His other works include «Skin in the Game,» «Fools of Chance,» and «Antifragile.» He advises the financial company Universa Investments, which specializes in mitigating investment risks. Taleb was a guest at the Peter Carr Conference of the ZHAW School of Management and Law in Winterthur in September, where this interview took place. The conference focused on topics in quantitative finance."
+      },
+      "data": {
+       "_textDirective": {
+        "highlightedTextRanges": {
+         "ChCXmQIuEAVx": {
+          "start": 646,
+          "end": 873,
+          "text": "Taleb was a guest at the Peter Carr Conference of the ZHAW School of Management and Law in Winterthur in September, where this interview took place. The conference focused on topics in quantitative finance."
+         }
+        }
+       }
+      }
+     }
+    ]
+   },
+   "paidContent": true,
+   "prevElement": "answer",
+   "nextElement": "sharebox",
+   "lastContentElement": true
+  },
+  {
+   "identifier": "sharebox",
+   "id": "doc-1j5650g3d1",
+   "paidContent": true,
+   "prevElement": "infobox-advanced",
+   "nextElement": "related-articles-container"
+  },
+  {
+   "identifier": "related-articles-container",
+   "id": "doc-1j5650g3e0",
+   "content": {
+    "title": "Related articles"
+   },
+   "containers": {
+    "related-articles": [
+     {
+      "identifier": "teaser",
+      "id": "doc-1j5gljeud0",
+      "content": {
+       "title": "Nassim Nicholas Taleb versus Noah Carl – a clash between a statistician and an IQ researcher",
+       "teaserImage": {
+        "originalUrl": "/2019/6/12/fc889c80-0af9-470b-bc4b-f1ab64ff308f.jpeg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2019/6/12/fc889c80-0af9-470b-bc4b-f1ab64ff308f.jpeg?width=1024&quality=75&auto=webp",
+        "width": 3800,
+        "height": 5700,
+        "imageService": "fastly",
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "3800,2137,x0,y2193"
+         },
+         {
+          "name": "1:1",
+          "crop": "3002,3002,x408,y2091"
+         }
+        ],
+        "teaserCaption": "The dismissal of a researcher at Cambridge University in Britain is causing an uproar. Noah Carl postulates a link between genes and IQ – not just of individuals, but of entire populations. While some defend him in the name of academic freedom, others rationally dismantle his theories."
+       },
+       "nzzasFootnote": false,
+       "folioFootnote": false,
+       "language": {
+        "locale": "de-CH"
+       },
+       "nzzId": "ld.1488354",
+       "readingTime": 240,
+       "authorLine": "Marc Neumann",
+       "characterCount": 5508,
+       "product": "NZZ.ch",
+       "documentId": 1488354,
+       "layout": "regular",
+       "publicationDate": "2019-06-12T08:40:28.410Z",
+       "publicationLastUpdated": "2019-06-12T14:41:53.331Z",
+       "significantUpdate": false,
+       "significantUpdateTill": "2019-06-12T20:40:28.410Z",
+       "teaserCaption": "The dismissal of a researcher at Cambridge University in Britain is causing an uproar. Noah Carl postulates a link between genes and IQ – not just of individuals, but of entire populations. While some defend him in the name of academic freedom, others rationally dismantle his theories.",
+       "url": "/feuilleton/nassim-taleb-vs-noah-carl-oekonom-tritt-gegen-iq-forscher-an-ld.1488354",
+       "department": {
+        "name": "Arts & Culture",
+        "path": "/feuilleton"
+       },
+       "estimationWordCount": 806,
+       "leadText": "The dismissal of a researcher at Cambridge University in Britain is causing an uproar. Noah Carl postulates a link between genes and IQ – not just of individuals, but of entire populations. While some defend him in the name of academic freedom, others rationally dismantle his theories."
+      }
+     },
+     {
+      "identifier": "teaser",
+      "id": "doc-1j5gljdcu0",
+      "content": {
+       "owner": "NZZaS",
+       "title": "Immigrants of Lebanese descent are among the most successful in the world – while their homeland is constantly on the verge of collapse. How is this possible?",
+       "teaserImage": {
+        "originalUrl": "/2025/01/09/feb684ca-000b-4058-be30-12390ce25877.jpeg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2025/01/09/feb684ca-000b-4058-be30-12390ce25877.jpeg?width=1024&quality=75&auto=webp",
+        "width": 6708,
+        "height": 4474,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "6708,3773,x0,y597"
+         },
+         {
+          "name": "1:1",
+          "crop": "1550,1550,x2626,y604"
+         },
+         {
+          "name": "4:3",
+          "crop": "5965,4474,x330,y0"
+         },
+         {
+          "name": "3:4",
+          "crop": "2983,3977,x1882,y497"
+         }
+        ],
+        "imageService": "fastly",
+        "teaserCaption": "Lebanon is constantly on the brink of economic and political collapse. Yet, abroad, the Lebanese are more successful than almost any other nation. This could also be related to the crisis at home."
+       },
+       "nzzasFootnote": true,
+       "folioFootnote": false,
+       "teaserCarouselOne": {
+        "originalUrl": "/2025/01/09/cf003e23-32b9-41d6-8b33-67e126d00d59.jpeg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2025/01/09/cf003e23-32b9-41d6-8b33-67e126d00d59.jpeg?width=1024&quality=75&auto=webp",
+        "width": 3648,
+        "height": 5472,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "3648,2052,x0,y609"
+         },
+         {
+          "name": "1:1",
+          "crop": "2024,2024,x1219,y183"
+         },
+         {
+          "name": "4:3",
+          "crop": "3648,2736,x0,y317"
+         },
+         {
+          "name": "3:4",
+          "crop": "3648,4864,x0,y53"
+         }
+        ],
+        "imageService": "fastly"
+       },
+       "teaserCarouselTwo": {
+        "originalUrl": "/2025/01/09/feb684ca-000b-4058-be30-12390ce25877.jpeg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2025/01/09/feb684ca-000b-4058-be30-12390ce25877.jpeg?width=1024&quality=75&auto=webp",
+        "width": 6708,
+        "height": 4474,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "6708,3773,x0,y592"
+         },
+         {
+          "name": "1:1",
+          "crop": "1744,1744,x2534,y570"
+         },
+         {
+          "name": "4:3",
+          "crop": "5302,3977,x716,y497"
+         },
+         {
+          "name": "3:4",
+          "crop": "2983,3977,x1877,y497"
+         }
+        ],
+        "imageService": "fastly"
+       },
+       "teaserCarouselThree": {
+        "originalUrl": "/2025/01/09/8a95ea1f-7133-4ee4-9fe4-e2e28e815b74.jpeg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2025/01/09/8a95ea1f-7133-4ee4-9fe4-e2e28e815b74.jpeg?width=1024&quality=75&auto=webp",
+        "width": 2018,
+        "height": 3000,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "2018,1135,x0,y422"
+         },
+         {
+          "name": "1:1",
+          "crop": "1417,1417,x327,y72"
+         },
+         {
+          "name": "4:3",
+          "crop": "2018,1514,x0,y232"
+         },
+         {
+          "name": "3:4",
+          "crop": "2018,2691,x0,y16"
+         }
+        ],
+        "imageService": "fastly"
+       },
+       "teaserCarouselFour": {
+        "originalUrl": "/2025/01/09/c2fac120-36de-40d3-a11c-cb55cbd5b8e7.jpeg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2025/01/09/c2fac120-36de-40d3-a11c-cb55cbd5b8e7.jpeg?width=1024&quality=75&auto=webp",
+        "width": 3517,
+        "height": 5404,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "3517,1978,x0,y319"
+         },
+         {
+          "name": "1:1",
+          "crop": "1952,1952,x922,y322"
+         },
+         {
+          "name": "4:3",
+          "crop": "3517,2638,x0,y259"
+         },
+         {
+          "name": "3:4",
+          "crop": "3517,4689,x0,y212"
+         }
+        ],
+        "imageService": "fastly"
+       },
+       "language": {
+        "locale": "de-CH"
+       },
+       "nzzId": "ld.1865293",
+       "readingTime": 420,
+       "authorLine": "Petra Ramsauer",
+       "characterCount": 8165,
+       "product": "NZZ.ch",
+       "documentId": 1865293,
+       "layout": "longformstandard",
+       "publicationDate": "2025-01-11T20:47:00.000Z",
+       "publicationLastUpdated": "2025-01-11T20:47:00.000Z",
+       "significantUpdate": false,
+       "significantUpdateTill": "2025-01-12T08:47:00.000Z",
+       "teaserCaption": "Lebanon is constantly on the brink of economic and political collapse. Yet, abroad, the Lebanese are more successful than almost any other nation. This could also be related to the crisis at home.",
+       "url": "/international/wieso-libanesen-so-erfolgreich-sind-ld.1865293",
+       "department": {
+        "name": "International",
+        "path": "/international"
+       },
+       "estimationWordCount": 1307,
+       "leadText": "Lebanon is constantly on the brink of economic and political collapse. Yet, abroad, the Lebanese are more successful than almost any other nation. This could also be related to the crisis at home."
+      }
+     },
+     {
+      "identifier": "teaser",
+      "id": "doc-1j5650g3e2",
+      "content": {
+       "title": "Is the intelligence quotient a pseudoscientific hoax? Nassim Taleb confronts Steven Pinker and other heroes of the dark web",
+       "teaserImage": {
+        "originalUrl": "/2019/1/11/3bd3d1ef-ced5-461c-8597-8605696885ae.jpeg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2019/1/11/3bd3d1ef-ced5-461c-8597-8605696885ae.jpeg?width=1024&quality=75&auto=webp",
+        "width": 4830,
+        "height": 3215,
+        "imageService": "fastly",
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "4830,2717,x0,y249"
+         },
+         {
+          "name": "1:1",
+          "crop": "3215,3215,x808,y0"
+         }
+        ],
+        "teaserCaption": "On Twitter, the Lebanese-American philosopher Nassim Nicholas Taleb sparked a debate that packs a punch. It is not only rough and raw, but also substantial."
+       },
+       "nzzasFootnote": false,
+       "folioFootnote": false,
+       "language": {
+        "locale": "de-CH"
+       },
+       "nzzId": "ld.1450747",
+       "readingTime": 120,
+       "authorLine": "Marc Neumann, Washington",
+       "characterCount": 3405,
+       "product": "NZZ.ch",
+       "documentId": 1450747,
+       "layout": "regular",
+       "publicationDate": "2019-01-11T14:21:54.988Z",
+       "publicationLastUpdated": "2019-01-16T08:58:08.459Z",
+       "significantUpdate": false,
+       "significantUpdateTill": "2019-01-12T02:21:54.988Z",
+       "teaserCaption": "On Twitter, the Lebanese-American philosopher Nassim Nicholas Taleb sparked a debate that packs a punch. It is not only rough and raw, but also substantial.",
+       "url": "/feuilleton/ist-der-intelligenzquotient-ein-pseudowissenschaftlicher-schwindel-nassim-taleb-geht-auf-konfrontation-mit-steven-pinker-und-anderen-helden-des-dark-web-ld.1450747",
+       "department": {
+        "name": "Arts & Culture",
+        "path": "/feuilleton"
+       },
+       "estimationWordCount": 496,
+       "leadText": "On Twitter, the Lebanese-American philosopher Nassim Nicholas Taleb sparked a debate that packs a punch. It is not only rough and raw, but also substantial."
+      }
+     },
+     {
+      "identifier": "teaser",
+      "id": "doc-1j5glogll0",
+      "content": {
+       "owner": "NZZ",
+       "flag": "Sponsored Topic",
+       "title": "«What was once normal is now considered unsafe.»",
+       "teaserImage": {
+        "originalUrl": "/2024/05/24/e9f033d4-8334-41e2-afbd-f8008016714e.jpeg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2024/05/24/e9f033d4-8334-41e2-afbd-f8008016714e.jpeg?width=1024&quality=75&auto=webp",
+        "width": 1546,
+        "height": 1846,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "1546,870,x0,y19"
+         },
+         {
+          "name": "1:1",
+          "crop": "1546,1546,x0,y0"
+         },
+         {
+          "name": "4:3",
+          "crop": "1546,1160,x0,y0"
+         },
+         {
+          "name": "3:4",
+          "crop": "1385,1846,x99,y0"
+         }
+        ],
+        "imageService": "fastly",
+        "teaserCaption": "Nassim Nicholas Taleb, author of the legendary book «The Black Swan», on the uncertainties of today's world, the declining willingness to take risks and the weakness of Europe.",
+        "teaserAuthor": "Sarah Josephine Taleb"
+       },
+       "teaserAuthor": "Sarah Josephine Taleb",
+       "nzzasFootnote": false,
+       "folioFootnote": false,
+       "language": {
+        "locale": "de-CH"
+       },
+       "nzzId": "ld.1831940",
+       "readingTime": 480,
+       "teaserType": "headline--sponsored",
+       "authorLine": "NZZ Content Creation",
+       "characterCount": 10062,
+       "product": "NZZ.ch",
+       "documentId": 1831940,
+       "layout": "regular",
+       "publicationDate": "2024-05-31T22:05:00.000Z",
+       "publicationLastUpdated": "2024-05-31T22:05:00.000Z",
+       "significantUpdate": false,
+       "significantUpdateTill": "2024-06-01T10:05:00.000Z",
+       "teaserCaption": "Nassim Nicholas Taleb, author of the legendary book «The Black Swan», on the uncertainties of today's world, the declining willingness to take risks and the weakness of Europe.",
+       "url": "/themen-dossiers/sef/heute-gilt-als-unsicher-was-frueher-normal-war-ld.1831940",
+       "department": {
+        "name": "SEF",
+        "path": "/themen-dossiers/sef"
+       },
+       "estimationWordCount": 1575,
+       "leadText": "Nassim Nicholas Taleb, author of the legendary book «The Black Swan», on the uncertainties of today's world, the declining willingness to take risks and the weakness of Europe."
+      }
+     },
+     {
+      "identifier": "teaser",
+      "id": "doc-1j5650g3e3",
+      "content": {
+       "title": "The Corona pandemic is not a black swan: Why 2020 cannot be compared to 2008, according to Nassim Taleb",
+       "teaserImage": {
+        "originalUrl": "/2020/3/30/e00e3871-00cc-4aeb-912b-df30b46102e2.jpeg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2020/3/30/e00e3871-00cc-4aeb-912b-df30b46102e2.jpeg?width=1024&quality=75&auto=webp",
+        "width": 4032,
+        "height": 3024,
+        "imageService": "fastly",
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "4032,2268,x0,y747"
+         },
+         {
+          "name": "1:1",
+          "crop": "2389,2389,x908,y635"
+         }
+        ],
+        "teaserCaption": "Which industries and companies should governments support, and which should they absolutely not? A guide to distinguishing between them.",
+        "teaserAuthor": "Lucy Nicholson / Reuters"
+       },
+       "teaserAuthor": "Lucy Nicholson / Reuters",
+       "nzzasFootnote": false,
+       "folioFootnote": false,
+       "language": {
+        "locale": "de-CH"
+       },
+       "nzzId": "ld.1548877",
+       "readingTime": 300,
+       "authorLine": "Nassim Nicolas Taleb & Mark Spitznagel",
+       "characterCount": 6196,
+       "product": "NZZ.ch",
+       "documentId": 1548877,
+       "layout": "regular",
+       "publicationDate": "2020-03-27T13:56:14.758Z",
+       "publicationLastUpdated": "2020-03-30T09:21:33.370Z",
+       "significantUpdate": false,
+       "significantUpdateTill": "2020-03-28T01:56:14.758Z",
+       "teaserCaption": "Which industries and companies should governments support, and which should they absolutely not? A guide to distinguishing between them.",
+       "url": "/feuilleton/kein-schwarzer-schwan-nassim-taleb-ueber-die-corona-pandemie-ld.1548877",
+       "department": {
+        "name": "Arts & Culture",
+        "path": "/feuilleton"
+       },
+       "estimationWordCount": 963,
+       "leadText": "Which industries and companies should governments support, and which should they absolutely not? A guide to distinguishing between them."
+      }
+     }
+    ]
+   },
+   "paidContent": true,
+   "prevElement": "sharebox",
+   "nextElement": "",
+   "lastContentElement": true
+  }
+ ],
+ "metadata": {
+  "owner": "NZZaS",
+  "germanyRelevant": true,
+  "flag": "interview",
+  "title": "«Trump must have mistaken the USA for another country,» says Nassim Taleb, author of the book «The Black Swan»",
+  "teaserImage": {
+   "originalUrl": "/2025/09/17/396de226-be84-4f28-85d0-721cc6cbd6f2.jpg?width=1024",
+   "url": "https://img-msp-prod.nzz.ch/2025/09/17/396de226-be84-4f28-85d0-721cc6cbd6f2.jpg?width=1024&quality=75&auto=webp",
+   "width": 1546,
+   "height": 1846,
+   "crops": [
+    {
+     "name": "16:9",
+     "crop": "1546,870,x0,y0"
+    },
+    {
+     "name": "1:1",
+     "crop": "1086,1086,x217,y0"
+    },
+    {
+     "name": "4:3",
+     "crop": "1546,1160,x0,y0"
+    },
+    {
+     "name": "3:4",
+     "crop": "1385,1846,x52,y0"
+    },
+    {
+     "name": "3:2",
+     "crop": "1546,1031,x0,y0"
+    }
+   ],
+   "imageService": "fastly",
+   "teaserCaption": "In the interview, the renowned scientist expresses his profound disappointment with US President Trump. He also voices his concern about the high levels of debt accumulated by industrialized nations.",
+   "teaserAuthor": "Sarah Josephine Taleb / Penguin Random House"
+  },
+  "teaserAuthor": "Sarah Josephine Taleb / Penguin Random House",
+  "nzzasFootnote": false,
+  "folioFootnote": false,
+  "language": {
+   "locale": "en-US"
+  },
+  "nzzId": "ld.1902492",
+  "readingTime": 780,
+  "authorLine": "Michael Ferber, Markus Städeli",
+  "characterCount": 16888,
+  "breadcrumbs": [
+   {
+    "name": "Finance",
+    "path": "/finanzen"
+   }
+  ],
+  "product": "NZZ.ch",
+  "documentId": 1902492,
+  "contentTypeGroup": "web",
+  "layout": "longformstandard",
+  "firstPublicationDate": "2025-09-20T19:45:00.000Z",
+  "publicationDate": "2025-09-20T19:45:00.000Z",
+  "publicationLastUpdated": "2025-11-03T13:52:49.532Z",
+  "significantUpdate": false,
+  "significantUpdateTill": "2025-09-21T07:45:00.000Z",
+  "teaserCaption": "In the interview, the renowned scientist expresses his profound disappointment with US President Trump. He also voices his concern about the high levels of debt accumulated by industrialized nations.",
+  "nzzAuthors": [
+   {
+    "id": 1372418,
+    "name": "Michael Ferber",
+    "shortName": "feb",
+    "pianoId": "df5ba0d4-ba27-4cfc-8794-d9d0c0f97105",
+    "external": false
+   },
+   {
+    "id": 1373794,
+    "name": "Markus Städeli",
+    "shortName": "stä",
+    "external": false
+   }
+  ],
+  "authorImage": {
+   "originalUrl": "/2025/01/17/53fdb0be-71ee-49f7-9ca6-7ca3b9360e0d.jpeg?width=1024",
+   "url": "https://img-msp-prod.nzz.ch/2025/01/17/53fdb0be-71ee-49f7-9ca6-7ca3b9360e0d.jpeg?width=1024&quality=75&auto=webp",
+   "width": 4547,
+   "height": 3032,
+   "crops": [
+    {
+     "name": "1:1",
+     "crop": "2396,2396,x938,y397"
+    }
+   ],
+   "imageService": "fastly"
+  },
+  "nzzAuthorProfileDataCollection": [
+   {
+    "documentId": 1085430,
+    "name": "Michael Ferber Imprint Finance Business",
+    "teaserImageUrl": "https://img-msp-prod.nzz.ch/2025/01/17/53fdb0be-71ee-49f7-9ca6-7ca3b9360e0d.jpeg?width=1024&quality=75&auto=webp"
+   },
+   {
+    "documentId": 1723371,
+    "name": "Markus Städeli (stä.)",
+    "teaserImageUrl": "https://img-msp-prod.nzz.ch/2023/12/06/c8d63d85-2a0d-4fc5-9288-ba44fa4f5baf.png?width=1024&quality=75&auto=webp"
+   }
+  ],
+  "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2025/01/17/53fdb0be-71ee-49f7-9ca6-7ca3b9360e0d.jpeg?width=1024&quality=75&auto=webp",
+  "url": "/finanzen/schwarzer-schwan-autor-nassim-taleb-im-interview-zu-trump-schulden-usa-gold-ld.1902492",
+  "department": {
+   "name": "Finance",
+   "path": "/finanzen"
+  },
+  "estimationWordCount": 2533,
+  "premium": true,
+  "leadText": "In the interview, the renowned scientist expresses his profound disappointment with US President Trump. He also voices his concern about the high levels of debt accumulated by industrialized nations.",
+  "nzzSummaryEN": "- Nassim Taleb explains that the financial system has become increasingly fragile due to high debt levels in wealthy countries, especially driven by zero interest policies and the shift of debt burdens from banks to governments.\n- He criticizes Donald Trump's policies for causing labor shortages, brain drain, and a polarized economy, while making the U.S. less predictable and stable.\n- According to Taleb, China is on track to become the leading superpower, as the West's economic and military influence erodes due to inefficiency and high costs.",
+  "nzzSummaryDE": "Nassim Taleb explains that the financial system has become increasingly fragile due to the high debt of wealthy states, particularly due to the zero interest rate policy and the shift of debt from banks to states.\n - He criticizes the policies of Donald Trump, which in his view have led to a shortage of workers and a brain drain, as well as to an increasingly unpredictable and polarized economy.\n According to Taleb, China is on its way to becoming the leading superpower, while the West's economic and military position is eroding due to inefficiency and high costs.",
+  "nzzSummaryIsAuto": true,
+  "nzzSummaryModel": "gpt-4o-2024-11-20",
+  "nzzPrintTitle": "«Trump is a black swan»",
+  "nzzPrintSubtitle": "The renowned scientist and author expresses his profound disappointment with the US president and his government in the interview",
+  "allArticleLanguages": [
+   {
+    "locale": "de-CH",
+    "urlPath": "/finanzen/schwarzer-schwan-autor-nassim-taleb-im-interview-zu-trump-schulden-usa-gold-ld.1902492",
+    "seo": {}
+   }
+  ],
+  "seo": {
+   "canonicalUrl": "https://www.nzz.ch/finanzen/schwarzer-schwan-autor-nassim-taleb-im-interview-zu-trump-schulden-usa-gold-ld.1902492",
+   "title": "«Black Swan» author Taleb on Trump, debt, the USA, gold",
+   "socialMediaTitle": "Trump is making the US more fragile: «Black Swan» author Nassim Taleb warns of debt",
+   "description": "«Trump must have mistaken the USA for another country,» says Nassim Taleb, author of the book «The Black Swan». ",
+   "excludeFromSpiders": false,
+   "image": "https://img-msp-prod.nzz.ch/2025/09/17/396de226-be84-4f28-85d0-721cc6cbd6f2.jpg?width=1200&height=675&fit=bounds&quality=75&auto=webp&crop=1546,870,x0,y0&wmark=nzz"
+  },
+  "ldPublicationId": 2407538,
+  "isHighlightedHeader": false,
+  "nzzTopics": [
+   {
+    "name": "USA",
+    "slug": "/themen/usa"
+   },
+   {
+    "name": "Donald Trump",
+    "slug": "/themen/donald-trump"
+   },
+   {
+    "name": "China",
+    "slug": "/themen/china"
+   },
+   {
+    "name": "Gold",
+    "slug": "/themen/gold"
+   },
+   {
+    "name": "Apple",
+    "slug": "/themen/apple"
+   },
+   {
+    "name": "Fed",
+    "slug": "/themen/fed"
+   },
+   {
+    "name": "United States Immigration and Customs Enforcement",
+    "slug": "/themen/united-states-immigration-and-customs-enforcement"
+   },
+   {
+    "name": "inflation",
+    "slug": "/themen/inflation"
+   },
+   {
+    "name": "Russia",
+    "slug": "/themen/russland"
+   },
+   {
+    "name": "India",
+    "slug": "/themen/indien"
+   },
+   {
+    "name": "France",
+    "slug": "/themen/frankreich"
+   },
+   {
+    "name": "Joe Biden",
+    "slug": "/themen/joe-biden"
+   },
+   {
+    "name": "Barack Obama",
+    "slug": "/themen/barack-obama"
+   },
+   {
+    "name": "Ukraine",
+    "slug": "/themen/ukraine"
+   },
+   {
+    "name": "JD Vance",
+    "slug": "/themen/j-d-vance"
+   },
+   {
+    "name": "Silicon Valley",
+    "slug": "/themen/silicon-valley"
+   },
+   {
+    "name": "Wine",
+    "slug": "/themen/wein"
+   },
+   {
+    "name": "Lebanon",
+    "slug": "/themen/libanon"
+   },
+   {
+    "name": "Turkey",
+    "slug": "/themen/tuerkei"
+   },
+   {
+    "name": "Mexico",
+    "slug": "/themen/mexiko"
+   },
+   {
+    "name": "Iran",
+    "slug": "/themen/iran"
+   },
+   {
+    "name": "Argentina",
+    "slug": "/themen/argentinien"
+   },
+   {
+    "name": "Zimbabwe",
+    "slug": "/themen/simbabwe"
+   }
+  ],
+  "barrierIndex": 3,
+  "outlinks": {
+   "mehrZumThema": [
+    "ld.1488354",
+    "ld.1865293",
+    "ld.1450747",
+    "ld.1831940",
+    "ld.1548877"
+   ],
+   "artikelListe": [],
+   "aliasTeaserEmbedList": []
+  },
+  "tts": true,
+  "mp3": true,
+  "mp3Duration": 1135726,
+  "colorSchema": "color-schema--premium",
+  "project": "nzz",
+  "machineTranslated": true,
+  "machineTranslationValidated": false
+ },
+ "isReduced": false,
+ "isPaid": false,
+ "isVamp": false,
+ "isWebview": false,
+ "btaFeed": {
+  "meta": {
+   "id": "usa",
+   "name": "USA",
+   "tagName": "USA",
+   "qId": "Q30",
+   "seoTitle": "USA – All news and articles about the United States of America | NZZ",
+   "description": null,
+   "firstName": null,
+   "lastName": null,
+   "category": "LOC",
+   "createdDate": "2025-04-08 14:37:30.759Z",
+   "imageURL": null,
+   "imageCroppedURL": null,
+   "imageWidth": null,
+   "imageHeight": null,
+   "imageCredits": null,
+   "url": "https://nzz.ch/themen/usa",
+   "size": 8114,
+   "relatedTopics": [
+    {
+     "name": "Donald Trump",
+     "slug": "/themen/donald-trump"
+    },
+    {
+     "name": "China",
+     "slug": "/themen/china"
+    },
+    {
+     "name": "Gold",
+     "slug": "/themen/gold"
+    },
+    {
+     "name": "Apple",
+     "slug": "/themen/apple"
+    },
+    {
+     "name": "Fed",
+     "slug": "/themen/fed"
+    },
+    {
+     "name": "United States Immigration and Customs Enforcement",
+     "slug": "/themen/united-states-immigration-and-customs-enforcement"
+    },
+    {
+     "name": "Inflation",
+     "slug": "/themen/inflation"
+    },
+    {
+     "name": "Russland",
+     "slug": "/themen/russland"
+    },
+    {
+     "name": "Indien",
+     "slug": "/themen/indien"
+    },
+    {
+     "name": "Frankreich",
+     "slug": "/themen/frankreich"
+    },
+    {
+     "name": "Joe Biden",
+     "slug": "/themen/joe-biden"
+    },
+    {
+     "name": "Barack Obama",
+     "slug": "/themen/barack-obama"
+    },
+    {
+     "name": "Ukraine",
+     "slug": "/themen/ukraine"
+    },
+    {
+     "name": "J. D. Vance",
+     "slug": "/themen/j-d-vance"
+    },
+    {
+     "name": "Silicon Valley",
+     "slug": "/themen/silicon-valley"
+    },
+    {
+     "name": "Wein",
+     "slug": "/themen/wein"
+    },
+    {
+     "name": "Libanon",
+     "slug": "/themen/libanon"
+    },
+    {
+     "name": "Türkei",
+     "slug": "/themen/tuerkei"
+    },
+    {
+     "name": "Mexiko",
+     "slug": "/themen/mexiko"
+    },
+    {
+     "name": "Iran",
+     "slug": "/themen/iran"
+    },
+    {
+     "name": "Argentinien",
+     "slug": "/themen/argentinien"
+    },
+    {
+     "name": "Simbabwe",
+     "slug": "/themen/simbabwe"
+    }
+   ]
+  },
+  "data": [
+   {
+    "owner": "NZZ",
+    "flag": "Data analysis",
+    "title": "How Popular Is Donald Trump?",
+    "teaserImage": {
+     "originalUrl": "/2025/05/14/154a166c-8b2d-43cc-a217-b54eff571553.png?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2025/05/14/154a166c-8b2d-43cc-a217-b54eff571553.png?width=1024&quality=75&auto=webp",
+     "width": 1801,
+     "height": 1351,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "1801,1013,x0,y169"
+      },
+      {
+       "name": "4:3",
+       "crop": "1801,1351,x0,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "1351,1351,x225,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "1013,1351,x394,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "1801,1201,x0,y75"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "Daily updated poll numbers: American sentiment toward their president's administration. An overview in graphics.",
+     "teaserAuthor": "Illustration by Jasmin Hegetschweiler / NZZ"
+    },
+    "teaserAuthor": "Illustration by Jasmin Hegetschweiler / NZZ",
+    "nzzasFootnote": false,
+    "folioFootnote": false,
+    "language": {
+     "locale": "de-CH"
+    },
+    "nzzId": "ld.1883243",
+    "readingTime": 120,
+    "authorLine": "Nikolai Thelitz",
+    "paywallQuestionOne": "Why has Trump's popularity declined?",
+    "paywallQuestionTwo": "What is Trump's stance on the economic situation?",
+    "paywallQuestionThree": "How do Americans view Trump's immigration policy?",
+    "characterCount": 2062,
+    "product": "NZZ.ch",
+    "documentId": "1883243",
+    "layout": "regular",
+    "publicationDate": "2026-09-03T07:57:50.000Z",
+    "publicationLastUpdated": "2026-09-03T07:57:50.000Z",
+    "significantUpdate": true,
+    "significantUpdateTill": "2026-09-03T19:57:50.000Z",
+    "teaserCaption": "Daily updated poll numbers: American sentiment toward their president's administration. An overview in graphics.",
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2026/06/08/e254b9af-5f2d-4473-af8c-a9de53509f60.jpg?width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/visuals/trump-umfragewerte-aktuell-2026-so-beliebt-ist-er-in-den-usa-ld.1883243",
+    "department": {
+     "name": "Visual Stories",
+     "path": "/visuals"
+    },
+    "estimationWordCount": 317,
+    "leadText": "Daily updated poll numbers: American sentiment toward their president's administration. An overview in graphics.",
+    "nzzSummaryIsAuto": true,
+    "hasQ": true
+   },
+   {
+    "title": "10 dollars for a coffee, 600% inflation – and hope for new oil billions: Welcome to everyday life in Venezuela",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "teaserImage": {
+     "originalUrl": "/2026/08/26/7b3cc737-abbf-4cb8-969f-49ba1900d8de.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/08/26/7b3cc737-abbf-4cb8-969f-49ba1900d8de.jpg?width=1024&quality=75&auto=webp",
+     "width": 7864,
+     "height": 5200,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "7864,4423,x0,y776"
+      },
+      {
+       "name": "4:3",
+       "crop": "6933,5200,x255,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "4298,4298,x1520,y635"
+      },
+      {
+       "name": "3:4",
+       "crop": "3223,4298,x2395,y902"
+      },
+      {
+       "name": "3:2",
+       "crop": "7091,4727,x300,y472"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "Much of the former glory of Venezuela's oil wealth has faded. But things are changing: investors and returning residents are rediscovering Venezuela. And now Donald Trump has big plans, too.",
+     "teaserAuthor": "NZZ"
+    },
+    "teaserAuthor": "NZZ",
+    "showComments": true,
+    "tags": [
+     "Fotografie"
+    ],
+    "teaserCarouselOne": {
+     "originalUrl": "/2026/08/26/7b3cc737-abbf-4cb8-969f-49ba1900d8de.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/08/26/7b3cc737-abbf-4cb8-969f-49ba1900d8de.jpg?width=1024&quality=75&auto=webp",
+     "width": 7864,
+     "height": 5200,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "7864,4423,x0,y388"
+      },
+      {
+       "name": "1:1",
+       "crop": "5200,5200,x1332,y0"
+      },
+      {
+       "name": "4:3",
+       "crop": "6933,5200,x465,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "3900,5200,x1982,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "7800,5200,x32,y0"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "teaserCarouselTwo": {
+     "originalUrl": "/2026/08/28/63a7de33-abc5-42fc-b8dd-be1ea6c32358.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/08/28/63a7de33-abc5-42fc-b8dd-be1ea6c32358.jpg?width=1024&quality=75&auto=webp",
+     "width": 7000,
+     "height": 4659,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "7000,3937,x0,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "4659,4659,x340,y0"
+      },
+      {
+       "name": "4:3",
+       "crop": "6212,4659,x0,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "3494,4659,x922,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "6989,4659,x0,y0"
+      }
+     ],
+     "focalPoint": {
+      "x": 2669,
+      "y": 1695
+     },
+     "imageService": "fastly"
+    },
+    "teaserCarouselThree": {
+     "originalUrl": "/2026/08/27/1f3f06d2-eb2c-4583-b4c6-97fda2f94e62.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/08/27/1f3f06d2-eb2c-4583-b4c6-97fda2f94e62.jpg?width=1024&quality=75&auto=webp",
+     "width": 7000,
+     "height": 4629,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "7000,3937,x0,y646"
+      },
+      {
+       "name": "1:1",
+       "crop": "4629,4629,x0,y0"
+      },
+      {
+       "name": "4:3",
+       "crop": "6172,4629,x0,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "3472,4629,x331,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "6944,4629,x0,y0"
+      }
+     ],
+     "focalPoint": {
+      "x": 2067,
+      "y": 2614
+     },
+     "imageService": "fastly"
+    },
+    "nzzId": "ld.10020261",
+    "readingTime": 600,
+    "paywallQuestionOne": "How will Trump's oil deal affect Venezuela's economic future?",
+    "paywallQuestionTwo": "What role do returning refugees and investors play in Venezuela's recovery?",
+    "paywallQuestionThree": "Why does the oil sector remain unsafe for investors despite reforms?",
+    "characterCount": 11936,
+    "product": "NZZ.ch",
+    "documentId": "10020261",
+    "layout": "longformvisual",
+    "publicationDate": "2026-09-03T03:30:00.000Z",
+    "publicationLastUpdated": "2026-09-03T03:30:00.000Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-09-03T15:30:00.000Z",
+    "teaserCaption": "Much of the former glory of Venezuela's oil wealth has faded. But things are changing: investors and returning residents are rediscovering Venezuela. And now Donald Trump has big plans, too.",
+    "authorLine": "Alexander Busch (text), Ana Gosen (images), Caracas",
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2024/02/21/c267e623-a396-4320-8b54-9d2b88c6b73a.png?crop=800,800,x0,y0&width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/wirtschaft/10-dollar-fuer-einen-kaffee-600-prozent-inflation-und-hoffnung-auf-neue-erdoelmilliarden-willkommen-im-alltag-in-venezuela-ld.10020261",
+    "department": {
+     "name": "Economy",
+     "path": "/wirtschaft"
+    },
+    "estimationWordCount": 1908,
+    "premium": true,
+    "leadText": "Much of the former glory of Venezuela's oil wealth has faded. But things are changing: investors and returning residents are rediscovering Venezuela. And now Donald Trump has big plans, too.",
+    "nzzSummaryIsAuto": true,
+    "commentsCount": 1,
+    "openToComment": false,
+    "locale": "de-CH"
+   },
+   {
+    "title": "September begins turbulently on the stock market: seven developments that are making the financial markets nervous",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "teaserImage": {
+     "originalUrl": "/2026/09/02/600ca9a6-b4aa-47c2-8d9d-f918ab920965.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/09/02/600ca9a6-b4aa-47c2-8d9d-f918ab920965.jpg?width=1024&quality=75&auto=webp",
+     "width": 7898,
+     "height": 5268,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "7898,4443,x0,y187"
+      },
+      {
+       "name": "4:3",
+       "crop": "7024,5268,x143,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "5268,5268,x1162,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "3951,5268,x1731,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "7898,5265,x0,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "Rising yields, expensive oil, and the insatiable demand for funding for AI – all problems for which no quick solution is in sight. An overview of what investors need to prepare for.",
+     "teaserAuthor": "Jacquelyn Martin / AP"
+    },
+    "teaserAuthor": "Jacquelyn Martin / AP",
+    "nzzId": "ld.10022036",
+    "readingTime": 360,
+    "paywallQuestionOne": "Why are American Treasury bonds experiencing a historic sell-off?",
+    "paywallQuestionTwo": "How do rising oil prices and interest rates affect global financial markets?",
+    "paywallQuestionThree": "What role do AI investments play in the competition with government bonds?",
+    "characterCount": 7839,
+    "product": "NZZ.ch",
+    "documentId": "10022036",
+    "layout": "regular",
+    "publicationDate": "2026-09-02T14:02:39.657Z",
+    "publicationLastUpdated": "2026-09-02T14:45:50.108Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-09-03T02:02:39.657Z",
+    "teaserCaption": "Rising yields, expensive oil, and the insatiable demand for funding for AI – all problems for which no quick solution is in sight. An overview of what investors need to prepare for.",
+    "authorLine": "Benjamin Triebe",
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2024/05/28/66e46add-875c-44d3-97bc-9ef706f6bc3d.jpeg?width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/finanzen/ausverkauf-bei-staatsanleihen-die-gruende-fuer-die-boersen-unruhe-sind-hartnaeckig-ld.10022036",
+    "department": {
+     "name": "Finance",
+     "path": "/finanzen"
+    },
+    "estimationWordCount": 1151,
+    "leadText": "Rising yields, expensive oil, and the insatiable demand for funding for AI – all problems for which no quick solution is in sight. An overview of what investors need to prepare for.",
+    "nzzSummaryIsAuto": true,
+    "hasQ": true,
+    "locale": "de-CH"
+   },
+   {
+    "title": "Germany protests, and the Russian Finance Minister parleys in the U.S.: This is not how sanctions work",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "flag": "Opinion",
+    "showComments": true,
+    "teaserImage": {
+     "originalUrl": "/2026/09/02/0f7820ef-f01e-49e7-9e43-eec6448cefbb.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/09/02/0f7820ef-f01e-49e7-9e43-eec6448cefbb.jpg?width=1024&quality=75&auto=webp",
+     "width": 6500,
+     "height": 4335,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "6500,3656,x0,y555"
+      },
+      {
+       "name": "4:3",
+       "crop": "5780,4335,x398,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "2961,2961,x392,y484"
+      },
+      {
+       "name": "3:4",
+       "crop": "3251,4335,x550,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "6500,4333,x0,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "Germany wants to hold Russia more accountable – and Donald Trump's administration is in the US talking with the Russian finance minister about cooperation in the international financial system. If sanctions are to be effective, they must be used more effectively and consistently.",
+     "teaserAuthor": "Sam Wolfe / Reuters"
+    },
+    "teaserAuthor": "Sam Wolfe / Reuters",
+    "editor": "1373452",
+    "paywallQuestionOne": "Who is the Russian Finance Minister Anton Siluanov, and why was he sanctioned?",
+    "paywallQuestionTwo": "What are sanctions intended to achieve and how do they work?",
+    "paywallQuestionThree": "How are the signals from the USA affecting us, and what would need to change?",
+    "nzzId": "ld.10022026",
+    "readingTime": 240,
+    "characterCount": 5319,
+    "product": "NZZ.ch",
+    "documentId": "10022026",
+    "layout": "opinion",
+    "publicationDate": "2026-09-02T11:58:27.752Z",
+    "publicationLastUpdated": "2026-09-02T17:58:55.039Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-09-02T23:58:27.752Z",
+    "teaserCaption": "Germany wants to hold Russia more accountable – and Donald Trump's administration is in the US talking with the Russian finance minister about cooperation in the international financial system. If sanctions are to be effective, they must be used more effectively and consistently.",
+    "authorLine": "Peter A. Fischer",
+    "authorImage": {
+     "originalUrl": "/2022/07/27/d59a0238-12f1-43d7-8905-6e94594be820.png?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2022/07/27/d59a0238-12f1-43d7-8905-6e94594be820.png?width=1024&quality=75&auto=webp",
+     "width": 800,
+     "height": 800,
+     "crops": [
+      {
+       "name": "1:1",
+       "crop": "800,800,x0,y0"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2022/07/27/d59a0238-12f1-43d7-8905-6e94594be820.png?width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/meinung/deutschland-protestiert-und-der-russische-finanzminister-parliert-in-den-usa-so-funktionieren-sanktionen-nicht-ld.10022026",
+    "department": {
+     "name": "Opinion",
+     "path": "/meinung"
+    },
+    "estimationWordCount": 781,
+    "premium": true,
+    "leadText": "Germany wants to hold Russia more accountable – and Donald Trump's administration is in the US talking with the Russian finance minister about cooperation in the international financial system. If sanctions are to be effective, they must be used more effectively and consistently.",
+    "nzzSummaryIsAuto": true,
+    "commentsCount": 7,
+    "openToComment": false,
+    "locale": "de-CH"
+   },
+   {
+    "title": "«Tanker for Tanker»: Trump escalates further in the Strait of Hormuz",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "teaserImage": {
+     "originalUrl": "/2026/09/02/e7ac2042-b8b6-4979-b234-1c4b2e17dd24.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/09/02/e7ac2042-b8b6-4979-b234-1c4b2e17dd24.jpg?width=1024&quality=75&auto=webp",
+     "width": 5500,
+     "height": 3666,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "5500,3094,x0,y306"
+      },
+      {
+       "name": "4:3",
+       "crop": "4444,3333,x427,y62"
+      },
+      {
+       "name": "1:1",
+       "crop": "3333,3333,x536,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "2273,3030,x487,y185"
+      },
+      {
+       "name": "3:2",
+       "crop": "4999,3333,x0,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "The battle for the strait intensifies again. For the first time, the U.S. also attacks Iranian oil tankers. In retaliation, Tehran targets U.S. military bases in the Middle East. Trump once again calls on Iranians to revolt.",
+     "teaserAuthor": "Majid Asgaripour/Wana News Agency via Reuters"
+    },
+    "teaserAuthor": "Majid Asgaripour/Wana News Agency via Reuters",
+    "tags": [
+     "Krieg in Nahost",
+     "Iran-Krieg",
+     "Die USA unter Trump"
+    ],
+    "nzzId": "ld.10022048",
+    "readingTime": 240,
+    "paywallQuestionOne": "How does the escalation in Hormuz affect the global oil supply?",
+    "paywallQuestionTwo": "What goals is Trump pursuing with the blockade against Iran?",
+    "paywallQuestionThree": "How is Iran reacting to the US attacks?",
+    "characterCount": 5043,
+    "product": "NZZ.ch",
+    "documentId": "10022048",
+    "layout": "regular",
+    "publicationDate": "2026-09-02T11:30:00.880Z",
+    "publicationLastUpdated": "2026-09-02T12:17:04.250Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-09-02T23:30:00.880Z",
+    "teaserCaption": "The battle for the strait intensifies again. For the first time, the U.S. also attacks Iranian oil tankers. In retaliation, Tehran targets U.S. military bases in the Middle East. Trump once again calls on Iranians to revolt.",
+    "authorLine": "Christian Weisflog",
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2022/06/29/610f656f-240a-49e1-b6b4-fec855be6253.png?width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/international/tanker-fuer-tanker-trump-zuendet-in-der-strasse-von-hormuz-die-naechste-eskalationsstufe-ld.10022048",
+    "department": {
+     "name": "International",
+     "path": "/international"
+    },
+    "estimationWordCount": 776,
+    "leadText": "The battle for the strait intensifies again. For the first time, the U.S. also attacks Iranian oil tankers. In retaliation, Tehran targets U.S. military bases in the Middle East. Trump once again calls on Iranians to revolt.",
+    "nzzSummaryIsAuto": true,
+    "locale": "de-CH"
+   },
+   {
+    "title": "Trump's grab for Venezuela's oil reserves remains a paper tiger",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "teaserImage": {
+     "originalUrl": "/2026/08/31/4d9de37a-1c64-49c3-9ba2-8e692b924573.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/08/31/4d9de37a-1c64-49c3-9ba2-8e692b924573.jpg?width=1024&quality=75&auto=webp",
+     "width": 5500,
+     "height": 3668,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "5500,3094,x0,y0"
+      },
+      {
+       "name": "4:3",
+       "crop": "4891,3668,x305,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "3668,3668,x916,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "2751,3668,x1375,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "5500,3667,x0,y1"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "With his agreement, Donald Trump aims to increase the US's strategic oil reserves. However, Venezuela currently produces only one percent of global crude oil. This cannot be changed easily or quickly.",
+     "teaserAuthor": "Gaby Oraa / Reuters"
+    },
+    "teaserAuthor": "Gaby Oraa / Reuters",
+    "flag": "Opinion",
+    "showComments": true,
+    "nzzId": "ld.10021740",
+    "readingTime": 180,
+    "paywallQuestionOne": "Why does Trump's deal with Venezuela remain meaningless for the world market?",
+    "paywallQuestionTwo": "How do mismanagement and sanctions affect Venezuela's oil production?",
+    "paywallQuestionThree": "What challenges exist for investments in Venezuela's oil sector?",
+    "characterCount": 4369,
+    "product": "NZZ.ch",
+    "documentId": "10021740",
+    "layout": "opinion",
+    "publicationDate": "2026-09-01T03:30:00.000Z",
+    "publicationLastUpdated": "2026-09-01T06:50:39.452Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-09-01T15:30:00.000Z",
+    "teaserCaption": "With his agreement, Donald Trump aims to increase the US's strategic oil reserves. However, Venezuela currently produces only one percent of global crude oil. This cannot be changed easily or quickly.",
+    "authorLine": "Catherine Bosley",
+    "authorImage": {
+     "originalUrl": "/2025/12/31/f4854fdf-6fd5-4b83-9089-75e151c90563.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2025/12/31/f4854fdf-6fd5-4b83-9089-75e151c90563.jpg?width=1024&quality=75&auto=webp",
+     "width": 6000,
+     "height": 4000,
+     "crops": [
+      {
+       "name": "1:1",
+       "crop": "4000,4000,x1000,y0"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2025/12/31/f4854fdf-6fd5-4b83-9089-75e151c90563.jpg?width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/meinung/trumps-griff-nach-venezuelas-erdoelschaetzen-bleibt-ein-papiertiger-ld.10021740",
+    "department": {
+     "name": "Opinion",
+     "path": "/meinung"
+    },
+    "estimationWordCount": 637,
+    "premium": true,
+    "leadText": "With his agreement, Donald Trump aims to increase the US's strategic oil reserves. However, Venezuela currently produces only one percent of global crude oil. This cannot be changed easily or quickly.",
+    "nzzSummaryIsAuto": true,
+    "commentsCount": 8,
+    "openToComment": false,
+    "hasQ": true,
+    "locale": "de-CH"
+   }
+  ]
+ },
+ "btaNZZaSFeed": {
+  "meta": {
+   "name": "NZZ am Sonntag",
+   "path": "/nzz-am-sonntag"
+  },
+  "data": [
+   {
+    "title": "Hybrid Warfare and Playing with Fire on the Eastern Flank: How Far Will Putin Go? And are Europeans prepared?",
+    "showHeader": true,
+    "owner": "NZZaS",
+    "language": {
+     "locale": "de"
+    },
+    "authorLine": "Andrea Jeska, David Axe, Alain Zucker",
+    "nzzasFootnote": true,
+    "nzzId": "ld.10021091",
+    "readingTime": 420,
+    "paywallQuestionOne": "How is Europe responding to Russia's hybrid attacks?",
+    "paywallQuestionTwo": "What role does support for Ukraine play in the conflict?",
+    "paywallQuestionThree": "How could Russia escalate further?",
+    "characterCount": 10159,
+    "teaserImage": {
+     "originalUrl": "/2026/08/29/f81cc725-5d33-4092-b102-c0c15f310843.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/08/29/f81cc725-5d33-4092-b102-c0c15f310843.jpg?width=1024&quality=75&auto=webp",
+     "width": 2836,
+     "height": 1474,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "2620,1474,x111,y0"
+      },
+      {
+       "name": "4:3",
+       "crop": "1965,1474,x417,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "1474,1474,x671,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "1106,1474,x825,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "2211,1474,x329,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "Russia warns Europeans about transferring missile technology to Ukraine. CIA chief John Ratcliffe flies to Moscow, while NATO holds an exercise on its eastern flank. Signs point to escalation.",
+     "teaserAuthor": "Illustration by Elia Barbieri for NZZaS"
+    },
+    "teaserAuthor": "Illustration by Elia Barbieri for NZZaS",
+    "product": "NZZ.ch",
+    "documentId": 10021091,
+    "layout": "regular",
+    "publicationDate": "2026-08-30T03:30:00.000Z",
+    "publicationLastUpdated": "2026-08-30T03:30:00.000Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-08-30T15:30:00.000Z",
+    "teaserCaption": "Russia warns Europeans about transferring missile technology to Ukraine. CIA chief John Ratcliffe flies to Moscow, while NATO holds an exercise on its eastern flank. Signs point to escalation.",
+    "url": "https://www.nzz.ch/international/hybrider-krieg-und-das-zuendeln-an-der-ostflanke-wie-weit-wird-putin-gehen-und-sind-die-europaeer-vorbereitet-ld.10021091",
+    "department": {
+     "name": "International",
+     "path": "/international"
+    },
+    "estimationWordCount": 1481,
+    "leadText": "Russia warns Europeans about transferring missile technology to Ukraine. CIA chief John Ratcliffe flies to Moscow, while NATO holds an exercise on its eastern flank. Signs point to escalation.",
+    "nzzSummaryIsAuto": true,
+    "containerId": "doc-1jje3h7kv0",
+    "containerPosition": 1,
+    "containerTitle": "NZZ am Sonntag",
+    "editorialScore": 0,
+    "positionInContainer": 1,
+    "hasQ": true,
+    "locale": "de-CH"
+   },
+   {
+    "showHeader": true,
+    "owner": "NZZaS",
+    "language": {
+     "locale": "de"
+    },
+    "teaserImage": {
+     "originalUrl": "/2026/08/28/fbe92494-1ec9-4631-9df3-31b7a615550e.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/08/28/fbe92494-1ec9-4631-9df3-31b7a615550e.jpg?width=1024&quality=75&auto=webp",
+     "width": 5602,
+     "height": 3735,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "5602,3151,x0,y439"
+      },
+      {
+       "name": "4:3",
+       "crop": "4116,3087,x1,y503"
+      },
+      {
+       "name": "1:1",
+       "crop": "2806,2806,x622,y594"
+      },
+      {
+       "name": "3:4",
+       "crop": "2315,3087,x842,y567"
+      },
+      {
+       "name": "3:2",
+       "crop": "4209,2806,x0,y492"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "The FDP politician criticizes parliamentary attempts to alter the negotiated agreement with the EU. She also defends her party's parliamentarians for ignoring a vote by their own delegates on a key provision.",
+     "teaserAuthor": "Andrea Zahle"
+    },
+    "teaserAuthor": "Andrea Zahle",
+    "title": "FDP co-president Susanne Vincenz-Stauffacher on the start of the European debate: «That was a false start»",
+    "nzzasFootnote": true,
+    "nzzId": "ld.10020993",
+    "readingTime": 540,
+    "paywallQuestionOne": "How does the FDP assess the attempts to change the EU negotiation outcome?",
+    "paywallQuestionTwo": "Why is the FDP ignoring the vote of its delegates against the majority of cantons?",
+    "paywallQuestionThree": "How does the FDP intend to finance the army without raising taxes?",
+    "characterCount": 11294,
+    "flag": "interview",
+    "tags": [
+     "Schweiz und die EU"
+    ],
+    "product": "NZZ.ch",
+    "documentId": 10020993,
+    "layout": "regular",
+    "publicationDate": "2026-08-29T19:45:00.000Z",
+    "publicationLastUpdated": "2026-08-31T08:16:16.249Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-08-30T07:45:00.000Z",
+    "teaserCaption": "The FDP politician criticizes parliamentary attempts to alter the negotiated agreement with the EU. She also defends her party's parliamentarians for ignoring a vote by their own delegates on a key provision.",
+    "authorLine": "Daniel Foppa, Simon Marti",
+    "authorImage": {
+     "originalUrl": "/2024/05/28/7536f440-0c11-4f0f-86f5-1139121b3bb6.webp?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2024/05/28/7536f440-0c11-4f0f-86f5-1139121b3bb6.webp?width=1024&quality=75&auto=webp",
+     "width": 480,
+     "height": 480,
+     "crops": [
+      {
+       "name": "1:1",
+       "crop": "480,480,x0,y0"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2024/05/28/7536f440-0c11-4f0f-86f5-1139121b3bb6.webp?width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/schweiz/fdp-co-praesidentin-vincenz-stauffacher-zum-auftakt-der-europadebatte-das-war-ein-fehlstart-ld.10020993",
+    "department": {
+     "name": "Switzerland",
+     "path": "/schweiz"
+    },
+    "estimationWordCount": 1703,
+    "leadText": "The FDP politician criticizes parliamentary attempts to alter the negotiated agreement with the EU. She also defends her party's parliamentarians for ignoring a vote by their own delegates on a key provision.",
+    "nzzSummaryIsAuto": true,
+    "containerId": "doc-1jje3h7kv0",
+    "containerPosition": 1,
+    "containerTitle": "NZZ am Sonntag",
+    "editorialScore": 0,
+    "positionInContainer": 2,
+    "locale": "de-CH"
+   },
+   {
+    "title": "Deep relaxation in nature, young people with ideas, and the best butter tea in the world. A small ode to Nepal",
+    "showHeader": true,
+    "owner": "NZZaS",
+    "language": {
+     "locale": "de"
+    },
+    "authorLine": "Stephanie Geiger",
+    "nzzasFootnote": true,
+    "teaserImage": {
+     "originalUrl": "/2026/08/29/d217a4cb-2734-400a-9291-ed353fc801cc.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/08/29/d217a4cb-2734-400a-9291-ed353fc801cc.jpg?width=1024&quality=75&auto=webp",
+     "width": 5500,
+     "height": 3712,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "5500,3094,x0,y309"
+      },
+      {
+       "name": "4:3",
+       "crop": "4949,3712,x275,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "3712,3712,x894,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "2784,3712,x1358,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "5500,3667,x0,y23"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "Despite the tragedy: A return to Nepal soon",
+     "teaserAuthor": "Francis Mascarenhas / Reuters"
+    },
+    "teaserAuthor": "Francis Mascarenhas / Reuters",
+    "nzzId": "ld.10021585",
+    "readingTime": 360,
+    "paywallQuestionOne": "How do natural disasters affect the lives of people in Nepal?",
+    "paywallQuestionTwo": "How is Nepal changing through electromobility and infrastructure projects?",
+    "paywallQuestionThree": "What role does the younger generation play in Nepal's development?",
+    "characterCount": 7555,
+    "product": "NZZ.ch",
+    "documentId": 10021585,
+    "layout": "regular",
+    "publicationDate": "2026-08-30T03:30:00.000Z",
+    "publicationLastUpdated": "2026-08-30T03:30:00.000Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-08-30T15:30:00.000Z",
+    "teaserCaption": "Despite the tragedy: A return to Nepal soon",
+    "url": "https://www.nzz.ch/international/tiefenentspannung-in-der-natur-junge-menschen-mit-ideen-und-der-beste-buttertee-der-welt-eine-kleine-ode-an-nepal-ld.10021585",
+    "department": {
+     "name": "International",
+     "path": "/international"
+    },
+    "estimationWordCount": 1239,
+    "leadText": "Despite the tragedy: A return to Nepal soon",
+    "nzzSummaryIsAuto": true,
+    "containerId": "doc-1jje3h7kv0",
+    "containerPosition": 1,
+    "containerTitle": "NZZ am Sonntag",
+    "editorialScore": 0,
+    "positionInContainer": 3,
+    "hasQ": true,
+    "locale": "de-CH"
+   },
+   {
+    "title": "Rapper Stress: «I measured my self-worth by how successful I am. Nothing good can come of that. Not even good music»",
+    "showHeader": true,
+    "owner": "NZZaS",
+    "language": {
+     "locale": "de"
+    },
+    "teaserImage": {
+     "originalUrl": "/2026/08/25/684e0281-49d4-4913-a6e8-b81c12707b8c.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/08/25/684e0281-49d4-4913-a6e8-b81c12707b8c.jpg?width=1024&quality=75&auto=webp",
+     "width": 1920,
+     "height": 1440,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "1920,1080,x0,y0"
+      },
+      {
+       "name": "4:3",
+       "crop": "1920,1440,x0,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "1440,1440,x373,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "1080,1440,x553,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "1920,1280,x0,y0"
+      }
+     ],
+     "focalPoint": {
+      "x": 1093,
+      "y": 307
+     },
+     "imageService": "fastly",
+     "teaserCaption": "Stress is the most successful rapper in Switzerland. For years he has spoken openly about his depression. He wanted to write a self-help book about how he found his way back to life – until physical pain forced him to start all over again.",
+     "teaserAuthor": "Sébastien Agnetti"
+    },
+    "teaserAuthor": "Sébastien Agnetti",
+    "nzzasFootnote": true,
+    "nzzId": "ld.10018314",
+    "readingTime": 780,
+    "paywallQuestionOne": "How did Stress's success affect his mental health?",
+    "paywallQuestionTwo": "Why does Stress view his book more as a testimony than as a guide?",
+    "paywallQuestionThree": "What role does childhood play in Stress's personal development?",
+    "characterCount": 14907,
+    "flag": "interview",
+    "product": "NZZ.ch",
+    "documentId": 10018314,
+    "layout": "longformstandard",
+    "publicationDate": "2026-08-30T03:29:00.000Z",
+    "publicationLastUpdated": "2026-08-30T03:29:00.000Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-08-30T15:29:00.000Z",
+    "teaserCaption": "Stress is the most successful rapper in Switzerland. For years he has spoken openly about his depression. He wanted to write a self-help book about how he found his way back to life – until physical pain forced him to start all over again.",
+    "authorLine": "Frank Heer",
+    "authorImage": {
+     "originalUrl": "/2025/02/19/4d0a1c14-762f-4a79-943b-8695aaa4d40d.jpeg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2025/02/19/4d0a1c14-762f-4a79-943b-8695aaa4d40d.jpeg?width=1024&quality=75&auto=webp",
+     "width": 4128,
+     "height": 2752,
+     "crops": [
+      {
+       "name": "1:1",
+       "crop": "2752,2752,x688,y0"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2025/02/19/4d0a1c14-762f-4a79-943b-8695aaa4d40d.jpeg?width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/feuilleton/rapper-stress-ich-habe-meinen-selbstwert-daran-gemessen-wie-erfolgreich-ich-bin-daraus-kann-nichts-gutes-entstehen-auch-keine-gute-musik-ld.10018314",
+    "department": {
+     "name": "Arts & Culture",
+     "path": "/feuilleton"
+    },
+    "estimationWordCount": 2521,
+    "leadText": "Stress is the most successful rapper in Switzerland. For years he has spoken openly about his depression. He wanted to write a self-help book about how he found his way back to life – until physical pain forced him to start all over again.",
+    "nzzSummaryIsAuto": true,
+    "containerId": "doc-1jje3h7kv0",
+    "containerPosition": 1,
+    "containerTitle": "NZZ am Sonntag",
+    "editorialScore": 0,
+    "positionInContainer": 4,
+    "locale": "de-CH"
+   },
+   {
+    "title": "Condominium nightmare: How owners become bitter enemies",
+    "showHeader": true,
+    "owner": "NZZaS",
+    "language": {
+     "locale": "de"
+    },
+    "characterCount": 13550,
+    "nzzasFootnote": true,
+    "nzzId": "ld.10014125",
+    "readingTime": 600,
+    "paywallQuestionOne": "What challenges does condominium ownership pose for the owners?",
+    "paywallQuestionTwo": "Why do renovations often fail due to financial and legal hurdles?",
+    "paywallQuestionThree": "How could the revision of condominium ownership law defuse conflicts?",
+    "teaserImage": {
+     "originalUrl": "/2026/08/29/75186538-5fe8-4736-8335-f7b57a064317.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/08/29/75186538-5fe8-4736-8335-f7b57a064317.jpg?width=1024&quality=75&auto=webp",
+     "width": 6034,
+     "height": 3395,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "6034,3394,x0,y0"
+      },
+      {
+       "name": "4:3",
+       "crop": "4527,3395,x754,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "3395,3395,x1320,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "2546,3395,x1744,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "5093,3395,x471,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "Those who can't afford a house opt for condominium ownership. But in practice, this often turns into a nerve-wracking battle over garden benches, awning colors, and bicycle shelters. And that's nothing compared to the woes associated with renovations.",
+     "teaserAuthor": "Illustration by Elia Barbieri for NZZaS"
+    },
+    "teaserAuthor": "Illustration by Elia Barbieri for NZZaS",
+    "product": "NZZ.ch",
+    "documentId": 10014125,
+    "layout": "regular",
+    "publicationDate": "2026-08-30T03:30:00.000Z",
+    "publicationLastUpdated": "2026-08-30T03:30:00.000Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-08-30T15:30:00.000Z",
+    "teaserCaption": "Those who can't afford a house opt for condominium ownership. But in practice, this often turns into a nerve-wracking battle over garden benches, awning colors, and bicycle shelters. And that's nothing compared to the woes associated with renovations.",
+    "authorLine": "Jürg Zulliger",
+    "authorImage": {
+     "originalUrl": "/2024/01/31/abcf5b13-0bb2-4dd2-91da-b56035766bfb.jpeg?crop=2625,2625,x0,y438",
+     "url": "https://img-msp-prod.nzz.ch/2024/01/31/abcf5b13-0bb2-4dd2-91da-b56035766bfb.jpeg?crop=2625,2625,x0,y438&width=1024&quality=75&auto=webp",
+     "width": 2625,
+     "height": 3500,
+     "imageService": "fastly",
+     "crop": {
+      "name": "1:1",
+      "x": 0,
+      "y": 438,
+      "width": 2625,
+      "height": 2625
+     },
+     "crops": []
+    },
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2024/01/31/abcf5b13-0bb2-4dd2-91da-b56035766bfb.jpeg?crop=2625,2625,x0,y438&width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/wirtschaft/albtraum-eigentumswohnung-wie-stockwerkeigentuemer-zu-erbitterten-feinden-werden-ld.10014125",
+    "department": {
+     "name": "Economy",
+     "path": "/wirtschaft"
+    },
+    "estimationWordCount": 1930,
+    "leadText": "Those who can't afford a house opt for condominium ownership. But in practice, this often turns into a nerve-wracking battle over garden benches, awning colors, and bicycle shelters. And that's nothing compared to the woes associated with renovations.",
+    "nzzSummaryIsAuto": true,
+    "containerId": "doc-1jje3h7kv0",
+    "containerPosition": 1,
+    "containerTitle": "NZZ am Sonntag",
+    "editorialScore": 0,
+    "positionInContainer": 5,
+    "locale": "de-CH"
+   }
+  ]
+ },
+ "digitalData": {
+  "component": [
+   {
+    "id": "ld.1902492",
+    "name": "«Trump must have mistaken the USA for another country,» says Nassim Taleb, author of the book «The Black Swan»",
+    "type": "article",
+    "subType1": "longformstandard",
+    "subType2": "",
+    "primaryCategory": "Finanzen",
+    "subCategory1": "",
+    "attributes": {
+     "headline": "«Trump must have mistaken the USA for another country,» says Nassim Taleb, author of the book «The Black Swan»",
+     "firstPublishTitle": "",
+     "catchline": "",
+     "authors": [
+      {
+       "id": 1372418,
+       "name": "Michael Ferber",
+       "shortName": "feb",
+       "pianoId": "df5ba0d4-ba27-4cfc-8794-d9d0c0f97105",
+       "external": false
+      },
+      {
+       "id": 1373794,
+       "name": "Markus Städeli",
+       "shortName": "stä",
+       "external": false
+      }
+     ],
+     "issueTimestamp": "2025-09-20T19:45:00.000Z",
+     "updateTimestamp": "2025-11-03T13:52:49.532Z",
+     "isSponsoredContent": false,
+     "isPro": true,
+     "isLiveticker": false,
+     "flag": "interview",
+     "owner": "NZZaS"
+    }
+   }
+  ],
+  "page": {
+   "pageId": "ld.1902492",
+   "pageType": "longformstandard",
+   "primaryCategory": "Finanzen",
+   "subCategory1": "",
+   "subCategory2": "",
+   "language": "en-US"
+  },
+  "version": "2.0",
+  "user": {},
+  "event": []
+ },
+ "seoData": {
+  "title": "«Black Swan» author Taleb on Trump, debt, the USA, gold",
+  "image": {
+   "url": "https://img-msp-prod.nzz.ch/2025/09/17/396de226-be84-4f28-85d0-721cc6cbd6f2.jpg?width=1200&height=675&fit=bounds&quality=75&auto=webp&crop=1546,870,x0,y0&wmark=nzz",
+   "type": "image/jpeg",
+   "width": 1200,
+   "height": 675
+  },
+  "author": "Michael Ferber, Markus Städeli",
+  "description": "«Trump must have mistaken the USA for another country,» says Nassim Taleb, author of the book «The Black Swan». ",
+  "news_keywords": "«Trump must have mistaken the USA for another country,» says Nassim Taleb, author of the book «The Black Swan,» in an interview with NZZ (Finance, News)",
+  "type": "article",
+  "last-modified": "2025-11-03T16:52:49+02:00",
+  "date": "2025-09-20T23:45:00+02:00",
+  "canonical": "https://www.nzz.ch/finanzen/schwarzer-schwan-autor-nassim-taleb-im-interview-zu-trump-schulden-usa-gold-ld.1902492",
+  "fb:app_id": 138008459595436,
+  "fb:pages": 143694099006529,
+  "fb:admins": 1592685173,
+  "locale": "de-CH",
+  "email": "online.redaktion@nzz.ch",
+  "site_name": "Neue Zürcher Zeitung",
+  "copyright": "2026 Neue Zürcher Zeitung AG, Schweiz",
+  "robots": "noindex, nofollow, noarchive, noodp",
+  "hreflang": [],
+  "sharedTitle": "INTERVIEW - «Trump must have mistaken the USA for another country,» says Nassim Taleb, author of the book «The Black Swan»",
+  "ogTitle": "Trump is making the US more fragile: «Black Swan» author Nassim Taleb warns of debt",
+  "ogUrl": "https://www.nzz.ch/finanzen/schwarzer-schwan-autor-nassim-taleb-im-interview-zu-trump-schulden-usa-gold-ld.1902492",
+  "mrf:cms_id": "nzz:ld.1902492",
+  "mrf:sections": "Finanzen;Wirtschaft & Finanzen",
+  "mrf:tags": "Page Type:longformstandard;Editorial Owner:NZZaS;Content Type:Pro Article;Article ID:ld.1902492",
+  "nzzAuthors": [
+   {
+    "id": 1372418,
+    "name": "Michael Ferber",
+    "shortName": "feb",
+    "pianoId": "df5ba0d4-ba27-4cfc-8794-d9d0c0f97105",
+    "external": false
+   },
+   {
+    "id": 1373794,
+    "name": "Markus Städeli",
+    "shortName": "stä",
+    "external": false
+   }
+  ],
+  "links": [
+   {
+    "rel": "canonical",
+    "href": "https://www.nzz.ch/finanzen/schwarzer-schwan-autor-nassim-taleb-im-interview-zu-trump-schulden-usa-gold-ld.1902492"
+   },
+   {
+    "rel": "search",
+    "href": "/suche",
+    "title": "Suche Neue Zürcher Zeitung, Schweiz, https://www.nzz.ch/suche"
+   }
+  ],
+  "renderedAt": "Thu, 03 Sep 2026 09:31:30 GMT"
+ },
+ "structuredData": [
+  {
+   "@context": "https://schema.org",
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "item": {
+      "@id": "/",
+      "name": "Home"
+     }
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "item": {
+      "@id": "/finanzen",
+      "name": "Finance"
+     }
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "«Black Swan» author Taleb on Trump, debt, the USA, gold"
+    }
+   ]
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": "NewsArticle",
+   "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.nzz.ch/finanzen/schwarzer-schwan-autor-nassim-taleb-im-interview-zu-trump-schulden-usa-gold-ld.1902492"
+   },
+   "headline": "«Black Swan» author Taleb on Trump, debt, the USA, gold",
+   "datePublished": "2025-09-20T23:45:00+02:00",
+   "dateModified": "2025-11-03T16:52:49+02:00",
+   "publisher": {
+    "@type": "NewsMediaOrganization",
+    "name": "Neue Zürcher Zeitung",
+    "url": "https://www.nzz.ch",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://www.nzz.ch/logo.png",
+     "width": 413,
+     "height": 60
+    },
+    "contactPoint": [
+     {
+      "@type": "ContactPoint",
+      "telephone": "+41-44-2581000",
+      "contactType": "customer service"
+     }
+    ],
+    "sameAs": [
+     "https://www.facebook.com/nzz",
+     "https://www.twitter.com/nzz",
+     "https://www.youtube.com/channel/UCK1aTcR0AckQRLTlK0c4fuQ",
+     "https://www.linkedin.com/company/neue-zurcher-zeitung",
+     "https://www.instagram.com/nzz/",
+     "https://de.wikipedia.org/wiki/Neue_Z%C3%BCrcher_Zeitung",
+     "https://www.wikidata.org/wiki/Q658945",
+     "https://plus.google.com/+nzz/",
+     "http://www.freebase.com/m/041b43"
+    ],
+    "masthead": "https://www.nzz.ch/impressum/impressum-ld.148422",
+    "foundingDate": "1780"
+   },
+   "description": "«Trump must have mistaken the USA for another country,» says Nassim Taleb, author of the book «The Black Swan». ",
+   "isAccessibleForFree": false,
+   "articleSection": "Finanzen",
+   "hasPart": {
+    "@type": "WebPageElement",
+    "isAccessibleForFree": false,
+    "cssSelector": ".nzzinteraction"
+   },
+   "image": {
+    "@type": "ImageObject",
+    "url": "https://img-msp-prod.nzz.ch/2025/09/17/396de226-be84-4f28-85d0-721cc6cbd6f2.jpg?width=1200&height=675&fit=bounds&quality=75&auto=webp&crop=1546,870,x0,y0&wmark=nzz",
+    "width": 1200,
+    "height": 675
+   },
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Michael Ferber"
+    },
+    {
+     "@type": "Person",
+     "name": "Markus Städeli"
+    }
+   ],
+   "inLanguage": "de"
+  }
+ ],
+ "mp3": true,
+ "mp3Duration": 1135726,
+ "bT": {
+  "standard": {
+   "Tags": [
+    "/finanzen/schwarzer-schwan-autor-nassim-taleb-im-interview-zu-trump-schulden-usa-gold-ld.1902492",
+    "classification=premium",
+    "relevance=germany",
+    "layout=longformstandard",
+    "interview",
+    "owner=nzzas",
+    "product=nzz",
+    "doctype=article",
+    "pagetype=article",
+    "ldid=ld.1902492",
+    "channel=Finanzen"
+   ],
+   "ContentCreated": "2025-09-20T19:45:00.000Z",
+   "ContentAuthor": "Michael Ferber, Markus Städeli",
+   "ContentSection": "Finanzen",
+   "ContentIsNative": true
+  },
+  "custom": {
+   "product": "nzz",
+   "docType": "article",
+   "pageType": "article",
+   "layout": "longformstandard",
+   "nzzAbstract": "Wie schätzt Nassim Taleb die Präsidentschaft von Donald Trump ein?\nWelche Konsequenzen wird der Aufstieg Chinas haben?\nWas erwartet Taleb als Folgen der steigenden Staatsverschuldung?",
+   "ldId": "ld.1902492",
+   "channel": "Finanzen",
+   "heading": "«Trump muss die USA mit einem anderen Land verwechselt haben», sagt der Autor des Buchs «Der Schwarze Schwan», Nassim Taleb",
+   "language": "en-US"
+  }
+ },
+ "webviewMetadata": {},
+ "cacheTime": 3600
+}

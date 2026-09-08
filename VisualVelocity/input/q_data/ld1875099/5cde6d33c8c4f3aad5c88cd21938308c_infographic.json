@@ -1,0 +1,65 @@
+{
+  "_id": "5cde6d33c8c4f3aad5c88cd21938308c",
+  "_rev": "8-895be214afb1dd8141411c4c42886077",
+  "tool": "infographic",
+  "title": "Karte Routen",
+  "active": true,
+  "images": {
+    "variants": [
+      {
+        "images": [
+          {
+            "key": "2025/03/21/4mobile6x-989c5107279ab69013128724978e6895.png",
+            "url": "https://nzz-q-assets.s3.eu-west-1.amazonaws.com/2025/03/21/4mobile6x-989c5107279ab69013128724978e6895.png",
+            "size": 5639435,
+            "type": "image/png",
+            "width": 2221,
+            "height": 2063,
+            "originalName": "4mobile@6x.png"
+          }
+        ],
+        "minWidth": 0
+      },
+      {
+        "images": [
+          {
+            "key": "2025/03/21/4content6x-a8399241143a88f24f149cc468aaefe6.png",
+            "url": "https://nzz-q-assets.s3.eu-west-1.amazonaws.com/2025/03/21/4content6x-a8399241143a88f24f149cc468aaefe6.png",
+            "size": 8765838,
+            "type": "image/png",
+            "width": 3781,
+            "height": 2523,
+            "originalName": "4content@6x.png"
+          }
+        ],
+        "minWidth": 540
+      },
+      {
+        "images": [
+          {
+            "key": "2025/03/21/4container6x-9ede9ffc0e73c63e249523c670f1f50c.png",
+            "url": "https://nzz-q-assets.s3.eu-west-1.amazonaws.com/2025/03/21/4container6x-9ede9ffc0e73c63e249523c670f1f50c.png",
+            "size": 8975854,
+            "type": "image/png",
+            "width": 5401,
+            "height": 2600,
+            "originalName": "4container@6x.png"
+          }
+        ],
+        "minWidth": 830
+      }
+    ]
+  },
+  "acronym": "ida.",
+  "options": {
+    "serveLosslessWebP": false
+  },
+  "sources": [],
+  "subtitle": "",
+  "createdBy": "ida.goetz@nzz.ch",
+  "updatedBy": "ida.goetz@nzz.ch",
+  "department": "Visuals",
+  "createdDate": "2025-03-20T10:45:27.279Z",
+  "publication": "nzz",
+  "updatedDate": "2025-03-21T10:47:09.798Z"
+}

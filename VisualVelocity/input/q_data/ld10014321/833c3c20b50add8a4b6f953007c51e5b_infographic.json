@@ -1,0 +1,58 @@
+{
+  "_id": "833c3c20b50add8a4b6f953007c51e5b",
+  "_rev": "3-0bf63b5c4b709938d985f6c8dca43a0a",
+  "tool": "infographic",
+  "title": "Die meisten mobilen Klimageräte kühlen mit Propan",
+  "active": true,
+  "images": {
+    "variants": [
+      {
+        "images": [
+          {
+            "key": "2026/07/14/propanZeichenflache-124x-fcf3c5336d1a2ea53f04fdc6eed76690.png",
+            "url": "https://nzz-q-assets2.static-nzz.ch/2026/07/14/propanZeichenflache-124x-fcf3c5336d1a2ea53f04fdc6eed76690.png",
+            "size": 781149,
+            "type": "image/png",
+            "width": 1481,
+            "height": 1917,
+            "originalName": "propanZeichenfläche 12@4x.png"
+          }
+        ],
+        "minWidth": 0
+      },
+      {
+        "images": [
+          {
+            "key": "2026/07/14/propanZeichenflache-12-Kopie4x-3e9b6f22703eb7ad7a8fa6e3c0d1d5bd.png",
+            "url": "https://nzz-q-assets2.static-nzz.ch/2026/07/14/propanZeichenflache-12-Kopie4x-3e9b6f22703eb7ad7a8fa6e3c0d1d5bd.png",
+            "size": 829228,
+            "type": "image/png",
+            "width": 2521,
+            "height": 1787,
+            "originalName": "propanZeichenfläche 12 Kopie@4x.png"
+          }
+        ],
+        "minWidth": 630
+      }
+    ]
+  },
+  "acronym": "lea.",
+  "options": {
+    "serveLosslessWebP": false
+  },
+  "sources": [
+    {
+      "link": {
+        "url": ""
+      },
+      "text": "Galaxus"
+    }
+  ],
+  "subtitle": "Anteil der bei Galaxus verkauften Klimaanlagen mit diesem Kühlmittel, in Prozent",
+  "createdBy": "anja.lemcke@nzz.ch",
+  "updatedBy": "anja.lemcke@nzz.ch",
+  "department": "Visuals",
+  "createdDate": "2026-07-13T14:29:05.659Z",
+  "publication": "nzz",
+  "updatedDate": "2026-07-14T13:41:27.077Z"
+}

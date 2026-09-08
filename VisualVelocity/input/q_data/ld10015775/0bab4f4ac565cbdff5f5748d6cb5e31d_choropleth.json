@@ -1,0 +1,267 @@
+{
+  "_id": "0bab4f4ac565cbdff5f5748d6cb5e31d",
+  "_rev": "9-0c5e55f1fc0e6c08ceaa1bbc330d12bb",
+  "data": [
+    [
+      "ID",
+      "Wert"
+    ],
+    [
+      "Albania",
+      null
+    ],
+    [
+      "Andorra",
+      null
+    ],
+    [
+      "Austria",
+      "legal"
+    ],
+    [
+      "Belarus",
+      null
+    ],
+    [
+      "Belgium",
+      "legal"
+    ],
+    [
+      "Bosnia and Herzegovina"
+    ],
+    [
+      "Bulgaria"
+    ],
+    [
+      "Croatia"
+    ],
+    [
+      "Cyprus"
+    ],
+    [
+      "Czech Republic",
+      "strafbar"
+    ],
+    [
+      "Denmark",
+      "strafbar"
+    ],
+    [
+      "Estonia"
+    ],
+    [
+      "Finland",
+      "strafbar"
+    ],
+    [
+      "France",
+      "aktuell strafbar"
+    ],
+    [
+      "Germany",
+      "legal"
+    ],
+    [
+      "Greece",
+      "strafbar"
+    ],
+    [
+      "Hungary",
+      "legal"
+    ],
+    [
+      "Iceland"
+    ],
+    [
+      "Ireland",
+      "strafbar"
+    ],
+    [
+      "Italy",
+      "zulässig"
+    ],
+    [
+      "Kosovo"
+    ],
+    [
+      "Latvia"
+    ],
+    [
+      "Liechtenstein"
+    ],
+    [
+      "Lithuania"
+    ],
+    [
+      "Luxembourg",
+      "legal"
+    ],
+    [
+      "Malta"
+    ],
+    [
+      "Moldova"
+    ],
+    [
+      "Monaco"
+    ],
+    [
+      "Montenegro"
+    ],
+    [
+      "Netherlands",
+      "legal"
+    ],
+    [
+      "North Macedonia"
+    ],
+    [
+      "Norway",
+      "strafbar"
+    ],
+    [
+      "Poland",
+      "strafbar"
+    ],
+    [
+      "Portugal",
+      "strafbar"
+    ],
+    [
+      "Romania"
+    ],
+    [
+      "Russia"
+    ],
+    [
+      "San Marino"
+    ],
+    [
+      "Serbia"
+    ],
+    [
+      "Slovakia"
+    ],
+    [
+      "Slovenia"
+    ],
+    [
+      "Spain",
+      "legal"
+    ],
+    [
+      "Sweden",
+      "strafbar"
+    ],
+    [
+      "Switzerland",
+      "legal"
+    ],
+    [
+      "Turkey"
+    ],
+    [
+      "Ukraine"
+    ],
+    [
+      "United Kingdom",
+      "aktuell strafbar"
+    ],
+    [
+      "Vatican City"
+    ]
+  ],
+  "tool": "choropleth",
+  "notes": "",
+  "title": "Wo die Sterbehilfe in Europa erlaubt ist",
+  "active": true,
+  "acronym": "jhe.",
+  "baseMap": "europe-countries-geographic",
+  "options": {
+    "hideBubbleMap": false,
+    "choroplethType": "categorical",
+    "hideMicroStates": true,
+    "numericalOptions": {
+      "scale": "sequential",
+      "bucketType": "ckmeans",
+      "colorScheme": "one",
+      "labelLegend": "noLabel",
+      "valuesOnMap": false,
+      "measuringUnit": "",
+      "numberBuckets": 4,
+      "colorOverwrites": [
+        {
+          "color": "#ff0000",
+          "position": null,
+          "textColor": "light"
+        }
+      ],
+      "invertColorScheme": false
+    },
+    "categoricalOptions": {
+      "valuesOnMap": false,
+      "colorOverwrites": [
+        {
+          "color": "#931d53",
+          "position": 4,
+          "textColor": "light"
+        },
+        {
+          "color": "#c57595",
+          "position": 3,
+          "textColor": "light"
+        },
+        {
+          "color": "#79c7b7",
+          "position": 2,
+          "textColor": "light"
+        },
+        {
+          "color": "#1f8f87",
+          "position": 1,
+          "textColor": "light"
+        }
+      ],
+      "customCategoriesOrder": [
+        {
+          "category": "legal"
+        },
+        {
+          "category": "zulässig"
+        },
+        {
+          "category": "aktuell strafbar"
+        },
+        {
+          "category": "strafbar"
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "link": {
+        "url": "https://www.dghs.de/"
+      },
+      "text": "Deutsche Gesellschaft für Humanes Sterben (DGHS) e. V."
+    }
+  ],
+  "version": "2023-01-31T00:00:00.000Z",
+  "subtitle": "Gesetzeslage in europäischen Ländern",
+  "createdBy": "jasmin.hegetschweiler@nzz.ch",
+  "updatedBy": "corina.gall@nzz.ch",
+  "department": "Visuals",
+  "entityType": "name",
+  "createdDate": "2026-07-16T10:22:33.624Z",
+  "publication": "nzz",
+  "updatedDate": "2026-07-20T08:12:04.291Z",
+  "mapAnnotations": [
+    {
+      "regions": [
+        "Italy"
+      ],
+      "position": "bottom",
+      "annotation": "In Italien ist die Sterbehilfe verboten, in Ausnahmefällen bleibt sie aber straffrei."
+    }
+  ]
+}

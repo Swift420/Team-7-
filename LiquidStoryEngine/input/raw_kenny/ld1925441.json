@@ -1,0 +1,1429 @@
+{
+ "content": [
+  {
+   "identifier": "header",
+   "id": "doc-1jhnlilad0",
+   "content": {
+    "title": "Athens' fight against the shadow economy: Investigators on the hunt for tax evaders",
+    "lead": "Greek tax morale was long considered questionable. With the digitalization of the tax system, the government is now taking rigorous action against tax evaders – with considerable progress.",
+    "author": ""
+   },
+   "containers": {
+    "authors": [
+     {
+      "identifier": "author-teaser",
+      "id": "doc-sC61fmEUG4",
+      "content": {
+       "layout": "authorprofile",
+       "title": "Nicole Anliker, Athen",
+       "url": "/impressum/nicole-anliker-ld.665513",
+       "teaserImage": {
+        "url": "https://img-msp-prod.nzz.ch/2024/05/29/0fa9ee7c-9745-4631-b30a-193344bc8d89.jpeg?width=1024&quality=75&auto=webp",
+        "originalUrl": "/2024/05/29/0fa9ee7c-9745-4631-b30a-193344bc8d89.jpeg?width=1024",
+        "imageService": "fastly",
+        "width": 4745,
+        "height": 3164
+       }
+      }
+     }
+    ]
+   },
+   "prevElement": "",
+   "nextElement": "image",
+   "firstContentElement": true
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1jiq12rp62",
+   "content": {
+    "image": {
+     "author": "NZZ",
+     "caption": "A photograph of a private yacht, a map showing the current locations of the investigation teams, satellite images with «suspicious targets.» Data analysts evaluate risk profiles in the control room.",
+     "originalUrl": "/2026/03/03/c59b1e1f-f6bb-4381-886f-1c1b53152b19.jpg?crop=3518,2386,x0,y215",
+     "width": 4032,
+     "height": 3024,
+     "crop": {
+      "x": 0,
+      "y": 215,
+      "width": 3518,
+      "height": 2386
+     },
+     "imageService": "fastly"
+    },
+    "caption": "A photograph of a private yacht, a map showing the current locations of the investigation teams, satellite images with «suspicious targets.» Data analysts evaluate risk profiles in the control room.",
+    "author": "NZZ"
+   },
+   "styles": {
+    "fullwidth-widget": "widget--containerwidth"
+   },
+   "prevElement": "header",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jhnlilad2",
+   "content": {
+    "text": "Panagiotis Kintzios knows that no one is happy to see him cross their threshold. Being a tax inspector in a country with a low tax morale isn't always fun. «We're not exactly welcome,» he says drily, with a smile. Nevertheless, the random check he's conducting with his colleague Panagiota Stasi doesn't make him nervous. This morning, their destination is a traditional coffeehouse that seems to have been frozen in time: heavy curtains, upholstered chairs, plastic tables, yellowed pictures, large TV screens – a mismatched collection. On the terrace sit old regulars – bespectacled men with thinning hair, smoking and drinking coffee, marveling at the visit from the tax authorities. Kintzios and Stasi introduce themselves to the waitress, showing their official identification and the inspection order. This is important, Stasi explains: «There are fraudsters who impersonate tax inspectors.»"
+   },
+   "prevElement": "image",
+   "nextElement": "barrier"
+  },
+  {
+   "id": "doc-2ee65962",
+   "identifier": "barrier",
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jimsfmci0",
+   "content": {
+    "text": "A guest immediately interjects. «Why do you come here? Why don't you check the big fish?» Kintzios politely points out the duty of his job. «We're also psychologists in this role,» he had said earlier. He added that guests complain about their presence more often and provoke unpleasant situations more than the staff – especially when alcohol is involved."
+   },
+   "paidContent": true,
+   "prevElement": "barrier",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jimsfmcl0",
+   "content": {
+    "text": "Kintzios and Stasi access the coffee shop's tax data on a tablet; in just a few clicks, they have an overview. They sift through the transactions, checking the receipts issued at each individual table. Because cash register systems in Greece are now required to be networked with the tax authorities, any misuse is quickly detected. This digitalization has led to less tax evasion, Stasi explains."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "image"
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1jiq13avr2",
+   "content": {
+    "image": {
+     "author": "NZZ",
+     "caption": "Panagiota Stasi and Panagiotis Kintzios examine the tax profile of the coffee house.",
+     "originalUrl": "/2026/03/03/b182ff57-cce2-4420-89d8-b5e0b46eef2f.jpg?width=1024",
+     "width": 4032,
+     "height": 3024,
+     "imageService": "fastly"
+    },
+    "caption": "Panagiota Stasi and Panagiotis Kintzios examine the tax profile of the coffee house.",
+    "author": "NZZ"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1jimsfmcn0",
+   "content": {
+    "title": "Replica fuel pump for training purposes",
+    "id": "subtitle-nachgebaute-zapfs-ule-zu-trainingszwecken"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "image",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jimsfmcp0",
+   "content": {
+    "text": "That was also the government's goal. Tax evasion and the shadow economy were considered one of the causes of the Greek financial crisis. At its peak in 2013, the informal economy was estimated to account for between 23 and 30 percent of GDP, depending on the study and methodology. «The crisis forced us to reform the tax system,» explains Giorgos Pitsilis, head of the tax authority AADE. He has been in the business for years and has overhauled the tax administration, notorious for its inefficiency. He has led the agency since it was separated from the Ministry of Finance in 2017 and began operating independently – a demand of the international creditors."
+   },
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jimsfmcs0",
+   "content": {
+    "text": "Pitsilis has digitized the tax system. By introducing a digital accounting system, transactions are monitored in real time by the tax authorities, and bank data is linked to the administration. In addition to developing digital tools, controls have been tightened, a cash limit has been introduced, and electronic payments have been promoted."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jimsfmcu0",
+   "content": {
+    "text": "The progress is impressive. According to the government, the measures generated an additional €2.2 billion in revenue for the state last year, contributing to the country's economic recovery, with total net government revenues reaching €77 billion. While the size of the shadow economy, at 21.9 percent of GDP, remains high by European standards, it is declining. This is also reflected in the shrinking VAT gap, the difference between the theoretically owed and the actual amount of VAT paid: According to the European Commission, it has decreased by two-thirds since 2017 and stood at 10.5 percent in 2023. The EU average is 7 percent."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jimsfmd00",
+   "content": {
+    "text": "Pitsilis explains how digitalization enables more targeted inspections across the country. In small teams, a total of 2,000 inspectors like Kintzios and Stasi conduct random checks of restaurants, law offices, supermarkets, and gas stations, primarily when there is concrete evidence of abuse. They receive such evidence from the «boarding room» of the modern AADE operations center in Athens."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jimsfmd30",
+   "content": {
+    "text": "In the sparsely furnished control room – everything is bright and white – eight large screens hang on the wall. They display: real-time images from a drone inspecting a tanker truck on a highway, footage of a private yacht, a map showing the current locations of the investigation teams, and satellite images of «suspicious targets.» Half a dozen data analysts sit at rows of tables behind computers in front of them."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jimsfmd50",
+   "content": {
+    "text": "One of them is evaluating the latest risk profiles generated by the artificial intelligence. The focus is on several gas stations whose data on delivered, stored, and sold fuel quantities shows discrepancies. AADE monitors these automatically and in real time. Using a color-coded cluster diagram, the analyst examines the network of gas stations: owners, accountants, lawyers, and other companies involved. «If the indications of misuse become more concrete, we dispatch several investigation teams with the support of other authorities, coordinating and monitoring their operations,» explains Konstantia Tachtsidou, head of the control room."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "image"
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1jj15584a0",
+   "content": {
+    "image": {
+     "author": "NZZ",
+     "caption": "Konstantia Tachtsidou, head of the control room at the AADE operations center in Athens.",
+     "originalUrl": "/2026/03/03/29886a18-83e0-4cf6-b5db-e3d5e01bacc7.jpg?width=1024",
+     "width": 3024,
+     "height": 4032,
+     "imageService": "fastly"
+    },
+    "caption": "Konstantia Tachtsidou, head of the control room at the AADE operations center in Athens.",
+    "author": "NZZ"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jimsfmd70",
+   "content": {
+    "text": "The current suspected case is said to be typical: The gasoline trade reportedly has the largest shadow economy in Greece. In light of this, the AADE has built a replica of a gas pump specifically for training purposes. They practice using it to detect technical tampering. A tanker truck is currently being replicated for the same purpose. The responsible official proudly displays the plans."
+   },
+   "paidContent": true,
+   "prevElement": "image",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1jimsfmd90",
+   "content": {
+    "title": "Houses under constant construction and dwindling living space",
+    "id": "subtitle-h-user-im-ewigen-bau-und-schwindende-wohnfl-chen"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jimsfmda0",
+   "content": {
+    "text": "Pitsilis, the head of the tax authority, has no illusions. Digitalization, which offers the state new possibilities in the fight against tax evasion, also benefits fraudsters. «We're in a constant race,» he says. He notes that the state has now seen through many old tricks, but new ones are sure to follow, and they have to be prepared for that."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jimsfmdc0",
+   "content": {
+    "text": "The «old tricks» are still talked about in Greece. Particularly in the restaurant and service sectors, cash payments were long the norm, and receipts were avoided to evade VAT and keep declared income low. Until a few years ago, 70 percent of self-employed individuals also behaved conspicuously, declaring income below the legal minimum wage. Creativity was also evident in the real estate sector: houses officially remained «under construction,» facades unplastered, roofs unfinished, all to pay less tax. For the same reason, living space was reduced by a few square meters on paper, and some swimming pools existed in the garden but were not registered in the land registry."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jimsfmdd0",
+   "content": {
+    "text": "Electronic cash register systems, house mapping, a minimum tax for the self-employed, and digital reporting systems limit the scope for such maneuvers. Nevertheless, their ingenuity is astonishing. Where does this low tax morale come from? «Perhaps it's in our DNA,» says Tachtsidou, the head of the tax office, with self-deprecating humor. Her agency's task, she explains, is to make the public understand that paying taxes is an obligation. «Many think it's optional.»"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jimsfmde0",
+   "content": {
+    "text": "Tachtsidou used to conduct inspections herself, experiencing bribery attempts and unpleasant incidents. Even today, she notices how people avoid her in private as soon as they learn about her profession. «They become suspicious,» she says with a laugh. She adds that while the tax morale of Greeks has improved, there is still room for improvement. In her opinion, the root cause is the Greeks' distrust of their government. According to a Eurobarometer survey, 79% of the population distrusts the state. Pitsilis has an explanation for this, which he phrases diplomatically: «It's related to how people perceive the state's handling of their money.»"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jimsfmdg0",
+   "content": {
+    "text": "Yannis Marinos is a good example. The 46-year-old sits on the terrace of his restaurant in Athens' Plaka district, enjoying a coffee and a cigarette, and says: «You get the feeling you're not getting anything back.» It's a statement that resonates. Marinos makes it in connection with a recent hospital visit. He accompanied a friend there. The dilapidated infrastructure shocked the friendly man so much that he says he would rather die than have to be treated there."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jimsfmdh0",
+   "content": {
+    "text": "Marinos implemented the electronic cash register system in his restaurant in 2024, as required by law. He supports the government's approach. He admits that the problem of undeclared income hasn't disappeared, but it has decreased. Nevertheless, he's annoyed. Unprompted, he brings up the massive embezzlement of EU subsidies: For years, the state has been evading billions, he fumes. «Then these same people come to me, checking the receipt for every single coffee, as if I were a thief.» It's not about the checks themselves, but about the principle."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jimsfmdi0",
+   "content": {
+    "text": "He believes the 24 percent value-added tax is excessive. How the government calculates it is a mystery to him. He calls it «Greek mathematics.» This makes survival difficult, he says. He has to absorb costs somewhere, but at the same time, he can't afford to drive away customers. In his view, an even stricter control system with a lower tax rate would be fairer."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "image"
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1jj156f7b0",
+   "content": {
+    "image": {
+     "author": "NZZ",
+     "caption": "All information converges in the control room of the AADE headquarters.",
+     "originalUrl": "/2026/03/03/9b22faa9-43f0-4778-afef-a4353a396caa.jpg?crop=2688,3584,x0,y136",
+     "width": 3024,
+     "height": 4032,
+     "crop": {
+      "x": 0,
+      "y": 136,
+      "width": 2688,
+      "height": 3584
+     },
+     "imageService": "fastly"
+    },
+    "caption": "All information converges in the control room of the AADE headquarters.",
+    "author": "NZZ"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1jimsfmdj0",
+   "content": {
+    "title": "Lottery and amateur tax investigators",
+    "id": "subtitle-lotterie-und-amateur-steuerfahnder"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "image",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jimsfmdl0",
+   "content": {
+    "text": "Marinos is not the only one complaining about the high VAT. Small businesses, especially mechanics and hair salons, are struggling with it. It is whispered that tradespeople are still reluctant to issue receipts. Pitsilis knows this too. «We can't just barge into a house and check if the plumber has issued an invoice.» He adds jokingly, «Unfortunately, we're not invited to doctor's appointments either. People go alone.» He therefore appeals to the common good, adding that the fight against tax evasion requires everyone's cooperation."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jimsfmdm0",
+   "content": {
+    "text": "The government is also actively involving the population, for example with a «tax lottery.» This aims to encourage people to pay without cash. For every bill paid digitally, there's a ticket that automatically participates in a monthly drawing. 556 prizes are up for grabs each month."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jimsfmdn0",
+   "content": {
+    "text": "He's also turning the population into amateur tax inspectors. To this end, he launched the app «appodixi,» whose name combines «app» and the Greek word for receipt. Using this app, any citizen can scan the receipt they receive and check whether the full amount has been reported to the tax office. In 2024, 75,000 reports were received. More than half of these indicated tax evasion."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jimsfmdp0",
+   "content": {
+    "text": "Kintzios and Stasi spend a little more time in the coffee shop than planned. The digital cash register system refuses to issue a receipt due to connection problems with the server. The waitress tries to reason with the machine: «Come on, don't do this to me, I don't want to be led away in handcuffs.» Slightly flustered, she compliments Stasi's smile as she waits patiently. The most important thing, Stasi says, is to always treat people kindly and respectfully – even if they cheat. In the case of the coffee shop, that's not the case. The cash register system eventually issues the receipt, and there's nothing to complain about."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "sharebox",
+   "lastContentElement": true
+  },
+  {
+   "identifier": "sharebox",
+   "id": "doc-1jhnlilad3",
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "related-articles-container"
+  },
+  {
+   "identifier": "related-articles-container",
+   "id": "doc-1jhnlilad4",
+   "content": {
+    "title": "Related articles"
+   },
+   "containers": {
+    "related-articles": [
+     {
+      "identifier": "teaser",
+      "id": "doc-1jhnlilad5",
+      "content": {
+       "owner": "NZZ",
+       "title": "Surfing tax investigators: Greece catches tax evaders on social media",
+       "teaserImage": {
+        "originalUrl": "/2024/01/31/a3141831-790d-49dd-a479-cc1d70ab13e1.jpeg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2024/01/31/a3141831-790d-49dd-a479-cc1d70ab13e1.jpeg?width=1024&quality=75&auto=webp",
+        "width": 6007,
+        "height": 3997,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "4746,2670,x1261,y479"
+         },
+         {
+          "name": "1:1",
+          "crop": "266,266,x4656,y2247"
+         },
+         {
+          "name": "4:3",
+          "crop": "3743,2807,x2149,y796"
+         },
+         {
+          "name": "3:4",
+          "crop": "2998,3996,x2129,y0"
+         }
+        ],
+        "imageService": "fastly",
+        "teaserCaption": "Tax evasion is rampant in Greece. It was pictures of a lavish wedding that alerted the tax inspectors.",
+        "teaserAuthor": "Giannis Papanikos/NurPhoto/Getty"
+       },
+       "teaserAuthor": "Giannis Papanikos/NurPhoto/Getty",
+       "nzzasFootnote": false,
+       "folioFootnote": false,
+       "language": {
+        "locale": "de-CH"
+       },
+       "nzzId": "ld.1776500",
+       "readingTime": 240,
+       "authorLine": "Elena Panagiotidis",
+       "characterCount": 5394,
+       "product": "NZZ.ch",
+       "documentId": 1776500,
+       "layout": "regular",
+       "publicationDate": "2024-02-01T04:30:00.000Z",
+       "publicationLastUpdated": "2024-02-01T08:07:02.889Z",
+       "significantUpdate": false,
+       "significantUpdateTill": "2024-02-01T16:30:00.000Z",
+       "teaserCaption": "Tax evasion is rampant in Greece. It was pictures of a lavish wedding that alerted the tax inspectors.",
+       "url": "/international/wie-griechische-fahnder-jagd-auf-steuersuender-machen-ld.1776500",
+       "department": {
+        "name": "International",
+        "path": "/international"
+       },
+       "estimationWordCount": 794,
+       "leadText": "Tax evasion is rampant in Greece. It was pictures of a lavish wedding that alerted the tax inspectors."
+      }
+     },
+     {
+      "identifier": "teaser",
+      "id": "doc-1jhnlilad6",
+      "content": {
+       "owner": "NZZaS",
+       "title": "Storm against Greece's beach entrepreneurs",
+       "teaserImage": {
+        "originalUrl": "/2023/08/12/bac1ad25-4d23-402f-b422-5e737d298c74.jpeg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2023/08/12/bac1ad25-4d23-402f-b422-5e737d298c74.jpeg?width=1024&quality=75&auto=webp",
+        "width": 3732,
+        "height": 2488,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "3317,1866,x201,y558"
+         },
+         {
+          "name": "1:1",
+          "crop": "681,681,x1052,y1180"
+         },
+         {
+          "name": "4:3",
+          "crop": "3317,2488,x415,y0"
+         },
+         {
+          "name": "3:4",
+          "crop": "1866,2488,x909,y0"
+         }
+        ],
+        "imageService": "fastly",
+        "teaserCaption": "Outraged islanders are marching onto the beaches to protest the excessive use of sunbeds and canopies. There is hardly any space left for bathers who don't want to pay for a sun lounger.",
+        "teaserAuthor": "Ronit Nesher / Reuters"
+       },
+       "teaserAuthor": "Ronit Nesher / Reuters",
+       "nzzasFootnote": false,
+       "folioFootnote": false,
+       "language": {
+        "locale": "de-CH"
+       },
+       "nzzId": "ld.1782896",
+       "readingTime": 240,
+       "authorLine": "Markus Bernath",
+       "characterCount": 5187,
+       "product": "NZZ.ch",
+       "documentId": 1782896,
+       "layout": "regular",
+       "publicationDate": "2024-02-09T19:27:35.740Z",
+       "publicationLastUpdated": "2024-02-22T13:08:13.877Z",
+       "significantUpdate": false,
+       "significantUpdateTill": "2024-02-10T07:27:35.740Z",
+       "teaserCaption": "Outraged islanders are marching onto the beaches to protest the excessive use of sunbeds and canopies. There is hardly any space left for bathers who don't want to pay for a sun lounger.",
+       "url": "/international/badetuch-bewegung-in-griechenland-gegen-strandunternehmer-ld.1782896",
+       "department": {
+        "name": "International",
+        "path": "/international"
+       },
+       "estimationWordCount": 786,
+       "leadText": "Outraged islanders are marching onto the beaches to protest the excessive use of sunbeds and canopies. There is hardly any space left for bathers who don't want to pay for a sun lounger."
+      }
+     },
+     {
+      "identifier": "teaser",
+      "id": "doc-1jhnlilad7",
+      "content": {
+       "owner": "NZZ",
+       "title": "Greece seeks migrants – but only if they enter the country legally and work",
+       "teaserImage": {
+        "originalUrl": "/2026/02/04/1ad11712-fe89-4203-987c-1129e34c7ccf.jpg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2026/02/04/1ad11712-fe89-4203-987c-1129e34c7ccf.jpg?width=1024&quality=75&auto=webp",
+        "width": 6000,
+        "height": 4002,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "6000,3375,x0,y343"
+         },
+         {
+          "name": "1:1",
+          "crop": "1095,1095,x1076,y497"
+         },
+         {
+          "name": "4:3",
+          "crop": "5336,4002,x0,y0"
+         },
+         {
+          "name": "3:4",
+          "crop": "3002,4002,x971,y0"
+         },
+         {
+          "name": "3:2",
+          "crop": "6000,4000,x0,y0"
+         }
+        ],
+        "imageService": "fastly",
+        "teaserCaption": "Fifteen migrants died in a boat collision off a Greek island on Tuesday evening. The government, meanwhile, aims to continue its stricter migration policy with a new law.",
+        "teaserAuthor": "Konstantinos Anagnostou / Reuters"
+       },
+       "teaserAuthor": "Konstantinos Anagnostou / Reuters",
+       "nzzasFootnote": false,
+       "folioFootnote": false,
+       "language": {
+        "locale": "de-CH"
+       },
+       "nzzId": "ld.1923411",
+       "readingTime": 180,
+       "authorLine": "Nicole Anliker, Istanbul",
+       "characterCount": 4442,
+       "product": "NZZ.ch",
+       "documentId": 1923411,
+       "layout": "regular",
+       "publicationDate": "2026-02-05T04:30:00.000Z",
+       "publicationLastUpdated": "2026-02-05T04:30:00.000Z",
+       "significantUpdate": false,
+       "significantUpdateTill": "2026-02-05T16:30:00.000Z",
+       "teaserCaption": "Fifteen migrants died in a boat collision off a Greek island on Tuesday evening. The government, meanwhile, aims to continue its stricter migration policy with a new law.",
+       "authorImage": {
+        "url": "https://img-msp-prod.nzz.ch/2024/05/29/0fa9ee7c-9745-4631-b30a-193344bc8d89.jpeg?width=1024&quality=75&auto=webp",
+        "originalUrl": "/2024/05/29/0fa9ee7c-9745-4631-b30a-193344bc8d89.jpeg?width=1024",
+        "imageService": "fastly",
+        "width": 4745,
+        "height": 3164,
+        "crops": []
+       },
+       "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2024/05/29/0fa9ee7c-9745-4631-b30a-193344bc8d89.jpeg?width=1024&quality=75&auto=webp",
+       "url": "/international/griechenland-sucht-migranten-aber-nur-wenn-sie-legal-ins-land-kommen-und-arbeiten-ld.1923411",
+       "department": {
+        "name": "International",
+        "path": "/international"
+       },
+       "estimationWordCount": 638,
+       "leadText": "Fifteen migrants died in a boat collision off a Greek island on Tuesday evening. The government, meanwhile, aims to continue its stricter migration policy with a new law.",
+       "nzzSummaryIsAuto": true
+      }
+     }
+    ]
+   },
+   "paidContent": true,
+   "prevElement": "sharebox",
+   "nextElement": "",
+   "lastContentElement": true
+  }
+ ],
+ "metadata": {
+  "owner": "NZZ",
+  "title": "Athens' fight against the shadow economy: Investigators hunt for tax evaders",
+  "teaserImage": {
+   "originalUrl": "/2026/03/03/c59b1e1f-f6bb-4381-886f-1c1b53152b19.jpg?width=1024",
+   "url": "https://img-msp-prod.nzz.ch/2026/03/03/c59b1e1f-f6bb-4381-886f-1c1b53152b19.jpg?width=1024&quality=75&auto=webp",
+   "width": 4032,
+   "height": 3024,
+   "crops": [
+    {
+     "name": "16:9",
+     "crop": "3584,2016,x0,y573"
+    },
+    {
+     "name": "1:1",
+     "crop": "3024,3024,x504,y0"
+    },
+    {
+     "name": "4:3",
+     "crop": "4032,3024,x0,y0"
+    },
+    {
+     "name": "3:4",
+     "crop": "2268,3024,x882,y0"
+    },
+    {
+     "name": "3:2",
+     "crop": "4032,2688,x0,y168"
+    }
+   ],
+   "imageService": "fastly",
+   "teaserCaption": "Greek tax morale long had a bad reputation. With the digitalization of the tax system, the government is now taking rigorous action against fraudsters – with considerable progress.",
+   "teaserAuthor": "NZZ"
+  },
+  "teaserAuthor": "NZZ",
+  "nzzasFootnote": false,
+  "folioFootnote": false,
+  "authorLine": "Nicole Anliker, Athen",
+  "language": {
+   "locale": "en-US"
+  },
+  "nzzId": "ld.1925441",
+  "readingTime": 480,
+  "characterCount": 11141,
+  "breadcrumbs": [
+   {
+    "name": "Economy",
+    "path": "/wirtschaft"
+   }
+  ],
+  "product": "NZZ.ch",
+  "documentId": 1925441,
+  "contentTypeGroup": "web",
+  "layout": "longformstandard",
+  "firstPublicationDate": "2026-04-14T03:30:00.000Z",
+  "publicationDate": "2026-04-14T03:30:00.000Z",
+  "publicationLastUpdated": "2026-04-14T03:30:00.000Z",
+  "significantUpdate": false,
+  "significantUpdateTill": "2026-04-14T15:30:00.000Z",
+  "teaserCaption": "Greek tax morale long had a bad reputation. With the digitalization of the tax system, the government is now taking rigorous action against fraudsters – with considerable progress.",
+  "nzzAuthors": [
+   {
+    "id": 1371866,
+    "name": "Nicole Anliker",
+    "shortName": "ann",
+    "pianoId": "6670b575-74b8-4c2f-accb-288c21bd1157",
+    "external": false
+   }
+  ],
+  "authorImage": {
+   "url": "https://img-msp-prod.nzz.ch/2024/05/29/0fa9ee7c-9745-4631-b30a-193344bc8d89.jpeg?width=1024&quality=75&auto=webp",
+   "originalUrl": "/2024/05/29/0fa9ee7c-9745-4631-b30a-193344bc8d89.jpeg?width=1024",
+   "imageService": "fastly",
+   "width": 4745,
+   "height": 3164,
+   "crops": []
+  },
+  "nzzAuthorProfileDataCollection": [
+   {
+    "documentId": 665513,
+    "name": "Nicole Anliker, Athen",
+    "teaserImageUrl": "https://img-msp-prod.nzz.ch/2024/05/29/0fa9ee7c-9745-4631-b30a-193344bc8d89.jpeg?width=1024&quality=75&auto=webp"
+   }
+  ],
+  "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2024/05/29/0fa9ee7c-9745-4631-b30a-193344bc8d89.jpeg?width=1024&quality=75&auto=webp",
+  "url": "/wirtschaft/athens-kampf-gegen-die-schattenwirtschaft-mit-fahndern-auf-der-jagd-nach-steuersuendern-ld.1925441",
+  "department": {
+   "name": "Economy",
+   "path": "/wirtschaft"
+  },
+  "estimationWordCount": 1616,
+  "leadText": "Greek tax morale long had a bad reputation. With the digitalization of the tax system, the government is now taking rigorous action against fraudsters – with considerable progress.",
+  "nzzSummaryEN": "- Greece has reformed and digitized its tax system to combat tax evasion. Electronic cash systems and real-time monitoring show initial success, though the shadow economy remains a major issue.\n- The AADE conducts targeted inspections using modern technologies such as drones and data cluster analyses. A tax lottery and the 'appodixi' app aim to encourage citizens to pay digitally and report abuse.\n- Despite progress, distrust in the government remains high. Many Greeks view paying taxes more as an option than a duty, influenced by inadequate state returns and deteriorating infrastructure.",
+  "nzzSummaryDE": "Greece has reformed and digitized its tax system to combat tax evasion. Electronic cash register systems and real-time controls are showing initial success, but the shadow economy remains a major problem.\n - The AADE conducts targeted audits, employing modern technologies such as drones and data cluster analysis. A tax lottery and the 'appodixi' app are intended to encourage citizens to pay digitally and report fraud.\n Despite progress, distrust of the state remains high. Many Greeks view paying taxes as an option rather than an obligation – influenced by a lack of returns from the state and a dilapidated infrastructure.",
+  "nzzSummaryIsAuto": true,
+  "nzzSummaryModel": "gpt-4o-2024-11-20",
+  "nzzPrintTitle": "Tax investigators in Greece: This is how Athens is fighting the shadow economy",
+  "nzzPrintSubtitle": "Greek tax morale has long been notorious. With the digitalization of the tax system, the government is now taking rigorous action against tax evaders. ",
+  "allArticleLanguages": [
+   {
+    "locale": "de-CH",
+    "urlPath": "/wirtschaft/athens-kampf-gegen-die-schattenwirtschaft-mit-fahndern-auf-der-jagd-nach-steuersuendern-ld.1925441",
+    "seo": {}
+   }
+  ],
+  "seo": {
+   "canonicalUrl": "https://www.nzz.ch/wirtschaft/athens-kampf-gegen-die-schattenwirtschaft-mit-fahndern-auf-der-jagd-nach-steuersuendern-ld.1925441",
+   "title": "Tax investigators in Greece: This is how Athens is fighting the shadow economy",
+   "socialMediaTitle": "Tax investigators in Greece: This is how Athens is fighting the shadow economy",
+   "excludeFromSpiders": false,
+   "image": "https://img-msp-prod.nzz.ch/2026/03/03/c59b1e1f-f6bb-4381-886f-1c1b53152b19.jpg?width=1200&height=675&fit=bounds&quality=75&auto=webp&crop=3584,2016,x0,y573&wmark=nzz"
+  },
+  "ldPublicationId": 1815537,
+  "isHighlightedHeader": false,
+  "nzzTopics": [
+   {
+    "name": "Greece",
+    "slug": "/themen/griechenland"
+   },
+   {
+    "name": "Taxes",
+    "slug": "/themen/steuern"
+   },
+   {
+    "name": "Digitization",
+    "slug": "/themen/digitalisierung"
+   },
+   {
+    "name": "EU",
+    "slug": "/themen/eu"
+   }
+  ],
+  "barrierIndex": 3,
+  "outlinks": {
+   "mehrZumThema": [
+    "ld.1776500",
+    "ld.1782896",
+    "ld.1923411"
+   ],
+   "artikelListe": [],
+   "aliasTeaserEmbedList": []
+  },
+  "tts": true,
+  "mp3": true,
+  "mp3Duration": 755976,
+  "project": "nzz",
+  "machineTranslated": true,
+  "machineTranslationValidated": false
+ },
+ "isReduced": false,
+ "isPaid": false,
+ "isVamp": false,
+ "isWebview": false,
+ "btaFeed": {
+  "meta": {
+   "id": "griechenland",
+   "name": "Greece",
+   "tagName": "Greece",
+   "qId": "Q41",
+   "seoTitle": "Greece – All the news, articles and information on the topic | NZZ",
+   "description": null,
+   "firstName": null,
+   "lastName": null,
+   "category": "LOC",
+   "createdDate": "2025-04-08 16:10:25.162Z",
+   "imageURL": null,
+   "imageCroppedURL": null,
+   "imageWidth": null,
+   "imageHeight": null,
+   "imageCredits": null,
+   "url": "https://nzz.ch/themen/griechenland",
+   "size": 396,
+   "relatedTopics": [
+    {
+     "name": "Steuern",
+     "slug": "/themen/steuern"
+    },
+    {
+     "name": "Digitalisierung",
+     "slug": "/themen/digitalisierung"
+    },
+    {
+     "name": "EU",
+     "slug": "/themen/eu"
+    }
+   ]
+  },
+  "data": [
+   {
+    "owner": "NZZ",
+    "flag": "Latest developments",
+    "title": "Migration crisis in Europe: Italy extends border controls with Spain",
+    "teaserImage": {
+     "originalUrl": "/2026/04/14/a2ac55f3-96dc-42e7-988d-6f0e852839c1.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/04/14/a2ac55f3-96dc-42e7-988d-6f0e852839c1.jpg?width=1024&quality=75&auto=webp",
+     "width": 3543,
+     "height": 2362,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "3543,1993,x0,y185"
+      },
+      {
+       "name": "4:3",
+       "crop": "3149,2362,x197,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "2362,2362,x591,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "1772,2362,x886,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "3543,2362,x0,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "In addition to the movements of refugees from Ukraine, migrants are still attempting to reach Europe every day via the Greek islands, the Balkan route or the English Channel, risking their lives.",
+     "teaserAuthor": "Stefanos Rapanis / Reuters"
+    },
+    "teaserAuthor": "Stefanos Rapanis / Reuters",
+    "nzzasFootnote": false,
+    "folioFootnote": false,
+    "language": {
+     "locale": "de-CH"
+    },
+    "nzzId": "ld.1535949",
+    "readingTime": 540,
+    "authorLine": "NZZ Editorial Team",
+    "paywallQuestionOne": "Why are the sea routes to Europe particularly deadly?",
+    "paywallQuestionTwo": "Why has Crete gained importance for migration?",
+    "paywallQuestionThree": "What role does Libya play as a transit country?",
+    "editor": "1372351",
+    "characterCount": 11439,
+    "product": "NZZ.ch",
+    "documentId": "1535949",
+    "layout": "regular",
+    "publicationDate": "2026-08-31T10:47:55.070Z",
+    "publicationLastUpdated": "2026-08-31T10:47:55.070Z",
+    "significantUpdate": true,
+    "significantUpdateTill": "2026-08-31T22:47:55.070Z",
+    "teaserCaption": "In addition to the movements of refugees from Ukraine, migrants are still attempting to reach Europe every day via the Greek islands, the Balkan route or the English Channel, risking their lives.",
+    "url": "https://www.nzz.ch/international/migrationskrise-in-europa-die-wichtigsten-fakten-und-news-ld.1535949",
+    "department": {
+     "name": "International",
+     "path": "/international"
+    },
+    "estimationWordCount": 1757,
+    "leadText": "In addition to the movements of refugees from Ukraine, migrants are still attempting to reach Europe every day via the Greek islands, the Balkan route or the English Channel, risking their lives.",
+    "nzzSummaryIsAuto": true,
+    "hasQ": true
+   },
+   {
+    "title": "Heat in Europe: Climate researcher warns of more extreme weather; hundreds flee wildfires in Spain",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "flag": "Live ticker",
+    "teaserImage": {
+     "originalUrl": "/2026/08/16/d2612d92-7a98-4fc1-a944-56823092d486.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/08/16/d2612d92-7a98-4fc1-a944-56823092d486.jpg?width=1024&quality=75&auto=webp",
+     "width": 5315,
+     "height": 3543,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "5315,3543,x0,y0"
+      },
+      {
+       "name": "4:3",
+       "crop": "5315,3543,x0,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "5315,3543,x0,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "5315,3543,x0,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "Where is it particularly hot right now? And what are the effects on people and the environment? The latest news on the heatwave in Europe.",
+     "teaserAuthor": "Federico Gambarini / Keystone"
+    },
+    "teaserAuthor": "Federico Gambarini / Keystone",
+    "authorLine": "NZZ Editorial Team",
+    "nzzId": "ld.10008673",
+    "readingTime": 60,
+    "liveCenterId": "86247",
+    "embeds": {
+     "videos": [
+      {
+       "id": "TZNqnPW9",
+       "provider": "jw",
+       "teaser": true,
+       "duration": 9,
+       "sources": [
+        {
+         "file": "https://cdn.jwplayer.com/videos/TZNqnPW9-IBEUDFZ7.mp4",
+         "label": "180p"
+        }
+       ]
+      }
+     ]
+    },
+    "paywallQuestionOne": "How do heat waves affect people, animals and the environment in Switzerland?",
+    "paywallQuestionTwo": "Which regions of Europe are affected by record temperatures?",
+    "paywallQuestionThree": "What measures does the federal government recommend to combat the heat?",
+    "characterCount": 19,
+    "videoTeaser": "TZNqnPW9",
+    "product": "NZZ.ch",
+    "documentId": "10008673",
+    "layout": "regular",
+    "publicationDate": "2026-08-27T06:52:11.732Z",
+    "publicationLastUpdated": "2026-08-27T06:52:11.732Z",
+    "significantUpdate": true,
+    "significantUpdateTill": "2026-08-27T18:52:11.732Z",
+    "teaserCaption": "Where is it particularly hot right now? And what are the effects on people and the environment? The latest news on the heatwave in Europe.",
+    "url": "https://www.nzz.ch/panorama/hitze-in-europa-klimaforscher-warnt-vor-mehr-extremwetter-hunderte-menschen-in-spanien-wegen-waldbrand-evakuiert-ld.10008673",
+    "department": {
+     "name": "Panorama",
+     "path": "/panorama"
+    },
+    "estimationWordCount": 45,
+    "leadText": "Where is it particularly hot right now? And what are the effects on people and the environment? The latest news on the heatwave in Europe.",
+    "nzzSummaryIsAuto": true,
+    "locale": "de-CH"
+   },
+   {
+    "title": "What Chania is talking about: Get rid of the pufferfish",
+    "showHeader": true,
+    "owner": "NZZaS",
+    "language": {
+     "locale": "de"
+    },
+    "authorLine": "Chrissa Wilkens",
+    "nzzasFootnote": true,
+    "teaserImage": {
+     "originalUrl": "/2026/08/06/94ca9a44-f129-4d00-90ed-38cbb752baa2.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/08/06/94ca9a44-f129-4d00-90ed-38cbb752baa2.jpg?width=1024&quality=75&auto=webp",
+     "width": 5640,
+     "height": 4500,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "5640,3172,x0,y764"
+      },
+      {
+       "name": "4:3",
+       "crop": "5640,4230,x0,y270"
+      },
+      {
+       "name": "1:1",
+       "crop": "4500,4500,x88,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "3375,4500,x258,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "5640,3760,x0,y370"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "Predatory fish from Indian Ocean spreading off Crete: fishermen angry, bathers cautious",
+     "teaserAuthor": "Sakis Lazarides / Getty"
+    },
+    "teaserAuthor": "Sakis Lazarides / Getty",
+    "editor": "1373125",
+    "nzzId": "ld.10018277",
+    "readingTime": 120,
+    "paywallQuestionOne": "How does the hazel-headed pufferfish threaten fishing off Crete?",
+    "paywallQuestionTwo": "What measures is the government planning to take against the pufferfish invasion?",
+    "paywallQuestionThree": "How do beachgoers react to the danger posed by the poisonous pufferfish?",
+    "characterCount": 2773,
+    "product": "NZZ.ch",
+    "documentId": "10018277",
+    "layout": "regular",
+    "publicationDate": "2026-08-09T03:30:00.000Z",
+    "publicationLastUpdated": "2026-08-09T03:30:00.000Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-08-09T15:30:00.000Z",
+    "teaserCaption": "Predatory fish from Indian Ocean spreading off Crete: fishermen angry, bathers cautious",
+    "url": "https://www.nzz.ch/international/darueber-spricht-chania-bloss-weg-mit-dem-kugelfisch-ld.10018277",
+    "department": {
+     "name": "International",
+     "path": "/international"
+    },
+    "estimationWordCount": 480,
+    "leadText": "Predatory fish from Indian Ocean spreading off Crete: fishermen angry, bathers cautious",
+    "nzzSummaryIsAuto": true,
+    "locale": "de-CH"
+   },
+   {
+    "title": "After the rush to Ceuta: Five charts show where Europe's biggest gap for irregular migration actually lies",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "teaserImage": {
+     "originalUrl": "/2026/08/04/0eda0ce2-ecd2-450f-906f-9eec179a7d05.png?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/08/04/0eda0ce2-ecd2-450f-906f-9eec179a7d05.png?width=1024&quality=75&auto=webp",
+     "width": 2401,
+     "height": 1800,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "2401,1351,x0,y81"
+      },
+      {
+       "name": "4:3",
+       "crop": "2400,1800,x0,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "1350,1800,x658,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "2401,1601,x0,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "The events in Ceuta give the impression of a new wave of migration. However, the number of irregular border crossings into Europe has been declining for years. In 2026, Spain even recorded the lowest figure among the major Mediterranean countries – unlike France, Greece and Italy.",
+     "teaserAuthor": "Jihed Abidellaoui / Reuters"
+    },
+    "teaserAuthor": "Jihed Abidellaoui / Reuters",
+    "tags": [
+     "Europa",
+     "Visuals"
+    ],
+    "nzzId": "ld.10018064",
+    "readingTime": 240,
+    "paywallQuestionOne": "Why have irregular border crossings into Europe been declining for years?",
+    "paywallQuestionTwo": "Why does Spain register fewer migrants than other Mediterranean countries?",
+    "paywallQuestionThree": "What role does France's Channel region play in migration?",
+    "characterCount": 4657,
+    "product": "NZZ.ch",
+    "documentId": "10018064",
+    "layout": "longformstandard",
+    "publicationDate": "2026-08-05T03:30:00.000Z",
+    "publicationLastUpdated": "2026-08-05T08:27:25.963Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-08-05T15:30:00.000Z",
+    "teaserCaption": "The events in Ceuta give the impression of a new wave of migration. However, the number of irregular border crossings into Europe has been declining for years. In 2026, Spain even recorded the lowest figure among the major Mediterranean countries – unlike France, Greece and Italy.",
+    "authorLine": "Julia Monn",
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2022/05/11/42f66be2-3c2e-485a-8f04-06049e6158ed.jpeg?width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/international/nach-dem-ansturm-auf-ceuta-fuenf-grafiken-zeigen-wo-europas-groesstes-schlupfloch-fuer-irregulaere-migration-tatsaechlich-liegt-ld.10018064",
+    "department": {
+     "name": "International",
+     "path": "/international"
+    },
+    "estimationWordCount": 764,
+    "premium": true,
+    "leadText": "The events in Ceuta give the impression of a new wave of migration. However, the number of irregular border crossings into Europe has been declining for years. In 2026, Spain even recorded the lowest figure among the major Mediterranean countries – unlike France, Greece and Italy.",
+    "nzzSummaryIsAuto": true,
+    "hasQ": true,
+    "locale": "de-CH"
+   },
+   {
+    "title": "«Tito and Ceausescu made a lot of money with their balancing act»: A conversation about the history of the Balkans – and its bad image",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "teaserImage": {
+     "originalUrl": "/2026/07/28/73ea5fe2-8cd3-4c65-84d1-02f0ad58ac59.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/07/28/73ea5fe2-8cd3-4c65-84d1-02f0ad58ac59.jpg?width=1024&quality=75&auto=webp",
+     "width": 3458,
+     "height": 2528,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "3458,1945,x0,y108"
+      },
+      {
+       "name": "4:3",
+       "crop": "3371,2528,x44,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "2528,2528,x465,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "1896,2528,x781,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "3458,2305,x0,y111"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "Those who only know the Balkans from afar believe the clichés: corruption, violence, nationalism. Historian Oliver Jens Schmitt explains what is true and what is fiction.",
+     "teaserAuthor": "Hulton Archives/Keystone/Getty"
+    },
+    "teaserAuthor": "Hulton Archives/Keystone/Getty",
+    "editor": "1371808",
+    "showComments": true,
+    "nzzId": "ld.10017170",
+    "readingTime": 660,
+    "paywallQuestionOne": "How does the urban middle class influence societies in the Balkans?",
+    "paywallQuestionTwo": "Why does ethnic nationalism remain so persistent in the Balkans?",
+    "paywallQuestionThree": "What role does the EU play in the geopolitical power structure of the Balkans?",
+    "characterCount": 14393,
+    "authorLine": "Andreas Ernst",
+    "flag": "interview",
+    "product": "NZZ.ch",
+    "documentId": "10017170",
+    "layout": "longformstandard",
+    "publicationDate": "2026-07-29T03:30:00.000Z",
+    "publicationLastUpdated": "2026-07-29T11:21:49.509Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-07-29T15:30:00.000Z",
+    "teaserCaption": "Those who only know the Balkans from afar believe the clichés: corruption, violence, nationalism. Historian Oliver Jens Schmitt explains what is true and what is fiction.",
+    "url": "https://www.nzz.ch/feuilleton/tito-und-ceausescu-machten-viel-geld-mit-ihrer-schaukelpolitik-ein-gespraech-ueber-die-geschichte-des-balkans-und-sein-schlechtes-image-ld.10017170",
+    "department": {
+     "name": "Arts & Culture",
+     "path": "/feuilleton"
+    },
+    "estimationWordCount": 2159,
+    "premium": true,
+    "leadText": "Those who only know the Balkans from afar believe the clichés: corruption, violence, nationalism. Historian Oliver Jens Schmitt explains what is true and what is fiction.",
+    "nzzSummaryIsAuto": true,
+    "commentsCount": 5,
+    "openToComment": false,
+    "locale": "de-CH"
+   },
+   {
+    "title": "Time and again, someone tries to geographically retrace Odysseus's wanderings. Yet it's not even clear where he lived",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "teaserImage": {
+     "originalUrl": "/2026/07/21/69ffb8e4-c524-4a83-8522-7f94999e0820.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/07/21/69ffb8e4-c524-4a83-8522-7f94999e0820.jpg?width=1024&quality=75&auto=webp",
+     "width": 5100,
+     "height": 3401,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "5100,2869,x0,y271"
+      },
+      {
+       "name": "4:3",
+       "crop": "4535,3401,x0,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "3401,3401,x0,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "2551,3401,x0,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "5100,3400,x0,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "The fundamental problem with the search is that the Odyssey is fiction. This doesn't change even if a location happens to roughly match the description in the epic.",
+     "teaserAuthor": "Paolo Reda / Reda / Getty"
+    },
+    "teaserAuthor": "Paolo Reda / Reda / Getty",
+    "tags": [
+     "Wissenschaft aktuell",
+     "Archäologie"
+    ],
+    "nzzId": "ld.10016235",
+    "readingTime": 480,
+    "paywallQuestionOne": "Why is the search for geographical locations of the Odyssey problematic?",
+    "paywallQuestionTwo": "What role do myths play in locating Odysseus' wanderings?",
+    "paywallQuestionThree": "Why is Ithaca considered the home of Odysseus despite contradictions?",
+    "characterCount": 9983,
+    "product": "NZZ.ch",
+    "documentId": "10016235",
+    "layout": "regular",
+    "publicationDate": "2026-07-25T03:30:00.000Z",
+    "publicationLastUpdated": "2026-07-25T03:30:00.000Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-07-25T15:30:00.000Z",
+    "teaserCaption": "The fundamental problem with the search is that the Odyssey is fiction. This doesn't change even if a location happens to roughly match the description in the epic.",
+    "authorLine": "Esther Widmann",
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2024/05/29/40bac84b-7387-49fd-9611-564cc4693323.jpeg?width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/wissenschaft/odyssee-warum-die-suche-nach-den-wahren-schauplaetzen-sinnlos-ist-ld.10016235",
+    "department": {
+     "name": "Science",
+     "path": "/wissenschaft"
+    },
+    "estimationWordCount": 1668,
+    "leadText": "The fundamental problem with the search is that the Odyssey is fiction. This doesn't change even if a location happens to roughly match the description in the epic.",
+    "nzzSummaryIsAuto": true,
+    "locale": "de-CH"
+   }
+  ]
+ },
+ "digitalData": {
+  "component": [
+   {
+    "id": "ld.1925441",
+    "name": "Athens' fight against the shadow economy: Investigators hunt for tax evaders",
+    "type": "article",
+    "subType1": "longformstandard",
+    "subType2": "",
+    "primaryCategory": "Wirtschaft",
+    "subCategory1": "",
+    "attributes": {
+     "headline": "Athens' fight against the shadow economy: Investigators hunt for tax evaders",
+     "firstPublishTitle": "",
+     "catchline": "",
+     "authors": [
+      {
+       "id": 1371866,
+       "name": "Nicole Anliker",
+       "shortName": "ann",
+       "pianoId": "6670b575-74b8-4c2f-accb-288c21bd1157",
+       "external": false
+      }
+     ],
+     "issueTimestamp": "2026-04-14T03:30:00.000Z",
+     "updateTimestamp": "2026-04-14T03:30:00.000Z",
+     "isSponsoredContent": false,
+     "isPro": false,
+     "isLiveticker": false,
+     "flag": "",
+     "owner": "NZZ"
+    }
+   }
+  ],
+  "page": {
+   "pageId": "ld.1925441",
+   "pageType": "longformstandard",
+   "primaryCategory": "Wirtschaft",
+   "subCategory1": "",
+   "subCategory2": "",
+   "language": "en-US"
+  },
+  "version": "2.0",
+  "user": {},
+  "event": []
+ },
+ "seoData": {
+  "title": "Tax investigators in Greece: This is how Athens is fighting the shadow economy",
+  "image": {
+   "url": "https://img-msp-prod.nzz.ch/2026/03/03/c59b1e1f-f6bb-4381-886f-1c1b53152b19.jpg?width=1200&height=675&fit=bounds&quality=75&auto=webp&crop=3584,2016,x0,y573&wmark=nzz",
+   "type": "image/jpeg",
+   "width": 1200,
+   "height": 675
+  },
+  "author": "Nicole Anliker, Athen",
+  "description": "Greek tax morale long had a bad reputation. With the digitalization of the tax system, the government is now taking rigorous action against fraudsters – with considerable progress.",
+  "news_keywords": "Athens' fight against the shadow economy: Investigators on the hunt for tax evaders, Business, News, NZZ",
+  "type": "article",
+  "last-modified": "2026-04-14T07:30:00+02:00",
+  "date": "2026-04-14T07:30:00+02:00",
+  "canonical": "https://www.nzz.ch/wirtschaft/athens-kampf-gegen-die-schattenwirtschaft-mit-fahndern-auf-der-jagd-nach-steuersuendern-ld.1925441",
+  "fb:app_id": 138008459595436,
+  "fb:pages": 143694099006529,
+  "fb:admins": 1592685173,
+  "locale": "de-CH",
+  "email": "online.redaktion@nzz.ch",
+  "site_name": "Neue Zürcher Zeitung",
+  "copyright": "2026 Neue Zürcher Zeitung AG, Schweiz",
+  "robots": "noindex, nofollow, noarchive, noodp",
+  "hreflang": [],
+  "sharedTitle": "Athens' fight against the shadow economy: Investigators hunt for tax evaders",
+  "ogTitle": "Tax investigators in Greece: This is how Athens is fighting the shadow economy",
+  "ogUrl": "https://www.nzz.ch/wirtschaft/athens-kampf-gegen-die-schattenwirtschaft-mit-fahndern-auf-der-jagd-nach-steuersuendern-ld.1925441",
+  "mrf:cms_id": "nzz:ld.1925441",
+  "mrf:sections": "Wirtschaft;Wirtschaft & Finanzen",
+  "mrf:tags": "Page Type:longformstandard;Editorial Owner:NZZ;Content Type:Standard Article;Article ID:ld.1925441",
+  "nzzAuthors": [
+   {
+    "id": 1371866,
+    "name": "Nicole Anliker",
+    "shortName": "ann",
+    "pianoId": "6670b575-74b8-4c2f-accb-288c21bd1157",
+    "external": false
+   }
+  ],
+  "links": [
+   {
+    "rel": "canonical",
+    "href": "https://www.nzz.ch/wirtschaft/athens-kampf-gegen-die-schattenwirtschaft-mit-fahndern-auf-der-jagd-nach-steuersuendern-ld.1925441"
+   },
+   {
+    "rel": "search",
+    "href": "/suche",
+    "title": "Suche Neue Zürcher Zeitung, Schweiz, https://www.nzz.ch/suche"
+   }
+  ],
+  "renderedAt": "Thu, 03 Sep 2026 09:31:23 GMT"
+ },
+ "structuredData": [
+  {
+   "@context": "https://schema.org",
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "item": {
+      "@id": "/",
+      "name": "Home"
+     }
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "item": {
+      "@id": "/wirtschaft",
+      "name": "Economy"
+     }
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Tax investigators in Greece: This is how Athens is fighting the shadow economy"
+    }
+   ]
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": "NewsArticle",
+   "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.nzz.ch/wirtschaft/athens-kampf-gegen-die-schattenwirtschaft-mit-fahndern-auf-der-jagd-nach-steuersuendern-ld.1925441"
+   },
+   "headline": "Tax investigators in Greece: This is how Athens is fighting the shadow economy",
+   "datePublished": "2026-04-14T07:30:00+02:00",
+   "dateModified": "2026-04-14T07:30:00+02:00",
+   "publisher": {
+    "@type": "NewsMediaOrganization",
+    "name": "Neue Zürcher Zeitung",
+    "url": "https://www.nzz.ch",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://www.nzz.ch/logo.png",
+     "width": 413,
+     "height": 60
+    },
+    "contactPoint": [
+     {
+      "@type": "ContactPoint",
+      "telephone": "+41-44-2581000",
+      "contactType": "customer service"
+     }
+    ],
+    "sameAs": [
+     "https://www.facebook.com/nzz",
+     "https://www.twitter.com/nzz",
+     "https://www.youtube.com/channel/UCK1aTcR0AckQRLTlK0c4fuQ",
+     "https://www.linkedin.com/company/neue-zurcher-zeitung",
+     "https://www.instagram.com/nzz/",
+     "https://de.wikipedia.org/wiki/Neue_Z%C3%BCrcher_Zeitung",
+     "https://www.wikidata.org/wiki/Q658945",
+     "https://plus.google.com/+nzz/",
+     "http://www.freebase.com/m/041b43"
+    ],
+    "masthead": "https://www.nzz.ch/impressum/impressum-ld.148422",
+    "foundingDate": "1780"
+   },
+   "description": "Greek tax morale long had a bad reputation. With the digitalization of the tax system, the government is now taking rigorous action against fraudsters – with considerable progress.",
+   "isAccessibleForFree": false,
+   "articleSection": "Wirtschaft",
+   "hasPart": {
+    "@type": "WebPageElement",
+    "isAccessibleForFree": false,
+    "cssSelector": ".nzzinteraction"
+   },
+   "image": {
+    "@type": "ImageObject",
+    "url": "https://img-msp-prod.nzz.ch/2026/03/03/c59b1e1f-f6bb-4381-886f-1c1b53152b19.jpg?width=1200&height=675&fit=bounds&quality=75&auto=webp&crop=3584,2016,x0,y573&wmark=nzz",
+    "width": 1200,
+    "height": 675
+   },
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Nicole Anliker"
+    }
+   ],
+   "inLanguage": "de"
+  }
+ ],
+ "mp3": true,
+ "mp3Duration": 755976,
+ "bT": {
+  "standard": {
+   "Tags": [
+    "/wirtschaft/athens-kampf-gegen-die-schattenwirtschaft-mit-fahndern-auf-der-jagd-nach-steuersuendern-ld.1925441",
+    "classification=default",
+    "relevance=default",
+    "layout=longformstandard",
+    "owner=nzz",
+    "product=nzz",
+    "doctype=article",
+    "pagetype=article",
+    "ldid=ld.1925441",
+    "channel=Wirtschaft"
+   ],
+   "ContentCreated": "2026-04-14T03:30:00.000Z",
+   "ContentAuthor": "Nicole Anliker, Athen",
+   "ContentSection": "Wirtschaft",
+   "ContentIsNative": true
+  },
+  "custom": {
+   "product": "nzz",
+   "docType": "article",
+   "pageType": "article",
+   "layout": "longformstandard",
+   "ldId": "ld.1925441",
+   "channel": "Wirtschaft",
+   "heading": "Athens Kampf gegen die Schattenwirtschaft: Mit Fahndern auf der Jagd nach Steuersündern",
+   "language": "en-US"
+  }
+ },
+ "webviewMetadata": {},
+ "cacheTime": 3600
+}

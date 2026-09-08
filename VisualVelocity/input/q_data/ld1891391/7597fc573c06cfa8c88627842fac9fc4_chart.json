@@ -1,0 +1,173 @@
+{
+  "_id": "7597fc573c06cfa8c88627842fac9fc4",
+  "_rev": "3-1e7be50d023c1bd340cc15a4cc03d3dd",
+  "data": [
+    [
+      null,
+      "USA",
+      "China",
+      "Canada"
+    ],
+    [
+      "01.01.2025",
+      "2.08%",
+      "5.73%",
+      "1.12%"
+    ],
+    [
+      "04.02.2025",
+      "2.26%",
+      "5.73%",
+      "1.12%"
+    ],
+    [
+      "10.02.2025",
+      "2.26%",
+      "5.73%",
+      "1.12%"
+    ],
+    [
+      "04.03.2025",
+      "2.75%",
+      "5.73%",
+      "1.30%"
+    ],
+    [
+      "07.03.2025",
+      "2.67%",
+      "5.73%",
+      "1.30%"
+    ],
+    [
+      "10.03.2025",
+      "2.67%",
+      "5.73%",
+      "1.30%"
+    ],
+    [
+      "12.03.2025",
+      "4.02%",
+      "5.73%",
+      "1.30%"
+    ],
+    [
+      "13.03.2025",
+      "4.02%",
+      "5.73%",
+      "1.32%"
+    ],
+    [
+      "03.04.2025",
+      "4.10%",
+      "5.73%",
+      "1.32%"
+    ],
+    [
+      "05.04.2025",
+      "11.85%",
+      "5.73%",
+      "1.32%"
+    ],
+    [
+      "09.04.2025",
+      "13.75%",
+      "5.73%",
+      "1.32%"
+    ],
+    [
+      "10.04.2025",
+      "13.75%",
+      "6.25%",
+      "1.32%"
+    ],
+    [
+      "12.04.2025",
+      "13.75%",
+      "6.50%",
+      "1.32%"
+    ],
+    [
+      "03.05.2025",
+      "14.04%",
+      "6.50%",
+      "1.32%"
+    ],
+    [
+      "14.05.2025",
+      "12.30%",
+      "5.80%",
+      "1.32%"
+    ],
+    [
+      "04.06.2025",
+      "13.67%",
+      "5.80%",
+      "1.32%"
+    ],
+    [
+      "23.06.2025",
+      "13.70%",
+      "5.80%",
+      "1.32%"
+    ],
+    [
+      "30.06.2025",
+      "13.71%",
+      "5.80%",
+      "1.32%"
+    ]
+  ],
+  "tool": "chart",
+  "notes": "Source: <a href=\"https://ttd.wto.org/en/analysis/tariff-actions/chart?reporter=C156&partner[0]=C840&partner[1]=U918&partner[2]=C756&partner[3]=C484\">WTO Tariff & Trade Data</a>",
+  "title": "The U.S. is now more protectionist than China",
+  "active": true,
+  "events": [],
+  "acronym": "pfi.",
+  "options": {
+    "chartType": "Line",
+    "barOptions": {
+      "isBarChart": false,
+      "forceBarsOnSmall": false
+    },
+    "annotations": {},
+    "arrowOptions": {
+      "colorScheme": 0,
+      "invertColorScheme": false
+    },
+    "largeNumbers": {
+      "divideBy": 0
+    },
+    "hideAxisLabel": true,
+    "dotplotOptions": {
+      "connectDots": true
+    },
+    "areaChartOptions": {
+      "stackType": "zero",
+      "areaInterpolation": "linear"
+    },
+    "lineChartOptions": {
+      "yScaleType": "linear",
+      "isStockChart": false,
+      "reverseYScale": false,
+      "lineInterpolation": "step-after"
+    },
+    "dateSeriesOptions": {
+      "labels": "many",
+      "interval": "day",
+      "prognosisStart": null
+    },
+    "highlightDataRows": [],
+    "colorOverwritesRows": [],
+    "highlightDataSeries": [],
+    "colorOverwritesSeries": []
+  },
+  "sources": [],
+  "subtitle": "Average applied tariff rates on the rest of the world (%)",
+  "createdBy": "barbara.serfozo@lieferanten.nzz.ch",
+  "updatedBy": "barbara.serfozo@lieferanten.nzz.ch",
+  "department": "Wirtschaft",
+  "createdDate": "2025-06-30T16:11:17.967Z",
+  "publication": "nzz",
+  "updatedDate": "2025-06-30T16:15:29.794Z",
+  "allowDownloadData": false
+}

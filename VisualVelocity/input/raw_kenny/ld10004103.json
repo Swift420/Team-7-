@@ -1,0 +1,1629 @@
+{
+ "content": [
+  {
+   "identifier": "header",
+   "id": "doc-1jmsk4p771",
+   "content": {
+    "title": "The Malacca dilemma: The Strait of Malacca is the linchpin of global trade. Is it threatened with a scenario similar to that of the Strait of Hormuz?",
+    "lead": "The strait near Singapore is even more important for global shipping than the entrance to the Persian Gulf. Hundreds of ships pass through it daily. A blockade would severely impact China.",
+    "author": ""
+   },
+   "containers": {
+    "authors": [
+     {
+      "identifier": "author-teaser",
+      "id": "doc-1jmsk4p772",
+      "content": {
+       "layout": "authorprofile",
+       "title": "Patrick Zoll, Taipei",
+       "url": "/impressum/patrick-zoll-ld.153793",
+       "teaserImage": {
+        "originalUrl": "/2022/07/27/a1b5d7fd-3108-40bf-a30b-455eb1d67d3e.png?crop=800,800,x0,y0",
+        "url": "https://img-msp-prod.nzz.ch/2022/07/27/a1b5d7fd-3108-40bf-a30b-455eb1d67d3e.png?crop=800,800,x0,y0&width=1024&quality=75&auto=webp",
+        "width": 800,
+        "height": 800,
+        "imageService": "fastly",
+        "crop": {
+         "name": "1:1",
+         "x": 0,
+         "y": 0,
+         "width": 800,
+         "height": 800
+        }
+       }
+      }
+     }
+    ]
+   },
+   "prevElement": "",
+   "nextElement": "image",
+   "firstContentElement": true
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1jneo3q200",
+   "content": {
+    "image": {
+     "author": "Yong Teck Limited / Getty",
+     "caption": "The Strait of Malacca – this is where the Indian Ocean and the Pacific Ocean connect.",
+     "originalUrl": "/2026/04/30/0fd4c5d4-0f78-4fcd-a006-964a371a5b78.jpg?crop=4103,2736,x0,y0",
+     "width": 4103,
+     "height": 2736,
+     "altText": "SINGAPORE, SINGAPORE - APRIL 19: Ships sail along the Singapore Strait, as seen from a plane, on April 19, 2026 in Singapore. Singapore is strengthening its long-term energy resilience as the Iran conflict disrupts global supply routes, exposing vulnerabilities in import-dependent economies. The government has also formed a ministerial committee to address supply shocks and rising fuel and food prices. (Photo by Yong Teck Lim/Getty Images)",
+     "origins": [
+      {
+       "name": "Hugo",
+       "identifier": "2178323252"
+      }
+     ],
+     "crop": {
+      "x": 0,
+      "y": 0,
+      "width": 4103,
+      "height": 2736,
+      "name": "article-image"
+     },
+     "namedCrops": [
+      {
+       "x": 0,
+       "y": 0,
+       "width": 4103,
+       "height": 2736,
+       "name": "article-image"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "caption": "The Strait of Malacca – this is where the Indian Ocean and the Pacific Ocean connect.",
+    "author": "Yong Teck Limited / Getty"
+   },
+   "prevElement": "header",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jnbnqkm31",
+   "content": {
+    "text": "Anyone who has ever landed at Singapore airport is familiar with the sight: At any time of day or night, hundreds of ships can be seen on approach. Tankers, freighters, tugboats, fishing boats and, somewhat less frequently, cruise ships or warships. They all pass through the Strait of Malacca."
+   },
+   "prevElement": "image",
+   "nextElement": "barrier"
+  },
+  {
+   "id": "doc-38a958b4",
+   "identifier": "barrier",
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jn972odm0",
+   "content": {
+    "text": "The Strait of Malacca and the connecting Strait of Singapore are the linchpin of global trade. They link the Indian Ocean with the Pacific Ocean. To the north, India controls the western approach, while further east in the South China Sea, China is the dominant power. Most shipping traffic between East Asia and the Indian subcontinent, the Middle East, Africa and Europe passes through here. The strait is 800 kilometers long, but at its narrowest point near Singapore, it is only three kilometers wide."
+   },
+   "paidContent": true,
+   "prevElement": "barrier",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1jn97h9g50",
+   "content": {
+    "title": "A US leverage against China",
+    "id": "subtitle-ein-druckmittel-der-usa-gegen-china"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jneo03c21",
+   "content": {
+    "text": "The possibility of a blockade of the Strait of Malacca has long concerned him, says the head of security for the Asia-Pacific region at a global shipping company. Because making political statements is sensitive for shipping companies, he wishes to remain anonymous."
+   },
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jmsk4p781",
+   "content": {
+    "text": "According to the industry insider, the main scenario pursued so far has been this: if China imposes a blockade on Taiwan or attacks the island, the US will create a counter-blockade in the Strait of Malacca for tankers heading to China. This would cut off the People's Republic from supply sources in the Middle East."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jnest4rt0",
+   "content": {
+    "text": "The current closure of the Strait of Hormuz in the Persian Gulf severely impacts the world's oil supply. A closure of the Strait of Malacca would further disrupt freight traffic. However, alternative routes exist, such as the Sunda Strait near Jakarta or the Lombok Strait further east near the island of Bali."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "q-embed"
+  },
+  {
+   "identifier": "q-embed",
+   "id": "doc-1jn9fovhe0",
+   "content": {
+    "q-embed": {
+     "service": "q-tool",
+     "params": {
+      "id": "918a51e86457ce5db223e7ba09f89719",
+      "conf": {},
+      "toolConfig": {},
+      "toolRuntimeConfig": {
+       "size": {
+        "width": [
+         {
+          "value": 100,
+          "comparison": ">"
+         }
+        ]
+       },
+       "displayOptions": {
+        "hideTitle": false,
+        "hideSubtitle": false,
+        "hideFooter": false,
+        "hideAcronym": false
+       },
+       "locale": "en_US"
+      },
+      "size": "content"
+     },
+     "resolvedValue": {}
+    },
+    "html": "      <div        class=\"q-locator_map-container\"        id=\"q_locator_map_918a51e86457ce5db223e7ba09f89719_q778269c87eba4d6296516e52afd804fe_container\"        data-q-item-id=\"918a51e86457ce5db223e7ba09f89719\"        data-q-request-id=\"a7aeb94574030c49ab5a832ed194adc77ff49a25\"      ></div>",
+    "stylesheets": [
+     {
+      "type": "remote",
+      "content": "https://service.sophie.nzz.ch/bundle/sophie-color%23master,sophie-font%23master,sophie-legend%23master[icon-label],sophie-q%23master.css"
+     },
+     {
+      "type": "inline",
+      "content": "  @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff) format(\"woff\");  }    @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff) format(\"woff\");    unicode-range: U+0020-00FF,U+2005,U+2082;  }      "
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/css-theme-layer/nzz-0.2.0.css"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/locatorMap/q-locatorMap-1.1.12.css"
+     }
+    ],
+    "scripts": [
+     {
+      "type": "inline",
+      "content": "function qTrackingBootstrap(t,e,n){if(window.digitalData&&window.digitalData.component&&window.digitalData.component.push){window.digitalData.component.push(t),window.digitalData.event&&window.digitalData.event.length||(window.digitalData.event=[]);var i=new Date,a=e;a.eventInfo.timeStamp=i.toISOString(),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\");var o=document.querySelectorAll(\"[data-q-request-id='\"+n+\"']\");[].forEach.call(o,function(t){t.addEventListener(\"q-tracking-event\",function(t){var e=new Date;(a=JSON.parse(JSON.stringify(a))).eventInfo.timeStamp=e.toISOString(),a.eventInfo=Object.assign(a.eventInfo,t.detail.eventInfo),a.category=Object.assign(a.category,t.detail.category),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\")},!1)})}};qTrackingBootstrap({\"componentInfo\":{\"componentName\":\"Q\",\"componentID\":\"918a51e86457ce5db223e7ba09f89719\"},\"category\":{\"componentType\":\"storytelling\",\"componentSubType1\":\"Q graphic\",\"componentSubType2\":\"locator_map\"}},{\"eventInfo\":{\"eventName\":\"Storytelling Interaction\",\"eventAction\":\"load\",\"type\":\"story\",\"componentName\":\"Q\",\"eventNonInteractive\":true,\"componentID\":\"918a51e86457ce5db223e7ba09f89719\"},\"category\":{\"primaryCategory\":\"storytelling\",\"subCategory1\":\"Q graphic\",\"subCategory2\":\"locator_map\"}},\"a7aeb94574030c49ab5a832ed194adc77ff49a25\")"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/locatorMap/q-locatorMap-1.1.12.js"
+     },
+     {
+      "type": "inline",
+      "content": "      (function () {        function initialize() {          const target = document.querySelector('#q_locator_map_918a51e86457ce5db223e7ba09f89719_q778269c87eba4d6296516e52afd804fe_container');          if (!target) return;          target.innerHTML = '';          const qdoc = {\"_id\":\"918a51e86457ce5db223e7ba09f89719\",\"title\":\"Alternative routes to the Strait of Malacca\",\"subtitle\":\"\",\"publication\":\"nzz\",\"acronym\":\"paz.\",\"sources\":[],\"geojsonList\":[{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[99.63649239883938,4.667285805526305]},\"id\":\"custom-layer-xWNk6R88rUVHSD1OuO9mX\",\"properties\":{\"label\":\"Strait of Malacca\",\"type\":\"water\",\"labelPosition\":\"top\",\"index\":0}},{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[115.8715059866147,-8.400280333424988]},\"id\":\"custom-layer-vP3aJXG8bWPd92BgEOdOy\",\"properties\":{\"label\":\"Lombok Street\",\"type\":\"water\",\"labelPosition\":\"top\",\"index\":0}},{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[105.74207715025113,-5.973902902512378]},\"id\":\"custom-layer-nD9SNHOyYQ58QOMi6DoY8\",\"properties\":{\"label\":\"Sunda Strait\",\"type\":\"water\",\"labelPosition\":\"top\",\"index\":0}},{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[107.17082052304619,-10.288281007875838]},\"id\":\"custom-layer-6k0O_BTy58tkVcZ6LdBVP\",\"properties\":{\"label\":\"Indian Ocean\",\"type\":\"water\",\"labelPosition\":\"top\",\"index\":0}},{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[111.31073978571243,-2.052773908385447]},\"id\":\"custom-layer-Cfcg5Ya56qE7dRrCaf0ng\",\"properties\":{\"label\":\"Indonesia\",\"type\":\"country\",\"labelPosition\":\"top\",\"index\":0}},{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[111.48039369513486,-4.909416038871797]},\"id\":\"custom-layer-YGIky9dgCqfd8czp0puRF\",\"properties\":{\"label\":\"Lake Java\",\"type\":\"water\",\"labelPosition\":\"top\",\"index\":0}},{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[111.00559458048343,7.188786780624014]},\"id\":\"custom-layer-BsJP0nfBa1ah4djORtuwH\",\"properties\":{\"label\":\"South China Sea\",\"type\":\"water\",\"labelPosition\":\"top\",\"index\":0}},{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[103.85567251592875,1.3081408236429988]},\"id\":\"custom-layer-YptNmPHxRpNgFtCAMZ9a9\",\"properties\":{\"label\":\"Singapore\",\"type\":\"point\",\"labelPosition\":\"top\",\"index\":0}}],\"options\":{\"baseLayer\":{\"layers\":{\"label\":false},\"style\":\"basic\"},\"dimension\":{\"useDefaultAspectRatio\":true},\"highlightRegion\":[{\"id\":\"Q252\",\"label\":\"Brunei\"}],\"initialZoomLevel\":-1,\"labelsBelowMap\":false,\"labelsBelowMapOneRow\":false,\"minimap\":{\"showMinimap\":false,\"options\":{\"type\":\"globe\",\"position\":\"top-left\"}},\"scale\":{\"options\":{\"position\":\"bottom-left\"}},\"showLegend\":false},\"updatedDate\":\"2026-04-30T09:19:30.146Z\"};          const toolRuntimeConfig = {\"displayOptions\":{\"hideTitle\":false,\"hideSubtitle\":false,\"hideFooter\":false,\"hideAcronym\":false},\"size\":{\"width\":[{\"value\":100,\"comparison\":\">\"}]},\"locale\":\"en-US\"};          const toolSettings = {\"qItemInstanceId\":\"q_locator_map_918a51e86457ce5db223e7ba09f89719_q778269c87eba4d6296516e52afd804fe\",\"fontBaseUrl\":\"https://qv1-server.nzz.ch/files/locator_map/fonts/\",\"toolBaseUrl\":\"https://q-server.nzz.ch/locator_map\",\"apiKey\":\"UUOJDlqQTsVSgwOM1KVX\"};          let attempts = 0;          const maxAttempts = 100;          const checkAndInitialize = setInterval(() => {            if (window.qLocatorMap) {              clearInterval(checkAndInitialize);              new window.qLocatorMap({ target: target, props: {                qdoc: qdoc,                toolSettings: toolSettings,                toolRuntimeConfig: toolRuntimeConfig              } });            } else {              attempts++;              if (attempts >= maxAttempts) {                clearInterval(checkAndInitialize);                console.error('Failed to initialize qLocatorMap after 30 seconds');              }            }          }, 300);        }        if (document.body.classList.contains('pagedone')) {          initialize();        } else {          window.addEventListener('pagedone', initialize);        }      })();    "
+     }
+    ]
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jn9e1elm0",
+   "content": {
+    "text": "While it would be possible to reroute shipping traffic via these alternative routes instead of Singapore, says the shipping company representative, this would entail considerable disadvantages. The Sunda Route extends the journey between East Asia and Europe by at least 1,000 kilometers. However, this strait is not deep enough for the largest container ships, which can carry up to 24,000 containers and have a draft of up to 17 meters."
+   },
+   "paidContent": true,
+   "prevElement": "q-embed",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jnbjq7ae1",
+   "content": {
+    "text": "Ships this large would have to navigate the deeper Strait of Lombok. The largest oil tankers, so-called «ultra-large crude carriers,» which transport more than 3 million barrels of oil, already use this route. The problem: The journey becomes 2,000 kilometers longer. Compared to the route through the Strait of Malacca, the travel time increases by three days."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jn9empp11",
+   "content": {
+    "text": "Furthermore, the ports along the alternative routes do not offer the same facilities for transshipment, refueling or repairs as the major ports along the Strait of Malacca, says Ja-Ian Chong, professor of political science at the National University of Singapore: «It is these services that make Singapore so important today.»"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1jnbjsu360",
+   "content": {
+    "title": "Which side will Singapore take in the event of a conflict?",
+    "id": "subtitle-auf-welche-seite-schl-gt-sich-singapur-im-konfliktfall"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jnb40hgs0",
+   "content": {
+    "text": "The fact that alternatives to the Strait of Malacca exist massively increases the effort required for a blockade. To prevent oil from the Middle East from reaching China, the Americans would also have to intercept tankers on routes in Indonesia. «The U.S. Navy would probably be capable of doing so, but it would have to divert resources from other regions – where they would then be lacking,» says Collin Koh, a maritime security expert at the S. Rajaratnam School of International Studies in Singapore."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jnb4ar530",
+   "content": {
+    "text": "The Americans maintain a permanent military presence in Singapore. However, this is primarily logistical. While no warships are stationed at this strategic location, they frequently call at the city. Nevertheless, from a Chinese perspective, the close ties between Singapore and the U.S. are a cause for concern."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jnblfeeb1",
+   "content": {
+    "text": "«Beijing fears that Singapore would side with the U.S. in a crisis,» says political scientist Chong, «but whether that would actually happen will only become clear when the crisis occurs.» Singapore has no formal obligation to support the U.S., he added."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jnbo10pr1",
+   "content": {
+    "text": "Singapore is doing everything it can to avoid such a situation – it doesn't want to be caught in the crossfire between its security partner and its most important trading partner. That's why ships of the Chinese navy and coast guard are regularly allowed to call at the Changi naval base in Singapore."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1jnblhqht0",
+   "content": {
+    "title": "China wants to defuse the Malacca dilemma",
+    "id": "subtitle-china-will-das-malakka-dilemma-entsch-rfen"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jnb4k5n20",
+   "content": {
+    "text": "Despite the significant challenge that effectively implementing a blockade would pose for the Americans, the communist leadership in Beijing is taking the scenario seriously. In 2003, the then General Secretary of the Communist Party and head of state, Hu Jintao, declared that «certain major powers» were intent on controlling the strait. He was, of course, referring to the United States."
+   },
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jnbjvt091",
+   "content": {
+    "text": "Since then, the People's Republic has made great efforts to defuse the «Malacca Dilemma»: It has built up large reserves of oil and gas, promoted alternative energies and constructed pipelines and railway lines that bypass the Strait of Malacca. This has reduced China's dependence on supplies from the Persian Gulf."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jnbo2spm1",
+   "content": {
+    "text": "However, the capacity is insufficient to become independent of the Strait of Malacca. Especially in freight transport, the railway cannot compete with the enormous cargo ships – it takes more than 150 trains to transport as many containers as a single large vessel."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1jnbljc8g0",
+   "content": {
+    "title": "India and China could also close the Strait of Malacca",
+    "id": "subtitle-auch-indien-und-china-k-nnten-die-malakka-strasse-sperren"
+   },
+   "data": {},
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jnb57psa0",
+   "content": {
+    "text": "Another of Beijing's rivals might be tempted to disrupt its oil supplies: India. Delhi and Beijing are locked in a dispute over vast territories along their shared border in the Himalayas. If war breaks out there, India could exert pressure through a blockade. India holds a geographical trump card: the Andaman and Nicobar Islands. These stretch more than 700 kilometers north-south off the western entrance to the Strait of Malacca."
+   },
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jnbo3uq41",
+   "content": {
+    "text": "In recent years, Delhi has expanded its bases along this natural sea barrier and also stationed surveillance aircraft there. However, naval expert Koh doubts that it would be capable of sealing off the vast sea area and preventing oil tankers from sailing to China."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jnbmjn4u0",
+   "content": {
+    "text": "Finally, China itself might be tempted to partially disrupt maritime traffic between Europe and Asia. When the U.S. becomes involved in a conflict anywhere in the world, it draws on forces from distant regions. For the war against Iran, the Americans deployed amphibious landing craft and destroyers from Japan to the Middle East – through the Strait of Malacca."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "image"
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1jneqk1i10",
+   "content": {
+    "image": {
+     "author": "Edgar Su / Reuters",
+     "caption": "The USS «Tripoli» will sail from Japan to the Gulf region in March – crossing the Strait of Malacca.",
+     "originalUrl": "/2026/04/24/9c406b8f-b6ea-46ec-8efb-b511e510a7e0.jpg?crop=2034,1360,x0,y0",
+     "width": 2034,
+     "height": 1360,
+     "altText": "The USS Tripoli (LHA-7) amphibious assault ship, in the background, enters the Singapore Straits, amid the US-Israeli conflict with Iran, as seen from Singapore, March 17, 2026. REUTERS/Edgar Su",
+     "origins": [
+      {
+       "name": "Hugo",
+       "identifier": "2177897833"
+      }
+     ],
+     "crop": {
+      "x": 0,
+      "y": 0,
+      "width": 2034,
+      "height": 1360,
+      "name": "article-image"
+     },
+     "namedCrops": [
+      {
+       "x": 0,
+       "y": 0,
+       "width": 2034,
+       "height": 1360,
+       "name": "article-image"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "caption": "The USS «Tripoli» will sail from Japan to the Gulf region in March – crossing the Strait of Malacca.",
+    "author": "Edgar Su / Reuters"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jneqe4gs1",
+   "content": {
+    "text": "This would also be the case in a war over Taiwan. For American units in the Middle East, Europe or Africa, the fastest route to Taiwan would lead through the Strait of Malacca."
+   },
+   "paidContent": true,
+   "prevElement": "image",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jnbn2uq11",
+   "content": {
+    "text": "The Strait of Malacca opens into the South China Sea. Ten years ago, China created artificial islands by building up several reefs there – and militarized them despite promises to the contrary. These military bases are equipped with radar for air and sea surveillance, batteries of missiles for use against ships and aircraft and serve as bases for Chinese warships and fighter jets."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jnbn375s0",
+   "content": {
+    "text": "This makes it impossible for the American Navy and Air Force to cross the South China Sea undetected by the Chinese. And anyone who is discovered will be fought. Moving military resources to the Taiwan region in this way would be extremely risky for the U.S."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "sharebox",
+   "lastContentElement": true
+  },
+  {
+   "identifier": "sharebox",
+   "id": "doc-1jmsk4p782",
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "comments-preview"
+  },
+  {
+   "identifier": "comments-preview",
+   "id": "doc-b1814cd9",
+   "content": {
+    "showComments": true,
+    "visibleCommentCount": 4,
+    "openToComment": false,
+    "newestTopComments": [
+     {
+      "author_name": "Kurt Engel",
+      "text": "It's a small world, isn't it? Can't they talk to each other reasonably? That there are squabbles is normal, but always with such a heavy hand, it makes you want to vomit.",
+      "created_at": "2026-05-03T08:38:13.397Z",
+      "like_count": 1,
+      "isPro": true,
+      "isNzz": false
+     },
+     {
+      "author_name": "Hans Rudolf Moser",
+      "text": "Winston Churchill recognized the strategic importance of this region in his memoirs, but not even the Japanese could blockade it any longer!",
+      "created_at": "2026-05-02T17:20:11.193Z",
+      "like_count": 0,
+      "isPro": true,
+      "isNzz": false
+     }
+    ],
+    "confirmed": true
+   },
+   "paidContent": true,
+   "prevElement": "sharebox",
+   "nextElement": "related-articles-container"
+  },
+  {
+   "identifier": "related-articles-container",
+   "id": "doc-1jmsk4p783",
+   "content": {
+    "title": "Related articles"
+   },
+   "containers": {
+    "related-articles": [
+     {
+      "identifier": "teaser",
+      "id": "doc-1jmsk4p784",
+      "content": {
+       "owner": "NZZ",
+       "title": "Why the Strait of Hormuz is so important for the world – an overview in maps and graphics",
+       "teaserImage": {
+        "originalUrl": "/2026/03/19/f3628d9b-6521-4a27-a55a-3980528bf558.gif?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2026/03/19/f3628d9b-6521-4a27-a55a-3980528bf558.gif?width=1024&quality=75&auto=webp",
+        "width": 1920,
+        "height": 1080,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "1920,1080,x0,y0"
+         },
+         {
+          "name": "1:1",
+          "crop": "1080,1080,x420,y0"
+         },
+         {
+          "name": "4:3",
+          "crop": "1440,1080,x240,y0"
+         },
+         {
+          "name": "3:4",
+          "crop": "810,1080,x555,y0"
+         },
+         {
+          "name": "3:2",
+          "crop": "1620,1080,x150,y0"
+         }
+        ],
+        "imageService": "fastly",
+        "teaserCaption": "Iran is blocking one of the world's most important energy routes. What makes this sea route so special?"
+       },
+       "nzzasFootnote": false,
+       "folioFootnote": false,
+       "language": {
+        "locale": "de-CH"
+       },
+       "nzzId": "ld.1929456",
+       "readingTime": 240,
+       "colorSchema": "color-schema--default",
+       "authorLine": "Roland Shaw, Florian Seliger, Julia Monn, Joana Kelén",
+       "tags": [
+        "Visuals"
+       ],
+       "characterCount": 4812,
+       "product": "NZZ.ch",
+       "documentId": 1929456,
+       "layout": "longformvisual",
+       "publicationDate": "2026-03-19T15:00:00.000Z",
+       "publicationLastUpdated": "2026-04-21T13:21:18.398Z",
+       "significantUpdate": false,
+       "significantUpdateTill": "2026-03-20T03:00:00.000Z",
+       "teaserCaption": "Iran is blocking one of the world's most important energy routes. What makes this sea route so special?",
+       "authorImage": {
+        "originalUrl": "/2026/03/02/f722187b-e204-4a9b-8798-97664f42b529.jpg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2026/03/02/f722187b-e204-4a9b-8798-97664f42b529.jpg?width=1024&quality=75&auto=webp",
+        "width": 4128,
+        "height": 2752,
+        "crops": [
+         {
+          "name": "1:1",
+          "crop": "2752,2752,x688,y0"
+         }
+        ],
+        "imageService": "fastly"
+       },
+       "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2026/03/02/f722187b-e204-4a9b-8798-97664f42b529.jpg?width=1024&quality=75&auto=webp",
+       "url": "/visuals/aktuell/warum-die-strasse-von-hormuz-fuer-die-welt-so-wichtig-ist-eine-uebersicht-in-karten-und-grafiken-ld.1929456",
+       "department": {
+        "name": "Current",
+        "path": "/visuals/aktuell"
+       },
+       "estimationWordCount": 708,
+       "leadText": "Iran is blocking one of the world's most important energy routes. What makes this sea route so special?",
+       "nzzSummaryIsAuto": true,
+       "hasQ": true
+      }
+     },
+     {
+      "identifier": "teaser",
+      "id": "doc-1jmsk4p785",
+      "content": {
+       "owner": "NZZ",
+       "title": "Iran wants money for passage through the Strait of Hormuz – what does maritime law say about this?",
+       "teaserImage": {
+        "originalUrl": "/2026/04/01/a35d8b7f-af27-4e6c-a5a1-17c5bd3c3733.jpg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2026/04/01/a35d8b7f-af27-4e6c-a5a1-17c5bd3c3733.jpg?width=1024&quality=75&auto=webp",
+        "width": 6000,
+        "height": 4000,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "6000,3375,x0,y0"
+         },
+         {
+          "name": "1:1",
+          "crop": "4000,3999,x2000,y1"
+         },
+         {
+          "name": "4:3",
+          "crop": "5333,3999,x667,y1"
+         },
+         {
+          "name": "3:4",
+          "crop": "3000,4000,x2464,y0"
+         },
+         {
+          "name": "3:2",
+          "crop": "6000,3999,x0,y1"
+         }
+        ],
+        "imageService": "fastly",
+        "teaserCaption": "Straits are crucial for free navigation. Therefore, there are clear rules about what a coastal state is allowed to do and what it is not.",
+        "teaserAuthor": "Altaf Qadri / AP"
+       },
+       "teaserAuthor": "Altaf Qadri / AP",
+       "nzzasFootnote": false,
+       "folioFootnote": false,
+       "paywallQuestionOne": "Can Iran charge fees for passage through the Strait of Hormuz?",
+       "paywallQuestionTwo": "Why is freedom of navigation through straits a fundamental principle of maritime law?",
+       "paywallQuestionThree": "Are civilian ships actually safer under escort in conflict zones?",
+       "language": {
+        "locale": "de-CH"
+       },
+       "nzzId": "ld.1931794",
+       "readingTime": 300,
+       "authorLine": "Patrick Zoll, Taipei",
+       "characterCount": 6016,
+       "product": "NZZ.ch",
+       "documentId": 1931794,
+       "layout": "regular",
+       "publicationDate": "2026-04-02T03:30:00.000Z",
+       "publicationLastUpdated": "2026-04-02T03:30:00.000Z",
+       "significantUpdate": false,
+       "significantUpdateTill": "2026-04-02T15:30:00.000Z",
+       "teaserCaption": "Straits are crucial for free navigation. Therefore, there are clear rules about what a coastal state is allowed to do and what it is not.",
+       "authorImage": {
+        "url": "https://img-msp-prod.nzz.ch/2022/07/27/a1b5d7fd-3108-40bf-a30b-455eb1d67d3e.png?width=1024&quality=75&auto=webp",
+        "originalUrl": "/2022/07/27/a1b5d7fd-3108-40bf-a30b-455eb1d67d3e.png?width=1024",
+        "imageService": "fastly",
+        "width": 800,
+        "height": 800,
+        "crops": []
+       },
+       "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2022/07/27/a1b5d7fd-3108-40bf-a30b-455eb1d67d3e.png?width=1024&quality=75&auto=webp",
+       "url": "/international/iran-verlangt-gebuehren-fuer-hormuz-passage-erlaubt-dies-das-seerecht-ld.1931794",
+       "department": {
+        "name": "International",
+        "path": "/international"
+       },
+       "estimationWordCount": 904,
+       "premium": true,
+       "leadText": "Straits are crucial for free navigation. Therefore, there are clear rules about what a coastal state is allowed to do and what it is not.",
+       "nzzSummaryIsAuto": true,
+       "hasQ": true
+      }
+     },
+     {
+      "identifier": "teaser",
+      "id": "doc-1jmsk4p786",
+      "content": {
+       "owner": "NZZ",
+       "title": "Iran seeks to extort tolls for passage through the Strait of Hormuz – a dark omen for shipping",
+       "teaserImage": {
+        "originalUrl": "/2026/04/09/8a3bc4b0-0633-4a59-a31f-33e674aea48c.jpg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2026/04/09/8a3bc4b0-0633-4a59-a31f-33e674aea48c.jpg?width=1024&quality=75&auto=webp",
+        "width": 1578,
+        "height": 1056,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "1578,888,x0,y0"
+         },
+         {
+          "name": "1:1",
+          "crop": "1056,1056,x46,y0"
+         },
+         {
+          "name": "4:3",
+          "crop": "1408,1056,x0,y0"
+         },
+         {
+          "name": "3:4",
+          "crop": "792,1056,x192,y0"
+         },
+         {
+          "name": "3:2",
+          "crop": "1578,1052,x0,y2"
+         }
+        ],
+        "imageService": "fastly",
+        "teaserCaption": "Despite an alleged ceasefire, hundreds of ships remain stranded in the Persian Gulf. Iran has discovered the strait as a potential source of revenue. But for shipowners, there are more pressing issues.",
+        "teaserAuthor": "Stringer/Reuters"
+       },
+       "teaserAuthor": "Stringer/Reuters",
+       "nzzasFootnote": false,
+       "folioFootnote": false,
+       "language": {
+        "locale": "de-CH"
+       },
+       "nzzId": "ld.1932947",
+       "readingTime": 300,
+       "authorLine": "Catherine Bosley, Michael Rasch",
+       "characterCount": 7099,
+       "product": "NZZ.ch",
+       "documentId": 1932947,
+       "layout": "regular",
+       "publicationDate": "2026-04-10T14:40:07.392Z",
+       "publicationLastUpdated": "2026-04-10T14:40:23.637Z",
+       "significantUpdate": true,
+       "significantUpdateTill": "2026-04-11T02:40:07.392Z",
+       "teaserCaption": "Despite an alleged ceasefire, hundreds of ships remain stranded in the Persian Gulf. Iran has discovered the strait as a potential source of revenue. But for shipowners, there are more pressing issues.",
+       "authorImage": {
+        "originalUrl": "/2025/12/31/f4854fdf-6fd5-4b83-9089-75e151c90563.jpg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2025/12/31/f4854fdf-6fd5-4b83-9089-75e151c90563.jpg?width=1024&quality=75&auto=webp",
+        "width": 6000,
+        "height": 4000,
+        "crops": [
+         {
+          "name": "1:1",
+          "crop": "4000,4000,x1000,y0"
+         }
+        ],
+        "imageService": "fastly"
+       },
+       "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2025/12/31/f4854fdf-6fd5-4b83-9089-75e151c90563.jpg?width=1024&quality=75&auto=webp",
+       "url": "/wirtschaft/iran-will-maut-fuer-die-passage-der-strasse-von-hormuz-erpressen-das-waere-ein-finsterer-praezedenzfall-fuer-die-schifffahrt-ld.1932947",
+       "department": {
+        "name": "Economy",
+        "path": "/wirtschaft"
+       },
+       "estimationWordCount": 1054,
+       "leadText": "Despite an alleged ceasefire, hundreds of ships remain stranded in the Persian Gulf. Iran has discovered the strait as a potential source of revenue. But for shipowners, there are more pressing issues.",
+       "nzzSummaryIsAuto": true,
+       "hasQ": true
+      }
+     }
+    ]
+   },
+   "paidContent": true,
+   "prevElement": "comments-preview",
+   "nextElement": "",
+   "lastContentElement": true
+  }
+ ],
+ "metadata": {
+  "germanyRelevant": true,
+  "title": "The Malacca dilemma: The Strait of Malacca is the linchpin of global trade. Is it threatened with a scenario similar to that of the Strait of Hormuz?",
+  "showHeader": true,
+  "owner": "NZZ",
+  "language": {
+   "locale": "en-US"
+  },
+  "dependencies": {},
+  "teaserImage": {
+   "originalUrl": "/2026/04/30/0fd4c5d4-0f78-4fcd-a006-964a371a5b78.jpg?width=1024",
+   "url": "https://img-msp-prod.nzz.ch/2026/04/30/0fd4c5d4-0f78-4fcd-a006-964a371a5b78.jpg?width=1024&quality=75&auto=webp",
+   "width": 4103,
+   "height": 2736,
+   "crops": [
+    {
+     "name": "16:9",
+     "crop": "4103,2308,x0,y428"
+    },
+    {
+     "name": "4:3",
+     "crop": "3648,2736,x0,y0"
+    },
+    {
+     "name": "1:1",
+     "crop": "2736,2736,x684,y0"
+    },
+    {
+     "name": "3:4",
+     "crop": "2052,2736,x1026,y0"
+    },
+    {
+     "name": "3:2",
+     "crop": "4103,2735,x0,y0"
+    }
+   ],
+   "imageService": "fastly",
+   "teaserCaption": "The strait near Singapore is even more important for global shipping than the entrance to the Persian Gulf. Hundreds of ships pass through it daily. A blockade would severely impact China.",
+   "teaserAuthor": "Yong Teck Limited / Getty"
+  },
+  "teaserAuthor": "Yong Teck Limited / Getty",
+  "showComments": true,
+  "tags": [
+   "Asien und Pazifik",
+   "Iran-Krieg"
+  ],
+  "nzzId": "ld.10004103",
+  "readingTime": 360,
+  "characterCount": 7513,
+  "breadcrumbs": [
+   {
+    "name": "International",
+    "path": "/international"
+   }
+  ],
+  "product": "NZZ.ch",
+  "documentId": 10004103,
+  "contentTypeGroup": "web",
+  "layout": "regular",
+  "firstPublicationDate": "2026-05-02T03:30:00.000Z",
+  "publicationDate": "2026-05-02T03:30:00.000Z",
+  "publicationLastUpdated": "2026-05-03T17:04:47.774Z",
+  "significantUpdate": false,
+  "significantUpdateTill": "2026-05-02T15:30:00.000Z",
+  "teaserCaption": "The strait near Singapore is even more important for global shipping than the entrance to the Persian Gulf. Hundreds of ships pass through it daily. A blockade would severely impact China.",
+  "nzzAuthors": [
+   {
+    "id": 1373382,
+    "name": "Patrick Zoll",
+    "shortName": "paz",
+    "pianoId": "d2ef4922-b0c5-4ddc-9f5b-8f93846f6973",
+    "external": false
+   }
+  ],
+  "authorLine": "Patrick Zoll, Taipei",
+  "authorImage": {
+   "originalUrl": "/2022/07/27/a1b5d7fd-3108-40bf-a30b-455eb1d67d3e.png?crop=800,800,x0,y0",
+   "url": "https://img-msp-prod.nzz.ch/2022/07/27/a1b5d7fd-3108-40bf-a30b-455eb1d67d3e.png?crop=800,800,x0,y0&width=1024&quality=75&auto=webp",
+   "width": 800,
+   "height": 800,
+   "imageService": "fastly",
+   "crop": {
+    "name": "1:1",
+    "x": 0,
+    "y": 0,
+    "width": 800,
+    "height": 800
+   },
+   "crops": []
+  },
+  "nzzAuthorProfileDataCollection": [
+   {
+    "documentId": 153793,
+    "name": "Patrick Zoll, Taipei",
+    "teaserImageUrl": "https://img-msp-prod.nzz.ch/2022/07/27/a1b5d7fd-3108-40bf-a30b-455eb1d67d3e.png?crop=800,800,x0,y0&width=1024&quality=75&auto=webp"
+   }
+  ],
+  "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2022/07/27/a1b5d7fd-3108-40bf-a30b-455eb1d67d3e.png?crop=800,800,x0,y0&width=1024&quality=75&auto=webp",
+  "url": "/international/droht-der-strasse-von-malakka-eine-blockade-wie-in-hormuz-ld.10004103",
+  "department": {
+   "name": "International",
+   "path": "/international"
+  },
+  "estimationWordCount": 1161,
+  "premium": true,
+  "leadText": "The strait near Singapore is even more important for global shipping than the entrance to the Persian Gulf. Hundreds of ships pass through it daily. A blockade would severely impact China.",
+  "nzzSummaryEN": "- The Strait of Malacca is a crucial global trade route dominated geographically by India and China, with significant economic consequences if blocked.\n- The USA might use it in a conflict to cut off China's access to energy resources, necessitating alternative but less efficient routes.\n- Singapore, a key port, strives to maintain neutrality, while China and India work on mitigating their dependency and vulnerabilities.",
+  "nzzSummaryDE": "- The Strait of Malacca is a key global trade route, geographically controlled by India and China, and a potential blockage could have immense economic consequences.\n - The US could use them in the event of a conflict to cut off China from energy resources, which would necessitate alternative but less efficient routes.\n Singapore, a key port, is trying to maintain a neutral position while China and India develop ways to reduce their dependence and vulnerability.",
+  "nzzSummaryIsAuto": true,
+  "nzzSummaryModel": "gpt-4o-2024-11-20",
+  "nzzPrintTitle": "Is the hinge of global trade jammed?",
+  "nzzPrintSubtitle": "Scenarios involving a blockade of the Strait of Malacca have existed for a long time – but the situation is different than in the Persian Gulf",
+  "allArticleLanguages": [
+   {
+    "locale": "de",
+    "urlPath": "/international/droht-der-strasse-von-malakka-eine-blockade-wie-in-hormuz-ld.10004103",
+    "seo": {}
+   }
+  ],
+  "seo": {
+   "canonicalUrl": "https://www.nzz.ch/international/droht-der-strasse-von-malakka-eine-blockade-wie-in-hormuz-ld.10004103",
+   "title": "Is the Strait of Malacca threatened with a blockage like the one in Hormuz?",
+   "socialMediaTitle": "After Hormuz: How threatened is the Strait of Malacca for world trade?",
+   "excludeFromSpiders": false,
+   "image": "https://img-msp-prod.nzz.ch/2026/04/30/0fd4c5d4-0f78-4fcd-a006-964a371a5b78.jpg?width=1200&height=675&fit=bounds&quality=75&auto=webp&crop=4103,2308,x0,y428&wmark=nzz"
+  },
+  "ldPublicationId": 2422711,
+  "isHighlightedHeader": false,
+  "nzzTopics": [
+   {
+    "name": "Singapore",
+    "slug": "/themen/singapur"
+   },
+   {
+    "name": "China",
+    "slug": "/themen/china"
+   },
+   {
+    "name": "India",
+    "slug": "/themen/indien"
+   },
+   {
+    "name": "USA",
+    "slug": "/themen/usa"
+   },
+   {
+    "name": "oil",
+    "slug": "/themen/erdoel"
+   },
+   {
+    "name": "Taiwan",
+    "slug": "/themen/taiwan"
+   }
+  ],
+  "comments": {
+   "showComments": true,
+   "visibleCommentCount": 4,
+   "openToComment": false,
+   "newestTopComments": [
+    {
+     "author_name": "Kurt Engel",
+     "text": "It's a small world, isn't it? Can't they talk to each other reasonably? That there are squabbles is normal, but always with such a heavy hand, it makes you want to vomit.",
+     "created_at": "2026-05-03T08:38:13.397Z",
+     "like_count": 1,
+     "isPro": true,
+     "isNzz": false
+    },
+    {
+     "author_name": "Hans Rudolf Moser",
+     "text": "Winston Churchill recognized the strategic importance of this region in his memoirs, but not even the Japanese could blockade it any longer!",
+     "created_at": "2026-05-02T17:20:11.193Z",
+     "like_count": 0,
+     "isPro": true,
+     "isNzz": false
+    }
+   ],
+   "confirmed": true
+  },
+  "barrierIndex": 3,
+  "outlinks": {
+   "mehrZumThema": [
+    "ld.1929456",
+    "ld.1931794",
+    "ld.1932947"
+   ],
+   "artikelListe": [],
+   "aliasTeaserEmbedList": []
+  },
+  "tts": true,
+  "hasQ": true,
+  "locale": "de-CH",
+  "mp3": true,
+  "mp3Duration": 471240,
+  "colorSchema": "color-schema--premium",
+  "project": "nzz",
+  "machineTranslated": true,
+  "machineTranslationValidated": true
+ },
+ "isReduced": false,
+ "isPaid": false,
+ "isVamp": false,
+ "isWebview": false,
+ "btaFeed": {
+  "meta": {
+   "id": "singapur",
+   "name": "Singapore",
+   "tagName": "Singapore",
+   "qId": "Q334",
+   "seoTitle": "Singapore – All the news, articles and information on the topic | NZZ",
+   "description": null,
+   "firstName": null,
+   "lastName": null,
+   "category": "LOC",
+   "createdDate": "2025-04-08 18:10:45.838Z",
+   "imageURL": null,
+   "imageCroppedURL": null,
+   "imageWidth": null,
+   "imageHeight": null,
+   "imageCredits": null,
+   "url": "https://nzz.ch/themen/singapur",
+   "size": 336,
+   "relatedTopics": [
+    {
+     "name": "China",
+     "slug": "/themen/china"
+    },
+    {
+     "name": "Indien",
+     "slug": "/themen/indien"
+    },
+    {
+     "name": "USA",
+     "slug": "/themen/usa"
+    },
+    {
+     "name": "Erdöl",
+     "slug": "/themen/erdoel"
+    },
+    {
+     "name": "Taiwan",
+     "slug": "/themen/taiwan"
+    }
+   ]
+  },
+  "data": [
+   {
+    "title": "An island of peace and prosperity – what has made Singapore possible?",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "authorLine": "Wolfgang Sachsenröder",
+    "editor": "1371769",
+    "teaserImage": {
+     "originalUrl": "/2026/08/21/4034879a-cb3f-44ca-ba27-a9bdaa69ef13.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/08/21/4034879a-cb3f-44ca-ba27-a9bdaa69ef13.jpg?width=1024&quality=75&auto=webp",
+     "width": 3600,
+     "height": 2391,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "3600,2025,x0,y366"
+      },
+      {
+       "name": "4:3",
+       "crop": "3188,2391,x353,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "2391,2391,x793,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "1793,2391,x1060,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "3587,2391,x13,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "How can an island nation of just 736 square kilometers become a globally successful player whose gross domestic product dwarfs almost all of its Southeast Asian neighbors? There are lessons to be learned from Singapore's meteoric rise.",
+     "teaserAuthor": "Munshi Ahmed/Bloomberg/Getty"
+    },
+    "teaserAuthor": "Munshi Ahmed/Bloomberg/Getty",
+    "nzzId": "ld.10016528",
+    "readingTime": 420,
+    "paywallQuestionOne": "How has Singapore politically integrated its ethnic diversity?",
+    "paywallQuestionTwo": "What economic strategies led to Singapore's success?",
+    "paywallQuestionThree": "What challenges threaten Singapore's future security?",
+    "characterCount": 9600,
+    "showComments": true,
+    "flag": "Opinion",
+    "product": "NZZ.ch",
+    "documentId": "10016528",
+    "layout": "opinion",
+    "publicationDate": "2026-08-25T03:30:00.000Z",
+    "publicationLastUpdated": "2026-08-25T03:30:00.000Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-08-25T15:30:00.000Z",
+    "teaserCaption": "How can an island nation of just 736 square kilometers become a globally successful player whose gross domestic product dwarfs almost all of its Southeast Asian neighbors? There are lessons to be learned from Singapore's meteoric rise.",
+    "url": "https://www.nzz.ch/meinung/eine-insel-von-frieden-und-wohlstand-was-hat-singapur-moeglich-gemacht-ld.10016528",
+    "department": {
+     "name": "Opinion",
+     "path": "/meinung"
+    },
+    "estimationWordCount": 1364,
+    "premium": true,
+    "leadText": "How can an island nation of just 736 square kilometers become a globally successful player whose gross domestic product dwarfs almost all of its Southeast Asian neighbors? There are lessons to be learned from Singapore's meteoric rise.",
+    "nzzSummaryIsAuto": true,
+    "commentsCount": 7,
+    "openToComment": false,
+    "locale": "de-CH"
+   },
+   {
+    "title": "After the Manus debacle: Singapore loses its role as a safe haven for startups from China",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "teaserImage": {
+     "originalUrl": "/2026/07/03/2be62f94-ee76-4193-b53d-d8c9d5638100.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/07/03/2be62f94-ee76-4193-b53d-d8c9d5638100.jpg?width=1024&quality=75&auto=webp",
+     "width": 3691,
+     "height": 2768,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "3691,2076,x0,y692"
+      },
+      {
+       "name": "4:3",
+       "crop": "3691,2768,x0,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "2768,2768,x362,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "2076,2768,x133,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "3691,2461,x0,y154"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "The neutral city-state has long been the perfect haven for young Chinese tech companies seeking to conceal their origins. But after the spectacular sale of AI pioneer Manus to Meta, Beijing is striking back with drastic legislation – and Singapore is becoming cautious.",
+     "teaserAuthor": "Ore Huiying/Bloomberg/Getty"
+    },
+    "teaserAuthor": "Ore Huiying/Bloomberg/Getty",
+    "nzzId": "ld.10011868",
+    "readingTime": 300,
+    "paywallQuestionOne": "How does the Manus debacle affect Singapore's role as a safe haven?",
+    "paywallQuestionTwo": "What measures is China taking to combat the outflow of AI know-how?",
+    "paywallQuestionThree": "Why is Singapore becoming more cautious in the geopolitical conflict between the US and China?",
+    "characterCount": 7316,
+    "product": "NZZ.ch",
+    "documentId": "10011868",
+    "layout": "longformstandard",
+    "publicationDate": "2026-07-06T03:30:00.000Z",
+    "publicationLastUpdated": "2026-07-06T03:30:00.000Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-07-06T15:30:00.000Z",
+    "teaserCaption": "The neutral city-state has long been the perfect haven for young Chinese tech companies seeking to conceal their origins. But after the spectacular sale of AI pioneer Manus to Meta, Beijing is striking back with drastic legislation – and Singapore is becoming cautious.",
+    "authorLine": "Matthias Kamp, Singapore",
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2022/09/14/238146b3-b9c6-4e92-94fc-466bddc340d8.png?crop=800,800,x0,y0&width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/wirtschaft/nach-dem-manus-debakel-singapur-buesst-seine-rolle-als-sicherer-hafen-fuer-startups-aus-china-ein-ld.10011868",
+    "department": {
+     "name": "Economy",
+     "path": "/wirtschaft"
+    },
+    "estimationWordCount": 1074,
+    "leadText": "The neutral city-state has long been the perfect haven for young Chinese tech companies seeking to conceal their origins. But after the spectacular sale of AI pioneer Manus to Meta, Beijing is striking back with drastic legislation – and Singapore is becoming cautious.",
+    "nzzSummaryIsAuto": true,
+    "locale": "de-CH"
+   },
+   {
+    "title": "The doctrine of Hormuz – with the erosion of international maritime law, Singapore's future is at stake",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "authorLine": "Alexander Görlach",
+    "flag": "Guest opinion",
+    "teaserImage": {
+     "originalUrl": "/2026/05/08/b2753025-6e1f-4379-aff5-91afde193c5b.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/05/08/b2753025-6e1f-4379-aff5-91afde193c5b.jpg?width=1024&quality=75&auto=webp",
+     "width": 6000,
+     "height": 4000,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "6000,3375,x0,y325"
+      },
+      {
+       "name": "4:3",
+       "crop": "5333,4000,x0,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "3636,3636,x0,y364"
+      },
+      {
+       "name": "3:4",
+       "crop": "3000,4000,x441,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "6000,4000,x0,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "Should Iran's tactic of blocking the Strait of Hormuz become widespread, the Strait of Malacca could become the target of similar operations. Its continued navigability is a fundamental condition of Singapore's existence.",
+     "teaserAuthor": "Ezra Acayan / Getty"
+    },
+    "teaserAuthor": "Ezra Acayan / Getty",
+    "nzzId": "ld.10004623",
+    "readingTime": 360,
+    "paywallQuestionOne": "How does the blockade of Hormuz threaten the security of the Strait of Malacca?",
+    "paywallQuestionTwo": "Why does Singapore's existence depend on free trade routes?",
+    "paywallQuestionThree": "How does Singapore balance geopolitically between the USA and China?",
+    "showComments": true,
+    "characterCount": 8753,
+    "product": "NZZ.ch",
+    "documentId": "10004623",
+    "layout": "opinion",
+    "publicationDate": "2026-05-13T03:30:00.000Z",
+    "publicationLastUpdated": "2026-05-13T04:44:14.052Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-05-13T15:30:00.000Z",
+    "teaserCaption": "Should Iran's tactic of blocking the Strait of Hormuz become widespread, the Strait of Malacca could become the target of similar operations. Its continued navigability is a fundamental condition of Singapore's existence.",
+    "url": "https://www.nzz.ch/meinung/die-lehre-von-hormuz-mit-der-erosion-des-maritimen-voelkerrechts-steht-die-zukunft-singapurs-auf-dem-spiel-ld.10004623",
+    "department": {
+     "name": "Opinion",
+     "path": "/meinung"
+    },
+    "estimationWordCount": 1263,
+    "leadText": "Should Iran's tactic of blocking the Strait of Hormuz become widespread, the Strait of Malacca could become the target of similar operations. Its continued navigability is a fundamental condition of Singapore's existence.",
+    "nzzSummaryIsAuto": true,
+    "commentsCount": 9,
+    "openToComment": false,
+    "locale": "de-CH"
+   },
+   {
+    "title": "Spanking for nine-year-old bullies: Teachers in Singapore are allowed to punish students with a cane",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "authorLine": "Hannah Jauch",
+    "teaserImage": {
+     "originalUrl": "/2026/05/07/7746bd37-2346-4661-a7d6-65aca100158e.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/05/07/7746bd37-2346-4661-a7d6-65aca100158e.jpg?width=1024&quality=75&auto=webp",
+     "width": 6000,
+     "height": 4000,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "6000,3375,x0,y103"
+      },
+      {
+       "name": "4:3",
+       "crop": "5333,4000,x667,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "4000,4000,x1831,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "3000,4000,x2302,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "6000,4000,x0,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "Singapore has clung to corporal punishment for decades – in 2010 even a Swiss citizen was punished with it. Now the city-state is expanding its use of corporal punishment in schools.",
+     "teaserAuthor": "Ezra Acayan / Getty"
+    },
+    "teaserAuthor": "Ezra Acayan / Getty",
+    "nzzId": "ld.10006172",
+    "readingTime": 240,
+    "paywallQuestionOne": "How does Singapore justify corporal punishment as a disciplinary measure?",
+    "paywallQuestionTwo": "According to the WHO, what are the effects of physical punishment on children?",
+    "paywallQuestionThree": "Why does Singapore remain so determined despite criticism of the cane punishment?",
+    "characterCount": 5017,
+    "product": "NZZ.ch",
+    "documentId": "10006172",
+    "layout": "regular",
+    "publicationDate": "2026-05-08T03:30:00.000Z",
+    "publicationLastUpdated": "2026-05-08T06:11:36.304Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-05-08T15:30:00.000Z",
+    "teaserCaption": "Singapore has clung to corporal punishment for decades – in 2010 even a Swiss citizen was punished with it. Now the city-state is expanding its use of corporal punishment in schools.",
+    "url": "https://www.nzz.ch/panorama/schlaege-fuer-mobber-singapur-bestraft-schueler-mit-dem-rohrstock-ld.10006172",
+    "department": {
+     "name": "Panorama",
+     "path": "/panorama"
+    },
+    "estimationWordCount": 718,
+    "leadText": "Singapore has clung to corporal punishment for decades – in 2010 even a Swiss citizen was punished with it. Now the city-state is expanding its use of corporal punishment in schools.",
+    "nzzSummaryIsAuto": true,
+    "locale": "de-CH"
+   },
+   {
+    "owner": "NZZ",
+    "title": "Aggressive investment promotion: Singapore woos Swiss healthcare companies",
+    "teaserImage": {
+     "originalUrl": "/2026/04/02/76482bad-33d7-42e8-a15a-794a1bac36f5.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/04/02/76482bad-33d7-42e8-a15a-794a1bac36f5.jpg?width=1024&quality=75&auto=webp",
+     "width": 3910,
+     "height": 2838,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "3910,2199,x0,y639"
+      },
+      {
+       "name": "1:1",
+       "crop": "2838,2838,x91,y0"
+      },
+      {
+       "name": "4:3",
+       "crop": "3784,2838,x0,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "2129,2838,x817,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "3910,2607,x0,y231"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "The city-state is courting investments from Basel's pharmaceutical industry. Medical technology companies from Switzerland have also attracted its attention. Sonova is developing new hearing aids in Singapore and is receiving government support for this project.",
+     "teaserAuthor": "Kevin Lam / Reuters"
+    },
+    "teaserAuthor": "Kevin Lam / Reuters",
+    "nzzasFootnote": false,
+    "folioFootnote": false,
+    "showComments": true,
+    "language": {
+     "locale": "de-CH"
+    },
+    "nzzId": "ld.1932079",
+    "readingTime": 300,
+    "authorLine": "Dominik Feldges",
+    "characterCount": 6465,
+    "product": "NZZ.ch",
+    "documentId": "1932079",
+    "layout": "regular",
+    "publicationDate": "2026-04-07T03:30:00.000Z",
+    "publicationLastUpdated": "2026-04-07T03:30:00.000Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-04-07T15:30:00.000Z",
+    "teaserCaption": "The city-state is courting investments from Basel's pharmaceutical industry. Medical technology companies from Switzerland have also attracted its attention. Sonova is developing new hearing aids in Singapore and is receiving government support for this project.",
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2024/09/16/52e0b698-52d3-4f00-915a-fa5563d57443.jpeg?width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/wirtschaft/standortfoerderung-singapur-holt-weltgroesste-hoergeraetefirma-sonova-ld.1932079",
+    "department": {
+     "name": "Economy",
+     "path": "/wirtschaft"
+    },
+    "estimationWordCount": 912,
+    "premium": true,
+    "leadText": "The city-state is courting investments from Basel's pharmaceutical industry. Medical technology companies from Switzerland have also attracted its attention. Sonova is developing new hearing aids in Singapore and is receiving government support for this project.",
+    "nzzSummaryIsAuto": true,
+    "hasQ": true
+   },
+   {
+    "owner": "NZZaS",
+    "title": "Asia's authoritarian states are overtaking Western democracies. What does this mean?",
+    "teaserImage": {
+     "originalUrl": "/2025/12/23/c7fd995a-56b4-4c03-97b7-ef18b33b86f7.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2025/12/23/c7fd995a-56b4-4c03-97b7-ef18b33b86f7.jpg?width=1024&quality=75&auto=webp",
+     "width": 4664,
+     "height": 3109,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "4664,2623,x0,y486"
+      },
+      {
+       "name": "1:1",
+       "crop": "2456,2456,x1340,y652"
+      },
+      {
+       "name": "4:3",
+       "crop": "4145,3109,x318,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "2332,3109,x1476,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "4664,3109,x0,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "Democratic countries are struggling with stalled reforms and political gridlock. As a result, it seems to many that autocratic forms of government are gaining ground. Singapore serves as a prime example.",
+     "teaserAuthor": "Annice Lyn / Getty"
+    },
+    "teaserAuthor": "Annice Lyn / Getty",
+    "nzzasFootnote": true,
+    "folioFootnote": false,
+    "paywallQuestionOne": "Why is Singapore economically successful?",
+    "paywallQuestionTwo": "What form of government does Singapore have?",
+    "paywallQuestionThree": "Why could Singapore serve as a role model?",
+    "language": {
+     "locale": "de-CH"
+    },
+    "nzzId": "ld.1911595",
+    "readingTime": 240,
+    "showComments": true,
+    "authorLine": "Sarah Frattaroli",
+    "characterCount": 5165,
+    "product": "NZZ.ch",
+    "documentId": "1911595",
+    "layout": "regular",
+    "publicationDate": "2025-12-28T04:30:00.000Z",
+    "publicationLastUpdated": "2025-12-28T04:30:00.000Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2025-12-28T16:30:00.000Z",
+    "teaserCaption": "Democratic countries are struggling with stalled reforms and political gridlock. As a result, it seems to many that autocratic forms of government are gaining ground. Singapore serves as a prime example.",
+    "url": "https://www.nzz.ch/international/asiens-autoritaere-staaten-laufen-westlichen-demokratien-den-rang-ab-was-heisst-das-nun-ld.1911595",
+    "department": {
+     "name": "International",
+     "path": "/international"
+    },
+    "estimationWordCount": 768,
+    "premium": true,
+    "leadText": "Democratic countries are struggling with stalled reforms and political gridlock. As a result, it seems to many that autocratic forms of government are gaining ground. Singapore serves as a prime example.",
+    "nzzSummaryIsAuto": true,
+    "commentsCount": 6,
+    "openToComment": false,
+    "hasQ": true
+   }
+  ]
+ },
+ "digitalData": {
+  "component": [
+   {
+    "id": "ld.10004103",
+    "name": "The Malacca dilemma: The Strait of Malacca is the linchpin of global trade. Is it threatened with a scenario similar to that of the Strait of Hormuz?",
+    "type": "article",
+    "subType1": "regular",
+    "subType2": "",
+    "primaryCategory": "International",
+    "subCategory1": "",
+    "attributes": {
+     "headline": "The Malacca dilemma: The Strait of Malacca is the linchpin of global trade. Is it threatened with a scenario similar to that of the Strait of Hormuz?",
+     "firstPublishTitle": "",
+     "catchline": "",
+     "authors": [
+      {
+       "id": 1373382,
+       "name": "Patrick Zoll",
+       "shortName": "paz",
+       "pianoId": "d2ef4922-b0c5-4ddc-9f5b-8f93846f6973",
+       "external": false
+      }
+     ],
+     "issueTimestamp": "2026-05-02T03:30:00.000Z",
+     "updateTimestamp": "2026-05-03T17:04:47.774Z",
+     "isSponsoredContent": false,
+     "isPro": true,
+     "isLiveticker": false,
+     "flag": "",
+     "owner": "NZZ"
+    }
+   }
+  ],
+  "page": {
+   "pageId": "ld.10004103",
+   "pageType": "regular",
+   "primaryCategory": "International",
+   "subCategory1": "",
+   "subCategory2": "",
+   "language": "en-US"
+  },
+  "version": "2.0",
+  "user": {},
+  "event": []
+ },
+ "seoData": {
+  "title": "Is the Strait of Malacca threatened with a blockage like the one in Hormuz?",
+  "image": {
+   "url": "https://img-msp-prod.nzz.ch/2026/04/30/0fd4c5d4-0f78-4fcd-a006-964a371a5b78.jpg?width=1200&height=675&fit=bounds&quality=75&auto=webp&crop=4103,2308,x0,y428&wmark=nzz",
+   "type": "image/jpeg",
+   "width": 1200,
+   "height": 675
+  },
+  "author": "Patrick Zoll, Taipei",
+  "description": "The strait near Singapore is even more important for global shipping than the entrance to the Persian Gulf. Hundreds of ships pass through it daily. A blockade would severely impact China.",
+  "news_keywords": "The Malacca Dilemma: The Strait of Malacca is the linchpin of global trade. Is it threatened with a similar scenario to the Strait of Hormuz? (International, News, NZZ)",
+  "type": "article",
+  "last-modified": "2026-05-03T21:04:47+02:00",
+  "date": "2026-05-02T07:30:00+02:00",
+  "canonical": "https://www.nzz.ch/international/droht-der-strasse-von-malakka-eine-blockade-wie-in-hormuz-ld.10004103",
+  "fb:app_id": 138008459595436,
+  "fb:pages": 143694099006529,
+  "fb:admins": 1592685173,
+  "locale": "de",
+  "email": "online.redaktion@nzz.ch",
+  "site_name": "Neue Zürcher Zeitung",
+  "copyright": "2026 Neue Zürcher Zeitung AG, Schweiz",
+  "robots": "noindex, nofollow, noarchive, noodp",
+  "hreflang": [],
+  "sharedTitle": "The Malacca dilemma: The Strait of Malacca is the linchpin of global trade. Is it threatened with a scenario similar to that of the Strait of Hormuz?",
+  "ogTitle": "After Hormuz: How threatened is the Strait of Malacca for world trade?",
+  "ogUrl": "https://www.nzz.ch/international/droht-der-strasse-von-malakka-eine-blockade-wie-in-hormuz-ld.10004103",
+  "mrf:cms_id": "nzz:ld.10004103",
+  "mrf:sections": "International",
+  "mrf:tags": "Page Type:regular;Editorial Owner:NZZ;Content Type:Pro Article;Article ID:ld.10004103",
+  "nzzAuthors": [
+   {
+    "id": 1373382,
+    "name": "Patrick Zoll",
+    "shortName": "paz",
+    "pianoId": "d2ef4922-b0c5-4ddc-9f5b-8f93846f6973",
+    "external": false
+   }
+  ],
+  "links": [
+   {
+    "rel": "canonical",
+    "href": "https://www.nzz.ch/international/droht-der-strasse-von-malakka-eine-blockade-wie-in-hormuz-ld.10004103"
+   },
+   {
+    "rel": "search",
+    "href": "/suche",
+    "title": "Suche Neue Zürcher Zeitung, Schweiz, https://www.nzz.ch/suche"
+   }
+  ],
+  "renderedAt": "Thu, 03 Sep 2026 10:02:50 GMT"
+ },
+ "structuredData": [
+  {
+   "@context": "https://schema.org",
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "item": {
+      "@id": "/",
+      "name": "Home"
+     }
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "item": {
+      "@id": "/international",
+      "name": "International"
+     }
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Is the Strait of Malacca threatened with a blockage like the one in Hormuz?"
+    }
+   ]
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": "NewsArticle",
+   "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.nzz.ch/international/droht-der-strasse-von-malakka-eine-blockade-wie-in-hormuz-ld.10004103"
+   },
+   "headline": "Is the Strait of Malacca threatened with a blockage like the one in Hormuz?",
+   "datePublished": "2026-05-02T07:30:00+02:00",
+   "dateModified": "2026-05-03T21:04:47+02:00",
+   "publisher": {
+    "@type": "NewsMediaOrganization",
+    "name": "Neue Zürcher Zeitung",
+    "url": "https://www.nzz.ch",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://www.nzz.ch/logo.png",
+     "width": 413,
+     "height": 60
+    },
+    "contactPoint": [
+     {
+      "@type": "ContactPoint",
+      "telephone": "+41-44-2581000",
+      "contactType": "customer service"
+     }
+    ],
+    "sameAs": [
+     "https://www.facebook.com/nzz",
+     "https://www.twitter.com/nzz",
+     "https://www.youtube.com/channel/UCK1aTcR0AckQRLTlK0c4fuQ",
+     "https://www.linkedin.com/company/neue-zurcher-zeitung",
+     "https://www.instagram.com/nzz/",
+     "https://de.wikipedia.org/wiki/Neue_Z%C3%BCrcher_Zeitung",
+     "https://www.wikidata.org/wiki/Q658945",
+     "https://plus.google.com/+nzz/",
+     "http://www.freebase.com/m/041b43"
+    ],
+    "masthead": "https://www.nzz.ch/impressum/impressum-ld.148422",
+    "foundingDate": "1780"
+   },
+   "description": "The strait near Singapore is even more important for global shipping than the entrance to the Persian Gulf. Hundreds of ships pass through it daily. A blockade would severely impact China.",
+   "isAccessibleForFree": false,
+   "articleSection": "International",
+   "hasPart": {
+    "@type": "WebPageElement",
+    "isAccessibleForFree": false,
+    "cssSelector": ".nzzinteraction"
+   },
+   "image": {
+    "@type": "ImageObject",
+    "url": "https://img-msp-prod.nzz.ch/2026/04/30/0fd4c5d4-0f78-4fcd-a006-964a371a5b78.jpg?width=1200&height=675&fit=bounds&quality=75&auto=webp&crop=4103,2308,x0,y428&wmark=nzz",
+    "width": 1200,
+    "height": 675
+   },
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Patrick Zoll"
+    }
+   ],
+   "inLanguage": "de"
+  }
+ ],
+ "mp3": true,
+ "mp3Duration": 471240,
+ "bT": {
+  "standard": {
+   "Tags": [
+    "/international/droht-der-strasse-von-malakka-eine-blockade-wie-in-hormuz-ld.10004103",
+    "classification=premium",
+    "relevance=germany",
+    "layout=regular",
+    "comments=true",
+    "owner=nzz",
+    "product=nzz",
+    "doctype=article",
+    "pagetype=article",
+    "ldid=ld.10004103",
+    "channel=International"
+   ],
+   "ContentCreated": "2026-05-02T03:30:00.000Z",
+   "ContentAuthor": "Patrick Zoll, Taipeh",
+   "ContentSection": "International",
+   "ContentIsNative": true
+  },
+  "custom": {
+   "product": "nzz",
+   "docType": "article",
+   "pageType": "article",
+   "layout": "regular",
+   "nzzAbstract": "Wie wichtig ist die Strasse von Malakka für den globalen Handel?\nWelche Alternativen gibt es zur Strasse von Malakka, und welche Nachteile haben sie?\nWie könnte eine Blockade der Strasse von Malakka geopolitisch genutzt werden?",
+   "ldId": "ld.10004103",
+   "channel": "International",
+   "heading": "Das Malakka-Dilemma: Die Strasse von Malakka ist das Scharnier des Welthandels. Droht ihr ein ähnliches Szenario wie der Strasse von Hormuz?",
+   "language": "en-US"
+  }
+ },
+ "webviewMetadata": {},
+ "cacheTime": 3600
+}

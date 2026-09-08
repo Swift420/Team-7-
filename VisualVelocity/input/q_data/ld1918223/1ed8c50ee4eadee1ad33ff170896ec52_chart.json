@@ -1,0 +1,105 @@
+{
+  "_id": "1ed8c50ee4eadee1ad33ff170896ec52",
+  "_rev": "5-633549feb48a87aa8968b109793ffc9c",
+  "data": [
+    [
+      "Land",
+      "Veränderung"
+    ],
+    [
+      "Deutschland",
+      "-5.4"
+    ],
+    [
+      "Italien",
+      "-5.6"
+    ],
+    [
+      "Ungarn",
+      "-5"
+    ],
+    [
+      "EU-Durchschnitt",
+      "1"
+    ],
+    [
+      "Frankreich",
+      "2.7"
+    ],
+    [
+      "Spanien",
+      "2.7"
+    ],
+    [
+      "Tschechien",
+      "3.9"
+    ],
+    [
+      "Schweden",
+      "7.4"
+    ],
+    [
+      "Polen",
+      "11.5"
+    ]
+  ],
+  "tool": "chart",
+  "title": "In manchen Ländern ist die Industrie seit dem Energiepreisschock gewachsen",
+  "active": true,
+  "events": [],
+  "acronym": "jab.",
+  "options": {
+    "chartType": "Bar",
+    "barOptions": {
+      "isBarChart": true,
+      "forceBarsOnSmall": false
+    },
+    "annotations": {},
+    "arrowOptions": {
+      "colorScheme": 0,
+      "invertColorScheme": false
+    },
+    "largeNumbers": {
+      "divideBy": 0
+    },
+    "hideAxisLabel": true,
+    "dotplotOptions": {},
+    "areaChartOptions": {
+      "stackType": "zero",
+      "areaInterpolation": "linear"
+    },
+    "lineChartOptions": {
+      "yScaleType": "linear",
+      "isStockChart": false,
+      "reverseYScale": false,
+      "lineInterpolation": "linear"
+    },
+    "dateSeriesOptions": {
+      "labels": "many",
+      "interval": "auto",
+      "prognosisStart": null
+    },
+    "highlightDataRows": [
+      0
+    ],
+    "colorOverwritesRows": [],
+    "highlightDataSeries": [],
+    "colorOverwritesSeries": []
+  },
+  "sources": [
+    {
+      "link": {
+        "url": "https://bdi.eu/publikation/news/industriebericht-dezember-2025"
+      },
+      "text": "Bundesverband der Deutschen Industrie"
+    }
+  ],
+  "subtitle": "Prozentuale Veränderung der Produktion im dritten Quartal 2025 verglichen mit 2021",
+  "createdBy": "jannik.belser@nzz.ch",
+  "updatedBy": "mina.tuemer@nzz.ch",
+  "department": "Wirtschaft",
+  "createdDate": "2025-12-30T11:26:44.847Z",
+  "publication": "nzz",
+  "updatedDate": "2025-12-30T15:24:34.997Z",
+  "allowDownloadData": false
+}

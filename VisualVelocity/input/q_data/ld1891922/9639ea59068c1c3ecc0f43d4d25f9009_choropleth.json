@@ -1,0 +1,305 @@
+{
+  "_id": "9639ea59068c1c3ecc0f43d4d25f9009",
+  "_rev": "9-66873f70d0fe3f77ee437d26251a95ac",
+  "data": [
+    [
+      "ID",
+      "Wert"
+    ],
+    [
+      "Alabama",
+      "60 001 bis 80 000 $"
+    ],
+    [
+      "Alaska",
+      "80 001 bis 100 000 $"
+    ],
+    [
+      "Arizona",
+      "60 001 bis 80 000 $"
+    ],
+    [
+      "Arkansas",
+      "40 001 bis 60 000 $"
+    ],
+    [
+      "California",
+      "0 bis 40 000 $"
+    ],
+    [
+      "Colorado",
+      "60 001 bis 80 000 $"
+    ],
+    [
+      "Connecticut",
+      "60 001 bis 80 000 $"
+    ],
+    [
+      "Delaware",
+      "60 001 bis 80 000 $"
+    ],
+    [
+      "District of Columbia",
+      "40 001 bis 60 000 $"
+    ],
+    [
+      "Florida",
+      "80 001 bis 100 000 $"
+    ],
+    [
+      "Georgia",
+      "60 001 bis 80 000 $"
+    ],
+    [
+      "Hawaii",
+      "60 001 bis 80 000 $"
+    ],
+    [
+      "Idaho",
+      "60 001 bis 80 000 $"
+    ],
+    [
+      "Illinois",
+      "40 001 bis 60 000 $"
+    ],
+    [
+      "Indiana",
+      "40 001 bis 60 000 $"
+    ],
+    [
+      "Iowa",
+      "60 001 bis 80 000 $"
+    ],
+    [
+      "Kansas",
+      "40 001 bis 60 000 $"
+    ],
+    [
+      "Kentucky",
+      "40 001 bis 60 000 $"
+    ],
+    [
+      "Louisiana",
+      "60 001 bis 80 000 $"
+    ],
+    [
+      "Maine",
+      "0 bis 40 000 $"
+    ],
+    [
+      "Maryland",
+      "40 001 bis 60 000 $"
+    ],
+    [
+      "Massachusetts",
+      "80 001 bis 100 000 $"
+    ],
+    [
+      "Michigan",
+      "40 001 bis 60 000 $"
+    ],
+    [
+      "Minnesota",
+      "40 001 bis 60 000 $"
+    ],
+    [
+      "Mississippi",
+      "60 001 bis 80 000 $"
+    ],
+    [
+      "Missouri",
+      "40 001 bis 60 000 $"
+    ],
+    [
+      "Montana",
+      "100 001 bis 120 000 $"
+    ],
+    [
+      "Nebraska",
+      "80 001 bis 100 000 $"
+    ],
+    [
+      "Nevada",
+      "100 001 bis 120 000 $"
+    ],
+    [
+      "New Hampshire",
+      "40 001 bis 60 000 $"
+    ],
+    [
+      "New Jersey",
+      "0 bis 40 000 $"
+    ],
+    [
+      "New Mexico",
+      "0 bis 40 000 $"
+    ],
+    [
+      "New York",
+      "40 001 bis 60 000 $"
+    ],
+    [
+      "North Carolina",
+      "60 001 bis 80 000 $"
+    ],
+    [
+      "North Dakota",
+      "60 001 bis 80 000 $"
+    ],
+    [
+      "Ohio",
+      "60 001 bis 80 000 $"
+    ],
+    [
+      "Oklahoma",
+      "60 001 bis 80 000 $"
+    ],
+    [
+      "Oregon",
+      "40 001 bis 60 000 $"
+    ],
+    [
+      "Pennsylvania",
+      "40 001 bis 60 000 $"
+    ],
+    [
+      "Puerto Rico",
+      ""
+    ],
+    [
+      "Rhode Island",
+      "40 001 bis 60 000 $"
+    ],
+    [
+      "South Carolina",
+      "60 001 bis 80 000 $"
+    ],
+    [
+      "South Dakota",
+      "100 001 bis 120 000 $"
+    ],
+    [
+      "Tennessee",
+      "60 001 bis 80 000 $"
+    ],
+    [
+      "Texas",
+      "100 001 bis 120 000 $"
+    ],
+    [
+      "Utah",
+      "80 001 bis 100 000 $"
+    ],
+    [
+      "Vermont",
+      "40 001 bis 60 000 $"
+    ],
+    [
+      "Virginia",
+      "60 001 bis 80 000 $"
+    ],
+    [
+      "Washington",
+      "80 001 bis 100 000 $"
+    ],
+    [
+      "West Virginia",
+      "40 001 bis 60 000 $"
+    ],
+    [
+      "Wisconsin",
+      "60 001 bis 80 000 $"
+    ],
+    [
+      "Wyoming",
+      "100 001 bis 120 000 $"
+    ]
+  ],
+  "tool": "choropleth",
+  "notes": "",
+  "title": "Vermögende in Texas profitieren mit am meisten",
+  "active": true,
+  "acronym": "lma.",
+  "baseMap": "usa-states-geographic",
+  "options": {
+    "hideBubbleMap": false,
+    "choroplethType": "categorical",
+    "hideMicroStates": true,
+    "numericalOptions": {
+      "scale": "sequential",
+      "bucketType": "ckmeans",
+      "colorScheme": "one",
+      "labelLegend": "noLabel",
+      "noValuesOnMap": false,
+      "numberBuckets": 5,
+      "colorOverwrites": [],
+      "invertColorScheme": false
+    },
+    "categoricalOptions": {
+      "valuesOnMap": false,
+      "colorOverwrites": [
+        {
+          "color": "#e0d4b1",
+          "position": 1,
+          "textColor": "light"
+        },
+        {
+          "color": "#dbb783",
+          "position": 2,
+          "textColor": "light"
+        },
+        {
+          "color": "#d8975d",
+          "position": 3,
+          "textColor": "light"
+        },
+        {
+          "color": "#d47340",
+          "position": 4,
+          "textColor": "light"
+        },
+        {
+          "color": "#ce4731",
+          "position": 5,
+          "textColor": "light"
+        }
+      ],
+      "customCategoriesOrder": [
+        {
+          "category": "0 bis 40 000 $"
+        },
+        {
+          "category": "40 001 bis 60 000 $"
+        },
+        {
+          "category": "60 001 bis 80 000 $"
+        },
+        {
+          "category": "80 001 bis 100 000 $"
+        },
+        {
+          "category": "100 001 bis 120 000 $"
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "link": {
+        "url": "https://itep.org/how-much-do-the-top-1-percent-in-each-state-get-from-the-senate-tax-bill/"
+      },
+      "text": "Institute on Taxation and Economic Policy"
+    }
+  ],
+  "version": "2019-01-01T00:00:00.000Z",
+  "subtitle": "Durchschnittliche Ersparnis für das 1 Prozent mit den höchsten Einkommen",
+  "createdBy": "marie-astrid.langer@nzz.ch",
+  "thumbnail": "https://nzzqprod-4851.kxcdn.com/q-item-thumbnails/nzz/14eda1ba2ad93e88e291027589f496bc-thumbnail.jpeg",
+  "updatedBy": "simon.huwiler@nzz.ch",
+  "department": "International",
+  "entityType": "name",
+  "createdDate": "2025-07-03T23:10:22.265Z",
+  "publication": "nzz",
+  "updatedDate": "2025-07-04T06:40:19.506Z",
+  "mapAnnotations": []
+}

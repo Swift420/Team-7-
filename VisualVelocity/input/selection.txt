@@ -1,0 +1,24 @@
+# Visual Velocity — team input corpus: articles that embed Q-toolbox graphics. One Livingdocs id per line.
+# Re-pack:  python3 hackathon/_tools/kenny_pack.py hackathon/VisualVelocity/input && python3 hackathon/_tools/q_dump.py hackathon/VisualVelocity/input
+# --- simple charts (line / bar / table) ---
+1918223   # Wirtschaft: German economy stuck in crisis, five charts
+1891391   # NZZ in English: Trump steers the US toward isolation (3 charts: trade partners, protectionism, uncertainty)
+10016531  # Wirtschaft: a super El Niño threatens the world economy (cocoa, rice prices)
+1914752   # Wirtschaft: ways out of the looming sovereign-debt crisis (6 charts, Portugal/Sweden/US/France)
+1901856   # Wissenschaft: vaccine critics shape US health policy (polio, measles charts)
+1924371   # Wirtschaft: global coal consumption at a record high (China charts)
+10012805  # International: India's radical turn in population policy (1 chart)
+1899514   # Sport: the football transfer market booms, 14 billion (1 chart)
+# --- advanced: maps, choropleths, elections, infographics ---
+1887401   # NZZ in English: the trends behind Nawrocki's Polish election win (charts + choropleth + election_executive)
+1881978   # International: Canada, Carney's Liberals beat the Conservatives (election_seats + election_votes)
+1909329   # International: Netherlands, setback for the right-wing populists (election_seats)
+1890045   # International: Europe agrees on a NATO spending target (charts + choropleth of NATO states)
+1891922   # Technologie: Trump's «Big Beautiful Bill» (polling charts + choropleth)
+10015775  # International: where assisted dying is allowed in Europe (choropleth)
+1875099   # International: «Fat Jos» and the president, cocaine in West Africa (charts + infographics + table)
+10014321  # Wissenschaft: air conditioners have a bad reputation, yet sell massively (charts + infographic + scroll graphic)
+1910697   # International: Korea, Cyprus, Nagorno-Karabakh, what Ukraine can learn from frozen conflicts (infographic + locator maps)
+10016497  # International: easy prey for Iran, Kuwait suffers most from the attacks (chart + locator map)
+10004103  # International: the Malacca dilemma, hinge of world trade (locator map)
+1897238   # NZZ in English: Chinese safari parks fuel illegal elephant trade (locator map)

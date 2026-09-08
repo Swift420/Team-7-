@@ -1,0 +1,122 @@
+{
+  "_id": "833c3c20b50add8a4b6f9530078b3d8f",
+  "_rev": "15-b71794f879692932c7f7279c0224c66c",
+  "data": [
+    [
+      "Land",
+      "Erneuerbar",
+      "Kernenergie",
+      "Fossil"
+    ],
+    [
+      "Schweiz",
+      "67.83",
+      "29.87",
+      "2.31"
+    ],
+    [
+      "Deutschland",
+      "40.91",
+      "0",
+      "59.1"
+    ]
+  ],
+  "tool": "chart",
+  "notes": "Erneuerbar: Wasserkraft, Solar, Wind, Biomasse.<br>Fossil: Kohle und Gas.",
+  "title": "Der Strommix der Schweiz ist sauberer als der deutsche",
+  "active": false,
+  "events": [],
+  "acronym": "fsl.",
+  "options": {
+    "chartType": "StackedBar",
+    "barOptions": {
+      "isBarChart": true,
+      "forceBarsOnSmall": false
+    },
+    "annotations": {},
+    "arrowOptions": {
+      "colorScheme": 0,
+      "invertColorScheme": false
+    },
+    "largeNumbers": {
+      "divideBy": 0
+    },
+    "hideAxisLabel": true,
+    "dotplotOptions": {},
+    "areaChartOptions": {
+      "stackType": "zero",
+      "areaInterpolation": "linear"
+    },
+    "lineChartOptions": {
+      "yScaleType": "linear",
+      "isStockChart": false,
+      "reverseYScale": false,
+      "lineInterpolation": "linear"
+    },
+    "dateSeriesOptions": {
+      "labels": "few",
+      "interval": "auto",
+      "prognosisStart": null
+    },
+    "highlightDataRows": [],
+    "colorOverwritesRows": [],
+    "highlightDataSeries": [],
+    "colorOverwritesSeries": [
+      {
+        "color": "#1B87AA",
+        "position": 1,
+        "colorLight": "#cdcdd1"
+      },
+      {
+        "color": "#DF7C18",
+        "position": 2,
+        "colorLight": "#cdcdd1"
+      },
+      {
+        "color": "#A08962",
+        "position": 3,
+        "colorLight": "#cdcdd1"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "link": {
+        "url": "https://ember-energy.org/data/electricity-data-explorer/?metric=pct_share&entity=Switzerland&mode=split&date=2025-01-01&date_from=2000-01-01"
+      },
+      "text": "Ember"
+    }
+  ],
+  "subtitle": "Anteil der erneuerbaren Energieträger und der Kernenergie an der gesamten Stromerzeugung im Jahr 2025, in Prozent",
+  "createdBy": "florian.seliger@nzz.ch",
+  "thumbnail": "https://nzzqprod-4851.kxcdn.com/q-item-thumbnails/nzz/7d6dbe624a1e6be830738d65b2084881-thumbnail.jpeg",
+  "updatedBy": "anja.ruoss@nzz.ch",
+  "department": "Visuals",
+  "createdDate": "2026-07-13T11:56:40.324Z",
+  "publication": "nzz",
+  "updatedDate": "2026-08-05T07:45:07.590Z",
+  "activateDate": "2022-06-08T17:09:40.905Z",
+  "allowDownloadData": false,
+  "datasheetParseInfo": {
+    "columns": [
+      {
+        "type": "string"
+      },
+      {
+        "type": "number",
+        "decimalSeparator": "."
+      },
+      {
+        "type": "number",
+        "decimalSeparator": "."
+      },
+      {
+        "type": "number",
+        "decimalSeparator": "."
+      },
+      {
+        "type": "string"
+      }
+    ]
+  }
+}

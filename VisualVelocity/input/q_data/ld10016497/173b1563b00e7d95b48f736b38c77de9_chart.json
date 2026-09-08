@@ -1,0 +1,125 @@
+{
+  "_id": "173b1563b00e7d95b48f736b38c77de9",
+  "_rev": "7-03d6399950623eda8309206bca9ddef1",
+  "data": [
+    [
+      null,
+      "Vor der Waffenruhe",
+      "Nach der Waffenruhe"
+    ],
+    [
+      "VAE",
+      "2819",
+      "2"
+    ],
+    [
+      "Kuwait ",
+      "1221",
+      "238"
+    ],
+    [
+      "Saudiarabien",
+      "1020",
+      "2"
+    ],
+    [
+      "Bahrain",
+      "710",
+      "71"
+    ],
+    [
+      "Jordanien",
+      "291",
+      "126"
+    ],
+    [
+      "Katar",
+      "340",
+      "7"
+    ]
+  ],
+  "tool": "chart",
+  "notes": "Die Waffenruhe zwischen Iran und den USA trat am 8. April 2026 in Kraft, am 8. Juli erklärte Donald Trump die Absichtserklärung mit Iran für hinfällig. Stand: 30. Juli 2026",
+  "title": "Iran hat rund 1500 Raketen und Drohnen auf Kuwait abgeschossen",
+  "active": true,
+  "events": [],
+  "acronym": "rew.",
+  "options": {
+    "chartType": "Bar",
+    "barOptions": {
+      "isBarChart": true,
+      "forceBarsOnSmall": false
+    },
+    "annotations": {
+      "valuesOnBars": true
+    },
+    "arrowOptions": {
+      "colorScheme": 0,
+      "invertColorScheme": false
+    },
+    "largeNumbers": {
+      "divideBy": 0
+    },
+    "hideAxisLabel": true,
+    "dotplotOptions": {},
+    "areaChartOptions": {
+      "stackType": "zero",
+      "areaInterpolation": "linear"
+    },
+    "lineChartOptions": {
+      "yScaleType": "linear",
+      "isStockChart": false,
+      "reverseYScale": false,
+      "lineInterpolation": "linear"
+    },
+    "dateSeriesOptions": {
+      "labels": "many",
+      "interval": "auto",
+      "prognosisStart": null
+    },
+    "highlightDataRows": [],
+    "colorOverwritesRows": [],
+    "highlightDataSeries": [],
+    "colorOverwritesSeries": []
+  },
+  "sources": [
+    {
+      "link": {
+        "url": "https://www.inss.org.il/publication/iran-war-data/"
+      },
+      "text": "INSS"
+    }
+  ],
+  "subtitle": "Anzahl der iranischen Abschüsse auf ausgewählte Golfstaaten seit Beginn des Kriegs am 28. Februar 2026",
+  "createdBy": "rewert.hoffer@nzz.ch",
+  "updatedBy": "rewert.hoffer@nzz.ch",
+  "department": "default",
+  "createdDate": "",
+  "publication": "nzz",
+  "updatedDate": "2026-08-03T07:10:07.178Z",
+  "allowDownloadData": false,
+  "datasheetParseInfo": {
+    "columns": [
+      {
+        "type": "date",
+        "dateFormatGroup": "day_first"
+      },
+      {
+        "type": "number",
+        "decimalSeparator": "."
+      },
+      {
+        "type": "number",
+        "decimalSeparator": "."
+      },
+      {
+        "type": "number",
+        "decimalSeparator": "."
+      },
+      {
+        "type": "number",
+        "decimalSeparator": "."
+      }
+    ]
+  }
+}

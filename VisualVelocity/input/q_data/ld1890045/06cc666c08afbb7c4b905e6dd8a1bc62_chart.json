@@ -1,0 +1,194 @@
+{
+  "_id": "06cc666c08afbb7c4b905e6dd8a1bc62",
+  "_rev": "9-d8670d92c7598df652d13779aab3573c",
+  "data": [
+    [
+      "Land",
+      "Anteil"
+    ],
+    [
+      "Polen",
+      "4.3"
+    ],
+    [
+      "Litauen",
+      "4"
+    ],
+    [
+      "Lettland",
+      "3.74"
+    ],
+    [
+      "Estland",
+      "3.42"
+    ],
+    [
+      "Dänemark",
+      "3.34"
+    ],
+    [
+      "Norwegen",
+      "3.2"
+    ],
+    [
+      "Finnland",
+      "2.87"
+    ],
+    [
+      "Griechenland",
+      "2.79"
+    ],
+    [
+      "Niederlande",
+      "2.59"
+    ],
+    [
+      "Schweden",
+      "2.5"
+    ],
+    [
+      "Deutschland",
+      "2.39"
+    ],
+    [
+      "Türkei",
+      "2.33"
+    ],
+    [
+      "Grossbritannien",
+      "2.31"
+    ],
+    [
+      "Frankreich",
+      "2.05"
+    ],
+    [
+      "Italien",
+      "2.01"
+    ],
+    [
+      "Spanien",
+      "2"
+    ]
+  ],
+  "tool": "chart",
+  "notes": "Berücksichtigt wurden 16 der 32 Mitgliedländer (die sechs grössten Volkswirtschaften sowie die zehn mit den höchsten Ausgaben).",
+  "title": "Polen gibt im Verhältnis zur Wirtschaftskraft doppelt so viel aus wie Frankreich und Deutschland",
+  "active": true,
+  "events": [],
+  "acronym": "A. R.",
+  "options": {
+    "chartType": "Bar",
+    "barOptions": {
+      "isBarChart": true,
+      "forceBarsOnSmall": false
+    },
+    "annotations": {
+      "valuesOnBars": true
+    },
+    "arrowOptions": {
+      "colorScheme": 0,
+      "invertColorScheme": false
+    },
+    "largeNumbers": {
+      "divideBy": 0
+    },
+    "hideAxisLabel": true,
+    "dotplotOptions": {},
+    "areaChartOptions": {
+      "stackType": "zero",
+      "areaInterpolation": "linear"
+    },
+    "lineChartOptions": {
+      "yScaleType": "linear",
+      "isStockChart": false,
+      "reverseYScale": false,
+      "lineInterpolation": "linear"
+    },
+    "dateSeriesOptions": {
+      "labels": "few",
+      "interval": "auto",
+      "prognosisStart": null
+    },
+    "highlightDataRows": [],
+    "colorOverwritesRows": [
+      {
+        "color": "#cad5ec",
+        "position": 16
+      },
+      {
+        "color": "#cad5ec",
+        "position": 15
+      },
+      {
+        "color": "#cad5ec",
+        "position": 14
+      },
+      {
+        "color": "#cad5ec",
+        "position": 13
+      },
+      {
+        "color": "#cad5ec",
+        "position": 12
+      },
+      {
+        "color": "#cad5ec",
+        "position": 11
+      },
+      {
+        "color": "#cad5ec",
+        "position": 10
+      },
+      {
+        "color": "#cad5ec",
+        "position": 9
+      },
+      {
+        "color": "#cad5ec",
+        "position": 8
+      },
+      {
+        "color": "#cad5ec",
+        "position": 7
+      },
+      {
+        "color": "#768fcd",
+        "position": 6
+      },
+      {
+        "color": "#768fcd",
+        "position": 5
+      },
+      {
+        "color": "#768fcd",
+        "position": 4,
+        "colorLight": ""
+      }
+    ],
+    "highlightDataSeries": [],
+    "colorOverwritesSeries": []
+  },
+  "sources": [
+    {
+      "link": {
+        "url": "https://www.nato.int/nato_static_fl2014/assets/pdf/2025/8/pdf/250827-def-exp-2025-en.pdf"
+      },
+      "text": "Nato"
+    },
+    {
+      "link": {
+        "url": "https://www.zdfheute.de/politik/deutschland/haushalt-entwurf-schulden-milliarden-100.html"
+      },
+      "text": "deutsche Regierung."
+    }
+  ],
+  "subtitle": "Militärausgaben ausgewählter europäischer Nato-Staaten 2025, Anteil am BIP, in Prozent",
+  "createdBy": "andreas.rueesch@nzz.ch",
+  "updatedBy": "mina.tuemer@nzz.ch",
+  "department": "International",
+  "createdDate": "2025-08-29T15:59:59.308Z",
+  "publication": "nzz",
+  "updatedDate": "2026-03-27T17:34:29.406Z",
+  "allowDownloadData": false
+}

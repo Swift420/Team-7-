@@ -1,0 +1,198 @@
+{
+  "nzz_id": "ld.1928134",
+  "document_id": 1928134,
+  "url": "https://www.nzz.ch/technologie/dario-und-daniela-amodei-die-geschwister-die-dem-pentagon-die-stirn-bieten-ld.1928134",
+  "language": "en",
+  "machine_translated_from_de": true,
+  "section": "Technologie",
+  "ressort_path": "technologie",
+  "genre_flag": "",
+  "layout": "longformstandard",
+  "published_at": "2026-03-12T04:30:00.000Z",
+  "last_updated": "2026-05-18T09:48:23.200Z",
+  "headline": "Dario and Daniela Amodei: the siblings who defy the Pentagon",
+  "lead": "Anthropic is one of the most successful AI companies. Behind it are a brother and sister from San Francisco who initially had no interest in the tech world.",
+  "author_line": "Ruth Fulterer",
+  "authors": [
+    "Ruth Fulterer"
+  ],
+  "reading_time_seconds": 420,
+  "word_count": 1472,
+  "character_count": 9616,
+  "seo_title": "Anthropic versus Pentagon: A portrait of AI siblings Dario and Daniela Amodei",
+  "social_title": "Dario and Daniela Amodei: the siblings who are defying the Pentagon with Anthropic",
+  "print_title": "This pair of siblings defies the Pentagon",
+  "print_subtitle": "Dario and Daniela Amodei became AI founders almost by accident. Now, the dispute between their company Anthropic and the American government has escalated.",
+  "summary_bullets_en": [
+    "Dario and Daniela Amodei, founders of Anthropic, defied the Pentagon over the use of their AI technology Claude, leading to them being classified as a supply chain risk.",
+    "They emphasize ethical principles and safety, particularly against autonomous weapons and mass surveillance, while pragmatically making compromises despite their idealistic values.",
+    "Their reputation as an ethically driven company gives them a competitive edge in talent-focused Silicon Valley."
+  ],
+  "tags": [
+    "classification=default",
+    "relevance=default",
+    "layout=longformstandard",
+    "owner=nzz",
+    "product=nzz",
+    "doctype=article",
+    "pagetype=article",
+    "ldid=ld.1928134",
+    "channel=Technologie"
+  ],
+  "sections_tag": "Technologie;WTM",
+  "teaser_image": {
+    "url": "https://img-msp-prod.nzz.ch/2026/03/11/696d710a-0aab-46c7-8d05-b97044984556.jpg?width=1024",
+    "caption": "Anthropic is one of the most successful AI companies. Behind it are a brother and sister from San Francisco who initially had no interest in the tech world.",
+    "credit": "PD; Editing NZZ",
+    "width": 2188,
+    "height": 3309
+  },
+  "original_de": {
+    "headline": "Dario und Daniela Amodei: die Geschwister, die dem Pentagon die Stirn bieten",
+    "lead": "Anthropic ist eine der erfolgreichsten KI-Firmen. Dahinter steht ein Geschwisterpaar aus San Francisco, das sich eigentlich gar nicht für die Tech-Welt begeistern konnte.",
+    "kicker": null
+  },
+  "body": [
+    {
+      "type": "image",
+      "url": "https://img-msp-prod.nzz.ch/2026/03/11/696d710a-0aab-46c7-8d05-b97044984556.jpg?crop=2188,2917,x0,y0",
+      "caption": "The Amodei siblings did not give in to the Pentagon in the dispute over the use of AI.",
+      "credit": "PD; Editing NZZ",
+      "width": 2188,
+      "height": 3309
+    },
+    {
+      "type": "paragraph",
+      "text": "The most striking thing about Dario and Daniela Amodei is their unassuming nature. Unlike most tech CEOs, you could easily picture them doing their weekly grocery shopping. He is an easygoing type, looks more like he is settled in for a night in front of the TV than a gym member, and often has a broad grin on his face. She always looks her conversation partners in the eye and places her other hand on top when shaking hands. They could not be further removed from the personas of a Sam Altman, a Mark Zuckerberg, or a Jeff Bezos. And yet, these siblings are now in the spotlight as tough figures."
+    },
+    {
+      "type": "paragraph",
+      "text": "In the dispute over their company Anthropic, the Amodeis stood up to the Pentagon. They wanted to have a say in how the government used the chatbot Claude and refused to budge on their red lines, even under pressure."
+    },
+    {
+      "type": "paragraph",
+      "text": "As a result, Anthropic not only lost its status as the primary supplier of artificial intelligence (AI) to the U.S. government, but the company was also effectively declared an enemy of the state: It is now considered a supply chain risk. Anyone doing business with the U.S. government is prohibited from using Anthropic. Dario Amodei filed a lawsuit against this decision on Monday."
+    },
+    {
+      "type": "paragraph",
+      "text": "Few expected the tech company to fight this battle to the bitter end. But it's typical of the Amodeis. Of Dario, but also of his sister Daniela. Because it's not just in their demeanor that they differ from other AI founders."
+    },
+    {
+      "type": "heading",
+      "text": "Dario became politically active as a physics student"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Amodeis grew up in the Mission District, a working-class neighborhood in San Francisco shaped by its Latino and queer communities. According to media reports, their father, Riccardo, was a trained leatherworker who had come to the U.S. from the Tuscan town of Massa Marittima. Their mother, Elena Engel, a Jewish American from Chicago, managed renovation projects at libraries in the area. They were said to be a close couple with idealistic values, which they also passed on to their children."
+    },
+    {
+      "type": "paragraph",
+      "text": "Dario was born in 1983, Daniela in 1987. They were teenagers during the dot-com boom. But Silicon Valley, although very close, didn't interest either of them."
+    },
+    {
+      "type": "paragraph",
+      "text": "Dario was a math nerd, took part in the Physics Olympiad with the American team in 2000, and subsequently studied physics. However, he was also interested in world politics. At 20, he urged his fellow students in his university's campus newspaper to take a stand against the Iraq War instead of passively accepting it: «We, who have so much power to influence the future, astonishingly forfeit our right to do so,» he wrote. He continued, almost prophetically: «We should never allow ourselves to be degraded to amoral technicians who operate the machines of war as casually as we operate our computers.»"
+    },
+    {
+      "type": "paragraph",
+      "text": "His switch from physics to AI was also due to the death of his father. Riccardo died of a rare disease, for which the chances of a cure improved significantly just a few years later. For Amodei, this was the motivation to move more towards biology – and then to turn to AI as a tool that could accelerate all kinds of research. At least, that's how he tells it in interviews."
+    },
+    {
+      "type": "paragraph",
+      "text": "He began his career at a research lab of the Chinese company Baidu at Stanford and moved to Google's AI research lab, Google Brain, in 2015. During this time, Dario was invited to a prestigious dinner that would go down in tech history. There, Elon Musk and Sam Altman presented their plan: an AI research lab dedicated to serving humanity. This became OpenAI."
+    },
+    {
+      "type": "paragraph",
+      "text": "Amodei was not impressed: «It felt like it was more about famous tech investors and entrepreneurs than about AI researchers,» Wired magazine quoted him as saying. But a few months later, he joined OpenAI after all, because the company had attracted some very well-known AI researchers. Two years later, he brought his sister on board."
+    },
+    {
+      "type": "image",
+      "url": "https://img-msp-prod.nzz.ch/2026/03/06/18751425-5f02-42b8-bf23-643aec011ccc.jpg?width=1024",
+      "caption": "Dario Amodei laid one of the foundations for Chat-GPT at OpenAI.",
+      "credit": "Denis Balibouse / Reuters",
+      "width": 5900,
+      "height": 3933
+    },
+    {
+      "type": "heading",
+      "text": "Daniela is interested in literature, music and people"
+    },
+    {
+      "type": "paragraph",
+      "text": "Daniela Amodei studied literature and flute, then worked in development aid and politics – including as a campaign manager for a Democratic congressman. In 2013, she moved to Silicon Valley. She was an early employee at the fintech company Stripe, initially working as a recruiter, later in risk management."
+    },
+    {
+      "type": "paragraph",
+      "text": "She explained how literature, music, politics and technology fit together in an interview with an investment firm: Playing music in an orchestra teaches you how to assemble a team where roles are clearly defined and the whole is greater than the sum of its parts. Studying literature made her more empathetic and enabled her to consider problems from different perspectives."
+    },
+    {
+      "type": "paragraph",
+      "text": "At OpenAI, Daniela also managed the team that developed GPT-2, a predecessor of the chatbot ChatGPT. Dario, as a researcher, played a key role in developing the technology that, years later, would usher in the AI revolution. The siblings recognized the technology's potential – and worried about its future impact."
+    },
+    {
+      "type": "paragraph",
+      "text": "In the fall of 2023, it became public knowledge that CEO Sam Altman was controversial at OpenAI when he lost his job and was subsequently reinstated. The board of directors had lost confidence in him. Dario and Daniela Amodei had apparently drawn their conclusions about their boss's personality years earlier. Along with five other associates, they left OpenAI at the end of 2020 to found a competing company based on their own vision: Anthropic."
+    },
+    {
+      "type": "paragraph",
+      "text": "In a marketing video, the seven founders sit around a table and describe their company culture. They emphasize the high level of trust among themselves at Anthropic. One says this is to Daniela's credit, as she maintains high standards: «She doesn't let any clowns in.» Daniela Amodei is now Anthropic's president and focuses primarily on the human side of the business. Dario is the CEO."
+    },
+    {
+      "type": "paragraph",
+      "text": "The conversation is staged, yet some aspects of it feel authentic. For example, the chemistry between the siblings and the co-founders. And the fact that they didn't simply want to «start a company,» but rather slipped into the role of founders out of a sense of duty, convinced that a better AI company is needed. All seven co-founders are now billionaires thanks to their company shares. They have pledged to donate 80% of their wealth to charity."
+    },
+    {
+      "type": "image",
+      "url": "https://img-msp-prod.nzz.ch/2026/03/06/0e7b019e-c5ac-4928-9dea-fc90d92d8591.jpg?width=1024",
+      "caption": "«She doesn’t let any clowns in»: Daniela Amodei is responsible for shaping the company culture at Anthropic.",
+      "credit": "Steve Marcus / Reuters",
+      "width": 5586,
+      "height": 3803
+    },
+    {
+      "type": "heading",
+      "text": "The Amodeis are close to effective altruists"
+    },
+    {
+      "type": "paragraph",
+      "text": "Dario and Daniela Amodei are close to the effective altruist movement , an ethical school whose adherents strive to increase good in the world in the most rational way possible. Daniela's husband, Holden Karnofsky, has founded several philanthropic organizations with this orientation. Today he works at Anthropic."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sam Bankman-Fried, founder of the crypto exchange FTX and formerly a leading figure in effective altruism, invested half a billion dollars in Anthropic in 2022. FTX has since collapsed, and Bankman-Fried has been imprisoned for fraud. This is likely one reason why the Amodeis are downplaying their connection to the movement ."
+    },
+    {
+      "type": "paragraph",
+      "text": "But Anthropic's corporate philosophy aligns well with effective altruism: they want to do good while utilizing modern technology, and they are particularly concerned about future dangers, especially an overpowered AI that could spiral out of control or be used for nefarious purposes. Dario Amodei published a detailed blog post on this topic just this past January. Which brings us back to the debate with the Pentagon."
+    },
+    {
+      "type": "paragraph",
+      "text": "At its core, this debate revolves around who sets the limits on the use of artificial intelligence. Anthropic is attempting to mitigate the potential harm of its creation by giving its chatbot Claude a kind of «character.» This is intended to ensure that Claude refuses to perform any problematic tasks. The Pentagon, on the other hand, wants to decide for itself how it uses AI."
+    },
+    {
+      "type": "paragraph",
+      "text": "The main points of contention were reportedly autonomous weapons and the mass surveillance of Americans. Anthropic argues that the technology is not yet ready for autonomous weapons, and that the mass surveillance of its own citizens violates its principles."
+    },
+    {
+      "type": "heading",
+      "text": "Anthropic has already made ethical compromises"
+    },
+    {
+      "type": "paragraph",
+      "text": "Despite the idealism now on display, Anthropic has already made compromises. It is collaborating with Palantir, the most prominent provider of AI services for warfare and surveillance."
+    },
+    {
+      "type": "paragraph",
+      "text": "An internal memo leaked to Wired magazine this summer also revealed that Dario Amodei was considering attracting Gulf state funds as investors, after having previously condemned doing so. Contradictory? Amodei does not see it that way. The «media / Twitter / the outside world,» he wrote, are always looking for hypocrisy and are «also very stupid.» He added: «It's perfectly consistent to advocate for rules that say, 'No one may do X,' but when those rules fail and everyone else does X, to reluctantly do X yourself.»"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Amodeis' idealism is therefore flexible. Their steadfastness towards the Trump administration may have less to do with their own beliefs than with the reputation they have to lose, especially among their employees."
+    },
+    {
+      "type": "paragraph",
+      "text": "Being seen as «the good guys» in the AI race helps Anthropic hold its own in the fierce competition for talent from Google, OpenAI and Meta. Having a CEO and a president who seem genuinely nice and down-to-earth is a unique selling point in Silicon Valley."
+    }
+  ],
+  "body_text": "The most striking thing about Dario and Daniela Amodei is their unassuming nature. Unlike most tech CEOs, you could easily picture them doing their weekly grocery shopping. He is an easygoing type, looks more like he is settled in for a night in front of the TV than a gym member, and often has a broad grin on his face. She always looks her conversation partners in the eye and places her other hand on top when shaking hands. They could not be further removed from the personas of a Sam Altman, a Mark Zuckerberg, or a Jeff Bezos. And yet, these siblings are now in the spotlight as tough figures.\n\nIn the dispute over their company Anthropic, the Amodeis stood up to the Pentagon. They wanted to have a say in how the government used the chatbot Claude and refused to budge on their red lines, even under pressure.\n\nAs a result, Anthropic not only lost its status as the primary supplier of artificial intelligence (AI) to the U.S. government, but the company was also effectively declared an enemy of the state: It is now considered a supply chain risk. Anyone doing business with the U.S. government is prohibited from using Anthropic. Dario Amodei filed a lawsuit against this decision on Monday.\n\nFew expected the tech company to fight this battle to the bitter end. But it's typical of the Amodeis. Of Dario, but also of his sister Daniela. Because it's not just in their demeanor that they differ from other AI founders.\n\nDario became politically active as a physics student\n\nThe Amodeis grew up in the Mission District, a working-class neighborhood in San Francisco shaped by its Latino and queer communities. According to media reports, their father, Riccardo, was a trained leatherworker who had come to the U.S. from the Tuscan town of Massa Marittima. Their mother, Elena Engel, a Jewish American from Chicago, managed renovation projects at libraries in the area. They were said to be a close couple with idealistic values, which they also passed on to their children.\n\nDario was born in 1983, Daniela in 1987. They were teenagers during the dot-com boom. But Silicon Valley, although very close, didn't interest either of them.\n\nDario was a math nerd, took part in the Physics Olympiad with the American team in 2000, and subsequently studied physics. However, he was also interested in world politics. At 20, he urged his fellow students in his university's campus newspaper to take a stand against the Iraq War instead of passively accepting it: «We, who have so much power to influence the future, astonishingly forfeit our right to do so,» he wrote. He continued, almost prophetically: «We should never allow ourselves to be degraded to amoral technicians who operate the machines of war as casually as we operate our computers.»\n\nHis switch from physics to AI was also due to the death of his father. Riccardo died of a rare disease, for which the chances of a cure improved significantly just a few years later. For Amodei, this was the motivation to move more towards biology – and then to turn to AI as a tool that could accelerate all kinds of research. At least, that's how he tells it in interviews.\n\nHe began his career at a research lab of the Chinese company Baidu at Stanford and moved to Google's AI research lab, Google Brain, in 2015. During this time, Dario was invited to a prestigious dinner that would go down in tech history. There, Elon Musk and Sam Altman presented their plan: an AI research lab dedicated to serving humanity. This became OpenAI.\n\nAmodei was not impressed: «It felt like it was more about famous tech investors and entrepreneurs than about AI researchers,» Wired magazine quoted him as saying. But a few months later, he joined OpenAI after all, because the company had attracted some very well-known AI researchers. Two years later, he brought his sister on board.\n\nDaniela is interested in literature, music and people\n\nDaniela Amodei studied literature and flute, then worked in development aid and politics – including as a campaign manager for a Democratic congressman. In 2013, she moved to Silicon Valley. She was an early employee at the fintech company Stripe, initially working as a recruiter, later in risk management.\n\nShe explained how literature, music, politics and technology fit together in an interview with an investment firm: Playing music in an orchestra teaches you how to assemble a team where roles are clearly defined and the whole is greater than the sum of its parts. Studying literature made her more empathetic and enabled her to consider problems from different perspectives.\n\nAt OpenAI, Daniela also managed the team that developed GPT-2, a predecessor of the chatbot ChatGPT. Dario, as a researcher, played a key role in developing the technology that, years later, would usher in the AI revolution. The siblings recognized the technology's potential – and worried about its future impact.\n\nIn the fall of 2023, it became public knowledge that CEO Sam Altman was controversial at OpenAI when he lost his job and was subsequently reinstated. The board of directors had lost confidence in him. Dario and Daniela Amodei had apparently drawn their conclusions about their boss's personality years earlier. Along with five other associates, they left OpenAI at the end of 2020 to found a competing company based on their own vision: Anthropic.\n\nIn a marketing video, the seven founders sit around a table and describe their company culture. They emphasize the high level of trust among themselves at Anthropic. One says this is to Daniela's credit, as she maintains high standards: «She doesn't let any clowns in.» Daniela Amodei is now Anthropic's president and focuses primarily on the human side of the business. Dario is the CEO.\n\nThe conversation is staged, yet some aspects of it feel authentic. For example, the chemistry between the siblings and the co-founders. And the fact that they didn't simply want to «start a company,» but rather slipped into the role of founders out of a sense of duty, convinced that a better AI company is needed. All seven co-founders are now billionaires thanks to their company shares. They have pledged to donate 80% of their wealth to charity.\n\nThe Amodeis are close to effective altruists\n\nDario and Daniela Amodei are close to the effective altruist movement , an ethical school whose adherents strive to increase good in the world in the most rational way possible. Daniela's husband, Holden Karnofsky, has founded several philanthropic organizations with this orientation. Today he works at Anthropic.\n\nSam Bankman-Fried, founder of the crypto exchange FTX and formerly a leading figure in effective altruism, invested half a billion dollars in Anthropic in 2022. FTX has since collapsed, and Bankman-Fried has been imprisoned for fraud. This is likely one reason why the Amodeis are downplaying their connection to the movement .\n\nBut Anthropic's corporate philosophy aligns well with effective altruism: they want to do good while utilizing modern technology, and they are particularly concerned about future dangers, especially an overpowered AI that could spiral out of control or be used for nefarious purposes. Dario Amodei published a detailed blog post on this topic just this past January. Which brings us back to the debate with the Pentagon.\n\nAt its core, this debate revolves around who sets the limits on the use of artificial intelligence. Anthropic is attempting to mitigate the potential harm of its creation by giving its chatbot Claude a kind of «character.» This is intended to ensure that Claude refuses to perform any problematic tasks. The Pentagon, on the other hand, wants to decide for itself how it uses AI.\n\nThe main points of contention were reportedly autonomous weapons and the mass surveillance of Americans. Anthropic argues that the technology is not yet ready for autonomous weapons, and that the mass surveillance of its own citizens violates its principles.\n\nAnthropic has already made ethical compromises\n\nDespite the idealism now on display, Anthropic has already made compromises. It is collaborating with Palantir, the most prominent provider of AI services for warfare and surveillance.\n\nAn internal memo leaked to Wired magazine this summer also revealed that Dario Amodei was considering attracting Gulf state funds as investors, after having previously condemned doing so. Contradictory? Amodei does not see it that way. The «media / Twitter / the outside world,» he wrote, are always looking for hypocrisy and are «also very stupid.» He added: «It's perfectly consistent to advocate for rules that say, 'No one may do X,' but when those rules fail and everyone else does X, to reluctantly do X yourself.»\n\nThe Amodeis' idealism is therefore flexible. Their steadfastness towards the Trump administration may have less to do with their own beliefs than with the reputation they have to lose, especially among their employees.\n\nBeing seen as «the good guys» in the AI race helps Anthropic hold its own in the fierce competition for talent from Google, OpenAI and Meta. Having a CEO and a president who seem genuinely nice and down-to-earth is a unique selling point in Silicon Valley."
+}

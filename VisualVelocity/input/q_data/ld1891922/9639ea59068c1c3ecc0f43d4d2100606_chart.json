@@ -1,0 +1,94 @@
+{
+  "_id": "9639ea59068c1c3ecc0f43d4d2100606",
+  "_rev": "4-d34616a7fae6cccf9119676d41fa4068",
+  "data": [
+    [
+      "Einkommen",
+      "Wert"
+    ],
+    [
+      "bis 34 600 Dollar",
+      "0.8"
+    ],
+    [
+      "34 600–66 800",
+      "1.6"
+    ],
+    [
+      "66 800–119 200",
+      "2.3"
+    ],
+    [
+      "119 200–217 100",
+      "2.6"
+    ],
+    [
+      "über 217 100",
+      "3.4"
+    ]
+  ],
+  "tool": "chart",
+  "title": "Gutverdiener profitieren mehr",
+  "active": true,
+  "events": [],
+  "acronym": "eik.",
+  "options": {
+    "chartType": "Dotplot",
+    "barOptions": {
+      "isBarChart": false,
+      "forceBarsOnSmall": false
+    },
+    "annotations": {
+      "max": true,
+      "min": false,
+      "diff": false
+    },
+    "arrowOptions": {
+      "colorScheme": 0,
+      "invertColorScheme": false
+    },
+    "largeNumbers": {
+      "divideBy": 0
+    },
+    "hideAxisLabel": true,
+    "dotplotOptions": {
+      "maxValue": 4,
+      "connectDots": false
+    },
+    "areaChartOptions": {
+      "stackType": "zero",
+      "areaInterpolation": "linear"
+    },
+    "lineChartOptions": {
+      "yScaleType": "linear",
+      "isStockChart": false,
+      "reverseYScale": false,
+      "lineInterpolation": "linear"
+    },
+    "dateSeriesOptions": {
+      "labels": "many",
+      "interval": "auto",
+      "prognosisStart": null
+    },
+    "highlightDataRows": [],
+    "colorOverwritesRows": [],
+    "highlightDataSeries": [],
+    "colorOverwritesSeries": []
+  },
+  "sources": [
+    {
+      "link": {
+        "url": "https://taxpolicycenter.org/model-estimates/T25-0220"
+      },
+      "text": "Tax Policy Center"
+    }
+  ],
+  "subtitle": "Prozentuale Veränderung des Einkommens nach Steuern",
+  "createdBy": "eike.hoppmann@nzz.ch",
+  "updatedBy": "marianne.bosshard@nzz.ch",
+  "department": "Visuals",
+  "createdDate": "2025-07-03T09:26:10.081Z",
+  "publication": "nzz",
+  "updatedDate": "2025-07-04T06:15:07.383Z",
+  "allowDownloadData": false
+}

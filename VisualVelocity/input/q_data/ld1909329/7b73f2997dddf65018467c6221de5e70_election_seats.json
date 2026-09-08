@@ -1,0 +1,120 @@
+{
+  "_id": "7b73f2997dddf65018467c6221de5e70",
+  "_rev": "24-3dd739651c5d6e3f97beabdf7a594a38",
+  "tool": "election_seats",
+  "notes": "* Am 20. Januar 2026 verliessen 7 Parlamentarier die PVV-Fraktion aus Protest",
+  "title": "Parlamentswahl in den Niederlanden 2025",
+  "active": true,
+  "acronym": "jum.",
+  "options": {
+    "hideUpdatedDate": false
+  },
+  "parties": [
+    {
+      "name": "SP (sozialistisch)",
+      "color": {
+        "colorCode": "#8440a3"
+      },
+      "seats": 3,
+      "previous": 5
+    },
+    {
+      "name": "PvdA-GL (sozialdemokr.)",
+      "color": {
+        "colorCode": "#c31906"
+      },
+      "seats": 20,
+      "previous": 25
+    },
+    {
+      "name": "D66 (linksliberal)",
+      "color": {
+        "colorCode": "#22a682"
+      },
+      "seats": 26,
+      "previous": 9
+    },
+    {
+      "name": "PvdD (Tierschutz)",
+      "color": {
+        "colorCode": "#98f5f5"
+      },
+      "seats": 3,
+      "previous": 3
+    },
+    {
+      "name": "NSC (zentristisch)",
+      "color": {
+        "colorCode": "#fddb69"
+      },
+      "seats": 0,
+      "previous": 20
+    },
+    {
+      "name": "VVD (rechtsliberal)",
+      "color": {
+        "colorCode": "#d28b00"
+      },
+      "seats": 22,
+      "previous": 24
+    },
+    {
+      "name": "CDA (christlichdemokr.)",
+      "color": {
+        "colorCode": "#01b1c0"
+      },
+      "seats": 18,
+      "previous": 5
+    },
+    {
+      "name": "BBB (konservativ)",
+      "color": {
+        "colorCode": "#136340"
+      },
+      "seats": 4,
+      "previous": 7
+    },
+    {
+      "name": "PVV (rechtspopulistisch) *",
+      "color": {
+        "colorCode": "#0a0a0a"
+      },
+      "seats": 26,
+      "previous": 37
+    },
+    {
+      "name": "FvD (rechtsextrem)",
+      "color": {
+        "colorCode": "#ac5038"
+      },
+      "seats": 7,
+      "previous": 3
+    },
+    {
+      "name": "Andere",
+      "color": {
+        "colorCode": "#aa9f9f"
+      },
+      "seats": 21,
+      "previous": 12
+    }
+  ],
+  "sources": [
+    {
+      "link": {
+        "url": "https://app.nos.nl/nieuws/tk2025/"
+      },
+      "text": "NOS"
+    }
+  ],
+  "subtitle": "Sitzverteilung in Den Haag gemäss vorläufigem Endergebnis",
+  "createdBy": "julia.monn@nzz.ch",
+  "thumbnail": "https://nzzqprod-4851.kxcdn.com/q-item-thumbnails/nzz/f8dcaba5c0f6c9f36ee0c30066bf6922-thumbnail.jpeg",
+  "updatedBy": "antonio.fumagalli@nzz.ch",
+  "department": "International",
+  "totalSeats": 150,
+  "createdDate": "2025-10-29T14:13:36.742Z",
+  "publication": "nzz",
+  "updatedDate": "2026-01-30T16:23:21.506Z",
+  "deactivateDate": "2023-11-23T13:54:39.004Z"
+}

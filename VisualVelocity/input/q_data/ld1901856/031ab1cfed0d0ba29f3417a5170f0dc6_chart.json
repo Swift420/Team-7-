@@ -1,0 +1,80 @@
+{
+  "_id": "031ab1cfed0d0ba29f3417a5170f0dc6",
+  "_rev": "4-af3e4cb901f66ae5f93fd03bf2181a43",
+  "data": [
+    [
+      "Land",
+      "Impfquote"
+    ],
+    [
+      "USA",
+      "92,7"
+    ],
+    [
+      "Deutschland",
+      "93,2"
+    ],
+    [
+      "Schweiz",
+      "94"
+    ]
+  ],
+  "tool": "chart",
+  "notes": "Die Impfquote wird in den USA, Deutschland und der Schweiz jeweils mit unterschiedlichen Methoden erfasst.",
+  "title": "In den USA sind ähnlich viele Kinder gegen Masern geimpft wie hier",
+  "active": true,
+  "events": [],
+  "acronym": "wea.",
+  "options": {
+    "chartType": "Bar",
+    "barOptions": {
+      "isBarChart": true,
+      "forceBarsOnSmall": false
+    },
+    "annotations": {},
+    "arrowOptions": {
+      "colorScheme": 0,
+      "invertColorScheme": false
+    },
+    "largeNumbers": {
+      "divideBy": 0
+    },
+    "hideAxisLabel": true,
+    "dotplotOptions": {},
+    "areaChartOptions": {
+      "stackType": "zero",
+      "areaInterpolation": "linear"
+    },
+    "lineChartOptions": {
+      "yScaleType": "linear",
+      "isStockChart": false,
+      "reverseYScale": false,
+      "lineInterpolation": "linear"
+    },
+    "dateSeriesOptions": {
+      "labels": "many",
+      "interval": "auto",
+      "prognosisStart": null
+    },
+    "highlightDataRows": [],
+    "colorOverwritesRows": [],
+    "highlightDataSeries": [],
+    "colorOverwritesSeries": []
+  },
+  "sources": [
+    {
+      "link": {
+        "url": ""
+      },
+      "text": "CDC, GBE, BAG"
+    }
+  ],
+  "subtitle": "Anteil der vollständig gegen Masern geimpften Kinder in der Schule, in Prozent",
+  "createdBy": "anna.weber@nzz.ch",
+  "updatedBy": "lena.frische@nzz.ch",
+  "department": "Visuals",
+  "createdDate": "2025-04-10T12:53:47.550Z",
+  "publication": "nzz",
+  "updatedDate": "2025-09-12T11:06:15.518Z",
+  "allowDownloadData": false
+}

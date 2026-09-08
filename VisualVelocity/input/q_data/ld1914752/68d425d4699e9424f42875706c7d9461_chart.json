@@ -1,0 +1,235 @@
+{
+  "_id": "68d425d4699e9424f42875706c7d9461",
+  "_rev": "3-d8b2e22d5163c6613d555f9d8fb62de3",
+  "data": [
+    [
+      "",
+      "F Zinsen",
+      "F Militär",
+      "USA Zinsen",
+      "USA Militär",
+      "CH Zinsen",
+      "CH Militär"
+    ],
+    [
+      "2010",
+      "4.94",
+      "3.28",
+      "7.16",
+      "10.85",
+      "2.76",
+      "2.49"
+    ],
+    [
+      "2011",
+      "5.39",
+      "3.17",
+      "8.21",
+      "10.77",
+      "2.51",
+      "2.48"
+    ],
+    [
+      "2012",
+      "5.15",
+      "3.15",
+      "8.17",
+      "10.45",
+      "2.26",
+      "2.41"
+    ],
+    [
+      "2013",
+      "4.53",
+      "3.1",
+      "7.64",
+      "9.63",
+      "1.95",
+      "2.44"
+    ],
+    [
+      "2014",
+      "4.32",
+      "2.94",
+      "7.85",
+      "9.07",
+      "1.80",
+      "2.33"
+    ],
+    [
+      "2015",
+      "4.06",
+      "3.08",
+      "7.48",
+      "8.65",
+      "1.69",
+      "2.29"
+    ],
+    [
+      "2016",
+      "3.84",
+      "3.37",
+      "8.20",
+      "8.36",
+      "1.46",
+      "2.35"
+    ],
+    [
+      "2017",
+      "3.59",
+      "3.14",
+      "8.50",
+      "8.31",
+      "1.23",
+      "2.38"
+    ],
+    [
+      "2018",
+      "3.64",
+      "3.16",
+      "9.67",
+      "8.47",
+      "1.00",
+      "2.36"
+    ],
+    [
+      "2019",
+      "3.17",
+      "3.12",
+      "9.83",
+      "8.65",
+      "0.90",
+      "2.48"
+    ],
+    [
+      "2020",
+      "2.36",
+      "3.03",
+      "6.07",
+      "7.37",
+      "0.68",
+      "2.36"
+    ],
+    [
+      "2021",
+      "2.68",
+      "2.91",
+      "6.85",
+      "7.1",
+      "0.58",
+      "2.22"
+    ],
+    [
+      "2022",
+      "3.76",
+      "3.08",
+      "10.84",
+      "7.78",
+      "0.71",
+      "2.47"
+    ],
+    [
+      "2023",
+      "3.37",
+      "3.2",
+      "12.91",
+      "7.78",
+      "0.98",
+      "2.61"
+    ]
+  ],
+  "tool": "chart",
+  "title": "Die USA und Frankreich zahlen mehr für Zinsen als fürs Militär",
+  "active": true,
+  "events": [],
+  "acronym": "pfi.",
+  "options": {
+    "chartType": "Bar",
+    "barOptions": {
+      "isBarChart": false,
+      "forceBarsOnSmall": false
+    },
+    "annotations": {},
+    "arrowOptions": {
+      "colorScheme": 0,
+      "invertColorScheme": false
+    },
+    "largeNumbers": {
+      "divideBy": 0
+    },
+    "hideAxisLabel": true,
+    "dotplotOptions": {},
+    "areaChartOptions": {
+      "stackType": "zero",
+      "areaInterpolation": "linear"
+    },
+    "lineChartOptions": {
+      "yScaleType": "linear",
+      "isStockChart": false,
+      "reverseYScale": false,
+      "lineInterpolation": "linear"
+    },
+    "dateSeriesOptions": {
+      "labels": "many",
+      "interval": "auto",
+      "prognosisStart": null
+    },
+    "highlightDataRows": [],
+    "colorOverwritesRows": [],
+    "highlightDataSeries": [],
+    "colorOverwritesSeries": [
+      {
+        "color": "#8aabfd",
+        "position": 1,
+        "colorLight": "#8aabfd"
+      },
+      {
+        "color": "#374e8e",
+        "position": 2,
+        "colorLight": "#374e8e"
+      },
+      {
+        "color": "#ac004f",
+        "position": 6,
+        "colorLight": "#ac004f"
+      },
+      {
+        "color": "#ce4631",
+        "position": 5,
+        "colorLight": "#ce4631"
+      },
+      {
+        "color": "#383751",
+        "position": 4,
+        "colorLight": "#383751"
+      },
+      {
+        "color": "#7e7e8f",
+        "position": 3,
+        "colorLight": "#7e7e8f"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "link": {
+        "url": "https://databank.worldbank.org/source/world-development-indicators"
+      },
+      "text": "Zinskosten: IMF, World Development Indicators, Herbst 2025"
+    },
+    {
+      "link": {
+        "url": "https://data-explorer.oecd.org/vis?pg=0&fs[0]=Topic%2C1%7CPublic%20governance%23GOV%23%7CPublic%20finance%20and%20budgets%23GOV_PFB%23&fc=Topic&snb=22&bp=true&isAvailabilityDisabled=false&vw=tb&df[ds]=dsDisseminateFinalDMZ&df[id]=DSD_GOV_COFOG%40DF_GOV_COFOG_2025&df[ag]=OECD.GOV.GIP&df[vs]=1.0&dq=A.FRA%2BDEU%2BGRC%2BITA%2BSWE%2BCHE%2BGBR%2BUSA.GE.PT_OTE_S13..GF07%2BGF02%2BGF10..PF&pd=2007%2C&to[TIME_PERIOD]=false"
+      },
+      "text": "Verteidigungsausgaben: OECD, Government at a Glance 2025"
+    }
+  ],
+  "subtitle": "Anteil an den gesamten Staatsausgaben, in Prozent",
+  "createdBy": "peter.fischer@nzz.ch",
+  "updatedBy": "peter.fischer@nzz.ch",
+  "department": "Wirtschaft",
+  "createdDate": "2025-12-01T22:05:26.600Z",
+  "publication": "nzz",
+  "updatedDate": "2025-12-04T09:05:31.589Z",
+  "allowDownloadData": false
+}

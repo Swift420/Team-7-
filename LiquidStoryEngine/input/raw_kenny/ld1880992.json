@@ -1,0 +1,2105 @@
+{
+ "content": [
+  {
+   "identifier": "header",
+   "id": "doc-1ipcb5m3u0",
+   "content": {
+    "title": "How the police brought down the world's most feared hacker: a reconstruction of the end of Lockbit",
+    "lead": "A year ago, investigators arrested members of the Lockbit ransomware gang, seized bitcoins, and shut down servers. \"Operation Cronos\" showed the world how to punish hackers who hide from prosecution in Russia.",
+    "authorline": "Gioia da Silva, Lukas Mäder",
+    "author": "Gioia da Silva, Lukas Mäder"
+   },
+   "containers": {
+    "authors": []
+   },
+   "prevElement": "",
+   "nextElement": "image",
+   "firstContentElement": true
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1iql59cvb1",
+   "content": {
+    "image": {
+     "author": "Illustration by Olivia Meyer / NZZ",
+     "caption": "A $10 million bounty has been placed on his head: Dmitri Choroshev aka LockbitSupp.",
+     "originalUrl": "/2025/05/07/e154c6e1-57be-4672-870c-af626748be32.jpeg?width=1024",
+     "width": 3047,
+     "height": 2031,
+     "altText": "Lockbit was the most feared hacking group in the world. Then the police dismantled the ring – also using psychological tricks",
+     "origins": [
+      {
+       "name": "Hugo",
+       "identifier": "2169233535"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "caption": "A $10 million bounty has been placed on his head: Dmitri Choroshev aka LockbitSupp.",
+    "author": "Illustration by Olivia Meyer / NZZ"
+   },
+   "styles": {
+    "fullwidth-widget": "widget--containerwidth"
+   },
+   "prevElement": "header",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1ipjoj9b20",
+   "content": {
+    "text": "Robert McArdle's pulse quickens. It's May 7, 2024, just before 3 p.m. The countdown is about to end, and the police will release the name of the head of the Lockbit hacker gang. One of the world's most successful cybercriminals will be dragged into the public eye. And McArdle will finally learn who is hiding behind the pseudonym LockbitSupp."
+   },
+   "data": {},
+   "prevElement": "image",
+   "nextElement": "barrier"
+  },
+  {
+   "id": "doc-5c34ce39",
+   "identifier": "barrier",
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1ipjqc2k70",
+   "content": {
+    "text": "McArdle heads cybercrime research at the IT security company Trend Micro. He has been investigating Lockbit's criminal activities for years. In the preceding months, he repeatedly provided law enforcement agencies with small clues about the gang upon request: a username here, an IP address there."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "barrier",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1ipcbcq560",
+   "content": {
+    "text": "An international consortium of investigators pursued these leads for years, piecing together the information into a comprehensive picture. In 2024, they struck. The investigators called the police operation, which was successfully concluded a year ago, «Operation Cronos.»"
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1ipcbcq570",
+   "content": {
+    "text": "And indeed, McArdle is not disappointed. The FBI <a target=\"_blank\" href=\"https://www.state.gov/transnational-organized-crime-rewards-program-2/lockbit-ransomware-administrator-dmitry-yuryevich-khoroshev/\">publishes</a> the name of the man believed to be the head of the Lockbit gang. It is the Russian Dmitri Khoroshev."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1ipmce60i0",
+   "content": {
+    "text": "Khoroshev cultivated the image of a brilliant hacker: brutal, arrogant, and more intelligent than the police. He is a ruthless criminal, responsible for attacks on thousands of companies, including hospitals and schools, encrypting their data and extorting hundreds of millions of dollars. At times, almost half of all ransomware attacks originated from his group."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1ipm790g41",
+   "content": {
+    "text": "«For us, who had fought against Lockbit for years, it was a moment of triumph,» says McArdle, who saw the arrest warrant in the first few minutes after it was published. «With Khoroshev, we were able to unmask one of the most successful cybercriminals of all time.»"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1ipm7la930",
+   "content": {
+    "text": "Combating hacker groups is extremely difficult for the police. Their trails are hard to trace. And not all countries cooperate with investigators. This is especially true for Russia, where many of the masterminds behind ransomware gangs are based."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1ipd209g70",
+   "content": {
+    "text": "The success of «Operation Cronos» proves, however, that law enforcement is not powerless – even when hackers hide in Russia. Using psychological methods, investigators were able to destroy something that is also essential for criminal activity: mutual trust."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1ipr3ibdi1",
+   "content": {
+    "text": "The rise and fall of the world's most notorious hacker group is a lesson in how the fight against cybercriminals can work. Based on conversations with investigators and interviews with cybersecurity experts, we recount the story of Lockbits."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1ipcbcq590",
+   "content": {
+    "title": "Lockbit perfects the system of division of labor",
+    "id": "subtitle-lockbit-perfektioniert-das-system-der-arbeitsteilung"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1ipd2q8kc0",
+   "content": {
+    "text": "Lockbit emerged in 2020 in the cybercriminal underworld. In January, the group began advertising its ransomware on a Russian-language hacker forum. They particularly emphasized the technical capabilities of their malware: it encrypted victims' servers faster and required less computing power."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1ipd4g6oj0",
+   "content": {
+    "text": "Back then, Lockbit had one main goal: growth. The core group around Dmitri Choroshev wanted to acquire business partners, so-called affiliates. These affiliates independently carried out attacks using Lockbit's encryption software. In return, they paid the core group 20 percent of the extorted ransom. This model was called «Ransomware as a Service.»"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1ipmavec60",
+   "content": {
+    "text": "The system has a crucial advantage: the number of attacks can be increased easily and quickly. Even less technically skilled criminals can carry out the actual ransomware attacks on companies. The core group around Dmitri Choroshev is responsible for the further development of the malware. It's a criminal division of labor."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iqfq3gpj0",
+   "content": {
+    "text": "The model leads to Lockbit's success. In July 2020 <a target=\"_blank\" href=\"https://www.interpol.int/content/download/15526/file/COVID-19%20Cybercrime%20Analysis%20Report-%20August%202020.pdf\">, a wave of attacks against medium-sized companies sweeps across the Americas.</a> Around the same time, the first companies in Switzerland also fall victim to Lockbit. However, there are no major cases yet."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1ipmat60v0",
+   "content": {
+    "title": "Lockbit becomes the most successful hacker gang",
+    "id": "subtitle-lockbit-wird-zur-erfolgreichsten-hackerbande"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1ipmb969b0",
+   "content": {
+    "text": "Lockbit's first major success came a year later, in the summer of 2021. The hackers attacked the consulting firm Accenture, stole confidential data, and rendered the company's IT systems unusable by encrypting them. Lockbit demanded $50 million in cryptocurrencies to decrypt the systems."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iqfp0dc51",
+   "content": {
+    "text": "However, Accenture was able to restore the encrypted data from a backup and refused to give in to the extortion demands. Lockbit then resorted to a tactic known as «double extortion.» The hackers threatened to publish the stolen data, thereby increasing the pressure on their victims: the public exposure was intended to force them to pay up."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iqfpco391",
+   "content": {
+    "text": "Accenture continues to refuse payment. Lockbit then publishes the stolen data, including internal presentations and working papers. The case makes headlines. Accenture, a company that sells cybersecurity services to its clients, suffers a reputational loss."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iqg90rg90",
+   "content": {
+    "text": "For the extortionists, the boom began. In 2022, Lockbit was the most widely used ransomware variant worldwide. In Canada, 22 percent of all attacks originated from Lockbit. In the US alone, the FBI recorded around 1,700 attacks since 2020. The victims are said to have paid ransoms totaling approximately $91 million."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1iq8026ga0",
+   "content": {
+    "title": "Absurd popularity: $1,000 for a Lockbit tattoo",
+    "id": "subtitle-absurde-beliebtheit-1000-dollar-f-r-ein-lockbit-tattoo"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1ipmdhk5b0",
+   "content": {
+    "text": "There are several reasons why Lockbit has been able to grow so large. A key factor is the malware's technical power: the core group around Dmitri Choroshev has continuously improved it. Now it cleverly hides itself within the victims' IT systems to avoid detection. It gathers information about the company and, after the attack, erases its traces to hinder the work of investigators."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1ipmele0j1",
+   "content": {
+    "text": "An improved version includes a tool that allows affiliates to quickly siphon off large amounts of data undetected. Criminals hardly need any IT expertise anymore. Thanks to a simple user interface, a few mouse clicks are all it takes to copy and then encrypt the data. Ransomware attacks become incredibly easy."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iqfvp1850",
+   "content": {
+    "text": "Perhaps the most important factor in Lockbit's success is its payment model. Normally, victims pay the ransom to the core group, which then pays the affiliates. Lockbit does things differently: Affiliates receive their share of the ransom directly from the victims. The advantage: The core group can't cheat its affiliates out of their share. This builds trust and increases the incentive for affiliates to work with Lockbit."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1ipuajr7j0",
+   "content": {
+    "text": "Besides its excellent product, Lockbit is also working on its image. In 2022, the company's leader launched a major PR campaign: anyone who got the Lockbit logo tattooed and posted pictures of it on social media would receive $1,000. Photos of Lockbit tattoos did indeed appear."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "oembed"
+  },
+  {
+   "identifier": "oembed",
+   "id": "doc-SXedpwn3Vq",
+   "content": {
+    "oembed-directive": {
+     "service": "li-oembed-service",
+     "params": {
+      "url": "https://twitter.com/3xp0rtblog/status/1569230420314554372?ref_src=twsrc%5Etfw"
+     },
+     "resolvedValue": {
+      "html": "<blockquote class=\"twitter-tweet\"><p lang=\"en\" dir=\"ltr\">In total, about 20 people made LockBit&#39;s tattoos. Accordingly, LockBit spent about $20,000. This value is inaccurate because some people may have privately contacted LockBit. I have uploaded all participants, wallets, and media to the GitHub repository: <a href=\"https://t.co/Q4T5IbZKFO\">https://t.co/Q4T5IbZKFO</a> <a href=\"https://t.co/rEHqjuf8Dx\">pic.twitter.com/rEHqjuf8Dx</a></p>&mdash; 3xp0rt (@3xp0rtblog) <a href=\"https://x.com/3xp0rtblog/status/1569230420314554372?ref_src=twsrc%5Etfw\">September 12, 2022</a></blockquote>\n<script async src=\"https://platform.x.com/widgets.js\" charset=\"utf-8\"></script>\n\n"
+     }
+    }
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1ipualuij0",
+   "content": {
+    "text": "The success of the appeal demonstrates the absurd popularity and respect that Lockbit has cultivated. In 2022, the group is no longer just a gang of criminals. Lockbit is a brand, loved by insiders, hated by outsiders."
+   },
+   "paidContent": true,
+   "prevElement": "oembed",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1ipme8f260",
+   "content": {
+    "title": "Police worldwide are investigating Lockbit",
+    "id": "subtitle-polizeien-weltweit-ermitteln-gegen-lockbit"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1ipd5fpb40",
+   "content": {
+    "text": "Lockbit's success attracted the attention of the police. As early as 2021, Europol formed a task force. This task force included representatives from many countries investigating Lockbit, including Germany, the Netherlands, and Switzerland. France led the investigation. Thus began «Operation Cronos.»"
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iqinu2071",
+   "content": {
+    "text": "Europol is now compiling the evidence from various countries. This includes, for example, the IP addresses of the servers from which the criminals accessed the victims' IT systems. It also includes the email addresses that the hackers provided to rent these servers, and the addresses of crypto wallets that Lockbit gave the victims for transferring the ransom. Europol analysts are comparing this information and forwarding it to the national police forces."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1ipmhee090",
+   "content": {
+    "text": "For example, if German investigators are looking into an attack originating from an IP address in the Netherlands, Europol might inform them that their Dutch counterparts are already monitoring that server and can provide further information. The criminals may be using the same cryptocurrency wallet to rent multiple servers. In this way, the police gradually uncover the gang's infrastructure."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iqd3pa4l0",
+   "content": {
+    "text": "However, one of Lockbit's strengths becomes a disadvantage. Because the malware is so easy to use, criminals no longer need a solid technical understanding. And beginners are more likely to leave traces, says one investigator. This can help the police."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iqfrahc51",
+   "content": {
+    "text": "For example, an attacker only needs to forget to activate the VPN service that anonymizes their internet connection just once. And suddenly, investigators have an unmasked IP address at their fingertips, giving them clues to the hacker's location. Even criminals make mistakes."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1ipcbcq5b5",
+   "content": {
+    "text": "Besides the police, IT security experts like Robert McArdle and John DiMaggio are also investigating Lockbit. DiMaggio, chief strategist at the IT security company Analyst 1, caused a stir with his research on the ringleader, then known only by his pseudonym LockbitSupp."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1ipu69soa1",
+   "content": {
+    "text": "DiMaggio interacted directly with LockbitSupp on several occasions. He describes him as an arrogant criminal who nevertheless communicated professionally and objectively – except that he repeatedly sent a cat meme, i.e., a picture of a cat. This detail would later prove crucial."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1ipcbcq5c5",
+   "content": {
+    "title": "The beginning of the end: The police strike",
+    "id": "subtitle-der-anfang-vom-ende-die-polizei-schl-gt-zu"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1ipmjt9oo0",
+   "content": {
+    "text": "Sometime in mid- to late 2023, the international investigators of «Operation Cronos» had gathered enough information. After several postponements, the participating countries agreed to launch their operation in February. The FBI from the USA and the NCA from Great Britain took the lead."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iqiorvlo1",
+   "content": {
+    "text": "Details of the so-called «Action Day» are strictly confidential. A participating investigator said there was great fear that someone would warn the criminals, rendering the operation unsuccessful."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1ipmjtc5i0",
+   "content": {
+    "text": "But the operation succeeds. On February 19, 2024, investigators post a message on Lockbit's darknet site: «This site is under the control of law enforcement.» It's a clear signal to the affiliates and the public. And it marks the beginning of the criminal gang's downfall."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "image"
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1ipee86uc2",
+   "content": {
+    "image": {
+     "author": "<a target=\"_blank\" href=\"https://analyst1.com/ransomware-diaries-volume-5-unmasking-lockbit-2/\">Analyst 1</a> , screenshot from the darknet",
+     "caption": "The police published this announcement on the Lockbit darknet site.",
+     "originalUrl": "/2025/04/22/ca07c3b2-88ed-4db6-94af-0104787e5bbe.jpeg?width=1024",
+     "width": 624,
+     "height": 352,
+     "imageService": "fastly"
+    },
+    "caption": "The police published this announcement on the Lockbit darknet site.",
+    "author": "<a target=\"_blank\" href=\"https://analyst1.com/ransomware-diaries-volume-5-unmasking-lockbit-2/\">Analyst 1</a> , screenshot from the darknet"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iqd42s191",
+   "content": {
+    "text": "Investigators may have been in Lockbit's systems for an extended period, spying on the hackers. They haven't revealed what the crucial step was that allowed them to penetrate Lockbit's systems. One investigator involved even says that authorities only received confirmation that Lockbit's central servers had actually been identified on the «Action Day.»"
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "image",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1ipcbcq5e1",
+   "content": {
+    "text": "Investigators succeeded in arresting three affiliates. In Ukraine, a father and his son were <a href=\"https://therecord.media/lockbit-affiliates-arrested-in-ukraine-poland\">arrested,</a> and in Poland, a 38-year-old man. Polish police released a video of the arrest, accompanied by dramatic music. The video shows police officers leading away a man in jeans and a blue jacket; his cell phones and laptop were sealed."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "youtube"
+  },
+  {
+   "identifier": "youtube",
+   "id": "doc-fpZAYefK6m",
+   "content": {
+    "youtube": {
+     "html": "<div style=\"position: relative; padding: 56.25% 0 0 0;\">\n        <iframe style=\"position: absolute; top: 0; left: 0; width: 100%; height: 100%;\" width=\"1280\" height=\"720\" src=\"https://www.youtube.com/embed/NIqLMZ14Nd8?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"CBZC w międzynarodowej operacji CRONOS\"></iframe>\n      </div>",
+     "caption": "",
+     "url": "https://www.youtube.com/watch?v=NIqLMZ14Nd8"
+    }
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iqgak4391",
+   "content": {
+    "text": "Furthermore, the police have identified two Russian hackers and published their names: Ivan Kondratiev, known in the hacker scene under his pseudonyms Bassterlord and Fisheye, who has written two textbooks on ransomware attacks, and Artur Sungatov. Because Russia, unlike Ukraine and Poland, is not cooperating with Western investigators, these two hackers are <a target=\"_blank\" href=\"https://www.justice.gov/usao-nj/pr/dual-russian-and-israeli-national-extradited-united-states-his-role-lockbit-ransomware\">still at large.</a> However, they are wanted in the US and are on the sanctions list."
+   },
+   "paidContent": true,
+   "prevElement": "youtube",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1ipcbjli71",
+   "content": {
+    "title": "Psychological warfare against unreachable criminals",
+    "id": "subtitle-psychokrieg-gegen-unerreichbare-kriminelle"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1ipcbcq5e4",
+   "content": {
+    "text": "Following the police operation in February, it is initially difficult to assess the true extent of the authorities' investigative success. At that time, Lockbit had 190 affiliates, some of whom were likely behind multiple individuals. To the public, three arrests and three public identifications may seem like a small number."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iqe96sj11",
+   "content": {
+    "text": "But the police employ a strategy that dismantles the group's network: they use methods to psychologically unsettle the criminals."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1ipcbcq5e5",
+   "content": {
+    "text": "This is evident in the arrest video from Poland: In one scene, stuffed animals and crayons appear, seemingly lying on the floor of the perpetrator's apartment. Such scenes are intended to deter other hackers. The message the investigators are sending to criminals is: Look, we've got him, and you're not safe anywhere, not even in your own homes."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1iqg01lii0",
+   "content": {
+    "title": "Hello! We have your Bitcoins",
+    "id": "subtitle-hallo-wir-haben-deine-bitcoins"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iqft70h20",
+   "content": {
+    "text": "To deter those criminals from Lockbit whom they cannot arrest or identify, the police create a script for the remainder of «Operation Cronos.» This is intended to undermine trust between the criminals and Lockbit's central organization."
+   },
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1ipepfstt0",
+   "content": {
+    "text": "Perhaps the most effective tactic is personal contact. The police send affiliates private messages via the internal Lockbit system. Upon their first login after the police operation, the criminals receive a message stating that investigators now possess their usernames, the addresses of their crypto wallets, their IP addresses, and the transcripts of their chats with victims and with Lockbit support. From there, some affiliates likely reasoned, the path to public identification is short."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iq826rdf0",
+   "content": {
+    "text": "Further pinpricks followed: The day after the takeover of the leak site on the darknet, the police redirected visitors to the URL to another site. There, they published arrest warrants and announcements of sanctions against the hackers."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iq8597up1",
+   "content": {
+    "text": "From a psychological perspective, two things are interesting here: First, the investigators are adopting the branding and structure of the original Lockbit leak site for the new site: same colors, same font, and the Lockbit logo is still present in the upper left corner. However, unlike usual, the police site doesn't list the hacked companies as «victims,» ​​but rather the criminals themselves."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1ipm3v0a11",
+   "content": {
+    "text": "Secondly, the police are refraining from communicating all the investigation results at once. According to a <a target=\"_blank\" href=\"https://analyst1.com/ransomware-diaries-volume-5-unmasking-lockbit-2/\">log</a> from Analyst 1, the authorities are publishing arrest warrants and announcements of sanctions over a five-day period. Robert McArdle, the cybercrime expert at Trend Micro, says: «This strategy is clever because it intimidates the affiliates a little more each day.»"
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1ipcbcq5f4",
+   "content": {
+    "text": "Just before the police take their modified Lockbit leak site offline, they launch their final major attack – against the gang's leader. They publish a statement claiming to know the name behind LockbitSupp. Along with this, they release a cat meme, thus also employing the criminal's visual language. McArdle interprets this as follows: «The police have shown Lockbit affiliates that they actually have access to Lockbit's core infrastructure. How else would they know about LockbitSupp's love of cat memes?»"
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "image"
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1ipeeiqaq2",
+   "content": {
+    "image": {
+     "author": "<a target=\"_blank\" href=\"https://analyst1.com/ransomware-diaries-volume-5-unmasking-lockbit-2/\">Analyst 1</a> , screenshot from the dark web",
+     "caption": "The Cat meme showed affiliates that their leader had actually been investigated by the police.",
+     "originalUrl": "/2025/04/22/14399b97-a7ac-4422-920a-985d6efd3e5b.jpeg?width=1024",
+     "width": 624,
+     "height": 348,
+     "imageService": "fastly"
+    },
+    "caption": "The Cat meme showed affiliates that their leader had actually been investigated by the police.",
+    "author": "<a target=\"_blank\" href=\"https://analyst1.com/ransomware-diaries-volume-5-unmasking-lockbit-2/\">Analyst 1</a> , screenshot from the dark web"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1ipcbcq5f6",
+   "content": {
+    "title": "Dmitri Khoroshev strikes back",
+    "id": "subtitle-dmitri-choroschew-schl-gt-zur-ck"
+   },
+   "data": {},
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "image",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1ipcbcq5f7",
+   "content": {
+    "text": "But Dmitri Khoroshev, one of the most successful cybercriminals of all time, launched a counterattack. <a href=\"https://www.nzz.ch/meinung/lockbit-hacker-sind-nach-wenigen-tagen-zurueck-der-fall-zeigt-wie-schwierig-der-kampf-gegen-cyberkriminelle-ist-ld.1819615\">Less than a week after the successful police operation, he launched a new Lockbit leak site on the dark web.</a> It looked exactly like the old site, but listed fewer victims. However, the victim list included one prominent entry: the FBI."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1ipcbcq5g0",
+   "content": {
+    "text": "Of course, the FBI wasn't actually hacked. However, LockbitSupp uses the FBI entry to explain the takedown from his perspective: Among other things, he admits that the police gained access to his IT infrastructure «because of his personal negligence and irresponsibility.» He writes: «Because I've been swimming in money for five years, I got very lazy and continued cruising on my yacht with busty girls.» That's why he didn't install an update that would have been necessary to fend off the investigators."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1ipcbcq5g1",
+   "content": {
+    "text": "While Khoroshev admits his own mistakes, he immediately tries to regain the trust of his affiliates. He writes that the hack didn't just affect him; other hacker groups and forums had suffered the same fate, they just hadn't noticed. As a counterattack, Khoroshev threatens to attack American government agencies."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1ipm52r5g1",
+   "content": {
+    "text": "In the two weeks that followed, Khoroshev published several posts on his new leak site about companies that had allegedly been victims of new hacking attacks. For a moment, it looked to outsiders as if Lockbit was back. However, it soon became clear that most of the alleged attacks had taken place before the investigators took the site down, and Lockbit was simply publishing old data. In other cases, Khoroshev was bluffing—in reality, he hadn't even obtained their data."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1ipu81p3n1",
+   "content": {
+    "text": "His blatant lying had only one goal: Khorashev wanted to save his image. «He was putting on a brave face, hoping not to lose his business partners and his reputation as a high-flying criminal,» says McArdle. But the plan backfired. In the following months, the authorities gained increasingly deeper insights into the Lockbit network."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1ipep52db0",
+   "content": {
+    "title": "The finale: the unmasking of the Lockbit boss",
+    "id": "subtitle-das-finale-die-enttarnung-des-lockbit-chefs"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iqipk33a1",
+   "content": {
+    "text": "The final step in the police operation takes place in early May. The authorities reactivate the original Lockbit leak site and publish an announcement that they will reveal the identity of LockbitSupp. «Coming soon,» on May 7, 2024."
+   },
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1ipcbcq5g4",
+   "content": {
+    "text": "This announcement, too, serves the purpose of unsettling criminals, Jon DiMaggio writes in a <a href=\"https://analyst1.com/ransomware-diaries-volume-5-unmasking-lockbit-2/\">post.</a> «LockbitSupp had mocked the FBI for years, claiming they were too stupid to catch him. It seems they were smarter than he thought.»"
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1ipcbcq5g5",
+   "content": {
+    "text": "On May 7, 2024, the American government <a href=\"https://www.state.gov/transnational-organized-crime-rewards-program-2/lockbit-ransomware-administrator-dmitry-yuryevich-khoroshev/\">published</a> an arrest warrant for Dmitri Khoroshev. It offered a reward of up to $10 million for information leading to his arrest."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "image"
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1ipepap4f2",
+   "content": {
+    "image": {
+     "author": "<a target=\"_blank\" href=\"https://analyst1.com/ransomware-diaries-volume-5-unmasking-lockbit-2/\">Analyst 1</a>",
+     "caption": "Dmitri Choroshev aka LockbitSupp in a billiard hall, most likely in Russia. Image by Analyst 1.",
+     "originalUrl": "/2025/04/22/d10fe37e-b798-4954-a156-4c339e1436a4.jpeg?width=1024",
+     "width": 624,
+     "height": 418,
+     "imageService": "fastly"
+    },
+    "caption": "Dmitri Choroshev aka LockbitSupp in a billiard hall, most likely in Russia. Image by Analyst 1.",
+    "author": "<a target=\"_blank\" href=\"https://analyst1.com/ransomware-diaries-volume-5-unmasking-lockbit-2/\">Analyst 1</a>"
+   },
+   "data": {
+    "_captionDirective": {}
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1ipcbcq5h1",
+   "content": {
+    "text": "Shortly thereafter, John DiMaggio of Analyst 1 <a target=\"_blank\" href=\"https://analyst1.com/ransomware-diaries-volume-5-unmasking-lockbit-2/\">published</a> further information about Khoroshev. He was born in 1993 and lives in the Voronezh region of Russia, not far from the Ukrainian border. He also owns several businesses that appear legitimate at first glance, including a textile shop. DiMaggio also believes he has obtained the hacker's email addresses, phone numbers, and home address. He publishes this information as well."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "image",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1ipepd9t40",
+   "content": {
+    "text": "This «dox,» as the publication of personal information is called, along with the other psychological components of «Operation Cronos,» is causing many affiliates to turn away from Lockbit. Their fear is too great that the police are still within the Lockbit network and will identify them as well."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iqfu10ab0",
+   "content": {
+    "text": "Because one thing is clear: being publicly identified is unpleasant for Russian hackers. Khoroshev, aka LockbitSupp, Kondratiew, aka Bassterlord, and Sungatov won't be honeymooning in Paris or taking city breaks in Dubai. They'll never even see New York with their own eyes. They have to assume they'll be arrested immediately if they ever show up at a Western airport."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iqfu94521",
+   "content": {
+    "text": "While they can certainly lead a comfortable life on Russian territory, life in Russia is also better when one's neighbors are unaware of the criminal and damaging nature of one's source of income. Lockbit hackers, in particular, who are likely to possess substantial wealth, now have to worry about becoming victims of other crimes. For example, their children could be kidnapped. Furthermore, they must assume that Western intelligence agencies or other hackers are after them."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iqfu84lf0",
+   "content": {
+    "text": "These publicly available identifications allow Western law enforcement to restrict the lives of Russian hackers, at least to some extent. This is despite Russia protecting its hackers by ignoring international requests for legal assistance."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1ipr9rrl50",
+   "content": {
+    "title": "Conclusion: Cybercrime can be combated",
+    "id": "subtitle-fazit-cyberkriminalit-t-l-sst-sich-bek-mpfen"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1ipcbcq580",
+   "content": {
+    "text": "Today, a year after the police raid, Lockbit is active again. But the large organization with dozens of affiliates no longer exists."
+   },
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1ipthc8ha1",
+   "content": {
+    "text": "«Lockbit is just a shadow of its former self,» says McArdle. «The group no longer has the power or dominance it once did.» An investigator involved in «Operation Cronos» is convinced that the gang will never regain its former strength."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1ipthiv3k0",
+   "content": {
+    "text": "Operation Cronos demonstrates that law enforcement agencies can successfully combat cybercriminals. They dismantled the most notorious ransomware gang, thereby preventing numerous cyberattacks."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iqiq055a0",
+   "content": {
+    "text": "Investigators have likely succeeded in identifying several members of the group. While they have so far only been able to arrest a small portion of the criminals, the message is clear: anyone active in Lockbit must now expect arrest, at least if they travel to a Western country. Lockbit affiliates will no longer be able to travel to Italy, Thailand, or Turkey without fear. The myth of the untouchable Russian hacker has been shattered."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1ipti0otn0",
+   "content": {
+    "text": "But «Operation Cronos» is also a message to politicians: If the police receive enough resources to combat cybercrime, they can be successful. This is not yet the case. Crimes on the internet are often prosecuted less vigorously than extortion or fraud. The Lockbit story shows that it could be worthwhile to change this."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iq85qup50",
+   "content": {
+    "text": "<em>Contributors: Simon Huwiler, Forrest Rogers</em>"
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "sharebox",
+   "lastContentElement": true
+  },
+  {
+   "identifier": "sharebox",
+   "id": "doc-1ipcb5m3u2",
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "related-articles-container"
+  },
+  {
+   "identifier": "related-articles-container",
+   "id": "doc-1ipcb5m3u3",
+   "content": {
+    "title": "Related articles"
+   },
+   "containers": {
+    "related-articles": [
+     {
+      "identifier": "teaser",
+      "id": "doc-1ipcb5m3v0",
+      "content": {
+       "owner": "NZZ",
+       "flag": "Opinion",
+       "title": "The criminal hackers from Lockbit have returned after just a few days. Nevertheless, the police operation was a significant success.",
+       "teaserImage": {
+        "originalUrl": "/2024/02/27/a04518be-dfee-46f8-8570-7f1d168ea87b.jpeg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2024/02/27/a04518be-dfee-46f8-8570-7f1d168ea87b.jpeg?width=1024&quality=75&auto=webp",
+        "width": 1267,
+        "height": 853,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "1267,713,x0,y79"
+         },
+         {
+          "name": "1:1",
+          "crop": "674,674,x556,y86"
+         },
+         {
+          "name": "4:3",
+          "crop": "898,674,x369,y151"
+         },
+         {
+          "name": "3:4",
+          "crop": "640,853,x564,y0"
+         }
+        ],
+        "imageService": "fastly",
+        "teaserCaption": "The fight against cybercriminals is difficult. But investigators are making progress. The masterminds cannot rest easy.",
+        "teaserAuthor": "Reuters / State Security Service of Ukraine"
+       },
+       "teaserAuthor": "Reuters / State Security Service of Ukraine",
+       "nzzasFootnote": false,
+       "folioFootnote": false,
+       "language": {
+        "locale": "de-CH"
+       },
+       "nzzId": "ld.1819615",
+       "readingTime": 180,
+       "showComments": true,
+       "authorLine": "Lukas Mäder",
+       "characterCount": 3914,
+       "product": "NZZ.ch",
+       "documentId": 1819615,
+       "layout": "opinion",
+       "publicationDate": "2024-02-27T15:19:28.798Z",
+       "publicationLastUpdated": "2024-02-27T15:23:28.846Z",
+       "significantUpdate": false,
+       "significantUpdateTill": "2024-02-28T03:19:28.798Z",
+       "teaserCaption": "The fight against cybercriminals is difficult. But investigators are making progress. The masterminds cannot rest easy.",
+       "url": "/meinung/lockbit-hacker-sind-nach-wenigen-tagen-zurueck-der-fall-zeigt-wie-schwierig-der-kampf-gegen-cyberkriminelle-ist-ld.1819615",
+       "department": {
+        "name": "Opinion",
+        "path": "/meinung"
+       },
+       "estimationWordCount": 609,
+       "leadText": "The fight against cybercriminals is difficult. But investigators are making progress. The masterminds cannot rest easy."
+      }
+     },
+     {
+      "identifier": "teaser",
+      "id": "doc-1ipcb5m3u4",
+      "content": {
+       "owner": "NZZ",
+       "title": "«We hacked the hackers»: Investigators dismantle one of the world's most important ransomware gangs",
+       "teaserImage": {
+        "originalUrl": "/2024/02/20/5f1318ac-57b0-44bb-88ae-6716367a4e98.jpeg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2024/02/20/5f1318ac-57b0-44bb-88ae-6716367a4e98.jpeg?width=1024&quality=75&auto=webp",
+        "width": 7349,
+        "height": 5192,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "7349,4134,x0,y529"
+         },
+         {
+          "name": "1:1",
+          "crop": "5192,5192,x1079,y0"
+         },
+         {
+          "name": "4:3",
+          "crop": "6923,5192,x213,y0"
+         },
+         {
+          "name": "3:4",
+          "crop": "3894,5192,x1728,y0"
+         }
+        ],
+        "imageService": "fastly",
+        "teaserCaption": "The software developed by the hacking group Lockbit has been used to attack over 2,000 organizations in the West. Two suspected members of the group have now been arrested. The criminals apparently also operated servers in Switzerland and Germany.",
+        "teaserAuthor": "Neil Hall / EPA"
+       },
+       "teaserAuthor": "Neil Hall / EPA",
+       "nzzasFootnote": false,
+       "folioFootnote": false,
+       "language": {
+        "locale": "de-CH"
+       },
+       "nzzId": "ld.1814925",
+       "readingTime": 240,
+       "authorLine": "Gioia da Silva, Simon Huwiler",
+       "characterCount": 5242,
+       "product": "NZZ.ch",
+       "documentId": 1814925,
+       "layout": "regular",
+       "publicationDate": "2024-02-20T22:13:28.605Z",
+       "publicationLastUpdated": "2024-02-20T22:13:28.605Z",
+       "significantUpdate": true,
+       "significantUpdateTill": "2024-02-21T10:13:28.605Z",
+       "teaserCaption": "The software developed by the hacking group Lockbit has been used to attack over 2,000 organizations in the West. Two suspected members of the group have now been arrested. The criminals apparently also operated servers in Switzerland and Germany.",
+       "url": "/technologie/wir-haben-die-hacker-gehackt-ermittler-zerschlagen-eine-der-wichtigsten-ransomware-banden-der-welt-ld.1814925",
+       "department": {
+        "name": "Technology",
+        "path": "/technologie"
+       },
+       "estimationWordCount": 811,
+       "leadText": "The software developed by the hacking group Lockbit has been used to attack over 2,000 organizations in the West. Two suspected members of the group have now been arrested. The criminals apparently also operated servers in Switzerland and Germany."
+      }
+     },
+     {
+      "identifier": "teaser",
+      "id": "doc-1ipcb5m3v1",
+      "content": {
+       "owner": "NZZ",
+       "title": "Global hacker groups: The fight against cybercriminals can be successful. Just like with the Mafia",
+       "teaserImage": {
+        "originalUrl": "/2023/07/21/769d718a-ca00-43e7-b6f3-68e78188e789.png?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2023/07/21/769d718a-ca00-43e7-b6f3-68e78188e789.png?width=1024&quality=75&auto=webp",
+        "width": 1920,
+        "height": 1080,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "1920,1080,x0,y0"
+         },
+         {
+          "name": "1:1",
+          "crop": "960,960,x536,y120"
+         },
+         {
+          "name": "4:3",
+          "crop": "1440,1080,x167,y0"
+         },
+         {
+          "name": "3:4",
+          "crop": "720,960,x502,y120"
+         }
+        ],
+        "imageService": "fastly",
+        "teaserCaption": "Ransomware gangs rely on an entire ecosystem of criminals to extort their victims. That's where investigators need to focus their efforts.",
+        "teaserAuthor": "National Crime Agency"
+       },
+       "teaserAuthor": "National Crime Agency",
+       "nzzasFootnote": false,
+       "folioFootnote": false,
+       "language": {
+        "locale": "de-CH"
+       },
+       "nzzId": "ld.1746818",
+       "readingTime": 660,
+       "authorLine": "Lukas Mäder",
+       "characterCount": 16543,
+       "product": "NZZ.ch",
+       "documentId": 1746818,
+       "layout": "regular",
+       "publicationDate": "2023-07-24T03:30:00.000Z",
+       "publicationLastUpdated": "2023-07-24T11:44:35.229Z",
+       "significantUpdate": false,
+       "significantUpdateTill": "2023-07-24T15:30:00.000Z",
+       "teaserCaption": "Ransomware gangs rely on an entire ecosystem of criminals to extort their victims. That's where investigators need to focus their efforts.",
+       "url": "/technologie/ransomware-globale-hacker-warum-die-banden-von-cyberkriminellen-nur-mit-transparenz-und-viel-ausdauer-bekaempft-werden-koennen-ld.1746818",
+       "department": {
+        "name": "Technology",
+        "path": "/technologie"
+       },
+       "estimationWordCount": 2296,
+       "premium": true,
+       "leadText": "Ransomware gangs rely on an entire ecosystem of criminals to extort their victims. That's where investigators need to focus their efforts."
+      }
+     }
+    ]
+   },
+   "paidContent": true,
+   "prevElement": "sharebox",
+   "nextElement": "",
+   "lastContentElement": true
+  }
+ ],
+ "metadata": {
+  "owner": "NZZ",
+  "germanyRelevant": true,
+  "title": "How the police brought down the world's most feared hacker: a reconstruction of the end of Lockbit",
+  "teaserImage": {
+   "originalUrl": "/2025/05/06/ca1519b8-fceb-47cd-b5fd-34e28cddbf0b.png?width=1024",
+   "url": "https://img-msp-prod.nzz.ch/2025/05/06/ca1519b8-fceb-47cd-b5fd-34e28cddbf0b.png?width=1024&quality=75&auto=webp",
+   "width": 4500,
+   "height": 3000,
+   "crops": [
+    {
+     "name": "16:9",
+     "crop": "4500,2531,x0,y234"
+    },
+    {
+     "name": "1:1",
+     "crop": "2667,2667,x917,y167"
+    },
+    {
+     "name": "4:3",
+     "crop": "4000,3000,x250,y0"
+    },
+    {
+     "name": "3:4",
+     "crop": "2250,3000,x1125,y0"
+    }
+   ],
+   "imageService": "fastly",
+   "teaserCaption": "A year ago, investigators arrested members of the Lockbit ransomware gang, seized bitcoins, and shut down servers. \"Operation Cronos\" showed the world how to punish hackers who hide from prosecution in Russia.",
+   "teaserAuthor": "Illustration by Olivia Meyer / NZZ"
+  },
+  "teaserAuthor": "Illustration by Olivia Meyer / NZZ",
+  "nzzasFootnote": false,
+  "folioFootnote": false,
+  "language": {
+   "locale": "en-US"
+  },
+  "nzzId": "ld.1880992",
+  "readingTime": 900,
+  "authorLine": "Gioia da Silva, Lukas Mäder",
+  "characterCount": 21695,
+  "breadcrumbs": [
+   {
+    "name": "Technology",
+    "path": "/technologie"
+   }
+  ],
+  "product": "NZZ.ch",
+  "documentId": 1880992,
+  "contentTypeGroup": "web",
+  "layout": "longformstandard",
+  "firstPublicationDate": "2025-05-07T03:30:00.000Z",
+  "publicationDate": "2025-05-07T03:30:00.000Z",
+  "publicationLastUpdated": "2025-05-07T10:40:32.903Z",
+  "significantUpdate": false,
+  "significantUpdateTill": "2025-05-07T15:30:00.000Z",
+  "teaserCaption": "A year ago, investigators arrested members of the Lockbit ransomware gang, seized bitcoins, and shut down servers. \"Operation Cronos\" showed the world how to punish hackers who hide from prosecution in Russia.",
+  "url": "/technologie/lockbit-wie-die-polizei-den-gefuerchtetsten-hacker-der-welt-zu-fall-brachte-eine-rekonstruktion-des-endes-von-lockbit-ld.1880992",
+  "department": {
+   "name": "Technology",
+   "path": "/technologie"
+  },
+  "estimationWordCount": 3075,
+  "leadText": "A year ago, investigators arrested members of the Lockbit ransomware gang, seized bitcoins, and shut down servers. \"Operation Cronos\" showed the world how to punish hackers who hide from prosecution in Russia.",
+  "nzzSummaryEN": "- The international police operation 'Operation Cronos' significantly weakened the infamous hacker group Lockbit, taking over key servers and arresting three members.\n- Dmitry Choroshev, the group's leader, was identified; the revelation of his identity and targeted psychological tactics shattered trust within the network.\n- Although Lockbit remains active, the organization is far less powerful, with experts doubting it will regain its former dominance.",
+  "nzzSummaryDE": "- The international police operation 'Operation Cronos' has severely weakened the well-known hacker group Lockbit, taken over central servers and arrested three members.\n - Dmitri Khoroshev, the head of the group, was identified; the revelation of his identity and targeted psychological tactics shattered trust within the network.\n Although Lockbit remains active, the organization is significantly less powerful, and experts doubt it will regain its former dominance.",
+  "nzzSummaryIsAuto": true,
+  "nzzSummaryModel": "gpt-4o-2024-11-20",
+  "nzzPrintTitle": "How the police brought down the world's most feared hacker: a reconstruction of the end of Lockbit",
+  "nzzPrintSubtitle": "A year ago, investigators arrested members of the Lockbit ransomware gang, seized bitcoins, and shut down servers. \"Operation Cronos\" showed the world how to punish hackers who hide from prosecution in Russia.",
+  "allArticleLanguages": [
+   {
+    "locale": "de-CH",
+    "urlPath": "/technologie/lockbit-wie-die-polizei-den-gefuerchtetsten-hacker-der-welt-zu-fall-brachte-eine-rekonstruktion-des-endes-von-lockbit-ld.1880992",
+    "seo": {}
+   }
+  ],
+  "seo": {
+   "canonicalUrl": "https://www.nzz.ch/technologie/lockbit-wie-die-polizei-den-gefuerchtetsten-hacker-der-welt-zu-fall-brachte-eine-rekonstruktion-des-endes-von-lockbit-ld.1880992",
+   "title": "Hacker exposed: How investigators brought down the Lockbit gang",
+   "socialMediaTitle": "How the police brought down the most notorious hacker group: the end of Lockbit",
+   "description": "A year ago, investigators dismantled the Lockbit ransomware ring. «Operation Cronos» showed the world how hackers are punished in Russia.",
+   "excludeFromSpiders": false,
+   "image": "https://img-msp-prod.nzz.ch/2025/05/06/ca1519b8-fceb-47cd-b5fd-34e28cddbf0b.png?width=1200&height=674&fit=bounds&quality=75&auto=webp&crop=4500,2531,x0,y234&wmark=nzz"
+  },
+  "ldPublicationId": 2381783,
+  "playableVideoTeasers": [
+   {
+    "title": "«NZZ Pro» talk: Europe is decoupling. Do we still need the USA?",
+    "description": "Peter A. Fischer, Georg Häsler and Lukas Mäder discuss transatlantic relations",
+    "kind": "Single Item",
+    "siteid": "YuwAxPaT",
+    "playlist": [
+     {
+      "title": "«NZZ Pro» talk: Europe is decoupling. Do we still need the USA?",
+      "mediaid": "AK2zV73H",
+      "link": "https://cdn.jwplayer.com/previews/AK2zV73H",
+      "image": "https://cdn.jwplayer.com/v2/media/AK2zV73H/poster.jpg?width=720",
+      "images": [
+       {
+        "src": "https://cdn.jwplayer.com/v2/media/AK2zV73H/poster.jpg?width=320",
+        "width": 320,
+        "type": "image/jpeg"
+       },
+       {
+        "src": "https://cdn.jwplayer.com/v2/media/AK2zV73H/poster.jpg?width=480",
+        "width": 480,
+        "type": "image/jpeg"
+       },
+       {
+        "src": "https://cdn.jwplayer.com/v2/media/AK2zV73H/poster.jpg?width=640",
+        "width": 640,
+        "type": "image/jpeg"
+       },
+       {
+        "src": "https://cdn.jwplayer.com/v2/media/AK2zV73H/poster.jpg?width=720",
+        "width": 720,
+        "type": "image/jpeg"
+       },
+       {
+        "src": "https://cdn.jwplayer.com/v2/media/AK2zV73H/poster.jpg?width=1280",
+        "width": 1280,
+        "type": "image/jpeg"
+       },
+       {
+        "src": "https://cdn.jwplayer.com/v2/media/AK2zV73H/poster.jpg?width=1920",
+        "width": 1920,
+        "type": "image/jpeg"
+       }
+      ],
+      "siteid": "YuwAxPaT",
+      "duration": 3650,
+      "content_source_type": "file",
+      "pubdate": 1783696215,
+      "updated": 1783697032,
+      "description": "Peter A. Fischer, Georg Häsler and Lukas Mäder discuss transatlantic relations",
+      "sources": [
+       {
+        "file": "https://cdn.jwplayer.com/manifests/AK2zV73H.m3u8",
+        "type": "application/vnd.apple.mpegurl"
+       },
+       {
+        "file": "https://cdn.jwplayer.com/videos/AK2zV73H-aSRX9V0s.mp4",
+        "type": "video/mp4",
+        "height": 1080,
+        "width": 1920,
+        "label": "1080p",
+        "bitrate": 694569,
+        "filesize": 316897188,
+        "framerate": 25
+       },
+       {
+        "file": "https://cdn.jwplayer.com/videos/AK2zV73H-EhTDc4s5.mp4",
+        "type": "video/mp4",
+        "height": 720,
+        "width": 1280,
+        "label": "720p",
+        "bitrate": 428976,
+        "filesize": 195720681,
+        "framerate": 25
+       },
+       {
+        "file": "https://cdn.jwplayer.com/videos/AK2zV73H-J4ijmxxU.mp4",
+        "type": "video/mp4",
+        "height": 406,
+        "width": 720,
+        "label": "406p",
+        "bitrate": 254593,
+        "filesize": 116158415,
+        "framerate": 25
+       },
+       {
+        "file": "https://cdn.jwplayer.com/videos/AK2zV73H-kcn04Bnj.mp4",
+        "type": "video/mp4",
+        "height": 270,
+        "width": 480,
+        "label": "270p",
+        "bitrate": 209410,
+        "filesize": 95543580,
+        "framerate": 25
+       },
+       {
+        "file": "https://cdn.jwplayer.com/videos/AK2zV73H-ZberQI1f.mp4",
+        "type": "video/mp4",
+        "height": 180,
+        "width": 320,
+        "label": "180p",
+        "bitrate": 169702,
+        "filesize": 77426721,
+        "framerate": 25
+       }
+      ],
+      "tracks": [
+       {
+        "file": "https://cdn.jwplayer.com/strips/AK2zV73H-120.vtt",
+        "kind": "thumbnails"
+       }
+      ],
+      "variations": {}
+     }
+    ],
+    "feed_instance_id": "e2d1264e-d49b-4856-8f94-02f5fd7d3343",
+    "playerId": "ZMULDsT4",
+    "intl": {
+     "de": {
+      "advertising": {
+       "skiptext": "Skip"
+      }
+     }
+    }
+   }
+  ],
+  "isHighlightedHeader": false,
+  "nzzTopics": [
+   {
+    "name": "Russia",
+    "slug": "/themen/russland"
+   },
+   {
+    "name": "Ransomware",
+    "slug": "/themen/ransomware"
+   },
+   {
+    "name": "FBI",
+    "slug": "/themen/fbi"
+   },
+   {
+    "name": "Bitcoin",
+    "slug": "/themen/bitcoin"
+   },
+   {
+    "name": "USA",
+    "slug": "/themen/usa"
+   },
+   {
+    "name": "Poland",
+    "slug": "/themen/polen"
+   },
+   {
+    "name": "Ukraine",
+    "slug": "/themen/ukraine"
+   },
+   {
+    "name": "Netherlands",
+    "slug": "/themen/niederlande"
+   },
+   {
+    "name": "Cyberattack",
+    "slug": "/themen/cyberangriff"
+   },
+   {
+    "name": "Cryptocurrencies",
+    "slug": "/themen/kryptowaehrungen"
+   },
+   {
+    "name": "Europol",
+    "slug": "/themen/europol"
+   },
+   {
+    "name": "Darknet",
+    "slug": "/themen/darknet"
+   }
+  ],
+  "barrierIndex": 3,
+  "outlinks": {
+   "mehrZumThema": [
+    "ld.1819615",
+    "ld.1814925",
+    "ld.1746818"
+   ],
+   "artikelListe": [],
+   "aliasTeaserEmbedList": []
+  },
+  "tts": true,
+  "mp3": true,
+  "mp3Duration": 1412928,
+  "project": "nzz",
+  "machineTranslated": true,
+  "machineTranslationValidated": false
+ },
+ "isReduced": false,
+ "isPaid": false,
+ "isVamp": false,
+ "isWebview": false,
+ "btaFeed": {
+  "meta": {
+   "id": "russland",
+   "name": "Russia",
+   "tagName": "Russia",
+   "qId": "Q159",
+   "seoTitle": "Russia News – All articles and information on the topic",
+   "description": null,
+   "firstName": null,
+   "lastName": null,
+   "category": "LOC",
+   "createdDate": "2025-04-08 14:50:01.576Z",
+   "imageURL": null,
+   "imageCroppedURL": null,
+   "imageWidth": null,
+   "imageHeight": null,
+   "imageCredits": null,
+   "url": "https://nzz.ch/themen/russland",
+   "size": 6669,
+   "relatedTopics": [
+    {
+     "name": "Ransomware",
+     "slug": "/themen/ransomware"
+    },
+    {
+     "name": "FBI",
+     "slug": "/themen/fbi"
+    },
+    {
+     "name": "Bitcoin",
+     "slug": "/themen/bitcoin"
+    },
+    {
+     "name": "USA",
+     "slug": "/themen/usa"
+    },
+    {
+     "name": "Polen",
+     "slug": "/themen/polen"
+    },
+    {
+     "name": "Ukraine",
+     "slug": "/themen/ukraine"
+    },
+    {
+     "name": "Niederlande",
+     "slug": "/themen/niederlande"
+    },
+    {
+     "name": "Cyberangriff",
+     "slug": "/themen/cyberangriff"
+    },
+    {
+     "name": "Kryptowährungen",
+     "slug": "/themen/kryptowaehrungen"
+    },
+    {
+     "name": "Europol",
+     "slug": "/themen/europol"
+    },
+    {
+     "name": "Darknet",
+     "slug": "/themen/darknet"
+    }
+   ]
+  },
+  "data": [
+   {
+    "title": "Moscow Closes Goethe Institutes, Hardens Tone Toward Berlin",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "authorLine": "Armin Arbeiter, Berlin",
+    "teaserImage": {
+     "originalUrl": "/2026/09/03/1d0c88bc-0381-4837-b510-c87d61af4624.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/09/03/1d0c88bc-0381-4837-b510-c87d61af4624.jpg?width=1024&quality=75&auto=webp",
+     "width": 2823,
+     "height": 1825,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "2823,1588,x0,y59"
+      },
+      {
+       "name": "4:3",
+       "crop": "2433,1825,x390,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "1508,1508,x940,y49"
+      },
+      {
+       "name": "3:4",
+       "crop": "1369,1825,x953,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "2738,1825,x85,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "Russia is reacting to the German measures taken after the drone attack in Leipzig. Wild speculation is circulating on Russian social media.",
+     "teaserAuthor": "Ramil Sitdikov / Reuters"
+    },
+    "teaserAuthor": "Ramil Sitdikov / Reuters",
+    "nzzId": "ld.10022202",
+    "readingTime": 180,
+    "paywallQuestionOne": "Why is Moscow closing the Goethe Institutes in response to German measures?",
+    "paywallQuestionTwo": "According to Russia, what evidence is missing in the case of the drone attack in Leipzig?",
+    "paywallQuestionThree": "How does the closure of the Goethe-Institut affect pro-European Russians?",
+    "characterCount": 4611,
+    "product": "NZZ.ch",
+    "documentId": "10022202",
+    "layout": "regular",
+    "publicationDate": "2026-09-03T08:56:31.247Z",
+    "publicationLastUpdated": "2026-09-03T08:56:31.247Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-09-03T20:56:31.247Z",
+    "teaserCaption": "Russia is reacting to the German measures taken after the drone attack in Leipzig. Wild speculation is circulating on Russian social media.",
+    "url": "https://www.nzz.ch/deutschland/politik/moskau-schliesst-die-goethe-institute-und-verschaerft-den-ton-gegenueber-berlin-ld.10022202",
+    "department": {
+     "name": "Politics (Germany)",
+     "path": "/deutschland/politik"
+    },
+    "estimationWordCount": 669,
+    "leadText": "Russia is reacting to the German measures taken after the drone attack in Leipzig. Wild speculation is circulating on Russian social media.",
+    "nzzSummaryIsAuto": true,
+    "locale": "de-CH"
+   },
+   {
+    "title": "Culture: Jazz singer Cassandra Wilson dies",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "teaserImage": {
+     "originalUrl": "/2026/09/03/0733329e-bd27-487b-9bf3-87b8ed46e1c8.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/09/03/0733329e-bd27-487b-9bf3-87b8ed46e1c8.jpg?width=1024&quality=75&auto=webp",
+     "width": 3000,
+     "height": 1992,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "3000,1687,x0,y0"
+      },
+      {
+       "name": "4:3",
+       "crop": "2656,1992,x344,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "1992,1992,x883,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "1494,1992,x1062,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "2988,1992,x6,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "The latest news.",
+     "teaserAuthor": "Kai Foersterling / EPA"
+    },
+    "teaserAuthor": "Kai Foersterling / EPA",
+    "flag": "Short news items",
+    "nzzId": "ld.10019050",
+    "readingTime": 960,
+    "paywallQuestionOne": "Which topics dominate the longlist for the German Book Prize 2026?",
+    "paywallQuestionTwo": "How many debut novels are on the longlist for the German Book Prize?",
+    "paywallQuestionThree": "What significance does the German Book Prize have for the literary scene?",
+    "characterCount": 21555,
+    "tags": [
+     "Bühne"
+    ],
+    "product": "NZZ.ch",
+    "documentId": "10019050",
+    "layout": "regular",
+    "publicationDate": "2026-09-03T06:31:43.764Z",
+    "publicationLastUpdated": "2026-09-03T08:15:21.364Z",
+    "significantUpdate": true,
+    "significantUpdateTill": "2026-09-03T18:31:43.764Z",
+    "teaserCaption": "The latest news.",
+    "url": "https://www.nzz.ch/feuilleton/kultur-die-neusten-meldungen-ld.10019050",
+    "department": {
+     "name": "Arts & Culture",
+     "path": "/feuilleton"
+    },
+    "estimationWordCount": 3283,
+    "leadText": "The latest news.",
+    "nzzSummaryIsAuto": true,
+    "locale": "de-CH"
+   },
+   {
+    "title": "Zelensky issues harsh threat – with unforeseeable consequences",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "showComments": true,
+    "teaserImage": {
+     "originalUrl": "/2026/09/02/d31b7f63-a693-40e2-bf48-af30219f3d74.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/09/02/d31b7f63-a693-40e2-bf48-af30219f3d74.jpg?width=1024&quality=75&auto=webp",
+     "width": 4000,
+     "height": 2857,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "4000,2250,x0,y346"
+      },
+      {
+       "name": "4:3",
+       "crop": "3809,2857,x191,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "2857,2857,x953,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "2143,2857,x1296,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "4000,2667,x0,y55"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "So many Ukrainian drones are reportedly appearing in the skies over Russia that civilian aviation is becoming impossible. The Kremlin considers this a declaration of state terrorism. But Ukrainians do not need to shoot down planes to paralyze air traffic.",
+     "teaserAuthor": "Nurphoto/Getty"
+    },
+    "teaserAuthor": "Nurphoto/Getty",
+    "tags": [
+     "Ukraine-Krieg"
+    ],
+    "nzzId": "ld.10022044",
+    "readingTime": 240,
+    "paywallQuestionOne": "How does Ukraine intend to make Russian airspace unsafe?",
+    "paywallQuestionTwo": "What risks does the strategy pose for civilians?",
+    "paywallQuestionThree": "How are airlines reacting to the Ukrainian threat?",
+    "characterCount": 5590,
+    "product": "NZZ.ch",
+    "documentId": "10022044",
+    "layout": "regular",
+    "publicationDate": "2026-09-03T03:30:00.000Z",
+    "publicationLastUpdated": "2026-09-03T06:29:31.383Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-09-03T15:30:00.000Z",
+    "teaserCaption": "So many Ukrainian drones are reportedly appearing in the skies over Russia that civilian aviation is becoming impossible. The Kremlin considers this a declaration of state terrorism. But Ukrainians do not need to shoot down planes to paralyze air traffic.",
+    "authorLine": "Andreas Rüesch",
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2024/09/23/b6be8592-31cf-4a48-b022-81e3c315218a.jpeg?width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/international/ukraine-selenski-will-russlands-flugverkehr-unterbinden-ld.10022044",
+    "department": {
+     "name": "International",
+     "path": "/international"
+    },
+    "estimationWordCount": 831,
+    "premium": true,
+    "leadText": "So many Ukrainian drones are reportedly appearing in the skies over Russia that civilian aviation is becoming impossible. The Kremlin considers this a declaration of state terrorism. But Ukrainians do not need to shoot down planes to paralyze air traffic.",
+    "nzzSummaryIsAuto": true,
+    "commentsCount": 4,
+    "openToComment": false,
+    "locale": "de-CH"
+   },
+   {
+    "title": "A poetic history lesson from 1990: Yuri Andrukhovych exposes the Russian malaise",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "authorLine": "Ilma Rakusa",
+    "editor": "1371769",
+    "teaserImage": {
+     "originalUrl": "/2022/11/18/fa919684-a147-4c88-928e-2d741402613d.jpeg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2022/11/18/fa919684-a147-4c88-928e-2d741402613d.jpeg?width=1024&quality=75&auto=webp",
+     "width": 3648,
+     "height": 5472,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "3648,2052,x0,y1710"
+      },
+      {
+       "name": "4:3",
+       "crop": "3648,2736,x0,y1368"
+      },
+      {
+       "name": "1:1",
+       "crop": "3648,3648,x0,y912"
+      },
+      {
+       "name": "3:4",
+       "crop": "3648,4864,x0,y304"
+      },
+      {
+       "name": "3:2",
+       "crop": "3648,2432,x0,y1520"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "With his novels, Juri Andruchowytsch, born in Stanislav in 1960, paved the way for Ukrainian literature in German-speaking countries. Little is known, however, about his body of lyrical work, which holds eye-opening discoveries."
+    },
+    "nzzId": "ld.10017480",
+    "readingTime": 180,
+    "paywallQuestionOne": "What facets does Andrukhovych's poetry collection «Letters to Ukraine» reveal?",
+    "paywallQuestionTwo": "How does the series «Letters to Ukraine» reflect current political tensions?",
+    "paywallQuestionThree": "What themes and stylistic devices characterize Andrukhovych's poems?",
+    "characterCount": 3506,
+    "product": "NZZ.ch",
+    "documentId": "10017480",
+    "layout": "regular",
+    "publicationDate": "2026-09-03T03:30:00.000Z",
+    "publicationLastUpdated": "2026-09-03T03:30:00.000Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-09-03T15:30:00.000Z",
+    "teaserCaption": "With his novels, Juri Andruchowytsch, born in Stanislav in 1960, paved the way for Ukrainian literature in German-speaking countries. Little is known, however, about his body of lyrical work, which holds eye-opening discoveries.",
+    "url": "https://www.nzz.ch/feuilleton/barocker-ernst-juri-andruchowytschs-gedichtband-briefe-in-die-ukraine-ld.10017480",
+    "department": {
+     "name": "Arts & Culture",
+     "path": "/feuilleton"
+    },
+    "estimationWordCount": 559,
+    "leadText": "With his novels, Juri Andruchowytsch, born in Stanislav in 1960, paved the way for Ukrainian literature in German-speaking countries. Little is known, however, about his body of lyrical work, which holds eye-opening discoveries.",
+    "nzzSummaryIsAuto": true,
+    "locale": "de-CH"
+   },
+   {
+    "title": "«Switzerland is also a strategic target for Russia»",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "teaserAuthor": "Diego Fedele / Getty",
+    "teaserImage": {
+     "originalUrl": "/2026/09/02/1e828ab3-c33d-47a3-87af-992514986a7a.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/09/02/1e828ab3-c33d-47a3-87af-992514986a7a.jpg?width=1024&quality=75&auto=webp",
+     "width": 4405,
+     "height": 2937,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "4405,2478,x0,y459"
+      },
+      {
+       "name": "4:3",
+       "crop": "3916,2937,x0,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "2937,2937,x217,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "2203,2937,x720,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "4405,2937,x0,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "Small states cannot defend themselves alone in the 21st century, says Franz-Stefan Gady, one of Europe's leading military experts. He explains why neutrality offers no protection in times of war and what makes Putin so dangerous for Europe.",
+     "teaserAuthor": "Diego Fedele / Getty"
+    },
+    "nzzId": "ld.10020535",
+    "readingTime": 540,
+    "paywallQuestionOne": "How vulnerable is Switzerland to Russian attack plans?",
+    "paywallQuestionTwo": "Why does neutrality offer no protection in the event of war?",
+    "paywallQuestionThree": "What measures does Switzerland need by 2029?",
+    "characterCount": 12716,
+    "product": "NZZ.ch",
+    "documentId": "10020535",
+    "layout": "regular",
+    "publicationDate": "2026-09-03T03:30:00.000Z",
+    "publicationLastUpdated": "2026-09-03T03:30:00.000Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-09-03T15:30:00.000Z",
+    "teaserCaption": "Small states cannot defend themselves alone in the 21st century, says Franz-Stefan Gady, one of Europe's leading military experts. He explains why neutrality offers no protection in times of war and what makes Putin so dangerous for Europe.",
+    "authorLine": "Meret Baumann, Selina Berner",
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2022/06/22/0ae19a9d-3bad-48bc-886b-1bfee061e0e8.png?width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/schweiz/sicherheitspolitik/auch-die-schweiz-ist-fuer-russland-ein-strategisches-ziel-ld.10020535",
+    "department": {
+     "name": "Security Policy",
+     "path": "/schweiz/sicherheitspolitik"
+    },
+    "estimationWordCount": 1898,
+    "leadText": "Small states cannot defend themselves alone in the 21st century, says Franz-Stefan Gady, one of Europe's leading military experts. He explains why neutrality offers no protection in times of war and what makes Putin so dangerous for Europe.",
+    "nzzSummaryIsAuto": true,
+    "locale": "de-CH"
+   },
+   {
+    "title": "Russia seeks to intimidate Denmark – Danish intelligence reportedly uncovers concrete plans",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "teaserImage": {
+     "originalUrl": "/2026/09/02/4c68e235-2d1b-40e3-8e60-ff22d498b8a4.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/09/02/4c68e235-2d1b-40e3-8e60-ff22d498b8a4.jpg?width=1024&quality=75&auto=webp",
+     "width": 4500,
+     "height": 3000,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "4500,2531,x0,y469"
+      },
+      {
+       "name": "4:3",
+       "crop": "4000,3000,x500,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "3000,3000,x1101,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "2250,3000,x1367,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "4500,3000,x0,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "The head of Danish counter-intelligence accuses Russia of seeking to prevent arms deliveries to Ukraine through attacks. The otherwise reserved intelligence service speaks of a «threat that must be taken seriously.»",
+     "teaserAuthor": "Imago/beckerbrede"
+    },
+    "teaserAuthor": "Imago/beckerbrede",
+    "editor": "1372295",
+    "nzzId": "ld.10022196",
+    "readingTime": 120,
+    "paywallQuestionOne": "What are Russia's goals with its sabotage in Denmark?",
+    "paywallQuestionTwo": "How is Denmark reacting to the threat from Russia?",
+    "paywallQuestionThree": "Why is the intelligence service warning about Russian recruitment?",
+    "characterCount": 1934,
+    "product": "NZZ.ch",
+    "documentId": "10022196",
+    "layout": "regular",
+    "publicationDate": "2026-09-02T22:48:15.840Z",
+    "publicationLastUpdated": "2026-09-03T05:02:58.070Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-09-03T10:48:15.840Z",
+    "teaserCaption": "The head of Danish counter-intelligence accuses Russia of seeking to prevent arms deliveries to Ukraine through attacks. The otherwise reserved intelligence service speaks of a «threat that must be taken seriously.»",
+    "url": "https://www.nzz.ch/international/daenemarks-geheimdienst-schlaegt-alarm-russland-soll-sabotage-und-brandstiftung-planen-ld.10022196",
+    "department": {
+     "name": "International",
+     "path": "/international"
+    },
+    "estimationWordCount": 323,
+    "leadText": "The head of Danish counter-intelligence accuses Russia of seeking to prevent arms deliveries to Ukraine through attacks. The otherwise reserved intelligence service speaks of a «threat that must be taken seriously.»",
+    "nzzSummaryIsAuto": true,
+    "locale": "de-CH"
+   }
+  ]
+ },
+ "digitalData": {
+  "component": [
+   {
+    "id": "ld.1880992",
+    "name": "How the police brought down the world's most feared hacker: a reconstruction of the end of Lockbit",
+    "type": "article",
+    "subType1": "longformstandard",
+    "subType2": "",
+    "primaryCategory": "Technologie",
+    "subCategory1": "",
+    "attributes": {
+     "headline": "How the police brought down the world's most feared hacker: a reconstruction of the end of Lockbit",
+     "firstPublishTitle": "",
+     "catchline": "",
+     "authors": [],
+     "issueTimestamp": "2025-05-07T03:30:00.000Z",
+     "updateTimestamp": "2025-05-07T10:40:32.903Z",
+     "isSponsoredContent": false,
+     "isPro": false,
+     "isLiveticker": false,
+     "flag": "",
+     "owner": "NZZ"
+    }
+   }
+  ],
+  "page": {
+   "pageId": "ld.1880992",
+   "pageType": "longformstandard",
+   "primaryCategory": "Technologie",
+   "subCategory1": "",
+   "subCategory2": "",
+   "language": "en-US"
+  },
+  "version": "2.0",
+  "user": {},
+  "event": []
+ },
+ "seoData": {
+  "title": "Hacker exposed: How investigators brought down the Lockbit gang",
+  "image": {
+   "url": "https://img-msp-prod.nzz.ch/2025/05/06/ca1519b8-fceb-47cd-b5fd-34e28cddbf0b.png?width=1200&height=674&fit=bounds&quality=75&auto=webp&crop=4500,2531,x0,y234&wmark=nzz",
+   "type": "image/png",
+   "width": 1200,
+   "height": 674
+  },
+  "author": "Gioia da Silva, Lukas Mäder",
+  "description": "A year ago, investigators dismantled the Lockbit ransomware ring. «Operation Cronos» showed the world how hackers are punished in Russia.",
+  "news_keywords": "How the police brought down the world's most feared hacker: a reconstruction of the end of Lockbit, Technology, News, NZZ",
+  "type": "article",
+  "last-modified": "2025-05-07T14:40:32+02:00",
+  "date": "2025-05-07T07:30:00+02:00",
+  "canonical": "https://www.nzz.ch/technologie/lockbit-wie-die-polizei-den-gefuerchtetsten-hacker-der-welt-zu-fall-brachte-eine-rekonstruktion-des-endes-von-lockbit-ld.1880992",
+  "fb:app_id": 138008459595436,
+  "fb:pages": 143694099006529,
+  "fb:admins": 1592685173,
+  "locale": "de-CH",
+  "email": "online.redaktion@nzz.ch",
+  "site_name": "Neue Zürcher Zeitung",
+  "copyright": "2026 Neue Zürcher Zeitung AG, Schweiz",
+  "robots": "noindex, nofollow, noarchive, noodp",
+  "hreflang": [],
+  "sharedTitle": "How the police brought down the world's most feared hacker: a reconstruction of the end of Lockbit",
+  "ogTitle": "How the police brought down the most notorious hacker group: the end of Lockbit",
+  "ogUrl": "https://www.nzz.ch/technologie/lockbit-wie-die-polizei-den-gefuerchtetsten-hacker-der-welt-zu-fall-brachte-eine-rekonstruktion-des-endes-von-lockbit-ld.1880992",
+  "mrf:cms_id": "nzz:ld.1880992",
+  "mrf:sections": "Technologie;WTM",
+  "mrf:tags": "Page Type:longformstandard;Editorial Owner:NZZ;Content Type:Standard Article;Article ID:ld.1880992",
+  "nzzAuthors": [
+   {
+    "name": "Gioia da Silva, Lukas Mäder"
+   }
+  ],
+  "links": [
+   {
+    "rel": "canonical",
+    "href": "https://www.nzz.ch/technologie/lockbit-wie-die-polizei-den-gefuerchtetsten-hacker-der-welt-zu-fall-brachte-eine-rekonstruktion-des-endes-von-lockbit-ld.1880992"
+   },
+   {
+    "rel": "search",
+    "href": "/suche",
+    "title": "Suche Neue Zürcher Zeitung, Schweiz, https://www.nzz.ch/suche"
+   }
+  ],
+  "renderedAt": "Thu, 03 Sep 2026 09:31:32 GMT"
+ },
+ "structuredData": [
+  {
+   "@context": "https://schema.org",
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "item": {
+      "@id": "/",
+      "name": "Home"
+     }
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "item": {
+      "@id": "/technologie",
+      "name": "Technology"
+     }
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Hacker exposed: How investigators brought down the Lockbit gang"
+    }
+   ]
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": "NewsArticle",
+   "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.nzz.ch/technologie/lockbit-wie-die-polizei-den-gefuerchtetsten-hacker-der-welt-zu-fall-brachte-eine-rekonstruktion-des-endes-von-lockbit-ld.1880992"
+   },
+   "headline": "Hacker exposed: How investigators brought down the Lockbit gang",
+   "datePublished": "2025-05-07T07:30:00+02:00",
+   "dateModified": "2025-05-07T14:40:32+02:00",
+   "publisher": {
+    "@type": "NewsMediaOrganization",
+    "name": "Neue Zürcher Zeitung",
+    "url": "https://www.nzz.ch",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://www.nzz.ch/logo.png",
+     "width": 413,
+     "height": 60
+    },
+    "contactPoint": [
+     {
+      "@type": "ContactPoint",
+      "telephone": "+41-44-2581000",
+      "contactType": "customer service"
+     }
+    ],
+    "sameAs": [
+     "https://www.facebook.com/nzz",
+     "https://www.twitter.com/nzz",
+     "https://www.youtube.com/channel/UCK1aTcR0AckQRLTlK0c4fuQ",
+     "https://www.linkedin.com/company/neue-zurcher-zeitung",
+     "https://www.instagram.com/nzz/",
+     "https://de.wikipedia.org/wiki/Neue_Z%C3%BCrcher_Zeitung",
+     "https://www.wikidata.org/wiki/Q658945",
+     "https://plus.google.com/+nzz/",
+     "http://www.freebase.com/m/041b43"
+    ],
+    "masthead": "https://www.nzz.ch/impressum/impressum-ld.148422",
+    "foundingDate": "1780"
+   },
+   "description": "A year ago, investigators dismantled the Lockbit ransomware ring. «Operation Cronos» showed the world how hackers are punished in Russia.",
+   "isAccessibleForFree": false,
+   "articleSection": "Technologie",
+   "hasPart": {
+    "@type": "WebPageElement",
+    "isAccessibleForFree": false,
+    "cssSelector": ".nzzinteraction"
+   },
+   "image": {
+    "@type": "ImageObject",
+    "url": "https://img-msp-prod.nzz.ch/2025/05/06/ca1519b8-fceb-47cd-b5fd-34e28cddbf0b.png?width=1200&height=674&fit=bounds&quality=75&auto=webp&crop=4500,2531,x0,y234&wmark=nzz",
+    "width": 1200,
+    "height": 674
+   },
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Gioia da Silva, Lukas Mäder"
+    }
+   ],
+   "inLanguage": "de"
+  }
+ ],
+ "mp3": true,
+ "mp3Duration": 1412928,
+ "bT": {
+  "standard": {
+   "Tags": [
+    "/technologie/lockbit-wie-die-polizei-den-gefuerchtetsten-hacker-der-welt-zu-fall-brachte-eine-rekonstruktion-des-endes-von-lockbit-ld.1880992",
+    "classification=default",
+    "relevance=germany",
+    "layout=longformstandard",
+    "owner=nzz",
+    "product=nzz",
+    "doctype=article",
+    "pagetype=article",
+    "ldid=ld.1880992",
+    "channel=Technologie"
+   ],
+   "ContentCreated": "2025-05-07T03:30:00.000Z",
+   "ContentAuthor": "Gioia da Silva, Lukas Mäder",
+   "ContentSection": "Technologie",
+   "ContentIsNative": true
+  },
+  "custom": {
+   "product": "nzz",
+   "docType": "article",
+   "pageType": "article",
+   "layout": "longformstandard",
+   "ldId": "ld.1880992",
+   "channel": "Technologie",
+   "heading": "Wie die Polizei den gefürchtetsten Hacker der Welt zu Fall brachte: eine Rekonstruktion des Endes von Lockbit",
+   "language": "en-US"
+  }
+ },
+ "webviewMetadata": {},
+ "cacheTime": 3600
+}

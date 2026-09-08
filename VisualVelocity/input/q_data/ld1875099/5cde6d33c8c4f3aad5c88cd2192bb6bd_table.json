@@ -1,0 +1,92 @@
+{
+  "_id": "5cde6d33c8c4f3aad5c88cd2192bb6bd",
+  "_rev": "5-e782f8f0c5cb8c189a444e322f3ec278",
+  "data": {
+    "table": [
+      [
+        "Datum",
+        "Menge (Tonnen)",
+        "Versteck"
+      ],
+      [
+        "16. 10. 2023",
+        "10",
+        "Sojamehl"
+      ],
+      [
+        "23. 10. 2023",
+        "2",
+        "Holz"
+      ],
+      [
+        "10. 4. 2024",
+        "6",
+        "Palmöl"
+      ]
+    ],
+    "metaData": {
+      "cells": []
+    }
+  },
+  "tool": "table",
+  "title": "In Belgien wurden in den letzten zwei Jahren 18 Tonnen Kokain aus Sierra Leone beschlagnahmt",
+  "active": true,
+  "acronym": "adi.",
+  "options": {
+    "minibar": {
+      "barColor": {
+        "negative": {
+          "className": "",
+          "colorCode": ""
+        },
+        "positive": {
+          "className": "",
+          "colorCode": "#8d579b"
+        }
+      },
+      "invertColors": false,
+      "selectedColumn": 1
+    },
+    "sorting": [],
+    "pageSize": 10,
+    "cardLayout": false,
+    "formatting": [],
+    "hideLegend": true,
+    "colorColumn": {
+      "selectedColumn": null,
+      "colorColumnType": "numerical",
+      "numericalOptions": {
+        "scale": "sequential",
+        "bucketType": "ckmeans",
+        "colorScheme": "one",
+        "labelLegend": "noLabel",
+        "customBuckets": "",
+        "numberBuckets": 5,
+        "colorOverwrites": []
+      },
+      "categoricalOptions": {
+        "colorOverwrites": [],
+        "customCategoriesOrder": []
+      }
+    },
+    "frozenRowKey": null,
+    "hideTableHeader": false,
+    "showTableSearch": false,
+    "cardLayoutIfSmall": false
+  },
+  "sources": [
+    {
+      "link": {
+        "url": ""
+      },
+      "text": "AD"
+    }
+  ],
+  "subtitle": "",
+  "createdBy": "adina.renner@nzz.ch",
+  "updatedBy": "ida.goetz@nzz.ch",
+  "department": "Visuals",
+  "createdDate": "2025-03-20T08:47:32.370Z",
+  "publication": "nzz",
+  "updatedDate": "2025-03-20T15:33:47.504Z"
+}

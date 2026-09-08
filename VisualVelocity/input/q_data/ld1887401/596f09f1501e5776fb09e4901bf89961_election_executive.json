@@ -1,0 +1,80 @@
+{
+  "_id": "596f09f1501e5776fb09e4901bf89961",
+  "_rev": "4-bae02258c901b5a1f50dd41a79c5c1fd",
+  "tool": "election_executive",
+  "notes": "Source: <a href=\"https://wybory.gov.pl/prezydent2025/\"> National Electoral Commission</a>",
+  "title": "Presidential election in Poland",
+  "active": true,
+  "acronym": "pab.",
+  "options": {
+    "hideUpdatedDate": false
+  },
+  "sources": [],
+  "majority": 0,
+  "subtitle": "Share of votes, in %",
+  "createdBy": "gretchen.vogel@lieferanten.nzz.ch",
+  "updatedBy": "gretchen.vogel@lieferanten.nzz.ch",
+  "candidates": [
+    {
+      "name": "Rafał Trzaskowski",
+      "color": {
+        "colorCode": "#df7c18",
+        "classAttribute": ""
+      },
+      "party": "Civic Platform",
+      "votes": 49.1,
+      "status": "undefined",
+      "picture": {
+        "key": "2025/05/28/Trzaskowski-edad16c89da7fff31611b55fb2f2416f.png",
+        "url": "https://nzz-q-assets.s3.eu-west-1.amazonaws.com/2025/05/28/Trzaskowski-edad16c89da7fff31611b55fb2f2416f.png",
+        "size": 1082648,
+        "type": "image/png",
+        "width": 1692,
+        "height": 1692,
+        "originalName": "Trzaskowski.png"
+      },
+      "isPrevious": false,
+      "errorMargin": {
+        "lower": 0,
+        "upper": 0,
+        "bestGuess": 0
+      }
+    },
+    {
+      "name": "Karol Nawrocki",
+      "color": {
+        "colorCode": "#374e8e",
+        "classAttribute": ""
+      },
+      "party": "Law and Justice Party (PiS)",
+      "votes": 50.9,
+      "status": "undefined",
+      "picture": {
+        "key": "2025/05/28/Nawrocki-4b66fee6a0fdba5653fb75093777663a.png",
+        "url": "https://nzz-q-assets.s3.eu-west-1.amazonaws.com/2025/05/28/Nawrocki-4b66fee6a0fdba5653fb75093777663a.png",
+        "size": 5355316,
+        "type": "image/png",
+        "width": 5408,
+        "height": 5408,
+        "originalName": "Nawrocki.png"
+      },
+      "isPrevious": false,
+      "errorMargin": {
+        "lower": 0,
+        "upper": 0,
+        "bestGuess": 0
+      }
+    }
+  ],
+  "department": "International",
+  "createdDate": "2025-06-03T13:16:52.129Z",
+  "publication": "nzz",
+  "updatedDate": "2025-06-03T14:17:13.172Z",
+  "isPercentage": true,
+  "availableSeats": 0,
+  "withErrorMargin": false,
+  "errorMarginLabels": {
+    "bestGuessLabel": "Hochrechnung",
+    "errorMarginLabel": "Fehlermarge"
+  }
+}

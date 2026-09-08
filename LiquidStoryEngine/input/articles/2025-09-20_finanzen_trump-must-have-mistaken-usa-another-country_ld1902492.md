@@ -1,0 +1,169 @@
+# «Trump must have mistaken the USA for another country,» says Nassim Taleb, author of the book «The Black Swan»
+
+*In the interview, the renowned scientist expresses his profound disappointment with US President Trump. He also voices his concern about the high levels of debt accumulated by industrialized nations.*
+
+**Michael Ferber, Markus Städeli** · Finanzen · 2025-09-20 · 2533 words · [ld.1902492](https://www.nzz.ch/finanzen/schwarzer-schwan-autor-nassim-taleb-im-interview-zu-trump-schulden-usa-gold-ld.1902492)
+
+![Nassim Taleb expects China to continue its rise.](https://img-msp-prod.nzz.ch/2025/09/17/396de226-be84-4f28-85d0-721cc6cbd6f2.jpg?width=1024)
+*Nassim Taleb expects China to continue its rise.* (Sarah Josephine Taleb / Penguin Random House)
+
+**You recently said that the financial system is more fragile than it has been in the last 20 or 30 years. Why is that?**
+
+To explain this, I need to elaborate a bit. It's related to the fact that economic growth follows an S-curve – it slows down as the market becomes saturated. This is true, for example, for Switzerland. Because people here are so wealthy and there are hardly any poor people, it's more difficult to grow. In Indonesia or Cameroon, on the other hand, it's easier.
+
+**What are the consequences of this?**
+
+The countries furthest up the S-curve have also accumulated the highest debts. «On ne prête qu'aux riches» (We only lend to the rich), goes a French proverb. Consequently, wealthy nations have become the most indebted. France, for example, is at the top of the curve. The country has improved in many ways in terms of lifestyle over the past few decades; for instance, cities now have far more bike paths and pedestrian zones. But the bills remain unpaid, and the economy is barely growing.
+
+**And do the high levels of debt make the system increasingly fragile?**
+
+Exactly. The debts have shifted. In 2008, when the financial crisis erupted, the banks were fragile. The financial system was stabilized at the cost of higher government debt. Added to this was the zero-interest-rate policy of the central banks, which made everything even worse. In the US, former Federal Reserve Chairman Ben Bernanke drastically lowered key interest rates to zero.
+
+**Why has this increased the national debt?**
+
+Bernanke enabled the US government to borrow money for free. But now that interest rates have risen, debt servicing costs more than a trillion dollars a year. This has also led to asset inflation; stock prices and real estate values ​​have risen sharply. This makes the entire system vulnerable.
+
+**What can industrialized countries do to combat fragility?**
+
+Before Donald Trump's second term as US president, there was a certain magic to the United States. The country benefited from an astonishing brain drain at the expense of other nations; most of its top scientists came from abroad. The economy also grew because the US brought poor people into the country. In the West, whether in the US or Europe, only people from poor countries clean toilets or mow lawns. Furthermore, the population was growing, which also supported economic growth. Now, Trump himself has put an end to that magic.
+
+**So, in your view, his policies are detrimental to the economy?**
+
+The unemployment rate in the US is 4 percent – ​​there aren't that many unemployed people who could be assigned the tasks that immigrants previously performed. In short, this means that doctors and engineers will have to mow their own lawns and will have less time to practice their profession.
+
+**Are there a labor shortage?**
+
+You can't be xenophobic and live in a mansion at the same time. Because then you need cheap labor. I recently had my house in New York renovated. The roofers, the floor layers, and the painters were all from Latin America. Many Americans are a bit schizophrenic. Take Texas, for example. Many people there vote for Trump, but at the same time, they're the biggest beneficiaries of agricultural labor from Mexico.
+
+**Will Trump and his administration succeed in bringing industrial jobs back to the USA?**
+
+Trump must have confused the US with another country. America has always imported both highly skilled and unskilled workers. Importing a top scientist from Switzerland or India creates jobs that the US can no longer acquire. And there's something else Trump hasn't grasped. Do you own an Apple phone?
+
+**Yes.**
+
+Where did you buy it?
+
+**In Zurich.**
+
+And who made the money from it?
+
+**Apple.**
+
+Is this part of the US trade balance?
+
+**No.**
+
+The problem is that the Trump administration focuses more on the trade balance than on financial flows. US companies make a lot of money abroad. Apple assembles phones in China with parts from South Korea, designs them in California, and earns large margins in Switzerland. Trump and his administration don't understand basic economic principles.
+
+**Do you have any other examples?**
+
+Trump hired Howard Lutnick as Secretary of Commerce; he's a stockbroker. Lutnick knows how to sell securities, but not much else. For example, he proposed taxing French wine and increasing wine production in the US. He seems unaware of how many years it would take to plant vines and wait for the first harvest. Planning and building factories also take a considerable amount of time.
+
+**Such a strategy requires a long-term perspective.**
+
+And here's the next problem. How can one invest in the US long-term when Trump constantly changes his mind and doesn't keep his promises? The US government has created a great deal of uncertainty, which will harm US economic growth. But even under Joe Biden as US president, the US proved unpredictable and made a major mistake: After the start of the war in Ukraine, Russian assets were frozen.
+
+**That was part of the sanctions against Russia. Why was that wrong in your view?**
+
+When Biden froze Russian assets, I bought gold – as an investment, not for speculation. I don't want to be stuck in a financial system that depends on other people's whims. You don't have to be Russian to feel that way. Switzerland, too, was forced to freeze Russian funds – and without proper procedure. I consider that a huge mistake. This also explains why central banks are increasing their gold reserves and why the price of gold has risen so sharply. As a result, the dollar is losing importance as a store of value and reserve currency; it is increasingly becoming just a transaction currency.
+
+**So gold will become the new reserve currency instead of the dollar?**
+
+Yes, because it's the only thing everyone can agree on. But back to Russian assets: Biden forced everyone to freeze them. And then Trump came along, and he's now exacerbating the problems. Will the deficit increase massively under Trump? Of course.
+
+**The proposed Big Beautiful Bill, for example, brings with it a great deal of new debt. Should we expect stagflation – that is, low economic growth coupled with high inflation?**
+
+We already have stagflation. To see that, I only need to go to the supermarket in the USA. You pay more for potatoes and coffee.
+
+**Will there be a debt crisis?**
+
+The US is already caught in a debt spiral. This means it has to borrow more and more money to continue servicing its debts. There are essentially only two solutions for how America can avert a crisis: allow persistently higher inflation to inflate away the debt, or achieve exceptionally strong economic growth that would at least stabilize the mountain of debt relative to GDP. But with the Trump administration's flawed policies, there will be less, not more, growth.
+
+**The US is becoming more fragile under Trump, and its debt continues to rise. What are the consequences for the world?**
+
+An era is drawing to a close, and this is becoming increasingly apparent. China is rapidly becoming the sole superpower. Although debt is also rising in China, its economy is still growing. In 2007, the US and Europe each accounted for roughly 20 percent of global GDP, adjusted for purchasing power parity. China's share at that time was 6 percent. Today, China's share is likely around 20 percent, if not higher. The US has a share of 15 percent, and Europe 14 percent. The West no longer controls the largest share of the global economy and has the most debt.
+
+**Could this lead to a war between China and the USA?**
+
+I don't know. Unlike Russia, China has no tradition of military conflict. It hasn't invaded any neighboring countries in the past. Perhaps our world will become more stable if China gains more influence. Trump's ideas about how to make peace have so far had pretty much the opposite effect. What is certain is that the balance of power is shifting rapidly in China's favor, not only economically but also militarily.
+
+**Why?**
+
+The US spends roughly one trillion dollars annually on defense, while China spends only 300 billion dollars. Yet China gets far more for its investment. Consider this chair: Made in China, it costs one dollar. If it were manufactured in the US, the same chair would cost 30 dollars. Applying this to arms production clearly illustrates who is emerging as the true superpower. When it comes to weapons manufacturing, the US is simply not competitive.
+
+**Perhaps the American weapons systems are very expensive, but in the opinion of many experts they are also better.**
+
+The reality of war is currently on display in Ukraine. Drones developed in Iran, which cost a few hundred dollars to produce, have to be eliminated with Western munitions, some of which cost hundreds of thousands of dollars. This asymmetry is very dangerous for the West.
+
+**Returning to Trump: In your book «Skin in the Game,» you write that it was clear to you he would win the election because, compared to all the other candidates, he was willing to take risks. A certain amount of sympathy shone through there.**
+
+No, it's simply one explanation for why Trump won. A willingness to take risks is necessary for a good president, but it's certainly not enough on its own. Look: In Washington, there are all these warmongers who have never actually been on the front lines. That's the opposite of having «skin in the game.» Trump, too, never fought in a war, but he does at least take financial risks—even if he's incompetent and has lost a lot of money with his companies. But at least he hasn't just talked; he's actually done something in his life.
+
+**And that's what makes him attractive from the voters' point of view?**
+
+Yes, and paradoxically, so is his short attention span. President Obama spent two hours every morning being briefed on world affairs. Trump, on the other hand, loses interest after a few minutes. Having a short attention span prevents one from becoming a bureaucrat. It's much easier for Trump to act because he's completely unaware of the potential consequences.
+
+**Trump is exerting massive pressure on the US Federal Reserve to force interest rate cuts – and he has now achieved his first one. Can he impose his will on the financial markets?**
+
+No, nobody is bigger than the markets. Trump might be able to influence short-term interest rates, but at the same time, he risks driving up yields on government bonds with longer maturities. This is already evident. Long-term interest rates are trending upwards, as if the US were a developing country.
+
+**And what if the Fed started buying bonds?**
+
+If that had worked in the long run, the Weimar Republic would not have collapsed. Neither would Zimbabwe, Argentina, or Turkey have experienced hyperinflation.
+
+**Is it conceivable that the USA could declare itself insolvent?**
+
+A country like the USA doesn't go bankrupt simply because it can print more money at any time – but this comes at a very high price for its citizens. Currently, there are many simple-minded and opportunistic politicians in Congress. However, there are also many intelligent people among the Republicans who understand what's at stake. Unfortunately, the anti-Trump wing within the Republican Party is now barely represented in Congress.
+
+**Have you not given up hope for a return to normality?**
+
+Perhaps in a year or two it will become clear that Trump was merely a temporary phenomenon. For health reasons alone, there will be no third term for him.
+
+**However, there is a risk that someone else will take their place and continue their policies.**
+
+There's no one with Trump's stature. Trump has charisma, something that Vice President J.D. Vance, for example, completely lacks. Trump is an exceptional talent. I, too, was deceived by Trump. I thought he was simply a businessman. But he isn't.
+
+**You coined the term «black swan»: For you, it's an event with extreme consequences that appears out of nowhere. Is Trump a black swan?**
+
+Wars, pandemics, and debt crises are white swans. They occur rarely and have a devastating impact, but they are predictable. Trump, on the other hand, is a black swan. Trump's behavior, however, is completely random. He is not merely deranged and schizophrenic, but utterly unpredictable.
+
+**You get emotional when you talk about the political situation in the US. How dangerous do you consider the situation?**
+
+I am extremely disappointed in Trump. In his first term, he wasn't crazy, just odd, boastful, and tasteless. But Trump 2.0 is completely unpredictable, and I consider his entourage dangerous.
+
+**Why?**
+
+Trump promotes anyone who promises him unconditional loyalty to key positions. His top aides are remarkably incompetent. I've already mentioned Lutnick, the Commerce Secretary, who clearly has no clue about his department. Others, like Stephen Miller, are simply malicious.
+
+**How did you come to that conclusion?**
+
+As the chief executive for the administration's immigration and security policy, Miller is in charge of ICE, an agency that systematically humiliates immigrants. Obama deported far more undocumented immigrants, but without humiliating them and without turning the rest of the world against the US. The US depends on both ordinary foreign workers and the world's brightest minds. Yet, especially at US universities, the level of uncertainty is now enormous.
+
+**What exactly happens?**
+
+I live in the US, but I also teach at a Lebanese university, where I'm now suddenly encountering numerous people returning to Lebanon and turning their backs on the US. Lebanon is certainly not an isolated case. Even those with a green card can no longer be sure in America that they won't suddenly be arrested and deported. There is no longer any legal certainty.
+
+**What is at stake?**
+
+A devastating brain drain. I know from my former university, New York University, that both professors and students are predominantly foreigners. Driving them away is just about the dumbest thing you can do. The way Trump is snubbing India is simply insane.
+
+**Why?**
+
+Leaving aside the fact that India is now moving closer to China, which is geopolitically bad for the US: Silicon Valley simply wouldn't function without Indians. Only a few make it to the US, but they are the very best. Those who have prevailed in a country of billions and thus in an exceptionally competitive environment. The US only functions because of this constant influx of talent.
+
+**What advice would you give the USA?**
+
+When people ask me what the US should do, I often say they need to become more like Switzerland again, which operates from _the bottom up_ . The US is also a federation. Its president should never have been granted such extensive power as Trump. The president of a federation shouldn't play any role in people's daily lives.
+
+**What is your hope?**
+
+That the Supreme Court reins in Trump and that Republicans lose their majority in Congress in next year's midterm elections.
+
+> **World-renowned scientist and author**
+> Nassim Nicholas Taleb, born in Lebanon in 1960, worked as a stockbroker for 21 years before becoming a scholar, researching philosophical, mathematical, and practical problems involving probabilities. He is the author of the multi-volume work «Incerto,» which explores various facets of uncertainty. Part of this work is the 2007 book «The Black Swan,» which brought Taleb fame as a writer. His other works include «Skin in the Game,» «Fools of Chance,» and «Antifragile.» He advises the financial company Universa Investments, which specializes in mitigating investment risks. Taleb was a guest at the Peter Carr Conference of the ZHAW School of Management and Law in Winterthur in September, where this interview took place. The conference focused on topics in quantitative finance.
+
+---
+**Auto summary (NZZ, GPT-generated):**
+- Nassim Taleb explains that the financial system has become increasingly fragile due to high debt levels in wealthy countries, especially driven by zero interest policies and the shift of debt burdens from banks to governments.
+- He criticizes Donald Trump's policies for causing labor shortages, brain drain, and a polarized economy, while making the U.S. less predictable and stable.
+- According to Taleb, China is on track to become the leading superpower, as the West's economic and military influence erodes due to inefficiency and high costs.

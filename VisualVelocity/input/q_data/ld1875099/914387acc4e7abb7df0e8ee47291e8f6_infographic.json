@@ -1,0 +1,65 @@
+{
+  "_id": "914387acc4e7abb7df0e8ee47291e8f6",
+  "_rev": "6-530befb8ccf6d0c061be497c65bbf514",
+  "tool": "infographic",
+  "title": "Geschenkübergabe Jos",
+  "active": true,
+  "images": {
+    "variants": [
+      {
+        "images": [
+          {
+            "key": "2025/03/21/4mobile6x-bdbd856eb3fd980313de6e672b2544b6.png",
+            "url": "https://nzz-q-assets.s3.eu-west-1.amazonaws.com/2025/03/21/4mobile6x-bdbd856eb3fd980313de6e672b2544b6.png",
+            "size": 3042401,
+            "type": "image/png",
+            "width": 2221,
+            "height": 2006,
+            "originalName": "4mobile@6x.png"
+          }
+        ],
+        "minWidth": 0
+      },
+      {
+        "images": [
+          {
+            "key": "2025/03/21/4content6x-4dbfdb463c96c06173b6495afba7bf58.png",
+            "url": "https://nzz-q-assets.s3.eu-west-1.amazonaws.com/2025/03/21/4content6x-4dbfdb463c96c06173b6495afba7bf58.png",
+            "size": 3985338,
+            "type": "image/png",
+            "width": 3781,
+            "height": 2331,
+            "originalName": "4content@6x.png"
+          }
+        ],
+        "minWidth": 540
+      },
+      {
+        "images": [
+          {
+            "key": "2025/03/21/4container6x-144aa8bceac7acc11481dc87fdd73dbe.png",
+            "url": "https://nzz-q-assets.s3.eu-west-1.amazonaws.com/2025/03/21/4container6x-144aa8bceac7acc11481dc87fdd73dbe.png",
+            "size": 4098720,
+            "type": "image/png",
+            "width": 5401,
+            "height": 2302,
+            "originalName": "4container@6x.png"
+          }
+        ],
+        "minWidth": 830
+      }
+    ]
+  },
+  "acronym": "ida.",
+  "options": {
+    "serveLosslessWebP": false
+  },
+  "sources": [],
+  "subtitle": "",
+  "createdBy": "ida.goetz@nzz.ch",
+  "updatedBy": "ida.goetz@nzz.ch",
+  "department": "Visuals",
+  "createdDate": "2025-03-18T07:59:05.510Z",
+  "publication": "nzz",
+  "updatedDate": "2025-03-21T10:40:06.076Z"
+}

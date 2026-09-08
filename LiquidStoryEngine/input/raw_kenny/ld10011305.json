@@ -1,0 +1,1320 @@
+{
+ "content": [
+  {
+   "identifier": "header--hero",
+   "id": "doc-1jr405ced0",
+   "content": {
+    "title": "Uzbekistan: A country discovers its future in art",
+    "lead": "A center for contemporary art in Tashkent, a biennial in Bukhara and a pavilion in Venice: uzbekistan's move into modernity is taking place between craftsmanship and conceptual art.",
+    "authorline": "Sabine B. Vogel",
+    "image": {
+     "author": "",
+     "caption": "Installation during the first Biennale in Bukhara, scheduled for September 5 to November 23, 2025: Marina Perez Simão in collaboration with Bakhtiyar Babamuradov, 2024–2025.",
+     "originalUrl": "/2026/06/14/9638f6e5-c8cc-46f3-b282-7a026566c54d.jpg?crop=2362,1329,x0,y443",
+     "width": 2362,
+     "height": 1772,
+     "crop": {
+      "x": 0,
+      "y": 443,
+      "width": 2362,
+      "height": 1329,
+      "name": "desktop"
+     },
+     "namedCrops": [
+      {
+       "x": 0,
+       "y": 443,
+       "width": 2362,
+       "height": 1329,
+       "name": "desktop"
+      },
+      {
+       "x": 622,
+       "y": 0,
+       "width": 1329,
+       "height": 1772,
+       "name": "tablet"
+      },
+      {
+       "x": 629,
+       "y": 0,
+       "width": 997,
+       "height": 1772,
+       "name": "mobile"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "quelle": "Felix Odell / zVg ACDF, Bukhara Biennal 2025",
+    "caption": "Installation during the first Biennale in Bukhara, scheduled for September 5 to November 23, 2025: Marina Perez Simão in collaboration with Bakhtiyar Babamuradov, 2024–2025.",
+    "author": ""
+   },
+   "containers": {
+    "authors": []
+   },
+   "prevElement": "",
+   "nextElement": "p-text",
+   "firstContentElement": true
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jqu3a8ki3",
+   "content": {
+    "text": "The room feels like a hiding place. Dark, crammed to the ceiling. Canvases lean against the wall, paintings are stacked under the suspended ceiling, and books are everywhere. This is where Vyacheslav Akhunov, born in 1948, works. When he moved here in the 1980s, Uzbekistan was still part of the USSR. His studio, along with an apartment next door in the prefabricated building, was rent-free – a privilege. The price: painting in the style of Soviet Realism, true to the party line."
+   },
+   "prevElement": "header--hero",
+   "nextElement": "barrier"
+  },
+  {
+   "id": "doc-f82bfd50",
+   "identifier": "barrier",
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jr408v2j0",
+   "content": {
+    "text": "Akhunov smiles when he tells the story. «Nobody in Moscow knew that,» he says, «but I've always been a conceptual artist» – not just one of the pioneers, but the very first in Uzbekistan, adds Gayane Umerova. «Contemporary art in Uzbekistan begins with Akhunov.»"
+   },
+   "paidContent": true,
+   "prevElement": "barrier",
+   "nextElement": "imagegrid"
+  },
+  {
+   "identifier": "imagegrid",
+   "id": "doc-1jr40oaea0",
+   "containers": {
+    "imageRows": [
+     {
+      "identifier": "imagegrid-row",
+      "id": "doc-1jr40oaea1",
+      "containers": {
+       "imageRow": [
+        {
+         "identifier": "imagegrid-image",
+         "id": "doc-1jr40oaea2",
+         "content": {
+          "image": {
+           "author": "PD",
+           "caption": "A view into the studio of Vyacheslav Akhunov in Tashkent, the capital of Uzbekistan.",
+           "originalUrl": "/2026/06/14/00b50ab3-4a52-4a43-84c7-4fa64cf33d71.jpg?crop=1701,2268,x0,y0",
+           "width": 1701,
+           "height": 2268,
+           "crop": {
+            "x": 0,
+            "y": 0,
+            "width": 1701,
+            "height": 2268,
+            "name": "article-image"
+           },
+           "namedCrops": [
+            {
+             "x": 0,
+             "y": 0,
+             "width": 1701,
+             "height": 2268,
+             "name": "article-image"
+            }
+           ],
+           "imageService": "fastly"
+          },
+          "caption": "A view into the studio of Vyacheslav Akhunov in Tashkent, the capital of Uzbekistan.",
+          "author": "PD"
+         }
+        },
+        {
+         "identifier": "imagegrid-image",
+         "id": "doc-1jr40oaea3",
+         "content": {
+          "image": {
+           "author": "Gerdastudio",
+           "caption": "Installationsansicht «Instrument of Minds» während der 61. Biennale di Venezia im Palazzo Franchetti: Vyacheslav Akhunov, «Triumphal Arch», 1979/2026.",
+           "originalUrl": "/2026/06/14/4db5f827-29c0-456b-ae7d-834971603775.jpg?crop=1406,1875,x547,y0",
+           "width": 2500,
+           "height": 1875,
+           "crop": {
+            "x": 547,
+            "y": 0,
+            "width": 1406,
+            "height": 1875,
+            "name": "article-image"
+           },
+           "namedCrops": [
+            {
+             "x": 547,
+             "y": 0,
+             "width": 1406,
+             "height": 1875,
+             "name": "article-image"
+            }
+           ],
+           "imageService": "fastly"
+          },
+          "caption": "Installationsansicht «Instrument of Minds» während der 61. Biennale di Venezia im Palazzo Franchetti: Vyacheslav Akhunov, «Triumphal Arch», 1979/2026.",
+          "author": "Gerdastudio"
+         }
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jr408v2k0",
+   "content": {
+    "text": "Umerova has headed the state-run Art and Culture Development Foundation (ACDF) since 2017. 2017 is no coincidence. It is a pivotal year for the Central Asian country, which, after gaining independence in 1991, was long ruled by the dictator Islam Karimov. In 2016, Shavkat Mirziyoyev came to power and opened up the previously highly isolated nation. He abolished the exit visa, reformed the administration, and relaxed state controls – including in cultural policy. While the focus had previously been on a «positive» national history, a fresh wind is now blowing through the country under the slogan «Brücke zwischen Tradition und Moderne»."
+   },
+   "paidContent": true,
+   "prevElement": "imagegrid",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1jr408v2k1",
+   "content": {
+    "title": "Messengers of a new era",
+    "id": "subtitle-boten-einer-neuen-zeit"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jr408v2k2",
+   "content": {
+    "text": "Uzbekistan is home to 38 million people today, almost half of whom are under 25. The aim is to create jobs for them in the creative industries. But culture also serves as soft power, helping to give the country a new image and elevate it to the global art world map. The starting point for this lies in the past: craftsmanship, ornamentation, materials, and architecture – specifically, the «Tashkent-Moderne»."
+   },
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jr408v2k3",
+   "content": {
+    "text": "After the devastating earthquake of 1966, the Russian central government decided to rebuild Tashkent as a «showcase of the Soviet Orient.» Modern architecture, but with white concrete arabesques and blue ceramic cladding. Thus, the facades became harbingers of a new era."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jr408v2k4",
+   "content": {
+    "text": "Later, much of it disappeared behind advertising spaces. These are now banned. Iconic buildings like the Palace of Peoples' Friendship and the former Stalin Museum are being renovated, while new museums are planned: the Universal Museum designed by Tadao Ando and the CCA (Center for Contemporary Art) in Tashkent. It was originally supposed to open in March, but that would be «inappropriate in times of the Iran war,» according to the Iranian-born artistic director, Sara Reza."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jr408v2k5",
+   "content": {
+    "text": "Architect Olivier Marty of the French studio KO, who is converting the former coach house built in 1912, reveals in an interview that some details still need to be finalized before the exhibition and residency program starts in September. However, the true heart of Uzbekistan's new cultural policy lies further west, in the former oasis state of Bukhara: In November 2025, the biennial there will open for the first time, and it is far more than just an exhibition."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jr408v2k6",
+   "content": {
+    "text": "Rather, it serves as a gateway to bringing contemporary art closer to the public. And it's a school where a new generation of curators is being trained – some of whom will even be allowed to curate the Uzbekistan Pavilion at the 61st Venice Biennale."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "image"
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1jr40tm151",
+   "content": {
+    "image": {
+     "author": "Felix Odell / zVg ACDF, Bukhara Biennial 2025",
+     "caption": "Installation «Blue Room» in Bukhara: Abdulvahid Bukhoriy in collaboration with Jurabek Siddikov, 2024–2025.",
+     "originalUrl": "/2026/06/14/432db47e-dfb2-4e49-be1e-d5c4d588b26a.jpg?crop=1653,2204,x1,y0",
+     "width": 1654,
+     "height": 2204,
+     "crop": {
+      "x": 1,
+      "y": 0,
+      "width": 1653,
+      "height": 2204,
+      "name": "article-image"
+     },
+     "namedCrops": [
+      {
+       "x": 1,
+       "y": 0,
+       "width": 1653,
+       "height": 2204,
+       "name": "article-image"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "caption": "Installation «Blue Room» in Bukhara: Abdulvahid Bukhoriy in collaboration with Jurabek Siddikov, 2024–2025.",
+    "author": "Felix Odell / zVg ACDF, Bukhara Biennial 2025"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jr408v2k7",
+   "content": {
+    "text": "And at the same time, the Bukhara Biennale is also a manifesto: «Our aim is not to emphasize Uzbek nationality through cultural projects,» says Umerova, «but to preserve traditional craftsmanship and combine it with contemporary art.» Seventy works, distributed throughout the restored old town, were created in close cooperation with national artisans in the fields of ceramics, textiles, and carpets – craftsmanship is being rediscovered."
+   },
+   "paidContent": true,
+   "prevElement": "image",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jr408v2l0",
+   "content": {
+    "text": "In a caravanserai, one of those early inns along trade routes with its many small rooms arranged around an open courtyard, Egyptian superstar Wael Shawky displayed brass reliefs, gleaming in the sun and carved with intricate pictorial motifs. «My work explores the nostalgia of Islamic memories,» he explained. He said the motifs were derived from miniature painting and that the material was reminiscent of the gold leaf typical of this Persian art."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jr408v2l1",
+   "content": {
+    "text": "Marina Perez Simão transformed the entire courtyard into a colorful field of ceramic patterns. «We want to establish international cultural diplomacy and build new infrastructure within the country,» Umerova summarizes the strategy. «But we are being cautious. We don't want to provide too much support, but rather inspire the development of an independent art scene.» However, something essential is still lacking. Collectors? Hardly any. An art market? Not really. When asked where the conceptual artist Akhunov has sold his work, he replies succinctly: «Nowhere!»"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jr408v2l2",
+   "content": {
+    "text": "During the Soviet era, only the state bought art – and he didn't even offer his works to them. «My art was forbidden.» Too subversive: From the thick, state-published catalog «Soviet Art,» he removed all the pages and refilled the book with his collages. Page after page of silhouettes of Lenin, filled with newspaper clippings and images ranging from nude women to art historical details."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jr408v2l3",
+   "content": {
+    "text": "His canvases are also strictly conceptual; one he densely inscribed with the words «breathe slowly and quietly.» The words refer to mantras, to the power of endless repetition. He explains that he had to exist quietly and invisibly back then. Today, the political situation for artists has clearly improved. Nothing is forbidden anymore, neither tapestries nor «Muslim Magic,» as Akhunov calls the practices based on shamanic traditions."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jr408v2l4",
+   "content": {
+    "text": "Freedom alone doesn't create infrastructure. While there are some galleries, such as «Regeneration Art» and «Bon Factum» in Tashkent, and «Art Station» in Samarkand, the fact remains: «Art is not yet part of society,» explains Zi Kakhramonova. She is one of the seven artists whose work is featured in the Uzbekistan pavilion at the 61st Venice Biennale. The pavilion's focus is on the Aral Sea. Once the fourth-largest inland sea in the world, it is now a desert."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "image"
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1jr40eer61",
+   "content": {
+    "image": {
+     "author": "PD",
+     "caption": "View of the Uzbekistan Pavilion at the 61st Biennale di Venezia: (back) A.A. Murakami, «The Sun Sets in a Shell», 2026 (hergestellt mit Unterstützung von Mandarin Knitting Technology und Zegna Baruffa Lane Borgosesia), (vorne) Zi Kakhramonova’s Archive of Lost Forms, «The Aural Sea» (Installationsansicht), 2026.",
+     "originalUrl": "/2026/06/14/a869c4cd-9bb2-4aee-a519-24a16b1c516c.jpg?crop=2500,1875,x0,y0",
+     "width": 2500,
+     "height": 1875,
+     "crop": {
+      "x": 0,
+      "y": 0,
+      "width": 2500,
+      "height": 1875,
+      "name": "article-image"
+     },
+     "namedCrops": [
+      {
+       "x": 0,
+       "y": 0,
+       "width": 2500,
+       "height": 1875,
+       "name": "article-image"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "caption": "View of the Uzbekistan Pavilion at the 61st Biennale di Venezia: (back) A.A. Murakami, «The Sun Sets in a Shell», 2026 (hergestellt mit Unterstützung von Mandarin Knitting Technology und Zegna Baruffa Lane Borgosesia), (vorne) Zi Kakhramonova’s Archive of Lost Forms, «The Aural Sea» (Installationsansicht), 2026.",
+    "author": "PD"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1jr408v2l5",
+   "content": {
+    "title": "The vanished lake",
+    "id": "subtitle-der-verschwundene-see"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "image",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jr408v2l6",
+   "content": {
+    "text": "«Welcome to the heart of the environmental disaster,» our guide Jussuf sums it up. In 1985, the water level in Moynak, a once-thriving port city in the autonomous but heavily integrated Republic of Karakalpakstan, receded by five kilometers, he explains. This was no accident. The lake's demise was deliberately engineered in the 1960s by the Soviet Union diverting its feeder rivers to irrigate fields and create new cotton-growing areas on the lakebed – a fatal plan."
+   },
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jr408v2l7",
+   "content": {
+    "text": "Today, 90% of the part of the lake located in Uzbekistan is steppe. Only 12,000 inhabitants still live there, the airport is almost never in operation, and the high fence was blown down by strong winds and never repaired. These winds relentlessly drive the pollutants, salt, and sand particles deposited in the dried-up lakebed onto the fields. Twice a year, the fields must be flooded with water to be cultivated at all. On the former shore, a few rusted ships rot in the steppe. Two brand-new ships were placed on the sand in 2010 during the U.N. secretary-general's visit to dramatically illustrate the situation. Later, more were added, which lie like skeletons in a harbor between the systematically planted saxaul bushes. These plants are extremely salt- and drought-resistant and are intended to stabilize the Aralkum Desert."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jr408v2l8",
+   "content": {
+    "text": "This lake is the central focus of Uzbekistan's contribution to this year's Venice Biennale. Among the participants is 21-year-old Aigul Sarsen. She lives in Nukus, the capital of Karkalpakstan, about a three-hour drive from the Aral Sea. Her studio is in an empty house, shared with «more than ten other artists,» she says – she doesn't know the exact number. «We hardly ever meet; everyone works independently.» She only had a few months for Venice, and she sees her sketches and expressive paintings as a sign of «hope that the lake will return.» She imagines the lake, which she has never experienced, as a goddess, a hybrid female being."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1jr408v2m0",
+   "content": {
+    "title": "Forbidden art",
+    "id": "subtitle-verbotene-kunst"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jr408v2m1",
+   "content": {
+    "text": "Nukus is also home to the fascinating Savitsky Museum, founded in 1966 and named after the collector Igor Savitsky, who amassed over 100,000 works, primarily from the 1920s. It is also known as the «Museum of Forbidden Art,» as works by Aleksandr Sardan, Sergey Shigolev, and Vasiliy Lilsenko were banned at the time. Here, they are grouped under the heading «Avanguardia Orientalis.» These paintings do not rely on exoticism but are rooted in the region – the desert, the caravan routes depicted in vibrant bursts of color, and the oases."
+   },
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jr408v2m2",
+   "content": {
+    "text": "The museum shop sells faded posters. In our hotel in Nukus, acrylic paintings are even for sale, unlabeled, leaning against each other, for 600,000 som each, which is about 43 euros. Uzbekistan is still at the beginning of its journey toward a functioning art scene. But thanks in large part to the Venice Biennale, the global market has already been reached. Some artists from the last Biennale already have exhibitions worldwide, such as Saodat Ismailova at the Swiss Institute in New York."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "image"
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1jqu3a8ki2",
+   "content": {
+    "image": {
+     "author": "Felix Odell / zVg ACDF, Bukhara Biennial 2025",
+     "caption": "Installation during the first Biennale in Bukhara, scheduled for September 5 to November 23, 2025: Marina Perez Simão in collaboration with Bakhtiyar Babamuradov, 2024–2025.",
+     "originalUrl": "/2026/06/14/42972bc8-6239-4c81-8fbb-3a0d2c1c933d.jpg?crop=2362,1772,x0,y0",
+     "width": 2362,
+     "height": 1772,
+     "crop": {
+      "x": 0,
+      "y": 0,
+      "width": 2362,
+      "height": 1772,
+      "name": "article-image"
+     },
+     "namedCrops": [
+      {
+       "x": 0,
+       "y": 0,
+       "width": 2362,
+       "height": 1772,
+       "name": "article-image"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "caption": "Installation during the first Biennale in Bukhara, scheduled for September 5 to November 23, 2025: Marina Perez Simão in collaboration with Bakhtiyar Babamuradov, 2024–2025.",
+    "author": "Felix Odell / zVg ACDF, Bukhara Biennial 2025"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jr408v2m3",
+   "content": {
+    "text": "Akhunov, who is prominently featured in the parallel program of the Venice Biennale, also hopes for this. He did participate in Documenta in 2012, where «1 m²» was exhibited: 400 empty matchboxes, their inner surfaces painted, covered, and inscribed – a micro-exhibition that could be hidden again at any time. But only now, with the major retrospective in the magnificent Palazzo Franchetti, can he show his entire oeuvre. Right at the entrance, we pass through the four-meter-high «Triumphal Arch» (1979/2026) with 365 metal scissors embedded in the walls – the scissors as a symbol of censorship and state control."
+   },
+   "paidContent": true,
+   "prevElement": "image",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jr408v2n0",
+   "content": {
+    "text": "In «Mantras of the USSR,» Akhunov dissects the ideological language of the USSR. In «Instrument of Minds,» as the work is titled, he says it's not about the past, but about «how thoughts survive.» His ideas are now inspiring a new, young generation for whom conceptual art is second nature, like Zi Kakhramonova. She emphasizes that she doesn't want to portray the lost Aral Sea as a catastrophe. Her «Archive of Lost Forms» stands in the middle of the room, filled with salt, from which ceramic creatures emerge as if from another time. She counters the loss of the Aral Sea's biodiversity with imagined forms. Uzbekistan, as these projects make clear, is discovering art not only as cultural heritage but also as a possibility for the future."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "sharebox",
+   "lastContentElement": true
+  },
+  {
+   "identifier": "sharebox",
+   "id": "doc-1jqu3a8ki4",
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "related-articles-container"
+  },
+  {
+   "identifier": "related-articles-container",
+   "id": "doc-1jqu3a8ki5",
+   "content": {
+    "title": "Related articles"
+   },
+   "containers": {
+    "related-articles": [
+     {
+      "identifier": "teaser",
+      "id": "doc-1jqu3a8ki6",
+      "content": {
+       "title": "Special report on Art Basel: Art to buy",
+       "owner": "NZZ",
+       "teaserImage": {
+        "originalUrl": "/2026/06/12/0866d0eb-6667-444c-ac03-a71ba589cca9.jpg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2026/06/12/0866d0eb-6667-444c-ac03-a71ba589cca9.jpg?width=1024&quality=75&auto=webp",
+        "width": 2600,
+        "height": 1950,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "2600,1462,x0,y284"
+         },
+         {
+          "name": "4:3",
+          "crop": "2364,1773,x236,y0"
+         },
+         {
+          "name": "1:1",
+          "crop": "1773,1773,x526,y0"
+         },
+         {
+          "name": "3:4",
+          "crop": "1463,1950,x630,y0"
+         },
+         {
+          "name": "3:2",
+          "crop": "2364,1575,x236,y148"
+         }
+        ],
+        "imageService": "fastly",
+        "teaserAuthor": "Norman Bandi"
+       },
+       "teaserAuthor": "Norman Bandi",
+       "urlAliasTeaser": "https://www.nzz.ch/feuilleton/art-basel",
+       "nzzId": "ld.1834311",
+       "teaserType": "",
+       "product": "NZZ.ch",
+       "documentId": 1834311,
+       "layout": "alias-teaser",
+       "publicationDate": "2024-06-09T18:42:27.084Z",
+       "publicationLastUpdated": "2026-06-12T14:20:11.791Z",
+       "significantUpdate": false,
+       "significantUpdateTill": "2024-06-10T06:42:27.084Z",
+       "url": "https://www.nzz.ch/feuilleton/art-basel",
+       "department": {}
+      }
+     }
+    ]
+   },
+   "paidContent": true,
+   "prevElement": "sharebox",
+   "nextElement": "",
+   "lastContentElement": true
+  }
+ ],
+ "metadata": {
+  "owner": "NZZ",
+  "germanyRelevant": true,
+  "title": "Uzbekistan: A country discovers its future in art",
+  "teaserAuthor": "Felix Odell / zVg ACDF, Bukhara Biennial 2025",
+  "showHeader": true,
+  "language": {
+   "locale": "en-US"
+  },
+  "dependencies": {},
+  "authorLine": "Sabine B. Vogel",
+  "teaserImage": {
+   "originalUrl": "/2026/06/14/9638f6e5-c8cc-46f3-b282-7a026566c54d.jpg?width=1024",
+   "url": "https://img-msp-prod.nzz.ch/2026/06/14/9638f6e5-c8cc-46f3-b282-7a026566c54d.jpg?width=1024&quality=75&auto=webp",
+   "width": 2362,
+   "height": 1772,
+   "crops": [
+    {
+     "name": "16:9",
+     "crop": "2362,1329,x0,y443"
+    },
+    {
+     "name": "4:3",
+     "crop": "2362,1772,x0,y0"
+    },
+    {
+     "name": "1:1",
+     "crop": "1772,1772,x405,y0"
+    },
+    {
+     "name": "3:4",
+     "crop": "1329,1772,x514,y0"
+    },
+    {
+     "name": "3:2",
+     "crop": "2362,1575,x0,y197"
+    }
+   ],
+   "imageService": "fastly",
+   "teaserCaption": "A center for contemporary art in Tashkent, a biennial in Bukhara and a pavilion in Venice: uzbekistan's move into modernity is taking place between craftsmanship and conceptual art.",
+   "teaserAuthor": "Felix Odell / zVg ACDF, Bukhara Biennial 2025"
+  },
+  "nzzId": "ld.10011305",
+  "readingTime": 540,
+  "colorSchema": "color-schema--summer-sky",
+  "characterCount": 10617,
+  "breadcrumbs": [
+   {
+    "name": "Arts & Culture",
+    "path": "/feuilleton"
+   }
+  ],
+  "product": "NZZ.ch",
+  "documentId": 10011305,
+  "contentTypeGroup": "web",
+  "layout": "longformstandard",
+  "firstPublicationDate": "2026-06-15T07:00:00.000Z",
+  "publicationDate": "2026-06-15T07:00:00.000Z",
+  "publicationLastUpdated": "2026-06-15T07:00:00.000Z",
+  "significantUpdate": false,
+  "significantUpdateTill": "2026-06-15T19:00:00.000Z",
+  "teaserCaption": "A center for contemporary art in Tashkent, a biennial in Bukhara and a pavilion in Venice: uzbekistan's move into modernity is taking place between craftsmanship and conceptual art.",
+  "url": "/feuilleton/usbekistan-und-die-kunst-wie-ein-land-seine-zukunft-gestaltet-ld.10011305",
+  "department": {
+   "name": "Arts & Culture",
+   "path": "/feuilleton"
+  },
+  "estimationWordCount": 1725,
+  "leadText": "A center for contemporary art in Tashkent, a biennial in Bukhara and a pavilion in Venice: uzbekistan's move into modernity is taking place between craftsmanship and conceptual art.",
+  "nzzSummaryEN": "- Uzbekistan embraces the fusion of traditional crafts with modern conceptual art, propelled by government reforms and cultural projects such as the Biennale in Bukhara.\n- New museums and events aim to culturally open the nation and position its art world globally, while also promoting the preservation and innovation of traditional crafts.\n- Challenges include developing a local art scene and infrastructure, including markets and collectors, as projects like the Venice Pavilion highlight environmental crises such as the Aral Sea's disappearance.",
+  "nzzSummaryDE": "- Uzbekistan focuses on combining traditional art with modern conceptual art, supported by state reforms and cultural initiatives such as the Bukhara Biennale.\n New museums and events are intended to open up the country culturally and establish its art world internationally, while at the same time promoting the preservation and innovation of arts and crafts.\n - The challenge remains building a local art scene and infrastructure, including markets and collectors, while projects like the pavilion in Venice draw attention to environmental problems such as the disappearance of the Aral Sea.",
+  "nzzSummaryIsAuto": true,
+  "nzzSummaryModel": "gpt-4o-2024-11-20",
+  "nzzPrintTitle": "NBA",
+  "nzzPrintSubtitle": "NBA",
+  "allArticleLanguages": [
+   {
+    "locale": "de",
+    "urlPath": "/feuilleton/usbekistan-und-die-kunst-wie-ein-land-seine-zukunft-gestaltet-ld.10011305",
+    "seo": {}
+   }
+  ],
+  "seo": {
+   "canonicalUrl": "https://www.nzz.ch/feuilleton/usbekistan-und-die-kunst-wie-ein-land-seine-zukunft-gestaltet-ld.10011305",
+   "title": "Uzbekistan and Art: How a Country Shapes Its Future",
+   "socialMediaTitle": "Uzbekistan and Art: How a Country Shapes Its Future",
+   "excludeFromSpiders": false,
+   "image": "https://img-msp-prod.nzz.ch/2026/06/14/9638f6e5-c8cc-46f3-b282-7a026566c54d.jpg?width=1200&height=675&fit=bounds&quality=75&auto=webp&crop=2362,1329,x0,y443&wmark=nzz"
+  },
+  "ldPublicationId": 2445847,
+  "isHighlightedHeader": false,
+  "nzzTopics": [
+   {
+    "name": "Uzbekistan",
+    "slug": "/themen/usbekistan"
+   }
+  ],
+  "barrierIndex": 2,
+  "outlinks": {
+   "mehrZumThema": [
+    "ld.1834311"
+   ],
+   "artikelListe": [],
+   "aliasTeaserEmbedList": []
+  },
+  "tts": true,
+  "locale": "de-CH",
+  "mp3": true,
+  "mp3Duration": 785976,
+  "project": "nzz",
+  "machineTranslated": true,
+  "machineTranslationValidated": true
+ },
+ "isReduced": false,
+ "isPaid": false,
+ "isVamp": false,
+ "isWebview": false,
+ "btaFeed": {
+  "meta": {
+   "id": "usbekistan",
+   "name": "Uzbekistan",
+   "tagName": "Uzbekistan",
+   "qId": "Q265",
+   "seoTitle": "Uzbekistan – All news, articles and information on the topic | NZZ",
+   "description": null,
+   "firstName": null,
+   "lastName": null,
+   "category": "LOC",
+   "createdDate": "2025-04-08 16:53:59.768Z",
+   "imageURL": null,
+   "imageCroppedURL": null,
+   "imageWidth": null,
+   "imageHeight": null,
+   "imageCredits": null,
+   "url": "https://nzz.ch/themen/usbekistan",
+   "size": 104,
+   "relatedTopics": []
+  },
+  "data": [
+   {
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "teaserImage": {
+     "originalUrl": "/2026/07/27/76f7c42a-dec0-4a27-b852-a626fde32d71.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/07/27/76f7c42a-dec0-4a27-b852-a626fde32d71.jpg?width=1024&quality=75&auto=webp",
+     "width": 1658,
+     "height": 1697,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "1658,933,x0,y38"
+      },
+      {
+       "name": "4:3",
+       "crop": "1658,1244,x0,y29"
+      },
+      {
+       "name": "1:1",
+       "crop": "1658,1658,x0,y18"
+      },
+      {
+       "name": "3:4",
+       "crop": "1273,1697,x94,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "1658,1105,x0,y50"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "The daughter of the Uzbek dictator allegedly laundered hundreds of millions through Swiss banks. However, Lombard Odier and a former asset manager were found guilty. The bank intends to appeal.",
+     "teaserAuthor": "VZ Celotto / Getty"
+    },
+    "teaserAuthor": "VZ Celotto / Getty",
+    "title": "The Karimova case: Federal Criminal Court drops proceedings against the Uzbek «princess»",
+    "nzzId": "ld.10017148",
+    "readingTime": 360,
+    "paywallQuestionOne": "Why was the case against Gulnara Karimova dropped?",
+    "paywallQuestionTwo": "What penalties did Lombard Odier and the asset manager receive?",
+    "paywallQuestionThree": "How does Switzerland plan to use the frozen funds?",
+    "characterCount": 8541,
+    "product": "NZZ.ch",
+    "documentId": "10017148",
+    "layout": "regular",
+    "publicationDate": "2026-07-27T13:35:02.959Z",
+    "publicationLastUpdated": "2026-07-27T14:12:02.195Z",
+    "significantUpdate": true,
+    "significantUpdateTill": "2026-07-28T01:35:02.959Z",
+    "teaserCaption": "The daughter of the Uzbek dictator allegedly laundered hundreds of millions through Swiss banks. However, Lombard Odier and a former asset manager were found guilty. The bank intends to appeal.",
+    "authorLine": "Beatrice Bösiger, Bellinzona",
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2024/12/18/fe52bced-0cc0-4555-a3ba-c4b9ed4dd1da.jpeg?crop=2705,2705,x1931,y485&width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/wirtschaft/der-fall-karimowa-das-bundesstrafgericht-in-bellinzona-stellt-das-verfahren-gegen-die-prinzessin-ein-ld.10017148",
+    "department": {
+     "name": "Economy",
+     "path": "/wirtschaft"
+    },
+    "estimationWordCount": 1262,
+    "leadText": "The daughter of the Uzbek dictator allegedly laundered hundreds of millions through Swiss banks. However, Lombard Odier and a former asset manager were found guilty. The bank intends to appeal.",
+    "nzzSummaryIsAuto": true,
+    "locale": "de-CH"
+   },
+   {
+    "title": "Houston, we had a problem: Cristiano Ronaldo ends retirement debates for now with historic goals",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "authorLine": "Florian Haupt, Barcelona",
+    "teaserImage": {
+     "originalUrl": "/2026/06/23/f1385fc5-fecd-45f1-bb9d-2087eb917685.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/06/23/f1385fc5-fecd-45f1-bb9d-2087eb917685.jpg?width=1024&quality=75&auto=webp",
+     "width": 5360,
+     "height": 3693,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "4027,2265,x636,y161"
+      },
+      {
+       "name": "4:3",
+       "crop": "4924,3693,x37,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "3693,3693,x758,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "2770,3693,x1406,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "5360,3573,x0,y0"
+      }
+     ],
+     "focalPoint": {
+      "x": 2499,
+      "y": 793
+     },
+     "imageService": "fastly",
+     "teaserCaption": "«I'm back,» the 41-year-old declared after his brilliant performance against Uzbekistan, refuting reports of discord within the Portuguese team. He absolutely refuses to hear the M-word, however.",
+     "teaserAuthor": "Phil Noble / Reuters"
+    },
+    "teaserAuthor": "Phil Noble / Reuters",
+    "nzzId": "ld.10012647",
+    "readingTime": 300,
+    "paywallQuestionOne": "How did Ronaldo refute the criticism after the unsuccessful start to the World Cup?",
+    "paywallQuestionTwo": "Which historical records did Ronaldo break in the game against Uzbekistan?",
+    "paywallQuestionThree": "How does Ronaldo's performance affect the dynamics within the Portuguese team?",
+    "characterCount": 6563,
+    "tags": [
+     "Fussball",
+     "WM 2026"
+    ],
+    "product": "NZZ.ch",
+    "documentId": "10012647",
+    "layout": "regular",
+    "publicationDate": "2026-06-24T01:04:11.781Z",
+    "publicationLastUpdated": "2026-06-24T07:44:22.160Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-06-24T13:04:11.781Z",
+    "teaserCaption": "«I'm back,» the 41-year-old declared after his brilliant performance against Uzbekistan, refuting reports of discord within the Portuguese team. He absolutely refuses to hear the M-word, however.",
+    "url": "https://www.nzz.ch/sport/houston-wir-hatten-ein-problem-cristiano-ronaldo-beendet-mit-historischen-toren-vorerst-alle-rentendebatten-ld.10012647",
+    "department": {
+     "name": "Sport",
+     "path": "/sport"
+    },
+    "estimationWordCount": 1085,
+    "leadText": "«I'm back,» the 41-year-old declared after his brilliant performance against Uzbekistan, refuting reports of discord within the Portuguese team. He absolutely refuses to hear the M-word, however.",
+    "nzzSummaryIsAuto": true,
+    "locale": "de-CH"
+   },
+   {
+    "title": "Glamour, corruption, money laundering: The Gulnara Karimova case is one of the biggest economic crimes in Switzerland",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "teaserImage": {
+     "originalUrl": "/2026/05/07/56c7c024-6a92-4880-b5e1-1a44505d4b56.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/05/07/56c7c024-6a92-4880-b5e1-1a44505d4b56.jpg?width=1024&quality=75&auto=webp",
+     "width": 2000,
+     "height": 3000,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "2000,1125,x0,y324"
+      },
+      {
+       "name": "4:3",
+       "crop": "2000,1500,x0,y262"
+      },
+      {
+       "name": "1:1",
+       "crop": "637,637,x759,y472"
+      },
+      {
+       "name": "3:4",
+       "crop": "2000,2667,x0,y333"
+      },
+      {
+       "name": "3:2",
+       "crop": "2000,1333,x0,y433"
+      }
+     ],
+     "focalPoint": {
+      "x": 1015,
+      "y": 807
+     },
+     "imageService": "fastly",
+     "teaserCaption": "The trial of the former Uzbek dictator's daughter and the private bank Lombard Odier is underway before the Federal Criminal Court in Bellinzona. The case also raises the major question of how Switzerland should deal with funds of dubious origin.",
+     "teaserAuthor": "Pascal Le Segretain / amfAR12 / Getty"
+    },
+    "teaserAuthor": "Pascal Le Segretain / amfAR12 / Getty",
+    "nzzId": "ld.10005992",
+    "readingTime": 660,
+    "paywallQuestionOne": "How does the Karimova case affect Switzerland's reputation in dealing with potentates' money?",
+    "paywallQuestionTwo": "What role did Lombard Odier play in Gulnara Karimova's money laundering?",
+    "paywallQuestionThree": "How does Switzerland guarantee that returned funds will not be used for corruption again?",
+    "characterCount": 14705,
+    "product": "NZZ.ch",
+    "documentId": "10005992",
+    "layout": "longformstandard",
+    "publicationDate": "2026-05-22T03:30:00.000Z",
+    "publicationLastUpdated": "2026-05-22T03:30:00.000Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-05-22T15:30:00.000Z",
+    "teaserCaption": "The trial of the former Uzbek dictator's daughter and the private bank Lombard Odier is underway before the Federal Criminal Court in Bellinzona. The case also raises the major question of how Switzerland should deal with funds of dubious origin.",
+    "authorLine": "Beatrice Bösiger",
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2024/12/18/fe52bced-0cc0-4555-a3ba-c4b9ed4dd1da.jpeg?width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/wirtschaft/glamour-korruption-geldwaescherei-der-fall-gulnara-karimowa-ist-einer-der-groessten-wirtschaftskrimis-der-schweiz-ld.10005992",
+    "department": {
+     "name": "Economy",
+     "path": "/wirtschaft"
+    },
+    "estimationWordCount": 2180,
+    "leadText": "The trial of the former Uzbek dictator's daughter and the private bank Lombard Odier is underway before the Federal Criminal Court in Bellinzona. The case also raises the major question of how Switzerland should deal with funds of dubious origin.",
+    "nzzSummaryIsAuto": true,
+    "locale": "de-CH"
+   },
+   {
+    "title": "The dock remains empty: how Gulnara Karimova went from Uzbek despot's daughter to an entry in Swiss crime statistics",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "teaserImage": {
+     "originalUrl": "/2026/04/28/9985cb03-d69e-4a4c-b862-aec2ec113191.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/04/28/9985cb03-d69e-4a4c-b862-aec2ec113191.jpg?width=1024&quality=75&auto=webp",
+     "width": 3000,
+     "height": 2000,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "1539,866,x226,y2"
+      },
+      {
+       "name": "4:3",
+       "crop": "1505,1129,x183,y13"
+      },
+      {
+       "name": "1:1",
+       "crop": "771,771,x628,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "1240,1653,x338,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "1693,1129,x15,y7"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "On Monday, the largest money laundering trial in Switzerland to date began in Bellinzona. On Tuesday, the Federal Criminal Court discontinued the proceedings – due to the absence of the main defendant from Uzbekistan. Who and where is Gulnara Karimova?",
+     "teaserAuthor": "Yves Forestier / Getty"
+    },
+    "teaserAuthor": "Yves Forestier / Getty",
+    "nzzId": "ld.10004749",
+    "readingTime": 360,
+    "paywallQuestionOne": "Why was the case against Gulnara Karimova dropped in Switzerland?",
+    "paywallQuestionTwo": "How did Karimova use Swiss banks for her money laundering activities?",
+    "paywallQuestionThree": "What role did Karimowa's family play in her rise and fall?",
+    "characterCount": 7302,
+    "product": "NZZ.ch",
+    "documentId": "10004749",
+    "layout": "regular",
+    "publicationDate": "2026-04-28T14:11:01.865Z",
+    "publicationLastUpdated": "2026-04-28T19:15:10.740Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-04-29T02:11:01.865Z",
+    "teaserCaption": "On Monday, the largest money laundering trial in Switzerland to date began in Bellinzona. On Tuesday, the Federal Criminal Court discontinued the proceedings – due to the absence of the main defendant from Uzbekistan. Who and where is Gulnara Karimova?",
+    "authorLine": "Inna Hartwich",
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2025/12/11/64cc069e-192d-4de8-9d92-dfec1fbbf180.jpg?width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/schweiz/und-die-anklagebank-bleibt-leer-wie-gulnara-karimowa-von-der-usbekischen-despotentochter-zur-notiz-in-schweizer-kriminalstatistiken-wurde-ld.10004749",
+    "department": {
+     "name": "Switzerland",
+     "path": "/schweiz"
+    },
+    "estimationWordCount": 1127,
+    "leadText": "On Monday, the largest money laundering trial in Switzerland to date began in Bellinzona. On Tuesday, the Federal Criminal Court discontinued the proceedings – due to the absence of the main defendant from Uzbekistan. Who and where is Gulnara Karimova?",
+    "nzzSummaryIsAuto": true,
+    "locale": "de-CH"
+   },
+   {
+    "owner": "NZZ",
+    "title": "In Uzbekistan, the water is disappearing.",
+    "teaserImage": {
+     "originalUrl": "/2025/12/23/ea290b21-84f6-409e-8cb0-97041100e6a9.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2025/12/23/ea290b21-84f6-409e-8cb0-97041100e6a9.jpg?width=1024&quality=75&auto=webp",
+     "width": 4829,
+     "height": 3622,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "3816,2146,x745,y34"
+      },
+      {
+       "name": "1:1",
+       "crop": "2544,2544,x905,y0"
+      },
+      {
+       "name": "4:3",
+       "crop": "3816,2862,x471,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "2717,3622,x1408,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "3816,2543,x483,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "Decades of mismanagement have led to a shortage of the most important resource in Central Asia. While one farmer saves his fields with drip irrigation, Uzbekistan is arguing with its neighbors over water distribution.",
+     "teaserAuthor": "Imago"
+    },
+    "teaserAuthor": "Imago",
+    "nzzasFootnote": false,
+    "folioFootnote": false,
+    "language": {
+     "locale": "de-CH"
+    },
+    "nzzId": "ld.1917814",
+    "readingTime": 420,
+    "authorLine": "Markus Ziener, Tashkent",
+    "characterCount": 9480,
+    "product": "NZZ.ch",
+    "documentId": "1917814",
+    "layout": "longformstandard",
+    "publicationDate": "2025-12-29T04:30:00.000Z",
+    "publicationLastUpdated": "2025-12-29T04:30:00.000Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2025-12-29T16:30:00.000Z",
+    "teaserCaption": "Decades of mismanagement have led to a shortage of the most important resource in Central Asia. While one farmer saves his fields with drip irrigation, Uzbekistan is arguing with its neighbors over water distribution.",
+    "url": "https://www.nzz.ch/international/in-usbekistan-fehlt-das-wasser-kann-die-baumwoll-landwirtschaft-umdenken-ld.1917814",
+    "department": {
+     "name": "International",
+     "path": "/international"
+    },
+    "estimationWordCount": 1492,
+    "leadText": "Decades of mismanagement have led to a shortage of the most important resource in Central Asia. While one farmer saves his fields with drip irrigation, Uzbekistan is arguing with its neighbors over water distribution.",
+    "nzzSummaryIsAuto": true,
+    "hasQ": true
+   },
+   {
+    "owner": "NZZ",
+    "title": "UN human rights experts consider the detention of Gulnara Karimova to be arbitrary",
+    "teaserImage": {
+     "originalUrl": "/2023/09/28/6bc4fb25-1a46-423c-88ff-30d3d02acde2.jpeg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2023/09/28/6bc4fb25-1a46-423c-88ff-30d3d02acde2.jpeg?width=1024&quality=75&auto=webp",
+     "width": 3000,
+     "height": 2000,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "2667,1500,x287,y227"
+      },
+      {
+       "name": "1:1",
+       "crop": "1405,1405,x948,y233"
+      },
+      {
+       "name": "4:3",
+       "crop": "2667,2000,x333,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "1185,1580,x945,y276"
+      },
+      {
+       "name": "3:2",
+       "crop": "2667,1778,x167,y111"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "Was the daughter of the late Uzbek president arbitrarily arrested in her home country? Her lawyers are demanding her immediate release and criticizing the Swiss Federal Prosecutor's Office. This has consequences for the proceedings in Switzerland.",
+     "teaserAuthor": "Yves Forestier / Getty"
+    },
+    "teaserAuthor": "Yves Forestier / Getty",
+    "nzzasFootnote": false,
+    "folioFootnote": false,
+    "language": {
+     "locale": "de-CH"
+    },
+    "nzzId": "ld.1891793",
+    "readingTime": 180,
+    "authorLine": "Balz Bruppacher",
+    "characterCount": 3727,
+    "product": "NZZ.ch",
+    "documentId": "1891793",
+    "layout": "regular",
+    "publicationDate": "2025-07-02T16:00:00.000Z",
+    "publicationLastUpdated": "2025-07-03T14:11:27.843Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2025-07-03T04:00:00.000Z",
+    "teaserCaption": "Was the daughter of the late Uzbek president arbitrarily arrested in her home country? Her lawyers are demanding her immediate release and criticizing the Swiss Federal Prosecutor's Office. This has consequences for the proceedings in Switzerland.",
+    "url": "https://www.nzz.ch/schweiz/uno-menschenrechtsexperten-stufen-die-inhaftierung-von-gulnara-karimowa-als-willkuerlich-ein-ld.1891793",
+    "department": {
+     "name": "Switzerland",
+     "path": "/schweiz"
+    },
+    "estimationWordCount": 566,
+    "leadText": "Was the daughter of the late Uzbek president arbitrarily arrested in her home country? Her lawyers are demanding her immediate release and criticizing the Swiss Federal Prosecutor's Office. This has consequences for the proceedings in Switzerland.",
+    "nzzSummaryIsAuto": true
+   }
+  ]
+ },
+ "digitalData": {
+  "component": [
+   {
+    "id": "ld.10011305",
+    "name": "Uzbekistan: A country discovers its future in art",
+    "type": "article",
+    "subType1": "longformstandard",
+    "subType2": "",
+    "primaryCategory": "Feuilleton",
+    "subCategory1": "",
+    "attributes": {
+     "headline": "Uzbekistan: A country discovers its future in art",
+     "firstPublishTitle": "",
+     "catchline": "",
+     "authors": [],
+     "issueTimestamp": "2026-06-15T07:00:00.000Z",
+     "updateTimestamp": "2026-06-15T07:00:00.000Z",
+     "isSponsoredContent": false,
+     "isPro": false,
+     "isLiveticker": false,
+     "flag": "",
+     "owner": "NZZ"
+    }
+   }
+  ],
+  "page": {
+   "pageId": "ld.10011305",
+   "pageType": "longformstandard",
+   "primaryCategory": "Feuilleton",
+   "subCategory1": "",
+   "subCategory2": "",
+   "language": "en-US"
+  },
+  "version": "2.0",
+  "user": {},
+  "event": []
+ },
+ "seoData": {
+  "title": "Uzbekistan and Art: How a Country Shapes Its Future",
+  "image": {
+   "url": "https://img-msp-prod.nzz.ch/2026/06/14/9638f6e5-c8cc-46f3-b282-7a026566c54d.jpg?width=1200&height=675&fit=bounds&quality=75&auto=webp&crop=2362,1329,x0,y443&wmark=nzz",
+   "type": "image/jpeg",
+   "width": 1200,
+   "height": 675
+  },
+  "author": "Sabine B. Vogel",
+  "description": "A center for contemporary art in Tashkent, a biennial in Bukhara and a pavilion in Venice: uzbekistan's move into modernity is taking place between craftsmanship and conceptual art.",
+  "news_keywords": "Uzbekistan: A country discovers its future in art, Feuilleton, News, NZZ",
+  "type": "article",
+  "last-modified": "2026-06-15T11:00:00+02:00",
+  "date": "2026-06-15T11:00:00+02:00",
+  "canonical": "https://www.nzz.ch/feuilleton/usbekistan-und-die-kunst-wie-ein-land-seine-zukunft-gestaltet-ld.10011305",
+  "fb:app_id": 138008459595436,
+  "fb:pages": 143694099006529,
+  "fb:admins": 1592685173,
+  "locale": "de",
+  "email": "online.redaktion@nzz.ch",
+  "site_name": "Neue Zürcher Zeitung",
+  "copyright": "2026 Neue Zürcher Zeitung AG, Schweiz",
+  "robots": "noindex, nofollow, noarchive, noodp",
+  "hreflang": [],
+  "sharedTitle": "Uzbekistan: A country discovers its future in art",
+  "ogTitle": "Uzbekistan and Art: How a Country Shapes Its Future",
+  "ogUrl": "https://www.nzz.ch/feuilleton/usbekistan-und-die-kunst-wie-ein-land-seine-zukunft-gestaltet-ld.10011305",
+  "mrf:cms_id": "nzz:ld.10011305",
+  "mrf:sections": "Feuilleton",
+  "mrf:tags": "Page Type:longformstandard;Editorial Owner:NZZ;Content Type:Standard Article;Article ID:ld.10011305",
+  "nzzAuthors": [
+   {
+    "name": "Sabine B. Vogel"
+   }
+  ],
+  "links": [
+   {
+    "rel": "canonical",
+    "href": "https://www.nzz.ch/feuilleton/usbekistan-und-die-kunst-wie-ein-land-seine-zukunft-gestaltet-ld.10011305"
+   },
+   {
+    "rel": "search",
+    "href": "/suche",
+    "title": "Suche Neue Zürcher Zeitung, Schweiz, https://www.nzz.ch/suche"
+   }
+  ],
+  "renderedAt": "Thu, 03 Sep 2026 09:31:48 GMT"
+ },
+ "structuredData": [
+  {
+   "@context": "https://schema.org",
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "item": {
+      "@id": "/",
+      "name": "Home"
+     }
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "item": {
+      "@id": "/feuilleton",
+      "name": "Arts & Culture"
+     }
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Uzbekistan and Art: How a Country Shapes Its Future"
+    }
+   ]
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": "NewsArticle",
+   "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.nzz.ch/feuilleton/usbekistan-und-die-kunst-wie-ein-land-seine-zukunft-gestaltet-ld.10011305"
+   },
+   "headline": "Uzbekistan and Art: How a Country Shapes Its Future",
+   "datePublished": "2026-06-15T11:00:00+02:00",
+   "dateModified": "2026-06-15T11:00:00+02:00",
+   "publisher": {
+    "@type": "NewsMediaOrganization",
+    "name": "Neue Zürcher Zeitung",
+    "url": "https://www.nzz.ch",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://www.nzz.ch/logo.png",
+     "width": 413,
+     "height": 60
+    },
+    "contactPoint": [
+     {
+      "@type": "ContactPoint",
+      "telephone": "+41-44-2581000",
+      "contactType": "customer service"
+     }
+    ],
+    "sameAs": [
+     "https://www.facebook.com/nzz",
+     "https://www.twitter.com/nzz",
+     "https://www.youtube.com/channel/UCK1aTcR0AckQRLTlK0c4fuQ",
+     "https://www.linkedin.com/company/neue-zurcher-zeitung",
+     "https://www.instagram.com/nzz/",
+     "https://de.wikipedia.org/wiki/Neue_Z%C3%BCrcher_Zeitung",
+     "https://www.wikidata.org/wiki/Q658945",
+     "https://plus.google.com/+nzz/",
+     "http://www.freebase.com/m/041b43"
+    ],
+    "masthead": "https://www.nzz.ch/impressum/impressum-ld.148422",
+    "foundingDate": "1780"
+   },
+   "description": "A center for contemporary art in Tashkent, a biennial in Bukhara and a pavilion in Venice: uzbekistan's move into modernity is taking place between craftsmanship and conceptual art.",
+   "isAccessibleForFree": false,
+   "articleSection": "Feuilleton",
+   "hasPart": {
+    "@type": "WebPageElement",
+    "isAccessibleForFree": false,
+    "cssSelector": ".nzzinteraction"
+   },
+   "image": {
+    "@type": "ImageObject",
+    "url": "https://img-msp-prod.nzz.ch/2026/06/14/9638f6e5-c8cc-46f3-b282-7a026566c54d.jpg?width=1200&height=675&fit=bounds&quality=75&auto=webp&crop=2362,1329,x0,y443&wmark=nzz",
+    "width": 1200,
+    "height": 675
+   },
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Sabine B. Vogel"
+    }
+   ],
+   "inLanguage": "de"
+  }
+ ],
+ "mp3": true,
+ "mp3Duration": 785976,
+ "bT": {
+  "standard": {
+   "Tags": [
+    "/feuilleton/usbekistan-und-die-kunst-wie-ein-land-seine-zukunft-gestaltet-ld.10011305",
+    "classification=default",
+    "relevance=germany",
+    "layout=longformstandard",
+    "owner=nzz",
+    "product=nzz",
+    "doctype=article",
+    "pagetype=article",
+    "ldid=ld.10011305",
+    "channel=Feuilleton"
+   ],
+   "ContentCreated": "2026-06-15T07:00:00.000Z",
+   "ContentAuthor": "Sabine B. Vogel",
+   "ContentSection": "Feuilleton",
+   "ContentIsNative": true
+  },
+  "custom": {
+   "product": "nzz",
+   "docType": "article",
+   "pageType": "article",
+   "layout": "longformstandard",
+   "nzzAbstract": "Wie prägt die Biennale in Buchara Usbekistans Kunstszene?\nWelche Rolle spielt der Aralsee in Usbekistans Kunstprojekten?\nWie verbindet Usbekistan Tradition und Moderne in der Kunst?",
+   "ldId": "ld.10011305",
+   "channel": "Feuilleton",
+   "heading": "Usbekistan: Ein Land entdeckt in der Kunst seine Zukunft",
+   "language": "en-US"
+  }
+ },
+ "webviewMetadata": {},
+ "cacheTime": 3600
+}

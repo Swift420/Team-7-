@@ -1,0 +1,187 @@
+{
+  "_id": "918a51e86457ce5db223e7ba09f89719",
+  "_rev": "6-b2ce41c28ca5c7828768fe1a2fc117ee",
+  "tool": "locator_map",
+  "title": "Alternative Routen zur Strasse von Malakka",
+  "active": true,
+  "acronym": "paz.",
+  "options": {
+    "scale": {
+      "options": {
+        "position": "bottom-left"
+      }
+    },
+    "minimap": {
+      "options": {
+        "type": "globe",
+        "position": "top-left"
+      },
+      "showMinimap": false
+    },
+    "baseLayer": {
+      "style": "basic",
+      "layers": {
+        "label": false
+      }
+    },
+    "dimension": {
+      "useDefaultAspectRatio": true
+    },
+    "showLegend": false,
+    "labelsBelowMap": false,
+    "highlightRegion": [
+      {
+        "id": "Q252",
+        "label": "Brunei"
+      }
+    ],
+    "initialZoomLevel": -1,
+    "labelsBelowMapOneRow": false
+  },
+  "sources": [],
+  "subtitle": "",
+  "createdBy": "patrick.zoll@nzz.ch",
+  "updatedBy": "patrick.zoll@nzz.ch",
+  "department": "International",
+  "createdDate": "2026-04-28T07:22:06.630Z",
+  "geojsonList": [
+    {
+      "id": "custom-layer-xWNk6R88rUVHSD1OuO9mX",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.63649239883938,
+          4.667285805526305
+        ]
+      },
+      "properties": {
+        "type": "water",
+        "index": 0,
+        "label": "Strasse von Malakka",
+        "labelPosition": "top"
+      }
+    },
+    {
+      "id": "custom-layer-vP3aJXG8bWPd92BgEOdOy",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.8715059866147,
+          -8.400280333424988
+        ]
+      },
+      "properties": {
+        "type": "water",
+        "index": 0,
+        "label": "Lombok-Strasse",
+        "labelPosition": "top"
+      }
+    },
+    {
+      "id": "custom-layer-nD9SNHOyYQ58QOMi6DoY8",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.74207715025112,
+          -5.973902902512378
+        ]
+      },
+      "properties": {
+        "type": "water",
+        "index": 0,
+        "label": "Sunda-Strasse",
+        "labelPosition": "top"
+      }
+    },
+    {
+      "id": "custom-layer-6k0O_BTy58tkVcZ6LdBVP",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.1708205230462,
+          -10.288281007875838
+        ]
+      },
+      "properties": {
+        "type": "water",
+        "index": 0,
+        "label": "Indischer Ozean",
+        "labelPosition": "top"
+      }
+    },
+    {
+      "id": "custom-layer-Cfcg5Ya56qE7dRrCaf0ng",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.31073978571244,
+          -2.052773908385447
+        ]
+      },
+      "properties": {
+        "type": "country",
+        "index": 0,
+        "label": "Indonesien",
+        "labelPosition": "top"
+      }
+    },
+    {
+      "id": "custom-layer-YGIky9dgCqfd8czp0puRF",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.48039369513486,
+          -4.909416038871797
+        ]
+      },
+      "properties": {
+        "type": "water",
+        "index": 0,
+        "label": "Javasee",
+        "labelPosition": "top"
+      }
+    },
+    {
+      "id": "custom-layer-BsJP0nfBa1ah4djORtuwH",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.00559458048345,
+          7.188786780624014
+        ]
+      },
+      "properties": {
+        "type": "water",
+        "index": 0,
+        "label": "Südchinesisches Meer",
+        "labelPosition": "top"
+      }
+    },
+    {
+      "id": "custom-layer-YptNmPHxRpNgFtCAMZ9a9",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.85567251592876,
+          1.3081408236429988
+        ]
+      },
+      "properties": {
+        "type": "point",
+        "index": 0,
+        "label": "Singapur",
+        "labelPosition": "top"
+      }
+    }
+  ],
+  "publication": "nzz",
+  "updatedDate": "2026-04-30T09:19:30.146Z"
+}

@@ -1,0 +1,26 @@
+{
+  "params": {
+    "id": "e04b3f8213be4c15620cb6c2d346d388",
+    "conf": {},
+    "toolConfig": {},
+    "toolRuntimeConfig": {
+      "size": {
+        "width": [
+          {
+            "value": 100,
+            "comparison": ">"
+          }
+        ]
+      },
+      "displayOptions": {
+        "size": "basic",
+        "hideTitle": false,
+        "hideFooter": false,
+        "hideAcronym": false,
+        "hideSubtitle": false
+      }
+    }
+  },
+  "position": 49,
+  "component_id": "doc-1iv91j3iv0"
+}

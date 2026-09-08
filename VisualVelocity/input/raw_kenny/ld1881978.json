@@ -1,0 +1,1576 @@
+{
+ "content": [
+  {
+   "identifier": "header",
+   "id": "doc-1ipuis52t0",
+   "content": {
+    "title": "Thanks to Trump: In Canada, Mark Carney's Liberals defeat the Conservatives",
+    "lead": "For a long time, it looked like a change of power was imminent. But after the American president alienated the Canadians, the Liberals won the parliamentary election and Carney remained Prime Minister.",
+    "authorline": "David Signer, Chicago",
+    "author": "David Signer, Chicago"
+   },
+   "containers": {
+    "authors": []
+   },
+   "prevElement": "",
+   "nextElement": "image",
+   "firstContentElement": true
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1iq0gh2uu1",
+   "content": {
+    "image": {
+     "author": "Carlos Osorio / Reuters",
+     "caption": "Mark Carney and his wife Diana Fox Carney are being celebrated in Ottawa.",
+     "originalUrl": "/2025/04/29/7d9768bc-dad2-4891-b44a-ca82b9dabe21.jpeg?width=1024",
+     "width": 5500,
+     "height": 3667,
+     "altText": "Canada's Prime Minister Mark Carney hugs his wife Diana Fox Carney at the Liberal Party election night headquarters in Ottawa, Ontario, Canada April 29, 2025. REUTERS/Carlos Osorio",
+     "origins": [
+      {
+       "name": "Hugo",
+       "identifier": "2168963182"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "caption": "Mark Carney and his wife Diana Fox Carney are being celebrated in Ottawa.",
+    "author": "Carlos Osorio / Reuters"
+   },
+   "prevElement": "header",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iq0vsstr1",
+   "content": {
+    "text": "Canada's ruling Liberal Party won Monday's parliamentary election. However, it is now clear that they narrowly missed an absolute majority. At least 172 seats would have been needed for an absolute majority in parliament in the capital, Ottawa."
+   },
+   "data": {},
+   "prevElement": "image",
+   "nextElement": "barrier"
+  },
+  {
+   "id": "doc-6d60cc05",
+   "identifier": "barrier",
+   "prevElement": "p-text",
+   "nextElement": "q-embed"
+  },
+  {
+   "identifier": "q-embed",
+   "id": "doc-1ipvqe4bm0",
+   "content": {
+    "q-embed": {
+     "service": "q-tool",
+     "params": {
+      "id": "a02936c58815d506796673dd0d176a16",
+      "conf": {},
+      "toolConfig": {},
+      "toolRuntimeConfig": {
+       "size": {
+        "width": [
+         {
+          "value": 100,
+          "comparison": ">"
+         }
+        ]
+       },
+       "displayOptions": {
+        "hideTitle": true,
+        "hideSubtitle": false,
+        "hideFooter": false,
+        "hideAcronym": false
+       },
+       "locale": "en_US"
+      },
+      "size": "content"
+     },
+     "resolvedValue": {}
+    },
+    "html": "      <div        class=\"q-election_seats-container\"        id=\"q_election_seats_a02936c58815d506796673dd0d176a16_q787cb3a9be5944c0b72212aaa94d3530_container\"        data-q-item-id=\"a02936c58815d506796673dd0d176a16\"        data-q-request-id=\"047bb1e6cdc1a28b8fd9826431aa52d5f862f42c\"      ></div>",
+    "stylesheets": [
+     {
+      "type": "remote",
+      "content": "https://service.sophie.nzz.ch/bundle/sophie-color%23master,sophie-font%23master,sophie-legend%23master[icon-label],sophie-q%23master,sophie-viz-color%23master[parties].css"
+     },
+     {
+      "type": "inline",
+      "content": "  @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff) format(\"woff\");  }    @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff) format(\"woff\");    unicode-range: U+0020-00FF,U+2005,U+2082;  }      "
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/css-theme-layer/nzz-0.2.0.css"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/electionSeats/q-electionSeats-1.1.10.css"
+     }
+    ],
+    "scripts": [
+     {
+      "type": "inline",
+      "content": "function qTrackingBootstrap(t,e,n){if(window.digitalData&&window.digitalData.component&&window.digitalData.component.push){window.digitalData.component.push(t),window.digitalData.event&&window.digitalData.event.length||(window.digitalData.event=[]);var i=new Date,a=e;a.eventInfo.timeStamp=i.toISOString(),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\");var o=document.querySelectorAll(\"[data-q-request-id='\"+n+\"']\");[].forEach.call(o,function(t){t.addEventListener(\"q-tracking-event\",function(t){var e=new Date;(a=JSON.parse(JSON.stringify(a))).eventInfo.timeStamp=e.toISOString(),a.eventInfo=Object.assign(a.eventInfo,t.detail.eventInfo),a.category=Object.assign(a.category,t.detail.category),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\")},!1)})}};qTrackingBootstrap({\"componentInfo\":{\"componentName\":\"Q\",\"componentID\":\"a02936c58815d506796673dd0d176a16\"},\"category\":{\"componentType\":\"storytelling\",\"componentSubType1\":\"Q graphic\",\"componentSubType2\":\"election_seats\"}},{\"eventInfo\":{\"eventName\":\"Storytelling Interaction\",\"eventAction\":\"load\",\"type\":\"story\",\"componentName\":\"Q\",\"eventNonInteractive\":true,\"componentID\":\"a02936c58815d506796673dd0d176a16\"},\"category\":{\"primaryCategory\":\"storytelling\",\"subCategory1\":\"Q graphic\",\"subCategory2\":\"election_seats\"}},\"047bb1e6cdc1a28b8fd9826431aa52d5f862f42c\")"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/electionSeats/q-electionSeats-1.1.10.js"
+     },
+     {
+      "type": "inline",
+      "content": "      (function () {        function initialize() {          const target = document.querySelector('#q_election_seats_a02936c58815d506796673dd0d176a16_q787cb3a9be5944c0b72212aaa94d3530_container');          if (!target) return;          target.innerHTML = '';          const qdoc = {\"_id\":\"a02936c58815d506796673dd0d176a16\",\"title\":\"Liberals fail to secure an absolute majority\",\"subtitle\":\"Seat distribution in the Canadian Parliament after the 2025 election\",\"publication\":\"nzz\",\"acronym\":\"jum.\",\"options\":{\"hideUpdatedDate\":false},\"parties\":[{\"name\":\"Liberals\",\"color\":{\"colorCode\":\"#d71920\"},\"seats\":169,\"previous\":160},{\"name\":\"Conservatives\",\"color\":{\"colorCode\":\"#0b2643\"},\"seats\":144,\"previous\":119},{\"name\":\"Bloc Québécois\",\"color\":{\"colorCode\":\"#093c71\"},\"seats\":22,\"previous\":32},{\"name\":\"New Democratic Party (NDP)\",\"color\":{\"colorCode\":\"#f89920\"},\"seats\":7,\"previous\":25},{\"name\":\"Green Party\",\"color\":{\"colorCode\":\"#66a622\"},\"seats\":1,\"previous\":2}],\"totalSeats\":343,\"sources\":[{\"text\":\"CTV News\",\"link\":{\"url\":\"https://www.ctvnews.ca/federal-election-2025/\"}}],\"updatedDate\":\"2025-04-30T06:54:08.368Z\",\"notes\":\"172 seats are needed for an absolute majority.</br> As of April 30th, 9 a.m\"};          const toolRuntimeConfig = {\"displayOptions\":{\"hideTitle\":true,\"hideSubtitle\":false,\"hideFooter\":false,\"hideAcronym\":false},\"size\":{\"width\":[{\"value\":100,\"comparison\":\">\"}]},\"locale\":\"en-US\"};          const toolSettings = {\"qItemInstanceId\":\"q_election_seats_a02936c58815d506796673dd0d176a16_q787cb3a9be5944c0b72212aaa94d3530\"};          let attempts = 0;          const maxAttempts = 100;          const checkAndInitialize = setInterval(() => {            if (window.qElectionSeats) {              clearInterval(checkAndInitialize);              new window.qElectionSeats({ target: target, props: {                qdoc: qdoc,                toolSettings: toolSettings,                toolRuntimeConfig: toolRuntimeConfig              } });            } else {              attempts++;              if (attempts >= maxAttempts) {                clearInterval(checkAndInitialize);                console.error('Failed to initialize qElectionSeats after 30 seconds');              }            }          }, 300);        }        if (document.body.classList.contains('pagedone')) {          initialize();        } else {          window.addEventListener('pagedone', initialize);        }      })();    "
+     }
+    ]
+   },
+   "paidContent": true,
+   "prevElement": "barrier",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1ipvnkj831",
+   "content": {
+    "text": "Mark Carney now needs the support of smaller parties – such as the social-democratic New Democratic Party (NDP), the regional party Bloc Québécois, or the Greens – to form a minority government. Minority governments in Canada typically last only a few years. However, in the current political landscape, it should be significantly easier for the Liberals to enter into a coalition with a smaller party than it would be for the Conservatives."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "q-embed",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iq0r2vcf0",
+   "content": {
+    "text": "Both the Liberals and the Conservatives made significant gains <a target=\"_blank\" href=\"https://www.bbc.com/news/articles/cn4jd39g8y1o\">compared to the last elections</a> in 2021. These gains came primarily at the expense of the left-wing New Democratic Party (NDP), which lost more than ten percentage points. Its leader, Jagmeet Singh, also lost his seat in parliament, as did the Conservative leader, Pierre Poilievre."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "q-embed"
+  },
+  {
+   "identifier": "q-embed",
+   "id": "doc-1iq0beqd90",
+   "content": {
+    "q-embed": {
+     "service": "q-tool",
+     "params": {
+      "id": "7e524653bbb3014e32d5d164fc3b5e49",
+      "conf": {},
+      "toolConfig": {},
+      "toolRuntimeConfig": {
+       "size": {
+        "width": [
+         {
+          "value": 100,
+          "comparison": ">"
+         }
+        ]
+       },
+       "displayOptions": {
+        "hideTitle": true,
+        "hideSubtitle": false,
+        "hideFooter": false,
+        "hideAcronym": false
+       },
+       "locale": "en_US"
+      },
+      "size": "content"
+     },
+     "resolvedValue": {}
+    },
+    "html": "      <div        class=\"q-election_votes-container\"        id=\"q_election_votes_7e524653bbb3014e32d5d164fc3b5e49_qe5ffce9698894e4d860c7c5d43cf6c4f_container\"        data-q-item-id=\"7e524653bbb3014e32d5d164fc3b5e49\"        data-q-request-id=\"fca187010c010df9f526451d6c1a965438e87176\"      ></div>",
+    "stylesheets": [
+     {
+      "type": "remote",
+      "content": "https://service.sophie.nzz.ch/bundle/sophie-color%23master,sophie-font%23master,sophie-legend%23master[icon-label],sophie-q%23master,sophie-viz-color%23master[parties].css"
+     },
+     {
+      "type": "inline",
+      "content": "  @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff) format(\"woff\");  }    @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff) format(\"woff\");    unicode-range: U+0020-00FF,U+2005,U+2082;  }      "
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/css-theme-layer/nzz-0.2.0.css"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/electionVotes/q-electionVotes-1.1.10.css"
+     }
+    ],
+    "scripts": [
+     {
+      "type": "inline",
+      "content": "function qTrackingBootstrap(t,e,n){if(window.digitalData&&window.digitalData.component&&window.digitalData.component.push){window.digitalData.component.push(t),window.digitalData.event&&window.digitalData.event.length||(window.digitalData.event=[]);var i=new Date,a=e;a.eventInfo.timeStamp=i.toISOString(),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\");var o=document.querySelectorAll(\"[data-q-request-id='\"+n+\"']\");[].forEach.call(o,function(t){t.addEventListener(\"q-tracking-event\",function(t){var e=new Date;(a=JSON.parse(JSON.stringify(a))).eventInfo.timeStamp=e.toISOString(),a.eventInfo=Object.assign(a.eventInfo,t.detail.eventInfo),a.category=Object.assign(a.category,t.detail.category),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\")},!1)})}};qTrackingBootstrap({\"componentInfo\":{\"componentName\":\"Q\",\"componentID\":\"7e524653bbb3014e32d5d164fc3b5e49\"},\"category\":{\"componentType\":\"storytelling\",\"componentSubType1\":\"Q graphic\",\"componentSubType2\":\"election_votes\"}},{\"eventInfo\":{\"eventName\":\"Storytelling Interaction\",\"eventAction\":\"load\",\"type\":\"story\",\"componentName\":\"Q\",\"eventNonInteractive\":true,\"componentID\":\"7e524653bbb3014e32d5d164fc3b5e49\"},\"category\":{\"primaryCategory\":\"storytelling\",\"subCategory1\":\"Q graphic\",\"subCategory2\":\"election_votes\"}},\"fca187010c010df9f526451d6c1a965438e87176\")"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/electionVotes/q-electionVotes-1.1.10.js"
+     },
+     {
+      "type": "inline",
+      "content": "      (function () {        function initialize() {          const target = document.querySelector('#q_election_votes_7e524653bbb3014e32d5d164fc3b5e49_qe5ffce9698894e4d860c7c5d43cf6c4f_container');          if (!target) return;          target.innerHTML = '';          const qdoc = {\"_id\":\"7e524653bbb3014e32d5d164fc3b5e49\",\"title\":\"tba.\",\"subtitle\":\"Vote share in the 2025 parliamentary elections compared to 2021\",\"publication\":\"nzz\",\"acronym\":\"jum.\",\"sources\":[{\"text\":\"CTV News\",\"link\":{\"url\":\"https://www.ctvnews.ca/federal-election-2025/\"}}],\"errorMarginLabels\":{\"bestGuessLabel\":\"Projection\",\"errorMarginLabel\":\"Error margin\"},\"options\":{\"hideUpdatedDate\":false},\"parties\":[{\"name\":\"Liberals\",\"color\":{\"colorCode\":\"#d71920\",\"classAttribute\":\"\"},\"errorMargin\":{\"bestGuess\":0,\"lower\":0,\"upper\":0},\"percentage\":43.5,\"previous\":32.6},{\"name\":\"Conservatives\",\"color\":{\"colorCode\":\"#0b2643\",\"classAttribute\":\"\"},\"errorMargin\":{\"bestGuess\":0,\"lower\":0,\"upper\":0},\"percentage\":41.4,\"previous\":33.7},{\"name\":\"New Democratic Party (NDP)\",\"color\":{\"colorCode\":\"#f89920\",\"classAttribute\":\"\"},\"errorMargin\":{\"bestGuess\":0,\"lower\":0,\"upper\":0},\"percentage\":6.2,\"previous\":17.8},{\"name\":\"Bloc Québécois\",\"color\":{\"colorCode\":\"#093c71\",\"classAttribute\":\"\"},\"errorMargin\":{\"bestGuess\":0,\"lower\":0,\"upper\":0},\"percentage\":6.4,\"previous\":7.6},{\"name\":\"Green Party\",\"color\":{\"colorCode\":\"#66a622\",\"classAttribute\":\"\"},\"errorMargin\":{\"bestGuess\":0,\"lower\":0,\"upper\":0},\"percentage\":1.3,\"previous\":2.3},{\"name\":\"Other\",\"color\":{\"colorCode\":\"#616161\",\"classAttribute\":\"\"},\"errorMargin\":{\"bestGuess\":0,\"lower\":0,\"upper\":0},\"percentage\":1,\"previous\":5.9}],\"threshold\":0,\"withErrorMargin\":false,\"updatedDate\":\"2025-04-29T08:43:14.279Z\",\"notes\":\"172 seats are needed for an absolute majority.</br> Status: 10:30 a.m\"};          const toolRuntimeConfig = {\"displayOptions\":{\"hideTitle\":true,\"hideSubtitle\":false,\"hideFooter\":false,\"hideAcronym\":false},\"size\":{\"width\":[{\"value\":100,\"comparison\":\">\"}]},\"locale\":\"en-US\"};          const toolSettings = {\"qItemInstanceId\":\"q_election_votes_7e524653bbb3014e32d5d164fc3b5e49_qe5ffce9698894e4d860c7c5d43cf6c4f\"};          let attempts = 0;          const maxAttempts = 100;          const checkAndInitialize = setInterval(() => {            if (window.qElectionVotes) {              clearInterval(checkAndInitialize);              new window.qElectionVotes({ target: target, props: {                qdoc: qdoc,                toolSettings: toolSettings,                toolRuntimeConfig: toolRuntimeConfig              } });            } else {              attempts++;              if (attempts >= maxAttempts) {                clearInterval(checkAndInitialize);                console.error('Failed to initialize qElectionVotes after 30 seconds');              }            }          }, 300);        }        if (document.body.classList.contains('pagedone')) {          initialize();        } else {          window.addEventListener('pagedone', initialize);        }      })();    "
+     }
+    ]
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1ipvnnc5g0",
+   "content": {
+    "title": "Trump brought about the change",
+    "id": "subtitle-trump-brachte-die-wende"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "q-embed",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1ipuis52t1",
+   "content": {
+    "text": "The high voter turnout already indicated that this was a pivotal election. 7.3 million of the 29 million eligible voters cast their ballots before election day – a record high. Voter turnout, at 67 percent, was also higher than in the last election."
+   },
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1ipvrq9450",
+   "content": {
+    "text": "Indeed, the world's second-largest country by area had rarely experienced such a radical shift in public opinion in such a short time. Until three months ago, polls showed Poilievre's Conservatives clearly in the lead, with no chance for the Liberals to close the gap. But then the aggressive tariff policies and annexation threats of US President Donald Trump threw Canadian politics into disarray. They unexpectedly boosted the popularity of none other than Trump's opponent, the liberal economist Carney. Suddenly, the banker, who had no political experience whatsoever, was the man of the hour."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1ipvt4p1q0",
+   "content": {
+    "text": "On election day itself, Trump posted on his network <a target=\"_blank\" href=\"https://truthsocial.com/@realDonaldTrump/posts/114415618596069518\">Truth Social</a> that Canadians should vote for him. «Stay out of our elections,» Pierre Poilievre countered on X, and Carney replied, also on X: «This is Canada – we decide what happens here.»"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1ipvmrg9g0",
+   "content": {
+    "text": "Canadians rallied together in their resistance against Trump. A wave of patriotism swept through the country. Many are now boycotting American goods, no longer traveling to the USA, flying Canadian flags, and wearing caps that read «Canada is not for sale.»"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "image"
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1iq0gqr311",
+   "content": {
+    "image": {
+     "author": "Patrick Doyle / Reuters",
+     "caption": "Conservative candidate Pierre Poilievre with his wife Anaida.",
+     "originalUrl": "/2025/04/29/2cbcdc66-2939-43f0-986a-da069ae1ffc2.jpeg?width=1024",
+     "width": 8192,
+     "height": 5464,
+     "altText": "Conservative Party of Canada's leader Pierre Poilievre gestures as he walks along with his wife Anaida Poilievre at his election night headquarters in Ottawa, Ontario, Canada April 29, 2025. REUTERS/Patrick Doyle",
+     "origins": [
+      {
+       "name": "Hugo",
+       "identifier": "2168961674"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "caption": "Conservative candidate Pierre Poilievre with his wife Anaida.",
+    "author": "Patrick Doyle / Reuters"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1ipvmuek00",
+   "content": {
+    "title": "«Canada first» candidate versus experienced crisis manager",
+    "id": "subtitle-canada-first-kandidat-gegen-erfahrenen-krisenmanager"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "image",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1ipvmrg9r0",
+   "content": {
+    "text": "This made the election campaign difficult for the conservative candidate Poilievre, whose rhetoric was modeled on Trump's. His polarizing style suddenly seemed out of touch in light of the new unity. The 45-year-old, who campaigns for low taxes and cuts in government spending, repeatedly spoke of fake news, just like Trump, warned in apocalyptic tones against the woke ideology of radical left-wing forces, and promised to always put Canada first – «Canada first.» This approach resonated well for a long time – until Trump became president again and attacked Canada, its long-time close ally, in a way that no one would have thought possible."
+   },
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1ipvsmtih0",
+   "content": {
+    "text": "«Canada’s old relationship with the United States, based on the intertwining of our economies and close security and military cooperation, is over,» Carney declared."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1ipvmrga30",
+   "content": {
+    "text": "The liberal economic expert brings national and international crisis experience and is considered resilient. During the financial crisis, he headed the Bank of Canada from 2008. Canada's relatively successful weathering of the global turmoil at that time is also attributed to him."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1ipvmrga70",
+   "content": {
+    "text": "Between 2013 and 2020, Carney served as Governor of the Bank of England during the chaotic Brexit period, and subsequently as UN Special Envoy for Climate Change until January of this year. He advocates for closer cooperation with Europe and Asia to reduce economic dependence on the US. He also wants to eliminate trade barriers between Canadian provinces to promote the single market. Although Poilievre attempted to portray his opponent Carney as a clone of Trudeau during the election campaign, he was unsuccessful. The election results confirm what polls had already clearly shown: most Canadians believe Carney is better equipped than Poilievre to stand up to Trump."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1ipvn12d80",
+   "content": {
+    "title": "Trudeau's departure",
+    "id": "subtitle-trudeaus-abgang"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1ipvmrgak0",
+   "content": {
+    "text": "«I have handled crises before,» Carney repeatedly said during the election campaign. And, with a clear dig at the right-wing populist Poilievre and his provocative style: «This is a time that requires experience, not experiments.»"
+   },
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1ipvrtfmd0",
+   "content": {
+    "text": "The Liberal Party has been in power in Canada, a G7 country with around 40 million inhabitants, for about ten years, initially with an absolute majority, then with a minority government, and until recently under the leadership of Justin Trudeau. He was long admired as a charismatic golden boy."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1ipvmrgar0",
+   "content": {
+    "text": "Faced with a weakening economy and rising prices, however, the pressure on him increased, and his popularity declined. At the beginning of the year, Trudeau announced his resignation. Following an internal party vote, Carney was elected the new party leader and thus automatically also Prime Minister. Shortly after his election, he called a snap election, thereby initiating the revival of the struggling Liberals. Now, strengthened and with the support of the population, Carney can enter the fight against Trump."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iq0rk7fm0",
+   "content": {
+    "text": "In his victory speech, Carney said, «America wants our land, our resources, our water.» He cautioned that these were not empty threats; rather, the aggressive tariff policies and annexation threats were interconnected: «President Trump is trying to break us so that America can own us—but that will never happen.» Carney is trying to look to the future with optimism, but it is clear how deeply Trump's actions have affected Canadians: «We have overcome the shock of American betrayal, but we should never forget the lessons.»"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "sharebox",
+   "lastContentElement": true
+  },
+  {
+   "identifier": "sharebox",
+   "id": "doc-1ipuis52t2",
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "related-articles-container"
+  },
+  {
+   "identifier": "related-articles-container",
+   "id": "doc-1ipuis52t3",
+   "content": {
+    "title": "Related articles"
+   },
+   "containers": {
+    "related-articles": [
+     {
+      "identifier": "teaser",
+      "id": "doc-1ipuis52t4",
+      "content": {
+       "owner": "NZZ",
+       "title": "Trump is also shaking up Canada – even in conservative Calgary",
+       "teaserImage": {
+        "originalUrl": "/2025/04/25/0bc08c2e-e2ad-48b9-b169-52560543fd96.jpeg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2025/04/25/0bc08c2e-e2ad-48b9-b169-52560543fd96.jpeg?width=1024&quality=75&auto=webp",
+        "width": 5500,
+        "height": 4223,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "5500,3094,x0,y0"
+         },
+         {
+          "name": "1:1",
+          "crop": "2636,2636,x1383,y0"
+         },
+         {
+          "name": "4:3",
+          "crop": "5500,4125,x0,y10"
+         },
+         {
+          "name": "3:4",
+          "crop": "3167,4223,x803,y0"
+         }
+        ],
+        "imageService": "fastly",
+        "teaserCaption": "The Canadian elections on Monday are dominated by Trump and his tariff threats. Paradoxically, the American president has helped the Liberals, under the new Prime Minister Mark Carney, to experience a revival.",
+        "teaserAuthor": "Todd Korol / Reuters"
+       },
+       "teaserAuthor": "Todd Korol / Reuters",
+       "nzzasFootnote": false,
+       "folioFootnote": false,
+       "language": {
+        "locale": "de-CH"
+       },
+       "nzzId": "ld.1879639",
+       "readingTime": 540,
+       "authorLine": "David Signer, Calgary",
+       "characterCount": 11576,
+       "product": "NZZ.ch",
+       "documentId": 1879639,
+       "layout": "longformstandard",
+       "publicationDate": "2025-04-26T03:30:00.000Z",
+       "publicationLastUpdated": "2025-04-26T03:30:00.000Z",
+       "significantUpdate": false,
+       "significantUpdateTill": "2025-04-26T15:30:00.000Z",
+       "teaserCaption": "The Canadian elections on Monday are dominated by Trump and his tariff threats. Paradoxically, the American president has helped the Liberals, under the new Prime Minister Mark Carney, to experience a revival.",
+       "url": "/international/trump-wirbelt-auch-kanada-durcheinander-selbst-im-konservativen-calgary-zollt-man-carney-nun-respekt-ld.1879639",
+       "department": {
+        "name": "International",
+        "path": "/international"
+       },
+       "estimationWordCount": 1766,
+       "leadText": "The Canadian elections on Monday are dominated by Trump and his tariff threats. Paradoxically, the American president has helped the Liberals, under the new Prime Minister Mark Carney, to experience a revival.",
+       "nzzSummaryIsAuto": true,
+       "hasQ": true
+      }
+     },
+     {
+      "identifier": "teaser",
+      "id": "doc-1iq0sgo150",
+      "content": {
+       "owner": "NZZ",
+       "flag": "Opinion",
+       "title": "Canada, with Mark Carney at the helm, is prepared for the power struggle with the US. But Trump is not the only problem",
+       "teaserImage": {
+        "originalUrl": "/2025/04/29/75debf97-8d48-47e2-bbaf-f378b7bce7e9.jpeg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2025/04/29/75debf97-8d48-47e2-bbaf-f378b7bce7e9.jpeg?width=1024&quality=75&auto=webp",
+        "width": 6500,
+        "height": 4150,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "6500,3656,x0,y211"
+         },
+         {
+          "name": "1:1",
+          "crop": "3279,3279,x1568,y705"
+         },
+         {
+          "name": "4:3",
+          "crop": "5533,4150,x483,y0"
+         },
+         {
+          "name": "3:4",
+          "crop": "3113,4150,x1694,y0"
+         }
+        ],
+        "imageService": "fastly",
+        "teaserCaption": "The US president's threats dominated the Canadian elections. But the economy is struggling not only because of its neighbor's tariff policies. Reforms are urgently needed.",
+        "teaserAuthor": "Carlos Osorio / Reuters"
+       },
+       "teaserAuthor": "Carlos Osorio / Reuters",
+       "nzzasFootnote": false,
+       "folioFootnote": false,
+       "language": {
+        "locale": "de-CH"
+       },
+       "nzzId": "ld.1882004",
+       "readingTime": 180,
+       "showComments": true,
+       "authorLine": "Werner J. Marti",
+       "characterCount": 4127,
+       "product": "NZZ.ch",
+       "documentId": 1882004,
+       "layout": "opinion",
+       "publicationDate": "2025-04-29T09:45:06.723Z",
+       "publicationLastUpdated": "2025-04-29T16:59:41.820Z",
+       "significantUpdate": false,
+       "significantUpdateTill": "2025-04-29T21:45:06.723Z",
+       "teaserCaption": "The US president's threats dominated the Canadian elections. But the economy is struggling not only because of its neighbor's tariff policies. Reforms are urgently needed.",
+       "authorImage": {
+        "originalUrl": "/2022/06/22/68c7213d-4eb5-4071-82c0-669558e11237.png?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2022/06/22/68c7213d-4eb5-4071-82c0-669558e11237.png?width=1024&quality=75&auto=webp",
+        "width": 800,
+        "height": 800,
+        "crops": [
+         {
+          "name": "1:1",
+          "crop": "800,800,x0,y0"
+         }
+        ],
+        "imageService": "fastly"
+       },
+       "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2022/06/22/68c7213d-4eb5-4071-82c0-669558e11237.png?width=1024&quality=75&auto=webp",
+       "url": "/meinung/wahlen-in-kanada-die-usa-sind-nicht-das-einzige-problem-von-mark-carney-ld.1882004",
+       "department": {
+        "name": "Opinion",
+        "path": "/meinung"
+       },
+       "estimationWordCount": 656,
+       "leadText": "The US president's threats dominated the Canadian elections. But the economy is struggling not only because of its neighbor's tariff policies. Reforms are urgently needed."
+      }
+     },
+     {
+      "identifier": "teaser",
+      "id": "doc-1ipuis52t5",
+      "content": {
+       "owner": "NZZ",
+       "title": "In Canada, there is fear, disappointment, and anger in the face of Trump's aggressive course",
+       "teaserImage": {
+        "originalUrl": "/2025/02/25/064bbedf-11a0-419b-8802-9d030ba911d9.jpeg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2025/02/25/064bbedf-11a0-419b-8802-9d030ba911d9.jpeg?width=1024&quality=75&auto=webp",
+        "width": 5501,
+        "height": 3667,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "5501,3094,x0,y112"
+         },
+         {
+          "name": "1:1",
+          "crop": "892,892,x1477,y1651"
+         },
+         {
+          "name": "4:3",
+          "crop": "4346,3260,x712,y0"
+         },
+         {
+          "name": "3:4",
+          "crop": "1526,2035,x1399,y1632"
+         }
+        ],
+        "imageService": "fastly",
+        "teaserCaption": "The American president is threatening Canada with 25 percent import tariffs, insulting Prime Minister Trudeau, and even speaking of annexation. In the Canadian border town of Windsor, residents are discussing feelings of betrayal, the looming economic crisis, and a newfound patriotism.",
+        "teaserAuthor": "PD"
+       },
+       "teaserAuthor": "PD",
+       "nzzasFootnote": false,
+       "folioFootnote": false,
+       "teaserCarouselOne": {
+        "originalUrl": "/2025/02/25/4788aa82-bca6-4309-8545-a60719dd3913.jpeg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2025/02/25/4788aa82-bca6-4309-8545-a60719dd3913.jpeg?width=1024&quality=75&auto=webp",
+        "width": 5982,
+        "height": 3988,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "5982,3365,x0,y180"
+         },
+         {
+          "name": "1:1",
+          "crop": "1228,1228,x1163,y1102"
+         },
+         {
+          "name": "4:3",
+          "crop": "5317,3988,x254,y0"
+         },
+         {
+          "name": "3:4",
+          "crop": "2991,3988,x0,y0"
+         }
+        ],
+        "imageService": "fastly"
+       },
+       "teaserCarouselTwo": {
+        "originalUrl": "/2025/02/25/7a79fd98-b4dc-49a0-898e-0b60eab93163.jpeg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2025/02/25/7a79fd98-b4dc-49a0-898e-0b60eab93163.jpeg?width=1024&quality=75&auto=webp",
+        "width": 5880,
+        "height": 3920,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "5880,3307,x0,y0"
+         },
+         {
+          "name": "1:1",
+          "crop": "2447,2447,x2719,y0"
+         },
+         {
+          "name": "4:3",
+          "crop": "5227,3920,x653,y0"
+         },
+         {
+          "name": "3:4",
+          "crop": "2940,3920,x2311,y0"
+         }
+        ],
+        "imageService": "fastly"
+       },
+       "teaserCarouselThree": {
+        "originalUrl": "/2025/02/25/caca1a0e-cb57-400b-9a22-37cc53178e47.jpeg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2025/02/25/caca1a0e-cb57-400b-9a22-37cc53178e47.jpeg?width=1024&quality=75&auto=webp",
+        "width": 7563,
+        "height": 5042,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "7563,4254,x0,y0"
+         },
+         {
+          "name": "1:1",
+          "crop": "3984,3984,x414,y0"
+         },
+         {
+          "name": "4:3",
+          "crop": "6723,5042,x0,y0"
+         },
+         {
+          "name": "3:4",
+          "crop": "3782,5042,x624,y0"
+         }
+        ],
+        "imageService": "fastly"
+       },
+       "teaserCarouselFour": {
+        "originalUrl": "/2025/02/25/564a5040-601f-4460-ac02-843f688b5604.jpeg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2025/02/25/564a5040-601f-4460-ac02-843f688b5604.jpeg?width=1024&quality=75&auto=webp",
+        "width": 7728,
+        "height": 5152,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "7728,4346,x0,y806"
+         },
+         {
+          "name": "1:1",
+          "crop": "2541,2541,x1691,y976"
+         },
+         {
+          "name": "4:3",
+          "crop": "6106,4579,x881,y573"
+         },
+         {
+          "name": "3:4",
+          "crop": "3053,4070,x1657,y1082"
+         }
+        ],
+        "imageService": "fastly"
+       },
+       "language": {
+        "locale": "de-CH"
+       },
+       "nzzId": "ld.1870142",
+       "readingTime": 600,
+       "authorLine": "David Signer (text), Giovanni Capriotti (images), Windsor",
+       "characterCount": 12390,
+       "product": "NZZ.ch",
+       "documentId": 1870142,
+       "layout": "longformvisual",
+       "publicationDate": "2025-03-01T04:30:00.000Z",
+       "publicationLastUpdated": "2025-03-01T04:30:00.000Z",
+       "significantUpdate": false,
+       "significantUpdateTill": "2025-03-01T16:30:00.000Z",
+       "teaserCaption": "The American president is threatening Canada with 25 percent import tariffs, insulting Prime Minister Trudeau, and even speaking of annexation. In the Canadian border town of Windsor, residents are discussing feelings of betrayal, the looming economic crisis, and a newfound patriotism.",
+       "url": "/international/in-kanada-herrschen-angst-enttaeuschung-und-wut-angesichts-von-trumps-aggressivem-kurs-ld.1870142",
+       "department": {
+        "name": "International",
+        "path": "/international"
+       },
+       "estimationWordCount": 2085,
+       "leadText": "The American president is threatening Canada with 25 percent import tariffs, insulting Prime Minister Trudeau, and even speaking of annexation. In the Canadian border town of Windsor, residents are discussing feelings of betrayal, the looming economic crisis, and a newfound patriotism.",
+       "hasQ": true
+      }
+     },
+     {
+      "identifier": "teaser",
+      "id": "doc-1ipuis52t6",
+      "content": {
+       "owner": "NZZ",
+       "title": "Trump's tariff policy: «Canadians are offended and angry – something has broken.»",
+       "teaserImage": {
+        "originalUrl": "/2025/02/25/caca1a0e-cb57-400b-9a22-37cc53178e47.jpeg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2025/02/25/caca1a0e-cb57-400b-9a22-37cc53178e47.jpeg?width=1024&quality=75&auto=webp",
+        "width": 7563,
+        "height": 5042,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "7563,4254,x0,y394"
+         },
+         {
+          "name": "1:1",
+          "crop": "5042,5042,x305,y0"
+         },
+         {
+          "name": "4:3",
+          "crop": "6723,5042,x420,y0"
+         },
+         {
+          "name": "3:4",
+          "crop": "3782,5042,x664,y0"
+         }
+        ],
+        "imageService": "fastly",
+        "teaserCaption": "Donald Trump is threatening Canada with high import tariffs. This would severely impact the Canadian economy. Many Canadians are deeply hurt that their «big brother, the USA,» is treating them this way. They are now turning to patriotism."
+       },
+       "nzzasFootnote": false,
+       "folioFootnote": false,
+       "language": {
+        "locale": "de-CH"
+       },
+       "nzzId": "ld.1874515",
+       "readingTime": 120,
+       "authorLine": "Antonia Moser",
+       "characterCount": 1622,
+       "product": "NZZ.ch",
+       "documentId": 1874515,
+       "layout": "regular",
+       "publicationDate": "2025-03-10T04:30:00.000Z",
+       "publicationLastUpdated": "2025-03-10T04:30:00.000Z",
+       "significantUpdate": false,
+       "significantUpdateTill": "2025-03-10T16:30:00.000Z",
+       "teaserCaption": "Donald Trump is threatening Canada with high import tariffs. This would severely impact the Canadian economy. Many Canadians are deeply hurt that their «big brother, the USA,» is treating them this way. They are now turning to patriotism.",
+       "url": "/podcast/trumps-zoll-politik-die-kanadier-sind-gekraenkt-und-wuetend-nzz-akzent-ld.1874515",
+       "department": {},
+       "estimationWordCount": 318,
+       "leadText": "Donald Trump is threatening Canada with high import tariffs. This would severely impact the Canadian economy. Many Canadians are deeply hurt that their «big brother, the USA,» is treating them this way. They are now turning to patriotism.",
+       "teaserPodcastTitle": "Trump's tariffs: Fear and anger in Canada",
+       "teaserPodcastAuthor": "Antonia Moser mit David Signer",
+       "teaserPodcastDate": "10.03.2025",
+       "teaserPodcastUrl": "https://audio.podigee-cdn.net/1823400-m-c8cd241be57d30930307d2168f17ceb1.mp3",
+       "teaserPodcastDuration": "16"
+      }
+     }
+    ]
+   },
+   "paidContent": true,
+   "prevElement": "sharebox",
+   "nextElement": "",
+   "lastContentElement": true
+  }
+ ],
+ "metadata": {
+  "owner": "NZZ",
+  "germanyRelevant": true,
+  "title": "Thanks to Trump: In Canada, Mark Carney's Liberals defeat the Conservatives",
+  "teaserImage": {
+   "originalUrl": "/2025/04/29/90d80494-78ea-4335-a735-829fa51c6e1a.jpeg?width=1024",
+   "url": "https://img-msp-prod.nzz.ch/2025/04/29/90d80494-78ea-4335-a735-829fa51c6e1a.jpeg?width=1024&quality=75&auto=webp",
+   "width": 7136,
+   "height": 4760,
+   "crops": [
+    {
+     "name": "16:9",
+     "crop": "7136,4014,x0,y104"
+    },
+    {
+     "name": "1:1",
+     "crop": "4760,4760,x0,y0"
+    },
+    {
+     "name": "4:3",
+     "crop": "6347,4760,x0,y0"
+    },
+    {
+     "name": "3:4",
+     "crop": "3570,4760,x592,y0"
+    }
+   ],
+   "imageService": "fastly",
+   "teaserCaption": "For a long time, it looked like a change of power was imminent. But after the American president alienated the Canadians, the Liberals won the parliamentary election and Carney remained Prime Minister.",
+   "teaserAuthor": "Carlos Osorio / Reuters"
+  },
+  "teaserAuthor": "Carlos Osorio / Reuters",
+  "nzzasFootnote": false,
+  "folioFootnote": false,
+  "language": {
+   "locale": "en-US"
+  },
+  "nzzId": "ld.1881978",
+  "readingTime": 300,
+  "authorLine": "David Signer, Chicago",
+  "characterCount": 6222,
+  "breadcrumbs": [
+   {
+    "name": "International",
+    "path": "/international"
+   }
+  ],
+  "product": "NZZ.ch",
+  "documentId": 1881978,
+  "contentTypeGroup": "web",
+  "layout": "regular",
+  "firstPublicationDate": "2025-04-29T03:16:54.017Z",
+  "publicationDate": "2025-04-29T03:16:54.017Z",
+  "publicationLastUpdated": "2025-04-29T19:22:34.349Z",
+  "significantUpdate": false,
+  "significantUpdateTill": "2025-04-29T15:16:54.017Z",
+  "teaserCaption": "For a long time, it looked like a change of power was imminent. But after the American president alienated the Canadians, the Liberals won the parliamentary election and Carney remained Prime Minister.",
+  "url": "/international/kanadas-liberale-bleiben-dank-trump-staerkste-partei-ld.1881978",
+  "department": {
+   "name": "International",
+   "path": "/international"
+  },
+  "estimationWordCount": 927,
+  "leadText": "For a long time, it looked like a change of power was imminent. But after the American president alienated the Canadians, the Liberals won the parliamentary election and Carney remained Prime Minister.",
+  "nzzSummaryEN": "- Canada’s Liberal Party remained the strongest force despite early polling leads by the Conservatives, though it is still uncertain if they will secure a parliamentary majority.\n- Prime Minister Mark Carney benefited from Donald Trump's aggressive policies, which sparked solidarity and resistance in Canada.\n- Carney, an experienced crisis manager, assumed leadership after Justin Trudeau stepped down and advocates for reduced trade dependency on the U.S.",
+  "nzzSummaryDE": "- Canada's Liberal Party remained the strongest force despite the Conservatives' initial lead in the polls, but it is still unclear whether it will achieve a majority in Parliament.\n Prime Minister Mark Carney benefited from Donald Trump's aggressive policies, which sparked solidarity and resistance in Canada.\n - Carney, an experienced crisis manager, took office after Justin Trudeau's resignation and advocates for reduced trade dependence on the US.",
+  "nzzSummaryIsAuto": true,
+  "nzzSummaryModel": "gpt-4o-2024-11-20",
+  "nzzPrintTitle": "Canada's Liberals remain the strongest party thanks to Trump",
+  "nzzPrintSubtitle": "Trump's tariff and annexation threats weakened the Conservatives and strengthened the Liberals under Mark Carney, who now remains Prime Minister",
+  "allArticleLanguages": [
+   {
+    "locale": "de-CH",
+    "urlPath": "/international/kanadas-liberale-bleiben-dank-trump-staerkste-partei-ld.1881978",
+    "seo": {}
+   }
+  ],
+  "seo": {
+   "canonicalUrl": "https://www.nzz.ch/international/kanadas-liberale-bleiben-dank-trump-staerkste-partei-ld.1881978",
+   "title": "Thanks to Trump: Canada's Liberals under Carney win the election",
+   "socialMediaTitle": "Thanks to Trump's threats: Canada's Liberal Party under Carney wins the election",
+   "excludeFromSpiders": false,
+   "image": "https://img-msp-prod.nzz.ch/2025/04/29/90d80494-78ea-4335-a735-829fa51c6e1a.jpeg?width=1200&height=675&fit=bounds&quality=75&auto=webp&crop=7136,4014,x0,y104&wmark=nzz"
+  },
+  "ldPublicationId": 1839595,
+  "isHighlightedHeader": false,
+  "nzzTopics": [
+   {
+    "name": "Canada",
+    "slug": "/themen/kanada"
+   },
+   {
+    "name": "Mark Carney",
+    "slug": "/themen/mark-carney"
+   },
+   {
+    "name": "Donald Trump",
+    "slug": "/themen/donald-trump"
+   },
+   {
+    "name": "USA",
+    "slug": "/themen/usa"
+   }
+  ],
+  "barrierIndex": 3,
+  "outlinks": {
+   "mehrZumThema": [
+    "ld.1879639",
+    "ld.1882004",
+    "ld.1870142",
+    "ld.1874515"
+   ],
+   "artikelListe": [],
+   "aliasTeaserEmbedList": []
+  },
+  "tts": true,
+  "hasQ": true,
+  "mp3": true,
+  "mp3Duration": 414600,
+  "project": "nzz",
+  "machineTranslated": true,
+  "machineTranslationValidated": false
+ },
+ "isReduced": false,
+ "isPaid": false,
+ "isVamp": false,
+ "isWebview": false,
+ "btaFeed": {
+  "meta": {
+   "id": "kanada",
+   "name": "Canada",
+   "tagName": "Canada",
+   "qId": "Q16",
+   "seoTitle": "Canada – All news, articles and information on the topic | NZZ",
+   "description": null,
+   "firstName": null,
+   "lastName": null,
+   "category": "LOC",
+   "createdDate": "2025-04-08 19:05:59.737Z",
+   "imageURL": null,
+   "imageCroppedURL": null,
+   "imageWidth": null,
+   "imageHeight": null,
+   "imageCredits": null,
+   "url": "https://nzz.ch/themen/kanada",
+   "size": 1001,
+   "relatedTopics": [
+    {
+     "name": "Mark Carney",
+     "slug": "/themen/mark-carney"
+    },
+    {
+     "name": "Donald Trump",
+     "slug": "/themen/donald-trump"
+    },
+    {
+     "name": "USA",
+     "slug": "/themen/usa"
+    }
+   ]
+  },
+  "data": [
+   {
+    "title": "Trade dispute: Should Europe follow Canada's example? It's not that simple",
+    "showHeader": true,
+    "owner": "NZZaS",
+    "language": {
+     "locale": "de"
+    },
+    "flag": "Opinion",
+    "nzzasFootnote": true,
+    "teaserImage": {
+     "originalUrl": "/2026/08/29/d64b2d45-65a4-4e32-92e8-da5fb95bb749.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/08/29/d64b2d45-65a4-4e32-92e8-da5fb95bb749.jpg?width=1024&quality=75&auto=webp",
+     "width": 7554,
+     "height": 4896,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "7554,4249,x0,y173"
+      },
+      {
+       "name": "4:3",
+       "crop": "6528,4896,x708,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "4896,4896,x1425,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "3672,4896,x2001,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "7344,4896,x129,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "A short commentary.",
+     "teaserAuthor": "Patrick Doyle / Imago"
+    },
+    "teaserAuthor": "Patrick Doyle / Imago",
+    "nzzId": "ld.10021590",
+    "readingTime": 60,
+    "paywallQuestionOne": "How realistic is the success of Mark Carney's confrontational approach?",
+    "paywallQuestionTwo": "Why does Europe remain dependent on the USA in terms of security policy?",
+    "paywallQuestionThree": "Could Canada's accession to the EU compensate for its dependence on the USA?",
+    "characterCount": 1136,
+    "product": "NZZ.ch",
+    "documentId": "10021590",
+    "layout": "opinion",
+    "publicationDate": "2026-08-30T03:30:00.000Z",
+    "publicationLastUpdated": "2026-08-30T03:30:00.000Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-08-30T15:30:00.000Z",
+    "teaserCaption": "A short commentary.",
+    "authorLine": "Alain Zucker",
+    "authorImage": {
+     "originalUrl": "/2024/04/30/c6d5864c-12e5-4a1d-92bf-c4a2bb5565b6.png?crop=800,800,x0,y0",
+     "url": "https://img-msp-prod.nzz.ch/2024/04/30/c6d5864c-12e5-4a1d-92bf-c4a2bb5565b6.png?crop=800,800,x0,y0&width=1024&quality=75&auto=webp",
+     "width": 800,
+     "height": 800,
+     "imageService": "fastly",
+     "crop": {
+      "name": "1:1",
+      "x": 0,
+      "y": 0,
+      "width": 800,
+      "height": 800
+     },
+     "crops": []
+    },
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2024/04/30/c6d5864c-12e5-4a1d-92bf-c4a2bb5565b6.png?crop=800,800,x0,y0&width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/nzz-am-sonntag/report-und-debatte/zollstreit-soll-sich-europa-ein-beispiel-an-kanada-nehmen-so-einfach-ist-das-nicht-ld.10021590",
+    "department": {
+     "name": "NZZ am Sonntag - Report and Debate",
+     "path": "/nzz-am-sonntag/report-und-debatte"
+    },
+    "estimationWordCount": 204,
+    "leadText": "A short commentary.",
+    "nzzSummaryIsAuto": true,
+    "locale": "de-CH"
+   },
+   {
+    "title": "Who Still Takes Trump Seriously?",
+    "showHeader": true,
+    "owner": "NZZaS",
+    "language": {
+     "locale": "de"
+    },
+    "teaserImage": {
+     "originalUrl": "/2026/08/26/5a05686d-2f07-4a3f-8f1b-b2ec1ddeb581.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/08/26/5a05686d-2f07-4a3f-8f1b-b2ec1ddeb581.jpg?width=1024&quality=75&auto=webp",
+     "width": 6000,
+     "height": 4000,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "6000,3375,x0,y195"
+      },
+      {
+       "name": "4:3",
+       "crop": "5333,4000,x480,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "4000,4000,x61,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "3000,4000,x71,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "6000,4000,x0,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "The US president makes demands, then threatens. Until the weaker parties give in. But this summer, they won't give in. His power is crumbling. And it's not just Canada's Prime Minister Mark Carney who's noticed.",
+     "teaserAuthor": "Kylie Cooper / Reuters"
+    },
+    "teaserAuthor": "Kylie Cooper / Reuters",
+    "authorLine": "Andreas Mink, New York",
+    "nzzasFootnote": true,
+    "nzzId": "ld.10021098",
+    "readingTime": 300,
+    "paywallQuestionOne": "How is Canada reacting to Trump's attempts to exert pressure?",
+    "paywallQuestionTwo": "Why is Trump's international power crumbling?",
+    "paywallQuestionThree": "What role does Mark Carney play in the new alliance?",
+    "characterCount": 7158,
+    "product": "NZZ.ch",
+    "documentId": "10021098",
+    "layout": "regular",
+    "publicationDate": "2026-08-30T03:30:00.000Z",
+    "publicationLastUpdated": "2026-08-30T03:30:00.000Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-08-30T15:30:00.000Z",
+    "teaserCaption": "The US president makes demands, then threatens. Until the weaker parties give in. But this summer, they won't give in. His power is crumbling. And it's not just Canada's Prime Minister Mark Carney who's noticed.",
+    "url": "https://www.nzz.ch/international/wer-nimmt-trump-noch-ernst-ld.10021098",
+    "department": {
+     "name": "International",
+     "path": "/international"
+    },
+    "estimationWordCount": 1077,
+    "leadText": "The US president makes demands, then threatens. Until the weaker parties give in. But this summer, they won't give in. His power is crumbling. And it's not just Canada's Prime Minister Mark Carney who's noticed.",
+    "nzzSummaryIsAuto": true,
+    "locale": "de-CH"
+   },
+   {
+    "title": "Escalation in the trade dispute: Trump renames Lake Ontario «Lake America» ​​– the Canadians are planning a counterattack in key swing states",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "teaserImage": {
+     "originalUrl": "/2026/08/29/05b54990-a60f-469f-a6df-53f7be36d9c9.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/08/29/05b54990-a60f-469f-a6df-53f7be36d9c9.jpg?width=1024&quality=75&auto=webp",
+     "width": 5000,
+     "height": 3333,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "4545,2556,x378,y565"
+      },
+      {
+       "name": "4:3",
+       "crop": "4444,3333,x369,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "3333,3333,x877,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "2500,3333,x1341,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "4545,3030,x310,y218"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "The US wants to bring Canada to its knees in the trade conflict with its economic powerhouse. But the Canadian retaliatory tariffs pose political risks for Trump – and could cost Republicans crucial Senate seats in the fall.",
+     "teaserAuthor": "Imago/al Drago / Imago"
+    },
+    "teaserAuthor": "Imago/al Drago / Imago",
+    "showComments": true,
+    "tags": [
+     "Amerika",
+     "Die USA unter Trump"
+    ],
+    "nzzId": "ld.10021479",
+    "readingTime": 300,
+    "paywallQuestionOne": "What political risks does Trump's trade conflict with Canada entail?",
+    "paywallQuestionTwo": "How is Canada reacting to the renaming of Lake Ontario?",
+    "paywallQuestionThree": "What impact will the retaliatory tariffs have on US swing states?",
+    "characterCount": 7070,
+    "product": "NZZ.ch",
+    "documentId": "10021479",
+    "layout": "regular",
+    "publicationDate": "2026-08-29T03:30:00.000Z",
+    "publicationLastUpdated": "2026-08-29T08:13:53.212Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-08-29T15:30:00.000Z",
+    "teaserCaption": "The US wants to bring Canada to its knees in the trade conflict with its economic powerhouse. But the Canadian retaliatory tariffs pose political risks for Trump – and could cost Republicans crucial Senate seats in the fall.",
+    "authorLine": "Niklaus Nuspliger, Washington",
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2024/05/29/b3cf3347-523f-4918-82c7-0463146504dd.jpeg?crop=3712,3712,x928,y0&width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/international/eskalation-im-handelsstreit-trump-benennt-den-ontariosee-in-lake-america-um-die-kanadier-planen-gegenschlag-in-wichtigen-swing-states-ld.10021479",
+    "department": {
+     "name": "International",
+     "path": "/international"
+    },
+    "estimationWordCount": 1094,
+    "premium": true,
+    "leadText": "The US wants to bring Canada to its knees in the trade conflict with its economic powerhouse. But the Canadian retaliatory tariffs pose political risks for Trump – and could cost Republicans crucial Senate seats in the fall.",
+    "nzzSummaryIsAuto": true,
+    "commentsCount": 10,
+    "openToComment": false,
+    "hasQ": true,
+    "locale": "de-CH"
+   },
+   {
+    "title": "Who wins? The world wonders about a duel between a bald eagle and a Canada goose shared by the Trump administration",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "authorLine": "Jana Kehl",
+    "teaserImage": {
+     "originalUrl": "/2026/08/28/50c4e1de-32f2-4007-9c2a-93449890843f.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/08/28/50c4e1de-32f2-4007-9c2a-93449890843f.jpg?width=1024&quality=75&auto=webp",
+     "width": 1200,
+     "height": 899,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "1200,675,x0,y0"
+      },
+      {
+       "name": "4:3",
+       "crop": "1199,899,x0,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "899,899,x136,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "674,899,x248,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "1200,800,x0,y0"
+      }
+     ],
+     "focalPoint": {
+      "x": 585,
+      "y": 268
+     },
+     "imageService": "fastly",
+     "teaserCaption": "A nature photo meant to illustrate White House power in the tariff dispute. But battles between two birds sometimes end differently than expected."
+    },
+    "nzzId": "ld.10021446",
+    "readingTime": 180,
+    "paywallQuestionOne": "How does the eagle-goose fight symbolize the US tariff dispute with Canada?",
+    "paywallQuestionTwo": "Why is the shared photo being criticized as a symbol of power?",
+    "paywallQuestionThree": "What does the true outcome of the duel between the eagle and the goose reveal?",
+    "characterCount": 3880,
+    "product": "NZZ.ch",
+    "documentId": "10021446",
+    "layout": "regular",
+    "publicationDate": "2026-08-29T03:30:00.000Z",
+    "publicationLastUpdated": "2026-08-30T19:53:46.360Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-08-29T15:30:00.000Z",
+    "teaserCaption": "A nature photo meant to illustrate White House power in the tariff dispute. But battles between two birds sometimes end differently than expected.",
+    "url": "https://www.nzz.ch/panorama/trump-regierung-teilt-foto-weisskopfseeadler-vs-kanadagans-ld.10021446",
+    "department": {
+     "name": "Panorama",
+     "path": "/panorama"
+    },
+    "estimationWordCount": 589,
+    "leadText": "A nature photo meant to illustrate White House power in the tariff dispute. But battles between two birds sometimes end differently than expected.",
+    "nzzSummaryIsAuto": true,
+    "locale": "de-CH"
+   },
+   {
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "tags": [
+     "Die USA unter Trump",
+     "Amerika"
+    ],
+    "teaserImage": {
+     "originalUrl": "/2026/08/25/dfcfec44-5021-4164-a303-b5458a036a2a.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/08/25/dfcfec44-5021-4164-a303-b5458a036a2a.jpg?width=1024&quality=75&auto=webp",
+     "width": 4000,
+     "height": 2667,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "3636,2045,x277,y622"
+      },
+      {
+       "name": "4:3",
+       "crop": "2939,2204,x254,y463"
+      },
+      {
+       "name": "1:1",
+       "crop": "1369,1369,x1361,y461"
+      },
+      {
+       "name": "3:4",
+       "crop": "1653,2204,x1007,y463"
+      },
+      {
+       "name": "3:2",
+       "crop": "3005,2004,x161,y527"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "The American tariffs have had devastating consequences for Canadian companies. Nevertheless, the population supports the government's course of action. A small business owner, a local politician, and a furniture manufacturer share their stories.",
+     "teaserAuthor": "Photo only / Getty"
+    },
+    "teaserAuthor": "Photo only / Getty",
+    "showComments": true,
+    "paywallQuestionOne": "How do the tariffs affect the Canadian economy?",
+    "paywallQuestionTwo": "Why does the population support the resistance against Trump?",
+    "paywallQuestionThree": "How is Canada responding to the economic challenges of the trade war?",
+    "nzzId": "ld.10020959",
+    "readingTime": 300,
+    "characterCount": 6582,
+    "title": "«Americans do not understand that it is not primarily about the economy, but about identity, pride, and respect»: How Canada's population is reacting to Trump's tariffs",
+    "product": "NZZ.ch",
+    "documentId": "10020959",
+    "layout": "regular",
+    "publicationDate": "2026-08-26T06:47:19.921Z",
+    "publicationLastUpdated": "2026-08-27T13:44:28.651Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-08-26T18:47:19.921Z",
+    "teaserCaption": "The American tariffs have had devastating consequences for Canadian companies. Nevertheless, the population supports the government's course of action. A small business owner, a local politician, and a furniture manufacturer share their stories.",
+    "authorLine": "Niklaus Nuspliger, Portland",
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2024/05/29/b3cf3347-523f-4918-82c7-0463146504dd.jpeg?crop=3712,3712,x928,y0&width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/international/handelskonflikt-usa-kanada-widerstand-und-stolz-der-kanadier-ld.10020959",
+    "department": {
+     "name": "International",
+     "path": "/international"
+    },
+    "estimationWordCount": 978,
+    "premium": true,
+    "leadText": "The American tariffs have had devastating consequences for Canadian companies. Nevertheless, the population supports the government's course of action. A small business owner, a local politician, and a furniture manufacturer share their stories.",
+    "nzzSummaryIsAuto": true,
+    "commentsCount": 6,
+    "openToComment": false,
+    "locale": "de-CH"
+   },
+   {
+    "owner": "NZZ",
+    "title": "Tuesday Morning Briefing",
+    "nzzId": "ld.10020883",
+    "teaserImage": {
+     "originalUrl": "/2026/08/24/e3c565a1-c535-4c8b-a9d7-337a323bddf2.webp?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/08/24/e3c565a1-c535-4c8b-a9d7-337a323bddf2.webp?width=1024&quality=75&auto=webp",
+     "width": 2048,
+     "height": 1366,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "2048,1152,x0,y107"
+      },
+      {
+       "name": "4:3",
+       "crop": "1821,1366,x113,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "1366,1366,x341,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "1025,1366,x512,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "2048,1365,x0,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "The most important news to start the day: Tariff negotiations with the Trump administration after Canada's bombshell announcement ++ Europe's support for Ukraine ++ Embolo moves to the USA",
+     "teaserAuthor": "Carlos Osorio / Reuters"
+    },
+    "teaserAuthor": "Carlos Osorio / Reuters",
+    "language": {
+     "locale": "de"
+    },
+    "readingTime": 360,
+    "characterCount": 7654,
+    "product": "NZZ.ch",
+    "documentId": "10020883",
+    "layout": "briefing",
+    "publicationDate": "2026-08-25T03:59:00.000Z",
+    "publicationLastUpdated": "2026-08-25T03:59:32.934Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-08-25T15:59:00.000Z",
+    "teaserCaption": "The most important news to start the day: Tariff negotiations with the Trump administration after Canada's bombshell announcement ++ Europe's support for Ukraine ++ Embolo moves to the USA",
+    "authorLine": "",
+    "url": "https://www.nzz.ch/briefing-am-dienstagmorgen-ld.10020883",
+    "department": {},
+    "estimationWordCount": 1150,
+    "leadText": "The most important news to start the day: Tariff negotiations with the Trump administration after Canada's bombshell announcement ++ Europe's support for Ukraine ++ Embolo moves to the USA",
+    "nzzSummaryIsAuto": true,
+    "locale": "de-CH"
+   }
+  ]
+ },
+ "digitalData": {
+  "component": [
+   {
+    "id": "ld.1881978",
+    "name": "Thanks to Trump: In Canada, Mark Carney's Liberals defeat the Conservatives",
+    "type": "article",
+    "subType1": "regular",
+    "subType2": "",
+    "primaryCategory": "International",
+    "subCategory1": "",
+    "attributes": {
+     "headline": "Thanks to Trump: In Canada, Mark Carney's Liberals defeat the Conservatives",
+     "firstPublishTitle": "",
+     "catchline": "",
+     "authors": [],
+     "issueTimestamp": "2025-04-29T03:16:54.017Z",
+     "updateTimestamp": "2025-04-29T19:22:34.349Z",
+     "isSponsoredContent": false,
+     "isPro": false,
+     "isLiveticker": false,
+     "flag": "",
+     "owner": "NZZ"
+    }
+   }
+  ],
+  "page": {
+   "pageId": "ld.1881978",
+   "pageType": "regular",
+   "primaryCategory": "International",
+   "subCategory1": "",
+   "subCategory2": "",
+   "language": "en-US"
+  },
+  "version": "2.0",
+  "user": {},
+  "event": []
+ },
+ "seoData": {
+  "title": "Thanks to Trump: Canada's Liberals under Carney win the election",
+  "image": {
+   "url": "https://img-msp-prod.nzz.ch/2025/04/29/90d80494-78ea-4335-a735-829fa51c6e1a.jpeg?width=1200&height=675&fit=bounds&quality=75&auto=webp&crop=7136,4014,x0,y104&wmark=nzz",
+   "type": "image/jpeg",
+   "width": 1200,
+   "height": 675
+  },
+  "author": "David Signer, Chicago",
+  "description": "For a long time, it looked like a change of power was imminent. But after the American president alienated the Canadians, the Liberals won the parliamentary election and Carney remained Prime Minister.",
+  "news_keywords": "Thanks to Trump: In Canada, Mark Carney's Liberals defeat the Conservatives, International, News, NZZ",
+  "type": "article",
+  "last-modified": "2025-04-29T23:22:34+02:00",
+  "date": "2025-04-29T07:16:54+02:00",
+  "canonical": "https://www.nzz.ch/international/kanadas-liberale-bleiben-dank-trump-staerkste-partei-ld.1881978",
+  "fb:app_id": 138008459595436,
+  "fb:pages": 143694099006529,
+  "fb:admins": 1592685173,
+  "locale": "de-CH",
+  "email": "online.redaktion@nzz.ch",
+  "site_name": "Neue Zürcher Zeitung",
+  "copyright": "2026 Neue Zürcher Zeitung AG, Schweiz",
+  "robots": "noindex, nofollow, noarchive, noodp",
+  "hreflang": [],
+  "sharedTitle": "Thanks to Trump: In Canada, Mark Carney's Liberals defeat the Conservatives",
+  "ogTitle": "Thanks to Trump's threats: Canada's Liberal Party under Carney wins the election",
+  "ogUrl": "https://www.nzz.ch/international/kanadas-liberale-bleiben-dank-trump-staerkste-partei-ld.1881978",
+  "mrf:cms_id": "nzz:ld.1881978",
+  "mrf:sections": "International",
+  "mrf:tags": "Page Type:regular;Editorial Owner:NZZ;Content Type:Standard Article;Article ID:ld.1881978",
+  "nzzAuthors": [
+   {
+    "name": "David Signer, Chicago"
+   }
+  ],
+  "links": [
+   {
+    "rel": "canonical",
+    "href": "https://www.nzz.ch/international/kanadas-liberale-bleiben-dank-trump-staerkste-partei-ld.1881978"
+   },
+   {
+    "rel": "search",
+    "href": "/suche",
+    "title": "Suche Neue Zürcher Zeitung, Schweiz, https://www.nzz.ch/suche"
+   }
+  ],
+  "renderedAt": "Thu, 03 Sep 2026 10:02:37 GMT"
+ },
+ "structuredData": [
+  {
+   "@context": "https://schema.org",
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "item": {
+      "@id": "/",
+      "name": "Home"
+     }
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "item": {
+      "@id": "/international",
+      "name": "International"
+     }
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Thanks to Trump: Canada's Liberals under Carney win the election"
+    }
+   ]
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": "NewsArticle",
+   "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.nzz.ch/international/kanadas-liberale-bleiben-dank-trump-staerkste-partei-ld.1881978"
+   },
+   "headline": "Thanks to Trump: Canada's Liberals under Carney win the election",
+   "datePublished": "2025-04-29T07:16:54+02:00",
+   "dateModified": "2025-04-29T23:22:34+02:00",
+   "publisher": {
+    "@type": "NewsMediaOrganization",
+    "name": "Neue Zürcher Zeitung",
+    "url": "https://www.nzz.ch",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://www.nzz.ch/logo.png",
+     "width": 413,
+     "height": 60
+    },
+    "contactPoint": [
+     {
+      "@type": "ContactPoint",
+      "telephone": "+41-44-2581000",
+      "contactType": "customer service"
+     }
+    ],
+    "sameAs": [
+     "https://www.facebook.com/nzz",
+     "https://www.twitter.com/nzz",
+     "https://www.youtube.com/channel/UCK1aTcR0AckQRLTlK0c4fuQ",
+     "https://www.linkedin.com/company/neue-zurcher-zeitung",
+     "https://www.instagram.com/nzz/",
+     "https://de.wikipedia.org/wiki/Neue_Z%C3%BCrcher_Zeitung",
+     "https://www.wikidata.org/wiki/Q658945",
+     "https://plus.google.com/+nzz/",
+     "http://www.freebase.com/m/041b43"
+    ],
+    "masthead": "https://www.nzz.ch/impressum/impressum-ld.148422",
+    "foundingDate": "1780"
+   },
+   "description": "For a long time, it looked like a change of power was imminent. But after the American president alienated the Canadians, the Liberals won the parliamentary election and Carney remained Prime Minister.",
+   "isAccessibleForFree": false,
+   "articleSection": "International",
+   "hasPart": {
+    "@type": "WebPageElement",
+    "isAccessibleForFree": false,
+    "cssSelector": ".nzzinteraction"
+   },
+   "image": {
+    "@type": "ImageObject",
+    "url": "https://img-msp-prod.nzz.ch/2025/04/29/90d80494-78ea-4335-a735-829fa51c6e1a.jpeg?width=1200&height=675&fit=bounds&quality=75&auto=webp&crop=7136,4014,x0,y104&wmark=nzz",
+    "width": 1200,
+    "height": 675
+   },
+   "author": [
+    {
+     "@type": "Person",
+     "name": "David Signer, Chicago"
+    }
+   ],
+   "inLanguage": "de"
+  }
+ ],
+ "mp3": true,
+ "mp3Duration": 414600,
+ "bT": {
+  "standard": {
+   "Tags": [
+    "/international/kanadas-liberale-bleiben-dank-trump-staerkste-partei-ld.1881978",
+    "classification=default",
+    "relevance=germany",
+    "layout=regular",
+    "owner=nzz",
+    "product=nzz",
+    "doctype=article",
+    "pagetype=article",
+    "ldid=ld.1881978",
+    "channel=International"
+   ],
+   "ContentCreated": "2025-04-29T03:16:54.017Z",
+   "ContentAuthor": "David Signer, Chicago",
+   "ContentSection": "International",
+   "ContentIsNative": true
+  },
+  "custom": {
+   "product": "nzz",
+   "docType": "article",
+   "pageType": "article",
+   "layout": "regular",
+   "ldId": "ld.1881978",
+   "channel": "International",
+   "heading": "Dank Trump: In Kanada besiegen Mark Carneys Liberale die Konservativen",
+   "language": "en-US"
+  }
+ },
+ "webviewMetadata": {},
+ "cacheTime": 3600
+}

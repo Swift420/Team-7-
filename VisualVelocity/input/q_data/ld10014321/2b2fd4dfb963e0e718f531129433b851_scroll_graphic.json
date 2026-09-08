@@ -1,0 +1,345 @@
+{
+  "_id": "2b2fd4dfb963e0e718f531129433b851",
+  "_rev": "12-4435c980e16173b6365c07cc2a237a9a",
+  "tool": "scroll_graphic",
+  "steps": [
+    {
+      "text": "Funktionsweise einer Klimaanlage<br>",
+      "isTitle": false,
+      "variants": [
+        {
+          "asset": {
+            "key": "2026/07/09/1Artboard-184x-d9339c6cfd13dd8d184f03487e38aa24.png",
+            "url": "https://nzz-q-assets2.static-nzz.ch/2026/07/09/1Artboard-184x-d9339c6cfd13dd8d184f03487e38aa24.png",
+            "size": 90300,
+            "type": "image/png",
+            "width": 1441,
+            "height": 2147,
+            "originalName": "1Artboard 18@4x.png"
+          },
+          "minWidth": 0
+        },
+        {
+          "asset": {
+            "key": "2026/07/09/1Artboard-194x-41c5c0169a6c0c251825b050d823a33f.png",
+            "url": "https://nzz-q-assets2.static-nzz.ch/2026/07/09/1Artboard-194x-41c5c0169a6c0c251825b050d823a33f.png",
+            "size": 184373,
+            "type": "image/png",
+            "width": 2521,
+            "height": 2111,
+            "originalName": "1Artboard 19@4x.png"
+          },
+          "minWidth": 630
+        }
+      ],
+      "textboxImage": {
+        "type": "circle",
+        "position": "top",
+        "borderColor": "#ff0000"
+      },
+      "highlightedTexts": [
+        {
+          "text": "Funktionsweise einer Klimaanlage",
+          "type": "bold",
+          "color": 1,
+          "preventLineBreak": false
+        }
+      ]
+    },
+    {
+      "text": "Die warme Raumluft wird von einem Ventilator im Inneren der \nKlimaanlage angesaugt. ",
+      "isTitle": false,
+      "variants": [
+        {
+          "asset": {
+            "key": "2026/07/09/2Artboard-184x-070e3ea73409f317a841370f12c764f0.png",
+            "url": "https://nzz-q-assets2.static-nzz.ch/2026/07/09/2Artboard-184x-070e3ea73409f317a841370f12c764f0.png",
+            "size": 148318,
+            "type": "image/png",
+            "width": 1441,
+            "height": 2147,
+            "originalName": "2Artboard 18@4x.png"
+          },
+          "minWidth": 0
+        },
+        {
+          "asset": {
+            "key": "2026/07/09/2Artboard-194x-f6a04d96a5caeb1ce4eea0f5164ceb7b.png",
+            "url": "https://nzz-q-assets2.static-nzz.ch/2026/07/09/2Artboard-194x-f6a04d96a5caeb1ce4eea0f5164ceb7b.png",
+            "size": 246751,
+            "type": "image/png",
+            "width": 2521,
+            "height": 2111,
+            "originalName": "2Artboard 19@4x.png"
+          },
+          "minWidth": 630
+        }
+      ],
+      "textboxImage": {
+        "type": "circle",
+        "position": "top",
+        "borderColor": "#ff0000"
+      },
+      "highlightedTexts": [
+        {
+          "text": "warme Raumluft",
+          "type": "underline",
+          "color": 0,
+          "preventLineBreak": false
+        }
+      ]
+    },
+    {
+      "text": "Die warme Luft fliesst über kalte Metallrohre im Inneren. \nDiese Rohre sind eiskalt, weil ein Kältemittel darin fliesst. \nDie Luft kühlt sich an den kalten Stäben ab. Die abgekühlte\nLuft wird aus der Klimaanlage ins Zimmer geblasen und kühlt\nes so ab.",
+      "isTitle": false,
+      "variants": [
+        {
+          "asset": {
+            "key": "2026/07/09/3Artboard-184x-9d1db7a0c88e6f61fc0761db8120e071.png",
+            "url": "https://nzz-q-assets2.static-nzz.ch/2026/07/09/3Artboard-184x-9d1db7a0c88e6f61fc0761db8120e071.png",
+            "size": 197584,
+            "type": "image/png",
+            "width": 1441,
+            "height": 2147,
+            "originalName": "3Artboard 18@4x.png"
+          },
+          "minWidth": 0
+        },
+        {
+          "asset": {
+            "key": "2026/07/09/3Artboard-194x-e6fe45a9f0023dea14c63da3b03c13a3.png",
+            "url": "https://nzz-q-assets2.static-nzz.ch/2026/07/09/3Artboard-194x-e6fe45a9f0023dea14c63da3b03c13a3.png",
+            "size": 299364,
+            "type": "image/png",
+            "width": 2521,
+            "height": 2111,
+            "originalName": "3Artboard 19@4x.png"
+          },
+          "minWidth": 630
+        }
+      ],
+      "textboxImage": {
+        "type": "circle",
+        "position": "top",
+        "borderColor": "#ff0000"
+      },
+      "highlightedTexts": [
+        {
+          "text": "kalte Metallrohre",
+          "type": "underline",
+          "color": 2,
+          "preventLineBreak": false
+        }
+      ]
+    },
+    {
+      "text": "Das Kältemittel wärmt sich an der warmen Luft auf \nund verdunstet, wird also gasförmig.",
+      "isTitle": false,
+      "variants": [
+        {
+          "asset": {
+            "key": "2026/07/09/4Artboard-184x-7f8edebd9060dd2996508f1c311172f5.png",
+            "url": "https://nzz-q-assets2.static-nzz.ch/2026/07/09/4Artboard-184x-7f8edebd9060dd2996508f1c311172f5.png",
+            "size": 202050,
+            "type": "image/png",
+            "width": 1441,
+            "height": 2147,
+            "originalName": "4Artboard 18@4x.png"
+          },
+          "minWidth": 0
+        },
+        {
+          "asset": {
+            "key": "2026/07/09/4Artboard-194x-ff598a220a2376d5bce6e3799424cd37.png",
+            "url": "https://nzz-q-assets2.static-nzz.ch/2026/07/09/4Artboard-194x-ff598a220a2376d5bce6e3799424cd37.png",
+            "size": 304758,
+            "type": "image/png",
+            "width": 2521,
+            "height": 2111,
+            "originalName": "4Artboard 19@4x.png"
+          },
+          "minWidth": 630
+        }
+      ],
+      "textboxImage": {
+        "type": "circle",
+        "position": "top",
+        "borderColor": "#ff0000"
+      },
+      "highlightedTexts": []
+    },
+    {
+      "text": "Damit das Kältemittel wieder kühlen kann, muss es die Hitze abgeben. Dafür wird es zuerst im Kompressor zusammengedrückt und dadurch sehr heiss. Nun kann die warme Luft aus dem Zimmer das heisse Gas abkühlen. Dabei kondensiert es, wird also wieder flüssig.",
+      "isTitle": false,
+      "variants": [
+        {
+          "asset": {
+            "key": "2026/07/09/5Artboard-184x-4d38bd4776a64d4309ac0b9e6a362037.png",
+            "url": "https://nzz-q-assets2.static-nzz.ch/2026/07/09/5Artboard-184x-4d38bd4776a64d4309ac0b9e6a362037.png",
+            "size": 200998,
+            "type": "image/png",
+            "width": 1441,
+            "height": 2147,
+            "originalName": "5Artboard 18@4x.png"
+          },
+          "minWidth": 0
+        },
+        {
+          "asset": {
+            "key": "2026/07/09/5Artboard-194x-8a80ef01d6780c8d1dded0f78475bef3.png",
+            "url": "https://nzz-q-assets2.static-nzz.ch/2026/07/09/5Artboard-194x-8a80ef01d6780c8d1dded0f78475bef3.png",
+            "size": 298444,
+            "type": "image/png",
+            "width": 2521,
+            "height": 2111,
+            "originalName": "5Artboard 19@4x.png"
+          },
+          "minWidth": 630
+        }
+      ],
+      "textboxImage": {
+        "type": "circle",
+        "position": "top",
+        "borderColor": "#ff0000"
+      },
+      "highlightedTexts": []
+    },
+    {
+      "text": "Die heisse Luft, die durch die Erwärmung entstanden ist, fliesst durch die Röhre nach draussen. Dabei ist es wichtig, dass die Öffnung nach Draussen gut abgedichtet ist, damit die heisse Luft nicht zurück ins Zimmer gelangt.",
+      "isTitle": false,
+      "variants": [
+        {
+          "asset": {
+            "key": "2026/07/09/6Artboard-184x-99ec2e78f5f56fe047b666d6874184f6.png",
+            "url": "https://nzz-q-assets2.static-nzz.ch/2026/07/09/6Artboard-184x-99ec2e78f5f56fe047b666d6874184f6.png",
+            "size": 197772,
+            "type": "image/png",
+            "width": 1441,
+            "height": 2147,
+            "originalName": "6Artboard 18@4x.png"
+          },
+          "minWidth": 0
+        },
+        {
+          "asset": {
+            "key": "2026/07/09/6Artboard-194x-93badf450438fd033f85ab6d70a9e936.png",
+            "url": "https://nzz-q-assets2.static-nzz.ch/2026/07/09/6Artboard-194x-93badf450438fd033f85ab6d70a9e936.png",
+            "size": 297228,
+            "type": "image/png",
+            "width": 2521,
+            "height": 2111,
+            "originalName": "6Artboard 19@4x.png"
+          },
+          "minWidth": 630
+        }
+      ],
+      "textboxImage": {
+        "type": "circle",
+        "position": "top",
+        "borderColor": "#ff0000"
+      },
+      "highlightedTexts": [
+        {
+          "text": "heisse Luft, ",
+          "type": "underline",
+          "color": 0,
+          "preventLineBreak": false
+        }
+      ]
+    },
+    {
+      "text": "Die Probleme dieser Klimaanlagen entstehen in erster Linie durch \ndrei Dinge: Das Kältemittel, das in den Rohren fliesst, die heisse Luft, \ndie auf die Strasse gepustet wird und der Strom, den die Maschine verbraucht.",
+      "isTitle": false,
+      "variants": [
+        {
+          "asset": {
+            "key": "2026/07/09/7Artboard-184x-656f60e4039e16b97a4dff5560ffe154.png",
+            "url": "https://nzz-q-assets2.static-nzz.ch/2026/07/09/7Artboard-184x-656f60e4039e16b97a4dff5560ffe154.png",
+            "size": 201661,
+            "type": "image/png",
+            "width": 1441,
+            "height": 2147,
+            "originalName": "7Artboard 18@4x.png"
+          },
+          "minWidth": 0
+        },
+        {
+          "asset": {
+            "key": "2026/07/09/7Artboard-194x-00d8f793de6447ab8fbe8a8d4556e714.png",
+            "url": "https://nzz-q-assets2.static-nzz.ch/2026/07/09/7Artboard-194x-00d8f793de6447ab8fbe8a8d4556e714.png",
+            "size": 302549,
+            "type": "image/png",
+            "width": 2521,
+            "height": 2111,
+            "originalName": "7Artboard 19@4x.png"
+          },
+          "minWidth": 630
+        }
+      ],
+      "textboxImage": {
+        "type": "circle",
+        "position": "top",
+        "borderColor": "#ff0000"
+      },
+      "highlightedTexts": [
+        {
+          "text": "Das Kältemittel, ",
+          "type": "bold",
+          "color": 0,
+          "preventLineBreak": true
+        },
+        {
+          "text": "die heisse Luft, ",
+          "type": "bold",
+          "color": 0,
+          "preventLineBreak": true
+        },
+        {
+          "text": "der Strom, ",
+          "type": "bold",
+          "color": 0,
+          "preventLineBreak": true
+        }
+      ]
+    }
+  ],
+  "title": "So funktioniert eine Klimaanlage",
+  "active": true,
+  "acronym": "lea.",
+  "options": {
+    "useSansSerif": false,
+    "disableAnimation": false
+  },
+  "sources": [],
+  "subtitle": "",
+  "createdBy": "anja.lemcke@nzz.ch",
+  "updatedBy": "anja.lemcke@nzz.ch",
+  "department": "Visuals",
+  "createdDate": "2026-07-09T10:04:07.928Z",
+  "publication": "nzz",
+  "sectionText": {
+    "customized": {
+      "textColor": "#000000",
+      "textShadow": "none"
+    },
+    "sectionTextBackground": "white"
+  },
+  "updatedDate": "2026-07-16T12:06:00.620Z",
+  "headerMetaInfo": {
+    "lead": "",
+    "title": "",
+    "author": "",
+    "publicationDate": ""
+  },
+  "highlightedTextColors": [
+    {
+      "color": "#ce4631"
+    },
+    {
+      "color": "#000000"
+    },
+    {
+      "color": "#84b2c3"
+    }
+  ]
+}

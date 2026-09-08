@@ -1,0 +1,1352 @@
+{
+ "content": [
+  {
+   "identifier": "header",
+   "id": "doc-1iva0dnfv0",
+   "content": {
+    "title": "Chinese safari parks fuel illegal elephant trade",
+    "lead": "Zoo-themed safari parks are booming in China – and with them, ethically dubious elephant shows. The charismatic animals are often obtained illegally from Laos.",
+    "authorline": "Matthias Kamp, Xishuangbanna, Isabelle Wachter",
+    "author": "Matthias Kamp, Xishuangbanna, Isabelle Wachter"
+   },
+   "containers": {
+    "authors": [
+     {
+      "identifier": "author-teaser",
+      "id": "doc-vquAIisfsy",
+      "content": {
+       "layout": "authorprofile",
+       "title": "Matthias Kamp",
+       "url": "/impressum/matthias-kamp-ld.1497895",
+       "teaserImage": {
+        "originalUrl": "/2022/09/14/238146b3-b9c6-4e92-94fc-466bddc340d8.png?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2022/09/14/238146b3-b9c6-4e92-94fc-466bddc340d8.png?width=1024&quality=75&auto=webp",
+        "width": 800,
+        "height": 800,
+        "crops": [
+         {
+          "name": "web-teaser",
+          "crop": "800,450,x0,y175"
+         },
+         {
+          "name": "1:1",
+          "crop": "800,800,x0,y0"
+         },
+         {
+          "name": "4:3",
+          "crop": "800,600,x0,y100"
+         },
+         {
+          "name": "3:4",
+          "crop": "600,800,x100,y0"
+         }
+        ],
+        "imageService": "fastly"
+       }
+      }
+     },
+     {
+      "identifier": "author-teaser",
+      "id": "doc-Nza8Fy0KF8",
+      "content": {
+       "layout": "authorprofile",
+       "title": "Isabelle Wachter",
+       "url": "/impressum/isabelle-wachter-ld.1760317",
+       "teaserImage": {
+        "originalUrl": "/2023/10/11/cf7a0765-64e8-431f-8ea3-8914315c85d9.png?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2023/10/11/cf7a0765-64e8-431f-8ea3-8914315c85d9.png?width=1024&quality=75&auto=webp",
+        "width": 800,
+        "height": 800,
+        "crops": [
+         {
+          "name": "web-teaser",
+          "crop": "800,450,x0,y175"
+         },
+         {
+          "name": "1:1",
+          "crop": "800,800,x0,y0"
+         },
+         {
+          "name": "4:3",
+          "crop": "800,600,x0,y100"
+         },
+         {
+          "name": "3:4",
+          "crop": "600,800,x100,y0"
+         }
+        ],
+        "imageService": "fastly"
+       }
+      }
+     }
+    ]
+   },
+   "prevElement": "",
+   "nextElement": "image",
+   "firstContentElement": true
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1j06g9k450",
+   "content": {
+    "image": {
+     "author": "Photo only",
+     "caption": "Elephants are considered charismatic animals and are therefore particularly popular with zoo visitors.",
+     "originalUrl": "/2025/07/15/eb914f28-58c1-46e8-a6d6-2ac61f443d4c.jpeg?width=1024",
+     "width": 6016,
+     "height": 4016,
+     "altText": "Close-up of the elephant in the Elephant Conservation Center, Sayaboury, Laos, in December 2018. Laos was known as The land of a million elephants in the past, today the elephant population in the country stands at around 800 individuals. Half of them are made up of captive elephants, and their number is in decline; the owners are not interested in breeding animals (the cow needs at least four years out of work during her pregnancy and lactation), illegal trafficking to China and other neighboring countries continues. Against this backdrop, the Elephant Conservation Center is the only one organization in Laos which is interested in maintaining the population and breeding of elephants. They have the only elephant hospital and research laboratory in Laos. The Center was created in 2011, and now the team is protecting 29 elephants that had been working in the logging industry or mass tourism, and 530 hectares of forest around Nam Tien Lake in Sayaboury. If we have extra money, we buy an elephant, says Anthony, the manager. The primary goal of the Center, besides conservation and breeding, is to reintroduce socially coherent groups of healthy elephants to a natural forest where they can contribute to the increase of the wild population. For this reason, a special socialization program has been developed by the biologists, where domesticated elephants learn to communicate and survive in the wild under the supervision of specialists. There are not enough elephants in Laos, says Chrisantha, the biologist of the center. We need around 5000 of a species to sustain a population, and we are nowhere near that. The efforts we are making now at least give a bit of hope for the future. ((Photo by Oleksandr Rupeta/NurPhoto via Getty Images))",
+     "origins": [
+      {
+       "name": "Hugo",
+       "identifier": "2172091489"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "caption": "Elephants are considered charismatic animals and are therefore particularly popular with zoo visitors.",
+    "author": "Photo only"
+   },
+   "styles": {
+    "fullwidth-widget": "widget--containerwidth"
+   },
+   "data": {
+    "_captionDirective": {}
+   },
+   "prevElement": "header",
+   "nextElement": "free-html"
+  },
+  {
+   "identifier": "free-html",
+   "id": "doc-JI0Hh45WnY",
+   "content": {
+    "html": "<div style=\"background: #EAECF5; font-family: Helvetica, sans-serif; font-size:14px; padding:20px;\">\n\n<p style=\"font-size:18px; font-weight:bold; margin-bottom:15px;\">\nSummary\n</p>\n\n<ul style=\"margin-left:-20px;\">\n\n<li style=\"margin-bottom:10px;\"> Zoos and safari parks are booming in China, leading to questionable elephant shows and a rise in illegal wildlife trade, particularly via smuggling from Laos.</li>\n\n<li style=\"margin-bottom:10px;\">Zoo operators pay hefty fees for smuggled elephants, while organizations like CITES criticize corruption and violations.</li>\n\n<li style=\"margin-bottom:0px;\">European zoos follow stricter standards, exchanging elephants for free through controlled breeding programs, in contrast to the commercial practices in China.\n</li>\n\n</ul>\n\n</div>"
+   },
+   "prevElement": "image",
+   "nextElement": "barrier"
+  },
+  {
+   "id": "doc-10faee74",
+   "identifier": "barrier",
+   "prevElement": "free-html",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1ivhommof0",
+   "content": {
+    "text": "Half an hour before the show begins, the seats at the edge of the elephant enclosure are filled to capacity. Fanfare sounds ring out from the loudspeakers under the ceiling. Waitresses serve ready-made noodles, fresh fruit, and iced tea. Excited visitors take photos of each other; the children can hardly wait for the spectacle to begin in Wild Elephant Valley in Xishuangbanna in the southern Chinese province of Yunnan."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "barrier",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1ivhsc62d0",
+   "content": {
+    "text": "At noon sharp, a guard enters the arena. Behind him, six elephants trot along in single file. Each holds the tail of the animal in front of it with its trunk. The elephants stop in the middle of the enclosure and bow."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "image"
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1j06dk8rf1",
+   "content": {
+    "image": {
+     "author": "Nurphoto/Getty",
+     "caption": "Visitors at an elephant show in the circus ring of a safari park in Shanghai in 2023.",
+     "originalUrl": "/2025/07/15/08101b33-ee58-4477-88e8-2871d75baf4b.jpeg?width=1024",
+     "width": 5472,
+     "height": 3648,
+     "altText": "SHANGHAI, CHINA - SEPTEMBER 10, 2023 - Visitors watch elephants walk in a theater at the national 5A tourist attraction Safari Park in Shanghai, China, September 10, 2023. (Photo by Costfoto/NurPhoto via Getty Images)",
+     "origins": [
+      {
+       "name": "Hugo",
+       "identifier": "2172090622"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "caption": "Visitors at an elephant show in the circus ring of a safari park in Shanghai in 2023.",
+    "author": "Nurphoto/Getty"
+   },
+   "styles": {
+    "fullwidth-widget": "widget--containerwidth"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1ivhrstbg0",
+   "content": {
+    "text": "The guard pulls a bucket filled with carrots high into a tree. An elephant reacts reflexively and stands up on its hind legs. The animal uses its trunk to pull a carrot out of the bucket and hold it up to the audience. The children cheer."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "image",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iva0dng00",
+   "content": {
+    "text": "Wild Elephant Valley is located not far from the border with Laos, and is one of the largest elephant parks in the country. According to local authorities, the park attracted almost 10 million visitors between 2016 and 2022<a target=\"_blank\" href=\"https://dnr.yn.gov.cn/html/2024/dxjy_0419/46132.html\"></a> . Over those six years, the city of Xishuangbanna, which owns Wild Elephant Valley, generated revenue equivalent to 66 million Swiss francs ($81.9 million) from ticket sales alone."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1ivp1qqj20",
+   "content": {
+    "title": "China's government has big plans",
+    "id": "subtitle-china-s-government-has-big-plans"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1ivmq92ol0",
+   "content": {
+    "text": "Zoos and safari parks such as Wild Elephant Valley are a magnet for visitors. In 2022, <a target=\"_blank\" href=\"https://daxueconsulting.com/rising-zoo-aquarium-industry-in-china/\">94 million Chinese people visited</a> zoos and safari parks. This represented an increase of 16% compared to the previous year. The total revenue generated by the 195 parks nationwide amounted to 775 million Swiss francs in the same period, 12% more than in 2021."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "image"
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1j1g17qeh1",
+   "content": {
+    "image": {
+     "author": "VCG/Getty",
+     "caption": "Tourists feed elephants in Wild Elephant Valley on World Elephant Day on Aug. 12, 2022.",
+     "originalUrl": "/2025/07/31/df24d626-97dc-4673-8de5-c6feb53c7161.jpg?width=1024",
+     "width": 6016,
+     "height": 4016,
+     "altText": "XISHUANGBANNA, CHINA - AUGUST 12: Tourists feed elephants at the Wild Elephant Valley on the World Elephant Day on August 12, 2022 in Xishuangbanna Dai Autonomous Prefecture, Yunnan Province of China. (Photo by Li Ming/VCG via Getty Images)",
+     "origins": [
+      {
+       "name": "Hugo",
+       "identifier": "2172706878"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "caption": "Tourists feed elephants in Wild Elephant Valley on World Elephant Day on Aug. 12, 2022.",
+    "author": "VCG/Getty"
+   },
+   "styles": {
+    "fullwidth-widget": "widget--containerwidth"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1ivms0oed1",
+   "content": {
+    "text": "Like Wild Elephant Valley, almost all safari parks are operated by cities, counties, and provinces. It's the same as always in China: Wherever there's big money to be made, the state is almost always pulling the strings. That is why China plans to open hundreds of zoos and safari parks in the coming years."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "image",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1ivn920rv0",
+   "content": {
+    "text": "New facilities are often a mixture of amusement park and zoo. In addition to elephants, there are also roller coasters and water slides. Guests stay in themed hotels, and trains and gondolas transport visitors through the park grounds."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1ivn96afg0",
+   "content": {
+    "text": "Admission to these zoos often costs 50 francs or more. And once one passes through the park gate, they have to pay again. If a visitor to Wild Elephant Valley wants to get close to the elephants, they must first purchase a fruit basket for 4 Swiss francs. Visitors can feed the animals with carrots, bananas, and apples."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1ivms0r4s0",
+   "content": {
+    "text": "But what appears colorful, chic, and dazzling from the outside is actually a dirty business. The park operators need animals, but can hardly meet the rapidly growing demand through legal means – so they break the law. Safari parks often obtain the animals from neighboring Laos through convoluted channels."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "image"
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1j1g16snq1",
+   "content": {
+    "image": {
+     "author": "VCG / Getty Images",
+     "caption": "Three elephants and their keepers in Wild Elephant Valley.",
+     "originalUrl": "/2025/07/31/913ff147-e36a-4dde-9870-794d781a0bd3.jpg?width=1024",
+     "width": 5832,
+     "height": 3893,
+     "altText": "XISHUANGBANNA, CHINA - AUGUST 12: Tourists watch as elephants eat vegetables and fruits at the Wild Elephant Valley on the World Elephant Day on August 12, 2022 in Xishuangbanna Dai Autonomous Prefecture, Yunnan Province of China. (Photo by Li Ming/VCG via Getty Images)",
+     "origins": [
+      {
+       "name": "Hugo",
+       "identifier": "2172706877"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "caption": "Three elephants and their keepers in Wild Elephant Valley.",
+    "author": "VCG / Getty Images"
+   },
+   "styles": {
+    "fullwidth-widget": "widget--containerwidth"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1ivqofd120",
+   "content": {
+    "text": "A European zoo expert who has advised Chinese parks and wishes to remain anonymous is concerned. If all the animals for the new facilities come from the wild, the forests will soon be empty - even before they are cut down."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "image",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1ivp21bsa0",
+   "content": {
+    "title": "An elephant from Laos for one million dollars",
+    "id": "subtitle-an-elephant-from-laos-for-one-million-dollars"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1ivqpqvp21",
+   "content": {
+    "text": "Boten, about two hours' drive south of Xishuangbanna, is a rundown village on the Laotian side of the border. The city has gained notoriety for gambling, drug trafficking, and prostitution. Here, Chinese people enjoy everything that is forbidden in their homeland. The streets are lined with Chinese restaurants, and Chinese is spoken everywhere. People pay with yuan."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1ivmu172u0",
+   "content": {
+    "text": "Boten is also a hub for the illegal trade in elephants from Laos. Laotian customs offices are located on a dusty road on the outskirts of the small town. Heavily loaded trucks rumble up the narrow road toward customs. Many of them bring fruit and vegetables from Thailand to China."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "q-embed"
+  },
+  {
+   "identifier": "q-embed",
+   "id": "doc-1iva0dng04",
+   "content": {
+    "q-embed": {
+     "service": "q-tool",
+     "params": {
+      "id": "2f79c8865032787a54771530bd41d4c6",
+      "conf": {},
+      "toolConfig": {},
+      "toolRuntimeConfig": {
+       "size": {
+        "width": [
+         {
+          "value": 100,
+          "comparison": ">"
+         }
+        ]
+       },
+       "displayOptions": {
+        "hideTitle": false,
+        "hideSubtitle": false,
+        "hideFooter": false,
+        "hideAcronym": false
+       },
+       "locale": "en_US"
+      },
+      "size": "content"
+     },
+     "resolvedValue": {}
+    },
+    "html": "      <div        class=\"q-locator_map-container\"        id=\"q_locator_map_2f79c8865032787a54771530bd41d4c6_qf257182c7a5045649137ad8b52fac6d1_container\"        data-q-item-id=\"2f79c8865032787a54771530bd41d4c6\"        data-q-request-id=\"d968d79f63efd98690904e7c11562d45a2daac93\"      ></div>",
+    "stylesheets": [
+     {
+      "type": "remote",
+      "content": "https://service.sophie.nzz.ch/bundle/sophie-color%23master,sophie-font%23master,sophie-legend%23master[icon-label],sophie-q%23master.css"
+     },
+     {
+      "type": "inline",
+      "content": "  @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff) format(\"woff\");  }    @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff) format(\"woff\");    unicode-range: U+0020-00FF,U+2005,U+2082;  }      "
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/css-theme-layer/nzz-0.2.0.css"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/locatorMap/q-locatorMap-1.1.12.css"
+     }
+    ],
+    "scripts": [
+     {
+      "type": "inline",
+      "content": "function qTrackingBootstrap(t,e,n){if(window.digitalData&&window.digitalData.component&&window.digitalData.component.push){window.digitalData.component.push(t),window.digitalData.event&&window.digitalData.event.length||(window.digitalData.event=[]);var i=new Date,a=e;a.eventInfo.timeStamp=i.toISOString(),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\");var o=document.querySelectorAll(\"[data-q-request-id='\"+n+\"']\");[].forEach.call(o,function(t){t.addEventListener(\"q-tracking-event\",function(t){var e=new Date;(a=JSON.parse(JSON.stringify(a))).eventInfo.timeStamp=e.toISOString(),a.eventInfo=Object.assign(a.eventInfo,t.detail.eventInfo),a.category=Object.assign(a.category,t.detail.category),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\")},!1)})}};qTrackingBootstrap({\"componentInfo\":{\"componentName\":\"Q\",\"componentID\":\"2f79c8865032787a54771530bd41d4c6\"},\"category\":{\"componentType\":\"storytelling\",\"componentSubType1\":\"Q graphic\",\"componentSubType2\":\"locator_map\"}},{\"eventInfo\":{\"eventName\":\"Storytelling Interaction\",\"eventAction\":\"load\",\"type\":\"story\",\"componentName\":\"Q\",\"eventNonInteractive\":true,\"componentID\":\"2f79c8865032787a54771530bd41d4c6\"},\"category\":{\"primaryCategory\":\"storytelling\",\"subCategory1\":\"Q graphic\",\"subCategory2\":\"locator_map\"}},\"d968d79f63efd98690904e7c11562d45a2daac93\")"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/locatorMap/q-locatorMap-1.1.12.js"
+     },
+     {
+      "type": "inline",
+      "content": "      (function () {        function initialize() {          const target = document.querySelector('#q_locator_map_2f79c8865032787a54771530bd41d4c6_qf257182c7a5045649137ad8b52fac6d1_container');          if (!target) return;          target.innerHTML = '';          const qdoc = {\"_id\":\"2f79c8865032787a54771530bd41d4c6\",\"title\":\"The long journey of smuggled elephants\",\"subtitle\":\"Elephants are brought to Boten and then to China over the Laotian border\",\"publication\":\"nzz\",\"acronym\":\"wai.\",\"sources\":[],\"geojsonList\":[{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[100.79600259661674,22.01161287934399]},\"properties\":{\"label\":\"Xishuangbanna\",\"type\":\"city\",\"labelPosition\":\"left\",\"useForInitialView\":true}},{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[101.67259745299816,21.184182299935024]},\"properties\":{\"label\":\"Messengers\",\"type\":\"city\",\"labelPosition\":\"right\",\"useForInitialView\":true}},{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[101.70592289417982,19.265310934125974]},\"properties\":{\"label\":\"Xayaburi\",\"type\":\"city\",\"labelPosition\":\"left\",\"useForInitialView\":true}},{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[102.6133705303073,17.96409889648142]},\"properties\":{\"label\":\"Vientiane\",\"type\":\"city\",\"labelPosition\":\"right\",\"useForInitialView\":true}},{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"properties\":{\"stroke\":\"#df7c18\"},\"geometry\":{\"coordinates\":[[100.79600259661674,22.01161287934399],[101.67259745299816,21.184182299935024],[101.70592289417982,19.265310934125974],[102.6133705303073,17.96409889648142]],\"type\":\"LineString\"}}]},{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[114.85419311279861,15.232952256549893]},\"properties\":{\"label\":\"South China Sea\",\"type\":\"water\",\"labelPosition\":\"top\",\"useForInitialView\":true}},{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[94.87312733549163,9.998911247267955]},\"properties\":{\"label\":\"Andaman Sea\",\"type\":\"water\",\"labelPosition\":\"top\",\"useForInitialView\":true}},{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[100.73248435091313,15.010506985393903]},\"properties\":{\"label\":\"Thailand\",\"type\":\"country\",\"labelPosition\":\"top\",\"useForInitialView\":true}},{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[103.00380813779071,19.96921171846087]},\"properties\":{\"label\":\"Laos\",\"type\":\"country\",\"labelPosition\":\"top\",\"useForInitialView\":true}},{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[108.36939911258594,13.190816915661529]},\"properties\":{\"label\":\"Vietnam\",\"type\":\"country\",\"labelPosition\":\"top\",\"useForInitialView\":true}},{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[89.67212504090566,24.477586690827636]},\"properties\":{\"label\":\"Bangladesh\",\"type\":\"country\",\"labelPosition\":\"top\",\"useForInitialView\":true}},{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[106.65767683841705,25.81843296860704]},\"properties\":{\"label\":\"China\",\"type\":\"country\",\"labelPosition\":\"top\",\"useForInitialView\":true}}],\"options\":{\"baseLayer\":{\"layers\":{\"label\":false},\"style\":\"basic\"},\"initialZoomLevel\":-1,\"labelsBelowMap\":false,\"labelsBelowMapOneRow\":true,\"minimap\":{\"showMinimap\":false,\"options\":{\"type\":\"region\",\"region\":{\"id\":\"Q819\",\"label\":\"\"},\"position\":\"bottom-right\"}},\"dimension\":{\"useDefaultAspectRatio\":true,\"bbox\":[93.06265185319597,9.187483194563654,112.02326781321102,27.1149723224338]},\"showLegend\":true,\"highlightRegion\":[{\"id\":\"Q819\",\"label\":\"China\"}]},\"updatedDate\":\"2025-08-13T07:42:46.875Z\"};          const toolRuntimeConfig = {\"displayOptions\":{\"hideTitle\":false,\"hideSubtitle\":false,\"hideFooter\":false,\"hideAcronym\":false},\"size\":{\"width\":[{\"value\":100,\"comparison\":\">\"}]},\"locale\":\"en-US\"};          const toolSettings = {\"qItemInstanceId\":\"q_locator_map_2f79c8865032787a54771530bd41d4c6_qf257182c7a5045649137ad8b52fac6d1\",\"fontBaseUrl\":\"https://qv1-server.nzz.ch/files/locator_map/fonts/\",\"toolBaseUrl\":\"https://q-server.nzz.ch/locator_map\",\"apiKey\":\"UUOJDlqQTsVSgwOM1KVX\"};          let attempts = 0;          const maxAttempts = 100;          const checkAndInitialize = setInterval(() => {            if (window.qLocatorMap) {              clearInterval(checkAndInitialize);              new window.qLocatorMap({ target: target, props: {                qdoc: qdoc,                toolSettings: toolSettings,                toolRuntimeConfig: toolRuntimeConfig              } });            } else {              attempts++;              if (attempts >= maxAttempts) {                clearInterval(checkAndInitialize);                console.error('Failed to initialize qLocatorMap after 30 seconds');              }            }          }, 300);        }        if (document.body.classList.contains('pagedone')) {          initialize();        } else {          window.addEventListener('pagedone', initialize);        }      })();    "
+     }
+    ]
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1ivmvec231",
+   "content": {
+    "text": "At the border, behind the customs post, there is a forest path that is used to bring elephants to the Chinese side. The customs officers look the other way."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "q-embed",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1ivmvi8rn0",
+   "content": {
+    "text": "The elephant costs $100,000. Added to this are the costs of quarantine, training the elephants, and obtaining Convention on International Trade in Endangered Species, or CITES, permits – including bribes. All in all, a zoo pays around $1 million for an elephant like this. «The Chinese agents who organize the whole thing are making a lot of money,» says Karl Ammann. The environmentalist has been working on elephant smuggling from Laos to China for years."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "image"
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1j1g16gea0",
+   "content": {
+    "image": {
+     "author": "Guillaume Payen / LightRocket",
+     "caption": "View of the Chinese-Laotian border. The border town of Boten belongs to Laos, but most of its inhabitants are Chinese citizens.",
+     "originalUrl": "/2025/07/31/1d9a5ee6-acbd-4f0d-b4a8-0dce337d7c42.jpg?width=1024",
+     "width": 5000,
+     "height": 3333,
+     "altText": "BOTEN, LUANG NAMTHA PROVINCE, LAOS - 2015/09/29: A view of the Chinese and Laos border which is around 1km from Boten. The border town of Boten is a special economic zone land hired by China for 99 years in the northern province, while the city is part of Laos, most of the inhabitants are Chinese citizens, speak Mandarin, pay in Yuan and eat in the Chinese restaurants. In 2002, a casino and several large hotels were built to welcome Chinese visitors for gambling (as this activity is illegal in China), but after a few years, several cases of murders and disappearing appeared, mostly due to the gambling activities, and after pressure from the Chinese government, the casino was shut down in 2011, and the city became a ghost town for about 4 years until 2015 where new projects to modernize and develop the city are underway. (Photo by Guillaume Payen/LightRocket via Getty Images)",
+     "origins": [
+      {
+       "name": "Hugo",
+       "identifier": "2172706879"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "caption": "View of the Chinese-Laotian border. The border town of Boten belongs to Laos, but most of its inhabitants are Chinese citizens.",
+    "author": "Guillaume Payen / LightRocket"
+   },
+   "styles": {
+    "fullwidth-widget": "widget--containerwidth"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1j0cp2kmn1",
+   "content": {
+    "text": "The NZZ has arranged to meet with the director of a travel agency in Vientiane. The company primarily earns its money from tourism. However, a subsidiary is also active in the import-export business. We pretend to want to buy an elephant for a safari park in Tianjin, China, on behalf of a Chinese operator."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "image",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1ivn5cd9t0",
+   "content": {
+    "text": "Yes, in the past, elephants have repeatedly been moved from Laos to China on behalf of Chinese companies, explains the director, adding that he can help. However, we would have to pay substantial sums in bribes. The government, customs officials, the forestry commission – many palms need to be greased. The director is vague about the possible total."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1ivn5k05m0",
+   "content": {
+    "text": "Then he calls a colleague, the in-house expert on smuggling elephants to China. After a brief conversation, the director informs us of the elephant expert's verdict: it is considerably more difficult today than it was a few years ago to transport an elephant to China. One must get to higher levels in the Laotian government – ​​up to deputy prime minister, he says. It's difficult at the moment. Perhaps he could help again in the future."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "image"
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1j1e07d3u1",
+   "content": {
+    "image": {
+     "author": "Photo only",
+     "caption": "An elephant trots through the Elephant Conservation Center in Xayaburi. The organization is committed to preserving the population and breeding elephants.",
+     "originalUrl": "/2025/07/30/ec510783-4205-42f6-86e9-0653feab1689.jpg?width=1024",
+     "width": 6016,
+     "height": 4016,
+     "altText": "The Elephant Conservation Center, Sayaboury, Laos, in December 2018. An elephant on a daily inspection at the hospital in the Elephant Conservation Center, Sayaboury, Laos, in December 2018. Laos was known as The land of a million elephants in the past, today the elephant population in the country stands at around 800 individuals. Half of them are made up of captive elephants, and their number is in decline; the owners are not interested in breeding animals (the cow needs at least four years out of work during her pregnancy and lactation), illegal trafficking to China and other neighboring countries continues. Against this backdrop, the Elephant Conservation Center is the only one organization in Laos which is interested in maintaining the population and breeding of elephants. They have the only elephant hospital and research laboratory in Laos. The Center was created in 2011, and now the team is protecting 29 elephants that had been working in the logging industry or mass tourism, and 530 hectares of forest around Nam Tien Lake in Sayaboury. If we have extra money, we buy an elephant, says Anthony, the manager. The primary goal of the Center, besides conservation and breeding, is to reintroduce socially coherent groups of healthy elephants to a natural forest where they can contribute to the increase of the wild population. For this reason, a special socialization program has been developed by the biologists, where domesticated elephants learn to communicate and survive in the wild under the supervision of specialists. There are not enough elephants in Laos, says Chrisantha, the biologist of the center. We need around 5000 of a species to sustain a population, and we are nowhere near that. The efforts we are making now at least give a bit of hope for the future. ((Photo by Oleksandr Rupeta/NurPhoto via Getty Images))",
+     "origins": [
+      {
+       "name": "Hugo",
+       "identifier": "2172680781"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "caption": "An elephant trots through the Elephant Conservation Center in Xayaburi. The organization is committed to preserving the population and breeding elephants.",
+    "author": "Photo only"
+   },
+   "styles": {
+    "fullwidth-widget": "widget--containerwidth"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1ivn01kqu0",
+   "content": {
+    "text": "An employee at the Elephant Conservation Center in Xayaburi, Laos, confirms that illegal elephant trading has declined somewhat, but has by no means come to a halt. In the past, the Elephant Conservation Center has repeatedly managed to rescue elephants brought from Laos to China and kept there under questionable circumstances."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "image",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1j0cmk5us0",
+   "content": {
+    "title": "Questionable shows disguised as educational events",
+    "id": "subtitle-questionable-shows-disguised-as-educational-events"
+   },
+   "data": {},
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1j18q1g3c1",
+   "content": {
+    "text": "The crowd roars in Wild Elephant Valley. The keeper has put on a doctor's coat and is inserting a thermometer into an elephant's anus. Visitors are asked to guess the animal's body temperature; «36.5 degrees,» the guard says loudly. The enclosure where this show takes place is called Elephant Science Park. The park operators want to give the impression that the elephant shows are educational events."
+   },
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "image"
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1j1g18k7b1",
+   "content": {
+    "image": {
+     "author": "VCG/Getty",
+     "caption": "In 2021, the elephants in Wild Elephant Valley still had to play soccer.",
+     "originalUrl": "/2025/07/31/b0bf1da8-ee45-44c9-8d84-413975b81eee.jpg?width=1024",
+     "width": 5248,
+     "height": 3503,
+     "altText": "XISHUANGBANNA, CHINA - FEBRUARY 22: An elephant plays football at the Wild Elephant Valley on February 22, 2021 in Xishuangbanna, Yunnan Province of China. (Photo by Li Ming/VCG via Getty Images)",
+     "origins": [
+      {
+       "name": "Hugo",
+       "identifier": "2172706876"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "caption": "In 2021, the elephants in Wild Elephant Valley still had to play soccer.",
+    "author": "VCG/Getty"
+   },
+   "styles": {
+    "fullwidth-widget": "widget--containerwidth"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1ivnaf0uv0",
+   "content": {
+    "text": "Chinese authorities have recently tightened supervision of safari parks in response to public complaints. The worst abuses in elephant training, husbandry, and cruelty during shows have been eliminated. For example, the animals no longer have to play soccer."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "image",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1ivi6osn11",
+   "content": {
+    "text": "The improvement in the situation is also due to an inspection carried out by CITES at parks in southern China in 2023. The organization is responsible for regulating international wildlife trade and also visited Wild Elephant Valley. <a target=\"_blank\" href=\"https://cites.org/sites/default/files/notifications/E-Notif-2025-032.pdf\">It recommended suspending commercial trade in virtually all CITES-listed animal and plant species from Laos.</a> The organization upheld this recommendation at this year's annual meeting in Geneva."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "image"
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1j1g4jep01",
+   "content": {
+    "image": {
+     "author": "Imago",
+     "caption": "New safari parks in China are a mixture of amusement park and zoo. Visitors are transported through the park in gondolas, as seen here at Chimelong Safari Park in Guangzhou.",
+     "originalUrl": "/2025/07/31/fa352d60-fe49-4b8e-976f-732b202f7b2a.jpg?crop=5124,2882,x143,y0",
+     "width": 6485,
+     "height": 3648,
+     "altText": "Chimelong safari zoo park Guangzhou, Guangzhou Chimelong Safari Park wild animal world belongs to the first batch of the national, Guangzhou`s only national 5A scenic spot tourism resort, located in Panyu, Guangzhou.",
+     "origins": [
+      {
+       "name": "Hugo",
+       "identifier": "2172709641"
+      }
+     ],
+     "crop": {
+      "x": 143,
+      "y": 0,
+      "width": 5124,
+      "height": 2882
+     },
+     "imageService": "fastly"
+    },
+    "caption": "New safari parks in China are a mixture of amusement park and zoo. Visitors are transported through the park in gondolas, as seen here at Chimelong Safari Park in Guangzhou.",
+    "author": "Imago"
+   },
+   "styles": {
+    "fullwidth-widget": "widget--containerwidth"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1ivitr7171",
+   "content": {
+    "text": "CITES confirms on request that it repeatedly receives reports of corruption. Although the organization can only issue recommendations and requests to its 180 member countries, the system enjoys a good reputation in the European zoo scene. At least countries can be put under political pressure in the event of violations."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "image",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1j18vi21u1",
+   "content": {
+    "text": "This becomes more difficult in gray areas. Some safari parks lease elephants from Laos. The contract specifies how long a safari park is allowed to use an elephant. After that, the animal must be returned to Laos. That alone would not be illegal. However, it cannot be verified whether some elephants from Wild Elephant Valley were returned to Laos after their lease expired two years ago."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "image"
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1j06dk72a1",
+   "content": {
+    "image": {
+     "author": "China News Service",
+     "caption": "Tourists watch elephants eating watermelons at Chimelong Safari Park in Guangzhou.",
+     "originalUrl": "/2025/07/15/0ad113e9-5bb2-4224-90ba-acd6761aba59.jpeg?width=1024",
+     "width": 8162,
+     "height": 5441,
+     "altText": "GUANGZHOU, CHINA - AUGUST 11: Tourists watch as elephants eat watermelons at the Chimelong Safari Park before the World Elephant Day on August 11, 2023 in Guangzhou, Guangdong Province of China. (Photo by Chen Jimin/China News Service/VCG via Getty Images)",
+     "origins": [
+      {
+       "name": "Hugo",
+       "identifier": "2172090621"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "caption": "Tourists watch elephants eating watermelons at Chimelong Safari Park in Guangzhou.",
+    "author": "China News Service"
+   },
+   "styles": {
+    "fullwidth-widget": "widget--containerwidth"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1ivn7m2jd0",
+   "content": {
+    "text": "The Wild Elephant Valley press office declined to comment on the matter and recommended contacting the local tourism authority. They also declined to comment and suggested contacting the media office of the Xishuangbanna municipal government. There, an employee explains that the press officers at Wild Elephant Valley are responsible for such inquiries – organized lack of accountability in the thicket of the Chinese safari park business."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "image",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1iva0dng18",
+   "content": {
+    "title": "Zurich Zoo receives animals free of charge",
+    "id": "subtitle-zurich-zoo-receives-animals-free-of-charge"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1j0cmrleh0",
+   "content": {
+    "text": "But how can a zoo legally acquire an elephant without leasing it? We asked Severin Dressen, director of Zurich Zoo, for more information."
+   },
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "image"
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1j1g69apd0",
+   "content": {
+    "image": {
+     "author": "Keystone",
+     "caption": "Severin Dressen, Director of the Zurich Zoo.",
+     "originalUrl": "/2025/07/31/820f8db9-5292-4aa2-8c0d-c4dc03042a72.jpg?width=1024",
+     "width": 408,
+     "height": 612,
+     "altText": "Director Severin Dressen picture box",
+     "origins": [
+      {
+       "name": "Hugo",
+       "identifier": "2172711055"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "caption": "Severin Dressen, Director of the Zurich Zoo.",
+    "author": "Keystone"
+   },
+   "styles": {
+    "fullwidth-widget": "widget--left"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1ivldk5950",
+   "content": {
+    "text": "«Because Asian elephants are critically endangered, we are participating in a breeding program as a scientifically managed zoo to help preserve the species,» says Dressen."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "image",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1j1g2euue0",
+   "content": {
+    "text": "Here's how it works: In Europe, all scientifically managed zoos are members of the European Association of Zoos and Aquaria, or EAZA, which runs over <a target=\"_blank\" href=\"https://www.eaza.net/eep-pages/?utm_source=chatgpt.com\">500 breeding programs</a> . Member zoos participate in these breeding programs and exchange animals among themselves. A prerequisite for membership of EAZA and its breeding programs is that zoos engage in education, conservation, research, and species protection."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iviv99711",
+   "content": {
+    "text": "«In principle, all animals within the EAZA are exchanged free of charge, even those that are not currently part of a European breeding program, that's standard,» says Dressen. When a zoo receives a new animal, it only covers the logistics costs. Only a few animal species, such as some marine fish species, would be purchased by Zurich Zoo. However, the zoo is currently reorganizing its animal population so that such a purchase will no longer be necessary in the future."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "image"
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1j1dvltl01",
+   "content": {
+    "image": {
+     "author": "Ennio Leanza / Keystone",
+     "caption": "Elephants at Zurich Zoo with a newborn calf in 2017.",
+     "originalUrl": "/2025/07/30/bffccc87-ba4b-4f81-ae48-1cb44b4d7fd3.jpg?crop=4949,3299,x343,y413",
+     "width": 5568,
+     "height": 3712,
+     "altText": "The newborn elephant calf enters the public with its mother at Zurich Zoo on Saturday, February 25, 2017. (KEYSTONE/Ennio Leanza).",
+     "origins": [
+      {
+       "name": "Hugo",
+       "identifier": "2172680610"
+      }
+     ],
+     "crop": {
+      "x": 343,
+      "y": 413,
+      "width": 4949,
+      "height": 3299
+     },
+     "imageService": "fastly"
+    },
+    "caption": "Elephants at Zurich Zoo with a newborn calf in 2017.",
+    "author": "Ennio Leanza / Keystone"
+   },
+   "styles": {
+    "fullwidth-widget": "widget--containerwidth"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1ivivn3cr1",
+   "content": {
+    "text": "Chinese zoos have also established an umbrella organization, the China Zoo Association. However, Chinese zoos lag far behind EAZA standards when it comes to the exchange of animals as part of breeding programs. Breeding programs for native species such as giant pandas, golden monkeys, and Delacour's langurs are exceptions to this rule."
+   },
+   "paidContent": true,
+   "prevElement": "image",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1j0ej4j3s0",
+   "content": {
+    "text": "Animal welfare has not always been a priority in Switzerland either. In the 1990s, Swiss circuses staged controversial elephant shows. To date, it is still permitted to keep wild animals in circuses in Switzerland. This has long been prohibited in other European countries. And in China, it is still a lucrative business."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "free-html"
+  },
+  {
+   "identifier": "free-html",
+   "id": "doc-PIFY34V2Vh",
+   "content": {
+    "html": "<div style=\"background: #EAECF5; font-family: Helvetica, sans-serif; font-weight:10; font-size:13px; padding:12px;\">\nPlease note that this story was machine translated with light editing by our editorial staff. \n</div>"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "sharebox",
+   "lastContentElement": true
+  },
+  {
+   "identifier": "sharebox",
+   "id": "doc-1iva0dng115",
+   "paidContent": true,
+   "prevElement": "free-html",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1gnpvabq60",
+   "content": {
+    "title": "Latest articles",
+    "id": "subtitle-latest-articles"
+   },
+   "styles": {
+    "subtitle-type": "subtitle--chapter"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "sharebox",
+   "nextElement": "free-html"
+  },
+  {
+   "identifier": "free-html",
+   "id": "doc-O9YyG6uC3W",
+   "content": {
+    "html": "<p class=\"articlecomponent text\" pagetype=\"Article\" componenttype=\"p\" is-new-line-child=\"true\"><em>Below, you’ll find links to a selection of our free content. If you’d like access to all of our premium content via the full version of our newsletter, <a target=\"_blank\" href=\"https://www.english.nzz.ch/subscribe\">please upgrade here</a>.</em></p>"
+   },
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "footnote"
+  },
+  {
+   "identifier": "footnote",
+   "id": "doc-1is8r3imi0",
+   "content": {
+    "text": "<strong>NZZ Geopolitics <strong>– The independent Swiss view</strong><br></strong><br> Standing outside the American media establishment, the NZZ offers distinctive insights that challenge the polarized narratives often found in US coverage. Our goal is to provide in-depth, nuanced reporting on global affairs, including developments in the United States, Europe, China and beyond. Taking a nonpartisan stance, we approach events with a sober and critical eye. Backed by a trusted network of international correspondents and expert reporters based in Switzerland, we deliver sharp analysis and a deeper understanding of geopolitics and the global economy.<br><br> Sign up for our <a href=\"https://www.nzz.ch/english/newsletter-signup-ld.1668517\">free newsletter</a> or follow us on <a target=\"_blank\" href=\"https://www.twitter.com/NZZReporting\">Twitter</a> , <a target=\"_blank\" href=\"https://www.facebook.com/NZZReporting\">Facebook</a> or <a target=\"_blank\" href=\"https://whatsapp.com/channel/0029Va7eJxSEawdrEZVOnO3Z\">WhatsApp</a> ."
+   },
+   "paidContent": true,
+   "prevElement": "free-html",
+   "nextElement": "",
+   "lastContentElement": true
+  }
+ ],
+ "metadata": {
+  "owner": "NZZ",
+  "germanyRelevant": false,
+  "title": "Chinese safari parks fuel illegal elephant trade",
+  "teaserImage": {
+   "originalUrl": "/2025/07/31/df24d626-97dc-4673-8de5-c6feb53c7161.jpg?width=1024",
+   "url": "https://img-msp-prod.nzz.ch/2025/07/31/df24d626-97dc-4673-8de5-c6feb53c7161.jpg?width=1024&quality=75&auto=webp",
+   "width": 6016,
+   "height": 4016,
+   "crops": [
+    {
+     "name": "16:9",
+     "crop": "6016,3384,x0,y162"
+    },
+    {
+     "name": "1:1",
+     "crop": "4016,4016,x656,y0"
+    },
+    {
+     "name": "4:3",
+     "crop": "5355,4016,x0,y0"
+    },
+    {
+     "name": "3:4",
+     "crop": "3012,4016,x1489,y0"
+    },
+    {
+     "name": "3:2",
+     "crop": "6016,4011,x0,y3"
+    }
+   ],
+   "imageService": "fastly",
+   "teaserCaption": "Zoo-themed safari parks are booming in China – and with them, ethically dubious elephant shows. The charismatic animals are often obtained illegally from Laos.",
+   "teaserAuthor": "Photo only"
+  },
+  "teaserAuthor": "Photo only",
+  "nzzasFootnote": false,
+  "folioFootnote": false,
+  "language": {
+   "locale": "en-US"
+  },
+  "nzzId": "ld.1897238",
+  "readingTime": 600,
+  "showComments": false,
+  "authorLine": "Matthias Kamp, Xishuangbanna, Isabelle Wachter",
+  "characterCount": 10669,
+  "breadcrumbs": [
+   {
+    "name": "NZZ in English",
+    "path": "/english"
+   }
+  ],
+  "product": "NZZ.ch",
+  "documentId": 1897238,
+  "contentTypeGroup": "web",
+  "layout": "longformstandard",
+  "firstPublicationDate": "2025-08-14T07:14:39.258Z",
+  "publicationDate": "2025-08-14T07:14:39.258Z",
+  "publicationLastUpdated": "2025-08-14T07:14:39.258Z",
+  "significantUpdate": false,
+  "significantUpdateTill": "2025-08-14T19:14:39.258Z",
+  "teaserCaption": "Zoo-themed safari parks are booming in China – and with them, ethically dubious elephant shows. The charismatic animals are often obtained illegally from Laos.",
+  "nzzAuthors": [
+   {
+    "id": 1373189,
+    "name": "Matthias Kamp",
+    "shortName": "mka",
+    "pianoId": "9e391cde-1179-42dd-ac32-121590fd59f7",
+    "external": false
+   },
+   {
+    "id": 1699175,
+    "name": "Isabelle Wachter",
+    "shortName": "wai",
+    "pianoId": "c9178452-a5d5-4ff6-9241-6187fa333334",
+    "external": false
+   }
+  ],
+  "authorImage": {
+   "originalUrl": "/2022/09/14/238146b3-b9c6-4e92-94fc-466bddc340d8.png?width=1024",
+   "url": "https://img-msp-prod.nzz.ch/2022/09/14/238146b3-b9c6-4e92-94fc-466bddc340d8.png?width=1024&quality=75&auto=webp",
+   "width": 800,
+   "height": 800,
+   "crops": [
+    {
+     "name": "1:1",
+     "crop": "800,800,x0,y0"
+    }
+   ],
+   "imageService": "fastly"
+  },
+  "nzzAuthorProfileDataCollection": [
+   {
+    "documentId": 1497895,
+    "name": "Matthias Kamp (mka.)",
+    "teaserImageUrl": "https://img-msp-prod.nzz.ch/2022/09/14/238146b3-b9c6-4e92-94fc-466bddc340d8.png?width=1024&quality=75&auto=webp"
+   },
+   {
+    "documentId": 1760317,
+    "name": "Isabelle Wachter (wai.)",
+    "teaserImageUrl": "https://img-msp-prod.nzz.ch/2023/10/11/cf7a0765-64e8-431f-8ea3-8914315c85d9.png?width=1024&quality=75&auto=webp"
+   }
+  ],
+  "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2022/09/14/238146b3-b9c6-4e92-94fc-466bddc340d8.png?width=1024&quality=75&auto=webp",
+  "url": "/english/chinese-safari-parks-fuel-illegal-elephant-trade-ld.1897238",
+  "department": {
+   "name": "NZZ in English",
+   "path": "/english"
+  },
+  "estimationWordCount": 1969,
+  "premium": false,
+  "leadText": "Zoo-themed safari parks are booming in China – and with them, ethically dubious elephant shows. The charismatic animals are often obtained illegally from Laos.",
+  "nzzSummaryEN": "- Safari parks in China, such as Wild Elephant Valley, attract millions of visitors, while operators increasingly obtain elephants illegally from Laos to meet growing demand.\n- Elephants are often transported to China via unofficial channels at high costs and with extensive bribery, raising concerns about conservation and animal welfare.\n- Although some improvements have been made, opaque practices and gray areas, such as leasing elephants, remain an issue.",
+  "nzzSummaryDE": "Safari parks in China, such as Wild Elephant Valley, attract millions of visitors, while operators are increasingly acquiring elephants illegally from Laos to meet growing demand.\n - The elephants are often brought to China via unofficial routes, involving high costs and extensive bribes, raising concerns about nature conservation and animal welfare.\n - Although some measures have been taken to improve conditions, opaque practices and grey areas, such as the leasing of elephants, remain a problem.",
+  "nzzSummaryIsAuto": true,
+  "nzzSummaryModel": "gpt-4o-2024-11-20",
+  "nzzPrintTitle": "Chinese safari parks fuel illegal elephant trade",
+  "nzzPrintSubtitle": "Zoo-themed safari parks are booming in China – and with them, ethically dubious elephant shows. The charismatic animals are often obtained illegally from Laos – an investigation into the trade.",
+  "allArticleLanguages": [
+   {
+    "locale": "en-US",
+    "urlPath": "/english/chinese-safari-parks-fuel-illegal-elephant-trade-ld.1897238",
+    "seo": {}
+   },
+   {
+    "locale": "de-CH",
+    "urlPath": "/wirtschaft/safariparks-in-china-das-schmutzige-geschaeft-mit-geschmuggelten-elefanten-aus-laos-ld.1892092",
+    "seo": {}
+   }
+  ],
+  "seo": {
+   "canonicalUrl": "https://www.nzz.ch/english/chinese-safari-parks-fuel-illegal-elephant-trade-ld.1897238",
+   "title": "Chinese safari parks fuel illegal elephant trade",
+   "socialMediaTitle": "Chinese safari parks fuel illegal elephant trade",
+   "description": "Zoo-themed safari parks are booming in China – and with them, ethically dubious elephant shows. The charismatic animals are often obtained illegally from Laos – an investigation into the trade.",
+   "excludeFromSpiders": false,
+   "image": "https://img-msp-prod.nzz.ch/2025/07/31/df24d626-97dc-4673-8de5-c6feb53c7161.jpg?width=1200&height=675&fit=bounds&quality=75&auto=webp&crop=6016,3384,x0,y162&wmark=nzz"
+  },
+  "ldPublicationId": 2409066,
+  "isHighlightedHeader": false,
+  "barrierIndex": 3,
+  "outlinks": {
+   "mehrZumThema": [],
+   "artikelListe": [],
+   "aliasTeaserEmbedList": []
+  },
+  "tts": true,
+  "hasQ": true,
+  "mp3": true,
+  "mp3Duration": 651240,
+  "project": "nzz",
+  "machineTranslated": true,
+  "machineTranslationValidated": false
+ },
+ "isReduced": false,
+ "isPaid": false,
+ "isVamp": false,
+ "isWebview": false,
+ "digitalData": {
+  "component": [
+   {
+    "id": "ld.1897238",
+    "name": "Chinese safari parks fuel illegal elephant trade",
+    "type": "article",
+    "subType1": "longformstandard",
+    "subType2": "",
+    "primaryCategory": "NZZ in English",
+    "subCategory1": "",
+    "attributes": {
+     "headline": "Chinese safari parks fuel illegal elephant trade",
+     "firstPublishTitle": "",
+     "catchline": "",
+     "authors": [
+      {
+       "id": 1373189,
+       "name": "Matthias Kamp",
+       "shortName": "mka",
+       "pianoId": "9e391cde-1179-42dd-ac32-121590fd59f7",
+       "external": false
+      },
+      {
+       "id": 1699175,
+       "name": "Isabelle Wachter",
+       "shortName": "wai",
+       "pianoId": "c9178452-a5d5-4ff6-9241-6187fa333334",
+       "external": false
+      }
+     ],
+     "issueTimestamp": "2025-08-14T07:14:39.258Z",
+     "updateTimestamp": "2025-08-14T07:14:39.258Z",
+     "isSponsoredContent": false,
+     "isPro": false,
+     "isLiveticker": false,
+     "flag": "",
+     "owner": "NZZ"
+    }
+   }
+  ],
+  "page": {
+   "pageId": "ld.1897238",
+   "pageType": "longformstandard",
+   "primaryCategory": "NZZ in English",
+   "subCategory1": "",
+   "subCategory2": "",
+   "language": "en-US"
+  },
+  "version": "2.0",
+  "user": {},
+  "event": []
+ },
+ "seoData": {
+  "title": "Chinese safari parks fuel illegal elephant trade",
+  "image": {
+   "url": "https://img-msp-prod.nzz.ch/2025/07/31/df24d626-97dc-4673-8de5-c6feb53c7161.jpg?width=1200&height=675&fit=bounds&quality=75&auto=webp&crop=6016,3384,x0,y162&wmark=nzz",
+   "type": "image/jpeg",
+   "width": 1200,
+   "height": 675
+  },
+  "author": "Matthias Kamp, Xishuangbanna, Isabelle Wachter",
+  "description": "Zoo-themed safari parks are booming in China – and with them, ethically dubious elephant shows. The charismatic animals are often obtained illegally from Laos – an investigation into the trade.",
+  "news_keywords": "Chinese safari parks fuel illegal elephant trade, NZZ in English, News, NZZ",
+  "type": "article",
+  "last-modified": "2025-08-14T11:14:39+02:00",
+  "date": "2025-08-14T11:14:39+02:00",
+  "canonical": "https://www.nzz.ch/english/chinese-safari-parks-fuel-illegal-elephant-trade-ld.1897238",
+  "fb:app_id": 138008459595436,
+  "fb:pages": 143694099006529,
+  "fb:admins": 1592685173,
+  "locale": "en-US",
+  "email": "online.redaktion@nzz.ch",
+  "site_name": "Neue Zürcher Zeitung",
+  "copyright": "2026 Neue Zürcher Zeitung AG, Schweiz",
+  "robots": "noindex, nofollow, noarchive, noodp",
+  "hreflang": [
+   {
+    "hreflang": "en",
+    "href": "https://www.nzz.ch/english/chinese-safari-parks-fuel-illegal-elephant-trade-ld.1897238"
+   },
+   {
+    "hreflang": "de",
+    "href": "https://www.nzz.ch/wirtschaft/safariparks-in-china-das-schmutzige-geschaeft-mit-geschmuggelten-elefanten-aus-laos-ld.1892092"
+   }
+  ],
+  "sharedTitle": "Chinese safari parks fuel illegal elephant trade",
+  "ogTitle": "Chinese safari parks fuel illegal elephant trade",
+  "ogUrl": "https://www.nzz.ch/english/chinese-safari-parks-fuel-illegal-elephant-trade-ld.1897238",
+  "mrf:cms_id": "nzz:ld.1897238",
+  "mrf:sections": "NZZ in English",
+  "mrf:tags": "Page Type:longformstandard;Editorial Owner:NZZ;Content Type:Standard Article;Article ID:ld.1897238",
+  "nzzAuthors": [
+   {
+    "id": 1373189,
+    "name": "Matthias Kamp",
+    "shortName": "mka",
+    "pianoId": "9e391cde-1179-42dd-ac32-121590fd59f7",
+    "external": false
+   },
+   {
+    "id": 1699175,
+    "name": "Isabelle Wachter",
+    "shortName": "wai",
+    "pianoId": "c9178452-a5d5-4ff6-9241-6187fa333334",
+    "external": false
+   }
+  ],
+  "links": [
+   {
+    "rel": "canonical",
+    "href": "https://www.nzz.ch/english/chinese-safari-parks-fuel-illegal-elephant-trade-ld.1897238"
+   },
+   {
+    "rel": "search",
+    "href": "/suche",
+    "title": "Suche Neue Zürcher Zeitung, Schweiz, https://www.nzz.ch/suche"
+   },
+   {
+    "rel": "alternate",
+    "href": "https://www.nzz.ch/english/chinese-safari-parks-fuel-illegal-elephant-trade-ld.1897238",
+    "hreflang": "en"
+   },
+   {
+    "rel": "alternate",
+    "href": "https://www.nzz.ch/wirtschaft/safariparks-in-china-das-schmutzige-geschaeft-mit-geschmuggelten-elefanten-aus-laos-ld.1892092",
+    "hreflang": "de"
+   }
+  ],
+  "renderedAt": "Thu, 03 Sep 2026 10:02:51 GMT"
+ },
+ "structuredData": [
+  {
+   "@context": "https://schema.org",
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "item": {
+      "@id": "/",
+      "name": "Home"
+     }
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "item": {
+      "@id": "/english",
+      "name": "NZZ in English"
+     }
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Chinese safari parks fuel illegal elephant trade"
+    }
+   ]
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": "NewsArticle",
+   "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.nzz.ch/english/chinese-safari-parks-fuel-illegal-elephant-trade-ld.1897238"
+   },
+   "headline": "Chinese safari parks fuel illegal elephant trade",
+   "datePublished": "2025-08-14T11:14:39+02:00",
+   "dateModified": "2025-08-14T11:14:39+02:00",
+   "publisher": {
+    "@type": "NewsMediaOrganization",
+    "name": "Neue Zürcher Zeitung",
+    "url": "https://www.nzz.ch",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://www.nzz.ch/logo.png",
+     "width": 413,
+     "height": 60
+    },
+    "contactPoint": [
+     {
+      "@type": "ContactPoint",
+      "telephone": "+41-44-2581000",
+      "contactType": "customer service"
+     }
+    ],
+    "sameAs": [
+     "https://www.facebook.com/nzz",
+     "https://www.twitter.com/nzz",
+     "https://www.youtube.com/channel/UCK1aTcR0AckQRLTlK0c4fuQ",
+     "https://www.linkedin.com/company/neue-zurcher-zeitung",
+     "https://www.instagram.com/nzz/",
+     "https://de.wikipedia.org/wiki/Neue_Z%C3%BCrcher_Zeitung",
+     "https://www.wikidata.org/wiki/Q658945",
+     "https://plus.google.com/+nzz/",
+     "http://www.freebase.com/m/041b43"
+    ],
+    "masthead": "https://www.nzz.ch/impressum/impressum-ld.148422",
+    "foundingDate": "1780"
+   },
+   "description": "Zoo-themed safari parks are booming in China – and with them, ethically dubious elephant shows. The charismatic animals are often obtained illegally from Laos – an investigation into the trade.",
+   "isAccessibleForFree": false,
+   "articleSection": "NZZ in English",
+   "hasPart": {
+    "@type": "WebPageElement",
+    "isAccessibleForFree": false,
+    "cssSelector": ".nzzinteraction"
+   },
+   "image": {
+    "@type": "ImageObject",
+    "url": "https://img-msp-prod.nzz.ch/2025/07/31/df24d626-97dc-4673-8de5-c6feb53c7161.jpg?width=1200&height=675&fit=bounds&quality=75&auto=webp&crop=6016,3384,x0,y162&wmark=nzz",
+    "width": 1200,
+    "height": 675
+   },
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Matthias Kamp"
+    },
+    {
+     "@type": "Person",
+     "name": "Isabelle Wachter"
+    }
+   ],
+   "inLanguage": "en"
+  }
+ ],
+ "mp3": true,
+ "mp3Duration": 651240,
+ "bT": {
+  "standard": {
+   "Tags": [
+    "/english/chinese-safari-parks-fuel-illegal-elephant-trade-ld.1897238",
+    "classification=default",
+    "relevance=default",
+    "layout=longformstandard",
+    "owner=nzz",
+    "product=nzz",
+    "doctype=article",
+    "pagetype=article",
+    "ldid=ld.1897238",
+    "channel=NZZ in English"
+   ],
+   "ContentCreated": "2025-08-14T07:14:39.258Z",
+   "ContentAuthor": "Matthias Kamp, Xishuangbanna, Isabelle Wachter",
+   "ContentSection": "NZZ in English",
+   "ContentIsNative": true
+  },
+  "custom": {
+   "product": "nzz",
+   "docType": "article",
+   "pageType": "article",
+   "layout": "longformstandard",
+   "ldId": "ld.1897238",
+   "channel": "NZZ in English",
+   "heading": "Chinese safari parks fuel illegal elephant trade",
+   "language": "en-US"
+  }
+ },
+ "webviewMetadata": {},
+ "cacheTime": 3600
+}

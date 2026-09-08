@@ -1,0 +1,25 @@
+{
+  "params": {
+    "id": "2b2fd4dfb963e0e718f531129433b851",
+    "conf": {},
+    "toolConfig": {},
+    "toolRuntimeConfig": {
+      "size": {
+        "width": [
+          {
+            "value": 100,
+            "comparison": ">"
+          }
+        ]
+      },
+      "displayOptions": {
+        "hideTitle": true,
+        "hideFooter": false,
+        "hideAcronym": false,
+        "hideSubtitle": false
+      }
+    }
+  },
+  "position": 16,
+  "component_id": "doc-1jt3lira10"
+}

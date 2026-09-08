@@ -1,0 +1,242 @@
+{
+  "_id": "de266d4e66d3d94e4de7bfd577658052",
+  "_rev": "3-28418d82e145b924a03ab589128477f5",
+  "tool": "locator_map",
+  "title": "Kuwait ist von der Strasse von Hormuz abhängig",
+  "active": true,
+  "acronym": "rew.",
+  "options": {
+    "minimap": {
+      "options": {
+        "type": "region",
+        "region": {
+          "id": "Q878",
+          "label": "Vereinigte Arabische Emirate"
+        },
+        "position": "top-left"
+      },
+      "showMinimap": false
+    },
+    "baseLayer": {
+      "style": "basic",
+      "layers": {
+        "label": false
+      }
+    },
+    "dimension": {
+      "bbox": [
+        45.87815289443435,
+        21.70435508328404,
+        58.66251902731128,
+        33.029463870740855
+      ],
+      "useDefaultAspectRatio": true
+    },
+    "showLegend": false,
+    "labelsBelowMap": false,
+    "highlightRegion": [
+      {
+        "id": "Q817",
+        "label": "Kuwait"
+      }
+    ],
+    "labelsBelowMapOneRow": false
+  },
+  "sources": [],
+  "createdBy": "rewert.hoffer@nzz.ch",
+  "thumbnail": "https://nzzqprod-4851.kxcdn.com/q-item-thumbnails/nzz/5e0bd093c413c997c74821a64a9ad9c3-thumbnail.jpeg",
+  "updatedBy": "rewert.hoffer@nzz.ch",
+  "department": "default",
+  "createdDate": "2026-07-29T09:42:52.264Z",
+  "geojsonList": [
+    {
+      "id": "custom-layer-KFosh6GOz310oeFXcpAoc",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.1887608,
+          25.0750095
+        ]
+      },
+      "properties": {
+        "type": "city",
+        "label": "Dubai",
+        "labelPosition": "left",
+        "useForInitialView": true
+      }
+    },
+    {
+      "id": "custom-layer-RyGFLSL9QX-ItGPxbrF3C",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.37535212332389,
+          24.4604230904162
+        ]
+      },
+      "properties": {
+        "type": "city",
+        "label": "Abu Dhabi",
+        "labelPosition": "bottom",
+        "useForInitialView": true
+      }
+    },
+    {
+      "id": "custom-layer-P7yA2-KDkwq_k_qm0ryNs",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.94619922672305,
+          21.327543318604683
+        ]
+      },
+      "properties": {
+        "type": "country",
+        "label": "Oman",
+        "labelPosition": "right",
+        "useForInitialView": true
+      }
+    },
+    {
+      "id": "custom-layer-3UL2iU9f7KOp0jZT24lF-",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.745247594291584,
+          29.66112026403809
+        ]
+      },
+      "properties": {
+        "type": "country",
+        "label": "Iran",
+        "labelPosition": "right",
+        "useForInitialView": true
+      }
+    },
+    {
+      "id": "custom-layer-OlsK5pvWHHy4TxSv0xl6h",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.3885981633249,
+          26.607869000052972
+        ]
+      },
+      "properties": {
+        "type": "water",
+        "label": "Strasse von Hormuz",
+        "labelPosition": "top",
+        "useForInitialView": true
+      }
+    },
+    {
+      "id": "custom-layer-nU4T5n8aqfp4EssAA81JB",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.82571295392148,
+          25.07600050807191
+        ]
+      },
+      "properties": {
+        "type": "country",
+        "index": 0,
+        "label": "Saudiarabien",
+        "labelPosition": "top"
+      }
+    },
+    {
+      "id": "custom-layer-Yt1YViTZm3woUPtE-NcPh",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          65.73350882350576,
+          27.95603047974207
+        ]
+      },
+      "properties": {
+        "type": "country",
+        "index": 0,
+        "label": "Pakistan",
+        "labelPosition": "top"
+      }
+    },
+    {
+      "id": "custom-layer-5LQ3M-sfukOxOSjWRSQ4i",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.67678826121309,
+          31.00356244197644
+        ]
+      },
+      "properties": {
+        "type": "country",
+        "index": 0,
+        "label": "Irak",
+        "labelPosition": "top"
+      }
+    },
+    {
+      "id": "custom-layer-SevYP4QgVH0oHn9JlIMy3",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.53446035832167,
+          26.155124986171685
+        ]
+      },
+      "properties": {
+        "type": "city",
+        "index": 0,
+        "label": "Bahrain",
+        "labelPosition": "top"
+      }
+    },
+    {
+      "id": "custom-layer-D5iITpRvBYRodL05o-rWq",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.22952934354544,
+          25.333698500125067
+        ]
+      },
+      "properties": {
+        "type": "city",
+        "index": 0,
+        "label": "Katar",
+        "labelPosition": "bottom"
+      }
+    },
+    {
+      "id": "custom-layer-ZzWSuhCwL-zIBxb5MNbg_",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.49794729053974,
+          29.2733966489194
+        ]
+      },
+      "properties": {
+        "type": "city",
+        "index": 0,
+        "label": "Kuwait",
+        "labelPosition": "right"
+      }
+    }
+  ],
+  "publication": "nzz",
+  "updatedDate": "2026-07-29T09:45:23.663Z"
+}

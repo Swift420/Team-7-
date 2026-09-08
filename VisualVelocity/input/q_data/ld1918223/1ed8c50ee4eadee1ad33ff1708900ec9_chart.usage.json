@@ -1,0 +1,26 @@
+{
+  "params": {
+    "id": "1ed8c50ee4eadee1ad33ff1708900ec9",
+    "conf": {},
+    "toolConfig": {},
+    "toolRuntimeConfig": {
+      "size": {
+        "width": [
+          {
+            "value": 100,
+            "comparison": ">"
+          }
+        ]
+      },
+      "displayOptions": {
+        "size": "basic",
+        "hideTitle": false,
+        "hideFooter": false,
+        "hideAcronym": false,
+        "hideSubtitle": false
+      }
+    }
+  },
+  "position": 16,
+  "component_id": "doc-1jdnc599u0"
+}

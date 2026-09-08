@@ -1,0 +1,1815 @@
+{
+ "content": [
+  {
+   "identifier": "header",
+   "id": "doc-1jv6dh71c1",
+   "content": {
+    "title": "The quiet giant: how China’s Geely group conquers Europe’s car market from within",
+    "lead": "Volvo, Lotus, and now Geely itself alongside many unknown brands: The Hangzhou-based group relies on maximum diversity. Its market share is growing steadily, but European customers risk losing track amid a jungle of names and positioning.",
+    "author": ""
+   },
+   "containers": {
+    "authors": [
+     {
+      "identifier": "author-teaser",
+      "id": "doc-1jv6dh71c2",
+      "content": {
+       "layout": "authorprofile",
+       "title": "Herbie Schmidt",
+       "url": "/impressum/herbert-schmidt-ld.1287489",
+       "teaserImage": {
+        "originalUrl": "/2022/07/27/59cf68a9-168e-484e-818a-fe286c486dc9.png?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2022/07/27/59cf68a9-168e-484e-818a-fe286c486dc9.png?width=1024&quality=75&auto=webp",
+        "width": 800,
+        "height": 800,
+        "crops": [
+         {
+          "name": "web-teaser",
+          "crop": "800,450,x0,y175"
+         },
+         {
+          "name": "1:1",
+          "crop": "800,800,x0,y0"
+         },
+         {
+          "name": "4:3",
+          "crop": "800,600,x0,y100"
+         },
+         {
+          "name": "3:4",
+          "crop": "600,800,x100,y0"
+         }
+        ],
+        "imageService": "fastly"
+       }
+      }
+     }
+    ]
+   },
+   "prevElement": "",
+   "nextElement": "image",
+   "firstContentElement": true
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1jv6dh71c3",
+   "content": {
+    "image": {
+     "author": "Stephanie Lecocq / Reuters",
+     "caption": "The Chinese group Geely established itself in Europe starting in 2010. Hardly anyone noticed.",
+     "originalUrl": "/2026/08/05/ffa844eb-22e6-45cb-bdaa-88edf7ed0c63.jpg?crop=6000,4000,x0,y0",
+     "width": 6000,
+     "height": 4000,
+     "altText": "The Geely logo is seen during the launching of Geely Auto France, in Paris, France, April 28, 2026. REUTERS/Stephanie Lecocq",
+     "origins": [
+      {
+       "name": "Hugo",
+       "identifier": "2178437793"
+      }
+     ],
+     "crop": {
+      "x": 0,
+      "y": 0,
+      "width": 6000,
+      "height": 4000,
+      "name": "article-image"
+     },
+     "namedCrops": [
+      {
+       "x": 0,
+       "y": 0,
+       "width": 6000,
+       "height": 4000,
+       "name": "article-image"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "caption": "The Chinese group Geely established itself in Europe starting in 2010. Hardly anyone noticed.",
+    "author": "Stephanie Lecocq / Reuters"
+   },
+   "prevElement": "header",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jv6dhbeo0",
+   "content": {
+    "text": "Peter Z. had just bought a Volvo EX30, a compact electric car from the Swedish brand, known for its image of safety and solidity. He felt comfortable from the start thanks to its Scandinavian design and secure driving experience. When he happened to learn that while the car was developed in Sweden, Volvo had been a subsidiary of China’s Geely group since 2010, he was shocked. He now believed he had bought a Chinese car, one that suddenly seemed less safe and solid to him. But he can continue driving reassured, as both the technical basis of the Swedish EV and its design were created in Gothenburg."
+   },
+   "data": {},
+   "prevElement": "image",
+   "nextElement": "barrier"
+  },
+  {
+   "id": "doc-480bab56",
+   "identifier": "barrier",
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jv6dhbet0",
+   "content": {
+    "text": "Now, however, it gets interesting: it was not Volvo that developed the vehicle platform used for the EX30 — called Sustainable Experience Architecture (SEA) — but another Geely brand named Zeekr. This indicates how the Hangzhou-based group operates. The port city of Hangzhou lies a good two hours’ drive southwest of Shanghai. It is considered one of China’s technological strongholds; IT companies like Alibaba Group are headquartered there."
+   },
+   "paidContent": true,
+   "prevElement": "barrier",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jv6dhbev1",
+   "content": {
+    "text": "Geely is one of the Chinese automotive groups coping with declining domestic sales because the government no longer prioritizes electric vehicle promotion. Since 2022, there have been no more EV subsidies in China, and the tax exemption will also be abolished starting in 2027. Geely, therefore — like BYD, Chery, Leapmotor, and Great Wall — must seek salvation by exporting its vehicles. Europe is one suitable market, as its automotive industry lags technologically behind China and currently cannot keep pace with Chinese groups."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "image"
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1jv8vor9g2",
+   "content": {
+    "image": {
+     "author": "PD",
+     "caption": "The Volvo EX30 is a Swedish car, but it has only recently begun production in Europe. Previously, production took place at Geely in China.",
+     "originalUrl": "/2026/08/05/c2fe35e0-93b7-4efe-aa29-bc4f985322eb.jpg?crop=1587,893,x223,y357",
+     "width": 1920,
+     "height": 1440,
+     "altText": "Volvo EX30",
+     "crop": {
+      "x": 223,
+      "y": 357,
+      "width": 1587,
+      "height": 893,
+      "name": "article-image"
+     },
+     "namedCrops": [
+      {
+       "x": 223,
+       "y": 357,
+       "width": 1587,
+       "height": 893,
+       "name": "article-image"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "caption": "The Volvo EX30 is a Swedish car, but it has only recently begun production in Europe. Previously, production took place at Geely in China.",
+    "author": "PD"
+   },
+   "data": {
+    "_captionDirective": {
+     "highlightedTextRanges": {
+      "MkVgc-LTU7mr": {
+       "start": 47,
+       "end": 140,
+       "text": "It has only recently been manufactured in Europe. Previously, production took place at Geely in China."
+      }
+     }
+    }
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1jv6dhbf00",
+   "content": {
+    "title": "Long-planned",
+    "id": "subtitle-von-langer-hand-geplant"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "image",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jv6dhbf10",
+   "content": {
+    "text": "However, unlike BYD, for example, Geely does not try to boast as an almighty technology leader in Europe. It takes a more differentiated approach. Its strategy, reminiscent of the Greek myth of the Trojan Horse, is designed for the long term:"
+   },
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "enumeration-regular"
+  },
+  {
+   "identifier": "enumeration-regular",
+   "id": "doc-1jv6doio70",
+   "containers": {
+    "enumeration": [
+     {
+      "identifier": "enumeration-item",
+      "id": "doc-1jv6doio71",
+      "content": {
+       "text": "In 2010, Geely acquired Volvo from Ford. Volvo was nearly bankrupt under Ford. Under Geely, Volvo retained design autonomy in Gothenburg while providing Geely with access to its safety know-how and EU dealer networks."
+      }
+     },
+     {
+      "identifier": "enumeration-item",
+      "id": "doc-1jv6doue20",
+      "content": {
+       "text": "Since 2013, the London Electric Vehicle Company (LEVC) brand has belonged to the Geely group. This British automaker is better known for producing the London «Black Cab,» the famous black taxi, in its latest electric version."
+      }
+     },
+     {
+      "identifier": "enumeration-item",
+      "id": "doc-1jv6dpah90",
+      "content": {
+       "text": "In 2017, British sports car manufacturer Lotus joined the group. Geely took over the struggling traditional manufacturer to secure its legendary British engineering and lightweight construction know-how for its entire vehicle fleet, which often includes heavy EV batteries. At the same time, Geely aimed to transform the traditional British brand into a global luxury and electric car manufacturer through massive investments."
+      },
+      "data": {
+       "_textDirective": {
+        "highlightedTextRanges": {
+         "2KfbykTKnk8g": {
+          "start": 260,
+          "end": 403,
+          "text": "At the same time, Geely wanted to transform the traditional British brand into a global luxury and electric car manufacturer through massive investments."
+         }
+        }
+       }
+      }
+     },
+     {
+      "identifier": "enumeration-item",
+      "id": "doc-1jv6dpk3i0",
+      "content": {
+       "text": "In 2018, Geely founder Li Shufu acquired almost 10% of Mercedes-Benz Group AG — a geopolitical move that brought direct access to German supervisory boards and technologies. In the next step, the group entered a joint venture with Mercedes in 2020 and has since built new electric models for the Mercedes-Benz Smart brand in China."
+      }
+     },
+     {
+      "identifier": "enumeration-item",
+      "id": "doc-1jv6dpoh90",
+      "content": {
+       "text": "In 2023, French automaker Renault decided to develop internal combustion and hybrid engines together with Geely under the name Horse Powertrain."
+      }
+     },
+     {
+      "identifier": "enumeration-item",
+      "id": "doc-1jv6dqkq00",
+      "content": {
+       "text": "Geely laid the latest building block in its internal conquest of the European automotive industry in July 2026, with the founding of a joint venture with Ford. Together, they plan to develop vehicles at Ford’s Valencia plant in Spain, which will be offered with various powertrains, from internal combustion engines to electric cars."
+      }
+     }
+    ]
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "image"
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1jv8uvduh1",
+   "content": {
+    "image": {
+     "author": "PD",
+     "caption": "Geely is developing hybrid engines together with Renault in a joint venture called Horse Powertrain.",
+     "originalUrl": "/2026/08/05/aaecdc78-7f2e-42bd-9202-23e2f93040e7.jpg?crop=617,497,x0,y0",
+     "width": 617,
+     "height": 497,
+     "altText": "Horse",
+     "crop": {
+      "x": 0,
+      "y": 0,
+      "width": 617,
+      "height": 497,
+      "name": "article-image",
+      "isAutomatic": true
+     },
+     "namedCrops": [
+      {
+       "x": 0,
+       "y": 0,
+       "width": 617,
+       "height": 497,
+       "name": "article-image",
+       "isAutomatic": true
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "caption": "Geely is developing hybrid engines together with Renault in a joint venture called Horse Powertrain.",
+    "author": "PD"
+   },
+   "data": {
+    "_captionDirective": {
+     "highlightedTextRanges": {
+      "AEvn585eeRMm": {
+       "start": 0,
+       "end": 93,
+       "text": "Geely is developing hybrid engines together with Renault in a joint venture called «Horse»."
+      }
+     }
+    }
+   },
+   "paidContent": true,
+   "prevElement": "enumeration-regular",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jv6dhbf20",
+   "content": {
+    "text": "This structure created a multi-brand system blending European and Chinese brands. The four brands — Volvo, Polestar, Lynk &amp; Co, and Zeekr — form a cluster for electric and hybrid cars, all developed together under one roof in Gothenburg but positioned differently. Volvo is positioned as the solid premium brand with high safety and quality standards. Polestar and Zeekr offer electric cars with the latest technology and high performance. And Lynk &amp; Co, like Smart, primarily targets urban lifestyle groups."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "image",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jv6dhbf90",
+   "content": {
+    "text": "The advantage of this Swedish quartet is that all brands are developed for European customers or at least strongly tailored to them. Even the Geely design department is led by an experienced European, whose office is also located in the Gothenburg complex: German Stefan Sielaff, who came as chief designer from Bentley, brings extensive experience from Audi and Mercedes."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "alias-teaser-embed"
+  },
+  {
+   "identifier": "alias-teaser-embed",
+   "id": "doc-1jve19fna0",
+   "content": {
+    "title": "Newsletter «Weg &amp; Ziel»",
+    "isExternal": true,
+    "owner": "NZZ",
+    "teaserImage": {
+     "originalUrl": "/2026/07/22/53ea481e-cd07-46b3-8839-462e34601a4f.png?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/07/22/53ea481e-cd07-46b3-8839-462e34601a4f.png?width=1024&quality=75&auto=webp",
+     "width": 160,
+     "height": 160,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "160,90,x0,y35"
+      },
+      {
+       "name": "4:3",
+       "crop": "160,120,x0,y20"
+      },
+      {
+       "name": "1:1",
+       "crop": "160,160,x0,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "120,160,x20,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "160,107,x0,y27"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "Transportation then, now and in the future: history, innovations and trends from the world of mobility."
+    },
+    "teaserType": "",
+    "urlAliasTeaser": "https://abo.nzz.ch/newsletter/wegundziel/",
+    "urlLabel": "Subscribe now for free",
+    "publicationWeekday": "Freitag",
+    "nzzId": "ld.10016579",
+    "product": "NZZ.ch",
+    "documentId": 10016579,
+    "layout": "alias-teaser",
+    "publicationDate": "2026-07-22T12:26:54.466Z",
+    "publicationLastUpdated": "2026-08-05T14:26:30.004Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-07-23T00:26:54.466Z",
+    "teaserCaption": "Transportation then, now and in the future: history, innovations and trends from the world of mobility.",
+    "url": "https://abo.nzz.ch/newsletter/wegundziel/",
+    "department": {},
+    "leadText": "Transportation then, now and in the future: history, innovations and trends from the world of mobility."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jv6dhbf91",
+   "content": {
+    "text": "Geely is now also expanding its namesake brand into European markets — Spain, Germany, the Netherlands, Belgium, and Luxembourg. Geely also aims to offer a competitor to Citroën or Dacia in the European mass market for particularly affordable cars. Geely is also entering the market as a car brand in Switzerland these days."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "alias-teaser-embed",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1jv6dhbfb0",
+   "content": {
+    "title": "Technologically broadly positioned",
+    "id": "subtitle-technologisch-breit-aufgestellt"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jv6dhbfc0",
+   "content": {
+    "text": "One advantage of Geely’s group strategy is its ability to leverage far-reaching synergies. Not only is the Volvo EX30 based on the SEA architecture, but its modular chassis also forms the basis for the Smart #1 and the luxury sports car Lotus Eletre. European manufacturers can only dream of such economies of scale."
+   },
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "imagegrid"
+  },
+  {
+   "identifier": "imagegrid",
+   "id": "doc-1jv8v32gu0",
+   "content": {
+    "caption": "The Smart #1 (left) and the Lotus Eletre are based on the same Geely platform."
+   },
+   "data": {
+    "_captionDirective": {}
+   },
+   "containers": {
+    "imageRows": [
+     {
+      "identifier": "imagegrid-row",
+      "id": "doc-1jv8v32gu1",
+      "containers": {
+       "imageRow": [
+        {
+         "identifier": "imagegrid-image",
+         "id": "doc-1jv8v32gu2",
+         "content": {
+          "image": {
+           "author": "PD",
+           "caption": "",
+           "originalUrl": "/2026/08/05/609e7a07-1895-4be5-97a8-a16dbb1d083a.jpg?crop=1920,1080,x0,y180",
+           "width": 1920,
+           "height": 1440,
+           "altText": "Smart #1",
+           "crop": {
+            "x": 0,
+            "y": 180,
+            "width": 1920,
+            "height": 1080,
+            "name": "article-image"
+           },
+           "namedCrops": [
+            {
+             "x": 0,
+             "y": 180,
+             "width": 1920,
+             "height": 1080,
+             "name": "article-image"
+            }
+           ],
+           "imageService": "fastly"
+          },
+          "author": "PD",
+          "caption": ""
+         }
+        },
+        {
+         "identifier": "imagegrid-image",
+         "id": "doc-1jv8v32gu3",
+         "content": {
+          "image": {
+           "author": "PD",
+           "caption": "",
+           "originalUrl": "/2026/08/05/6c7dac7e-8814-47e4-9ea7-e548027e2532.jpg?crop=3005,1690,x846,y1387",
+           "width": 4000,
+           "height": 4000,
+           "altText": "Lotus Eletre X",
+           "crop": {
+            "x": 846,
+            "y": 1387,
+            "width": 3005,
+            "height": 1690,
+            "name": "article-image"
+           },
+           "namedCrops": [
+            {
+             "x": 846,
+             "y": 1387,
+             "width": 3005,
+             "height": 1690,
+             "name": "article-image"
+            }
+           ],
+           "imageService": "fastly"
+          },
+          "author": "PD",
+          "caption": ""
+         }
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jv6dhbfd0",
+   "content": {
+    "text": "At the same time, Geely does not focus solely on electric cars but remains open to various technologies for Europe. Since manufacturers outside China possess extensive technological know-how in building internal combustion engines and hybrid systems, Geely benefits from its joint venture agreements: with Renault for powertrain development and with Ford for building cars with various powertrains, the so-called Multi-Energy Vehicles. Two electric Geely SUVs, a new Ford Bronco, and the next Ford Kuga are slated for production at the Ford plant in Valencia."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "imagegrid",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jv6dhbff0",
+   "content": {
+    "text": "Here, the Hangzhou-based group has clear advantages, for example, over Tesla, but also over its Chinese competitors in Europe such as Chery and Great Wall. Only BYD and Leapmotor also rely on European production. Leapmotor benefits from a cooperation with the Stellantis group, gaining insights into technologies where China is not yet at the forefront."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1jv6dhbfg1",
+   "content": {
+    "title": "European protectionism: Limited impact",
+    "id": "subtitle-europ-ischer-protektionismus-l-uft-ins-leere"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jv6dhbfh0",
+   "content": {
+    "text": "To protect the European automotive industry from rising imports of Chinese cars, the EU imposed punitive tariffs on electric cars manufactured in the People’s Republic. Manufacturers like BYD and Chery quickly adjusted their export portfolios and are currently launching more plug-in hybrid vehicles in Europe."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jv6dhbfi0",
+   "content": {
+    "text": "Geely also reacted differently in this case. The group pursues a balanced strategy with multiple brands and various powertrains. For example, to retain European customers for the aforementioned Volvo EX30, manufactured in China, and to avoid price increases, the group began building the EV at Volvo’s Belgian plant as well. This way, punitive tariffs do not apply."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jv6dhbfk0",
+   "content": {
+    "text": "For its other brands and vehicles, the company remains unfazed by the tariffs. Lothar Schupet, the German head of Europe for Geely’s subsidiary brand Zeekr, <a href=\"https://www.nzz.ch/mobilitaet/china-autos-erobern-europa-viele-kunden-weigern-sich-mittlerweile-fuer-ein-vergleichbares-angebot-einer-europaeischen-marke-deutlich-mehr-zu-bezahlen-ld.1909752\">told the NZZ</a>, «We will not pass punitive tariffs on to customers.» Geely prefers to accept selective margin losses as long as it gains European market share. And even with Zeekr, he added, it would be possible to switch to hybrid vehicles if necessary, as the technology already exists within the group. Moreover, the company learns daily through partnerships with Renault and Ford."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jv6dhbfl0",
+   "content": {
+    "text": "Thus, the Geely group is also likely to soon possess sufficient technological competence to build vehicles for Europe in Europe, either under already known brands or those that can boast particularly attractive prices. And this with powertrains that the market and regulations demand. Geely CEO Li Shufu skillfully orchestrated this."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "image"
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1jv8vfk5m2",
+   "content": {
+    "image": {
+     "author": "PD",
+     "caption": "Vehicles from the Geely group, such as the Lynk & Co 02, are interesting products, but nobody in Europe knows the brands and models.",
+     "originalUrl": "/2026/08/05/0c14190a-5250-43c9-ae44-6b8e003dc88e.jpg?crop=3491,1964,x273,y638",
+     "width": 3840,
+     "height": 2880,
+     "altText": "Lynk & Co 02",
+     "crop": {
+      "x": 273,
+      "y": 638,
+      "width": 3491,
+      "height": 1964,
+      "name": "article-image"
+     },
+     "namedCrops": [
+      {
+       "x": 273,
+       "y": 638,
+       "width": 3491,
+       "height": 1964,
+       "name": "article-image"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "caption": "Vehicles from the Geely group, such as the Lynk & Co 02, are interesting products, but nobody in Europe knows the brands and models.",
+    "author": "PD"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jv6dhbfn1",
+   "content": {
+    "text": "However, Geely did not sufficiently consider one thing in its planned triumphant advance in Europe: Some of the group’s brands are unfamiliar to European customers, with names and complicated model designations that no one can remember. This also applies to the Geely group itself, apart from Volvo, Lotus, the London taxi, and Smart."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "image",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jv6dhbfp1",
+   "content": {
+    "text": "Unlike European brands such as VW, Fiat, and Peugeot, Zeekr and Lynk &amp; Co cannot benefit from a long tradition and success stories of previous models. Anyone who buys a Polestar initially knows nothing about the brand. They buy because they like the technology, the design, and especially the price. This must suffice for now until Geely brands have established themselves in Europe, become part of the streetscape, and written their first success story."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jv6dhbfr0",
+   "content": {
+    "text": "Chinese multi-brand groups face another problem with the positioning of individual brands. Which European buyer today can clearly name the difference between Lynk &amp; Co and Volvo? This requires further investment from parent company Geely. However, the group currently seems less concerned with which of its subsidiary brands is more successful than others. Customers can quickly lose track. It is much easier to focus on established European brands. They are easier to categorize and thus still have a real advantage over the flood of Chinese automakers."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "sharebox",
+   "lastContentElement": true
+  },
+  {
+   "identifier": "sharebox",
+   "id": "doc-1jv6dh71d1",
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "related-articles-container"
+  },
+  {
+   "identifier": "related-articles-container",
+   "id": "doc-1jv6dh71d2",
+   "content": {
+    "title": "Related articles"
+   },
+   "containers": {
+    "related-articles": [
+     {
+      "identifier": "teaser",
+      "id": "doc-1jv6dh71d3",
+      "content": {
+       "showHeader": true,
+       "owner": "NZZ",
+       "language": {
+        "locale": "de"
+       },
+       "teaserImage": {
+        "originalUrl": "/2026/07/17/3c591ce7-9464-4576-954d-596a3de5d2ca.png?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2026/07/17/3c591ce7-9464-4576-954d-596a3de5d2ca.png?width=1024&quality=75&auto=webp",
+        "width": 2401,
+        "height": 1806,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "2401,1351,x0,y228"
+         },
+         {
+          "name": "4:3",
+          "crop": "1984,1488,x212,y80"
+         },
+         {
+          "name": "1:1",
+          "crop": "1642,1642,x279,y82"
+         },
+         {
+          "name": "3:4",
+          "crop": "1355,1806,x517,y0"
+         },
+         {
+          "name": "3:2",
+          "crop": "2183,1455,x116,y184"
+         }
+        ],
+        "imageService": "fastly",
+        "teaserCaption": "Chinese manufacturers' growth in other European countries; VW sales stagnation; restructuring and job cuts looming"
+       },
+       "title": "For the first time, Germany imports more cars from China by value than vice versa: the crisis of the German auto industry in graphics",
+       "flag": "Data analysis",
+       "showComments": true,
+       "nzzId": "ld.10015289",
+       "readingTime": 360,
+       "paywallQuestionOne": "How does the import surplus from China affect the German automotive industry?",
+       "paywallQuestionTwo": "What strategies are German manufacturers pursuing in the face of competition from China?",
+       "paywallQuestionThree": "How does the focus on electromobility contribute to the success of Chinese car manufacturers?",
+       "characterCount": 7936,
+       "tags": [
+        "Visuals"
+       ],
+       "product": "NZZ.ch",
+       "documentId": 10015289,
+       "layout": "regular",
+       "publicationDate": "2026-07-31T03:30:00.000Z",
+       "publicationLastUpdated": "2026-08-19T11:41:41.379Z",
+       "significantUpdate": false,
+       "significantUpdateTill": "2026-07-31T15:30:00.000Z",
+       "teaserCaption": "Chinese manufacturers' growth in other European countries; VW sales stagnation; restructuring and job cuts looming",
+       "authorLine": "Florian Seliger, Anja Lemcke",
+       "authorImage": {
+        "originalUrl": "/2024/04/30/9549be3a-88e2-411f-91d7-aefb7ae675dd.png?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2024/04/30/9549be3a-88e2-411f-91d7-aefb7ae675dd.png?width=1024&quality=75&auto=webp",
+        "width": 800,
+        "height": 800,
+        "crops": [
+         {
+          "name": "1:1",
+          "crop": "800,800,x0,y0"
+         }
+        ],
+        "imageService": "fastly"
+       },
+       "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2024/04/30/9549be3a-88e2-411f-91d7-aefb7ae675dd.png?width=1024&quality=75&auto=webp",
+       "url": "/visuals/erstmals-importiert-deutschland-wertmaessig-mehr-autos-aus-china-als-umgekehrt-es-drohen-umstrukturierungen-und-stellenabbau-ld.10015289",
+       "department": {
+        "name": "Visual Stories",
+        "path": "/visuals"
+       },
+       "estimationWordCount": 1117,
+       "premium": true,
+       "leadText": "Chinese manufacturers' growth in other European countries; VW sales stagnation; restructuring and job cuts looming",
+       "nzzSummaryIsAuto": true,
+       "hasQ": true,
+       "locale": "de-CH"
+      }
+     },
+     {
+      "identifier": "teaser",
+      "id": "doc-1jv6dh71d4",
+      "content": {
+       "owner": "NZZ",
+       "flag": "interview",
+       "title": "Chinese cars are conquering Europe: \"Many customers now refuse to pay significantly more for a comparable offer from a European brand.\"",
+       "teaserImage": {
+        "originalUrl": "/2025/10/31/11abb7fb-33e2-4707-9ab0-36805ef97d97.jpg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2025/10/31/11abb7fb-33e2-4707-9ab0-36805ef97d97.jpg?width=1024&quality=75&auto=webp",
+        "width": 1750,
+        "height": 1167,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "1383,777,x176,y0"
+         },
+         {
+          "name": "1:1",
+          "crop": "1167,1167,x292,y0"
+         },
+         {
+          "name": "4:3",
+          "crop": "1556,1167,x97,y0"
+         },
+         {
+          "name": "3:4",
+          "crop": "875,1167,x437,y0"
+         },
+         {
+          "name": "3:2",
+          "crop": "1750,1167,x0,y0"
+         }
+        ],
+        "imageService": "fastly",
+        "teaserCaption": "Lothar Schupet, CEO of the Chinese car brand Zeekr, believes that early establishment in Europe will give them an edge over domestic competition.",
+        "teaserAuthor": "PD"
+       },
+       "teaserAuthor": "PD",
+       "nzzasFootnote": false,
+       "folioFootnote": false,
+       "language": {
+        "locale": "de-CH"
+       },
+       "nzzId": "ld.1909752",
+       "readingTime": 420,
+       "authorLine": "Herbie Schmidt",
+       "characterCount": 9651,
+       "product": "NZZ.ch",
+       "documentId": 1909752,
+       "layout": "longformstandard",
+       "publicationDate": "2025-11-02T04:30:00.000Z",
+       "publicationLastUpdated": "2025-11-02T06:47:42.520Z",
+       "significantUpdate": false,
+       "significantUpdateTill": "2025-11-02T16:30:00.000Z",
+       "teaserCaption": "Lothar Schupet, CEO of the Chinese car brand Zeekr, believes that early establishment in Europe will give them an edge over domestic competition.",
+       "authorImage": {
+        "originalUrl": "/2022/07/27/59cf68a9-168e-484e-818a-fe286c486dc9.png?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2022/07/27/59cf68a9-168e-484e-818a-fe286c486dc9.png?width=1024&quality=75&auto=webp",
+        "width": 800,
+        "height": 800,
+        "crops": [
+         {
+          "name": "1:1",
+          "crop": "800,800,x0,y0"
+         }
+        ],
+        "imageService": "fastly"
+       },
+       "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2022/07/27/59cf68a9-168e-484e-818a-fe286c486dc9.png?width=1024&quality=75&auto=webp",
+       "url": "/mobilitaet/china-autos-erobern-europa-viele-kunden-weigern-sich-mittlerweile-fuer-ein-vergleichbares-angebot-einer-europaeischen-marke-deutlich-mehr-zu-bezahlen-ld.1909752",
+       "department": {
+        "name": "Mobility",
+        "path": "/mobilitaet"
+       },
+       "estimationWordCount": 1454,
+       "leadText": "Lothar Schupet, CEO of the Chinese car brand Zeekr, believes that early establishment in Europe will give them an edge over domestic competition.",
+       "nzzSummaryIsAuto": true
+      }
+     },
+     {
+      "identifier": "teaser",
+      "id": "doc-1jv6dh71d5",
+      "content": {
+       "owner": "NZZaS",
+       "title": "Why the Chinese car manufacturer Geely is more successful than Tesla",
+       "teaserImage": {
+        "originalUrl": "/2019/4/20/283c3c54-1464-42d0-92d2-9036508fc52d.jpeg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2019/4/20/283c3c54-1464-42d0-92d2-9036508fc52d.jpeg?width=1024&quality=75&auto=webp",
+        "width": 6720,
+        "height": 4480,
+        "imageService": "fastly",
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "5310,2987,x718,y850"
+         },
+         {
+          "name": "1:1",
+          "crop": "4480,4480,x1315,y0"
+         }
+        ],
+        "teaserCaption": "Thanks to its cosmopolitan management, Volvo's parent company has achieved a remarkable rise."
+       },
+       "nzzasFootnote": false,
+       "folioFootnote": false,
+       "language": {
+        "locale": "de-CH"
+       },
+       "nzzId": "ld.1803595",
+       "readingTime": 240,
+       "authorLine": "Jürgen Lewandowski, Shanghai",
+       "hugo": {
+        "id": "articleArchive-312178319",
+        "timestamp": "2019-04-21T00:00:00.000Z",
+        "keywords": "WI_Schanghai LT",
+        "note": ""
+       },
+       "characterCount": 4750,
+       "product": "NZZ.ch",
+       "documentId": 1803595,
+       "layout": "regular",
+       "publicationDate": "2024-02-10T14:51:19.139Z",
+       "publicationLastUpdated": "2024-02-22T21:41:12.544Z",
+       "significantUpdate": false,
+       "significantUpdateTill": "2024-02-11T02:51:19.139Z",
+       "teaserCaption": "Thanks to its cosmopolitan management, Volvo's parent company has achieved a remarkable rise.",
+       "url": "/wirtschaft/geely-volvo-tochter-wird-fuehrenden-e-mobilitaets-anbieter-ld.1803595",
+       "department": {
+        "name": "Economy",
+        "path": "/wirtschaft"
+       },
+       "estimationWordCount": 738,
+       "leadText": "Thanks to its cosmopolitan management, Volvo's parent company has achieved a remarkable rise."
+      }
+     }
+    ]
+   },
+   "paidContent": true,
+   "prevElement": "sharebox",
+   "nextElement": "",
+   "lastContentElement": true
+  }
+ ],
+ "metadata": {
+  "germanyRelevant": true,
+  "title": "The quiet giant: how China's Geely Group conquered Europe's car market from within",
+  "showHeader": true,
+  "owner": "NZZ",
+  "language": {
+   "locale": "en-US"
+  },
+  "dependencies": {},
+  "teaserImage": {
+   "originalUrl": "/2026/08/05/ffa844eb-22e6-45cb-bdaa-88edf7ed0c63.jpg?width=1024",
+   "url": "https://img-msp-prod.nzz.ch/2026/08/05/ffa844eb-22e6-45cb-bdaa-88edf7ed0c63.jpg?width=1024&quality=75&auto=webp",
+   "width": 6000,
+   "height": 4000,
+   "crops": [
+    {
+     "name": "16:9",
+     "crop": "6000,3375,x0,y313"
+    },
+    {
+     "name": "4:3",
+     "crop": "5333,4000,x333,y0"
+    },
+    {
+     "name": "1:1",
+     "crop": "4000,4000,x1000,y0"
+    },
+    {
+     "name": "3:4",
+     "crop": "3000,4000,x1500,y0"
+    },
+    {
+     "name": "3:2",
+     "crop": "6000,4000,x0,y0"
+    }
+   ],
+   "imageService": "fastly",
+   "teaserCaption": "Volvo, Lotus, and now Geely itself, alongside many lesser-known brands: The Hangzhou-based company is aiming for maximum diversity. Its market share is growing steadily, but it risks European customers losing track in the jungle of names and positioning.",
+   "teaserAuthor": "Stephanie Lecocq / Reuters"
+  },
+  "teaserAuthor": "Stephanie Lecocq / Reuters",
+  "tags": [
+   "Auto",
+   "Mobilität aktuell",
+   "E-Mobilität"
+  ],
+  "nzzId": "ld.10018163",
+  "readingTime": 420,
+  "characterCount": 9473,
+  "breadcrumbs": [
+   {
+    "name": "Mobility",
+    "path": "/mobilitaet"
+   }
+  ],
+  "product": "NZZ.ch",
+  "documentId": 10018163,
+  "contentTypeGroup": "web",
+  "layout": "regular",
+  "firstPublicationDate": "2026-08-07T03:30:00.000Z",
+  "publicationDate": "2026-08-07T03:30:00.000Z",
+  "publicationLastUpdated": "2026-08-10T17:50:41.281Z",
+  "significantUpdate": false,
+  "significantUpdateTill": "2026-08-07T15:30:00.000Z",
+  "teaserCaption": "Volvo, Lotus, and now Geely itself, alongside many lesser-known brands: The Hangzhou-based company is aiming for maximum diversity. Its market share is growing steadily, but it risks European customers losing track in the jungle of names and positioning.",
+  "nzzAuthors": [
+   {
+    "id": 1372624,
+    "name": "Herbie Schmidt",
+    "shortName": "hdt",
+    "pianoId": "72f8b386-bcab-4180-8747-2b26f4621d1d",
+    "external": false
+   }
+  ],
+  "authorLine": "Herbie Schmidt",
+  "authorImage": {
+   "originalUrl": "/2022/07/27/59cf68a9-168e-484e-818a-fe286c486dc9.png?width=1024",
+   "url": "https://img-msp-prod.nzz.ch/2022/07/27/59cf68a9-168e-484e-818a-fe286c486dc9.png?width=1024&quality=75&auto=webp",
+   "width": 800,
+   "height": 800,
+   "crops": [
+    {
+     "name": "1:1",
+     "crop": "800,800,x0,y0"
+    }
+   ],
+   "imageService": "fastly"
+  },
+  "nzzAuthorProfileDataCollection": [
+   {
+    "documentId": 1287489,
+    "name": "Herbert Schmidt (hdt.), Mobility Editor",
+    "teaserImageUrl": "https://img-msp-prod.nzz.ch/2022/07/27/59cf68a9-168e-484e-818a-fe286c486dc9.png?width=1024&quality=75&auto=webp"
+   }
+  ],
+  "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2022/07/27/59cf68a9-168e-484e-818a-fe286c486dc9.png?width=1024&quality=75&auto=webp",
+  "url": "/mobilitaet/der-leise-gigant-wie-chinas-geely-konzern-europas-automarkt-von-innen-heraus-erobert-ld.10018163",
+  "department": {
+   "name": "Mobility",
+   "path": "/mobilitaet"
+  },
+  "estimationWordCount": 1450,
+  "leadText": "Volvo, Lotus, and now Geely itself, alongside many lesser-known brands: The Hangzhou-based company is aiming for maximum diversity. Its market share is growing steadily, but it risks European customers losing track in the jungle of names and positioning.",
+  "nzzSummaryEN": "- China's Geely Group continues its steady expansion into the European car market, leveraging a multi-faceted strategy that includes acquisitions and joint ventures with European brands like Volvo, Lotus, and Renault.\n- European customers may find the brand diversity and complex positioning confusing, despite Geely maintaining design and development hubs in Gothenburg.\n- Through joint ventures and the SEA platform, Geely capitalizes on synergies to stay competitive, though struggles with the acceptance of its less established brands in Europe.",
+  "nzzSummaryDE": "- China's Geely Group is continuously expanding in the European automotive market, but is sticking to a multifaceted strategy, including acquisitions and joint ventures with European brands such as Volvo, Lotus and Renault.\n - European customers could be confused by the variety of brands and complex positioning approaches, even though Geely maintains design and development sites in Gothenburg.\n Geely leverages synergies through joint ventures and its SEA platform to remain competitive. Nevertheless, the company is struggling with the acceptance of its less established brands in Europe.",
+  "nzzSummaryIsAuto": true,
+  "nzzSummaryModel": "gpt-4o-2024-11-20",
+  "nzzPrintTitle": "The silent takeover: how Geely conquered Europe",
+  "nzzPrintSubtitle": "China's Geely is expanding in Europe: With brands like Volvo and Lotus, its influence on the automotive market is growing",
+  "allArticleLanguages": [
+   {
+    "locale": "de",
+    "urlPath": "/mobilitaet/der-leise-gigant-wie-chinas-geely-konzern-europas-automarkt-von-innen-heraus-erobert-ld.10018163",
+    "seo": {}
+   }
+  ],
+  "seo": {
+   "canonicalUrl": "https://www.nzz.ch/mobilitaet/der-leise-gigant-wie-chinas-geely-konzern-europas-automarkt-von-innen-heraus-erobert-ld.10018163",
+   "title": "China's Geely Group on the rise in Europe: the silent giant",
+   "socialMediaTitle": "Geely's clever move: how the giant is shaping Europe's automotive landscape",
+   "excludeFromSpiders": false,
+   "image": "https://img-msp-prod.nzz.ch/2026/08/05/ffa844eb-22e6-45cb-bdaa-88edf7ed0c63.jpg?width=1200&height=675&fit=bounds&quality=75&auto=webp&crop=6000,3375,x0,y313&wmark=nzz"
+  },
+  "ldPublicationId": 2476351,
+  "isHighlightedHeader": false,
+  "nzzTopics": [
+   {
+    "name": "China",
+    "slug": "/themen/china"
+   },
+   {
+    "name": "Polestar",
+    "slug": "/themen/polestar"
+   },
+   {
+    "name": "electric car",
+    "slug": "/themen/elektroautos"
+   },
+   {
+    "name": "Renault",
+    "slug": "/themen/renault"
+   },
+   {
+    "name": "Sweden",
+    "slug": "/themen/schweden"
+   },
+   {
+    "name": "Mercedes Benz",
+    "slug": "/themen/mercedes-benz"
+   },
+   {
+    "name": "BYD",
+    "slug": "/themen/byd"
+   }
+  ],
+  "barrierIndex": 3,
+  "outlinks": {
+   "mehrZumThema": [
+    "ld.10015289",
+    "ld.1909752",
+    "ld.1803595"
+   ],
+   "artikelListe": [],
+   "aliasTeaserEmbedList": []
+  },
+  "tts": true,
+  "locale": "de-CH",
+  "mp3": true,
+  "mp3Duration": 605448,
+  "project": "nzz",
+  "machineTranslated": true,
+  "machineTranslationValidated": false
+ },
+ "isReduced": false,
+ "isPaid": false,
+ "isVamp": false,
+ "isWebview": false,
+ "btaFeed": {
+  "meta": {
+   "id": "china",
+   "name": "China",
+   "tagName": "China",
+   "qId": "Q148",
+   "seoTitle": "China – Current news and all NZZ articles on the topic",
+   "description": null,
+   "firstName": null,
+   "lastName": null,
+   "category": "LOC",
+   "createdDate": "2025-04-08 19:03:06.454Z",
+   "imageURL": null,
+   "imageCroppedURL": null,
+   "imageWidth": 0,
+   "imageHeight": 0,
+   "imageCredits": null,
+   "url": "https://nzz.ch/themen/china",
+   "size": 4417,
+   "relatedTopics": [
+    {
+     "name": "Polestar",
+     "slug": "/themen/polestar"
+    },
+    {
+     "name": "Elektroauto",
+     "slug": "/themen/elektroautos"
+    },
+    {
+     "name": "Renault",
+     "slug": "/themen/renault"
+    },
+    {
+     "name": "Schweden",
+     "slug": "/themen/schweden"
+    },
+    {
+     "name": "Mercedes-Benz",
+     "slug": "/themen/mercedes-benz"
+    },
+    {
+     "name": "BYD",
+     "slug": "/themen/byd"
+    }
+   ]
+  },
+  "data": [
+   {
+    "title": "Why Chinese Cars Are Conquering the World",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "teaserImage": {
+     "originalUrl": "/2026/09/03/f978f4eb-79ef-4020-a28f-2e1e87e21773.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/09/03/f978f4eb-79ef-4020-a28f-2e1e87e21773.jpg?width=1024&quality=75&auto=webp",
+     "width": 4500,
+     "height": 3000,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "3381,1902,x560,y549"
+      },
+      {
+       "name": "4:3",
+       "crop": "3005,2254,x747,y373"
+      },
+      {
+       "name": "1:1",
+       "crop": "2479,2479,x1010,y260"
+      },
+      {
+       "name": "3:4",
+       "crop": "2250,3000,x1125,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "3381,2254,x560,y373"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "They're cheap, they're good – and they're also on the roads in Switzerland and Germany: Chinese cars, especially those from BYD. Behind the company's success is a powerful husband-and-wife team."
+    },
+    "showComments": true,
+    "tags": [
+     "Mobilität aktuell",
+     "E-Mobilität",
+     "Auto"
+    ],
+    "editor": "1858673",
+    "nzzId": "ld.10018631",
+    "readingTime": 660,
+    "paywallQuestionOne": "How do subsidies influence the success of Chinese car brands?",
+    "paywallQuestionTwo": "Why are Chinese cars technologically advanced and cheaper?",
+    "paywallQuestionThree": "What challenges stand in the way of BYD's global success?",
+    "characterCount": 15944,
+    "product": "NZZ.ch",
+    "documentId": "10018631",
+    "layout": "longformvisual",
+    "publicationDate": "2026-09-03T05:33:42.817Z",
+    "publicationLastUpdated": "2026-09-03T09:28:09.465Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-09-03T17:33:42.817Z",
+    "teaserCaption": "They're cheap, they're good – and they're also on the roads in Switzerland and Germany: Chinese cars, especially those from BYD. Behind the company's success is a powerful husband-and-wife team.",
+    "authorLine": "Katrin Büchenbacher, Herbie Schmidt, Florian Seliger, Simon Tanner",
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2022/06/22/2587ad8c-3d93-4771-875c-edab77a7381c.png?width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/mobilitaet/china-autos-in-der-schweiz-und-ueberall-warum-byd-etc-gerade-die-welt-erobern-ld.10018631",
+    "department": {
+     "name": "Mobility",
+     "path": "/mobilitaet"
+    },
+    "estimationWordCount": 2233,
+    "premium": true,
+    "leadText": "They're cheap, they're good – and they're also on the roads in Switzerland and Germany: Chinese cars, especially those from BYD. Behind the company's success is a powerful husband-and-wife team.",
+    "nzzSummaryIsAuto": true,
+    "commentsCount": 2,
+    "openToComment": false,
+    "hasQ": true,
+    "locale": "de-CH"
+   },
+   {
+    "title": "Chinese leader Xi Jinping rarely travels abroad. Why then Egypt, of all places?",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "showComments": true,
+    "teaserImage": {
+     "originalUrl": "/2026/09/02/ff6c07b7-f75a-4d40-a7dd-00a51bb182d1.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/09/02/ff6c07b7-f75a-4d40-a7dd-00a51bb182d1.jpg?width=1024&quality=75&auto=webp",
+     "width": 1030,
+     "height": 1280,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "1030,579,x0,y221"
+      },
+      {
+       "name": "4:3",
+       "crop": "1030,773,x0,y180"
+      },
+      {
+       "name": "1:1",
+       "crop": "774,774,x105,y124"
+      },
+      {
+       "name": "3:4",
+       "crop": "960,1280,x12,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "1030,687,x0,y198"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "Egypt has become central for China: Beijing is investing billions, training with the Egyptian air force – and securing influence over one of the world's most important trade routes.",
+     "teaserAuthor": "Egyptian Presidency / Handout via Imago"
+    },
+    "teaserAuthor": "Egyptian Presidency / Handout via Imago",
+    "tags": [
+     "Asien und Pazifik"
+    ],
+    "paywallQuestionOne": "Why is Egypt so central to China's global strategy?",
+    "paywallQuestionTwo": "How does the Belt and Road Initiative affect Egypt's economy?",
+    "paywallQuestionThree": "What role does military cooperation between China and Egypt play?",
+    "editor": "1849038",
+    "nzzId": "ld.10021927",
+    "readingTime": 300,
+    "embeds": {
+     "videos": [
+      {
+       "id": "kiniNTKs",
+       "provider": "jw",
+       "teaser": false,
+       "duration": 52,
+       "sources": [
+        {
+         "file": "https://cdn.jwplayer.com/videos/kiniNTKs-2KuhEkuQ.mp4",
+         "label": "180p"
+        }
+       ]
+      }
+     ]
+    },
+    "characterCount": 6495,
+    "product": "NZZ.ch",
+    "documentId": "10021927",
+    "layout": "regular",
+    "publicationDate": "2026-09-02T14:55:00.000Z",
+    "publicationLastUpdated": "2026-09-02T15:34:43.435Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-09-03T02:55:00.000Z",
+    "teaserCaption": "Egypt has become central for China: Beijing is investing billions, training with the Egyptian air force – and securing influence over one of the world's most important trade routes.",
+    "authorLine": "Katrin Büchenbacher",
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2022/06/22/2587ad8c-3d93-4771-875c-edab77a7381c.png?width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/international/xi-jinping-reist-seltener-ins-ausland-warum-er-dennoch-aegypten-besucht-nzz-ld.10021927",
+    "department": {
+     "name": "International",
+     "path": "/international"
+    },
+    "estimationWordCount": 962,
+    "premium": true,
+    "leadText": "Egypt has become central for China: Beijing is investing billions, training with the Egyptian air force – and securing influence over one of the world's most important trade routes.",
+    "nzzSummaryIsAuto": true,
+    "commentsCount": 5,
+    "openToComment": false,
+    "hasQ": true,
+    "locale": "de-CH"
+   },
+   {
+    "title": "Everything revolves around Xi: SCO summit in Bishkek reveals the growing influence of China's president",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "tags": [
+     "Asien und Pazifik"
+    ],
+    "teaserImage": {
+     "originalUrl": "/2026/09/01/478e166c-e144-40ba-bce1-454ce803ebc6.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/09/01/478e166c-e144-40ba-bce1-454ce803ebc6.jpg?width=1024&quality=75&auto=webp",
+     "width": 6000,
+     "height": 4000,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "4508,2536,x0,y390"
+      },
+      {
+       "name": "4:3",
+       "crop": "4407,3306,x0,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "2258,2258,x873,y462"
+      },
+      {
+       "name": "3:4",
+       "crop": "3000,4000,x606,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "4959,3306,x0,y142"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "At regional summit in Kyrgyzstan, China presented itself as a source of stability in a turbulent world, remained unimpressed by U.S. pressure to reduce support for Iran and Russia",
+     "teaserAuthor": "Pavel Mikheyev / Reuters"
+    },
+    "teaserAuthor": "Pavel Mikheyev / Reuters",
+    "nzzId": "ld.10021854",
+    "readingTime": 300,
+    "embeds": {
+     "videos": [
+      {
+       "id": "kjuQK0rw",
+       "provider": "jw",
+       "teaser": true,
+       "duration": 10,
+       "sources": [
+        {
+         "file": "https://cdn.jwplayer.com/videos/kjuQK0rw-IBEUDFZ7.mp4",
+         "label": "180p"
+        }
+       ]
+      }
+     ]
+    },
+    "paywallQuestionOne": "How is China strengthening its regional dominance through the SCO summit?",
+    "paywallQuestionTwo": "What role does the Iran war play in geopolitical tensions?",
+    "paywallQuestionThree": "Why does cooperation within the SCO often remain limited?",
+    "characterCount": 6923,
+    "editor": "1900563",
+    "videoTeaser": "kjuQK0rw",
+    "product": "NZZ.ch",
+    "documentId": "10021854",
+    "layout": "regular",
+    "publicationDate": "2026-09-02T03:30:00.000Z",
+    "publicationLastUpdated": "2026-09-02T07:30:00.309Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-09-02T15:30:00.000Z",
+    "teaserCaption": "At regional summit in Kyrgyzstan, China presented itself as a source of stability in a turbulent world, remained unimpressed by U.S. pressure to reduce support for Iran and Russia",
+    "authorLine": "Ulrich von Schwerin, Mumbai",
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2022/06/22/764702a4-033b-4fbc-83bd-d75fbb4c92dc.png?crop=800,800,x0,y0&width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/international/sco-gipfel-in-bischkek-zeigt-die-regionale-dominanz-von-chinas-praesidenten-xi-jinping-ld.10021854",
+    "department": {
+     "name": "International",
+     "path": "/international"
+    },
+    "estimationWordCount": 1037,
+    "premium": true,
+    "leadText": "At regional summit in Kyrgyzstan, China presented itself as a source of stability in a turbulent world, remained unimpressed by U.S. pressure to reduce support for Iran and Russia",
+    "nzzSummaryIsAuto": true,
+    "locale": "de-CH"
+   },
+   {
+    "title": "Europe's new protectionism threatens Swiss automotive suppliers – will China be the one to benefit?",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "teaserImage": {
+     "originalUrl": "/2026/09/01/2d295156-8d88-4ab5-877a-4b8bd1540498.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/09/01/2d295156-8d88-4ab5-877a-4b8bd1540498.jpg?width=1024&quality=75&auto=webp",
+     "width": 8192,
+     "height": 5387,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "8192,4608,x0,y164"
+      },
+      {
+       "name": "4:3",
+       "crop": "7183,5387,x505,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "5387,5387,x1403,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "4040,5387,x2076,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "8081,5387,x56,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "The EU wants to strengthen its key industries with new laws. Now, the industry association Swissmem warns that if the EU adopts strict rules of origin, it will jeopardize Swiss suppliers' access to the European market.",
+     "teaserAuthor": "Maxim Shemetov / Reuters"
+    },
+    "teaserAuthor": "Maxim Shemetov / Reuters",
+    "nzzId": "ld.10021430",
+    "readingTime": 300,
+    "paywallQuestionOne": "How does EU protectionism threaten Swiss automotive suppliers?",
+    "paywallQuestionTwo": "What consequences would a strict origin requirement have for the EU and Switzerland?",
+    "paywallQuestionThree": "Why is the problem underestimated in Switzerland?",
+    "characterCount": 7133,
+    "product": "NZZ.ch",
+    "documentId": "10021430",
+    "layout": "regular",
+    "publicationDate": "2026-09-02T03:30:00.000Z",
+    "publicationLastUpdated": "2026-09-02T04:49:58.326Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-09-02T15:30:00.000Z",
+    "teaserCaption": "The EU wants to strengthen its key industries with new laws. Now, the industry association Swissmem warns that if the EU adopts strict rules of origin, it will jeopardize Swiss suppliers' access to the European market.",
+    "authorLine": "Jürg Meier",
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2023/12/06/230af7f3-d061-4f2b-b075-413abe5f7e86.png?width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/wirtschaft/europas-neuer-protektionismus-bedroht-schweizer-autozulieferer-ld.10021430",
+    "department": {
+     "name": "Economy",
+     "path": "/wirtschaft"
+    },
+    "estimationWordCount": 1012,
+    "leadText": "The EU wants to strengthen its key industries with new laws. Now, the industry association Swissmem warns that if the EU adopts strict rules of origin, it will jeopardize Swiss suppliers' access to the European market.",
+    "nzzSummaryIsAuto": true,
+    "locale": "de-CH"
+   },
+   {
+    "owner": "NZZ",
+    "title": "China's silent war for Taiwan has long begun",
+    "language": {
+     "locale": "de"
+    },
+    "teaserImage": {
+     "originalUrl": "/2026/09/01/3b514eb8-b0f9-4bdc-9c84-f6347dcfca88.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/09/01/3b514eb8-b0f9-4bdc-9c84-f6347dcfca88.jpg?width=1024&quality=75&auto=webp",
+     "width": 3000,
+     "height": 3000,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "3000,1687,x0,y350"
+      },
+      {
+       "name": "4:3",
+       "crop": "3000,2250,x0,y320"
+      },
+      {
+       "name": "1:1",
+       "crop": "3000,3000,x0,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "2250,3000,x232,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "3000,2000,x0,y371"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "Beijing is trying by all means to destabilize Taiwan without a single shot being fired. Sinologist and intelligence expert Jürgen Kremb describes in the podcast «NZZ Geopolitik» how China is undermining the island with cyberattacks, disinformation, and espionage."
+    },
+    "flag": "Podcast «NZZ Geopolitics»",
+    "showComments": true,
+    "nzzId": "ld.10021963",
+    "readingTime": 60,
+    "paywallQuestionOne": "How is China destabilizing Taiwan through hybrid warfare?",
+    "paywallQuestionTwo": "What role does disinformation play in China's strategy against Taiwan?",
+    "paywallQuestionThree": "Why does Xi Jinping see a free Taiwan as a threat?",
+    "characterCount": 1396,
+    "product": "NZZ.ch",
+    "documentId": "10021963",
+    "layout": "regular",
+    "publicationDate": "2026-09-02T03:30:00.000Z",
+    "publicationLastUpdated": "2026-09-02T03:30:00.000Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-09-02T15:30:00.000Z",
+    "teaserCaption": "Beijing is trying by all means to destabilize Taiwan without a single shot being fired. Sinologist and intelligence expert Jürgen Kremb describes in the podcast «NZZ Geopolitik» how China is undermining the island with cyberattacks, disinformation, and espionage.",
+    "authorLine": "David Vogel",
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2024/04/30/350dcacf-0037-4900-bd54-d0ac546e8332.png?width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/podcast/chinas-stiller-krieg-um-taiwan-hat-laengst-begonnen-ld.10021963",
+    "department": {
+     "name": "Podcast",
+     "path": "/podcast"
+    },
+    "estimationWordCount": 235,
+    "leadText": "Beijing is trying by all means to destabilize Taiwan without a single shot being fired. Sinologist and intelligence expert Jürgen Kremb describes in the podcast «NZZ Geopolitik» how China is undermining the island with cyberattacks, disinformation, and espionage.",
+    "nzzSummaryIsAuto": true,
+    "teaserPodcastTitle": "China's silent war for Taiwan has long begun",
+    "teaserPodcastAuthor": "David Vogel mit Jürgen Kremb ",
+    "teaserPodcastDate": "02.09.2026",
+    "teaserPodcastUrl": "https://audio.podigee-cdn.net/2584737-m-75dfe7983db77acc14e92b078e903bf8.mp3",
+    "teaserPodcastDuration": "28 ",
+    "locale": "de-CH"
+   },
+   {
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "title": "The chip war reaches the logistics industry: Kühne + Nagel scrutinizes Asian subsidiary after US authorities' investigation",
+    "teaserImage": {
+     "originalUrl": "/2026/08/31/a4c9eaef-0e59-4975-a08c-d969c28f0e30.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/08/31/a4c9eaef-0e59-4975-a08c-d969c28f0e30.jpg?width=1024&quality=75&auto=webp",
+     "width": 5500,
+     "height": 3667,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "5500,3094,x0,y573"
+      },
+      {
+       "name": "4:3",
+       "crop": "4889,3667,x358,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "3667,3667,x917,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "2750,3667,x576,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "5500,3667,x0,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "Nvidia AI semiconductor exports to China prohibited, opening a billion-dollar smuggling business. Logistics companies' careful consideration of partners.",
+     "teaserAuthor": "Benoit Tessier / Reuters"
+    },
+    "teaserAuthor": "Benoit Tessier / Reuters",
+    "nzzId": "ld.10021434",
+    "readingTime": 240,
+    "paywallQuestionOne": "How is the chip war affecting the logistics industry?",
+    "paywallQuestionTwo": "What role does Apex Logistics play in the Nvidia chip smuggling?",
+    "paywallQuestionThree": "How is Kühne + Nagel reacting to the investigations by the US authorities?",
+    "characterCount": 5867,
+    "showComments": true,
+    "product": "NZZ.ch",
+    "documentId": "10021434",
+    "layout": "regular",
+    "publicationDate": "2026-08-31T10:04:23.699Z",
+    "publicationLastUpdated": "2026-09-01T07:43:01.458Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-08-31T22:04:23.699Z",
+    "teaserCaption": "Nvidia AI semiconductor exports to China prohibited, opening a billion-dollar smuggling business. Logistics companies' careful consideration of partners.",
+    "authorLine": "Dominik Feldges",
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2024/09/16/52e0b698-52d3-4f00-915a-fa5563d57443.jpeg?width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/wirtschaft/kuehne-nagel-und-nvidia-transport-chip-krieg-erreicht-logistikbranche-ld.10021434",
+    "department": {
+     "name": "Economy",
+     "path": "/wirtschaft"
+    },
+    "estimationWordCount": 873,
+    "premium": true,
+    "leadText": "Nvidia AI semiconductor exports to China prohibited, opening a billion-dollar smuggling business. Logistics companies' careful consideration of partners.",
+    "nzzSummaryIsAuto": true,
+    "commentsCount": 1,
+    "openToComment": false,
+    "hasQ": true,
+    "locale": "de-CH"
+   }
+  ]
+ },
+ "digitalData": {
+  "component": [
+   {
+    "id": "ld.10018163",
+    "name": "The quiet giant: how China's Geely Group conquered Europe's car market from within",
+    "type": "article",
+    "subType1": "regular",
+    "subType2": "",
+    "primaryCategory": "Mobilität",
+    "subCategory1": "",
+    "attributes": {
+     "headline": "The quiet giant: how China's Geely Group conquered Europe's car market from within",
+     "firstPublishTitle": "",
+     "catchline": "",
+     "authors": [
+      {
+       "id": 1372624,
+       "name": "Herbie Schmidt",
+       "shortName": "hdt",
+       "pianoId": "72f8b386-bcab-4180-8747-2b26f4621d1d",
+       "external": false
+      }
+     ],
+     "issueTimestamp": "2026-08-07T03:30:00.000Z",
+     "updateTimestamp": "2026-08-10T17:50:41.281Z",
+     "isSponsoredContent": false,
+     "isPro": false,
+     "isLiveticker": false,
+     "flag": "",
+     "owner": "NZZ"
+    }
+   }
+  ],
+  "page": {
+   "pageId": "ld.10018163",
+   "pageType": "regular",
+   "primaryCategory": "Mobilität",
+   "subCategory1": "",
+   "subCategory2": "",
+   "language": "en-US"
+  },
+  "version": "2.0",
+  "user": {},
+  "event": []
+ },
+ "seoData": {
+  "title": "China's Geely Group on the rise in Europe: the silent giant",
+  "image": {
+   "url": "https://img-msp-prod.nzz.ch/2026/08/05/ffa844eb-22e6-45cb-bdaa-88edf7ed0c63.jpg?width=1200&height=675&fit=bounds&quality=75&auto=webp&crop=6000,3375,x0,y313&wmark=nzz",
+   "type": "image/jpeg",
+   "width": 1200,
+   "height": 675
+  },
+  "author": "Herbie Schmidt",
+  "description": "Volvo, Lotus, and now Geely itself, alongside many lesser-known brands: The Hangzhou-based company is aiming for maximum diversity. Its market share is growing steadily, but it risks European customers losing track in the jungle of names and positioning.",
+  "news_keywords": "The quiet giant: how China's Geely Group is conquering Europe's car market from within, Mobility, News, NZZ",
+  "type": "article",
+  "last-modified": "2026-08-10T21:50:41+02:00",
+  "date": "2026-08-07T07:30:00+02:00",
+  "canonical": "https://www.nzz.ch/mobilitaet/der-leise-gigant-wie-chinas-geely-konzern-europas-automarkt-von-innen-heraus-erobert-ld.10018163",
+  "fb:app_id": 138008459595436,
+  "fb:pages": 143694099006529,
+  "fb:admins": 1592685173,
+  "locale": "de",
+  "email": "online.redaktion@nzz.ch",
+  "site_name": "Neue Zürcher Zeitung",
+  "copyright": "2026 Neue Zürcher Zeitung AG, Schweiz",
+  "robots": "noindex, nofollow, noarchive, noodp",
+  "hreflang": [],
+  "sharedTitle": "The quiet giant: how China's Geely Group conquered Europe's car market from within",
+  "ogTitle": "Geely's clever move: how the giant is shaping Europe's automotive landscape",
+  "ogUrl": "https://www.nzz.ch/mobilitaet/der-leise-gigant-wie-chinas-geely-konzern-europas-automarkt-von-innen-heraus-erobert-ld.10018163",
+  "mrf:cms_id": "nzz:ld.10018163",
+  "mrf:sections": "Mobilität;WTM",
+  "mrf:tags": "Page Type:regular;Editorial Owner:NZZ;Content Type:Standard Article;Article ID:ld.10018163",
+  "nzzAuthors": [
+   {
+    "id": 1372624,
+    "name": "Herbie Schmidt",
+    "shortName": "hdt",
+    "pianoId": "72f8b386-bcab-4180-8747-2b26f4621d1d",
+    "external": false
+   }
+  ],
+  "links": [
+   {
+    "rel": "canonical",
+    "href": "https://www.nzz.ch/mobilitaet/der-leise-gigant-wie-chinas-geely-konzern-europas-automarkt-von-innen-heraus-erobert-ld.10018163"
+   },
+   {
+    "rel": "search",
+    "href": "/suche",
+    "title": "Suche Neue Zürcher Zeitung, Schweiz, https://www.nzz.ch/suche"
+   }
+  ],
+  "renderedAt": "Thu, 03 Sep 2026 09:32:05 GMT"
+ },
+ "structuredData": [
+  {
+   "@context": "https://schema.org",
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "item": {
+      "@id": "/",
+      "name": "Home"
+     }
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "item": {
+      "@id": "/mobilitaet",
+      "name": "Mobility"
+     }
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "China's Geely Group on the rise in Europe: the silent giant"
+    }
+   ]
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": "NewsArticle",
+   "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.nzz.ch/mobilitaet/der-leise-gigant-wie-chinas-geely-konzern-europas-automarkt-von-innen-heraus-erobert-ld.10018163"
+   },
+   "headline": "China's Geely Group on the rise in Europe: the silent giant",
+   "datePublished": "2026-08-07T07:30:00+02:00",
+   "dateModified": "2026-08-10T21:50:41+02:00",
+   "publisher": {
+    "@type": "NewsMediaOrganization",
+    "name": "Neue Zürcher Zeitung",
+    "url": "https://www.nzz.ch",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://www.nzz.ch/logo.png",
+     "width": 413,
+     "height": 60
+    },
+    "contactPoint": [
+     {
+      "@type": "ContactPoint",
+      "telephone": "+41-44-2581000",
+      "contactType": "customer service"
+     }
+    ],
+    "sameAs": [
+     "https://www.facebook.com/nzz",
+     "https://www.twitter.com/nzz",
+     "https://www.youtube.com/channel/UCK1aTcR0AckQRLTlK0c4fuQ",
+     "https://www.linkedin.com/company/neue-zurcher-zeitung",
+     "https://www.instagram.com/nzz/",
+     "https://de.wikipedia.org/wiki/Neue_Z%C3%BCrcher_Zeitung",
+     "https://www.wikidata.org/wiki/Q658945",
+     "https://plus.google.com/+nzz/",
+     "http://www.freebase.com/m/041b43"
+    ],
+    "masthead": "https://www.nzz.ch/impressum/impressum-ld.148422",
+    "foundingDate": "1780"
+   },
+   "description": "Volvo, Lotus, and now Geely itself, alongside many lesser-known brands: The Hangzhou-based company is aiming for maximum diversity. Its market share is growing steadily, but it risks European customers losing track in the jungle of names and positioning.",
+   "isAccessibleForFree": false,
+   "articleSection": "Mobilität",
+   "hasPart": {
+    "@type": "WebPageElement",
+    "isAccessibleForFree": false,
+    "cssSelector": ".nzzinteraction"
+   },
+   "image": {
+    "@type": "ImageObject",
+    "url": "https://img-msp-prod.nzz.ch/2026/08/05/ffa844eb-22e6-45cb-bdaa-88edf7ed0c63.jpg?width=1200&height=675&fit=bounds&quality=75&auto=webp&crop=6000,3375,x0,y313&wmark=nzz",
+    "width": 1200,
+    "height": 675
+   },
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Herbie Schmidt"
+    }
+   ],
+   "inLanguage": "de"
+  }
+ ],
+ "mp3": true,
+ "mp3Duration": 605448,
+ "bT": {
+  "standard": {
+   "Tags": [
+    "/mobilitaet/der-leise-gigant-wie-chinas-geely-konzern-europas-automarkt-von-innen-heraus-erobert-ld.10018163",
+    "classification=default",
+    "relevance=germany",
+    "layout=regular",
+    "owner=nzz",
+    "product=nzz",
+    "doctype=article",
+    "pagetype=article",
+    "ldid=ld.10018163",
+    "channel=Mobilität"
+   ],
+   "ContentCreated": "2026-08-07T03:30:00.000Z",
+   "ContentAuthor": "Herbie Schmidt",
+   "ContentSection": "Mobilität",
+   "ContentIsNative": true
+  },
+  "custom": {
+   "product": "nzz",
+   "docType": "article",
+   "pageType": "article",
+   "layout": "regular",
+   "nzzAbstract": "Wie erobert Geely Europas Automarkt mit seiner Multi-Marken-Strategie?\nWelche Vorteile bietet Geelys technologische Offenheit gegenüber der Konkurrenz?\nWarum könnten europäische Kunden Geely-Marken als verwirrend empfinden?",
+   "ldId": "ld.10018163",
+   "channel": "Mobilität",
+   "heading": "Der leise Gigant: wie Chinas Konzern Geely Europas Automarkt von innen heraus erobert",
+   "language": "en-US"
+  }
+ },
+ "webviewMetadata": {},
+ "cacheTime": 3600
+}

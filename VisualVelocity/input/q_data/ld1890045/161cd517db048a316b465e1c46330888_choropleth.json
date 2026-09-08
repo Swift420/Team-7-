@@ -1,0 +1,292 @@
+{
+  "_id": "161cd517db048a316b465e1c46330888",
+  "_rev": "83-6b5a7d52dd342448be21dc98abcdc1a0",
+  "data": [
+    [
+      "ID",
+      "Wert"
+    ],
+    [
+      "Albania",
+      "Ziel knapp erreicht"
+    ],
+    [
+      "Andorra",
+      "kein Mitglied"
+    ],
+    [
+      "Austria",
+      "kein Mitglied"
+    ],
+    [
+      "Belarus",
+      "kein Mitglied"
+    ],
+    [
+      "Belgium",
+      "<1,5%"
+    ],
+    [
+      "Bosnia and Herzegovina",
+      "kein Mitglied"
+    ],
+    [
+      "Bulgaria",
+      "Ziel knapp erreicht"
+    ],
+    [
+      "Croatia",
+      "1,5–1,9%"
+    ],
+    [
+      "Cyprus",
+      "kein Mitglied"
+    ],
+    [
+      "Czech Republic",
+      "Ziel knapp erreicht"
+    ],
+    [
+      "Denmark",
+      "2,2–3%"
+    ],
+    [
+      "Estonia",
+      ">3%"
+    ],
+    [
+      "Finland",
+      "2,2–3%"
+    ],
+    [
+      "France",
+      "Ziel knapp erreicht"
+    ],
+    [
+      "Germany",
+      "Ziel knapp erreicht"
+    ],
+    [
+      "Greece",
+      "2,2–3%"
+    ],
+    [
+      "Hungary",
+      "Ziel knapp erreicht"
+    ],
+    [
+      "Iceland",
+      "<1,5%"
+    ],
+    [
+      "Ireland",
+      "kein Mitglied"
+    ],
+    [
+      "Italy",
+      "1,5–1,9%"
+    ],
+    [
+      "Kosovo",
+      "kein Mitglied"
+    ],
+    [
+      "Latvia",
+      ">3%"
+    ],
+    [
+      "Liechtenstein",
+      "kein Mitglied"
+    ],
+    [
+      "Lithuania",
+      ">3%"
+    ],
+    [
+      "Luxembourg",
+      "<1,5%"
+    ],
+    [
+      "Malta",
+      "kein Mitglied"
+    ],
+    [
+      "Moldova",
+      "kein Mitglied"
+    ],
+    [
+      "Monaco",
+      "kein Mitglied"
+    ],
+    [
+      "Montenegro",
+      "1,5–1,9%"
+    ],
+    [
+      "Netherlands",
+      "Ziel knapp erreicht"
+    ],
+    [
+      "North Macedonia",
+      "Ziel knapp erreicht"
+    ],
+    [
+      "Norway",
+      "2,2–3%"
+    ],
+    [
+      "Poland",
+      ">3%"
+    ],
+    [
+      "Portugal",
+      "<1,5%"
+    ],
+    [
+      "Romania",
+      "2,2–3%"
+    ],
+    [
+      "Russia",
+      "kein Mitglied"
+    ],
+    [
+      "San Marino",
+      "kein Mitglied"
+    ],
+    [
+      "Serbia",
+      "kein Mitglied"
+    ],
+    [
+      "Slovakia",
+      "Ziel knapp erreicht"
+    ],
+    [
+      "Slovenia",
+      "<1,5%"
+    ],
+    [
+      "Spain",
+      "<1,5%"
+    ],
+    [
+      "Sweden",
+      "2,2–3%"
+    ],
+    [
+      "Switzerland",
+      "kein Mitglied"
+    ],
+    [
+      "Turkey",
+      "Ziel knapp erreicht"
+    ],
+    [
+      "Ukraine",
+      "kein Mitglied"
+    ],
+    [
+      "United Kingdom",
+      "2,2–3%"
+    ],
+    [
+      "Vatican City",
+      "kein Mitglied"
+    ]
+  ],
+  "tool": "choropleth",
+  "notes": "Schätzungen der Nato. Island ist ein Sonderfall, da es keine Armee hat.",
+  "title": "Einige Nato-Staaten erreichten 2024 das Zwei-Prozent-Ziel noch nicht",
+  "active": true,
+  "acronym": "A. R.",
+  "baseMap": "europe-countries-geographic",
+  "options": {
+    "hideBubbleMap": false,
+    "choroplethType": "categorical",
+    "hideMicroStates": true,
+    "numericalOptions": {
+      "scale": "sequential",
+      "bucketType": "ckmeans",
+      "colorScheme": "one",
+      "labelLegend": "noLabel",
+      "noValuesOnMap": false,
+      "numberBuckets": 5,
+      "colorOverwrites": [],
+      "invertColorScheme": false
+    },
+    "categoricalOptions": {
+      "valuesOnMap": false,
+      "colorOverwrites": [
+        {
+          "color": "#cdcdd1",
+          "position": 6,
+          "textColor": "light"
+        },
+        {
+          "color": "#374e8e",
+          "position": 5,
+          "textColor": "light"
+        },
+        {
+          "color": "#cad5ec",
+          "position": 3,
+          "textColor": "light"
+        },
+        {
+          "color": "#e98977",
+          "position": 1,
+          "textColor": "light"
+        },
+        {
+          "color": "#f1cbc3",
+          "position": 2,
+          "textColor": "light"
+        },
+        {
+          "color": "#768fcd",
+          "position": 4,
+          "textColor": "light"
+        }
+      ],
+      "customCategoriesOrder": [
+        {
+          "category": "<1,4%"
+        },
+        {
+          "category": "1,4–1,9%"
+        },
+        {
+          "category": "Ziel knapp erreicht"
+        },
+        {
+          "category": "2,2–3%"
+        },
+        {
+          "category": ">3%"
+        },
+        {
+          "category": "kein Mitglied"
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "link": {
+        "url": "https://www.nato.int/nato_static_fl2014/assets/pdf/2025/4/pdf/sgar24-en.pdf#page=58"
+      },
+      "text": "Nato"
+    }
+  ],
+  "version": "2023-01-31T00:00:00.000Z",
+  "subtitle": "Militärausgaben im Verhältnis zum BIP 2024",
+  "createdBy": "andreas.rueesch@nzz.ch",
+  "updatedBy": "andreas.rueesch@nzz.ch",
+  "department": "International",
+  "entityType": "name",
+  "createdDate": "2025-01-27T19:59:52.278Z",
+  "publication": "nzz",
+  "updatedDate": "2025-06-22T06:34:49.163Z",
+  "mapAnnotations": []
+}

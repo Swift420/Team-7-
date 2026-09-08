@@ -1,0 +1,25 @@
+{
+  "params": {
+    "id": "161cd517db048a316b465e1c46330888",
+    "conf": {},
+    "toolConfig": {},
+    "toolRuntimeConfig": {
+      "size": {
+        "width": [
+          {
+            "value": 100,
+            "comparison": ">"
+          }
+        ]
+      },
+      "displayOptions": {
+        "hideTitle": false,
+        "hideFooter": false,
+        "hideAcronym": false,
+        "hideSubtitle": false
+      }
+    }
+  },
+  "position": 10,
+  "component_id": "doc-1iips6ohv0"
+}

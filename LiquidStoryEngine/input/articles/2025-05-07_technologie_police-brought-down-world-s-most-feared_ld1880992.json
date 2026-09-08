@@ -1,0 +1,391 @@
+{
+  "nzz_id": "ld.1880992",
+  "document_id": 1880992,
+  "url": "https://www.nzz.ch/technologie/lockbit-wie-die-polizei-den-gefuerchtetsten-hacker-der-welt-zu-fall-brachte-eine-rekonstruktion-des-endes-von-lockbit-ld.1880992",
+  "language": "en",
+  "machine_translated_from_de": true,
+  "section": "Technologie",
+  "ressort_path": "technologie",
+  "genre_flag": "",
+  "layout": "longformstandard",
+  "published_at": "2025-05-07T03:30:00.000Z",
+  "last_updated": "2025-05-07T10:40:32.903Z",
+  "headline": "How the police brought down the world's most feared hacker: a reconstruction of the end of Lockbit",
+  "lead": "A year ago, investigators arrested members of the Lockbit ransomware gang, seized bitcoins, and shut down servers. \"Operation Cronos\" showed the world how to punish hackers who hide from prosecution in Russia.",
+  "author_line": "Gioia da Silva, Lukas Mäder",
+  "authors": [],
+  "reading_time_seconds": 900,
+  "word_count": 3075,
+  "character_count": 21695,
+  "seo_title": "Hacker exposed: How investigators brought down the Lockbit gang",
+  "social_title": "How the police brought down the most notorious hacker group: the end of Lockbit",
+  "print_title": "How the police brought down the world's most feared hacker: a reconstruction of the end of Lockbit",
+  "print_subtitle": "A year ago, investigators arrested members of the Lockbit ransomware gang, seized bitcoins, and shut down servers. \"Operation Cronos\" showed the world how to punish hackers who hide from prosecution in Russia.",
+  "summary_bullets_en": [
+    "The international police operation 'Operation Cronos' significantly weakened the infamous hacker group Lockbit, taking over key servers and arresting three members.",
+    "Dmitry Choroshev, the group's leader, was identified; the revelation of his identity and targeted psychological tactics shattered trust within the network.",
+    "Although Lockbit remains active, the organization is far less powerful, with experts doubting it will regain its former dominance."
+  ],
+  "tags": [
+    "classification=default",
+    "relevance=germany",
+    "layout=longformstandard",
+    "owner=nzz",
+    "product=nzz",
+    "doctype=article",
+    "pagetype=article",
+    "ldid=ld.1880992",
+    "channel=Technologie"
+  ],
+  "sections_tag": "Technologie;WTM",
+  "teaser_image": {
+    "url": "https://img-msp-prod.nzz.ch/2025/05/06/ca1519b8-fceb-47cd-b5fd-34e28cddbf0b.png?width=1024",
+    "caption": "A year ago, investigators arrested members of the Lockbit ransomware gang, seized bitcoins, and shut down servers. \"Operation Cronos\" showed the world how to punish hackers who hide from prosecution in Russia.",
+    "credit": "Illustration by Olivia Meyer / NZZ",
+    "width": 4500,
+    "height": 3000
+  },
+  "original_de": {
+    "headline": "Wie die Polizei den gefürchtetsten Hacker der Welt zu Fall brachte: eine Rekonstruktion des Endes von Lockbit",
+    "lead": "Vor einem Jahr nehmen Ermittler Mitglieder der Erpresserbande Lockbit fest, beschlagnahmen Bitcoins und schalten Server aus. Die «Operation Cronos» zeigt der Welt, wie man Hacker bestraft, die sich in Russland vor der Strafverfolgung verstecken.",
+    "kicker": null
+  },
+  "body": [
+    {
+      "type": "image",
+      "url": "https://img-msp-prod.nzz.ch/2025/05/07/e154c6e1-57be-4672-870c-af626748be32.jpeg?width=1024",
+      "caption": "A $10 million bounty has been placed on his head: Dmitri Choroshev aka LockbitSupp.",
+      "credit": "Illustration by Olivia Meyer / NZZ",
+      "width": 3047,
+      "height": 2031
+    },
+    {
+      "type": "paragraph",
+      "text": "Robert McArdle's pulse quickens. It's May 7, 2024, just before 3 p.m. The countdown is about to end, and the police will release the name of the head of the Lockbit hacker gang. One of the world's most successful cybercriminals will be dragged into the public eye. And McArdle will finally learn who is hiding behind the pseudonym LockbitSupp."
+    },
+    {
+      "type": "paragraph",
+      "text": "McArdle heads cybercrime research at the IT security company Trend Micro. He has been investigating Lockbit's criminal activities for years. In the preceding months, he repeatedly provided law enforcement agencies with small clues about the gang upon request: a username here, an IP address there."
+    },
+    {
+      "type": "paragraph",
+      "text": "An international consortium of investigators pursued these leads for years, piecing together the information into a comprehensive picture. In 2024, they struck. The investigators called the police operation, which was successfully concluded a year ago, «Operation Cronos.»"
+    },
+    {
+      "type": "paragraph",
+      "text": "And indeed, McArdle is not disappointed. The FBI publishes the name of the man believed to be the head of the Lockbit gang. It is the Russian Dmitri Khoroshev."
+    },
+    {
+      "type": "paragraph",
+      "text": "Khoroshev cultivated the image of a brilliant hacker: brutal, arrogant, and more intelligent than the police. He is a ruthless criminal, responsible for attacks on thousands of companies, including hospitals and schools, encrypting their data and extorting hundreds of millions of dollars. At times, almost half of all ransomware attacks originated from his group."
+    },
+    {
+      "type": "paragraph",
+      "text": "«For us, who had fought against Lockbit for years, it was a moment of triumph,» says McArdle, who saw the arrest warrant in the first few minutes after it was published. «With Khoroshev, we were able to unmask one of the most successful cybercriminals of all time.»"
+    },
+    {
+      "type": "paragraph",
+      "text": "Combating hacker groups is extremely difficult for the police. Their trails are hard to trace. And not all countries cooperate with investigators. This is especially true for Russia, where many of the masterminds behind ransomware gangs are based."
+    },
+    {
+      "type": "paragraph",
+      "text": "The success of «Operation Cronos» proves, however, that law enforcement is not powerless – even when hackers hide in Russia. Using psychological methods, investigators were able to destroy something that is also essential for criminal activity: mutual trust."
+    },
+    {
+      "type": "paragraph",
+      "text": "The rise and fall of the world's most notorious hacker group is a lesson in how the fight against cybercriminals can work. Based on conversations with investigators and interviews with cybersecurity experts, we recount the story of Lockbits."
+    },
+    {
+      "type": "heading",
+      "text": "Lockbit perfects the system of division of labor"
+    },
+    {
+      "type": "paragraph",
+      "text": "Lockbit emerged in 2020 in the cybercriminal underworld. In January, the group began advertising its ransomware on a Russian-language hacker forum. They particularly emphasized the technical capabilities of their malware: it encrypted victims' servers faster and required less computing power."
+    },
+    {
+      "type": "paragraph",
+      "text": "Back then, Lockbit had one main goal: growth. The core group around Dmitri Choroshev wanted to acquire business partners, so-called affiliates. These affiliates independently carried out attacks using Lockbit's encryption software. In return, they paid the core group 20 percent of the extorted ransom. This model was called «Ransomware as a Service.»"
+    },
+    {
+      "type": "paragraph",
+      "text": "The system has a crucial advantage: the number of attacks can be increased easily and quickly. Even less technically skilled criminals can carry out the actual ransomware attacks on companies. The core group around Dmitri Choroshev is responsible for the further development of the malware. It's a criminal division of labor."
+    },
+    {
+      "type": "paragraph",
+      "text": "The model leads to Lockbit's success. In July 2020 , a wave of attacks against medium-sized companies sweeps across the Americas. Around the same time, the first companies in Switzerland also fall victim to Lockbit. However, there are no major cases yet."
+    },
+    {
+      "type": "heading",
+      "text": "Lockbit becomes the most successful hacker gang"
+    },
+    {
+      "type": "paragraph",
+      "text": "Lockbit's first major success came a year later, in the summer of 2021. The hackers attacked the consulting firm Accenture, stole confidential data, and rendered the company's IT systems unusable by encrypting them. Lockbit demanded $50 million in cryptocurrencies to decrypt the systems."
+    },
+    {
+      "type": "paragraph",
+      "text": "However, Accenture was able to restore the encrypted data from a backup and refused to give in to the extortion demands. Lockbit then resorted to a tactic known as «double extortion.» The hackers threatened to publish the stolen data, thereby increasing the pressure on their victims: the public exposure was intended to force them to pay up."
+    },
+    {
+      "type": "paragraph",
+      "text": "Accenture continues to refuse payment. Lockbit then publishes the stolen data, including internal presentations and working papers. The case makes headlines. Accenture, a company that sells cybersecurity services to its clients, suffers a reputational loss."
+    },
+    {
+      "type": "paragraph",
+      "text": "For the extortionists, the boom began. In 2022, Lockbit was the most widely used ransomware variant worldwide. In Canada, 22 percent of all attacks originated from Lockbit. In the US alone, the FBI recorded around 1,700 attacks since 2020. The victims are said to have paid ransoms totaling approximately $91 million."
+    },
+    {
+      "type": "heading",
+      "text": "Absurd popularity: $1,000 for a Lockbit tattoo"
+    },
+    {
+      "type": "paragraph",
+      "text": "There are several reasons why Lockbit has been able to grow so large. A key factor is the malware's technical power: the core group around Dmitri Choroshev has continuously improved it. Now it cleverly hides itself within the victims' IT systems to avoid detection. It gathers information about the company and, after the attack, erases its traces to hinder the work of investigators."
+    },
+    {
+      "type": "paragraph",
+      "text": "An improved version includes a tool that allows affiliates to quickly siphon off large amounts of data undetected. Criminals hardly need any IT expertise anymore. Thanks to a simple user interface, a few mouse clicks are all it takes to copy and then encrypt the data. Ransomware attacks become incredibly easy."
+    },
+    {
+      "type": "paragraph",
+      "text": "Perhaps the most important factor in Lockbit's success is its payment model. Normally, victims pay the ransom to the core group, which then pays the affiliates. Lockbit does things differently: Affiliates receive their share of the ransom directly from the victims. The advantage: The core group can't cheat its affiliates out of their share. This builds trust and increases the incentive for affiliates to work with Lockbit."
+    },
+    {
+      "type": "paragraph",
+      "text": "Besides its excellent product, Lockbit is also working on its image. In 2022, the company's leader launched a major PR campaign: anyone who got the Lockbit logo tattooed and posted pictures of it on social media would receive $1,000. Photos of Lockbit tattoos did indeed appear."
+    },
+    {
+      "type": "embed",
+      "service": "oembed",
+      "url": "https://twitter.com/3xp0rtblog/status/1569230420314554372?ref_src=twsrc%5Etfw"
+    },
+    {
+      "type": "paragraph",
+      "text": "The success of the appeal demonstrates the absurd popularity and respect that Lockbit has cultivated. In 2022, the group is no longer just a gang of criminals. Lockbit is a brand, loved by insiders, hated by outsiders."
+    },
+    {
+      "type": "heading",
+      "text": "Police worldwide are investigating Lockbit"
+    },
+    {
+      "type": "paragraph",
+      "text": "Lockbit's success attracted the attention of the police. As early as 2021, Europol formed a task force. This task force included representatives from many countries investigating Lockbit, including Germany, the Netherlands, and Switzerland. France led the investigation. Thus began «Operation Cronos.»"
+    },
+    {
+      "type": "paragraph",
+      "text": "Europol is now compiling the evidence from various countries. This includes, for example, the IP addresses of the servers from which the criminals accessed the victims' IT systems. It also includes the email addresses that the hackers provided to rent these servers, and the addresses of crypto wallets that Lockbit gave the victims for transferring the ransom. Europol analysts are comparing this information and forwarding it to the national police forces."
+    },
+    {
+      "type": "paragraph",
+      "text": "For example, if German investigators are looking into an attack originating from an IP address in the Netherlands, Europol might inform them that their Dutch counterparts are already monitoring that server and can provide further information. The criminals may be using the same cryptocurrency wallet to rent multiple servers. In this way, the police gradually uncover the gang's infrastructure."
+    },
+    {
+      "type": "paragraph",
+      "text": "However, one of Lockbit's strengths becomes a disadvantage. Because the malware is so easy to use, criminals no longer need a solid technical understanding. And beginners are more likely to leave traces, says one investigator. This can help the police."
+    },
+    {
+      "type": "paragraph",
+      "text": "For example, an attacker only needs to forget to activate the VPN service that anonymizes their internet connection just once. And suddenly, investigators have an unmasked IP address at their fingertips, giving them clues to the hacker's location. Even criminals make mistakes."
+    },
+    {
+      "type": "paragraph",
+      "text": "Besides the police, IT security experts like Robert McArdle and John DiMaggio are also investigating Lockbit. DiMaggio, chief strategist at the IT security company Analyst 1, caused a stir with his research on the ringleader, then known only by his pseudonym LockbitSupp."
+    },
+    {
+      "type": "paragraph",
+      "text": "DiMaggio interacted directly with LockbitSupp on several occasions. He describes him as an arrogant criminal who nevertheless communicated professionally and objectively – except that he repeatedly sent a cat meme, i.e., a picture of a cat. This detail would later prove crucial."
+    },
+    {
+      "type": "heading",
+      "text": "The beginning of the end: The police strike"
+    },
+    {
+      "type": "paragraph",
+      "text": "Sometime in mid- to late 2023, the international investigators of «Operation Cronos» had gathered enough information. After several postponements, the participating countries agreed to launch their operation in February. The FBI from the USA and the NCA from Great Britain took the lead."
+    },
+    {
+      "type": "paragraph",
+      "text": "Details of the so-called «Action Day» are strictly confidential. A participating investigator said there was great fear that someone would warn the criminals, rendering the operation unsuccessful."
+    },
+    {
+      "type": "paragraph",
+      "text": "But the operation succeeds. On February 19, 2024, investigators post a message on Lockbit's darknet site: «This site is under the control of law enforcement.» It's a clear signal to the affiliates and the public. And it marks the beginning of the criminal gang's downfall."
+    },
+    {
+      "type": "image",
+      "url": "https://img-msp-prod.nzz.ch/2025/04/22/ca07c3b2-88ed-4db6-94af-0104787e5bbe.jpeg?width=1024",
+      "caption": "The police published this announcement on the Lockbit darknet site.",
+      "credit": "Analyst 1 , screenshot from the darknet",
+      "width": 624,
+      "height": 352
+    },
+    {
+      "type": "paragraph",
+      "text": "Investigators may have been in Lockbit's systems for an extended period, spying on the hackers. They haven't revealed what the crucial step was that allowed them to penetrate Lockbit's systems. One investigator involved even says that authorities only received confirmation that Lockbit's central servers had actually been identified on the «Action Day.»"
+    },
+    {
+      "type": "paragraph",
+      "text": "Investigators succeeded in arresting three affiliates. In Ukraine, a father and his son were arrested, and in Poland, a 38-year-old man. Polish police released a video of the arrest, accompanied by dramatic music. The video shows police officers leading away a man in jeans and a blue jacket; his cell phones and laptop were sealed."
+    },
+    {
+      "type": "embed",
+      "service": "youtube",
+      "url": "https://www.youtube.com/watch?v=NIqLMZ14Nd8",
+      "text": ""
+    },
+    {
+      "type": "paragraph",
+      "text": "Furthermore, the police have identified two Russian hackers and published their names: Ivan Kondratiev, known in the hacker scene under his pseudonyms Bassterlord and Fisheye, who has written two textbooks on ransomware attacks, and Artur Sungatov. Because Russia, unlike Ukraine and Poland, is not cooperating with Western investigators, these two hackers are still at large. However, they are wanted in the US and are on the sanctions list."
+    },
+    {
+      "type": "heading",
+      "text": "Psychological warfare against unreachable criminals"
+    },
+    {
+      "type": "paragraph",
+      "text": "Following the police operation in February, it is initially difficult to assess the true extent of the authorities' investigative success. At that time, Lockbit had 190 affiliates, some of whom were likely behind multiple individuals. To the public, three arrests and three public identifications may seem like a small number."
+    },
+    {
+      "type": "paragraph",
+      "text": "But the police employ a strategy that dismantles the group's network: they use methods to psychologically unsettle the criminals."
+    },
+    {
+      "type": "paragraph",
+      "text": "This is evident in the arrest video from Poland: In one scene, stuffed animals and crayons appear, seemingly lying on the floor of the perpetrator's apartment. Such scenes are intended to deter other hackers. The message the investigators are sending to criminals is: Look, we've got him, and you're not safe anywhere, not even in your own homes."
+    },
+    {
+      "type": "heading",
+      "text": "Hello! We have your Bitcoins"
+    },
+    {
+      "type": "paragraph",
+      "text": "To deter those criminals from Lockbit whom they cannot arrest or identify, the police create a script for the remainder of «Operation Cronos.» This is intended to undermine trust between the criminals and Lockbit's central organization."
+    },
+    {
+      "type": "paragraph",
+      "text": "Perhaps the most effective tactic is personal contact. The police send affiliates private messages via the internal Lockbit system. Upon their first login after the police operation, the criminals receive a message stating that investigators now possess their usernames, the addresses of their crypto wallets, their IP addresses, and the transcripts of their chats with victims and with Lockbit support. From there, some affiliates likely reasoned, the path to public identification is short."
+    },
+    {
+      "type": "paragraph",
+      "text": "Further pinpricks followed: The day after the takeover of the leak site on the darknet, the police redirected visitors to the URL to another site. There, they published arrest warrants and announcements of sanctions against the hackers."
+    },
+    {
+      "type": "paragraph",
+      "text": "From a psychological perspective, two things are interesting here: First, the investigators are adopting the branding and structure of the original Lockbit leak site for the new site: same colors, same font, and the Lockbit logo is still present in the upper left corner. However, unlike usual, the police site doesn't list the hacked companies as «victims,» ​​but rather the criminals themselves."
+    },
+    {
+      "type": "paragraph",
+      "text": "Secondly, the police are refraining from communicating all the investigation results at once. According to a log from Analyst 1, the authorities are publishing arrest warrants and announcements of sanctions over a five-day period. Robert McArdle, the cybercrime expert at Trend Micro, says: «This strategy is clever because it intimidates the affiliates a little more each day.»"
+    },
+    {
+      "type": "paragraph",
+      "text": "Just before the police take their modified Lockbit leak site offline, they launch their final major attack – against the gang's leader. They publish a statement claiming to know the name behind LockbitSupp. Along with this, they release a cat meme, thus also employing the criminal's visual language. McArdle interprets this as follows: «The police have shown Lockbit affiliates that they actually have access to Lockbit's core infrastructure. How else would they know about LockbitSupp's love of cat memes?»"
+    },
+    {
+      "type": "image",
+      "url": "https://img-msp-prod.nzz.ch/2025/04/22/14399b97-a7ac-4422-920a-985d6efd3e5b.jpeg?width=1024",
+      "caption": "The Cat meme showed affiliates that their leader had actually been investigated by the police.",
+      "credit": "Analyst 1 , screenshot from the dark web",
+      "width": 624,
+      "height": 348
+    },
+    {
+      "type": "heading",
+      "text": "Dmitri Khoroshev strikes back"
+    },
+    {
+      "type": "paragraph",
+      "text": "But Dmitri Khoroshev, one of the most successful cybercriminals of all time, launched a counterattack. Less than a week after the successful police operation, he launched a new Lockbit leak site on the dark web. It looked exactly like the old site, but listed fewer victims. However, the victim list included one prominent entry: the FBI."
+    },
+    {
+      "type": "paragraph",
+      "text": "Of course, the FBI wasn't actually hacked. However, LockbitSupp uses the FBI entry to explain the takedown from his perspective: Among other things, he admits that the police gained access to his IT infrastructure «because of his personal negligence and irresponsibility.» He writes: «Because I've been swimming in money for five years, I got very lazy and continued cruising on my yacht with busty girls.» That's why he didn't install an update that would have been necessary to fend off the investigators."
+    },
+    {
+      "type": "paragraph",
+      "text": "While Khoroshev admits his own mistakes, he immediately tries to regain the trust of his affiliates. He writes that the hack didn't just affect him; other hacker groups and forums had suffered the same fate, they just hadn't noticed. As a counterattack, Khoroshev threatens to attack American government agencies."
+    },
+    {
+      "type": "paragraph",
+      "text": "In the two weeks that followed, Khoroshev published several posts on his new leak site about companies that had allegedly been victims of new hacking attacks. For a moment, it looked to outsiders as if Lockbit was back. However, it soon became clear that most of the alleged attacks had taken place before the investigators took the site down, and Lockbit was simply publishing old data. In other cases, Khoroshev was bluffing—in reality, he hadn't even obtained their data."
+    },
+    {
+      "type": "paragraph",
+      "text": "His blatant lying had only one goal: Khorashev wanted to save his image. «He was putting on a brave face, hoping not to lose his business partners and his reputation as a high-flying criminal,» says McArdle. But the plan backfired. In the following months, the authorities gained increasingly deeper insights into the Lockbit network."
+    },
+    {
+      "type": "heading",
+      "text": "The finale: the unmasking of the Lockbit boss"
+    },
+    {
+      "type": "paragraph",
+      "text": "The final step in the police operation takes place in early May. The authorities reactivate the original Lockbit leak site and publish an announcement that they will reveal the identity of LockbitSupp. «Coming soon,» on May 7, 2024."
+    },
+    {
+      "type": "paragraph",
+      "text": "This announcement, too, serves the purpose of unsettling criminals, Jon DiMaggio writes in a post. «LockbitSupp had mocked the FBI for years, claiming they were too stupid to catch him. It seems they were smarter than he thought.»"
+    },
+    {
+      "type": "paragraph",
+      "text": "On May 7, 2024, the American government published an arrest warrant for Dmitri Khoroshev. It offered a reward of up to $10 million for information leading to his arrest."
+    },
+    {
+      "type": "image",
+      "url": "https://img-msp-prod.nzz.ch/2025/04/22/d10fe37e-b798-4954-a156-4c339e1436a4.jpeg?width=1024",
+      "caption": "Dmitri Choroshev aka LockbitSupp in a billiard hall, most likely in Russia. Image by Analyst 1.",
+      "credit": "Analyst 1",
+      "width": 624,
+      "height": 418
+    },
+    {
+      "type": "paragraph",
+      "text": "Shortly thereafter, John DiMaggio of Analyst 1 published further information about Khoroshev. He was born in 1993 and lives in the Voronezh region of Russia, not far from the Ukrainian border. He also owns several businesses that appear legitimate at first glance, including a textile shop. DiMaggio also believes he has obtained the hacker's email addresses, phone numbers, and home address. He publishes this information as well."
+    },
+    {
+      "type": "paragraph",
+      "text": "This «dox,» as the publication of personal information is called, along with the other psychological components of «Operation Cronos,» is causing many affiliates to turn away from Lockbit. Their fear is too great that the police are still within the Lockbit network and will identify them as well."
+    },
+    {
+      "type": "paragraph",
+      "text": "Because one thing is clear: being publicly identified is unpleasant for Russian hackers. Khoroshev, aka LockbitSupp, Kondratiew, aka Bassterlord, and Sungatov won't be honeymooning in Paris or taking city breaks in Dubai. They'll never even see New York with their own eyes. They have to assume they'll be arrested immediately if they ever show up at a Western airport."
+    },
+    {
+      "type": "paragraph",
+      "text": "While they can certainly lead a comfortable life on Russian territory, life in Russia is also better when one's neighbors are unaware of the criminal and damaging nature of one's source of income. Lockbit hackers, in particular, who are likely to possess substantial wealth, now have to worry about becoming victims of other crimes. For example, their children could be kidnapped. Furthermore, they must assume that Western intelligence agencies or other hackers are after them."
+    },
+    {
+      "type": "paragraph",
+      "text": "These publicly available identifications allow Western law enforcement to restrict the lives of Russian hackers, at least to some extent. This is despite Russia protecting its hackers by ignoring international requests for legal assistance."
+    },
+    {
+      "type": "heading",
+      "text": "Conclusion: Cybercrime can be combated"
+    },
+    {
+      "type": "paragraph",
+      "text": "Today, a year after the police raid, Lockbit is active again. But the large organization with dozens of affiliates no longer exists."
+    },
+    {
+      "type": "paragraph",
+      "text": "«Lockbit is just a shadow of its former self,» says McArdle. «The group no longer has the power or dominance it once did.» An investigator involved in «Operation Cronos» is convinced that the gang will never regain its former strength."
+    },
+    {
+      "type": "paragraph",
+      "text": "Operation Cronos demonstrates that law enforcement agencies can successfully combat cybercriminals. They dismantled the most notorious ransomware gang, thereby preventing numerous cyberattacks."
+    },
+    {
+      "type": "paragraph",
+      "text": "Investigators have likely succeeded in identifying several members of the group. While they have so far only been able to arrest a small portion of the criminals, the message is clear: anyone active in Lockbit must now expect arrest, at least if they travel to a Western country. Lockbit affiliates will no longer be able to travel to Italy, Thailand, or Turkey without fear. The myth of the untouchable Russian hacker has been shattered."
+    },
+    {
+      "type": "paragraph",
+      "text": "But «Operation Cronos» is also a message to politicians: If the police receive enough resources to combat cybercrime, they can be successful. This is not yet the case. Crimes on the internet are often prosecuted less vigorously than extortion or fraud. The Lockbit story shows that it could be worthwhile to change this."
+    },
+    {
+      "type": "paragraph",
+      "text": "_Contributors: Simon Huwiler, Forrest Rogers_"
+    }
+  ],
+  "body_text": "Robert McArdle's pulse quickens. It's May 7, 2024, just before 3 p.m. The countdown is about to end, and the police will release the name of the head of the Lockbit hacker gang. One of the world's most successful cybercriminals will be dragged into the public eye. And McArdle will finally learn who is hiding behind the pseudonym LockbitSupp.\n\nMcArdle heads cybercrime research at the IT security company Trend Micro. He has been investigating Lockbit's criminal activities for years. In the preceding months, he repeatedly provided law enforcement agencies with small clues about the gang upon request: a username here, an IP address there.\n\nAn international consortium of investigators pursued these leads for years, piecing together the information into a comprehensive picture. In 2024, they struck. The investigators called the police operation, which was successfully concluded a year ago, «Operation Cronos.»\n\nAnd indeed, McArdle is not disappointed. The FBI publishes the name of the man believed to be the head of the Lockbit gang. It is the Russian Dmitri Khoroshev.\n\nKhoroshev cultivated the image of a brilliant hacker: brutal, arrogant, and more intelligent than the police. He is a ruthless criminal, responsible for attacks on thousands of companies, including hospitals and schools, encrypting their data and extorting hundreds of millions of dollars. At times, almost half of all ransomware attacks originated from his group.\n\n«For us, who had fought against Lockbit for years, it was a moment of triumph,» says McArdle, who saw the arrest warrant in the first few minutes after it was published. «With Khoroshev, we were able to unmask one of the most successful cybercriminals of all time.»\n\nCombating hacker groups is extremely difficult for the police. Their trails are hard to trace. And not all countries cooperate with investigators. This is especially true for Russia, where many of the masterminds behind ransomware gangs are based.\n\nThe success of «Operation Cronos» proves, however, that law enforcement is not powerless – even when hackers hide in Russia. Using psychological methods, investigators were able to destroy something that is also essential for criminal activity: mutual trust.\n\nThe rise and fall of the world's most notorious hacker group is a lesson in how the fight against cybercriminals can work. Based on conversations with investigators and interviews with cybersecurity experts, we recount the story of Lockbits.\n\nLockbit perfects the system of division of labor\n\nLockbit emerged in 2020 in the cybercriminal underworld. In January, the group began advertising its ransomware on a Russian-language hacker forum. They particularly emphasized the technical capabilities of their malware: it encrypted victims' servers faster and required less computing power.\n\nBack then, Lockbit had one main goal: growth. The core group around Dmitri Choroshev wanted to acquire business partners, so-called affiliates. These affiliates independently carried out attacks using Lockbit's encryption software. In return, they paid the core group 20 percent of the extorted ransom. This model was called «Ransomware as a Service.»\n\nThe system has a crucial advantage: the number of attacks can be increased easily and quickly. Even less technically skilled criminals can carry out the actual ransomware attacks on companies. The core group around Dmitri Choroshev is responsible for the further development of the malware. It's a criminal division of labor.\n\nThe model leads to Lockbit's success. In July 2020 , a wave of attacks against medium-sized companies sweeps across the Americas. Around the same time, the first companies in Switzerland also fall victim to Lockbit. However, there are no major cases yet.\n\nLockbit becomes the most successful hacker gang\n\nLockbit's first major success came a year later, in the summer of 2021. The hackers attacked the consulting firm Accenture, stole confidential data, and rendered the company's IT systems unusable by encrypting them. Lockbit demanded $50 million in cryptocurrencies to decrypt the systems.\n\nHowever, Accenture was able to restore the encrypted data from a backup and refused to give in to the extortion demands. Lockbit then resorted to a tactic known as «double extortion.» The hackers threatened to publish the stolen data, thereby increasing the pressure on their victims: the public exposure was intended to force them to pay up.\n\nAccenture continues to refuse payment. Lockbit then publishes the stolen data, including internal presentations and working papers. The case makes headlines. Accenture, a company that sells cybersecurity services to its clients, suffers a reputational loss.\n\nFor the extortionists, the boom began. In 2022, Lockbit was the most widely used ransomware variant worldwide. In Canada, 22 percent of all attacks originated from Lockbit. In the US alone, the FBI recorded around 1,700 attacks since 2020. The victims are said to have paid ransoms totaling approximately $91 million.\n\nAbsurd popularity: $1,000 for a Lockbit tattoo\n\nThere are several reasons why Lockbit has been able to grow so large. A key factor is the malware's technical power: the core group around Dmitri Choroshev has continuously improved it. Now it cleverly hides itself within the victims' IT systems to avoid detection. It gathers information about the company and, after the attack, erases its traces to hinder the work of investigators.\n\nAn improved version includes a tool that allows affiliates to quickly siphon off large amounts of data undetected. Criminals hardly need any IT expertise anymore. Thanks to a simple user interface, a few mouse clicks are all it takes to copy and then encrypt the data. Ransomware attacks become incredibly easy.\n\nPerhaps the most important factor in Lockbit's success is its payment model. Normally, victims pay the ransom to the core group, which then pays the affiliates. Lockbit does things differently: Affiliates receive their share of the ransom directly from the victims. The advantage: The core group can't cheat its affiliates out of their share. This builds trust and increases the incentive for affiliates to work with Lockbit.\n\nBesides its excellent product, Lockbit is also working on its image. In 2022, the company's leader launched a major PR campaign: anyone who got the Lockbit logo tattooed and posted pictures of it on social media would receive $1,000. Photos of Lockbit tattoos did indeed appear.\n\nThe success of the appeal demonstrates the absurd popularity and respect that Lockbit has cultivated. In 2022, the group is no longer just a gang of criminals. Lockbit is a brand, loved by insiders, hated by outsiders.\n\nPolice worldwide are investigating Lockbit\n\nLockbit's success attracted the attention of the police. As early as 2021, Europol formed a task force. This task force included representatives from many countries investigating Lockbit, including Germany, the Netherlands, and Switzerland. France led the investigation. Thus began «Operation Cronos.»\n\nEuropol is now compiling the evidence from various countries. This includes, for example, the IP addresses of the servers from which the criminals accessed the victims' IT systems. It also includes the email addresses that the hackers provided to rent these servers, and the addresses of crypto wallets that Lockbit gave the victims for transferring the ransom. Europol analysts are comparing this information and forwarding it to the national police forces.\n\nFor example, if German investigators are looking into an attack originating from an IP address in the Netherlands, Europol might inform them that their Dutch counterparts are already monitoring that server and can provide further information. The criminals may be using the same cryptocurrency wallet to rent multiple servers. In this way, the police gradually uncover the gang's infrastructure.\n\nHowever, one of Lockbit's strengths becomes a disadvantage. Because the malware is so easy to use, criminals no longer need a solid technical understanding. And beginners are more likely to leave traces, says one investigator. This can help the police.\n\nFor example, an attacker only needs to forget to activate the VPN service that anonymizes their internet connection just once. And suddenly, investigators have an unmasked IP address at their fingertips, giving them clues to the hacker's location. Even criminals make mistakes.\n\nBesides the police, IT security experts like Robert McArdle and John DiMaggio are also investigating Lockbit. DiMaggio, chief strategist at the IT security company Analyst 1, caused a stir with his research on the ringleader, then known only by his pseudonym LockbitSupp.\n\nDiMaggio interacted directly with LockbitSupp on several occasions. He describes him as an arrogant criminal who nevertheless communicated professionally and objectively – except that he repeatedly sent a cat meme, i.e., a picture of a cat. This detail would later prove crucial.\n\nThe beginning of the end: The police strike\n\nSometime in mid- to late 2023, the international investigators of «Operation Cronos» had gathered enough information. After several postponements, the participating countries agreed to launch their operation in February. The FBI from the USA and the NCA from Great Britain took the lead.\n\nDetails of the so-called «Action Day» are strictly confidential. A participating investigator said there was great fear that someone would warn the criminals, rendering the operation unsuccessful.\n\nBut the operation succeeds. On February 19, 2024, investigators post a message on Lockbit's darknet site: «This site is under the control of law enforcement.» It's a clear signal to the affiliates and the public. And it marks the beginning of the criminal gang's downfall.\n\nInvestigators may have been in Lockbit's systems for an extended period, spying on the hackers. They haven't revealed what the crucial step was that allowed them to penetrate Lockbit's systems. One investigator involved even says that authorities only received confirmation that Lockbit's central servers had actually been identified on the «Action Day.»\n\nInvestigators succeeded in arresting three affiliates. In Ukraine, a father and his son were arrested, and in Poland, a 38-year-old man. Polish police released a video of the arrest, accompanied by dramatic music. The video shows police officers leading away a man in jeans and a blue jacket; his cell phones and laptop were sealed.\n\nFurthermore, the police have identified two Russian hackers and published their names: Ivan Kondratiev, known in the hacker scene under his pseudonyms Bassterlord and Fisheye, who has written two textbooks on ransomware attacks, and Artur Sungatov. Because Russia, unlike Ukraine and Poland, is not cooperating with Western investigators, these two hackers are still at large. However, they are wanted in the US and are on the sanctions list.\n\nPsychological warfare against unreachable criminals\n\nFollowing the police operation in February, it is initially difficult to assess the true extent of the authorities' investigative success. At that time, Lockbit had 190 affiliates, some of whom were likely behind multiple individuals. To the public, three arrests and three public identifications may seem like a small number.\n\nBut the police employ a strategy that dismantles the group's network: they use methods to psychologically unsettle the criminals.\n\nThis is evident in the arrest video from Poland: In one scene, stuffed animals and crayons appear, seemingly lying on the floor of the perpetrator's apartment. Such scenes are intended to deter other hackers. The message the investigators are sending to criminals is: Look, we've got him, and you're not safe anywhere, not even in your own homes.\n\nHello! We have your Bitcoins\n\nTo deter those criminals from Lockbit whom they cannot arrest or identify, the police create a script for the remainder of «Operation Cronos.» This is intended to undermine trust between the criminals and Lockbit's central organization.\n\nPerhaps the most effective tactic is personal contact. The police send affiliates private messages via the internal Lockbit system. Upon their first login after the police operation, the criminals receive a message stating that investigators now possess their usernames, the addresses of their crypto wallets, their IP addresses, and the transcripts of their chats with victims and with Lockbit support. From there, some affiliates likely reasoned, the path to public identification is short.\n\nFurther pinpricks followed: The day after the takeover of the leak site on the darknet, the police redirected visitors to the URL to another site. There, they published arrest warrants and announcements of sanctions against the hackers.\n\nFrom a psychological perspective, two things are interesting here: First, the investigators are adopting the branding and structure of the original Lockbit leak site for the new site: same colors, same font, and the Lockbit logo is still present in the upper left corner. However, unlike usual, the police site doesn't list the hacked companies as «victims,» ​​but rather the criminals themselves.\n\nSecondly, the police are refraining from communicating all the investigation results at once. According to a log from Analyst 1, the authorities are publishing arrest warrants and announcements of sanctions over a five-day period. Robert McArdle, the cybercrime expert at Trend Micro, says: «This strategy is clever because it intimidates the affiliates a little more each day.»\n\nJust before the police take their modified Lockbit leak site offline, they launch their final major attack – against the gang's leader. They publish a statement claiming to know the name behind LockbitSupp. Along with this, they release a cat meme, thus also employing the criminal's visual language. McArdle interprets this as follows: «The police have shown Lockbit affiliates that they actually have access to Lockbit's core infrastructure. How else would they know about LockbitSupp's love of cat memes?»\n\nDmitri Khoroshev strikes back\n\nBut Dmitri Khoroshev, one of the most successful cybercriminals of all time, launched a counterattack. Less than a week after the successful police operation, he launched a new Lockbit leak site on the dark web. It looked exactly like the old site, but listed fewer victims. However, the victim list included one prominent entry: the FBI.\n\nOf course, the FBI wasn't actually hacked. However, LockbitSupp uses the FBI entry to explain the takedown from his perspective: Among other things, he admits that the police gained access to his IT infrastructure «because of his personal negligence and irresponsibility.» He writes: «Because I've been swimming in money for five years, I got very lazy and continued cruising on my yacht with busty girls.» That's why he didn't install an update that would have been necessary to fend off the investigators.\n\nWhile Khoroshev admits his own mistakes, he immediately tries to regain the trust of his affiliates. He writes that the hack didn't just affect him; other hacker groups and forums had suffered the same fate, they just hadn't noticed. As a counterattack, Khoroshev threatens to attack American government agencies.\n\nIn the two weeks that followed, Khoroshev published several posts on his new leak site about companies that had allegedly been victims of new hacking attacks. For a moment, it looked to outsiders as if Lockbit was back. However, it soon became clear that most of the alleged attacks had taken place before the investigators took the site down, and Lockbit was simply publishing old data. In other cases, Khoroshev was bluffing—in reality, he hadn't even obtained their data.\n\nHis blatant lying had only one goal: Khorashev wanted to save his image. «He was putting on a brave face, hoping not to lose his business partners and his reputation as a high-flying criminal,» says McArdle. But the plan backfired. In the following months, the authorities gained increasingly deeper insights into the Lockbit network.\n\nThe finale: the unmasking of the Lockbit boss\n\nThe final step in the police operation takes place in early May. The authorities reactivate the original Lockbit leak site and publish an announcement that they will reveal the identity of LockbitSupp. «Coming soon,» on May 7, 2024.\n\nThis announcement, too, serves the purpose of unsettling criminals, Jon DiMaggio writes in a post. «LockbitSupp had mocked the FBI for years, claiming they were too stupid to catch him. It seems they were smarter than he thought.»\n\nOn May 7, 2024, the American government published an arrest warrant for Dmitri Khoroshev. It offered a reward of up to $10 million for information leading to his arrest.\n\nShortly thereafter, John DiMaggio of Analyst 1 published further information about Khoroshev. He was born in 1993 and lives in the Voronezh region of Russia, not far from the Ukrainian border. He also owns several businesses that appear legitimate at first glance, including a textile shop. DiMaggio also believes he has obtained the hacker's email addresses, phone numbers, and home address. He publishes this information as well.\n\nThis «dox,» as the publication of personal information is called, along with the other psychological components of «Operation Cronos,» is causing many affiliates to turn away from Lockbit. Their fear is too great that the police are still within the Lockbit network and will identify them as well.\n\nBecause one thing is clear: being publicly identified is unpleasant for Russian hackers. Khoroshev, aka LockbitSupp, Kondratiew, aka Bassterlord, and Sungatov won't be honeymooning in Paris or taking city breaks in Dubai. They'll never even see New York with their own eyes. They have to assume they'll be arrested immediately if they ever show up at a Western airport.\n\nWhile they can certainly lead a comfortable life on Russian territory, life in Russia is also better when one's neighbors are unaware of the criminal and damaging nature of one's source of income. Lockbit hackers, in particular, who are likely to possess substantial wealth, now have to worry about becoming victims of other crimes. For example, their children could be kidnapped. Furthermore, they must assume that Western intelligence agencies or other hackers are after them.\n\nThese publicly available identifications allow Western law enforcement to restrict the lives of Russian hackers, at least to some extent. This is despite Russia protecting its hackers by ignoring international requests for legal assistance.\n\nConclusion: Cybercrime can be combated\n\nToday, a year after the police raid, Lockbit is active again. But the large organization with dozens of affiliates no longer exists.\n\n«Lockbit is just a shadow of its former self,» says McArdle. «The group no longer has the power or dominance it once did.» An investigator involved in «Operation Cronos» is convinced that the gang will never regain its former strength.\n\nOperation Cronos demonstrates that law enforcement agencies can successfully combat cybercriminals. They dismantled the most notorious ransomware gang, thereby preventing numerous cyberattacks.\n\nInvestigators have likely succeeded in identifying several members of the group. While they have so far only been able to arrest a small portion of the criminals, the message is clear: anyone active in Lockbit must now expect arrest, at least if they travel to a Western country. Lockbit affiliates will no longer be able to travel to Italy, Thailand, or Turkey without fear. The myth of the untouchable Russian hacker has been shattered.\n\nBut «Operation Cronos» is also a message to politicians: If the police receive enough resources to combat cybercrime, they can be successful. This is not yet the case. Crimes on the internet are often prosecuted less vigorously than extortion or fraud. The Lockbit story shows that it could be worthwhile to change this.\n\n_Contributors: Simon Huwiler, Forrest Rogers_"
+}

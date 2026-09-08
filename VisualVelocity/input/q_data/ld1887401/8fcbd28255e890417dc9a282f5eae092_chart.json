@@ -1,0 +1,85 @@
+{
+  "_id": "8fcbd28255e890417dc9a282f5eae092",
+  "_rev": "3-98c6f8a5478fa19883ec681ef608cafc",
+  "data": [
+    [
+      "X.1",
+      "Nawrocki",
+      "Trzaskowski"
+    ],
+    [
+      "Men",
+      "55.5",
+      "44.5"
+    ],
+    [
+      "Women",
+      "47.2",
+      "52.8"
+    ]
+  ],
+  "tool": "chart",
+  "notes": "Source: Ipsos</br>For technical reasons, some elements of this graphic could not be translated. The number 55,5 should be read as 55.5, for example.",
+  "title": "Men voted overwhelmingly for Nawrocki, women for Trzaskowski",
+  "active": true,
+  "events": [],
+  "acronym": "eik.",
+  "options": {
+    "chartType": "Bar",
+    "barOptions": {
+      "isBarChart": true,
+      "forceBarsOnSmall": false
+    },
+    "annotations": {
+      "valuesOnBars": true
+    },
+    "arrowOptions": {
+      "colorScheme": 0,
+      "invertColorScheme": false
+    },
+    "largeNumbers": {
+      "divideBy": 0
+    },
+    "hideAxisLabel": true,
+    "dotplotOptions": {},
+    "areaChartOptions": {
+      "stackType": "zero",
+      "areaInterpolation": "linear"
+    },
+    "lineChartOptions": {
+      "yScaleType": "linear",
+      "isStockChart": false,
+      "reverseYScale": false,
+      "lineInterpolation": "linear"
+    },
+    "dateSeriesOptions": {
+      "labels": "many",
+      "interval": "auto",
+      "prognosisStart": null
+    },
+    "highlightDataRows": [],
+    "colorOverwritesRows": [],
+    "highlightDataSeries": [],
+    "colorOverwritesSeries": [
+      {
+        "color": "#df7c18",
+        "position": 2,
+        "colorLight": ""
+      },
+      {
+        "color": "#374e8e",
+        "position": 1,
+        "colorLight": ""
+      }
+    ]
+  },
+  "sources": [],
+  "subtitle": "Share of votes by gender, in %",
+  "createdBy": "gretchen.vogel@lieferanten.nzz.ch",
+  "updatedBy": "gretchen.vogel@lieferanten.nzz.ch",
+  "department": "Visuals",
+  "createdDate": "2025-06-03T13:38:44.063Z",
+  "publication": "nzz",
+  "updatedDate": "2025-06-03T13:44:27.696Z",
+  "allowDownloadData": false
+}

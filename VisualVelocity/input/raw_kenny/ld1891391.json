@@ -1,0 +1,927 @@
+{
+ "content": [
+  {
+   "identifier": "header",
+   "id": "doc-1iuua71840",
+   "content": {
+    "title": "Even with tariffs on hold, Trump continues to steer the US toward isolation",
+    "lead": "The suspension of the Trump administration's steep «reciprocal» tariffs is set to expire on July 8. Few expect them to take effect as planned. Behind the scenes, Trump has already reshaped America's global posture, steering the country further into economic isolation.",
+    "authorline": "Peter A. Fischer",
+    "author": "Peter A. Fischer"
+   },
+   "containers": {
+    "authors": []
+   },
+   "prevElement": "",
+   "nextElement": "image",
+   "firstContentElement": true
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1iuua71861",
+   "content": {
+    "image": {
+     "author": "Mark Schiefelbein / AP",
+     "caption": "A color-coded chart shocks the world: US President Donald Trump unveils his board of «reciprocal» tariff rates by country in the White House Rose Garden on April 2.",
+     "originalUrl": "/2025/06/28/65b88d4f-6bbe-4cd6-9f2d-2fa9819cc5d7.jpeg?width=1024",
+     "width": 4290,
+     "height": 2860,
+     "altText": "FILE - President Donald Trump speaks during an event to announce new tariffs in the Rose Garden at the White House, on April 2, 2025, in Washington. (AP Photo/Mark Schiefelbein, File) Japan South Korea Anniversary Explainer",
+     "origins": [
+      {
+       "name": "Hugo",
+       "identifier": "2171139889"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "caption": "A color-coded chart shocks the world: US President Donald Trump unveils his board of «reciprocal» tariff rates by country in the White House Rose Garden on April 2.",
+    "author": "Mark Schiefelbein / AP"
+   },
+   "prevElement": "header",
+   "nextElement": "free-html"
+  },
+  {
+   "identifier": "free-html",
+   "id": "doc-hLjajvx3gn",
+   "content": {
+    "html": "<div style=\"background: #EAECF5; font-family: Helvetica, sans-serif; font-size:14px; padding:20px;\">\n\n<p style=\"font-size:18px; font-weight:bold; margin-bottom:15px;\">\nSummary\n</p>\n\n<ul style=\"margin-left:-20px;\">\n\n<li style=\"margin-bottom:10px;\"> Donald Trump's trade policies have significantly raised average U.S. tariffs, even as the announced «reciprocal» tariffs remain suspended.</li>\n\n<li style=\"margin-bottom:10px;\">Protectionist measures by the U.S. have heavily impact countries like China, Canada, Mexico and the EU, creating uncertainty and economic consequences.\n</li>\n\n<li style=\"margin-bottom:0px;\">Despite international criticism and negotiations, the Trump administration continues to use tariffs as economic and negotiating leverage.\n</li>\n\n</ul>\n\n</div>"
+   },
+   "prevElement": "image",
+   "nextElement": "barrier"
+  },
+  {
+   "id": "doc-554afc89",
+   "identifier": "barrier",
+   "prevElement": "free-html",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iuua71862",
+   "content": {
+    "text": "In what is likely to become an iconic image, US President Donald Trump stood in the White House Rose Garden on April 2 holding a color-coded board outlining «reciprocal» tariff rates by country. It signaled a strong escalation: an additional 46% tariff on imports from friendly Vietnam, 31% on goods from Switzerland, and 20% on products from the European Union. These figures stood in sharp contrast to the United States' previously applied average effective tariff rate of just 2.1%."
+   },
+   "paidContent": true,
+   "prevElement": "barrier",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iuua71863",
+   "content": {
+    "text": "To date, the shock has yet to become more than a dramatic flare-up. After Trump's announcement, an across-the-board 10% tariff on most imports took effect on April 5, followed by the steep country-specific «reciprocal» tariffs on April 9. Markets and foreign governments reacted with alarm; bond yields surged. Within hours, the administration hit the pause button, suspending the new tariffs for 90 days."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iuua71864",
+   "content": {
+    "text": "To stave off their implementation, numerous affected countries – including Switzerland and the EU – have entered into negotiations with Washington. So far, only the United Kingdom has reached a (non-binding) agreement. US Treasury Secretary Scott Bessent said the deadline could be extended if no serious breakthrough is reached by July 9."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iuua71865",
+   "content": {
+    "text": "Is this all just a big show? At least many investors seem to think so. The prevailing mantra is «TACO» – short for «Trump always chickens out.» The president blusters, then backs down. The S&P 500 closed last week 8.8% higher than it stood on April 2, the day Trump first unveiled his tariff plan."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1ii6hi7690",
+   "content": {
+    "title": "The US market is already much more closed off.",
+    "id": "subtitle-the-u-s-market-is-already-much-more-closed-off"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iuua71866",
+   "content": {
+    "text": "In any case, Trump's strategy might just be to make enough noise and put on enough of a show to keep the public eye away from the real, fundamental shifts taking place behind the scenes."
+   },
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "q-embed"
+  },
+  {
+   "identifier": "q-embed",
+   "id": "doc-1iv0uhf610",
+   "content": {
+    "q-embed": {
+     "service": "q-tool",
+     "params": {
+      "id": "7597fc573c06cfa8c88627842fac9fc4",
+      "conf": {},
+      "toolConfig": {},
+      "toolRuntimeConfig": {
+       "size": {
+        "width": [
+         {
+          "value": 100,
+          "comparison": ">"
+         }
+        ]
+       },
+       "displayOptions": {
+        "hideTitle": false,
+        "hideSubtitle": false,
+        "hideFooter": false,
+        "hideAcronym": false,
+        "size": "basic"
+       },
+       "locale": "en_US"
+      },
+      "size": "content"
+     },
+     "resolvedValue": {}
+    },
+    "html": "      <div        class=\"q-chart-container\"        id=\"q_chart_7597fc573c06cfa8c88627842fac9fc4_q7b6015cc4dc04e0aad810daabb3126b6_container\"        data-q-item-id=\"7597fc573c06cfa8c88627842fac9fc4\"        data-q-request-id=\"8742d08c30ee9cdeac32ab4514e4ed3851ec875f\"      ></div>",
+    "stylesheets": [
+     {
+      "type": "remote",
+      "content": "https://service.sophie.nzz.ch/bundle/sophie-color%23master,sophie-font%23master,sophie-legend%23master[icon-label],sophie-q%23master,sophie-viz-color%23master[general].css"
+     },
+     {
+      "type": "inline",
+      "content": "  @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff) format(\"woff\");  }    @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff) format(\"woff\");    unicode-range: U+0020-00FF,U+2005,U+2082;  }      "
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/css-theme-layer/nzz-0.2.0.css"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/chart/q-chart-1.2.6.css"
+     }
+    ],
+    "scripts": [
+     {
+      "type": "inline",
+      "content": "function qTrackingBootstrap(t,e,n){if(window.digitalData&&window.digitalData.component&&window.digitalData.component.push){window.digitalData.component.push(t),window.digitalData.event&&window.digitalData.event.length||(window.digitalData.event=[]);var i=new Date,a=e;a.eventInfo.timeStamp=i.toISOString(),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\");var o=document.querySelectorAll(\"[data-q-request-id='\"+n+\"']\");[].forEach.call(o,function(t){t.addEventListener(\"q-tracking-event\",function(t){var e=new Date;(a=JSON.parse(JSON.stringify(a))).eventInfo.timeStamp=e.toISOString(),a.eventInfo=Object.assign(a.eventInfo,t.detail.eventInfo),a.category=Object.assign(a.category,t.detail.category),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\")},!1)})}};qTrackingBootstrap({\"componentInfo\":{\"componentName\":\"Q\",\"componentID\":\"7597fc573c06cfa8c88627842fac9fc4\"},\"category\":{\"componentType\":\"storytelling\",\"componentSubType1\":\"Q graphic\",\"componentSubType2\":\"chart\"}},{\"eventInfo\":{\"eventName\":\"Storytelling Interaction\",\"eventAction\":\"load\",\"type\":\"story\",\"componentName\":\"Q\",\"eventNonInteractive\":true,\"componentID\":\"7597fc573c06cfa8c88627842fac9fc4\"},\"category\":{\"primaryCategory\":\"storytelling\",\"subCategory1\":\"Q graphic\",\"subCategory2\":\"chart\"}},\"8742d08c30ee9cdeac32ab4514e4ed3851ec875f\")"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/chart/q-chart-1.2.6.js"
+     },
+     {
+      "type": "inline",
+      "content": "      (function () {        function initialize() {          const target = document.querySelector('#q_chart_7597fc573c06cfa8c88627842fac9fc4_q7b6015cc4dc04e0aad810daabb3126b6_container');          if (!target) return;          target.innerHTML = '';          const qdoc = {\"_id\":\"7597fc573c06cfa8c88627842fac9fc4\",\"allowDownloadData\":false,\"title\":\"The US is now more protectionist than China\",\"subtitle\":\"Average applied tariff rates on the rest of the world (%)\",\"publication\":\"nzz\",\"acronym\":\"pfi.\",\"data\":[[null,\"USA\",\"China\",\"Canada\"],[\"01.01.2025\",\"2.08%\",\"5.73%\",\"1.12%\"],[\"04.02.2025\",\"2.26%\",\"5.73%\",\"1.12%\"],[\"10.02.2025\",\"2.26%\",\"5.73%\",\"1.12%\"],[\"04.03.2025\",\"2.75%\",\"5.73%\",\"1.30%\"],[\"07.03.2025\",\"2.67%\",\"5.73%\",\"1.30%\"],[\"10.03.2025\",\"2.67%\",\"5.73%\",\"1.30%\"],[\"12.03.2025\",\"4.02%\",\"5.73%\",\"1.30%\"],[\"13.03.2025\",\"4.02%\",\"5.73%\",\"1.32%\"],[\"03.04.2025\",\"4.10%\",\"5.73%\",\"1.32%\"],[\"05.04.2025\",\"11.85%\",\"5.73%\",\"1.32%\"],[\"09.04.2025\",\"13.75%\",\"5.73%\",\"1.32%\"],[\"10.04.2025\",\"13.75%\",\"6.25%\",\"1.32%\"],[\"12.04.2025\",\"13.75%\",\"6.50%\",\"1.32%\"],[\"03.05.2025\",\"14.04%\",\"6.50%\",\"1.32%\"],[\"14.05.2025\",\"12.30%\",\"5.80%\",\"1.32%\"],[\"04.06.2025\",\"13.67%\",\"5.80%\",\"1.32%\"],[\"23.06.2025\",\"13.70%\",\"5.80%\",\"1.32%\"],[\"30.06.2025\",\"13.71%\",\"5.80%\",\"1.32%\"]],\"sources\":[],\"events\":[],\"options\":{\"annotations\":{},\"areaChartOptions\":{\"areaInterpolation\":\"linear\",\"stackType\":\"zero\"},\"arrowOptions\":{\"colorScheme\":0,\"invertColorScheme\":false},\"barOptions\":{\"isBarChart\":false,\"forceBarsOnSmall\":false},\"chartType\":\"Line\",\"colorOverwritesRows\":[],\"colorOverwritesSeries\":[],\"dateSeriesOptions\":{\"interval\":\"day\",\"labels\":\"many\",\"prognosisStart\":null},\"dotplotOptions\":{\"connectDots\":true},\"hideAxisLabel\":true,\"highlightDataRows\":[],\"highlightDataSeries\":[],\"lineChartOptions\":{\"yScaleType\":\"linear\",\"reverseYScale\":false,\"lineInterpolation\":\"step-after\",\"isStockChart\":false},\"largeNumbers\":{\"divideBy\":0}},\"updatedDate\":\"2025-06-30T16:15:29.794Z\",\"notes\":\"Source: <a href=\\\"https://ttd.wto.org/en/analysis/tariff-actions/chart?reporter=C156&partner[0]=C840&partner[1]=U918&partner[2]=C756&partner[3]=C484\\\">WTO Tariff & Trade Data</a>\"};          const toolRuntimeConfig = {\"displayOptions\":{\"hideTitle\":false,\"hideSubtitle\":false,\"hideFooter\":false,\"hideAcronym\":false,\"size\":\"basic\"},\"size\":{\"width\":[{\"value\":100,\"comparison\":\">\"}]},\"locale\":\"en-US\"};          const toolSettings = {\"qItemInstanceId\":\"q_chart_7597fc573c06cfa8c88627842fac9fc4_q7b6015cc4dc04e0aad810daabb3126b6\"};          let attempts = 0;          const maxAttempts = 100;          const checkAndInitialize = setInterval(() => {            if (window.qChart) {              clearInterval(checkAndInitialize);              new window.qChart({ target: target, props: {                qdoc: qdoc,                toolSettings: toolSettings,                toolRuntimeConfig: toolRuntimeConfig              } });            } else {              attempts++;              if (attempts >= maxAttempts) {                clearInterval(checkAndInitialize);                console.error('Failed to initialize qChart after 30 seconds');              }            }          }, 300);        }        if (document.body.classList.contains('pagedone')) {          initialize();        } else {          window.addEventListener('pagedone', initialize);        }      })();    "
+     }
+    ]
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iuua71870",
+   "content": {
+    "text": "The World Trade Organization (WTO), together with the International Monetary Fund (IMF), recently launched a <a target=\"_blank\" href=\"https://ttd.wto.org/en/analysis/tariff-actions/\">new portal</a> that tracks actual tariff rates applied to all categories of goods. WTO experts continuously update the data – and the results clearly speak volumes."
+   },
+   "paidContent": true,
+   "prevElement": "q-embed",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iuua71871",
+   "content": {
+    "text": "While the Trump administration has suspended its «reciprocal» tariffs, it has gradually imposed a raft of additional duties. As a result, the average US tariff on imports from the rest of the world has jumped from 2.1% at the start of Trump's second term to 13.7% today. By now, 81.4% of all imported goods and 100% of tariff categories are affected."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iuua71872",
+   "content": {
+    "text": "The shift has turned the US into a protectionist power – more so, on average, than China. That's largely due to three layers of measures: first, punitive tariffs on Chinese goods, which were rolled out in phases and riddled with exceptions;  second, a general 10% tariff on most imports; and, third, gradual increases on tariffs for cars, car parts, steel and aluminum. The latest round now even targets goods that merely contain traces of steel or aluminum. For businesses and their logistics providers, figuring out which tariffs apply to any given export to the US has become increasingly complex and unpredictable."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "q-embed"
+  },
+  {
+   "identifier": "q-embed",
+   "id": "doc-1iv0ul2210",
+   "content": {
+    "q-embed": {
+     "service": "q-tool",
+     "params": {
+      "id": "6d4c90af52f402ffb7ca3835cabd4e01",
+      "conf": {},
+      "toolConfig": {},
+      "toolRuntimeConfig": {
+       "size": {
+        "width": [
+         {
+          "value": 100,
+          "comparison": ">"
+         }
+        ]
+       },
+       "displayOptions": {
+        "hideTitle": false,
+        "hideSubtitle": false,
+        "hideFooter": false,
+        "hideAcronym": false,
+        "size": "basic"
+       },
+       "locale": "en_US"
+      },
+      "size": "content"
+     },
+     "resolvedValue": {}
+    },
+    "html": "      <div        class=\"q-chart-container\"        id=\"q_chart_6d4c90af52f402ffb7ca3835cabd4e01_qdb166250d02f4f7a8a7b11b2454bcbe1_container\"        data-q-item-id=\"6d4c90af52f402ffb7ca3835cabd4e01\"        data-q-request-id=\"f9fe1222a5006e9f0f05bbb5079f65816c229802\"      ></div>",
+    "stylesheets": [
+     {
+      "type": "remote",
+      "content": "https://service.sophie.nzz.ch/bundle/sophie-color%23master,sophie-font%23master,sophie-legend%23master[icon-label],sophie-q%23master,sophie-viz-color%23master[general].css"
+     },
+     {
+      "type": "inline",
+      "content": "  @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff) format(\"woff\");  }    @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff) format(\"woff\");    unicode-range: U+0020-00FF,U+2005,U+2082;  }      "
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/css-theme-layer/nzz-0.2.0.css"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/chart/q-chart-1.2.6.css"
+     }
+    ],
+    "scripts": [
+     {
+      "type": "inline",
+      "content": "function qTrackingBootstrap(t,e,n){if(window.digitalData&&window.digitalData.component&&window.digitalData.component.push){window.digitalData.component.push(t),window.digitalData.event&&window.digitalData.event.length||(window.digitalData.event=[]);var i=new Date,a=e;a.eventInfo.timeStamp=i.toISOString(),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\");var o=document.querySelectorAll(\"[data-q-request-id='\"+n+\"']\");[].forEach.call(o,function(t){t.addEventListener(\"q-tracking-event\",function(t){var e=new Date;(a=JSON.parse(JSON.stringify(a))).eventInfo.timeStamp=e.toISOString(),a.eventInfo=Object.assign(a.eventInfo,t.detail.eventInfo),a.category=Object.assign(a.category,t.detail.category),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\")},!1)})}};qTrackingBootstrap({\"componentInfo\":{\"componentName\":\"Q\",\"componentID\":\"6d4c90af52f402ffb7ca3835cabd4e01\"},\"category\":{\"componentType\":\"storytelling\",\"componentSubType1\":\"Q graphic\",\"componentSubType2\":\"chart\"}},{\"eventInfo\":{\"eventName\":\"Storytelling Interaction\",\"eventAction\":\"load\",\"type\":\"story\",\"componentName\":\"Q\",\"eventNonInteractive\":true,\"componentID\":\"6d4c90af52f402ffb7ca3835cabd4e01\"},\"category\":{\"primaryCategory\":\"storytelling\",\"subCategory1\":\"Q graphic\",\"subCategory2\":\"chart\"}},\"f9fe1222a5006e9f0f05bbb5079f65816c229802\")"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/chart/q-chart-1.2.6.js"
+     },
+     {
+      "type": "inline",
+      "content": "      (function () {        function initialize() {          const target = document.querySelector('#q_chart_6d4c90af52f402ffb7ca3835cabd4e01_qdb166250d02f4f7a8a7b11b2454bcbe1_container');          if (!target) return;          target.innerHTML = '';          const qdoc = {\"_id\":\"6d4c90af52f402ffb7ca3835cabd4e01\",\"allowDownloadData\":false,\"title\":\"China, Canada and Mexico – America's top trading partners – face the toughest penalties\",\"subtitle\":\"Average applied tariff rates (%)\",\"publication\":\"nzz\",\"acronym\":\"pfi.\",\"data\":[[null,\"China\",\"Mexico\",\"Canada\",\"EU\",\"Switzerland\"],[\"01.01.2025\",\"18.41%\",null,\"0.25%\",\"3.47%\",\"3.47%\"],[\"04.02.2025\",\"28.41%\",null,\"0.25%\",\"3.47%\",\"3.47%\"],[\"04.03.2025\",\"38.41%\",\"25.00%\",\"25.13%\",\"3.47%\",\"3.47%\"],[\"07.03.2025\",\"38.41%\",\"18.36%\",\"17.73%\",\"3.47%\",\"3.47%\"],[\"12.03.2025\",\"39.81%\",\"18.36%\",\"17.73%\",\"4.87%\",\"4.87%\"],[\"03.04.2025\",\"39.88%\",\"18.36%\",\"17.73%\",\"4.95%\",\"4.95%\"],[\"05.04.2025\",\"39.88%\",\"18.36%\",\"17.73%\",\"13.21%\",\"13.21%\"],[\"09.04.2025\",\"143.15%\",\"18.36%\",\"17.73%\",\"13.21%\",\"13.21%\"],[\"03.05.2025\",\"143.45%\",\"18.36%\",\"17.73%\",\"13.51%\",\"13.51%\"],[\"14.05.2025\",\"48.44%\",\"18.36%\",\"17.73%\",\"13.51%\",\"13.51%\"],[\"04.06.2025\",\"49.84%\",\"20.00%\",\"19.40%\",\"14.91%\",\"14.91%\"],[\"23.06.2025\",\"49.88%\",\"20.04%\",\"19.44%\",\"14.95%\",\"14.95%\"],[\"30.06.2025\",\"49.88%\",\"20.04%\",\"19.44%\",\"14.95%\",\"14.95%\"]],\"sources\":[],\"events\":[],\"options\":{\"annotations\":{},\"areaChartOptions\":{\"areaInterpolation\":\"linear\",\"stackType\":\"zero\"},\"arrowOptions\":{\"colorScheme\":0,\"invertColorScheme\":false},\"barOptions\":{\"isBarChart\":false,\"forceBarsOnSmall\":false},\"chartType\":\"Line\",\"colorOverwritesRows\":[],\"colorOverwritesSeries\":[],\"dateSeriesOptions\":{\"interval\":\"day\",\"labels\":\"many\",\"prognosisStart\":null},\"dotplotOptions\":{\"connectDots\":true},\"hideAxisLabel\":true,\"highlightDataRows\":[],\"highlightDataSeries\":[],\"lineChartOptions\":{\"yScaleType\":\"linear\",\"reverseYScale\":false,\"lineInterpolation\":\"step-after\",\"isStockChart\":false},\"largeNumbers\":{\"divideBy\":0}},\"updatedDate\":\"2025-06-30T16:19:06.028Z\",\"notes\":\"Source: <a href=\\\"https://data.worldbank.org/indicator/BX.KLT.DINV.CD.WD?locations=CN\\\">WTO Tariff & Trade Data</a>\"};          const toolRuntimeConfig = {\"displayOptions\":{\"hideTitle\":false,\"hideSubtitle\":false,\"hideFooter\":false,\"hideAcronym\":false,\"size\":\"basic\"},\"size\":{\"width\":[{\"value\":100,\"comparison\":\">\"}]},\"locale\":\"en-US\"};          const toolSettings = {\"qItemInstanceId\":\"q_chart_6d4c90af52f402ffb7ca3835cabd4e01_qdb166250d02f4f7a8a7b11b2454bcbe1\"};          let attempts = 0;          const maxAttempts = 100;          const checkAndInitialize = setInterval(() => {            if (window.qChart) {              clearInterval(checkAndInitialize);              new window.qChart({ target: target, props: {                qdoc: qdoc,                toolSettings: toolSettings,                toolRuntimeConfig: toolRuntimeConfig              } });            } else {              attempts++;              if (attempts >= maxAttempts) {                clearInterval(checkAndInitialize);                console.error('Failed to initialize qChart after 30 seconds');              }            }          }, 300);        }        if (document.body.classList.contains('pagedone')) {          initialize();        } else {          window.addEventListener('pagedone', initialize);        }      })();    "
+     }
+    ]
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iuua71874",
+   "content": {
+    "text": "American protectionism is hitting its largest trading partners hardest. China has been the only country to respond immediately with forceful countermeasures, earning a 90-day «truce» from Washington on May 14. Still, according to WTO calculations based on six-digit tariff codes, Chinese goods entering the US face an average import duty of a staggering 49.9%."
+   },
+   "paidContent": true,
+   "prevElement": "q-embed",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iuua71875",
+   "content": {
+    "text": "Ironically, countries with which America has free trade agreements have also been targeted. Imports from Canada now face average tariffs of 19.44%, and those from Mexico 20.04% – up dramatically from just 0.25% at the start of the year. For Canadian firms that compete directly with American companies under what used to be free trade conditions, the impact could be severe: diminished competitiveness in the US market or extreme margin reductions. The upshot is likely a decline in market competition and innovation within the US itself."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iuua71876",
+   "content": {
+    "text": "Goods from the EU and Switzerland haven't been spared, either. WTO data show the average tariff on those imports has risen substantially, from 3.47% to 14.95%."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iuua71877",
+   "content": {
+    "text": "What's striking, though, is how little tariffs have risen on average in the affected countries themselves – China, Canada and Mexico – when applied to the rest of the world. Their retaliation has so far remained narrowly focused on US goods, and many of their broader threats have yet to materialize."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1iurfldqf0",
+   "content": {
+    "title": "From WTO guardian to hacker",
+    "id": "subtitle-from-wto-guardian-to-hacker"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iuua71878",
+   "content": {
+    "text": "For now, there is at least a chance that the multilateral trading system will remain largely intact – mainly because most of the world continues, more or less, to abide by its rules. The Trump administration, however, is redrawing the global economic map by breaking away from the existing international trade order and its core principles."
+   },
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iuua71879",
+   "content": {
+    "text": "America's departure marks a fundamental shift. The US was once a leading force behind the WTO's foundational tenets of nondiscrimination and most-favored-nation treatment. That position stemmed in part from hard-learned lessons from the Great Depression, when punitive tariffs on targeted countries sparked retaliation and trade wars. In 1941, President Franklin D. Roosevelt and British Prime Minister Winston Churchill laid the groundwork for a postwar global order that included a multilateral trade system, as economic historian Kevin O'Rourke <a target=\"_blank\" href=\"https://cepr.org/publications/books-and-reports/economic-consequences-second-trump-administration-preliminary\">recounts</a> in a paper for the Center for Economic Policy Research (CEPR). Under this system, countries were not allowed to play others off one another. Tariff reductions granted to one country were to be extended to all, unless made under comprehensive free trade agreements. This principle gave rise to the General Agreement on Tariffs and Trade (GATT), the predecessor of today's WTO, in the aftermath of the war."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iuua718710",
+   "content": {
+    "text": "Trump's country-specific «reciprocal» tariffs – enacted under emergency powers and then partially suspended – clearly violate that most-favored-nation principle, dragging the US back toward a mercantilist-style marketplace. Whether these measures will survive constitutional scrutiny remains unclear. A trade court in New York initially rejected a challenge to the tariffs, but an appeals court has stayed their enforcement pending further review."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iuua718711",
+   "content": {
+    "text": "Perhaps anticipating legal setbacks, the Trump administration appears to be shifting course. Rather than singling out countries, it is now introducing broader tariffs on specific goods, citing national security concerns. These measures require more detailed justification and take longer to implement. But in sectors critical to countries like Switzerland, such as pharmaceuticals, these kinds of tariffs have already been threatened."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1iurhj71m0",
+   "content": {
+    "title": "Negotiating away the uncertainty",
+    "id": "subtitle-negotiating-away-the-uncertainty"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iuua718712",
+   "content": {
+    "text": "The sharply higher tariffs on imports into the US are expected to drive up prices – mainly for US consumers. So far, the impact has been muted. Many importers managed to stock up before the new tariffs kicked in, and numerous key goods were exempted. Nor have there been major diversionary effects, such as a surge of Chinese goods rerouted to European markets – or at least not yet, as trade economist Simon Evenett recently <a target=\"_blank\" href=\"https://ricardo-dashboard.s3.eu-west-1.amazonaws.com/reports/1749195206477_TL66%20EC%20Trade%20Diversion%20Monitoring%20Report.pdf\">demonstrated</a> in a data analysis."
+   },
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iuua718713",
+   "content": {
+    "text": "What has increased markedly, however, is economic and geopolitical uncertainty. That uncertainty is already prompting companies to delay investment decisions, which has knock-on effects on growth."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "q-embed"
+  },
+  {
+   "identifier": "q-embed",
+   "id": "doc-1iv0unr4f0",
+   "content": {
+    "q-embed": {
+     "service": "q-tool",
+     "params": {
+      "id": "1e3de0053155572a5cd591ccecc84d7b",
+      "conf": {},
+      "toolConfig": {},
+      "toolRuntimeConfig": {
+       "size": {
+        "width": [
+         {
+          "value": 100,
+          "comparison": ">"
+         }
+        ]
+       },
+       "displayOptions": {
+        "hideTitle": false,
+        "hideSubtitle": false,
+        "hideFooter": false,
+        "hideAcronym": false,
+        "size": "basic"
+       },
+       "locale": "en_US"
+      },
+      "size": "content"
+     },
+     "resolvedValue": {}
+    },
+    "html": "      <div        class=\"q-chart-container\"        id=\"q_chart_1e3de0053155572a5cd591ccecc84d7b_qf370eb352a4d4a4a9c687e2b1668e9f4_container\"        data-q-item-id=\"1e3de0053155572a5cd591ccecc84d7b\"        data-q-request-id=\"913b53dacea82e27182f16a9af418042a29be016\"      ></div>",
+    "stylesheets": [
+     {
+      "type": "remote",
+      "content": "https://service.sophie.nzz.ch/bundle/sophie-color%23master,sophie-font%23master,sophie-legend%23master[icon-label],sophie-q%23master,sophie-viz-color%23master[general].css"
+     },
+     {
+      "type": "inline",
+      "content": "  @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff) format(\"woff\");  }    @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff) format(\"woff\");    unicode-range: U+0020-00FF,U+2005,U+2082;  }      "
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/css-theme-layer/nzz-0.2.0.css"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/chart/q-chart-1.2.6.css"
+     }
+    ],
+    "scripts": [
+     {
+      "type": "inline",
+      "content": "function qTrackingBootstrap(t,e,n){if(window.digitalData&&window.digitalData.component&&window.digitalData.component.push){window.digitalData.component.push(t),window.digitalData.event&&window.digitalData.event.length||(window.digitalData.event=[]);var i=new Date,a=e;a.eventInfo.timeStamp=i.toISOString(),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\");var o=document.querySelectorAll(\"[data-q-request-id='\"+n+\"']\");[].forEach.call(o,function(t){t.addEventListener(\"q-tracking-event\",function(t){var e=new Date;(a=JSON.parse(JSON.stringify(a))).eventInfo.timeStamp=e.toISOString(),a.eventInfo=Object.assign(a.eventInfo,t.detail.eventInfo),a.category=Object.assign(a.category,t.detail.category),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\")},!1)})}};qTrackingBootstrap({\"componentInfo\":{\"componentName\":\"Q\",\"componentID\":\"1e3de0053155572a5cd591ccecc84d7b\"},\"category\":{\"componentType\":\"storytelling\",\"componentSubType1\":\"Q graphic\",\"componentSubType2\":\"chart\"}},{\"eventInfo\":{\"eventName\":\"Storytelling Interaction\",\"eventAction\":\"load\",\"type\":\"story\",\"componentName\":\"Q\",\"eventNonInteractive\":true,\"componentID\":\"1e3de0053155572a5cd591ccecc84d7b\"},\"category\":{\"primaryCategory\":\"storytelling\",\"subCategory1\":\"Q graphic\",\"subCategory2\":\"chart\"}},\"913b53dacea82e27182f16a9af418042a29be016\")"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/chart/q-chart-1.2.6.js"
+     },
+     {
+      "type": "inline",
+      "content": "      (function () {        function initialize() {          const target = document.querySelector('#q_chart_1e3de0053155572a5cd591ccecc84d7b_qf370eb352a4d4a4a9c687e2b1668e9f4_container');          if (!target) return;          target.innerHTML = '';          const qdoc = {\"_id\":\"1e3de0053155572a5cd591ccecc84d7b\",\"allowDownloadData\":false,\"title\":\"Sharp rise in economic policy uncertainty\",\"subtitle\":\"Economic Policy Uncertainty Index for the US, daily, not seasonally adjusted\",\"publication\":\"nzz\",\"acronym\":\"pfi.\",\"data\":[[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"01.01.2022\",\"169.59\"],[\"02.01.2022\",\"157.01\"],[\"03.01.2022\",\"146.60\"],[\"04.01.2022\",\"192.08\"],[\"05.01.2022\",\"111.08\"],[\"06.01.2022\",\"235.10\"],[\"07.01.2022\",\"57.41\"],[\"08.01.2022\",\"139.45\"],[\"09.01.2022\",\"115.26\"],[\"10.01.2022\",\"120.25\"],[\"11.01.2022\",\"77.55\"],[\"12.01.2022\",\"91.97\"],[\"13.01.2022\",\"57.28\"],[\"14.01.2022\",\"73.63\"],[\"15.01.2022\",\"169.90\"],[\"16.01.2022\",\"507.73\"],[\"17.01.2022\",\"174.94\"],[\"18.01.2022\",\"77.00\"],[\"19.01.2022\",\"71.25\"],[\"20.01.2022\",\"72.93\"],[\"21.01.2022\",\"126.04\"],[\"22.01.2022\",\"52.51\"],[\"23.01.2022\",\"122.72\"],[\"24.01.2022\",\"273.48\"],[\"25.01.2022\",\"190.88\"],[\"26.01.2022\",\"146.78\"],[\"27.01.2022\",\"164.89\"],[\"28.01.2022\",\"129.34\"],[\"29.01.2022\",\"126.32\"],[\"30.01.2022\",\"179.99\"],[\"31.01.2022\",\"184.81\"],[\"01.02.2022\",\"143.53\"],[\"02.02.2022\",\"101.01\"],[\"03.02.2022\",\"93.56\"],[\"04.02.2022\",\"171.57\"],[\"05.02.2022\",\"111.26\"],[\"06.02.2022\",\"121.68\"],[\"07.02.2022\",\"97.27\"],[\"08.02.2022\",\"115.82\"],[\"09.02.2022\",\"83.48\"],[\"10.02.2022\",\"84.38\"],[\"11.02.2022\",\"67.68\"],[\"12.02.2022\",\"85.27\"],[\"13.02.2022\",\"155.44\"],[\"14.02.2022\",\"201.81\"],[\"15.02.2022\",\"109.46\"],[\"16.02.2022\",\"73.91\"],[\"17.02.2022\",\"107.10\"],[\"18.02.2022\",\"180.25\"],[\"19.02.2022\",\"139.80\"],[\"20.02.2022\",\"133.87\"],[\"21.02.2022\",\"114.20\"],[\"22.02.2022\",\"180.27\"],[\"23.02.2022\",\"89.64\"],[\"24.02.2022\",\"156.68\"],[\"25.02.2022\",\"161.59\"],[\"26.02.2022\",\"175.73\"],[\"27.02.2022\",\"160.39\"],[\"28.02.2022\",\"167.06\"],[\"01.03.2022\",\"188.05\"],[\"02.03.2022\",\"134.88\"],[\"03.03.2022\",\"204.82\"],[\"04.03.2022\",\"219.09\"],[\"05.03.2022\",\"212.98\"],[\"06.03.2022\",\"142.22\"],[\"07.03.2022\",\"164.70\"],[\"08.03.2022\",\"165.06\"],[\"09.03.2022\",\"142.59\"],[\"10.03.2022\",\"150.53\"],[\"11.03.2022\",\"232.96\"],[\"12.03.2022\",\"174.06\"],[\"13.03.2022\",\"352.88\"],[\"14.03.2022\",\"222.54\"],[\"15.03.2022\",\"154.33\"],[\"16.03.2022\",\"216.66\"],[\"17.03.2022\",\"137.82\"],[\"18.03.2022\",\"171.27\"],[\"19.03.2022\",\"100.89\"],[\"20.03.2022\",\"161.71\"],[\"21.03.2022\",\"239.83\"],[\"22.03.2022\",\"137.53\"],[\"23.03.2022\",\"116.56\"],[\"24.03.2022\",\"128.23\"],[\"25.03.2022\",\"209.01\"],[\"26.03.2022\",\"204.08\"],[\"27.03.2022\",\"396.70\"],[\"28.03.2022\",\"322.10\"],[\"29.03.2022\",\"193.93\"],[\"30.03.2022\",\"105.19\"],[\"31.03.2022\",\"81.85\"],[\"01.04.2022\",\"114.29\"],[\"02.04.2022\",\"160.34\"],[\"03.04.2022\",\"65.82\"],[\"04.04.2022\",\"115.67\"],[\"05.04.2022\",\"126.89\"],[\"06.04.2022\",\"168.21\"],[\"07.04.2022\",\"171.04\"],[\"08.04.2022\",\"124.74\"],[\"09.04.2022\",\"92.39\"],[\"10.04.2022\",\"324.04\"],[\"11.04.2022\",\"241.25\"],[\"12.04.2022\",\"103.12\"],[\"13.04.2022\",\"90.43\"],[\"14.04.2022\",\"142.29\"],[\"15.04.2022\",\"98.36\"],[\"16.04.2022\",\"85.21\"],[\"17.04.2022\",\"105.38\"],[\"18.04.2022\",\"93.03\"],[\"19.04.2022\",\"276.08\"],[\"20.04.2022\",\"95.07\"],[\"21.04.2022\",\"89.05\"],[\"22.04.2022\",\"148.56\"],[\"23.04.2022\",\"112.10\"],[\"24.04.2022\",\"131.87\"],[\"25.04.2022\",\"126.90\"],[\"26.04.2022\",\"130.06\"],[\"27.04.2022\",\"69.39\"],[\"28.04.2022\",\"80.21\"],[\"29.04.2022\",\"126.12\"],[\"30.04.2022\",\"281.50\"],[\"01.05.2022\",\"150.39\"],[\"02.05.2022\",\"99.33\"],[\"03.05.2022\",\"103.64\"],[\"04.05.2022\",\"123.78\"],[\"05.05.2022\",\"87.92\"],[\"06.05.2022\",\"212.50\"],[\"07.05.2022\",\"108.42\"],[\"08.05.2022\",\"307.96\"],[\"09.05.2022\",\"97.81\"],[\"10.05.2022\",\"135.75\"],[\"11.05.2022\",\"102.02\"],[\"12.05.2022\",\"144.73\"],[\"13.05.2022\",\"140.00\"],[\"14.05.2022\",\"130.88\"],[\"15.05.2022\",\"184.23\"],[\"16.05.2022\",\"124.37\"],[\"17.05.2022\",\"101.23\"],[\"18.05.2022\",\"97.83\"],[\"19.05.2022\",\"157.59\"],[\"20.05.2022\",\"185.12\"],[\"21.05.2022\",\"157.27\"],[\"22.05.2022\",\"247.40\"],[\"23.05.2022\",\"135.77\"],[\"24.05.2022\",\"135.79\"],[\"25.05.2022\",\"100.89\"],[\"26.05.2022\",\"132.56\"],[\"27.05.2022\",\"145.02\"],[\"28.05.2022\",\"61.72\"],[\"29.05.2022\",\"79.32\"],[\"30.05.2022\",\"82.99\"],[\"31.05.2022\",\"72.90\"],[\"01.06.2022\",\"161.66\"],[\"02.06.2022\",\"144.13\"],[\"03.06.2022\",\"163.85\"],[\"04.06.2022\",\"88.70\"],[\"05.06.2022\",\"139.95\"],[\"06.06.2022\",\"127.27\"],[\"07.06.2022\",\"167.65\"],[\"08.06.2022\",\"110.13\"],[\"09.06.2022\",\"112.11\"],[\"10.06.2022\",\"93.65\"],[\"11.06.2022\",\"80.16\"],[\"12.06.2022\",\"124.32\"],[\"13.06.2022\",\"95.37\"],[\"14.06.2022\",\"120.62\"],[\"15.06.2022\",\"140.82\"],[\"16.06.2022\",\"189.54\"],[\"17.06.2022\",\"108.29\"],[\"18.06.2022\",\"143.96\"],[\"19.06.2022\",\"184.49\"],[\"20.06.2022\",\"165.42\"],[\"21.06.2022\",\"140.11\"],[\"22.06.2022\",\"96.97\"],[\"23.06.2022\",\"96.96\"],[\"24.06.2022\",\"111.86\"],[\"25.06.2022\",\"91.56\"],[\"26.06.2022\",\"239.87\"],[\"27.06.2022\",\"140.94\"],[\"28.06.2022\",\"129.96\"],[\"29.06.2022\",\"135.33\"],[\"30.06.2022\",\"158.37\"],[\"01.07.2022\",\"177.73\"],[\"02.07.2022\",\"130.95\"],[\"03.07.2022\",\"135.95\"],[\"04.07.2022\",\"309.83\"],[\"05.07.2022\",\"116.59\"],[\"06.07.2022\",\"91.52\"],[\"07.07.2022\",\"93.67\"],[\"08.07.2022\",\"104.33\"],[\"09.07.2022\",\"104.17\"],[\"10.07.2022\",\"210.30\"],[\"11.07.2022\",\"200.30\"],[\"12.07.2022\",\"126.67\"],[\"13.07.2022\",\"52.82\"],[\"14.07.2022\",\"203.03\"],[\"15.07.2022\",\"210.77\"],[\"16.07.2022\",\"214.90\"],[\"17.07.2022\",\"195.72\"],[\"18.07.2022\",\"182.94\"],[\"19.07.2022\",\"177.18\"],[\"20.07.2022\",\"113.33\"],[\"21.07.2022\",\"132.76\"],[\"22.07.2022\",\"138.82\"],[\"23.07.2022\",\"100.99\"],[\"24.07.2022\",\"209.57\"],[\"25.07.2022\",\"120.62\"],[\"26.07.2022\",\"94.68\"],[\"27.07.2022\",\"181.99\"],[\"28.07.2022\",\"111.00\"],[\"29.07.2022\",\"130.23\"],[\"30.07.2022\",\"61.72\"],[\"31.07.2022\",\"118.84\"],[\"01.08.2022\",\"141.32\"],[\"02.08.2022\",\"96.66\"],[\"03.08.2022\",\"115.69\"],[\"04.08.2022\",\"78.43\"],[\"05.08.2022\",\"107.43\"],[\"06.08.2022\",\"265.44\"],[\"07.08.2022\",\"187.10\"],[\"08.08.2022\",\"227.88\"],[\"09.08.2022\",\"189.05\"],[\"10.08.2022\",\"84.30\"],[\"11.08.2022\",\"99.36\"],[\"12.08.2022\",\"48.55\"],[\"13.08.2022\",\"112.14\"],[\"14.08.2022\",\"95.08\"],[\"15.08.2022\",\"145.63\"],[\"16.08.2022\",\"103.94\"],[\"17.08.2022\",\"75.77\"],[\"18.08.2022\",\"92.67\"],[\"19.08.2022\",\"98.49\"],[\"20.08.2022\",\"49.35\"],[\"21.08.2022\",\"149.65\"],[\"22.08.2022\",\"169.02\"],[\"23.08.2022\",\"93.31\"],[\"24.08.2022\",\"137.29\"],[\"25.08.2022\",\"66.37\"],[\"26.08.2022\",\"121.88\"],[\"27.08.2022\",\"96.29\"],[\"28.08.2022\",\"138.76\"],[\"29.08.2022\",\"97.52\"],[\"30.08.2022\",\"83.23\"],[\"31.08.2022\",\"126.46\"],[\"01.09.2022\",\"75.93\"],[\"02.09.2022\",\"65.23\"],[\"03.09.2022\",\"65.72\"],[\"04.09.2022\",\"95.37\"],[\"05.09.2022\",\"158.69\"],[\"06.09.2022\",\"91.55\"],[\"07.09.2022\",\"87.66\"],[\"08.09.2022\",\"47.62\"],[\"09.09.2022\",\"66.03\"],[\"10.09.2022\",\"64.78\"],[\"11.09.2022\",\"141.95\"],[\"12.09.2022\",\"162.37\"],[\"13.09.2022\",\"95.35\"],[\"14.09.2022\",\"116.73\"],[\"15.09.2022\",\"118.58\"],[\"16.09.2022\",\"123.30\"],[\"17.09.2022\",\"125.98\"],[\"18.09.2022\",\"131.17\"],[\"19.09.2022\",\"65.09\"],[\"20.09.2022\",\"78.61\"],[\"21.09.2022\",\"70.88\"],[\"22.09.2022\",\"139.20\"],[\"23.09.2022\",\"133.87\"],[\"24.09.2022\",\"114.37\"],[\"25.09.2022\",\"127.96\"],[\"26.09.2022\",\"85.96\"],[\"27.09.2022\",\"194.98\"],[\"28.09.2022\",\"155.79\"],[\"29.09.2022\",\"93.12\"],[\"30.09.2022\",\"192.84\"],[\"01.10.2022\",\"101.92\"],[\"02.10.2022\",\"296.28\"],[\"03.10.2022\",\"146.03\"],[\"04.10.2022\",\"148.79\"],[\"05.10.2022\",\"153.24\"],[\"06.10.2022\",\"168.97\"],[\"07.10.2022\",\"139.82\"],[\"08.10.2022\",\"100.81\"],[\"09.10.2022\",\"128.12\"],[\"10.10.2022\",\"181.40\"],[\"11.10.2022\",\"155.85\"],[\"12.10.2022\",\"186.85\"],[\"13.10.2022\",\"169.02\"],[\"14.10.2022\",\"180.93\"],[\"15.10.2022\",\"120.40\"],[\"16.10.2022\",\"208.79\"],[\"17.10.2022\",\"129.16\"],[\"18.10.2022\",\"73.35\"],[\"19.10.2022\",\"70.66\"],[\"20.10.2022\",\"78.35\"],[\"21.10.2022\",\"107.34\"],[\"22.10.2022\",\"72.32\"],[\"23.10.2022\",\"140.06\"],[\"24.10.2022\",\"168.29\"],[\"25.10.2022\",\"104.95\"],[\"26.10.2022\",\"84.81\"],[\"27.10.2022\",\"150.79\"],[\"28.10.2022\",\"204.29\"],[\"29.10.2022\",\"87.03\"],[\"30.10.2022\",\"114.98\"],[\"31.10.2022\",\"161.13\"],[\"01.11.2022\",\"127.48\"],[\"02.11.2022\",\"98.20\"],[\"03.11.2022\",\"140.73\"],[\"04.11.2022\",\"122.07\"],[\"05.11.2022\",\"66.38\"],[\"06.11.2022\",\"116.64\"],[\"07.11.2022\",\"245.52\"],[\"08.11.2022\",\"123.60\"],[\"09.11.2022\",\"146.60\"],[\"10.11.2022\",\"119.57\"],[\"11.11.2022\",\"183.98\"],[\"12.11.2022\",\"198.23\"],[\"13.11.2022\",\"228.73\"],[\"14.11.2022\",\"215.52\"],[\"15.11.2022\",\"95.09\"],[\"16.11.2022\",\"107.83\"],[\"17.11.2022\",\"91.22\"],[\"18.11.2022\",\"133.39\"],[\"19.11.2022\",\"110.60\"],[\"20.11.2022\",\"255.53\"],[\"21.11.2022\",\"122.23\"],[\"22.11.2022\",\"125.51\"],[\"23.11.2022\",\"183.38\"],[\"24.11.2022\",\"226.25\"],[\"25.11.2022\",\"189.26\"],[\"26.11.2022\",\"119.31\"],[\"27.11.2022\",\"173.32\"],[\"28.11.2022\",\"183.05\"],[\"29.11.2022\",\"90.52\"],[\"30.11.2022\",\"89.90\"],[\"01.12.2022\",\"177.11\"],[\"02.12.2022\",\"48.03\"],[\"03.12.2022\",\"83.30\"],[\"04.12.2022\",\"339.06\"],[\"05.12.2022\",\"187.14\"],[\"06.12.2022\",\"105.68\"],[\"07.12.2022\",\"151.37\"],[\"08.12.2022\",\"81.81\"],[\"09.12.2022\",\"114.31\"],[\"10.12.2022\",\"61.00\"],[\"11.12.2022\",\"223.06\"],[\"12.12.2022\",\"169.70\"],[\"13.12.2022\",\"122.35\"],[\"14.12.2022\",\"120.90\"],[\"15.12.2022\",\"114.95\"],[\"16.12.2022\",\"99.07\"],[\"17.12.2022\",\"84.76\"],[\"18.12.2022\",\"103.12\"],[\"19.12.2022\",\"87.27\"],[\"20.12.2022\",\"72.84\"],[\"21.12.2022\",\"147.63\"],[\"22.12.2022\",\"98.69\"],[\"23.12.2022\",\"84.14\"],[\"24.12.2022\",\"73.31\"],[\"25.12.2022\",\"343.59\"],[\"26.12.2022\",\"170.29\"],[\"27.12.2022\",\"69.63\"],[\"28.12.2022\",\"85.90\"],[\"29.12.2022\",\"123.69\"],[\"30.12.2022\",\"199.30\"],[\"31.12.2022\",\"162.78\"],[\"01.01.2023\",\"433.38\"],[\"02.01.2023\",\"185.33\"],[\"03.01.2023\",\"117.51\"],[\"04.01.2023\",\"114.20\"],[\"05.01.2023\",\"176.01\"],[\"06.01.2023\",\"158.88\"],[\"07.01.2023\",\"168.63\"],[\"08.01.2023\",\"204.85\"],[\"09.01.2023\",\"152.46\"],[\"10.01.2023\",\"386.40\"],[\"11.01.2023\",\"363.54\"],[\"12.01.2023\",\"189.12\"],[\"13.01.2023\",\"141.90\"],[\"14.01.2023\",\"176.67\"],[\"15.01.2023\",\"261.68\"],[\"16.01.2023\",\"166.40\"],[\"17.01.2023\",\"73.48\"],[\"18.01.2023\",\"310.22\"],[\"19.01.2023\",\"106.09\"],[\"20.01.2023\",\"119.89\"],[\"21.01.2023\",\"89.56\"],[\"22.01.2023\",\"258.78\"],[\"23.01.2023\",\"326.16\"],[\"24.01.2023\",\"123.28\"],[\"25.01.2023\",\"113.38\"],[\"26.01.2023\",\"72.53\"],[\"27.01.2023\",\"110.89\"],[\"28.01.2023\",\"114.20\"],[\"29.01.2023\",\"225.17\"],[\"30.01.2023\",\"190.98\"],[\"31.01.2023\",\"158.19\"],[\"01.02.2023\",\"137.21\"],[\"02.02.2023\",\"116.99\"],[\"03.02.2023\",\"115.81\"],[\"04.02.2023\",\"99.82\"],[\"05.02.2023\",\"90.75\"],[\"06.02.2023\",\"219.03\"],[\"07.02.2023\",\"190.34\"],[\"08.02.2023\",\"139.63\"],[\"09.02.2023\",\"129.06\"],[\"10.02.2023\",\"99.82\"],[\"11.02.2023\",\"118.66\"],[\"12.02.2023\",\"54.40\"],[\"13.02.2023\",\"70.05\"],[\"14.02.2023\",\"105.73\"],[\"15.02.2023\",\"200.60\"],[\"16.02.2023\",\"223.17\"],[\"17.02.2023\",\"97.82\"],[\"18.02.2023\",\"153.22\"],[\"19.02.2023\",\"101.26\"],[\"20.02.2023\",\"88.82\"],[\"21.02.2023\",\"68.90\"],[\"22.02.2023\",\"140.33\"],[\"23.02.2023\",\"188.33\"],[\"24.02.2023\",\"82.35\"],[\"25.02.2023\",\"57.93\"],[\"26.02.2023\",\"78.14\"],[\"27.02.2023\",\"130.62\"],[\"28.02.2023\",\"88.38\"],[\"01.03.2023\",\"79.33\"],[\"02.03.2023\",\"158.83\"],[\"03.03.2023\",\"90.05\"],[\"04.03.2023\",\"109.74\"],[\"05.03.2023\",\"120.29\"],[\"06.03.2023\",\"88.74\"],[\"07.03.2023\",\"97.28\"],[\"08.03.2023\",\"71.68\"],[\"09.03.2023\",\"99.01\"],[\"10.03.2023\",\"167.33\"],[\"11.03.2023\",\"111.64\"],[\"12.03.2023\",\"63.42\"],[\"13.03.2023\",\"226.43\"],[\"14.03.2023\",\"246.38\"],[\"15.03.2023\",\"165.53\"],[\"16.03.2023\",\"191.67\"],[\"17.03.2023\",\"236.53\"],[\"18.03.2023\",\"80.16\"],[\"19.03.2023\",\"213.92\"],[\"20.03.2023\",\"158.68\"],[\"21.03.2023\",\"102.69\"],[\"22.03.2023\",\"215.30\"],[\"23.03.2023\",\"190.00\"],[\"24.03.2023\",\"163.72\"],[\"25.03.2023\",\"132.95\"],[\"26.03.2023\",\"153.05\"],[\"27.03.2023\",\"141.81\"],[\"28.03.2023\",\"117.77\"],[\"29.03.2023\",\"127.01\"],[\"30.03.2023\",\"82.78\"],[\"31.03.2023\",\"144.99\"],[\"01.04.2023\",\"118.19\"],[\"02.04.2023\",\"407.69\"],[\"03.04.2023\",\"150.38\"],[\"04.04.2023\",\"154.53\"],[\"05.04.2023\",\"108.51\"],[\"06.04.2023\",\"40.40\"],[\"07.04.2023\",\"65.40\"],[\"08.04.2023\",\"124.42\"],[\"09.04.2023\",\"210.20\"],[\"10.04.2023\",\"116.65\"],[\"11.04.2023\",\"155.38\"],[\"12.04.2023\",\"109.82\"],[\"13.04.2023\",\"258.05\"],[\"14.04.2023\",\"38.20\"],[\"15.04.2023\",\"50.40\"],[\"16.04.2023\",\"279.06\"],[\"17.04.2023\",\"51.34\"],[\"18.04.2023\",\"186.52\"],[\"19.04.2023\",\"128.99\"],[\"20.04.2023\",\"98.98\"],[\"21.04.2023\",\"118.21\"],[\"22.04.2023\",\"113.76\"],[\"23.04.2023\",\"127.64\"],[\"24.04.2023\",\"149.57\"],[\"25.04.2023\",\"111.25\"],[\"26.04.2023\",\"135.07\"],[\"27.04.2023\",\"157.01\"],[\"28.04.2023\",\"94.05\"],[\"29.04.2023\",\"93.97\"],[\"30.04.2023\",\"209.08\"],[\"01.05.2023\",\"435.03\"],[\"02.05.2023\",\"249.56\"],[\"03.05.2023\",\"139.92\"],[\"04.05.2023\",\"105.00\"],[\"05.05.2023\",\"100.93\"],[\"06.05.2023\",\"87.09\"],[\"07.05.2023\",\"152.42\"],[\"08.05.2023\",\"311.34\"],[\"09.05.2023\",\"163.06\"],[\"10.05.2023\",\"69.51\"],[\"11.05.2023\",\"155.22\"],[\"12.05.2023\",\"190.28\"],[\"13.05.2023\",\"250.04\"],[\"14.05.2023\",\"189.55\"],[\"15.05.2023\",\"99.10\"],[\"16.05.2023\",\"67.14\"],[\"17.05.2023\",\"113.54\"],[\"18.05.2023\",\"210.79\"],[\"19.05.2023\",\"111.50\"],[\"20.05.2023\",\"206.60\"],[\"21.05.2023\",\"328.45\"],[\"22.05.2023\",\"398.71\"],[\"23.05.2023\",\"156.99\"],[\"24.05.2023\",\"301.54\"],[\"25.05.2023\",\"237.84\"],[\"26.05.2023\",\"220.29\"],[\"27.05.2023\",\"154.91\"],[\"28.05.2023\",\"241.49\"],[\"29.05.2023\",\"80.39\"],[\"30.05.2023\",\"111.10\"],[\"31.05.2023\",\"264.79\"],[\"01.06.2023\",\"108.62\"],[\"02.06.2023\",\"96.48\"],[\"03.06.2023\",\"63.27\"],[\"04.06.2023\",\"150.73\"],[\"05.06.2023\",\"133.01\"],[\"06.06.2023\",\"62.63\"],[\"07.06.2023\",\"119.00\"],[\"08.06.2023\",\"96.83\"],[\"09.06.2023\",\"58.14\"],[\"10.06.2023\",\"64.39\"],[\"11.06.2023\",\"90.27\"],[\"12.06.2023\",\"204.38\"],[\"13.06.2023\",\"110.96\"],[\"14.06.2023\",\"147.42\"],[\"15.06.2023\",\"71.00\"],[\"16.06.2023\",\"56.58\"],[\"17.06.2023\",\"61.35\"],[\"18.06.2023\",\"126.36\"],[\"19.06.2023\",\"277.07\"],[\"20.06.2023\",\"213.08\"],[\"21.06.2023\",\"65.39\"],[\"22.06.2023\",\"72.75\"],[\"23.06.2023\",\"74.02\"],[\"24.06.2023\",\"161.00\"],[\"25.06.2023\",\"340.25\"],[\"26.06.2023\",\"150.90\"],[\"27.06.2023\",\"127.96\"],[\"28.06.2023\",\"152.99\"],[\"29.06.2023\",\"117.91\"],[\"30.06.2023\",\"96.85\"],[\"01.07.2023\",\"86.80\"],[\"02.07.2023\",\"123.90\"],[\"03.07.2023\",\"65.32\"],[\"04.07.2023\",\"60.81\"],[\"05.07.2023\",\"137.28\"],[\"06.07.2023\",\"40.77\"],[\"07.07.2023\",\"93.53\"],[\"08.07.2023\",\"139.58\"],[\"09.07.2023\",\"71.88\"],[\"10.07.2023\",\"39.18\"],[\"11.07.2023\",\"37.82\"],[\"12.07.2023\",\"89.22\"],[\"13.07.2023\",\"75.95\"],[\"14.07.2023\",\"206.65\"],[\"15.07.2023\",\"53.17\"],[\"16.07.2023\",\"79.30\"],[\"17.07.2023\",\"155.95\"],[\"18.07.2023\",\"104.21\"],[\"19.07.2023\",\"37.11\"],[\"20.07.2023\",\"260.18\"],[\"21.07.2023\",\"80.78\"],[\"22.07.2023\",\"81.81\"],[\"23.07.2023\",\"142.45\"],[\"24.07.2023\",\"105.67\"],[\"25.07.2023\",\"37.76\"],[\"26.07.2023\",\"220.51\"],[\"27.07.2023\",\"95.33\"],[\"28.07.2023\",\"82.35\"],[\"29.07.2023\",\"108.35\"],[\"30.07.2023\",\"156.43\"],[\"31.07.2023\",\"81.19\"],[\"01.08.2023\",\"151.79\"],[\"02.08.2023\",\"121.59\"],[\"03.08.2023\",\"62.21\"],[\"04.08.2023\",\"60.58\"],[\"05.08.2023\",\"52.64\"],[\"06.08.2023\",\"85.29\"],[\"07.08.2023\",\"59.30\"],[\"08.08.2023\",\"49.89\"],[\"09.08.2023\",\"77.25\"],[\"10.08.2023\",\"46.74\"],[\"11.08.2023\",\"170.30\"],[\"12.08.2023\",\"73.28\"],[\"13.08.2023\",\"64.02\"],[\"14.08.2023\",\"236.53\"],[\"15.08.2023\",\"53.33\"],[\"16.08.2023\",\"128.55\"],[\"17.08.2023\",\"101.81\"],[\"18.08.2023\",\"36.93\"],[\"19.08.2023\",\"59.85\"],[\"20.08.2023\",\"141.46\"],[\"21.08.2023\",\"130.14\"],[\"22.08.2023\",\"52.69\"],[\"23.08.2023\",\"141.21\"],[\"24.08.2023\",\"76.47\"],[\"25.08.2023\",\"137.35\"],[\"26.08.2023\",\"172.14\"],[\"27.08.2023\",\"109.45\"],[\"28.08.2023\",\"70.13\"],[\"29.08.2023\",\"69.20\"],[\"30.08.2023\",\"66.94\"],[\"31.08.2023\",\"167.14\"],[\"01.09.2023\",\"57.38\"],[\"02.09.2023\",\"141.49\"],[\"03.09.2023\",\"180.96\"],[\"04.09.2023\",\"41.29\"],[\"05.09.2023\",\"66.39\"],[\"06.09.2023\",\"41.02\"],[\"07.09.2023\",\"95.66\"],[\"08.09.2023\",\"37.05\"],[\"09.09.2023\",\"65.78\"],[\"10.09.2023\",\"70.26\"],[\"11.09.2023\",\"82.18\"],[\"12.09.2023\",\"99.71\"],[\"13.09.2023\",\"132.91\"],[\"14.09.2023\",\"111.69\"],[\"15.09.2023\",\"63.69\"],[\"16.09.2023\",\"29.01\"],[\"17.09.2023\",\"132.64\"],[\"18.09.2023\",\"63.82\"],[\"19.09.2023\",\"146.72\"],[\"20.09.2023\",\"82.86\"],[\"21.09.2023\",\"106.49\"],[\"22.09.2023\",\"42.80\"],[\"23.09.2023\",\"52.98\"],[\"24.09.2023\",\"62.13\"],[\"25.09.2023\",\"14.69\"],[\"26.09.2023\",\"143.47\"],[\"27.09.2023\",\"150.04\"],[\"28.09.2023\",\"111.89\"],[\"29.09.2023\",\"136.08\"],[\"30.09.2023\",\"113.80\"],[\"01.10.2023\",\"143.15\"],[\"02.10.2023\",\"77.03\"],[\"03.10.2023\",\"100.40\"],[\"04.10.2023\",\"181.95\"],[\"05.10.2023\",\"47.99\"],[\"06.10.2023\",\"95.46\"],[\"07.10.2023\",\"89.38\"],[\"08.10.2023\",\"228.90\"],[\"09.10.2023\",\"264.13\"],[\"10.10.2023\",\"143.27\"],[\"11.10.2023\",\"192.77\"],[\"12.10.2023\",\"189.71\"],[\"13.10.2023\",\"58.76\"],[\"14.10.2023\",\"70.39\"],[\"15.10.2023\",\"512.80\"],[\"16.10.2023\",\"136.30\"],[\"17.10.2023\",\"97.80\"],[\"18.10.2023\",\"90.33\"],[\"19.10.2023\",\"279.65\"],[\"20.10.2023\",\"287.49\"],[\"21.10.2023\",\"82.04\"],[\"22.10.2023\",\"159.30\"],[\"23.10.2023\",\"150.87\"],[\"24.10.2023\",\"79.87\"],[\"25.10.2023\",\"124.21\"],[\"26.10.2023\",\"37.91\"],[\"27.10.2023\",\"90.17\"],[\"28.10.2023\",\"57.07\"],[\"29.10.2023\",\"67.84\"],[\"30.10.2023\",\"164.09\"],[\"31.10.2023\",\"42.38\"],[\"01.11.2023\",\"132.01\"],[\"02.11.2023\",\"58.14\"],[\"03.11.2023\",\"72.02\"],[\"04.11.2023\",\"34.76\"],[\"05.11.2023\",\"85.27\"],[\"06.11.2023\",\"342.88\"],[\"07.11.2023\",\"122.59\"],[\"08.11.2023\",\"119.34\"],[\"09.11.2023\",\"142.71\"],[\"10.11.2023\",\"127.96\"],[\"11.11.2023\",\"54.07\"],[\"12.11.2023\",\"145.04\"],[\"13.11.2023\",\"116.21\"],[\"14.11.2023\",\"198.44\"],[\"15.11.2023\",\"68.82\"],[\"16.11.2023\",\"149.23\"],[\"17.11.2023\",\"168.58\"],[\"18.11.2023\",\"62.79\"],[\"19.11.2023\",\"124.34\"],[\"20.11.2023\",\"42.90\"],[\"21.11.2023\",\"295.43\"],[\"22.11.2023\",\"65.95\"],[\"23.11.2023\",\"15.44\"],[\"24.11.2023\",\"94.64\"],[\"25.11.2023\",\"46.51\"],[\"26.11.2023\",\"127.55\"],[\"27.11.2023\",\"89.08\"],[\"28.11.2023\",\"101.83\"],[\"29.11.2023\",\"83.76\"],[\"30.11.2023\",\"147.72\"],[\"01.12.2023\",\"38.37\"],[\"02.12.2023\",\"56.37\"],[\"03.12.2023\",\"119.31\"],[\"04.12.2023\",\"51.19\"],[\"05.12.2023\",\"328.17\"],[\"06.12.2023\",\"88.12\"],[\"07.12.2023\",\"73.65\"],[\"08.12.2023\",\"64.67\"],[\"09.12.2023\",\"89.99\"],[\"10.12.2023\",\"178.80\"],[\"11.12.2023\",\"117.01\"],[\"12.12.2023\",\"36.95\"],[\"13.12.2023\",\"95.78\"],[\"14.12.2023\",\"89.93\"],[\"15.12.2023\",\"61.40\"],[\"16.12.2023\",\"51.97\"],[\"17.12.2023\",\"94.75\"],[\"18.12.2023\",\"264.75\"],[\"19.12.2023\",\"632.37\"],[\"20.12.2023\",\"69.49\"],[\"21.12.2023\",\"95.99\"],[\"22.12.2023\",\"52.02\"],[\"23.12.2023\",\"174.58\"],[\"24.12.2023\",\"83.17\"],[\"25.12.2023\",\"74.35\"],[\"26.12.2023\",\"111.18\"],[\"27.12.2023\",\"145.72\"],[\"28.12.2023\",\"168.59\"],[\"29.12.2023\",\"107.55\"],[\"30.12.2023\",\"131.31\"],[\"31.12.2023\",\"221.29\"],[\"01.01.2024\",\"110.48\"],[\"02.01.2024\",\"138.57\"],[\"03.01.2024\",\"162.46\"],[\"04.01.2024\",\"118.85\"],[\"05.01.2024\",\"106.49\"],[\"06.01.2024\",\"145.36\"],[\"07.01.2024\",\"10.92\"],[\"08.01.2024\",\"153.56\"],[\"09.01.2024\",\"1026.38\"],[\"10.01.2024\",\"73.60\"],[\"11.01.2024\",\"57.00\"],[\"12.01.2024\",\"76.85\"],[\"13.01.2024\",\"92.97\"],[\"14.01.2024\",\"126.89\"],[\"15.01.2024\",\"80.09\"],[\"16.01.2024\",\"248.39\"],[\"17.01.2024\",\"69.96\"],[\"18.01.2024\",\"121.41\"],[\"19.01.2024\",\"147.36\"],[\"20.01.2024\",\"57.76\"],[\"21.01.2024\",\"142.04\"],[\"22.01.2024\",\"175.55\"],[\"23.01.2024\",\"71.62\"],[\"24.01.2024\",\"91.92\"],[\"25.01.2024\",\"114.57\"],[\"26.01.2024\",\"85.29\"],[\"27.01.2024\",\"80.68\"],[\"28.01.2024\",\"109.40\"],[\"29.01.2024\",\"212.58\"],[\"30.01.2024\",\"144.27\"],[\"31.01.2024\",\"81.76\"],[\"01.02.2024\",\"97.99\"],[\"02.02.2024\",\"55.14\"],[\"03.02.2024\",\"95.61\"],[\"04.02.2024\",\"213.37\"],[\"05.02.2024\",\"209.60\"],[\"06.02.2024\",\"109.35\"],[\"07.02.2024\",\"178.57\"],[\"08.02.2024\",\"153.72\"],[\"09.02.2024\",\"67.61\"],[\"10.02.2024\",\"55.65\"],[\"11.02.2024\",\"216.31\"],[\"12.02.2024\",\"215.18\"],[\"13.02.2024\",\"183.22\"],[\"14.02.2024\",\"86.93\"],[\"15.02.2024\",\"83.03\"],[\"16.02.2024\",\"58.32\"],[\"17.02.2024\",\"147.98\"],[\"18.02.2024\",\"309.05\"],[\"19.02.2024\",\"88.77\"],[\"20.02.2024\",\"149.95\"],[\"21.02.2024\",\"111.52\"],[\"22.02.2024\",\"70.29\"],[\"23.02.2024\",\"117.11\"],[\"24.02.2024\",\"192.21\"],[\"25.02.2024\",\"68.12\"],[\"26.02.2024\",\"167.77\"],[\"27.02.2024\",\"117.39\"],[\"28.02.2024\",\"143.19\"],[\"29.02.2024\",\"105.86\"],[\"01.03.2024\",\"58.59\"],[\"02.03.2024\",\"72.85\"],[\"03.03.2024\",\"85.57\"],[\"04.03.2024\",\"185.31\"],[\"05.03.2024\",\"98.25\"],[\"06.03.2024\",\"107.93\"],[\"07.03.2024\",\"56.71\"],[\"08.03.2024\",\"36.66\"],[\"09.03.2024\",\"230.58\"],[\"10.03.2024\",\"221.18\"],[\"11.03.2024\",\"159.06\"],[\"12.03.2024\",\"104.69\"],[\"13.03.2024\",\"159.16\"],[\"14.03.2024\",\"69.68\"],[\"15.03.2024\",\"181.53\"],[\"16.03.2024\",\"110.10\"],[\"17.03.2024\",\"180.66\"],[\"18.03.2024\",\"140.24\"],[\"19.03.2024\",\"91.96\"],[\"20.03.2024\",\"202.01\"],[\"21.03.2024\",\"77.59\"],[\"22.03.2024\",\"73.05\"],[\"23.03.2024\",\"147.64\"],[\"24.03.2024\",\"93.10\"],[\"25.03.2024\",\"79.67\"],[\"26.03.2024\",\"85.54\"],[\"27.03.2024\",\"97.90\"],[\"28.03.2024\",\"59.31\"],[\"29.03.2024\",\"90.04\"],[\"30.03.2024\",\"49.51\"],[\"31.03.2024\",\"89.56\"],[\"01.04.2024\",\"113.74\"],[\"02.04.2024\",\"64.34\"],[\"03.04.2024\",\"87.02\"],[\"04.04.2024\",\"79.84\"],[\"05.04.2024\",\"65.90\"],[\"06.04.2024\",\"286.44\"],[\"07.04.2024\",\"136.54\"],[\"08.04.2024\",\"96.86\"],[\"09.04.2024\",\"127.50\"],[\"10.04.2024\",\"134.32\"],[\"11.04.2024\",\"116.38\"],[\"12.04.2024\",\"164.38\"],[\"13.04.2024\",\"83.15\"],[\"14.04.2024\",\"351.28\"],[\"15.04.2024\",\"148.00\"],[\"16.04.2024\",\"205.00\"],[\"17.04.2024\",\"89.86\"],[\"18.04.2024\",\"73.00\"],[\"19.04.2024\",\"69.55\"],[\"20.04.2024\",\"105.00\"],[\"21.04.2024\",\"129.65\"],[\"22.04.2024\",\"63.52\"],[\"23.04.2024\",\"50.68\"],[\"24.04.2024\",\"103.13\"],[\"25.04.2024\",\"228.77\"],[\"26.04.2024\",\"71.47\"],[\"27.04.2024\",\"53.88\"],[\"28.04.2024\",\"105.58\"],[\"29.04.2024\",\"80.35\"],[\"30.04.2024\",\"111.88\"],[\"01.05.2024\",\"52.26\"],[\"02.05.2024\",\"80.50\"],[\"03.05.2024\",\"55.72\"],[\"04.05.2024\",\"43.53\"],[\"05.05.2024\",\"165.50\"],[\"06.05.2024\",\"76.56\"],[\"07.05.2024\",\"38.92\"],[\"08.05.2024\",\"35.93\"],[\"09.05.2024\",\"51.54\"],[\"10.05.2024\",\"103.08\"],[\"11.05.2024\",\"262.99\"],[\"12.05.2024\",\"245.08\"],[\"13.05.2024\",\"36.94\"],[\"14.05.2024\",\"135.19\"],[\"15.05.2024\",\"96.41\"],[\"16.05.2024\",\"55.17\"],[\"17.05.2024\",\"54.29\"],[\"18.05.2024\",\"71.86\"],[\"19.05.2024\",\"228.26\"],[\"20.05.2024\",\"92.53\"],[\"21.05.2024\",\"62.26\"],[\"22.05.2024\",\"55.15\"],[\"23.05.2024\",\"77.20\"],[\"24.05.2024\",\"153.24\"],[\"25.05.2024\",\"58.73\"],[\"26.05.2024\",\"40.78\"],[\"27.05.2024\",\"52.47\"],[\"28.05.2024\",\"56.95\"],[\"29.05.2024\",\"123.02\"],[\"30.05.2024\",\"92.78\"],[\"31.05.2024\",\"72.40\"],[\"01.06.2024\",\"87.64\"],[\"02.06.2024\",\"58.35\"],[\"03.06.2024\",\"191.95\"],[\"04.06.2024\",\"67.80\"],[\"05.06.2024\",\"35.32\"],[\"06.06.2024\",\"80.15\"],[\"07.06.2024\",\"55.59\"],[\"08.06.2024\",\"102.97\"],[\"09.06.2024\",\"82.89\"],[\"10.06.2024\",\"92.67\"],[\"11.06.2024\",\"59.32\"],[\"12.06.2024\",\"100.25\"],[\"13.06.2024\",\"94.21\"],[\"14.06.2024\",\"88.92\"],[\"15.06.2024\",\"62.45\"],[\"16.06.2024\",\"48.63\"],[\"17.06.2024\",\"64.98\"],[\"18.06.2024\",\"72.11\"],[\"19.06.2024\",\"52.65\"],[\"20.06.2024\",\"89.94\"],[\"21.06.2024\",\"76.15\"],[\"22.06.2024\",\"109.47\"],[\"23.06.2024\",\"197.14\"],[\"24.06.2024\",\"99.49\"],[\"25.06.2024\",\"49.78\"],[\"26.06.2024\",\"66.89\"],[\"27.06.2024\",\"88.91\"],[\"28.06.2024\",\"56.38\"],[\"29.06.2024\",\"134.00\"],[\"30.06.2024\",\"130.99\"],[\"01.07.2024\",\"244.08\"],[\"02.07.2024\",\"41.45\"],[\"03.07.2024\",\"58.82\"],[\"04.07.2024\",\"33.75\"],[\"05.07.2024\",\"778.95\"],[\"06.07.2024\",\"307.38\"],[\"07.07.2024\",\"104.43\"],[\"08.07.2024\",\"109.45\"],[\"09.07.2024\",\"85.73\"],[\"10.07.2024\",\"182.90\"],[\"11.07.2024\",\"29.57\"],[\"12.07.2024\",\"109.49\"],[\"13.07.2024\",\"275.41\"],[\"14.07.2024\",\"182.93\"],[\"15.07.2024\",\"99.68\"],[\"16.07.2024\",\"96.85\"],[\"17.07.2024\",\"129.38\"],[\"18.07.2024\",\"376.84\"],[\"19.07.2024\",\"88.76\"],[\"20.07.2024\",\"87.09\"],[\"21.07.2024\",\"190.99\"],[\"22.07.2024\",\"78.76\"],[\"23.07.2024\",\"141.71\"],[\"24.07.2024\",\"79.17\"],[\"25.07.2024\",\"39.71\"],[\"26.07.2024\",\"68.12\"],[\"27.07.2024\",\"78.03\"],[\"28.07.2024\",\"174.08\"],[\"29.07.2024\",\"66.23\"],[\"30.07.2024\",\"73.45\"],[\"31.07.2024\",\"53.04\"],[\"01.08.2024\",\"60.98\"],[\"02.08.2024\",\"97.69\"],[\"03.08.2024\",\"61.69\"],[\"04.08.2024\",\"89.47\"],[\"05.08.2024\",\"150.14\"],[\"06.08.2024\",\"207.85\"],[\"07.08.2024\",\"53.33\"],[\"08.08.2024\",\"18.65\"],[\"09.08.2024\",\"122.70\"],[\"10.08.2024\",\"81.78\"],[\"11.08.2024\",\"223.61\"],[\"12.08.2024\",\"76.44\"],[\"13.08.2024\",\"88.36\"],[\"14.08.2024\",\"120.48\"],[\"15.08.2024\",\"221.13\"],[\"16.08.2024\",\"194.96\"],[\"17.08.2024\",\"142.54\"],[\"18.08.2024\",\"300.83\"],[\"19.08.2024\",\"88.54\"],[\"20.08.2024\",\"54.32\"],[\"21.08.2024\",\"116.81\"],[\"22.08.2024\",\"87.14\"],[\"23.08.2024\",\"69.60\"],[\"24.08.2024\",\"30.03\"],[\"25.08.2024\",\"100.22\"],[\"26.08.2024\",\"63.73\"],[\"27.08.2024\",\"35.71\"],[\"28.08.2024\",\"64.09\"],[\"29.08.2024\",\"92.28\"],[\"30.08.2024\",\"60.89\"],[\"31.08.2024\",\"66.18\"],[\"01.09.2024\",\"137.90\"],[\"02.09.2024\",\"601.26\"],[\"03.09.2024\",\"70.88\"],[\"04.09.2024\",\"92.74\"],[\"05.09.2024\",\"54.83\"],[\"06.09.2024\",\"103.01\"],[\"07.09.2024\",\"57.59\"],[\"08.09.2024\",\"136.16\"],[\"09.09.2024\",\"55.57\"],[\"10.09.2024\",\"117.97\"],[\"11.09.2024\",\"38.01\"],[\"12.09.2024\",\"58.47\"],[\"13.09.2024\",\"92.86\"],[\"14.09.2024\",\"62.32\"],[\"15.09.2024\",\"76.57\"],[\"16.09.2024\",\"59.10\"],[\"17.09.2024\",\"110.52\"],[\"18.09.2024\",\"152.08\"],[\"19.09.2024\",\"126.07\"],[\"20.09.2024\",\"66.37\"],[\"21.09.2024\",\"77.27\"],[\"22.09.2024\",\"56.52\"],[\"23.09.2024\",\"73.57\"],[\"24.09.2024\",\"72.44\"],[\"25.09.2024\",\"103.88\"],[\"26.09.2024\",\"82.08\"],[\"27.09.2024\",\"90.48\"],[\"28.09.2024\",\"53.03\"],[\"29.09.2024\",\"31.33\"],[\"30.09.2024\",\"116.24\"],[\"01.10.2024\",\"58.83\"],[\"02.10.2024\",\"133.57\"],[\"03.10.2024\",\"76.65\"],[\"04.10.2024\",\"74.53\"],[\"05.10.2024\",\"93.95\"],[\"06.10.2024\",\"77.36\"],[\"07.10.2024\",\"48.33\"],[\"08.10.2024\",\"127.04\"],[\"09.10.2024\",\"71.55\"],[\"10.10.2024\",\"96.67\"],[\"11.10.2024\",\"247.06\"],[\"12.10.2024\",\"211.55\"],[\"13.10.2024\",\"154.13\"],[\"14.10.2024\",\"68.25\"],[\"15.10.2024\",\"140.41\"],[\"16.10.2024\",\"79.68\"],[\"17.10.2024\",\"114.80\"],[\"18.10.2024\",\"70.12\"],[\"19.10.2024\",\"89.05\"],[\"20.10.2024\",\"176.02\"],[\"21.10.2024\",\"283.80\"],[\"22.10.2024\",\"116.02\"],[\"23.10.2024\",\"98.60\"],[\"24.10.2024\",\"67.34\"],[\"25.10.2024\",\"83.65\"],[\"26.10.2024\",\"245.79\"],[\"27.10.2024\",\"187.75\"],[\"28.10.2024\",\"75.66\"],[\"29.10.2024\",\"88.98\"],[\"30.10.2024\",\"70.46\"],[\"31.10.2024\",\"107.64\"],[\"01.11.2024\",\"116.29\"],[\"02.11.2024\",\"384.15\"],[\"03.11.2024\",\"298.74\"],[\"04.11.2024\",\"231.81\"],[\"05.11.2024\",\"312.49\"],[\"06.11.2024\",\"142.57\"],[\"07.11.2024\",\"323.52\"],[\"08.11.2024\",\"308.41\"],[\"09.11.2024\",\"125.18\"],[\"10.11.2024\",\"484.55\"],[\"11.11.2024\",\"386.33\"],[\"12.11.2024\",\"225.35\"],[\"13.11.2024\",\"170.40\"],[\"14.11.2024\",\"135.73\"],[\"15.11.2024\",\"268.42\"],[\"16.11.2024\",\"154.60\"],[\"17.11.2024\",\"450.74\"],[\"18.11.2024\",\"463.22\"],[\"19.11.2024\",\"214.05\"],[\"20.11.2024\",\"181.81\"],[\"21.11.2024\",\"219.91\"],[\"22.11.2024\",\"135.37\"],[\"23.11.2024\",\"104.89\"],[\"24.11.2024\",\"311.54\"],[\"25.11.2024\",\"87.75\"],[\"26.11.2024\",\"150.15\"],[\"27.11.2024\",\"132.14\"],[\"28.11.2024\",\"162.72\"],[\"29.11.2024\",\"174.81\"],[\"30.11.2024\",\"123.13\"],[\"01.12.2024\",\"140.43\"],[\"02.12.2024\",\"78.68\"],[\"03.12.2024\",\"92.19\"],[\"04.12.2024\",\"177.91\"],[\"05.12.2024\",\"97.39\"],[\"06.12.2024\",\"390.69\"],[\"07.12.2024\",\"376.57\"],[\"08.12.2024\",\"114.97\"],[\"09.12.2024\",\"233.80\"],[\"10.12.2024\",\"218.39\"],[\"11.12.2024\",\"219.72\"],[\"12.12.2024\",\"125.44\"],[\"13.12.2024\",\"141.68\"],[\"14.12.2024\",\"167.31\"],[\"15.12.2024\",\"244.90\"],[\"16.12.2024\",\"288.93\"],[\"17.12.2024\",\"86.94\"],[\"18.12.2024\",\"251.99\"],[\"19.12.2024\",\"171.71\"],[\"20.12.2024\",\"180.80\"],[\"21.12.2024\",\"180.08\"],[\"22.12.2024\",\"381.65\"],[\"23.12.2024\",\"139.02\"],[\"24.12.2024\",\"252.18\"],[\"25.12.2024\",\"190.79\"],[\"26.12.2024\",\"118.16\"],[\"27.12.2024\",\"104.31\"],[\"28.12.2024\",\"150.11\"],[\"29.12.2024\",\"167.91\"],[\"30.12.2024\",\"138.37\"],[\"31.12.2024\",\"109.44\"],[\"01.01.2025\",\"202.92\"],[\"02.01.2025\",\"188.90\"],[\"03.01.2025\",\"167.41\"],[\"04.01.2025\",\"213.62\"],[\"05.01.2025\",\"571.19\"],[\"06.01.2025\",\"222.31\"],[\"07.01.2025\",\"260.94\"],[\"08.01.2025\",\"212.01\"],[\"09.01.2025\",\"230.71\"],[\"10.01.2025\",\"147.76\"],[\"11.01.2025\",\"403.40\"],[\"12.01.2025\",\"678.32\"],[\"13.01.2025\",\"179.60\"],[\"14.01.2025\",\"185.40\"],[\"15.01.2025\",\"110.72\"],[\"16.01.2025\",\"134.68\"],[\"17.01.2025\",\"173.63\"],[\"18.01.2025\",\"234.19\"],[\"19.01.2025\",\"508.27\"],[\"20.01.2025\",\"193.71\"],[\"21.01.2025\",\"225.37\"],[\"22.01.2025\",\"121.77\"],[\"23.01.2025\",\"176.52\"],[\"24.01.2025\",\"189.16\"],[\"25.01.2025\",\"159.12\"],[\"26.01.2025\",\"178.55\"],[\"27.01.2025\",\"159.42\"],[\"28.01.2025\",\"262.69\"],[\"29.01.2025\",\"342.27\"],[\"30.01.2025\",\"293.51\"],[\"31.01.2025\",\"495.78\"],[\"01.02.2025\",\"256.10\"],[\"02.02.2025\",\"314.40\"],[\"03.02.2025\",\"327.16\"],[\"04.02.2025\",\"393.35\"],[\"05.02.2025\",\"226.19\"],[\"06.02.2025\",\"372.45\"],[\"07.02.2025\",\"332.89\"],[\"08.02.2025\",\"578.84\"],[\"09.02.2025\",\"613.98\"],[\"10.02.2025\",\"290.34\"],[\"11.02.2025\",\"230.88\"],[\"12.02.2025\",\"285.28\"],[\"13.02.2025\",\"236.69\"],[\"14.02.2025\",\"297.91\"],[\"15.02.2025\",\"229.66\"],[\"16.02.2025\",\"294.91\"],[\"17.02.2025\",\"372.70\"],[\"18.02.2025\",\"280.36\"],[\"19.02.2025\",\"341.49\"],[\"20.02.2025\",\"367.92\"],[\"21.02.2025\",\"375.62\"],[\"22.02.2025\",\"203.15\"],[\"23.02.2025\",\"476.69\"],[\"24.02.2025\",\"355.90\"],[\"25.02.2025\",\"232.14\"],[\"26.02.2025\",\"275.17\"],[\"27.02.2025\",\"288.54\"],[\"28.02.2025\",\"345.22\"],[\"01.03.2025\",\"522.40\"],[\"02.03.2025\",\"476.54\"],[\"03.03.2025\",\"429.75\"],[\"04.03.2025\",\"447.53\"],[\"05.03.2025\",\"391.30\"],[\"06.03.2025\",\"726.26\"],[\"07.03.2025\",\"556.70\"],[\"08.03.2025\",\"684.13\"],[\"09.03.2025\",\"714.21\"],[\"10.03.2025\",\"403.78\"],[\"11.03.2025\",\"704.03\"],[\"12.03.2025\",\"433.50\"],[\"13.03.2025\",\"463.36\"],[\"14.03.2025\",\"442.46\"],[\"15.03.2025\",\"494.60\"],[\"16.03.2025\",\"731.78\"],[\"17.03.2025\",\"649.53\"],[\"18.03.2025\",\"614.24\"],[\"19.03.2025\",\"565.45\"],[\"20.03.2025\",\"458.66\"],[\"21.03.2025\",\"390.35\"],[\"22.03.2025\",\"488.06\"],[\"23.03.2025\",\"538.36\"],[\"24.03.2025\",\"498.84\"],[\"25.03.2025\",\"472.98\"],[\"26.03.2025\",\"316.49\"],[\"27.03.2025\",\"313.11\"],[\"28.03.2025\",\"362.44\"],[\"29.03.2025\",\"284.53\"],[\"30.03.2025\",\"612.15\"],[\"31.03.2025\",\"426.16\"],[\"01.04.2025\",\"642.48\"],[\"02.04.2025\",\"445.60\"],[\"03.04.2025\",\"438.93\"],[\"04.04.2025\",\"550.44\"],[\"05.04.2025\",\"975.60\"],[\"06.04.2025\",\"773.67\"],[\"07.04.2025\",\"574.97\"],[\"08.04.2025\",\"565.99\"],[\"09.04.2025\",\"590.08\"],[\"10.04.2025\",\"623.53\"],[\"11.04.2025\",\"833.81\"],[\"12.04.2025\",\"589.49\"],[\"13.04.2025\",\"910.15\"],[\"14.04.2025\",\"495.65\"],[\"15.04.2025\",\"371.94\"],[\"16.04.2025\",\"505.79\"],[\"17.04.2025\",\"508.01\"],[\"18.04.2025\",\"417.47\"],[\"19.04.2025\",\"431.85\"],[\"20.04.2025\",\"526.52\"],[\"21.04.2025\",\"407.95\"],[\"22.04.2025\",\"439.04\"],[\"23.04.2025\",\"337.82\"],[\"24.04.2025\",\"419.90\"],[\"25.04.2025\",\"515.91\"],[\"26.04.2025\",\"473.09\"],[\"27.04.2025\",\"664.45\"],[\"28.04.2025\",\"787.79\"],[\"29.04.2025\",\"575.26\"],[\"30.04.2025\",\"433.10\"],[\"01.05.2025\",\"890.82\"],[\"02.05.2025\",\"592.35\"],[\"03.05.2025\",\"706.16\"],[\"04.05.2025\",\"636.65\"],[\"05.05.2025\",\"346.64\"],[\"06.05.2025\",\"553.82\"],[\"07.05.2025\",\"428.17\"],[\"08.05.2025\",\"567.82\"],[\"09.05.2025\",\"535.71\"],[\"10.05.2025\",\"676.42\"],[\"11.05.2025\",\"777.17\"],[\"12.05.2025\",\"667.23\"],[\"13.05.2025\",\"512.95\"],[\"14.05.2025\",\"776.77\"],[\"15.05.2025\",\"469.00\"],[\"16.05.2025\",\"516.56\"],[\"17.05.2025\",\"581.60\"],[\"18.05.2025\",\"681.45\"],[\"19.05.2025\",\"390.58\"],[\"20.05.2025\",\"408.70\"],[\"21.05.2025\",\"319.48\"],[\"22.05.2025\",\"283.69\"],[\"23.05.2025\",\"328.74\"],[\"24.05.2025\",\"247.20\"],[\"25.05.2025\",\"353.81\"],[\"26.05.2025\",\"293.68\"],[\"27.05.2025\",\"409.58\"],[\"28.05.2025\",\"282.29\"],[\"29.05.2025\",\"340.20\"],[\"30.05.2025\",\"514.04\"],[\"31.05.2025\",\"389.82\"],[\"01.06.2025\",\"902.85\"],[\"02.06.2025\",\"445.08\"],[\"03.06.2025\",\"476.37\"],[\"04.06.2025\",\"420.71\"],[\"05.06.2025\",\"341.14\"],[\"06.06.2025\",\"352.22\"],[\"07.06.2025\",\"367.71\"],[\"08.06.2025\",\"620.71\"],[\"09.06.2025\",\"330.25\"],[\"10.06.2025\",\"274.08\"],[\"11.06.2025\",\"282.35\"],[\"12.06.2025\",\"488.80\"],[\"13.06.2025\",\"270.73\"],[\"14.06.2025\",\"347.92\"],[\"15.06.2025\",\"533.47\"],[\"16.06.2025\",\"341.15\"],[\"17.06.2025\",\"448.03\"],[\"18.06.2025\",\"484.82\"],[\"19.06.2025\",\"320.45\"],[\"20.06.2025\",\"327.89\"],[\"21.06.2025\",\"247.77\"],[\"22.06.2025\",\"464.69\"],[\"23.06.2025\",\"222.48\"],[\"24.06.2025\",\"334.68\"],[\"25.06.2025\",\"350.68\"],[\"26.06.2025\",\"228.01\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"],[\"\",\"\"]],\"sources\":[],\"events\":[],\"options\":{\"annotations\":{},\"areaChartOptions\":{\"areaInterpolation\":\"linear\",\"stackType\":\"zero\"},\"arrowOptions\":{\"colorScheme\":0,\"invertColorScheme\":false},\"barOptions\":{\"isBarChart\":false,\"forceBarsOnSmall\":false},\"chartType\":\"Line\",\"colorOverwritesRows\":[],\"colorOverwritesSeries\":[],\"dateSeriesOptions\":{\"interval\":\"auto\",\"labels\":\"many\",\"prognosisStart\":null},\"dotplotOptions\":{},\"hideAxisLabel\":true,\"highlightDataRows\":[],\"highlightDataSeries\":[],\"lineChartOptions\":{\"yScaleType\":\"linear\",\"reverseYScale\":false,\"lineInterpolation\":\"linear\",\"isStockChart\":false},\"largeNumbers\":{\"divideBy\":0}},\"updatedDate\":\"2025-06-30T17:42:21.218Z\",\"notes\":\"The index tracks mentions in newspapers. Source: <a href=\\\"https://fred.stlouisfed.org/series/USEPUINDXD\\\">Federal Reserve Economic Data</a>\"};          const toolRuntimeConfig = {\"displayOptions\":{\"hideTitle\":false,\"hideSubtitle\":false,\"hideFooter\":false,\"hideAcronym\":false,\"size\":\"basic\"},\"size\":{\"width\":[{\"value\":100,\"comparison\":\">\"}]},\"locale\":\"en-US\"};          const toolSettings = {\"qItemInstanceId\":\"q_chart_1e3de0053155572a5cd591ccecc84d7b_qf370eb352a4d4a4a9c687e2b1668e9f4\"};          let attempts = 0;          const maxAttempts = 100;          const checkAndInitialize = setInterval(() => {            if (window.qChart) {              clearInterval(checkAndInitialize);              new window.qChart({ target: target, props: {                qdoc: qdoc,                toolSettings: toolSettings,                toolRuntimeConfig: toolRuntimeConfig              } });            } else {              attempts++;              if (attempts >= maxAttempts) {                clearInterval(checkAndInitialize);                console.error('Failed to initialize qChart after 30 seconds');              }            }          }, 300);        }        if (document.body.classList.contains('pagedone')) {          initialize();        } else {          window.addEventListener('pagedone', initialize);        }      })();    "
+     }
+    ]
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iuua718715",
+   "content": {
+    "text": "This uncertainty is precisely what Switzerland – and, to a certain degree, the EU – is trying to resolve by negotiating with Washington."
+   },
+   "paidContent": true,
+   "prevElement": "q-embed",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iuua718716",
+   "content": {
+    "text": "Switzerland is already far along. Swiss firms, among the largest foreign investors in the US, are promising to inject roughly $150 billion in new investment over the coming years. In addition to eliminating industrial tariffs, the Swiss are offering to ease restrictions on imports of agricultural goods that Swiss farmers don't typically produce and to reduce technical barriers to trade. Switzerland and its companies have also pledged to help the US upgrade its apprenticeship and vocational training system. In return, the Trump administration will reportedly drop the punitive 31% «reciprocal» tariff currently aimed at Swiss goods and grant broad exemptions from the across-the-board 10% tariff."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iuua718717",
+   "content": {
+    "text": "Like the UK deal, the Swiss agreement could take the form of a nonbinding letter of intent and serve as a stepping stone towards a future bilateral free trade agreement. However, Bern is seeking assurances that it won't be blindsided by harsh new measures targeting its pharmaceutical industry once a deal is in place."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iuua718718",
+   "content": {
+    "text": "Whether Washington is willing to offer such guarantees remains uncertain. But the broader trend is clear: President Trump and his administration view tariffs and trade restrictions not as emergency tools but as leverage – as a means to enhance US negotiating power, raise revenues for a chronically deficit-ridden federal budget, and push companies to shift production back to America. Behind the spectacle of «massive reciprocal tariffs» and the theatrical suspense they create, the US – once the flag-bearer of free trade – has quietly become one of the world's leading protectionist powers."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "free-html"
+  },
+  {
+   "identifier": "free-html",
+   "id": "doc-wqmg1YifiY",
+   "content": {
+    "html": "<div style=\"background: #EAECF5; font-family: Helvetica, sans-serif; font-weight:10; font-size:13px; padding:12px;\">\nPlease note that this story was machine translated with light editing by our editorial staff. \n</div>"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "sharebox",
+   "lastContentElement": true
+  },
+  {
+   "identifier": "sharebox",
+   "id": "doc-1iuua71882",
+   "paidContent": true,
+   "prevElement": "free-html",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1gnpvabq60",
+   "content": {
+    "title": "Latest articles",
+    "id": "subtitle-latest-articles"
+   },
+   "styles": {
+    "subtitle-type": "subtitle--chapter"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "sharebox",
+   "nextElement": "free-html"
+  },
+  {
+   "identifier": "free-html",
+   "id": "doc-OB4t2byz9t",
+   "content": {
+    "html": "<p class=\"articlecomponent text\" pagetype=\"Article\" componenttype=\"p\" is-new-line-child=\"true\"><em>Below, you’ll find links to a selection of our free content. If you’d like access to all of our premium content via the full version of our newsletter, <a target=\"_blank\" href=\"https://www.english.nzz.ch/subscribe\">please upgrade here</a>.</em></p>"
+   },
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "footnote"
+  },
+  {
+   "identifier": "footnote",
+   "id": "doc-1is8r3imi0",
+   "content": {
+    "text": "<strong>NZZ Geopolitics <strong>– The independent Swiss view</strong><br></strong><br> Standing outside the American media establishment, the NZZ offers distinctive insights that challenge the polarized narratives often found in US coverage. Our goal is to provide in-depth, nuanced reporting on global affairs, including developments in the United States, Europe, China and beyond. Taking a nonpartisan stance, we approach events with a sober and critical eye. Backed by a trusted network of international correspondents and expert reporters based in Switzerland, we deliver sharp analysis and a deeper understanding of geopolitics and the global economy.<br><br> Sign up for our <a href=\"https://www.nzz.ch/english/newsletter-signup-ld.1668517\">free newsletter</a> or follow us on <a target=\"_blank\" href=\"https://www.twitter.com/NZZReporting\">Twitter</a> , <a target=\"_blank\" href=\"https://www.facebook.com/NZZReporting\">Facebook</a> or <a target=\"_blank\" href=\"https://whatsapp.com/channel/0029Va7eJxSEawdrEZVOnO3Z\">WhatsApp</a> ."
+   },
+   "paidContent": true,
+   "prevElement": "free-html",
+   "nextElement": "",
+   "lastContentElement": true
+  }
+ ],
+ "metadata": {
+  "owner": "NZZ",
+  "germanyRelevant": false,
+  "title": "Even with tariffs on hold, Trump continues to steer the US toward isolation",
+  "teaserImage": {
+   "originalUrl": "/2025/06/28/65b88d4f-6bbe-4cd6-9f2d-2fa9819cc5d7.jpeg?width=1024",
+   "url": "https://img-msp-prod.nzz.ch/2025/06/28/65b88d4f-6bbe-4cd6-9f2d-2fa9819cc5d7.jpeg?width=1024&quality=75&auto=webp",
+   "width": 4290,
+   "height": 2860,
+   "crops": [
+    {
+     "name": "16:9",
+     "crop": "4290,2413,x0,y105"
+    },
+    {
+     "name": "1:1",
+     "crop": "2860,2860,x644,y0"
+    },
+    {
+     "name": "4:3",
+     "crop": "3813,2860,x445,y0"
+    },
+    {
+     "name": "3:4",
+     "crop": "2145,2860,x631,y0"
+    },
+    {
+     "name": "3:2",
+     "crop": "4290,2860,x0,y0"
+    }
+   ],
+   "imageService": "fastly",
+   "teaserCaption": "The suspension of the Trump administration's steep «reciprocal» tariffs is set to expire on July 8. Few expect them to take effect as planned. Behind the scenes, Trump has already reshaped America's global posture, steering the country further into economic isolation.",
+   "teaserAuthor": "Mark Schiefelbein / AP"
+  },
+  "teaserAuthor": "Mark Schiefelbein / AP",
+  "nzzasFootnote": false,
+  "folioFootnote": false,
+  "language": {
+   "locale": "en-US"
+  },
+  "nzzId": "ld.1891391",
+  "readingTime": 480,
+  "authorLine": "Peter A. Fischer",
+  "showComments": false,
+  "characterCount": 9730,
+  "breadcrumbs": [
+   {
+    "name": "NZZ in English",
+    "path": "/english"
+   }
+  ],
+  "product": "NZZ.ch",
+  "documentId": 1891391,
+  "contentTypeGroup": "web",
+  "layout": "longformstandard",
+  "firstPublicationDate": "2025-07-01T07:01:11.115Z",
+  "publicationDate": "2025-07-01T07:01:11.115Z",
+  "publicationLastUpdated": "2025-08-05T13:05:49.741Z",
+  "significantUpdate": false,
+  "significantUpdateTill": "2025-07-01T19:01:11.115Z",
+  "teaserCaption": "The suspension of the Trump administration's steep «reciprocal» tariffs is set to expire on July 8. Few expect them to take effect as planned. Behind the scenes, Trump has already reshaped America's global posture, steering the country further into economic isolation.",
+  "url": "/english/even-with-tariffs-on-hold-trump-continues-to-steer-the-us-toward-isolation-ld.1891391",
+  "department": {
+   "name": "NZZ in English",
+   "path": "/english"
+  },
+  "estimationWordCount": 1592,
+  "premium": false,
+  "leadText": "The suspension of the Trump administration's steep «reciprocal» tariffs is set to expire on July 8. Few expect them to take effect as planned. Behind the scenes, Trump has already reshaped America's global posture, steering the country further into economic isolation.",
+  "nzzSummaryEN": "- The Trump administration has raised U.S. average tariffs from 2.1% to 13.7%, further isolating the country through both specific and general duties.\n- Countries like China, Canada, and Mexico are particularly hit by the new U.S. tariffs, while retaliation measures remain limited so far.\n- U.S. protectionist policies heighten global economic uncertainty and delay investments, with negotiations like those with Switzerland seeking to de-escalate tensions.",
+  "nzzSummaryDE": "- The Trump administration increased average US tariff rates from 2.1% to 13.7% and further isolated itself from global trade through specific and general tariffs.\n Countries such as China, Canada and Mexico are particularly affected by the new US tariffs; retaliatory measures have so far remained limited.\n - The protectionist policies of the USA create uncertainty in the global economy and make investment decisions more difficult, while negotiations such as with Switzerland attempt to resolve tensions.",
+  "nzzSummaryIsAuto": true,
+  "nzzSummaryModel": "gpt-4o-2024-11-20",
+  "nzzPrintTitle": "Tariffs eased, but Trump's isolationist agenda remains",
+  "nzzPrintSubtitle": "The suspension of the Trump administration's steep «reciprocal» tariffs is set to expire July 8, but few expect them to take effect. Behind the scenes, Trump has already shifted US trade policy toward deeper economic isolation.",
+  "allArticleLanguages": [
+   {
+    "locale": "en-US",
+    "urlPath": "/english/even-with-tariffs-on-hold-trump-continues-to-steer-the-us-toward-isolation-ld.1891391",
+    "seo": {}
+   },
+   {
+    "locale": "de-CH",
+    "urlPath": "/pro/trump-hat-die-usa-auch-waehrend-der-zoll-pause-weiter-von-der-uebrigen-welt-abgeschottet-ld.1891323",
+    "seo": {}
+   }
+  ],
+  "seo": {
+   "canonicalUrl": "https://www.nzz.ch/english/even-with-tariffs-on-hold-trump-continues-to-steer-the-us-toward-isolation-ld.1891391",
+   "title": "Tariffs eased, but Trump's isolationist agenda remains",
+   "socialMediaTitle": "Tariffs eased, but Trump's isolationist agenda remains",
+   "description": "The suspension of the Trump administration's steep «reciprocal» tariffs is set to expire July 8, but few expect them to take effect. Behind the scenes, Trump has already shifted US trade policy toward deeper economic isolation.",
+   "excludeFromSpiders": false,
+   "image": "https://img-msp-prod.nzz.ch/2025/06/28/65b88d4f-6bbe-4cd6-9f2d-2fa9819cc5d7.jpeg?width=1200&height=674&fit=bounds&quality=75&auto=webp&crop=4290,2413,x0,y105&wmark=nzz"
+  },
+  "ldPublicationId": 1836620,
+  "isHighlightedHeader": false,
+  "barrierIndex": 3,
+  "outlinks": {
+   "mehrZumThema": [],
+   "artikelListe": [],
+   "aliasTeaserEmbedList": []
+  },
+  "tts": true,
+  "hasQ": true,
+  "mp3": true,
+  "mp3Duration": 616272,
+  "project": "nzz",
+  "machineTranslated": true,
+  "machineTranslationValidated": false
+ },
+ "isReduced": false,
+ "isPaid": false,
+ "isVamp": false,
+ "isWebview": false,
+ "digitalData": {
+  "component": [
+   {
+    "id": "ld.1891391",
+    "name": "Even with tariffs on hold, Trump continues to steer the US toward isolation",
+    "type": "article",
+    "subType1": "longformstandard",
+    "subType2": "",
+    "primaryCategory": "NZZ in English",
+    "subCategory1": "",
+    "attributes": {
+     "headline": "Even with tariffs on hold, Trump continues to steer the US toward isolation",
+     "firstPublishTitle": "",
+     "catchline": "",
+     "authors": [],
+     "issueTimestamp": "2025-07-01T07:01:11.115Z",
+     "updateTimestamp": "2025-08-05T13:05:49.741Z",
+     "isSponsoredContent": false,
+     "isPro": false,
+     "isLiveticker": false,
+     "flag": "",
+     "owner": "NZZ"
+    }
+   }
+  ],
+  "page": {
+   "pageId": "ld.1891391",
+   "pageType": "longformstandard",
+   "primaryCategory": "NZZ in English",
+   "subCategory1": "",
+   "subCategory2": "",
+   "language": "en-US"
+  },
+  "version": "2.0",
+  "user": {},
+  "event": []
+ },
+ "seoData": {
+  "title": "Tariffs eased, but Trump's isolationist agenda remains",
+  "image": {
+   "url": "https://img-msp-prod.nzz.ch/2025/06/28/65b88d4f-6bbe-4cd6-9f2d-2fa9819cc5d7.jpeg?width=1200&height=674&fit=bounds&quality=75&auto=webp&crop=4290,2413,x0,y105&wmark=nzz",
+   "type": "image/jpeg",
+   "width": 1200,
+   "height": 674
+  },
+  "author": "Peter A. Fischer",
+  "description": "The suspension of the Trump administration's steep «reciprocal» tariffs is set to expire July 8, but few expect them to take effect. Behind the scenes, Trump has already shifted US trade policy toward deeper economic isolation.",
+  "news_keywords": "Even with tariffs on hold, Trump continues to steer the US toward isolation,NZZ in English, Nachrichten, NZZ",
+  "type": "article",
+  "last-modified": "2025-08-05T17:05:49+02:00",
+  "date": "2025-07-01T11:01:11+02:00",
+  "canonical": "https://www.nzz.ch/english/even-with-tariffs-on-hold-trump-continues-to-steer-the-us-toward-isolation-ld.1891391",
+  "fb:app_id": 138008459595436,
+  "fb:pages": 143694099006529,
+  "fb:admins": 1592685173,
+  "locale": "en-US",
+  "email": "online.redaktion@nzz.ch",
+  "site_name": "Neue Zürcher Zeitung",
+  "copyright": "2026 Neue Zürcher Zeitung AG, Schweiz",
+  "robots": "noindex, nofollow, noarchive, noodp",
+  "hreflang": [
+   {
+    "hreflang": "en",
+    "href": "https://www.nzz.ch/english/even-with-tariffs-on-hold-trump-continues-to-steer-the-us-toward-isolation-ld.1891391"
+   },
+   {
+    "hreflang": "de",
+    "href": "https://www.nzz.ch/pro/trump-hat-die-usa-auch-waehrend-der-zoll-pause-weiter-von-der-uebrigen-welt-abgeschottet-ld.1891323"
+   }
+  ],
+  "sharedTitle": "Even with tariffs on hold, Trump continues to steer the US toward isolation",
+  "ogTitle": "Tariffs eased, but Trump's isolationist agenda remains",
+  "ogUrl": "https://www.nzz.ch/english/even-with-tariffs-on-hold-trump-continues-to-steer-the-us-toward-isolation-ld.1891391",
+  "mrf:cms_id": "nzz:ld.1891391",
+  "mrf:sections": "NZZ in English",
+  "mrf:tags": "Page Type:longformstandard;Editorial Owner:NZZ;Content Type:Standard Article;Article ID:ld.1891391",
+  "nzzAuthors": [
+   {
+    "name": "Peter A. Fischer"
+   }
+  ],
+  "links": [
+   {
+    "rel": "canonical",
+    "href": "https://www.nzz.ch/english/even-with-tariffs-on-hold-trump-continues-to-steer-the-us-toward-isolation-ld.1891391"
+   },
+   {
+    "rel": "search",
+    "href": "/suche",
+    "title": "Suche Neue Zürcher Zeitung, Schweiz, https://www.nzz.ch/suche"
+   },
+   {
+    "rel": "alternate",
+    "href": "https://www.nzz.ch/english/even-with-tariffs-on-hold-trump-continues-to-steer-the-us-toward-isolation-ld.1891391",
+    "hreflang": "en"
+   },
+   {
+    "rel": "alternate",
+    "href": "https://www.nzz.ch/pro/trump-hat-die-usa-auch-waehrend-der-zoll-pause-weiter-von-der-uebrigen-welt-abgeschottet-ld.1891323",
+    "hreflang": "de"
+   }
+  ],
+  "renderedAt": "Thu, 03 Sep 2026 10:02:24 GMT"
+ },
+ "structuredData": [
+  {
+   "@context": "https://schema.org",
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "item": {
+      "@id": "/",
+      "name": "Home"
+     }
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "item": {
+      "@id": "/english",
+      "name": "NZZ in English"
+     }
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Tariffs eased, but Trump's isolationist agenda remains"
+    }
+   ]
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": "NewsArticle",
+   "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.nzz.ch/english/even-with-tariffs-on-hold-trump-continues-to-steer-the-us-toward-isolation-ld.1891391"
+   },
+   "headline": "Tariffs eased, but Trump's isolationist agenda remains",
+   "datePublished": "2025-07-01T11:01:11+02:00",
+   "dateModified": "2025-08-05T17:05:49+02:00",
+   "publisher": {
+    "@type": "NewsMediaOrganization",
+    "name": "Neue Zürcher Zeitung",
+    "url": "https://www.nzz.ch",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://www.nzz.ch/logo.png",
+     "width": 413,
+     "height": 60
+    },
+    "contactPoint": [
+     {
+      "@type": "ContactPoint",
+      "telephone": "+41-44-2581000",
+      "contactType": "customer service"
+     }
+    ],
+    "sameAs": [
+     "https://www.facebook.com/nzz",
+     "https://www.twitter.com/nzz",
+     "https://www.youtube.com/channel/UCK1aTcR0AckQRLTlK0c4fuQ",
+     "https://www.linkedin.com/company/neue-zurcher-zeitung",
+     "https://www.instagram.com/nzz/",
+     "https://de.wikipedia.org/wiki/Neue_Z%C3%BCrcher_Zeitung",
+     "https://www.wikidata.org/wiki/Q658945",
+     "https://plus.google.com/+nzz/",
+     "http://www.freebase.com/m/041b43"
+    ],
+    "masthead": "https://www.nzz.ch/impressum/impressum-ld.148422",
+    "foundingDate": "1780"
+   },
+   "description": "The suspension of the Trump administration's steep «reciprocal» tariffs is set to expire July 8, but few expect them to take effect. Behind the scenes, Trump has already shifted US trade policy toward deeper economic isolation.",
+   "isAccessibleForFree": false,
+   "articleSection": "NZZ in English",
+   "hasPart": {
+    "@type": "WebPageElement",
+    "isAccessibleForFree": false,
+    "cssSelector": ".nzzinteraction"
+   },
+   "image": {
+    "@type": "ImageObject",
+    "url": "https://img-msp-prod.nzz.ch/2025/06/28/65b88d4f-6bbe-4cd6-9f2d-2fa9819cc5d7.jpeg?width=1200&height=674&fit=bounds&quality=75&auto=webp&crop=4290,2413,x0,y105&wmark=nzz",
+    "width": 1200,
+    "height": 674
+   },
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Peter A. Fischer"
+    }
+   ],
+   "inLanguage": "en"
+  }
+ ],
+ "mp3": true,
+ "mp3Duration": 616272,
+ "bT": {
+  "standard": {
+   "Tags": [
+    "/english/even-with-tariffs-on-hold-trump-continues-to-steer-the-us-toward-isolation-ld.1891391",
+    "classification=default",
+    "relevance=default",
+    "layout=longformstandard",
+    "owner=nzz",
+    "product=nzz",
+    "doctype=article",
+    "pagetype=article",
+    "ldid=ld.1891391",
+    "channel=NZZ in English"
+   ],
+   "ContentCreated": "2025-07-01T07:01:11.115Z",
+   "ContentAuthor": "Peter A. Fischer",
+   "ContentSection": "NZZ in English",
+   "ContentIsNative": true
+  },
+  "custom": {
+   "product": "nzz",
+   "docType": "article",
+   "pageType": "article",
+   "layout": "longformstandard",
+   "nzzAbstract": "Wie haben sich die im Durschnitt angewandten Zollsätze bereits verändert?\nWenn trifft es am härtesten, wie reagieren diese darauf?\nWas für Abkommen versuchen die EU und die Schweiz abzuschliesen und wieso?",
+   "ldId": "ld.1891391",
+   "channel": "NZZ in English",
+   "heading": "Even with tariffs on hold, Trump continues to steer the US toward isolation",
+   "language": "en-US"
+  }
+ },
+ "webviewMetadata": {},
+ "cacheTime": 3600
+}

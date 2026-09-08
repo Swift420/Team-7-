@@ -1,0 +1,2198 @@
+{
+ "content": [
+  {
+   "identifier": "header",
+   "id": "doc-1ju44q3kg1",
+   "content": {
+    "title": "Easy Prey for Iran: Kuwait suffers most from attacks on the Gulf",
+    "lead": "Kuwait has long been overshadowed by Qatar and Dubai. Iranian attacks on the Gulf emirate deepen the Kuwaiti crisis – and bring an old trauma back to the surface.",
+    "author": ""
+   },
+   "containers": {
+    "authors": [
+     {
+      "identifier": "author-teaser",
+      "id": "doc-1ju44q3kg2",
+      "content": {
+       "layout": "authorprofile",
+       "title": "Rewert Hoffer, Kuwait City",
+       "url": "/impressum/rewert-hoffer-ld.1711500",
+       "teaserImage": {
+        "originalUrl": "/2023/03/28/59542dc2-b939-455a-8f92-db4fcaf85961.png?crop=800,800,x0,y0",
+        "width": 800,
+        "height": 800,
+        "crop": {
+         "x": 0,
+         "y": 0,
+         "width": 800,
+         "height": 800,
+         "name": "1:1"
+        },
+        "imageService": "fastly",
+        "url": "https://img-msp-prod.nzz.ch/2023/03/28/59542dc2-b939-455a-8f92-db4fcaf85961.png?crop=800,800,x0,y0&width=1024&quality=75&auto=webp"
+       }
+      }
+     }
+    ]
+   },
+   "prevElement": "",
+   "nextElement": "image",
+   "firstContentElement": true
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1jup0bcvn1",
+   "content": {
+    "image": {
+     "author": "Dominique Berbain / Gamma Rapho / Getty",
+     "caption": "Kuwait is the most modest of the Gulf emirates – and is now an Iranian target.",
+     "originalUrl": "/2026/07/30/8a7b0111-8330-485d-8686-b457eeb86bf4.jpg?crop=5616,3744,x0,y0",
+     "width": 5616,
+     "height": 3744,
+     "altText": "Kuwait Towers, February 22, 2017, Koweit city. (Photo by Dominique BERBAIN/Gamma-Rapho via Getty Images)",
+     "origins": [
+      {
+       "name": "Hugo",
+       "identifier": "2179826778"
+      }
+     ],
+     "crop": {
+      "x": 0,
+      "y": 0,
+      "width": 5616,
+      "height": 3744,
+      "name": "article-image"
+     },
+     "namedCrops": [
+      {
+       "x": 0,
+       "y": 0,
+       "width": 5616,
+       "height": 3744,
+       "name": "article-image"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "caption": "Kuwait is the most modest of the Gulf emirates – and is now an Iranian target.",
+    "author": "Dominique Berbain / Gamma Rapho / Getty"
+   },
+   "styles": {
+    "fullwidth-widget": "widget--containerwidth"
+   },
+   "prevElement": "header",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1ju44q3kg4",
+   "content": {
+    "text": "«Should you hear a siren, please proceed immediately to the basement,» says the receptionist at an American chain hotel in Kuwait City. «Welcome!» Unlike Dubai or Doha, Kuwait was not a holiday destination even before the outbreak of the Iran war. But now, hardly any foreigners come to the small Gulf emirate on Iraq’s southern border. The massive hotel block in the center of the city-state currently has roughly as many guests as employees."
+   },
+   "data": {},
+   "prevElement": "image",
+   "nextElement": "barrier"
+  },
+  {
+   "id": "doc-95720e43",
+   "identifier": "barrier",
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1juhsei500",
+   "content": {
+    "text": "Since Iran and the U.S. resumed their mutual shelling, Kuwait has been the hardest hit. Iranian missiles struck, among other targets, a Kuwaiti power plant and a desalination facility. The latter, in particular, is especially concerning for the emirate, which extracts 90% of its drinking water from the sea. In total, since the war began at the end of February, Iran has launched nearly 1,500 missiles and drones at the country, which is not even half the size of Switzerland."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "barrier",
+   "nextElement": "q-embed"
+  },
+  {
+   "identifier": "q-embed",
+   "id": "doc-1jukio5qq0",
+   "content": {
+    "q-embed": {
+     "service": "q-tool",
+     "params": {
+      "id": "173b1563b00e7d95b48f736b38c77de9",
+      "conf": {},
+      "toolConfig": {},
+      "toolRuntimeConfig": {
+       "size": {
+        "width": [
+         {
+          "value": 100,
+          "comparison": ">"
+         }
+        ]
+       },
+       "displayOptions": {
+        "hideTitle": false,
+        "hideSubtitle": false,
+        "hideFooter": false,
+        "hideAcronym": false,
+        "size": "basic"
+       },
+       "locale": "en_US"
+      },
+      "size": "content"
+     },
+     "resolvedValue": {}
+    },
+    "html": "      <div        class=\"q-chart-container\"        id=\"q_chart_173b1563b00e7d95b48f736b38c77de9_qcc523846a025401e946ca0698ba19e56_container\"        data-q-item-id=\"173b1563b00e7d95b48f736b38c77de9\"        data-q-request-id=\"fb6ea1b5385df4bce7fdbcbdc71592d018d850d8\"      ></div>",
+    "stylesheets": [
+     {
+      "type": "remote",
+      "content": "https://service.sophie.nzz.ch/bundle/sophie-color%23master,sophie-font%23master,sophie-legend%23master[icon-label],sophie-q%23master,sophie-viz-color%23master[general].css"
+     },
+     {
+      "type": "inline",
+      "content": "  @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff) format(\"woff\");  }    @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff) format(\"woff\");    unicode-range: U+0020-00FF,U+2005,U+2082;  }      "
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/css-theme-layer/nzz-0.2.0.css"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/chart/q-chart-1.2.6.css"
+     }
+    ],
+    "scripts": [
+     {
+      "type": "inline",
+      "content": "function qTrackingBootstrap(t,e,n){if(window.digitalData&&window.digitalData.component&&window.digitalData.component.push){window.digitalData.component.push(t),window.digitalData.event&&window.digitalData.event.length||(window.digitalData.event=[]);var i=new Date,a=e;a.eventInfo.timeStamp=i.toISOString(),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\");var o=document.querySelectorAll(\"[data-q-request-id='\"+n+\"']\");[].forEach.call(o,function(t){t.addEventListener(\"q-tracking-event\",function(t){var e=new Date;(a=JSON.parse(JSON.stringify(a))).eventInfo.timeStamp=e.toISOString(),a.eventInfo=Object.assign(a.eventInfo,t.detail.eventInfo),a.category=Object.assign(a.category,t.detail.category),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\")},!1)})}};qTrackingBootstrap({\"componentInfo\":{\"componentName\":\"Q\",\"componentID\":\"173b1563b00e7d95b48f736b38c77de9\"},\"category\":{\"componentType\":\"storytelling\",\"componentSubType1\":\"Q graphic\",\"componentSubType2\":\"chart\"}},{\"eventInfo\":{\"eventName\":\"Storytelling Interaction\",\"eventAction\":\"load\",\"type\":\"story\",\"componentName\":\"Q\",\"eventNonInteractive\":true,\"componentID\":\"173b1563b00e7d95b48f736b38c77de9\"},\"category\":{\"primaryCategory\":\"storytelling\",\"subCategory1\":\"Q graphic\",\"subCategory2\":\"chart\"}},\"fb6ea1b5385df4bce7fdbcbdc71592d018d850d8\")"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/chart/q-chart-1.2.6.js"
+     },
+     {
+      "type": "inline",
+      "content": "      (function () {        function initialize() {          const target = document.querySelector('#q_chart_173b1563b00e7d95b48f736b38c77de9_qcc523846a025401e946ca0698ba19e56_container');          if (!target) return;          target.innerHTML = '';          const qdoc = {\"_id\":\"173b1563b00e7d95b48f736b38c77de9\",\"allowDownloadData\":false,\"title\":\"Iran has launched approximately 1,500 missiles and drones at Kuwait\",\"subtitle\":\"Number of Iranian aircraft shot down on selected Gulf states since the start of the war on February 28, 2026\",\"publication\":\"nzz\",\"acronym\":\"rew.\",\"data\":[[null,\"Before the ceasefire\",\"After the ceasefire\"],[\"UAE\",\"2819\",\"2\"],[\"Kuwait\",\"1221\",\"238\"],[\"Saudi Arabia\",\"1020\",\"2\"],[\"Bahrain\",\"710\",\"71\"],[\"Jordan\",\"291\",\"126\"],[\"Qatar\",\"340\",\"7\"]],\"sources\":[{\"text\":\"INSS\",\"link\":{\"url\":\"https://www.inss.org.il/publication/iran-war-data/\"}}],\"events\":[],\"options\":{\"annotations\":{\"valuesOnBars\":true},\"areaChartOptions\":{\"areaInterpolation\":\"linear\",\"stackType\":\"zero\"},\"arrowOptions\":{\"colorScheme\":0,\"invertColorScheme\":false},\"barOptions\":{\"isBarChart\":true,\"forceBarsOnSmall\":false},\"chartType\":\"Bar\",\"colorOverwritesRows\":[],\"colorOverwritesSeries\":[],\"dateSeriesOptions\":{\"interval\":\"auto\",\"labels\":\"many\",\"prognosisStart\":null},\"dotplotOptions\":{},\"hideAxisLabel\":true,\"highlightDataRows\":[],\"highlightDataSeries\":[],\"lineChartOptions\":{\"yScaleType\":\"linear\",\"reverseYScale\":false,\"lineInterpolation\":\"linear\",\"isStockChart\":false},\"largeNumbers\":{\"divideBy\":0}},\"datasheetParseInfo\":{\"columns\":[{\"type\":\"date\",\"dateFormatGroup\":\"day_first\"},{\"type\":\"number\",\"decimalSeparator\":\".\"},{\"type\":\"number\",\"decimalSeparator\":\".\"},{\"type\":\"number\",\"decimalSeparator\":\".\"},{\"type\":\"number\",\"decimalSeparator\":\".\"}]},\"updatedDate\":\"2026-08-03T07:10:07.178Z\",\"notes\":\"The ceasefire between Iran and the US came into effect on April 8, 2026; on July 8, Donald Trump declared the memorandum of understanding with Iran invalid. (Status: July 30, 2026)\"};          const toolRuntimeConfig = {\"displayOptions\":{\"hideTitle\":false,\"hideSubtitle\":false,\"hideFooter\":false,\"hideAcronym\":false,\"size\":\"basic\"},\"size\":{\"width\":[{\"value\":100,\"comparison\":\">\"}]},\"locale\":\"en-US\"};          const toolSettings = {\"qItemInstanceId\":\"q_chart_173b1563b00e7d95b48f736b38c77de9_qcc523846a025401e946ca0698ba19e56\"};          let attempts = 0;          const maxAttempts = 100;          const checkAndInitialize = setInterval(() => {            if (window.qChart) {              clearInterval(checkAndInitialize);              new window.qChart({ target: target, props: {                qdoc: qdoc,                toolSettings: toolSettings,                toolRuntimeConfig: toolRuntimeConfig              } });            } else {              attempts++;              if (attempts >= maxAttempts) {                clearInterval(checkAndInitialize);                console.error('Failed to initialize qChart after 30 seconds');              }            }          }, 300);        }        if (document.body.classList.contains('pagedone')) {          initialize();        } else {          window.addEventListener('pagedone', initialize);        }      })();    "
+     }
+    ]
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jukj04mq0",
+   "content": {
+    "text": "The Iran war hits Kuwait, like other Gulf countries, to the core. But in the city-state, the wailing of sirens and the shelling evoke particularly strong fear. «Because of the invasion, we always have this deep-seated fear that someone from outside will come and take over our country,» says architect Hamad Alfawaz in his office in one of Kuwait’s many modest glass towers."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "q-embed",
+   "nextElement": "alias-teaser-embed"
+  },
+  {
+   "identifier": "alias-teaser-embed",
+   "id": "doc-1jve2jef20",
+   "content": {
+    "title": "Newsletter: The Weekend",
+    "owner": "NZZ",
+    "teaserImage": {
+     "originalUrl": "/2025/09/10/b264a1fc-171a-481d-844f-a268134d3573.png?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2025/09/10/b264a1fc-171a-481d-844f-a268134d3573.png?width=1024&quality=75&auto=webp",
+     "width": 2100,
+     "height": 2100,
+     "crops": [
+      {
+       "name": "1:1",
+       "crop": "2100,2100,x0,y0"
+      },
+      {
+       "name": "4:3",
+       "crop": "2100,1575,x0,y262"
+      },
+      {
+       "name": "3:4",
+       "crop": "1575,2100,x268,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "2100,1400,x0,y356"
+      },
+      {
+       "name": "16:9",
+       "crop": "2100,1181,x0,y459"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "Inspiring reports, moving stories, in-depth background information: Every Friday afternoon we accompany you into your weekend with selected reading tips.",
+     "teaserAuthor": ""
+    },
+    "teaserAuthor": "",
+    "urlAliasTeaser": "https://abo.nzz.ch/newsletter/das-wochenende/",
+    "urlLabel": "Subscribe now for free",
+    "nzzId": "ld.1901825",
+    "isExternal": true,
+    "teaserType": "",
+    "product": "NZZ.ch",
+    "documentId": 1901825,
+    "layout": "alias-teaser",
+    "publicationDate": "2025-09-10T09:16:19.150Z",
+    "publicationLastUpdated": "2026-08-22T17:50:10.099Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2025-09-10T21:16:19.150Z",
+    "teaserCaption": "Inspiring reports, moving stories, in-depth background information: Every Friday afternoon we accompany you into your weekend with selected reading tips.",
+    "url": "https://abo.nzz.ch/newsletter/das-wochenende/",
+    "department": {},
+    "leadText": "Inspiring reports, moving stories, in-depth background information: Every Friday afternoon we accompany you into your weekend with selected reading tips."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jumdugep0",
+   "content": {
+    "text": "The invasion of Iraq was over 35 years ago, but it still burdens the collective psyche of Kuwaitis. In 1990, Iraqi dictator Saddam Hussein sent tanks rolling into the small neighboring country and occupied it for a year, until the U.S. drove Saddam’s troops out in Operation «Desert Storm.» Kuwait has not recovered from the shock to this day. Just as back then, the country’s future hangs in the balance today."
+   },
+   "paidContent": true,
+   "prevElement": "alias-teaser-embed",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1jukhbc8p0",
+   "content": {
+    "title": "Kuwait’s long decline",
+    "id": "subtitle-kuwaits-langer-abstieg"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "image"
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1jumjbbck1",
+   "content": {
+    "image": {
+     "author": "PD",
+     "caption": "Since the war began, architect Hamad Alfawaz’s business has been struggling.",
+     "originalUrl": "/2026/07/29/2d7d9841-27bf-4df6-8258-93e96f683597.jpg?crop=287,402,x0,y0",
+     "width": 287,
+     "height": 402,
+     "altText": "Image box: Hamad Alfawaz, architect from Kuwait",
+     "origins": [
+      {
+       "name": "Hugo",
+       "identifier": "2179814214"
+      }
+     ],
+     "crop": {
+      "x": 0,
+      "y": 0,
+      "width": 287,
+      "height": 402,
+      "name": "article-image"
+     },
+     "namedCrops": [
+      {
+       "x": 0,
+       "y": 0,
+       "width": 287,
+       "height": 402,
+       "name": "article-image"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "caption": "Since the war began, architect Hamad Alfawaz’s business has been struggling.",
+    "author": "PD"
+   },
+   "styles": {
+    "fullwidth-widget": "widget--left"
+   },
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1juht4e7t0",
+   "content": {
+    "text": "Kuwait, once the pearl of the Gulf, has experienced a spectacular decline. «Until the 1980s, we were what Dubai is today,» says Hamad Alfawaz. Now, the emirate even had to temporarily put diesel generators into operation to cover the high electricity consumption during the scorching summer after the missile strike on the power plant."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "image",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jukkic6t0",
+   "content": {
+    "text": "In the 1960s and 1970s, Kuwait was the gateway to the Gulf. It was the first country to possess a sovereign wealth fund, and the Emir financed projects around the world with immense oil wealth – including in what was then an unknown fishing town called Dubai. Nightclubs flourished in Kuwait, and global stars like Andy Warhol stopped in the city-state."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jukmktub0",
+   "content": {
+    "text": "Already in the 1980s, the emirate was caught between the fronts in the Iran-Iraq war. Then, in 1990, it became prey to Saddam Hussein itself. Since then, Kuwait has tried not to attract attention, and not to arouse covetousness among its large neighbors. Since the Iraqi invasion, the emirate has primarily invested abroad, hardly at all at home."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "image"
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1jumsqiip1",
+   "content": {
+    "image": {
+     "author": "John Gaps / AP",
+     "caption": "American soldiers in Kuwait in 1991: After about a year of occupation, the U.S. liberated Kuwait from Saddam Hussein’s troops.",
+     "originalUrl": "/2026/07/29/7e2bdd00-b92d-44d5-9322-eb924ae59b49.jpg?crop=3000,2003,x0,y0",
+     "width": 3000,
+     "height": 2003,
+     "altText": "FILE -- In this March 7, 1991 file photo, a US Marine patrol walks across the charred oil landscape near a burning well during perimeter security patrol near Kuwait City. Twenty five years after the first US Marines swept across the border into Kuwait in the 1991 Gulf War, American forces find themselves battling the extremist Islamic State group, born out of al-Qaeda, in the splintered territories of Iraq and Syria. The Arab allies that joined the 1991 coalition are fighting their own conflicts both at home and abroad, as Iran vies for greater regional power following a nuclear deal with world powers. (AP Photo/John Gaps III, File)",
+     "origins": [
+      {
+       "name": "Hugo",
+       "identifier": "2179815938"
+      }
+     ],
+     "crop": {
+      "x": 0,
+      "y": 0,
+      "width": 3000,
+      "height": 2003,
+      "name": "article-image"
+     },
+     "namedCrops": [
+      {
+       "x": 0,
+       "y": 0,
+       "width": 3000,
+       "height": 2003,
+       "name": "article-image"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "caption": "American soldiers in Kuwait in 1991: After about a year of occupation, the U.S. liberated Kuwait from Saddam Hussein’s troops.",
+    "author": "John Gaps / AP"
+   },
+   "styles": {
+    "fullwidth-widget": "widget--containerwidth"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jukndvcs1",
+   "content": {
+    "text": "This is evident in the cityscape: While Dubai, Abu Dhabi, and Doha have transformed into futuristic metropolises of the global economy with enormous skyscrapers, large areas in prime locations in Kuwait lie fallow. Plaster slowly peels off the facades in the city center. Instead of rolling almost silently over wide streets as in the United Arab Emirates (UAE), cars in Kuwait occasionally rumble over potholes."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "image",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jukqnla40",
+   "content": {
+    "text": "The trauma of the invasion is omnipresent. A recent exhibition titled «Heroes of the Nation» opened at a Kuwaiti gallery for modern art – in which schoolchildren grapple with the latest «external political stress,» as the gallery’s accompanying text states. A large painting with Kuwaiti flags is modeled after Pablo Picasso’s work «Guernica.» Picasso’s work addressed a massacre by the German Luftwaffe in the Spanish Civil War at the time – in Kuwait, since 1990, even the younger generation always assumes the worst."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1juknr3ba0",
+   "content": {
+    "title": "Economy in collapse",
+    "id": "subtitle-die-wirtschaft-ist-eingebrochen"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jukn116g0",
+   "content": {
+    "text": "«The consequences of the Iraqi invasion are even reflected in the architecture,» says Hamad Alfawaz. «In Kuwait, all clients want a basement under their house – because of possible air raids.» The 42-year-old almost never builds a basement in other Gulf states."
+   },
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jukn4ng10",
+   "content": {
+    "text": "At the moment, however, Alfawaz is not planning anything. Since the U.S. and Israel attacked Iran, all his projects are stalled. In his office with its unplastered concrete walls, the few employees look at large screens displaying houses that no one is currently building."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jumkahku1",
+   "content": {
+    "text": "«Business is terrible,» says the entrepreneur. «Since the outbreak of war, no one wants to invest anymore, and we can no longer import some of our building materials.» Since the Iranians closed the Strait of Hormuz, Kuwait can only be supplied by land. «A container from Europe or China might have cost 2,000 dollars before the war,» Alfawaz complains. «Now it’s 10,000 dollars.»"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "image"
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1jumsr8pu0",
+   "content": {
+    "image": {
+     "author": "Essam al-Sudani / Reuters",
+     "caption": "At the end of July, the border crossing between Kuwait and Iraq was hit by an Iranian drone and closed for several days.",
+     "originalUrl": "/2026/07/29/246a510c-6425-46f8-9414-d5a34bcc5728.jpg?crop=5005,3278,x0,y0",
+     "width": 5005,
+     "height": 3278,
+     "altText": "Travelers with luggage pass through the Safwan border crossing on the Iraqi side of the border with Kuwait following the reopening of Kuwait's Abdali border crossing, in Basra province, Iraq, July 26, 2026. REUTERS/Essam Al-Sudani",
+     "origins": [
+      {
+       "name": "Hugo",
+       "identifier": "2179777649"
+      }
+     ],
+     "crop": {
+      "x": 0,
+      "y": 0,
+      "width": 5005,
+      "height": 3278,
+      "name": "article-image"
+     },
+     "namedCrops": [
+      {
+       "x": 0,
+       "y": 0,
+       "width": 5005,
+       "height": 3278,
+       "name": "article-image"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "caption": "At the end of July, the border crossing between Kuwait and Iraq was hit by an Iranian drone and closed for several days.",
+    "author": "Essam al-Sudani / Reuters"
+   },
+   "styles": {
+    "fullwidth-widget": "widget--containerwidth"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jupnlhdm0",
+   "content": {
+    "text": "For Tehran, Kuwait is an easy target due to its geographical proximity. The Iranian regime also cites the American military presence as a reason for the attacks. Over 13,000 U.S. soldiers are still stationed in the small country, the largest American contingent in the region."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "image",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jupnlk2d0",
+   "content": {
+    "text": "Iran also faces few consequences when it shells the small emirate. Although the <a href=\"https://www.wsj.com/world/middle-east/iran-gulf-states-bahrain-kuwait-strikes-009637db?eafs_enabled=false\">Wall Street Journal</a> recently reported that Kuwait had itself launched attacks against Iran in response to the attacks, the emirate immediately denied the newspaper’s report. Diplomatic circles in Kuwait also consider it unlikely that the city-state actually intervened in the war itself."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jupnm52m0",
+   "content": {
+    "text": "Iran is also likely to pursue a strategy of division: By ceasing its attacks on Saudi Arabia, the UAE, and Qatar, but continuing to shell Kuwait and Bahrain, it weakens the unity of the Gulf Arabs. The large neighbors are unlikely to go to war for small Kuwait. The emirate remains on its own, and Iran sets a deterrent example for the remaining Gulf states in Kuwait."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jukhbesk0",
+   "content": {
+    "text": "Despite the attacks and the forced export halt, Kuwait lands softly: The oil-blessed country remains one of the richest in the world, with the Kuwaiti sovereign wealth fund managing over a trillion dollars. More than 15 billion of Kuwait’s petrodollars are invested in Switzerland alone. But fresh money is now scarce."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jukiukug0",
+   "content": {
+    "text": "Oil production has virtually come to a standstill. Only what is needed for domestic consumption is extracted from the ground. Exports have completely ceased, because Kuwait never anticipated a blockade of the Strait of Hormuz – the country does not have pipelines to Saudi Arabia or Iraq."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "q-embed"
+  },
+  {
+   "identifier": "q-embed",
+   "id": "doc-1juko8no90",
+   "content": {
+    "q-embed": {
+     "service": "q-tool",
+     "params": {
+      "id": "de266d4e66d3d94e4de7bfd577658052",
+      "conf": {},
+      "toolConfig": {},
+      "toolRuntimeConfig": {
+       "size": {
+        "width": [
+         {
+          "value": 100,
+          "comparison": ">"
+         }
+        ]
+       },
+       "displayOptions": {
+        "hideTitle": false,
+        "hideSubtitle": false,
+        "hideFooter": false,
+        "hideAcronym": false
+       },
+       "locale": "en_US"
+      },
+      "size": "content"
+     },
+     "resolvedValue": {}
+    },
+    "html": "      <div        class=\"q-locator_map-container\"        id=\"q_locator_map_de266d4e66d3d94e4de7bfd577658052_q3cb90bbc69604194a89a744e3de32f5e_container\"        data-q-item-id=\"de266d4e66d3d94e4de7bfd577658052\"        data-q-request-id=\"5e1c4ef9b0bc6f22394e27ca6bbae09e13099d57\"      ></div>",
+    "stylesheets": [
+     {
+      "type": "remote",
+      "content": "https://service.sophie.nzz.ch/bundle/sophie-color%23master,sophie-font%23master,sophie-legend%23master[icon-label],sophie-q%23master,sophie-viz-color%23master[general].css"
+     },
+     {
+      "type": "inline",
+      "content": "  @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff) format(\"woff\");  }    @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff) format(\"woff\");    unicode-range: U+0020-00FF,U+2005,U+2082;  }      "
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/css-theme-layer/nzz-0.2.0.css"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/locatorMap/q-locatorMap-1.1.12.css"
+     }
+    ],
+    "scripts": [
+     {
+      "type": "inline",
+      "content": "function qTrackingBootstrap(t,e,n){if(window.digitalData&&window.digitalData.component&&window.digitalData.component.push){window.digitalData.component.push(t),window.digitalData.event&&window.digitalData.event.length||(window.digitalData.event=[]);var i=new Date,a=e;a.eventInfo.timeStamp=i.toISOString(),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\");var o=document.querySelectorAll(\"[data-q-request-id='\"+n+\"']\");[].forEach.call(o,function(t){t.addEventListener(\"q-tracking-event\",function(t){var e=new Date;(a=JSON.parse(JSON.stringify(a))).eventInfo.timeStamp=e.toISOString(),a.eventInfo=Object.assign(a.eventInfo,t.detail.eventInfo),a.category=Object.assign(a.category,t.detail.category),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\")},!1)})}};qTrackingBootstrap({\"componentInfo\":{\"componentName\":\"Q\",\"componentID\":\"de266d4e66d3d94e4de7bfd577658052\"},\"category\":{\"componentType\":\"storytelling\",\"componentSubType1\":\"Q graphic\",\"componentSubType2\":\"locator_map\"}},{\"eventInfo\":{\"eventName\":\"Storytelling Interaction\",\"eventAction\":\"load\",\"type\":\"story\",\"componentName\":\"Q\",\"eventNonInteractive\":true,\"componentID\":\"de266d4e66d3d94e4de7bfd577658052\"},\"category\":{\"primaryCategory\":\"storytelling\",\"subCategory1\":\"Q graphic\",\"subCategory2\":\"locator_map\"}},\"5e1c4ef9b0bc6f22394e27ca6bbae09e13099d57\")"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/locatorMap/q-locatorMap-1.1.12.js"
+     },
+     {
+      "type": "inline",
+      "content": "      (function () {        function initialize() {          const target = document.querySelector('#q_locator_map_de266d4e66d3d94e4de7bfd577658052_q3cb90bbc69604194a89a744e3de32f5e_container');          if (!target) return;          target.innerHTML = '';          const qdoc = {\"_id\":\"de266d4e66d3d94e4de7bfd577658052\",\"publication\":\"nzz\",\"acronym\":\"rew.\",\"title\":\"Kuwait is dependent on the Strait of Hormuz\",\"geojsonList\":[{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[55.1887608,25.0750095]},\"properties\":{\"type\":\"city\",\"label\":\"Dubai\",\"labelPosition\":\"left\",\"useForInitialView\":true},\"id\":\"custom-layer-KFosh6GOz310oeFXcpAoc\"},{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[54.37535212332389,24.4604230904162]},\"properties\":{\"type\":\"city\",\"label\":\"Abu Dhabi\",\"labelPosition\":\"bottom\",\"useForInitialView\":true},\"id\":\"custom-layer-RyGFLSL9QX-ItGPxbrF3C\"},{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[56.94619922672305,21.327543318604683]},\"properties\":{\"type\":\"country\",\"label\":\"Oman\",\"labelPosition\":\"right\",\"useForInitialView\":true},\"id\":\"custom-layer-P7yA2-KDkwq_k_qm0ryNs\"},{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[55.745247594291584,29.66112026403809]},\"properties\":{\"type\":\"country\",\"label\":\"Iran\",\"labelPosition\":\"right\",\"useForInitialView\":true},\"id\":\"custom-layer-3UL2iU9f7KOp0jZT24lF-\"},{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[56.3885981633249,26.607869000052972]},\"properties\":{\"type\":\"water\",\"label\":\"Strait of Hormuz\",\"labelPosition\":\"top\",\"useForInitialView\":true},\"id\":\"custom-layer-OlsK5pvWHHy4TxSv0xl6h\"},{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[44.82571295392148,25.076000508071914]},\"id\":\"custom-layer-nU4T5n8aqfp4EssAA81JB\",\"properties\":{\"label\":\"Saudi Arabia\",\"type\":\"country\",\"labelPosition\":\"top\",\"index\":0}},{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[65.73350882350576,27.95603047974207]},\"id\":\"custom-layer-Yt1YViTZm3woUPtE-NcPh\",\"properties\":{\"label\":\"Pakistan\",\"type\":\"country\",\"labelPosition\":\"top\",\"index\":0}},{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[45.67678826121309,31.00356244197644]},\"id\":\"custom-layer-5LQ3M-sfukOxOSjWRSQ4i\",\"properties\":{\"label\":\"Iraq\",\"type\":\"country\",\"labelPosition\":\"top\",\"index\":0}},{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[50.53446035832167,26.155124986171685]},\"id\":\"custom-layer-SevYP4QgVH0oHn9JlIMy3\",\"properties\":{\"label\":\"Bahrain\",\"type\":\"city\",\"labelPosition\":\"top\",\"index\":0}},{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[51.22952934354544,25.333698500125067]},\"id\":\"custom-layer-D5iITpRvBYRodL05o-rWq\",\"properties\":{\"label\":\"Qatar\",\"type\":\"city\",\"labelPosition\":\"bottom\",\"index\":0}},{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[47.49794729053974,29.2733966489194]},\"id\":\"custom-layer-ZzWSuhCwL-zIBxb5MNbg_\",\"properties\":{\"label\":\"Kuwait\",\"type\":\"city\",\"labelPosition\":\"right\",\"index\":0}}],\"sources\":[],\"options\":{\"dimension\":{\"bbox\":[45.87815289443435,21.704355083284042,58.662519027311276,33.029463870740855],\"useDefaultAspectRatio\":true},\"baseLayer\":{\"style\":\"basic\",\"layers\":{\"label\":false}},\"minimap\":{\"showMinimap\":false,\"options\":{\"type\":\"region\",\"region\":{\"id\":\"Q878\",\"label\":\"Vereinigte Arabische Emirate\"},\"position\":\"top-left\"}},\"highlightRegion\":[{\"id\":\"Q817\",\"label\":\"Kuwait\"}],\"labelsBelowMap\":false,\"labelsBelowMapOneRow\":false,\"showLegend\":false},\"updatedDate\":\"2026-07-29T09:45:23.663Z\",\"thumbnail\":\"https://nzzqprod-4851.kxcdn.com/q-item-thumbnails/nzz/5e0bd093c413c997c74821a64a9ad9c3-thumbnail.jpeg\"};          const toolRuntimeConfig = {\"displayOptions\":{\"hideTitle\":false,\"hideSubtitle\":false,\"hideFooter\":false,\"hideAcronym\":false},\"size\":{\"width\":[{\"value\":100,\"comparison\":\">\"}]},\"locale\":\"en-US\"};          const toolSettings = {\"qItemInstanceId\":\"q_locator_map_de266d4e66d3d94e4de7bfd577658052_q3cb90bbc69604194a89a744e3de32f5e\",\"fontBaseUrl\":\"https://qv1-server.nzz.ch/files/locator_map/fonts/\",\"toolBaseUrl\":\"https://q-server.nzz.ch/locator_map\",\"apiKey\":\"UUOJDlqQTsVSgwOM1KVX\"};          let attempts = 0;          const maxAttempts = 100;          const checkAndInitialize = setInterval(() => {            if (window.qLocatorMap) {              clearInterval(checkAndInitialize);              new window.qLocatorMap({ target: target, props: {                qdoc: qdoc,                toolSettings: toolSettings,                toolRuntimeConfig: toolRuntimeConfig              } });            } else {              attempts++;              if (attempts >= maxAttempts) {                clearInterval(checkAndInitialize);                console.error('Failed to initialize qLocatorMap after 30 seconds');              }            }          }, 300);        }        if (document.body.classList.contains('pagedone')) {          initialize();        } else {          window.addEventListener('pagedone', initialize);        }      })();    "
+     }
+    ]
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1jukq2tok0",
+   "content": {
+    "title": "Is a Kuwaiti scenario threatening the entire Gulf?",
+    "id": "subtitle-droht-dem-ganzen-golf-ein-kuwait-szenario"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "q-embed",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1juknu4g20",
+   "content": {
+    "text": "«We must build these pipelines as quickly as possible,» says economics professor Nayef Alshammari. «A situation like before the war, where 20% of global oil exports pass through the Strait of Hormuz, must never happen again.» The economist and former Kuwaiti diplomat in Washington sits in a long white robe, typical for Gulf Arabs, in his office at Kuwait University in the south of the city. An alternative must also be found, Alshammari believes, even if the war were to end immediately. «Our trust in Iran is less than 1%.»"
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "image"
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1jumjasq91",
+   "content": {
+    "image": {
+     "author": "NZZ",
+     "caption": "Kuwaiti economist Nayef Alshammari calls for reforms after the war.",
+     "originalUrl": "/2026/07/29/99a5cea7-2b86-4fbd-9280-32855e9200b5.jpg?crop=422,591,x0,y0",
+     "width": 422,
+     "height": 591,
+     "altText": "Photo box: Nayef Alshammari, Kuwaiti economist",
+     "origins": [
+      {
+       "name": "Hugo",
+       "identifier": "2179814216"
+      }
+     ],
+     "crop": {
+      "x": 0,
+      "y": 0,
+      "width": 422,
+      "height": 591,
+      "name": "article-image"
+     },
+     "namedCrops": [
+      {
+       "x": 0,
+       "y": 0,
+       "width": 422,
+       "height": 591,
+       "name": "article-image"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "caption": "Kuwaiti economist Nayef Alshammari calls for reforms after the war.",
+    "author": "NZZ"
+   },
+   "styles": {
+    "fullwidth-widget": "widget--right"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jukp7hb50",
+   "content": {
+    "text": "And just like all other Gulf states, Kuwait urgently needs to become more independent from the oil business, according to the economist. While Qatar hosts huge sports events, the UAE has two profitable airlines, and Saudi Arabia is launching all sorts of megaprojects with its Vision 2030, Kuwait lags behind."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "image",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jukpd5mv0",
+   "content": {
+    "text": "In the past, attempts to diversify the economy were thwarted by the constantly blocked parliament, sources in the emirate say. Emir Mishal al-Sabah, who has ruled since 2023, dissolved the popular assembly two years ago and can now decide everything alone as he sees fit. But even he has so far left major issues like the massive subsidies for his own population untouched. Kuwaitis still receive electricity, water, and gasoline almost for free. Kuwait remains the most sluggish emirate among the dynamic small states in the Gulf."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "image"
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1jumsqg9d1",
+   "content": {
+    "image": {
+     "author": "Greg Gibson / AP",
+     "caption": "In Kuwait, oil flows in abundance – economic diversification is a long way off.",
+     "originalUrl": "/2026/07/29/29c0b350-b072-4c3e-a52c-49c2095dcdbc.jpg?crop=2998,2013,x0,y0",
+     "width": 2998,
+     "height": 2013,
+     "altText": "Brian Krause, of the Red Adair Co., guides an oil well capping device into place over a spouting well head as co-worker Bert Ballard looks on, Saturday, March 30, 1991 in Kuwait. The Adair Co. managed to cap the well after two attempts, plugging the hole with a mixture of mud and cement. This well was not ablaze. (KEYSTONE/AP Photo/Greg Gibson)",
+     "origins": [
+      {
+       "name": "Hugo",
+       "identifier": "2179815951"
+      }
+     ],
+     "crop": {
+      "x": 0,
+      "y": 0,
+      "width": 2998,
+      "height": 2013,
+      "name": "article-image"
+     },
+     "namedCrops": [
+      {
+       "x": 0,
+       "y": 0,
+       "width": 2998,
+       "height": 2013,
+       "name": "article-image"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "caption": "In Kuwait, oil flows in abundance – economic diversification is a long way off.",
+    "author": "Greg Gibson / AP"
+   },
+   "styles": {
+    "fullwidth-widget": "widget--containerwidth"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jukpssi30",
+   "content": {
+    "text": "The history of the city-state is a cautionary tale for the entire region: A rapid ascent was followed by a shock and then years of stagnation. The rulers in Doha, Abu Dhabi, and Riyadh are likely to be driven by the fear that the Iran war could have a similarly profound long-term impact on their countries as the Iraqi invasion once had on Kuwait."
+   },
+   "paidContent": true,
+   "prevElement": "image",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1jukq2id40",
+   "content": {
+    "title": "Will Kuwait break away from the U.S.?",
+    "id": "subtitle-wird-sich-kuwait-von-den-usa-l-sen"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jukq2pe10",
+   "content": {
+    "text": "«We always wanted to be the Switzerland of the Middle East,» says Saad bin Tiflah with a sigh on the light sofa in his air-conditioned villa. «But unfortunately, our fate is different: We are the good guys in a very bad neighborhood.»"
+   },
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "image"
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1jumjal311",
+   "content": {
+    "image": {
+     "author": "NZZ",
+     "caption": "Kuwait’s former Communications Minister Saad bin Tiflah does not believe his country will turn away from the U.S.",
+     "originalUrl": "/2026/07/29/7c7b3ab6-7b83-4882-992c-3ede90e81288.jpg?crop=422,591,x0,y0",
+     "width": 422,
+     "height": 591,
+     "altText": "Image box: Saad bin Tiflah, former Minister of Communications of Kuwait",
+     "origins": [
+      {
+       "name": "Hugo",
+       "identifier": "2179814218"
+      }
+     ],
+     "crop": {
+      "x": 0,
+      "y": 0,
+      "width": 422,
+      "height": 591,
+      "name": "article-image"
+     },
+     "namedCrops": [
+      {
+       "x": 0,
+       "y": 0,
+       "width": 422,
+       "height": 591,
+       "name": "article-image"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "caption": "Kuwait’s former Communications Minister Saad bin Tiflah does not believe his country will turn away from the U.S.",
+    "author": "NZZ"
+   },
+   "styles": {
+    "fullwidth-widget": "widget--left"
+   },
+   "data": {
+    "_sourceDirective": {
+     "highlightedTextRanges": {
+      "aq6bWLYWMCjD": {
+       "start": 0,
+       "end": 3,
+       "text": "NZZ"
+      }
+     }
+    }
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jukr5ll10",
+   "content": {
+    "text": "Tiflah was Kuwait’s Communications Minister in the late 1990s – he had to polish up the image of the struggling state back then. Today, he is a welcome guest on Arab television and remains closely connected with the Kuwaiti leadership and the strong men of the region."
+   },
+   "paidContent": true,
+   "prevElement": "image",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jukqa3ff0",
+   "content": {
+    "text": "Small Kuwait is threatened with being crushed by two messianic ideologies in the Middle East, says Tiflah: «Radical Zionism of Israel and archaic Islamism of Iran.» «And unfortunately, Iran currently thinks that we are easy prey.»"
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jukrg9460",
+   "content": {
+    "text": "Tehran claims that it primarily attacks American bases in the country and that attacks against its country are launched from Kuwait. So, should Kuwait break away from its former U.S. liberators to avoid future attacks?"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jukrap3l0",
+   "content": {
+    "text": "Saad bin Tiflah brusquely dismisses this scenario: «The U.S. is the reason for our country’s stability over the past 60 years,» says the former minister. «We will continue to need them.» Other Kuwaitis, however, privately doubt the close alignment with the U.S. A former military official, who still advises Kuwait’s government, grumbles in a confidential conversation about the allies in Washington, saying their bases have only brought chaos instead of security to Kuwait."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1jupo2ido0",
+   "content": {
+    "text": "The entire Gulf is already overhauling its security policy. Relations with the U.S. are at the top of the agenda. Kuwait is likely to do what it has been doing for 36 years now: wait to see how the other Gulf states position themselves, make a decision carefully, and avoid attracting attention."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "sharebox",
+   "lastContentElement": true
+  },
+  {
+   "identifier": "sharebox",
+   "id": "doc-1ju44q3kg5",
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "related-articles-container"
+  },
+  {
+   "identifier": "related-articles-container",
+   "id": "doc-1ju44q3kg6",
+   "content": {
+    "title": "Related articles"
+   },
+   "containers": {
+    "related-articles": [
+     {
+      "identifier": "teaser",
+      "id": "doc-1ju44q3kh0",
+      "content": {
+       "title": "Explosion at Kuwait airport: What the visual evidence reveals",
+       "showHeader": true,
+       "owner": "NZZ",
+       "language": {
+        "locale": "de"
+       },
+       "tags": [
+        "Visuals"
+       ],
+       "teaserImage": {
+        "originalUrl": "/2026/06/05/033830db-1141-48b4-b90c-607c60b9471d.jpg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2026/06/05/033830db-1141-48b4-b90c-607c60b9471d.jpg?width=1024&quality=75&auto=webp",
+        "width": 1920,
+        "height": 1080,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "1920,1080,x0,y0"
+         },
+         {
+          "name": "4:3",
+          "crop": "1440,1080,x240,y0"
+         },
+         {
+          "name": "1:1",
+          "crop": "1080,1080,x420,y0"
+         },
+         {
+          "name": "3:4",
+          "crop": "810,1080,x555,y0"
+         },
+         {
+          "name": "3:2",
+          "crop": "1620,1080,x150,y0"
+         }
+        ],
+        "imageService": "fastly",
+        "teaserCaption": "Following the incident at Kuwait International Airport, the US and Iran are blaming each other. Videos, photos, and satellite images provide clues as to what happened."
+       },
+       "videoTeaser": "evCwTUNF",
+       "nzzId": "ld.10009895",
+       "readingTime": 180,
+       "embeds": {
+        "videos": [
+         {
+          "id": "evCwTUNF",
+          "provider": "jw",
+          "teaser": true
+         },
+         {
+          "id": "evCwTUNF",
+          "provider": "jw",
+          "teaser": false
+         },
+         {
+          "id": "rl8xYE4O",
+          "provider": "jw",
+          "teaser": false
+         }
+        ]
+       },
+       "colorSchema": "color-schema--ivory",
+       "paywallQuestionOne": "What clues do the videos provide regarding the cause of the explosion?",
+       "paywallQuestionTwo": "Was it a drone attack or a misguided defensive missile?",
+       "paywallQuestionThree": "What damage occurred to Terminal 1 of the airport?",
+       "characterCount": 3493,
+       "product": "NZZ.ch",
+       "documentId": 10009895,
+       "layout": "longformvisual",
+       "publicationDate": "2026-06-06T10:21:09.458Z",
+       "publicationLastUpdated": "2026-06-06T12:48:37.550Z",
+       "significantUpdate": false,
+       "significantUpdateTill": "2026-06-06T22:21:09.458Z",
+       "teaserCaption": "Following the incident at Kuwait International Airport, the US and Iran are blaming each other. Videos, photos, and satellite images provide clues as to what happened.",
+       "authorLine": "Jessica Eberhart, Jasmine Jacot-Descombes",
+       "authorImage": {
+        "originalUrl": "/2024/06/13/f0544b80-eae1-4460-a274-ea2b6175f28f.jpeg?crop=2820,2820,x975,y291",
+        "width": 5118,
+        "height": 3412,
+        "crop": {
+         "x": 975,
+         "y": 291,
+         "width": 2820,
+         "height": 2820,
+         "name": "1:1"
+        },
+        "namedCrops": [
+         {
+          "x": 975,
+          "y": 291,
+          "width": 2820,
+          "height": 2820,
+          "name": "1:1"
+         }
+        ],
+        "imageService": "fastly",
+        "url": "https://img-msp-prod.nzz.ch/2024/06/13/f0544b80-eae1-4460-a274-ea2b6175f28f.jpeg?crop=2820,2820,x975,y291&width=1024&quality=75&auto=webp",
+        "crops": []
+       },
+       "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2024/06/13/f0544b80-eae1-4460-a274-ea2b6175f28f.jpeg?crop=2820,2820,x975,y291&width=1024&quality=75&auto=webp",
+       "url": "/visuals/explosion-am-flughafen-von-kuwait-was-das-bildmaterial-verraet-ld.10009895",
+       "department": {
+        "name": "Visual Stories",
+        "path": "/visuals"
+       },
+       "estimationWordCount": 513,
+       "leadText": "Following the incident at Kuwait International Airport, the US and Iran are blaming each other. Videos, photos, and satellite images provide clues as to what happened.",
+       "nzzSummaryIsAuto": true,
+       "hasQ": true,
+       "locale": "de-CH"
+      }
+     },
+     {
+      "identifier": "teaser",
+      "id": "doc-1ju44q3kh1",
+      "content": {
+       "owner": "NZZ",
+       "title": "A bridge that leads nowhere: why Kuwait simply cannot move forward despite its oil",
+       "teaserImage": {
+        "originalUrl": "/2023/10/06/576107fb-a310-488d-be83-811c8fb4a42e.jpeg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2023/10/06/576107fb-a310-488d-be83-811c8fb4a42e.jpeg?width=1024&quality=75&auto=webp",
+        "width": 2362,
+        "height": 1327,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "2097,1180,x265,y90"
+         },
+         {
+          "name": "1:1",
+          "crop": "1048,1048,x331,y248"
+         },
+         {
+          "name": "4:3",
+          "crop": "1769,1327,x296,y0"
+         },
+         {
+          "name": "3:4",
+          "crop": "995,1327,x421,y0"
+         }
+        ],
+        "imageService": "fastly",
+        "teaserCaption": "While the other Gulf states strive for global prominence, Kuwait remains stagnant. Yet, in the 1960s and 70s, the emirate was once the most modern country in the Middle East. A visit.",
+        "teaserAuthor": "Stephanie McGehee"
+       },
+       "teaserAuthor": "Stephanie McGehee",
+       "nzzasFootnote": false,
+       "folioFootnote": false,
+       "language": {
+        "locale": "de-CH"
+       },
+       "nzzId": "ld.1758315",
+       "readingTime": 480,
+       "authorLine": "Daniel Böhm, Kuwait",
+       "characterCount": 9763,
+       "product": "NZZ.ch",
+       "documentId": 1758315,
+       "layout": "longformvisual",
+       "publicationDate": "2023-12-23T04:30:00.000Z",
+       "publicationLastUpdated": "2023-12-23T12:49:17.127Z",
+       "significantUpdate": false,
+       "significantUpdateTill": "2023-12-23T16:30:00.000Z",
+       "teaserCaption": "While the other Gulf states strive for global prominence, Kuwait remains stagnant. Yet, in the 1960s and 70s, the emirate was once the most modern country in the Middle East. A visit.",
+       "url": "/international/in-kuwait-herrscht-stillstand-ist-die-demokratie-schuld-ld.1758315",
+       "department": {
+        "name": "International",
+        "path": "/international"
+       },
+       "estimationWordCount": 1586,
+       "premium": true,
+       "leadText": "While the other Gulf states strive for global prominence, Kuwait remains stagnant. Yet, in the 1960s and 70s, the emirate was once the most modern country in the Middle East. A visit."
+      }
+     }
+    ]
+   },
+   "paidContent": true,
+   "prevElement": "sharebox",
+   "nextElement": "",
+   "lastContentElement": true
+  }
+ ],
+ "metadata": {
+  "germanyRelevant": true,
+  "showHeader": true,
+  "owner": "NZZ",
+  "language": {
+   "locale": "en-US"
+  },
+  "dependencies": {},
+  "title": "Easy Prey for Iran: Kuwait suffers most from attacks on the Gulf",
+  "tags": [
+   "Krieg in Nahost",
+   "Nahost und Afrika",
+   "Iran-Krieg"
+  ],
+  "teaserImage": {
+   "originalUrl": "/2026/07/30/8a7b0111-8330-485d-8686-b457eeb86bf4.jpg?width=1024",
+   "url": "https://img-msp-prod.nzz.ch/2026/07/30/8a7b0111-8330-485d-8686-b457eeb86bf4.jpg?width=1024&quality=75&auto=webp",
+   "width": 5616,
+   "height": 3744,
+   "crops": [
+    {
+     "name": "16:9",
+     "crop": "5616,3159,x0,y193"
+    },
+    {
+     "name": "4:3",
+     "crop": "4992,3744,x0,y0"
+    },
+    {
+     "name": "1:1",
+     "crop": "3744,3744,x611,y0"
+    },
+    {
+     "name": "3:4",
+     "crop": "2808,3744,x1045,y0"
+    },
+    {
+     "name": "3:2",
+     "crop": "5616,3744,x0,y0"
+    }
+   ],
+   "imageService": "fastly",
+   "teaserCaption": "Kuwait has long been overshadowed by Qatar and Dubai. Iranian attacks on the Gulf emirate deepen the Kuwaiti crisis – and bring an old trauma back to the surface.",
+   "teaserAuthor": "Dominique Berbain / Gamma Rapho / Getty"
+  },
+  "teaserAuthor": "Dominique Berbain / Gamma Rapho / Getty",
+  "editor": "1374076",
+  "teaserCarouselOne": {
+   "originalUrl": "/2026/07/30/8a7b0111-8330-485d-8686-b457eeb86bf4.jpg?width=1024",
+   "url": "https://img-msp-prod.nzz.ch/2026/07/30/8a7b0111-8330-485d-8686-b457eeb86bf4.jpg?width=1024&quality=75&auto=webp",
+   "width": 5616,
+   "height": 3744,
+   "crops": [
+    {
+     "name": "16:9",
+     "crop": "5616,3159,x0,y196"
+    },
+    {
+     "name": "1:1",
+     "crop": "3744,3744,x638,y0"
+    },
+    {
+     "name": "4:3",
+     "crop": "4992,3744,x0,y0"
+    },
+    {
+     "name": "3:4",
+     "crop": "2808,3744,x1011,y0"
+    },
+    {
+     "name": "3:2",
+     "crop": "5616,3744,x0,y0"
+    }
+   ],
+   "imageService": "fastly"
+  },
+  "teaserCarouselTwo": {
+   "originalUrl": "/2026/07/29/7e2bdd00-b92d-44d5-9322-eb924ae59b49.jpg?width=1024",
+   "url": "https://img-msp-prod.nzz.ch/2026/07/29/7e2bdd00-b92d-44d5-9322-eb924ae59b49.jpg?width=1024&quality=75&auto=webp",
+   "width": 3000,
+   "height": 2003,
+   "crops": [
+    {
+     "name": "16:9",
+     "crop": "3000,1687,x0,y147"
+    },
+    {
+     "name": "1:1",
+     "crop": "2003,2003,x0,y0"
+    },
+    {
+     "name": "4:3",
+     "crop": "2671,2003,x58,y0"
+    },
+    {
+     "name": "3:4",
+     "crop": "1502,2003,x0,y0"
+    },
+    {
+     "name": "3:2",
+     "crop": "3000,2000,x0,y3"
+    }
+   ],
+   "imageService": "fastly"
+  },
+  "teaserCarouselThree": {
+   "originalUrl": "/2026/07/29/29c0b350-b072-4c3e-a52c-49c2095dcdbc.jpg?width=1024",
+   "url": "https://img-msp-prod.nzz.ch/2026/07/29/29c0b350-b072-4c3e-a52c-49c2095dcdbc.jpg?width=1024&quality=75&auto=webp",
+   "width": 2998,
+   "height": 2013,
+   "crops": [
+    {
+     "name": "16:9",
+     "crop": "2998,1686,x0,y128"
+    },
+    {
+     "name": "1:1",
+     "crop": "2013,2013,x249,y0"
+    },
+    {
+     "name": "4:3",
+     "crop": "2684,2013,x0,y0"
+    },
+    {
+     "name": "3:4",
+     "crop": "1510,2013,x507,y0"
+    },
+    {
+     "name": "3:2",
+     "crop": "2998,1999,x0,y14"
+    }
+   ],
+   "imageService": "fastly"
+  },
+  "nzzId": "ld.10016497",
+  "readingTime": 540,
+  "characterCount": 10667,
+  "breadcrumbs": [
+   {
+    "name": "International",
+    "path": "/international"
+   }
+  ],
+  "product": "NZZ.ch",
+  "documentId": 10016497,
+  "contentTypeGroup": "web",
+  "layout": "longformstandard",
+  "firstPublicationDate": "2026-08-06T03:30:00.000Z",
+  "publicationDate": "2026-08-06T03:30:00.000Z",
+  "publicationLastUpdated": "2026-08-07T12:21:41.364Z",
+  "significantUpdate": false,
+  "significantUpdateTill": "2026-08-06T15:30:00.000Z",
+  "teaserCaption": "Kuwait has long been overshadowed by Qatar and Dubai. Iranian attacks on the Gulf emirate deepen the Kuwaiti crisis – and bring an old trauma back to the surface.",
+  "nzzAuthors": [
+   {
+    "id": 1641030,
+    "name": "Rewert Hoffer",
+    "shortName": "rew",
+    "pianoId": "2b0f12b1-62fd-4998-b62b-b34c94d8d8a5",
+    "external": false
+   }
+  ],
+  "authorLine": "Rewert Hoffer, Kuwait City",
+  "authorImage": {
+   "originalUrl": "/2023/03/28/59542dc2-b939-455a-8f92-db4fcaf85961.png?crop=800,800,x0,y0",
+   "width": 800,
+   "height": 800,
+   "crop": {
+    "x": 0,
+    "y": 0,
+    "width": 800,
+    "height": 800,
+    "name": "1:1"
+   },
+   "imageService": "fastly",
+   "url": "https://img-msp-prod.nzz.ch/2023/03/28/59542dc2-b939-455a-8f92-db4fcaf85961.png?crop=800,800,x0,y0&width=1024&quality=75&auto=webp",
+   "crops": []
+  },
+  "nzzAuthorProfileDataCollection": [
+   {
+    "documentId": 1711500,
+    "name": "Rewert Hoffer, Kuwait City",
+    "teaserImageUrl": "https://img-msp-prod.nzz.ch/2023/03/28/59542dc2-b939-455a-8f92-db4fcaf85961.png?crop=800,800,x0,y0&width=1024&quality=75&auto=webp"
+   }
+  ],
+  "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2023/03/28/59542dc2-b939-455a-8f92-db4fcaf85961.png?crop=800,800,x0,y0&width=1024&quality=75&auto=webp",
+  "url": "/international/iran-warum-teherans-angriffe-kuwait-ins-mark-treffen-ld.10016497",
+  "department": {
+   "name": "International",
+   "path": "/international"
+  },
+  "estimationWordCount": 1718,
+  "premium": true,
+  "leadText": "Kuwait has long been overshadowed by Qatar and Dubai. Iranian attacks on the Gulf emirate deepen the Kuwaiti crisis – and bring an old trauma back to the surface.",
+  "nzzSummaryEN": "- Kuwait has been heavily affected by Iranian attacks targeting key infrastructure, such as power plants and desalination facilities, with around 1,500 rockets and drones fired at the country.\n- The attacks evoke memories of Iraq's 1990 invasion, intensifying fears among citizens. This historical trauma continues to impact the nation's collective psyche and economy.\n- Iran is using Kuwait as a cautionary example, claiming the attacks are justified by the US military presence. Kuwait remains economically and politically isolated.",
+  "nzzSummaryDE": "Kuwait has been severely impacted by Iranian attacks on critical infrastructure such as power plants and desalination facilities. A total of approximately 1,500 missiles and drones were fired at the country.\n The attacks evoke memories of the 1990 Iraqi invasion, intensifying anxieties among the population. This historical burden continues to affect the collective psyche and the economy of the country.\n Iran uses Kuwait as a deterrent, arguing that the attacks are justified because of the US military presence. Kuwait is economically and politically isolated.",
+  "nzzSummaryIsAuto": true,
+  "nzzSummaryModel": "gpt-4o-2024-11-20",
+  "nzzPrintTitle": "Easy prey for Iran",
+  "nzzPrintSubtitle": "Kuwait has long been overshadowed by the other Gulf states – now it is being hit hard by Tehran's attacks",
+  "allArticleLanguages": [
+   {
+    "locale": "de",
+    "urlPath": "/international/iran-warum-teherans-angriffe-kuwait-ins-mark-treffen-ld.10016497",
+    "seo": {}
+   }
+  ],
+  "seo": {
+   "canonicalUrl": "https://www.nzz.ch/international/iran-warum-teherans-angriffe-kuwait-ins-mark-treffen-ld.10016497",
+   "title": "Iran: Why Tehran's attacks strike at the heart of Kuwait",
+   "socialMediaTitle": "Why Kuwait is suffering the most from Iran's attacks on the Gulf",
+   "excludeFromSpiders": false,
+   "image": "https://img-msp-prod.nzz.ch/2026/07/30/8a7b0111-8330-485d-8686-b457eeb86bf4.jpg?width=1200&height=675&fit=bounds&quality=75&auto=webp&crop=5616,3159,x0,y193&wmark=nzz"
+  },
+  "ldPublicationId": 2474946,
+  "isHighlightedHeader": false,
+  "nzzTopics": [
+   {
+    "name": "Kuwait",
+    "slug": "/themen/kuwait"
+   },
+   {
+    "name": "Iran",
+    "slug": "/themen/iran"
+   },
+   {
+    "name": "USA",
+    "slug": "/themen/usa"
+   },
+   {
+    "name": "Iraq",
+    "slug": "/themen/irak"
+   },
+   {
+    "name": "Dubai",
+    "slug": "/themen/dubai"
+   },
+   {
+    "name": "oil",
+    "slug": "/themen/erdoel"
+   },
+   {
+    "name": "Saudi Arabia",
+    "slug": "/themen/saudiarabien"
+   }
+  ],
+  "barrierIndex": 3,
+  "outlinks": {
+   "mehrZumThema": [
+    "ld.10009895",
+    "ld.1758315"
+   ],
+   "artikelListe": [],
+   "aliasTeaserEmbedList": []
+  },
+  "tts": true,
+  "hasQ": true,
+  "locale": "de-CH",
+  "mp3": true,
+  "mp3Duration": 674640,
+  "colorSchema": "color-schema--premium",
+  "project": "nzz",
+  "machineTranslated": true,
+  "machineTranslationValidated": false
+ },
+ "isReduced": false,
+ "isPaid": false,
+ "isVamp": false,
+ "isWebview": false,
+ "btaFeed": {
+  "meta": {
+   "id": "kuwait",
+   "name": "Kuwait",
+   "tagName": "Kuwait",
+   "qId": "Q817",
+   "seoTitle": "Kuwait – All articles on the topic",
+   "description": null,
+   "firstName": null,
+   "lastName": null,
+   "category": "LOC",
+   "createdDate": "2025-04-08 14:55:56.010Z",
+   "imageURL": null,
+   "imageCroppedURL": null,
+   "imageWidth": null,
+   "imageHeight": null,
+   "imageCredits": null,
+   "url": "https://nzz.ch/themen/kuwait",
+   "size": 73,
+   "relatedTopics": [
+    {
+     "name": "Iran",
+     "slug": "/themen/iran"
+    },
+    {
+     "name": "USA",
+     "slug": "/themen/usa"
+    },
+    {
+     "name": "Irak",
+     "slug": "/themen/irak"
+    },
+    {
+     "name": "Dubai",
+     "slug": "/themen/dubai"
+    },
+    {
+     "name": "Erdöl",
+     "slug": "/themen/erdoel"
+    },
+    {
+     "name": "Saudiarabien",
+     "slug": "/themen/saudiarabien"
+    }
+   ]
+  },
+  "data": [
+   {
+    "title": "When democracy dies, but no one protests: Kuwait's Emir dissolves parliament – and Kuwaitis are happy about it",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "tags": [
+     "Nahost und Afrika"
+    ],
+    "teaserImage": {
+     "originalUrl": "/2026/08/26/45a3c328-3387-4150-9ac9-91563ff7568a.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/08/26/45a3c328-3387-4150-9ac9-91563ff7568a.jpg?width=1024&quality=75&auto=webp",
+     "width": 2048,
+     "height": 1365,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "2048,1152,x0,y213"
+      },
+      {
+       "name": "4:3",
+       "crop": "1820,1365,x114,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "1365,1365,x342,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "1024,1365,x512,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "2048,1365,x0,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "The small emirate is the only Gulf state with a true democratic tradition – which may now be over. There is hardly any resistance to this: many Kuwaitis blame parliament for the stagnation in their country.",
+     "teaserAuthor": "Amiri Diwan via Anadolu/Getty"
+    },
+    "teaserAuthor": "Amiri Diwan via Anadolu/Getty",
+    "teaserCarouselOne": {
+     "originalUrl": "/2026/08/26/45a3c328-3387-4150-9ac9-91563ff7568a.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/08/26/45a3c328-3387-4150-9ac9-91563ff7568a.jpg?width=1024&quality=75&auto=webp",
+     "width": 2048,
+     "height": 1365,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "2048,1152,x0,y145"
+      },
+      {
+       "name": "1:1",
+       "crop": "1365,1365,x416,y0"
+      },
+      {
+       "name": "4:3",
+       "crop": "1820,1365,x182,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "1024,1365,x512,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "2048,1365,x0,y0"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "teaserCarouselTwo": {
+     "originalUrl": "/2026/08/27/a9db920f-a8d7-4b5a-afd8-a1a9944d4b90.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/08/27/a9db920f-a8d7-4b5a-afd8-a1a9944d4b90.jpg?width=1024&quality=75&auto=webp",
+     "width": 6000,
+     "height": 4000,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "6000,3375,x0,y625"
+      },
+      {
+       "name": "1:1",
+       "crop": "3005,3005,x2374,y995"
+      },
+      {
+       "name": "4:3",
+       "crop": "5333,4000,x667,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "3000,4000,x1243,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "6000,4000,x0,y0"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "teaserCarouselThree": {
+     "originalUrl": "/2026/07/29/3eb95331-0193-4ac2-a60f-8a492fefccc7.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/07/29/3eb95331-0193-4ac2-a60f-8a492fefccc7.jpg?width=1024&quality=75&auto=webp",
+     "width": 5498,
+     "height": 3658,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "5498,3093,x0,y565"
+      },
+      {
+       "name": "1:1",
+       "crop": "3023,3023,x1308,y635"
+      },
+      {
+       "name": "4:3",
+       "crop": "4877,3658,x125,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "2744,3658,x1429,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "5487,3658,x0,y0"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "teaserCarouselFour": {
+     "originalUrl": "/2026/08/26/0e5b1b0d-2652-4644-b358-0e4d0db568a0.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/08/26/0e5b1b0d-2652-4644-b358-0e4d0db568a0.jpg?width=1024&quality=75&auto=webp",
+     "width": 5811,
+     "height": 3874,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "5811,3269,x0,y605"
+      },
+      {
+       "name": "1:1",
+       "crop": "3874,3874,x566,y0"
+      },
+      {
+       "name": "4:3",
+       "crop": "5165,3874,x58,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "2906,3874,x640,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "5811,3874,x0,y0"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "nzzId": "ld.10018611",
+    "readingTime": 360,
+    "paywallQuestionOne": "Why is there so little resistance to the dissolution of parliament in Kuwait?",
+    "paywallQuestionTwo": "Will Kuwait's democracy be definitively abolished by the constitutional overhaul?",
+    "paywallQuestionThree": "Is democracy in Kuwait actually responsible for the stagnation in the country?",
+    "characterCount": 7348,
+    "product": "NZZ.ch",
+    "documentId": "10018611",
+    "layout": "longformstandard",
+    "publicationDate": "2026-08-31T03:31:00.000Z",
+    "publicationLastUpdated": "2026-08-31T03:31:00.000Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-08-31T15:31:00.000Z",
+    "teaserCaption": "The small emirate is the only Gulf state with a true democratic tradition – which may now be over. There is hardly any resistance to this: many Kuwaitis blame parliament for the stagnation in their country.",
+    "authorLine": "Rewert Hoffer, Kuwait City",
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2023/03/28/59542dc2-b939-455a-8f92-db4fcaf85961.png?crop=800,800,x0,y0&width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/international/kuwaits-demokratie-stirbt-die-kuwaiter-sind-gluecklich-darueber-ld.10018611",
+    "department": {
+     "name": "International",
+     "path": "/international"
+    },
+    "estimationWordCount": 1222,
+    "leadText": "The small emirate is the only Gulf state with a true democratic tradition – which may now be over. There is hardly any resistance to this: many Kuwaitis blame parliament for the stagnation in their country.",
+    "nzzSummaryIsAuto": true,
+    "hasQ": true,
+    "locale": "de-CH"
+   },
+   {
+    "title": "Business dealings with Kuwait: Pierre Mirabaud must stand trial for bribery and money laundering",
+    "showHeader": true,
+    "owner": "NZZaS",
+    "language": {
+     "locale": "de"
+    },
+    "teaserImage": {
+     "originalUrl": "/v/2026/08/28/cig4f6CX?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/v/2026/08/28/cig4f6CX?width=1024&quality=75&auto=webp",
+     "width": 2656,
+     "height": 1948,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "2656,1494,x0,y168"
+      },
+      {
+       "name": "4:3",
+       "crop": "2597,1948,x29,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "1948,1948,x575,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "1461,1948,x742,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "2656,1771,x0,y89"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "The former president of the Bankers Association was long an influential figure in the Swiss financial sector. Now, a serious legacy issue is catching up with him.",
+     "teaserAuthor": "Steffen Schmidt / Keystone"
+    },
+    "teaserAuthor": "Steffen Schmidt / Keystone",
+    "nzzId": "ld.10021423",
+    "readingTime": 120,
+    "paywallQuestionOne": "What charges does the Federal Prosecutor's Office bring against Pierre Mirabaud?",
+    "paywallQuestionTwo": "According to the indictment, what were the reimbursements paid to Fahad al-Rajaan?",
+    "paywallQuestionThree": "Why is the trial against Mirabaud being conducted in an abbreviated manner?",
+    "characterCount": 2279,
+    "nzzasFootnote": true,
+    "product": "NZZ.ch",
+    "documentId": "10021423",
+    "layout": "regular",
+    "publicationDate": "2026-08-30T03:30:00.000Z",
+    "publicationLastUpdated": "2026-08-30T19:33:43.868Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-08-30T15:30:00.000Z",
+    "teaserCaption": "The former president of the Bankers Association was long an influential figure in the Swiss financial sector. Now, a serious legacy issue is catching up with him.",
+    "authorLine": "Beatrice Bösiger",
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2024/12/18/fe52bced-0cc0-4555-a3ba-c4b9ed4dd1da.jpeg?width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/wirtschaft/geschaefte-mit-kuwait-pierre-mirabaud-muss-wegen-bestechung-und-geldwaescherei-vor-gericht-ld.10021423",
+    "department": {
+     "name": "Economy",
+     "path": "/wirtschaft"
+    },
+    "estimationWordCount": 354,
+    "leadText": "The former president of the Bankers Association was long an influential figure in the Swiss financial sector. Now, a serious legacy issue is catching up with him.",
+    "nzzSummaryIsAuto": true,
+    "locale": "de-CH"
+   },
+   {
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "flag": "Podcast «NZZ Akzent»",
+    "showComments": true,
+    "title": "Why Trump's Iran deal is worrying the Gulf states",
+    "tags": [
+     "Nahost und Afrika"
+    ],
+    "teaserImage": {
+     "originalUrl": "/2026/07/02/6e593953-a84f-462e-92b2-f6edd2f8060b.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/07/02/6e593953-a84f-462e-92b2-f6edd2f8060b.jpg?width=1024&quality=75&auto=webp",
+     "width": 3000,
+     "height": 3000,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "2999,1687,x0,y71"
+      },
+      {
+       "name": "4:3",
+       "crop": "3000,2250,x0,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "3000,3000,x0,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "2250,3000,x414,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "3000,2000,x0,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "Trump's agreement with Iran has angered the Gulf states. Our Middle East correspondent explains how they are reacting."
+    },
+    "nzzId": "ld.10013756",
+    "readingTime": 60,
+    "paywallQuestionOne": "Why is Trump's Iran deal being met with rejection by the Gulf states?",
+    "paywallQuestionTwo": "How does the Iran deal affect stability in the Gulf region?",
+    "paywallQuestionThree": "What options remain for the Gulf States in dealing with Iran?",
+    "characterCount": 1174,
+    "product": "NZZ.ch",
+    "documentId": "10013756",
+    "layout": "regular",
+    "publicationDate": "2026-07-03T03:30:00.000Z",
+    "publicationLastUpdated": "2026-07-03T03:30:00.000Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-07-03T15:30:00.000Z",
+    "teaserCaption": "Trump's agreement with Iran has angered the Gulf states. Our Middle East correspondent explains how they are reacting.",
+    "authorLine": "Simon Schaffer",
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2023/11/07/365d2686-4ac2-4558-8616-7fb15fe2eeb6.png?width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/podcast/warum-trumps-iran-deal-den-golfstaaten-sorgen-macht-ld.10013756",
+    "department": {
+     "name": "Podcast",
+     "path": "/podcast"
+    },
+    "estimationWordCount": 213,
+    "leadText": "Trump's agreement with Iran has angered the Gulf states. Our Middle East correspondent explains how they are reacting.",
+    "nzzSummaryIsAuto": true,
+    "teaserPodcastTitle": "Why Trump's Iran deal is worrying the Gulf states",
+    "teaserPodcastAuthor": "Simon Schaffer mit Daniel Böhm",
+    "teaserPodcastDate": "03.07.2026",
+    "teaserPodcastUrl": "https://audio.podigee-cdn.net/2535577-m-a09aa0ad04e373ce356174f3910c01d9.mp3",
+    "teaserPodcastDuration": "16",
+    "commentsCount": 2,
+    "openToComment": false,
+    "locale": "de-CH"
+   },
+   {
+    "owner": "NZZ",
+    "flag": "Live ticker",
+    "title": "Iran war: Renewed fighting in Lebanon despite ceasefire agreement +++ Hizbullah rejects ceasefire with Israel",
+    "teaserImage": {
+     "originalUrl": "/2026/06/05/240314bf-3f20-403a-866e-f5cfb1563836.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/06/05/240314bf-3f20-403a-866e-f5cfb1563836.jpg?width=1024&quality=75&auto=webp",
+     "width": 4550,
+     "height": 3033,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "4550,2559,x0,y42"
+      },
+      {
+       "name": "4:3",
+       "crop": "4044,3033,x253,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "3033,3033,x664,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "2275,3033,x979,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "4550,3033,x0,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "The U.S. and Israel attacked Iran. Tehran launched fierce counterattacks. A ceasefire is currently in effect. The consequences of the conflict are being felt worldwide. The latest developments in this live ticker.",
+     "teaserAuthor": "ARIEL SCHALIT / AP"
+    },
+    "teaserAuthor": "ARIEL SCHALIT / AP",
+    "nzzasFootnote": false,
+    "folioFootnote": false,
+    "language": {
+     "locale": "de-CH"
+    },
+    "nzzId": "ld.1920292",
+    "readingTime": 60,
+    "authorLine": "",
+    "liveCenterId": "83265",
+    "videoTeaser": "",
+    "paywallQuestionOne": "What are the global consequences of the Iran conflict?",
+    "paywallQuestionTwo": "Why are the US accusing Tehran of a breach?",
+    "paywallQuestionThree": "What role does Pakistan play in this conflict?",
+    "freeToRead": false,
+    "tags": [
+     "Iran-Krieg"
+    ],
+    "characterCount": 19,
+    "product": "NZZ.ch",
+    "documentId": "1920292",
+    "layout": "regular",
+    "publicationDate": "2026-06-05T01:34:55.314Z",
+    "publicationLastUpdated": "2026-06-05T01:34:55.314Z",
+    "significantUpdate": true,
+    "significantUpdateTill": "2026-06-05T13:34:55.314Z",
+    "teaserCaption": "The U.S. and Israel attacked Iran. Tehran launched fierce counterattacks. A ceasefire is currently in effect. The consequences of the conflict are being felt worldwide. The latest developments in this live ticker.",
+    "url": "https://www.nzz.ch/international/iran-krieg-iran-stellt-wohl-gespraeche-mit-den-usa-ein-libanons-praesident-warnt-vor-einem-krieg-mit-israel-ld.1920292",
+    "department": {
+     "name": "International",
+     "path": "/international"
+    },
+    "estimationWordCount": 77,
+    "leadText": "The U.S. and Israel attacked Iran. Tehran launched fierce counterattacks. A ceasefire is currently in effect. The consequences of the conflict are being felt worldwide. The latest developments in this live ticker.",
+    "nzzSummaryIsAuto": true
+   },
+   {
+    "title": "Iran and the US are engaged in the fiercest fighting since the start of the ceasefire",
+    "showHeader": true,
+    "owner": "NZZ",
+    "language": {
+     "locale": "de"
+    },
+    "tags": [
+     "Iran-Krieg",
+     "Nahost und Afrika",
+     "Krieg in Nahost"
+    ],
+    "teaserImage": {
+     "originalUrl": "/2026/06/03/6107ac7e-2576-4cf3-8d17-eb5ab02156ad.jpg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2026/06/03/6107ac7e-2576-4cf3-8d17-eb5ab02156ad.jpg?width=1024&quality=75&auto=webp",
+     "width": 1920,
+     "height": 1080,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "1920,1080,x0,y0"
+      },
+      {
+       "name": "4:3",
+       "crop": "1440,1080,x240,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "1080,1080,x420,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "810,1080,x555,y0"
+      },
+      {
+       "name": "3:2",
+       "crop": "1620,1080,x150,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "Tehran fired ballistic missiles at American military bases in Kuwait and Bahrain after U.S. troops attacked a tanker in the Strait of Hormuz. The attacks come at a time when a diplomatic breakthrough remains a distant prospect.",
+     "teaserAuthor": "Centcom / US Army"
+    },
+    "teaserAuthor": "Centcom / US Army",
+    "nzzId": "ld.10009635",
+    "readingTime": 180,
+    "embeds": {
+     "videos": [
+      {
+       "id": "3gvjYXuV",
+       "provider": "jw",
+       "teaser": true,
+       "duration": 10,
+       "sources": [
+        {
+         "file": "https://cdn.jwplayer.com/videos/3gvjYXuV-IBEUDFZ7.mp4",
+         "label": "180p"
+        }
+       ]
+      },
+      {
+       "id": "3gvjYXuV",
+       "provider": "jw",
+       "teaser": false,
+       "duration": 10,
+       "sources": [
+        {
+         "file": "https://cdn.jwplayer.com/videos/3gvjYXuV-IBEUDFZ7.mp4",
+         "label": "180p"
+        }
+       ]
+      }
+     ]
+    },
+    "paywallQuestionOne": "How threatened is the ceasefire between the US and Iran after the recent fighting?",
+    "paywallQuestionTwo": "What role does the American naval blockade play in the escalation of the conflicts?",
+    "paywallQuestionThree": "Are the US and Iran still negotiating a peace agreement despite the tensions?",
+    "videoTeaser": "3gvjYXuV",
+    "characterCount": 4027,
+    "product": "NZZ.ch",
+    "documentId": "10009635",
+    "layout": "regular",
+    "publicationDate": "2026-06-03T08:17:34.953Z",
+    "publicationLastUpdated": "2026-06-03T15:31:43.859Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2026-06-03T20:17:34.953Z",
+    "teaserCaption": "Tehran fired ballistic missiles at American military bases in Kuwait and Bahrain after U.S. troops attacked a tanker in the Strait of Hormuz. The attacks come at a time when a diplomatic breakthrough remains a distant prospect.",
+    "authorLine": "Rewert Hoffer, Beirut",
+    "nzzAuthorProfileImageUrl": "https://img-msp-prod.nzz.ch/2023/03/28/59542dc2-b939-455a-8f92-db4fcaf85961.png?crop=800,800,x0,y0&width=1024&quality=75&auto=webp",
+    "url": "https://www.nzz.ch/international/iran-und-die-usa-liefern-sich-heftigste-kaempfe-seit-beginn-der-waffenruhe-ld.10009635",
+    "department": {
+     "name": "International",
+     "path": "/international"
+    },
+    "estimationWordCount": 615,
+    "leadText": "Tehran fired ballistic missiles at American military bases in Kuwait and Bahrain after U.S. troops attacked a tanker in the Strait of Hormuz. The attacks come at a time when a diplomatic breakthrough remains a distant prospect.",
+    "nzzSummaryIsAuto": true,
+    "hasQ": true,
+    "locale": "de-CH"
+   },
+   {
+    "owner": "NZZ",
+    "title": "The Islamization of Palestinian nationalism has brought most of its Arab neighbors to a reserved distance",
+    "teaserImage": {
+     "originalUrl": "/2023/12/21/65154d81-aafc-4d01-907c-e30c5e1cee5e.jpeg?width=1024",
+     "url": "https://img-msp-prod.nzz.ch/2023/12/21/65154d81-aafc-4d01-907c-e30c5e1cee5e.jpeg?width=1024&quality=75&auto=webp",
+     "width": 5395,
+     "height": 3570,
+     "crops": [
+      {
+       "name": "16:9",
+       "crop": "5395,3035,x0,y0"
+      },
+      {
+       "name": "1:1",
+       "crop": "3570,3570,x449,y0"
+      },
+      {
+       "name": "4:3",
+       "crop": "4760,3570,x0,y0"
+      },
+      {
+       "name": "3:4",
+       "crop": "2678,3570,x914,y0"
+      }
+     ],
+     "imageService": "fastly",
+     "teaserCaption": "The terrorist attack of October 7th and the war in Gaza have once again brought the unresolved conflict between Israel and the Palestinians into sharp focus. While the Palestinian question long seemed a core concern of the Arab world, it has now become strangely de-Arabized. Why?",
+     "teaserAuthor": "Alain Nogues / Sygma / Getty"
+    },
+    "teaserAuthor": "Alain Nogues / Sygma / Getty",
+    "nzzasFootnote": false,
+    "folioFootnote": false,
+    "language": {
+     "locale": "de-CH"
+    },
+    "nzzId": "ld.1770958",
+    "readingTime": 540,
+    "showComments": true,
+    "authorLine": "Reinhard Schulze",
+    "characterCount": 12607,
+    "product": "NZZ.ch",
+    "documentId": "1770958",
+    "layout": "opinion",
+    "publicationDate": "2023-12-22T04:30:00.000Z",
+    "publicationLastUpdated": "2023-12-22T14:21:43.784Z",
+    "significantUpdate": false,
+    "significantUpdateTill": "2023-12-22T16:30:00.000Z",
+    "teaserCaption": "The terrorist attack of October 7th and the war in Gaza have once again brought the unresolved conflict between Israel and the Palestinians into sharp focus. While the Palestinian question long seemed a core concern of the Arab world, it has now become strangely de-Arabized. Why?",
+    "url": "https://www.nzz.ch/feuilleton/die-islamisierung-des-palaestinensischen-nationalismus-hat-die-meisten-arabischen-nachbarn-auf-reservierte-distanz-gebracht-ld.1770958",
+    "department": {
+     "name": "Arts & Culture",
+     "path": "/feuilleton"
+    },
+    "estimationWordCount": 1761,
+    "leadText": "The terrorist attack of October 7th and the war in Gaza have once again brought the unresolved conflict between Israel and the Palestinians into sharp focus. While the Palestinian question long seemed a core concern of the Arab world, it has now become strangely de-Arabized. Why?",
+    "commentsCount": 28,
+    "openToComment": false
+   }
+  ]
+ },
+ "digitalData": {
+  "component": [
+   {
+    "id": "ld.10016497",
+    "name": "Easy Prey for Iran: Kuwait suffers most from attacks on the Gulf",
+    "type": "article",
+    "subType1": "longformstandard",
+    "subType2": "",
+    "primaryCategory": "International",
+    "subCategory1": "",
+    "attributes": {
+     "headline": "Easy Prey for Iran: Kuwait suffers most from attacks on the Gulf",
+     "firstPublishTitle": "",
+     "catchline": "",
+     "authors": [
+      {
+       "id": 1641030,
+       "name": "Rewert Hoffer",
+       "shortName": "rew",
+       "pianoId": "2b0f12b1-62fd-4998-b62b-b34c94d8d8a5",
+       "external": false
+      }
+     ],
+     "issueTimestamp": "2026-08-06T03:30:00.000Z",
+     "updateTimestamp": "2026-08-07T12:21:41.364Z",
+     "isSponsoredContent": false,
+     "isPro": true,
+     "isLiveticker": false,
+     "flag": "",
+     "owner": "NZZ"
+    }
+   }
+  ],
+  "page": {
+   "pageId": "ld.10016497",
+   "pageType": "longformstandard",
+   "primaryCategory": "International",
+   "subCategory1": "",
+   "subCategory2": "",
+   "language": "en-US"
+  },
+  "version": "2.0",
+  "user": {},
+  "event": []
+ },
+ "seoData": {
+  "title": "Iran: Why Tehran's attacks strike at the heart of Kuwait",
+  "image": {
+   "url": "https://img-msp-prod.nzz.ch/2026/07/30/8a7b0111-8330-485d-8686-b457eeb86bf4.jpg?width=1200&height=675&fit=bounds&quality=75&auto=webp&crop=5616,3159,x0,y193&wmark=nzz",
+   "type": "image/jpeg",
+   "width": 1200,
+   "height": 675
+  },
+  "author": "Rewert Hoffer, Kuwait City",
+  "description": "Kuwait has long been overshadowed by Qatar and Dubai. Iranian attacks on the Gulf emirate deepen the Kuwaiti crisis – and bring an old trauma back to the surface.",
+  "news_keywords": "Easy prey for Iran: Kuwait suffers most from the attacks on the Gulf, International, News, NZZ",
+  "type": "article",
+  "last-modified": "2026-08-07T16:21:41+02:00",
+  "date": "2026-08-06T07:30:00+02:00",
+  "canonical": "https://www.nzz.ch/international/iran-warum-teherans-angriffe-kuwait-ins-mark-treffen-ld.10016497",
+  "fb:app_id": 138008459595436,
+  "fb:pages": 143694099006529,
+  "fb:admins": 1592685173,
+  "locale": "de",
+  "email": "online.redaktion@nzz.ch",
+  "site_name": "Neue Zürcher Zeitung",
+  "copyright": "2026 Neue Zürcher Zeitung AG, Schweiz",
+  "robots": "noindex, nofollow, noarchive, noodp",
+  "hreflang": [],
+  "sharedTitle": "Easy Prey for Iran: Kuwait suffers most from attacks on the Gulf",
+  "ogTitle": "Why Kuwait is suffering the most from Iran's attacks on the Gulf",
+  "ogUrl": "https://www.nzz.ch/international/iran-warum-teherans-angriffe-kuwait-ins-mark-treffen-ld.10016497",
+  "mrf:cms_id": "nzz:ld.10016497",
+  "mrf:sections": "International",
+  "mrf:tags": "Page Type:longformstandard;Editorial Owner:NZZ;Content Type:Pro Article;Article ID:ld.10016497",
+  "nzzAuthors": [
+   {
+    "id": 1641030,
+    "name": "Rewert Hoffer",
+    "shortName": "rew",
+    "pianoId": "2b0f12b1-62fd-4998-b62b-b34c94d8d8a5",
+    "external": false
+   }
+  ],
+  "links": [
+   {
+    "rel": "canonical",
+    "href": "https://www.nzz.ch/international/iran-warum-teherans-angriffe-kuwait-ins-mark-treffen-ld.10016497"
+   },
+   {
+    "rel": "search",
+    "href": "/suche",
+    "title": "Suche Neue Zürcher Zeitung, Schweiz, https://www.nzz.ch/suche"
+   }
+  ],
+  "renderedAt": "Thu, 03 Sep 2026 10:02:49 GMT"
+ },
+ "structuredData": [
+  {
+   "@context": "https://schema.org",
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "item": {
+      "@id": "/",
+      "name": "Home"
+     }
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "item": {
+      "@id": "/international",
+      "name": "International"
+     }
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Iran: Why Tehran's attacks strike at the heart of Kuwait"
+    }
+   ]
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": "NewsArticle",
+   "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.nzz.ch/international/iran-warum-teherans-angriffe-kuwait-ins-mark-treffen-ld.10016497"
+   },
+   "headline": "Iran: Why Tehran's attacks strike at the heart of Kuwait",
+   "datePublished": "2026-08-06T07:30:00+02:00",
+   "dateModified": "2026-08-07T16:21:41+02:00",
+   "publisher": {
+    "@type": "NewsMediaOrganization",
+    "name": "Neue Zürcher Zeitung",
+    "url": "https://www.nzz.ch",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://www.nzz.ch/logo.png",
+     "width": 413,
+     "height": 60
+    },
+    "contactPoint": [
+     {
+      "@type": "ContactPoint",
+      "telephone": "+41-44-2581000",
+      "contactType": "customer service"
+     }
+    ],
+    "sameAs": [
+     "https://www.facebook.com/nzz",
+     "https://www.twitter.com/nzz",
+     "https://www.youtube.com/channel/UCK1aTcR0AckQRLTlK0c4fuQ",
+     "https://www.linkedin.com/company/neue-zurcher-zeitung",
+     "https://www.instagram.com/nzz/",
+     "https://de.wikipedia.org/wiki/Neue_Z%C3%BCrcher_Zeitung",
+     "https://www.wikidata.org/wiki/Q658945",
+     "https://plus.google.com/+nzz/",
+     "http://www.freebase.com/m/041b43"
+    ],
+    "masthead": "https://www.nzz.ch/impressum/impressum-ld.148422",
+    "foundingDate": "1780"
+   },
+   "description": "Kuwait has long been overshadowed by Qatar and Dubai. Iranian attacks on the Gulf emirate deepen the Kuwaiti crisis – and bring an old trauma back to the surface.",
+   "isAccessibleForFree": false,
+   "articleSection": "International",
+   "hasPart": {
+    "@type": "WebPageElement",
+    "isAccessibleForFree": false,
+    "cssSelector": ".nzzinteraction"
+   },
+   "image": {
+    "@type": "ImageObject",
+    "url": "https://img-msp-prod.nzz.ch/2026/07/30/8a7b0111-8330-485d-8686-b457eeb86bf4.jpg?width=1200&height=675&fit=bounds&quality=75&auto=webp&crop=5616,3159,x0,y193&wmark=nzz",
+    "width": 1200,
+    "height": 675
+   },
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Rewert Hoffer"
+    }
+   ],
+   "inLanguage": "de"
+  }
+ ],
+ "mp3": true,
+ "mp3Duration": 674640,
+ "bT": {
+  "standard": {
+   "Tags": [
+    "/international/iran-warum-teherans-angriffe-kuwait-ins-mark-treffen-ld.10016497",
+    "classification=premium",
+    "relevance=germany",
+    "layout=longformstandard",
+    "owner=nzz",
+    "product=nzz",
+    "doctype=article",
+    "pagetype=article",
+    "ldid=ld.10016497",
+    "channel=International"
+   ],
+   "ContentCreated": "2026-08-06T03:30:00.000Z",
+   "ContentAuthor": "Rewert Hoffer, Kuwait-Stadt",
+   "ContentSection": "International",
+   "ContentIsNative": true
+  },
+  "custom": {
+   "product": "nzz",
+   "docType": "article",
+   "pageType": "article",
+   "layout": "longformstandard",
+   "nzzAbstract": "Wie beeinflussen Irans Angriffe Kuwaits Infrastruktur und Wirtschaft?\nWelche Rolle spielt das Trauma der irakischen Invasion in Kuwaits aktueller Krise?\nWarum bleibt Kuwait trotz Angriffen auf die USA als Verbündeten angewiesen?",
+   "ldId": "ld.10016497",
+   "channel": "International",
+   "heading": "Leichte Beute für Iran: Kuwait leidet am meisten unter den Angriffen auf den Golf",
+   "language": "en-US"
+  }
+ },
+ "webviewMetadata": {},
+ "cacheTime": 3600
+}

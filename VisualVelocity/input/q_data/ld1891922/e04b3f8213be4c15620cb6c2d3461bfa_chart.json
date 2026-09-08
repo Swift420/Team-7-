@@ -1,0 +1,89 @@
+{
+  "_id": "e04b3f8213be4c15620cb6c2d3461bfa",
+  "_rev": "6-19f345db8906461722dbbb67bee34b7d",
+  "data": [
+    [
+      "Ansicht",
+      "Alle Wähler"
+    ],
+    [
+      "Positive Sicht",
+      "35"
+    ],
+    [
+      "Negative Sicht",
+      "64"
+    ]
+  ],
+  "tool": "chart",
+  "notes": "Umfrage von Anfang Juni 2025, parteiübergreifend<br>\nEs wurden 1321 Personen befragt. Die Resultate sind mit einer Fehlermarge von ± 3 Prozentpunkten behaftet.",
+  "title": "Die Amerikaner lehnen das Reformpaket mehrheitlich ab",
+  "active": true,
+  "events": [],
+  "acronym": "lma.",
+  "options": {
+    "chartType": "Bar",
+    "barOptions": {
+      "isBarChart": true,
+      "forceBarsOnSmall": false
+    },
+    "annotations": {
+      "valuesOnBars": true
+    },
+    "arrowOptions": {
+      "colorScheme": 0,
+      "invertColorScheme": false
+    },
+    "largeNumbers": {
+      "divideBy": 0
+    },
+    "hideAxisLabel": true,
+    "dotplotOptions": {},
+    "areaChartOptions": {
+      "stackType": "zero",
+      "areaInterpolation": "linear"
+    },
+    "lineChartOptions": {
+      "yScaleType": "linear",
+      "isStockChart": false,
+      "reverseYScale": false,
+      "lineInterpolation": "linear"
+    },
+    "dateSeriesOptions": {
+      "labels": "many",
+      "interval": "auto",
+      "prognosisStart": null
+    },
+    "highlightDataRows": [],
+    "colorOverwritesRows": [
+      {
+        "color": "#ce4631",
+        "position": 2,
+        "colorLight": ""
+      },
+      {
+        "color": "",
+        "position": 0,
+        "colorLight": ""
+      }
+    ],
+    "highlightDataSeries": [],
+    "colorOverwritesSeries": []
+  },
+  "sources": [
+    {
+      "link": {
+        "url": "https://www.kff.org/medicaid/poll-finding/kff-health-tracking-poll-views-of-the-one-big-beautiful-bill/"
+      },
+      "text": "KFF"
+    }
+  ],
+  "subtitle": "",
+  "createdBy": "marie-astrid.langer@nzz.ch",
+  "updatedBy": "marianne.bosshard@nzz.ch",
+  "department": "International",
+  "createdDate": "2025-07-03T20:55:17.624Z",
+  "publication": "nzz",
+  "updatedDate": "2025-07-04T06:40:11.222Z",
+  "allowDownloadData": false
+}

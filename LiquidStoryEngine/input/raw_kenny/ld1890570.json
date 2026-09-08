@@ -1,0 +1,1613 @@
+{
+ "content": [
+  {
+   "identifier": "header--hero",
+   "id": "doc-1ivl4vhn80",
+   "content": {
+    "title": "80 years of the atomic bomb: In the American secret city of Los Alamos, a historical war rages.",
+    "lead": "The US secretly developed the atomic bomb in the Manhattan Project – and dropped it on Japan twice. In Los Alamos, this is still presented as a blessing for humanity. The victims are ignored.",
+    "authorline": "Marie-Astrid Langer, Los Alamos",
+    "image": {
+     "author": "",
+     "caption": "",
+     "originalUrl": "/2025/07/08/f7debea0-b8d6-4639-8c2f-00db58bb5847.gif?crop=1800,1012,x0,y105",
+     "width": 1800,
+     "height": 1200,
+     "crop": {
+      "x": 0,
+      "y": 105,
+      "width": 1800,
+      "height": 1012,
+      "name": "desktop"
+     },
+     "namedCrops": [
+      {
+       "x": 0,
+       "y": 105,
+       "width": 1800,
+       "height": 1012,
+       "name": "desktop"
+      },
+      {
+       "x": 487,
+       "y": 0,
+       "width": 900,
+       "height": 1200,
+       "name": "tablet"
+      },
+      {
+       "x": 543,
+       "y": 0,
+       "width": 675,
+       "height": 1200,
+       "name": "mobile"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "quelle": "",
+    "caption": "",
+    "author": ""
+   },
+   "containers": {
+    "authors": []
+   },
+   "prevElement": "",
+   "nextElement": "p-text",
+   "firstContentElement": true
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iuhkiin51",
+   "content": {
+    "text": "They couldn't have found a better place for their secret project. Table mountains, canyons, and the Rio Grande winding its way through the landscape. Endless expanses, not a soul in sight: In northern New Mexico, America looks like something out of a picture book."
+   },
+   "data": {},
+   "prevElement": "header--hero",
+   "nextElement": "barrier"
+  },
+  {
+   "id": "doc-1ba0f64d",
+   "identifier": "barrier",
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iv3q7ssj0",
+   "content": {
+    "text": "You could almost expect the gunslinger Butch Cassidy to jump out of a hideout at any moment. But it wasn't just Wild West outlaws who hid in this no-man's-land: in 1943, the USA launched its top-secret atomic program here. The small settlement of Los Alamos became the heart of the Manhattan Project – and the birthplace of the atomic bomb."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "barrier",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iv3q7ssm0",
+   "content": {
+    "text": "For over two years, some of the brightest scientists worked there on how to trigger a nuclear chain reaction. The goal: to build the most powerful weapon in human history – and faster than the Nazis and the Soviets."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iv64hd281",
+   "content": {
+    "text": "On July 16, 1945, this actually happened: the first successful test of a plutonium atomic bomb, 300 kilometers further south, where New Mexico is flat and desert. The researchers already suspected how momentous this breakthrough would be; they nicknamed the pilot test «Trinity.»"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iv64iaqb1",
+   "content": {
+    "text": "The bomb went swiftly from the laboratory to the battlefield: On August 6, 1945, the USA dropped a uranium bomb on their enemy Japan, followed by a plutonium bomb on August 9. More than 200,000 people are estimated to have died. World War II ended shortly thereafter."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "image"
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1ivl0okb21",
+   "content": {
+    "image": {
+     "author": "Getty",
+     "caption": "Footage of \"Trinity,\" the first atomic bomb explosion, in the New Mexico desert on July 16, 1945. The image shows the 200-meter-high blast wave 16 milliseconds after the detonation.",
+     "originalUrl": "/2025/07/08/8a2bc581-ae42-4153-bfdf-f94f6bdbe3d3.jpeg?width=1024",
+     "width": 1890,
+     "height": 1274,
+     "altText": " The Trinity explosion, 16 ms after detonation. The viewed hemisphereâÄÖs highest point in this image is about 200 meters (660 ft) high. On July 16, 1945, the United States became the first country to successfully detonate an atomic weapon, signaling the beginning of a new era in warfare and in politics. In the early 1940s, the US government authorized a top-secret program of nuclear testing and development, codenamed «The Manhattan Project» . Its goal was the development of the worldâÄÖs first atomic bomb. Much of the research and development for the project occurred at a facility built in Los Alamos, New Mexico. In July 1945, Los Alamos scientists successfully exploded the first atomic bomb at the Trinity test site, located in nearby Alamogordo.",
+     "origins": [
+      {
+       "name": "Hugo",
+       "identifier": "1893065391"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "caption": "Footage of \"Trinity,\" the first atomic bomb explosion, in the New Mexico desert on July 16, 1945. The image shows the 200-meter-high blast wave 16 milliseconds after the detonation.",
+    "author": "Getty"
+   },
+   "styles": {
+    "fullwidth-widget": "widget--containerwidth"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "image"
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1ivl2rgrr1",
+   "content": {
+    "image": {
+     "author": "Bettmann / Getty",
+     "caption": "State Road 502 leads through nowhere to Los Alamos, today a small town in northern New Mexico with 20,000 inhabitants.",
+     "originalUrl": "/2025/07/08/e11afed6-547c-4e60-9cb0-5c60fa5233ce.jpeg?width=1024",
+     "width": 4032,
+     "height": 3024,
+     "altText": "Secret City of Los Alamos",
+     "origins": [
+      {
+       "name": "Hugo",
+       "identifier": "2171637547"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "caption": "State Road 502 leads through nowhere to Los Alamos, today a small town in northern New Mexico with 20,000 inhabitants.",
+    "author": "Bettmann / Getty"
+   },
+   "styles": {
+    "fullwidth-widget": "widget--containerwidth"
+   },
+   "paidContent": true,
+   "prevElement": "image",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iv3q7ssp0",
+   "content": {
+    "text": "The world has been a different place ever since. The invention of the atomic bomb divided it: into those who possess nuclear weapons and those who do not. The bomb laid the foundation for the post-World War II world order. Even today, the nuclear threat directly or indirectly shapes countless international conflicts."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "image",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iv3q7ssq0",
+   "content": {
+    "text": "How does the motherland of the bomb view this legacy? How does it present it to the world? And what do Americans think today about the misery that the bombings brought to the Japanese population?"
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "q-embed"
+  },
+  {
+   "identifier": "q-embed",
+   "id": "doc-1iuhkj1dp0",
+   "content": {
+    "q-embed": {
+     "service": "q-tool",
+     "params": {
+      "id": "c39d877217092a55c6dab1f384415a91",
+      "conf": {},
+      "toolConfig": {},
+      "toolRuntimeConfig": {
+       "size": {
+        "width": [
+         {
+          "value": 100,
+          "comparison": ">"
+         }
+        ]
+       },
+       "displayOptions": {
+        "hideTitle": false,
+        "hideSubtitle": false,
+        "hideFooter": false,
+        "hideAcronym": false
+       },
+       "locale": "en_US"
+      },
+      "size": "content"
+     },
+     "resolvedValue": {}
+    },
+    "html": "      <div        class=\"q-locator_map-container\"        id=\"q_locator_map_c39d877217092a55c6dab1f384415a91_q9e484c1d7e1541078e1025210fb732aa_container\"        data-q-item-id=\"c39d877217092a55c6dab1f384415a91\"        data-q-request-id=\"da5feabb930adcdaa4ea68a0ca30955ff600d194\"      ></div>",
+    "stylesheets": [
+     {
+      "type": "remote",
+      "content": "https://service.sophie.nzz.ch/bundle/sophie-color%23master,sophie-font%23master,sophie-legend%23master[icon-label],sophie-q%23master,sophie-viz-color%23master[general].css"
+     },
+     {
+      "type": "inline",
+      "content": "  @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff) format(\"woff\");  }    @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff) format(\"woff\");    unicode-range: U+0020-00FF,U+2005,U+2082;  }      "
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/css-theme-layer/nzz-0.2.0.css"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/locatorMap/q-locatorMap-1.1.12.css"
+     }
+    ],
+    "scripts": [
+     {
+      "type": "inline",
+      "content": "function qTrackingBootstrap(t,e,n){if(window.digitalData&&window.digitalData.component&&window.digitalData.component.push){window.digitalData.component.push(t),window.digitalData.event&&window.digitalData.event.length||(window.digitalData.event=[]);var i=new Date,a=e;a.eventInfo.timeStamp=i.toISOString(),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\");var o=document.querySelectorAll(\"[data-q-request-id='\"+n+\"']\");[].forEach.call(o,function(t){t.addEventListener(\"q-tracking-event\",function(t){var e=new Date;(a=JSON.parse(JSON.stringify(a))).eventInfo.timeStamp=e.toISOString(),a.eventInfo=Object.assign(a.eventInfo,t.detail.eventInfo),a.category=Object.assign(a.category,t.detail.category),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\")},!1)})}};qTrackingBootstrap({\"componentInfo\":{\"componentName\":\"Q\",\"componentID\":\"c39d877217092a55c6dab1f384415a91\"},\"category\":{\"componentType\":\"storytelling\",\"componentSubType1\":\"Q graphic\",\"componentSubType2\":\"locator_map\"}},{\"eventInfo\":{\"eventName\":\"Storytelling Interaction\",\"eventAction\":\"load\",\"type\":\"story\",\"componentName\":\"Q\",\"eventNonInteractive\":true,\"componentID\":\"c39d877217092a55c6dab1f384415a91\"},\"category\":{\"primaryCategory\":\"storytelling\",\"subCategory1\":\"Q graphic\",\"subCategory2\":\"locator_map\"}},\"da5feabb930adcdaa4ea68a0ca30955ff600d194\")"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/locatorMap/q-locatorMap-1.1.12.js"
+     },
+     {
+      "type": "inline",
+      "content": "      (function () {        function initialize() {          const target = document.querySelector('#q_locator_map_c39d877217092a55c6dab1f384415a91_q9e484c1d7e1541078e1025210fb732aa_container');          if (!target) return;          target.innerHTML = '';          const qdoc = {\"_id\":\"c39d877217092a55c6dab1f384415a91\",\"title\":\"Los Alamos, the secret city in the no-man's-land of New Mexico\",\"subtitle\":\"\",\"publication\":\"nzz\",\"acronym\":\"lma.\",\"sources\":[],\"geojsonList\":[{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[-106.29895906895399,35.88137004793963]},\"properties\":{\"label\":\"Los Alamos\",\"type\":\"event\",\"labelPosition\":\"top\",\"useForInitialView\":true}},{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[-106.65098525583744,35.08410345920561]},\"properties\":{\"label\":\"Albuquerque\",\"type\":\"city\",\"labelPosition\":\"bottom\",\"useForInitialView\":true}},{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[-104.98486205935478,39.73923659053256]},\"properties\":{\"label\":\"Denver\",\"type\":\"city\",\"labelPosition\":\"top\",\"useForInitialView\":true}},{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[-106.48704059422016,31.760116645852477]},\"properties\":{\"label\":\"El Paso\",\"type\":\"city\",\"labelPosition\":\"top\",\"useForInitialView\":true}},{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[-106.47050357421374,33.680889109051805]},\"properties\":{\"label\":\"Trinity Site\",\"type\":\"event\",\"labelPosition\":\"right\",\"useForInitialView\":true}}],\"options\":{\"baseLayer\":{\"layers\":{\"label\":true},\"style\":\"nature\"},\"initialZoomLevel\":-1,\"labelsBelowMap\":false,\"labelsBelowMapOneRow\":false,\"minimap\":{\"showMinimap\":true,\"options\":{\"type\":\"region\",\"region\":{\"id\":\"Q30\",\"label\":\"\"},\"position\":\"bottom-right\"}},\"dimension\":{\"useDefaultAspectRatio\":true,\"bbox\":[-110.33372144417953,30.748077501071634,-101.96604443895639,37.6603901209901]},\"showLegend\":false},\"updatedDate\":\"2025-06-30T21:48:17.521Z\"};          const toolRuntimeConfig = {\"displayOptions\":{\"hideTitle\":false,\"hideSubtitle\":false,\"hideFooter\":false,\"hideAcronym\":false},\"size\":{\"width\":[{\"value\":100,\"comparison\":\">\"}]},\"locale\":\"en-US\"};          const toolSettings = {\"qItemInstanceId\":\"q_locator_map_c39d877217092a55c6dab1f384415a91_q9e484c1d7e1541078e1025210fb732aa\",\"fontBaseUrl\":\"https://qv1-server.nzz.ch/files/locator_map/fonts/\",\"toolBaseUrl\":\"https://q-server.nzz.ch/locator_map\",\"apiKey\":\"UUOJDlqQTsVSgwOM1KVX\"};          let attempts = 0;          const maxAttempts = 100;          const checkAndInitialize = setInterval(() => {            if (window.qLocatorMap) {              clearInterval(checkAndInitialize);              new window.qLocatorMap({ target: target, props: {                qdoc: qdoc,                toolSettings: toolSettings,                toolRuntimeConfig: toolRuntimeConfig              } });            } else {              attempts++;              if (attempts >= maxAttempts) {                clearInterval(checkAndInitialize);                console.error('Failed to initialize qLocatorMap after 30 seconds');              }            }          }, 300);        }        if (document.body.classList.contains('pagedone')) {          initialize();        } else {          window.addEventListener('pagedone', initialize);        }      })();    "
+     }
+    ]
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iv3q7ssr0",
+   "content": {
+    "text": "Anyone seeking answers to these questions must travel to Los Alamos. Here, the story of the atomic bomb not only began, but continues to this day. And here, one can witness how history is always a vehicle of politics, an instrument for shaping public opinion. For what is concealed sometimes weighs more heavily than what is revealed."
+   },
+   "paidContent": true,
+   "prevElement": "q-embed",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1iuhkir140",
+   "content": {
+    "title": "Hollywood turned nuclear research into pop culture",
+    "id": "subtitle-hollywood-machte-aus-nuklearforschung-pop-kultur"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iv3q8p460",
+   "content": {
+    "text": "State Road 502 winds its way for miles through the mountainous landscape, deeper and deeper into the middle of nowhere, until a sign appears at the side of the road: «Los Alamos, where discoveries are made.» The former secret project is now a pleasant small town with 20,000 inhabitants, a mountaineering club, and a children's soccer league."
+   },
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iv5obdf31",
+   "content": {
+    "text": "The Manhattan Project evolved into the Los Alamos National Laboratory, which today employs 19,000 people. Many commute here from neighboring Santa Fe, a 40-minute drive away. They conduct research on nuclear weapons, carry out basic research in various disciplines, and manage America's arsenal of warheads—nearly 4,000—on behalf of the Department of Energy."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iv3q8p490",
+   "content": {
+    "text": "The «Laboratory,» as the locals call it, and Los Alamos are practically one and the same. Anyone who takes a wrong turn in the city center quickly ends up at a checkpoint instead of in the historic center and has to explain themselves to a security guard. To this day, the laboratory's work remains top secret. Foreign visitors are not allowed access."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "image"
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1ivl0qbcq1",
+   "content": {
+    "image": {
+     "author": "FPG / Archive / Getty",
+     "caption": "Military police guard the entrance to Los Alamos in 1947. Nuclear research continued there even after the end of the war.",
+     "originalUrl": "/2025/07/08/18c8f2a1-a521-42a2-a671-0ded532cde3e.jpeg?width=1024",
+     "width": 4920,
+     "height": 3625,
+     "altText": "A group of men outside the entrance, which is guarded by Military Police, to the headquarters of the United States Atomic Energy Security Service at Los Alamos, New Mexico, September 1947. (Photo by FPG/Archive Photos/Getty Images)",
+     "origins": [
+      {
+       "name": "Hugo",
+       "identifier": "2171829643"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "caption": "Military police guard the entrance to Los Alamos in 1947. Nuclear research continued there even after the end of the war.",
+    "author": "FPG / Archive / Getty"
+   },
+   "styles": {
+    "fullwidth-widget": "widget--containerwidth"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "image"
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1iv3r00260",
+   "content": {
+    "image": {
+     "author": "Marie-Astrid Langer / NZZ",
+     "caption": "In a beer garden in Los Alamos, a portrait of Robert Oppenheimer serves as decoration.",
+     "originalUrl": "/2025/07/01/b18ca3df-444c-4967-b513-e8f3aa986bac.jpeg?width=1024",
+     "width": 4032,
+     "height": 3024,
+     "imageService": "fastly"
+    },
+    "caption": "In a beer garden in Los Alamos, a portrait of Robert Oppenheimer serves as decoration.",
+    "author": "Marie-Astrid Langer / NZZ"
+   },
+   "styles": {
+    "fullwidth-widget": "widget--containerwidth"
+   },
+   "paidContent": true,
+   "prevElement": "image",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iv3q8p4a0",
+   "content": {
+    "text": "Upon arriving in the old town, one is greeted by Robert Oppenheimer and General Leslie Groves, the fathers of the Manhattan Project, cast side by side in bronze. Tourists take photos of them and with them, as if the two were Hollywood stars."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "image",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iv44ss2l1",
+   "content": {
+    "text": "In a way, they are: Since the blockbuster «Oppenheimer» won an Oscar in 2024, visitor numbers in Los Alamos have exploded. The film was shot on location, at least on the sites that still exist today. Nuclear research has become pop culture. In the beer garden of the local brewery, Oppenheimer's portrait adorns a wall, and an art gallery sells paintings of him."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iv44u7jh1",
+   "content": {
+    "text": "The history museum offers tours of the «Secret City,» which are regularly fully booked. Tourists can visit the homes of the Oppenheimers and other scientists. A Nobel Prize is on display. The museum shop sells T-shirts, magnets, and baseball caps emblazoned with «A-Bomb.» An Oppenheimer bobblehead is also available for $30."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iv3q8p4d0",
+   "content": {
+    "text": "Los Alamos presents its past in three museums – at least the part it is proud of and wants to remember. This is also noticed by American visitors: Debbie and Paul Gammill are strolling across the lawns of the museum grounds. Los Alamos is a pretty little town, say the two retirees, who traveled from Maryland. But their conclusion about the museum is critical: «They definitely focus on the scientific achievements here and not on the moral questions.»"
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "image"
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1ivl48d7s1",
+   "content": {
+    "image": {
+     "author": "Bettmann / Getty",
+     "caption": "The physicist Robert Oppenheimer led the research of the Manhattan Project.",
+     "originalUrl": "/2025/07/08/2f6b53bf-3c6e-4b3a-bff0-9de2dee61c8d.jpeg?width=1024",
+     "width": 4222,
+     "height": 3244,
+     "altText": "(Original Caption) Washington: Dr. Oppenheimer Testifies. Dr. J. Robert Oppenheimer (above) former head of the Los Alamos, NM Atomic Installation, as he told Joint Congressional atomic Energy Committee today he sees «no way» in which isotopes would better Russia's war potential if isotopes got into her hands.",
+     "origins": [
+      {
+       "name": "Hugo",
+       "identifier": "2171832357"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "caption": "The physicist Robert Oppenheimer led the research of the Manhattan Project.",
+    "author": "Bettmann / Getty"
+   },
+   "styles": {
+    "fullwidth-widget": "widget--containerwidth"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "image"
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1ivl2vspi1",
+   "content": {
+    "image": {
+     "author": "Brian Snyder / Reuters",
+     "caption": "Robert Oppenheimer lived in this house in Los Alamos with his family; the building also served as a film set for the Hollywood film \"Oppenheimer\".",
+     "originalUrl": "/2025/07/08/d952d9ab-cef5-49ea-9673-40a2f0932265.jpeg?width=1024",
+     "width": 5952,
+     "height": 3968,
+     "altText": "The home where Robert Oppenheimer, atomic physicist and director of the Los Alamos Laboratory during WWII, lived stands in Los Alamos, New Mexico, US, July 30, 2023. REUTERS/Brian Snyder",
+     "origins": [
+      {
+       "name": "Hugo",
+       "identifier": "2146400756"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "caption": "Robert Oppenheimer lived in this house in Los Alamos with his family; the building also served as a film set for the Hollywood film \"Oppenheimer\".",
+    "author": "Brian Snyder / Reuters"
+   },
+   "styles": {
+    "fullwidth-widget": "widget--containerwidth"
+   },
+   "paidContent": true,
+   "prevElement": "image",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iv3q8p4e0",
+   "content": {
+    "text": "It quickly becomes clear what they mean. The Los Alamos National Park Museum, located a few hundred meters from the bronze statue, summarizes the story: In 1942 <a target=\"_blank\" href=\"https://www.osti.gov/opennet/manhattan-project-history/Resources/einstein_letter_photograph.htm#1\">, the exiled Nobel laureate Albert Einstein warned</a> US President Franklin Roosevelt that the Nazis could soon build an atomic bomb using nuclear fission. Roosevelt reacted and launched a nuclear program, strictly secret and spread across thirty sites throughout the country: the Manhattan Project."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "image",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iv3q8p4f0",
+   "content": {
+    "text": "The remote settlement of Los Alamos is chosen as the headquarters; the government already owns large tracts of land there. In a very short time, the brightest engineers and researchers in the US, along with their families, are gathered in Los Alamos – codenamed Project Y. Not even their closest relatives know where they live or what they are working on. Two other secret cities – Oak Ridge, Tennessee, and Hanford, Washington – supply the uranium and plutonium needed to build the bombs."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iv3q8p4g0",
+   "content": {
+    "text": "The scientists achieved something truly incredible: within 28 months, they succeeded in creating a nuclear chain reaction with both uranium and plutonium. The project cost around two billion dollars. To this day, it is considered one of humanity's greatest technological achievements."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iv3q8p4h0",
+   "content": {
+    "text": "The story ends abruptly here at the National Park Museum with the invention of the bomb. The dropping of the bombs on Hiroshima and Nagasaki is not mentioned at all. This is something that visitor Kelly Carter also notices. The friendly woman with long blonde hair teaches science at a school in West Virginia. She has brought her nine-year-old grandson, Parker, with her. He started asking questions about the atomic bomb, she explains, as the two sit in the museum's play area."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iv45fh411",
+   "content": {
+    "text": "Of course, manipulating the atom was a tremendous achievement, says Carter, «but...» She pauses and laughs. «They show very, very little of the other side of the coin here in the museums.» This bothers her, since the consequences of the invention still shape the present. A few years ago, Carter also visited the other two secret cities of the Manhattan Project in Tennessee and Washington. It's the same everywhere, she says: «The atomic bomb is presented as a pure achievement.»"
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1iv3q8p4i0",
+   "content": {
+    "title": "Nowhere is a single photograph of a victim shown",
+    "id": "subtitle-nirgends-wird-auch-nur-ein-foto-eines-opfers-gezeigt"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iv3q8p4j0",
+   "content": {
+    "text": "You have to search long and hard for this other side in Los Alamos. In the history museum, the city's second museum, you can find hints that there is also a dark side to the invention – hidden away in the literally furthest corner of the basement."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iv3q8p4j1",
+   "content": {
+    "text": "In a few sentences, an information panel states that Japan refused to surrender unconditionally despite warnings from President Harry Truman. That the deployment of ground troops would have cost many lives, including those of American soldiers. That this is why the decision was made to drop the bombs. That 200,000 people were killed."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "image"
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1ivptd1gv1",
+   "content": {
+    "image": {
+     "author": "Los Alamos National Laboratory",
+     "caption": "Visitors to Los Alamos were checked at this entrance gate. Photo taken in 1943.",
+     "originalUrl": "/2025/07/10/787717fa-0d22-4533-8247-cf9d2a67bce9.jpeg?crop=2667,1778,x306,y113",
+     "width": 3000,
+     "height": 2366,
+     "origins": [
+      {
+       "name": "Hugo",
+       "identifier": "2171831644"
+      }
+     ],
+     "crop": {
+      "x": 306,
+      "y": 113,
+      "width": 2667,
+      "height": 1778
+     },
+     "imageService": "fastly"
+    },
+    "caption": "Visitors to Los Alamos were checked at this entrance gate. Photo taken in 1943.",
+    "author": "Los Alamos National Laboratory"
+   },
+   "styles": {
+    "fullwidth-widget": "widget--containerwidth"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "image"
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1ivl2mlr10",
+   "content": {
+    "image": {
+     "author": "Brian Snyder / Reuters",
+     "caption": "This watchtower guarded the secret city of Los Alamos during World War II.",
+     "originalUrl": "/2025/07/08/49d22b84-8821-443a-b2a6-37103c987276.jpeg?width=1024",
+     "width": 5952,
+     "height": 3968,
+     "altText": "An abandoned guard tower stands near a replica of the Los Alamos Project Main Gate, where the first atomic bombs were developed during World War II, stands at the edge of town in Los Alamos, New Mexico, US, July 30, 2023. REUTERS/Brian Snyder",
+     "origins": [
+      {
+       "name": "Hugo",
+       "identifier": "2146400791"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "caption": "This watchtower guarded the secret city of Los Alamos during World War II.",
+    "author": "Brian Snyder / Reuters"
+   },
+   "styles": {
+    "fullwidth-widget": "widget--containerwidth"
+   },
+   "paidContent": true,
+   "prevElement": "image",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iv5p7i731",
+   "content": {
+    "text": "Two small black and white photos show destroyed houses. An old pocket watch is on display, its glass melted by the enormous heat of the bomb."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "image",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iv3q8p4k0",
+   "content": {
+    "text": "Not a single photograph showing a victim. Not a word about the fact that there was actually no military base in Hiroshima, as President Truman had claimed. That 95 percent of the victims there were civilians, and in Nagasaki, a staggering 99.8 percent. That the atomic bomb unleashed a heat wave so immense that all living beings in its immediate vicinity <a target=\"_blank\" href=\"https://www.tandfonline.com/doi/full/10.1080/25751654.2019.1681226#abstract\">were charred</a> within fractions of a second. That the radioactive rain continued to burn skin for days. That the survivors and their descendants still suffer from radiation sickness today."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iv3q8p4l0",
+   "content": {
+    "text": "The Japanese language has its own word for the survivors of the atomic bomb: Hibakusha. In Los Alamos, they are not even mentioned."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iv3q8p4m0",
+   "content": {
+    "text": "In a short, three-minute film produced by the museum, scientists who questioned the use of the bomb even back then—especially after the Nazis capitulated in the spring of 1945—have their say. Other eyewitnesses are also interviewed, and they praise the bombing raids because they «ended the horrors of war.»"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iv3q8p4n0",
+   "content": {
+    "text": "As the screen goes black, the room falls silent, the handful of viewers quiet. A woman from Texas turns to her male companion. «I always thought the dropping of the atomic bomb was something terrible,» she says. But now she has learned that the dropping ended so much horror and death. «That makes sense; I've never thought of it that way before.»"
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iv3qc20b1",
+   "content": {
+    "text": "Historian Peter Kuznick disputes the narrative that the atomic bomb was a blessing that ended World War II. He heads the Nuclear Studies Institute at American University in Washington, D.C., and has published several books and film documentaries on the end of World War II."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1ivj72t0p1",
+   "content": {
+    "text": "«The Americans are presenting a version that portrays the bombings as a moral act, even more: as something merciful that saved lives because it ended the war,» he explains on the phone. For him, Los Alamos is part of the historical wars that countries are waging today – and with which they publicly justify their policies."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iv3q8p4o1",
+   "content": {
+    "text": "Other historians also point to the <a target=\"_blank\" href=\"https://warfarehistorynetwork.com/article/the-soviet-invasion-of-manchuria-led-to-japans-greatest-defeat/\">crucial significance</a> of the Soviet Army's entry into the war against Japan in early August 1945 – a significance often downplayed in Western historiography. The invasion of Manchuria on August 9th, in particular, surprised the Japanese army and resulted in heavy casualties and territorial losses. The Soviets had originally planned the attack for later in August, but after the first atomic bombing of Hiroshima, they brought the operation forward."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iv8kmufh1",
+   "content": {
+    "text": "This suddenly placed the Japanese under pressure on two new fronts. It wasn't just the atomic bombings of Hiroshima and Nagasaki, but their combination with the Soviet invasion that ultimately forced the Japanese emperor to reconsider and surrender. This, too, is not mentioned in Los Alamos."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iv3q8p4p0",
+   "content": {
+    "text": "Some historians, like Kuznick, are now convinced that the US did not primarily intend to end the war with the bombings, but rather to demonstrate to the Soviet Union the destructive power of the new weapon – and what awaited them should they thwart America's postwar plans. Other historians maintain that the bombs were the only way to force the Japanese to surrender unconditionally."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1ivj6li911",
+   "content": {
+    "text": "Either way, the bombings ultimately laid the foundation for the strategy of nuclear deterrence that the USA still pursues today: Japan as a cautionary example for every future adversary."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1iv3q8p4s0",
+   "content": {
+    "title": "85 percent of Americans initially welcomed the bombings",
+    "id": "subtitle-85-prozent-der-amerikaner-begr-ssten-die-bombenabw-rfe-zun-chst"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iv3q8p4s1",
+   "content": {
+    "text": "The strategy also worked in the summer of 1945: In a radio address on August 6, President Truman revealed the secret of Los Alamos and praised the atomic bombings as the reason why the Japanese would soon surrender—and American soldiers would be coming home. Overnight, the scientists of Los Alamos became world-famous and were celebrated as heroes. <a target=\"_blank\" href=\"https://news.gallup.com/poll/17677/majority-supports-use-atomic-bomb-japan-wwii%20.aspx\">In a poll</a> conducted in mid-August 1945, 85 percent of Americans stated that the dropping of the atomic bombs had been justified."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iv3q8p4t0",
+   "content": {
+    "text": "Perceptions <a target=\"_blank\" href=\"https://www.nationalww2museum.org/war/articles/john-herseys-hiroshima-1946\">changed</a> when journalist John Hersey, in the summer of 1946, described the human misery of the atomic bomb for «The New Yorker» magazine, using the examples of a mother, a doctor, and a pastor. Ordinary people whose lives were turned into hell on earth."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iv3q8p4u0",
+   "content": {
+    "text": "Hersey's reports were read on the radio and discussed in schools. In the following years, Americans became increasingly critical of nuclear weapons, influenced by the development of the even more powerful hydrogen bomb and the Cold War. By 1990 <a target=\"_blank\" href=\"https://news.gallup.com/poll/17677/majority-supports-use-atomic-bomb-japan-wwii%20.aspx\">, only 53 percent still supported</a> the bombing of Japan."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "q-embed"
+  },
+  {
+   "identifier": "q-embed",
+   "id": "doc-1iv65p0u00",
+   "content": {
+    "q-embed": {
+     "service": "q-tool",
+     "params": {
+      "id": "a7c0c7216c0ccf63cff89bed35c40621",
+      "conf": {},
+      "toolConfig": {},
+      "toolRuntimeConfig": {
+       "size": {
+        "width": [
+         {
+          "value": 100,
+          "comparison": ">"
+         }
+        ]
+       },
+       "displayOptions": {
+        "hideTitle": false,
+        "hideSubtitle": false,
+        "hideFooter": false,
+        "hideAcronym": false,
+        "size": "basic"
+       },
+       "locale": "en_US"
+      },
+      "size": "content"
+     },
+     "resolvedValue": {}
+    },
+    "html": "      <div        class=\"q-chart-container\"        id=\"q_chart_a7c0c7216c0ccf63cff89bed35c40621_qa590c780515649ad9d7d2c4a8fbda3eb_container\"        data-q-item-id=\"a7c0c7216c0ccf63cff89bed35c40621\"        data-q-request-id=\"5564e6f5dc9dcae7a0608e3978d73bc65f57d2c4\"      ></div>",
+    "stylesheets": [
+     {
+      "type": "remote",
+      "content": "https://service.sophie.nzz.ch/bundle/sophie-color%23master,sophie-font%23master,sophie-legend%23master[icon-label],sophie-q%23master,sophie-viz-color%23master[general].css"
+     },
+     {
+      "type": "inline",
+      "content": "  @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff) format(\"woff\");  }    @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff) format(\"woff\");    unicode-range: U+0020-00FF,U+2005,U+2082;  }      "
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/css-theme-layer/nzz-0.2.0.css"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/chart/q-chart-1.2.6.css"
+     }
+    ],
+    "scripts": [
+     {
+      "type": "inline",
+      "content": "function qTrackingBootstrap(t,e,n){if(window.digitalData&&window.digitalData.component&&window.digitalData.component.push){window.digitalData.component.push(t),window.digitalData.event&&window.digitalData.event.length||(window.digitalData.event=[]);var i=new Date,a=e;a.eventInfo.timeStamp=i.toISOString(),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\");var o=document.querySelectorAll(\"[data-q-request-id='\"+n+\"']\");[].forEach.call(o,function(t){t.addEventListener(\"q-tracking-event\",function(t){var e=new Date;(a=JSON.parse(JSON.stringify(a))).eventInfo.timeStamp=e.toISOString(),a.eventInfo=Object.assign(a.eventInfo,t.detail.eventInfo),a.category=Object.assign(a.category,t.detail.category),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\")},!1)})}};qTrackingBootstrap({\"componentInfo\":{\"componentName\":\"Q\",\"componentID\":\"a7c0c7216c0ccf63cff89bed35c40621\"},\"category\":{\"componentType\":\"storytelling\",\"componentSubType1\":\"Q graphic\",\"componentSubType2\":\"chart\"}},{\"eventInfo\":{\"eventName\":\"Storytelling Interaction\",\"eventAction\":\"load\",\"type\":\"story\",\"componentName\":\"Q\",\"eventNonInteractive\":true,\"componentID\":\"a7c0c7216c0ccf63cff89bed35c40621\"},\"category\":{\"primaryCategory\":\"storytelling\",\"subCategory1\":\"Q graphic\",\"subCategory2\":\"chart\"}},\"5564e6f5dc9dcae7a0608e3978d73bc65f57d2c4\")"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/chart/q-chart-1.2.6.js"
+     },
+     {
+      "type": "inline",
+      "content": "      (function () {        function initialize() {          const target = document.querySelector('#q_chart_a7c0c7216c0ccf63cff89bed35c40621_qa590c780515649ad9d7d2c4a8fbda3eb_container');          if (!target) return;          target.innerHTML = '';          const qdoc = {\"_id\":\"a7c0c7216c0ccf63cff89bed35c40621\",\"allowDownloadData\":false,\"title\":\"The majority of Americans still approve of the bombings\",\"subtitle\":\"What are your thoughts on the atomic bombings of Hiroshima and Nagasaki in 1945?\",\"publication\":\"nzz\",\"acronym\":\"lma.\",\"data\":[[\"Date\",\"approval\",\"Rejection\",\"No opinion\"],[\"2015\",\"56\",\"34\",\"0\"],[\"2005\",\"57\",\"38\",\"5\"],[\"1995\",\"59\",\"35\",\"6\"],[\"1945\",\"85\",\"10\",\"5\"],[\"1945\",\"85\",\"10\",\"5\"]],\"sources\":[{\"text\":\"Pew (2015 survey)\",\"link\":{\"url\":\"https://www.pewresearch.org/global/2015/04/07/americans-japanese-mutual-respect-70-years-after-the-end-of-wwii/\"}},{\"text\":\"Gallup\",\"link\":{\"url\":\"https://news.gallup.com/poll/17677/majority-supports-use-atomic-bomb-japan-wwii%20.aspx\"}}],\"events\":[],\"options\":{\"annotations\":{},\"areaChartOptions\":{\"areaInterpolation\":\"linear\",\"stackType\":\"zero\"},\"arrowOptions\":{\"colorScheme\":0,\"invertColorScheme\":false},\"barOptions\":{\"isBarChart\":true,\"forceBarsOnSmall\":false},\"chartType\":\"StackedBar\",\"colorOverwritesRows\":[],\"colorOverwritesSeries\":[],\"dateSeriesOptions\":{\"interval\":\"auto\",\"labels\":\"many\",\"prognosisStart\":null},\"dotplotOptions\":{},\"hideAxisLabel\":true,\"highlightDataRows\":[],\"highlightDataSeries\":[],\"lineChartOptions\":{\"yScaleType\":\"linear\",\"reverseYScale\":false,\"lineInterpolation\":\"linear\",\"isStockChart\":false},\"largeNumbers\":{\"divideBy\":0}},\"updatedDate\":\"2025-07-08T18:03:42.150Z\",\"notes\":\"\"};          const toolRuntimeConfig = {\"displayOptions\":{\"hideTitle\":false,\"hideSubtitle\":false,\"hideFooter\":false,\"hideAcronym\":false,\"size\":\"basic\"},\"size\":{\"width\":[{\"value\":100,\"comparison\":\">\"}]},\"locale\":\"en-US\"};          const toolSettings = {\"qItemInstanceId\":\"q_chart_a7c0c7216c0ccf63cff89bed35c40621_qa590c780515649ad9d7d2c4a8fbda3eb\"};          let attempts = 0;          const maxAttempts = 100;          const checkAndInitialize = setInterval(() => {            if (window.qChart) {              clearInterval(checkAndInitialize);              new window.qChart({ target: target, props: {                qdoc: qdoc,                toolSettings: toolSettings,                toolRuntimeConfig: toolRuntimeConfig              } });            } else {              attempts++;              if (attempts >= maxAttempts) {                clearInterval(checkAndInitialize);                console.error('Failed to initialize qChart after 30 seconds');              }            }          }, 300);        }        if (document.body.classList.contains('pagedone')) {          initialize();        } else {          window.addEventListener('pagedone', initialize);        }      })();    "
+     }
+    ]
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iv3q8p4v0",
+   "content": {
+    "text": "But the American government vehemently clung to a positive portrayal of history. This was strikingly evident in 1995: For the 50th anniversary of the atomic bombing, the Smithsonian Museum in Washington, D.C., planned a major special exhibition. The «Enola Gay»—the aircraft that dropped the uranium bomb on Hiroshima—was to be displayed, along with life-size photographs of the victims from Hiroshima and Nagasaki. The aim was to spark a public debate about whether the dropping of the bombs had truly been necessary."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "q-embed",
+   "nextElement": "image"
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1iv66hmhu0",
+   "content": {
+    "image": {
+     "author": "Brian Snyder / Reuters",
+     "caption": "At the visitor center of the national park in Los Alamos, visitors make sketches of \"Little Boy\" and \"Fat Man,\" as the uranium and plutonium bombs were nicknamed.",
+     "originalUrl": "/2025/07/08/d557eeea-faba-4c01-9b95-49fcc2fdfb59.jpeg?width=1024",
+     "width": 3135,
+     "height": 2090,
+     "altText": "Notes left by visitors are posted at the Manhattan Project National Historical Park Visitor Center in Los Alamos, New Mexico, US, July 30, 2023. REUTERS/Brian Snyder",
+     "origins": [
+      {
+       "name": "Hugo",
+       "identifier": "2146400665"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "caption": "At the visitor center of the national park in Los Alamos, visitors make sketches of \"Little Boy\" and \"Fat Man,\" as the uranium and plutonium bombs were nicknamed.",
+    "author": "Brian Snyder / Reuters"
+   },
+   "styles": {
+    "fullwidth-widget": "widget--containerwidth"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "image"
+  },
+  {
+   "identifier": "image",
+   "id": "doc-1ivl2p71k1",
+   "content": {
+    "image": {
+     "author": "Eric Brissaud / Gamma Rapho / Getty",
+     "caption": "The researchers were unsure whether they would be able to achieve a nuclear chain reaction with plutonium; therefore, they first tested it in the wake of the \"Trinity\" explosion.",
+     "originalUrl": "/2025/07/08/c044dc46-8e3f-435e-b1eb-75a965e723e9.jpeg?width=1024",
+     "width": 3654,
+     "height": 2476,
+     "altText": "Research on plutonium (1950). (Photo by Eric BRISSAUD/Gamma-Rapho via Getty Images)",
+     "origins": [
+      {
+       "name": "Hugo",
+       "identifier": "2171832163"
+      }
+     ],
+     "imageService": "fastly"
+    },
+    "caption": "The researchers were unsure whether they would be able to achieve a nuclear chain reaction with plutonium; therefore, they first tested it in the wake of the \"Trinity\" explosion.",
+    "author": "Eric Brissaud / Gamma Rapho / Getty"
+   },
+   "styles": {
+    "fullwidth-widget": "widget--containerwidth"
+   },
+   "paidContent": true,
+   "prevElement": "image",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iv3q8p510",
+   "content": {
+    "text": "When the plans became public, veterans' groups protested vehemently. Congress threatened to cut the museum's funding. It was «one of the biggest controversies in the history of the Smithsonian,» <a target=\"_blank\" href=\"https://siarchives.si.edu/blog/exhibiting-enola-gay\">as its website now states.</a> After months of dispute, the entire project was canceled, and the museum director resigned."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "image",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iv3q8p520",
+   "content": {
+    "text": "There has never been a comparable exhibition. «Thirty years later, we still cannot have an honest discussion about what happened,» says Kuznick."
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "subtitle"
+  },
+  {
+   "identifier": "subtitle",
+   "id": "doc-1iv46e0b00",
+   "content": {
+    "title": "The visitors ask critical questions",
+    "id": "subtitle-die-besucher-stellen-kritische-fragen"
+   },
+   "contentTable": false,
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iuhkir5b0",
+   "content": {
+    "text": "Many questions remain: Couldn't the bombs have been dropped in a deserted, remote area? Was the second detonation in Nagasaki necessary? What would the world order look like today without nuclear weapons?"
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "subtitle",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iv3q94o60",
+   "content": {
+    "text": "These thoughts apparently also trouble visitors to Los Alamos. Walking through the old town, past the historical buildings and bronze statues, one arrives at the third exhibition area, the Laboratory's science museum. It is primarily financed by federal funds. There, too, are no photos of the victims, no words of doubt."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iv6if6df1",
+   "content": {
+    "text": "But in one corner, behind replicas of the two bombs, stands a white wall: visitors are invited to share their thoughts about the museum on colorful Post-it notes. The commentators are more thoughtful than the museum itself. «I'm sad that humans have turned nuclear energy into a weapon,» someone wrote, and: «I don't understand why nuclear weapons lead to peace.» Criticism is also voiced: «As informative as this museum is, I'm concerned because it portrays nuclear weapons as ‹fun.›»"
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "p-text"
+  },
+  {
+   "identifier": "p-text",
+   "id": "doc-1iv66ejr40",
+   "content": {
+    "text": "It seems that many Americans finally want an honest, critical exchange about history. But politicians are unwilling to provide a framework for it."
+   },
+   "data": {},
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "q-embed"
+  },
+  {
+   "identifier": "q-embed",
+   "id": "doc-1iuhkjkjb0",
+   "content": {
+    "q-embed": {
+     "service": "q-tool",
+     "params": {
+      "id": "c39d877217092a55c6dab1f3844063fc",
+      "conf": {},
+      "toolConfig": {},
+      "toolRuntimeConfig": {
+       "size": {
+        "width": [
+         {
+          "value": 100,
+          "comparison": ">"
+         }
+        ]
+       },
+       "displayOptions": {
+        "hideTitle": false,
+        "hideSubtitle": false,
+        "hideFooter": false,
+        "hideAcronym": false,
+        "size": "basic"
+       },
+       "locale": "en_US"
+      },
+      "size": "content"
+     },
+     "resolvedValue": {}
+    },
+    "html": "      <div        class=\"q-chart-container\"        id=\"q_chart_c39d877217092a55c6dab1f3844063fc_qa1b63cd01d1e493ca43a517787a8c83c_container\"        data-q-item-id=\"c39d877217092a55c6dab1f3844063fc\"        data-q-request-id=\"355c7704699d8eac6e5d7b03a0eb8cea8ad84f20\"      ></div>",
+    "stylesheets": [
+     {
+      "type": "remote",
+      "content": "https://service.sophie.nzz.ch/bundle/sophie-color%23master,sophie-font%23master,sophie-legend%23master[icon-label],sophie-q%23master,sophie-viz-color%23master[general].css"
+     },
+     {
+      "type": "inline",
+      "content": "  @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light.woff) format(\"woff\");  }    @font-face{    font-weight: 50 300;     font-family: \"NZZ Sans\";    font-display:swap;    src:      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff2) format(\"woff2\"),      url(https://nzz-q-prod2.static-nzz.ch/q-server/fonts/GT-America-Standard-Light-Subset.woff) format(\"woff\");    unicode-range: U+0020-00FF,U+2005,U+2082;  }      "
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/css-theme-layer/nzz-0.2.0.css"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/chart/q-chart-1.2.6.css"
+     }
+    ],
+    "scripts": [
+     {
+      "type": "inline",
+      "content": "function qTrackingBootstrap(t,e,n){if(window.digitalData&&window.digitalData.component&&window.digitalData.component.push){window.digitalData.component.push(t),window.digitalData.event&&window.digitalData.event.length||(window.digitalData.event=[]);var i=new Date,a=e;a.eventInfo.timeStamp=i.toISOString(),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\");var o=document.querySelectorAll(\"[data-q-request-id='\"+n+\"']\");[].forEach.call(o,function(t){t.addEventListener(\"q-tracking-event\",function(t){var e=new Date;(a=JSON.parse(JSON.stringify(a))).eventInfo.timeStamp=e.toISOString(),a.eventInfo=Object.assign(a.eventInfo,t.detail.eventInfo),a.category=Object.assign(a.category,t.detail.category),window.digitalData.event.push(a),void 0!==window.DANZZ&&\"function\"==typeof DANZZ.eventTrigger&&DANZZ.eventTrigger(\"q\")},!1)})}};qTrackingBootstrap({\"componentInfo\":{\"componentName\":\"Q\",\"componentID\":\"c39d877217092a55c6dab1f3844063fc\"},\"category\":{\"componentType\":\"storytelling\",\"componentSubType1\":\"Q graphic\",\"componentSubType2\":\"chart\"}},{\"eventInfo\":{\"eventName\":\"Storytelling Interaction\",\"eventAction\":\"load\",\"type\":\"story\",\"componentName\":\"Q\",\"eventNonInteractive\":true,\"componentID\":\"c39d877217092a55c6dab1f3844063fc\"},\"category\":{\"primaryCategory\":\"storytelling\",\"subCategory1\":\"Q graphic\",\"subCategory2\":\"chart\"}},\"355c7704699d8eac6e5d7b03a0eb8cea8ad84f20\")"
+     },
+     {
+      "type": "remote",
+      "content": "https://nzz-q-prod2.static-nzz.ch/q-tools-bundles/chart/q-chart-1.2.6.js"
+     },
+     {
+      "type": "inline",
+      "content": "      (function () {        function initialize() {          const target = document.querySelector('#q_chart_c39d877217092a55c6dab1f3844063fc_qa1b63cd01d1e493ca43a517787a8c83c_container');          if (!target) return;          target.innerHTML = '';          const qdoc = {\"_id\":\"c39d877217092a55c6dab1f3844063fc\",\"allowDownloadData\":false,\"title\":\"Today, most Americans would be against the use of the atomic bomb\",\"subtitle\":\"How would you have decided on the use of the two atomic bombs in 1945?\",\"publication\":\"nzz\",\"acronym\":\"lma.\",\"data\":[[\"Answer\",\"Had she not used\",\"Had she dropped it over uninhabited areas as a show of force\",\"Just like what happened in 1945\",\"He would have dropped even more atomic bombs\",\"I don't know it\"],[\"1945\",\"4.3\",\"13.8\",\"53.5\",\"22.7\",\"5.5\"],[\"2015\",\"14.4\",\"31.6\",\"28.5\",\"2.9\",\"22.7\"],[\"2024\",\"36.7\",\"20.9\",\"19.4\",\"3.2\",\"17.8\"]],\"sources\":[{\"text\":\"Bulletin of the Atomic Scientists\",\"link\":{\"url\":\"https://thebulletin.org/2024/08/what-do-americans-really-think-about-the-bombing-of-hiroshima-and-nagasaki/\"}}],\"events\":[],\"options\":{\"annotations\":{},\"areaChartOptions\":{\"areaInterpolation\":\"linear\",\"stackType\":\"zero\"},\"arrowOptions\":{\"colorScheme\":0,\"invertColorScheme\":false},\"barOptions\":{\"isBarChart\":false,\"forceBarsOnSmall\":false},\"chartType\":\"StackedBar\",\"colorOverwritesRows\":[],\"colorOverwritesSeries\":[],\"dateSeriesOptions\":{\"interval\":\"auto\",\"labels\":\"many\",\"prognosisStart\":null},\"dotplotOptions\":{},\"hideAxisLabel\":true,\"highlightDataRows\":[],\"highlightDataSeries\":[],\"lineChartOptions\":{\"yScaleType\":\"linear\",\"reverseYScale\":false,\"lineInterpolation\":\"linear\",\"isStockChart\":false},\"largeNumbers\":{\"divideBy\":0}},\"updatedDate\":\"2025-07-07T19:08:44.111Z\"};          const toolRuntimeConfig = {\"displayOptions\":{\"hideTitle\":false,\"hideSubtitle\":false,\"hideFooter\":false,\"hideAcronym\":false,\"size\":\"basic\"},\"size\":{\"width\":[{\"value\":100,\"comparison\":\">\"}]},\"locale\":\"en-US\"};          const toolSettings = {\"qItemInstanceId\":\"q_chart_c39d877217092a55c6dab1f3844063fc_qa1b63cd01d1e493ca43a517787a8c83c\"};          let attempts = 0;          const maxAttempts = 100;          const checkAndInitialize = setInterval(() => {            if (window.qChart) {              clearInterval(checkAndInitialize);              new window.qChart({ target: target, props: {                qdoc: qdoc,                toolSettings: toolSettings,                toolRuntimeConfig: toolRuntimeConfig              } });            } else {              attempts++;              if (attempts >= maxAttempts) {                clearInterval(checkAndInitialize);                console.error('Failed to initialize qChart after 30 seconds');              }            }          }, 300);        }        if (document.body.classList.contains('pagedone')) {          initialize();        } else {          window.addEventListener('pagedone', initialize);        }      })();    "
+     }
+    ]
+   },
+   "paidContent": true,
+   "prevElement": "p-text",
+   "nextElement": "sharebox",
+   "lastContentElement": true
+  },
+  {
+   "identifier": "sharebox",
+   "id": "doc-1iuhkiin52",
+   "paidContent": true,
+   "prevElement": "q-embed",
+   "nextElement": "related-articles-container"
+  },
+  {
+   "identifier": "related-articles-container",
+   "id": "doc-1iuhkiin53",
+   "content": {
+    "title": "Related articles"
+   },
+   "containers": {
+    "related-articles": [
+     {
+      "identifier": "teaser",
+      "id": "doc-1iuhkiin54",
+      "content": {
+       "title": "Hiroshima's fateful seconds",
+       "teaserImage": {
+        "originalUrl": "/2015/08/05/1.18590791.1438777889.jpg?width=1024",
+        "width": 640,
+        "height": 446,
+        "imageService": "fastly",
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "640,446,x0,y0"
+         },
+         {
+          "name": "1:1",
+          "crop": "446,446,x97,y0"
+         }
+        ],
+        "url": "https://img-msp-prod.nzz.ch/2015/08/05/1.18590791.1438777889.jpg?width=1024&quality=75&auto=webp",
+        "teaserCaption": "The theory that only the atomic bombings could end World War II is now considered outdated. What remains unchanged is the figure of 200,000 victims."
+       },
+       "nzzasFootnote": false,
+       "folioFootnote": false,
+       "language": {
+        "locale": "de-CH"
+       },
+       "nzzId": "ld.734176",
+       "readingTime": 360,
+       "authorLine": "Elisabeth Wallimann",
+       "characterCount": 7266,
+       "product": "NZZ.ch",
+       "documentId": 734176,
+       "layout": "regular",
+       "publicationDate": "2015-08-06T06:18:00.000Z",
+       "publicationLastUpdated": "2015-08-06T06:18:00.000Z",
+       "significantUpdate": false,
+       "significantUpdateTill": "2015-08-06T18:18:00.000Z",
+       "teaserCaption": "The theory that only the atomic bombings could end World War II is now considered outdated. What remains unchanged is the figure of 200,000 victims.",
+       "url": "/international/asien-und-pazifik/hiroshima-am-nullpunkt-ld.734176",
+       "department": {
+        "name": "Asia & Pacific",
+        "path": "/international/asien-und-pazifik"
+       },
+       "estimationWordCount": 1157,
+       "leadText": "The theory that only the atomic bombings could end World War II is now considered outdated. What remains unchanged is the figure of 200,000 victims."
+      }
+     },
+     {
+      "identifier": "teaser",
+      "id": "doc-1iuhkiin55",
+      "content": {
+       "owner": "NZZ",
+       "title": "Hitchcock's thrillers explain how science works better than the blockbuster «Oppenheimer»",
+       "teaserImage": {
+        "originalUrl": "/2024/03/05/88a4137a-4306-4153-b0d2-b2e179bacc87.jpeg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2024/03/05/88a4137a-4306-4153-b0d2-b2e179bacc87.jpeg?width=1024&quality=75&auto=webp",
+        "width": 3000,
+        "height": 2098,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "3000,1687,x0,y98"
+         },
+         {
+          "name": "1:1",
+          "crop": "2098,2098,x0,y0"
+         },
+         {
+          "name": "4:3",
+          "crop": "2797,2098,x0,y0"
+         },
+         {
+          "name": "3:4",
+          "crop": "1574,2098,x0,y0"
+         }
+        ],
+        "imageService": "fastly",
+        "teaserCaption": "The Oscars will be awarded in Hollywood on Sunday. The favorite showcases the bombastic side of science. This is entertaining, but it conveys a false impression.",
+        "teaserAuthor": "Imago"
+       },
+       "teaserAuthor": "Imago",
+       "nzzasFootnote": false,
+       "folioFootnote": false,
+       "language": {
+        "locale": "de-CH"
+       },
+       "nzzId": "ld.1820718",
+       "readingTime": 360,
+       "authorLine": "Mirko Bischofberger, Servan Grüninger",
+       "characterCount": 7533,
+       "product": "NZZ.ch",
+       "documentId": 1820718,
+       "layout": "longformstandard",
+       "publicationDate": "2024-03-07T13:13:18.774Z",
+       "publicationLastUpdated": "2024-03-25T09:50:36.044Z",
+       "significantUpdate": false,
+       "significantUpdateTill": "2024-03-08T01:13:18.774Z",
+       "teaserCaption": "The Oscars will be awarded in Hollywood on Sunday. The favorite showcases the bombastic side of science. This is entertaining, but it conveys a false impression.",
+       "url": "/wissenschaft/oppenheimer-krimis-erklaeren-besser-wie-wissenschaft-funktioniert-ld.1820718",
+       "department": {
+        "name": "Science",
+        "path": "/wissenschaft"
+       },
+       "estimationWordCount": 1183,
+       "leadText": "The Oscars will be awarded in Hollywood on Sunday. The favorite showcases the bombastic side of science. This is entertaining, but it conveys a false impression."
+      }
+     },
+     {
+      "identifier": "teaser",
+      "id": "doc-1iuhkiin56",
+      "content": {
+       "owner": "NZZ",
+       "title": "When Oppenheimer saw the bomb explode: Scientists research until their discoveries are unstoppable. Have we reached that point with AI yet?",
+       "teaserImage": {
+        "originalUrl": "/2023/11/20/98ecf250-5b93-4fcd-a0fe-aa3869625745.jpeg?width=1024",
+        "url": "https://img-msp-prod.nzz.ch/2023/11/20/98ecf250-5b93-4fcd-a0fe-aa3869625745.jpeg?width=1024&quality=75&auto=webp",
+        "width": 5184,
+        "height": 3456,
+        "crops": [
+         {
+          "name": "16:9",
+          "crop": "5184,2916,x0,y333"
+         },
+         {
+          "name": "1:1",
+          "crop": "3456,3456,x864,y0"
+         },
+         {
+          "name": "4:3",
+          "crop": "4608,3456,x0,y0"
+         },
+         {
+          "name": "3:4",
+          "crop": "2592,3456,x1314,y0"
+         }
+        ],
+        "imageService": "fastly",
+        "teaserCaption": "At some point, the creator of a technology realizes what they have created – and can no longer stop its further development. Are we at that point with artificial intelligence? Or have we already passed it?",
+        "teaserAuthor": "Johannes Simon / Getty"
+       },
+       "teaserAuthor": "Johannes Simon / Getty",
+       "nzzasFootnote": false,
+       "folioFootnote": false,
+       "language": {
+        "locale": "de-CH"
+       },
+       "nzzId": "ld.1766552",
+       "readingTime": 420,
+       "authorLine": "Roberto Simanowski",
+       "characterCount": 8619,
+       "product": "NZZ.ch",
+       "documentId": 1766552,
+       "layout": "longformstandard",
+       "publicationDate": "2023-11-21T04:30:00.000Z",
+       "publicationLastUpdated": "2023-11-21T04:30:00.000Z",
+       "significantUpdate": false,
+       "significantUpdateTill": "2023-11-21T16:30:00.000Z",
+       "teaserCaption": "At some point, the creator of a technology realizes what they have created – and can no longer stop its further development. Are we at that point with artificial intelligence? Or have we already passed it?",
+       "url": "/feuilleton/der-oppenheimer-moment-wenn-technik-nicht-mehr-aufzuhalten-ist-ld.1766552",
+       "department": {
+        "name": "Arts & Culture",
+        "path": "/feuilleton"
+       },
+       "estimationWordCount": 1344,
+       "leadText": "At some point, the creator of a technology realizes what they have created – and can no longer stop its further development. Are we at that point with artificial intelligence? Or have we already passed it?"
+      }
+     }
+    ]
+   },
+   "paidContent": true,
+   "prevElement": "sharebox",
+   "nextElement": "",
+   "lastContentElement": true
+  }
+ ],
+ "metadata": {
+  "owner": "NZZ",
+  "germanyRelevant": true,
+  "title": "80 years of the atomic bomb: In the American secret city of Los Alamos, a historical war rages.",
+  "teaserImage": {
+   "originalUrl": "/2025/07/11/b93530b9-79a6-40e8-ae86-3d5de985a3eb.gif?width=1024",
+   "url": "https://img-msp-prod.nzz.ch/2025/07/11/b93530b9-79a6-40e8-ae86-3d5de985a3eb.gif?width=1024&quality=75&auto=webp",
+   "width": 1800,
+   "height": 1200,
+   "crops": [
+    {
+     "name": "16:9",
+     "crop": "1800,1012,x0,y0"
+    },
+    {
+     "name": "1:1",
+     "crop": "1200,1200,x300,y0"
+    },
+    {
+     "name": "4:3",
+     "crop": "1600,1200,x100,y0"
+    },
+    {
+     "name": "3:4",
+     "crop": "900,1200,x450,y0"
+    },
+    {
+     "name": "3:2",
+     "crop": "1800,1200,x0,y0"
+    }
+   ],
+   "imageService": "fastly",
+   "teaserCaption": "The US secretly developed the atomic bomb in the Manhattan Project – and dropped it on Japan twice. In Los Alamos, this is still presented as a blessing for humanity. The victims are ignored.",
+   "teaserAuthor": "Getty"
+  },
+  "teaserAuthor": "Getty",
+  "nzzasFootnote": false,
+  "folioFootnote": false,
+  "language": {
+   "locale": "en-US"
+  },
+  "nzzId": "ld.1890570",
+  "readingTime": 720,
+  "authorLine": "Marie-Astrid Langer, Los Alamos",
+  "characterCount": 14970,
+  "breadcrumbs": [
+   {
+    "name": "Technology",
+    "path": "/technologie"
+   }
+  ],
+  "product": "NZZ.ch",
+  "documentId": 1890570,
+  "contentTypeGroup": "web",
+  "layout": "longformvisual",
+  "firstPublicationDate": "2025-07-16T03:30:00.000Z",
+  "publicationDate": "2025-07-16T03:30:00.000Z",
+  "publicationLastUpdated": "2025-07-16T03:30:00.000Z",
+  "significantUpdate": false,
+  "significantUpdateTill": "2025-07-16T15:30:00.000Z",
+  "teaserCaption": "The US secretly developed the atomic bomb in the Manhattan Project – and dropped it on Japan twice. In Los Alamos, this is still presented as a blessing for humanity. The victims are ignored.",
+  "url": "/technologie/80-jahre-atombombe-in-der-amerikanischen-geheimstadt-los-alamos-tobt-der-geschichtskrieg-ld.1890570",
+  "department": {
+   "name": "Technology",
+   "path": "/technologie"
+  },
+  "estimationWordCount": 2435,
+  "premium": true,
+  "leadText": "The US secretly developed the atomic bomb in the Manhattan Project – and dropped it on Japan twice. In Los Alamos, this is still presented as a blessing for humanity. The victims are ignored.",
+  "nzzSummaryEN": "- Los Alamos, once the heart of the Manhattan Project, presents its history in museums focusing on scientific achievements while downplaying the moral dimensions. Visitors criticize the lack of victim perspectives and open discussions on the bombings.\n- Historical narratives often highlight the atomic bomb's role in ending the war, while critical voices interpret the bombings as a power demonstration against the Soviet Union. Museum portrayals remain controversial.\n- Public discussions on the moral implications and long-term effects of the atomic bomb, especially on Japanese civilians, are limited by political constraints.",
+  "nzzSummaryDE": "Los Alamos, once the center of the Manhattan Project, presents its history in museums, focusing on scientific achievements rather than the moral dimension. Visitors criticize the lack of victim perspectives and an open discussion of the bombings.\n Historical accounts often emphasize the atomic bomb's contribution to ending the war, while critical voices interpret the bombings as a show of force against the Soviet Union. The way this topic is presented in museums remains controversial.\n - Public discussions about the moral implications and long-term effects of the atomic bomb, especially on civilians in Japan, are restricted by political frameworks.",
+  "nzzSummaryIsAuto": true,
+  "nzzSummaryModel": "gpt-4o-2024-11-20",
+  "nzzPrintTitle": "Legacy of the Atomic Bomb: A Visit to America's Secret City",
+  "nzzPrintSubtitle": "The historical war over the atomic bomb: Los Alamos is fighting with the past.",
+  "allArticleLanguages": [
+   {
+    "locale": "en-US",
+    "urlPath": "/english/los-alamos-and-the-controversial-legacy-of-the-atomic-bomb-ld.1893309",
+    "seo": {}
+   },
+   {
+    "locale": "de-CH",
+    "urlPath": "/technologie/80-jahre-atombombe-in-der-amerikanischen-geheimstadt-los-alamos-tobt-der-geschichtskrieg-ld.1890570",
+    "seo": {}
+   }
+  ],
+  "seo": {
+   "canonicalUrl": "https://www.nzz.ch/technologie/80-jahre-atombombe-in-der-amerikanischen-geheimstadt-los-alamos-tobt-der-geschichtskrieg-ld.1890570",
+   "title": "80 Years of the Atomic Bomb: The Legacy of the Manhattan Project",
+   "socialMediaTitle": "80 Years of the Atomic Bomb: The Legacy of the Manhattan Project",
+   "description": "Los Alamos and the atomic bomb: History meets pop culture",
+   "excludeFromSpiders": false,
+   "image": "https://img-msp-prod.nzz.ch/2025/07/11/b93530b9-79a6-40e8-ae86-3d5de985a3eb.gif?width=1200&height=674&fit=bounds&quality=75&auto=webp&crop=1800,1012,x0,y0&wmark=nzz"
+  },
+  "ldPublicationId": 1836893,
+  "isHighlightedHeader": true,
+  "barrierIndex": 2,
+  "outlinks": {
+   "mehrZumThema": [
+    "ld.734176",
+    "ld.1820718",
+    "ld.1766552"
+   ],
+   "artikelListe": [],
+   "aliasTeaserEmbedList": []
+  },
+  "tts": true,
+  "hasQ": true,
+  "mp3": true,
+  "mp3Duration": 999720,
+  "project": "nzz",
+  "machineTranslated": true,
+  "machineTranslationValidated": false
+ },
+ "isReduced": false,
+ "isPaid": false,
+ "isVamp": false,
+ "isWebview": false,
+ "digitalData": {
+  "component": [
+   {
+    "id": "ld.1890570",
+    "name": "80 years of the atomic bomb: In the American secret city of Los Alamos, a historical war rages.",
+    "type": "article",
+    "subType1": "longformvisual",
+    "subType2": "",
+    "primaryCategory": "Technologie",
+    "subCategory1": "",
+    "attributes": {
+     "headline": "80 years of the atomic bomb: In the American secret city of Los Alamos, a historical war rages.",
+     "firstPublishTitle": "",
+     "catchline": "",
+     "authors": [],
+     "issueTimestamp": "2025-07-16T03:30:00.000Z",
+     "updateTimestamp": "2025-07-16T03:30:00.000Z",
+     "isSponsoredContent": false,
+     "isPro": true,
+     "isLiveticker": false,
+     "flag": "",
+     "owner": "NZZ"
+    }
+   }
+  ],
+  "page": {
+   "pageId": "ld.1890570",
+   "pageType": "longformvisual",
+   "primaryCategory": "Technologie",
+   "subCategory1": "",
+   "subCategory2": "",
+   "language": "en-US"
+  },
+  "version": "2.0",
+  "user": {},
+  "event": []
+ },
+ "seoData": {
+  "title": "80 Years of the Atomic Bomb: The Legacy of the Manhattan Project",
+  "image": {
+   "url": "https://img-msp-prod.nzz.ch/2025/07/11/b93530b9-79a6-40e8-ae86-3d5de985a3eb.gif?width=1200&height=674&fit=bounds&quality=75&auto=webp&crop=1800,1012,x0,y0&wmark=nzz",
+   "type": "image/jpeg",
+   "width": 1200,
+   "height": 674
+  },
+  "author": "Marie-Astrid Langer, Los Alamos",
+  "description": "Los Alamos and the atomic bomb: History meets pop culture",
+  "news_keywords": "80 years of the atomic bomb: A historical war rages in the American secret city of Los Alamos (Technology, News, NZZ)",
+  "type": "article",
+  "last-modified": "2025-07-16T07:30:00+02:00",
+  "date": "2025-07-16T07:30:00+02:00",
+  "canonical": "https://www.nzz.ch/technologie/80-jahre-atombombe-in-der-amerikanischen-geheimstadt-los-alamos-tobt-der-geschichtskrieg-ld.1890570",
+  "fb:app_id": 138008459595436,
+  "fb:pages": 143694099006529,
+  "fb:admins": 1592685173,
+  "locale": "de-CH",
+  "email": "online.redaktion@nzz.ch",
+  "site_name": "Neue Zürcher Zeitung",
+  "copyright": "2026 Neue Zürcher Zeitung AG, Schweiz",
+  "robots": "noindex, nofollow, noarchive, noodp",
+  "hreflang": [
+   {
+    "hreflang": "en",
+    "href": "https://www.nzz.ch/english/los-alamos-and-the-controversial-legacy-of-the-atomic-bomb-ld.1893309"
+   },
+   {
+    "hreflang": "de",
+    "href": "https://www.nzz.ch/technologie/80-jahre-atombombe-in-der-amerikanischen-geheimstadt-los-alamos-tobt-der-geschichtskrieg-ld.1890570"
+   }
+  ],
+  "sharedTitle": "80 years of the atomic bomb: In the American secret city of Los Alamos, a historical war rages.",
+  "ogTitle": "80 Years of the Atomic Bomb: The Legacy of the Manhattan Project",
+  "ogUrl": "https://www.nzz.ch/technologie/80-jahre-atombombe-in-der-amerikanischen-geheimstadt-los-alamos-tobt-der-geschichtskrieg-ld.1890570",
+  "mrf:cms_id": "nzz:ld.1890570",
+  "mrf:sections": "Technologie;WTM",
+  "mrf:tags": "Page Type:longformvisual;Editorial Owner:NZZ;Content Type:Pro Article;Article ID:ld.1890570",
+  "nzzAuthors": [
+   {
+    "name": "Marie-Astrid Langer, Los Alamos"
+   }
+  ],
+  "links": [
+   {
+    "rel": "canonical",
+    "href": "https://www.nzz.ch/technologie/80-jahre-atombombe-in-der-amerikanischen-geheimstadt-los-alamos-tobt-der-geschichtskrieg-ld.1890570"
+   },
+   {
+    "rel": "search",
+    "href": "/suche",
+    "title": "Suche Neue Zürcher Zeitung, Schweiz, https://www.nzz.ch/suche"
+   },
+   {
+    "rel": "alternate",
+    "href": "https://www.nzz.ch/english/los-alamos-and-the-controversial-legacy-of-the-atomic-bomb-ld.1893309",
+    "hreflang": "en"
+   },
+   {
+    "rel": "alternate",
+    "href": "https://www.nzz.ch/technologie/80-jahre-atombombe-in-der-amerikanischen-geheimstadt-los-alamos-tobt-der-geschichtskrieg-ld.1890570",
+    "hreflang": "de"
+   }
+  ],
+  "renderedAt": "Thu, 03 Sep 2026 09:31:34 GMT"
+ },
+ "structuredData": [
+  {
+   "@context": "https://schema.org",
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "item": {
+      "@id": "/",
+      "name": "Home"
+     }
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "item": {
+      "@id": "/technologie",
+      "name": "Technology"
+     }
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "80 Years of the Atomic Bomb: The Legacy of the Manhattan Project"
+    }
+   ]
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": "NewsArticle",
+   "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.nzz.ch/technologie/80-jahre-atombombe-in-der-amerikanischen-geheimstadt-los-alamos-tobt-der-geschichtskrieg-ld.1890570"
+   },
+   "headline": "80 Years of the Atomic Bomb: The Legacy of the Manhattan Project",
+   "datePublished": "2025-07-16T07:30:00+02:00",
+   "dateModified": "2025-07-16T07:30:00+02:00",
+   "publisher": {
+    "@type": "NewsMediaOrganization",
+    "name": "Neue Zürcher Zeitung",
+    "url": "https://www.nzz.ch",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://www.nzz.ch/logo.png",
+     "width": 413,
+     "height": 60
+    },
+    "contactPoint": [
+     {
+      "@type": "ContactPoint",
+      "telephone": "+41-44-2581000",
+      "contactType": "customer service"
+     }
+    ],
+    "sameAs": [
+     "https://www.facebook.com/nzz",
+     "https://www.twitter.com/nzz",
+     "https://www.youtube.com/channel/UCK1aTcR0AckQRLTlK0c4fuQ",
+     "https://www.linkedin.com/company/neue-zurcher-zeitung",
+     "https://www.instagram.com/nzz/",
+     "https://de.wikipedia.org/wiki/Neue_Z%C3%BCrcher_Zeitung",
+     "https://www.wikidata.org/wiki/Q658945",
+     "https://plus.google.com/+nzz/",
+     "http://www.freebase.com/m/041b43"
+    ],
+    "masthead": "https://www.nzz.ch/impressum/impressum-ld.148422",
+    "foundingDate": "1780"
+   },
+   "description": "Los Alamos and the atomic bomb: History meets pop culture",
+   "isAccessibleForFree": false,
+   "articleSection": "Technologie",
+   "hasPart": {
+    "@type": "WebPageElement",
+    "isAccessibleForFree": false,
+    "cssSelector": ".nzzinteraction"
+   },
+   "image": {
+    "@type": "ImageObject",
+    "url": "https://img-msp-prod.nzz.ch/2025/07/11/b93530b9-79a6-40e8-ae86-3d5de985a3eb.gif?width=1200&height=674&fit=bounds&quality=75&auto=webp&crop=1800,1012,x0,y0&wmark=nzz",
+    "width": 1200,
+    "height": 674
+   },
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Marie-Astrid Langer, Los Alamos"
+    }
+   ],
+   "inLanguage": "de"
+  }
+ ],
+ "mp3": true,
+ "mp3Duration": 999720,
+ "bT": {
+  "standard": {
+   "Tags": [
+    "/technologie/80-jahre-atombombe-in-der-amerikanischen-geheimstadt-los-alamos-tobt-der-geschichtskrieg-ld.1890570",
+    "classification=premium",
+    "relevance=germany",
+    "layout=longformvisual",
+    "owner=nzz",
+    "product=nzz",
+    "doctype=article",
+    "pagetype=article",
+    "ldid=ld.1890570",
+    "channel=Technologie"
+   ],
+   "ContentCreated": "2025-07-16T03:30:00.000Z",
+   "ContentAuthor": "Marie-Astrid Langer, Los Alamos",
+   "ContentSection": "Technologie",
+   "ContentIsNative": true
+  },
+  "custom": {
+   "product": "nzz",
+   "docType": "article",
+   "pageType": "article",
+   "layout": "longformvisual",
+   "nzzAbstract": "Wie wird in Los Alamos die Geschichte der Atombombe dargestellt?\nWarum bleibt eine kritische Debatte in den USA über Atomwaffen bis heute schwierig?\nWas sagt das über die Politik in den USA aus? ",
+   "ldId": "ld.1890570",
+   "channel": "Technologie",
+   "heading": "80 Jahre Atombombe: In der amerikanischen Geheimstadt Los Alamos tobt der Geschichtskrieg",
+   "language": "en-US"
+  }
+ },
+ "webviewMetadata": {},
+ "cacheTime": 3600
+}

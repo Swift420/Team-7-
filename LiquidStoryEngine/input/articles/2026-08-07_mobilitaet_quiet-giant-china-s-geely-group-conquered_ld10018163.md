@@ -1,0 +1,67 @@
+# The quiet giant: how China's Geely Group conquered Europe's car market from within
+
+*Volvo, Lotus, and now Geely itself, alongside many lesser-known brands: The Hangzhou-based company is aiming for maximum diversity. Its market share is growing steadily, but it risks European customers losing track in the jungle of names and positioning.*
+
+**Herbie Schmidt** · Mobilität · 2026-08-07 · 1450 words · [ld.10018163](https://www.nzz.ch/mobilitaet/der-leise-gigant-wie-chinas-geely-konzern-europas-automarkt-von-innen-heraus-erobert-ld.10018163)
+
+![The Chinese group Geely established itself in Europe starting in 2010. Hardly anyone noticed.](https://img-msp-prod.nzz.ch/2026/08/05/ffa844eb-22e6-45cb-bdaa-88edf7ed0c63.jpg?crop=6000,4000,x0,y0)
+*The Chinese group Geely established itself in Europe starting in 2010. Hardly anyone noticed.* (Stephanie Lecocq / Reuters)
+
+Peter Z. had just bought a Volvo EX30, a compact electric car from the Swedish brand, known for its image of safety and solidity. He felt comfortable from the start thanks to its Scandinavian design and secure driving experience. When he happened to learn that while the car was developed in Sweden, Volvo had been a subsidiary of China’s Geely group since 2010, he was shocked. He now believed he had bought a Chinese car, one that suddenly seemed less safe and solid to him. But he can continue driving reassured, as both the technical basis of the Swedish EV and its design were created in Gothenburg.
+
+Now, however, it gets interesting: it was not Volvo that developed the vehicle platform used for the EX30 — called Sustainable Experience Architecture (SEA) — but another Geely brand named Zeekr. This indicates how the Hangzhou-based group operates. The port city of Hangzhou lies a good two hours’ drive southwest of Shanghai. It is considered one of China’s technological strongholds; IT companies like Alibaba Group are headquartered there.
+
+Geely is one of the Chinese automotive groups coping with declining domestic sales because the government no longer prioritizes electric vehicle promotion. Since 2022, there have been no more EV subsidies in China, and the tax exemption will also be abolished starting in 2027. Geely, therefore — like BYD, Chery, Leapmotor, and Great Wall — must seek salvation by exporting its vehicles. Europe is one suitable market, as its automotive industry lags technologically behind China and currently cannot keep pace with Chinese groups.
+
+![The Volvo EX30 is a Swedish car, but it has only recently begun production in Europe. Previously, production took place at Geely in China.](https://img-msp-prod.nzz.ch/2026/08/05/c2fe35e0-93b7-4efe-aa29-bc4f985322eb.jpg?crop=1587,893,x223,y357)
+*The Volvo EX30 is a Swedish car, but it has only recently begun production in Europe. Previously, production took place at Geely in China.* (PD)
+
+## Long-planned
+
+However, unlike BYD, for example, Geely does not try to boast as an almighty technology leader in Europe. It takes a more differentiated approach. Its strategy, reminiscent of the Greek myth of the Trojan Horse, is designed for the long term:
+
+![Geely is developing hybrid engines together with Renault in a joint venture called Horse Powertrain.](https://img-msp-prod.nzz.ch/2026/08/05/aaecdc78-7f2e-42bd-9202-23e2f93040e7.jpg?crop=617,497,x0,y0)
+*Geely is developing hybrid engines together with Renault in a joint venture called Horse Powertrain.* (PD)
+
+This structure created a multi-brand system blending European and Chinese brands. The four brands — Volvo, Polestar, Lynk & Co, and Zeekr — form a cluster for electric and hybrid cars, all developed together under one roof in Gothenburg but positioned differently. Volvo is positioned as the solid premium brand with high safety and quality standards. Polestar and Zeekr offer electric cars with the latest technology and high performance. And Lynk & Co, like Smart, primarily targets urban lifestyle groups.
+
+The advantage of this Swedish quartet is that all brands are developed for European customers or at least strongly tailored to them. Even the Geely design department is led by an experienced European, whose office is also located in the Gothenburg complex: German Stefan Sielaff, who came as chief designer from Bentley, brings extensive experience from Audi and Mercedes.
+
+Geely is now also expanding its namesake brand into European markets — Spain, Germany, the Netherlands, Belgium, and Luxembourg. Geely also aims to offer a competitor to Citroën or Dacia in the European mass market for particularly affordable cars. Geely is also entering the market as a car brand in Switzerland these days.
+
+## Technologically broadly positioned
+
+One advantage of Geely’s group strategy is its ability to leverage far-reaching synergies. Not only is the Volvo EX30 based on the SEA architecture, but its modular chassis also forms the basis for the Smart #1 and the luxury sports car Lotus Eletre. European manufacturers can only dream of such economies of scale.
+
+![](https://img-msp-prod.nzz.ch/2026/08/05/609e7a07-1895-4be5-97a8-a16dbb1d083a.jpg?crop=1920,1080,x0,y180)
+
+![](https://img-msp-prod.nzz.ch/2026/08/05/6c7dac7e-8814-47e4-9ea7-e548027e2532.jpg?crop=3005,1690,x846,y1387)
+
+At the same time, Geely does not focus solely on electric cars but remains open to various technologies for Europe. Since manufacturers outside China possess extensive technological know-how in building internal combustion engines and hybrid systems, Geely benefits from its joint venture agreements: with Renault for powertrain development and with Ford for building cars with various powertrains, the so-called Multi-Energy Vehicles. Two electric Geely SUVs, a new Ford Bronco, and the next Ford Kuga are slated for production at the Ford plant in Valencia.
+
+Here, the Hangzhou-based group has clear advantages, for example, over Tesla, but also over its Chinese competitors in Europe such as Chery and Great Wall. Only BYD and Leapmotor also rely on European production. Leapmotor benefits from a cooperation with the Stellantis group, gaining insights into technologies where China is not yet at the forefront.
+
+## European protectionism: Limited impact
+
+To protect the European automotive industry from rising imports of Chinese cars, the EU imposed punitive tariffs on electric cars manufactured in the People’s Republic. Manufacturers like BYD and Chery quickly adjusted their export portfolios and are currently launching more plug-in hybrid vehicles in Europe.
+
+Geely also reacted differently in this case. The group pursues a balanced strategy with multiple brands and various powertrains. For example, to retain European customers for the aforementioned Volvo EX30, manufactured in China, and to avoid price increases, the group began building the EV at Volvo’s Belgian plant as well. This way, punitive tariffs do not apply.
+
+For its other brands and vehicles, the company remains unfazed by the tariffs. Lothar Schupet, the German head of Europe for Geely’s subsidiary brand Zeekr, told the NZZ, «We will not pass punitive tariffs on to customers.» Geely prefers to accept selective margin losses as long as it gains European market share. And even with Zeekr, he added, it would be possible to switch to hybrid vehicles if necessary, as the technology already exists within the group. Moreover, the company learns daily through partnerships with Renault and Ford.
+
+Thus, the Geely group is also likely to soon possess sufficient technological competence to build vehicles for Europe in Europe, either under already known brands or those that can boast particularly attractive prices. And this with powertrains that the market and regulations demand. Geely CEO Li Shufu skillfully orchestrated this.
+
+![Vehicles from the Geely group, such as the Lynk & Co 02, are interesting products, but nobody in Europe knows the brands and models.](https://img-msp-prod.nzz.ch/2026/08/05/0c14190a-5250-43c9-ae44-6b8e003dc88e.jpg?crop=3491,1964,x273,y638)
+*Vehicles from the Geely group, such as the Lynk & Co 02, are interesting products, but nobody in Europe knows the brands and models.* (PD)
+
+However, Geely did not sufficiently consider one thing in its planned triumphant advance in Europe: Some of the group’s brands are unfamiliar to European customers, with names and complicated model designations that no one can remember. This also applies to the Geely group itself, apart from Volvo, Lotus, the London taxi, and Smart.
+
+Unlike European brands such as VW, Fiat, and Peugeot, Zeekr and Lynk & Co cannot benefit from a long tradition and success stories of previous models. Anyone who buys a Polestar initially knows nothing about the brand. They buy because they like the technology, the design, and especially the price. This must suffice for now until Geely brands have established themselves in Europe, become part of the streetscape, and written their first success story.
+
+Chinese multi-brand groups face another problem with the positioning of individual brands. Which European buyer today can clearly name the difference between Lynk & Co and Volvo? This requires further investment from parent company Geely. However, the group currently seems less concerned with which of its subsidiary brands is more successful than others. Customers can quickly lose track. It is much easier to focus on established European brands. They are easier to categorize and thus still have a real advantage over the flood of Chinese automakers.
+
+---
+**Auto summary (NZZ, GPT-generated):**
+- China's Geely Group continues its steady expansion into the European car market, leveraging a multi-faceted strategy that includes acquisitions and joint ventures with European brands like Volvo, Lotus, and Renault.
+- European customers may find the brand diversity and complex positioning confusing, despite Geely maintaining design and development hubs in Gothenburg.
+- Through joint ventures and the SEA platform, Geely capitalizes on synergies to stay competitive, though struggles with the acceptance of its less established brands in Europe.

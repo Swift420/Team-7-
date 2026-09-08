@@ -1,0 +1,25 @@
+{
+  "params": {
+    "id": "914387acc4e7abb7df0e8ee47291e8f6",
+    "conf": {},
+    "toolConfig": {},
+    "toolRuntimeConfig": {
+      "size": {
+        "width": [
+          {
+            "value": 100,
+            "comparison": ">"
+          }
+        ]
+      },
+      "displayOptions": {
+        "hideTitle": true,
+        "hideFooter": false,
+        "hideAcronym": true,
+        "hideSubtitle": false
+      }
+    }
+  },
+  "position": 18,
+  "component_id": "doc-1imk47dim0"
+}

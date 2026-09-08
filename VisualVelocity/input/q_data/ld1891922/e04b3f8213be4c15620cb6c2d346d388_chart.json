@@ -1,0 +1,90 @@
+{
+  "_id": "e04b3f8213be4c15620cb6c2d346d388",
+  "_rev": "5-ffa34e1932e92e781701ed336d181e5e",
+  "data": [
+    [
+      "Ansicht",
+      "Positive Sicht",
+      "Negative Sicht"
+    ],
+    [
+      "Maga-Republikaner",
+      "72",
+      "27"
+    ],
+    [
+      "Nicht-Maga",
+      "33",
+      "66"
+    ]
+  ],
+  "tool": "chart",
+  "notes": "Umfrage unter Republikanern und Parteilosen, die eher auf Seite der Republikaner stehen. Die Resultate sind mit einer Fehlermarge von ± 6 Prozentpunkten behaftet.",
+  "title": "Trump-Fans unterstützen die Reform deutlicher als traditionelle Republikaner",
+  "active": true,
+  "events": [],
+  "acronym": "lma.",
+  "options": {
+    "chartType": "StackedBar",
+    "barOptions": {
+      "isBarChart": false,
+      "forceBarsOnSmall": false
+    },
+    "annotations": {},
+    "arrowOptions": {
+      "colorScheme": 0,
+      "invertColorScheme": false
+    },
+    "largeNumbers": {
+      "divideBy": 0
+    },
+    "hideAxisLabel": true,
+    "dotplotOptions": {},
+    "areaChartOptions": {
+      "stackType": "zero",
+      "areaInterpolation": "linear"
+    },
+    "lineChartOptions": {
+      "yScaleType": "linear",
+      "isStockChart": false,
+      "reverseYScale": false,
+      "lineInterpolation": "linear"
+    },
+    "dateSeriesOptions": {
+      "labels": "many",
+      "interval": "auto",
+      "prognosisStart": null
+    },
+    "highlightDataRows": [],
+    "colorOverwritesRows": [],
+    "highlightDataSeries": [],
+    "colorOverwritesSeries": [
+      {
+        "color": "#374e8e",
+        "position": 1,
+        "colorLight": ""
+      },
+      {
+        "color": "#ce4631",
+        "position": 2,
+        "colorLight": ""
+      }
+    ]
+  },
+  "sources": [
+    {
+      "link": {
+        "url": "https://www.kff.org/medicaid/poll-finding/kff-health-tracking-poll-views-of-the-one-big-beautiful-bill/"
+      },
+      "text": "KFF"
+    }
+  ],
+  "subtitle": "",
+  "createdBy": "marie-astrid.langer@nzz.ch",
+  "updatedBy": "marianne.bosshard@nzz.ch",
+  "department": "International",
+  "createdDate": "2025-07-03T21:02:39.413Z",
+  "publication": "nzz",
+  "updatedDate": "2025-07-04T06:47:42.672Z",
+  "allowDownloadData": false
+}
