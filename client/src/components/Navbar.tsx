@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useMemo } from 'react';
 import {
   FilePenLine,
   FileUp,
@@ -10,9 +10,9 @@ import {
   UserRound,
   X,
 } from 'lucide-react';
-import { useAuth } from '../context/AuthContext';
-import { useArticles } from '../context/ArticleContext';
-import { useLanguage } from '../context/LanguageContext';
+import { useAuth } from '../hooks/useAuth';
+import { useArticles } from '../hooks/useArticles';
+import { useLanguage } from '../hooks/useLanguage';
 import { sectionsMatch } from '../utils/sectionTranslation';
 import { NzzLogo } from './common/NzzLogo';
 
@@ -33,26 +33,28 @@ export const Navbar: React.FC = () => {
   const { language, setLanguage, t, formatSection, formatDate } = useLanguage();
 
   // Curate unique broadsheet sections based on loaded articles + standard core departments
-  const rawSections = [
-    'International',
-    'Economy',
-    'Switzerland',
-    'Culture',
-    'Sports',
-    'Opinion',
-    'Technology',
-    'Science',
-  ];
-
-  // Include any extra unique sections from article corpus
-  articles.forEach((a) => {
-    if (a.section) {
-      const formatted = formatSection(a.section);
-      if (formatted && !rawSections.some((s) => sectionsMatch(s, formatted))) {
-        rawSections.push(a.section);
+  const rawSections = useMemo(() => {
+    const base = [
+      'International',
+      'Economy',
+      'Switzerland',
+      'Culture',
+      'Sports',
+      'Opinion',
+      'Technology',
+      'Science',
+    ];
+    const unique = [...base];
+    articles.forEach((a) => {
+      if (a.section) {
+        const formatted = formatSection(a.section);
+        if (formatted && !unique.some((s) => sectionsMatch(s, formatted))) {
+          unique.push(a.section);
+        }
       }
-    }
-  });
+    });
+    return unique;
+  }, [articles, formatSection]);
 
   const handleImport = () => (isEditor ? openCreateArticle('import') : setIsAuthModalOpen(true));
   const handleCreate = () => (isEditor ? openCreateArticle('create') : setIsAuthModalOpen(true));

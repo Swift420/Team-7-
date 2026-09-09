@@ -1,7 +1,7 @@
 import React from 'react';
 import { Mail } from 'lucide-react';
 import type { ExecutiveNewsletterFormat } from '../../types/liquid';
-import { useLanguage } from '../../context/LanguageContext';
+import { useLanguage } from '../../hooks/useLanguage';
 
 interface ExecutiveBriefCardProps {
   brief: ExecutiveNewsletterFormat;
@@ -10,11 +10,8 @@ interface ExecutiveBriefCardProps {
 
 export const ExecutiveBriefCard: React.FC<ExecutiveBriefCardProps> = ({
   brief,
-  language: propLanguage,
 }) => {
-  const { language: ctxLanguage, t } = useLanguage();
-  const activeLanguage = propLanguage || ctxLanguage;
-  const isGerman = activeLanguage === 'de';
+  const { t } = useLanguage();
 
   return (
     <aside className="nzz-executive-card">

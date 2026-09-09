@@ -5,8 +5,8 @@ import worldTopology from 'world-atlas/countries-110m.json';
 import { BookOpen, GitBranch, LoaderCircle, MapPin, X } from 'lucide-react';
 import { fetchCountryConnections, fetchCountryCoverage, fetchCountryStories } from '../services/api';
 import { CountryConnection, CountryCoverage, CountryStorySummary } from '../types';
-import { useArticles } from '../context/ArticleContext';
-import { useLanguage } from '../context/LanguageContext';
+import { useArticles } from '../hooks/useArticles';
+import { useLanguage } from '../hooks/useLanguage';
 
 type GlobeFeature = { type: string; properties?: { name?: string }; geometry: unknown; countryCode?: string; coverage?: CountryCoverage };
 type GlobeArc = CountryConnection & { startLat: number; startLng: number; endLat: number; endLng: number };
@@ -34,11 +34,9 @@ const geometryCenter = (geometry: unknown): { lat: number; lng: number } | null 
   return { lng: points.reduce((sum, point) => sum + point[0], 0) / points.length, lat: points.reduce((sum, point) => sum + point[1], 0) / points.length };
 };
 
-const formatDate = (date: string | null) => date ? new Intl.DateTimeFormat(undefined, { dateStyle: 'medium' }).format(new Date(date)) : 'Date unavailable';
-
 export const StoryGlobeExplorer: React.FC<{ onClose?: () => void; docked?: boolean }> = ({ onClose, docked = false }) => {
   const { openArticle } = useArticles();
-  const { language, t, formatSection, formatDate: ctxFormatDate } = useLanguage();
+  const { language, t, formatSection, formatDate } = useLanguage();
   const globeRef = useRef<any>(null);
   const containerRef = useRef<HTMLDivElement>(null);
   const [width, setWidth] = useState(760);
@@ -259,7 +257,7 @@ export const StoryGlobeExplorer: React.FC<{ onClose?: () => void; docked?: boole
                   >
                     <strong>{story.headline}</strong>
                     <span>
-                      {story.section ? formatSection(story.section) : t('globe.general')} · {ctxFormatDate(story.publishedAt)}
+                      {story.section ? formatSection(story.section) : t('globe.general')} · {formatDate(story.publishedAt)}
                     </span>
                     {story.lead && <p>{story.lead}</p>}
                     <small>{t('globe.open_article')}</small>
@@ -299,7 +297,7 @@ export const StoryGlobeExplorer: React.FC<{ onClose?: () => void; docked?: boole
                     >
                       <strong>{story.headline}</strong>
                       <span>
-                        {story.section ? formatSection(story.section) : t('globe.general')} · {ctxFormatDate(story.publishedAt)}
+                        {story.section ? formatSection(story.section) : t('globe.general')} · {formatDate(story.publishedAt)}
                       </span>
                       {story.lead && <p>{story.lead}</p>}
                       <small>{t('globe.open_article')}</small>

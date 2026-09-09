@@ -1,4 +1,4 @@
-import React, { createContext, useContext, useEffect, useState, useCallback } from 'react';
+import React, { useEffect, useState, useCallback, useMemo } from 'react';
 import { normalizeSection } from '../utils/sectionTranslation';
 
 export type Language = 'en' | 'de';
@@ -81,7 +81,14 @@ export const TRANSLATIONS = {
     'globe.loading_reports': 'Loading reports…',
     'globe.no_reports': 'No articles found for this country.',
     'globe.open_story': 'Open article →',
+    'globe.open_article': 'Open Article',
     'globe.hint': 'Click on a highlighted country on the globe to explore in-depth reporting.',
+    'globe.lead': 'Interactive spatial visualization of international NZZ investigations across 40+ countries.',
+    'globe.article_single': 'article',
+    'globe.shared_reports': 'Shared Reports',
+    'globe.general': 'General',
+    'globe.no_stories': 'No stories found for this country.',
+    'globe.focus_hotspots': 'Hotspots in Focus',
 
     // Reader & Article Detail
     'detail.back': 'Back to overview',
@@ -128,22 +135,30 @@ export const TRANSLATIONS = {
     // Editor Role Banner
     'role.editor_desc': 'Editor permissions active: You can compose, import NZZ articles, and manage visual enhancements.',
     'role.viewer_desc': 'Viewer mode active: Read-only access to NZZ article library. Switch to an Editor account to test composition and import.',
+    'role.banner_editor_desc': 'Editor permissions active: You can compose, import NZZ articles, and manage visual enhancements.',
+    'role.banner_viewer_desc': 'Viewer mode active: Read-only access to NZZ article library. Switch to an Editor account to test composition and import.',
     'role.switch_editor': 'Switch to Editor Mode',
     'role.staff_accounts': 'Staff Accounts',
+    'role.dummy_accounts': 'Demo Profiles',
     'role.import_btn': 'Import Article',
     'role.create_btn': 'Write Article',
 
     // Auth Modal
     'auth.kicker': 'NZZ EDITORIAL SYSTEM',
     'auth.title': 'Editor Sign In',
+    'auth.headline': 'Editor Sign In',
     'auth.sub': 'Access for editorial staff, data journalism, and Multimodal Studio (Gemini 2.5 Flash, Imagen 3 & Cloud TTS).',
     'auth.select_profile': 'Select an editor profile (1-Click Login)',
+    'auth.profile_label': 'Select an editor profile (1-Click Login):',
     'auth.or_credentials': 'Or sign in with credentials',
     'auth.username': 'Username',
+    'auth.username_placeholder': 'Enter username',
     'auth.password': 'Password',
+    'auth.password_placeholder': 'Enter password',
     'auth.cancel': 'Cancel',
     'auth.submit': 'Sign In as Editor',
     'auth.submitting': 'Signing in…',
+    'auth.logging_in': 'Signing in…',
     'auth.error': 'Invalid editor username or password.',
 
     // Create / Import Modal
@@ -260,7 +275,14 @@ export const TRANSLATIONS = {
     'globe.loading_reports': 'Lade Berichte…',
     'globe.no_reports': 'Keine Artikel für dieses Land gefunden.',
     'globe.open_story': 'Artikel öffnen →',
+    'globe.open_article': 'Artikel öffnen',
     'globe.hint': 'Klicken Sie auf ein markiertes Land auf dem Globus, um vertiefte Recherchen zu lesen.',
+    'globe.lead': 'Interaktive räumliche Visualisierung weltweiter NZZ-Recherchen über 40 Länder hinweg.',
+    'globe.article_single': 'Artikel',
+    'globe.shared_reports': 'Gemeinsame Berichte',
+    'globe.general': 'Allgemein',
+    'globe.no_stories': 'Keine Berichte für dieses Land verfügbar.',
+    'globe.focus_hotspots': 'Brennpunkte im Fokus',
 
     // Reader & Article Detail
     'detail.back': 'Zurück zur Übersicht',
@@ -307,22 +329,30 @@ export const TRANSLATIONS = {
     // Editor Role Banner
     'role.editor_desc': 'Redaktionsrechte aktiv: Sie können Artikel verfassen, importieren und Visualisierungen steuern.',
     'role.viewer_desc': 'Lesermodus aktiv: Lesezugriff auf das NZZ-Archiv. Zu einem Redaktionskonto wechseln, um Import und Bearbeitung zu testen.',
+    'role.banner_editor_desc': 'Sie verfügen über volle Redaktionsrechte zum Importieren, Verfassen, Bearbeiten und Erweitern von Artikeln.',
+    'role.banner_viewer_desc': 'Sie befinden sich im Lesermodus. Wechseln Sie zu einem Redaktor-Profil, um redaktionelle Workflows zu testen.',
     'role.switch_editor': 'In Redaktionsmodus wechseln',
     'role.staff_accounts': 'Redaktionskonten',
+    'role.dummy_accounts': 'Demo-Profile',
     'role.import_btn': 'Artikel importieren',
     'role.create_btn': 'Artikel verfassen',
 
     // Auth Modal
     'auth.kicker': 'NZZ REDAKTIONSSYSTEM',
     'auth.title': 'Redaktor Anmelden',
+    'auth.headline': 'Redaktor Anmelden',
     'auth.sub': 'Zugang für Redaktion, Datenjournalismus und Multimodal Studio (Gemini 2.5 Flash, Imagen 3 & Cloud TTS).',
     'auth.select_profile': 'Redaktor-Profil auswählen (1-Klick Login)',
+    'auth.profile_label': 'Redaktor-Profil auswählen (1-Klick Login):',
     'auth.or_credentials': 'Oder mit Zugangsdaten anmelden',
     'auth.username': 'Benutzername',
+    'auth.username_placeholder': 'Benutzername eingeben',
     'auth.password': 'Passwort',
+    'auth.password_placeholder': 'Passwort eingeben',
     'auth.cancel': 'Abbrechen',
     'auth.submit': 'Als Redaktor anmelden',
     'auth.submitting': 'Wird angemeldet…',
+    'auth.logging_in': 'Wird angemeldet…',
     'auth.error': 'Ungültiger Benutzername oder Passwort.',
 
     // Create / Import Modal
@@ -364,20 +394,11 @@ export const TRANSLATIONS = {
   },
 } as const;
 
-export type TranslationKey = keyof typeof TRANSLATIONS.en;
+import { LanguageContext } from './LanguageContextValue';
+export { LanguageContext, type LanguageContextType } from './LanguageContextValue';
+export { useLanguage } from '../hooks/useLanguage';
 
-export interface LanguageContextType {
-  language: Language;
-  setLanguage: (lang: Language) => void;
-  toggleLanguage: () => void;
-  t: (key: TranslationKey, params?: Record<string, string | number>) => string;
-  formatSection: (section?: string | null) => string;
-  formatDate: (date?: string | null, style?: 'short' | 'medium' | 'long' | 'weekday') => string;
-  formatRelativeDate: (date?: string | null) => string;
-  formatReadTime: (minutes: number) => string;
-}
-
-const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
+export type TranslationKey = (keyof typeof TRANSLATIONS.en) | (string & {});
 
 export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   // Always prioritise English by default as requested
@@ -416,7 +437,7 @@ export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ chil
   const t = useCallback(
     (key: TranslationKey, params?: Record<string, string | number>): string => {
       const dict = TRANSLATIONS[language] || TRANSLATIONS.en;
-      let text = (dict as Record<string, string>)[key] || TRANSLATIONS.en[key] || key;
+      let text = (dict as Record<string, string>)[key] || (TRANSLATIONS.en as Record<string, string>)[key] || key;
       if (params) {
         Object.entries(params).forEach(([k, v]) => {
           text = text.replace(new RegExp(`\\{${k}\\}`, 'g'), String(v));
@@ -435,9 +456,9 @@ export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ chil
   );
 
   const formatDate = useCallback(
-    (date?: string | null, style: 'short' | 'medium' | 'long' | 'weekday' = 'medium'): string => {
+    (date?: string | Date | null, style: 'short' | 'medium' | 'long' | 'weekday' = 'medium'): string => {
       if (!date) return language === 'de' ? 'Heute' : 'Today';
-      const parsed = new Date(date);
+      const parsed = date instanceof Date ? date : new Date(date);
       if (isNaN(parsed.getTime())) return language === 'de' ? 'Heute' : 'Today';
 
       const locale = language === 'de' ? 'de-CH' : 'en-GB';
@@ -477,9 +498,9 @@ export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ chil
   );
 
   const formatRelativeDate = useCallback(
-    (date?: string | null): string => {
+    (date?: string | Date | null): string => {
       if (!date) return language === 'de' ? 'Heute' : 'Today';
-      const parsed = new Date(date);
+      const parsed = date instanceof Date ? date : new Date(date);
       if (isNaN(parsed.getTime())) return language === 'de' ? 'Heute' : 'Today';
 
       const now = new Date();
@@ -508,28 +529,32 @@ export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ chil
     [language]
   );
 
+  const contextValue = useMemo(
+    () => ({
+      language,
+      setLanguage,
+      toggleLanguage,
+      t,
+      formatSection,
+      formatDate,
+      formatRelativeDate,
+      formatReadTime,
+    }),
+    [
+      language,
+      setLanguage,
+      toggleLanguage,
+      t,
+      formatSection,
+      formatDate,
+      formatRelativeDate,
+      formatReadTime,
+    ]
+  );
+
   return (
-    <LanguageContext.Provider
-      value={{
-        language,
-        setLanguage,
-        toggleLanguage,
-        t,
-        formatSection,
-        formatDate,
-        formatRelativeDate,
-        formatReadTime,
-      }}
-    >
+    <LanguageContext.Provider value={contextValue}>
       {children}
     </LanguageContext.Provider>
   );
-};
-
-export const useLanguage = (): LanguageContextType => {
-  const context = useContext(LanguageContext);
-  if (!context) {
-    throw new Error('useLanguage must be used within a LanguageProvider');
-  }
-  return context;
 };

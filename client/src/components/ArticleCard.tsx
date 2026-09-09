@@ -1,9 +1,9 @@
 import React from 'react';
 import { Bookmark, Clock, Trash2 } from 'lucide-react';
 import { Article } from '../types';
-import { useAuth } from '../context/AuthContext';
-import { useArticles } from '../context/ArticleContext';
-import { useLanguage } from '../context/LanguageContext';
+import { useAuth } from '../hooks/useAuth';
+import { useArticles } from '../hooks/useArticles';
+import { useLanguage } from '../hooks/useLanguage';
 
 interface ArticleCardProps {
   article: Article;

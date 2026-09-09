@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import { Play, Pause, RotateCcw, Volume2, Loader2, AlertCircle } from 'lucide-react';
 import type { AudioBriefFormat } from '../../types/liquid';
 import { synthesizeAudio } from '../../services/liquidApi';
-import { useLanguage } from '../../context/LanguageContext';
+import { useLanguage } from '../../hooks/useLanguage';
 
 interface AudioBriefPlayerProps {
   audioBrief: AudioBriefFormat;

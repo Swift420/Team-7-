@@ -1,8 +1,8 @@
-import React, { Suspense } from 'react';
+import React, { Suspense, useMemo } from 'react';
 import { ArrowRight, FileText, Globe2, Plus, RefreshCw } from 'lucide-react';
-import { useArticles } from '../context/ArticleContext';
-import { useAuth } from '../context/AuthContext';
-import { useLanguage } from '../context/LanguageContext';
+import { useArticles } from '../hooks/useArticles';
+import { useAuth } from '../hooks/useAuth';
+import { useLanguage } from '../hooks/useLanguage';
 import { ArticleCard } from './ArticleCard';
 import { sectionsMatch } from '../utils/sectionTranslation';
 
@@ -27,19 +27,21 @@ export const ArticleFeed: React.FC = () => {
   const { language, t, formatSection } = useLanguage();
 
   const query = searchQuery.trim().toLowerCase();
-  const filtered = articles.filter((article) => {
-    const isAll =
-      selectedCategory === 'all' ||
-      selectedCategory === 'All' ||
-      selectedCategory === 'Alle';
-    const categoryMatches = isAll || sectionsMatch(article.section, selectedCategory);
-    const searchMatches =
-      !query ||
-      [article.headline, article.lead, article.authorLine, article.section, ...(article.tags || [])].some(
-        (value) => value?.toLowerCase().includes(query)
-      );
-    return categoryMatches && searchMatches;
-  });
+  const filtered = useMemo(() => {
+    return articles.filter((article) => {
+      const isAll =
+        selectedCategory === 'all' ||
+        selectedCategory === 'All' ||
+        selectedCategory === 'Alle';
+      const categoryMatches = isAll || sectionsMatch(article.section, selectedCategory);
+      const searchMatches =
+        !query ||
+        [article.headline, article.lead, article.authorLine, article.section, ...(article.tags || [])].some(
+          (value) => value?.toLowerCase().includes(query)
+        );
+      return categoryMatches && searchMatches;
+    });
+  }, [articles, selectedCategory, query]);
 
   // Broadsheet Editorial Hierarchy
   const heroArticle = filtered[0];
