@@ -2,6 +2,7 @@ import React from "react";
 import { useAuth } from "../hooks/useAuth";
 import { useArticles } from "../hooks/useArticles";
 import { useArticleRoute } from "../hooks/useArticleRoute";
+import { useLanguage } from "../hooks/useLanguage";
 import { Navbar } from "./Navbar";
 import { RoleContextBanner } from "./RoleContextBanner";
 import { ArticleFeed } from "./ArticleFeed";
@@ -21,6 +22,7 @@ export const AppShell: React.FC = () => {
     setIsAuthModalOpen,
   } = useArticles();
   const { currentUser, isEditor } = useAuth();
+  const { t } = useLanguage();
   const articleId = useArticleRoute({
     selectedArticleId: selectedArticle?.id,
     openArticle,
@@ -28,9 +30,15 @@ export const AppShell: React.FC = () => {
 
   return (
     <div className="app-shell">
+      {/* Top Navigation */}
       <Navbar />
+
+      {/* Main Container */}
       <main className="main-content">
+        {/* Role & Privileges Context Banner */}
         <RoleContextBanner />
+
+        {/* Article Feed / Categories / Sections / Analytics Hub */}
         {articleId ? (
           <ArticleDetailPage
             article={selectedArticle}
@@ -40,26 +48,30 @@ export const AppShell: React.FC = () => {
           <ArticleFeed />
         )}
       </main>
+
+      {/* Modals */}
       <CreateArticleModal
         key={`${isCreateModalOpen ? "open" : "closed"}-${createArticleMode}`}
         isOpen={isCreateModalOpen}
         mode={createArticleMode}
         onClose={() => setIsCreateModalOpen(false)}
       />
+
       <DummyAccountsModal
         isOpen={isAuthModalOpen}
         onClose={() => setIsAuthModalOpen(false)}
       />
+
+      {/* Site Footer */}
       <footer className="app-footer">
         <div className="footer-inner">
           <div>
-            <strong>NZZ Pulse • Multimodal &amp; Visual Studio</strong> • Neue
-            Zürcher Zeitung &amp; Google Cloud Hackathon
+            <strong>{t("footer.title")}</strong> • {t("footer.collab")}
           </div>
           <div style={{ display: "flex", alignItems: "center", gap: "1rem" }}>
             <span>
-              Active: <strong>{currentUser.name}</strong> (
-              {isEditor ? "Editor" : "Reader"})
+              {t("footer.active")} <strong>{currentUser.name}</strong> (
+              {isEditor ? t("footer.role_editor") : t("footer.role_reader")})
             </span>
           </div>
         </div>

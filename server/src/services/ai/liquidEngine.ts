@@ -79,7 +79,7 @@ export async function generateLiquidDerivatives(
     : "gemini-2.5-pro";
   const endpoint = `https://${location}-aiplatform.googleapis.com/v1/projects/${projectId}/locations/${location}/publishers/google/models/${vertexModel}:generateContent`;
 
-  const thinkingBudget = vertexModel.includes("pro") ? 2048 : 0;
+  const thinkingBudget = vertexModel.includes("pro") ? 4096 : 0;
   console.log(
     `[LiquidEngine Vertex AI] Invoking ${vertexModel} (thinkingBudget=${thinkingBudget}) on project ${projectId}...`,
   );
@@ -95,7 +95,7 @@ export async function generateLiquidDerivatives(
       contents: [{ role: "user", parts: [{ text: prompt }] }],
       generationConfig: {
         responseMimeType: "application/json",
-        temperature: 0.2,
+        temperature: 0.7,
         maxOutputTokens: 16384,
         thinkingConfig: { thinkingBudget },
       },
@@ -174,9 +174,9 @@ export function getContextualTopicImagery(article: ArticleInput): TopicImagery {
   const text =
     `${article.headline} ${article.lead} ${article.body || ""}`.toLowerCase();
 
-  // 0a. Vinyl Records / Analog Audio / Music Production
+  // 0a. Vinyl Records / Analog Audio / Music Production (strict mandate, excludes general sports/business 'record')
   if (
-    /\b(vinyl|turntable|schallplatte|record\b|groove|plattenspieler|plattensammlung|analog\s*audio|tonarm|nadel)\b/i.test(
+    /\b(vinyl|turntable|schallplatte|vinyl\s*record|gramophone|plattenspieler|plattensammlung|analog\s*audio|tonarm|nadel|vinyl-rille)\b/i.test(
       text,
     )
   ) {
@@ -248,38 +248,75 @@ export function getContextualTopicImagery(article: ArticleInput): TopicImagery {
     };
   }
 
-  // 1. Sports / Tennis / Athletics
+  // 1a. Football / Soccer (UEFA, Champions League, FIFA, Bundesliga, Premier League)
+  const isFootball =
+    /\b(football|fussball|fußball|champions\s*league|uefa|fifa|bundesliga|premier\s*league|super\s*league|striker|penalty|pitch|goalkeeper)\b/i.test(
+      text,
+    );
+
+  // 1b. Tennis
+  const isTennis =
+    /\b(tennis|wimbledon|roland\s*garros|grand\s*slam|atp|wta|match\s*point|forehand|backhand)\b/i.test(
+      text,
+    );
+
+  // 1c. Sports / Athletics Reportage
   const isSports =
-    text.includes("tennis") ||
-    text.includes("wimbledon") ||
-    text.includes("roland garros") ||
-    text.includes("grand slam") ||
-    text.includes("atp") ||
-    text.includes("wta") ||
-    text.includes("matchball") ||
-    text.includes("aufschlag") ||
-    text.includes("forehand") ||
-    text.includes("backhand") ||
+    isFootball ||
+    isTennis ||
     /\b(sport|athletik|athletics|athlete|championship|tournament)\b/i.test(
       text,
     );
 
   if (isSports) {
+    if (isFootball) {
+      return {
+        coverUrl:
+          "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?auto=format&fit=crop&w=1080&q=80", // Stadium pitch floodlights
+        zoomUrl:
+          "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=400&q=80", // Match ball
+        zoomLabel: "STADIUM PITCH",
+        slideImages: [
+          "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?auto=format&fit=crop&w=1080&q=80", // Stadium floodlights
+          "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1080&q=80", // Match ball penalty spot
+          "https://images.unsplash.com/photo-1518091043644-c1d4457512c6?auto=format&fit=crop&w=1080&q=80", // Sideline action
+          "https://images.unsplash.com/photo-1522778119026-d647f0596c20?auto=format&fit=crop&w=1080&q=80", // Stadium architecture
+          "https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?auto=format&fit=crop&w=1080&q=80", // Wet pitch turf
+          "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1080&q=80", // NZZ Mark
+        ],
+      };
+    }
+
+    if (isTennis) {
+      return {
+        coverUrl:
+          "https://images.unsplash.com/photo-1595435934249-5df7ed86e1c0?auto=format&fit=crop&w=1080&q=80", // Roland Garros clay action
+        zoomUrl:
+          "https://images.unsplash.com/photo-1554068865-24cecd4e34b8?auto=format&fit=crop&w=400&q=80",
+        zoomLabel: "BALL COMPRESSION",
+        slideImages: [
+          "https://images.unsplash.com/photo-1595435934249-5df7ed86e1c0?auto=format&fit=crop&w=1080&q=80", // Court action
+          "https://images.unsplash.com/photo-1554068865-24cecd4e34b8?auto=format&fit=crop&w=1080&q=80", // Ball / string compression
+          "https://images.unsplash.com/photo-1622279457486-62dcc4a431d6?auto=format&fit=crop&w=1080&q=80", // Red clay slide
+          "https://images.unsplash.com/photo-1531315630201-bb15abeb1653?auto=format&fit=crop&w=1080&q=80", // Baseline focus
+          "https://images.unsplash.com/photo-1560012057-4372e14c5085?auto=format&fit=crop&w=1080&q=80", // Grand slam arena
+          "https://images.unsplash.com/photo-1511193311914-0346f16efe90?auto=format&fit=crop&w=1080&q=80", // Match point baseline
+          "https://images.unsplash.com/photo-1554068865-24cecd4e34b8?auto=format&fit=crop&w=1080&q=80", // Post-match reflection
+          "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1080&q=80", // NZZ Mark
+        ],
+      };
+    }
+
     return {
       coverUrl:
-        "https://images.unsplash.com/photo-1595435934249-5df7ed86e1c0?auto=format&fit=crop&w=1080&q=80", // Roland Garros clay action
+        "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?auto=format&fit=crop&w=1080&q=80", // Athletics action
       zoomUrl:
-        "https://images.unsplash.com/photo-1554068865-24cecd4e34b8?auto=format&fit=crop&w=400&q=80",
-      zoomLabel: "BALL COMPRESSION",
+        "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?auto=format&fit=crop&w=400&q=80",
+      zoomLabel: "ATHLETIC ACTION",
       slideImages: [
-        "https://images.unsplash.com/photo-1595435934249-5df7ed86e1c0?auto=format&fit=crop&w=1080&q=80", // Court action
-        "https://images.unsplash.com/photo-1554068865-24cecd4e34b8?auto=format&fit=crop&w=1080&q=80", // Ball / string compression
-        "https://images.unsplash.com/photo-1622279457486-62dcc4a431d6?auto=format&fit=crop&w=1080&q=80", // Red clay slide
-        "https://images.unsplash.com/photo-1531315630201-bb15abeb1653?auto=format&fit=crop&w=1080&q=80", // Baseline focus
-        "https://images.unsplash.com/photo-1560012057-4372e14c5085?auto=format&fit=crop&w=1080&q=80", // Grand slam arena
-        "https://images.unsplash.com/photo-1511193311914-0346f16efe90?auto=format&fit=crop&w=1080&q=80", // Match point baseline
-        "https://images.unsplash.com/photo-1554068865-24cecd4e34b8?auto=format&fit=crop&w=1080&q=80", // Post-match reflection
-        "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1080&q=80", // NZZ Mark
+        "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?auto=format&fit=crop&w=1080&q=80",
+        "https://images.unsplash.com/photo-1517649763962-0c623266ddc0?auto=format&fit=crop&w=1080&q=80",
+        "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1080&q=80",
       ],
     };
   }
@@ -769,6 +806,10 @@ function normalizeLiquidJson(raw: any, article: ArticleInput): any {
         const finalPrompt = s.imagePrompt || synthesized.prompt;
         const finalDetailLabel = s.detailZoomLabel || synthesized.detailLabel;
 
+        const slideSeed =
+          (slideNum * 37 + (article.headline.length || 7)) % 1000 + 1;
+        const dynamicAiPhotoUrl = `https://image.pollinations.ai/prompt/${encodeURIComponent(finalPrompt)}?width=1080&height=1350&model=flux&nologo=true&enhance=false&seed=${slideSeed}`;
+
         return {
           ...s,
           slideNumber: slideNum,
@@ -793,10 +834,10 @@ function normalizeLiquidJson(raw: any, article: ArticleInput): any {
           quote: s.quote?.text ? s.quote : undefined,
           imagePrompt: finalPrompt,
           imageUrl: hasImage
-            ? s.imageUrl || imagery.slideImages[idx] || imagery.coverUrl
+            ? s.imageUrl || dynamicAiPhotoUrl
             : undefined,
           detailZoomUrl: hasImage
-            ? s.detailZoomUrl || imagery.slideImages[idx] || imagery.zoomUrl
+            ? s.detailZoomUrl || dynamicAiPhotoUrl
             : undefined,
           detailZoomLabel: finalDetailLabel,
         };
@@ -1013,14 +1054,25 @@ export function generateDeterministicLiquidDerivatives(
       textCombined.includes("mobilität")) &&
       !textCombined.includes("tennis"));
 
-  const isSports =
+  const isFootball =
+    !isAutomotive &&
+    /\b(football|fussball|fußball|champions\s*league|uefa|fifa|bundesliga|premier\s*league|super\s*league|striker|penalty|pitch|goalkeeper)\b/i.test(
+      textCombined,
+    );
+
+  const isTennis =
     !isAutomotive &&
     (textCombined.includes("tennis") ||
       textCombined.includes("grand slam") ||
       textCombined.includes("wimbledon") ||
       textCombined.includes("roland garros") ||
       textCombined.includes("atp") ||
-      textCombined.includes("wta") ||
+      textCombined.includes("wta"));
+
+  const isSports =
+    isFootball ||
+    isTennis ||
+    (!isAutomotive &&
       /\b(sport|athletik|athletics|athlete|championship)\b/i.test(
         textCombined,
       ));
@@ -1045,14 +1097,27 @@ export function generateDeterministicLiquidDerivatives(
     ];
   } else if (isSports) {
     detectedCategory = isGerman ? "Sport & Athletik" : "Sports & Athletics";
-    suggestedTags = [
-      "#Tennis",
-      "#GrandSlam",
-      "#RolandGarros",
-      "#ATP",
-      "#Sport",
-      "#NZZ",
-    ];
+    if (isFootball) {
+      suggestedTags = [
+        "#Fussball",
+        "#ChampionsLeague",
+        "#UEFA",
+        "#Taktik",
+        "#Sport",
+        "#NZZ",
+      ];
+    } else if (isTennis) {
+      suggestedTags = [
+        "#Tennis",
+        "#GrandSlam",
+        "#RolandGarros",
+        "#ATP",
+        "#Sport",
+        "#NZZ",
+      ];
+    } else {
+      suggestedTags = ["#Sport", "#Athletik", "#Wettkampf", "#NZZ"];
+    }
   } else if (
     textCombined.includes("submarine") ||
     textCombined.includes("u-boot") ||

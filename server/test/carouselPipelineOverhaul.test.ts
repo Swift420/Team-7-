@@ -127,4 +127,50 @@ describe('Mission: Carousel Pipeline Overhaul & Editorial Strictness', () => {
       'Vinyl prompt must return an AI-generated or photorealistic vinyl image URL'
     );
   });
+
+  test('6. Football article with "record transfer fee" does NOT leak vinyl or turntable imagery', () => {
+    const footballArticle = {
+      id: 'football-transfer-record',
+      headline: 'Record Transfer Fee: Real Madrid Signs Midfield Sensation',
+      lead: 'The European champions set a new financial record in the summer transfer window after intense Champions League negotiations.',
+      body: 'With a record turnover and record sponsorship deal, the club cements its continental dominance.',
+    };
+
+    const topicImagery = getContextualTopicImagery(footballArticle);
+    assert.ok(
+      !topicImagery.coverUrl.includes('1603048588665'),
+      'Must NOT return vinyl turntable for football article with word "record"'
+    );
+    assert.notEqual(topicImagery.zoomLabel, 'RECORD GROOVES');
+
+    const { prompt, detailLabel } = synthesizePhotojournalismPrompt(
+      { slideNumber: 1, headline: 'Record Transfer Fee' },
+      { headline: footballArticle.headline, lead: footballArticle.lead, category: 'Sport' }
+    );
+    assert.ok(
+      !prompt.toLowerCase().includes('vinyl') && !prompt.toLowerCase().includes('turntable'),
+      'Synthesized football prompt must not mention vinyl or turntable'
+    );
+    assert.ok(
+      prompt.toLowerCase().includes('football') || prompt.toLowerCase().includes('pitch') || prompt.toLowerCase().includes('stadium'),
+      'Prompt must be focused on European football documentary'
+    );
+    assert.equal(detailLabel, 'STADIUM PITCH');
+  });
+
+  test('7. Football carousel slides generate authentic sideline and pitch beats', () => {
+    const { prompt: slide2Prompt, detailLabel: slide2Label } = synthesizePhotojournalismPrompt(
+      { slideNumber: 2, headline: 'Tactical Realignment' },
+      { headline: 'Champions League Showdown', lead: 'European football tactical analysis', category: 'Sport' }
+    );
+    assert.equal(slide2Label, 'SIDELINE TACTICS');
+    assert.ok(slide2Prompt.includes('wool coat') || slide2Prompt.includes('tactical'));
+
+    const { prompt: slide3Prompt, detailLabel: slide3Label } = synthesizePhotojournalismPrompt(
+      { slideNumber: 3, headline: 'Dead-Ball Mastery' },
+      { headline: 'Champions League Showdown', lead: 'European football tactical analysis', category: 'Sport' }
+    );
+    assert.equal(slide3Label, 'MATCH BALL');
+    assert.ok(slide3Prompt.includes('match football') || slide3Prompt.includes('penalty spot'));
+  });
 });

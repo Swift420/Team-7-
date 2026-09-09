@@ -1,44 +1,30 @@
-import React, { useState } from "react";
-import { ChevronDown, ChevronUp, Scale } from "lucide-react";
-import type { DialecticalFAQFormat } from "../../types/liquid";
+import React, { useState } from 'react';
+import { ChevronDown, ChevronUp, Scale } from 'lucide-react';
+import type { DialecticalFAQFormat } from '../../types/liquid';
 
 interface DialecticalAccordionProps {
   faq: DialecticalFAQFormat;
 }
 
-export const DialecticalAccordion: React.FC<DialecticalAccordionProps> = ({
-  faq,
-}) => {
+export const DialecticalAccordion: React.FC<DialecticalAccordionProps> = ({ faq }) => {
   const [openIndices, setOpenIndices] = useState<number[]>([0]);
 
   const toggleIndex = (idx: number) => {
     setOpenIndices((prev) =>
-      prev.includes(idx) ? prev.filter((i) => i !== idx) : [...prev, idx],
+      prev.includes(idx) ? prev.filter((i) => i !== idx) : [...prev, idx]
     );
   };
 
   const getBadge = (perspective: string) => {
     switch (perspective) {
-      case "consensus":
-        return {
-          label: "Mehrheitsmeinung / Status Quo",
-          color: "bg-blue-950/60 text-blue-400 border-blue-800",
-        };
-      case "counterargument":
-        return {
-          label: "Ökonomische Gegenposition",
-          color: "bg-amber-950/60 text-amber-400 border-amber-800",
-        };
-      case "structural_outlook":
-        return {
-          label: "Strukturelle Reformoptionen",
-          color: "bg-purple-950/60 text-purple-400 border-purple-800",
-        };
+      case 'consensus':
+        return { label: 'Mehrheitsmeinung / Status Quo', color: 'bg-blue-950/60 text-blue-400 border-blue-800' };
+      case 'counterargument':
+        return { label: 'Ökonomische Gegenposition', color: 'bg-amber-950/60 text-amber-400 border-amber-800' };
+      case 'structural_outlook':
+        return { label: 'Strukturelle Reformoptionen', color: 'bg-stone-800 text-stone-200 border-stone-700' };
       default:
-        return {
-          label: "Debatte",
-          color: "bg-slate-800 text-slate-300 border-slate-700",
-        };
+        return { label: 'Debatte', color: 'bg-slate-800 text-slate-300 border-slate-700' };
     }
   };
 
@@ -48,11 +34,10 @@ export const DialecticalAccordion: React.FC<DialecticalAccordionProps> = ({
         <Scale className="w-5 h-5 text-red-500" />
         <div>
           <h3 className="text-sm font-bold text-white uppercase tracking-wider">
-            Kontroverse & Argumente: {faq.topic || "Einordnung"}
+            Kontroverse & Argumente: {faq.topic || 'Einordnung'}
           </h3>
           <p className="text-xs text-slate-400 mt-0.5">
-            Gegensätzliche Positionen und ordnungspolitische Abwägungen nach
-            NZZ-Debattenstandard.
+            Gegensätzliche Positionen und ordnungspolitische Abwägungen nach NZZ-Debattenstandard.
           </p>
         </div>
       </div>
@@ -77,9 +62,7 @@ export const DialecticalAccordion: React.FC<DialecticalAccordionProps> = ({
                   >
                     {badge.label}
                   </span>
-                  <h4 className="text-xs font-semibold text-white font-serif">
-                    {item.question}
-                  </h4>
+                  <h4 className="text-xs font-semibold text-white font-serif">{item.question}</h4>
                 </div>
                 {isOpen ? (
                   <ChevronUp className="w-4 h-4 text-slate-400 shrink-0" />
