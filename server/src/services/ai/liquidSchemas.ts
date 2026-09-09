@@ -1,5 +1,6 @@
-import { z } from 'zod';
+import { z } from "zod";
 
+// Gemini output is untrusted until every derivative passes these schemas.
 export const audioBriefSchema = z.object({
   headline: z.string().min(3),
   wordCount: z.number().int().min(50).max(250),
@@ -10,7 +11,7 @@ export const audioBriefSchema = z.object({
   voiceProfile: z.object({
     languageCode: z.string(),
     voiceName: z.string(),
-    gender: z.enum(['MALE', 'FEMALE']).optional().default('FEMALE'),
+    gender: z.enum(["MALE", "FEMALE"]).optional().default("FEMALE"),
   }),
   approved: z.boolean().default(false),
 });
@@ -25,11 +26,16 @@ export const executiveNewsletterSchema = z.object({
 
 export const videoSceneSchema = z.object({
   sceneIndex: z.number().int().min(1).max(10).optional().default(1),
-  timeRange: z.string().optional().default('0:00 - 0:12'),
+  timeRange: z.string().optional().default("0:00 - 0:12"),
   durationSeconds: z.number().int().min(3).max(30).optional().default(12),
-  sceneType: z.string().transform((v) => v.toLowerCase()).pipe(
-    z.enum(['hook', 'data_stat', 'mechanism', 'friction', 'verdict']).catch('hook')
-  ),
+  sceneType: z
+    .string()
+    .transform((v) => v.toLowerCase())
+    .pipe(
+      z
+        .enum(["hook", "data_stat", "mechanism", "friction", "verdict"])
+        .catch("hook"),
+    ),
   onScreenHeadline: z.string().min(2),
   prominentMetric: z.string().nullable().optional(),
   visualPrompt: z.string().min(5),
@@ -39,8 +45,11 @@ export const videoSceneSchema = z.object({
 
 export const socialStoryboardSchema = z.object({
   title: z.string().min(3),
-  aspectRatio: z.literal('9:16'),
-  platformTargets: z.array(z.enum(['tiktok', 'reels', 'shorts'])).optional().default(['tiktok', 'reels', 'shorts']),
+  aspectRatio: z.literal("9:16"),
+  platformTargets: z
+    .array(z.enum(["tiktok", "reels", "shorts"]))
+    .optional()
+    .default(["tiktok", "reels", "shorts"]),
   totalDurationSeconds: z.number().int().min(30).max(120),
   scenes: z.array(videoSceneSchema).min(3).max(7),
   approved: z.boolean().default(false),
@@ -48,26 +57,42 @@ export const socialStoryboardSchema = z.object({
 
 export const carouselSlideSchema = z.object({
   slideNumber: z.number().int().min(1).max(10).optional().default(1),
-  slideType: z.string().transform((v) => v.toLowerCase()).pipe(
-    z.enum(['cover', 'data_point', 'context', 'quote', 'consequences', 'outro']).catch('context')
-  ),
+  slideType: z
+    .string()
+    .transform((v) => v.toLowerCase())
+    .pipe(
+      z
+        .enum([
+          "cover",
+          "data_point",
+          "context",
+          "quote",
+          "consequences",
+          "outro",
+        ])
+        .catch("context"),
+    ),
   layout: z
     .enum([
-      'hook_hero',
-      'split_media',
-      'stat_callout',
-      'dual_cards',
-      'chart_data',
-      'bullets_list',
-      'quote',
-      'cta_conversion',
+      "hook_hero",
+      "split_media",
+      "stat_callout",
+      "dual_cards",
+      "chart_data",
+      "bullets_list",
+      "quote",
+      "cta_conversion",
     ])
     .optional(),
-  headline: z.string().nullable().optional().transform((v) => (v && v.trim().length >= 2 ? v.trim() : 'NZZ')),
+  headline: z
+    .string()
+    .nullable()
+    .optional()
+    .transform((v) => (v && v.trim().length >= 2 ? v.trim() : "NZZ")),
   subhead: z.string().nullable().optional(),
   bodyText: z.string().nullable().optional(),
   badge: z.string().nullable().optional(),
-  theme: z.enum(['dark', 'sand', 'lavender', 'grey', 'white']).optional(),
+  theme: z.enum(["dark", "sand", "lavender", "grey", "white"]).optional(),
   hasImage: z.boolean().optional(),
   metricHighlight: z
     .object({
@@ -104,7 +129,7 @@ export const carouselSlideSchema = z.object({
     .optional(),
   chartData: z
     .object({
-      type: z.enum(['bar', 'line']).optional().default('bar'),
+      type: z.enum(["bar", "line"]).optional().default("bar"),
       title: z.string().optional(),
       items: z
         .array(
@@ -113,7 +138,7 @@ export const carouselSlideSchema = z.object({
             value: z.string(),
             isHighlighted: z.boolean().optional(),
             percent: z.number().optional(),
-          })
+          }),
         )
         .optional(),
       caption: z.string().optional(),
@@ -126,7 +151,7 @@ export const carouselSlideSchema = z.object({
         icon: z.string().optional(),
         title: z.string().optional(),
         text: z.string(),
-      })
+      }),
     )
     .nullable()
     .optional(),
@@ -146,7 +171,7 @@ export const carouselSlideSchema = z.object({
     })
     .nullable()
     .optional(),
-  imagePrompt: z.string().optional().default(''),
+  imagePrompt: z.string().optional().default(""),
   imageUrl: z.string().nullable().optional(),
   detailZoomUrl: z.string().nullable().optional(),
   detailZoomLabel: z.string().nullable().optional(),
@@ -154,8 +179,11 @@ export const carouselSlideSchema = z.object({
 
 export const instagramCarouselSchema = z.object({
   title: z.string().min(3),
-  aspectRatio: z.enum(['1:1', '4:5']).optional().default('4:5'),
-  theme: z.enum(['dark', 'sand', 'lavender', 'grey', 'white']).optional().default('dark'),
+  aspectRatio: z.enum(["1:1", "4:5"]).optional().default("4:5"),
+  theme: z
+    .enum(["dark", "sand", "lavender", "grey", "white"])
+    .optional()
+    .default("dark"),
   slides: z.array(carouselSlideSchema).min(4).max(10),
   captionText: z.string().min(10),
   hashtags: z.array(z.string()).min(1),
@@ -163,12 +191,15 @@ export const instagramCarouselSchema = z.object({
 });
 
 export const factBoxMetricSchema = z.object({
-  id: z.string().optional().default(() => Math.random().toString(36).slice(2, 7)),
-  metricName: z.string().min(1).optional().default('Indicator'),
+  id: z
+    .string()
+    .optional()
+    .default(() => Math.random().toString(36).slice(2, 7)),
+  metricName: z.string().min(1).optional().default("Indicator"),
   value: z.string().min(1),
   delta: z.string().nullable().optional(),
-  direction: z.enum(['up', 'down', 'neutral']).optional().default('neutral'),
-  contextNote: z.string().nullable().optional().default(''),
+  direction: z.enum(["up", "down", "neutral"]).optional().default("neutral"),
+  contextNote: z.string().nullable().optional().default(""),
 });
 
 export const factBoxSchema = z.object({
@@ -180,13 +211,18 @@ export const factBoxSchema = z.object({
 export const dialecticalFaqItemSchema = z.object({
   question: z.string().min(3),
   answer: z.string().min(5),
-  perspective: z.string().transform((v) => v.toLowerCase()).pipe(
-    z.enum(['consensus', 'counterargument', 'structural_outlook']).catch('consensus')
-  ),
+  perspective: z
+    .string()
+    .transform((v) => v.toLowerCase())
+    .pipe(
+      z
+        .enum(["consensus", "counterargument", "structural_outlook"])
+        .catch("consensus"),
+    ),
 });
 
 export const dialecticalFaqSchema = z.object({
-  topic: z.string().min(2).optional().default('Economic Analysis'),
+  topic: z.string().min(2).optional().default("Economic Analysis"),
   items: z.array(dialecticalFaqItemSchema).min(1).max(5),
   approved: z.boolean().default(false),
 });
@@ -203,13 +239,13 @@ export const chartSeriesSchema = z.object({
 
 export const chartConfigSchema = z.object({
   id: z.string(),
-  chartType: z.enum(['line', 'bar', 'grouped_bar', 'area', 'scatter']),
+  chartType: z.enum(["line", "bar", "grouped_bar", "area", "scatter"]),
   title: z.string(),
-  subtitle: z.string().optional().default(''),
-  sourceNote: z.string().optional().default(''),
-  xAxisLabel: z.string().optional().default(''),
-  yAxisLabel: z.string().optional().default(''),
-  unit: z.string().optional().default(''),
+  subtitle: z.string().optional().default(""),
+  sourceNote: z.string().optional().default(""),
+  xAxisLabel: z.string().optional().default(""),
+  yAxisLabel: z.string().optional().default(""),
+  unit: z.string().optional().default(""),
   series: z.array(chartSeriesSchema),
   confidence: z.number().optional().default(1.0),
   sourceSentence: z.string(),
@@ -224,16 +260,23 @@ export type ChartConfig = z.infer<typeof chartConfigSchema>;
 export type VisualVelocity = z.infer<typeof visualVelocitySchema>;
 
 export const editorialAnalysisSchema = z.object({
-  articleDepth: z.enum(['brief', 'standard', 'deep']).default('standard'),
+  articleDepth: z.enum(["brief", "standard", "deep"]).default("standard"),
   slideCount: z.number().int().min(3).max(10).default(6),
-  reasoning: z.string().default('Determined from article length and narrative depth'),
+  reasoning: z
+    .string()
+    .default("Determined from article length and narrative depth"),
 });
 
 export const liquidDerivativesSchema = z.object({
-  articleId: z.string().optional().default('art-1'),
-  generatedAt: z.string().optional().default(() => new Date().toISOString()),
-  source: z.enum(['vertex-ai', 'gemini-api', 'cloud-tts', 'imagen', 'template']).default('vertex-ai'),
-  model: z.string().optional().default('gemini-2.5-flash'),
+  articleId: z.string().optional().default("art-1"),
+  generatedAt: z
+    .string()
+    .optional()
+    .default(() => new Date().toISOString()),
+  source: z
+    .enum(["vertex-ai", "gemini-api", "cloud-tts", "imagen", "template"])
+    .default("vertex-ai"),
+  model: z.string().optional().default("gemini-2.5-flash"),
   elapsedMs: z.number().optional(),
   detectedCategory: z.string().optional(),
   suggestedTags: z.array(z.string()).optional(),

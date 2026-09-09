@@ -1,5 +1,9 @@
-import { query, withTransaction } from '../config/database.js';
-import { CountryConnection, CountryCoverage, CountryStorySummary } from '../types/country.js';
+import { query, withTransaction } from "../config/database.js";
+import {
+  CountryConnection,
+  CountryCoverage,
+  CountryStorySummary,
+} from "../types/country.js";
 
 export interface CountryAssignment {
   code: string;
@@ -9,10 +13,17 @@ export interface CountryAssignment {
   evidence: string[];
 }
 
-export async function replaceArticleCountries(articleId: string, assignments: CountryAssignment[]): Promise<void> {
+/** Persists country relationships separately so coverage queries stay cheap and reusable. */
+export async function replaceArticleCountries(
+  articleId: string,
+  assignments: CountryAssignment[],
+): Promise<void> {
   try {
     await withTransaction(async (client) => {
-      await client.query('DELETE FROM article_countries WHERE article_id = $1', [articleId]);
+      await client.query(
+        "DELETE FROM article_countries WHERE article_id = $1",
+        [articleId],
+      );
       for (const assignment of assignments) {
         await client.query(
           `INSERT INTO article_countries (article_id, country_code, country_name, relevance_score, confidence, source, evidence) VALUES ($1,$2,$3,$4,$5,'rules',$6)`,
@@ -23,12 +34,16 @@ export async function replaceArticleCountries(articleId: string, assignments: Co
             assignment.relevance,
             assignment.confidence,
             JSON.stringify(assignment.evidence),
-          ]
+          ],
         );
       }
     });
-  } catch (err: any) {
-    console.warn(`[CountryRepository] Could not persist countries for article ${articleId} (Postgres offline):`, err.message);
+  } catch (err: unknown) {
+    const message = err instanceof Error ? err.message : String(err);
+    console.warn(
+      `[CountryRepository] Could not persist countries for article ${articleId} (Postgres offline):`,
+      message,
+    );
   }
 }
 
@@ -41,7 +56,7 @@ export async function listCountryCoverage(): Promise<CountryCoverage[]> {
       recent_story_count: string;
       last_published_at: Date | null;
     }>(
-      `SELECT ac.country_code, ac.country_name, COUNT(*)::text AS story_count, COUNT(*) FILTER (WHERE a.published_at >= now() - interval '90 days')::text AS recent_story_count, MAX(a.published_at) AS last_published_at FROM article_countries ac JOIN articles a ON a.id = ac.article_id WHERE a.publication_status = 'published' GROUP BY ac.country_code, ac.country_name ORDER BY COUNT(*) DESC, MAX(a.published_at) DESC NULLS LAST`
+      `SELECT ac.country_code, ac.country_name, COUNT(*)::text AS story_count, COUNT(*) FILTER (WHERE a.published_at >= now() - interval '90 days')::text AS recent_story_count, MAX(a.published_at) AS last_published_at FROM article_countries ac JOIN articles a ON a.id = ac.article_id WHERE a.publication_status = 'published' GROUP BY ac.country_code, ac.country_name ORDER BY COUNT(*) DESC, MAX(a.published_at) DESC NULLS LAST`,
     );
     return result.rows.map((row) => ({
       countryCode: row.country_code,
@@ -55,7 +70,9 @@ export async function listCountryCoverage(): Promise<CountryCoverage[]> {
   }
 }
 
-export async function listCountryStories(code: string): Promise<CountryStorySummary[]> {
+export async function listCountryStories(
+  code: string,
+): Promise<CountryStorySummary[]> {
   try {
     const result = await query<{
       id: string;
@@ -67,7 +84,7 @@ export async function listCountryStories(code: string): Promise<CountryStorySumm
       tags: string[];
     }>(
       `SELECT a.id, a.headline, a.lead, a.section, a.published_at, a.teaser_image, a.tags FROM article_countries ac JOIN articles a ON a.id = ac.article_id WHERE ac.country_code = $1 AND a.publication_status = 'published' ORDER BY a.published_at DESC NULLS LAST, a.created_at DESC`,
-      [code.toUpperCase()]
+      [code.toUpperCase()],
     );
     return result.rows.map((row) => ({
       id: row.id,
@@ -83,7 +100,9 @@ export async function listCountryStories(code: string): Promise<CountryStorySumm
   }
 }
 
-export async function listCountryConnections(limit = 120): Promise<CountryConnection[]> {
+export async function listCountryConnections(
+  limit = 120,
+): Promise<CountryConnection[]> {
   try {
     const result = await query<{
       article_id: string;
@@ -107,7 +126,7 @@ export async function listCountryConnections(limit = 120): Promise<CountryConnec
       WHERE a.publication_status = 'published'
       ORDER BY a.published_at DESC NULLS LAST, a.created_at DESC
       LIMIT $1`,
-      [Math.max(1, limit * 8)]
+      [Math.max(1, limit * 8)],
     );
     const grouped = new Map<string, CountryConnection>();
     for (const row of result.rows) {
@@ -133,7 +152,9 @@ export async function listCountryConnections(limit = 120): Promise<CountryConnec
       }
       grouped.set(id, connection);
     }
-    return [...grouped.values()].sort((a, b) => b.storyCount - a.storyCount).slice(0, limit);
+    return [...grouped.values()]
+      .sort((a, b) => b.storyCount - a.storyCount)
+      .slice(0, limit);
   } catch {
     return [];
   }

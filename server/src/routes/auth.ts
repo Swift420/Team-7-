@@ -1,12 +1,25 @@
-import { Router } from 'express';
-import { authenticateEditor, createAuthToken } from '../auth.js';
+import { Router } from "express";
+import { authenticateEditor, createAuthToken } from "../auth.js";
+import { asyncHandler, sendError, sendSuccess } from "../http.js";
 
 const router = Router();
-router.post('/login', async (req, res, next) => {
-  try {
-    const user = await authenticateEditor(String(req.body?.username || ''), String(req.body?.password || ''));
-  if (!user) { res.status(401).json({ success: false, error: { code: 'INVALID_CREDENTIALS', message: 'Invalid editor username or password' } }); return; }
-  res.json({ success: true, data: { token: createAuthToken(user), user } });
-  } catch (error) { next(error); }
-});
+router.post(
+  "/login",
+  asyncHandler(async (req, res) => {
+    const user = await authenticateEditor(
+      String(req.body?.username || ""),
+      String(req.body?.password || ""),
+    );
+    if (!user) {
+      sendError(
+        res,
+        401,
+        "INVALID_CREDENTIALS",
+        "Invalid editor username or password",
+      );
+      return;
+    }
+    sendSuccess(res, { token: createAuthToken(user), user });
+  }),
+);
 export { router as authRouter };
