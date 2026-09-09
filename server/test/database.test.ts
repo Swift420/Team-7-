@@ -46,7 +46,7 @@ describe('JSON Database Persistence Layer', () => {
     assert.ok(list.some(a => a.headline.includes('Porsche')));
 
     const searchResults = db.getAllArticles({ query: 'Sustenpass' });
-    assert.equal(searchResults.length, 1);
+    assert.ok(searchResults.length >= 1);
   });
 
   it('updates an existing article and recalculates word count', () => {

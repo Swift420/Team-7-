@@ -1,6 +1,10 @@
 import fs from 'node:fs';
 import path from 'node:path';
+import { fileURLToPath } from 'node:url';
 import type { LiquidDerivatives } from '../services/ai/liquidSchemas.js';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 export interface ArticleRecord {
   id: string;
@@ -85,7 +89,50 @@ export class JsonDatabase {
       }
     }
 
-    // Auto-seed challenge articles if empty
+    // If empty, auto-seed from bundled seed files if available
+    const seedCandidates = [
+      path.resolve(__dirname, 'seed'),
+      path.resolve(__dirname, '../db/seed'),
+      path.resolve(__dirname, '../../src/db/seed'),
+      path.resolve(process.cwd(), 'src/db/seed'),
+      path.resolve(process.cwd(), 'server/src/db/seed'),
+    ];
+    const seedDir = seedCandidates.find((d) => fs.existsSync(d));
+
+    if (seedDir) {
+      const articlesSeed = path.join(seedDir, 'articles.seed.json');
+      const derivativesSeed = path.join(seedDir, 'derivatives.seed.json');
+
+      if (this.articles.size === 0 && fs.existsSync(articlesSeed)) {
+        try {
+          const raw = fs.readFileSync(articlesSeed, 'utf8');
+          const list: ArticleRecord[] = JSON.parse(raw);
+          for (const item of list) {
+            this.articles.set(item.id, item);
+          }
+          this.persistArticles();
+          console.log(`[DB] Seeded ${this.articles.size} articles from seed file.`);
+        } catch (err) {
+          console.error('[DB] Failed to parse articles.seed.json:', err);
+        }
+      }
+
+      if (this.derivatives.size === 0 && fs.existsSync(derivativesSeed)) {
+        try {
+          const raw = fs.readFileSync(derivativesSeed, 'utf8');
+          const list: { articleId: string; payload: LiquidDerivatives }[] = JSON.parse(raw);
+          for (const item of list) {
+            this.derivatives.set(item.articleId, item.payload);
+          }
+          this.persistDerivatives();
+          console.log(`[DB] Seeded ${this.derivatives.size} derivatives from seed file.`);
+        } catch (err) {
+          console.error('[DB] Failed to parse derivatives.seed.json:', err);
+        }
+      }
+    }
+
+    // Auto-seed challenge articles if still empty
     if (this.articles.size === 0) {
       this.seedInitialArticles();
     }
