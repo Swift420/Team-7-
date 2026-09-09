@@ -1,7 +1,14 @@
-import React, { useState, useRef, useEffect } from 'react';
-import { Play, Pause, RotateCcw, Volume2, Loader2, AlertCircle } from 'lucide-react';
-import type { AudioBriefFormat } from '../../types/liquid';
-import { synthesizeAudio } from '../../services/liquidApi';
+import React, { useState, useRef, useEffect } from "react";
+import {
+  Play,
+  Pause,
+  RotateCcw,
+  Volume2,
+  Loader2,
+  AlertCircle,
+} from "lucide-react";
+import type { AudioBriefFormat } from "../../types/liquid";
+import { synthesizeAudio } from "../../services/liquidApi";
 
 interface AudioBriefPlayerProps {
   audioBrief: AudioBriefFormat;
@@ -15,7 +22,9 @@ export const AudioBriefPlayer: React.FC<AudioBriefPlayerProps> = ({
   const [isPlaying, setIsPlaying] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
   const [errorMessage, setErrorMessage] = useState<string | null>(null);
-  const [audioSrc, setAudioSrc] = useState<string | undefined>(audioBrief.audioUrl);
+  const [audioSrc, setAudioSrc] = useState<string | undefined>(
+    audioBrief.audioUrl,
+  );
   const [currentTime, setCurrentTime] = useState(0);
   const audioRef = useRef<HTMLAudioElement | null>(null);
 
@@ -52,7 +61,9 @@ export const AudioBriefPlayer: React.FC<AudioBriefPlayerProps> = ({
         setIsLoading(true);
         const res = await synthesizeAudio({
           script: audioBrief.script,
-          language: audioBrief.voiceProfile?.languageCode?.startsWith('de') ? 'de' : 'en',
+          language: audioBrief.voiceProfile?.languageCode?.startsWith("de")
+            ? "de"
+            : "en",
           voiceName: audioBrief.voiceProfile?.voiceName,
         });
         setAudioSrc(res.audioUrl);
@@ -61,18 +72,21 @@ export const AudioBriefPlayer: React.FC<AudioBriefPlayerProps> = ({
         // Allow DOM to update audio src then play
         setTimeout(() => {
           if (audioRef.current) {
-            audioRef.current.play().then(() => {
-              setIsPlaying(true);
-            }).catch((err) => {
-              setErrorMessage(`Playback error: ${err.message}`);
-              setIsPlaying(false);
-            });
+            audioRef.current
+              .play()
+              .then(() => {
+                setIsPlaying(true);
+              })
+              .catch((err) => {
+                setErrorMessage(`Playback error: ${err.message}`);
+                setIsPlaying(false);
+              });
           }
         }, 100);
         return;
       } catch (err: any) {
         setIsLoading(false);
-        setErrorMessage(err.message || 'Google Cloud TTS synthesis failed');
+        setErrorMessage(err.message || "Google Cloud TTS synthesis failed");
         return;
       }
     }
@@ -82,12 +96,15 @@ export const AudioBriefPlayer: React.FC<AudioBriefPlayerProps> = ({
         audioRef.current.pause();
         setIsPlaying(false);
       } else {
-        audioRef.current.play().then(() => {
-          setIsPlaying(true);
-        }).catch((err) => {
-          setErrorMessage(`Playback error: ${err.message}`);
-          setIsPlaying(false);
-        });
+        audioRef.current
+          .play()
+          .then(() => {
+            setIsPlaying(true);
+          })
+          .catch((err) => {
+            setErrorMessage(`Playback error: ${err.message}`);
+            setIsPlaying(false);
+          });
       }
     }
   };
@@ -128,7 +145,7 @@ export const AudioBriefPlayer: React.FC<AudioBriefPlayerProps> = ({
             onClick={togglePlay}
             disabled={isLoading}
             className="w-12 h-12 rounded-full bg-red-600 hover:bg-red-500 text-white flex items-center justify-center shrink-0 shadow-lg shadow-red-950/50 transition-all hover:scale-105 disabled:opacity-75"
-            aria-label={isPlaying ? 'Pause Audio Brief' : 'Play Audio Brief'}
+            aria-label={isPlaying ? "Pause Audio Brief" : "Play Audio Brief"}
           >
             {isLoading ? (
               <Loader2 className="w-5 h-5 animate-spin" />
@@ -145,7 +162,10 @@ export const AudioBriefPlayer: React.FC<AudioBriefPlayerProps> = ({
                 60s Audio Brief
               </span>
               <span className="text-[11px] text-slate-400 font-mono">
-                {Math.floor(currentTime / 60)}:{String(currentTime % 60).padStart(2, '0')} / {Math.floor(duration / 60)}:{String(duration % 60).padStart(2, '0')}
+                {Math.floor(currentTime / 60)}:
+                {String(currentTime % 60).padStart(2, "0")} /{" "}
+                {Math.floor(duration / 60)}:
+                {String(duration % 60).padStart(2, "0")}
               </span>
             </div>
             <p className="text-xs font-semibold text-white mt-1 line-clamp-1">
@@ -158,7 +178,7 @@ export const AudioBriefPlayer: React.FC<AudioBriefPlayerProps> = ({
         <div className="flex items-center gap-2 text-xs text-slate-400">
           <span className="text-[10px] bg-slate-800 px-2.5 py-1 rounded-full text-slate-300 flex items-center gap-1 font-mono">
             <Volume2 className="w-3 h-3 text-red-400" />
-            {audioBrief.voiceProfile?.voiceName || 'en-US-Journey-F'}
+            {audioBrief.voiceProfile?.voiceName || "en-US-Journey-F"}
           </span>
           <button
             onClick={resetPlay}

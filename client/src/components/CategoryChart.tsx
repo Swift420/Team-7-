@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import {
   PieChart,
   Pie,
@@ -6,8 +6,8 @@ import {
   Tooltip,
   ResponsiveContainer,
   Legend,
-} from 'recharts';
-import type { CategoryData } from '../types';
+} from "recharts";
+import type { CategoryData } from "../types";
 
 interface CategoryChartProps {
   data: CategoryData[];
@@ -43,22 +43,22 @@ export const CategoryChart: React.FC<CategoryChartProps> = ({ data }) => {
             </Pie>
             <Tooltip
               contentStyle={{
-                backgroundColor: '#1e293b',
-                borderColor: '#334155',
-                borderRadius: '8px',
-                color: '#f8fafc',
+                backgroundColor: "#1e293b",
+                borderColor: "#334155",
+                borderRadius: "8px",
+                color: "#f8fafc",
               }}
               formatter={(value: any) => {
                 const val = Number(value);
                 const percent = ((val / total) * 100).toFixed(1);
-                return [`$${val.toLocaleString()} (${percent}%)`, 'Share'];
+                return [`$${val.toLocaleString()} (${percent}%)`, "Share"];
               }}
             />
             <Legend
               layout="horizontal"
               verticalAlign="bottom"
               align="center"
-              wrapperStyle={{ paddingTop: '10px' }}
+              wrapperStyle={{ paddingTop: "10px" }}
             />
           </PieChart>
         </ResponsiveContainer>

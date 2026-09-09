@@ -8,7 +8,7 @@ export interface AudioBriefFormat {
   voiceProfile: {
     languageCode: string;
     voiceName: string;
-    gender: 'MALE' | 'FEMALE';
+    gender: "MALE" | "FEMALE";
   };
   approved: boolean;
 }
@@ -25,7 +25,7 @@ export interface VideoScene {
   sceneIndex: number;
   timeRange: string;
   durationSeconds: number;
-  sceneType: 'hook' | 'data_stat' | 'mechanism' | 'friction' | 'verdict';
+  sceneType: "hook" | "data_stat" | "mechanism" | "friction" | "verdict";
   onScreenHeadline: string;
   prominentMetric?: string;
   visualPrompt: string;
@@ -35,28 +35,35 @@ export interface VideoScene {
 
 export interface SocialStoryboardFormat {
   title: string;
-  aspectRatio: '9:16';
-  platformTargets: ('tiktok' | 'reels' | 'shorts')[];
+  aspectRatio: "9:16";
+  platformTargets: ("tiktok" | "reels" | "shorts")[];
   totalDurationSeconds: number;
   scenes: VideoScene[];
   videoUrl?: string;
   approved: boolean;
 }
 
-export type CarouselTheme = 'dark' | 'sand' | 'lavender' | 'grey' | 'white';
+export type CarouselTheme = "dark" | "sand" | "lavender" | "grey" | "white";
 export type CarouselSlideLayout =
-  | 'hook_hero'
-  | 'split_media'
-  | 'stat_callout'
-  | 'dual_cards'
-  | 'chart_data'
-  | 'bullets_list'
-  | 'quote'
-  | 'cta_conversion';
+  | "hook_hero"
+  | "split_media"
+  | "stat_callout"
+  | "dual_cards"
+  | "chart_data"
+  | "bullets_list"
+  | "quote"
+  | "cta_conversion";
 
 export interface CarouselSlide {
   slideNumber: number; // 1 to 7
-  slideType: 'cover' | 'data_point' | 'context' | 'quote' | 'consequences' | 'outro' | string;
+  slideType:
+    | "cover"
+    | "data_point"
+    | "context"
+    | "quote"
+    | "consequences"
+    | "outro"
+    | string;
   layout?: CarouselSlideLayout;
   headline: string;
   subhead?: string;
@@ -70,14 +77,34 @@ export interface CarouselSlide {
     sublabel?: string;
   };
   comparisonCards?: {
-    card1: { title: string; text: string; badge?: string; variant?: 'default' | 'winner' | 'unacceptable' };
-    card2: { title: string; text: string; badge?: string; variant?: 'default' | 'loser' | 'high_risk' };
-    card3?: { title: string; text: string; badge?: string; variant?: 'default' | 'neutral' | 'limited_risk' };
+    card1: {
+      title: string;
+      text: string;
+      badge?: string;
+      variant?: "default" | "winner" | "unacceptable";
+    };
+    card2: {
+      title: string;
+      text: string;
+      badge?: string;
+      variant?: "default" | "loser" | "high_risk";
+    };
+    card3?: {
+      title: string;
+      text: string;
+      badge?: string;
+      variant?: "default" | "neutral" | "limited_risk";
+    };
   };
   chartData?: {
-    type?: 'bar' | 'line';
+    type?: "bar" | "line";
     title?: string;
-    items?: { label: string; value: string; isHighlighted?: boolean; percent?: number }[];
+    items?: {
+      label: string;
+      value: string;
+      isHighlighted?: boolean;
+      percent?: number;
+    }[];
     caption?: string;
   };
   bulletItems?: {
@@ -105,7 +132,7 @@ export interface InstagramCarouselFormat {
   title: string;
   category?: string;
   detectedCategory?: string;
-  aspectRatio: '1:1' | '4:5';
+  aspectRatio: "1:1" | "4:5";
   theme?: CarouselTheme;
   slides: CarouselSlide[];
   captionText: string;
@@ -118,7 +145,7 @@ export interface FactBoxMetric {
   metricName: string;
   value: string;
   delta?: string;
-  direction?: 'up' | 'down' | 'neutral';
+  direction?: "up" | "down" | "neutral";
   contextNote: string;
 }
 
@@ -131,7 +158,7 @@ export interface FactBoxFormat {
 export interface DialecticalFAQItem {
   question: string;
   answer: string;
-  perspective: 'consensus' | 'counterargument' | 'structural_outlook';
+  perspective: "consensus" | "counterargument" | "structural_outlook";
 }
 
 export interface DialecticalFAQFormat {
@@ -141,7 +168,7 @@ export interface DialecticalFAQFormat {
 }
 
 export interface ChartConfig {
-  type: 'line' | 'bar' | 'donut';
+  type: "line" | "bar" | "donut";
   title: string;
   data: { label: string; value: number }[];
   unit?: string;
@@ -153,7 +180,7 @@ export interface VisualVelocityFormat {
 }
 
 export interface EditorialAnalysis {
-  articleDepth: 'brief' | 'standard' | 'deep';
+  articleDepth: "brief" | "standard" | "deep";
   slideCount: number;
   reasoning: string;
 }
@@ -161,7 +188,7 @@ export interface EditorialAnalysis {
 export interface LiquidDerivativesPayload {
   articleId: string;
   generatedAt: string;
-  source?: 'vertex-ai' | 'gemini-api' | 'cloud-tts' | 'imagen' | 'template';
+  source?: "vertex-ai" | "gemini-api" | "cloud-tts" | "imagen" | "template";
   model: string;
   elapsedMs?: number;
   detectedCategory?: string;
@@ -185,13 +212,13 @@ export interface ArticleSummary {
   section?: string;
   category?: string;
   tags?: string[];
-  status?: 'draft' | 'published';
+  status?: "draft" | "published";
   wordCount?: number;
   readingTimeSeconds?: number;
   publishedAt?: string;
   createdAt?: string;
   filename?: string;
-  language?: 'en' | 'de';
+  language?: "en" | "de";
 }
 
 export interface ArticleDetail {
@@ -202,7 +229,7 @@ export interface ArticleDetail {
   section: string;
   category?: string;
   tags?: string[];
-  status?: 'draft' | 'published';
+  status?: "draft" | "published";
   wordCount: number;
   body: string;
   summaryBullets?: string[];
@@ -211,6 +238,5 @@ export interface ArticleDetail {
     caption: string;
     credit: string;
   };
-  language?: 'en' | 'de';
+  language?: "en" | "de";
 }
-

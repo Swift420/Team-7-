@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 interface BudgetBarProps {
   current: number;
@@ -8,23 +8,29 @@ interface BudgetBarProps {
   label: string;
 }
 
-export const BudgetBar: React.FC<BudgetBarProps> = ({ current, min, max, unit, label }) => {
+export const BudgetBar: React.FC<BudgetBarProps> = ({
+  current,
+  min,
+  max,
+  unit,
+  label,
+}) => {
   const isTooLow = current < min;
   const isTooHigh = current > max;
 
   const percentage = Math.min(100, Math.round((current / max) * 100));
 
-  let statusColor = 'bg-emerald-500';
-  let badgeColor = 'text-emerald-400 bg-emerald-950/60 border-emerald-800';
-  let statusText = 'Optimal';
+  let statusColor = "bg-emerald-500";
+  let badgeColor = "text-emerald-400 bg-emerald-950/60 border-emerald-800";
+  let statusText = "Optimal";
 
   if (isTooLow) {
-    statusColor = 'bg-amber-500';
-    badgeColor = 'text-amber-400 bg-amber-950/60 border-amber-800';
+    statusColor = "bg-amber-500";
+    badgeColor = "text-amber-400 bg-amber-950/60 border-amber-800";
     statusText = `Under budget (min ${min} ${unit})`;
   } else if (isTooHigh) {
-    statusColor = 'bg-rose-500';
-    badgeColor = 'text-rose-400 bg-rose-950/60 border-rose-800';
+    statusColor = "bg-rose-500";
+    badgeColor = "text-rose-400 bg-rose-950/60 border-rose-800";
     statusText = `Over budget (max ${max} ${unit})`;
   }
 
@@ -36,7 +42,9 @@ export const BudgetBar: React.FC<BudgetBarProps> = ({ current, min, max, unit, l
           <span className="text-slate-200 font-semibold">
             {current} / {max} {unit}
           </span>
-          <span className={`text-[10px] px-2 py-0.5 rounded-full border ${badgeColor}`}>
+          <span
+            className={`text-[10px] px-2 py-0.5 rounded-full border ${badgeColor}`}
+          >
             {statusText}
           </span>
         </div>

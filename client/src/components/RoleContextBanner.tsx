@@ -1,7 +1,7 @@
-import React from 'react';
-import { Shield, UserCheck, Sparkles, Plus, Users } from 'lucide-react';
-import { useAuth } from '../hooks/useAuth';
-import { useArticles } from '../hooks/useArticles';
+import React from "react";
+import { Shield, UserCheck, Sparkles, Plus, Users } from "lucide-react";
+import { useAuth } from "../hooks/useAuth";
+import { useArticles } from "../hooks/useArticles";
 
 export const RoleContextBanner: React.FC = () => {
   const { currentUser, isEditor, switchRole } = useAuth();
@@ -10,10 +10,16 @@ export const RoleContextBanner: React.FC = () => {
   if (!isEditor) return null;
 
   return (
-    <div className={`role-context-banner ${isEditor ? 'is-editor' : 'is-viewer'}`}>
+    <div
+      className={`role-context-banner ${isEditor ? "is-editor" : "is-viewer"}`}
+    >
       <div className="banner-left">
         <div className="role-avatar-wrap">
-          <img src={currentUser.avatar} alt={currentUser.name} className="banner-user-avatar" />
+          <img
+            src={currentUser.avatar}
+            alt={currentUser.name}
+            className="banner-user-avatar"
+          />
           <div className="role-icon-corner">
             {isEditor ? <Shield size={12} /> : <UserCheck size={12} />}
           </div>
@@ -30,8 +36,8 @@ export const RoleContextBanner: React.FC = () => {
           </div>
           <p className="banner-description">
             {isEditor
-              ? 'Editor permissions active: You can import NZZ JSON or Markdown articles and remove imported records.'
-              : 'Viewer mode active: Read-only access to the PostgreSQL-backed article library. Switch to an Editor account to test article import.'}
+              ? "Editor permissions active: You can import NZZ JSON or Markdown articles and remove imported records."
+              : "Viewer mode active: Read-only access to the PostgreSQL-backed article library. Switch to an Editor account to test article import."}
           </p>
         </div>
       </div>
@@ -42,13 +48,20 @@ export const RoleContextBanner: React.FC = () => {
           <>
             <button
               className="banner-btn-create"
-              onClick={() => openCreateArticle('import')}
+              onClick={() => openCreateArticle("import")}
               title="Import an article"
             >
               <Plus size={15} />
               <span>Import Article</span>
             </button>
-            <button className="banner-btn-create" onClick={() => openCreateArticle('create')} title="Create an article"><Plus size={15} /><span>Create Article</span></button>
+            <button
+              className="banner-btn-create"
+              onClick={() => openCreateArticle("create")}
+              title="Create an article"
+            >
+              <Plus size={15} />
+              <span>Create Article</span>
+            </button>
           </>
         ) : (
           <>

@@ -1,7 +1,7 @@
-import React from 'react';
+import React from "react";
 
 interface NzzLogoProps {
-  color?: 'white' | 'black' | 'current' | string;
+  color?: "white" | "black" | "current" | string;
   className?: string;
   width?: number | string;
   height?: number | string;
@@ -9,20 +9,20 @@ interface NzzLogoProps {
 }
 
 export const NzzLogo: React.FC<NzzLogoProps> = ({
-  color = 'white',
-  className = '',
+  color = "white",
+  className = "",
   width = 120,
   height,
   style,
 }) => {
   const fillColor =
-    color === 'white'
-      ? '#FFFFFF'
-      : color === 'black'
-      ? '#111111'
-      : color === 'current'
-      ? 'currentColor'
-      : color;
+    color === "white"
+      ? "#FFFFFF"
+      : color === "black"
+        ? "#111111"
+        : color === "current"
+          ? "currentColor"
+          : color;
 
   return (
     <svg
@@ -31,7 +31,7 @@ export const NzzLogo: React.FC<NzzLogoProps> = ({
       viewBox="0 0 283.46 99.75"
       width={width}
       height={height}
-      style={{ display: 'inline-block', flexShrink: 0, ...style }}
+      style={{ display: "inline-block", flexShrink: 0, ...style }}
       className={className}
       aria-label="Neue Zürcher Zeitung"
     >

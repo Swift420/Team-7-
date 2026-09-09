@@ -1,5 +1,5 @@
-import React from 'react';
-import { ArrowUpRight, ArrowDownRight } from 'lucide-react';
+import React from "react";
+import { ArrowUpRight, ArrowDownRight } from "lucide-react";
 
 interface StatCardProps {
   title: string;
@@ -28,8 +28,12 @@ export const StatCard: React.FC<StatCardProps> = ({
         <span className="stat-value">{value}</span>
       </div>
       <div className="stat-card-footer">
-        <span className={`stat-growth ${isPositive ? 'positive' : 'negative'}`}>
-          {isPositive ? <ArrowUpRight size={14} /> : <ArrowDownRight size={14} />}
+        <span className={`stat-growth ${isPositive ? "positive" : "negative"}`}>
+          {isPositive ? (
+            <ArrowUpRight size={14} />
+          ) : (
+            <ArrowDownRight size={14} />
+          )}
           {isPositive ? `+${growth}%` : `${growth}%`}
         </span>
         <span className="stat-subtext">{subtext}</span>

@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import {
   BarChart,
   Bar,
@@ -8,8 +8,8 @@ import {
   Tooltip,
   ResponsiveContainer,
   Legend,
-} from 'recharts';
-import type { RegionalData } from '../types';
+} from "recharts";
+import type { RegionalData } from "../types";
 
 interface RegionalChartProps {
   data: RegionalData[];
@@ -26,26 +26,46 @@ export const RegionalChart: React.FC<RegionalChartProps> = ({ data }) => {
       <div className="chart-header">
         <div>
           <h2 className="chart-title">Regional Distribution</h2>
-          <p className="chart-subtitle">Quarterly sales distribution across major global markets</p>
+          <p className="chart-subtitle">
+            Quarterly sales distribution across major global markets
+          </p>
         </div>
       </div>
 
       <div className="chart-wrapper">
         <ResponsiveContainer width="100%" height={320}>
-          <BarChart data={data} margin={{ top: 10, right: 20, left: 0, bottom: 0 }}>
-            <CartesianGrid strokeDasharray="3 3" stroke="#334155" opacity={0.4} />
-            <XAxis dataKey="region" stroke="#94a3b8" tick={{ fill: '#94a3b8', fontSize: 12 }} />
-            <YAxis stroke="#94a3b8" tick={{ fill: '#94a3b8' }} tickFormatter={formatCurrency} />
+          <BarChart
+            data={data}
+            margin={{ top: 10, right: 20, left: 0, bottom: 0 }}
+          >
+            <CartesianGrid
+              strokeDasharray="3 3"
+              stroke="#334155"
+              opacity={0.4}
+            />
+            <XAxis
+              dataKey="region"
+              stroke="#94a3b8"
+              tick={{ fill: "#94a3b8", fontSize: 12 }}
+            />
+            <YAxis
+              stroke="#94a3b8"
+              tick={{ fill: "#94a3b8" }}
+              tickFormatter={formatCurrency}
+            />
             <Tooltip
               contentStyle={{
-                backgroundColor: '#1e293b',
-                borderColor: '#334155',
-                borderRadius: '8px',
-                color: '#f8fafc',
+                backgroundColor: "#1e293b",
+                borderColor: "#334155",
+                borderRadius: "8px",
+                color: "#f8fafc",
               }}
-              formatter={(value: any) => [`$${Number(value).toLocaleString()}`, '']}
+              formatter={(value: any) => [
+                `$${Number(value).toLocaleString()}`,
+                "",
+              ]}
             />
-            <Legend wrapperStyle={{ paddingTop: '10px' }} />
+            <Legend wrapperStyle={{ paddingTop: "10px" }} />
             <Bar dataKey="q1" name="Q1" fill="#3b82f6" radius={[4, 4, 0, 0]} />
             <Bar dataKey="q2" name="Q2" fill="#06b6d4" radius={[4, 4, 0, 0]} />
             <Bar dataKey="q3" name="Q3" fill="#8b5cf6" radius={[4, 4, 0, 0]} />

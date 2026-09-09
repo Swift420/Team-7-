@@ -1,6 +1,6 @@
-import React from 'react';
-import { TrendingUp, TrendingDown, Minus } from 'lucide-react';
-import type { FactBoxFormat } from '../../types/liquid';
+import React from "react";
+import { TrendingUp, TrendingDown, Minus } from "lucide-react";
+import type { FactBoxFormat } from "../../types/liquid";
 
 interface FactBoxStripProps {
   factBox: FactBoxFormat;
@@ -13,9 +13,11 @@ export const FactBoxStrip: React.FC<FactBoxStripProps> = ({ factBox }) => {
     <div className="bg-slate-900/60 border border-slate-800 rounded-2xl p-5 my-8">
       <div className="flex items-center justify-between mb-4 pb-2 border-b border-slate-800">
         <h3 className="text-xs font-bold uppercase tracking-widest text-slate-300">
-          {factBox.title || 'Kernindikatoren im Überblick'}
+          {factBox.title || "Kernindikatoren im Überblick"}
         </h3>
-        <span className="text-[10px] text-slate-400 font-mono">NZZ Dossier Data</span>
+        <span className="text-[10px] text-slate-400 font-mono">
+          NZZ Dossier Data
+        </span>
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -35,14 +37,14 @@ export const FactBoxStrip: React.FC<FactBoxStripProps> = ({ factBox }) => {
                 {metric.delta && (
                   <span
                     className={`text-xs font-bold font-mono flex items-center gap-0.5 ${
-                      metric.direction === 'down'
-                        ? 'text-emerald-400'
-                        : 'text-red-400'
+                      metric.direction === "down"
+                        ? "text-emerald-400"
+                        : "text-red-400"
                     }`}
                   >
-                    {metric.direction === 'down' ? (
+                    {metric.direction === "down" ? (
                       <TrendingDown className="w-3.5 h-3.5" />
-                    ) : metric.direction === 'up' ? (
+                    ) : metric.direction === "up" ? (
                       <TrendingUp className="w-3.5 h-3.5" />
                     ) : (
                       <Minus className="w-3.5 h-3.5" />
@@ -61,4 +63,3 @@ export const FactBoxStrip: React.FC<FactBoxStripProps> = ({ factBox }) => {
     </div>
   );
 };
-

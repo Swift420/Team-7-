@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react';
+import React, { useState, useRef } from "react";
 import {
   X,
   Sparkles,
@@ -14,15 +14,15 @@ import {
   CheckCircle2,
   BookmarkPlus,
   HelpCircle,
-} from 'lucide-react';
-import { saveCustomArticle } from '../../services/liquidApi';
-import type { ArticleDetail } from '../../types/liquid';
+} from "lucide-react";
+import { saveCustomArticle } from "../../services/liquidApi";
+import type { ArticleDetail } from "../../types/liquid";
 
 interface ArticleComposerProps {
   isOpen: boolean;
   onClose: () => void;
   onArticleSaved: (articleId: string) => void;
-  defaultLanguage?: 'en' | 'de';
+  defaultLanguage?: "en" | "de";
 }
 
 interface ArticlePreset {
@@ -43,17 +43,21 @@ interface ArticlePreset {
 
 const PRESETS: ArticlePreset[] = [
   {
-    id: 'defense-procurement',
-    nameEn: '🛡️ European Defense Procurement (New)',
-    nameDe: '🛡️ Europäische Rüstungsbeschaffung (Neu)',
-    sectionEn: 'World',
-    sectionDe: 'International',
-    authorEn: 'Dr. Beat Gygi',
-    authorDe: 'Dr. Beat Gygi',
-    headlineEn: 'European Defense Budgets Surge Past €380 Billion Amid NATO Strategic Realignment',
-    headlineDe: 'Europäische Verteidigungsausgaben übersteigen 380 Milliarden Euro im Zuge der Nato-Neuausrichtung',
-    leadEn: 'European member states are radically overhauling military procurement cycles. A structural breakdown of capital allocation reveals unprecedented investment into autonomous drones, layered air defense, and hardened domestic munitions manufacturing.',
-    leadDe: 'Europäische Staaten strukturieren ihre Rüstungsbeschaffung grundlegend um. Eine Analyse der Mittelallokation offenbart historische Investitionen in autonome Drohnen, gestaffelte Flugabwehr und die heimische Munitionsproduktion.',
+    id: "defense-procurement",
+    nameEn: "🛡️ European Defense Procurement (New)",
+    nameDe: "🛡️ Europäische Rüstungsbeschaffung (Neu)",
+    sectionEn: "World",
+    sectionDe: "International",
+    authorEn: "Dr. Beat Gygi",
+    authorDe: "Dr. Beat Gygi",
+    headlineEn:
+      "European Defense Budgets Surge Past €380 Billion Amid NATO Strategic Realignment",
+    headlineDe:
+      "Europäische Verteidigungsausgaben übersteigen 380 Milliarden Euro im Zuge der Nato-Neuausrichtung",
+    leadEn:
+      "European member states are radically overhauling military procurement cycles. A structural breakdown of capital allocation reveals unprecedented investment into autonomous drones, layered air defense, and hardened domestic munitions manufacturing.",
+    leadDe:
+      "Europäische Staaten strukturieren ihre Rüstungsbeschaffung grundlegend um. Eine Analyse der Mittelallokation offenbart historische Investitionen in autonome Drohnen, gestaffelte Flugabwehr und die heimische Munitionsproduktion.",
     bodyEn: `## The Strategic Imperative
 
 Following two decades of underinvestment, European NATO members face an unprecedented fiscal challenge. According to latest data, aggregate European defense expenditure reached €380 billion this year, marking a 14.5% year-on-year increase.
@@ -88,17 +92,21 @@ Die grössten Herausforderungen betreffen derzeit die industriellen Produktionsk
 Die Analyse der NZZ verweist auf einen entscheidenden ordnungspolitischen Zielkonflikt: Die Vereinbarkeit massiver Wehrausgaben mit bestehenden Schuldenbremsen. Rüstungsanleihen können temporäre Lücken schliessen, doch dauerhafte Wehrfähigkeit verlangt konsequente Prioritätensetzung in den nationalen Haushalten.`,
   },
   {
-    id: 'anthropic-defense-ai',
-    nameEn: '🤖 AI Governance & Sovereign Compute (New)',
-    nameDe: '🤖 KI-Souveränität & Pentagon-Verträge (Neu)',
-    sectionEn: 'Technology',
-    sectionDe: 'Technologie',
-    authorEn: 'René Höltschi',
-    authorDe: 'René Höltschi',
-    headlineEn: 'Anthropic Expands Defense Partnerships: Sovereign AI at the Crossroad of Geopolitics',
-    headlineDe: 'Anthropic baut Verteidigungspartnerschaften aus: Souveräne KI am Scheideweg der Geopolitik',
-    leadEn: 'As front-tier AI laboratories partner directly with defense agencies, strict constitutional boundaries between civil research and tactical intelligence deployment are rapidly dissolving.',
-    leadDe: 'Führende KI-Entwickler kooperieren zunehmend mit Sicherheitsbehörden. Die Grenzlinie zwischen ziviler Spitzenforschung und taktischer Verteidigungsanwendung verschiebt sich unwiderruflich.',
+    id: "anthropic-defense-ai",
+    nameEn: "🤖 AI Governance & Sovereign Compute (New)",
+    nameDe: "🤖 KI-Souveränität & Pentagon-Verträge (Neu)",
+    sectionEn: "Technology",
+    sectionDe: "Technologie",
+    authorEn: "René Höltschi",
+    authorDe: "René Höltschi",
+    headlineEn:
+      "Anthropic Expands Defense Partnerships: Sovereign AI at the Crossroad of Geopolitics",
+    headlineDe:
+      "Anthropic baut Verteidigungspartnerschaften aus: Souveräne KI am Scheideweg der Geopolitik",
+    leadEn:
+      "As front-tier AI laboratories partner directly with defense agencies, strict constitutional boundaries between civil research and tactical intelligence deployment are rapidly dissolving.",
+    leadDe:
+      "Führende KI-Entwickler kooperieren zunehmend mit Sicherheitsbehörden. Die Grenzlinie zwischen ziviler Spitzenforschung und taktischer Verteidigungsanwendung verschiebt sich unwiderruflich.",
     bodyEn: `## The Militarization of Frontier Models
 
 The deployment of generative reasoning engines within tactical military logistics marks a paradigm shift for Silicon Valley. Under new procurement frameworks, Anthropic’s Claude 3.5 architecture is being deployed across classified intelligence environments.
@@ -129,17 +137,21 @@ Der Einsatz generativer Sprach- und Reasoning-Modelle in militärischen Führung
 Die NZZ betont die Notwendigkeit robuster Kontrollmechanismen. Verlässliche ethische Richtlinien und das Prinzip des «Human-in-the-loop» müssen die Grundpfeiler liberaler Gesellschaften bleiben, auch bei fortschreitender Automatisierung.`,
   },
   {
-    id: 'commercial-space-logistics',
-    nameEn: '🪐 Commercial Space & Orbital Supply Chains (New)',
-    nameDe: '🪐 Kommerzielle Raumfahrt & Mondlogistik (Neu)',
-    sectionEn: 'Science',
-    sectionDe: 'Wissenschaft',
-    authorEn: 'Dr. Katharina Fontana',
-    authorDe: 'Dr. Katharina Fontana',
-    headlineEn: 'Commercial Space Stations and Lunar Supply Chains Reorder Global Aerospace Economics',
-    headlineDe: 'Kommerzielle Raumstationen und Mond-Versorgungslinien verändern die Raumfahrtökonomie',
-    leadEn: 'The retirement of the International Space Station ushers in an era of private orbital hubs and sovereign lunar infrastructure, driving private space investment to a record €65 billion.',
-    leadDe: 'Mit dem bevorstehenden Ende der ISS bricht das Zeitalter privater Raumstationen an. Investitionen in orbitale Infrastruktur und Mondmissionen erreichen ein Rekordvolumen von 65 Milliarden Euro.',
+    id: "commercial-space-logistics",
+    nameEn: "🪐 Commercial Space & Orbital Supply Chains (New)",
+    nameDe: "🪐 Kommerzielle Raumfahrt & Mondlogistik (Neu)",
+    sectionEn: "Science",
+    sectionDe: "Wissenschaft",
+    authorEn: "Dr. Katharina Fontana",
+    authorDe: "Dr. Katharina Fontana",
+    headlineEn:
+      "Commercial Space Stations and Lunar Supply Chains Reorder Global Aerospace Economics",
+    headlineDe:
+      "Kommerzielle Raumstationen und Mond-Versorgungslinien verändern die Raumfahrtökonomie",
+    leadEn:
+      "The retirement of the International Space Station ushers in an era of private orbital hubs and sovereign lunar infrastructure, driving private space investment to a record €65 billion.",
+    leadDe:
+      "Mit dem bevorstehenden Ende der ISS bricht das Zeitalter privater Raumstationen an. Investitionen in orbitale Infrastruktur und Mondmissionen erreichen ein Rekordvolumen von 65 Milliarden Euro.",
     bodyEn: `## Orbital Economics After the ISS
 
 With the decommissioning of the ISS planned for 2030, space agencies are transitioning into commercial service customers. Private orbital facilities developed by Axiom and Voyager Space are establishing new benchmarks for microgravity research and orbital manufacturing.
@@ -170,17 +182,23 @@ Vor dem Hintergrund der für 2030 geplanten Stilllegung der ISS transformieren s
 Die verstärkte Privatisierung verlangt klare Regeln für das Verkehrsmanagement im Orbit und die Nutzung von Weltraumressourcen. Für die Schweiz und europäische Partner gilt es, verlässliche Kooperationsstrukturen zu schaffen und marktwirtschaftliche Anreize mit völkerrechtlicher Ordnung zu verbinden.`,
   },
   {
-    id: 'porsche-911-gt3-rs-review',
-    nameEn: '🏎️ Automotive Review: Porsche 911 GT3 RS on Sustenpass (New Category)',
-    nameDe: '🏎️ Fahrbericht: Porsche 911 GT3 RS auf dem Sustenpass (Neue Kategorie)',
-    sectionEn: 'Mobility & Automotive',
-    sectionDe: 'Mobilität & Automotive',
-    authorEn: 'Christian Eichberger',
-    authorDe: 'Christian Eichberger',
-    headlineEn: 'Porsche 911 GT3 RS: Aerodynamic Extremism and Mechanical Purity on the Sustenpass',
-    headlineDe: 'Porsche 911 GT3 RS: Aerodynamischer Grenzbereich und mechanische Reinheit am Sustenpass',
-    leadEn: 'With 525 horsepower, active DRS wing architecture, and 860 kilograms of downforce, the GT3 RS transforms the high alpine Sustenpass into an uncompromised masterclass of German motorsport engineering.',
-    leadDe: 'Mit 525 PS, aktivem DRS-Flügelwerk und 860 Kilogramm Anpressdruck verwandelt der GT3 RS den Sustenpass in ein kompromissloses Lehrstück deutscher Ingenieurskunst.',
+    id: "porsche-911-gt3-rs-review",
+    nameEn:
+      "🏎️ Automotive Review: Porsche 911 GT3 RS on Sustenpass (New Category)",
+    nameDe:
+      "🏎️ Fahrbericht: Porsche 911 GT3 RS auf dem Sustenpass (Neue Kategorie)",
+    sectionEn: "Mobility & Automotive",
+    sectionDe: "Mobilität & Automotive",
+    authorEn: "Christian Eichberger",
+    authorDe: "Christian Eichberger",
+    headlineEn:
+      "Porsche 911 GT3 RS: Aerodynamic Extremism and Mechanical Purity on the Sustenpass",
+    headlineDe:
+      "Porsche 911 GT3 RS: Aerodynamischer Grenzbereich und mechanische Reinheit am Sustenpass",
+    leadEn:
+      "With 525 horsepower, active DRS wing architecture, and 860 kilograms of downforce, the GT3 RS transforms the high alpine Sustenpass into an uncompromised masterclass of German motorsport engineering.",
+    leadDe:
+      "Mit 525 PS, aktivem DRS-Flügelwerk und 860 Kilogramm Anpressdruck verwandelt der GT3 RS den Sustenpass in ein kompromissloses Lehrstück deutscher Ingenieurskunst.",
     bodyEn: `## Atmospheric High RPM and Alpine Elevation
 
 At 2,224 meters above sea level, thin alpine air chokes forced-induction engines, but the 4.0-liter naturally aspirated flat-six in the 911 GT3 RS screams with unfiltered clarity up to its 9,000 RPM redline. Developing 525 horsepower without turbos, its mechanical throttle response on the ascent from Innertkirchen provides millimetric traction control across damp asphalt switchbacks.
@@ -220,32 +238,55 @@ export const ArticleComposer: React.FC<ArticleComposerProps> = ({
   isOpen,
   onClose,
   onArticleSaved,
-  defaultLanguage = 'en',
+  defaultLanguage = "en",
 }) => {
-  const [lang, setLang] = useState<'en' | 'de'>(defaultLanguage);
-  const [headline, setHeadline] = useState('');
-  const [lead, setLead] = useState('');
-  const [body, setBody] = useState('');
-  const [section, setSection] = useState('Economy');
-  const [author, setAuthor] = useState('NZZ Redaktion');
+  const [lang, setLang] = useState<"en" | "de">(defaultLanguage);
+  const [headline, setHeadline] = useState("");
+  const [lead, setLead] = useState("");
+  const [body, setBody] = useState("");
+  const [section, setSection] = useState("Economy");
+  const [author, setAuthor] = useState("NZZ Redaktion");
   const [statusMessage, setStatusMessage] = useState<string | null>(null);
 
   const textareaRef = useRef<HTMLTextAreaElement>(null);
 
   if (!isOpen) return null;
 
-  const isGerman = lang === 'de';
+  const isGerman = lang === "de";
 
-  const sectionsEn = ['Economy', 'Technology', 'World', 'Science', 'Culture', 'Sports', 'Opinion'];
-  const sectionsDe = ['Wirtschaft', 'Technologie', 'International', 'Wissenschaft', 'Feuilleton', 'Sport', 'Meinung'];
+  const sectionsEn = [
+    "Economy",
+    "Technology",
+    "World",
+    "Science",
+    "Culture",
+    "Sports",
+    "Opinion",
+  ];
+  const sectionsDe = [
+    "Wirtschaft",
+    "Technologie",
+    "International",
+    "Wissenschaft",
+    "Feuilleton",
+    "Sport",
+    "Meinung",
+  ];
   const activeSections = isGerman ? sectionsDe : sectionsEn;
 
   // Word count & reading time calculation
-  const totalWords = (body + ' ' + lead).trim().split(/\s+/).filter(Boolean).length;
+  const totalWords = (body + " " + lead)
+    .trim()
+    .split(/\s+/)
+    .filter(Boolean).length;
   const calculatedReadingTime = Math.max(1, Math.round(totalWords / 200));
 
   // Rich Text Insertion Helper
-  const insertFormatting = (prefix: string, suffix: string = '', defaultPlaceholder: string = '') => {
+  const insertFormatting = (
+    prefix: string,
+    suffix: string = "",
+    defaultPlaceholder: string = "",
+  ) => {
     const textarea = textareaRef.current;
     if (!textarea) return;
 
@@ -254,7 +295,8 @@ export const ArticleComposer: React.FC<ArticleComposerProps> = ({
     const selectedText = body.substring(start, end) || defaultPlaceholder;
     const replacement = `${prefix}${selectedText}${suffix}`;
 
-    const newBody = body.substring(0, start) + replacement + body.substring(end);
+    const newBody =
+      body.substring(0, start) + replacement + body.substring(end);
     setBody(newBody);
 
     // Reposition cursor
@@ -262,7 +304,7 @@ export const ArticleComposer: React.FC<ArticleComposerProps> = ({
       textarea.focus();
       textarea.setSelectionRange(
         start + prefix.length,
-        start + prefix.length + selectedText.length
+        start + prefix.length + selectedText.length,
       );
     }, 0);
   };
@@ -281,26 +323,38 @@ export const ArticleComposer: React.FC<ArticleComposerProps> = ({
       setSection(preset.sectionEn);
       setAuthor(preset.authorEn);
     }
-    setStatusMessage(isGerman ? `Vorlage «${preset.nameDe}» eingefügt.` : `Loaded draft «${preset.nameEn}».`);
+    setStatusMessage(
+      isGerman
+        ? `Vorlage «${preset.nameDe}» eingefügt.`
+        : `Loaded draft «${preset.nameEn}».`,
+    );
     setTimeout(() => setStatusMessage(null), 3000);
   };
 
-  const handleLanguageSwitch = (newLang: 'en' | 'de') => {
+  const handleLanguageSwitch = (newLang: "en" | "de") => {
     setLang(newLang);
-    setSection(newLang === 'de' ? 'Wirtschaft' : 'Economy');
+    setSection(newLang === "de" ? "Wirtschaft" : "Economy");
   };
 
   const handleSaveAndGenerate = () => {
     const cleanHeadline = headline.trim();
     if (!cleanHeadline) {
-      alert(isGerman ? 'Bitte geben Sie einen Titel ein.' : 'Please enter an article headline.');
+      alert(
+        isGerman
+          ? "Bitte geben Sie einen Titel ein."
+          : "Please enter an article headline.",
+      );
       return;
     }
 
     const cleanLead = lead.trim();
     const cleanBody = body.trim();
     if (cleanLead.length < 20 && cleanBody.length < 50) {
-      alert(isGerman ? 'Bitte verfassen Sie mindestens 2-3 Sätze im Textkorpus.' : 'Please write at least 2-3 sentences in the article body.');
+      alert(
+        isGerman
+          ? "Bitte verfassen Sie mindestens 2-3 Sätze im Textkorpus."
+          : "Please write at least 2-3 sentences in the article body.",
+      );
       return;
     }
 
@@ -310,7 +364,7 @@ export const ArticleComposer: React.FC<ArticleComposerProps> = ({
       headline: cleanHeadline,
       lead: cleanLead,
       body: cleanBody || cleanLead,
-      author: author.trim() || (isGerman ? 'NZZ Redaktion' : 'NZZ Editorial'),
+      author: author.trim() || (isGerman ? "NZZ Redaktion" : "NZZ Editorial"),
       section: section,
       wordCount: totalWords || 350,
       language: lang,
@@ -323,7 +377,6 @@ export const ArticleComposer: React.FC<ArticleComposerProps> = ({
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-6 bg-black/85 backdrop-blur-md animate-fade-in overflow-y-auto">
       <div className="relative w-full max-w-4xl bg-stone-950 border border-stone-800 rounded-2xl shadow-2xl overflow-hidden flex flex-col my-auto max-h-[92vh]">
-        
         {/* Modal Header */}
         <div className="px-6 py-4 border-b border-stone-800 bg-stone-900/60 flex items-center justify-between">
           <div className="flex items-center gap-3">
@@ -332,15 +385,17 @@ export const ArticleComposer: React.FC<ArticleComposerProps> = ({
             </span>
             <div>
               <h2 className="text-lg font-serif font-bold text-white flex items-center gap-2">
-                {isGerman ? 'Neuen NZZ-Artikel verfassen' : 'Compose New NZZ Article'}
+                {isGerman
+                  ? "Neuen NZZ-Artikel verfassen"
+                  : "Compose New NZZ Article"}
                 <span className="text-[10px] font-mono px-2 py-0.5 rounded-full bg-red-950/60 text-red-400 border border-red-800/60 uppercase">
                   Real-Time Synthesis
                 </span>
               </h2>
               <p className="text-xs text-stone-400">
                 {isGerman
-                  ? 'Verfassen Sie Ihren Text mit Schweizer Typografie. Alle 6 multimodalen Formate passen sich dem Inhalt an.'
-                  : 'Write your investigative piece. Artifacts and Instagram carousels will synthesize directly from this text.'}
+                  ? "Verfassen Sie Ihren Text mit Schweizer Typografie. Alle 6 multimodalen Formate passen sich dem Inhalt an."
+                  : "Write your investigative piece. Artifacts and Instagram carousels will synthesize directly from this text."}
               </p>
             </div>
           </div>
@@ -350,22 +405,22 @@ export const ArticleComposer: React.FC<ArticleComposerProps> = ({
             <div className="flex items-center bg-stone-900 border border-stone-800 rounded-lg p-0.5 text-xs">
               <button
                 type="button"
-                onClick={() => handleLanguageSwitch('en')}
+                onClick={() => handleLanguageSwitch("en")}
                 className={`px-2.5 py-1 rounded transition-all ${
-                  lang === 'en'
-                    ? 'bg-red-600 text-white font-semibold shadow'
-                    : 'text-stone-400 hover:text-stone-200'
+                  lang === "en"
+                    ? "bg-red-600 text-white font-semibold shadow"
+                    : "text-stone-400 hover:text-stone-200"
                 }`}
               >
                 🇬🇧 EN
               </button>
               <button
                 type="button"
-                onClick={() => handleLanguageSwitch('de')}
+                onClick={() => handleLanguageSwitch("de")}
                 className={`px-2.5 py-1 rounded transition-all ${
-                  lang === 'de'
-                    ? 'bg-red-600 text-white font-semibold shadow'
-                    : 'text-stone-400 hover:text-stone-200'
+                  lang === "de"
+                    ? "bg-red-600 text-white font-semibold shadow"
+                    : "text-stone-400 hover:text-stone-200"
                 }`}
               >
                 🇩🇪 DE
@@ -384,12 +439,15 @@ export const ArticleComposer: React.FC<ArticleComposerProps> = ({
 
         {/* Modal Body / Scrollable Form */}
         <div className="p-6 space-y-5 overflow-y-auto flex-1 text-xs">
-          
           {/* Quick-Fill Presets Bar */}
           <div className="bg-stone-900/80 border border-stone-800/90 rounded-xl p-3 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
             <div className="flex items-center gap-2 text-stone-300 font-medium">
               <BookmarkPlus className="w-4 h-4 text-red-500" />
-              <span>{isGerman ? 'Schnell-Vorlagen für Sofort-Test:' : 'Instant Test Presets:'}</span>
+              <span>
+                {isGerman
+                  ? "Schnell-Vorlagen für Sofort-Test:"
+                  : "Instant Test Presets:"}
+              </span>
             </div>
             <div className="flex flex-wrap items-center gap-2">
               {PRESETS.map((p) => (
@@ -418,7 +476,7 @@ export const ArticleComposer: React.FC<ArticleComposerProps> = ({
             <div>
               <label className="text-[11px] uppercase font-bold text-stone-400 flex items-center gap-1.5 mb-1">
                 <Tag className="w-3.5 h-3.5 text-stone-500" />
-                {isGerman ? 'Rubrik' : 'Section'}
+                {isGerman ? "Rubrik" : "Section"}
               </label>
               <select
                 value={section}
@@ -437,13 +495,15 @@ export const ArticleComposer: React.FC<ArticleComposerProps> = ({
             <div>
               <label className="text-[11px] uppercase font-bold text-stone-400 flex items-center gap-1.5 mb-1">
                 <User className="w-3.5 h-3.5 text-stone-500" />
-                {isGerman ? 'Autor / Byline' : 'Author / Byline'}
+                {isGerman ? "Autor / Byline" : "Author / Byline"}
               </label>
               <input
                 type="text"
                 value={author}
                 onChange={(e) => setAuthor(e.target.value)}
-                placeholder={isGerman ? 'z. B. Beat Gygi' : 'e.g. René Höltschi'}
+                placeholder={
+                  isGerman ? "z. B. Beat Gygi" : "e.g. René Höltschi"
+                }
                 className="w-full bg-stone-900 border border-stone-800 rounded-lg px-3 py-2 text-stone-200 focus:outline-none focus:border-red-600 text-xs"
               />
             </div>
@@ -452,11 +512,13 @@ export const ArticleComposer: React.FC<ArticleComposerProps> = ({
             <div>
               <label className="text-[11px] uppercase font-bold text-stone-400 flex items-center gap-1.5 mb-1">
                 <Clock className="w-3.5 h-3.5 text-stone-500" />
-                {isGerman ? 'Lesezeit & Umfang' : 'Reading Time & Volume'}
+                {isGerman ? "Lesezeit & Umfang" : "Reading Time & Volume"}
               </label>
               <div className="w-full bg-stone-900/60 border border-stone-800 rounded-lg px-3 py-2 text-stone-400 flex items-center justify-between text-xs font-mono">
                 <span>~{calculatedReadingTime} min read</span>
-                <span className="text-stone-300 font-bold">{totalWords} {isGerman ? 'Wörter' : 'words'}</span>
+                <span className="text-stone-300 font-bold">
+                  {totalWords} {isGerman ? "Wörter" : "words"}
+                </span>
               </div>
             </div>
           </div>
@@ -464,8 +526,12 @@ export const ArticleComposer: React.FC<ArticleComposerProps> = ({
           {/* Headline */}
           <div className="space-y-1">
             <label className="text-[11px] uppercase font-bold text-stone-400 flex items-center justify-between">
-              <span>{isGerman ? 'Titel / Schlagzeile' : 'Article Headline'}</span>
-              <span className="text-stone-500 text-[10px] lowercase">NZZ font-serif style</span>
+              <span>
+                {isGerman ? "Titel / Schlagzeile" : "Article Headline"}
+              </span>
+              <span className="text-stone-500 text-[10px] lowercase">
+                NZZ font-serif style
+              </span>
             </label>
             <input
               type="text"
@@ -473,8 +539,8 @@ export const ArticleComposer: React.FC<ArticleComposerProps> = ({
               onChange={(e) => setHeadline(e.target.value)}
               placeholder={
                 isGerman
-                  ? 'Geben Sie den Haupttitel des Artikels ein...'
-                  : 'Enter the in-depth investigative headline...'
+                  ? "Geben Sie den Haupttitel des Artikels ein..."
+                  : "Enter the in-depth investigative headline..."
               }
               className="w-full bg-stone-900/80 border border-stone-800 rounded-lg px-4 py-3 text-base sm:text-lg font-serif font-bold text-white focus:outline-none focus:border-red-600 placeholder-stone-600"
             />
@@ -483,8 +549,14 @@ export const ArticleComposer: React.FC<ArticleComposerProps> = ({
           {/* Lead / Vorspann */}
           <div className="space-y-1">
             <label className="text-[11px] uppercase font-bold text-stone-400 flex items-center justify-between">
-              <span>{isGerman ? 'Vorspann / Lead (1–3 Sätze)' : 'Lead Paragraph (1–3 Sentences)'}</span>
-              <span className="text-stone-500 text-[10px]">analytical summary</span>
+              <span>
+                {isGerman
+                  ? "Vorspann / Lead (1–3 Sätze)"
+                  : "Lead Paragraph (1–3 Sentences)"}
+              </span>
+              <span className="text-stone-500 text-[10px]">
+                analytical summary
+              </span>
             </label>
             <textarea
               rows={2}
@@ -492,8 +564,8 @@ export const ArticleComposer: React.FC<ArticleComposerProps> = ({
               onChange={(e) => setLead(e.target.value)}
               placeholder={
                 isGerman
-                  ? 'Fassen Sie die Kernanalyse prägnant zusammen...'
-                  : 'Synthesize the essential premise and analytical stake...'
+                  ? "Fassen Sie die Kernanalyse prägnant zusammen..."
+                  : "Synthesize the essential premise and analytical stake..."
               }
               className="w-full bg-stone-900/80 border border-stone-800 rounded-lg px-3 py-2 text-xs font-serif italic text-stone-300 focus:outline-none focus:border-red-600 placeholder-stone-600 leading-relaxed"
             />
@@ -503,14 +575,14 @@ export const ArticleComposer: React.FC<ArticleComposerProps> = ({
           <div className="space-y-2">
             <div className="flex items-center justify-between">
               <label className="text-[11px] uppercase font-bold text-stone-400">
-                {isGerman ? 'Haupttext & Textkorpus' : 'Full Article Body'}
+                {isGerman ? "Haupttext & Textkorpus" : "Full Article Body"}
               </label>
 
               {/* Toolbar Buttons */}
               <div className="flex items-center gap-1 bg-stone-900 border border-stone-800 rounded-lg p-1 text-stone-400">
                 <button
                   type="button"
-                  onClick={() => insertFormatting('**', '**', 'fett')}
+                  onClick={() => insertFormatting("**", "**", "fett")}
                   title="Bold (**text**)"
                   className="p-1 hover:text-white hover:bg-stone-800 rounded transition-colors"
                 >
@@ -518,7 +590,7 @@ export const ArticleComposer: React.FC<ArticleComposerProps> = ({
                 </button>
                 <button
                   type="button"
-                  onClick={() => insertFormatting('*', '*', 'kursiv')}
+                  onClick={() => insertFormatting("*", "*", "kursiv")}
                   title="Italic (*text*)"
                   className="p-1 hover:text-white hover:bg-stone-800 rounded transition-colors"
                 >
@@ -527,7 +599,9 @@ export const ArticleComposer: React.FC<ArticleComposerProps> = ({
                 <div className="w-[1px] h-3.5 bg-stone-800 mx-0.5" />
                 <button
                   type="button"
-                  onClick={() => insertFormatting('## ', '\n', 'Zwischenüberschrift')}
+                  onClick={() =>
+                    insertFormatting("## ", "\n", "Zwischenüberschrift")
+                  }
                   title="Heading 2 (## Headline)"
                   className="p-1 hover:text-white hover:bg-stone-800 rounded transition-colors"
                 >
@@ -535,7 +609,9 @@ export const ArticleComposer: React.FC<ArticleComposerProps> = ({
                 </button>
                 <button
                   type="button"
-                  onClick={() => insertFormatting('### ', '\n', 'Detail-Überschrift')}
+                  onClick={() =>
+                    insertFormatting("### ", "\n", "Detail-Überschrift")
+                  }
                   title="Heading 3 (### Subhead)"
                   className="p-1 hover:text-white hover:bg-stone-800 rounded transition-colors"
                 >
@@ -544,7 +620,7 @@ export const ArticleComposer: React.FC<ArticleComposerProps> = ({
                 <div className="w-[1px] h-3.5 bg-stone-800 mx-0.5" />
                 <button
                   type="button"
-                  onClick={() => insertFormatting('«', '»', 'Schweizer Zitat')}
+                  onClick={() => insertFormatting("«", "»", "Schweizer Zitat")}
                   title="Swiss Guillemets («...»)"
                   className="p-1 hover:text-red-400 hover:bg-stone-800 rounded font-serif font-bold text-xs px-1"
                 >
@@ -552,7 +628,7 @@ export const ArticleComposer: React.FC<ArticleComposerProps> = ({
                 </button>
                 <button
                   type="button"
-                  onClick={() => insertFormatting('- ', '\n', 'Listenpunkt')}
+                  onClick={() => insertFormatting("- ", "\n", "Listenpunkt")}
                   title="Bullet List (- item)"
                   className="p-1 hover:text-white hover:bg-stone-800 rounded transition-colors"
                 >
@@ -560,7 +636,9 @@ export const ArticleComposer: React.FC<ArticleComposerProps> = ({
                 </button>
                 <button
                   type="button"
-                  onClick={() => insertFormatting('1. ', '\n', 'Nummerierter Punkt')}
+                  onClick={() =>
+                    insertFormatting("1. ", "\n", "Nummerierter Punkt")
+                  }
                   title="Numbered List (1. item)"
                   className="p-1 hover:text-white hover:bg-stone-800 rounded transition-colors"
                 >
@@ -569,7 +647,7 @@ export const ArticleComposer: React.FC<ArticleComposerProps> = ({
                 <div className="w-[1px] h-3.5 bg-stone-800 mx-0.5" />
                 <button
                   type="button"
-                  onClick={() => insertFormatting('**[', ' Mrd. €]**', '14,5')}
+                  onClick={() => insertFormatting("**[", " Mrd. €]**", "14,5")}
                   title="Metric Callout (**[14,5 Mrd. €]**)"
                   className="px-1.5 py-0.5 hover:text-white hover:bg-stone-800 rounded text-[10px] font-mono font-bold text-red-400"
                 >
@@ -585,8 +663,8 @@ export const ArticleComposer: React.FC<ArticleComposerProps> = ({
               onChange={(e) => setBody(e.target.value)}
               placeholder={
                 isGerman
-                  ? 'Geben Sie den vollständigen Artikeltext ein. Nutzen Sie die Formatierungsleiste oben für Zwischenüberschriften (##), Aufzählungen (-) und Schweizer Guillemets («...»)...'
-                  : 'Enter the complete article body. Use the toolbar above for section headings (##), bullet points (-), and Swiss quotes («...»)...'
+                  ? "Geben Sie den vollständigen Artikeltext ein. Nutzen Sie die Formatierungsleiste oben für Zwischenüberschriften (##), Aufzählungen (-) und Schweizer Guillemets («...»)..."
+                  : "Enter the complete article body. Use the toolbar above for section headings (##), bullet points (-), and Swiss quotes («...»)..."
               }
               className="w-full bg-stone-900/80 border border-stone-800 rounded-lg p-3 text-xs font-serif text-stone-200 leading-relaxed focus:outline-none focus:border-red-600 placeholder-stone-600"
             />
@@ -596,11 +674,10 @@ export const ArticleComposer: React.FC<ArticleComposerProps> = ({
             <HelpCircle className="w-4 h-4 text-stone-500 shrink-0" />
             <span>
               {isGerman
-                ? 'NZZ-Stil-Hinweis: Die Generierungsmodelle werten Metriken (z. B. «380 Mrd. €») und Zitate («...») automatisch für das Instagram-Karussell (Stil A) und die Faktenbox aus.'
+                ? "NZZ-Stil-Hinweis: Die Generierungsmodelle werten Metriken (z. B. «380 Mrd. €») und Zitate («...») automatisch für das Instagram-Karussell (Stil A) und die Faktenbox aus."
                 : 'NZZ Style Guideline: The multimodal engine automatically isolates metrics (e.g. "€380 billion") and quotes («...») into Style A Instagram carousels and fact boxes.'}
             </span>
           </div>
-
         </div>
 
         {/* Modal Footer */}
@@ -610,7 +687,7 @@ export const ArticleComposer: React.FC<ArticleComposerProps> = ({
             onClick={onClose}
             className="px-4 py-2 rounded-lg bg-stone-900 hover:bg-stone-800 text-stone-400 hover:text-white border border-stone-800 transition-colors text-xs font-medium"
           >
-            {isGerman ? 'Abbrechen' : 'Cancel'}
+            {isGerman ? "Abbrechen" : "Cancel"}
           </button>
 
           <button
@@ -619,10 +696,13 @@ export const ArticleComposer: React.FC<ArticleComposerProps> = ({
             className="px-5 py-2.5 rounded-xl bg-gradient-to-r from-red-600 to-rose-700 hover:from-red-500 hover:to-rose-600 text-white font-semibold text-xs flex items-center gap-2 shadow-lg shadow-red-950/40 transition-all cursor-pointer"
           >
             <Sparkles className="w-4 h-4" />
-            <span>{isGerman ? 'Artikel speichern & Im Studio öffnen' : 'Save & Open in Studio'}</span>
+            <span>
+              {isGerman
+                ? "Artikel speichern & Im Studio öffnen"
+                : "Save & Open in Studio"}
+            </span>
           </button>
         </div>
-
       </div>
     </div>
   );

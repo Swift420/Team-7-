@@ -1,12 +1,12 @@
-import React, { useState, useEffect } from 'react';
-import { Search, ArrowRight, Clock, Globe, PenTool } from 'lucide-react';
-import type { ArticleSummary } from '../../types/liquid';
-import { fetchArticles } from '../../services/liquidApi';
-import { ArticleComposer } from './ArticleComposer';
+import React, { useState, useEffect } from "react";
+import { Search, ArrowRight, Clock, Globe, PenTool } from "lucide-react";
+import type { ArticleSummary } from "../../types/liquid";
+import { fetchArticles } from "../../services/liquidApi";
+import { ArticleComposer } from "./ArticleComposer";
 
 interface ArticleFeedProps {
-  language: 'en' | 'de';
-  onLanguageChange: (lang: 'en' | 'de') => void;
+  language: "en" | "de";
+  onLanguageChange: (lang: "en" | "de") => void;
   onSelectArticle: (articleId: string) => void;
 }
 
@@ -17,8 +17,8 @@ export const ArticleFeed: React.FC<ArticleFeedProps> = ({
 }) => {
   const [articles, setArticles] = useState<ArticleSummary[]>([]);
   const [loading, setLoading] = useState(true);
-  const [searchQuery, setSearchQuery] = useState('');
-  const [selectedSection, setSelectedSection] = useState('ALL');
+  const [searchQuery, setSearchQuery] = useState("");
+  const [selectedSection, setSelectedSection] = useState("ALL");
   const [isComposerOpen, setIsComposerOpen] = useState(false);
 
   useEffect(() => {
@@ -32,7 +32,7 @@ export const ArticleFeed: React.FC<ArticleFeedProps> = ({
         }
       })
       .catch((err) => {
-        console.error('Failed to load articles:', err);
+        console.error("Failed to load articles:", err);
         if (isMounted) setLoading(false);
       });
 
@@ -41,30 +41,61 @@ export const ArticleFeed: React.FC<ArticleFeedProps> = ({
     };
   }, [language]);
 
-  const defaultSectionsEn = ['ALL', 'Economy', 'Technology', 'World', 'Science', 'Culture', 'Sports', 'Mobility & Automotive'];
-  const defaultSectionsDe = ['ALLE', 'Wirtschaft', 'Technologie', 'International', 'Wissenschaft', 'Feuilleton', 'Sport', 'Mobilität & Automotive'];
-  const baseSections = language === 'de' ? defaultSectionsDe : defaultSectionsEn;
+  const defaultSectionsEn = [
+    "ALL",
+    "Economy",
+    "Technology",
+    "World",
+    "Science",
+    "Culture",
+    "Sports",
+    "Mobility & Automotive",
+  ];
+  const defaultSectionsDe = [
+    "ALLE",
+    "Wirtschaft",
+    "Technologie",
+    "International",
+    "Wissenschaft",
+    "Feuilleton",
+    "Sport",
+    "Mobilität & Automotive",
+  ];
+  const baseSections =
+    language === "de" ? defaultSectionsDe : defaultSectionsEn;
 
   // Dynamically include any new categories discovered or added
   const discoveredCategories = Array.from(
-    new Set(articles.map((a) => a.category || a.section).filter(Boolean) as string[])
+    new Set(
+      articles.map((a) => a.category || a.section).filter(Boolean) as string[],
+    ),
   );
-  const currentSections = Array.from(new Set([...baseSections, ...discoveredCategories]));
+  const currentSections = Array.from(
+    new Set([...baseSections, ...discoveredCategories]),
+  );
 
   const filteredArticles = articles.filter((art) => {
     const matchesSearch =
       art.headline.toLowerCase().includes(searchQuery.toLowerCase()) ||
-      (art.lead && art.lead.toLowerCase().includes(searchQuery.toLowerCase())) ||
-      (art.author && art.author.toLowerCase().includes(searchQuery.toLowerCase())) ||
-      (art.category && art.category.toLowerCase().includes(searchQuery.toLowerCase())) ||
-      (art.tags && art.tags.some((t) => t.toLowerCase().includes(searchQuery.toLowerCase())));
+      (art.lead &&
+        art.lead.toLowerCase().includes(searchQuery.toLowerCase())) ||
+      (art.author &&
+        art.author.toLowerCase().includes(searchQuery.toLowerCase())) ||
+      (art.category &&
+        art.category.toLowerCase().includes(searchQuery.toLowerCase())) ||
+      (art.tags &&
+        art.tags.some((t) =>
+          t.toLowerCase().includes(searchQuery.toLowerCase()),
+        ));
 
     if (!matchesSearch) return false;
-    if (selectedSection === 'ALL' || selectedSection === 'ALLE') return true;
+    if (selectedSection === "ALL" || selectedSection === "ALLE") return true;
 
     return (
-      (art.category && art.category.toLowerCase() === selectedSection.toLowerCase()) ||
-      (art.section && art.section.toLowerCase() === selectedSection.toLowerCase()) ||
+      (art.category &&
+        art.category.toLowerCase() === selectedSection.toLowerCase()) ||
+      (art.section &&
+        art.section.toLowerCase() === selectedSection.toLowerCase()) ||
       false
     );
   });
@@ -84,12 +115,14 @@ export const ArticleFeed: React.FC<ArticleFeedProps> = ({
               </span>
             </div>
             <h1 className="text-3xl sm:text-4xl font-serif font-black tracking-tight text-white">
-              {language === 'de' ? 'Redaktionelle Dossiers' : 'Editorial Dossiers'}
+              {language === "de"
+                ? "Redaktionelle Dossiers"
+                : "Editorial Dossiers"}
             </h1>
             <p className="text-xs sm:text-sm text-stone-400 font-serif">
-              {language === 'de'
-                ? 'Wählen Sie einen fundierten Artikel zur multimodalen Weiterverarbeitung.'
-                : 'Select an in-depth analytical investigation to synthesize into multimodal media.'}
+              {language === "de"
+                ? "Wählen Sie einen fundierten Artikel zur multimodalen Weiterverarbeitung."
+                : "Select an in-depth analytical investigation to synthesize into multimodal media."}
             </p>
           </div>
 
@@ -101,7 +134,9 @@ export const ArticleFeed: React.FC<ArticleFeedProps> = ({
               className="px-3.5 py-1.5 rounded-lg bg-red-600 hover:bg-red-500 text-white font-semibold text-xs flex items-center gap-1.5 shadow-md shadow-red-950/40 transition-all cursor-pointer"
             >
               <PenTool className="w-3.5 h-3.5" />
-              <span>{language === 'de' ? '+ Neuer Artikel' : '+ Write Article'}</span>
+              <span>
+                {language === "de" ? "+ Neuer Artikel" : "+ Write Article"}
+              </span>
             </button>
 
             {/* Bilingual Language Switcher (Zero bleed) */}
@@ -109,21 +144,21 @@ export const ArticleFeed: React.FC<ArticleFeedProps> = ({
               <Globe className="w-4 h-4 text-stone-400" />
               <div className="flex items-center bg-stone-900 border border-stone-800 rounded-lg p-1 shadow-inner">
                 <button
-                  onClick={() => onLanguageChange('en')}
+                  onClick={() => onLanguageChange("en")}
                   className={`px-3 py-1.5 rounded-md text-xs font-medium transition-all ${
-                    language === 'en'
-                      ? 'bg-red-600 text-white font-semibold shadow'
-                      : 'text-stone-400 hover:text-stone-200'
+                    language === "en"
+                      ? "bg-red-600 text-white font-semibold shadow"
+                      : "text-stone-400 hover:text-stone-200"
                   }`}
                 >
                   English
                 </button>
                 <button
-                  onClick={() => onLanguageChange('de')}
+                  onClick={() => onLanguageChange("de")}
                   className={`px-3 py-1.5 rounded-md text-xs font-medium transition-all ${
-                    language === 'de'
-                      ? 'bg-red-600 text-white font-semibold shadow'
-                      : 'text-stone-400 hover:text-stone-200'
+                    language === "de"
+                      ? "bg-red-600 text-white font-semibold shadow"
+                      : "text-stone-400 hover:text-stone-200"
                   }`}
                 >
                   Deutsch
@@ -143,8 +178,8 @@ export const ArticleFeed: React.FC<ArticleFeedProps> = ({
                 onClick={() => setSelectedSection(sec)}
                 className={`px-3 py-1.5 rounded-full text-xs font-medium whitespace-nowrap transition-all ${
                   selectedSection === sec
-                    ? 'bg-stone-200 text-stone-950 font-bold shadow'
-                    : 'bg-stone-900/80 hover:bg-stone-800 text-stone-400 hover:text-stone-200 border border-stone-800'
+                    ? "bg-stone-200 text-stone-950 font-bold shadow"
+                    : "bg-stone-900/80 hover:bg-stone-800 text-stone-400 hover:text-stone-200 border border-stone-800"
                 }`}
               >
                 {sec}
@@ -160,9 +195,7 @@ export const ArticleFeed: React.FC<ArticleFeedProps> = ({
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               placeholder={
-                language === 'de'
-                  ? 'Artikel suchen...'
-                  : 'Search articles...'
+                language === "de" ? "Artikel suchen..." : "Search articles..."
               }
               className="w-full pl-9 pr-4 py-1.5 bg-stone-900/90 border border-stone-800 rounded-lg text-xs text-stone-200 placeholder-stone-500 focus:outline-none focus:border-red-600 transition-colors"
             />
@@ -175,14 +208,16 @@ export const ArticleFeed: React.FC<ArticleFeedProps> = ({
         <div className="min-h-[40vh] flex flex-col items-center justify-center gap-3 text-stone-400">
           <div className="w-8 h-8 border-2 border-red-600 border-t-transparent rounded-full animate-spin" />
           <span className="font-serif italic text-stone-300">
-            {language === 'de' ? 'Artikel werden geladen...' : 'Loading articles...'}
+            {language === "de"
+              ? "Artikel werden geladen..."
+              : "Loading articles..."}
           </span>
         </div>
       ) : filteredArticles.length === 0 ? (
         <div className="py-16 text-center text-stone-500 font-serif">
-          {language === 'de'
-            ? 'Keine Artikel für die gewählten Filter gefunden.'
-            : 'No articles match your criteria.'}
+          {language === "de"
+            ? "Keine Artikel für die gewählten Filter gefunden."
+            : "No articles match your criteria."}
         </div>
       ) : (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
@@ -199,15 +234,17 @@ export const ArticleFeed: React.FC<ArticleFeedProps> = ({
                     <span className="px-2 py-0.5 rounded bg-stone-900 border border-stone-800 text-[11px] font-medium text-stone-300 uppercase tracking-wider">
                       {article.category || article.section}
                     </span>
-                    {article.status === 'draft' && (
+                    {article.status === "draft" && (
                       <span className="px-1.5 py-0.2 rounded bg-amber-950/60 border border-amber-800/60 text-[10px] font-mono text-amber-400">
-                        {language === 'de' ? 'ENTWURF' : 'DRAFT'}
+                        {language === "de" ? "ENTWURF" : "DRAFT"}
                       </span>
                     )}
                   </div>
                   <div className="flex items-center gap-1 font-mono text-[11px] text-stone-500">
                     <Clock className="w-3 h-3" />
-                    <span>{Math.round((article.readingTimeSeconds || 360) / 60)} min</span>
+                    <span>
+                      {Math.round((article.readingTimeSeconds || 360) / 60)} min
+                    </span>
                   </div>
                 </div>
 
@@ -231,7 +268,7 @@ export const ArticleFeed: React.FC<ArticleFeedProps> = ({
                         key={tIdx}
                         className="text-[10px] font-mono text-stone-500 hover:text-stone-300 transition-colors"
                       >
-                        {tag.startsWith('#') ? tag : `#${tag}`}
+                        {tag.startsWith("#") ? tag : `#${tag}`}
                       </span>
                     ))}
                   </div>
@@ -245,7 +282,7 @@ export const ArticleFeed: React.FC<ArticleFeedProps> = ({
                 </span>
 
                 <div className="flex items-center gap-1 text-red-500 font-semibold group-hover:translate-x-1 transition-transform">
-                  <span>{language === 'de' ? 'Öffnen' : 'Synthesize'}</span>
+                  <span>{language === "de" ? "Öffnen" : "Synthesize"}</span>
                   <ArrowRight className="w-3.5 h-3.5" />
                 </div>
               </div>

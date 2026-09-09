@@ -32,12 +32,13 @@ export async function fetchConfigStatus(): Promise<{
 export async function fetchArticles(
   lang: "en" | "de" = "en",
   category?: string,
-  query?: string
+  query?: string,
 ): Promise<ArticleSummary[]> {
   try {
     const params = new URLSearchParams({ lang });
-    if (category && category !== 'ALL' && category !== 'ALLE') params.append('category', category);
-    if (query) params.append('query', query);
+    if (category && category !== "ALL" && category !== "ALLE")
+      params.append("category", category);
+    if (query) params.append("query", query);
 
     const res = await fetch(`${BASE_URL}/articles?${params.toString()}`);
     if (res.ok) {
@@ -50,7 +51,10 @@ export async function fetchArticles(
   return [];
 }
 
-export async function fetchCategoriesAndTags(): Promise<{ categories: string[]; tags: string[] }> {
+export async function fetchCategoriesAndTags(): Promise<{
+  categories: string[];
+  tags: string[];
+}> {
   try {
     const res = await fetch(`${BASE_URL}/categories`);
     if (res.ok) {
@@ -65,7 +69,7 @@ export async function fetchCategoriesAndTags(): Promise<{ categories: string[]; 
 
 export async function fetchArticleDetail(
   id: string,
-  lang: "en" | "de" = "en"
+  lang: "en" | "de" = "en",
 ): Promise<ArticleDetail | null> {
   try {
     const res = await fetch(`${BASE_URL}/articles/${id}?lang=${lang}`);
@@ -90,7 +94,7 @@ export async function generateLiquidFormats(
     language?: "en" | "de";
     model?: string;
   },
-  demoMode: boolean = false
+  demoMode: boolean = false,
 ): Promise<LiquidDerivativesPayload> {
   const endpoint = `${BASE_URL}/generate${demoMode ? "?demo=1" : ""}`;
   console.log(`[Liquid API] Calling ${endpoint} (demoMode=${demoMode})`);
@@ -131,8 +135,15 @@ export async function generateSlideImage(params: {
   slideSummary?: string;
   bustCache?: boolean;
   model?: string;
-}): Promise<{ imageUrl: string; source: string; aspectRatio: string; prompt: string }> {
-  console.log(`[Liquid API] Generating image for prompt: "${params.prompt.slice(0, 50)}..."`);
+}): Promise<{
+  imageUrl: string;
+  source: string;
+  aspectRatio: string;
+  prompt: string;
+}> {
+  console.log(
+    `[Liquid API] Generating image for prompt: "${params.prompt.slice(0, 50)}..."`,
+  );
   const res = await fetch(`${BASE_URL}/generate-image`, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
@@ -156,13 +167,25 @@ export async function generateSlideImage(params: {
 }
 
 export async function generateDeckImagesApi(params: {
-  slides: Array<{ slideNumber: number; headline: string; imagePrompt?: string; hasImage?: boolean }>;
+  slides: Array<{
+    slideNumber: number;
+    headline: string;
+    imagePrompt?: string;
+    hasImage?: boolean;
+  }>;
   headline?: string;
   category?: string;
   lead?: string;
   bustCache?: boolean;
-}): Promise<Record<number, { imageUrl: string; source: string; aspectRatio: string; prompt: string }>> {
-  console.log(`[Liquid API] Generating batch images for ${params.slides.length} slides...`);
+}): Promise<
+  Record<
+    number,
+    { imageUrl: string; source: string; aspectRatio: string; prompt: string }
+  >
+> {
+  console.log(
+    `[Liquid API] Generating batch images for ${params.slides.length} slides...`,
+  );
   const res = await fetch(`${BASE_URL}/generate-deck-images`, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
@@ -190,8 +213,15 @@ export async function synthesizeAudio(params: {
   author?: string;
   language?: string;
   voiceName?: string;
-}): Promise<{ audioUrl: string; durationSeconds: number; format: string; source: string }> {
-  console.log(`[Liquid API] Synthesizing audio brief (${params.language || "en"})...`);
+}): Promise<{
+  audioUrl: string;
+  durationSeconds: number;
+  format: string;
+  source: string;
+}> {
+  console.log(
+    `[Liquid API] Synthesizing audio brief (${params.language || "en"})...`,
+  );
   const res = await fetch(`${BASE_URL}/synthesize-audio`, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
@@ -235,11 +265,19 @@ export async function lintText(params: {
   }
 
   const warnings: string[] = [];
-  if (params.text.includes('"') || params.text.includes('“') || params.text.includes('”')) {
-    warnings.push("NZZ Invariant: Swiss guillemets « » required instead of US quotes.");
+  if (
+    params.text.includes('"') ||
+    params.text.includes("“") ||
+    params.text.includes("”")
+  ) {
+    warnings.push(
+      "NZZ Invariant: Swiss guillemets « » required instead of US quotes.",
+    );
   }
   if (params.isHeadline && /[.!?]$/.test(params.text.trim())) {
-    warnings.push("NZZ Invariant: Headlines must not end with a terminal period.");
+    warnings.push(
+      "NZZ Invariant: Headlines must not end with a terminal period.",
+    );
   }
   return {
     valid: warnings.length === 0,
@@ -264,7 +302,7 @@ export async function publishFormats(params: {
 }
 
 export async function fetchPublishedFormats(
-  articleId: string
+  articleId: string,
 ): Promise<LiquidDerivativesPayload | null> {
   try {
     const res = await fetch(`${BASE_URL}/published/${articleId}`);
@@ -304,12 +342,14 @@ export async function createArticleApi(articleData: {
 
 export function saveCustomArticle(article: ArticleDetail): void {
   // 1. Offline local storage caching
-  if (typeof window !== 'undefined') {
+  if (typeof window !== "undefined") {
     try {
-      const existing = JSON.parse(localStorage.getItem('nzz_custom_articles') || '[]');
+      const existing = JSON.parse(
+        localStorage.getItem("nzz_custom_articles") || "[]",
+      );
       const filtered = existing.filter((a: any) => a.id !== article.id);
       filtered.unshift(article);
-      localStorage.setItem('nzz_custom_articles', JSON.stringify(filtered));
+      localStorage.setItem("nzz_custom_articles", JSON.stringify(filtered));
     } catch {
       // ignore
     }
@@ -317,8 +357,8 @@ export function saveCustomArticle(article: ArticleDetail): void {
 
   // 2. Persistent server-side database save
   fetch(`${BASE_URL}/articles`, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
     body: JSON.stringify({
       id: article.id,
       headline: article.headline,
@@ -327,11 +367,11 @@ export function saveCustomArticle(article: ArticleDetail): void {
       author: article.author,
       section: article.section,
       category: article.category || article.section,
-      tags: article.tags || ['#NZZ'],
-      language: article.language || 'en',
-      status: article.status || 'draft',
+      tags: article.tags || ["#NZZ"],
+      language: article.language || "en",
+      status: article.status || "draft",
     }),
-  }).catch(err => {
-    console.error('Failed to persist custom article to server db:', err);
+  }).catch((err) => {
+    console.error("Failed to persist custom article to server db:", err);
   });
 }

@@ -1,11 +1,18 @@
-import React, { useState, useEffect, useCallback } from 'react';
-import { DollarSign, Users, TrendingUp, ShoppingBag, AlertCircle, RefreshCw } from 'lucide-react';
-import { StatCard } from './StatCard';
-import { RevenueChart } from './RevenueChart';
-import { CategoryChart } from './CategoryChart';
-import { RegionalChart } from './RegionalChart';
-import { PerformanceRadar } from './PerformanceRadar';
-import { TrafficChart } from './TrafficChart';
+import React, { useState, useEffect, useCallback } from "react";
+import {
+  DollarSign,
+  Users,
+  TrendingUp,
+  ShoppingBag,
+  AlertCircle,
+  RefreshCw,
+} from "lucide-react";
+import { StatCard } from "./StatCard";
+import { RevenueChart } from "./RevenueChart";
+import { CategoryChart } from "./CategoryChart";
+import { RegionalChart } from "./RegionalChart";
+import { PerformanceRadar } from "./PerformanceRadar";
+import { TrafficChart } from "./TrafficChart";
 import {
   fetchOverview,
   fetchTimeSeries,
@@ -13,8 +20,8 @@ import {
   fetchRegional,
   fetchPerformance,
   fetchTraffic,
-  fetchHealth
-} from '../services/api';
+  fetchHealth,
+} from "../services/api";
 import type {
   MetricOverview,
   TimeSeriesPoint,
@@ -22,10 +29,10 @@ import type {
   RegionalData,
   PerformanceMetric,
   TrafficSource,
-} from '../types';
+} from "../types";
 
 export const AnalyticsView: React.FC = () => {
-  const [range, setRange] = useState<'3m' | '6m' | '12m'>('12m');
+  const [range, setRange] = useState<"3m" | "6m" | "12m">("12m");
   const [loading, setLoading] = useState<boolean>(true);
   const [error, setError] = useState<string | null>(null);
 
@@ -46,14 +53,15 @@ export const AnalyticsView: React.FC = () => {
         // Silent catch for health check
       }
 
-      const [ovData, tsData, catData, regData, perfData, trafData] = await Promise.all([
-        fetchOverview(),
-        fetchTimeSeries(range),
-        fetchCategories(),
-        fetchRegional(),
-        fetchPerformance(),
-        fetchTraffic(),
-      ]);
+      const [ovData, tsData, catData, regData, perfData, trafData] =
+        await Promise.all([
+          fetchOverview(),
+          fetchTimeSeries(range),
+          fetchCategories(),
+          fetchRegional(),
+          fetchPerformance(),
+          fetchTraffic(),
+        ]);
 
       setOverview(ovData);
       setTimeSeries(tsData);
@@ -62,8 +70,13 @@ export const AnalyticsView: React.FC = () => {
       setPerformance(perfData);
       setTraffic(trafData);
     } catch (err: any) {
-      console.warn('Backend API not responding, using offline metrics preview.', err);
-      setError('Backend API is offline on port 5001. Showing simulated telemetry metrics.');
+      console.warn(
+        "Backend API not responding, using offline metrics preview.",
+        err,
+      );
+      setError(
+        "Backend API is offline on port 5001. Showing simulated telemetry metrics.",
+      );
     } finally {
       setLoading(false);
     }
@@ -80,16 +93,17 @@ export const AnalyticsView: React.FC = () => {
         <div>
           <h2 className="section-heading">Analytics & Data Insights</h2>
           <p className="section-subheading">
-            Live telemetry, revenue streams, and engagement metrics accompanying our published tech articles.
+            Live telemetry, revenue streams, and engagement metrics accompanying
+            our published tech articles.
           </p>
         </div>
 
         <div className="analytics-controls">
           <div className="range-selector">
-            {(['3m', '6m', '12m'] as const).map((r) => (
+            {(["3m", "6m", "12m"] as const).map((r) => (
               <button
                 key={r}
-                className={`range-btn ${range === r ? 'active' : ''}`}
+                className={`range-btn ${range === r ? "active" : ""}`}
                 onClick={() => setRange(r)}
               >
                 {r.toUpperCase()}
@@ -98,7 +112,7 @@ export const AnalyticsView: React.FC = () => {
           </div>
 
           <button
-            className={`btn-refresh ${loading ? 'spinning' : ''}`}
+            className={`btn-refresh ${loading ? "spinning" : ""}`}
             onClick={loadData}
             disabled={loading}
           >
@@ -109,7 +123,7 @@ export const AnalyticsView: React.FC = () => {
       </div>
 
       {error && (
-        <div className="error-banner" style={{ margin: '1rem 0' }}>
+        <div className="error-banner" style={{ margin: "1rem 0" }}>
           <AlertCircle size={18} />
           <div className="error-text">
             <strong>System Notice:</strong> {error}
@@ -121,21 +135,25 @@ export const AnalyticsView: React.FC = () => {
       <section className="stats-grid">
         <StatCard
           title="Publication Readers"
-          value={overview ? overview.activeUsers.toLocaleString() : '84,320'}
+          value={overview ? overview.activeUsers.toLocaleString() : "84,320"}
           growth={overview ? overview.userGrowth : 12.6}
           subtext="monthly active readers"
           icon={<Users size={20} className="icon-green" />}
         />
         <StatCard
           title="Reader Conversion"
-          value={overview ? `${overview.conversionRate}%` : '4.85%'}
+          value={overview ? `${overview.conversionRate}%` : "4.85%"}
           growth={overview ? overview.conversionGrowth : 0.65}
           subtext="free readers to subscribers"
           icon={<TrendingUp size={20} className="icon-amber" />}
         />
         <StatCard
           title="Platform Revenue"
-          value={overview ? `$${overview.totalRevenue.toLocaleString()}` : '$1,248,500'}
+          value={
+            overview
+              ? `$${overview.totalRevenue.toLocaleString()}`
+              : "$1,248,500"
+          }
           growth={overview ? overview.revenueGrowth : 18.4}
           subtext="syndication & sponsors"
           icon={<DollarSign size={20} className="icon-blue" />}

@@ -1,5 +1,5 @@
-import React, { useCallback, useEffect, useRef, useState } from 'react';
-import { Sparkles, CheckCircle2 } from 'lucide-react';
+import React, { useCallback, useEffect, useRef, useState } from "react";
+import { Sparkles, CheckCircle2 } from "lucide-react";
 
 interface GenerationProgressBarProps {
   isLoading: boolean;
@@ -8,26 +8,44 @@ interface GenerationProgressBarProps {
 }
 
 const STAGES = [
-  { threshold: 15, label: 'Reading article & extracting core editorial thesis...' },
-  { threshold: 38, label: 'Synthesizing 6-slide narrative in Style A (Swiss Prestige)...' },
-  { threshold: 65, label: 'Sourcing authentic 35mm photojournalism & detail zoom...' },
-  { threshold: 88, label: 'Applying Swiss typography, optical kerning & kickers...' },
-  { threshold: 100, label: 'Carousel generation complete! Rendering preview...' },
+  {
+    threshold: 15,
+    label: "Reading article & extracting core editorial thesis...",
+  },
+  {
+    threshold: 38,
+    label: "Synthesizing 6-slide narrative in Style A (Swiss Prestige)...",
+  },
+  {
+    threshold: 65,
+    label: "Sourcing authentic 35mm photojournalism & detail zoom...",
+  },
+  {
+    threshold: 88,
+    label: "Applying Swiss typography, optical kerning & kickers...",
+  },
+  {
+    threshold: 100,
+    label: "Carousel generation complete! Rendering preview...",
+  },
 ];
 
 export const GenerationProgressBar: React.FC<GenerationProgressBarProps> = ({
   isLoading,
-  formatName = 'Instagram Carousel',
+  formatName = "Instagram Carousel",
 }) => {
   const [progress, setProgress] = useState(0);
   const progressRef = useRef(0);
-  const updateProgress = useCallback((next: number | ((current: number) => number)) => {
-    setProgress((current) => {
-      const resolved = typeof next === 'function' ? next(current) : next;
-      progressRef.current = resolved;
-      return resolved;
-    });
-  }, []);
+  const updateProgress = useCallback(
+    (next: number | ((current: number) => number)) => {
+      setProgress((current) => {
+        const resolved = typeof next === "function" ? next(current) : next;
+        progressRef.current = resolved;
+        return resolved;
+      });
+    },
+    [],
+  );
 
   useEffect(() => {
     if (!isLoading) {

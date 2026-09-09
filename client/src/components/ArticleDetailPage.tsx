@@ -1,18 +1,28 @@
-import React, { useState, useMemo } from 'react';
-import { ArrowLeft, Calendar, ExternalLink, Send, Sparkles, Trash2 } from 'lucide-react';
-import { Article } from '../types';
-import { useArticles } from '../hooks/useArticles';
-import { useAuth } from '../hooks/useAuth';
-import { ArticleContent } from './ArticleContent';
-import { AudioBriefPlayer } from './reader/AudioBriefPlayer';
-import { ExecutiveBriefCard } from './reader/ExecutiveBriefCard';
-import { ArticleStudio } from './liquid/ArticleStudio';
-import type { AudioBriefFormat, ExecutiveNewsletterFormat } from '../types/liquid';
+import React, { useState, useMemo } from "react";
+import {
+  ArrowLeft,
+  Calendar,
+  ExternalLink,
+  Send,
+  Sparkles,
+  Trash2,
+} from "lucide-react";
+import { Article } from "../types";
+import { useArticles } from "../hooks/useArticles";
+import { useAuth } from "../hooks/useAuth";
+import { ArticleContent } from "./ArticleContent";
+import { AudioBriefPlayer } from "./reader/AudioBriefPlayer";
+import { ExecutiveBriefCard } from "./reader/ExecutiveBriefCard";
+import { ArticleStudio } from "./liquid/ArticleStudio";
+import type {
+  AudioBriefFormat,
+  ExecutiveNewsletterFormat,
+} from "../types/liquid";
 
-export const ArticleDetailPage: React.FC<{ article: Article | null; loading?: boolean }> = ({
-  article,
-  loading,
-}) => {
+export const ArticleDetailPage: React.FC<{
+  article: Article | null;
+  loading?: boolean;
+}> = ({ article, loading }) => {
   const { deleteArticle, publishArticle, closeArticle } = useArticles();
   const { isEditor } = useAuth();
   const [showMultimodalStudio, setShowMultimodalStudio] = useState(false);
@@ -21,22 +31,27 @@ export const ArticleDetailPage: React.FC<{ article: Article | null; loading?: bo
   const audioBrief: AudioBriefFormat = useMemo(() => {
     if (!article) {
       return {
-        headline: '',
+        headline: "",
         wordCount: 0,
         estimatedDurationSeconds: 60,
-        script: '',
-        ssml: '',
-        voiceProfile: { languageCode: 'en-US', voiceName: 'en-US-Journey-F', gender: 'FEMALE' },
+        script: "",
+        ssml: "",
+        voiceProfile: {
+          languageCode: "en-US",
+          voiceName: "en-US-Journey-F",
+          gender: "FEMALE",
+        },
         approved: false,
       };
     }
-    const isGerman = article.language === 'de';
+    const isGerman = article.language === "de";
     const firstPara =
-      article.body?.find((b) => b.type === 'paragraph' && b.text?.trim())?.text || '';
+      article.body?.find((b) => b.type === "paragraph" && b.text?.trim())
+        ?.text || "";
     const script = `${article.headline}. ${article.lead || firstPara.slice(0, 160)}. ${
       isGerman
-        ? 'Für die Neue Zürcher Zeitung, Audio-Redaktion.'
-        : 'For the Neue Zürcher Zeitung, Audio Desk.'
+        ? "Für die Neue Zürcher Zeitung, Audio-Redaktion."
+        : "For the Neue Zürcher Zeitung, Audio Desk."
     }`;
 
     return {
@@ -46,9 +61,9 @@ export const ArticleDetailPage: React.FC<{ article: Article | null; loading?: bo
       script,
       ssml: `<speak>${article.headline}. <break time="300ms"/> ${article.lead || firstPara.slice(0, 160)}</speak>`,
       voiceProfile: {
-        languageCode: isGerman ? 'de-DE' : 'en-US',
-        voiceName: isGerman ? 'de-DE-Neural2-B' : 'en-US-Journey-F',
-        gender: 'FEMALE',
+        languageCode: isGerman ? "de-DE" : "en-US",
+        voiceName: isGerman ? "de-DE-Neural2-B" : "en-US-Journey-F",
+        gender: "FEMALE",
       },
       approved: true,
     };
@@ -58,37 +73,41 @@ export const ArticleDetailPage: React.FC<{ article: Article | null; loading?: bo
   const executiveBrief: ExecutiveNewsletterFormat = useMemo(() => {
     if (!article) {
       return {
-        headline: '',
-        subhead: '',
-        bullets: ['', '', ''],
+        headline: "",
+        subhead: "",
+        bullets: ["", "", ""],
         wordCount: 0,
         approved: false,
       };
     }
     const paragraphs =
       article.body
-        ?.filter((b) => b.type === 'paragraph' && b.text?.trim())
+        ?.filter((b) => b.type === "paragraph" && b.text?.trim())
         .map((b) => b.text!.trim()) || [];
 
     const b1 = paragraphs[0]
       ? paragraphs[0].length > 130
-        ? paragraphs[0].slice(0, 130) + '…'
+        ? paragraphs[0].slice(0, 130) + "…"
         : paragraphs[0]
-      : article.lead || 'Core analytical thesis and market context.';
+      : article.lead || "Core analytical thesis and market context.";
     const b2 = paragraphs[1]
       ? paragraphs[1].length > 130
-        ? paragraphs[1].slice(0, 130) + '…'
+        ? paragraphs[1].slice(0, 130) + "…"
         : paragraphs[1]
-      : 'Structural data indicators and institutional response.';
+      : "Structural data indicators and institutional response.";
     const b3 = paragraphs[2]
       ? paragraphs[2].length > 130
-        ? paragraphs[2].slice(0, 130) + '…'
+        ? paragraphs[2].slice(0, 130) + "…"
         : paragraphs[2]
-      : 'Strategic implications, geopolitical scenarios, and future outlook.';
+      : "Strategic implications, geopolitical scenarios, and future outlook.";
 
     return {
       headline: article.headline,
-      subhead: article.lead || (article.language === 'de' ? 'Auf einen Blick: Die 3 Kernpunkte' : 'At a Glance: 3 Key Strategic Points'),
+      subhead:
+        article.lead ||
+        (article.language === "de"
+          ? "Auf einen Blick: Die 3 Kernpunkte"
+          : "At a Glance: 3 Key Strategic Points"),
       bullets: [b1, b2, b3],
       wordCount: 80,
       approved: true,
@@ -98,7 +117,7 @@ export const ArticleDetailPage: React.FC<{ article: Article | null; loading?: bo
   if (!article) {
     return (
       <div className="article-page-loading">
-        {loading ? 'Loading article…' : 'Article not found.'}
+        {loading ? "Loading article…" : "Article not found."}
       </div>
     );
   }
@@ -128,24 +147,34 @@ export const ArticleDetailPage: React.FC<{ article: Article | null; loading?: bo
               type="button"
               className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold border transition-all ${
                 showMultimodalStudio
-                  ? 'bg-red-600 text-white border-red-500 shadow-md'
-                  : 'bg-slate-900 text-slate-300 border-slate-700 hover:bg-slate-800'
+                  ? "bg-red-600 text-white border-red-500 shadow-md"
+                  : "bg-slate-900 text-slate-300 border-slate-700 hover:bg-slate-800"
               }`}
               onClick={() => setShowMultimodalStudio((prev) => !prev)}
             >
               <Sparkles size={14} className="text-amber-400" />
-              <span>{showMultimodalStudio ? 'Close Derivative Studio' : 'Multimodal Studio (Carousel & Video)'}</span>
+              <span>
+                {showMultimodalStudio
+                  ? "Close Derivative Studio"
+                  : "Multimodal Studio (Carousel & Video)"}
+              </span>
             </button>
           )}
 
           {isEditor && (
             <div className="article-editor-actions">
-              {article.publicationStatus === 'draft' && (
-                <button className="btn-publish-article" onClick={() => void handlePublish()}>
+              {article.publicationStatus === "draft" && (
+                <button
+                  className="btn-publish-article"
+                  onClick={() => void handlePublish()}
+                >
                   <Send size={14} /> Publish
                 </button>
               )}
-              <button className="btn-delete" onClick={() => void handleDelete()}>
+              <button
+                className="btn-delete"
+                onClick={() => void handleDelete()}
+              >
                 <Trash2 size={14} /> Delete
               </button>
             </div>
@@ -156,14 +185,20 @@ export const ArticleDetailPage: React.FC<{ article: Article | null; loading?: bo
       {/* Hero Visual */}
       {article.teaserImage?.url && (
         <div className="article-hero-wrap">
-          <img src={article.teaserImage.url} alt="" className="article-hero-img" />
+          <img
+            src={article.teaserImage.url}
+            alt=""
+            className="article-hero-img"
+          />
           <div className="article-hero-gradient" />
         </div>
       )}
 
       {/* Editorial Header */}
       <header className="database-article-header article-page-header">
-        <span className="hero-category-badge">{article.section || 'Uncategorised'}</span>
+        <span className="hero-category-badge">
+          {article.section || "Uncategorised"}
+        </span>
         <h1 className="article-hero-title">{article.headline}</h1>
         {article.lead && <p className="article-hero-sub">{article.lead}</p>}
       </header>
@@ -171,19 +206,30 @@ export const ArticleDetailPage: React.FC<{ article: Article | null; loading?: bo
       {/* Meta Bar */}
       <div className="article-meta-bar">
         <div>
-          <div className="author-name-lg">{article.authorLine || 'Author unavailable'}</div>
+          <div className="author-name-lg">
+            {article.authorLine || "Author unavailable"}
+          </div>
           <div className="author-role-lg">
-            {article.language?.toUpperCase() || 'Language unavailable'} ·{' '}
-            {article.sourceFormat === 'NZZ_JSON' ? 'NZZ JSON' : 'Markdown import'}
+            {article.language?.toUpperCase() || "Language unavailable"} ·{" "}
+            {article.sourceFormat === "NZZ_JSON"
+              ? "NZZ JSON"
+              : "Markdown import"}
           </div>
         </div>
         <div className="article-metrics-row">
           <span className="metric-item">
-            <Calendar size={14} />{' '}
-            {article.publishedAt ? new Date(article.publishedAt).toLocaleDateString() : 'Date unavailable'}
+            <Calendar size={14} />{" "}
+            {article.publishedAt
+              ? new Date(article.publishedAt).toLocaleDateString()
+              : "Date unavailable"}
           </span>
           {article.sourceUrl && (
-            <a className="metric-item" href={article.sourceUrl} target="_blank" rel="noreferrer">
+            <a
+              className="metric-item"
+              href={article.sourceUrl}
+              target="_blank"
+              rel="noreferrer"
+            >
               <ExternalLink size={14} /> Original
             </a>
           )}
@@ -214,7 +260,7 @@ export const ArticleDetailPage: React.FC<{ article: Article | null; loading?: bo
           <ArticleStudio
             articleId={article.id}
             articleRecord={article}
-            language={article.language === 'de' ? 'de' : 'en'}
+            language={article.language === "de" ? "de" : "en"}
             onBack={() => setShowMultimodalStudio(false)}
           />
         </div>
@@ -227,7 +273,10 @@ export const ArticleDetailPage: React.FC<{ article: Article | null; loading?: bo
 
       {/* Reader Feature 2: 60-Second Executive Summary */}
       <div className="my-6">
-        <ExecutiveBriefCard brief={executiveBrief} language={article.language as 'en' | 'de'} />
+        <ExecutiveBriefCard
+          brief={executiveBrief}
+          language={article.language as "en" | "de"}
+        />
       </div>
 
       {/* Main Article Content & Inline Visualizations */}

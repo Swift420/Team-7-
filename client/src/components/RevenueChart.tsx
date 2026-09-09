@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import {
   AreaChart,
   Area,
@@ -9,8 +9,8 @@ import {
   ResponsiveContainer,
   Legend,
   Line,
-} from 'recharts';
-import { TimeSeriesPoint } from '../types';
+} from "recharts";
+import { TimeSeriesPoint } from "../types";
 
 interface RevenueChartProps {
   data: TimeSeriesPoint[];
@@ -27,13 +27,18 @@ export const RevenueChart: React.FC<RevenueChartProps> = ({ data }) => {
       <div className="chart-header">
         <div>
           <h2 className="chart-title">Revenue & Profit Overview</h2>
-          <p className="chart-subtitle">Monthly financial trajectory vs performance targets</p>
+          <p className="chart-subtitle">
+            Monthly financial trajectory vs performance targets
+          </p>
         </div>
       </div>
 
       <div className="chart-wrapper">
         <ResponsiveContainer width="100%" height={320}>
-          <AreaChart data={data} margin={{ top: 10, right: 20, left: 0, bottom: 0 }}>
+          <AreaChart
+            data={data}
+            margin={{ top: 10, right: 20, left: 0, bottom: 0 }}
+          >
             <defs>
               <linearGradient id="colorRevenue" x1="0" y1="0" x2="0" y2="1">
                 <stop offset="5%" stopColor="#3b82f6" stopOpacity={0.4} />
@@ -44,23 +49,34 @@ export const RevenueChart: React.FC<RevenueChartProps> = ({ data }) => {
                 <stop offset="95%" stopColor="#10b981" stopOpacity={0.0} />
               </linearGradient>
             </defs>
-            <CartesianGrid strokeDasharray="3 3" stroke="#334155" opacity={0.4} />
-            <XAxis dataKey="month" stroke="#94a3b8" tick={{ fill: '#94a3b8' }} />
+            <CartesianGrid
+              strokeDasharray="3 3"
+              stroke="#334155"
+              opacity={0.4}
+            />
+            <XAxis
+              dataKey="month"
+              stroke="#94a3b8"
+              tick={{ fill: "#94a3b8" }}
+            />
             <YAxis
               stroke="#94a3b8"
-              tick={{ fill: '#94a3b8' }}
+              tick={{ fill: "#94a3b8" }}
               tickFormatter={formatCurrency}
             />
             <Tooltip
               contentStyle={{
-                backgroundColor: '#1e293b',
-                borderColor: '#334155',
-                borderRadius: '8px',
-                color: '#f8fafc',
+                backgroundColor: "#1e293b",
+                borderColor: "#334155",
+                borderRadius: "8px",
+                color: "#f8fafc",
               }}
-              formatter={(value: any) => [`$${Number(value).toLocaleString()}`, '']}
+              formatter={(value: any) => [
+                `$${Number(value).toLocaleString()}`,
+                "",
+              ]}
             />
-            <Legend wrapperStyle={{ paddingTop: '10px' }} />
+            <Legend wrapperStyle={{ paddingTop: "10px" }} />
             <Area
               type="monotone"
               dataKey="revenue"

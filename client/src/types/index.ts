@@ -46,7 +46,7 @@ export interface TrafficSource {
 }
 
 // User & Role Types
-export type UserRole = 'viewer' | 'editor';
+export type UserRole = "viewer" | "editor";
 
 export interface User {
   id: string;
@@ -61,9 +61,10 @@ export interface User {
 }
 
 // PostgreSQL-backed article types
-export type SourceFormat = 'NZZ_JSON' | 'MARKDOWN';
-export type PublicationStatus = 'draft' | 'published';
-export type ArticleElementType = 'paragraph' | 'heading' | 'image' | 'q_tool_embed' | 'embed' | 'other';
+export type SourceFormat = "NZZ_JSON" | "MARKDOWN";
+export type PublicationStatus = "draft" | "published";
+export type ArticleElementType =
+  "paragraph" | "heading" | "image" | "q_tool_embed" | "embed" | "other";
 
 export interface ArticleBodyElement {
   id: string;
@@ -101,13 +102,21 @@ export interface Article {
 }
 
 export interface ImportOutcome {
-  status: 'imported' | 'skipped';
+  status: "imported" | "skipped";
   article: Article;
   reason?: string;
 }
 
-export type VisualizationChartType = 'bar' | 'line' | 'area' | 'stacked_bar' | 'dot_plot' | 'donut' | 'timeline' | 'map';
-export type VisualizationDataStatus = 'ready' | 'needs_review';
+export type VisualizationChartType =
+  | "bar"
+  | "line"
+  | "area"
+  | "stacked_bar"
+  | "dot_plot"
+  | "donut"
+  | "timeline"
+  | "map";
+export type VisualizationDataStatus = "ready" | "needs_review";
 
 export interface TimelineEvent {
   dateLabel: string;
@@ -118,7 +127,7 @@ export interface TimelineEvent {
 
 export interface VisualizationOpportunity {
   id: string;
-  type?: 'CHART' | 'TIMELINE';
+  type?: "CHART" | "TIMELINE";
   title: string;
   subtitle: string;
   rationale: string;
@@ -149,7 +158,7 @@ export interface VisualizationAnalysis {
 export interface SavedVisualization {
   id: string;
   articleId: string;
-  status: 'approved';
+  status: "approved";
   placementAfterElementId: string;
   specification: VisualizationOpportunity;
   createdAt: string;
@@ -160,7 +169,7 @@ export interface VisualizationApproval {
   id: string;
   articleId: string;
   actor: string;
-  action: 'saved' | 'cleared';
+  action: "saved" | "cleared";
   visualizations: VisualizationOpportunity[];
   createdAt: string;
 }
@@ -189,4 +198,8 @@ export interface ArticleCategory {
   restrictedToEditors?: boolean;
 }
 
-export type { CountryConnection, CountryCoverage, CountryStorySummary } from './country';
+export type {
+  CountryConnection,
+  CountryCoverage,
+  CountryStorySummary,
+} from "./country";

@@ -1,9 +1,19 @@
-import React, { useState, useMemo } from 'react';
-import { Calendar, ChevronLeft, ChevronRight, FileJson, FileText, Layers, Image as ImageIcon, Trash2, ArrowRight } from 'lucide-react';
-import { Article } from '../types';
-import { useAuth } from '../hooks/useAuth';
-import { useArticles } from '../hooks/useArticles';
-import { normalizeSection } from '../utils/sectionTranslation';
+import React, { useState, useMemo } from "react";
+import {
+  Calendar,
+  ChevronLeft,
+  ChevronRight,
+  FileJson,
+  FileText,
+  Layers,
+  Image as ImageIcon,
+  Trash2,
+  ArrowRight,
+} from "lucide-react";
+import { Article } from "../types";
+import { useAuth } from "../hooks/useAuth";
+import { useArticles } from "../hooks/useArticles";
+import { normalizeSection } from "../utils/sectionTranslation";
 
 interface ArticleCardProps {
   article: Article;
@@ -12,8 +22,10 @@ interface ArticleCardProps {
 
 const formatDate = (value: string | null) =>
   value
-    ? new Intl.DateTimeFormat(undefined, { dateStyle: 'medium' }).format(new Date(value))
-    : 'Date unavailable';
+    ? new Intl.DateTimeFormat(undefined, { dateStyle: "medium" }).format(
+        new Date(value),
+      )
+    : "Date unavailable";
 
 interface CardSlide {
   slideNumber: number;
@@ -23,56 +35,70 @@ interface CardSlide {
   text: string;
 }
 
-export const ArticleCard: React.FC<ArticleCardProps> = ({ article, onOpen }) => {
+export const ArticleCard: React.FC<ArticleCardProps> = ({
+  article,
+  onOpen,
+}) => {
   const { isEditor } = useAuth();
   const { deleteArticle } = useArticles();
   const [activeSlide, setActiveSlide] = useState(0);
-  const [viewMode, setViewMode] = useState<'carousel' | 'image'>('carousel');
+  const [viewMode, setViewMode] = useState<"carousel" | "image">("carousel");
 
   const imageUrl = article.teaserImage?.url;
 
   // Build 5 rich editorial overview slides for horizontal browsing without opening the article
   const slides: CardSlide[] = useMemo(() => {
-    const paragraphs = article.body?.filter((b) => b.type === 'paragraph' && b.text?.trim()) || [];
-    const p1 = paragraphs[0]?.text?.trim() || article.lead || 'In-depth analysis from the NZZ editorial team.';
-    const p2 = paragraphs[1]?.text?.trim() || paragraphs[0]?.text?.trim() || 'Key developments shaping this report.';
-    const p3 = paragraphs[2]?.text?.trim() || paragraphs[paragraphs.length - 1]?.text?.trim() || 'Analytical context and structural implications.';
+    const paragraphs =
+      article.body?.filter((b) => b.type === "paragraph" && b.text?.trim()) ||
+      [];
+    const p1 =
+      paragraphs[0]?.text?.trim() ||
+      article.lead ||
+      "In-depth analysis from the NZZ editorial team.";
+    const p2 =
+      paragraphs[1]?.text?.trim() ||
+      paragraphs[0]?.text?.trim() ||
+      "Key developments shaping this report.";
+    const p3 =
+      paragraphs[2]?.text?.trim() ||
+      paragraphs[paragraphs.length - 1]?.text?.trim() ||
+      "Analytical context and structural implications.";
 
     return [
       {
         slideNumber: 1,
-        label: '1 / 5',
-        badge: normalizeSection(article.section, 'en').toUpperCase(),
+        label: "1 / 5",
+        badge: normalizeSection(article.section, "en").toUpperCase(),
         title: article.headline,
-        text: article.lead || p1.slice(0, 160) + '…',
+        text: article.lead || p1.slice(0, 160) + "…",
       },
       {
         slideNumber: 2,
-        label: '2 / 5',
-        badge: 'Core Context',
-        title: 'The Defining Development',
-        text: p1.slice(0, 200) + (p1.length > 200 ? '…' : ''),
+        label: "2 / 5",
+        badge: "Core Context",
+        title: "The Defining Development",
+        text: p1.slice(0, 200) + (p1.length > 200 ? "…" : ""),
       },
       {
         slideNumber: 3,
-        label: '3 / 5',
-        badge: 'Evidence & Impact',
-        title: 'Key Numbers & Realities',
-        text: p2.slice(0, 200) + (p2.length > 200 ? '…' : ''),
+        label: "3 / 5",
+        badge: "Evidence & Impact",
+        title: "Key Numbers & Realities",
+        text: p2.slice(0, 200) + (p2.length > 200 ? "…" : ""),
       },
       {
         slideNumber: 4,
-        label: '4 / 5',
-        badge: 'Analysis & Friction',
-        title: 'Strategic Divergence',
-        text: p3.slice(0, 200) + (p3.length > 200 ? '…' : ''),
+        label: "4 / 5",
+        badge: "Analysis & Friction",
+        title: "Strategic Divergence",
+        text: p3.slice(0, 200) + (p3.length > 200 ? "…" : ""),
       },
       {
         slideNumber: 5,
-        label: '5 / 5',
-        badge: 'Editorial Verdict',
-        title: 'NZZ Conclusion',
-        text: 'Comprehensive assessment and future scenarios in the full dossier.',
+        label: "5 / 5",
+        badge: "Editorial Verdict",
+        title: "NZZ Conclusion",
+        text: "Comprehensive assessment and future scenarios in the full dossier.",
       },
     ];
   }, [article]);
@@ -104,10 +130,18 @@ export const ArticleCard: React.FC<ArticleCardProps> = ({ article, onOpen }) => 
   return (
     <article className="article-card" onClick={() => onOpen(article)}>
       {/* Top Carousel Area with Horizontal Pagination */}
-      <div className="article-card-cover relative group" style={{ minHeight: '230px', height: 'auto', background: '#090d16' }}>
-        {viewMode === 'image' && imageUrl ? (
+      <div
+        className="article-card-cover relative group"
+        style={{ minHeight: "230px", height: "auto", background: "#090d16" }}
+      >
+        {viewMode === "image" && imageUrl ? (
           <div className="relative w-full h-[230px] overflow-hidden">
-            <img src={imageUrl} alt="" loading="lazy" className="cover-img w-full h-full object-cover" />
+            <img
+              src={imageUrl}
+              alt=""
+              loading="lazy"
+              className="cover-img w-full h-full object-cover"
+            />
             <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
           </div>
         ) : (
@@ -115,10 +149,11 @@ export const ArticleCard: React.FC<ArticleCardProps> = ({ article, onOpen }) => 
           <div
             className="w-full p-4 flex flex-col justify-between min-h-[230px] relative overflow-hidden transition-all duration-300"
             style={{
-              background: (activeSlide === 0 || activeSlide === 2) && imageUrl
-                ? `linear-gradient(to top, rgba(9, 13, 22, 0.96) 0%, rgba(9, 13, 22, 0.70) 50%, rgba(9, 13, 22, 0.40) 100%), url(${imageUrl}) center/cover no-repeat`
-                : 'linear-gradient(145deg, #101726 0%, #080c14 100%)',
-              borderBottom: '1px solid rgba(255, 255, 255, 0.08)',
+              background:
+                (activeSlide === 0 || activeSlide === 2) && imageUrl
+                  ? `linear-gradient(to top, rgba(9, 13, 22, 0.96) 0%, rgba(9, 13, 22, 0.70) 50%, rgba(9, 13, 22, 0.40) 100%), url(${imageUrl}) center/cover no-repeat`
+                  : "linear-gradient(145deg, #101726 0%, #080c14 100%)",
+              borderBottom: "1px solid rgba(255, 255, 255, 0.08)",
             }}
           >
             {/* Slide Header: Badge + Pagination Counter */}
@@ -146,7 +181,10 @@ export const ArticleCard: React.FC<ArticleCardProps> = ({ article, onOpen }) => 
             </div>
 
             {/* Pagination Controls & Navigation Dots */}
-            <div className="flex items-center justify-between pt-2 border-t border-slate-800/80 z-10" onClick={(e) => e.stopPropagation()}>
+            <div
+              className="flex items-center justify-between pt-2 border-t border-slate-800/80 z-10"
+              onClick={(e) => e.stopPropagation()}
+            >
               <button
                 type="button"
                 className="p-1 rounded-md bg-slate-900/90 hover:bg-slate-800 text-slate-300 hover:text-white border border-slate-700/60 transition-colors"
@@ -165,8 +203,8 @@ export const ArticleCard: React.FC<ArticleCardProps> = ({ article, onOpen }) => 
                     onClick={(e) => handleDotClick(e, idx)}
                     className={`transition-all rounded-full ${
                       idx === activeSlide
-                        ? 'w-4 h-1.5 bg-red-500'
-                        : 'w-1.5 h-1.5 bg-slate-700 hover:bg-slate-500'
+                        ? "w-4 h-1.5 bg-red-500"
+                        : "w-1.5 h-1.5 bg-slate-700 hover:bg-slate-500"
                     }`}
                     title={`Slide ${idx + 1}`}
                   />
@@ -192,11 +230,15 @@ export const ArticleCard: React.FC<ArticleCardProps> = ({ article, onOpen }) => 
             className="absolute top-2 right-2 z-20 px-2 py-1 rounded bg-black/70 hover:bg-black text-[10px] text-slate-300 border border-slate-700 backdrop-blur-sm flex items-center gap-1 transition-all"
             onClick={(e) => {
               e.stopPropagation();
-              setViewMode((m) => (m === 'carousel' ? 'image' : 'carousel'));
+              setViewMode((m) => (m === "carousel" ? "image" : "carousel"));
             }}
-            title={viewMode === 'carousel' ? 'Show Photo' : 'Show 5-Slide Carousel Overview'}
+            title={
+              viewMode === "carousel"
+                ? "Show Photo"
+                : "Show 5-Slide Carousel Overview"
+            }
           >
-            {viewMode === 'carousel' ? (
+            {viewMode === "carousel" ? (
               <>
                 <ImageIcon size={10} />
                 <span>Photo</span>
@@ -214,7 +256,9 @@ export const ArticleCard: React.FC<ArticleCardProps> = ({ article, onOpen }) => 
       {/* Card Body */}
       <div className="article-card-body">
         <div className="article-card-meta">
-          <span className="category-badge">{normalizeSection(article.section, 'en')}</span>
+          <span className="category-badge">
+            {normalizeSection(article.section, "en")}
+          </span>
           <span className="read-time">
             <Calendar size={12} /> {formatDate(article.publishedAt)}
           </span>
@@ -225,10 +269,16 @@ export const ArticleCard: React.FC<ArticleCardProps> = ({ article, onOpen }) => 
 
         <div className="article-card-footer">
           <div className="author-info-sm">
-            <span className="author-name">{article.authorLine || 'Author unavailable'}</span>
+            <span className="author-name">
+              {article.authorLine || "Author unavailable"}
+            </span>
             <span className="author-title">
-              {article.sourceFormat === 'NZZ_JSON' ? <FileJson size={12} /> : <FileText size={12} />}{' '}
-              {article.sourceFormat === 'NZZ_JSON' ? 'NZZ JSON' : 'Markdown'}
+              {article.sourceFormat === "NZZ_JSON" ? (
+                <FileJson size={12} />
+              ) : (
+                <FileText size={12} />
+              )}{" "}
+              {article.sourceFormat === "NZZ_JSON" ? "NZZ JSON" : "Markdown"}
             </span>
           </div>
 
@@ -237,7 +287,11 @@ export const ArticleCard: React.FC<ArticleCardProps> = ({ article, onOpen }) => 
               Read <ArrowRight size={12} />
             </span>
             {isEditor && (
-              <button className="btn-toolbar-delete" onClick={handleDelete} title="Delete article">
+              <button
+                className="btn-toolbar-delete"
+                onClick={handleDelete}
+                title="Delete article"
+              >
                 <Trash2 size={14} />
               </button>
             )}

@@ -1,6 +1,14 @@
-import React, { useState } from 'react';
-import { Play, Pause, ChevronLeft, ChevronRight, Video, Sparkles, Layers } from 'lucide-react';
-import type { SocialStoryboardFormat, VideoScene } from '../../types/liquid';
+import React, { useState } from "react";
+import {
+  Play,
+  Pause,
+  ChevronLeft,
+  ChevronRight,
+  Video,
+  Sparkles,
+  Layers,
+} from "lucide-react";
+import type { SocialStoryboardFormat, VideoScene } from "../../types/liquid";
 
 interface StoryboardPreviewProps {
   storyboard: SocialStoryboardFormat;
@@ -26,7 +34,9 @@ export const StoryboardPreview: React.FC<StoryboardPreviewProps> = ({
   };
 
   if (!currentScene) {
-    return <div className="p-8 text-center text-slate-500">No scenes generated.</div>;
+    return (
+      <div className="p-8 text-center text-slate-500">No scenes generated.</div>
+    );
   }
 
   return (
@@ -53,7 +63,9 @@ export const StoryboardPreview: React.FC<StoryboardPreviewProps> = ({
             <span className="font-semibold bg-red-600/90 text-white px-2 py-0.5 rounded text-[10px] tracking-wider uppercase">
               NZZ Visual
             </span>
-            <span className="text-slate-400 font-mono text-[10px]">{currentScene.timeRange}</span>
+            <span className="text-slate-400 font-mono text-[10px]">
+              {currentScene.timeRange}
+            </span>
           </div>
 
           {/* Central On-Screen Dynamic Graphics */}
@@ -90,7 +102,9 @@ export const StoryboardPreview: React.FC<StoryboardPreviewProps> = ({
                 key={s.sceneIndex}
                 onClick={() => setActiveSceneIndex(idx)}
                 className={`h-1 rounded-full transition-all ${
-                  activeSceneIndex === idx ? 'w-8 bg-red-600' : 'w-2 bg-slate-700'
+                  activeSceneIndex === idx
+                    ? "w-8 bg-red-600"
+                    : "w-2 bg-slate-700"
                 }`}
                 title={`Scene ${s.sceneIndex}`}
               />
@@ -107,7 +121,9 @@ export const StoryboardPreview: React.FC<StoryboardPreviewProps> = ({
             <span className="text-xs font-semibold text-slate-300">
               Szene {currentScene.sceneIndex} von {scenes.length}
             </span>
-            <span className="text-xs text-slate-400">({currentScene.durationSeconds}s)</span>
+            <span className="text-xs text-slate-400">
+              ({currentScene.durationSeconds}s)
+            </span>
           </div>
 
           <div className="flex items-center gap-1">
@@ -121,8 +137,12 @@ export const StoryboardPreview: React.FC<StoryboardPreviewProps> = ({
               onClick={() => setIsPlaying(!isPlaying)}
               className="px-3 py-1.5 rounded-lg bg-red-600 hover:bg-red-500 text-white text-xs font-medium flex items-center gap-1.5"
             >
-              {isPlaying ? <Pause className="w-3.5 h-3.5" /> : <Play className="w-3.5 h-3.5" />}
-              {isPlaying ? 'Pause' : 'Play 60s Preview'}
+              {isPlaying ? (
+                <Pause className="w-3.5 h-3.5" />
+              ) : (
+                <Play className="w-3.5 h-3.5" />
+              )}
+              {isPlaying ? "Pause" : "Play 60s Preview"}
             </button>
             <button
               onClick={handleNext}
@@ -143,7 +163,10 @@ export const StoryboardPreview: React.FC<StoryboardPreviewProps> = ({
               type="text"
               value={currentScene.onScreenHeadline}
               onChange={(e) =>
-                onUpdateScene?.({ ...currentScene, onScreenHeadline: e.target.value })
+                onUpdateScene?.({
+                  ...currentScene,
+                  onScreenHeadline: e.target.value,
+                })
               }
               className="w-full bg-slate-950 border border-slate-800 rounded-lg px-3 py-2 text-sm text-white focus:outline-none focus:border-red-500"
             />
@@ -155,9 +178,12 @@ export const StoryboardPreview: React.FC<StoryboardPreviewProps> = ({
             </label>
             <input
               type="text"
-              value={currentScene.prominentMetric || ''}
+              value={currentScene.prominentMetric || ""}
               onChange={(e) =>
-                onUpdateScene?.({ ...currentScene, prominentMetric: e.target.value })
+                onUpdateScene?.({
+                  ...currentScene,
+                  prominentMetric: e.target.value,
+                })
               }
               placeholder="e.g. 42%, €100 Mrd."
               className="w-full bg-slate-950 border border-slate-800 rounded-lg px-3 py-2 text-sm text-white focus:outline-none focus:border-red-500"
@@ -178,7 +204,10 @@ export const StoryboardPreview: React.FC<StoryboardPreviewProps> = ({
               rows={3}
               value={currentScene.visualPrompt}
               onChange={(e) =>
-                onUpdateScene?.({ ...currentScene, visualPrompt: e.target.value })
+                onUpdateScene?.({
+                  ...currentScene,
+                  visualPrompt: e.target.value,
+                })
               }
               className="w-full bg-slate-950 border border-slate-800 rounded-lg p-2.5 text-xs text-slate-300 font-mono focus:outline-none focus:border-blue-500"
             />
@@ -192,7 +221,10 @@ export const StoryboardPreview: React.FC<StoryboardPreviewProps> = ({
               rows={2}
               value={currentScene.voiceoverText}
               onChange={(e) =>
-                onUpdateScene?.({ ...currentScene, voiceoverText: e.target.value })
+                onUpdateScene?.({
+                  ...currentScene,
+                  voiceoverText: e.target.value,
+                })
               }
               className="w-full bg-slate-950 border border-slate-800 rounded-lg p-2.5 text-xs text-slate-200 focus:outline-none focus:border-red-500"
             />
@@ -203,10 +235,11 @@ export const StoryboardPreview: React.FC<StoryboardPreviewProps> = ({
         <div className="flex items-center gap-2 p-3 bg-slate-950 border border-slate-800 rounded-xl text-xs text-slate-400">
           <Layers className="w-4 h-4 text-slate-400" />
           <span>Configured for 9:16 vertical distribution on:</span>
-          <span className="font-semibold text-slate-200">TikTok, Instagram Reels, YouTube Shorts</span>
+          <span className="font-semibold text-slate-200">
+            TikTok, Instagram Reels, YouTube Shorts
+          </span>
         </div>
       </div>
     </div>
   );
 };
-

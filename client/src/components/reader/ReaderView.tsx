@@ -1,43 +1,55 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 import {
   fetchArticles,
   fetchArticleDetail,
   fetchPublishedFormats,
-} from '../../services/liquidApi';
+} from "../../services/liquidApi";
 import type {
   ArticleSummary,
   ArticleDetail,
   LiquidDerivativesPayload,
-} from '../../types/liquid';
-import { AudioBriefPlayer } from './AudioBriefPlayer';
-import { ExecutiveBriefCard } from './ExecutiveBriefCard';
-import { FactBoxStrip } from './FactBoxStrip';
-import { DialecticalAccordion } from './DialecticalAccordion';
-import { StoryboardPreview } from '../liquid/StoryboardPreview';
-import { CarouselPreview } from '../liquid/CarouselPreview';
-import { Headphones, Video, Layers, BookOpen, Sparkles, FileText } from 'lucide-react';
-import { normalizeSection } from '../../utils/sectionTranslation';
+} from "../../types/liquid";
+import { AudioBriefPlayer } from "./AudioBriefPlayer";
+import { ExecutiveBriefCard } from "./ExecutiveBriefCard";
+import { FactBoxStrip } from "./FactBoxStrip";
+import { DialecticalAccordion } from "./DialecticalAccordion";
+import { StoryboardPreview } from "../liquid/StoryboardPreview";
+import { CarouselPreview } from "../liquid/CarouselPreview";
+import {
+  Headphones,
+  Video,
+  Layers,
+  BookOpen,
+  Sparkles,
+  FileText,
+} from "lucide-react";
+import { normalizeSection } from "../../utils/sectionTranslation";
 
 interface ReaderViewProps {
-  language?: 'en' | 'de';
+  language?: "en" | "de";
 }
 
-export const ReaderView: React.FC<ReaderViewProps> = ({ language = 'en' }) => {
+// Reader mode consumes published derivatives and never exposes editor controls.
+export const ReaderView: React.FC<ReaderViewProps> = ({ language = "en" }) => {
   const [articles, setArticles] = useState<ArticleSummary[]>([]);
-  const [selectedArticleId, setSelectedArticleId] = useState<string>('');
+  const [selectedArticleId, setSelectedArticleId] = useState<string>("");
   const [article, setArticle] = useState<ArticleDetail | null>(null);
-  const [published, setPublished] = useState<LiquidDerivativesPayload | null>(null);
+  const [published, setPublished] = useState<LiquidDerivativesPayload | null>(
+    null,
+  );
 
   // Multimodal view toggles
   const [showAudio, setShowAudio] = useState(true);
   const [showExecutiveBrief, setShowExecutiveBrief] = useState(true);
-  const [activeMediaOverlay, setActiveMediaOverlay] = useState<'video' | 'carousel' | null>(null);
+  const [activeMediaOverlay, setActiveMediaOverlay] = useState<
+    "video" | "carousel" | null
+  >(null);
 
   useEffect(() => {
     fetchArticles().then((list) => {
       setArticles(list);
       if (list.length > 0) {
-        const target = list.find((a) => a.id.includes('1886544')) || list[0];
+        const target = list.find((a) => a.id.includes("1886544")) || list[0];
         setSelectedArticleId(target.id);
       }
     });
@@ -59,8 +71,10 @@ export const ReaderView: React.FC<ReaderViewProps> = ({ language = 'en' }) => {
 
   // Split markdown body into paragraphs
   const paragraphs = article.body
-    .split('\n\n')
-    .filter((p) => p.trim().length > 0 && !p.startsWith('#') && !p.startsWith('!'));
+    .split("\n\n")
+    .filter(
+      (p) => p.trim().length > 0 && !p.startsWith("#") && !p.startsWith("!"),
+    );
 
   return (
     <div className="max-w-4xl mx-auto space-y-8 py-4">
@@ -89,8 +103,8 @@ export const ReaderView: React.FC<ReaderViewProps> = ({ language = 'en' }) => {
               onClick={() => setShowAudio(!showAudio)}
               className={`p-1.5 rounded-lg border text-xs flex items-center gap-1 ${
                 showAudio
-                  ? 'bg-red-950/60 border-red-800 text-red-300'
-                  : 'bg-slate-950 border-slate-800 text-slate-400'
+                  ? "bg-red-950/60 border-red-800 text-red-300"
+                  : "bg-slate-950 border-slate-800 text-slate-400"
               }`}
               title="Audio Briefing einblenden"
             >
@@ -104,8 +118,8 @@ export const ReaderView: React.FC<ReaderViewProps> = ({ language = 'en' }) => {
               onClick={() => setShowExecutiveBrief(!showExecutiveBrief)}
               className={`p-1.5 rounded-lg border text-xs flex items-center gap-1 ${
                 showExecutiveBrief
-                  ? 'bg-red-950/60 border-red-800 text-red-300'
-                  : 'bg-slate-950 border-slate-800 text-slate-400'
+                  ? "bg-red-950/60 border-red-800 text-red-300"
+                  : "bg-slate-950 border-slate-800 text-slate-400"
               }`}
               title="3-Punkte Briefing einblenden"
             >
@@ -117,12 +131,14 @@ export const ReaderView: React.FC<ReaderViewProps> = ({ language = 'en' }) => {
           {published?.socialStoryboard && (
             <button
               onClick={() =>
-                setActiveMediaOverlay(activeMediaOverlay === 'video' ? null : 'video')
+                setActiveMediaOverlay(
+                  activeMediaOverlay === "video" ? null : "video",
+                )
               }
               className={`p-1.5 rounded-lg border text-xs flex items-center gap-1 ${
-                activeMediaOverlay === 'video'
-                  ? 'bg-blue-950/60 border-blue-800 text-blue-300'
-                  : 'bg-slate-950 border-slate-800 text-slate-400'
+                activeMediaOverlay === "video"
+                  ? "bg-blue-950/60 border-blue-800 text-blue-300"
+                  : "bg-slate-950 border-slate-800 text-slate-400"
               }`}
               title="60s Video Storyboard"
             >
@@ -134,12 +150,14 @@ export const ReaderView: React.FC<ReaderViewProps> = ({ language = 'en' }) => {
           {published?.instagramCarousel && (
             <button
               onClick={() =>
-                setActiveMediaOverlay(activeMediaOverlay === 'carousel' ? null : 'carousel')
+                setActiveMediaOverlay(
+                  activeMediaOverlay === "carousel" ? null : "carousel",
+                )
               }
               className={`p-1.5 rounded-lg border text-xs flex items-center gap-1 ${
-                activeMediaOverlay === 'carousel'
-                  ? 'bg-purple-950/60 border-purple-800 text-purple-300'
-                  : 'bg-slate-950 border-slate-800 text-slate-400'
+                activeMediaOverlay === "carousel"
+                  ? "bg-purple-950/60 border-purple-800 text-purple-300"
+                  : "bg-slate-950 border-slate-800 text-slate-400"
               }`}
               title="Instagram Carousel"
             >
@@ -156,9 +174,9 @@ export const ReaderView: React.FC<ReaderViewProps> = ({ language = 'en' }) => {
           <div className="flex items-center justify-between pb-4 mb-4 border-b border-slate-800">
             <h3 className="text-sm font-bold text-white flex items-center gap-2">
               <Sparkles className="w-4 h-4 text-red-500" />
-              {activeMediaOverlay === 'video'
-                ? '60-Sekunden Vertikale Story (TikTok / Reels)'
-                : 'Instagram & LinkedIn 6-Slide Swipe Deck'}
+              {activeMediaOverlay === "video"
+                ? "60-Sekunden Vertikale Story (TikTok / Reels)"
+                : "Instagram & LinkedIn 6-Slide Swipe Deck"}
             </h3>
             <button
               onClick={() => setActiveMediaOverlay(null)}
@@ -168,28 +186,30 @@ export const ReaderView: React.FC<ReaderViewProps> = ({ language = 'en' }) => {
             </button>
           </div>
 
-          {activeMediaOverlay === 'video' && published?.socialStoryboard && (
+          {activeMediaOverlay === "video" && published?.socialStoryboard && (
             <StoryboardPreview storyboard={published.socialStoryboard} />
           )}
 
-          {activeMediaOverlay === 'carousel' && published?.instagramCarousel && (
-            <CarouselPreview carousel={published.instagramCarousel} />
-          )}
+          {activeMediaOverlay === "carousel" &&
+            published?.instagramCarousel && (
+              <CarouselPreview carousel={published.instagramCarousel} />
+            )}
         </div>
       )}
 
       {/* NZZ Editorial Article Container */}
       {(() => {
-        const isGerman = article.language === 'de';
+        const isGerman = article.language === "de";
         return (
           <article className="bg-slate-950 border border-slate-800/80 rounded-3xl p-8 sm:p-12 shadow-2xl space-y-6">
             {/* Article Rubric / Section */}
             <div className="flex items-center justify-between border-b border-slate-800 pb-4 text-xs">
               <span className="uppercase font-bold tracking-widest text-red-500">
-                {normalizeSection(article.section, isGerman ? 'de' : 'en')}
+                {normalizeSection(article.section, isGerman ? "de" : "en")}
               </span>
               <span className="text-slate-500 font-mono">
-                {article.wordCount} {isGerman ? 'Wörter' : 'words'} · Neue Zürcher Zeitung
+                {article.wordCount} {isGerman ? "Wörter" : "words"} · Neue
+                Zürcher Zeitung
               </span>
             </div>
 
@@ -205,7 +225,9 @@ export const ReaderView: React.FC<ReaderViewProps> = ({ language = 'en' }) => {
 
               <div className="flex items-center gap-2 text-xs text-slate-400 pt-2 border-t border-slate-800/60">
                 <span className="font-semibold text-slate-200">
-                  {isGerman ? 'Von' : 'By'} {article.author || (isGerman ? 'NZZ Redaktion' : 'NZZ Editorial')}
+                  {isGerman ? "Von" : "By"}{" "}
+                  {article.author ||
+                    (isGerman ? "NZZ Redaktion" : "NZZ Editorial")}
                 </span>
                 <span>·</span>
                 <span>Zürich & Düsseldorf</span>
@@ -222,7 +244,10 @@ export const ReaderView: React.FC<ReaderViewProps> = ({ language = 'en' }) => {
 
             {/* Executive 3-Bullet Card */}
             {showExecutiveBrief && published?.executiveNewsletter && (
-              <ExecutiveBriefCard brief={published.executiveNewsletter} language={article.language as 'en' | 'de'} />
+              <ExecutiveBriefCard
+                brief={published.executiveNewsletter}
+                language={article.language as "en" | "de"}
+              />
             )}
 
             {/* First Batch of Paragraphs */}
@@ -249,8 +274,14 @@ export const ReaderView: React.FC<ReaderViewProps> = ({ language = 'en' }) => {
 
             {/* Article Footnote / Sign-off */}
             <div className="pt-8 border-t border-slate-800 text-xs text-slate-500 flex items-center justify-between">
-              <span>{isGerman ? '© Neue Zürcher Zeitung AG. Alle Rechte vorbehalten.' : '© Neue Zürcher Zeitung AG. All rights reserved.'}</span>
-              <span className="text-red-500 font-serif font-black text-sm">NZZ</span>
+              <span>
+                {isGerman
+                  ? "© Neue Zürcher Zeitung AG. Alle Rechte vorbehalten."
+                  : "© Neue Zürcher Zeitung AG. All rights reserved."}
+              </span>
+              <span className="text-red-500 font-serif font-black text-sm">
+                NZZ
+              </span>
             </div>
           </article>
         );
