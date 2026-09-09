@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { LogIn, Shield, X } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
+import { useLanguage } from '../context/LanguageContext';
 
 interface DemoEditor {
   username: string;
@@ -46,6 +47,7 @@ export const DummyAccountsModal: React.FC<{ isOpen: boolean; onClose: () => void
   onClose,
 }) => {
   const { login } = useAuth();
+  const { t } = useLanguage();
   const [username, setUsername] = useState('teofilus');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
@@ -85,14 +87,14 @@ export const DummyAccountsModal: React.FC<{ isOpen: boolean; onClose: () => void
         <div className="nzz-dialog-header">
           <div className="nzz-dialog-title-wrap">
             <span className="nzz-dialog-kicker">
-              <Shield size={13} /> NZZ REDAKTIONSSYSTEM
+              <Shield size={13} /> {t('auth.kicker')}
             </span>
-            <h2 className="nzz-dialog-headline">Redaktor Anmelden</h2>
+            <h2 className="nzz-dialog-headline">{t('auth.headline')}</h2>
             <p className="nzz-dialog-sub">
-              Zugang für Redaktion, Datenjournalismus und Multimodal Studio (Gemini 2.5 Flash, Imagen 3 &amp; Cloud TTS).
+              {t('auth.sub')}
             </p>
           </div>
-          <button className="nzz-dialog-close" onClick={onClose} aria-label="Schliessen">
+          <button className="nzz-dialog-close" onClick={onClose} aria-label={t('auth.cancel')}>
             <X size={18} />
           </button>
         </div>
@@ -102,7 +104,7 @@ export const DummyAccountsModal: React.FC<{ isOpen: boolean; onClose: () => void
         {/* Quick Select Editor Account */}
         <div className="nzz-quick-profiles">
           <label className="nzz-field-label">
-            Redaktor-Profil auswählen (1-Klick Login):
+            {t('auth.profile_label')}
           </label>
           <div className="nzz-profiles-grid">
             {DEMO_EDITORS.map((editor) => (
@@ -136,34 +138,34 @@ export const DummyAccountsModal: React.FC<{ isOpen: boolean; onClose: () => void
         {/* Manual Credentials Form */}
         <form className="nzz-login-form" onSubmit={(event) => void submit(event)}>
           <div className="nzz-field-group">
-            <label className="nzz-field-label">Benutzername</label>
+            <label className="nzz-field-label">{t('auth.username')}</label>
             <input
               className="nzz-text-input"
               value={username}
               onChange={(event) => setUsername(event.target.value)}
-              placeholder="Benutzername eingeben"
+              placeholder={t('auth.username_placeholder')}
               required
             />
           </div>
           <div className="nzz-field-group">
-            <label className="nzz-field-label">Passwort</label>
+            <label className="nzz-field-label">{t('auth.password')}</label>
             <input
               className="nzz-text-input"
               type="password"
               value={password}
               onChange={(event) => setPassword(event.target.value)}
-              placeholder="Passwort eingeben"
+              placeholder={t('auth.password_placeholder')}
               required
             />
           </div>
 
           <div className="nzz-dialog-actions">
             <button type="button" className="nzz-btn-cancel" onClick={onClose}>
-              Abbrechen
+              {t('auth.cancel')}
             </button>
             <button type="submit" className="nzz-btn-submit-red" disabled={busy}>
               <LogIn size={15} />
-              <span>{busy ? 'Wird angemeldet…' : 'Als Redaktor anmelden'}</span>
+              <span>{busy ? t('auth.logging_in') : t('auth.submit')}</span>
             </button>
           </div>
         </form>
