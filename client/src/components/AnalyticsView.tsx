@@ -145,7 +145,7 @@ export const AnalyticsView: React.FC = () => {
           value="4m 32s"
           growth={8.2}
           subtext="per session"
-          icon={<ShoppingBag size={20} className="icon-purple" />}
+          icon={<ShoppingBag size={20} className="icon-red" />}
         />
       </section>
 

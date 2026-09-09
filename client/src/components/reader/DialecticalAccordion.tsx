@@ -22,7 +22,7 @@ export const DialecticalAccordion: React.FC<DialecticalAccordionProps> = ({ faq 
       case 'counterargument':
         return { label: 'Ökonomische Gegenposition', color: 'bg-amber-950/60 text-amber-400 border-amber-800' };
       case 'structural_outlook':
-        return { label: 'Strukturelle Reformoptionen', color: 'bg-purple-950/60 text-purple-400 border-purple-800' };
+        return { label: 'Strukturelle Reformoptionen', color: 'bg-stone-800 text-stone-200 border-stone-700' };
       default:
         return { label: 'Debatte', color: 'bg-slate-800 text-slate-300 border-slate-700' };
     }

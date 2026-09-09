@@ -43,11 +43,11 @@ export const RoleContextBanner: React.FC = () => {
         {isEditor ? (
           <>
             <button
-              className="banner-btn-create"
+              className="banner-btn-secondary"
               onClick={() => openCreateArticle('import')}
               title={t('role.import_btn')}
             >
-              <Plus size={15} />
+              <Plus size={14} />
               <span>{t('role.import_btn')}</span>
             </button>
             <button
@@ -55,7 +55,7 @@ export const RoleContextBanner: React.FC = () => {
               onClick={() => openCreateArticle('create')}
               title={t('role.create_btn')}
             >
-              <Plus size={15} />
+              <Plus size={14} />
               <span>{t('role.create_btn')}</span>
             </button>
           </>

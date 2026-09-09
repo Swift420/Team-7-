@@ -65,7 +65,9 @@ export const ArticleCard: React.FC<ArticleCardProps> = ({
         <h4 className="nzz-compact-headline">{article.headline}</h4>
         {article.lead && <p className="nzz-compact-lead">{article.lead}</p>}
         <div className="nzz-card-footer compact-footer">
-          <span className="nzz-author-name">{authorName}</span>
+          <div className="nzz-author-block">
+            <span className="nzz-author-name">{authorName}</span>
+          </div>
           <div className="nzz-footer-actions">
             <span className="nzz-time-badge">
               <Clock size={12} /> {readTimeLabel}
@@ -123,6 +125,7 @@ export const ArticleCard: React.FC<ArticleCardProps> = ({
           <div className="nzz-card-footer hero-footer">
             <div className="nzz-author-block">
               <span className="nzz-author-name">{authorName}</span>
+              <span className="nzz-meta-sep">·</span>
               <span className="nzz-meta-date">{formatDate(article.publishedAt)}</span>
             </div>
 
@@ -181,6 +184,8 @@ export const ArticleCard: React.FC<ArticleCardProps> = ({
         <div className="nzz-card-footer">
           <div className="nzz-author-block">
             <span className="nzz-author-name">{authorName}</span>
+            <span className="nzz-meta-sep">·</span>
+            <span className="nzz-meta-date">{formatDate(article.publishedAt, 'short')}</span>
           </div>
 
           <div className="nzz-footer-actions">

@@ -138,7 +138,7 @@ export const ReaderView: React.FC<ReaderViewProps> = ({ language = 'en' }) => {
               }
               className={`p-1.5 rounded-lg border text-xs flex items-center gap-1 ${
                 activeMediaOverlay === 'carousel'
-                  ? 'bg-purple-950/60 border-purple-800 text-purple-300'
+                  ? 'bg-red-950/60 border-red-700 text-red-200'
                   : 'bg-slate-950 border-slate-800 text-slate-400'
               }`}
               title="Instagram Carousel"

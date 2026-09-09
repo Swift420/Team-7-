@@ -57,7 +57,7 @@ export const TrafficChart: React.FC<TrafficChartProps> = ({ data }) => {
               }}
             />
             <Legend wrapperStyle={{ paddingTop: '10px' }} />
-            <Bar yAxisId="left" dataKey="visitors" name="Visitors" fill="#6366f1" radius={[4, 4, 0, 0]} />
+            <Bar yAxisId="left" dataKey="visitors" name="Visitors" fill="#111111" radius={[4, 4, 0, 0]} />
             <Line
               yAxisId="right"
               type="monotone"

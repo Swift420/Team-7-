@@ -251,9 +251,9 @@ export const Navbar: React.FC = () => {
       {/* 3. Section Navigation Bar (Sticky with Authentic 2px Red Underline) */}
       <nav className="nzz-section-navbar">
         <div className="nzz-header-container nzz-section-nav-inner">
-          <div className="nzz-tabs-list">
+          <div className="nzz-section-nav-list nzz-tabs-list">
             <button
-              className={`nzz-tab-link ${selectedCategory === 'all' || selectedCategory === 'All' || selectedCategory === 'Alle' ? 'active' : ''}`}
+              className={`nzz-section-tab nzz-tab-link ${selectedCategory === 'all' || selectedCategory === 'All' || selectedCategory === 'Alle' ? 'active' : ''}`}
               onClick={() => {
                 closeArticle();
                 setSelectedCategory('all');
@@ -272,7 +272,7 @@ export const Navbar: React.FC = () => {
               return (
                 <button
                   key={sec}
-                  className={`nzz-tab-link ${isActive ? 'active' : ''}`}
+                  className={`nzz-section-tab nzz-tab-link ${isActive ? 'active' : ''}`}
                   onClick={() => {
                     closeArticle();
                     setSelectedCategory(sec);

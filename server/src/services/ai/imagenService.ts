@@ -44,14 +44,14 @@ export async function generateImagen3Image(
     }
   }
 
-  // Design System Standard Prompt Engineering Prefix
+  // Design System Standard Prompt Engineering Prefix for Photorealism
   const DESIGN_SYSTEM_PREFIX =
-    "Editorial documentary photography for Neue Zürcher Zeitung, 35mm photojournalism, natural atmospheric lighting, Leica M11 and Hasselblad medium format optics, authentic textures, minimalist Swiss composition, generous negative space, 4:5 vertical portrait.";
+    "Raw uncompressed editorial documentary photojournalism for Neue Zürcher Zeitung, 35mm Leica M11-P or Hasselblad X2D optics, Kodak Portra 400 natural film grain, directional natural lighting, authentic tactile textures, minimalist Swiss broadsheet composition, generous negative space, 4:5 vertical portrait.";
 
   // Refined realistic photo prompt for editorial photojournalism
   const photorealisticPrompt = prompt.includes(DESIGN_SYSTEM_PREFIX)
     ? prompt
-    : `${DESIGN_SYSTEM_PREFIX} Subject: ${prompt}. Natural journalistic lighting, diffused European daylight, tactile film grain, authentic contextual depth, zero CGI, zero 3D render, zero plastic artifacts, Magnum Photos reportage aesthetic, award-winning Swiss photojournalism.`;
+    : `${DESIGN_SYSTEM_PREFIX} Subject: ${prompt}. Natural journalistic lighting, authentic depth of field, real tactile skin and fabric textures, candid documentary scene, zero CGI, zero 3D render, zero airbrushing, zero plastic sheen, uncompressed RAW photograph, award-winning Swiss press photojournalism.`;
 
   // 2. Try Vertex AI if credentials exist
   try {
@@ -84,7 +84,7 @@ export async function generateImagen3Image(
                     ? "16:9"
                     : "3:4",
             negativePrompt:
-              "cartoon, 3D render, anime, illustration, CGI, plastic textures, oversaturated, text overlay, watermark, blurry, low resolution, stock photo cliches, deformed, fake artificial lighting",
+              "cartoon, 3D render, anime, illustration, CGI, plastic textures, oversaturated, text overlay, watermark, blurry, low resolution, stock photo cliches, deformed, fake artificial lighting, airbrushed skin, unreal engine, video game render",
             personGeneration: "allow_adult",
           },
         }),
@@ -120,11 +120,11 @@ export async function generateImagen3Image(
   }
 
   // 3. High-Fidelity Flux.1 Photorealistic Generation Engine
-  // Delivers 1080x1350 4:5 vertical photojournalism matching NZZ aesthetic
+  // Delivers 1080x1350 4:5 vertical photojournalism matching NZZ aesthetic without fantasy hallucination
   console.log(
     `[Flux AI Image] Generating photorealistic image via Flux engine for: "${prompt.slice(0, 50)}..."`,
   );
-  const fluxUrl = `https://image.pollinations.ai/prompt/${encodeURIComponent(photorealisticPrompt)}?width=1080&height=1350&model=flux&nologo=true&enhance=true`;
+  const fluxUrl = `https://image.pollinations.ai/prompt/${encodeURIComponent(photorealisticPrompt)}?width=1080&height=1350&model=flux&nologo=true&enhance=false`;
 
   const result: GeneratedImageResult = {
     imageUrl: fluxUrl,
@@ -150,9 +150,9 @@ export async function generateContextualPhotographyPrompt(
   const combined =
     `${context.category || ""} ${context.headline || ""} ${context.lead || ""} ${slide.headline} ${slide.imagePrompt || ""} ${slide.bodyText || ""}`.toLowerCase();
 
-  // 1. Vinyl Records (Strict Mandate)
+  // 1. Vinyl Records (Strict Mandate - must be audio/vinyl, not sports/business 'record')
   if (
-    /\b(vinyl|turntable|schallplatte|record\b|groove|plattenspieler|needle|analog\s*audio|tonarm)\b/i.test(
+    /\b(vinyl|turntable|schallplatte|vinyl\s*record|gramophone|plattenspieler|analog\s*audio|tonarm|vinyl-rille)\b/i.test(
       combined,
     )
   ) {
@@ -169,7 +169,7 @@ export async function generateContextualPhotographyPrompt(
       const vertexModel = env.geminiModel;
       const endpoint = `https://${location}-aiplatform.googleapis.com/v1/projects/${projectId}/locations/${location}/publishers/google/models/${vertexModel}:generateContent`;
       const systemInstruction =
-        "You are an award-winning director of photography and senior photo editor for Neue Zürcher Zeitung (NZZ). Write a concise, ultra-specific, photorealistic photography prompt for an image generation model. Requirements: Must depict authentic 35mm editorial documentary photojournalism strictly relevant to the article's core theme. Mandate natural or dramatic atmospheric lighting, Leica M11 or Hasselblad X2D medium format optics, real tactile textures, candid real-world scenes, zero CGI, zero 3D render, zero plastic artifacts, and 4:5 vertical framing with generous negative space for typography. Return ONLY the exact prompt text, no quotes, no markdown, no conversational filler.";
+        "You are an award-winning director of photography and senior photo editor for Neue Zürcher Zeitung (NZZ). Write a concise, ultra-specific, photorealistic photography prompt for an image generation model. Requirements: Must depict authentic 35mm press documentary photojournalism strictly relevant to the article's core theme and the slide's specific point. Mandate real camera hardware (Leica M11-P, Canon EOS-1D X Mark III, or Hasselblad X2D 100C), specific prime lenses (35mm f/1.4, 50mm f/1.2, or 400mm f/2.8), natural or dramatic atmospheric lighting (stadium halogens, rain haze, diffuse morning daylight), Kodak Portra 400 authentic film grain, uncompressed RAW photograph, zero CGI, zero 3D render, zero airbrushing, zero plastic sheen, and 4:5 vertical framing with generous negative space for typography. Return ONLY the exact prompt text, no quotes, no markdown, no conversational filler.";
 
       const userContent = `Article Headline: "${context.headline || ""}"
 Lead: "${context.lead || ""}"
@@ -188,7 +188,7 @@ Slide Context: "${slide.imagePrompt || slide.bodyText || ""}"`;
           contents: [{ role: "user", parts: [{ text: userContent }] }],
           systemInstruction: { parts: [{ text: systemInstruction }] },
           generationConfig: {
-            temperature: 0.3,
+            temperature: 0.7,
             maxOutputTokens: 256,
           },
         }),
@@ -228,9 +228,9 @@ export function synthesizePhotojournalismPrompt(
   const combined =
     `${context.category || ""} ${context.headline || ""} ${context.lead || ""} ${slide.headline} ${slide.imagePrompt || ""}`.toLowerCase();
 
-  // 1. Vinyl / Audio
+  // 1. Vinyl / Audio (Strict Mandate - must be audio/vinyl, not sports/business 'record')
   if (
-    /\b(vinyl|turntable|schallplatte|record\b|groove|plattenspieler|needle|analog\s*audio|tonarm)\b/i.test(
+    /\b(vinyl|turntable|schallplatte|vinyl\s*record|gramophone|plattenspieler|analog\s*audio|tonarm|vinyl-rille)\b/i.test(
       combined,
     )
   ) {
@@ -267,20 +267,22 @@ export function synthesizePhotojournalismPrompt(
     };
   }
 
-  // 4. Sports / Tennis
+  // 4a. Football / Soccer (Strict Match)
+  const isFootball =
+    /\b(football|fussball|fußball|champions\s*league|uefa|fifa|bundesliga|premier\s*league|super\s*league|striker|penalty|pitch|goalkeeper)\b/i.test(
+      combined,
+    );
+
+  // 4b. Tennis (Strict Match)
+  const isTennis =
+    /\b(tennis|wimbledon|roland\s*garros|grand\s*slam|atp|wta|match\s*point|forehand|backhand)\b/i.test(
+      combined,
+    );
+
   const isSports =
-    combined.includes("tennis") ||
-    combined.includes("wimbledon") ||
-    combined.includes("roland garros") ||
-    combined.includes("grand slam") ||
-    combined.includes("atp") ||
-    combined.includes("wta") ||
-    combined.includes("athlete") ||
-    combined.includes("sport") ||
-    combined.includes("match point") ||
-    combined.includes("court") ||
-    combined.includes("forehand") ||
-    combined.includes("backhand");
+    isFootball ||
+    isTennis ||
+    /\b(sport|athlete|athletik|championship|tournament)\b/i.test(combined);
 
   // 5. Automotive - STRICT whole-word match (must NOT match 'automated', 'automatic', 'author')
   const isAutomotive =
@@ -324,35 +326,92 @@ export function synthesizePhotojournalismPrompt(
     combined.includes("security") ||
     combined.includes("algorithm");
 
-  // 1. Sports / Tennis
+  // 1. Sports / Athletics Reportage
   if (isSports) {
-    const tennisBeats: Record<number, { prompt: string; label: string }> = {
+    if (isFootball) {
+      const footballBeats: Record<number, { prompt: string; label: string }> = {
+        1: {
+          prompt: `Authentic 35mm editorial sports documentary photography for Neue Zürcher Zeitung: Wide dramatic low-angle perspective of an iconic European football stadium pitch under evening storm. Bright halogen floodlights casting directional rim light on wet emerald grass, weathered white touchline chalk bleeding into grass, atmospheric mist, Leica M11-P with 35mm f/1.4 lens, natural grain, authentic sensor noise, zero CGI, zero 3D render.`,
+          label: "STADIUM PITCH",
+        },
+        2: {
+          prompt: `Authentic 35mm editorial sports documentary photography for Neue Zürcher Zeitung: Candid sideline portrait of a European football manager in an elegant dark tailored wool coat standing in the technical area in heavy rain. Halogen floodlights glistening on wet coat shoulders, arms crossed, tactical bench and stadium crowd in soft focus background, Leica M11-P with 50mm f/1.4 prime lens, shallow depth of field, authentic facial texture, candid European sports documentary, zero CGI.`,
+          label: "SIDELINE TACTICS",
+        },
+        3: {
+          prompt: `Authentic 35mm editorial sports documentary photography for Neue Zürcher Zeitung: Tight telephoto action crop of an official match football resting on penalty spot chalk mark on wet European stadium turf under rain. Raindrops and subtle water puddle reflections, natural grass texture, Canon EOS-1D X Mark III with 400mm f/2.8 lens, authentic sports photojournalism.`,
+          label: "MATCH BALL",
+        },
+        4: {
+          prompt: `Authentic 35mm editorial sports documentary photography for Neue Zürcher Zeitung: Interior locker room documentary scene before kickoff. Tactical magnetic whiteboard with red and white player tokens, athlete boots lined on wooden bench, atmospheric sidelight, candid Swiss reportage.`,
+          label: "TACTICAL BRIEFING",
+        },
+        5: {
+          prompt: `Authentic 35mm editorial sports documentary photography for Neue Zürcher Zeitung: Candid documentary scene looking down concrete stadium players tunnel toward brightly lit pitch opening. Moody industrial architecture, overhead fluorescent strip lights, European tournament signage, authentic photojournalism.`,
+          label: "PLAYERS TUNNEL",
+        },
+        6: {
+          prompt: `Authentic 35mm editorial sports documentary photography for Neue Zürcher Zeitung: Post-match empty stadium bowl at night, floodlights slowly dimming, quiet aftermath, sovereign NZZ sports editorial conclusion.`,
+          label: "FINAL WHISTLE",
+        },
+      };
+      const beat = footballBeats[slide.slideNumber] || footballBeats[1];
+      return {
+        prompt: slide.imagePrompt
+          ? `${slide.imagePrompt}. ${beat.prompt}`
+          : beat.prompt,
+        detailLabel: beat.label,
+      };
+    }
+
+    if (isTennis) {
+      const tennisBeats: Record<number, { prompt: string; label: string }> = {
+        1: {
+          prompt: `Authentic 35mm editorial sports documentary photography for Neue Zürcher Zeitung: Intense baseline action on Court Philippe-Chatrier at Roland Garros during late afternoon golden hour. A dynamic young tennis champion mid-air executing an explosive open-stance forehand, red clay dust spray frozen in mid-air around sliding tennis shoes, dynamic motion tension, Nikon Z9 with 400mm f/2.8 lens, shallow depth of field, authentic sweat and athletic grit, dramatic European sports journalism, zero CGI, zero 3D render.`,
+          label: "BALL COMPRESSION",
+        },
+        2: {
+          prompt: `Authentic 35mm editorial sports documentary photography for Neue Zürcher Zeitung: Candid macro detail of tennis racket head striking a tennis ball at 130 mph on baseline. Racket string deformation, micro-vibrations in neon yellow felt, crisp athletic tension, Leica SL2 macro, natural daylight, zero CGI, authentic sports photojournalism.`,
+          label: "STRING TENSION",
+        },
+        3: {
+          prompt: `Authentic 35mm editorial sports documentary photography for Neue Zürcher Zeitung: Low-angle dramatic telephoto perspective of tennis player executing a sliding recovery on red clay court. Athletic footwork, dust cloud billowed behind white tennis shoes, deep clay trench, focused determination, dramatic natural sidelight, 70-200mm f/2.8 compression.`,
+          label: "CLAY DUST SPRAY",
+        },
+        4: {
+          prompt: `Authentic 35mm editorial sports documentary photography for Neue Zürcher Zeitung: Candid sideline portrait of tennis champion during changeover. Athlete seated with towel draped over shoulders, intense steely gaze, water bottle in hand, dramatic stadium shadows in background, authentic photojournalism.`,
+          label: "CHAMPION FOCUS",
+        },
+        5: {
+          prompt: `Authentic 35mm editorial sports documentary photography for Neue Zürcher Zeitung: Wide architectural stadium view of Wimbledon Centre Court or Roland Garros under dramatic cloudy European sky. Emerald grass or red clay illuminated by afternoon sunlight, spectators in soft focus, iconic sports heritage.`,
+          label: "GRAND SLAM ARENA",
+        },
+        6: {
+          prompt: `Authentic 35mm editorial sports documentary photography for Neue Zürcher Zeitung: Quiet post-match scene, single tennis ball resting on white baseline chalk mark on empty clay court at dusk. Long shadows, textured clay surface, sovereign NZZ sports editorial conclusion.`,
+          label: "MATCH POINT",
+        },
+      };
+      const beat = tennisBeats[slide.slideNumber] || tennisBeats[1];
+      return {
+        prompt: slide.imagePrompt
+          ? `${slide.imagePrompt}. ${beat.prompt}`
+          : beat.prompt,
+        detailLabel: beat.label,
+      };
+    }
+
+    // General Sports / Athletics
+    const generalSportsBeats: Record<number, { prompt: string; label: string }> = {
       1: {
-        prompt: `Authentic 35mm editorial sports documentary photography for Neue Zürcher Zeitung: Intense baseline action on Court Philippe-Chatrier at Roland Garros during late afternoon golden hour. A dynamic young tennis champion mid-air executing an explosive open-stance forehand, red clay dust spray frozen in mid-air around sliding tennis shoes, dynamic motion tension, Nikon Z9 with 400mm f/2.8 lens, shallow depth of field, authentic sweat and athletic grit, dramatic European sports journalism, zero CGI, zero 3D render.`,
-        label: "BALL COMPRESSION",
+        prompt: `Authentic 35mm editorial sports documentary photography for Neue Zürcher Zeitung: Telephoto action shot of elite athlete in competition, natural atmospheric lighting, Leica optics, authentic sweat and physical exertion, shallow depth of field, zero CGI.`,
+        label: "ATHLETIC ACTION",
       },
       2: {
-        prompt: `Authentic 35mm editorial sports documentary photography for Neue Zürcher Zeitung: Candid macro detail of tennis racket head striking a tennis ball at 130 mph on baseline. Racket string deformation, micro-vibrations in neon yellow felt, crisp athletic tension, Leica SL2 macro, natural daylight, zero CGI, authentic sports photojournalism.`,
-        label: "STRING TENSION",
-      },
-      3: {
-        prompt: `Authentic 35mm editorial sports documentary photography for Neue Zürcher Zeitung: Low-angle dramatic telephoto perspective of tennis player executing a sliding recovery on red clay court. Athletic footwork, dust cloud billowed behind white tennis shoes, deep clay trench, focused determination, dramatic natural sidelight, 70-200mm f/2.8 compression.`,
-        label: "CLAY DUST SPRAY",
-      },
-      4: {
-        prompt: `Authentic 35mm editorial sports documentary photography for Neue Zürcher Zeitung: Candid sideline portrait of tennis champion during changeover. Athlete seated with towel draped over shoulders, intense steely gaze, water bottle in hand, dramatic stadium shadows in background, authentic photojournalism.`,
-        label: "CHAMPION FOCUS",
-      },
-      5: {
-        prompt: `Authentic 35mm editorial sports documentary photography for Neue Zürcher Zeitung: Wide architectural stadium view of Wimbledon Centre Court or Roland Garros under dramatic cloudy European sky. Emerald grass or red clay illuminated by afternoon sunlight, spectators in soft focus, iconic sports heritage.`,
-        label: "GRAND SLAM ARENA",
-      },
-      6: {
-        prompt: `Authentic 35mm editorial sports documentary photography for Neue Zürcher Zeitung: Quiet post-match scene, single tennis ball resting on white baseline chalk mark on empty clay court at dusk. Long shadows, textured clay surface, sovereign NZZ sports editorial conclusion.`,
-        label: "MATCH POINT",
+        prompt: `Authentic 35mm editorial sports documentary photography for Neue Zürcher Zeitung: Candid sideline portrait of athlete or coach, intense focused expression, natural directional daylight, authentic photojournalism.`,
+        label: "FOCUS & GRIT",
       },
     };
-    const beat = tennisBeats[slide.slideNumber] || tennisBeats[1];
+    const beat = generalSportsBeats[slide.slideNumber] || generalSportsBeats[1];
     return {
       prompt: slide.imagePrompt
         ? `${slide.imagePrompt}. ${beat.prompt}`
