@@ -27,6 +27,12 @@ export interface TimelineEvent {
   sourceParagraphIds: string[];
 }
 
+/** A chart form Gemini considers suitable for the same evidence as the primary chart. */
+export interface VisualizationAlternative {
+  chartType: VisualizationChartType;
+  reason: string;
+}
+
 export interface VisualizationOpportunity {
   id: string;
   type?: "CHART" | "TIMELINE";
@@ -35,6 +41,7 @@ export interface VisualizationOpportunity {
   rationale: string;
   reason?: string;
   chartType: VisualizationChartType;
+  alternativeCharts: VisualizationAlternative[];
   confidence: number;
   dataStatus: VisualizationDataStatus;
   relatedElementIds: string[];

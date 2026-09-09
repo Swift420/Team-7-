@@ -125,6 +125,12 @@ export interface TimelineEvent {
   sourceParagraphIds: string[];
 }
 
+/** A secondary chart form the editor can preview without changing the AI recommendation. */
+export interface VisualizationAlternative {
+  chartType: VisualizationChartType;
+  reason: string;
+}
+
 export interface VisualizationOpportunity {
   id: string;
   type?: "CHART" | "TIMELINE";
@@ -133,6 +139,7 @@ export interface VisualizationOpportunity {
   rationale: string;
   reason?: string;
   chartType: VisualizationChartType;
+  alternativeCharts: VisualizationAlternative[];
   confidence: number;
   dataStatus: VisualizationDataStatus;
   relatedElementIds: string[];

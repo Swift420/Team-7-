@@ -32,6 +32,19 @@ const timelineEventSchema = z.object({
   sourceParagraphIds: z.array(z.string().trim().min(1)).min(1),
 });
 
+const alternativeChartSchema = z.object({
+  chartType: z.enum([
+    "bar",
+    "line",
+    "area",
+    "stacked_bar",
+    "dot_plot",
+    "donut",
+    "timeline",
+  ]),
+  reason: z.string().trim().min(1),
+});
+
 const opportunitySchema = z
   .object({
     type: z.enum(["CHART", "TIMELINE"]).optional(),
@@ -48,6 +61,7 @@ const opportunitySchema = z
       "donut",
       "timeline",
     ]),
+    alternativeCharts: z.array(alternativeChartSchema).max(3).default([]),
     confidence: z.number().min(0).max(1),
     dataStatus: z.enum(["ready", "needs_review"]),
     relatedElementIds: z.array(z.string().trim().min(1)).min(1),
@@ -120,6 +134,29 @@ const responseJsonSchema = {
               "timeline",
             ],
           },
+          alternativeCharts: {
+            type: "array",
+            maxItems: 3,
+            items: {
+              type: "object",
+              properties: {
+                chartType: {
+                  type: "string",
+                  enum: [
+                    "bar",
+                    "line",
+                    "area",
+                    "stacked_bar",
+                    "dot_plot",
+                    "donut",
+                    "timeline",
+                  ],
+                },
+                reason: { type: "string" },
+              },
+              required: ["chartType", "reason"],
+            },
+          },
           confidence: { type: "number" },
           dataStatus: { type: "string", enum: ["ready", "needs_review"] },
           relatedElementIds: { type: "array", items: { type: "string" } },
@@ -179,6 +216,7 @@ const responseJsonSchema = {
           "title",
           "subtitle",
           "chartType",
+          "alternativeCharts",
           "confidence",
           "dataStatus",
           "relatedElementIds",
@@ -289,6 +327,7 @@ Hard rules:
 - Use line for genuine ordered time series; use area only when accumulated magnitude or volume is meaningful.
 - Use stacked_bar only for part-to-whole comparisons where values share a denominator and normally sum to about 100.
 - Use donut only for a simple part-to-whole snapshot with 2–5 mutually exclusive categories. Never use it for change over time.
+- Always include alternativeCharts: one to three distinct chart forms that could also communicate the same evidence, each with a concise reason for the editor. Do not repeat the primary chartType. Only recommend timeline when the opportunity has a meaningful chronology and events; only recommend donut or stacked_bar when the data is genuinely part-to-whole; never recommend a form that cannot be built from the supplied values.
 - Use timeline only when chronology is genuinely important to the story, not merely because dates appear. Detect exact dates, months, years, decades, and relative references such as "three months later", "after the announcement", "twenty years earlier", or "the following week". Preserve approximate wording such as "late 2000s" or "around 2020". Prefer 3–8 meaningful events, never invent dates/events, and use dataStatus "needs_review" when dates conflict or remain unclear. For a timeline set type to "TIMELINE", chartType to "timeline", put the editorial explanation in reason, and provide sourceParagraphIds for every event.
 - Always include an events array (use [] for non-timeline charts).
 - Write titles, labels, rationale, caveats, and accessibility summaries in the article language.
@@ -369,8 +408,24 @@ export function parseVisualizationAnalysis(
         opportunity.rationale ||
         opportunity.reason ||
         "Editorial visualization opportunity.";
+      const hasNumericData =
+        opportunity.series.length > 0 && opportunity.data.length >= 2;
+      const alternativeCharts = opportunity.alternativeCharts
+        .filter(
+          (alternative, alternativeIndex, alternatives) =>
+            alternative.chartType !== opportunity.chartType &&
+            alternatives.findIndex(
+              (candidate) =>
+                candidate.chartType === alternative.chartType,
+            ) === alternativeIndex &&
+            (alternative.chartType !== "timeline" ||
+              opportunity.chartType === "timeline") &&
+            (opportunity.chartType !== "timeline" || hasNumericData),
+        )
+        .slice(0, 3);
       return {
         ...opportunity,
+        alternativeCharts,
         rationale,
         type:
           opportunity.type ||

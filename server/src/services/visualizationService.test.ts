@@ -87,6 +87,33 @@ test("parses a valid visualization analysis and assigns stable result ids", () =
   assert.deepEqual(parsed.opportunities[0].data[1].values, [136, 108]);
 });
 
+test("keeps distinct compatible alternative chart recommendations", () => {
+  const response = structuredClone(validResponse);
+  Object.assign(response.opportunities[0], {
+    alternativeCharts: [
+      { chartType: "bar", reason: "Makes the endpoint comparison explicit." },
+      {
+        chartType: "dot_plot",
+        reason: "Emphasizes the difference between series.",
+      },
+      { chartType: "timeline", reason: "The article has a chronology." },
+    ],
+  });
+
+  const parsed = parseVisualizationAnalysis(
+    JSON.stringify(response),
+    article,
+    "gemini-test",
+  );
+
+  assert.deepEqual(
+    parsed.opportunities[0].alternativeCharts.map(
+      (alternative) => alternative.chartType,
+    ),
+    ["bar", "dot_plot"],
+  );
+});
+
 test("rejects evidence references that do not exist in the article", () => {
   const invalid = structuredClone(validResponse);
   invalid.opportunities[0].data[0].sourceElementIds = ["element-9999"];

@@ -268,6 +268,7 @@ export const ArticleVisualizer: React.FC<ArticleVisualizerProps> = ({
             <div className="opportunity-list">
               {analysis.opportunities.map((opportunity) => {
                 const selected = selectedIds.includes(opportunity.id);
+                const alternatives = opportunity.alternativeCharts ?? [];
                 const sourceIds = [
                   ...new Set([
                     ...opportunity.data.flatMap(
@@ -364,6 +365,51 @@ export const ArticleVisualizer: React.FC<ArticleVisualizerProps> = ({
                         {opportunity.series.length === 1 ? "series" : "series"}
                       </span>
                     </div>
+                    {alternatives.length > 0 && (
+                      <div className="chart-alternatives">
+                        <div className="chart-alternatives-heading">
+                          <strong>Other suitable formats</strong>
+                          <span>Preview the same evidence another way</span>
+                        </div>
+                        <div className="chart-alternative-list">
+                          {alternatives.map((alternative) => {
+                            const selectedChartType =
+                              chartTypes[opportunity.id] || opportunity.chartType;
+                            const isActive =
+                              selectedChartType === alternative.chartType;
+                            return (
+                              <button
+                                className={`chart-alternative-button ${
+                                  isActive ? "is-active" : ""
+                                }`}
+                                key={alternative.chartType}
+                                type="button"
+                                aria-pressed={isActive}
+                                title={alternative.reason}
+                                onClick={() =>
+                                  setChartTypes((current) => ({
+                                    ...current,
+                                    [opportunity.id]: alternative.chartType,
+                                  }))
+                                }
+                              >
+                                {chartLabels[alternative.chartType]}
+                              </button>
+                            );
+                          })}
+                        </div>
+                        <p className="chart-alternative-reason">
+                          {(
+                            alternatives.find(
+                              (alternative) =>
+                                alternative.chartType ===
+                                (chartTypes[opportunity.id] ||
+                                  opportunity.chartType),
+                            ) || alternatives[0]
+                          ).reason}
+                        </p>
+                      </div>
+                    )}
                     <VisualizationChart
                       opportunity={opportunity}
                       chartType={chartTypes[opportunity.id]}

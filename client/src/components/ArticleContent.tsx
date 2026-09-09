@@ -80,6 +80,7 @@ const ExistingVisual: React.FC<{ visual: ExistingVisualization }> = ({
           subtitle: visual.subtitle,
           rationale: "Existing article visualization",
           chartType: visual.chartType,
+          alternativeCharts: [],
           confidence: 1,
           dataStatus: "ready",
           relatedElementIds: [visual.elementId],
