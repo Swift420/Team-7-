@@ -135,7 +135,7 @@ export const ArticleFeed: React.FC<ArticleFeedProps> = ({
             >
               <PenTool className="w-3.5 h-3.5" />
               <span>
-                {language === "de" ? "+ Neuer Artikel" : "+ Write Article"}
+                {language === "de" ? "Neuer Artikel" : "Write Article"}
               </span>
             </button>
 

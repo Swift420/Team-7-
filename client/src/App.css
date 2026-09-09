@@ -5061,3 +5061,271 @@ body {
   gap: 8px;
   margin-top: 8px;
 }
+
+/* Final editorial theme overrides for the integrated reader experience. */
+.nzz-home-logo {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+  min-width: 104px;
+  height: 36px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+.nzz-home-logo:hover {
+  opacity: 0.72;
+}
+
+.nzz-masthead-right {
+  flex-wrap: nowrap;
+}
+
+.nzz-btn-globus,
+.nzz-btn-action {
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+
+.nzz-btn-globus.active,
+.nzz-btn-globus.is-active {
+  color: #ffffff;
+  background: #d80000;
+  border-color: #d80000;
+}
+
+.nzz-btn-globus.active:hover,
+.nzz-btn-globus.is-active:hover {
+  background: #b50000;
+  border-color: #b50000;
+}
+
+.article-content-body,
+.nzz-article-body-stream,
+.nzz-article-body-stream .article-content-body {
+  color: #222222;
+}
+
+.nzz-article-body-stream .article-p {
+  color: #222222;
+  font-size: 18px;
+  line-height: 1.78;
+}
+
+.article-visualizer {
+  margin: 2.5rem 0 0;
+  border-color: #d4d4d0;
+  border-radius: 2px;
+  background: #ffffff;
+  box-shadow: 0 8px 24px rgba(17, 17, 17, 0.08);
+}
+
+.visualizer-intro {
+  padding: 1.35rem 1.5rem;
+  border-bottom: 1px solid #e5e5e0;
+  background: #fbfbfa;
+}
+
+.visualizer-icon {
+  width: 42px;
+  height: 42px;
+  border: 1px solid #d80000;
+  border-radius: 2px;
+  color: #d80000;
+  background: #fff5f5;
+}
+
+.visualizer-eyebrow {
+  color: #d80000;
+}
+
+.visualizer-copy h2,
+.visualizer-section-heading h2 {
+  color: #111111;
+  font-family: var(--font-serif);
+}
+
+.visualizer-copy p,
+.visualizer-section-heading p {
+  color: #555555;
+}
+
+.visualize-article-button,
+.insert-visuals-button {
+  border-radius: 2px;
+  background: #d80000;
+}
+
+.visualize-article-button:hover,
+.insert-visuals-button:hover {
+  background: #b50000;
+}
+
+.visualizer-results,
+.opportunity-card,
+.visualizer-actions {
+  border-color: #e5e5e0;
+  background: #ffffff;
+}
+
+.analysis-summary {
+  color: #111111;
+  background: #f5f5f2;
+}
+
+.analysis-summary p,
+.chart-controls,
+.visual-plain-summary,
+.visual-caveat {
+  color: #555555;
+}
+
+.opportunity-card {
+  border-radius: 2px;
+}
+
+.visual-title-input,
+.visual-subtitle-input,
+.chart-controls select,
+.visual-data-editor input {
+  color: #222222;
+  background: #ffffff;
+  border-color: #d4d4d0;
+}
+
+.chart-alternatives {
+  border-color: #e5e5e0;
+  border-radius: 2px;
+  background: #fbfbfa;
+}
+
+.chart-alternatives-heading strong,
+.chart-alternative-button {
+  color: #222222;
+}
+
+.chart-alternative-button {
+  border-color: #d4d4d0;
+  border-radius: 2px;
+  background: #ffffff;
+}
+
+.chart-alternative-button:hover,
+.chart-alternative-button.is-active {
+  border-color: #d80000;
+  color: #d80000;
+  background: #fff5f5;
+}
+
+.chart-alternative-reason {
+  color: #666666;
+}
+
+/* The dock sits beside the feed, with the reading column shifted right. */
+.nzz-feed-wrapper.has-docked-globe {
+  gap: 28px;
+}
+
+.nzz-feed-wrapper.has-docked-globe .nzz-main-feed-col {
+  order: 2;
+  flex: 1 1 62%;
+  max-width: 62%;
+}
+
+.nzz-feed-wrapper.has-docked-globe .nzz-docked-globe-col {
+  order: 1;
+  flex: 0 0 38%;
+  max-width: 38%;
+}
+
+.nzz-docked-globe-col {
+  top: 96px;
+  max-height: calc(100vh - 116px);
+  border-color: #e5e5e0;
+  box-shadow: 4px 6px 20px rgba(17, 17, 17, 0.08);
+}
+
+.story-globe-explorer.story-globe-docked {
+  padding: 20px;
+  background: #ffffff;
+  color: #111111;
+}
+
+.story-globe-explorer.story-globe-docked .story-globe-heading h2 {
+  color: #111111;
+  font-size: 21px;
+}
+
+.story-globe-explorer.story-globe-docked .story-globe-heading p,
+.story-globe-explorer.story-globe-docked .story-globe-stats,
+.story-globe-explorer.story-globe-docked .story-globe-stats span {
+  color: #666666;
+}
+
+.story-globe-layout.docked-layout .story-globe-canvas {
+  min-height: 500px;
+  max-height: 560px;
+}
+
+.story-globe-explorer.story-globe-docked .story-panel-kicker {
+  color: #d80000;
+}
+
+.story-globe-explorer.story-globe-docked .story-country-panel {
+  min-height: 260px;
+  border-color: #d4d4d0;
+  border-radius: 2px;
+  background: #fbfbfa;
+}
+
+.story-globe-explorer.story-globe-docked .story-country-panel h3,
+.story-globe-explorer.story-globe-docked .coverage-ranking button span {
+  color: #111111;
+}
+
+.story-globe-explorer.story-globe-docked .story-country-panel-header p,
+.story-globe-explorer.story-globe-docked .story-panel-hint {
+  color: #666666;
+}
+
+.story-globe-explorer.story-globe-docked .coverage-ranking button {
+  border-color: #d4d4d0;
+  border-radius: 2px;
+  color: #222222;
+  background: #ffffff;
+}
+
+.story-globe-explorer.story-globe-docked .coverage-ranking button:hover {
+  border-color: #d80000;
+  background: #fff5f5;
+}
+
+.story-globe-explorer.story-globe-docked .coverage-ranking strong {
+  color: #d80000;
+}
+
+@media (max-width: 900px) {
+  .nzz-feed-wrapper.has-docked-globe {
+    flex-direction: column;
+  }
+
+  .nzz-feed-wrapper.has-docked-globe .nzz-main-feed-col,
+  .nzz-feed-wrapper.has-docked-globe .nzz-docked-globe-col {
+    flex: 1 1 auto;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .nzz-feed-wrapper.has-docked-globe .nzz-docked-globe-col {
+    order: 1;
+    position: relative;
+    top: auto;
+    max-height: none;
+  }
+
+  .nzz-feed-wrapper.has-docked-globe .nzz-main-feed-col {
+    order: 2;
+  }
+}

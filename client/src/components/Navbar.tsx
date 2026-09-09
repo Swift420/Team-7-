@@ -4,7 +4,6 @@ import {
   FileUp,
   Globe2,
   LogOut,
-  Menu,
   Search,
   Shield,
   UserRound,
@@ -128,9 +127,13 @@ export const Navbar: React.FC = () => {
         <div className="nzz-header-container nzz-masthead-inner">
           {/* Left: Menu & Search */}
           <div className="nzz-masthead-left">
-            <button className="nzz-btn-menu" aria-label={t('nav.menu')} onClick={goHome}>
-              <Menu size={18} />
-              <span className="nzz-menu-label">{t('nav.menu')}</span>
+            <button
+              className="nzz-home-logo"
+              aria-label={t('nav.home')}
+              onClick={goHome}
+              title={t('nav.home')}
+            >
+              <NzzLogo color="black" width={96} className="nzz-main-logo" />
             </button>
 
             <div className="nzz-search-container">
@@ -154,20 +157,6 @@ export const Navbar: React.FC = () => {
                 </button>
               )}
             </div>
-          </div>
-
-          {/* Center: Official NZZ Serif Logo & Tagline */}
-          <div
-            className="nzz-masthead-center"
-            onClick={goHome}
-            role="button"
-            tabIndex={0}
-            onKeyDown={(e) => {
-              if (e.key === 'Enter' || e.key === ' ') goHome();
-            }}
-          >
-            <NzzLogo color="black" width={138} className="nzz-main-logo" />
-            <div className="nzz-masthead-tagline">Neue Zürcher Zeitung · Seit 1780</div>
           </div>
 
           {/* Right: Globus Toggle + Editor Actions + Sign In */}

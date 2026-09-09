@@ -165,7 +165,7 @@ export const StoryGlobeExplorer: React.FC<{ onClose?: () => void; docked?: boole
           <Globe
             ref={globeRef}
             width={width}
-            height={docked ? Math.min(360, Math.max(280, width * 0.8)) : Math.min(600, Math.max(360, width * 0.66))}
+            height={docked ? Math.min(520, Math.max(420, width * 0.95)) : Math.min(600, Math.max(360, width * 0.66))}
             backgroundColor="rgba(0,0,0,0)"
             globeImageUrl="https://unpkg.com/three-globe/example/img/earth-blue-marble.jpg"
             bumpImageUrl="https://unpkg.com/three-globe/example/img/earth-topology.png"

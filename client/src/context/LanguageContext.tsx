@@ -16,13 +16,14 @@ export const TRANSLATIONS = {
 
     // Masthead
     'nav.menu': 'Menu',
+    'nav.home': 'Home',
     'nav.search_placeholder': 'Search NZZ...',
     'nav.search_label': 'Search articles',
     'nav.search_clear': 'Clear search',
     'nav.globe': 'Globe 3D',
     'nav.globe_title': 'Toggle 3D Story Globe',
-    'nav.import_article': '+ Import',
-    'nav.create_article': '+ Write',
+    'nav.import_article': 'Import',
+    'nav.create_article': 'Write',
     'nav.sign_in': 'Sign In',
     'nav.sign_out': 'Sign Out',
     'nav.editor': 'Editor',
@@ -210,13 +211,14 @@ export const TRANSLATIONS = {
 
     // Masthead
     'nav.menu': 'Menü',
+    'nav.home': 'Startseite',
     'nav.search_placeholder': 'NZZ durchsuchen...',
     'nav.search_label': 'Artikel durchsuchen',
     'nav.search_clear': 'Suche löschen',
     'nav.globe': 'Globus 3D',
     'nav.globe_title': '3D-Story-Globus umschalten',
-    'nav.import_article': '+ Import',
-    'nav.create_article': '+ Erstellen',
+    'nav.import_article': 'Import',
+    'nav.create_article': 'Erstellen',
     'nav.sign_in': 'Anmelden',
     'nav.sign_out': 'Abmelden',
     'nav.editor': 'Redaktor',
