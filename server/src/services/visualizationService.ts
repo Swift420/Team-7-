@@ -1,12 +1,21 @@
-import { GoogleGenAI } from '@google/genai';
-import { z } from 'zod';
-import { ArticleRecord } from '../types/article.js';
-import { VisualizationAnalysis, VisualizationOpportunity } from '../types/visualization.js';
-import { ExistingVisualization } from '../types/visualization.js';
-import { loadExistingVisualizations } from './existingVisualService.js';
+import { GoogleGenAI } from "@google/genai";
+import { z } from "zod";
+import { ArticleBodyElement, ArticleRecord } from "../types/article.js";
+import {
+  VisualizationAnalysis,
+  VisualizationOpportunity,
+} from "../types/visualization.js";
+import { ExistingVisualization } from "../types/visualization.js";
+import { loadExistingVisualizations } from "./existingVisualService.js";
+import { env } from "../config/env.js";
 
+/** Validates AI-generated opportunities against article evidence before they reach the editor. */
 const seriesSchema = z.object({
-  key: z.string().trim().min(1).regex(/^[a-z][a-z0-9_]*$/),
+  key: z
+    .string()
+    .trim()
+    .min(1)
+    .regex(/^[a-z][a-z0-9_]*$/),
   label: z.string().trim().min(1),
 });
 
@@ -23,42 +32,62 @@ const timelineEventSchema = z.object({
   sourceParagraphIds: z.array(z.string().trim().min(1)).min(1),
 });
 
-const opportunitySchema = z.object({
-  type: z.enum(['CHART', 'TIMELINE']).optional(),
-  title: z.string().trim().min(1),
-  subtitle: z.string().trim(),
-  rationale: z.string().trim().min(1).optional(),
-  reason: z.string().trim().min(1).optional(),
-  chartType: z.enum(['bar', 'line', 'area', 'stacked_bar', 'dot_plot', 'donut', 'timeline']),
-  confidence: z.number().min(0).max(1),
-  dataStatus: z.enum(['ready', 'needs_review']),
-  relatedElementIds: z.array(z.string().trim().min(1)).min(1),
-  suggestedPlacementAfter: z.string().trim().min(1),
-  xAxisLabel: z.string().trim(),
-  yAxisLabel: z.string().trim(),
-  unit: z.string().trim(),
-  series: z.array(seriesSchema).max(3),
-  data: z.array(dataPointSchema).max(16),
-  events: z.array(timelineEventSchema).max(24).optional(),
-  sourceNote: z.string().trim(),
-  caveats: z.array(z.string().trim().min(1)).max(5),
-  accessibilitySummary: z.string().trim().min(1),
-}).superRefine((opportunity, context) => {
-  if (opportunity.chartType === 'timeline') {
-    return;
-  }
-  if (opportunity.series.length < 1) context.addIssue({ code: 'custom', path: ['series'], message: 'A chart needs at least one numeric series' });
-  if (opportunity.data.length < 2) context.addIssue({ code: 'custom', path: ['data'], message: 'A chart needs at least two data points' });
-  opportunity.data.forEach((point, index) => {
-    if (point.values.length !== opportunity.series.length) {
-      context.addIssue({
-        code: 'custom',
-        path: ['data', index, 'values'],
-        message: 'Each data point must contain one value per series',
-      });
+const opportunitySchema = z
+  .object({
+    type: z.enum(["CHART", "TIMELINE"]).optional(),
+    title: z.string().trim().min(1),
+    subtitle: z.string().trim(),
+    rationale: z.string().trim().min(1).optional(),
+    reason: z.string().trim().min(1).optional(),
+    chartType: z.enum([
+      "bar",
+      "line",
+      "area",
+      "stacked_bar",
+      "dot_plot",
+      "donut",
+      "timeline",
+    ]),
+    confidence: z.number().min(0).max(1),
+    dataStatus: z.enum(["ready", "needs_review"]),
+    relatedElementIds: z.array(z.string().trim().min(1)).min(1),
+    suggestedPlacementAfter: z.string().trim().min(1),
+    xAxisLabel: z.string().trim(),
+    yAxisLabel: z.string().trim(),
+    unit: z.string().trim(),
+    series: z.array(seriesSchema).max(3),
+    data: z.array(dataPointSchema).max(16),
+    events: z.array(timelineEventSchema).max(24).optional(),
+    sourceNote: z.string().trim(),
+    caveats: z.array(z.string().trim().min(1)).max(5),
+    accessibilitySummary: z.string().trim().min(1),
+  })
+  .superRefine((opportunity, context) => {
+    if (opportunity.chartType === "timeline") {
+      return;
     }
+    if (opportunity.series.length < 1)
+      context.addIssue({
+        code: "custom",
+        path: ["series"],
+        message: "A chart needs at least one numeric series",
+      });
+    if (opportunity.data.length < 2)
+      context.addIssue({
+        code: "custom",
+        path: ["data"],
+        message: "A chart needs at least two data points",
+      });
+    opportunity.data.forEach((point, index) => {
+      if (point.values.length !== opportunity.series.length) {
+        context.addIssue({
+          code: "custom",
+          path: ["data", index, "values"],
+          message: "Each data point must contain one value per series",
+        });
+      }
+    });
   });
-});
 
 const modelAnalysisSchema = z.object({
   summary: z.string().trim().min(1),
@@ -66,116 +95,182 @@ const modelAnalysisSchema = z.object({
 });
 
 const responseJsonSchema = {
-  type: 'object',
+  type: "object",
   properties: {
-    summary: { type: 'string' },
+    summary: { type: "string" },
     opportunities: {
-      type: 'array',
+      type: "array",
       items: {
-        type: 'object',
+        type: "object",
         properties: {
-          type: { type: 'string', enum: ['CHART', 'TIMELINE'] },
-          title: { type: 'string' },
-          subtitle: { type: 'string' },
-          rationale: { type: 'string' },
-          reason: { type: 'string' },
-          chartType: { type: 'string', enum: ['bar', 'line', 'area', 'stacked_bar', 'dot_plot', 'donut', 'timeline'] },
-          confidence: { type: 'number' },
-          dataStatus: { type: 'string', enum: ['ready', 'needs_review'] },
-          relatedElementIds: { type: 'array', items: { type: 'string' } },
-          suggestedPlacementAfter: { type: 'string' },
-          xAxisLabel: { type: 'string' },
-          yAxisLabel: { type: 'string' },
-          unit: { type: 'string' },
+          type: { type: "string", enum: ["CHART", "TIMELINE"] },
+          title: { type: "string" },
+          subtitle: { type: "string" },
+          rationale: { type: "string" },
+          reason: { type: "string" },
+          chartType: {
+            type: "string",
+            enum: [
+              "bar",
+              "line",
+              "area",
+              "stacked_bar",
+              "dot_plot",
+              "donut",
+              "timeline",
+            ],
+          },
+          confidence: { type: "number" },
+          dataStatus: { type: "string", enum: ["ready", "needs_review"] },
+          relatedElementIds: { type: "array", items: { type: "string" } },
+          suggestedPlacementAfter: { type: "string" },
+          xAxisLabel: { type: "string" },
+          yAxisLabel: { type: "string" },
+          unit: { type: "string" },
           series: {
-            type: 'array',
+            type: "array",
             items: {
-              type: 'object',
-              properties: { key: { type: 'string' }, label: { type: 'string' } },
-              required: ['key', 'label'],
+              type: "object",
+              properties: {
+                key: { type: "string" },
+                label: { type: "string" },
+              },
+              required: ["key", "label"],
             },
           },
           data: {
-            type: 'array',
+            type: "array",
             items: {
-              type: 'object',
+              type: "object",
               properties: {
-                label: { type: 'string' },
-                values: { type: 'array', items: { type: 'number' } },
-                sourceElementIds: { type: 'array', items: { type: 'string' } },
+                label: { type: "string" },
+                values: { type: "array", items: { type: "number" } },
+                sourceElementIds: { type: "array", items: { type: "string" } },
               },
-              required: ['label', 'values', 'sourceElementIds'],
+              required: ["label", "values", "sourceElementIds"],
             },
           },
           events: {
-            type: 'array',
+            type: "array",
             items: {
-              type: 'object',
+              type: "object",
               properties: {
-                dateLabel: { type: 'string' }, title: { type: 'string' }, description: { type: 'string' },
-                sourceParagraphIds: { type: 'array', items: { type: 'string' } },
+                dateLabel: { type: "string" },
+                title: { type: "string" },
+                description: { type: "string" },
+                sourceParagraphIds: {
+                  type: "array",
+                  items: { type: "string" },
+                },
               },
-              required: ['dateLabel', 'title', 'description', 'sourceParagraphIds'],
+              required: [
+                "dateLabel",
+                "title",
+                "description",
+                "sourceParagraphIds",
+              ],
             },
           },
-          sourceNote: { type: 'string' },
-          caveats: { type: 'array', items: { type: 'string' } },
-          accessibilitySummary: { type: 'string' },
+          sourceNote: { type: "string" },
+          caveats: { type: "array", items: { type: "string" } },
+          accessibilitySummary: { type: "string" },
         },
         required: [
-          'title', 'subtitle', 'chartType', 'confidence', 'dataStatus',
-          'relatedElementIds', 'suggestedPlacementAfter', 'xAxisLabel', 'yAxisLabel',
-          'unit', 'series', 'data', 'events', 'sourceNote', 'caveats', 'accessibilitySummary',
+          "title",
+          "subtitle",
+          "chartType",
+          "confidence",
+          "dataStatus",
+          "relatedElementIds",
+          "suggestedPlacementAfter",
+          "xAxisLabel",
+          "yAxisLabel",
+          "unit",
+          "series",
+          "data",
+          "events",
+          "sourceNote",
+          "caveats",
+          "accessibilitySummary",
         ],
       },
     },
   },
-  required: ['summary', 'opportunities'],
+  required: ["summary", "opportunities"],
 };
 
 export class VisualizationAnalysisError extends Error {
-  constructor(message: string, public readonly code: 'AI_NOT_CONFIGURED' | 'AI_RESPONSE_INVALID' | 'AI_REQUEST_FAILED') {
+  constructor(
+    message: string,
+    public readonly code:
+      "AI_NOT_CONFIGURED" | "AI_RESPONSE_INVALID" | "AI_REQUEST_FAILED",
+  ) {
     super(message);
-    this.name = 'VisualizationAnalysisError';
+    this.name = "VisualizationAnalysisError";
   }
 }
 
 let client: GoogleGenAI | undefined;
 
 function getClient(): GoogleGenAI {
-  const project = process.env.GOOGLE_CLOUD_PROJECT || process.env.GCP_PROJECT_ID;
-  const location = process.env.GOOGLE_CLOUD_LOCATION || process.env.GCP_LOCATION || 'us-central1';
+  const project = env.googleCloudProject;
+  const location = env.googleCloudLocation;
   if (!project) {
-    throw new VisualizationAnalysisError('GOOGLE_CLOUD_PROJECT (or GCP_PROJECT_ID) is not configured', 'AI_NOT_CONFIGURED');
+    throw new VisualizationAnalysisError(
+      "GOOGLE_CLOUD_PROJECT (or GCP_PROJECT_ID) is not configured",
+      "AI_NOT_CONFIGURED",
+    );
   }
-  client ??= new GoogleGenAI({ vertexai: true, project, location, httpOptions: { apiVersion: 'v1' } });
+  client ??= new GoogleGenAI({
+    vertexai: true,
+    project,
+    location,
+    httpOptions: { apiVersion: "v1" },
+  });
   return client;
 }
 
-function articlePrompt(article: ArticleRecord, maxOpportunities: number, existingVisuals: ExistingVisualization[]): string {
+function articlePrompt(
+  article: ArticleRecord,
+  maxOpportunities: number,
+  existingVisuals: ExistingVisualization[],
+): string {
   const bodyElements = Array.isArray(article.body)
     ? article.body
-    : (typeof article.body === 'string' ? article.body : '')
+    : (typeof article.body === "string" ? article.body : "")
         .split(/\n\n+/)
         .filter(Boolean)
         .map((p: string, idx: number) => ({
           id: `p-${idx + 1}`,
-          type: 'paragraph' as const,
+          type: "paragraph" as const,
           text: p.trim(),
         }));
 
   const elements = bodyElements
-    .map((element: any) => {
-      if (element.text && /@import\s+url\(|ml-form-|g-recaptcha|mailerlite|<\/?style\b|<\/?script\b|document\.querySelector/i.test(element.text)) return '';
-      if (element.text?.trim()) return `[${element.id} | ${element.type}]\n${element.text.trim()}`;
-      if (element.type === 'q_tool_embed') return `[${element.id} | EXISTING VISUAL | ${element.externalId || 'unknown id'}]`;
+    .map((element: ArticleBodyElement) => {
+      if (
+        element.text &&
+        /@import\s+url\(|ml-form-|g-recaptcha|mailerlite|<\/?style\b|<\/?script\b|document\.querySelector/i.test(
+          element.text,
+        )
+      )
+        return "";
+      if (element.text?.trim())
+        return `[${element.id} | ${element.type}]\n${element.text.trim()}`;
+      if (element.type === "q_tool_embed")
+        return `[${element.id} | EXISTING VISUAL | ${element.externalId || "unknown id"}]`;
       return `[${element.id} | ${element.type}]`;
     })
-    .join('\n\n');
+    .join("\n\n");
 
   const existing = existingVisuals.length
-    ? existingVisuals.map((visual) => `- ${visual.elementId}: ${visual.tool}; title="${visual.title}"; subtitle="${visual.subtitle}"`).join('\n')
-    : '- None';
+    ? existingVisuals
+        .map(
+          (visual) =>
+            `- ${visual.elementId}: ${visual.tool}; title="${visual.title}"; subtitle="${visual.subtitle}"`,
+        )
+        .join("\n")
+    : "- None";
 
   return `You are an editorial data-visualization analyst. Analyze the supplied article and identify up to ${maxOpportunities} strong, non-duplicative opportunities for a reader-facing chart.
 
@@ -201,9 +296,9 @@ Hard rules:
 
 ARTICLE METADATA
 Headline: ${article.headline}
-Lead: ${article.lead || ''}
-Language: ${article.language || 'unknown'}
-Section: ${article.section || 'unknown'}
+Lead: ${article.lead || ""}
+Language: ${article.language || "unknown"}
+Section: ${article.section || "unknown"}
 
 EXISTING VISUALS — preserve these and do not recommend the same metric, comparison, or narrative again
 ${existing}
@@ -212,64 +307,116 @@ ARTICLE ELEMENTS
 ${elements}`;
 }
 
-export function parseVisualizationAnalysis(raw: string, article: ArticleRecord, model: string): VisualizationAnalysis {
+export function parseVisualizationAnalysis(
+  raw: string,
+  article: ArticleRecord,
+  model: string,
+): VisualizationAnalysis {
   let json: unknown;
   try {
     json = JSON.parse(raw);
   } catch {
-    throw new VisualizationAnalysisError('Gemini returned malformed JSON', 'AI_RESPONSE_INVALID');
+    throw new VisualizationAnalysisError(
+      "Gemini returned malformed JSON",
+      "AI_RESPONSE_INVALID",
+    );
   }
 
   const parsed = modelAnalysisSchema.safeParse(json);
   if (!parsed.success) {
-    throw new VisualizationAnalysisError(`Gemini response failed validation: ${z.prettifyError(parsed.error)}`, 'AI_RESPONSE_INVALID');
+    throw new VisualizationAnalysisError(
+      `Gemini response failed validation: ${z.prettifyError(parsed.error)}`,
+      "AI_RESPONSE_INVALID",
+    );
   }
 
   const bodyElements = Array.isArray(article.body)
     ? article.body
-    : (typeof article.body === 'string' ? article.body : '')
+    : (typeof article.body === "string" ? article.body : "")
         .split(/\n\n+/)
         .filter(Boolean)
-        .map((p, idx) => ({ id: `p-${idx + 1}`, type: 'paragraph' as const, text: p.trim() }));
+        .map((p, idx) => ({
+          id: `p-${idx + 1}`,
+          type: "paragraph" as const,
+          text: p.trim(),
+        }));
   const validElementIds = new Set(bodyElements.map((element) => element.id));
-  const opportunities: VisualizationOpportunity[] = parsed.data.opportunities.filter((opportunity) => opportunity.chartType !== 'timeline' || (opportunity.events && opportunity.events.length >= 2)).map((opportunity, index) => {
-    const referencedIds = new Set([
-      ...opportunity.relatedElementIds,
-      opportunity.suggestedPlacementAfter,
-      ...opportunity.data.flatMap((point) => point.sourceElementIds),
-      ...(opportunity.events || []).flatMap((event) => event.sourceParagraphIds),
-    ]);
-    const unknownIds = [...referencedIds].filter((id) => !validElementIds.has(id));
-    if (unknownIds.length) {
-      throw new VisualizationAnalysisError(`Gemini referenced unknown article elements: ${unknownIds.join(', ')}`, 'AI_RESPONSE_INVALID');
-    }
-    const rationale = opportunity.rationale || opportunity.reason || 'Editorial visualization opportunity.';
-    return { ...opportunity, rationale, type: opportunity.type || (opportunity.chartType === 'timeline' ? 'TIMELINE' : 'CHART'), id: `visual-${index + 1}` };
-  });
+  const opportunities: VisualizationOpportunity[] = parsed.data.opportunities
+    .filter(
+      (opportunity) =>
+        opportunity.chartType !== "timeline" ||
+        (opportunity.events && opportunity.events.length >= 2),
+    )
+    .map((opportunity, index) => {
+      const referencedIds = new Set([
+        ...opportunity.relatedElementIds,
+        opportunity.suggestedPlacementAfter,
+        ...opportunity.data.flatMap((point) => point.sourceElementIds),
+        ...(opportunity.events || []).flatMap(
+          (event) => event.sourceParagraphIds,
+        ),
+      ]);
+      const unknownIds = [...referencedIds].filter(
+        (id) => !validElementIds.has(id),
+      );
+      if (unknownIds.length) {
+        throw new VisualizationAnalysisError(
+          `Gemini referenced unknown article elements: ${unknownIds.join(", ")}`,
+          "AI_RESPONSE_INVALID",
+        );
+      }
+      const rationale =
+        opportunity.rationale ||
+        opportunity.reason ||
+        "Editorial visualization opportunity.";
+      return {
+        ...opportunity,
+        rationale,
+        type:
+          opportunity.type ||
+          (opportunity.chartType === "timeline" ? "TIMELINE" : "CHART"),
+        id: `visual-${index + 1}`,
+      };
+    });
 
-  return { model, analyzedAt: new Date().toISOString(), summary: parsed.data.summary, opportunities };
+  return {
+    model,
+    analyzedAt: new Date().toISOString(),
+    summary: parsed.data.summary,
+    opportunities,
+  };
 }
 
-export async function analyzeArticleVisualizations(article: ArticleRecord, maxOpportunities = 4): Promise<VisualizationAnalysis> {
-  const model = process.env.GEMINI_MODEL || 'gemini-2.5-pro';
+export async function analyzeArticleVisualizations(
+  article: ArticleRecord,
+  maxOpportunities = 4,
+): Promise<VisualizationAnalysis> {
+  const model = env.geminiModel;
   try {
     const existingVisuals = await loadExistingVisualizations(article);
     const response = await getClient().models.generateContent({
       model,
       contents: articlePrompt(article, maxOpportunities, existingVisuals),
       config: {
-        responseMimeType: 'application/json',
+        responseMimeType: "application/json",
         responseJsonSchema,
         thinkingConfig: { thinkingBudget: 2048 },
       },
     });
     if (!response.text) {
-      throw new VisualizationAnalysisError('Gemini returned an empty response', 'AI_RESPONSE_INVALID');
+      throw new VisualizationAnalysisError(
+        "Gemini returned an empty response",
+        "AI_RESPONSE_INVALID",
+      );
     }
     return parseVisualizationAnalysis(response.text, article, model);
   } catch (error) {
     if (error instanceof VisualizationAnalysisError) throw error;
-    const message = error instanceof Error ? error.message : 'Unknown Gemini error';
-    throw new VisualizationAnalysisError(`Gemini analysis failed: ${message}`, 'AI_REQUEST_FAILED');
+    const message =
+      error instanceof Error ? error.message : "Unknown Gemini error";
+    throw new VisualizationAnalysisError(
+      `Gemini analysis failed: ${message}`,
+      "AI_REQUEST_FAILED",
+    );
   }
 }

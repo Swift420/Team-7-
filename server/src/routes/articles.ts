@@ -1,154 +1,195 @@
-import { Router } from 'express';
-import multer from 'multer';
-import { deleteArticle, getArticle, listArticles, publishArticle } from '../repositories/articleRepository.js';
-import { ArticleValidationError } from '../services/articleParser.js';
-import { importArticleContent } from '../services/articleService.js';
-import { analyzeArticleVisualizations } from '../services/visualizationService.js';
-import { loadExistingVisualizations } from '../services/existingVisualService.js';
-import { listArticleVisualizations, listVisualizationApprovals, replaceArticleVisualizations } from '../repositories/visualizationRepository.js';
-import { parseVisualizationAnalysis } from '../services/visualizationService.js';
-import { hasValidEditorToken, requireEditor } from '../auth.js';
+import { Router } from "express";
+import multer from "multer";
+import {
+  deleteArticle,
+  getArticle,
+  listArticles,
+  publishArticle,
+} from "../repositories/articleRepository.js";
+import { ArticleValidationError } from "../services/articleParser.js";
+import { importArticleContent } from "../services/articleService.js";
+import { analyzeArticleVisualizations } from "../services/visualizationService.js";
+import { loadExistingVisualizations } from "../services/existingVisualService.js";
+import {
+  listArticleVisualizations,
+  listVisualizationApprovals,
+  replaceArticleVisualizations,
+} from "../repositories/visualizationRepository.js";
+import { parseVisualizationAnalysis } from "../services/visualizationService.js";
+import { hasValidEditorToken, requireEditor } from "../auth.js";
+import { asyncHandler, sendError, sendSuccess } from "../http.js";
 
 const router = Router();
-const upload = multer({ storage: multer.memoryStorage(), limits: { fileSize: 5 * 1024 * 1024, files: 1 } });
+const upload = multer({
+  storage: multer.memoryStorage(),
+  limits: { fileSize: 5 * 1024 * 1024, files: 1 },
+});
+
+// IDs are accepted from imported datasets, but constrained before entering SQL or filesystem paths.
 // Relaxed pattern to support both UUIDs and slug-based IDs safely
 const articleIdPattern = /^[\w.:-]{1,200}$/;
 
-function escapeHtml(str: string): string {
-  return String(str)
-    .replace(/&/g, '&amp;')
-    .replace(/</g, '&lt;')
-    .replace(/>/g, '&gt;')
-    .replace(/"/g, '&quot;')
-    .replace(/'/g, '&#039;');
+function validateArticleId(
+  id: string,
+  res: Parameters<typeof sendError>[0],
+): boolean {
+  if (articleIdPattern.test(id)) return true;
+  sendError(res, 400, "INVALID_ARTICLE_ID", "Article ID is invalid");
+  return false;
 }
 
-router.get('/', async (_req, res, next) => {
-  try {
-    res.json({ success: true, data: await listArticles(hasValidEditorToken(_req)) });
-  } catch (error) { next(error); }
-});
+function escapeHtml(str: string): string {
+  return String(str)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#039;");
+}
 
-router.get('/:id', async (req, res, next) => {
-  try {
-    if (!articleIdPattern.test(String(req.params.id))) {
-      res.status(400).json({ success: false, error: { code: 'INVALID_ARTICLE_ID', message: 'Article ID is invalid' } });
+router.get(
+  "/",
+  asyncHandler(async (req, res) => {
+    sendSuccess(res, await listArticles(hasValidEditorToken(req)));
+  }),
+);
+
+router.get(
+  "/:id",
+  asyncHandler(async (req, res) => {
+    const id = String(req.params.id);
+    if (!validateArticleId(id, res)) return;
+    const article = await getArticle(id);
+    if (
+      !article ||
+      (article.publicationStatus === "draft" && !hasValidEditorToken(req))
+    ) {
+      sendError(res, 404, "ARTICLE_NOT_FOUND", "Article not found");
       return;
     }
-    const article = await getArticle(String(req.params.id));
+    sendSuccess(res, article);
+  }),
+);
+
+router.post(
+  "/import",
+  requireEditor,
+  upload.single("file"),
+  asyncHandler(async (req, res) => {
+    if (!req.file)
+      throw new ArticleValidationError("No article file supplied", [
+        "Select a .json or .md file",
+      ]);
+    const outcome = await importArticleContent(
+      req.file.originalname,
+      req.file.buffer,
+      req.query.draft === "true" ? "draft" : "published",
+    );
+    sendSuccess(res, outcome, outcome.status === "imported" ? 201 : 200);
+  }),
+);
+
+router.post(
+  "/:id/visualizations/analyze",
+  requireEditor,
+  asyncHandler(async (req, res) => {
+    const id = String(req.params.id);
+    if (!validateArticleId(id, res)) return;
+    const article = await getArticle(id);
     if (!article) {
-      res.status(404).json({ success: false, error: { code: 'ARTICLE_NOT_FOUND', message: 'Article not found' } });
-      return;
-    }
-    if (article.publicationStatus === 'draft' && !hasValidEditorToken(req)) {
-      res.status(404).json({ success: false, error: { code: 'ARTICLE_NOT_FOUND', message: 'Article not found' } });
-      return;
-    }
-    res.json({ success: true, data: article });
-  } catch (error) { next(error); }
-});
-
-router.post('/import', requireEditor, upload.single('file'), async (req, res, next) => {
-  try {
-    if (!req.file) throw new ArticleValidationError('No article file supplied', ['Select a .json or .md file']);
-    const outcome = await importArticleContent(req.file.originalname, req.file.buffer, req.query.draft === 'true' ? 'draft' : 'published');
-    res.status(outcome.status === 'imported' ? 201 : 200).json({ success: true, data: outcome });
-  } catch (error) { next(error); }
-});
-
-router.post('/:id/visualizations/analyze', requireEditor, async (req, res, next) => {
-  try {
-    if (!articleIdPattern.test(String(req.params.id))) {
-      res.status(400).json({ success: false, error: { code: 'INVALID_ARTICLE_ID', message: 'Article ID is invalid' } });
-      return;
-    }
-    const article = await getArticle(String(req.params.id));
-    if (!article) {
-      res.status(404).json({ success: false, error: { code: 'ARTICLE_NOT_FOUND', message: 'Article not found' } });
+      sendError(res, 404, "ARTICLE_NOT_FOUND", "Article not found");
       return;
     }
     const requestedMaximum = Number(req.body?.maxOpportunities ?? 4);
     const maxOpportunities = Number.isInteger(requestedMaximum)
       ? Math.min(6, Math.max(1, requestedMaximum))
       : 4;
-    res.json({ success: true, data: await analyzeArticleVisualizations(article, maxOpportunities) });
-  } catch (error) { next(error); }
-});
+    sendSuccess(
+      res,
+      await analyzeArticleVisualizations(article, maxOpportunities),
+    );
+  }),
+);
 
-router.post('/:id/publish', requireEditor, async (req, res, next) => {
-  try {
-    if (!articleIdPattern.test(String(req.params.id))) {
-      res.status(400).json({ success: false, error: { code: 'INVALID_ARTICLE_ID', message: 'Article ID is invalid' } });
-      return;
-    }
-    const article = await publishArticle(String(req.params.id));
+router.post(
+  "/:id/publish",
+  requireEditor,
+  asyncHandler(async (req, res) => {
+    const id = String(req.params.id);
+    if (!validateArticleId(id, res)) return;
+    const article = await publishArticle(id);
     if (!article) {
-      res.status(404).json({ success: false, error: { code: 'ARTICLE_NOT_FOUND', message: 'Article not found' } });
+      sendError(res, 404, "ARTICLE_NOT_FOUND", "Article not found");
       return;
     }
-    res.json({ success: true, data: article });
-  } catch (error) { next(error); }
-});
+    sendSuccess(res, article);
+  }),
+);
 
-router.get('/:id/existing-visualizations', async (req, res, next) => {
+router.get(
+  "/:id/existing-visualizations",
+  asyncHandler(async (req, res) => {
+    const id = String(req.params.id);
+    if (!validateArticleId(id, res)) return;
+    const article = await getArticle(id);
+    if (!article) {
+      sendError(res, 404, "ARTICLE_NOT_FOUND", "Article not found");
+      return;
+    }
+    sendSuccess(res, await loadExistingVisualizations(article));
+  }),
+);
+
+router.get(
+  "/:id/visualizations",
+  asyncHandler(async (req, res) => {
+    const id = String(req.params.id);
+    if (!validateArticleId(id, res)) return;
+    if (!(await getArticle(id))) {
+      sendError(res, 404, "ARTICLE_NOT_FOUND", "Article not found");
+      return;
+    }
+    sendSuccess(res, await listArticleVisualizations(id));
+  }),
+);
+
+router.get(
+  "/:id/visualizations/history",
+  asyncHandler(async (req, res) => {
+    const id = String(req.params.id);
+    if (!validateArticleId(id, res)) return;
+    if (!(await getArticle(id))) {
+      sendError(res, 404, "ARTICLE_NOT_FOUND", "Article not found");
+      return;
+    }
+    sendSuccess(res, await listVisualizationApprovals(id));
+  }),
+);
+
+router.get("/:id/visualizations/embed", async (req, res, next) => {
   try {
     if (!articleIdPattern.test(String(req.params.id))) {
-      res.status(400).json({ success: false, error: { code: 'INVALID_ARTICLE_ID', message: 'Article ID is invalid' } });
+      res
+        .status(400)
+        .type("html")
+        .send("<!doctype html><p>Invalid article ID</p>");
       return;
     }
     const article = await getArticle(String(req.params.id));
     if (!article) {
-      res.status(404).json({ success: false, error: { code: 'ARTICLE_NOT_FOUND', message: 'Article not found' } });
-      return;
-    }
-    res.json({ success: true, data: await loadExistingVisualizations(article) });
-  } catch (error) { next(error); }
-});
-
-router.get('/:id/visualizations', async (req, res, next) => {
-  try {
-    if (!articleIdPattern.test(String(req.params.id))) {
-      res.status(400).json({ success: false, error: { code: 'INVALID_ARTICLE_ID', message: 'Article ID is invalid' } });
-      return;
-    }
-    if (!(await getArticle(String(req.params.id)))) {
-      res.status(404).json({ success: false, error: { code: 'ARTICLE_NOT_FOUND', message: 'Article not found' } });
-      return;
-    }
-    res.json({ success: true, data: await listArticleVisualizations(String(req.params.id)) });
-  } catch (error) { next(error); }
-});
-
-router.get('/:id/visualizations/history', async (req, res, next) => {
-  try {
-    if (!articleIdPattern.test(String(req.params.id))) {
-      res.status(400).json({ success: false, error: { code: 'INVALID_ARTICLE_ID', message: 'Article ID is invalid' } });
-      return;
-    }
-    if (!(await getArticle(String(req.params.id)))) {
-      res.status(404).json({ success: false, error: { code: 'ARTICLE_NOT_FOUND', message: 'Article not found' } });
-      return;
-    }
-    res.json({ success: true, data: await listVisualizationApprovals(String(req.params.id)) });
-  } catch (error) { next(error); }
-});
-
-router.get('/:id/visualizations/embed', async (req, res, next) => {
-  try {
-    if (!articleIdPattern.test(String(req.params.id))) {
-      res.status(400).type('html').send('<!doctype html><p>Invalid article ID</p>');
-      return;
-    }
-    const article = await getArticle(String(req.params.id));
-    if (!article) {
-      res.status(404).type('html').send('<!doctype html><p>Article not found</p>');
+      res
+        .status(404)
+        .type("html")
+        .send("<!doctype html><p>Article not found</p>");
       return;
     }
     const visuals = await listArticleVisualizations(article.id);
-    const escapedData = JSON.stringify(visuals.map((visual) => visual.specification)).replace(/</g, '\\u003c');
+    const escapedData = JSON.stringify(
+      visuals.map((visual) => visual.specification),
+    ).replace(/</g, "\\u003c");
     const safeHeadline = escapeHtml(article.headline);
 
-    res.type('html').send(`<!doctype html>
+    res.type("html").send(`<!doctype html>
 <meta charset="utf-8">
 <title>${safeHeadline} · Visual Velocity</title>
 <style>
@@ -205,42 +246,49 @@ router.get('/:id/visualizations/embed', async (req, res, next) => {
     root.appendChild(f);
   });
 </script>`);
-  } catch (error) { next(error); }
+  } catch (error) {
+    next(error);
+  }
 });
 
-router.put('/:id/visualizations', requireEditor, async (req, res, next) => {
-  try {
-    if (!articleIdPattern.test(String(req.params.id))) {
-      res.status(400).json({ success: false, error: { code: 'INVALID_ARTICLE_ID', message: 'Article ID is invalid' } });
-      return;
-    }
-    const article = await getArticle(String(req.params.id));
+router.put(
+  "/:id/visualizations",
+  requireEditor,
+  asyncHandler(async (req, res) => {
+    const id = String(req.params.id);
+    if (!validateArticleId(id, res)) return;
+    const article = await getArticle(id);
     if (!article) {
-      res.status(404).json({ success: false, error: { code: 'ARTICLE_NOT_FOUND', message: 'Article not found' } });
+      sendError(res, 404, "ARTICLE_NOT_FOUND", "Article not found");
       return;
     }
-    const visualizations = Array.isArray(req.body?.visualizations) ? req.body.visualizations : [];
+    const visualizations = Array.isArray(req.body?.visualizations)
+      ? req.body.visualizations
+      : [];
     const validated = parseVisualizationAnalysis(
-      JSON.stringify({ summary: 'Editor-approved visualizations', opportunities: visualizations }),
+      JSON.stringify({
+        summary: "Editor-approved visualizations",
+        opportunities: visualizations,
+      }),
       article,
-      'editor',
+      "editor",
     ).opportunities;
-    res.json({ success: true, data: await replaceArticleVisualizations(article.id, validated) });
-  } catch (error) { next(error); }
-});
+    sendSuccess(res, await replaceArticleVisualizations(article.id, validated));
+  }),
+);
 
-router.delete('/:id', requireEditor, async (req, res, next) => {
-  try {
-    if (!articleIdPattern.test(String(req.params.id))) {
-      res.status(400).json({ success: false, error: { code: 'INVALID_ARTICLE_ID', message: 'Article ID is invalid' } });
-      return;
-    }
-    if (!(await deleteArticle(String(req.params.id)))) {
-      res.status(404).json({ success: false, error: { code: 'ARTICLE_NOT_FOUND', message: 'Article not found' } });
+router.delete(
+  "/:id",
+  requireEditor,
+  asyncHandler(async (req, res) => {
+    const id = String(req.params.id);
+    if (!validateArticleId(id, res)) return;
+    if (!(await deleteArticle(id))) {
+      sendError(res, 404, "ARTICLE_NOT_FOUND", "Article not found");
       return;
     }
     res.status(204).send();
-  } catch (error) { next(error); }
-});
+  }),
+);
 
 export { router as articleRouter };

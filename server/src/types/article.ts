@@ -1,13 +1,8 @@
-export type SourceFormat = 'NZZ_JSON' | 'MARKDOWN';
-export type PublicationStatus = 'draft' | 'published';
+export type SourceFormat = "NZZ_JSON" | "MARKDOWN";
+export type PublicationStatus = "draft" | "published";
 
 export type ArticleElementType =
-  | 'paragraph'
-  | 'heading'
-  | 'image'
-  | 'q_tool_embed'
-  | 'embed'
-  | 'other';
+  "paragraph" | "heading" | "image" | "q_tool_embed" | "embed" | "other";
 
 export interface ArticleBodyElement {
   id: string;
@@ -50,8 +45,8 @@ export interface ArticleRecord extends NormalizedArticle {
   publicationStatus?: PublicationStatus;
 }
 
-export type ArticleSummary = Omit<ArticleRecord, 'body' | 'rawContent'>;
+export type ArticleSummary = Omit<ArticleRecord, "body" | "rawContent">;
 
 export type ImportOutcome =
-  | { status: 'imported'; article: ArticleRecord }
-  | { status: 'skipped'; article: ArticleRecord; reason: string };
+  | { status: "imported"; article: ArticleRecord }
+  | { status: "skipped"; article: ArticleRecord; reason: string };

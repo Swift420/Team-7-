@@ -1,5 +1,13 @@
-export type VisualizationChartType = 'bar' | 'line' | 'area' | 'stacked_bar' | 'dot_plot' | 'donut' | 'timeline' | 'map';
-export type VisualizationDataStatus = 'ready' | 'needs_review';
+export type VisualizationChartType =
+  | "bar"
+  | "line"
+  | "area"
+  | "stacked_bar"
+  | "dot_plot"
+  | "donut"
+  | "timeline"
+  | "map";
+export type VisualizationDataStatus = "ready" | "needs_review";
 
 export interface VisualizationSeries {
   key: string;
@@ -21,7 +29,7 @@ export interface TimelineEvent {
 
 export interface VisualizationOpportunity {
   id: string;
-  type?: 'CHART' | 'TIMELINE';
+  type?: "CHART" | "TIMELINE";
   title: string;
   subtitle: string;
   rationale: string;
@@ -52,7 +60,7 @@ export interface VisualizationAnalysis {
 export interface SavedVisualization {
   id: string;
   articleId: string;
-  status: 'approved';
+  status: "approved";
   placementAfterElementId: string;
   specification: VisualizationOpportunity;
   createdAt: Date;
@@ -63,7 +71,7 @@ export interface VisualizationApproval {
   id: string;
   articleId: string;
   actor: string;
-  action: 'saved' | 'cleared';
+  action: "saved" | "cleared";
   visualizations: VisualizationOpportunity[];
   createdAt: Date;
 }

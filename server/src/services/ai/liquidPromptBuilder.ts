@@ -8,20 +8,21 @@ export interface ArticleInput {
   language?: string;
 }
 
+/** Keeps editorial instructions in one place so every generated derivative shares the same constraints. */
 export function buildLiquidPrompt(article: ArticleInput): string {
-  const lang = article.language === 'de' ? 'de' : 'en';
-  const isGerman = lang === 'de';
+  const lang = article.language === "de" ? "de" : "en";
+  const isGerman = lang === "de";
 
   const languageDirective = isGerman
     ? `GENERATE ALL CONTENT IN GERMAN (High Swiss German / Schweizer Hochdeutsch) adhering to NZZ editorial conventions.`
     : `MANDATORY TRANSLATION & ENGLISH ENFORCEMENT: The input article may be in German. Because LANGUAGE=en is requested, you MUST translate and synthesize ALL headlines, subheads, body paragraphs, bullet points, scripts, slide text, and FAQ answers into refined, natural International English. Zero German words allowed unless they are untranslatable proper nouns (like "Bundestag" or "Falkenstrasse").`;
 
   const outroExample = isGerman
-    ? `Für die Neue Zürcher Zeitung, ${article.author || 'die Redaktion'}.`
-    : `For the Neue Zürcher Zeitung, ${article.author || 'the Editorial Board'}.`;
+    ? `Für die Neue Zürcher Zeitung, ${article.author || "die Redaktion"}.`
+    : `For the Neue Zürcher Zeitung, ${article.author || "the Editorial Board"}.`;
 
-  const voiceLangCode = isGerman ? 'de-DE' : 'en-US';
-  const voiceName = isGerman ? 'de-DE-Studio-B' : 'en-US-Journey-F';
+  const voiceLangCode = isGerman ? "de-DE" : "en-US";
+  const voiceName = isGerman ? "de-DE-Studio-B" : "en-US-Journey-F";
 
   return `You are the lead editor, narrative director, and multimodal transformation engine of Neue Zürcher Zeitung (NZZ).
 Your mission is to analyze the input article and transform it into high-impact liquid editorial derivatives while maintaining the strict NZZ Voice Invariant:
@@ -121,8 +122,8 @@ DO NOT output circular zoom callout badges. NZZ strictly adheres to clean typogr
 ID: ${article.id}
 HEADLINE: ${article.headline}
 LEAD: ${article.lead}
-BYLINE: ${article.author || 'NZZ Editorial'}
-SECTION: ${article.section || 'Wirtschaft'}
+BYLINE: ${article.author || "NZZ Editorial"}
+SECTION: ${article.section || "Wirtschaft"}
 LANGUAGE: ${lang}
 
 BODY TEXT:
@@ -151,7 +152,7 @@ You must output a single valid JSON object strictly matching this schema:
     "voiceProfile": {
       "languageCode": "${voiceLangCode}",
       "voiceName": "${voiceName}",
-      "gender": "${isGerman ? 'MALE' : 'FEMALE'}"
+      "gender": "${isGerman ? "MALE" : "FEMALE"}"
     },
     "approved": false
   },
