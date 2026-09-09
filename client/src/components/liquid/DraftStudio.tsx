@@ -62,6 +62,7 @@ The fiscal trade-off is severe: national treasuries must reconcile colossal defe
   },
 ];
 
+/** Generates derivatives directly from an unsaved draft; persistence belongs to the article workflow. */
 export const DraftStudio: React.FC<DraftStudioProps> = ({
   language: initialLanguage,
 }) => {

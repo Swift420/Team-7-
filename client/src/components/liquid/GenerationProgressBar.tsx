@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useCallback, useEffect, useRef, useState } from 'react';
 import { Sparkles, CheckCircle2 } from 'lucide-react';
 
 interface GenerationProgressBarProps {
@@ -20,20 +20,28 @@ export const GenerationProgressBar: React.FC<GenerationProgressBarProps> = ({
   formatName = 'Instagram Carousel',
 }) => {
   const [progress, setProgress] = useState(0);
+  const progressRef = useRef(0);
+  const updateProgress = useCallback((next: number | ((current: number) => number)) => {
+    setProgress((current) => {
+      const resolved = typeof next === 'function' ? next(current) : next;
+      progressRef.current = resolved;
+      return resolved;
+    });
+  }, []);
 
   useEffect(() => {
     if (!isLoading) {
-      if (progress > 0) {
-        setProgress(100);
+      if (progressRef.current > 0) {
+        updateProgress(100);
         const timer = setTimeout(() => setProgress(0), 1200);
         return () => clearTimeout(timer);
       }
       return;
     }
 
-    setProgress(5);
+    updateProgress(5);
     const interval = setInterval(() => {
-      setProgress((prev) => {
+      updateProgress((prev) => {
         if (prev >= 95) return 95;
         // Asymptotic progression so it never gets stuck or finishes prematurely
         const step = Math.max(1, Math.floor((95 - prev) / 6));
@@ -42,7 +50,7 @@ export const GenerationProgressBar: React.FC<GenerationProgressBarProps> = ({
     }, 280);
 
     return () => clearInterval(interval);
-  }, [isLoading]);
+  }, [isLoading, updateProgress]);
 
   if (!isLoading && progress === 0) return null;
 
@@ -88,4 +96,3 @@ export const GenerationProgressBar: React.FC<GenerationProgressBarProps> = ({
     </div>
   );
 };
-

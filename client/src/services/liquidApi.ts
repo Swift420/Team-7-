@@ -6,6 +6,7 @@ import type {
 
 const BASE_URL = "/api/liquid";
 
+// Liquid endpoints generate expensive derivatives, so this client prefers server/cache results before generation.
 export async function fetchConfigStatus(): Promise<{
   configured: boolean;
   type: "adc" | "api-key" | "none";

@@ -1,8 +1,8 @@
 import React, { useState, useMemo } from 'react';
 import { Calendar, ChevronLeft, ChevronRight, FileJson, FileText, Layers, Image as ImageIcon, Trash2, ArrowRight } from 'lucide-react';
 import { Article } from '../types';
-import { useAuth } from '../context/AuthContext';
-import { useArticles } from '../context/ArticleContext';
+import { useAuth } from '../hooks/useAuth';
+import { useArticles } from '../hooks/useArticles';
 import { normalizeSection } from '../utils/sectionTranslation';
 
 interface ArticleCardProps {

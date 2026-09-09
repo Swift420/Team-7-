@@ -1,11 +1,12 @@
 import React, { Suspense, useState } from 'react';
 import { FileText, Globe2, Plus, RefreshCw } from 'lucide-react';
-import { useArticles } from '../context/ArticleContext';
-import { useAuth } from '../context/AuthContext';
+import { useArticles } from '../hooks/useArticles';
+import { useAuth } from '../hooks/useAuth';
 import { ArticleCard } from './ArticleCard';
 import { normalizeSection, sectionsMatch } from '../utils/sectionTranslation';
 const StoryGlobeExplorer = React.lazy(() => import('./StoryGlobeExplorer').then((module) => ({ default: module.StoryGlobeExplorer })));
 
+// Keep the WebGL globe out of the initial bundle; load it only after the user opens it.
 export const ArticleFeed: React.FC = () => {
   const { articles, loading, error, selectedCategory, searchQuery, openArticle, openCreateArticle, refreshArticles } = useArticles();
   const { isEditor } = useAuth();

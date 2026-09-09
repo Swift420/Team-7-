@@ -27,6 +27,7 @@ interface CarouselPreviewProps {
   onUpdateCaption?: (caption: string) => void;
 }
 
+/** Presents editable slides and owns only export/image-generation actions for the carousel. */
 export const CarouselPreview: React.FC<CarouselPreviewProps> = ({
   carousel,
   language = 'en',

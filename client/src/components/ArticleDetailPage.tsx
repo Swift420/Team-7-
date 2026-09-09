@@ -1,8 +1,8 @@
 import React, { useState, useMemo } from 'react';
 import { ArrowLeft, Calendar, ExternalLink, Send, Sparkles, Trash2 } from 'lucide-react';
 import { Article } from '../types';
-import { useArticles } from '../context/ArticleContext';
-import { useAuth } from '../context/AuthContext';
+import { useArticles } from '../hooks/useArticles';
+import { useAuth } from '../hooks/useAuth';
 import { ArticleContent } from './ArticleContent';
 import { AudioBriefPlayer } from './reader/AudioBriefPlayer';
 import { ExecutiveBriefCard } from './reader/ExecutiveBriefCard';

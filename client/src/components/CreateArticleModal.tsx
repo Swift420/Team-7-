@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { AlertCircle, BarChart3, CheckCircle2, FilePenLine, FileUp, LoaderCircle, ShieldCheck, X } from 'lucide-react';
-import { useArticles } from '../context/ArticleContext';
+import { useArticles } from '../hooks/useArticles';
 import { lintText } from '../services/liquidApi';
 
 interface CreateArticleModalProps {

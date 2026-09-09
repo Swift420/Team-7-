@@ -1,6 +1,6 @@
 import React from 'react';
 import { ShieldAlert, Lock, Sparkles, ArrowRight } from 'lucide-react';
-import { useArticles } from '../context/ArticleContext';
+import { useArticles } from '../hooks/useArticles';
 
 interface AccessControlNoticeProps {
   title?: string;

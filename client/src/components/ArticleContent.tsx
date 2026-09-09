@@ -6,6 +6,7 @@ import { ArticleVisualizer } from './ArticleVisualizer';
 import { VisualizationChart } from './VisualizationChart';
 import { summarizeVisualization } from './visualSummary';
 
+// Existing embeds are authored content; generated visuals are additive and never replace them.
 const MapVisualization: React.FC<{ title: string; rows: Array<{ label: string; value: string }> }> = ({ title, rows }) => {
   const categories = [...new Set(rows.map((row) => row.value))];
   return <div className="native-map" aria-label={`${title} geographic distribution`}>

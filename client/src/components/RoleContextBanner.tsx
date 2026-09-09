@@ -1,7 +1,7 @@
 import React from 'react';
 import { Shield, UserCheck, Sparkles, Plus, Users } from 'lucide-react';
-import { useAuth } from '../context/AuthContext';
-import { useArticles } from '../context/ArticleContext';
+import { useAuth } from '../hooks/useAuth';
+import { useArticles } from '../hooks/useArticles';
 
 export const RoleContextBanner: React.FC = () => {
   const { currentUser, isEditor, switchRole } = useAuth();

@@ -1,8 +1,8 @@
 import React from 'react';
 import { ArrowLeft, Calendar, ExternalLink, Trash2, X } from 'lucide-react';
 import { Article } from '../types';
-import { useArticles } from '../context/ArticleContext';
-import { useAuth } from '../context/AuthContext';
+import { useArticles } from '../hooks/useArticles';
+import { useAuth } from '../hooks/useAuth';
 import { ArticleContent } from './ArticleContent';
 
 interface ArticleDetailModalProps { article: Article | null; onClose: () => void }

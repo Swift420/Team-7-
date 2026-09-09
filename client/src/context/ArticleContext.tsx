@@ -1,32 +1,9 @@
-import React, { createContext, useCallback, useContext, useEffect, useState } from 'react';
-import { Article, ImportOutcome } from '../types';
+import React, { useCallback, useEffect, useMemo, useState } from 'react';
+import type { Article } from '../types';
+import { ArticleContext } from './ArticleContextValue';
 import { fetchArticle, fetchArticles, importArticle as uploadArticle, publishArticle as publishArticleRequest, removeArticle } from '../services/api';
 
-interface ArticleContextType {
-  articles: Article[];
-  loading: boolean;
-  error: string | null;
-  selectedCategory: string;
-  setSelectedCategory: (category: string) => void;
-  searchQuery: string;
-  setSearchQuery: (query: string) => void;
-  selectedArticle: Article | null;
-  openArticle: (id: string) => Promise<void>;
-  closeArticle: () => void;
-  isCreateModalOpen: boolean;
-  setIsCreateModalOpen: (open: boolean) => void;
-  createArticleMode: 'import' | 'create';
-  openCreateArticle: (mode: 'import' | 'create') => void;
-  isAuthModalOpen: boolean;
-  setIsAuthModalOpen: (open: boolean) => void;
-  importArticle: (file: File, draft?: boolean) => Promise<ImportOutcome>;
-  deleteArticle: (id: string) => Promise<void>;
-  publishArticle: (id: string) => Promise<void>;
-  refreshArticles: () => Promise<void>;
-}
-
-const ArticleContext = createContext<ArticleContextType | undefined>(undefined);
-
+/** Owns article collection state and mutations shared by feed and detail views. */
 export const ArticleProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [articles, setArticles] = useState<Article[]>([]);
   const [loading, setLoading] = useState(true);
@@ -46,6 +23,7 @@ export const ArticleProvider: React.FC<{ children: React.ReactNode }> = ({ child
     finally { setLoading(false); }
   }, []);
 
+  // Fetching here keeps loading and error state consistent across every screen.
   useEffect(() => { void refreshArticles(); }, [refreshArticles]);
 
   const openArticle = useCallback(async (id: string) => {
@@ -58,40 +36,44 @@ export const ArticleProvider: React.FC<{ children: React.ReactNode }> = ({ child
     catch (cause) { setError(cause instanceof Error ? cause.message : 'Unable to open article'); }
   }, []);
 
-  const importArticle = async (file: File, draft = false) => {
+  const importArticle = useCallback(async (file: File, draft = false) => {
     const outcome = await uploadArticle(file, draft);
     await refreshArticles();
     setSelectedArticle(outcome.article);
     return outcome;
-  };
+  }, [refreshArticles]);
 
-  const deleteArticle = async (id: string) => {
+  const deleteArticle = useCallback(async (id: string) => {
     await removeArticle(id);
     setArticles((current) => current.filter((article) => article.id !== id));
     if (selectedArticle?.id === id) setSelectedArticle(null);
-  };
+  }, [selectedArticle?.id]);
 
-  const publishArticle = async (id: string) => {
+  const publishArticle = useCallback(async (id: string) => {
     const published = await publishArticleRequest(id);
     setArticles((current) => current.some((article) => article.id === id) ? current.map((article) => article.id === id ? published : article) : [...current, published]);
     if (selectedArticle?.id === id) setSelectedArticle(published);
-  };
+  }, [selectedArticle?.id]);
 
-  return <ArticleContext.Provider value={{
+  const closeArticle = useCallback(() => {
+    setSelectedArticle(null);
+    if (window.location.pathname.startsWith('/articles/')) {
+      window.history.pushState({}, '', '/');
+      window.dispatchEvent(new PopStateEvent('popstate'));
+    }
+  }, []);
+
+  const openCreateArticle = useCallback((mode: 'import' | 'create') => {
+    setCreateArticleMode(mode);
+    setIsCreateModalOpen(true);
+  }, []);
+
+  const contextValue = useMemo(() => ({
     articles, loading, error, selectedCategory, setSelectedCategory, searchQuery, setSearchQuery,
-    selectedArticle, openArticle, closeArticle: () => {
-      setSelectedArticle(null);
-      if (window.location.pathname.startsWith('/articles/')) {
-        window.history.pushState({}, '', '/');
-        window.dispatchEvent(new PopStateEvent('popstate'));
-      }
-    }, isCreateModalOpen,
-    setIsCreateModalOpen, createArticleMode, openCreateArticle: (mode) => { setCreateArticleMode(mode); setIsCreateModalOpen(true); }, isAuthModalOpen, setIsAuthModalOpen, importArticle, deleteArticle, publishArticle, refreshArticles,
-  }}>{children}</ArticleContext.Provider>;
-};
+    selectedArticle, openArticle, closeArticle, isCreateModalOpen, setIsCreateModalOpen,
+    createArticleMode, openCreateArticle, isAuthModalOpen, setIsAuthModalOpen,
+    importArticle, deleteArticle, publishArticle, refreshArticles,
+  }), [articles, loading, error, selectedCategory, searchQuery, selectedArticle, openArticle, closeArticle, isCreateModalOpen, createArticleMode, openCreateArticle, isAuthModalOpen, importArticle, deleteArticle, publishArticle, refreshArticles]);
 
-export const useArticles = () => {
-  const context = useContext(ArticleContext);
-  if (!context) throw new Error('useArticles must be used within an ArticleProvider');
-  return context;
+  return <ArticleContext.Provider value={contextValue}>{children}</ArticleContext.Provider>;
 };

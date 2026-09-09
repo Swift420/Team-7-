@@ -28,6 +28,7 @@ interface ArticleStudioProps {
 
 type ActiveArtifactType = 'carousel' | 'audio' | 'video' | 'newsletter' | null;
 
+/** Coordinates one article's derivative generation and delegates each output to a focused preview. */
 export const ArticleStudio: React.FC<ArticleStudioProps> = ({
   articleId,
   language,

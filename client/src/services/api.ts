@@ -17,33 +17,13 @@ import type {
   CountryStorySummary,
   User,
 } from '../types';
+import { API_BASE, apiRequest, setApiAuthToken } from './httpClient';
 
-const API_BASE = '/api';
-let authToken: string | null = null;
-
-export function setApiAuthToken(token: string | null) { authToken = token; }
-
-async function readJson(response: Response): Promise<any> {
-  const text = await response.text();
-  if (!text.trim()) {
-    if (response.status === 204) return null;
-    throw new Error(
-      response.ok
-        ? 'The server returned an empty response'
-        : `The API is unavailable or returned an empty response (${response.status})`,
-    );
-  }
-  try {
-    return JSON.parse(text);
-  } catch {
-    throw new Error(`The API returned an invalid response (${response.status})`);
-  }
-}
+export { setApiAuthToken } from './httpClient';
 
 export async function fetchHealth(): Promise<{ status: string; timestamp: string }> {
   try {
-    const res = await fetch(`${API_BASE}/health`);
-    if (res.ok) return await readJson(res);
+    return await apiRequest<{ status: string; timestamp: string }>(`${API_BASE}/health`);
   } catch {
     // fallback
   }
@@ -51,58 +31,33 @@ export async function fetchHealth(): Promise<{ status: string; timestamp: string
 }
 
 export async function fetchOverview(): Promise<MetricOverview> {
-  const res = await fetch(`${API_BASE}/metrics/overview`);
-  if (!res.ok) throw new Error(`Failed to fetch overview: ${res.statusText}`);
-  const data = await readJson(res);
+  const data = await apiRequest<{ data: MetricOverview }>(`${API_BASE}/metrics/overview`);
   return data.data;
 }
 
 export async function fetchTimeSeries(range: '3m' | '6m' | '12m' = '12m'): Promise<TimeSeriesPoint[]> {
-  const res = await fetch(`${API_BASE}/metrics/timeseries?range=${range}`);
-  if (!res.ok) throw new Error(`Failed to fetch time series: ${res.statusText}`);
-  const data = await readJson(res);
+  const data = await apiRequest<{ data: TimeSeriesPoint[] }>(`${API_BASE}/metrics/timeseries?range=${range}`);
   return data.data;
 }
 
 export async function fetchCategories(): Promise<CategoryData[]> {
-  const res = await fetch(`${API_BASE}/metrics/categories`);
-  if (!res.ok) throw new Error(`Failed to fetch categories: ${res.statusText}`);
-  const data = await readJson(res);
+  const data = await apiRequest<{ data: CategoryData[] }>(`${API_BASE}/metrics/categories`);
   return data.data;
 }
 
 export async function fetchRegional(): Promise<RegionalData[]> {
-  const res = await fetch(`${API_BASE}/metrics/regional`);
-  if (!res.ok) throw new Error(`Failed to fetch regional: ${res.statusText}`);
-  const data = await readJson(res);
+  const data = await apiRequest<{ data: RegionalData[] }>(`${API_BASE}/metrics/regional`);
   return data.data;
 }
 
 export async function fetchPerformance(): Promise<PerformanceMetric[]> {
-  const res = await fetch(`${API_BASE}/metrics/performance`);
-  if (!res.ok) throw new Error(`Failed to fetch performance: ${res.statusText}`);
-  const data = await readJson(res);
+  const data = await apiRequest<{ data: PerformanceMetric[] }>(`${API_BASE}/metrics/performance`);
   return data.data;
 }
 
 export async function fetchTraffic(): Promise<TrafficSource[]> {
-  const res = await fetch(`${API_BASE}/metrics/traffic`);
-  if (!res.ok) throw new Error(`Failed to fetch traffic: ${res.statusText}`);
-  const data = await readJson(res);
+  const data = await apiRequest<{ data: TrafficSource[] }>(`${API_BASE}/metrics/traffic`);
   return data.data;
-}
-
-async function apiRequest<T>(url: string, options?: RequestInit): Promise<T> {
-  const headers = new Headers(options?.headers);
-  if (authToken) headers.set('Authorization', `Bearer ${authToken}`);
-  const response = await fetch(url, { ...options, headers });
-  const payload = await readJson(response);
-  if (!response.ok) {
-    const message = payload?.error?.message || `Request failed (${response.status})`;
-    const details = payload?.error?.details;
-    throw new Error(details?.length ? `${message}: ${details.join('; ')}` : message);
-  }
-  return payload?.data as T;
 }
 
 export async function loginEditor(username: string, password: string): Promise<{ token: string; user: User }> {

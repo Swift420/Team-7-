@@ -1,7 +1,7 @@
 import React from 'react';
 import { ChevronDown, FilePenLine, FileUp, Lock, Search, Shield, UserRound } from 'lucide-react';
-import { useAuth } from '../context/AuthContext';
-import { useArticles } from '../context/ArticleContext';
+import { useAuth } from '../hooks/useAuth';
+import { useArticles } from '../hooks/useArticles';
 import { normalizeSection, sectionsMatch } from '../utils/sectionTranslation';
 
 export const Navbar: React.FC = () => {

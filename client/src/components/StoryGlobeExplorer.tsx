@@ -5,11 +5,12 @@ import worldTopology from 'world-atlas/countries-110m.json';
 import { BookOpen, GitBranch, LoaderCircle, MapPin, X } from 'lucide-react';
 import { fetchCountryConnections, fetchCountryCoverage, fetchCountryStories } from '../services/api';
 import { CountryConnection, CountryCoverage, CountryStorySummary } from '../types';
-import { useArticles } from '../context/ArticleContext';
+import { useArticles } from '../hooks/useArticles';
 
 type GlobeFeature = { type: string; properties?: { name?: string }; geometry: unknown; countryCode?: string; coverage?: CountryCoverage };
 type GlobeArc = CountryConnection & { startLat: number; startLng: number; endLat: number; endLng: number };
 
+// The API owns country classification; the client only resolves codes to map geometry.
 const countryAliases: Record<string, string> = {
   'United States of America': 'US', 'United States': 'US', 'Sierra Leone': 'SL', 'South Africa': 'ZA', 'United Kingdom': 'GB', Switzerland: 'CH',
 };
