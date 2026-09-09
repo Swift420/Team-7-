@@ -340,6 +340,23 @@ export function parseMarkdown(rawText: string): NormalizedArticle {
     ]);
 
   const contentHash = createHash("sha256").update(rawText).digest("hex");
+  const imageUrl = metadataValue(
+    metadata,
+    "image_url",
+    "image",
+    "teaser_image",
+    "hero_image",
+  );
+  const imageCaption = metadataValue(metadata, "image_caption", "caption");
+  const imageCredit = metadataValue(metadata, "image_credit", "credit");
+  const teaserImage = imageUrl
+    ? {
+        url: imageUrl,
+        caption: imageCaption || headline,
+        credit: imageCredit || authorLine || "NZZ Editorial",
+      }
+    : null;
+
   return {
     importKey: nzzId ? `nzz:${nzzId}` : `markdown:${contentHash}`,
     nzzId,
@@ -354,7 +371,7 @@ export function parseMarkdown(rawText: string): NormalizedArticle {
     body,
     rawContent: { text: rawText },
     sourceFormat: "MARKDOWN",
-    teaserImage: null,
+    teaserImage,
     tags:
       metadataValue(metadata, "tags")
         ?.split(",")

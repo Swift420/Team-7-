@@ -407,13 +407,18 @@
 }
 
 .role-context-banner.is-editor {
-  background: linear-gradient(135deg, rgba(79, 70, 229, 0.15), rgba(147, 51, 234, 0.15));
-  border: 1px solid rgba(147, 51, 234, 0.35);
+  background: #fbfbfa;
+  border: 1px solid #e4e4e0;
+  border-left: 3px solid #d80000;
+  color: #111111;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
 }
 
 .role-context-banner.is-viewer {
-  background: linear-gradient(135deg, rgba(30, 58, 138, 0.2), rgba(17, 24, 39, 0.8));
-  border: 1px solid rgba(59, 130, 246, 0.3);
+  background: #fbfbfa;
+  border: 1px solid #e4e4e0;
+  border-left: 3px solid #111111;
+  color: #111111;
 }
 
 .banner-left {
@@ -428,11 +433,12 @@
 }
 
 .banner-user-avatar {
-  width: 48px;
-  height: 48px;
+  width: 44px;
+  height: 44px;
   border-radius: 50%;
   object-fit: cover;
-  border: 2px solid #6366f1;
+  border: 1px solid #d4d4d0;
+  display: block;
 }
 
 .role-icon-corner {
@@ -442,12 +448,12 @@
   width: 18px;
   height: 18px;
   border-radius: 50%;
-  background: #6366f1;
-  color: white;
+  background: #d80000;
+  color: #ffffff;
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 2px solid var(--bg-secondary);
+  border: 2px solid #ffffff;
 }
 
 .banner-text {
@@ -466,17 +472,39 @@
 .user-name-strong {
   font-size: 0.95rem;
   font-weight: 700;
+  color: #111111;
+}
+
+.role-pill {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  background: #111111;
   color: #ffffff;
+  padding: 2px 6px;
+  border-radius: 2px;
+}
+
+.role-pill-editor {
+  background: #111111;
+  color: #ffffff;
+}
+
+.bullet-sep {
+  color: #cccccc;
+  font-size: 12px;
 }
 
 .user-title-text {
   font-size: 0.8rem;
-  color: var(--text-secondary);
+  color: #666666;
+  font-weight: 500;
 }
 
 .banner-description {
   font-size: 0.8rem;
-  color: var(--text-secondary);
+  color: #555555;
   line-height: 1.4;
 }
 
@@ -491,67 +519,97 @@
   display: inline-flex;
   align-items: center;
   gap: 0.4rem;
-  padding: 0.55rem 1rem;
-  background: linear-gradient(135deg, #6366f1, #8b5cf6);
-  color: white;
-  border: none;
-  border-radius: var(--radius-sm);
-  font-size: 0.85rem;
+  padding: 0.5rem 0.9rem;
+  background: #111111;
+  color: #ffffff;
+  border: 1px solid #111111;
+  border-radius: 2px;
+  font-size: 0.8rem;
   font-weight: 600;
-  transition: all 0.2s ease;
+  cursor: pointer;
+  transition: all 0.15s ease;
 }
 
 .banner-btn-create:hover {
-  filter: brightness(1.1);
-  transform: translateY(-1px);
+  background: #d80000;
+  border-color: #d80000;
+  color: #ffffff;
+}
+
+.banner-btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.5rem 0.9rem;
+  background: #ffffff;
+  color: #111111;
+  border: 1px solid #d4d4d0;
+  border-radius: 2px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.banner-btn-secondary:hover {
+  background: #f4f4f2;
+  border-color: #111111;
 }
 
 .banner-btn-switch {
-  padding: 0.55rem 0.9rem;
-  background: rgba(255, 255, 255, 0.08);
-  border: 1px solid var(--border-color);
-  color: var(--text-primary);
-  border-radius: var(--radius-sm);
+  padding: 0.5rem 0.85rem;
+  background: #ffffff;
+  border: 1px solid #d4d4d0;
+  color: #111111;
+  border-radius: 2px;
   font-size: 0.8rem;
   font-weight: 600;
+  cursor: pointer;
 }
 
 .banner-btn-switch:hover {
-  background: rgba(255, 255, 255, 0.14);
+  background: #f4f4f2;
+  border-color: #111111;
 }
 
 .banner-btn-switch-editor {
   display: inline-flex;
   align-items: center;
   gap: 0.4rem;
-  padding: 0.55rem 1rem;
-  background: #6366f1;
-  color: white;
-  border: none;
-  border-radius: var(--radius-sm);
-  font-size: 0.85rem;
+  padding: 0.5rem 0.9rem;
+  background: #111111;
+  color: #ffffff;
+  border: 1px solid #111111;
+  border-radius: 2px;
+  font-size: 0.8rem;
   font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s ease;
 }
 
 .banner-btn-switch-editor:hover {
-  background: #4f46e5;
+  background: #d80000;
+  border-color: #d80000;
 }
 
 .banner-btn-accounts {
   display: inline-flex;
   align-items: center;
   gap: 0.4rem;
-  padding: 0.55rem 0.9rem;
-  background: var(--bg-card);
-  border: 1px solid var(--border-color);
-  color: var(--text-primary);
-  border-radius: var(--radius-sm);
+  padding: 0.5rem 0.9rem;
+  background: #ffffff;
+  color: #111111;
+  border: 1px solid #d4d4d0;
+  border-radius: 2px;
   font-size: 0.8rem;
   font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s ease;
 }
 
 .banner-btn-accounts:hover {
-  background: var(--bg-card-hover);
+  background: #f4f4f2;
+  border-color: #111111;
 }
 
 /* ==========================================================================
@@ -2816,10 +2874,2190 @@
     flex-direction: column;
   }
 }
-.error-boundary-page { min-height: 100vh; display: grid; place-items: center; padding: 2rem; background: #0b1120; color: #e2e8f0; }
-.error-boundary-card { width: min(100%, 34rem); padding: 2rem; border: 1px solid #334155; border-radius: 1rem; background: #111827; box-shadow: 0 20px 60px rgba(0,0,0,.3); }
-.error-boundary-card h1 { margin: 0 0 .6rem; font-size: 1.5rem; }
-.error-boundary-card p { color: #94a3b8; }
-.error-boundary-card button { margin-top: 1rem; border: 0; border-radius: .5rem; padding: .6rem .85rem; background: #2563eb; color: white; font: inherit; cursor: pointer; }
-.error-boundary-card details { margin-top: 1rem; color: #fca5a5; font-size: .75rem; }
-.error-boundary-card pre { max-height: 12rem; overflow: auto; white-space: pre-wrap; }
+
+/* ==========================================================================
+   OFFICIAL NZZ SWISS BROADSHEET SYSTEM & OVERHAUL
+   Authentic Neue Zürcher Zeitung Typography, Layout, Header, Reader & 3D Globe Dock
+   ========================================================================== */
+
+/* Root & Global Overrides */
+body {
+  background-color: var(--bg-primary, #ffffff);
+  color: var(--text-primary, #111111);
+  font-family: var(--font-sans, 'Inter', -apple-system, sans-serif);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.app-shell {
+  background-color: #ffffff;
+  color: #111111;
+  min-height: 100vh;
+}
+
+.main-content {
+  max-width: 1320px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 1.5rem 1.25rem 4rem;
+}
+
+/* Red Dot Indicator */
+.nzz-red-dot, .nzz-kicker-dot {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  background-color: #d80000;
+  border-radius: 0;
+  flex-shrink: 0;
+}
+
+/* ==========================================================================
+   1. NZZ 3-TIER SITE HEADER
+   ========================================================================== */
+.nzz-site-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: #ffffff;
+  border-bottom: 1px solid #e5e5e5;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+}
+
+/* Tier 1: Utility Bar */
+.nzz-utility-bar {
+  background: #fafafa;
+  border-bottom: 1px solid #eeeeee;
+  font-size: 11px;
+  color: #666666;
+}
+
+.nzz-utility-inner {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 5px 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nzz-utility-left, .nzz-utility-right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.nzz-edition-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-weight: 700;
+  color: #111111;
+  font-size: 11px;
+}
+
+.nzz-edition-flag {
+  font-size: 12px;
+}
+
+.nzz-utility-links {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.nzz-utility-link {
+  color: #666666;
+  text-decoration: none;
+  font-size: 11px;
+  transition: color 0.15s ease;
+}
+
+.nzz-utility-link:hover {
+  color: #111111;
+}
+
+.nzz-utility-date {
+  font-size: 11px;
+  color: #777777;
+}
+
+.nzz-editor-live-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+  font-weight: 600;
+  color: #047857;
+  background: #ecfdf5;
+  padding: 2px 8px;
+  border: 1px solid #a7f3d0;
+}
+
+.nzz-live-dot {
+  width: 6px;
+  height: 6px;
+  background: #10b981;
+  border-radius: 50%;
+}
+
+/* Tier 2: Masthead Bar */
+.nzz-masthead-bar {
+  background: #ffffff;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.nzz-masthead-inner {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.nzz-masthead-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex: 1;
+}
+
+.nzz-btn-menu {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  height: 36px;
+  padding: 0 12px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #111111;
+  background: #ffffff;
+  border: 1px solid #d4d4d0;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  box-sizing: border-box;
+}
+
+.nzz-btn-menu:hover {
+  background: #f5f5f4;
+  border-color: #111111;
+}
+
+.nzz-search-container,
+.nzz-masthead-search {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  height: 36px;
+  padding: 0 10px;
+  border: 1px solid #d4d4d0;
+  background: #fbfbfa;
+  border-radius: 2px;
+  width: 220px;
+  box-sizing: border-box;
+  transition: all 0.15s ease;
+}
+
+.nzz-search-container:focus-within,
+.nzz-masthead-search:focus-within {
+  background: #ffffff;
+  border-color: #111111;
+  box-shadow: 0 0 0 1px #111111;
+}
+
+.nzz-search-icon {
+  color: #777777;
+  flex-shrink: 0;
+}
+
+.nzz-search-field,
+.nzz-masthead-search input {
+  border: none;
+  outline: none;
+  background: transparent;
+  width: 100%;
+  font-size: 13px;
+  color: #111111;
+  font-family: inherit;
+}
+
+.nzz-search-field::placeholder,
+.nzz-masthead-search input::placeholder {
+  color: #888888;
+}
+
+.nzz-search-clear {
+  background: transparent;
+  border: none;
+  color: #888888;
+  cursor: pointer;
+  padding: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nzz-search-clear:hover {
+  color: #111111;
+}
+
+.nzz-masthead-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nzz-logo-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  transition: opacity 0.15s ease;
+}
+
+.nzz-logo-link:hover {
+  opacity: 0.85;
+}
+
+.nzz-masthead-right {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  flex: 1;
+}
+
+.nzz-btn-globus {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  height: 36px;
+  padding: 0 12px;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  background: #ffffff;
+  color: #d80000;
+  border: 1px solid #d80000;
+  border-radius: 2px;
+  cursor: pointer;
+  box-sizing: border-box;
+  transition: all 0.15s ease;
+}
+
+.nzz-btn-globus:hover {
+  background: #fff5f5;
+}
+
+.nzz-btn-globus.is-active {
+  background: #d80000;
+  color: #ffffff;
+  border-color: #d80000;
+}
+
+.nzz-editor-btn-group {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.nzz-btn-action {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  height: 36px;
+  padding: 0 12px;
+  font-size: 12px;
+  font-weight: 600;
+  border: 1px solid #d4d4d0;
+  background: #ffffff;
+  color: #111111;
+  border-radius: 2px;
+  cursor: pointer;
+  box-sizing: border-box;
+  transition: all 0.15s ease;
+}
+
+.nzz-btn-action:hover {
+  background: #f5f5f4;
+  border-color: #111111;
+}
+
+.nzz-btn-action.clean {
+  background: #ffffff;
+  border-color: #d4d4d0;
+}
+
+.nzz-btn-action.dark {
+  background: #111111;
+  color: #ffffff;
+  border-color: #111111;
+}
+
+.nzz-btn-action.dark:hover {
+  background: #d80000;
+  border-color: #d80000;
+}
+
+.nzz-btn-action.red {
+  background: #d80000;
+  color: #ffffff;
+  border-color: #d80000;
+}
+
+.nzz-btn-action.red:hover {
+  background: #b50000;
+}
+
+.nzz-user-dropdown-wrap,
+.nzz-user-menu {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  height: 36px;
+  padding: 0 6px 0 4px;
+  border: 1px solid #d4d4d0;
+  background: #fbfbfa;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.nzz-user-profile-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  color: #111111;
+}
+
+.nzz-user-avatar,
+.nzz-avatar-img {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid #d4d4d0;
+  display: block;
+  flex-shrink: 0;
+}
+
+.nzz-user-avatar-wrap {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  overflow: hidden;
+  background: #111111;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.nzz-user-name-box,
+.nzz-user-meta {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.nzz-user-name {
+  font-size: 12px;
+  font-weight: 700;
+  color: #111111;
+  line-height: 1;
+}
+
+.nzz-user-role-badge,
+.nzz-user-role {
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  background: #111111;
+  color: #ffffff;
+  padding: 2px 5px;
+  border-radius: 2px;
+  line-height: 1;
+}
+
+.nzz-btn-logout {
+  background: transparent;
+  border: none;
+  color: #888888;
+  cursor: pointer;
+  padding: 4px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2px;
+  transition: all 0.15s ease;
+}
+
+.nzz-btn-logout:hover {
+  color: #d80000;
+  background: #f4f4f2;
+}
+
+/* Tier 3: Section Navbar */
+.nzz-section-navbar {
+  background: #ffffff;
+  border-bottom: 1px solid #e4e4e0;
+  position: sticky;
+  top: 0;
+  z-index: 40;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.nzz-section-navbar::-webkit-scrollbar {
+  display: none;
+}
+
+.nzz-section-nav-inner {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 42px;
+}
+
+.nzz-section-nav-list,
+.nzz-tabs-list {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  height: 100%;
+}
+
+.nzz-section-tab,
+.nzz-tab-link {
+  display: inline-flex;
+  align-items: center;
+  height: 42px;
+  padding: 0 12px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #333333;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.15s ease;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.nzz-section-tab:hover,
+.nzz-tab-link:hover {
+  color: #111111;
+  background: #fbfbfa;
+}
+
+.nzz-section-tab.active,
+.nzz-tab-link.active {
+  color: #111111;
+  font-weight: 700;
+  border-bottom: 2px solid #d80000;
+}
+
+.nzz-pro-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #111111;
+  background: #f4f4f5;
+  padding: 4px 10px;
+  border: 1px solid #e4e4e7;
+  white-space: nowrap;
+}
+
+.nzz-pro-sparkle {
+  color: #d80000;
+}
+
+/* ==========================================================================
+   2. HOMEPAGE SPLIT VIEW (FEED + 1/3 GLOBE DOCK)
+   ========================================================================== */
+.nzz-feed-wrapper {
+  display: flex;
+  gap: 36px;
+  width: 100%;
+  align-items: flex-start;
+  transition: all 0.35s ease;
+}
+
+.nzz-main-feed-col {
+  flex: 1 1 100%;
+  min-width: 0;
+  transition: all 0.35s ease;
+}
+
+/* When 3D globe is docked on the right */
+.nzz-feed-wrapper.has-docked-globe .nzz-main-feed-col {
+  flex: 1 1 66%;
+  max-width: 66%;
+}
+
+.nzz-docked-globe-col {
+  flex: 0 0 34%;
+  max-width: 34%;
+  position: sticky;
+  top: 130px;
+  max-height: calc(100vh - 150px);
+  overflow-y: auto;
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+  box-shadow: -4px 6px 20px rgba(0, 0, 0, 0.05);
+}
+
+.nzz-docked-loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 4rem 1.5rem;
+  color: #666666;
+  font-size: 13px;
+}
+
+/* Teaser banner when globe is closed */
+.nzz-globus-banner {
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+  border-left: 4px solid #d80000;
+  padding: 16px 22px;
+  margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.nzz-globus-banner:hover {
+  background: #fafafa;
+  border-color: #cccccc;
+  border-left-color: #d80000;
+}
+
+.nzz-globus-banner-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #d80000;
+  white-space: nowrap;
+}
+
+.nzz-globus-banner-content h3 {
+  font-family: var(--font-serif);
+  font-size: 17px;
+  font-weight: 700;
+  color: #111111;
+  margin-bottom: 3px;
+}
+
+.nzz-globus-banner-content p {
+  font-size: 13px;
+  color: #555555;
+  line-height: 1.4;
+  margin: 0;
+}
+
+.nzz-globus-banner-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #ffffff;
+  background: #111111;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background 0.15s ease;
+}
+
+.nzz-globus-banner-btn:hover {
+  background: #d80000;
+}
+
+/* Subbar */
+.nzz-feed-subbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 14px;
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 24px;
+}
+
+.nzz-subbar-title-wrap {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+}
+
+.nzz-subbar-title {
+  font-family: var(--font-serif);
+  font-size: 24px;
+  font-weight: 700;
+  color: #111111;
+  margin: 0;
+}
+
+.nzz-article-counter {
+  font-size: 12px;
+  color: #777777;
+}
+
+.nzz-article-counter strong {
+  color: #111111;
+}
+
+.nzz-subbar-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.nzz-btn-refresh {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #555555;
+  background: transparent;
+  border: 1px solid #e5e5e5;
+  padding: 6px 12px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.nzz-btn-refresh:hover {
+  background: #f5f5f5;
+  color: #111111;
+}
+
+.nzz-btn-feed-add {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #ffffff;
+  background: #d80000;
+  border: none;
+  padding: 6px 14px;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+
+.nzz-btn-feed-add:hover {
+  background: #b50000;
+}
+
+.nzz-empty-feed-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 2rem;
+  border: 1px solid #e5e5e5;
+  background: #fafafa;
+  text-align: center;
+}
+
+.nzz-empty-feed-box h3 {
+  font-family: var(--font-serif);
+  font-size: 20px;
+  font-weight: 700;
+  color: #111111;
+  margin-bottom: 6px;
+}
+
+.nzz-empty-feed-box p {
+  font-size: 14px;
+  color: #666666;
+  max-width: 480px;
+}
+
+/* ==========================================================================
+   3. BROADSHEET HERO SHOWCASE (70/30 ASYMMETRIC GRID)
+   ========================================================================== */
+.nzz-broadsheet-stream {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.nzz-hero-showcase {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 36px;
+  padding-bottom: 36px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+/* When globe is open, hero stacks into 1 col */
+.nzz-feed-wrapper.has-docked-globe .nzz-hero-showcase {
+  grid-template-columns: 1fr;
+  gap: 28px;
+}
+
+.nzz-hero-primary {
+  min-width: 0;
+}
+
+.nzz-hero-rail {
+  border-left: 1px solid #e5e5e5;
+  padding-left: 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.nzz-feed-wrapper.has-docked-globe .nzz-hero-rail {
+  border-left: none;
+  padding-left: 0;
+  border-top: 1px solid #e5e5e5;
+  padding-top: 24px;
+}
+
+.nzz-rail-header {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: #d80000;
+  text-transform: uppercase;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.nzz-rail-items {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* Divider */
+.nzz-stream-divider {
+  border-top: 2px solid #111111;
+  padding-top: 12px;
+  margin-bottom: 20px;
+}
+
+.nzz-stream-divider-label {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  color: #111111;
+  text-transform: uppercase;
+}
+
+/* 3-Column Articles Grid */
+.nzz-articles-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px 24px;
+}
+
+.nzz-feed-wrapper.has-docked-globe .nzz-articles-grid {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px 20px;
+}
+
+/* ==========================================================================
+   4. ARTICLE CARDS (HERO, COMPACT, STANDARD)
+   Strict zero border-radius, authentic NZZ typography & no AI pills
+   ========================================================================== */
+
+/* Hero Lead Card */
+.nzz-hero-card {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  text-align: left;
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+
+.nzz-hero-media {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  margin-bottom: 16px;
+  background: #f0f0f0;
+}
+
+.nzz-hero-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.nzz-hero-card:hover .nzz-hero-img {
+  transform: scale(1.02);
+}
+
+.nzz-hero-kicker-strip {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #d80000;
+  margin-bottom: 8px;
+}
+
+.nzz-hero-headline {
+  font-family: var(--font-serif);
+  font-size: 32px;
+  line-height: 1.15;
+  font-weight: 700;
+  color: #111111;
+  margin-bottom: 12px;
+  letter-spacing: -0.015em;
+  transition: color 0.15s ease;
+}
+
+.nzz-hero-card:hover .nzz-hero-headline {
+  color: #444444;
+}
+
+.nzz-hero-lead {
+  font-family: var(--font-sans);
+  font-size: 15px;
+  line-height: 1.5;
+  color: #444444;
+  margin-bottom: 16px;
+}
+
+/* Card Footers & Metas */
+.nzz-card-footer,
+.nzz-editorial-footer,
+.nzz-hero-byline-strip {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-top: auto;
+  padding-top: 10px;
+  border-top: 1px solid #f0f0ee;
+  font-size: 11px;
+  color: #777777;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.nzz-card-footer.hero-footer {
+  padding-top: 14px;
+}
+
+.nzz-card-footer.compact-footer {
+  padding-top: 8px;
+  border-top: none;
+}
+
+.nzz-author-block,
+.nzz-byline-left {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 11px;
+  color: #555555;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-width: 0;
+  flex: 1;
+}
+
+.nzz-author-name,
+.nzz-byline-author,
+.nzz-editorial-author,
+.nzz-compact-author {
+  font-weight: 700;
+  color: #111111;
+  letter-spacing: -0.01em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.nzz-meta-sep,
+.nzz-byline-sep {
+  color: #bbbbbb;
+  font-size: 10px;
+  margin: 0 1px;
+  flex-shrink: 0;
+}
+
+.nzz-meta-date,
+.nzz-byline-time,
+.nzz-editorial-time {
+  color: #777777;
+  font-size: 11px;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.nzz-footer-actions {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  flex-shrink: 0;
+  margin-left: auto;
+}
+
+.nzz-time-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 11px;
+  color: #777777;
+  white-space: nowrap;
+}
+
+.nzz-btn-bookmark {
+  background: transparent;
+  border: none;
+  color: #888888;
+  cursor: pointer;
+  padding: 3px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2px;
+  transition: all 0.15s ease;
+  flex-shrink: 0;
+}
+
+.nzz-btn-bookmark:hover {
+  color: #111111;
+  background: #f4f4f2;
+}
+
+.nzz-btn-bookmark.bookmarked {
+  color: #111111;
+}
+
+.nzz-btn-delete {
+  background: transparent;
+  border: none;
+  color: #999999;
+  cursor: pointer;
+  padding: 3px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2px;
+  transition: all 0.15s ease;
+  flex-shrink: 0;
+}
+
+.nzz-btn-delete:hover {
+  color: #d80000;
+  background: #fff5f5;
+}
+
+/* Compact Card (Side Rail) */
+.nzz-compact-card {
+  padding-bottom: 14px;
+  border-bottom: 1px solid #eeeeee;
+  cursor: pointer;
+  transition: opacity 0.15s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.nzz-compact-card:hover {
+  opacity: 0.85;
+}
+
+.nzz-compact-card:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.nzz-compact-headline {
+  font-family: var(--font-serif);
+  font-size: 16px;
+  line-height: 1.25;
+  font-weight: 700;
+  color: #111111;
+  margin-bottom: 5px;
+}
+
+.nzz-compact-lead {
+  font-size: 12px;
+  line-height: 1.45;
+  color: #555555;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  margin-bottom: 6px;
+}
+
+/* Card Kickers */
+.nzz-card-kicker,
+.nzz-hero-kicker-strip,
+.nzz-compact-kicker,
+.nzz-compact-meta,
+.nzz-editorial-kicker {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #d80000;
+  margin-bottom: 6px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.nzz-kicker-dot {
+  width: 4px;
+  height: 4px;
+  background-color: #d80000;
+  display: inline-block;
+  flex-shrink: 0;
+}
+
+.nzz-kicker-text {
+  color: #d80000;
+}
+
+.nzz-read-time {
+  color: #888888;
+  font-weight: 500;
+  text-transform: none;
+  letter-spacing: normal;
+  font-size: 11px;
+}
+
+.nzz-pro-chip {
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  padding: 1px 5px;
+  background: #f4f4f2;
+  color: #111111;
+  border: 1px solid #e4e4e0;
+  border-radius: 2px;
+  margin-left: 4px;
+}
+
+/* Standard Editorial Card (Grid) */
+.nzz-editorial-card {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  padding: 0;
+  text-align: left;
+}
+
+.nzz-card-media,
+.nzz-card-media-wrap {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  margin-bottom: 12px;
+  background: #f0f0f0;
+}
+
+.nzz-card-media img,
+.nzz-editorial-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.25s ease;
+}
+
+.nzz-editorial-card:hover .nzz-card-media img,
+.nzz-editorial-card:hover .nzz-editorial-img {
+  transform: scale(1.03);
+}
+
+.nzz-card-content,
+.nzz-editorial-body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.nzz-card-headline {
+  font-family: var(--font-serif);
+  font-size: 19px;
+  line-height: 1.25;
+  font-weight: 700;
+  color: #111111;
+  margin-bottom: 8px;
+  letter-spacing: -0.01em;
+}
+
+.nzz-card-excerpt {
+  font-size: 13px;
+  line-height: 1.48;
+  color: #444444;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  margin-bottom: 12px;
+}
+
+/* ==========================================================================
+   5. ARTICLE DETAIL VIEW (EDITORIAL READER)
+   ========================================================================== */
+.nzz-article-detail-view {
+  max-width: 880px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 1rem 0 4rem;
+}
+
+.nzz-detail-top-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 28px;
+}
+
+.nzz-btn-back {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #111111;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  transition: color 0.15s ease;
+}
+
+.nzz-btn-back:hover {
+  color: #d80000;
+}
+
+.nzz-detail-actions-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.nzz-btn-studio-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 6px 12px;
+  background: #ffffff;
+  color: #111111;
+  border: 1px solid #e5e5e5;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.nzz-btn-studio-toggle:hover {
+  background: #f5f5f5;
+}
+
+.nzz-btn-studio-toggle.active {
+  background: #d80000;
+  color: #ffffff;
+  border-color: #d80000;
+}
+
+.nzz-editor-actions-strip {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.nzz-btn-publish {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 6px 12px;
+  background: #047857;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+.nzz-btn-delete-article {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 6px 10px;
+  background: transparent;
+  color: #dc2626;
+  border: 1px solid #fecaca;
+  cursor: pointer;
+}
+
+.nzz-btn-delete-article:hover {
+  background: #fef2f2;
+}
+
+/* Studio Drawer */
+.nzz-studio-drawer-box {
+  background: #ffffff;
+  border: 2px solid #d80000;
+  padding: 24px;
+  margin-bottom: 32px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+}
+
+.nzz-studio-drawer-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 14px;
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 20px;
+}
+
+.nzz-pro-chip {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #d80000;
+  background: #fff5f5;
+  padding: 3px 8px;
+  border: 1px solid #fecaca;
+}
+
+.nzz-btn-close-studio {
+  background: transparent;
+  border: none;
+  font-size: 12px;
+  color: #777777;
+  cursor: pointer;
+}
+
+.nzz-btn-close-studio:hover {
+  color: #111111;
+}
+
+/* Article Header */
+.nzz-article-header {
+  margin-bottom: 28px;
+}
+
+.nzz-article-kicker-bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #d80000;
+  margin-bottom: 14px;
+}
+
+.nzz-kicker-sep {
+  color: #cccccc;
+}
+
+.nzz-kicker-edition {
+  color: #777777;
+  font-weight: 500;
+}
+
+.nzz-article-headline {
+  font-family: var(--font-serif);
+  font-size: 42px;
+  line-height: 1.14;
+  font-weight: 700;
+  color: #111111;
+  letter-spacing: -0.02em;
+  margin-bottom: 16px;
+}
+
+.nzz-article-lead {
+  font-family: var(--font-serif);
+  font-size: 20px;
+  line-height: 1.48;
+  color: #333333;
+  margin-bottom: 24px;
+}
+
+.nzz-article-byline-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 0;
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+  font-size: 13px;
+  color: #666666;
+}
+
+.nzz-byline-author {
+  font-weight: 700;
+  color: #111111;
+}
+
+.nzz-byline-date {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.nzz-byline-original {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: #666666;
+  text-decoration: underline;
+}
+
+.nzz-byline-original:hover {
+  color: #d80000;
+}
+
+.nzz-badge-format {
+  font-size: 11px;
+  font-weight: 600;
+  padding: 2px 8px;
+  background: #f4f4f5;
+  border: 1px solid #e4e4e7;
+  color: #333333;
+}
+
+/* Article Hero Photo */
+.nzz-article-hero-figure {
+  width: 100%;
+  margin: 0 0 32px 0;
+}
+
+.nzz-article-hero-image {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  display: block;
+}
+
+.nzz-article-hero-caption {
+  display: flex;
+  flex-direction: column;
+  padding: 8px 0 0;
+  font-size: 12px;
+  line-height: 1.4;
+  color: #666666;
+  border-bottom: 1px solid #eeeeee;
+  padding-bottom: 8px;
+}
+
+.nzz-photo-credit {
+  font-size: 11px;
+  color: #999999;
+  margin-top: 3px;
+}
+
+/* Reader Features Container */
+.nzz-reader-enhancements {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 32px;
+}
+
+/* Audio Player */
+.nzz-audio-player {
+  background: #fafafa;
+  border: 1px solid #e5e5e5;
+  padding: 16px 20px;
+}
+
+.nzz-audio-error {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  color: #d80000;
+  background: #fff5f5;
+  padding: 8px 12px;
+  border: 1px solid #fecaca;
+  margin-bottom: 12px;
+}
+
+.nzz-audio-player-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.nzz-audio-left {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  min-width: 0;
+}
+
+.nzz-audio-play-btn {
+  width: 44px;
+  height: 44px;
+  background: #d80000;
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  flex-shrink: 0;
+  transition: transform 0.15s ease, background 0.15s ease;
+}
+
+.nzz-audio-play-btn:hover {
+  background: #b50000;
+  transform: scale(1.05);
+}
+
+.nzz-audio-info {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.nzz-audio-kicker-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 3px;
+}
+
+.nzz-audio-kicker {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #d80000;
+}
+
+.nzz-audio-timer {
+  font-family: monospace;
+  font-size: 11px;
+  color: #777777;
+}
+
+.nzz-audio-headline {
+  font-family: var(--font-serif);
+  font-size: 14px;
+  font-weight: 700;
+  color: #111111;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 0;
+}
+
+.nzz-audio-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+.nzz-audio-voice-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 11px;
+  font-family: monospace;
+  color: #555555;
+  background: #ffffff;
+  padding: 4px 8px;
+  border: 1px solid #e5e5e5;
+}
+
+.nzz-btn-audio-reset {
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+  color: #666666;
+  padding: 6px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nzz-btn-audio-reset:hover {
+  background: #f5f5f5;
+  color: #111111;
+}
+
+.nzz-audio-progress-track {
+  width: 100%;
+  height: 4px;
+  background: #e5e5e5;
+  margin-top: 14px;
+}
+
+.nzz-audio-progress-bar {
+  height: 100%;
+  background: #d80000;
+  transition: width 0.3s ease;
+}
+
+/* Executive Briefing Card */
+.nzz-executive-card {
+  background: #fafafa;
+  border: 1px solid #e5e5e5;
+  border-left: 4px solid #d80000;
+  padding: 20px 24px;
+}
+
+.nzz-executive-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #eeeeee;
+  margin-bottom: 14px;
+}
+
+.nzz-executive-title-group {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.nzz-executive-kicker {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #111111;
+}
+
+.nzz-executive-meta {
+  font-family: monospace;
+  font-size: 11px;
+  color: #888888;
+}
+
+.nzz-executive-subhead {
+  font-family: var(--font-serif);
+  font-size: 15px;
+  font-weight: 700;
+  color: #222222;
+  margin-bottom: 14px;
+}
+
+.nzz-executive-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nzz-executive-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #333333;
+}
+
+.nzz-executive-num {
+  width: 20px;
+  height: 20px;
+  background: #fff0f0;
+  color: #d80000;
+  border: 1px solid #fecaca;
+  font-size: 11px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+
+.nzz-executive-text {
+  flex: 1;
+}
+
+/* Article Body Typography */
+.nzz-article-body-stream {
+  font-family: var(--font-body, 'Lora', Georgia, serif);
+  font-size: 18px;
+  line-height: 1.7;
+  color: #222222;
+}
+
+.nzz-article-body-stream p.article-p {
+  margin-bottom: 1.5rem;
+}
+
+.nzz-article-body-stream h2.article-h2 {
+  font-family: var(--font-serif);
+  font-size: 26px;
+  line-height: 1.25;
+  font-weight: 700;
+  color: #111111;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.nzz-article-body-stream h3.article-h3 {
+  font-family: var(--font-serif);
+  font-size: 21px;
+  font-weight: 700;
+  color: #111111;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+/* ==========================================================================
+   6. DOCKED STORY GLOBE EXPLORER
+   ========================================================================== */
+.story-globe-explorer.story-globe-docked {
+  border: none;
+  box-shadow: none;
+  background: transparent;
+  padding: 16px;
+}
+
+.story-globe-explorer.story-globe-docked .story-globe-heading {
+  margin-bottom: 12px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.story-globe-explorer.story-globe-docked .story-globe-heading h2 {
+  font-family: var(--font-serif);
+  font-size: 18px;
+  font-weight: 700;
+  margin: 4px 0 0 0;
+}
+
+.story-globe-layout.docked-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.story-globe-layout.docked-layout .story-globe-canvas {
+  width: 100%;
+  min-height: 280px;
+  max-height: 360px;
+}
+
+/* ==========================================================================
+   7. EDITORIAL MODALS & DIALOGS
+   ========================================================================== */
+.nzz-auth-dialog, .nzz-editor-dialog {
+  background: #ffffff;
+  color: #111111;
+  border: 1px solid #e5e5e5;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.12);
+  width: 100%;
+  max-width: 680px;
+  padding: 28px;
+}
+
+.nzz-dialog-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 20px;
+}
+
+.nzz-dialog-kicker {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #d80000;
+  margin-bottom: 6px;
+}
+
+.nzz-dialog-headline {
+  font-family: var(--font-serif);
+  font-size: 24px;
+  font-weight: 700;
+  color: #111111;
+  margin: 0 0 6px 0;
+}
+
+.nzz-dialog-sub {
+  font-size: 13px;
+  color: #666666;
+  margin: 0;
+  line-height: 1.4;
+}
+
+.nzz-dialog-close {
+  background: transparent;
+  border: none;
+  color: #888888;
+  cursor: pointer;
+  padding: 4px;
+}
+
+.nzz-dialog-close:hover {
+  color: #111111;
+}
+
+.nzz-dialog-error {
+  background: #fef2f2;
+  border: 1px solid #fecaca;
+  color: #991b1b;
+  padding: 10px 14px;
+  font-size: 13px;
+  margin-bottom: 16px;
+}
+
+.nzz-dialog-success {
+  background: #ecfdf5;
+  border: 1px solid #a7f3d0;
+  color: #065f46;
+  padding: 10px 14px;
+  font-size: 13px;
+  margin-bottom: 16px;
+}
+
+.nzz-field-label {
+  display: block;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #333333;
+  margin-bottom: 6px;
+}
+
+.nzz-profiles-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.nzz-profile-card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px;
+  border: 1px solid #e5e5e5;
+  background: #fafafa;
+  cursor: pointer;
+  text-align: left;
+  transition: all 0.15s ease;
+}
+
+.nzz-profile-card:hover {
+  background: #f0f0f0;
+  border-color: #cccccc;
+}
+
+.nzz-profile-card.active {
+  border-color: #d80000;
+  background: #fff5f5;
+}
+
+.nzz-profile-avatar {
+  width: 38px;
+  height: 38px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.nzz-profile-topline {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4px;
+}
+
+.nzz-profile-name {
+  font-size: 12px;
+  font-weight: 700;
+  color: #111111;
+}
+
+.nzz-profile-badge {
+  font-size: 9px;
+  font-weight: 700;
+  color: #d80000;
+  background: #fff0f0;
+  padding: 1px 4px;
+}
+
+.nzz-profile-title {
+  font-size: 11px;
+  color: #666666;
+  line-height: 1.2;
+}
+
+.nzz-profile-user {
+  font-family: monospace;
+  font-size: 10px;
+  color: #888888;
+}
+
+.nzz-field-group {
+  margin-bottom: 16px;
+}
+
+.nzz-text-input, .nzz-textarea {
+  width: 100%;
+  border: 1px solid #d4d4d8;
+  background: #ffffff;
+  color: #111111;
+  padding: 8px 12px;
+  outline: none;
+  font-family: inherit;
+  transition: border-color 0.15s ease;
+}
+
+.nzz-text-input:focus, .nzz-textarea:focus {
+  border-color: #111111;
+  box-shadow: 0 0 0 1px #111111;
+}
+
+.nzz-dialog-actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.nzz-btn-cancel {
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+  color: #555555;
+  padding: 8px 16px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.nzz-btn-cancel:hover {
+  background: #f5f5f5;
+  color: #111111;
+}
+
+.nzz-btn-submit-red {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: #d80000;
+  border: none;
+  color: #ffffff;
+  padding: 8px 18px;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+
+.nzz-btn-submit-red:hover {
+  background: #b50000;
+}
+
+.nzz-file-dropzone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px dashed #d4d4d8;
+  padding: 2.5rem 1.5rem;
+  background: #fafafa;
+  cursor: pointer;
+  text-align: center;
+  margin-bottom: 16px;
+  transition: all 0.15s ease;
+}
+
+.nzz-file-dropzone:hover {
+  background: #f4f4f5;
+  border-color: #a1a1aa;
+}
+
+.nzz-file-dropzone input[type="file"] {
+  display: none;
+}
+
+.nzz-dialog-hint {
+  font-size: 12px;
+  color: #71717a;
+  line-height: 1.4;
+  margin-bottom: 16px;
+}
+
+.nzz-btn-lint {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: #ffffff;
+  border: 1px solid #d4d4d8;
+  color: #111111;
+  padding: 7px 12px;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.nzz-btn-lint:hover {
+  background: #f4f4f5;
+}
+
+/* ==========================================================================
+   8. NZZ BROADSHEET INLINE GRAPHICS, CHARTS & MEDIA
+   Zero border-radius, clean white cards, hairline borders, Swiss cartography
+   ========================================================================== */
+.existing-visual, .inserted-visual {
+  margin: 2rem 0;
+  padding: 1.5rem;
+  border: 1px solid #e5e5e5;
+  border-radius: 0;
+  background: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+}
+
+.existing-visual-heading strong, .inserted-visual figcaption h3 {
+  font-family: var(--font-serif);
+  font-size: 19px;
+  font-weight: 700;
+  color: #111111;
+  line-height: 1.25;
+}
+
+.existing-visual-heading p, .inserted-visual figcaption p {
+  font-size: 13px;
+  color: #555555;
+  margin-top: 4px;
+}
+
+.existing-visual-heading > span, .generated--visual-label {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #d80000;
+}
+
+.visual-plain-summary {
+  font-size: 12px;
+  color: #666666;
+  background: #fafafa;
+  padding: 8px 12px;
+  border-left: 3px solid #d80000;
+  margin-top: 12px;
+}
+
+.visual-source, .existing-visual figcaption {
+  font-size: 11px;
+  color: #888888;
+  border-top: 1px solid #eeeeee;
+  padding-top: 8px;
+  margin-top: 12px;
+}
+
+.visual-source a, .existing-visual figcaption a {
+  color: #111111;
+  text-decoration: underline;
+}
+
+.existing-table-wrap table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.existing-table-wrap th {
+  background: #f4f4f5;
+  color: #111111;
+  font-weight: 700;
+  text-align: left;
+  padding: 8px 10px;
+  border-bottom: 2px solid #e5e5e5;
+}
+
+.existing-table-wrap td {
+  padding: 8px 10px;
+  border-bottom: 1px solid #eeeeee;
+  color: #333333;
+}
+
+.article-inline-figure {
+  margin: 2rem 0;
+  border-radius: 0;
+}
+
+.article-inline-figure img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: 0;
+}
+
+.article-inline-figure figcaption {
+  font-size: 12px;
+  color: #666666;
+  padding: 6px 0 0;
+  border-bottom: 1px solid #eeeeee;
+  padding-bottom: 6px;
+}
+
+/* Journalist Image Upload Section in Article Modal */
+.nzz-image-upload-section {
+  border: 1px solid #e4e4e0;
+  background: #fbfbfa;
+  padding: 14px;
+  margin-bottom: 16px;
+  border-radius: 2px;
+}
+
+.nzz-image-upload-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 6px;
+}
+
+.nzz-image-upload-title {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #111111;
+}
+
+.nzz-image-upload-desc {
+  font-size: 12px;
+  color: #666666;
+  margin-bottom: 12px;
+  line-height: 1.4;
+}
+
+.nzz-image-dropzone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px dashed #d4d4d0;
+  padding: 18px 12px;
+  background: #ffffff;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 2px;
+  transition: all 0.15s ease;
+  margin-bottom: 10px;
+}
+
+.nzz-image-dropzone:hover {
+  background: #fdfdfc;
+  border-color: #111111;
+}
+
+.nzz-image-dropzone input[type="file"] {
+  display: none;
+}
+
+.nzz-image-preview-wrap {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  max-height: 200px;
+  overflow: hidden;
+  border: 1px solid #d4d4d0;
+  margin-bottom: 10px;
+  background: #000000;
+}
+
+.nzz-image-preview-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.nzz-image-remove-btn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: rgba(17, 17, 17, 0.85);
+  color: #ffffff;
+  border: none;
+  border-radius: 2px;
+  width: 26px;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+
+.nzz-image-remove-btn:hover {
+  background: #d80000;
+}
+
+.nzz-image-meta-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  margin-top: 8px;
+}

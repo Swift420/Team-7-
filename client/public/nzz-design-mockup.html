@@ -1,0 +1,1903 @@
+<!DOCTYPE html>
+<html lang="en" class="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NZZ – Neue Zürcher Zeitung | English Digital Design System & Liquid Story Engine</title>
+  
+  <!-- Preconnect and Google Fonts: Editorial Serif (Newsreader / Playfair) + Swiss Sans (Inter) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,500&display=swap" rel="stylesheet">
+  
+  <style>
+    /* ==========================================================================
+       OFFICIAL NZZ DESIGN TOKENS (Extracted from nzz.ch production stylesheets)
+       ========================================================================== */
+    :root {
+      /* Paper Palette (Light Mode) */
+      --paper-25: #fafafa;
+      --paper-50: #f5f5f5;
+      --paper-100: #f0f0f0;
+      --paper-200: #dedede;
+      --paper-300: #bfbfbf;
+      --paper-500: #717171;
+      --paper-700: #434343;
+      --paper-900: #272727;
+      --paper-950: #121212;
+      
+      /* NZZ Brand Accents */
+      --nzz-red: #d80000;
+      --nzz-red-hover: #b80000;
+      --nzz-sand: #e3c068;
+      --nzz-lavender: #e1dce6;
+      
+      /* Typography */
+      --font-serif: 'Newsreader', 'NZZ Serif', 'Iowan Old Style', 'Apple Garamond', Baskerville, Georgia, serif;
+      --font-sans: 'Inter', 'NZZ Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      
+      /* Theming variables */
+      --bg-page: var(--paper-50);
+      --bg-card: #ffffff;
+      --bg-surface-elevated: #ffffff;
+      --text-primary: var(--paper-950);
+      --text-secondary: var(--paper-700);
+      --text-muted: var(--paper-500);
+      --border-subtle: var(--paper-200);
+      --border-hairline: rgba(0, 0, 0, 0.08);
+      --quote-bg: #f4f4f6;
+      --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.05);
+      --shadow-card: 0 8px 30px rgba(0, 0, 0, 0.08);
+      --header-bg: #ffffff;
+    }
+
+    html.dark {
+      /* Paper Palette (Dark Mode - nzz darknzz) */
+      --bg-page: #111111;
+      --bg-card: #191919;
+      --bg-surface-elevated: #222222;
+      --text-primary: #f5f5f5;
+      --text-secondary: #c8c8c8;
+      --text-muted: #888888;
+      --border-subtle: #2a2a2a;
+      --border-hairline: rgba(255, 255, 255, 0.1);
+      --quote-bg: #222222;
+      --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.3);
+      --shadow-card: 0 12px 40px rgba(0, 0, 0, 0.45);
+      --header-bg: #111111;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg-page);
+      color: var(--text-primary);
+      font-family: var(--font-sans);
+      font-size: 15px;
+      line-height: 1.5;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      transition: background-color 0.25s ease, color 0.25s ease;
+    }
+
+    /* Container matching NZZ 1200px max grid */
+    .nzz-layout-container {
+      max-width: 1220px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    /* ==========================================================================
+       PROTOTYPE CONTROL BAR (Fixed floating HUD for reviewing the design system)
+       ========================================================================== */
+    .prototype-hud {
+      background-color: #1a1a1a;
+      color: #f0f0f0;
+      padding: 10px 20px;
+      font-size: 13px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 2px solid var(--nzz-red);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    .hud-left {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .hud-pill {
+      background: var(--nzz-red);
+      color: #ffffff;
+      padding: 2px 8px;
+      border-radius: 3px;
+      font-weight: 700;
+      font-size: 11px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+    .hud-title {
+      font-weight: 600;
+      letter-spacing: -0.01em;
+    }
+    .hud-controls {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .btn-hud {
+      background: #2a2a2a;
+      color: #fff;
+      border: 1px solid #444;
+      padding: 5px 12px;
+      border-radius: 4px;
+      font-size: 12px;
+      font-weight: 500;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      transition: all 0.2s ease;
+    }
+    .btn-hud:hover {
+      background: #383838;
+      border-color: #666;
+    }
+    .btn-hud.active {
+      background: #ffffff;
+      color: #000;
+      border-color: #fff;
+    }
+
+    /* ==========================================================================
+       OFFICIAL NZZ HEADER
+       ========================================================================== */
+    .nzz-header {
+      background-color: var(--header-bg);
+      border-bottom: 1px solid var(--border-subtle);
+      transition: background-color 0.25s ease;
+    }
+    .nzz-top-utility {
+      border-bottom: 1px solid var(--border-hairline);
+      padding: 8px 0;
+      font-size: 12px;
+      color: var(--text-muted);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .nzz-top-utility-links {
+      display: flex;
+      gap: 18px;
+      list-style: none;
+    }
+    .nzz-top-utility-links a {
+      color: var(--text-muted);
+      text-decoration: none;
+      transition: color 0.15s ease;
+    }
+    .nzz-top-utility-links a:hover {
+      color: var(--text-primary);
+    }
+    .edition-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-weight: 600;
+      color: var(--text-primary);
+    }
+    .edition-badge::before {
+      content: '';
+      width: 6px;
+      height: 6px;
+      background: var(--nzz-red);
+      border-radius: 50%;
+    }
+
+    /* Masthead */
+    .nzz-masthead {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 18px 0;
+      position: relative;
+    }
+    .masthead-left {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+    .btn-menu {
+      background: none;
+      border: none;
+      cursor: pointer;
+      color: var(--text-primary);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 13px;
+      font-weight: 600;
+      padding: 6px 10px;
+      border-radius: 4px;
+      transition: background 0.15s ease;
+    }
+    .btn-menu:hover {
+      background: var(--paper-100);
+    }
+    html.dark .btn-menu:hover {
+      background: #252525;
+    }
+
+    /* Search input */
+    .nzz-search-box {
+      display: flex;
+      align-items: center;
+      background: var(--paper-50);
+      border: 1px solid var(--border-subtle);
+      border-radius: 20px;
+      padding: 6px 14px;
+      width: 240px;
+      transition: all 0.2s ease;
+    }
+    html.dark .nzz-search-box {
+      background: #1f1f1f;
+      border-color: #333;
+    }
+    .nzz-search-box:focus-within {
+      width: 280px;
+      border-color: var(--text-primary);
+    }
+    .nzz-search-input {
+      border: none;
+      background: none;
+      outline: none;
+      color: var(--text-primary);
+      font-size: 12px;
+      margin-left: 8px;
+      width: 100%;
+    }
+
+    /* Centered Gothic Logo */
+    .masthead-center {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+    .nzz-logo-svg {
+      width: 120px;
+      height: 42px;
+      fill: var(--text-primary);
+      transition: fill 0.25s ease;
+    }
+    .masthead-tagline {
+      font-size: 11px;
+      color: var(--text-muted);
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      margin-top: 2px;
+      font-family: var(--font-sans);
+    }
+
+    .masthead-right {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+    .btn-secondary-action {
+      background: transparent;
+      border: 1px solid var(--border-subtle);
+      color: var(--text-primary);
+      padding: 6px 14px;
+      border-radius: 4px;
+      font-size: 13px;
+      font-weight: 500;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      transition: all 0.2s ease;
+    }
+    .btn-secondary-action:hover {
+      border-color: var(--text-primary);
+    }
+    .btn-primary-action {
+      background: var(--text-primary);
+      color: var(--bg-page);
+      border: 1px solid var(--text-primary);
+      padding: 6px 16px;
+      border-radius: 4px;
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: opacity 0.2s ease;
+    }
+    .btn-primary-action:hover {
+      opacity: 0.88;
+    }
+
+    /* Section Navigation */
+    .nzz-nav-bar {
+      border-top: 1px solid var(--border-hairline);
+      position: sticky;
+      top: 45px;
+      background: var(--header-bg);
+      z-index: 90;
+      transition: background-color 0.25s ease;
+    }
+    .section-tabs-wrapper {
+      display: flex;
+      align-items: center;
+      list-style: none;
+      overflow-x: auto;
+      white-space: nowrap;
+      gap: 24px;
+      height: 46px;
+      scrollbar-width: none;
+    }
+    .section-tabs-wrapper::-webkit-scrollbar { display: none; }
+    .section-tab-link {
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--text-secondary);
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      height: 46px;
+      position: relative;
+      transition: color 0.2s ease;
+    }
+    .section-tab-link:hover {
+      color: var(--text-primary);
+    }
+    .section-tab-link.active {
+      color: var(--text-primary);
+      font-weight: 700;
+    }
+    .section-tab-link.active::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 2px;
+      background: var(--nzz-red);
+    }
+    .section-tab-link.accent-badge {
+      color: var(--nzz-red);
+      font-weight: 600;
+    }
+
+    /* ==========================================================================
+       EDITORIAL HERO GRID (2/3 + 1/3 Authentic NZZ Structure)
+       ========================================================================== */
+    .editorial-hero-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 36px;
+      margin-top: 28px;
+      margin-bottom: 48px;
+    }
+    @media (min-width: 960px) {
+      .editorial-hero-grid {
+        grid-template-columns: 2fr 1fr;
+        gap: 0;
+      }
+      .col-lead-story {
+        padding-right: 36px;
+        border-right: 1px solid var(--border-subtle);
+      }
+      .col-side-stories {
+        padding-left: 36px;
+      }
+    }
+
+    /* Kicker Pill */
+    .editorial-kicker {
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--nzz-red);
+      margin-bottom: 8px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .kicker-square {
+      width: 5px;
+      height: 5px;
+      background: var(--nzz-red);
+      display: inline-block;
+    }
+
+    /* Lead Story Typography (Adhering to English Style Guide) */
+    .lead-headline {
+      font-family: var(--font-serif);
+      font-size: 36px;
+      line-height: 1.15;
+      font-weight: 600;
+      letter-spacing: -0.015em;
+      color: var(--text-primary);
+      margin-bottom: 14px;
+    }
+    .lead-headline a {
+      color: inherit;
+      text-decoration: none;
+      transition: opacity 0.2s ease;
+    }
+    .lead-headline a:hover {
+      opacity: 0.75;
+    }
+    .lead-standfirst {
+      font-family: var(--font-sans);
+      font-size: 16px;
+      line-height: 1.5;
+      color: var(--text-secondary);
+      margin-bottom: 16px;
+      font-weight: 400;
+    }
+    .lead-metadata-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 12px;
+      color: var(--text-muted);
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border-hairline);
+      margin-bottom: 20px;
+    }
+    .metadata-author {
+      font-weight: 600;
+      color: var(--text-primary);
+    }
+    .btn-bookmark {
+      background: none;
+      border: none;
+      color: var(--text-muted);
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      padding: 4px;
+      transition: color 0.15s ease;
+    }
+    .btn-bookmark:hover {
+      color: var(--text-primary);
+    }
+
+    /* Lead Image */
+    .lead-media-container {
+      position: relative;
+      border-radius: 4px;
+      overflow: hidden;
+      margin-bottom: 12px;
+      aspect-ratio: 16 / 9;
+      background: #222;
+    }
+    .lead-media-container img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.4s ease;
+    }
+    .lead-media-container:hover img {
+      transform: scale(1.02);
+    }
+    .media-caption {
+      font-size: 12px;
+      color: var(--text-muted);
+      line-height: 1.4;
+      margin-bottom: 24px;
+    }
+
+    /* ==========================================================================
+       HACKATHON LIQUID STORY ENGINE DERIVATIVES
+       (Executive Brief + Audio Brief + 4:5 Multimodal Studio)
+       ========================================================================== */
+    .liquid-derivatives-panel {
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      border-radius: 6px;
+      padding: 20px;
+      margin: 24px 0 32px 0;
+      box-shadow: var(--shadow-sm);
+    }
+    .liquid-panel-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 16px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--border-subtle);
+    }
+    .liquid-badge-group {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .liquid-chip {
+      background: rgba(216, 0, 0, 0.09);
+      color: var(--nzz-red);
+      font-weight: 700;
+      font-size: 11px;
+      padding: 3px 8px;
+      border-radius: 3px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+    .liquid-panel-title {
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--text-primary);
+      font-family: var(--font-sans);
+    }
+
+    /* 60s Audio Player */
+    .audio-brief-player {
+      background: var(--paper-100);
+      border-radius: 6px;
+      padding: 12px 16px;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      margin-bottom: 18px;
+    }
+    html.dark .audio-brief-player {
+      background: #202020;
+    }
+    .btn-audio-play {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      background: var(--nzz-red);
+      border: none;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      flex-shrink: 0;
+      transition: transform 0.15s ease;
+    }
+    .btn-audio-play:hover {
+      transform: scale(1.06);
+    }
+    .audio-info {
+      flex: 1;
+    }
+    .audio-title-row {
+      display: flex;
+      justify-content: space-between;
+      font-size: 12px;
+      margin-bottom: 6px;
+    }
+    .audio-title {
+      font-weight: 600;
+      color: var(--text-primary);
+    }
+    .audio-time {
+      color: var(--text-muted);
+      font-variant-numeric: tabular-nums;
+    }
+    .audio-scrubber {
+      height: 4px;
+      background: var(--paper-300);
+      border-radius: 2px;
+      position: relative;
+      overflow: hidden;
+    }
+    html.dark .audio-scrubber {
+      background: #444;
+    }
+    .audio-progress {
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      width: 38%;
+      background: var(--nzz-red);
+    }
+    .audio-voice-badge {
+      font-size: 11px;
+      color: var(--text-muted);
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    /* Executive Brief (At a Glance: The 3 Defining Takeaways) */
+    .executive-brief-card {
+      border-left: 3px solid var(--nzz-red);
+      background: var(--paper-50);
+      padding: 14px 18px;
+      border-radius: 0 4px 4px 0;
+      margin-bottom: 20px;
+    }
+    html.dark .executive-brief-card {
+      background: #1e1e1e;
+    }
+    .brief-heading-row {
+      display: flex;
+      justify-content: space-between;
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--text-muted);
+      margin-bottom: 10px;
+    }
+    .brief-bullets {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .brief-bullet-item {
+      display: flex;
+      gap: 10px;
+      font-size: 13.5px;
+      line-height: 1.45;
+      color: var(--text-secondary);
+    }
+    .bullet-num {
+      width: 18px;
+      height: 18px;
+      border-radius: 50%;
+      background: var(--paper-200);
+      color: var(--paper-900);
+      font-size: 11px;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      margin-top: 1px;
+    }
+    html.dark .bullet-num {
+      background: #333;
+      color: #eee;
+    }
+    .brief-bullet-item strong {
+      color: var(--text-primary);
+    }
+
+    /* ==========================================================================
+       AUTHENTIC NZZ 4:5 CAROUSEL VIEWER (From Inspo/PHOTO-2026-09-08-23-30-23.jpg)
+       ========================================================================== */
+    .carousel-section-wrap {
+      margin: 40px 0 20px 0;
+      padding: 28px;
+      background: var(--quote-bg);
+      border-radius: 8px;
+      border: 1px solid var(--border-subtle);
+    }
+    .carousel-section-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      margin-bottom: 20px;
+    }
+    .carousel-section-title {
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--text-primary);
+      font-family: var(--font-sans);
+    }
+    .carousel-section-sub {
+      font-size: 13px;
+      color: var(--text-muted);
+      margin-top: 4px;
+    }
+    .carousel-nav-buttons {
+      display: flex;
+      gap: 8px;
+    }
+    .btn-carousel-ctrl {
+      width: 34px;
+      height: 34px;
+      border-radius: 50%;
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      color: var(--text-primary);
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.15s ease;
+    }
+    .btn-carousel-ctrl:hover {
+      border-color: var(--text-primary);
+      transform: scale(1.05);
+    }
+
+    /* 4-Card Studio View (Exact replica of PHOTO-2026-09-08-23-30-23.jpg) */
+    .inspo-cards-strip {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 18px;
+      margin-bottom: 16px;
+    }
+    @media (max-width: 900px) {
+      .inspo-cards-strip {
+        display: flex;
+        overflow-x: auto;
+        padding-bottom: 12px;
+        scroll-snap-type: x mandatory;
+      }
+      .inspo-card {
+        flex: 0 0 280px;
+        scroll-snap-align: start;
+      }
+    }
+
+    .inspo-card {
+      background: #ffffff;
+      color: #121212;
+      border-radius: 6px;
+      padding: 16px;
+      box-shadow: 0 4px 18px rgba(0, 0, 0, 0.07);
+      border: 1px solid rgba(0, 0, 0, 0.08);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      min-height: 380px;
+      position: relative;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .inspo-card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+    }
+    html.dark .inspo-card {
+      background: #1c1c1c;
+      color: #f5f5f5;
+      border-color: #333;
+      box-shadow: 0 4px 18px rgba(0, 0, 0, 0.4);
+    }
+
+    .inspo-card-header {
+      text-align: center;
+      padding-bottom: 10px;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+      margin-bottom: 12px;
+    }
+    html.dark .inspo-card-header {
+      border-bottom-color: rgba(255, 255, 255, 0.1);
+    }
+    .inspo-card-nzz {
+      font-family: var(--font-serif);
+      font-size: 15px;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+    }
+
+    .inspo-card-body {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Card 1: Hook */
+    .inspo-card-img-wrap {
+      width: 100%;
+      height: 140px;
+      border-radius: 3px;
+      overflow: hidden;
+      margin-bottom: 12px;
+    }
+    .inspo-card-img-wrap img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .inspo-card-title-1 {
+      font-family: var(--font-serif);
+      font-size: 14px;
+      line-height: 1.25;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: -0.01em;
+      margin-bottom: 8px;
+    }
+    .inspo-card-sub-1 {
+      font-size: 11.5px;
+      line-height: 1.4;
+      color: #555;
+    }
+    html.dark .inspo-card-sub-1 {
+      color: #aaa;
+    }
+
+    /* Card 2: Pull Quote & Context */
+    .inspo-card-context-text {
+      font-size: 11.5px;
+      line-height: 1.45;
+      color: #444;
+      margin-bottom: 10px;
+    }
+    html.dark .inspo-card-context-text {
+      color: #bbb;
+    }
+    .inspo-quote-box {
+      background: #f4f4f6;
+      border-radius: 4px;
+      padding: 10px;
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+    html.dark .inspo-quote-box {
+      background: #262626;
+    }
+    .inspo-quote-text {
+      font-family: var(--font-serif);
+      font-size: 12.5px;
+      font-weight: 600;
+      line-height: 1.35;
+      flex: 1;
+    }
+    .inspo-quote-thumb {
+      width: 44px;
+      height: 44px;
+      border-radius: 3px;
+      object-fit: cover;
+    }
+
+    /* Card 3: Infographic & Data */
+    .inspo-numbered-points {
+      font-size: 11px;
+      line-height: 1.4;
+      font-weight: 600;
+      margin-bottom: 12px;
+    }
+    .inspo-chart-wrap {
+      display: flex;
+      align-items: flex-end;
+      gap: 6px;
+      height: 80px;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 4px;
+      margin-bottom: 12px;
+    }
+    html.dark .inspo-chart-wrap {
+      border-bottom-color: #444;
+    }
+    .inspo-chart-bar-group {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 4px;
+    }
+    .inspo-bar {
+      width: 100%;
+      background: #111;
+      border-radius: 2px 2px 0 0;
+      transition: height 0.3s ease;
+    }
+    html.dark .inspo-bar {
+      background: #ddd;
+    }
+    .inspo-bar.highlight {
+      background: var(--nzz-red);
+    }
+    .inspo-bar-label {
+      font-size: 8.5px;
+      color: #777;
+    }
+    .stat-badge-callout {
+      background: #eef2f5;
+      padding: 6px 8px;
+      border-radius: 3px;
+      font-size: 11px;
+      display: flex;
+      justify-content: space-between;
+    }
+    html.dark .stat-badge-callout {
+      background: #262626;
+    }
+
+    /* Card 4: Verdict & CTA */
+    .inspo-verdict-title {
+      font-family: var(--font-serif);
+      font-size: 15px;
+      font-weight: 600;
+      line-height: 1.3;
+      margin-bottom: 20px;
+    }
+    .inspo-cta-action {
+      font-size: 13px;
+      font-weight: 800;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      margin-bottom: 14px;
+    }
+    .inspo-arrow-cta {
+      font-size: 24px;
+      line-height: 1;
+      margin-bottom: 20px;
+    }
+    .inspo-hashtags {
+      font-size: 10.5px;
+      color: #777;
+      line-height: 1.5;
+    }
+
+    /* Card Footers */
+    .inspo-card-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 10px;
+      border-top: 1px solid rgba(0, 0, 0, 0.06);
+      margin-top: 12px;
+      font-size: 11px;
+      color: #888;
+    }
+    html.dark .inspo-card-footer {
+      border-top-color: rgba(255, 255, 255, 0.08);
+    }
+    .progress-line-bottom {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      height: 3px;
+      background: var(--nzz-red);
+      border-radius: 0 0 0 6px;
+    }
+
+    /* ==========================================================================
+       RIGHT COLUMN (1/3 SIDE ARTICLES)
+       ========================================================================== */
+    .side-article-card {
+      padding-bottom: 20px;
+      margin-bottom: 20px;
+      border-bottom: 1px solid var(--border-subtle);
+    }
+    .side-article-card:last-child {
+      border-bottom: none;
+      padding-bottom: 0;
+      margin-bottom: 0;
+    }
+    .side-article-img-wrap {
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      border-radius: 3px;
+      overflow: hidden;
+      margin-bottom: 10px;
+      background: #222;
+    }
+    .side-article-img-wrap img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+    .opinion-author-header {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 8px;
+    }
+    .author-circle-portrait {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      object-fit: cover;
+      filter: grayscale(100%);
+    }
+    .side-article-headline {
+      font-family: var(--font-serif);
+      font-size: 18px;
+      line-height: 1.25;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin-bottom: 8px;
+    }
+    .side-article-headline a {
+      color: inherit;
+      text-decoration: none;
+      transition: opacity 0.15s ease;
+    }
+    .side-article-headline a:hover {
+      opacity: 0.7;
+    }
+    .side-article-standfirst {
+      font-size: 13.5px;
+      line-height: 1.45;
+      color: var(--text-secondary);
+      margin-bottom: 10px;
+    }
+    .side-article-meta {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 11.5px;
+      color: var(--text-muted);
+    }
+
+    /* ==========================================================================
+       3-COLUMN FEED GRID (Balancing Photography, Clean Layout, No Duplicates)
+       ========================================================================== */
+    .section-title-divider {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-top: 1px solid var(--text-primary);
+      padding-top: 16px;
+      margin-top: 48px;
+      margin-bottom: 24px;
+    }
+    .section-heading-text {
+      font-size: 20px;
+      font-weight: 600;
+      color: var(--text-primary);
+      font-family: var(--font-sans);
+    }
+    .feed-count-tag {
+      font-size: 12px;
+      color: var(--text-muted);
+    }
+
+    .editorial-cards-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 28px;
+      margin-bottom: 60px;
+    }
+
+    .feed-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      border-radius: 6px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      box-shadow: var(--shadow-sm);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .feed-card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 10px 28px rgba(0, 0, 0, 0.08);
+    }
+
+    /* Card Media Header */
+    .feed-card-media {
+      position: relative;
+      aspect-ratio: 16 / 9;
+      background: #111;
+      overflow: hidden;
+    }
+    .feed-card-media img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.35s ease;
+    }
+    .feed-card:hover .feed-card-media img {
+      transform: scale(1.03);
+    }
+    .feed-card-pill {
+      position: absolute;
+      top: 12px;
+      left: 12px;
+      background: var(--nzz-red);
+      color: #fff;
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      padding: 3px 8px;
+      border-radius: 3px;
+    }
+    .feed-carousel-badge {
+      position: absolute;
+      top: 12px;
+      right: 12px;
+      background: rgba(0, 0, 0, 0.7);
+      color: #fff;
+      font-size: 10px;
+      font-weight: 600;
+      padding: 3px 7px;
+      border-radius: 3px;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      backdrop-filter: blur(4px);
+    }
+
+    .feed-card-body {
+      padding: 18px;
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      justify-content: space-between;
+    }
+    .feed-headline {
+      font-family: var(--font-serif);
+      font-size: 20px;
+      line-height: 1.25;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin-bottom: 10px;
+    }
+    .feed-headline a {
+      color: inherit;
+      text-decoration: none;
+    }
+    .feed-headline a:hover {
+      opacity: 0.75;
+    }
+    .feed-summary {
+      font-size: 13.5px;
+      line-height: 1.48;
+      color: var(--text-secondary);
+      margin-bottom: 18px;
+    }
+    .feed-footer-meta {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 12px;
+      border-top: 1px solid var(--border-hairline);
+      font-size: 12px;
+      color: var(--text-muted);
+    }
+    .feed-action-link {
+      font-weight: 600;
+      color: var(--text-primary);
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      font-size: 12.5px;
+    }
+    .feed-action-link:hover {
+      color: var(--nzz-red);
+    }
+
+    /* ==========================================================================
+       SPECIFICATIONS & STYLE GUIDE DRAWER
+       ========================================================================== */
+    .styleguide-drawer {
+      background: var(--paper-100);
+      border-top: 2px solid var(--text-primary);
+      padding: 36px 0 60px 0;
+      font-size: 13px;
+      color: var(--text-secondary);
+      margin-top: 60px;
+    }
+    html.dark .styleguide-drawer {
+      background: #171717;
+    }
+    .styleguide-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 28px;
+    }
+    .styleguide-box {
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      border-radius: 6px;
+      padding: 18px;
+    }
+    .styleguide-box h4 {
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--text-primary);
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .styleguide-rule-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+    .rule-tag {
+      background: var(--nzz-red);
+      color: #fff;
+      font-size: 10px;
+      padding: 1px 5px;
+      border-radius: 2px;
+      font-weight: 700;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Floating Prototype HUD (Quick toggles for review) -->
+  <aside class="prototype-hud" aria-label="Prototype Controls">
+    <div class="hud-left">
+      <span class="hud-pill">NZZ • Hackathon 2026</span>
+      <span class="hud-title">Liquid Story Engine Design System (English Edition)</span>
+    </div>
+    <div class="hud-controls">
+      <button class="btn-hud" id="theme-toggle" onclick="toggleTheme()">
+        <span id="theme-icon">🌙</span>
+        <span id="theme-label">Dark Mode</span>
+      </button>
+      <button class="btn-hud" onclick="scrollToElement('inspo-carousel-viewer')">
+        <span>📸 4:5 Inspo Viewer</span>
+      </button>
+      <button class="btn-hud" onclick="scrollToElement('feed-grid-preview')">
+        <span>📰 Article Cards</span>
+      </button>
+      <a href="http://localhost:5173" class="btn-hud" style="text-decoration: none;">
+        <span>🚀 Open React App</span>
+      </a>
+    </div>
+  </aside>
+
+  <!-- NZZ Official Header -->
+  <header class="nzz-header">
+    <div class="nzz-layout-container">
+      
+      <!-- Utility Bar -->
+      <div class="nzz-top-utility">
+        <ul class="nzz-top-utility-links">
+          <li><span class="edition-badge">NZZ in English</span></li>
+          <li><a href="#geopolitics">Geopolitics &amp; Defense</a></li>
+          <li><a href="#economy">Global Economy</a></li>
+          <li><a href="#technology">Tech &amp; AI</a></li>
+          <li><a href="#opinion">Opinion &amp; Analysis</a></li>
+        </ul>
+        <div style="display: flex; gap: 16px; align-items: center;">
+          <span>Wednesday, Sept. 9, 2026</span>
+          <span style="color: var(--nzz-red); font-weight: 600;">Windhoek Opera House</span>
+        </div>
+      </div>
+
+      <!-- Masthead with Authentic Gothic Fraktur Logo -->
+      <div class="nzz-masthead">
+        <div class="masthead-left">
+          <button class="btn-menu" aria-label="Open navigation menu">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="3" y1="12" x2="21" y2="12"></line>
+              <line x1="3" y1="6" x2="21" y2="6"></line>
+              <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
+            <span>Sections</span>
+          </button>
+          
+          <div class="nzz-search-box">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+            <input type="text" placeholder="Search NZZ in English…" class="nzz-search-input" />
+          </div>
+        </div>
+
+        <!-- Center: Authentic NZZ SVG Logo -->
+        <div class="masthead-center">
+          <a href="#" style="display: inline-block;">
+            <svg class="nzz-logo-svg" viewBox="0 0 283.46 99.75" xmlns="http://www.w3.org/2000/svg">
+              <path d="M162.93,106.3a56,56,0,0,1,6.81.55c6.29.88,7,4.56,7.29,7.29.69,4.81,1,12.11,1,23.67v31.1L119.43,99.7H96.38v6.55s7,.1,10.24,2.37c6,4.19,5.43,8.19,5.43,16.25V156.5c0,10.51-.28,18.51-.86,24.45-.33,3.2-1.33,5.78-4.65,7.08-2.78,1.09-8,1.15-8,1.15v6.58h36.7v-6.57s-6-.13-9.07-1.27c-3.58-1.32-4.41-3.88-4.74-7.26-.58-5.55-.86-13.45-.86-24.16V123.72l59.59,72.14h6.39V137.81c0-12.44.25-19.44.86-24.17.22-2.36,1.16-4.87,3.66-6,3.21-1.39,8.42-1.4,8.42-1.4V99.7H162.93Zm210.36,61.34s-3.32,10.34-8,15.42c-3.81,4.12-14,4.9-30.26,4.9-8,0-13.4-.18-17.93-.62l60.74-84.2L376.1,99.7H316.65c-5.35,0-5.35-.89-6.82-3.59h-5.5C303.86,109,302.45,125,302.45,125l6.57.23a57.87,57.87,0,0,1,3.82-10.8c3-6.11,4.44-6.89,19.77-6.92H357l-61.56,84.7,1.9,3.56h76.83c2.24-8.28,5.7-26.77,5.7-26.77Zm-98.87,15.42c-3.81,4.12-14,4.9-30.27,4.9-8,0-13.4-.18-17.92-.62L287,103.14l-1.72-3.44H225.8c-5.36,0-5.36-.89-6.82-3.59h-5.5C213,109,211.59,125,211.59,125l6.58.23a57.87,57.87,0,0,1,3.82-10.8c3-6.11,4.44-6.89,19.77-6.92h24.36l-61.56,84.7,1.89,3.56h76.84C285.53,187.48,289,169,289,169l-6.55-1.35S279.11,178,274.42,183.06Z" transform="translate(-96.38 -96.11)"/>
+            </svg>
+          </a>
+          <div class="masthead-tagline">The independent Swiss view</div>
+        </div>
+
+        <div class="masthead-right">
+          <button class="btn-secondary-action">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/>
+            </svg>
+            <span>Audio Briefs</span>
+          </button>
+          <button class="btn-primary-action">
+            <span>Editor Studio</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Navigation Section Tabs -->
+      <nav class="nzz-nav-bar" aria-label="Main Editorial Sections">
+        <ul class="section-tabs-wrapper">
+          <li><a href="#" class="section-tab-link active">All Articles</a></li>
+          <li><a href="#" class="section-tab-link">Geopolitics &amp; Security</a></li>
+          <li><a href="#" class="section-tab-link">Business &amp; Finance</a></li>
+          <li><a href="#" class="section-tab-link">Technology &amp; AI</a></li>
+          <li><a href="#" class="section-tab-link">Climate &amp; Science</a></li>
+          <li><a href="#" class="section-tab-link">Opinion &amp; Essays</a></li>
+          <li><a href="#inspo-carousel-viewer" class="section-tab-link accent-badge">✨ Liquid Story Engine</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Newspaper Grid -->
+  <main class="nzz-layout-container">
+    <div class="editorial-hero-grid">
+
+      <!-- ====================================================================
+           LEFT COLUMN: 2/3 HERO STORY (Compliant with English Style Guide)
+           ==================================================================== -->
+      <section class="col-lead-story">
+        <article>
+          <!-- Kicker -->
+          <div class="editorial-kicker">
+            <span class="kicker-square"></span>
+            <span>Technology &amp; Attention Economy</span>
+          </div>
+
+          <!-- Headline: Sentence case, present tense, no terminal period -->
+          <h1 class="lead-headline">
+            <a href="#">Smartphones rewire human attention: Silicon Valley faces a generational reckoning</a>
+          </h1>
+
+          <!-- Standfirst Deck: US English, sharp analytical framing -->
+          <p class="lead-standfirst">
+            Over 5.4 billion connected devices now govern daily human cognition. As hardware innovation plateaus, multimodal AI agents are preparing to dismantle the touchscreen paradigm altogether.
+          </p>
+
+          <!-- Byline and Metadata -->
+          <div class="lead-metadata-row">
+            <div>
+              <span class="metadata-author">Teofilus Shaduka</span>
+              <span style="margin: 0 6px;">•</span>
+              <time datetime="2026-09-09">Sept. 9, 2026</time>
+              <span style="margin: 0 6px;">•</span>
+              <span>7 min read</span>
+            </div>
+            <button class="btn-bookmark" aria-label="Bookmark article" title="Save to reading list">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path>
+              </svg>
+            </button>
+          </div>
+
+          <!-- Editorial Photography (Unsplash high-resolution editorial portrait) -->
+          <div class="lead-media-container">
+            <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=1400&q=85" alt="Hand holding a glowing smartphone in low ambient light" />
+          </div>
+          <p class="media-caption">
+            The ubiquity of the screen: What began as an auxiliary communication device has transformed into the nervous system of modern commerce, politics and private life. (Photo: NZZ / Editorial Archives)
+          </p>
+
+          <!-- ================================================================
+               STREAM 2: LIQUID STORY ENGINE INTEGRATION
+               ================================================================ -->
+          <div class="liquid-derivatives-panel">
+            <div class="liquid-panel-header">
+              <div class="liquid-badge-group">
+                <span class="liquid-chip">Liquid Story Engine</span>
+                <span class="liquid-panel-title">Multimodal Dossier &amp; Derivative Briefs</span>
+              </div>
+              <span style="font-size: 11px; color: var(--text-muted);">Stream 2 • Google Cloud Hackathon</span>
+            </div>
+
+            <!-- 60-Second Audio Brief Player -->
+            <div class="audio-brief-player">
+              <button class="btn-audio-play" aria-label="Play 60-second audio brief" onclick="toggleAudioDemo(this)">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+                  <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                </svg>
+              </button>
+              <div class="audio-info">
+                <div class="audio-title-row">
+                  <span class="audio-title">60s Audio Brief • Silicon Valley's Next Platform Shift</span>
+                  <span class="audio-time" id="audio-timer">0:24 / 1:00</span>
+                </div>
+                <div class="audio-scrubber">
+                  <div class="audio-progress"></div>
+                </div>
+              </div>
+              <div class="audio-voice-badge">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"></path>
+                  <path d="M19 10v2a7 7 0 0 1-14 0v-2"></path>
+                </svg>
+                <span>en-US-Journey-F</span>
+              </div>
+            </div>
+
+            <!-- Executive Brief (At a Glance: The 3 Defining Takeaways) -->
+            <div class="executive-brief-card">
+              <div class="brief-heading-row">
+                <span>At a Glance — 3 Defining Takeaways</span>
+                <span>Executive Brief • &lt;90 Words</span>
+              </div>
+              <ul class="brief-bullets">
+                <li class="brief-bullet-item">
+                  <span class="bullet-num">1</span>
+                  <div>
+                    <strong>Attention monopoly under pressure:</strong> Average daily screen engagement has surpassed four hours globally, driven by recommendation algorithms that face mounting regulatory headwind.
+                  </div>
+                </li>
+                <li class="brief-bullet-item">
+                  <span class="bullet-num">2</span>
+                  <div>
+                    <strong>Hardware saturation:</strong> Annual unit upgrade cycles are lengthening to historic highs; enterprise profitability has migrated decisively toward cloud infrastructure and subscription services.
+                  </div>
+                </li>
+                <li class="brief-bullet-item">
+                  <span class="bullet-num">3</span>
+                  <div>
+                    <strong>The agentic transition:</strong> Autonomous multimodal models are poised to eliminate manual app tapping, substituting intent-driven agent orchestration for traditional user interfaces.
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <!-- ====================================================================
+           RIGHT COLUMN: 1/3 SIDE STORIES (Authentic NZZ Teaser Hierarchy)
+           ==================================================================== -->
+      <aside class="col-side-stories" aria-label="Secondary Articles">
+        
+        <!-- Side Story 1: Geopolitics -->
+        <article class="side-article-card">
+          <div class="editorial-kicker">
+            <span class="kicker-square"></span>
+            <span>Geopolitics &amp; Defense</span>
+          </div>
+          <div class="side-article-img-wrap">
+            <img src="https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&w=700&q=80" alt="Military fortifications and terrain" />
+          </div>
+          <h2 class="side-article-headline">
+            <a href="#">As Russia encircles key defensive city, Ukraine faces its most severe test in years</a>
+          </h2>
+          <p class="side-article-standfirst">
+            The battle for Pokrovsk forces military planners in Kyiv into a painful trade-off between attrition in place and orderly withdrawal.
+          </p>
+          <div class="side-article-meta">
+            <span>Andreas Rüesch</span>
+            <div style="display: flex; align-items: center; gap: 8px;">
+              <span>5 min read</span>
+              <button class="btn-bookmark" aria-label="Save">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Side Story 2: Opinion with Author Headshot -->
+        <article class="side-article-card">
+          <div class="editorial-kicker">
+            <span class="kicker-square"></span>
+            <span>Opinion &amp; Strategy</span>
+          </div>
+          <div class="opinion-author-header">
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=120&q=80" alt="Peter Rásonyi" class="author-circle-portrait" />
+            <div>
+              <div style="font-weight: 700; font-size: 13px;">Peter Rásonyi</div>
+              <div style="font-size: 11px; color: var(--text-muted);">Senior Economics Editor, Zurich</div>
+            </div>
+          </div>
+          <h2 class="side-article-headline">
+            <a href="#">It’s high time for the US to say goodbye to the peace dividend</a>
+          </h2>
+          <p class="side-article-standfirst">
+            While Beijing rapidly modernizes naval firepower, Western defense procurement remains trapped in bureaucratic inertia.
+          </p>
+          <div class="side-article-meta">
+            <span>July 29, 2025</span>
+            <div style="display: flex; align-items: center; gap: 8px;">
+              <span>8 min read</span>
+              <button class="btn-bookmark" aria-label="Save">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Side Story 3: Trade Policy -->
+        <article class="side-article-card">
+          <div class="editorial-kicker">
+            <span class="kicker-square"></span>
+            <span>Global Trade</span>
+          </div>
+          <div class="side-article-img-wrap">
+            <img src="https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=700&q=80" alt="Container shipping port and world trade" />
+          </div>
+          <h2 class="side-article-headline">
+            <a href="#">Three takes on Trump’s tariff deal with the European Union</a>
+          </h2>
+          <p class="side-article-standfirst">
+            Why Brussels opted for strategic de-escalation over reciprocal duties, and what it signals for Swiss export manufacturing.
+          </p>
+          <div class="side-article-meta">
+            <span>Richard C. Schneider</span>
+            <div style="display: flex; align-items: center; gap: 8px;">
+              <span>6 min read</span>
+              <button class="btn-bookmark" aria-label="Save">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg>
+              </button>
+            </div>
+          </div>
+        </article>
+      </aside>
+    </div>
+
+    <!-- ======================================================================
+         AUTHENTIC NZZ 4-CARD / 7-SLIDE CAROUSEL SHOWCASE
+         (Faithfully recreating Inspo/PHOTO-2026-09-08-23-30-23.jpg in English)
+         ====================================================================== -->
+    <section class="carousel-section-wrap" id="inspo-carousel-viewer">
+      <div class="carousel-section-header">
+        <div>
+          <div class="editorial-kicker">
+            <span class="kicker-square"></span>
+            <span>Authentic Inspo Specification • PHOTO-2026-09-08-23-30-23.jpg</span>
+          </div>
+          <h2 class="carousel-section-title">The NZZ 4:5 Multimodal Editorial Deck</h2>
+          <p class="carousel-section-sub">
+            Exact structural reproduction of the 4 card states: Inset Cover Hook, Editorial Context &amp; Pull Quote, Data &amp; Infographic Chart, and Conversion CTA.
+          </p>
+        </div>
+        <div class="carousel-nav-buttons">
+          <button class="btn-carousel-ctrl" aria-label="Previous slide" onclick="rotateInspoDemo(-1)">‹</button>
+          <button class="btn-carousel-ctrl" aria-label="Next slide" onclick="rotateInspoDemo(1)">›</button>
+        </div>
+      </div>
+
+      <!-- 4 Inspo Cards Strip -->
+      <div class="inspo-cards-strip">
+
+        <!-- Slide 1: Cover / Hook -->
+        <div class="inspo-card">
+          <div class="inspo-card-header">
+            <div class="inspo-card-nzz">NZZ</div>
+          </div>
+          <div class="inspo-card-body">
+            <div class="inspo-card-img-wrap">
+              <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=500&q=80" alt="Official portrait" />
+            </div>
+            <h3 class="inspo-card-title-1">
+              THE PATH TOWARD A NEW SWISS DEFENSE DOCTRINE: AMHERD IN AN EXCLUSIVE INTERVIEW
+            </h3>
+            <p class="inspo-card-sub-1">
+              What you must know about the federal security mandate and the future of armed neutrality.
+            </p>
+          </div>
+          <div class="inspo-card-footer">
+            <span>1 / 4</span>
+            <span style="font-size: 10px; color: var(--nzz-red); font-weight: 700;">GEOPOLITICS</span>
+          </div>
+          <div class="progress-line-bottom" style="width: 25%;"></div>
+        </div>
+
+        <!-- Slide 2: Context & Pull Quote -->
+        <div class="inspo-card">
+          <div class="inspo-card-header">
+            <div class="inspo-card-nzz">NZZ</div>
+          </div>
+          <div class="inspo-card-body">
+            <p class="inspo-card-context-text">
+              «The threat landscape across Eastern Europe is severe, volatile and layered,» notes the federal defense audit presented in Bern this morning.
+            </p>
+            <div class="inspo-quote-box">
+              <div class="inspo-quote-text">
+                «The security environment has fundamentally deteriorated.»
+              </div>
+              <img src="https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&w=120&q=80" alt="Alpine bunker fortification" class="inspo-quote-thumb" />
+            </div>
+            <p class="inspo-card-context-text" style="font-size: 11px;">
+              Key findings mandate a 24% acceleration in defense procurement, intensified interoperability with NATO allies and comprehensive cyber resilience.
+            </p>
+          </div>
+          <div class="inspo-card-footer">
+            <span>2 / 4</span>
+            <span style="font-size: 10px; color: #888;">NZZ DOSSIER</span>
+          </div>
+          <div class="progress-line-bottom" style="width: 50%;"></div>
+        </div>
+
+        <!-- Slide 3: Data Infographic & Bar Chart -->
+        <div class="inspo-card">
+          <div class="inspo-card-header">
+            <div class="inspo-card-nzz">NZZ</div>
+          </div>
+          <div class="inspo-card-body">
+            <div class="inspo-numbered-points">
+              Key Strategic Pillars:<br>
+              1. Modernization of air and artillery assets<br>
+              2. Deepened European joint-training protocols<br>
+              3. Dedicated military cyber defense command
+            </div>
+
+            <!-- CSS Bar Chart (replicating the chart in PHOTO-2026-09-08-23-30-23.jpg) -->
+            <div style="font-size: 10px; color: #666; margin-bottom: 4px; font-weight: 600;">Defense budget (in bn. Swiss francs)</div>
+            <div class="inspo-chart-wrap">
+              <div class="inspo-chart-bar-group">
+                <div class="inspo-bar" style="height: 30%;"></div>
+                <span class="inspo-bar-label">'21</span>
+              </div>
+              <div class="inspo-chart-bar-group">
+                <div class="inspo-bar" style="height: 42%;"></div>
+                <span class="inspo-bar-label">'22</span>
+              </div>
+              <div class="inspo-chart-bar-group">
+                <div class="inspo-bar" style="height: 56%;"></div>
+                <span class="inspo-bar-label">'23</span>
+              </div>
+              <div class="inspo-chart-bar-group">
+                <div class="inspo-bar" style="height: 72%;"></div>
+                <span class="inspo-bar-label">'24</span>
+              </div>
+              <div class="inspo-chart-bar-group">
+                <div class="inspo-bar highlight" style="height: 95%;"></div>
+                <span class="inspo-bar-label" style="font-weight: 700; color: var(--nzz-red);">'26</span>
+              </div>
+            </div>
+
+            <div class="stat-badge-callout">
+              <span>Planned 2030 Ceiling:</span>
+              <strong>9.5 bn. francs</strong>
+            </div>
+          </div>
+          <div class="inspo-card-footer">
+            <span>3 / 4</span>
+            <span style="font-size: 10px; color: #888;">DATA &amp; METRICS</span>
+          </div>
+          <div class="progress-line-bottom" style="width: 75%;"></div>
+        </div>
+
+        <!-- Slide 4: Conclusion & Conversion CTA -->
+        <div class="inspo-card">
+          <div class="inspo-card-header">
+            <div class="inspo-card-nzz">NZZ</div>
+          </div>
+          <div class="inspo-card-body">
+            <h3 class="inspo-verdict-title">
+              Verdict: Switzerland must recalibrate its traditional neutrality for an era of geopolitical fracture.
+            </h3>
+            
+            <div class="inspo-cta-action">
+              READ THE COMPLETE DOSSIER ON NZZ.CH
+            </div>
+            
+            <div class="inspo-arrow-cta">←</div>
+
+            <div class="inspo-hashtags">
+              #NZZ #Geopolitics #SwissDefense #SecurityPolicy #Exclusive
+            </div>
+          </div>
+          <div class="inspo-card-footer">
+            <span>4 / 4</span>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path>
+            </svg>
+          </div>
+          <div class="progress-line-bottom" style="width: 100%;"></div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         ARTICLE FEED CARDS (Replacing duplicate text with genuine NZZ components)
+         ====================================================================== -->
+    <div class="section-title-divider" id="feed-grid-preview">
+      <h2 class="section-heading-text">Curated Feed • Data &amp; Content Personalisation</h2>
+      <span class="feed-count-tag">Showing 3 Editorial Feeds with Multimodal Artifacts</span>
+    </div>
+
+    <div class="editorial-cards-grid">
+      
+      <!-- Card 1: Smartphone Attention Article (Fixed: Balanced image, no duplicate text!) -->
+      <article class="feed-card">
+        <div class="feed-card-media">
+          <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=700&q=80" alt="Smartphone interface" />
+          <span class="feed-card-pill">Technology</span>
+          <span class="feed-carousel-badge">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M9 3v18"/></svg>
+            7 Slides
+          </span>
+        </div>
+        <div class="feed-card-body">
+          <div>
+            <h3 class="feed-headline">
+              <a href="#">Your smartphone is becoming a computer you wear in your pocket</a>
+            </h3>
+            <p class="feed-summary">
+              Smartphones have gradually evolved from communication devices into the central computing platforms of modern life. The next transformation is moving intelligence from app interfaces into autonomous background agents.
+            </p>
+          </div>
+          <div class="feed-footer-meta">
+            <div>
+              <span style="font-weight: 600; color: var(--text-primary);">Thomas Shafiixuna</span>
+              <div style="font-size: 11px;">Sept. 9, 2026 • 6 min</div>
+            </div>
+            <a href="#" class="feed-action-link">
+              <span>Explore Dossier</span>
+              <span>→</span>
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Card 2: Pokrovsk Defense Article -->
+      <article class="feed-card">
+        <div class="feed-card-media">
+          <img src="https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&w=700&q=80" alt="Defensive fortifications" />
+          <span class="feed-card-pill">Geopolitics</span>
+          <span class="feed-carousel-badge">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+            Audio Brief
+          </span>
+        </div>
+        <div class="feed-card-body">
+          <div>
+            <h3 class="feed-headline">
+              <a href="#">Ukraine faces its most severe test in years as Russian forces encircle Pokrovsk</a>
+            </h3>
+            <p class="feed-summary">
+              The strategic transport hub has slowed Moscow's advance for months. Kyiv now confronts an agonizing choice between heavy combat attrition and an orderly redeployment.
+            </p>
+          </div>
+          <div class="feed-footer-meta">
+            <div>
+              <span style="font-weight: 600; color: var(--text-primary);">Andreas Rüesch</span>
+              <div style="font-size: 11px;">July 30, 2025 • 5 min</div>
+            </div>
+            <a href="#" class="feed-action-link">
+              <span>Explore Dossier</span>
+              <span>→</span>
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Card 3: US Defense Dividend Opinion -->
+      <article class="feed-card">
+        <div class="feed-card-media">
+          <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=700&q=80" alt="Peter Rásonyi portrait" />
+          <span class="feed-card-pill">Opinion</span>
+          <span class="feed-carousel-badge">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/></svg>
+            Executive Brief
+          </span>
+        </div>
+        <div class="feed-card-body">
+          <div>
+            <h3 class="feed-headline">
+              <a href="#">It’s high time for the US to say goodbye to the peace dividend</a>
+            </h3>
+            <p class="feed-summary">
+              America projects global deterrence under consecutive administrations. Yet behind the rhetoric, industrial capacity fails to match the scale of dual-theater deterrence across Europe and Asia.
+            </p>
+          </div>
+          <div class="feed-footer-meta">
+            <div>
+              <span style="font-weight: 600; color: var(--text-primary);">Peter Rásonyi</span>
+              <div style="font-size: 11px;">July 29, 2025 • 8 min</div>
+            </div>
+            <a href="#" class="feed-action-link">
+              <span>Explore Dossier</span>
+              <span>→</span>
+            </a>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </main>
+
+  <!-- ======================================================================
+       DESIGN SYSTEM SPECIFICATION DRAWER
+       ====================================================================== -->
+  <footer class="styleguide-drawer">
+    <div class="nzz-layout-container">
+      <div style="margin-bottom: 24px;">
+        <span class="rule-tag">NZZ COMPLIANCE AUDIT</span>
+        <h3 style="font-size: 18px; font-weight: 700; color: var(--text-primary); margin-top: 6px;">
+          English Style Guide &amp; Design Architecture Compliance
+        </h3>
+      </div>
+
+      <div class="styleguide-grid">
+        
+        <!-- Pillar 1: English Style Guide -->
+        <div class="styleguide-box">
+          <h4>
+            <span style="color: var(--nzz-red);">1.</span>
+            <span>English Style Guide Rules</span>
+          </h4>
+          <ul class="styleguide-rule-list">
+            <li><strong>Headlines:</strong> Present tense, sentence case, no terminal period. (e.g., <em>«Smartphones rewire human attention»</em>)</li>
+            <li><strong>Subheads:</strong> Sentence case, no finite verbs, no terminal periods. (e.g., <em>«Machines instead of workers»</em>)</li>
+            <li><strong>Quotes:</strong> Authentic Swiss guillemets <code>« »</code> with commas/periods inside.</li>
+            <li><strong>Punctuation &amp; Spelling:</strong> No Oxford comma; En dashes ( – ) with spaces; US spelling (<em>defense</em>, <em>program</em>).</li>
+            <li><strong>Dates:</strong> AP format (<em>Sept. 9, 2026</em>).</li>
+          </ul>
+        </div>
+
+        <!-- Pillar 2: Typography & Palette -->
+        <div class="styleguide-box">
+          <h4>
+            <span style="color: var(--nzz-red);">2.</span>
+            <span>Visual Hierarchy &amp; Tokens</span>
+          </h4>
+          <ul class="styleguide-rule-list">
+            <li><strong>Serif Headings:</strong> <em>Newsreader</em> / <em>Iowan Old Style</em> for authoritative editorial presence.</li>
+            <li><strong>Sans Body:</strong> <em>Inter</em> / <em>Helvetica Neue</em> at 14–16px with 1.5 line-height for mobile reading.</li>
+            <li><strong>Palette:</strong> Paper-50 (<code>#f5f5f5</code>), Paper-950 (<code>#121212</code>), Swiss Red (<code>#d80000</code>).</li>
+            <li><strong>Dark Mode:</strong> Natural slate paper (<code>#111111</code>) with high-contrast warm white type.</li>
+          </ul>
+        </div>
+
+        <!-- Pillar 3: Carousel Pipeline -->
+        <div class="styleguide-box">
+          <h4>
+            <span style="color: var(--nzz-red);">3.</span>
+            <span>Inspo PHOTO Blueprint</span>
+          </h4>
+          <ul class="styleguide-rule-list">
+            <li><strong>Card Structure:</strong> Centered <code>NZZ</code> header hairline, crisp 6px radius, neutral dropshadow.</li>
+            <li><strong>Balanced Rhythms:</strong> 50% rich photography, 50% data infographics and pull quotes.</li>
+            <li><strong>No Duplicates:</strong> Clear separation between lead standfirst and executive brief bullets.</li>
+            <li><strong>Conversion Hook:</strong> Final slide provides clear call to action (<em>«READ MORE ON NZZ.CH»</em>).</li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div style="margin-top: 32px; padding-top: 20px; border-top: 1px solid var(--border-subtle); display: flex; justify-content: space-between; align-items: center; font-size: 12px;">
+        <span>NZZ &amp; Google Cloud Hackathon • Stream 2 (Liquid Story Engine)</span>
+        <span>Ready for complete integration into React / Vite codebase</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Interactive Scripting -->
+  <script>
+    function toggleTheme() {
+      const html = document.documentElement;
+      const isDark = html.classList.toggle('dark');
+      html.classList.toggle('light', !isDark);
+      
+      const label = document.getElementById('theme-label');
+      const icon = document.getElementById('theme-icon');
+      if (isDark) {
+        label.textContent = 'Light Mode';
+        icon.textContent = '☀️';
+      } else {
+        label.textContent = 'Dark Mode';
+        icon.textContent = '🌙';
+      }
+    }
+
+    function scrollToElement(id) {
+      const el = document.getElementById(id);
+      if (el) {
+        el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    }
+
+    let isPlaying = false;
+    function toggleAudioDemo(btn) {
+      isPlaying = !isPlaying;
+      const svg = btn.querySelector('svg');
+      if (isPlaying) {
+        svg.innerHTML = '<rect x="6" y="4" width="4" height="16"></rect><rect x="14" y="4" width="4" height="16"></rect>';
+      } else {
+        svg.innerHTML = '<polygon points="5 3 19 12 5 21 5 3"></polygon>';
+      }
+    }
+
+    function rotateInspoDemo(dir) {
+      const strip = document.querySelector('.inspo-cards-strip');
+      if (strip) {
+        strip.scrollBy({ left: dir * 260, behavior: 'smooth' });
+      }
+    }
+  </script>
+</body>
+</html>

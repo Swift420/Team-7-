@@ -1,0 +1,302 @@
+{
+  "articleId": "art-red-sea-geopolitics-2026",
+  "generatedAt": "2026-09-09T09:35:00.000Z",
+  "source": "vertex-ai",
+  "model": "gemini-2.5-pro",
+  "elapsedMs": 2610,
+  "detectedCategory": "Geopolitik & Welthandel",
+  "suggestedTags": ["#Geopolitik", "#RedSea", "#GlobalTrade", "#MaritimeSecurity", "#Suez", "#SupplyChain", "#NZZ"],
+  "editorialAnalysis": {
+    "articleDepth": "deep",
+    "slideCount": 7,
+    "reasoning": "Strategic investigation into the Bab el-Mandeb strait security crisis, freight spot rate surges, and the Cape of Good Hope circumnavigation."
+  },
+  "visualVelocity": {
+    "charts": [
+      {
+        "id": "chart-freight-rates-spike",
+        "chartType": "line",
+        "title": "Shanghai to Rotterdam Container Freight Spot Rates (USD / FEU)",
+        "subtitle": "40-foot container benchmark index across key geopolitical inflection points",
+        "sourceNote": "Source: Drewry World Container Index & NZZ Analysis",
+        "xAxisLabel": "Timeline",
+        "yAxisLabel": "USD per 40ft Box",
+        "unit": "USD",
+        "series": [
+          {
+            "name": "Spot Rate (FEU)",
+            "points": [
+              { "x": "Oct 2023", "y": 1050, "label": "Pre-Crisis Baseline" },
+              { "x": "Dec 2023", "y": 1660, "label": "First Attacks" },
+              { "x": "Feb 2024", "y": 4420, "label": "Peak Rerouting" },
+              { "x": "May 2024", "y": 3780, "label": "Stabilized Higher" },
+              { "x": "Oct 2024", "y": 4950, "label": "Second Wave" },
+              { "x": "Jan 2026", "y": 5320, "label": "Structural Premium" }
+            ]
+          }
+        ],
+        "confidence": 0.99,
+        "sourceSentence": "Spot container rates from Shanghai to Northern Europe quadrupled from approximately $1,100 to over $5,300 per forty-foot box as carriers rerouted around the Cape of Good Hope.",
+        "approved": true
+      }
+    ]
+  },
+  "audioBrief": {
+    "headline": "The Bab el-Mandeb Bottleneck: How Maritime Conflict Reordered Global Supply Chains",
+    "wordCount": 65,
+    "estimatedDurationSeconds": 60,
+    "script": "Good day. The maritime chokepoints of the Middle East have transformed commercial shipping into an endurance test. Over twelve percent of global seaborne trade has diverted around the southern tip of Africa, adding ten to fourteen transit days and billions in fuel burn. The NZZ analyzes the geopolitical realignments and macroeconomic inflation risks threatening European consumer markets. For the Neue Zürcher Zeitung, Zurich.",
+    "ssml": "<speak><prosody rate=\"1.0\">Good day.<break time=\"280ms\"/> The maritime chokepoints of the Middle East have transformed commercial shipping into an endurance test.<break time=\"280ms\"/> Over twelve percent of global seaborne trade has diverted around the southern tip of Africa, adding ten to fourteen transit days and billions in fuel burn.<break time=\"280ms\"/> The NZZ analyzes the geopolitical realignments and macroeconomic inflation risks threatening European consumer markets.<break time=\"280ms\"/> For the Neue Zürcher Zeitung, Zurich.</prosody></speak>",
+    "voiceProfile": {
+      "languageCode": "en-US",
+      "voiceName": "en-US-Journey-F",
+      "gender": "FEMALE"
+    },
+    "approved": true
+  },
+  "executiveNewsletter": {
+    "headline": "The Cost of Cape Circumnavigation",
+    "subhead": "Transit times extend by 14 days as maritime insurance rates reach multi-decade highs",
+    "bullets": [
+      "Over 85% of standard container liner services between Asia and Europe continue to bypass the Suez Canal.",
+      "Global vessel fuel consumption increased by 220,000 barrels per day due to higher sustained transit speeds.",
+      "European industrial supply chains report spot inventory buffers extending from 18 to 32 days."
+    ],
+    "wordCount": 70,
+    "approved": true
+  },
+  "socialStoryboard": {
+    "title": "The Red Sea Chokepoint",
+    "aspectRatio": "9:16",
+    "platformTargets": ["tiktok", "reels", "shorts"],
+    "totalDurationSeconds": 60,
+    "scenes": [
+      {
+        "sceneIndex": 1,
+        "timeRange": "0:00 - 0:10",
+        "durationSeconds": 10,
+        "sceneType": "hook",
+        "onScreenHeadline": "The 12% Global Trade Divert",
+        "visualPrompt": "Authentic 35mm documentary wide shot of a massive 20,000 TEU container vessel navigating rough open waters under dark stormy skies, sea spray crashing against bow, 9:16 framing, NZZ documentary aesthetic.",
+        "voiceoverText": "A narrow strait off the coast of Yemen has forced global trade to revert to nineteenth-century sea routes."
+      },
+      {
+        "sceneIndex": 2,
+        "timeRange": "0:10 - 0:25",
+        "durationSeconds": 15,
+        "sceneType": "context",
+        "onScreenHeadline": "+14 Days Transit Around Africa",
+        "prominentMetric": "+14 Days",
+        "visualPrompt": "Navigation chart room on a commercial freighter, tactical plotter ruler on nautical paper charts, dim red bridge lighting.",
+        "voiceoverText": "Circumnavigating Africa adds up to fourteen days and millions in bunker fuel costs per voyage."
+      },
+      {
+        "sceneIndex": 3,
+        "timeRange": "0:25 - 0:45",
+        "durationSeconds": 20,
+        "sceneType": "dilemma",
+        "onScreenHeadline": "Naval Deterrence vs. Asymmetric Drone Warfare",
+        "visualPrompt": "Naval tactical radar display inside an allied frigate operations center, green vector targets in dark room, authentic military reportage.",
+        "voiceoverText": "Multinational naval task forces face asymmetric drone attacks costing tens of thousands to counter with million-dollar interceptor missiles."
+      },
+      {
+        "sceneIndex": 4,
+        "timeRange": "0:45 - 1:00",
+        "durationSeconds": 15,
+        "sceneType": "cta",
+        "onScreenHeadline": "Read the Full Dossier on nzz.ch",
+        "visualPrompt": "Rotterdam port terminal container cranes towering against dusk sky, container stacks in twilight.",
+        "voiceoverText": "Read the complete geopolitical analysis and economic projections on nzz.ch."
+      }
+    ],
+    "approved": true
+  },
+  "instagramCarousel": {
+    "title": "The Red Sea Chokepoint",
+    "aspectRatio": "4:5",
+    "theme": "dark",
+    "slides": [
+      {
+        "slideNumber": 1,
+        "slideType": "cover",
+        "layout": "hook_hero",
+        "theme": "dark",
+        "hasImage": true,
+        "badge": "GEOPOLITIK & STRATEGIE",
+        "headline": "The Bab el-Mandeb Bottleneck",
+        "subhead": "How asymmetric maritime warfare forced global commerce to redraw its trade maps",
+        "bodyText": "Over 12% of worldwide seaborne trade has abandoned the Suez corridor, triggering the most severe logistics disruption since 2020.",
+        "imagePrompt": "Editorial documentary photography for Neue Zürcher Zeitung, 35mm photojournalism, natural atmospheric lighting, Leica M11 and Hasselblad medium format optics, authentic textures, minimalist Swiss composition, generous negative space, 4:5 vertical portrait. Subject: Massive 22,000 TEU container carrier vessel cutting through choppy gray North Sea waters at dusk. Salt spray on bow steel plating, dense stacked multi-colored shipping containers, distant moody European horizon, authentic maritime reportage, zero CGI, zero 3D render.",
+        "imageUrl": "https://image.pollinations.ai/prompt/Editorial%20documentary%20photography%20for%20Neue%20Z%C3%BCrcher%20Zeitung%2C%2035mm%20photojournalism%2C%20Hasselblad%20optics%2C%204%3A5%20vertical%20portrait.%20Subject%3A%20Massive%20container%20carrier%20vessel%20cutting%20through%20choppy%20gray%20ocean%20waters%20at%20dusk%2C%20stacked%20shipping%20containers%2C%20sea%20spray%2C%20zero%20CGI?width=1080&height=1350&model=flux&nologo=true&enhance=true",
+        "detailZoomLabel": "VESSEL HULL & CONTAINERS"
+      },
+      {
+        "slideNumber": 2,
+        "slideType": "data_point",
+        "layout": "chart_data",
+        "theme": "dark",
+        "hasImage": false,
+        "headline": "Container Freight Rate Surge",
+        "bodyText": "Spot rates on the Shanghai to Northern Europe lane surged nearly fivefold as vessel availability contracted across primary routes.",
+        "chartData": {
+          "type": "bar",
+          "title": "Shanghai to Rotterdam Spot Rates (USD/FEU)",
+          "items": [
+            { "label": "Oct 2023 (Pre-Crisis)", "value": "$1,050", "isHighlighted": false },
+            { "label": "Dec 2023 (Initial Divert)", "value": "$1,660", "isHighlighted": false },
+            { "label": "Feb 2024 (Rerouting Peak)", "value": "$4,420", "isHighlighted": true },
+            { "label": "Jan 2026 (Structural Floor)", "value": "$5,320", "isHighlighted": true }
+          ],
+          "caption": "Source: Drewry Container Benchmarks & NZZ Quantitative Analysis"
+        }
+      },
+      {
+        "slideNumber": 3,
+        "slideType": "context",
+        "layout": "stat_callout",
+        "theme": "dark",
+        "hasImage": true,
+        "badge": "SCHLÜSSELKENNZAHL",
+        "headline": "The Cape Divert Penalty",
+        "metricHighlight": {
+          "value": "+14 Days",
+          "label": "TRANSIT TIME EXTENSION",
+          "sublabel": "Asia-to-Northern Europe via Cape of Good Hope"
+        },
+        "bodyText": "Each extended voyage burns an additional 800 to 1,200 metric tons of marine bunker fuel, driving an estimated 18 million tons of annual excess carbon emissions.",
+        "imagePrompt": "Editorial documentary photography for Neue Zürcher Zeitung, 35mm photojournalism, natural atmospheric lighting, Leica M11 optics, authentic textures, minimalist Swiss composition, generous negative space, 4:5 vertical portrait. Subject: Low-angle candid macro detail of commercial shipping navigation bridge desk. Worn paper Admiralty nautical charts weighted down with brass dividers, modern satellite transponder screen casting soft green luminescence in night navigation bridge, authentic reportage, zero CGI.",
+        "imageUrl": "https://image.pollinations.ai/prompt/Editorial%20documentary%20photography%20for%20Neue%20Z%C3%BCrcher%20Zeitung%2C%2035mm%20photojournalism%2C%20Leica%20M11%20optics%2C%204%3A5%20vertical%20portrait.%20Subject%3A%20Commercial%20shipping%20navigation%20bridge%20desk%2C%20worn%20paper%20nautical%20charts%2C%20brass%20dividers%2C%20soft%20green%20monitor%20glow%2C%20zero%20CGI?width=1080&height=1350&model=flux&nologo=true&enhance=true",
+        "detailZoomLabel": "NAVIGATION CHARTS"
+      },
+      {
+        "slideNumber": 4,
+        "slideType": "context",
+        "layout": "dual_cards",
+        "theme": "dark",
+        "hasImage": false,
+        "headline": "The Asymmetric Cost Paradigm",
+        "bodyText": "Allied naval escorts confront an economically inverted defense challenge in securing the commercial corridor.",
+        "comparisonCards": {
+          "card1": {
+            "title": "ASYMMETRIC OFFENSE",
+            "text": "Low-cost loitering munitions and anti-ship ballistic missiles produced for $20,000 to $80,000 disrupt billions in container cargo daily.",
+            "badge": "COST ADVANTAGE",
+            "variant": "default"
+          },
+          "card2": {
+            "title": "ADVANCED INTERCEPTION",
+            "text": "Allied naval destroyers deplete multi-million dollar Standard SM-2 and Aster 30 missile interceptors with constrained replenishment timelines.",
+            "badge": "FISCAL STRAIN",
+            "variant": "loser"
+          }
+        }
+      },
+      {
+        "slideNumber": 5,
+        "slideType": "consequences",
+        "layout": "bullets_list",
+        "theme": "dark",
+        "hasImage": true,
+        "headline": "Three Structural Consequences for Europe",
+        "bodyText": "The protracted crisis has transformed European supply-chain resilience from a theoretical ideal into an urgent balance-sheet liability.",
+        "bulletItems": [
+          {
+            "icon": "clock",
+            "title": "Buffer Inventory Expansion",
+            "text": "European industrial manufacturers increased inventory days-on-hand from 18 to 32 days, tying up working capital."
+          },
+          {
+            "icon": "energy",
+            "title": "Bunker Surcharges & Inflation",
+            "text": "Ocean carriers pass through carbon taxes and fuel surcharges, filtering directly into wholesale import prices."
+          },
+          {
+            "icon": "alert",
+            "title": "Mediterranean Port Losses",
+            "text": "Transshipment hubs like Piraeus and Gioia Tauro suffer volume declines as vessels bypass the Mediterranean basin."
+          }
+        ],
+        "imagePrompt": "Editorial documentary photography for Neue Zürcher Zeitung, 35mm photojournalism, natural atmospheric lighting, Leica M11 optics, authentic textures, minimalist Swiss composition, generous negative space, 4:5 vertical portrait. Subject: Industrial documentary wide shot inside the Port of Rotterdam automated container terminal. High-voltage gantry cranes lifting sea containers under cold overcast coastal drizzle, industrial steel reflections, candid European trade reportage, authentic photojournalism.",
+        "imageUrl": "https://image.pollinations.ai/prompt/Editorial%20documentary%20photography%20for%20Neue%20Z%C3%BCrcher%20Zeitung%2C%2035mm%20photojournalism%2C%20Leica%20M11%20optics%2C%204%3A5%20vertical%20portrait.%20Subject%3A%20Industrial%20wide%20shot%20inside%20Port%20of%20Rotterdam%20container%20terminal%2C%20gantry%20cranes%2C%20coastal%20drizzle%2C%20steel%20reflections%2C%20zero%20CGI?width=1080&height=1350&model=flux&nologo=true&enhance=true",
+        "detailZoomLabel": "PORT GANTRY CRANES"
+      },
+      {
+        "slideNumber": 6,
+        "slideType": "quote",
+        "layout": "quote",
+        "theme": "dark",
+        "hasImage": false,
+        "headline": "The Sovereign NZZ Verdict",
+        "quote": {
+          "text": "«Free navigation is not a natural condition of global markets; it is an institutional asset sustained solely by credible naval deterrence.»",
+          "speaker": "Dr. Beat Gygi",
+          "speakerTitle": "Senior Geopolitical Analyst, NZZ"
+        }
+      },
+      {
+        "slideNumber": 7,
+        "slideType": "outro",
+        "layout": "cta_conversion",
+        "theme": "dark",
+        "hasImage": false,
+        "headline": "Navigate the forces redefining global trade.",
+        "cta": {
+          "headline": "Navigate the forces redefining global trade.",
+          "subtext": "Access the complete geopolitical trade map and supply chain impact dossier on nzz.ch.",
+          "buttonText": "READ ON NZZ.CH"
+        }
+      }
+    ],
+    "captionText": "Over 12% of global seaborne commerce has diverted around the Cape of Good Hope. Why the crisis in the Bab el-Mandeb strait marks the end of cheap, frictionless maritime trade. Geopolitical investigation by Dr. Beat Gygi. Full analysis on nzz.ch.",
+    "hashtags": ["#Geopolitik", "#RedSea", "#GlobalTrade", "#MaritimeSecurity", "#Suez", "#NZZ"],
+    "approved": true
+  },
+  "factBox": {
+    "title": "Key Indicators: Red Sea Maritime Disruption",
+    "metrics": [
+      {
+        "id": "m-1",
+        "metricName": "Suez Transit Traffic Reduction",
+        "value": "-64%",
+        "direction": "down",
+        "contextNote": "Commercial container transits dropped compared to 2023 pre-crisis levels"
+      },
+      {
+        "id": "m-2",
+        "metricName": "Average Voyage Extension",
+        "value": "3,500 nm",
+        "direction": "up",
+        "contextNote": "Additional nautical miles sailed via Cape of Good Hope route"
+      },
+      {
+        "id": "m-3",
+        "metricName": "War Risk Insurance Premium",
+        "value": "0.75%",
+        "direction": "up",
+        "contextNote": "Assessed against total vessel insured hull value per single transit"
+      }
+    ],
+    "approved": true
+  },
+  "dialecticalFaq": {
+    "topic": "Maritime Security and the Red Sea Crisis",
+    "items": [
+      {
+        "question": "Can naval convoys guarantee safe passage through the strait?",
+        "answer": "Naval task forces can intercept the majority of inbound aerial and surface threats, but commercial hull underwriters refuse risk coverage as long as residual strike probabilities remain above zero.",
+        "perspective": "consensus"
+      },
+      {
+        "question": "Why not absorb the Cape detour as the permanent new baseline?",
+        "answer": "The Cape detour consumes approximately 9% of global container fleet capacity simply through longer voyage durations, reducing ship availability and artificially elevating worldwide freight costs.",
+        "perspective": "counterargument"
+      },
+      {
+        "question": "What structural resolution does the NZZ recommend?",
+        "answer": "A coordinated European naval presence combined with long-term port infrastructure diversification and sovereign manufacturing buffers, reducing unilateral dependency on vulnerable single-point transit canals.",
+        "perspective": "structural_outlook"
+      }
+    ],
+    "approved": true
+  }
+}

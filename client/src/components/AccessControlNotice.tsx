@@ -1,6 +1,6 @@
-import React from "react";
-import { ShieldAlert, Lock, Sparkles, ArrowRight } from "lucide-react";
-import { useArticles } from "../hooks/useArticles";
+import React from 'react';
+import { ShieldAlert, Lock, Sparkles, ArrowRight } from 'lucide-react';
+import { useArticles } from '../hooks/useArticles';
 
 interface AccessControlNoticeProps {
   title?: string;
@@ -8,8 +8,8 @@ interface AccessControlNoticeProps {
 }
 
 export const AccessControlNotice: React.FC<AccessControlNoticeProps> = ({
-  title = "Editor Access Required",
-  description = "The Editor Desk and Drafts section contains unpublished articles, editorial revision queues, and publishing tools reserved for Editors.",
+  title = 'Editor Access Required',
+  description = 'The Editor Desk and Drafts section contains unpublished articles, editorial revision queues, and publishing tools reserved for Editors.',
 }) => {
   const { setIsAuthModalOpen } = useArticles();
 
@@ -21,9 +21,7 @@ export const AccessControlNotice: React.FC<AccessControlNoticeProps> = ({
 
       <div className="access-notice-content">
         <div className="access-badge-row">
-          <span className="role-pill role-pill-viewer">
-            Current Role: VIEWER
-          </span>
+          <span className="role-pill role-pill-viewer">Current Role: VIEWER</span>
           <span className="notice-lock-pill">
             <ShieldAlert size={12} /> Restricted Section
           </span>
@@ -47,9 +45,7 @@ export const AccessControlNotice: React.FC<AccessControlNoticeProps> = ({
 
           <div className="role-box editor-box">
             <div className="role-box-header">
-              <span className="role-tag editor">
-                Editor (Special Permissions)
-              </span>
+              <span className="role-tag editor">Editor (Special Permissions)</span>
             </div>
             <ul>
               <li>✓ "+ Create Article" button at top of page</li>

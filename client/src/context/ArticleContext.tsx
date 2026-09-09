@@ -24,6 +24,8 @@ export const ArticleProvider: React.FC<{ children: React.ReactNode }> = ({
     "import" | "create"
   >("import");
   const [isAuthModalOpen, setIsAuthModalOpen] = useState(false);
+  const [isGlobeOpen, setIsGlobeOpen] = useState(false);
+  const toggleGlobe = useCallback(() => setIsGlobeOpen((prev) => !prev), []);
 
   const refreshArticles = useCallback(async () => {
     setLoading(true);
@@ -126,6 +128,9 @@ export const ArticleProvider: React.FC<{ children: React.ReactNode }> = ({
       deleteArticle,
       publishArticle,
       refreshArticles,
+      isGlobeOpen,
+      setIsGlobeOpen,
+      toggleGlobe,
     }),
     [
       articles,
@@ -144,6 +149,8 @@ export const ArticleProvider: React.FC<{ children: React.ReactNode }> = ({
       deleteArticle,
       publishArticle,
       refreshArticles,
+      isGlobeOpen,
+      toggleGlobe,
     ],
   );
 
@@ -153,3 +160,6 @@ export const ArticleProvider: React.FC<{ children: React.ReactNode }> = ({
     </ArticleContext.Provider>
   );
 };
+
+export { useArticles } from '../hooks/useArticles';
+

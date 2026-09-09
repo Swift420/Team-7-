@@ -22,6 +22,9 @@ export interface ArticleContextType {
   deleteArticle: (id: string) => Promise<void>;
   publishArticle: (id: string) => Promise<void>;
   refreshArticles: () => Promise<void>;
+  isGlobeOpen: boolean;
+  setIsGlobeOpen: (open: boolean) => void;
+  toggleGlobe: () => void;
 }
 export const ArticleContext = createContext<ArticleContextType | undefined>(
   undefined,
