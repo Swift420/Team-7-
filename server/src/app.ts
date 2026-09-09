@@ -34,6 +34,10 @@ app.get('/api/metrics/performance', (_req, res) => res.json({ success: true, dat
 app.get('/api/metrics/traffic', (_req, res) => res.json({ success: true, data: mockTrafficSources }));
 
 const errorHandler: ErrorRequestHandler = (error, _req, res, _next) => {
+  if (error instanceof SyntaxError && 'body' in error) {
+    res.status(400).json({ success: false, error: { code: 'INVALID_JSON', message: 'Malformed JSON payload' } });
+    return;
+  }
   if (error instanceof ArticleValidationError) {
     res.status(400).json({ success: false, error: { code: 'ARTICLE_VALIDATION_ERROR', message: error.message, details: error.details } });
     return;

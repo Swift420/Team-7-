@@ -213,6 +213,7 @@ export const ArticleDetailPage: React.FC<{ article: Article | null; loading?: bo
 
           <ArticleStudio
             articleId={article.id}
+            articleRecord={article}
             language={article.language === 'de' ? 'de' : 'en'}
             onBack={() => setShowMultimodalStudio(false)}
           />

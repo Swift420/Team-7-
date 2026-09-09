@@ -392,6 +392,42 @@ function normalizeLiquidJson(raw: any, article: ArticleInput): any {
     }));
   }
 
+  // 4b. Normalize visualVelocity data charts
+  if (raw.visualVelocity?.charts && Array.isArray(raw.visualVelocity.charts)) {
+    raw.visualVelocity.charts = raw.visualVelocity.charts
+      .map((c: any, i: number) => {
+        const series = Array.isArray(c.series) && c.series.length > 0
+          ? c.series.map((s: any) => ({
+              name: String(s.name || 'Data'),
+              points: Array.isArray(s.points)
+                ? s.points.map((p: any) => ({
+                    x: p.x !== undefined ? (typeof p.x === 'number' ? p.x : String(p.x)) : 'Point',
+                    y: typeof p.y === 'number' ? p.y : (parseFloat(String(p.y || '0')) || 0),
+                  }))
+                : [],
+            }))
+          : [];
+
+        return {
+          id: c.id || `chart-${i + 1}`,
+          chartType: ['line', 'bar', 'grouped_bar', 'area', 'scatter'].includes(c.chartType) ? c.chartType : 'bar',
+          title: String(c.title || 'Quantitative Analysis'),
+          subtitle: String(c.subtitle || ''),
+          sourceNote: String(c.sourceNote || 'NZZ Analysis'),
+          xAxisLabel: String(c.xAxisLabel || ''),
+          yAxisLabel: String(c.yAxisLabel || ''),
+          unit: String(c.unit || ''),
+          series,
+          confidence: typeof c.confidence === 'number' ? c.confidence : 1.0,
+          sourceSentence: String(c.sourceSentence || article.lead || article.headline),
+          approved: Boolean(c.approved),
+        };
+      })
+      .filter((c: any) => c.series.length > 0 && c.series[0].points.length > 0);
+  } else {
+    raw.visualVelocity = { charts: [] };
+  }
+
   // 5. Dynamic Category & Tag Discovery
   const combinedText = `${article.headline} ${article.lead} ${article.body || ''}`.toLowerCase();
   const isAutomotive = (

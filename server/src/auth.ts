@@ -12,9 +12,28 @@ export interface AuthUser {
   avatar: string;
 }
 
-const secret = () => process.env.AUTH_SECRET || 'visual-velocity-local-dev-secret';
+const secret = () => {
+  const s = process.env.AUTH_SECRET;
+  if (!s && process.env.NODE_ENV === 'production') {
+    throw new Error('AUTH_SECRET must be configured in production');
+  }
+  return s || 'visual-velocity-nzz-hack-secret-2026';
+};
+
 const encode = (value: unknown) => Buffer.from(JSON.stringify(value)).toString('base64url');
 const sign = (value: string) => crypto.createHmac('sha256', secret()).update(value).digest('base64url');
+
+function verifySignature(payload: string, signature: string): boolean {
+  try {
+    const expected = sign(payload);
+    const expectedBuf = Buffer.from(expected);
+    const sigBuf = Buffer.from(signature);
+    if (expectedBuf.length !== sigBuf.length) return false;
+    return crypto.timingSafeEqual(expectedBuf, sigBuf);
+  } catch {
+    return false;
+  }
+}
 
 // Built-in verified editor profiles (available immediately with or without Postgres)
 export const DEFAULT_EDITORS: (AuthUser & { passwordHash: string })[] = [
@@ -66,9 +85,7 @@ export async function authenticateEditor(username: string, password: string): Pr
 
   // 1. Check built-in editor profiles
   const matched = DEFAULT_EDITORS.find(
-    (e) =>
-      e.username.toLowerCase() === cleanUsername &&
-      (e.passwordHash === passwordHash || password === 'editor123')
+    (e) => e.username.toLowerCase() === cleanUsername && e.passwordHash === passwordHash
   );
   if (matched) {
     const { passwordHash: _, ...user } = matched;
@@ -82,7 +99,7 @@ export async function authenticateEditor(username: string, password: string): Pr
       [cleanUsername]
     );
     const account = result.rows[0];
-    if (account && (account.password_hash === passwordHash || password === 'editor123')) {
+    if (account && account.password_hash === passwordHash) {
       const { password_hash: _passwordHash, ...user } = account;
       return user;
     }
@@ -101,7 +118,7 @@ export function createAuthToken(user: AuthUser): string {
 export function requireEditor(req: Request, res: Response, next: NextFunction) {
   const header = req.header('authorization') || '';
   const [payload, signature] = header.startsWith('Bearer ') ? header.slice(7).split('.') : [];
-  if (!payload || !signature || sign(payload) !== signature) {
+  if (!payload || !signature || !verifySignature(payload, signature)) {
     res.status(401).json({ success: false, error: { code: 'AUTH_REQUIRED', message: 'Editor sign-in required' } });
     return;
   }
@@ -117,7 +134,7 @@ export function requireEditor(req: Request, res: Response, next: NextFunction) {
 export function hasValidEditorToken(req: Request): boolean {
   const header = req.header('authorization') || '';
   const [payload, signature] = header.startsWith('Bearer ') ? header.slice(7).split('.') : [];
-  if (!payload || !signature || sign(payload) !== signature) return false;
+  if (!payload || !signature || !verifySignature(payload, signature)) return false;
   try {
     const claims = JSON.parse(Buffer.from(payload, 'base64url').toString('utf8')) as { role?: string; exp?: number };
     return claims.role === 'editor' && claims.exp !== undefined && claims.exp > Date.now();

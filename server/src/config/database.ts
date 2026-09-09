@@ -10,6 +10,11 @@ if (!connectionString) {
 export const pool = new Pool({
   connectionString,
   max: Number(process.env.PG_POOL_SIZE || 10),
+  connectionTimeoutMillis: 3000,
+});
+
+pool.on('error', (err) => {
+  console.error('[PG Pool Error] Unexpected idle client error:', err.message);
 });
 
 export async function query<T extends QueryResultRow>(text: string, values: unknown[] = []) {

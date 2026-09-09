@@ -391,7 +391,13 @@ export const SlideCanvas1080 = forwardRef<HTMLDivElement, SlideCanvas1080Props>(
                               <div
                                 style={{
                                   height: '100%',
-                                  width: `${Math.min(95, 35 + idx * 28)}%`,
+                                  width: `${
+                                    typeof item.percent === 'number' && !isNaN(item.percent)
+                                      ? Math.max(5, Math.min(100, item.percent))
+                                      : !isNaN(parseFloat(String(item.value || '').replace(/[^0-9.]/g, ''))) && parseFloat(String(item.value || '').replace(/[^0-9.]/g, '')) > 0
+                                      ? Math.max(5, Math.min(100, parseFloat(String(item.value || '').replace(/[^0-9.]/g, ''))))
+                                      : 50
+                                  }%`,
                                   backgroundColor: item.isHighlighted ? currentTheme.barHighlight : currentTheme.barFill,
                                   borderRadius: 8,
                                   transition: 'width 0.4s ease',

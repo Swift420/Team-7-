@@ -23,6 +23,7 @@ interface ArticleStudioProps {
   articleId: string;
   language: 'en' | 'de';
   onBack: () => void;
+  articleRecord?: any;
 }
 
 type ActiveArtifactType = 'carousel' | 'audio' | 'video' | 'newsletter' | null;
@@ -31,6 +32,7 @@ export const ArticleStudio: React.FC<ArticleStudioProps> = ({
   articleId,
   language,
   onBack,
+  articleRecord,
 }) => {
   const [article, setArticle] = useState<ArticleDetail | null>(null);
   const [loadingArticle, setLoadingArticle] = useState(true);
@@ -45,6 +47,33 @@ export const ArticleStudio: React.FC<ArticleStudioProps> = ({
 
   // Load article metadata on mount or language switch
   useEffect(() => {
+    if (articleRecord) {
+      const bodyText = Array.isArray(articleRecord.body)
+        ? articleRecord.body.map((b: any) => b.text || '').filter(Boolean).join('\n\n')
+        : (articleRecord.body || '');
+      const words = bodyText.split(/\s+/).filter(Boolean).length;
+      setArticle({
+        id: articleRecord.id,
+        headline: articleRecord.headline,
+        lead: articleRecord.lead || '',
+        author: articleRecord.authorLine || 'NZZ Redaktion',
+        section: articleRecord.section || 'General',
+        category: articleRecord.section || 'General',
+        tags: articleRecord.tags || ['#NZZ'],
+        status: articleRecord.publicationStatus || 'published',
+        wordCount: words,
+        body: bodyText,
+        teaserImage: articleRecord.teaserImage ? {
+          url: articleRecord.teaserImage.url || '',
+          caption: articleRecord.teaserImage.caption || '',
+          credit: articleRecord.teaserImage.credit || '',
+        } : undefined,
+        language: articleRecord.language === 'de' ? 'de' : 'en',
+      });
+      setLoadingArticle(false);
+      return;
+    }
+
     let isMounted = true;
     setLoadingArticle(true);
     fetchArticleDetail(articleId, language)
@@ -62,7 +91,7 @@ export const ArticleStudio: React.FC<ArticleStudioProps> = ({
     return () => {
       isMounted = false;
     };
-  }, [articleId, language]);
+  }, [articleId, language, articleRecord]);
 
   const handleGenerateArtifact = async (artifactType: 'carousel' | 'audio' | 'video' | 'newsletter') => {
     const formatLabels: Record<string, string> = {
@@ -256,7 +285,7 @@ export const ArticleStudio: React.FC<ArticleStudioProps> = ({
                 ? 'bg-amber-950 text-amber-400 border border-amber-800'
                 : 'bg-blue-950 text-blue-400 border border-blue-800'
             }`}>
-              {derivatives.source === 'vertex-ai' ? '● Live Vertex AI' : (derivatives.source || 'vertex-ai')}
+              {derivatives.source === 'vertex-ai' ? '● Live Vertex AI' : (derivatives.source || 'unknown source')}
             </span>
             <span className="text-stone-600 font-mono">|</span>
             <span className="text-stone-400 font-mono">Model: {derivatives.model || 'gemini-2.5-flash'}</span>

@@ -11,7 +11,17 @@ import { hasValidEditorToken, requireEditor } from '../auth.js';
 
 const router = Router();
 const upload = multer({ storage: multer.memoryStorage(), limits: { fileSize: 5 * 1024 * 1024, files: 1 } });
-const uuidPattern = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-8][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
+// Relaxed pattern to support both UUIDs and slug-based IDs safely
+const articleIdPattern = /^[\w.:-]{1,200}$/;
+
+function escapeHtml(str: string): string {
+  return String(str)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#039;');
+}
 
 router.get('/', async (_req, res, next) => {
   try {
@@ -21,8 +31,8 @@ router.get('/', async (_req, res, next) => {
 
 router.get('/:id', async (req, res, next) => {
   try {
-    if (!uuidPattern.test(String(req.params.id))) {
-      res.status(400).json({ success: false, error: { code: 'INVALID_ARTICLE_ID', message: 'Article ID must be a valid UUID' } });
+    if (!articleIdPattern.test(String(req.params.id))) {
+      res.status(400).json({ success: false, error: { code: 'INVALID_ARTICLE_ID', message: 'Article ID is invalid' } });
       return;
     }
     const article = await getArticle(String(req.params.id));
@@ -48,8 +58,8 @@ router.post('/import', requireEditor, upload.single('file'), async (req, res, ne
 
 router.post('/:id/visualizations/analyze', requireEditor, async (req, res, next) => {
   try {
-    if (!uuidPattern.test(String(req.params.id))) {
-      res.status(400).json({ success: false, error: { code: 'INVALID_ARTICLE_ID', message: 'Article ID must be a valid UUID' } });
+    if (!articleIdPattern.test(String(req.params.id))) {
+      res.status(400).json({ success: false, error: { code: 'INVALID_ARTICLE_ID', message: 'Article ID is invalid' } });
       return;
     }
     const article = await getArticle(String(req.params.id));
@@ -67,20 +77,26 @@ router.post('/:id/visualizations/analyze', requireEditor, async (req, res, next)
 
 router.post('/:id/publish', requireEditor, async (req, res, next) => {
   try {
-    if (!uuidPattern.test(String(req.params.id))) { res.status(400).json({ success: false, error: { code: 'INVALID_ARTICLE_ID', message: 'Article ID must be a valid UUID' } }); return; }
+    if (!articleIdPattern.test(String(req.params.id))) {
+      res.status(400).json({ success: false, error: { code: 'INVALID_ARTICLE_ID', message: 'Article ID is invalid' } });
+      return;
+    }
     const article = await publishArticle(String(req.params.id));
-    if (!article) { res.status(404).json({ success: false, error: { code: 'ARTICLE_NOT_FOUND', message: 'Article not found' } }); return; }
+    if (!article) {
+      res.status(404).json({ success: false, error: { code: 'ARTICLE_NOT_FOUND', message: 'Article not found' } });
+      return;
+    }
     res.json({ success: true, data: article });
   } catch (error) { next(error); }
 });
 
 router.get('/:id/existing-visualizations', async (req, res, next) => {
   try {
-    if (!uuidPattern.test(String(req.params.id))) {
-      res.status(400).json({ success: false, error: { code: 'INVALID_ARTICLE_ID', message: 'Article ID must be a valid UUID' } });
+    if (!articleIdPattern.test(String(req.params.id))) {
+      res.status(400).json({ success: false, error: { code: 'INVALID_ARTICLE_ID', message: 'Article ID is invalid' } });
       return;
     }
-    const article = await getArticle(req.params.id);
+    const article = await getArticle(String(req.params.id));
     if (!article) {
       res.status(404).json({ success: false, error: { code: 'ARTICLE_NOT_FOUND', message: 'Article not found' } });
       return;
@@ -91,8 +107,8 @@ router.get('/:id/existing-visualizations', async (req, res, next) => {
 
 router.get('/:id/visualizations', async (req, res, next) => {
   try {
-    if (!uuidPattern.test(req.params.id)) {
-      res.status(400).json({ success: false, error: { code: 'INVALID_ARTICLE_ID', message: 'Article ID must be a valid UUID' } });
+    if (!articleIdPattern.test(String(req.params.id))) {
+      res.status(400).json({ success: false, error: { code: 'INVALID_ARTICLE_ID', message: 'Article ID is invalid' } });
       return;
     }
     if (!(await getArticle(String(req.params.id)))) {
@@ -105,27 +121,97 @@ router.get('/:id/visualizations', async (req, res, next) => {
 
 router.get('/:id/visualizations/history', async (req, res, next) => {
   try {
-    if (!uuidPattern.test(String(req.params.id))) { res.status(400).json({ success: false, error: { code: 'INVALID_ARTICLE_ID', message: 'Article ID must be a valid UUID' } }); return; }
-    if (!(await getArticle(String(req.params.id)))) { res.status(404).json({ success: false, error: { code: 'ARTICLE_NOT_FOUND', message: 'Article not found' } }); return; }
+    if (!articleIdPattern.test(String(req.params.id))) {
+      res.status(400).json({ success: false, error: { code: 'INVALID_ARTICLE_ID', message: 'Article ID is invalid' } });
+      return;
+    }
+    if (!(await getArticle(String(req.params.id)))) {
+      res.status(404).json({ success: false, error: { code: 'ARTICLE_NOT_FOUND', message: 'Article not found' } });
+      return;
+    }
     res.json({ success: true, data: await listVisualizationApprovals(String(req.params.id)) });
   } catch (error) { next(error); }
 });
 
 router.get('/:id/visualizations/embed', async (req, res, next) => {
   try {
-    if (!uuidPattern.test(String(req.params.id))) { res.status(400).send('Invalid article ID'); return; }
+    if (!articleIdPattern.test(String(req.params.id))) {
+      res.status(400).type('html').send('<!doctype html><p>Invalid article ID</p>');
+      return;
+    }
     const article = await getArticle(String(req.params.id));
-    if (!article) { res.status(404).send('Article not found'); return; }
+    if (!article) {
+      res.status(404).type('html').send('<!doctype html><p>Article not found</p>');
+      return;
+    }
     const visuals = await listArticleVisualizations(article.id);
-    const escaped = JSON.stringify(visuals.map((visual) => visual.specification)).replace(/</g, '\\u003c');
-    res.type('html').send(`<!doctype html><meta charset="utf-8"><title>${article.headline} · Visual Velocity</title><style>body{font:16px system-ui;max-width:760px;margin:2rem auto;color:#172033}figure{border:1px solid #dbe3ef;border-radius:10px;padding:1rem;margin:1rem 0}table{border-collapse:collapse;width:100%}td,th{padding:.4rem;border-bottom:1px solid #e5e7eb;text-align:left}</style><main><h1>${article.headline}</h1><div id="visuals"></div></main><script>const visuals=${escaped};const root=document.querySelector('#visuals');visuals.forEach(v=>{const f=document.createElement('figure');f.innerHTML='<h2>'+v.title+'</h2><p>'+v.subtitle+'</p><table><thead><tr><th>Label</th>'+v.series.map(s=>'<th>'+s.label+'</th>').join('')+'</tr></thead><tbody>'+v.data.map(p=>'<tr><td>'+p.label+'</td>'+p.values.map(x=>'<td>'+x+'</td>').join('')+'</tr>').join('')+'</tbody></table>';root.appendChild(f)});</script>`);
+    const escapedData = JSON.stringify(visuals.map((visual) => visual.specification)).replace(/</g, '\\u003c');
+    const safeHeadline = escapeHtml(article.headline);
+
+    res.type('html').send(`<!doctype html>
+<meta charset="utf-8">
+<title>${safeHeadline} · Visual Velocity</title>
+<style>
+  body{font:16px system-ui;max-width:760px;margin:2rem auto;color:#172033;padding:0 1rem}
+  figure{border:1px solid #dbe3ef;border-radius:10px;padding:1rem;margin:1rem 0}
+  table{border-collapse:collapse;width:100%}
+  td,th{padding:.4rem;border-bottom:1px solid #e5e7eb;text-align:left}
+</style>
+<main>
+  <h1>${safeHeadline}</h1>
+  <div id="visuals"></div>
+</main>
+<script>
+  const visuals = ${escapedData};
+  const root = document.querySelector('#visuals');
+  visuals.forEach(v => {
+    const f = document.createElement('figure');
+    const h2 = document.createElement('h2');
+    h2.textContent = v.title || '';
+    f.appendChild(h2);
+    if (v.subtitle) {
+      const p = document.createElement('p');
+      p.textContent = v.subtitle;
+      f.appendChild(p);
+    }
+    const table = document.createElement('table');
+    const thead = document.createElement('thead');
+    const trHead = document.createElement('tr');
+    const thLabel = document.createElement('th');
+    thLabel.textContent = 'Label';
+    trHead.appendChild(thLabel);
+    (v.series || []).forEach(s => {
+      const th = document.createElement('th');
+      th.textContent = s.label || '';
+      trHead.appendChild(th);
+    });
+    thead.appendChild(trHead);
+    table.appendChild(thead);
+    const tbody = document.createElement('tbody');
+    (v.data || []).forEach(p => {
+      const tr = document.createElement('tr');
+      const tdLabel = document.createElement('td');
+      tdLabel.textContent = p.label || '';
+      tr.appendChild(tdLabel);
+      (p.values || []).forEach(x => {
+        const td = document.createElement('td');
+        td.textContent = String(x ?? '');
+        tr.appendChild(td);
+      });
+      tbody.appendChild(tr);
+    });
+    table.appendChild(tbody);
+    f.appendChild(table);
+    root.appendChild(f);
+  });
+</script>`);
   } catch (error) { next(error); }
 });
 
 router.put('/:id/visualizations', requireEditor, async (req, res, next) => {
   try {
-    if (!uuidPattern.test(String(req.params.id))) {
-      res.status(400).json({ success: false, error: { code: 'INVALID_ARTICLE_ID', message: 'Article ID must be a valid UUID' } });
+    if (!articleIdPattern.test(String(req.params.id))) {
+      res.status(400).json({ success: false, error: { code: 'INVALID_ARTICLE_ID', message: 'Article ID is invalid' } });
       return;
     }
     const article = await getArticle(String(req.params.id));
@@ -145,8 +231,8 @@ router.put('/:id/visualizations', requireEditor, async (req, res, next) => {
 
 router.delete('/:id', requireEditor, async (req, res, next) => {
   try {
-    if (!uuidPattern.test(String(req.params.id))) {
-      res.status(400).json({ success: false, error: { code: 'INVALID_ARTICLE_ID', message: 'Article ID must be a valid UUID' } });
+    if (!articleIdPattern.test(String(req.params.id))) {
+      res.status(400).json({ success: false, error: { code: 'INVALID_ARTICLE_ID', message: 'Article ID is invalid' } });
       return;
     }
     if (!(await deleteArticle(String(req.params.id)))) {

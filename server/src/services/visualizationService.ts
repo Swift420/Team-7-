@@ -143,10 +143,10 @@ export class VisualizationAnalysisError extends Error {
 let client: GoogleGenAI | undefined;
 
 function getClient(): GoogleGenAI {
-  const project = process.env.GOOGLE_CLOUD_PROJECT;
-  const location = process.env.GOOGLE_CLOUD_LOCATION || 'global';
+  const project = process.env.GOOGLE_CLOUD_PROJECT || process.env.GCP_PROJECT_ID;
+  const location = process.env.GOOGLE_CLOUD_LOCATION || process.env.GCP_LOCATION || 'us-central1';
   if (!project) {
-    throw new VisualizationAnalysisError('GOOGLE_CLOUD_PROJECT is not configured', 'AI_NOT_CONFIGURED');
+    throw new VisualizationAnalysisError('GOOGLE_CLOUD_PROJECT (or GCP_PROJECT_ID) is not configured', 'AI_NOT_CONFIGURED');
   }
   client ??= new GoogleGenAI({ vertexai: true, project, location, httpOptions: { apiVersion: 'v1' } });
   return client;
@@ -234,7 +234,7 @@ export function parseVisualizationAnalysis(raw: string, article: ArticleRecord, 
 }
 
 export async function analyzeArticleVisualizations(article: ArticleRecord, maxOpportunities = 4): Promise<VisualizationAnalysis> {
-  const model = process.env.GEMINI_MODEL || 'gemini-3.8-flash';
+  const model = process.env.GEMINI_MODEL || 'gemini-2.5-flash';
   try {
     const existingVisuals = await loadExistingVisualizations(article);
     const response = await getClient().models.generateContent({

@@ -9,6 +9,44 @@ import { LiquidDerivatives } from '../services/ai/liquidSchemas.js';
 import { getAuthStatus } from '../services/gcp/authService.js';
 import { getCacheStats } from '../services/ai/cacheService.js';
 import { db } from '../db/database.js';
+import { requireEditor } from '../auth.js';
+
+function isSafeImageUrl(rawUrl: string): boolean {
+  try {
+    const parsed = new URL(rawUrl);
+    if (parsed.protocol !== 'http:' && parsed.protocol !== 'https:') return false;
+    const host = parsed.hostname.toLowerCase();
+    
+    // Disallow loopback, private IPs, and cloud metadata endpoints
+    if (
+      host === 'localhost' ||
+      host === '127.0.0.1' ||
+      host === '0.0.0.0' ||
+      host === '::1' ||
+      host === '169.254.169.254' ||
+      host === 'metadata.google.internal' ||
+      host.endsWith('.internal') ||
+      host.endsWith('.local')
+    ) {
+      return false;
+    }
+
+    // Disallow private RFC1918 IPv4 ranges
+    const ipv4Match = host.match(/^(\d+)\.(\d+)\.(\d+)\.(\d+)$/);
+    if (ipv4Match) {
+      const [, o1, o2] = ipv4Match.map(Number);
+      if (o1 === 10) return false;
+      if (o1 === 172 && o2 >= 16 && o2 <= 31) return false;
+      if (o1 === 192 && o2 === 168) return false;
+      if (o1 === 127 || o1 === 0) return false;
+      if (o1 === 169 && o2 === 254) return false;
+    }
+
+    return true;
+  } catch {
+    return false;
+  }
+}
 
 export const liquidRouter = Router();
 
@@ -123,7 +161,7 @@ liquidRouter.get('/categories', (_req: Request, res: Response) => {
 });
 
 // 1c. Create new article draft or publication
-liquidRouter.post('/articles', (req: Request, res: Response) => {
+liquidRouter.post('/articles', requireEditor, (req: Request, res: Response) => {
   try {
     const { headline, lead, body, author, section, category, tags, language, status, id } = req.body;
     if (!headline || !body) {
@@ -150,10 +188,22 @@ liquidRouter.post('/articles', (req: Request, res: Response) => {
 });
 
 // 1d. Update article
-liquidRouter.put('/articles/:id', (req: Request, res: Response) => {
+liquidRouter.put('/articles/:id', requireEditor, (req: Request, res: Response) => {
   try {
     const articleId = String(req.params.id);
-    const updated = db.updateArticle(articleId, req.body);
+    const { headline, lead, body, author, section, category, tags, status, summaryBullets, teaserImage } = req.body;
+    const updated = db.updateArticle(articleId, {
+      headline,
+      lead,
+      body,
+      author,
+      section,
+      category,
+      tags,
+      status,
+      summaryBullets,
+      teaserImage,
+    });
     if (!updated) {
       return res.status(404).json({ success: false, error: `Article ${articleId} not found` });
     }
@@ -164,7 +214,7 @@ liquidRouter.put('/articles/:id', (req: Request, res: Response) => {
 });
 
 // 1e. Delete article
-liquidRouter.delete('/articles/:id', (req: Request, res: Response) => {
+liquidRouter.delete('/articles/:id', requireEditor, (req: Request, res: Response) => {
   try {
     const articleId = String(req.params.id);
     const deleted = db.deleteArticle(articleId);
@@ -382,15 +432,23 @@ liquidRouter.post('/generate-deck-images', async (req: Request, res: Response) =
 liquidRouter.get('/proxy-image', async (req: Request, res: Response) => {
   try {
     const imageUrl = req.query.url as string;
-    if (!imageUrl) {
-      return res.status(400).send('Image URL required');
+    if (!imageUrl || !isSafeImageUrl(imageUrl)) {
+      return res.status(400).send('Invalid, missing, or forbidden image URL');
     }
-    const fetchRes = await fetch(imageUrl);
+    const fetchRes = await fetch(imageUrl, {
+      signal: AbortSignal.timeout(8000),
+    });
     if (!fetchRes.ok) {
       return res.status(fetchRes.status).send('Failed to fetch image');
     }
-    const contentType = fetchRes.headers.get('content-type') || 'image/jpeg';
+    const contentType = fetchRes.headers.get('content-type') || '';
+    if (!contentType.toLowerCase().startsWith('image/')) {
+      return res.status(400).send('URL does not resolve to an image');
+    }
     const arrayBuffer = await fetchRes.arrayBuffer();
+    if (arrayBuffer.byteLength > 10 * 1024 * 1024) {
+      return res.status(413).send('Image exceeds 10MB limit');
+    }
     res.setHeader('Content-Type', contentType);
     res.setHeader('Access-Control-Allow-Origin', '*');
     res.setHeader('Cache-Control', 'public, max-age=86400');

@@ -90,7 +90,16 @@ Slide-by-Slide Layout Blueprints ("layout"):
 
 7. Slide 7 (The CTA Conversion): "layout": "cta_conversion", "hasImage": false.
    - Minimalist solid background, centered NZZ logo (width 300px).
-   - "cta": { "headline": "Understand the forces shaping tomorrow." (or German equivalent), "subtext": "Read the full analysis by subscribing via the link in our bio.", "buttonText": "READ ON NZZ.CH" }.
+    - "cta": { "headline": "Understand the forces shaping tomorrow." (or German equivalent), "subtext": "Read the full analysis by subscribing via the link in our bio.", "buttonText": "READ ON NZZ.CH" }.
+
+--- VISUAL VELOCITY (DATA VISUALIZATION CHARTS) ---
+Analyze the article text for quantitative data, comparisons, statistics, or historical metrics.
+If quantitative data exists, generate 1 to 2 chart configurations under "visualVelocity.charts":
+- "chartType": "bar" (comparisons), "line" (temporal trends), or "grouped_bar".
+- "series": list of series with numeric "points" (x: string/category, y: strict numeric float or integer).
+- "unit": e.g. "%", "Mrd. CHF", "Tausend", "Punkte".
+- "sourceSentence": exact verbatim sentence from the article containing this factual data so editors can verify it.
+If the article contains no quantitative numbers, return "charts": [].
 
 --- SENIOR PHOTO EDITOR & VISUAL ART DIRECTION ---
 Notice: You do NOT generate images for every slide! Only slides with "hasImage": true (Slide 1 Hook, and optionally Slide 3 or 5/6 when an image adds genuine editorial value).
@@ -365,6 +374,32 @@ You must output a single valid JSON object strictly matching this schema:
       }
     ],
     "approved": false
+  },
+  "visualVelocity": {
+    "charts": [
+      {
+        "id": "chart-1",
+        "chartType": "bar",
+        "title": "<Concise descriptive title of the quantified comparison or trend>",
+        "subtitle": "<Subhead explaining context>",
+        "sourceNote": "<Official data source mentioned in text, e.g. SNB, BFS, Eurostat, EIA>",
+        "xAxisLabel": "<Category or Time>",
+        "yAxisLabel": "<Metric name>",
+        "unit": "<Unit, e.g. % or Mrd. CHF>",
+        "series": [
+          {
+            "name": "<Series or cohort name>",
+            "points": [
+              { "x": "<Category or Year 1>", "y": 42.5 },
+              { "x": "<Category or Year 2>", "y": 68.0 }
+            ]
+          }
+        ],
+        "confidence": 0.95,
+        "sourceSentence": "<Exact verbatim sentence quoted directly from the article text containing these metrics>",
+        "approved": false
+      }
+    ]
   }
 }
 

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { LogIn, Shield, UserCheck, X } from 'lucide-react';
+import { LogIn, Shield, X } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
 
 interface DemoEditor {
@@ -16,7 +16,7 @@ const DEMO_EDITORS: DemoEditor[] = [
     name: 'Teofilus Shaduka',
     title: 'Lead Editor & Multimodal Architect',
     avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=256&q=80',
-    badge: 'Your Account',
+    badge: 'Lead Architect',
   },
   {
     username: 'sarah',
@@ -47,7 +47,7 @@ export const DummyAccountsModal: React.FC<{ isOpen: boolean; onClose: () => void
 }) => {
   const { login } = useAuth();
   const [username, setUsername] = useState('teofilus');
-  const [password, setPassword] = useState('editor123');
+  const [password, setPassword] = useState('');
   const [error, setError] = useState('');
   const [busy, setBusy] = useState(false);
 
@@ -133,7 +133,7 @@ export const DummyAccountsModal: React.FC<{ isOpen: boolean; onClose: () => void
                   </div>
                   <div className="text-[11px] text-slate-400 truncate">{editor.title}</div>
                   <div className="text-[10px] text-indigo-400 font-mono mt-0.5">
-                    User: {editor.username} · Pass: editor123
+                    User: {editor.username}
                   </div>
                 </div>
               </button>
