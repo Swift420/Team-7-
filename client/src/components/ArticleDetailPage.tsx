@@ -183,8 +183,9 @@ export const ArticleDetailPage: React.FC<{ article: Article | null; loading?: bo
             <button
               onClick={() => setShowMultimodalStudio(false)}
               className="nzz-btn-close-studio"
+              aria-label={language === 'de' ? 'Studio schliessen' : 'Close Studio'}
             >
-              {t('detail.close_studio')}
+              {language === 'de' ? 'Studio schliessen ✕' : 'Close Studio ✕'}
             </button>
           </div>
 

@@ -1,6 +1,19 @@
 import React, { useState } from 'react';
-import { AlertCircle, BarChart3, CheckCircle2, FilePenLine, FileUp, LoaderCircle, ShieldCheck, X } from 'lucide-react';
+import {
+  AlertCircle,
+  BarChart3,
+  Camera,
+  CheckCircle2,
+  FilePenLine,
+  FileUp,
+  LoaderCircle,
+  ShieldCheck,
+  Trash2,
+  Upload,
+  X,
+} from 'lucide-react';
 import { useArticles } from '../hooks/useArticles';
+import { useLanguage } from '../hooks/useLanguage';
 import { lintText } from '../services/liquidApi';
 
 interface CreateArticleModalProps {
@@ -15,12 +28,22 @@ export const CreateArticleModal: React.FC<CreateArticleModalProps> = ({
   onClose,
 }) => {
   const { importArticle, openArticle } = useArticles();
+  const { language } = useLanguage();
+  const isEn = language === 'en';
+
   const [file, setFile] = useState<File | null>(null);
   const [headline, setHeadline] = useState('');
   const [lead, setLead] = useState('');
   const [author, setAuthor] = useState('');
   const [section, setSection] = useState('');
   const [body, setBody] = useState('');
+
+  // Journalist Lead Photo state
+  const [imageUrl, setImageUrl] = useState('');
+  const [imagePreview, setImagePreview] = useState('');
+  const [imageCaption, setImageCaption] = useState('');
+  const [imageCredit, setImageCredit] = useState('');
+
   const [error, setError] = useState('');
   const [busy, setBusy] = useState(false);
   const [message, setMessage] = useState('');
@@ -35,14 +58,38 @@ export const CreateArticleModal: React.FC<CreateArticleModalProps> = ({
 
   if (!isOpen) return null;
 
+  const handleImageFileChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    const selected = event.target.files?.[0];
+    if (!selected) return;
+    if (!selected.type.startsWith('image/')) {
+      setError(isEn ? 'Please select a valid image file (JPG, PNG, WebP).' : 'Bitte eine gültige Bilddatei (JPG, PNG, WebP) auswählen.');
+      return;
+    }
+    setError('');
+    const reader = new FileReader();
+    reader.onload = (e) => {
+      const result = e.target?.result as string;
+      setImagePreview(result);
+      setImageUrl(result);
+    };
+    reader.readAsDataURL(selected);
+  };
+
+  const handleRemoveImage = () => {
+    setImagePreview('');
+    setImageUrl('');
+    setImageCaption('');
+    setImageCredit('');
+  };
+
   const submitImport = async (event: React.FormEvent) => {
     event.preventDefault();
     if (!file) {
-      setError('Select an NZZ JSON or Markdown article file.');
+      setError(isEn ? 'Select an NZZ JSON or Markdown article file.' : 'Wählen Sie eine NZZ JSON- oder Markdown-Artikeldatei aus.');
       return;
     }
     if (!/\.(json|md)$/i.test(file.name)) {
-      setError('Only .json and .md files are supported.');
+      setError(isEn ? 'Only .json and .md files are supported.' : 'Nur .json- und .md-Dateien werden unterstützt.');
       return;
     }
     setBusy(true);
@@ -52,12 +99,12 @@ export const CreateArticleModal: React.FC<CreateArticleModalProps> = ({
       const outcome = await importArticle(file);
       setMessage(
         outcome.status === 'imported'
-          ? 'Article imported successfully.'
-          : outcome.reason || 'Article already exists.'
+          ? (isEn ? 'Article imported successfully.' : 'Artikel erfolgreich importiert.')
+          : outcome.reason || (isEn ? 'Article already exists.' : 'Artikel existiert bereits.')
       );
       setTimeout(onClose, 500);
     } catch (cause) {
-      setError(cause instanceof Error ? cause.message : 'Unable to import article');
+      setError(cause instanceof Error ? cause.message : (isEn ? 'Unable to import article' : 'Artikel konnte nicht importiert werden'));
     } finally {
       setBusy(false);
     }
@@ -65,7 +112,7 @@ export const CreateArticleModal: React.FC<CreateArticleModalProps> = ({
 
   const handleLintCheck = async () => {
     if (!headline.trim() && !body.trim()) {
-      setError('Please enter a headline or article body before linting.');
+      setError(isEn ? 'Please enter a headline or article body before linting.' : 'Bitte vor dem Prüfen Titel oder Text eingeben.');
       return;
     }
     setIsLinting(true);
@@ -82,7 +129,7 @@ export const CreateArticleModal: React.FC<CreateArticleModalProps> = ({
         checked: true,
       });
     } catch (err: any) {
-      setError(err.message || 'Style check failed');
+      setError(err.message || (isEn ? 'Style check failed' : 'Stilprüfung fehlgeschlagen'));
     } finally {
       setIsLinting(false);
     }
@@ -90,7 +137,7 @@ export const CreateArticleModal: React.FC<CreateArticleModalProps> = ({
 
   const submitCreate = async (visualize: boolean) => {
     if (!headline.trim() || !body.trim()) {
-      setError('Headline and article body are required.');
+      setError(isEn ? 'Headline and article body are required.' : 'Titel und Artikeltext sind erforderlich.');
       return;
     }
     setBusy(true);
@@ -102,6 +149,9 @@ export const CreateArticleModal: React.FC<CreateArticleModalProps> = ({
         author.trim() ? `author: ${author.trim()}` : '',
         section.trim() ? `section: ${section.trim()}` : '',
         `published_at: ${new Date().toISOString().slice(0, 10)}`,
+        imageUrl.trim() ? `image_url: ${imageUrl.trim()}` : '',
+        imageCaption.trim() ? `image_caption: ${imageCaption.trim()}` : '',
+        imageCredit.trim() ? `image_credit: ${imageCredit.trim()}` : '',
       ]
         .filter(Boolean)
         .join('\n');
@@ -125,7 +175,7 @@ export const CreateArticleModal: React.FC<CreateArticleModalProps> = ({
       onClose();
       await openArticle(outcome.article.id);
     } catch (cause) {
-      setError(cause instanceof Error ? cause.message : 'Unable to create article');
+      setError(cause instanceof Error ? cause.message : (isEn ? 'Unable to create article' : 'Artikel konnte nicht erstellt werden'));
     } finally {
       setBusy(false);
     }
@@ -141,18 +191,26 @@ export const CreateArticleModal: React.FC<CreateArticleModalProps> = ({
           <div className="nzz-dialog-title-wrap">
             <span className="nzz-dialog-kicker">
               {mode === 'create' ? <FilePenLine size={13} /> : <FileUp size={13} />}
-              {mode === 'create' ? 'NZZ REDAKTION · NEUER ARTIKEL' : 'NZZ DATEN · IMPORT'}
+              {mode === 'create'
+                ? (isEn ? 'NZZ EDITORIAL · NEW ARTICLE' : 'NZZ REDAKTION · NEUER ARTIKEL')
+                : (isEn ? 'NZZ DATA · IMPORT' : 'NZZ DATEN · IMPORT')}
             </span>
             <h2 className="nzz-dialog-headline">
-              {mode === 'create' ? 'Neuen Artikel verfassen' : 'NZZ Datensatz importieren'}
+              {mode === 'create'
+                ? (isEn ? 'Compose New Article' : 'Neuen Artikel verfassen')
+                : (isEn ? 'Import NZZ Dataset' : 'NZZ Datensatz importieren')}
             </h2>
             <p className="nzz-dialog-sub">
               {mode === 'create'
-                ? 'Schreiben Sie Ihren Text, prüfen Sie die NZZ Stilrichtlinien und erkennen Sie Visualisierungschancen.'
-                : 'Laden Sie eine strukturierte NZZ JSON-Datei oder Markdown-Exportdatei hoch.'}
+                ? (isEn
+                    ? 'Write your piece, attach editorial photography, run NZZ style linting, and explore data visualisations.'
+                    : 'Schreiben Sie Ihren Text, fügen Sie redaktionelle Fotos an, prüfen Sie die NZZ Stilrichtlinien und erkennen Sie Visualisierungen.')
+                : (isEn
+                    ? 'Upload a structured NZZ JSON file or Markdown export file.'
+                    : 'Laden Sie eine strukturierte NZZ JSON-Datei oder Markdown-Exportdatei hoch.')}
             </p>
           </div>
-          <button className="nzz-dialog-close" onClick={onClose} aria-label="Schliessen">
+          <button className="nzz-dialog-close" onClick={onClose} aria-label={isEn ? 'Close' : 'Schliessen'}>
             <X size={18} />
           </button>
         </div>
@@ -164,8 +222,8 @@ export const CreateArticleModal: React.FC<CreateArticleModalProps> = ({
           <form onSubmit={submitImport} className="nzz-editor-form">
             <label className="nzz-file-dropzone">
               <FileUp size={36} className="text-red-600 mb-2" />
-              <strong>{file ? file.name : 'NZZ JSON- oder Markdown-Datei auswählen'}</strong>
-              <span>Unterstützte Formate: .json, .md · Maximal 5 MB</span>
+              <strong>{file ? file.name : (isEn ? 'Select NZZ JSON or Markdown file' : 'NZZ JSON- oder Markdown-Datei auswählen')}</strong>
+              <span>{isEn ? 'Supported formats: .json, .md · Max 5 MB' : 'Unterstützte Formate: .json, .md · Maximal 5 MB'}</span>
               <input
                 type="file"
                 accept=".json,.md,application/json,text/markdown"
@@ -173,71 +231,150 @@ export const CreateArticleModal: React.FC<CreateArticleModalProps> = ({
               />
             </label>
             <p className="nzz-dialog-hint">
-              JSON-Dateien müssen der NZZ Content-Struktur entsprechen. Markdown unterstützt
-              Titel, Lead, Floskel-Prüfung und Frontmatter.
+              {isEn
+                ? 'JSON files must conform to the NZZ content structure. Markdown supports title, lead, frontmatter, and style linting.'
+                : 'JSON-Dateien müssen der NZZ Content-Struktur entsprechen. Markdown unterstützt Titel, Lead, Floskel-Prüfung und Frontmatter.'}
             </p>
             <div className="nzz-dialog-actions">
               <button type="button" className="nzz-btn-cancel" onClick={onClose}>
-                Abbrechen
+                {isEn ? 'Cancel' : 'Abbrechen'}
               </button>
               <button type="submit" className="nzz-btn-submit-red" disabled={busy}>
-                {busy ? 'Wird importiert…' : 'Artikel importieren'}
+                {busy ? (isEn ? 'Importing…' : 'Wird importiert…') : (isEn ? 'Import Article' : 'Artikel importieren')}
               </button>
             </div>
           </form>
         ) : (
           <div className="nzz-editor-form">
             <div className="nzz-field-group">
-              <label className="nzz-field-label">Titel / Schlagzeile *</label>
+              <label className="nzz-field-label">{isEn ? 'Title / Headline *' : 'Titel / Schlagzeile *'}</label>
               <input
                 className="nzz-text-input font-serif text-base"
                 value={headline}
                 onChange={(event) => setHeadline(event.target.value)}
-                placeholder="Schlagzeile im NZZ-Stil verfassen…"
+                placeholder={isEn ? 'Compose headline in authentic NZZ style…' : 'Schlagzeile im NZZ-Stil verfassen…'}
                 autoFocus
               />
             </div>
 
             <div className="nzz-field-group">
-              <label className="nzz-field-label">Lead / Vorspann (optional)</label>
+              <label className="nzz-field-label">{isEn ? 'Lead / Subtitle (optional)' : 'Lead / Vorspann (optional)'}</label>
               <textarea
                 className="nzz-textarea text-sm"
                 value={lead}
                 onChange={(event) => setLead(event.target.value)}
                 rows={2}
-                placeholder="Einleitender Absatz mit Hauptthese…"
+                placeholder={isEn ? 'Introductory thesis and analytical premise…' : 'Einleitender Absatz mit Hauptthese…'}
               />
+            </div>
+
+            {/* Journalist Editorial Photo Upload Box */}
+            <div className="nzz-image-upload-section">
+              <div className="nzz-image-upload-header">
+                <span className="nzz-image-upload-title">
+                  <Camera size={14} className="text-red-600" />
+                  {isEn ? 'Editorial Lead Photography' : 'Redaktionelles Hauptbild'}
+                </span>
+                <span className="text-[11px] text-zinc-500 font-medium">
+                  {isEn ? 'Journalist Upload' : 'Journalisten-Upload'}
+                </span>
+              </div>
+              <p className="nzz-image-upload-desc">
+                {isEn
+                  ? 'Attach your own authentic photography for the newspaper website. (AI generation is strictly reserved for external social carousels and exports).'
+                  : 'Laden Sie Ihr eigenes redaktionelles Foto für die Zeitungs-Website hoch. (KI-Generierung ist ausschliesslich für externe Social-Media-Karusselle reserviert).'}
+              </p>
+
+              {imagePreview ? (
+                <div className="nzz-image-preview-wrap">
+                  <img src={imagePreview} alt="Article lead preview" className="nzz-image-preview-img" />
+                  <button
+                    type="button"
+                    className="nzz-image-remove-btn"
+                    onClick={handleRemoveImage}
+                    title={isEn ? 'Remove image' : 'Bild entfernen'}
+                  >
+                    <Trash2 size={13} />
+                  </button>
+                </div>
+              ) : (
+                <label className="nzz-image-dropzone">
+                  <Upload size={22} className="text-zinc-500 mb-1.5" />
+                  <span className="text-xs font-bold text-zinc-900">
+                    {isEn ? 'Click to select photo or drag here' : 'Foto auswählen oder hierher ziehen'}
+                  </span>
+                  <span className="text-[11px] text-zinc-500 mt-0.5">
+                    {isEn ? 'PNG, JPG, WebP up to 10 MB' : 'PNG, JPG, WebP bis zu 10 MB'}
+                  </span>
+                  <input
+                    type="file"
+                    accept="image/*"
+                    onChange={handleImageFileChange}
+                  />
+                </label>
+              )}
+
+              <div className="space-y-2 mt-2">
+                <div className="flex items-center gap-2">
+                  <span className="text-xs text-zinc-500 shrink-0 font-medium">{isEn ? 'Or image URL:' : 'Oder Bild-URL:'}</span>
+                  <input
+                    className="nzz-text-input text-xs py-1"
+                    value={imageUrl.startsWith('data:') ? '' : imageUrl}
+                    onChange={(e) => {
+                      const val = e.target.value;
+                      setImageUrl(val);
+                      setImagePreview(val);
+                    }}
+                    placeholder="https://images.unsplash.com/..."
+                  />
+                </div>
+
+                <div className="nzz-image-meta-grid">
+                  <input
+                    className="nzz-text-input text-xs py-1"
+                    value={imageCaption}
+                    onChange={(e) => setImageCaption(e.target.value)}
+                    placeholder={isEn ? 'Caption (e.g. Bundeshaus Bern…)' : 'Bildlegende (z. B. Bundeshaus Bern…)'}
+                  />
+                  <input
+                    className="nzz-text-input text-xs py-1"
+                    value={imageCredit}
+                    onChange={(e) => setImageCredit(e.target.value)}
+                    placeholder={isEn ? 'Credit (e.g. Keystone, Reuters)' : 'Bildquelle (z. B. Keystone, Reuters)'}
+                  />
+                </div>
+              </div>
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               <div className="nzz-field-group">
-                <label className="nzz-field-label">Autor / Redaktor (optional)</label>
+                <label className="nzz-field-label">{isEn ? 'Author / Editor (optional)' : 'Autor / Redaktor (optional)'}</label>
                 <input
                   className="nzz-text-input text-sm"
                   value={author}
                   onChange={(event) => setAuthor(event.target.value)}
-                  placeholder="z. B. Beat Gygi, Zürich"
+                  placeholder={isEn ? 'e.g. Beat Gygi, Zurich' : 'z. B. Beat Gygi, Zürich'}
                 />
               </div>
               <div className="nzz-field-group">
-                <label className="nzz-field-label">Ressort (optional)</label>
+                <label className="nzz-field-label">{isEn ? 'Section / Desk (optional)' : 'Ressort (optional)'}</label>
                 <input
                   className="nzz-text-input text-sm"
                   value={section}
                   onChange={(event) => setSection(event.target.value)}
-                  placeholder="Wirtschaft, International, Schweiz…"
+                  placeholder={isEn ? 'Economy, International, Switzerland…' : 'Wirtschaft, International, Schweiz…'}
                 />
               </div>
             </div>
 
             <div className="nzz-field-group">
-              <label className="nzz-field-label">Artikeltext *</label>
+              <label className="nzz-field-label">{isEn ? 'Article Body *' : 'Artikeltext *'}</label>
               <textarea
                 className="nzz-textarea font-serif text-sm leading-relaxed"
                 value={body}
                 onChange={(event) => setBody(event.target.value)}
                 rows={9}
-                placeholder="Vollständigen Text hier einfügen oder schreiben…"
+                placeholder={isEn ? 'Write or paste full article body in markdown or text…' : 'Vollständigen Text hier einfügen oder schreiben…'}
               />
             </div>
 
@@ -254,12 +391,12 @@ export const CreateArticleModal: React.FC<CreateArticleModalProps> = ({
                   {lintReport.valid ? (
                     <>
                       <CheckCircle2 size={15} className="text-emerald-700" />
-                      <span>NZZ Stilrichtlinien bestanden (100% Konform)</span>
+                      <span>{isEn ? 'NZZ Style Guidelines passed (100% compliant)' : 'NZZ Stilrichtlinien bestanden (100% Konform)'}</span>
                     </>
                   ) : (
                     <>
                       <AlertCircle size={15} className="text-amber-700" />
-                      <span>NZZ Stilempfehlungen:</span>
+                      <span>{isEn ? 'NZZ Editorial Recommendations:' : 'NZZ Stilempfehlungen:'}</span>
                     </>
                   )}
                 </div>
@@ -276,21 +413,21 @@ export const CreateArticleModal: React.FC<CreateArticleModalProps> = ({
             <div className="nzz-dialog-actions flex flex-wrap items-center justify-between gap-2 mt-4 pt-4 border-t border-zinc-200">
               <div className="flex items-center gap-2">
                 <button type="button" className="nzz-btn-cancel" onClick={onClose}>
-                  Abbrechen
+                  {isEn ? 'Cancel' : 'Abbrechen'}
                 </button>
                 <button
                   type="button"
                   className="nzz-btn-lint"
                   disabled={isLinting}
                   onClick={handleLintCheck}
-                  title="NZZ Stilrichtlinien prüfen"
+                  title={isEn ? 'Lint text against NZZ rules' : 'NZZ Stilrichtlinien prüfen'}
                 >
                   {isLinting ? (
                     <LoaderCircle className="spin" size={14} />
                   ) : (
                     <ShieldCheck size={14} className="text-red-600" />
                   )}
-                  <span>NZZ-Stil prüfen</span>
+                  <span>{isEn ? 'Check NZZ Style' : 'NZZ-Stil prüfen'}</span>
                 </button>
               </div>
 
@@ -302,7 +439,7 @@ export const CreateArticleModal: React.FC<CreateArticleModalProps> = ({
                   onClick={() => void submitCreate(false)}
                 >
                   {busy ? <LoaderCircle className="spin" size={14} /> : <FilePenLine size={14} />}
-                  <span>Entwurf speichern</span>
+                  <span>{isEn ? 'Save Draft' : 'Entwurf speichern'}</span>
                 </button>
 
                 <button
@@ -312,7 +449,7 @@ export const CreateArticleModal: React.FC<CreateArticleModalProps> = ({
                   onClick={() => void submitCreate(true)}
                 >
                   {busy ? <LoaderCircle className="spin" size={14} /> : <BarChart3 size={14} />}
-                  <span>Speichern &amp; Visualisieren</span>
+                  <span>{isEn ? 'Save & Visualize' : 'Speichern & Visualisieren'}</span>
                 </button>
               </div>
             </div>
