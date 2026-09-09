@@ -41,7 +41,11 @@ const MainApp: React.FC = () => {
         <RoleContextBanner />
 
         {/* Article Feed / Categories / Sections / Analytics Hub */}
-        {articleId ? <ArticleDetailPage article={selectedArticle} loading={!selectedArticle} /> : <ArticleFeed />}
+        {articleId ? (
+          <ArticleDetailPage article={selectedArticle} loading={!selectedArticle} />
+        ) : (
+          <ArticleFeed />
+        )}
       </main>
 
       {/* Modals */}
@@ -61,11 +65,11 @@ const MainApp: React.FC = () => {
       <footer className="app-footer">
         <div className="footer-inner">
           <div>
-            <strong>Chronicle Insights & Data</strong> • PostgreSQL-backed article ingestion and browsing
+            <strong>NZZ Pulse • Multimodal &amp; Visual Studio</strong> • Neue Zürcher Zeitung &amp; Google Cloud Hackathon
           </div>
           <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
             <span>
-              Active: <strong>{currentUser.name}</strong> ({isEditor ? 'Editor' : 'Viewer'})
+              Active: <strong>{currentUser.name}</strong> ({isEditor ? 'Editor' : 'Reader'})
             </span>
           </div>
         </div>

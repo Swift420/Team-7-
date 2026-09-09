@@ -77,7 +77,7 @@ function chartData(table: unknown[][], elementId: string) {
 
 export async function loadExistingVisualizations(article: ArticleRecord): Promise<ExistingVisualization[]> {
   const directoryName = articleDirectory(article);
-  if (!directoryName) return [];
+  if (!directoryName || !Array.isArray(article.body)) return [];
   const directory = path.join(qDataRoot(), directoryName);
   let files: string[];
   try {
