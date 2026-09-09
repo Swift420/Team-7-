@@ -16,7 +16,7 @@ export interface AudioBriefFormat {
 export interface ExecutiveNewsletterFormat {
   headline: string;
   subhead: string;
-  bullets: [string, string, string];
+  bullets: string[];
   wordCount: number;
   approved: boolean;
 }

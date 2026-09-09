@@ -1,0 +1,28 @@
+{
+  "id": "2026-09-09_science_scientists-may-have-just-caught-gravity-behaving-quantum-mechanically",
+  "headline": "Scientists May Have Just Caught Gravity Behaving Quantum Mechanically",
+  "lead": "For nearly a century, physicists have searched for a bridge between Einstein's general relativity and quantum mechanics. A team of researchers in Vienna may have taken the first decisive step.",
+  "author_line": "NZZ Editorial",
+  "section": "Economy",
+  "category": "Economy",
+  "tags": [
+    "#Science",
+    "#Physics",
+    "#QuantumMechanics"
+  ],
+  "publication_date": "2026-09-09T08:42:00.000Z",
+  "language": "en",
+  "summary_bullets_en": [
+    "First experimental evidence of a quantum effect of gravity using ultracold atoms.",
+    "Could help bridge the gap between general relativity and quantum mechanics.",
+    "May open new research directions in fundamental physics and cosmology.",
+    "Implications for future technologies and our understanding of the universe."
+  ],
+  "teaser_image": {
+    "url": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&w=1200&q=80",
+    "caption": "Ultracold atom chamber at the Vienna quantum laboratories.",
+    "credit": "Vienna Quantum Institute",
+    "width": 1200,
+    "height": 800
+  }
+}

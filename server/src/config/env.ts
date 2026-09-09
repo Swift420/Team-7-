@@ -27,12 +27,13 @@ export const env = Object.freeze({
     "us-central1",
   qDataDir: process.env.Q_DATA_DIR,
   geminiModel: process.env.GEMINI_MODEL || "gemini-3.1-pro-preview",
+  veoModel: process.env.VEO_MODEL || "veo-3.1-fast-generate-001",
   cacheEnabled: process.env.ENABLE_CACHE !== "false",
   credentialsPath: process.env.GOOGLE_APPLICATION_CREDENTIALS,
   hasGeminiApiKey: Boolean(
     process.env.GEMINI_API_KEY || process.env.GOOGLE_API_KEY,
   ),
-  aiRequestTimeoutMs: integer(process.env.AI_REQUEST_TIMEOUT_MS, 30_000, 1_000),
+  aiRequestTimeoutMs: integer(process.env.AI_REQUEST_TIMEOUT_MS, 90_000, 1_000),
 });
 
 export const isProduction = env.nodeEnv === "production";

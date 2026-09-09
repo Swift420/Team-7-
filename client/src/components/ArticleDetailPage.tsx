@@ -7,7 +7,7 @@ import { useLanguage } from '../hooks/useLanguage';
 import { ArticleContent } from './ArticleContent';
 import { AudioBriefPlayer } from './reader/AudioBriefPlayer';
 import { ExecutiveBriefCard } from './reader/ExecutiveBriefCard';
-import { ArticleStudio } from './liquid/ArticleStudio';
+import { MultimodalContentStudio } from './studio/MultimodalContentStudio';
 import type { AudioBriefFormat, ExecutiveNewsletterFormat } from '../types/liquid';
 
 export const ArticleDetailPage: React.FC<{ article: Article | null; loading?: boolean }> = ({
@@ -189,11 +189,9 @@ export const ArticleDetailPage: React.FC<{ article: Article | null; loading?: bo
             </button>
           </div>
 
-          <ArticleStudio
-            articleId={article.id}
-            articleRecord={article}
+          <MultimodalContentStudio
+            article={article}
             language={language}
-            onBack={() => setShowMultimodalStudio(false)}
           />
         </div>
       )}

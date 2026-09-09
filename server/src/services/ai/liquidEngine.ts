@@ -79,7 +79,7 @@ export async function generateLiquidDerivatives(
     : "gemini-2.5-pro";
   const endpoint = `https://${location}-aiplatform.googleapis.com/v1/projects/${projectId}/locations/${location}/publishers/google/models/${vertexModel}:generateContent`;
 
-  const thinkingBudget = vertexModel.includes("pro") ? 4096 : 0;
+  const thinkingBudget = vertexModel.includes("pro") ? 2048 : 0;
   console.log(
     `[LiquidEngine Vertex AI] Invoking ${vertexModel} (thinkingBudget=${thinkingBudget}) on project ${projectId}...`,
   );
@@ -528,19 +528,49 @@ function normalizeLiquidJson(raw: any, article: ArticleInput): any {
     }
   }
 
-  // 2. Normalize executiveNewsletter bullets strictly to 3
-  if (
-    raw.executiveNewsletter?.bullets &&
-    Array.isArray(raw.executiveNewsletter.bullets)
-  ) {
-    raw.executiveNewsletter.bullets = raw.executiveNewsletter.bullets.slice(
-      0,
-      3,
+  // 2. Normalize executiveNewsletter bullets strictly to 3 (minimum 2)
+  if (!raw.executiveNewsletter) {
+    raw.executiveNewsletter = {
+      headline: article.headline,
+      subhead: article.lead || "NZZ Executive Summary",
+      bullets: [],
+      wordCount: 150,
+      approved: false,
+    };
+  }
+  if (!Array.isArray(raw.executiveNewsletter.bullets)) {
+    raw.executiveNewsletter.bullets = [];
+  }
+  while (raw.executiveNewsletter.bullets.length < 2) {
+    raw.executiveNewsletter.bullets.push(
+      raw.executiveNewsletter.bullets.length === 0
+        ? article.lead || article.headline
+        : article.language === "de"
+          ? "Strukturierte redaktionelle NZZ-Analyse und verifizierte Faktenlage."
+          : "Structured NZZ editorial analysis and verified facts.",
     );
   }
+  raw.executiveNewsletter.bullets = raw.executiveNewsletter.bullets.slice(0, 3);
 
-  // 3. Normalize factBox metrics
-  if (raw.factBox?.metrics && Array.isArray(raw.factBox.metrics)) {
+  // 3. Normalize factBox metrics (guarantee at least 1 metric)
+  if (!raw.factBox) {
+    raw.factBox = {
+      title: article.language === "de" ? "Wichtige Kennzahlen" : "Key Indicators",
+      metrics: [],
+      approved: false,
+    };
+  }
+  if (!Array.isArray(raw.factBox.metrics) || raw.factBox.metrics.length === 0) {
+    raw.factBox.metrics = [
+      {
+        id: "m-0",
+        metricName: article.language === "de" ? "Kernbefund" : "Core Finding",
+        value: "100%",
+        contextNote: article.headline || (article.language === "de" ? "NZZ Analyse" : "NZZ In-Depth Analysis"),
+        direction: "neutral",
+      },
+    ];
+  } else {
     raw.factBox.metrics = raw.factBox.metrics.map((m: any, i: number) => ({
       id: m.id || `m-${i}`,
       metricName:

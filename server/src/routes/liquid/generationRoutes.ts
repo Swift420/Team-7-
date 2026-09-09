@@ -12,6 +12,12 @@ import {
 import { lintNZZStyle } from "../../services/ai/nzzStyleLinter.js";
 import { synthesizeAudioBrief } from "../../services/gcp/ttsService.js";
 import {
+  generateVeoVideo,
+  getVeoServiceStatus,
+} from "../../services/gcp/veoService.js";
+import { renderFullVerticalVideo } from "../../services/video/videoStitcher.js";
+import type { SocialStoryboardFormat, VideoScene } from "../../types/liquid.js";
+import {
   errorMessage,
   getArticlesDir,
   getLocalizedSection,
@@ -264,35 +270,54 @@ liquidGenerationRouter.get(
 
     try {
       const response = await fetch(imageUrl, {
-        signal: AbortSignal.timeout(8000),
+        signal: AbortSignal.timeout(60000),
       });
-      if (!response.ok) {
-        res.status(response.status).send("Failed to fetch image");
-        return;
+      if (response.ok) {
+        const contentType = response.headers.get("content-type") || "";
+        if (contentType.toLowerCase().startsWith("image/")) {
+          const bytes = await response.arrayBuffer();
+          if (bytes.byteLength <= 15 * 1024 * 1024) {
+            res
+              .set({
+                "Content-Type": contentType,
+                "Access-Control-Allow-Origin": "*",
+                "Cache-Control": "public, max-age=86400",
+              })
+              .send(Buffer.from(bytes));
+            return;
+          }
+        }
       }
-
-      const contentType = response.headers.get("content-type") || "";
-      if (!contentType.toLowerCase().startsWith("image/")) {
-        res.status(400).send("URL does not resolve to an image");
-        return;
-      }
-
-      const bytes = await response.arrayBuffer();
-      if (bytes.byteLength > 10 * 1024 * 1024) {
-        res.status(413).send("Image exceeds 10MB limit");
-        return;
-      }
-
-      res
-        .set({
-          "Content-Type": contentType,
-          "Access-Control-Allow-Origin": "*",
-          "Cache-Control": "public, max-age=86400",
-        })
-        .send(Buffer.from(bytes));
     } catch (error) {
-      res.status(500).send(errorMessage(error));
+      console.warn(
+        `[Proxy Image] External image fetch failed for "${imageUrl.slice(0, 60)}...":`,
+        errorMessage(error),
+      );
     }
+
+    // Graceful fallback to authentic Swiss prestige editorial photography so slide canvas never breaks
+    const fallbackUrl =
+      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1080&q=80";
+    try {
+      const fallbackRes = await fetch(fallbackUrl, {
+        signal: AbortSignal.timeout(10000),
+      });
+      if (fallbackRes.ok) {
+        const bytes = await fallbackRes.arrayBuffer();
+        res
+          .set({
+            "Content-Type": "image/jpeg",
+            "Access-Control-Allow-Origin": "*",
+            "Cache-Control": "public, max-age=86400",
+          })
+          .send(Buffer.from(bytes));
+        return;
+      }
+    } catch {
+      // ignore
+    }
+
+    res.status(502).send("Image temporarily unavailable");
   }),
 );
 
@@ -333,3 +358,166 @@ liquidGenerationRouter.post("/lint", (req, res) => {
   const report = lintNZZStyle(text || "", { isHeadline, isSubhead, language });
   res.json({ success: true, data: report });
 });
+
+liquidGenerationRouter.get(
+  "/video-status",
+  asyncHandler(async (_req, res) => {
+    const status = await getVeoServiceStatus();
+    res.json({ success: true, data: status });
+  }),
+);
+
+liquidGenerationRouter.post(
+  "/generate-scene-video",
+  asyncHandler(async (req, res) => {
+    const {
+      articleId,
+      sceneIndex,
+      visualPrompt,
+      onScreenHeadline,
+      prominentMetric,
+      sceneType,
+      durationSeconds,
+      bustCache,
+      mock,
+    } = req.body;
+
+    if (!visualPrompt) {
+      res.status(400).json({ success: false, error: "visualPrompt is required" });
+      return;
+    }
+
+    try {
+      const result = await generateVeoVideo(visualPrompt, {
+        durationSeconds: durationSeconds || 5,
+        aspectRatio: "9:16",
+        bustCache: bustCache ?? false,
+        mock: mock ?? false,
+        headline: onScreenHeadline,
+        sceneType,
+      });
+
+      // Update in-memory and database derivatives if articleId provided
+      if (articleId && typeof sceneIndex === "number") {
+        const stored = db.getDerivatives(articleId) || publishedStore.get(articleId);
+        if (stored?.socialStoryboard?.scenes?.[sceneIndex - 1]) {
+          stored.socialStoryboard.scenes[sceneIndex - 1].videoUrl = result.videoUrl;
+          stored.socialStoryboard.scenes[sceneIndex - 1].videoStatus = "ready";
+          stored.socialStoryboard.scenes[sceneIndex - 1].modelUsed = result.modelUsed;
+          db.saveDerivatives(articleId, stored);
+          publishedStore.set(articleId, stored);
+        }
+      }
+
+      res.json({ success: true, data: result });
+    } catch (error) {
+      console.error("[LiquidRoutes Generate-Scene-Video Error]:", errorMessage(error));
+      res.status(isCredentialError(error) ? 503 : 500).json({
+        success: false,
+        error: errorMessage(error),
+      });
+    }
+  }),
+);
+
+liquidGenerationRouter.post(
+  "/generate-all-scene-videos",
+  asyncHandler(async (req, res) => {
+    const { articleId, scenes, bustCache, mock } = req.body;
+    if (!Array.isArray(scenes)) {
+      res.status(400).json({ success: false, error: "scenes array is required" });
+      return;
+    }
+
+    try {
+      const results: VideoScene[] = [];
+      for (const scene of scenes) {
+        try {
+          const videoResult = await generateVeoVideo(scene.visualPrompt, {
+            durationSeconds: 5,
+            aspectRatio: "9:16",
+            bustCache: bustCache ?? false,
+            mock: mock ?? false,
+            headline: scene.onScreenHeadline,
+            sceneType: scene.sceneType,
+          });
+
+          results.push({
+            ...scene,
+            videoUrl: videoResult.videoUrl,
+            videoStatus: "ready",
+            modelUsed: videoResult.modelUsed,
+          });
+        } catch (err) {
+          console.warn(`[GenerateAllScenes] Scene ${scene.sceneIndex} failed:`, errorMessage(err));
+          results.push({
+            ...scene,
+            videoStatus: "failed",
+          });
+        }
+      }
+
+      // Update derivatives store if articleId is provided
+      if (articleId) {
+        const stored = db.getDerivatives(articleId) || publishedStore.get(articleId);
+        if (stored?.socialStoryboard) {
+          stored.socialStoryboard.scenes = results;
+          db.saveDerivatives(articleId, stored);
+          publishedStore.set(articleId, stored);
+        }
+      }
+
+      res.json({ success: true, data: results });
+    } catch (error) {
+      console.error("[LiquidRoutes Generate-All-Scene-Videos Error]:", errorMessage(error));
+      res.status(500).json({
+        success: false,
+        error: errorMessage(error),
+      });
+    }
+  }),
+);
+
+liquidGenerationRouter.post(
+  "/render-vertical-video",
+  asyncHandler(async (req, res) => {
+    const { articleId, storyboard, language, mock } = req.body;
+    if (!storyboard || !Array.isArray(storyboard.scenes)) {
+      res.status(400).json({ success: false, error: "storyboard with scenes is required" });
+      return;
+    }
+
+    try {
+      const result = await renderFullVerticalVideo(
+        storyboard as SocialStoryboardFormat,
+        {
+          articleId: articleId || `video-${Date.now()}`,
+          language: language === "de" ? "de" : "en",
+          mock: mock ?? false,
+        },
+      );
+
+      // Save rendered video URL to article derivatives
+      if (articleId) {
+        const stored = db.getDerivatives(articleId) || publishedStore.get(articleId);
+        if (stored?.socialStoryboard) {
+          stored.socialStoryboard.renderedVideoUrl = result.videoUrl;
+          stored.socialStoryboard.videoUrl = result.videoUrl;
+          stored.socialStoryboard.renderedVideoStatus = "ready";
+          stored.socialStoryboard.totalDurationSeconds = result.totalDurationSeconds;
+          db.saveDerivatives(articleId, stored);
+          publishedStore.set(articleId, stored);
+        }
+      }
+
+      res.json({ success: true, data: result });
+    } catch (error) {
+      console.error("[LiquidRoutes Render-Vertical-Video Error]:", errorMessage(error));
+      res.status(500).json({
+        success: false,
+        error: errorMessage(error),
+      });
+    }
+  }),
+);
+

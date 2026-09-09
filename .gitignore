@@ -16,9 +16,8 @@ client/dist/
 server/dist/
 .cache/
 server/.cache/
-server/data/db/
-server/data/db/*.json
-server/data/db/*.tmp
+server/data/
+*.mp4
 
 # Environment and credential files
 .env

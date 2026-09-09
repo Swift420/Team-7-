@@ -15,6 +15,8 @@ FROM node:22-alpine AS runtime
 ENV NODE_ENV=production
 WORKDIR /app
 
+RUN apk add --no-cache ffmpeg
+
 COPY server/package*.json ./server/
 RUN npm --prefix server ci --omit=dev --no-audit --no-fund
 

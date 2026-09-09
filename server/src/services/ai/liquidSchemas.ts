@@ -41,6 +41,9 @@ export const videoSceneSchema = z.object({
   visualPrompt: z.string().min(5),
   voiceoverText: z.string().min(5),
   imageUrl: z.string().nullable().optional(),
+  videoUrl: z.string().nullable().optional(),
+  videoStatus: z.enum(["idle", "generating", "ready", "failed"]).optional(),
+  modelUsed: z.string().optional(),
 });
 
 export const socialStoryboardSchema = z.object({
@@ -52,6 +55,9 @@ export const socialStoryboardSchema = z.object({
     .default(["tiktok", "reels", "shorts"]),
   totalDurationSeconds: z.number().int().min(30).max(120),
   scenes: z.array(videoSceneSchema).min(3).max(7),
+  renderedVideoUrl: z.string().nullable().optional(),
+  videoUrl: z.string().nullable().optional(),
+  renderedVideoStatus: z.enum(["idle", "rendering", "ready", "failed"]).optional(),
   approved: z.boolean().default(false),
 });
 

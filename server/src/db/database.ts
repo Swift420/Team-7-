@@ -142,10 +142,8 @@ export class JsonDatabase {
       }
     }
 
-    // Auto-seed challenge articles if still empty
-    if (this.articles.size === 0) {
-      this.seedInitialArticles();
-    }
+    // Auto-seed challenge articles if missing
+    this.seedInitialArticles();
 
     this.initialized = true;
     console.log(
@@ -217,7 +215,9 @@ export class JsonDatabase {
           teaserImage: data.teaser_image,
         };
 
-        this.articles.set(record.id, record);
+        if (!this.articles.has(record.id)) {
+          this.articles.set(record.id, record);
+        }
       }
 
       this.persistArticles();
