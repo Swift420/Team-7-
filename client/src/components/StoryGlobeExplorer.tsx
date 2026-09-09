@@ -63,6 +63,31 @@ export const StoryGlobeExplorer: React.FC<{ onClose?: () => void; docked?: boole
     return () => observer.disconnect();
   }, []);
 
+  // Keep the docked globe alive without competing with direct manipulation.
+  useEffect(() => {
+    const container = containerRef.current;
+    const controls = globeRef.current?.controls?.();
+    if (!container || !controls) return;
+
+    controls.autoRotate = true;
+    controls.autoRotateSpeed = 0.70;
+
+    const pauseRotation = () => {
+      controls.autoRotate = false;
+    };
+    const resumeRotation = () => {
+      controls.autoRotate = true;
+    };
+
+    container.addEventListener('pointerenter', pauseRotation);
+    container.addEventListener('pointerleave', resumeRotation);
+    return () => {
+      container.removeEventListener('pointerenter', pauseRotation);
+      container.removeEventListener('pointerleave', resumeRotation);
+      controls.autoRotate = false;
+    };
+  }, [docked]);
+
   const coverageByCode = useMemo(() => new Map(coverage.map((item) => [item.countryCode, item])), [coverage]);
   const coverageForFeature = (item: GlobeFeature | null) => {
     if (!item) return undefined;

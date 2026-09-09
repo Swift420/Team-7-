@@ -46,18 +46,18 @@ export const VisualizationChart: React.FC<VisualizationChartProps> = ({
     <>
       <CartesianGrid
         strokeDasharray="3 3"
-        stroke="rgba(148,163,184,.18)"
+        stroke="#deded8"
         vertical={false}
       />
       <XAxis
         dataKey="label"
-        stroke="#94a3b8"
-        tick={{ fontSize: 12 }}
+        stroke="#777777"
+        tick={{ fontSize: 12, fill: "#555555" }}
         tickLine={false}
       />
       <YAxis
-        stroke="#94a3b8"
-        tick={{ fontSize: 12 }}
+        stroke="#777777"
+        tick={{ fontSize: 12, fill: "#555555" }}
         tickLine={false}
         width={48}
       />
@@ -164,13 +164,13 @@ export const VisualizationChart: React.FC<VisualizationChartProps> = ({
           <ScatterChart margin={{ top: 12, right: 20, left: 36, bottom: 8 }}>
             <CartesianGrid
               strokeDasharray="3 3"
-              stroke="rgba(148,163,184,.18)"
+              stroke="#deded8"
             />
             <XAxis
               type="number"
               dataKey="value"
-              stroke="#94a3b8"
-              tick={{ fontSize: 12 }}
+              stroke="#777777"
+              tick={{ fontSize: 12, fill: "#555555" }}
             />
             <YAxis
               type="number"
@@ -178,8 +178,8 @@ export const VisualizationChart: React.FC<VisualizationChartProps> = ({
               domain={[-0.5, opportunity.data.length - 0.5]}
               ticks={opportunity.data.map((_, index) => index)}
               tickFormatter={(value) => opportunity.data[value]?.label || ""}
-              stroke="#94a3b8"
-              tick={{ fontSize: 11 }}
+              stroke="#777777"
+              tick={{ fontSize: 11, fill: "#555555" }}
               width={105}
             />
             <Tooltip

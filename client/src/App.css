@@ -5079,6 +5079,229 @@ body {
   opacity: 0.72;
 }
 
+.saved-visual-count {
+  padding: 0.22rem 0.5rem;
+  border: 1px solid #e7baba;
+  border-radius: 2px;
+  color: #7f1d1d;
+  background: #fff8f7;
+}
+
+.approval-count-badge {
+  padding: 0.22rem 0.5rem;
+  border: 1px solid #d4d4d0;
+  border-radius: 2px;
+  color: #666666;
+  background: #f5f5f2;
+}
+
+.visual-text-button {
+  color: #9f0000;
+}
+
+.visualizer-error {
+  border-color: #e7baba;
+  border-radius: 2px;
+  color: #7f1d1d;
+  background: #fff8f7;
+}
+
+.visualizer-error p {
+  color: #7f1d1d;
+}
+
+.visualizer-results {
+  background: #ffffff;
+}
+
+.analysis-summary {
+  border-bottom: 1px solid #e5e5e0;
+}
+
+.analysis-summary > span {
+  border: 1px solid #e7baba;
+  border-radius: 2px;
+  color: #7f1d1d;
+  background: #fff8f7;
+}
+
+.opportunity-card.is-selected {
+  border-color: #b50000;
+  box-shadow: 0 0 0 2px rgba(181, 0, 0, 0.08);
+}
+
+.opportunity-select,
+.chart-controls label,
+.chart-controls > span {
+  color: #444444;
+}
+
+.data-status {
+  border: 1px solid #d4d4d0;
+}
+
+.data-status.ready {
+  color: #166534;
+  background: #f0fdf4;
+}
+
+.data-status.needs_review {
+  color: #92400e;
+  background: #fffbeb;
+}
+
+.confidence-score {
+  color: #9f0000;
+}
+
+.opportunity-rationale {
+  color: #555555;
+}
+
+.chart-controls {
+  border-top-color: #e5e5e0;
+}
+
+.chart-controls select:focus,
+.visual-title-input:focus,
+.visual-subtitle-input:focus,
+.visual-data-editor input:focus {
+  border-color: #b50000;
+  outline: 2px solid rgba(181, 0, 0, 0.12);
+}
+
+.visual-title-input:focus,
+.visual-subtitle-input:focus {
+  color: #111111;
+  background: #ffffff;
+}
+
+.visual-title-input::selection,
+.visual-subtitle-input::selection {
+  color: #111111;
+  background: #f3caca;
+}
+
+.visual-chart {
+  color: #333333;
+}
+
+.visual-data-editor {
+  border-color: #deded8;
+}
+
+.data-editor-heading {
+  border-bottom: 1px solid #deded8;
+  color: #222222;
+  background: #f5f5f2;
+}
+
+.data-editor-heading span {
+  color: #777777;
+}
+
+.visual-data-editor th,
+.existing-table-wrap th {
+  color: #444444;
+  background: #f5f5f2;
+}
+
+.visual-data-editor th,
+.visual-data-editor td,
+.existing-table-wrap th,
+.existing-table-wrap td {
+  border-top-color: #e5e5e0;
+}
+
+.visual-data-editor input {
+  color: #222222;
+  background: #ffffff;
+}
+
+.opportunity-footer,
+.source-links {
+  color: #666666;
+}
+
+.source-links button {
+  color: #9f0000;
+}
+
+.visual-caveat {
+  color: #92400e;
+}
+
+.visualizer-actions {
+  border-top-color: #e5e5e0;
+  color: #555555;
+  background: #f5f5f2;
+}
+
+.no-visual-opportunities {
+  border-color: #d4d4d0;
+  color: #555555;
+  background: #fbfbfa;
+}
+
+.story-country-panel {
+  min-height: 0;
+  max-height: 560px;
+  padding: 1rem;
+  overflow: hidden;
+  border: 1px solid #d4d4d0;
+  border-radius: 2px;
+  background: #fbfbfa;
+}
+
+.story-country-panel h3,
+.story-country-panel-header p,
+.story-country-panel .story-panel-hint,
+.story-country-panel .story-panel-empty {
+  color: #222222;
+}
+
+.story-panel-kicker {
+  color: #a00000;
+}
+
+.country-story-list {
+  max-height: 330px;
+  padding-right: 0.35rem;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-color: #c9c9c2 transparent;
+  scrollbar-width: thin;
+}
+
+.country-story-card {
+  gap: 0.35rem;
+  padding: 0.8rem;
+  border: 1px solid #deded8;
+  border-radius: 2px;
+  color: #333333;
+  background: #ffffff;
+  transition: border-color 150ms ease, box-shadow 150ms ease;
+}
+
+.country-story-card:hover {
+  border-color: #b50000;
+  box-shadow: 0 3px 10px rgba(17, 17, 17, 0.08);
+  transform: none;
+}
+
+.country-story-card strong {
+  color: #111111;
+}
+
+.country-story-card span,
+.country-story-card small {
+  color: #9f0000;
+}
+
+.country-story-card p {
+  color: #555555;
+}
+
 .nzz-masthead-right {
   flex-wrap: nowrap;
 }

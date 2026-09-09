@@ -4,7 +4,6 @@ import { useArticles } from "../hooks/useArticles";
 import { useArticleRoute } from "../hooks/useArticleRoute";
 import { useLanguage } from "../hooks/useLanguage";
 import { Navbar } from "./Navbar";
-import { RoleContextBanner } from "./RoleContextBanner";
 import { ArticleFeed } from "./ArticleFeed";
 import { CreateArticleModal } from "./CreateArticleModal";
 import { ArticleDetailPage } from "./ArticleDetailPage";
@@ -35,9 +34,6 @@ export const AppShell: React.FC = () => {
 
       {/* Main Container */}
       <main className="main-content">
-        {/* Role & Privileges Context Banner */}
-        <RoleContextBanner />
-
         {/* Article Feed / Categories / Sections / Analytics Hub */}
         {articleId ? (
           <ArticleDetailPage

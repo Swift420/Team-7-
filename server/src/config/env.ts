@@ -21,7 +21,7 @@ export const env = Object.freeze({
     process.env.GCP_LOCATION ||
     "us-central1",
   qDataDir: process.env.Q_DATA_DIR,
-  geminiModel: process.env.GEMINI_MODEL || "gemini-2.5-pro",
+  geminiModel: process.env.GEMINI_MODEL || "gemini-3.1-pro-preview",
   cacheEnabled: process.env.ENABLE_CACHE !== "false",
   credentialsPath: process.env.GOOGLE_APPLICATION_CREDENTIALS,
   hasGeminiApiKey: Boolean(
