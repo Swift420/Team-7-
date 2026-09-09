@@ -40,6 +40,7 @@ export const ArticleStudio: React.FC<ArticleStudioProps> = ({
 
   // Derivative formats (only generated when user prompts)
   const [derivatives, setDerivatives] = useState<LiquidDerivativesPayload | null>(null);
+  const [selectedModel, setSelectedModel] = useState<'gemini-2.5-pro' | 'gemini-2.5-flash'>('gemini-2.5-pro');
   const [isGenerating, setIsGenerating] = useState(false);
   const [generatingFormatName, setGeneratingFormatName] = useState<string>('Instagram Carousel');
   const [activeArtifact, setActiveArtifact] = useState<ActiveArtifactType>(null);
@@ -114,7 +115,7 @@ export const ArticleStudio: React.FC<ArticleStudioProps> = ({
         author: article?.author,
         section: article?.section,
         language,
-        model: 'gemini-2.5-flash',
+        model: selectedModel,
       });
 
       setDerivatives(result);
@@ -274,29 +275,59 @@ export const ArticleStudio: React.FC<ArticleStudioProps> = ({
           </div>
         )}
 
-        {/* Real-time Model Provenance & Source Badge */}
-        {derivatives && (
-          <div className="mb-4 flex flex-wrap items-center gap-2 p-3 bg-stone-950 border border-stone-800 rounded-xl text-xs">
-            <span className="font-sans font-medium text-stone-400">Source:</span>
-            <span className={`px-2 py-0.5 rounded-full font-mono text-[11px] font-semibold ${
-              derivatives.source === 'vertex-ai'
-                ? 'bg-emerald-950 text-emerald-400 border border-emerald-800'
-                : derivatives.source === 'template'
-                ? 'bg-amber-950 text-amber-400 border border-amber-800'
-                : 'bg-blue-950 text-blue-400 border border-blue-800'
-            }`}>
-              {derivatives.source === 'vertex-ai' ? '● Live Vertex AI' : (derivatives.source || 'unknown source')}
-            </span>
-            <span className="text-stone-600 font-mono">|</span>
-            <span className="text-stone-400 font-mono">Model: {derivatives.model || 'gemini-2.5-flash'}</span>
-            {derivatives.elapsedMs && (
-              <>
-                <span className="text-stone-600 font-mono">|</span>
-                <span className="text-stone-400 font-mono">Latency: {derivatives.elapsedMs}ms</span>
-              </>
-            )}
+        {/* AI Engine Model Selection Bar */}
+        <div className="mb-4 flex flex-wrap items-center justify-between gap-3 p-3 bg-stone-950/90 border border-stone-800 rounded-xl text-xs">
+          <div className="flex items-center gap-2">
+            <Sparkles className="w-4 h-4 text-red-500" />
+            <span className="font-semibold text-white">AI Engine:</span>
+            <div className="inline-flex rounded-lg bg-stone-900 p-0.5 border border-stone-800">
+              <button
+                type="button"
+                onClick={() => setSelectedModel('gemini-2.5-pro')}
+                className={`px-3 py-1 rounded-md text-[11px] font-medium transition-all ${
+                  selectedModel === 'gemini-2.5-pro'
+                    ? 'bg-red-600 text-white shadow-sm font-semibold'
+                    : 'text-stone-400 hover:text-white'
+                }`}
+              >
+                Gemini 2.5 Pro (Deep Reasoning)
+              </button>
+              <button
+                type="button"
+                onClick={() => setSelectedModel('gemini-2.5-flash')}
+                className={`px-3 py-1 rounded-md text-[11px] font-medium transition-all ${
+                  selectedModel === 'gemini-2.5-flash'
+                    ? 'bg-red-600 text-white shadow-sm font-semibold'
+                    : 'text-stone-400 hover:text-white'
+                }`}
+              >
+                Gemini 2.5 Flash (Fast)
+              </button>
+            </div>
           </div>
-        )}
+          {derivatives && (
+            <div className="flex items-center gap-2">
+              <span className="font-sans font-medium text-stone-400">Provenance:</span>
+              <span className={`px-2 py-0.5 rounded-full font-mono text-[11px] font-semibold ${
+                derivatives.source === 'vertex-ai'
+                  ? 'bg-emerald-950 text-emerald-400 border border-emerald-800'
+                  : derivatives.source === 'template'
+                  ? 'bg-amber-950 text-amber-400 border border-amber-800'
+                  : 'bg-blue-950 text-blue-400 border border-blue-800'
+              }`}>
+                {derivatives.source === 'vertex-ai' ? '● Live Vertex AI' : (derivatives.source || 'live')}
+              </span>
+              <span className="text-stone-600 font-mono">|</span>
+              <span className="text-stone-300 font-mono font-medium">Model: {derivatives.model || selectedModel}</span>
+              {derivatives.elapsedMs && (
+                <>
+                  <span className="text-stone-600 font-mono">|</span>
+                  <span className="text-stone-400 font-mono">{derivatives.elapsedMs}ms</span>
+                </>
+              )}
+            </div>
+          )}
+        </div>
 
         {/* 4 Dedicated Generation Action Buttons */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">

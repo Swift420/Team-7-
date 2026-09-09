@@ -16,7 +16,8 @@ export async function generateLiquidDerivatives(
   article: ArticleInput,
   options: GenerateOptions = {}
 ): Promise<LiquidDerivatives> {
-  const model = options.model || 'gemini-2.5-flash';
+  const defaultModel = process.env.GEMINI_MODEL || 'gemini-2.5-pro';
+  const model = options.model || defaultModel;
   const language = options.language || (article.language as 'en' | 'de') || 'en';
   article.language = language;
 
@@ -55,10 +56,11 @@ export async function generateLiquidDerivatives(
 
   const startTime = Date.now();
   const prompt = buildLiquidPrompt(article);
-  const vertexModel = model.includes('pro') ? 'gemini-2.5-pro' : 'gemini-2.5-flash';
+  const vertexModel = model.includes('flash') ? 'gemini-2.5-flash' : 'gemini-2.5-pro';
   const endpoint = `https://${location}-aiplatform.googleapis.com/v1/projects/${projectId}/locations/${location}/publishers/google/models/${vertexModel}:generateContent`;
 
-  console.log(`[LiquidEngine Vertex AI] Invoking ${vertexModel} on project ${projectId}...`);
+  const thinkingBudget = vertexModel.includes('pro') ? 2048 : 0;
+  console.log(`[LiquidEngine Vertex AI] Invoking ${vertexModel} (thinkingBudget=${thinkingBudget}) on project ${projectId}...`);
 
   const response = await fetch(endpoint, {
     method: 'POST',
@@ -71,8 +73,8 @@ export async function generateLiquidDerivatives(
       generationConfig: {
         responseMimeType: 'application/json',
         temperature: 0.2,
-        maxOutputTokens: 8192,
-        thinkingConfig: { thinkingBudget: 0 },
+        maxOutputTokens: 16384,
+        thinkingConfig: { thinkingBudget },
       },
     }),
   });
@@ -502,7 +504,8 @@ function normalizeLiquidJson(raw: any, article: ArticleInput): any {
       const slideNum = s.slideNumber || (idx + 1);
       const isFirst = idx === 0 || slideNum === 1;
       const isSplit = s.layout === 'split_media';
-      const hasImage = s.hasImage !== undefined ? Boolean(s.hasImage) : (isFirst || isSplit);
+      const isBalancedVisual = idx === 0 || idx === 2 || idx === 4;
+      const hasImage = s.hasImage !== undefined ? Boolean(s.hasImage) : (isFirst || isSplit || isBalancedVisual);
 
       const synthesized = synthesizePhotojournalismPrompt(
         { slideNumber: slideNum, headline: s.headline || article.headline, imagePrompt: s.imagePrompt, slideType: s.slideType },
@@ -562,7 +565,7 @@ function extractKeyMetrics(text: string): { value: string; label: string }[] {
 
 export function generateDeterministicLiquidDerivatives(
   article: ArticleInput,
-  model: string = 'gemini-2.5-flash',
+  model: string = 'gemini-2.5-pro',
   language: 'en' | 'de' = 'en'
 ): LiquidDerivatives {
   const isGerman = language === 'de';
@@ -990,7 +993,7 @@ export function generateDeterministicLiquidDerivatives(
       ssml: ssml,
       voiceProfile: {
         languageCode: isGerman ? 'de-DE' : 'en-US',
-        voiceName: isGerman ? 'de-DE-Neural2-B' : 'en-US-Journey-F',
+        voiceName: isGerman ? 'de-DE-Studio-B' : 'en-US-Journey-F',
         gender: isGerman ? 'MALE' : 'FEMALE',
       },
       approved: false,

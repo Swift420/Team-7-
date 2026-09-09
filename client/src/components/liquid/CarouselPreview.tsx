@@ -10,7 +10,6 @@ import {
   Download,
   FileArchive,
   Palette,
-  Layers,
 } from 'lucide-react';
 import type {
   InstagramCarouselFormat,
@@ -92,6 +91,7 @@ export const CarouselPreview: React.FC<CarouselPreviewProps> = ({
         model: 'imagen-3.0-generate-002',
       });
       currentSlide.imageUrl = res.imageUrl;
+      currentSlide.hasImage = true;
       if (onUpdateSlide) {
         onUpdateSlide({ ...currentSlide, imageUrl: res.imageUrl, hasImage: true });
       }
@@ -103,11 +103,12 @@ export const CarouselPreview: React.FC<CarouselPreviewProps> = ({
     }
   };
 
-  // Batch deck image generation for all visual slides
+  // Batch deck image generation for all visual slides (defaults to balanced 1, 3, 5 if none set)
   const handleGenerateAllImages = async () => {
     if (!slides.length) return;
     const visualSlides = slides.filter((s) => s.hasImage !== false);
-    if (!visualSlides.length) {
+    const targetSlides = visualSlides.length ? visualSlides : slides.filter((_, i) => i === 0 || i === 2 || i === 4);
+    if (!targetSlides.length) {
       setImageError(isGerman ? 'Keine visuellen Folien vorhanden.' : 'No visual slides require generation.');
       return;
     }
@@ -116,17 +117,17 @@ export const CarouselPreview: React.FC<CarouselPreviewProps> = ({
     setImageError(null);
     setDeckProgress(
       isGerman
-        ? `Generiere ${visualSlides.length} fotorealistische Folien...`
-        : `Generating ${visualSlides.length} photorealistic slides...`
+        ? `Generiere ${targetSlides.length} fotorealistische Folien...`
+        : `Generating ${targetSlides.length} photorealistic slides...`
     );
 
     try {
       const res = await generateDeckImagesApi({
-        slides: visualSlides.map((s) => ({
+        slides: targetSlides.map((s) => ({
           slideNumber: s.slideNumber,
           headline: s.headline,
           imagePrompt: s.imagePrompt,
-          hasImage: s.hasImage,
+          hasImage: true,
         })),
         headline: slides[0]?.headline,
         category: carousel.detectedCategory,
@@ -137,6 +138,7 @@ export const CarouselPreview: React.FC<CarouselPreviewProps> = ({
       slides.forEach((s) => {
         if (res[s.slideNumber]?.imageUrl) {
           s.imageUrl = res[s.slideNumber].imageUrl;
+          s.hasImage = true;
           if (onUpdateSlide) {
             onUpdateSlide({
               ...s,
@@ -148,8 +150,8 @@ export const CarouselPreview: React.FC<CarouselPreviewProps> = ({
       });
       setDeckProgress(
         isGerman
-          ? `✓ ${visualSlides.length} Visual-Folien erfolgreich aktualisiert`
-          : `✓ ${visualSlides.length} visual slides successfully updated`
+          ? `✓ ${targetSlides.length} Visual-Folien erfolgreich aktualisiert`
+          : `✓ ${targetSlides.length} visual slides successfully updated`
       );
       setTimeout(() => setDeckProgress(null), 3500);
     } catch (err: any) {
@@ -358,25 +360,16 @@ export const CarouselPreview: React.FC<CarouselPreviewProps> = ({
       {/* Real-time Slide Image Generation Action Bar */}
       <div className="flex flex-col items-center gap-2 w-full max-w-[432px]">
         <div className="flex flex-col sm:flex-row items-center gap-2 w-full">
-          {/* Individual Slide Regeneration (enabled only when slide supports visual photo) */}
+          {/* Individual Slide Photo Generation (can add photo to any slide) */}
           <button
             onClick={handleGenerateImage}
-            disabled={generatingImage || generatingAllImages || currentSlide.hasImage === false}
-            className={`flex-1 w-full flex items-center justify-center gap-2 py-2 px-3 rounded-xl text-xs font-semibold shadow-md transition-all cursor-pointer ${
-              currentSlide.hasImage === false
-                ? 'bg-stone-900/50 text-stone-500 border border-stone-800 cursor-not-allowed'
-                : 'bg-stone-900 hover:bg-stone-800 text-stone-200 border border-stone-700'
-            }`}
+            disabled={generatingImage || generatingAllImages}
+            className="flex-1 w-full flex items-center justify-center gap-2 py-2 px-3 rounded-xl text-xs font-semibold shadow-md transition-all cursor-pointer bg-stone-900 hover:bg-stone-800 text-stone-200 border border-stone-700 disabled:opacity-50"
           >
             {generatingImage ? (
               <>
                 <Loader2 className="w-3.5 h-3.5 animate-spin text-red-500" />
                 <span>{isGerman ? 'Synthetisiere...' : 'Generating...'}</span>
-              </>
-            ) : currentSlide.hasImage === false ? (
-              <>
-                <Layers className="w-3.5 h-3.5 text-stone-500" />
-                <span>{isGerman ? 'Text-/Datenfolie (Kein Foto nötig)' : 'Editorial Layout (No Photo Needed)'}</span>
               </>
             ) : (
               <>
@@ -384,7 +377,7 @@ export const CarouselPreview: React.FC<CarouselPreviewProps> = ({
                 <span>
                   {currentSlide.imageUrl
                     ? isGerman ? 'Folie erneuern (Imagen 3)' : 'Regenerate Photo (Imagen 3)'
-                    : isGerman ? 'Folie generieren' : 'Generate Photo'}
+                    : isGerman ? 'Foto hinzufügen / generieren' : 'Generate / Add Photo (AI)'}
                 </span>
               </>
             )}

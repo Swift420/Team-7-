@@ -16,6 +16,7 @@ import { DialecticalAccordion } from './DialecticalAccordion';
 import { StoryboardPreview } from '../liquid/StoryboardPreview';
 import { CarouselPreview } from '../liquid/CarouselPreview';
 import { Headphones, Video, Layers, BookOpen, Sparkles, FileText } from 'lucide-react';
+import { normalizeSection } from '../../utils/sectionTranslation';
 
 interface ReaderViewProps {
   language?: 'en' | 'de';
@@ -178,77 +179,82 @@ export const ReaderView: React.FC<ReaderViewProps> = ({ language = 'en' }) => {
       )}
 
       {/* NZZ Editorial Article Container */}
-      <article className="bg-slate-950 border border-slate-800/80 rounded-3xl p-8 sm:p-12 shadow-2xl space-y-6">
-        {/* Article Rubric / Section */}
-        <div className="flex items-center justify-between border-b border-slate-800 pb-4 text-xs">
-          <span className="uppercase font-bold tracking-widest text-red-500">
-            {article.section || 'Wirtschaft'}
-          </span>
-          <span className="text-slate-500 font-mono">
-            {article.wordCount} Wörter · Neue Zürcher Zeitung
-          </span>
-        </div>
+      {(() => {
+        const isGerman = article.language === 'de';
+        return (
+          <article className="bg-slate-950 border border-slate-800/80 rounded-3xl p-8 sm:p-12 shadow-2xl space-y-6">
+            {/* Article Rubric / Section */}
+            <div className="flex items-center justify-between border-b border-slate-800 pb-4 text-xs">
+              <span className="uppercase font-bold tracking-widest text-red-500">
+                {normalizeSection(article.section, isGerman ? 'de' : 'en')}
+              </span>
+              <span className="text-slate-500 font-mono">
+                {article.wordCount} {isGerman ? 'Wörter' : 'words'} · Neue Zürcher Zeitung
+              </span>
+            </div>
 
-        {/* Headline & Lead */}
-        <div className="space-y-4">
-          <h1 className="text-3xl sm:text-4xl font-black font-serif text-white tracking-tight leading-tight">
-            {article.headline}
-          </h1>
+            {/* Headline & Lead */}
+            <div className="space-y-4">
+              <h1 className="text-3xl sm:text-4xl font-black font-serif text-white tracking-tight leading-tight">
+                {article.headline}
+              </h1>
 
-          <p className="text-base sm:text-lg font-serif text-slate-300 leading-relaxed font-medium">
-            {article.lead}
-          </p>
+              <p className="text-base sm:text-lg font-serif text-slate-300 leading-relaxed font-medium">
+                {article.lead}
+              </p>
 
-          <div className="flex items-center gap-2 text-xs text-slate-400 pt-2 border-t border-slate-800/60">
-            <span className="font-semibold text-slate-200">
-              Von {article.author || 'NZZ Redaktion'}
-            </span>
-            <span>·</span>
-            <span>Zürich & Düsseldorf</span>
-          </div>
-        </div>
+              <div className="flex items-center gap-2 text-xs text-slate-400 pt-2 border-t border-slate-800/60">
+                <span className="font-semibold text-slate-200">
+                  {isGerman ? 'Von' : 'By'} {article.author || (isGerman ? 'NZZ Redaktion' : 'NZZ Editorial')}
+                </span>
+                <span>·</span>
+                <span>Zürich & Düsseldorf</span>
+              </div>
+            </div>
 
-        {/* 60s Commuter Audio Brief Player */}
-        {showAudio && published?.audioBrief && (
-          <AudioBriefPlayer
-            audioBrief={published.audioBrief}
-            headline={published.audioBrief.headline}
-          />
-        )}
+            {/* 60s Commuter Audio Brief Player */}
+            {showAudio && published?.audioBrief && (
+              <AudioBriefPlayer
+                audioBrief={published.audioBrief}
+                headline={published.audioBrief.headline}
+              />
+            )}
 
-        {/* Executive 3-Bullet Card */}
-        {showExecutiveBrief && published?.executiveNewsletter && (
-          <ExecutiveBriefCard brief={published.executiveNewsletter} />
-        )}
+            {/* Executive 3-Bullet Card */}
+            {showExecutiveBrief && published?.executiveNewsletter && (
+              <ExecutiveBriefCard brief={published.executiveNewsletter} language={article.language as 'en' | 'de'} />
+            )}
 
-        {/* First Batch of Paragraphs */}
-        <div className="prose prose-invert max-w-none text-slate-300 font-serif leading-relaxed space-y-4 text-sm sm:text-base">
-          {paragraphs.slice(0, 3).map((p, idx) => (
-            <p key={idx}>{p}</p>
-          ))}
-        </div>
+            {/* First Batch of Paragraphs */}
+            <div className="prose prose-invert max-w-none text-slate-300 font-serif leading-relaxed space-y-4 text-sm sm:text-base">
+              {paragraphs.slice(0, 3).map((p, idx) => (
+                <p key={idx}>{p}</p>
+              ))}
+            </div>
 
-        {/* Embedded Key Metrics Fact Box */}
-        {published?.factBox && <FactBoxStrip factBox={published.factBox} />}
+            {/* Embedded Key Metrics Fact Box */}
+            {published?.factBox && <FactBoxStrip factBox={published.factBox} />}
 
-        {/* Remaining Paragraphs */}
-        <div className="prose prose-invert max-w-none text-slate-300 font-serif leading-relaxed space-y-4 text-sm sm:text-base">
-          {paragraphs.slice(3, 8).map((p, idx) => (
-            <p key={idx}>{p}</p>
-          ))}
-        </div>
+            {/* Remaining Paragraphs */}
+            <div className="prose prose-invert max-w-none text-slate-300 font-serif leading-relaxed space-y-4 text-sm sm:text-base">
+              {paragraphs.slice(3, 8).map((p, idx) => (
+                <p key={idx}>{p}</p>
+              ))}
+            </div>
 
-        {/* Embedded Dialectical FAQ (Consensus vs Counterargument) */}
-        {published?.dialecticalFaq && (
-          <DialecticalAccordion faq={published.dialecticalFaq} />
-        )}
+            {/* Embedded Dialectical FAQ (Consensus vs Counterargument) */}
+            {published?.dialecticalFaq && (
+              <DialecticalAccordion faq={published.dialecticalFaq} />
+            )}
 
-        {/* Article Footnote / Sign-off */}
-        <div className="pt-8 border-t border-slate-800 text-xs text-slate-500 flex items-center justify-between">
-          <span>© Neue Zürcher Zeitung AG. Alle Rechte vorbehalten.</span>
-          <span className="text-red-500 font-serif font-black text-sm">NZZ</span>
-        </div>
-      </article>
+            {/* Article Footnote / Sign-off */}
+            <div className="pt-8 border-t border-slate-800 text-xs text-slate-500 flex items-center justify-between">
+              <span>{isGerman ? '© Neue Zürcher Zeitung AG. Alle Rechte vorbehalten.' : '© Neue Zürcher Zeitung AG. All rights reserved.'}</span>
+              <span className="text-red-500 font-serif font-black text-sm">NZZ</span>
+            </div>
+          </article>
+        );
+      })()}
     </div>
   );
 };

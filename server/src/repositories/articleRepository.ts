@@ -35,6 +35,44 @@ const summaryColumns = `
   source_url, published_at, source_format, teaser_image, tags, publication_status, created_at, updated_at
 `;
 
+const FALLBACK_EDITORIAL_IMAGES: Record<string, string> = {
+  technology: 'https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80',
+  economy: 'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1200&q=80',
+  finance: 'https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?auto=format&fit=crop&w=1200&q=80',
+  sports: 'https://images.unsplash.com/photo-1517649763962-0c623266ddc0?auto=format&fit=crop&w=1200&q=80',
+  mobility: 'https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1200&q=80',
+  science: 'https://images.unsplash.com/photo-1507668077129-56e32842fceb?auto=format&fit=crop&w=1200&q=80',
+  default: 'https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80',
+};
+
+const resolveTeaserImage = (a: any): Record<string, unknown> => {
+  if (a.teaserImage?.url) return a.teaserImage;
+  if (a.teaser_image?.url) return a.teaser_image;
+  if (typeof a.teaserImage === 'string' && a.teaserImage.startsWith('http')) {
+    return { url: a.teaserImage, caption: a.headline, credit: 'NZZ Editorial' };
+  }
+  try {
+    const deriv: any = db.getDerivatives(a.id);
+    const derivImage = deriv?.instagramCarousel?.slides?.[0]?.imageUrl
+      || deriv?.payload?.instagramCarousel?.slides?.[0]?.imageUrl
+      || deriv?.visuals?.[0]?.url;
+    if (derivImage) {
+      return { url: derivImage, caption: a.headline, credit: 'NZZ Editorial' };
+    }
+  } catch {}
+
+  const text = `${a.headline || ''} ${a.section || ''} ${a.category || ''}`.toLowerCase();
+  let url = FALLBACK_EDITORIAL_IMAGES.default;
+  if (/tech|smartphone|battery|ai|chip|software|cyber|pocket|computer/i.test(text)) url = FALLBACK_EDITORIAL_IMAGES.technology;
+  else if (/wirtschaft|economy|market|trade|tariff|inflation/i.test(text)) url = FALLBACK_EDITORIAL_IMAGES.economy;
+  else if (/finanz|finance|bank|credit|stock|invest/i.test(text)) url = FALLBACK_EDITORIAL_IMAGES.finance;
+  else if (/sport|football|ski|olympic/i.test(text)) url = FALLBACK_EDITORIAL_IMAGES.sports;
+  else if (/mobil|car|porsche|auto|traffic|plane|sustenpass/i.test(text)) url = FALLBACK_EDITORIAL_IMAGES.mobility;
+  else if (/science|climate|energy|physics|space/i.test(text)) url = FALLBACK_EDITORIAL_IMAGES.science;
+
+  return { url, caption: a.headline, credit: 'NZZ Editorial' };
+};
+
 const mapRow = (row: ArticleRow): ArticleRecord => ({
   id: row.id,
   importKey: row.import_key,
@@ -50,7 +88,7 @@ const mapRow = (row: ArticleRow): ArticleRecord => ({
   body: row.body,
   rawContent: row.raw_content,
   sourceFormat: row.source_format,
-  teaserImage: row.teaser_image,
+  teaserImage: resolveTeaserImage(row as any),
   tags: row.tags,
   createdAt: row.created_at,
   updatedAt: row.updated_at,
@@ -70,7 +108,7 @@ const mapJsonToSummary = (a: any): ArticleSummary => ({
   sourceUrl: null,
   publishedAt: a.createdAt ? new Date(a.createdAt) : new Date(),
   sourceFormat: 'MARKDOWN',
-  teaserImage: a.teaserImage || null,
+  teaserImage: resolveTeaserImage(a),
   tags: a.tags || ['#NZZ'],
   createdAt: a.createdAt ? new Date(a.createdAt) : new Date(),
   updatedAt: a.updatedAt ? new Date(a.updatedAt) : new Date(),
@@ -99,7 +137,7 @@ const mapJsonToRecord = (a: any): ArticleRecord => ({
     })),
   rawContent: a,
   sourceFormat: 'MARKDOWN',
-  teaserImage: a.teaserImage || null,
+  teaserImage: resolveTeaserImage(a),
   tags: a.tags || ['#NZZ'],
   createdAt: a.createdAt ? new Date(a.createdAt) : new Date(),
   updatedAt: a.updatedAt ? new Date(a.updatedAt) : new Date(),
@@ -125,7 +163,7 @@ export async function listArticles(includeDrafts = false): Promise<ArticleSummar
         sourceUrl: row.source_url,
         publishedAt: row.published_at,
         sourceFormat: row.source_format,
-        teaserImage: row.teaser_image,
+        teaserImage: resolveTeaserImage(row as any),
         tags: row.tags,
         createdAt: row.created_at,
         updatedAt: row.updated_at,

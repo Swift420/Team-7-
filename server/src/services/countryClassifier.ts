@@ -63,7 +63,9 @@ const escapeRegex = (value: string) => value.replace(/[.*+?^${}()|[\]\\]/g, '\\$
 
 export function classifyArticleCountries(article: ArticleRecord) {
   const headlineLead = `${article.headline} ${article.lead || ''}`.toLowerCase();
-  const body = article.body.map((element) => element.text || '').join(' ').toLowerCase();
+  const body = Array.isArray(article.body)
+    ? article.body.map((element) => element.text || '').join(' ').toLowerCase()
+    : String(article.body || '').toLowerCase();
   const fullText = `${headlineLead} ${body}`;
   return countryRules.flatMap((rule) => {
     const mentions = rule.aliases.reduce((total, alias) => total + (fullText.match(new RegExp(`\\b${escapeRegex(alias)}\\b`, 'gi')) || []).length, 0);

@@ -71,6 +71,7 @@ export const DraftStudio: React.FC<DraftStudioProps> = ({
   const [author, setAuthor] = useState('NZZ Editorial');
   const [section, setSection] = useState('Wirtschaft');
   const [lang, setLang] = useState<'en' | 'de'>(initialLanguage || 'en');
+  const [selectedModel, setSelectedModel] = useState<'gemini-2.5-pro' | 'gemini-2.5-flash'>('gemini-2.5-pro');
 
   const [activeTab, setActiveTab] = useState<'carousel' | 'audio' | 'video' | 'newsletter' | 'charts' | 'faq'>('carousel');
   const [isGenerating, setIsGenerating] = useState(false);
@@ -120,7 +121,7 @@ export const DraftStudio: React.FC<DraftStudioProps> = ({
       factbox: lang === 'de' ? 'Extrahiere NZZ-Faktenbox-Kennzahlen...' : 'Extracting Verified Fact Box...',
       faq: lang === 'de' ? 'Analysiere dialektisches FAQ (3 Perspektiven)...' : 'Synthesizing Dialectical FAQ (3 Perspectives)...',
     };
-    setGeneratingLabel(focusTab && labelMap[focusTab] ? labelMap[focusTab] : 'Calling Google Cloud Vertex AI (gemini-2.5-flash)...');
+    setGeneratingLabel(focusTab && labelMap[focusTab] ? labelMap[focusTab] : `Calling Google Cloud Vertex AI (${selectedModel})...`);
 
     try {
       const result = await generateLiquidFormats({
@@ -131,7 +132,7 @@ export const DraftStudio: React.FC<DraftStudioProps> = ({
         author: author.trim() || (lang === 'de' ? 'NZZ Redaktion' : 'NZZ Editorial'),
         section: section || 'Wirtschaft',
         language: lang,
-        model: 'gemini-2.5-flash',
+        model: selectedModel,
       });
 
       setDerivatives(result);
@@ -333,12 +334,38 @@ export const DraftStudio: React.FC<DraftStudioProps> = ({
             </h2>
             <p className="text-xs text-stone-400 mt-0.5">
               {lang === 'de'
-                ? 'Sendet den Text direkt an Google Cloud Vertex AI (gemini-2.5-flash). Keine Scheindaten.'
-                : 'Calls Google Cloud Vertex AI (gemini-2.5-flash) in real time. Zero local fallbacks.'}
+                ? `Sendet den Text direkt an Google Cloud Vertex AI (${selectedModel}). Keine Scheindaten.`
+                : `Calls Google Cloud Vertex AI (${selectedModel}) in real time. Zero local fallbacks.`}
             </p>
           </div>
 
           <div className="flex flex-wrap items-center gap-2.5">
+            {/* Model Selector Toggle */}
+            <div className="inline-flex rounded-xl bg-stone-950 p-1 border border-stone-800 mr-1">
+              <button
+                type="button"
+                onClick={() => setSelectedModel('gemini-2.5-pro')}
+                className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-all ${
+                  selectedModel === 'gemini-2.5-pro'
+                    ? 'bg-red-600 text-white shadow-sm font-semibold'
+                    : 'text-stone-400 hover:text-white'
+                }`}
+              >
+                Gemini 2.5 Pro
+              </button>
+              <button
+                type="button"
+                onClick={() => setSelectedModel('gemini-2.5-flash')}
+                className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-all ${
+                  selectedModel === 'gemini-2.5-flash'
+                    ? 'bg-red-600 text-white shadow-sm font-semibold'
+                    : 'text-stone-400 hover:text-white'
+                }`}
+              >
+                Gemini 2.5 Flash
+              </button>
+            </div>
+
             {/* Primary Generate All Button */}
             <button
               onClick={() => handleGenerate()}
@@ -432,7 +459,7 @@ export const DraftStudio: React.FC<DraftStudioProps> = ({
 
               <span className="text-stone-700">|</span>
               <span className="text-stone-300 font-mono">
-                Model: <strong className="text-white">{derivatives.model || 'gemini-2.5-flash'}</strong>
+                Model: <strong className="text-white">{derivatives.model || selectedModel}</strong>
               </span>
 
               {derivatives.elapsedMs && (

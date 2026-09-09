@@ -60,7 +60,7 @@ export async function synthesizeAudioBrief(
   options: TTSOptions = {}
 ): Promise<AudioSynthesisResult> {
   const isGerman = options.language === 'de';
-  const voiceName = options.voiceName || (isGerman ? 'de-DE-Neural2-B' : 'en-US-Journey-F');
+  const voiceName = options.voiceName || (isGerman ? 'de-DE-Studio-B' : 'en-US-Journey-F');
   const languageCode = isGerman ? 'de-DE' : 'en-US';
   const words = script.trim().split(/\s+/).length;
   const durationSeconds = Math.max(55, Math.round(words / 2.33));

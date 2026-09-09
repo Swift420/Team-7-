@@ -222,13 +222,27 @@ export class JsonDatabase {
     language?: 'en' | 'de';
     status?: 'draft' | 'published';
   }): ArticleRecord {
-    const id = input.id || `art-${Date.now()}-${Math.random().toString(36).slice(2, 6)}`;
+    // Check by input.id first, or by matching headline to prevent duplicate articles
+    let existing: ArticleRecord | null = null;
+    if (input.id) {
+      existing = this.getArticleById(input.id);
+    }
+    if (!existing) {
+      const cleanHeadline = input.headline.trim().toLowerCase();
+      for (const a of this.articles.values()) {
+        if (a.headline.trim().toLowerCase() === cleanHeadline) {
+          existing = a;
+          break;
+        }
+      }
+    }
+
+    const id = existing ? existing.id : (input.id || `art-${Date.now()}-${Math.random().toString(36).slice(2, 6)}`);
     const words = input.body.split(/\s+/).filter(Boolean).length;
     const now = new Date().toISOString();
 
-    const existing = this.getArticleById(id);
     const record: ArticleRecord = {
-      id: existing ? existing.id : id,
+      id,
       headline: input.headline.trim(),
       lead: input.lead?.trim() || '',
       body: input.body.trim(),

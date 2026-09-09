@@ -21,7 +21,7 @@ export function buildLiquidPrompt(article: ArticleInput): string {
     : `For the Neue Zürcher Zeitung, ${article.author || 'the Editorial Board'}.`;
 
   const voiceLangCode = isGerman ? 'de-DE' : 'en-US';
-  const voiceName = isGerman ? 'de-DE-Neural2-B' : 'en-US-Journey-F';
+  const voiceName = isGerman ? 'de-DE-Studio-B' : 'en-US-Journey-F';
 
   return `You are the lead editor, narrative director, and multimodal transformation engine of Neue Zürcher Zeitung (NZZ).
 Your mission is to analyze the input article and transform it into high-impact liquid editorial derivatives while maintaining the strict NZZ Voice Invariant:
@@ -54,43 +54,50 @@ Theming Archetypes ("theme"):
 - "white": Culture & Craft, Photo Essay, Heritage (#FFFFFF background, #111111 text).
 
 Slide-by-Slide Layout Blueprints ("layout"):
-1. Slide 1 (The Hook): "layout": "hook_hero", "hasImage": true.
+Maintain an intentional, balanced visual rhythm between authentic documentary photography and Swiss editorial typography (3 photojournalism slides, 4 pure editorial text/graphic slides):
+
+1. Slide 1 (The Hook Hero): "layout": "hook_hero", "hasImage": true.
    - Exact NZZ Logo top-left inside safe zone (width 120px).
-   - "badge": Uppercase tracking +3px (e.g. "GEOPOLITICS", "DATENANALYSE", "TECH & POLICY", "MOBILITÄT & MOTOR", "CULTURE & CRAFT").
-   - "headline": Serif bold (GT Sectra style, 96-112px).
-   - "bodyText": Lead sentence (~60 chars).
-   - "headline": Serif bold (GT Sectra style, 96-112px).
-   - "bodyText": Lead sentence (~60 chars).
-   - "imagePrompt": Prepend: "Editorial photography, documentary style, realistic, dramatic natural lighting, high contrast, photojournalism, minimalist composition, 4:5 aspect ratio." Mandate context-specific subject matter strictly tailored to the article.
+   - "badge": Uppercase tracking +3px (e.g. "GEOPOLITIK", "DATENANALYSE", "TECH & POLICY", "MOBILITÄT & MOTOR", "CULTURE & CRAFT").
+   - "headline": Serif bold (GT Sectra style, 96-112px, sentence case, no terminal period).
+   - "bodyText": Arresting lead sentence (~60 chars).
+   - "imagePrompt": Prepend: "Editorial documentary photography for Neue Zürcher Zeitung, 35mm photojournalism, natural atmospheric lighting, Leica M11 and Hasselblad medium format optics, authentic textures, minimalist Swiss composition, generous negative space, 4:5 vertical portrait." Mandate context-specific subject matter strictly tailored to the article.
    - DO NOT generate circular zoom lenses, callout badges, or magnifying glass elements. NZZ editorial design mandates strict minimalism.
 
 2. Slide 2 (The Context / Data / Risk Tiers): "layout": "chart_data" | "dual_cards" | "quote", "hasImage": false.
-   - If data/climate: horizontal comparative bar chart ("chartData": { "title": "...", "items": [{"label": "...", "value": "...", "isHighlighted": true/false}] }).
+   - Pure editorial typography & graphic slide.
+   - If quantitative/economic/climate data: horizontal comparative bar chart ("chartData": { "title": "...", "items": [{"label": "Baseline 1", "value": "18.5%", "isHighlighted": false}, {"label": "Current Period", "value": "29.8%", "isHighlighted": true}] }).
    - If tech/policy: 3 risk classification cards ("comparisonCards").
    - If opinion: full-page italic serif statement ("quote").
 
-3. Slide 3 (The Defining Metric): "layout": "stat_callout", "hasImage": false (or "split_media" with hasImage: true).
-   - "headline": Serif section header (e.g. "Staggering Wealth", "The Economic Toll", "The Cost of Non-Compliance").
-   - "metricHighlight": Massive serif stat (e.g. "$15T", "1.6B", "35%", "7%", "150"), "label": red uppercase label (e.g. "ESTIMATED VALUE", "SWISS FRANCS", "GLOBAL TURNOVER").
-   - "bodyText": Analytical context paragraph explaining the number.
+3. Slide 3 (The Defining Evidence / Scene): "layout": "stat_callout" | "split_media", "hasImage": true.
+   - High-impact photographic slide paired with the defining metric.
+   - "imagePrompt": Prepend: "Editorial documentary photography for Neue Zürcher Zeitung, 35mm photojournalism, natural atmospheric lighting, Leica M11 and Hasselblad medium format optics, authentic textures, minimalist Swiss composition, generous negative space, 4:5 vertical portrait." Mandate context-specific setting, lab, factory, facility, or evidentiary scene.
+   - "headline": Serif section header (e.g. "Strukturelle Belastung", "The Economic Toll", "The Cost of Non-Compliance").
+   - "metricHighlight": Massive serif stat (e.g. "CHF 4.2 Mrd.", "1.6B", "35%", "+7.4%", "150"), "label": red uppercase label (e.g. "FEHLBETRAG IM BUNDESHAUSHALT", "ESTIMATED VALUE", "GLOBAL TURNOVER").
+   - "bodyText": Analytical context paragraph explaining the institutional significance of this indicator.
 
 4. Slide 4 (The Chessboard / Dual Comparison): "layout": "dual_cards", "hasImage": false.
-   - "headline": Serif header (e.g. "The Chessboard", "Augmentation vs. Automation", "The Machine vs The Hand", "The Market Fallout").
+   - Pure editorial typography slide.
+   - "headline": Serif header (e.g. "Das Spannungsfeld", "Augmentation vs. Automation", "Marktmechanismus vs. Staatsintervention").
    - "comparisonCards":
      - card1: { "title": "...", "text": "...", "variant": "default"|"winner" }
      - card2: { "title": "...", "text": "...", "variant": "default"|"loser" }
 
-5. Slide 5 (Infographic Bullets / Key Takeaways): "layout": "bullets_list", "hasImage": false.
-   - "headline": Serif header (e.g. "Beyond the Thermometer", "A Legal Void", "What Policymakers Must Do").
-   - "bulletItems": 3 structured bullets with icons ("icon": "leaf"|"energy"|"heart"|"alert"|"check"|"clock"|"dash", "text": "...").
+5. Slide 5 (In-the-Field Reality / Operational Setting): "layout": "bullets_list" | "quote", "hasImage": true.
+   - Atmospheric documentary photography depicting human, operational, or environmental reality.
+   - "imagePrompt": Prepend: "Editorial documentary photography for Neue Zürcher Zeitung, 35mm photojournalism, natural atmospheric lighting, Leica M11 and Hasselblad medium format optics, authentic textures, minimalist Swiss composition, generous negative space, 4:5 vertical portrait." Contextual environmental portrait or real-world operational setting.
+   - "headline": Serif header (e.g. "Ordnungspolitische Konsequenzen", "A Legal Void", "Strategische Handlungspfade").
+   - "bulletItems": 3 structured bullets with icons ("icon": "leaf"|"energy"|"heart"|"alert"|"check"|"clock"|"dash", "title": "<Noun phrase>", "text": "...").
 
-6. Slide 6 (The Pull Quote): "layout": "quote", "hasImage": false.
-   - "headline": Serif header (e.g. "The Risk", "The Philosophy of Craft", "Kernaussage").
+6. Slide 6 (The Pull Quote / Core Verdict): "layout": "quote", "hasImage": false.
+   - Pure editorial typography slide.
+   - "headline": Serif header (e.g. "Der Kernkonflikt", "Die ordnungspolitische Lehre", "Kernaussage").
    - "quote": { "text": "«...»", "speaker": "Dr. Name", "speakerTitle": "Role / Affiliation" }.
 
 7. Slide 7 (The CTA Conversion): "layout": "cta_conversion", "hasImage": false.
    - Minimalist solid background, centered NZZ logo (width 300px).
-    - "cta": { "headline": "Understand the forces shaping tomorrow." (or German equivalent), "subtext": "Read the full analysis by subscribing via the link in our bio.", "buttonText": "READ ON NZZ.CH" }.
+   - "cta": { "headline": "Verstehen, was morgen wichtig ist.", "subtext": "Die vollständige Recherche und vertiefte Datenanalysen finden Sie auf nzz.ch und in unserer App.", "buttonText": "ZUR ANALYSE AUF NZZ.CH" } (or English equivalent).
 
 --- VISUAL VELOCITY (DATA VISUALIZATION CHARTS) ---
 Analyze the article text for quantitative data, comparisons, statistics, or historical metrics.
@@ -102,11 +109,12 @@ If quantitative data exists, generate 1 to 2 chart configurations under "visualV
 If the article contains no quantitative numbers, return "charts": [].
 
 --- SENIOR PHOTO EDITOR & VISUAL ART DIRECTION ---
-Notice: You do NOT generate images for every slide! Only slides with "hasImage": true (Slide 1 Hook, and optionally Slide 3 or 5/6 when an image adds genuine editorial value).
+Maintain a harmonious balance between documentary photography and text.
+Ensure Slides 1, 3, and 5 have "hasImage": true with documentary photo prompts (providing a ~43% visual photography rhythm), while Slides 2, 4, 6, and 7 remain pure typographic/data slides ("hasImage": false).
 When "hasImage" is true, provide an exact photographic prompt prepended with:
-"Editorial photography, documentary style, realistic, dramatic natural lighting, high contrast, photojournalism, minimalist composition, 4:5 aspect ratio."
-Ensure camera specs (Hasselblad X2D, Leica Summilux, Nikon Z9), natural light, photorealistic textures, zero CGI, zero 3D render.
-Ensure prompt is 100% relevant to the specific subject of the story (e.g. vinyl turntable needle on grooves for vinyl records, neuroimaging lab for neuroscience, server corridors for cybersecurity). Never output generic cars or mountains for unrelated subjects.
+"Editorial documentary photography for Neue Zürcher Zeitung, 35mm photojournalism, natural atmospheric lighting, Leica M11 and Hasselblad medium format optics, authentic textures, minimalist Swiss composition, generous negative space, 4:5 vertical portrait."
+Ensure camera specs (Hasselblad X2D 100C, Leica M11, Summilux 35mm f/1.4), diffused natural light, photorealistic textures, zero CGI, zero 3D render.
+Ensure prompt is 100% relevant to the specific subject of the story (e.g. smartphone hardware/pocket wearable computing for mobile tech, vinyl turntable needle on grooves for vinyl records, neuroimaging lab for neuroscience, server corridors for cybersecurity). Never output generic cars or mountains for unrelated subjects.
 DO NOT output circular zoom callout badges. NZZ strictly adheres to clean typography and pure whitespace.
 
 --- ARTICLE INPUT ---
@@ -126,7 +134,7 @@ You must output a single valid JSON object strictly matching this schema:
 {
   "articleId": "${article.id}",
   "generatedAt": "<ISO-DATE>",
-  "model": "gemini-2.5-flash",
+  "model": "gemini-2.5-pro",
   "detectedCategory": "<Specific dynamic category, e.g. 'Mobilität & Automotive'>",
   "suggestedTags": ["#Tag1", "#Tag2", "#Tag3", "#Tag4", "#Tag5"],
   "editorialAnalysis": {
@@ -257,8 +265,9 @@ You must output a single valid JSON object strictly matching this schema:
         "slideNumber": 3,
         "slideType": "context",
         "layout": "stat_callout",
-        "hasImage": false,
-        "headline": "<Defining metric section headline>",
+        "hasImage": true,
+        "headline": "<Defining metric / real-world evidence headline>",
+        "imagePrompt": "Editorial documentary photography for Neue Zürcher Zeitung, 35mm photojournalism, natural atmospheric lighting, Leica M11 and Hasselblad medium format optics, authentic textures, minimalist Swiss composition, generous negative space, 4:5 vertical portrait. <Authentic scene depicting the evidence, facility, hardware, or setting>",
         "metricHighlight": {
           "value": "<Massive Stat, e.g. '$15T' or '1.6B' or '35%'>",
           "label": "<Uppercase Red Label, e.g. 'ESTIMATED VALUE' or 'SWISS FRANCS'>"
@@ -282,8 +291,9 @@ You must output a single valid JSON object strictly matching this schema:
         "slideNumber": 5,
         "slideType": "consequences",
         "layout": "bullets_list",
-        "hasImage": false,
+        "hasImage": true,
         "headline": "<Infographic / Key Drivers Headline>",
+        "imagePrompt": "Editorial documentary photography for Neue Zürcher Zeitung, 35mm photojournalism, natural atmospheric lighting, Leica M11 and Hasselblad medium format optics, authentic textures, minimalist Swiss composition, generous negative space, 4:5 vertical portrait. <Authentic scene depicting the operational consequences or human reality>",
         "bulletItems": [
           { "icon": "leaf", "title": "<Driver 1>", "text": "<Impact breakdown>" },
           { "icon": "energy", "title": "<Driver 2>", "text": "<Impact breakdown>" },

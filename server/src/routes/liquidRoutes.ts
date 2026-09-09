@@ -367,7 +367,7 @@ liquidRouter.post('/generate', async (req: Request, res: Response) => {
     const derivatives = await generateLiquidDerivatives(articleInput, {
       demoMode,
       mock: mock || false,
-      model: model || 'gemini-2.5-flash',
+      model: model || process.env.GEMINI_MODEL || 'gemini-2.5-pro',
       language: targetLang,
     });
 

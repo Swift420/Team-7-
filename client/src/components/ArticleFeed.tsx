@@ -3,6 +3,7 @@ import { FileText, Globe2, Plus, RefreshCw } from 'lucide-react';
 import { useArticles } from '../context/ArticleContext';
 import { useAuth } from '../context/AuthContext';
 import { ArticleCard } from './ArticleCard';
+import { normalizeSection, sectionsMatch } from '../utils/sectionTranslation';
 const StoryGlobeExplorer = React.lazy(() => import('./StoryGlobeExplorer').then((module) => ({ default: module.StoryGlobeExplorer })));
 
 export const ArticleFeed: React.FC = () => {
@@ -11,7 +12,7 @@ export const ArticleFeed: React.FC = () => {
   const [globeOpen, setGlobeOpen] = useState(false);
   const query = searchQuery.trim().toLowerCase();
   const filtered = articles.filter((article) => {
-    const categoryMatches = selectedCategory === 'all' || article.section === selectedCategory;
+    const categoryMatches = selectedCategory === 'all' || sectionsMatch(article.section, selectedCategory);
     const searchMatches = !query || [article.headline, article.lead, article.authorLine, article.section, ...article.tags]
       .some((value) => value?.toLowerCase().includes(query));
     return categoryMatches && searchMatches;
@@ -22,7 +23,7 @@ export const ArticleFeed: React.FC = () => {
     {globeOpen && <Suspense fallback={<div className="story-globe-loading"><RefreshCw className="spin" size={18} /> Loading global story explorer…</div>}><StoryGlobeExplorer onClose={() => setGlobeOpen(false)} /></Suspense>}
     <div className="section-header-banner">
       <div className="header-text-group">
-        <h2 className="feed-title">{selectedCategory === 'all' ? 'Articles' : selectedCategory}</h2>
+        <h2 className="feed-title">{selectedCategory === 'all' ? 'Articles' : normalizeSection(selectedCategory, 'en')}</h2>
         <p className="feed-desc">Structured source articles ready for editorial review and future Visual Velocity analysis.</p>
       </div>
       <div className="header-action-group">

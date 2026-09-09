@@ -37,12 +37,12 @@ export async function generateImagen3Image(
 
   // Design System Standard Prompt Engineering Prefix
   const DESIGN_SYSTEM_PREFIX =
-    "Editorial photography, documentary style, realistic, dramatic natural lighting, high contrast, photojournalism, minimalist composition, 4:5 aspect ratio.";
+    "Editorial documentary photography for Neue Zürcher Zeitung, 35mm photojournalism, natural atmospheric lighting, Leica M11 and Hasselblad medium format optics, authentic textures, minimalist Swiss composition, generous negative space, 4:5 vertical portrait.";
 
   // Refined realistic photo prompt for editorial photojournalism
   const photorealisticPrompt = prompt.includes(DESIGN_SYSTEM_PREFIX)
     ? prompt
-    : `${DESIGN_SYSTEM_PREFIX} Authentic 35mm editorial documentary photography for Neue Zürcher Zeitung: ${prompt}. Natural journalistic lighting, Hasselblad medium format, candid scene, true contextual depth, photorealistic textures, zero CGI, zero 3D render, zero plastic artifacts, award-winning photojournalism.`;
+    : `${DESIGN_SYSTEM_PREFIX} Subject: ${prompt}. Natural journalistic lighting, diffused European daylight, tactile film grain, authentic contextual depth, zero CGI, zero 3D render, zero plastic artifacts, Magnum Photos reportage aesthetic, award-winning Swiss photojournalism.`;
 
   // 2. Try Vertex AI if credentials exist
   try {
@@ -63,7 +63,8 @@ export async function generateImagen3Image(
           instances: [{ prompt: photorealisticPrompt }],
           parameters: {
             sampleCount: 1,
-            aspectRatio: aspectRatio === "1:1" ? "1:1" : aspectRatio === "9:16" ? "9:16" : "4:5",
+            aspectRatio: aspectRatio === "1:1" ? "1:1" : aspectRatio === "9:16" ? "9:16" : aspectRatio === "16:9" ? "16:9" : "3:4",
+            negativePrompt: "cartoon, 3D render, anime, illustration, CGI, plastic textures, oversaturated, text overlay, watermark, blurry, low resolution, stock photo cliches, deformed, fake artificial lighting",
             personGeneration: "allow_adult",
           },
         }),
@@ -95,7 +96,7 @@ export async function generateImagen3Image(
   // 3. High-Fidelity Flux.1 Photorealistic Generation Engine
   // Delivers 1080x1350 4:5 vertical photojournalism matching NZZ aesthetic
   console.log(`[Flux AI Image] Generating photorealistic image via Flux engine for: "${prompt.slice(0, 50)}..."`);
-  const fluxUrl = `https://image.pollinations.ai/prompt/${encodeURIComponent(photorealisticPrompt)}?width=1080&height=1350&model=flux&nologo=true`;
+  const fluxUrl = `https://image.pollinations.ai/prompt/${encodeURIComponent(photorealisticPrompt)}?width=1080&height=1350&model=flux&nologo=true&enhance=true`;
 
   const result: GeneratedImageResult = {
     imageUrl: fluxUrl,
@@ -126,8 +127,9 @@ export async function generateContextualPhotographyPrompt(
     const location = process.env.GCP_LOCATION || "us-central1";
 
     if (token && projectId) {
-      const endpoint = `https://${location}-aiplatform.googleapis.com/v1/projects/${projectId}/locations/${location}/publishers/google/models/gemini-2.5-flash:generateContent`;
-      const systemInstruction = "You are an award-winning photo editor and director of photography for Neue Zürcher Zeitung (NZZ). Write a concise, ultra-specific, photorealistic photography prompt for an image generation model. Requirements: Must be 100% relevant to the specific subject of the story. Mandate documentary photojournalism, natural or atmospheric lighting, Hasselblad/Leica 35mm film aesthetic, photorealistic textures, zero CGI, zero 3D render, 4:5 aspect ratio. Return ONLY the exact prompt text, no quotes, no markdown, no filler.";
+      const vertexModel = process.env.GEMINI_MODEL || "gemini-2.5-pro";
+      const endpoint = `https://${location}-aiplatform.googleapis.com/v1/projects/${projectId}/locations/${location}/publishers/google/models/${vertexModel}:generateContent`;
+      const systemInstruction = "You are an award-winning director of photography and senior photo editor for Neue Zürcher Zeitung (NZZ). Write a concise, ultra-specific, photorealistic photography prompt for an image generation model. Requirements: Must depict authentic 35mm editorial documentary photojournalism strictly relevant to the article's core theme. Mandate natural or dramatic atmospheric lighting, Leica M11 or Hasselblad X2D medium format optics, real tactile textures, candid real-world scenes, zero CGI, zero 3D render, zero plastic artifacts, and 4:5 vertical framing with generous negative space for typography. Return ONLY the exact prompt text, no quotes, no markdown, no conversational filler.";
 
       const userContent = `Article Headline: "${context.headline || ''}"
 Lead: "${context.lead || ''}"

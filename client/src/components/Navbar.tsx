@@ -2,11 +2,12 @@ import React from 'react';
 import { ChevronDown, FilePenLine, FileUp, Lock, Search, Shield, UserRound } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
 import { useArticles } from '../context/ArticleContext';
+import { normalizeSection, sectionsMatch } from '../utils/sectionTranslation';
 
 export const Navbar: React.FC = () => {
   const { currentUser, isEditor, logout } = useAuth();
   const { selectedCategory, setSelectedCategory, setSearchQuery, openCreateArticle, setIsAuthModalOpen, closeArticle, searchQuery, articles } = useArticles();
-  const sections = [...new Set(articles.map((article) => article.section).filter((value): value is string => Boolean(value)))].sort();
+  const sections = [...new Set(articles.map((article) => normalizeSection(article.section, 'en')).filter((value): value is string => Boolean(value)))].sort();
 
   const handleImport = () => isEditor ? openCreateArticle('import') : setIsAuthModalOpen(true);
   const handleCreate = () => isEditor ? openCreateArticle('create') : setIsAuthModalOpen(true);
@@ -93,7 +94,7 @@ export const Navbar: React.FC = () => {
           {sections.map((section) => (
             <button
               key={section}
-              className={`section-nav-tab ${selectedCategory === section ? 'active' : ''}`}
+              className={`section-nav-tab ${sectionsMatch(selectedCategory, section) ? 'active' : ''}`}
               onClick={() => {
                 closeArticle();
                 setSelectedCategory(section);

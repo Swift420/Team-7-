@@ -227,7 +227,7 @@ export const ArticleDetailPage: React.FC<{ article: Article | null; loading?: bo
 
       {/* Reader Feature 2: 60-Second Executive Summary */}
       <div className="my-6">
-        <ExecutiveBriefCard brief={executiveBrief} />
+        <ExecutiveBriefCard brief={executiveBrief} language={article.language as 'en' | 'de'} />
       </div>
 
       {/* Main Article Content & Inline Visualizations */}

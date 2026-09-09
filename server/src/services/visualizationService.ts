@@ -1,4 +1,4 @@
-import { GoogleGenAI, ThinkingLevel } from '@google/genai';
+import { GoogleGenAI } from '@google/genai';
 import { z } from 'zod';
 import { ArticleRecord } from '../types/article.js';
 import { VisualizationAnalysis, VisualizationOpportunity } from '../types/visualization.js';
@@ -153,8 +153,19 @@ function getClient(): GoogleGenAI {
 }
 
 function articlePrompt(article: ArticleRecord, maxOpportunities: number, existingVisuals: ExistingVisualization[]): string {
-  const elements = article.body
-    .map((element) => {
+  const bodyElements = Array.isArray(article.body)
+    ? article.body
+    : (typeof article.body === 'string' ? article.body : '')
+        .split(/\n\n+/)
+        .filter(Boolean)
+        .map((p: string, idx: number) => ({
+          id: `p-${idx + 1}`,
+          type: 'paragraph' as const,
+          text: p.trim(),
+        }));
+
+  const elements = bodyElements
+    .map((element: any) => {
       if (element.text && /@import\s+url\(|ml-form-|g-recaptcha|mailerlite|<\/?style\b|<\/?script\b|document\.querySelector/i.test(element.text)) return '';
       if (element.text?.trim()) return `[${element.id} | ${element.type}]\n${element.text.trim()}`;
       if (element.type === 'q_tool_embed') return `[${element.id} | EXISTING VISUAL | ${element.externalId || 'unknown id'}]`;
@@ -214,7 +225,13 @@ export function parseVisualizationAnalysis(raw: string, article: ArticleRecord, 
     throw new VisualizationAnalysisError(`Gemini response failed validation: ${z.prettifyError(parsed.error)}`, 'AI_RESPONSE_INVALID');
   }
 
-  const validElementIds = new Set(article.body.map((element) => element.id));
+  const bodyElements = Array.isArray(article.body)
+    ? article.body
+    : (typeof article.body === 'string' ? article.body : '')
+        .split(/\n\n+/)
+        .filter(Boolean)
+        .map((p, idx) => ({ id: `p-${idx + 1}`, type: 'paragraph' as const, text: p.trim() }));
+  const validElementIds = new Set(bodyElements.map((element) => element.id));
   const opportunities: VisualizationOpportunity[] = parsed.data.opportunities.filter((opportunity) => opportunity.chartType !== 'timeline' || (opportunity.events && opportunity.events.length >= 2)).map((opportunity, index) => {
     const referencedIds = new Set([
       ...opportunity.relatedElementIds,
@@ -234,7 +251,7 @@ export function parseVisualizationAnalysis(raw: string, article: ArticleRecord, 
 }
 
 export async function analyzeArticleVisualizations(article: ArticleRecord, maxOpportunities = 4): Promise<VisualizationAnalysis> {
-  const model = process.env.GEMINI_MODEL || 'gemini-2.5-flash';
+  const model = process.env.GEMINI_MODEL || 'gemini-2.5-pro';
   try {
     const existingVisuals = await loadExistingVisualizations(article);
     const response = await getClient().models.generateContent({
@@ -243,7 +260,7 @@ export async function analyzeArticleVisualizations(article: ArticleRecord, maxOp
       config: {
         responseMimeType: 'application/json',
         responseJsonSchema,
-        thinkingConfig: { thinkingLevel: ThinkingLevel.MEDIUM, includeThoughts: false },
+        thinkingConfig: { thinkingBudget: 2048 },
       },
     });
     if (!response.text) {

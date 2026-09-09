@@ -28,7 +28,7 @@ describe('TTS Service & SSML Generator', () => {
     assert.ok(result.audioUrl.endsWith('.mp3'));
     assert.equal(result.format, 'mp3');
     assert.ok(result.durationSeconds >= 55);
-    assert.equal(result.voiceUsed, 'de-DE-Neural2-B');
+    assert.equal(result.voiceUsed, 'de-DE-Studio-B');
   });
 });
 

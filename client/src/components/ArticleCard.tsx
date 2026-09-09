@@ -3,6 +3,7 @@ import { Calendar, ChevronLeft, ChevronRight, FileJson, FileText, Layers, Image 
 import { Article } from '../types';
 import { useAuth } from '../context/AuthContext';
 import { useArticles } from '../context/ArticleContext';
+import { normalizeSection } from '../utils/sectionTranslation';
 
 interface ArticleCardProps {
   article: Article;
@@ -41,7 +42,7 @@ export const ArticleCard: React.FC<ArticleCardProps> = ({ article, onOpen }) => 
       {
         slideNumber: 1,
         label: '1 / 5',
-        badge: article.section || 'NZZ Analysis',
+        badge: normalizeSection(article.section, 'en').toUpperCase(),
         title: article.headline,
         text: article.lead || p1.slice(0, 160) + '…',
       },
@@ -114,7 +115,9 @@ export const ArticleCard: React.FC<ArticleCardProps> = ({ article, onOpen }) => 
           <div
             className="w-full p-4 flex flex-col justify-between min-h-[230px] relative overflow-hidden transition-all duration-300"
             style={{
-              background: 'linear-gradient(145deg, #101726 0%, #080c14 100%)',
+              background: (activeSlide === 0 || activeSlide === 2) && imageUrl
+                ? `linear-gradient(to top, rgba(9, 13, 22, 0.96) 0%, rgba(9, 13, 22, 0.70) 50%, rgba(9, 13, 22, 0.40) 100%), url(${imageUrl}) center/cover no-repeat`
+                : 'linear-gradient(145deg, #101726 0%, #080c14 100%)',
               borderBottom: '1px solid rgba(255, 255, 255, 0.08)',
             }}
           >
@@ -211,7 +214,7 @@ export const ArticleCard: React.FC<ArticleCardProps> = ({ article, onOpen }) => 
       {/* Card Body */}
       <div className="article-card-body">
         <div className="article-card-meta">
-          <span className="category-badge">{article.section || 'Uncategorised'}</span>
+          <span className="category-badge">{normalizeSection(article.section, 'en')}</span>
           <span className="read-time">
             <Calendar size={12} /> {formatDate(article.publishedAt)}
           </span>

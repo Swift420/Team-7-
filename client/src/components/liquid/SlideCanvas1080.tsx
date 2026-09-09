@@ -95,7 +95,9 @@ export const SlideCanvas1080 = forwardRef<HTMLDivElement, SlideCanvas1080Props>(
       },
     };
 
-    const currentTheme = themeConfigs[theme] || themeConfigs.dark;
+    const hasPhoto = Boolean((isSlide1 || slide.hasImage) && slide.imageUrl);
+    // When a slide has a photo with dark gradient overlay, use the dark theme palette for 100% white serif text legibility
+    const currentTheme = hasPhoto ? themeConfigs.dark : (themeConfigs[theme] || themeConfigs.dark);
 
     // Format image URL: external images route through CORS-safe proxy to avoid tainted canvas export
     const getSafeImageUrl = (url?: string) => {
@@ -103,8 +105,6 @@ export const SlideCanvas1080 = forwardRef<HTMLDivElement, SlideCanvas1080Props>(
       if (url.startsWith('data:') || url.startsWith('/')) return url;
       return `/api/liquid/proxy-image?url=${encodeURIComponent(url)}`;
     };
-
-    const hasPhoto = Boolean((isSlide1 || slide.hasImage) && slide.imageUrl);
 
     return (
       <div
@@ -425,8 +425,8 @@ export const SlideCanvas1080 = forwardRef<HTMLDivElement, SlideCanvas1080Props>(
                   </div>
                 )}
 
-                {/* ARCHETYPE: Defining Metric (Slide 3) */}
-                {slide.layout === 'stat_callout' && (
+                {/* ARCHETYPE: Defining Metric or Split Media (Slide 3) */}
+                {(slide.layout === 'stat_callout' || slide.layout === 'split_media') && (
                   <div>
                     <div
                       className="font-nzz-sans"

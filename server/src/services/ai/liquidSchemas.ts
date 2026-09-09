@@ -63,7 +63,7 @@ export const carouselSlideSchema = z.object({
       'cta_conversion',
     ])
     .optional(),
-  headline: z.string().min(2),
+  headline: z.string().nullable().optional().transform((v) => (v && v.trim().length >= 2 ? v.trim() : 'NZZ')),
   subhead: z.string().nullable().optional(),
   bodyText: z.string().nullable().optional(),
   badge: z.string().nullable().optional(),
