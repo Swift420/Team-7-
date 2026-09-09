@@ -6,6 +6,7 @@ import { BookOpen, GitBranch, LoaderCircle, MapPin, X } from 'lucide-react';
 import { fetchCountryConnections, fetchCountryCoverage, fetchCountryStories } from '../services/api';
 import { CountryConnection, CountryCoverage, CountryStorySummary } from '../types';
 import { useArticles } from '../context/ArticleContext';
+import { useLanguage } from '../context/LanguageContext';
 
 type GlobeFeature = { type: string; properties?: { name?: string }; geometry: unknown; countryCode?: string; coverage?: CountryCoverage };
 type GlobeArc = CountryConnection & { startLat: number; startLng: number; endLat: number; endLng: number };
@@ -35,8 +36,9 @@ const geometryCenter = (geometry: unknown): { lat: number; lng: number } | null 
 
 const formatDate = (date: string | null) => date ? new Intl.DateTimeFormat(undefined, { dateStyle: 'medium' }).format(new Date(date)) : 'Date unavailable';
 
-export const StoryGlobeExplorer: React.FC<{ onClose?: () => void }> = ({ onClose }) => {
+export const StoryGlobeExplorer: React.FC<{ onClose?: () => void; docked?: boolean }> = ({ onClose, docked = false }) => {
   const { openArticle } = useArticles();
+  const { language, t, formatSection, formatDate: ctxFormatDate } = useLanguage();
   const globeRef = useRef<any>(null);
   const containerRef = useRef<HTMLDivElement>(null);
   const [width, setWidth] = useState(760);
@@ -111,26 +113,231 @@ export const StoryGlobeExplorer: React.FC<{ onClose?: () => void }> = ({ onClose
     setStories([]);
   };
 
-  return <section className="story-globe-explorer" aria-labelledby="story-globe-title">
-    <div className="story-globe-heading"><div><span className="section-type-pill"><MapPin size={13} /> Global story explorer</span><h2 id="story-globe-title">Explore stories around the world</h2><p>Countries with coverage are highlighted. Rotate the globe or select a country to discover related reporting.</p></div><div className="story-globe-heading-actions"><div className="story-globe-stats"><strong>{coverage.length}</strong><span>countries</span><strong>{totalStories}</strong><span>stories</span></div><button className={`story-globe-toggle ${showConnections ? 'is-active' : ''}`} onClick={() => setShowConnections((current) => !current)} disabled={!selected && !selectedConnection} aria-pressed={showConnections}><GitBranch size={15} /> {showConnections ? 'Hide connections' : 'Show connections'}</button>{onClose && <button className="story-panel-close story-globe-close" onClick={onClose} aria-label="Close global story explorer"><X size={17} /></button>}</div></div>
-    <div className="story-globe-layout">
-      <div ref={containerRef} className="story-globe-canvas">
-        <Globe ref={globeRef} width={width} height={Math.min(600, Math.max(360, width * .66))} backgroundColor="rgba(0,0,0,0)" globeImageUrl="https://unpkg.com/three-globe/example/img/earth-blue-marble.jpg" bumpImageUrl="https://unpkg.com/three-globe/example/img/earth-topology.png" showAtmosphere atmosphereColor="#86c79a" atmosphereAltitude={0.08} showGraticules={false} polygonsData={polygons} polygonGeoJsonGeometry={(item) => (item as GlobeFeature).geometry as never} polygonCapColor={() => 'rgba(0,0,0,0)'} polygonSideColor={() => 'rgba(0,0,0,0)'} polygonStrokeColor={(item) => coverageForFeature(item as GlobeFeature)?.storyCount ? '#ef4444' : '#000000'} polygonAltitude={() => 0.002} polygonsTransitionDuration={0} polygonLabel={(item) => { const value = item as GlobeFeature; const itemCoverage = coverageForFeature(value); const name = itemCoverage?.countryName || value.properties?.name || 'Country'; const count = itemCoverage?.storyCount || 0; return `<div class="globe-tooltip"><strong>${name}</strong><span style="display:block;margin-top:3px">${count} ${count === 1 ? 'Story' : 'Stories'}</span></div>`; }} onPolygonHover={(item) => setHovered(coverageForFeature(item as GlobeFeature | null) || null)} onPolygonClick={(item) => void selectCountry(item as GlobeFeature)} arcsData={visibleArcs} arcStartLat={(arc) => (arc as GlobeArc).startLat} arcStartLng={(arc) => (arc as GlobeArc).startLng} arcEndLat={(arc) => (arc as GlobeArc).endLat} arcEndLng={(arc) => (arc as GlobeArc).endLng} arcColor={(arc: object) => (arc as GlobeArc).storyCount > 1 ? 'rgba(251,146,60,.78)' : 'rgba(251,146,60,.48)'} arcStroke={(arc) => (arc as GlobeArc).storyCount > 1 ? .45 : .22} arcAltitudeAutoScale={0.28} arcLabel={(arc) => { const value = arc as GlobeArc; return `<div class="globe-tooltip"><strong>${value.source.countryName} ↔ ${value.target.countryName}</strong><span style="display:block;margin-top:3px">${value.storyCount} shared ${value.storyCount === 1 ? 'story' : 'stories'}</span></div>`; }} onArcClick={(arc) => { const value = arc as GlobeArc; setSelected(null); setStories([]); setSelectedConnection(value); }} />
-        {hovered && <div className="story-globe-hover-card"><strong>{hovered.countryName}</strong><span>{hovered.storyCount} {hovered.storyCount === 1 ? 'story' : 'stories'}</span></div>}
+  return (
+    <section
+      className={`story-globe-explorer ${docked ? 'story-globe-docked' : ''}`}
+      aria-labelledby="story-globe-title"
+    >
+      <div className="story-globe-heading">
+        <div>
+          <span className="section-type-pill">
+            <MapPin size={12} /> {t('globe.banner_kicker')}
+          </span>
+          <h2 id="story-globe-title">
+            {docked ? t('globe.title_docked') : t('globe.title')}
+          </h2>
+          {!docked && (
+            <p>
+              {t('globe.lead')}
+            </p>
+          )}
+        </div>
+        <div className="story-globe-heading-actions">
+          <div className="story-globe-stats">
+            <strong>{coverage.length}</strong>
+            <span>{t('globe.countries')}</span>
+            <strong>{totalStories}</strong>
+            <span>{t('globe.articles')}</span>
+          </div>
+          {!docked && (
+            <button
+              className={`story-globe-toggle ${showConnections ? 'is-active' : ''}`}
+              onClick={() => setShowConnections((current) => !current)}
+              disabled={!selected && !selectedConnection}
+              aria-pressed={showConnections}
+            >
+              <GitBranch size={15} /> {showConnections ? t('globe.hide_connections') : t('globe.show_connections')}
+            </button>
+          )}
+          {onClose && (
+            <button
+              className="story-panel-close story-globe-close"
+              onClick={onClose}
+              aria-label={t('globe.close')}
+              title={t('globe.close')}
+            >
+              <X size={17} />
+            </button>
+          )}
+        </div>
       </div>
-      <aside className={`story-country-panel ${selected ? 'is-selected' : ''}`}>
-        {selectedConnection ? <>
-          <div className="story-country-panel-header"><div><span className="story-panel-kicker">Shared coverage</span><h3>{selectedConnection.source.countryName} ↔ {selectedConnection.target.countryName}</h3><p>{selectedConnection.storyCount} shared {selectedConnection.storyCount === 1 ? 'story' : 'stories'}</p></div><button className="story-panel-close" onClick={resetGlobeView} aria-label="Close shared stories"><X size={17} /></button></div>
-          <div className="country-story-list">{selectedConnection.stories.map((story) => <button className="country-story-card" key={story.id} onClick={() => void openArticle(story.id)}><strong>{story.headline}</strong><span>{story.section || 'Uncategorised'} · {formatDate(story.publishedAt)}</span>{story.lead && <p>{story.lead}</p>}<small>Open story →</small></button>)}</div>
-        </> : selected ? <>
-          <div className="story-country-panel-header"><div><span className="story-panel-kicker">Selected country</span><h3>{selected.countryName}</h3><p>{selected.storyCount} related {selected.storyCount === 1 ? 'story' : 'stories'}</p></div><button className="story-panel-close" onClick={resetGlobeView} aria-label="Close country stories"><X size={17} /></button></div>
-          {loadingStories ? <div className="story-panel-loading"><LoaderCircle className="spin" size={19} /> Loading stories…</div> : stories.length ? <div className="country-story-list">{stories.map((story) => <button className="country-story-card" key={story.id} onClick={() => void openArticle(story.id)}><strong>{story.headline}</strong><span>{story.section || 'Uncategorised'} · {formatDate(story.publishedAt)}</span>{story.lead && <p>{story.lead}</p>}<small>Open story →</small></button>)}</div> : <p className="story-panel-empty">No stories currently available for this country.</p>}
-        </> : <>
-          <div className="story-panel-kicker"><BookOpen size={14} /> Most covered</div>
-          <div className="coverage-ranking">{topCoverage.map((item) => <button key={item.countryCode} onClick={() => { const polygon = polygons.find((entry) => entry.countryCode === item.countryCode); if (polygon) void selectCountry(polygon); }}><span>{item.countryName}</span><strong>{item.storyCount}</strong></button>)}</div>
-          <p className="story-panel-hint">Select a highlighted country to browse its stories.</p>
-        </>}
-      </aside>
-    </div>
-  </section>;
+
+      <div className={`story-globe-layout ${docked ? 'docked-layout' : ''}`}>
+        <div ref={containerRef} className="story-globe-canvas">
+          <Globe
+            ref={globeRef}
+            width={width}
+            height={docked ? Math.min(360, Math.max(280, width * 0.8)) : Math.min(600, Math.max(360, width * 0.66))}
+            backgroundColor="rgba(0,0,0,0)"
+            globeImageUrl="https://unpkg.com/three-globe/example/img/earth-blue-marble.jpg"
+            bumpImageUrl="https://unpkg.com/three-globe/example/img/earth-topology.png"
+            showAtmosphere
+            atmosphereColor="#86c79a"
+            atmosphereAltitude={0.08}
+            showGraticules={false}
+            polygonsData={polygons}
+            polygonGeoJsonGeometry={(item) => (item as GlobeFeature).geometry as never}
+            polygonCapColor={() => 'rgba(0,0,0,0)'}
+            polygonSideColor={() => 'rgba(0,0,0,0)'}
+            polygonStrokeColor={(item) =>
+              coverageForFeature(item as GlobeFeature)?.storyCount ? '#d80000' : '#333333'
+            }
+            polygonAltitude={() => 0.002}
+            polygonsTransitionDuration={0}
+            polygonLabel={(item) => {
+              const value = item as GlobeFeature;
+              const itemCoverage = coverageForFeature(value);
+              const name = itemCoverage?.countryName || value.properties?.name || 'Country';
+              const count = itemCoverage?.storyCount || 0;
+              const unit = count === 1 ? t('globe.article_single') : t('globe.articles');
+              return `<div class="globe-tooltip"><strong>${name}</strong><span style="display:block;margin-top:3px">${count} ${unit}</span></div>`;
+            }}
+            onPolygonHover={(item) =>
+              setHovered(coverageForFeature(item as GlobeFeature | null) || null)
+            }
+            onPolygonClick={(item) => void selectCountry(item as GlobeFeature)}
+            arcsData={visibleArcs}
+            arcStartLat={(arc) => (arc as GlobeArc).startLat}
+            arcStartLng={(arc) => (arc as GlobeArc).startLng}
+            arcEndLat={(arc) => (arc as GlobeArc).endLat}
+            arcEndLng={(arc) => (arc as GlobeArc).endLng}
+            arcColor={(arc: object) =>
+              (arc as GlobeArc).storyCount > 1 ? 'rgba(216,0,0,.85)' : 'rgba(216,0,0,.55)'
+            }
+            arcStroke={(arc) => ((arc as GlobeArc).storyCount > 1 ? 0.45 : 0.22)}
+            arcAltitudeAutoScale={0.28}
+            arcLabel={(arc) => {
+              const value = arc as GlobeArc;
+              const jointWord = language === 'de' ? 'gemeinsame Artikel' : 'joint analyses';
+              return `<div class="globe-tooltip"><strong>${value.source.countryName} ↔ ${value.target.countryName}</strong><span style="display:block;margin-top:3px">${value.storyCount} ${jointWord}</span></div>`;
+            }}
+            onArcClick={(arc) => {
+              const value = arc as GlobeArc;
+              setSelected(null);
+              setStories([]);
+              setSelectedConnection(value);
+            }}
+          />
+          {hovered && (
+            <div className="story-globe-hover-card">
+              <strong>{hovered.countryName}</strong>
+              <span>
+                {hovered.storyCount} {hovered.storyCount === 1 ? t('globe.article_single') : t('globe.articles')}
+              </span>
+            </div>
+          )}
+        </div>
+
+        <aside className={`story-country-panel ${selected ? 'is-selected' : ''}`}>
+          {selectedConnection ? (
+            <>
+              <div className="story-country-panel-header">
+                <div>
+                  <span className="story-panel-kicker">{t('globe.shared_reports')}</span>
+                  <h3>
+                    {selectedConnection.source.countryName} ↔ {selectedConnection.target.countryName}
+                  </h3>
+                  <p>
+                    {selectedConnection.storyCount}{' '}
+                    {language === 'de' ? 'thematische Verbindungen' : 'thematic connections'}
+                  </p>
+                </div>
+                <button
+                  className="story-panel-close"
+                  onClick={resetGlobeView}
+                  aria-label={t('globe.close')}
+                >
+                  <X size={17} />
+                </button>
+              </div>
+              <div className="country-story-list">
+                {selectedConnection.stories.map((story) => (
+                  <button
+                    className="country-story-card"
+                    key={story.id}
+                    onClick={() => void openArticle(story.id)}
+                  >
+                    <strong>{story.headline}</strong>
+                    <span>
+                      {story.section ? formatSection(story.section) : t('globe.general')} · {ctxFormatDate(story.publishedAt)}
+                    </span>
+                    {story.lead && <p>{story.lead}</p>}
+                    <small>{t('globe.open_article')}</small>
+                  </button>
+                ))}
+              </div>
+            </>
+          ) : selected ? (
+            <>
+              <div className="story-country-panel-header">
+                <div>
+                  <span className="story-panel-kicker">{t('globe.selected_country')}</span>
+                  <h3>{selected.countryName}</h3>
+                  <p>
+                    {selected.storyCount} {language === 'de' ? 'NZZ Berichte' : 'NZZ Reports'}
+                  </p>
+                </div>
+                <button
+                  className="story-panel-close"
+                  onClick={resetGlobeView}
+                  aria-label={t('globe.close')}
+                >
+                  <X size={17} />
+                </button>
+              </div>
+              {loadingStories ? (
+                <div className="story-panel-loading">
+                  <LoaderCircle className="spin" size={19} /> {t('globe.loading_reports')}
+                </div>
+              ) : stories.length ? (
+                <div className="country-story-list">
+                  {stories.map((story) => (
+                    <button
+                      className="country-story-card"
+                      key={story.id}
+                      onClick={() => void openArticle(story.id)}
+                    >
+                      <strong>{story.headline}</strong>
+                      <span>
+                        {story.section ? formatSection(story.section) : t('globe.general')} · {ctxFormatDate(story.publishedAt)}
+                      </span>
+                      {story.lead && <p>{story.lead}</p>}
+                      <small>{t('globe.open_article')}</small>
+                    </button>
+                  ))}
+                </div>
+              ) : (
+                <p className="story-panel-empty">{t('globe.no_stories')}</p>
+              )}
+            </>
+          ) : (
+            <>
+              <div className="story-panel-kicker">
+                <BookOpen size={14} /> {t('globe.focus_hotspots')}
+              </div>
+              <div className="coverage-ranking">
+                {topCoverage.map((item) => (
+                  <button
+                    key={item.countryCode}
+                    onClick={() => {
+                      const polygon = polygons.find(
+                        (entry) => entry.countryCode === item.countryCode
+                      );
+                      if (polygon) void selectCountry(polygon);
+                    }}
+                  >
+                    <span>{item.countryName}</span>
+                    <strong>{item.storyCount}</strong>
+                  </button>
+                ))}
+              </div>
+              <p className="story-panel-hint">
+                {t('globe.hint')}
+              </p>
+            </>
+          )}
+        </aside>
+      </div>
+    </section>
+  );
 };

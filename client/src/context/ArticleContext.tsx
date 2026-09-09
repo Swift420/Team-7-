@@ -23,6 +23,9 @@ interface ArticleContextType {
   deleteArticle: (id: string) => Promise<void>;
   publishArticle: (id: string) => Promise<void>;
   refreshArticles: () => Promise<void>;
+  isGlobeOpen: boolean;
+  setIsGlobeOpen: (open: boolean) => void;
+  toggleGlobe: () => void;
 }
 
 const ArticleContext = createContext<ArticleContextType | undefined>(undefined);
@@ -37,6 +40,8 @@ export const ArticleProvider: React.FC<{ children: React.ReactNode }> = ({ child
   const [isCreateModalOpen, setIsCreateModalOpen] = useState(false);
   const [createArticleMode, setCreateArticleMode] = useState<'import' | 'create'>('import');
   const [isAuthModalOpen, setIsAuthModalOpen] = useState(false);
+  const [isGlobeOpen, setIsGlobeOpen] = useState(false);
+  const toggleGlobe = useCallback(() => setIsGlobeOpen((prev) => !prev), []);
 
   const refreshArticles = useCallback(async () => {
     setLoading(true);
@@ -87,6 +92,7 @@ export const ArticleProvider: React.FC<{ children: React.ReactNode }> = ({ child
       }
     }, isCreateModalOpen,
     setIsCreateModalOpen, createArticleMode, openCreateArticle: (mode) => { setCreateArticleMode(mode); setIsCreateModalOpen(true); }, isAuthModalOpen, setIsAuthModalOpen, importArticle, deleteArticle, publishArticle, refreshArticles,
+    isGlobeOpen, setIsGlobeOpen, toggleGlobe,
   }}>{children}</ArticleContext.Provider>;
 };
 

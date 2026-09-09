@@ -81,40 +81,36 @@ export const DummyAccountsModal: React.FC<{ isOpen: boolean; onClose: () => void
 
   return (
     <div className="modal-backdrop" onClick={onClose}>
-      <div className="modal-window auth-modal" onClick={(event) => event.stopPropagation()}>
-        <div className="modal-header">
-          <div className="modal-title-wrap">
-            <div className="modal-icon-badge">
-              <Shield size={20} />
-            </div>
-            <div>
-              <h2 className="modal-title">Editor Sign In</h2>
-              <p className="modal-subtitle">
-                Sign in to create, draft, lint NZZ guidelines, and publish multimodal stories.
-              </p>
-            </div>
+      <div className="modal-window nzz-auth-dialog" onClick={(event) => event.stopPropagation()}>
+        <div className="nzz-dialog-header">
+          <div className="nzz-dialog-title-wrap">
+            <span className="nzz-dialog-kicker">
+              <Shield size={13} /> NZZ REDAKTIONSSYSTEM
+            </span>
+            <h2 className="nzz-dialog-headline">Redaktor Anmelden</h2>
+            <p className="nzz-dialog-sub">
+              Zugang für Redaktion, Datenjournalismus und Multimodal Studio (Gemini 2.5 Flash, Imagen 3 &amp; Cloud TTS).
+            </p>
           </div>
-          <button className="modal-close-btn" onClick={onClose} aria-label="Close">
-            <X size={20} />
+          <button className="nzz-dialog-close" onClick={onClose} aria-label="Schliessen">
+            <X size={18} />
           </button>
         </div>
 
-        {error && <div className="form-error-banner">{error}</div>}
+        {error && <div className="nzz-dialog-error">{error}</div>}
 
         {/* Quick Select Editor Account */}
-        <div className="my-3">
-          <label className="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-2 block">
-            Select an Editor Profile:
+        <div className="nzz-quick-profiles">
+          <label className="nzz-field-label">
+            Redaktor-Profil auswählen (1-Klick Login):
           </label>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+          <div className="nzz-profiles-grid">
             {DEMO_EDITORS.map((editor) => (
               <button
                 key={editor.username}
                 type="button"
-                className={`flex items-center gap-2.5 p-2.5 rounded-lg border text-left transition-all ${
-                  username.toLowerCase() === editor.username.toLowerCase()
-                    ? 'bg-red-950/40 border-red-500 shadow-sm'
-                    : 'bg-slate-900/60 border-slate-800 hover:border-slate-700 hover:bg-slate-800/50'
+                className={`nzz-profile-card ${
+                  username.toLowerCase() === editor.username.toLowerCase() ? 'active' : ''
                 }`}
                 onClick={() => void handleQuickLogin(editor.username)}
                 disabled={busy}
@@ -122,19 +118,15 @@ export const DummyAccountsModal: React.FC<{ isOpen: boolean; onClose: () => void
                 <img
                   src={editor.avatar}
                   alt={editor.name}
-                  className="w-9 h-9 rounded-full object-cover shrink-0 border border-slate-700"
+                  className="nzz-profile-avatar"
                 />
-                <div className="flex-1 min-w-0">
-                  <div className="flex items-center justify-between gap-1">
-                    <span className="text-xs font-bold text-white truncate">{editor.name}</span>
-                    <span className="text-[9px] font-mono px-1.5 py-0.2 rounded bg-slate-800 text-slate-300 shrink-0">
-                      {editor.badge}
-                    </span>
+                <div className="nzz-profile-info">
+                  <div className="nzz-profile-topline">
+                    <span className="nzz-profile-name">{editor.name}</span>
+                    <span className="nzz-profile-badge">{editor.badge}</span>
                   </div>
-                  <div className="text-[11px] text-slate-400 truncate">{editor.title}</div>
-                  <div className="text-[10px] text-indigo-400 font-mono mt-0.5">
-                    User: {editor.username}
-                  </div>
+                  <div className="nzz-profile-title">{editor.title}</div>
+                  <div className="nzz-profile-user">@{editor.username}</div>
                 </div>
               </button>
             ))}
@@ -142,35 +134,36 @@ export const DummyAccountsModal: React.FC<{ isOpen: boolean; onClose: () => void
         </div>
 
         {/* Manual Credentials Form */}
-        <form className="manual-login-form mt-4 pt-3 border-t border-slate-800" onSubmit={(event) => void submit(event)}>
-          <div className="form-group">
-            <label>Username</label>
+        <form className="nzz-login-form" onSubmit={(event) => void submit(event)}>
+          <div className="nzz-field-group">
+            <label className="nzz-field-label">Benutzername</label>
             <input
-              className="form-input"
+              className="nzz-text-input"
               value={username}
               onChange={(event) => setUsername(event.target.value)}
-              placeholder="Editor username"
+              placeholder="Benutzername eingeben"
               required
             />
           </div>
-          <div className="form-group">
-            <label>Password</label>
+          <div className="nzz-field-group">
+            <label className="nzz-field-label">Passwort</label>
             <input
-              className="form-input"
+              className="nzz-text-input"
               type="password"
               value={password}
               onChange={(event) => setPassword(event.target.value)}
-              placeholder="Password"
+              placeholder="Passwort eingeben"
               required
             />
           </div>
 
-          <div className="form-actions mt-3">
-            <button type="button" className="btn-secondary" onClick={onClose}>
-              Cancel
+          <div className="nzz-dialog-actions">
+            <button type="button" className="nzz-btn-cancel" onClick={onClose}>
+              Abbrechen
             </button>
-            <button type="submit" className="btn-primary" disabled={busy}>
-              <LogIn size={16} /> {busy ? 'Signing in…' : 'Sign In as Editor'}
+            <button type="submit" className="nzz-btn-submit-red" disabled={busy}>
+              <LogIn size={15} />
+              <span>{busy ? 'Wird angemeldet…' : 'Als Redaktor anmelden'}</span>
             </button>
           </div>
         </form>

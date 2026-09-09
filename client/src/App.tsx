@@ -1,6 +1,7 @@
 import React from 'react';
 import { AuthProvider, useAuth } from './context/AuthContext';
 import { ArticleProvider, useArticles } from './context/ArticleContext';
+import { LanguageProvider, useLanguage } from './context/LanguageContext';
 import { Navbar } from './components/Navbar';
 import { RoleContextBanner } from './components/RoleContextBanner';
 import { ArticleFeed } from './components/ArticleFeed';
@@ -20,6 +21,7 @@ const MainApp: React.FC = () => {
     setIsAuthModalOpen,
   } = useArticles();
   const { currentUser, isEditor } = useAuth();
+  const { t } = useLanguage();
   const [pathname, setPathname] = React.useState(window.location.pathname);
   const articleId = pathname.match(/^\/articles\/([^/]+)$/)?.[1];
 
@@ -65,11 +67,11 @@ const MainApp: React.FC = () => {
       <footer className="app-footer">
         <div className="footer-inner">
           <div>
-            <strong>NZZ Pulse • Multimodal &amp; Visual Studio</strong> • Neue Zürcher Zeitung &amp; Google Cloud Hackathon
+            <strong>{t('footer.title')}</strong> • {t('footer.collab')}
           </div>
           <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
             <span>
-              Active: <strong>{currentUser.name}</strong> ({isEditor ? 'Editor' : 'Reader'})
+              {t('footer.active')} <strong>{currentUser.name}</strong> ({isEditor ? t('footer.role_editor') : t('footer.role_reader')})
             </span>
           </div>
         </div>
@@ -80,11 +82,13 @@ const MainApp: React.FC = () => {
 
 export const App: React.FC = () => {
   return (
-    <AuthProvider>
-      <ArticleProvider>
-        <MainApp />
-      </ArticleProvider>
-    </AuthProvider>
+    <LanguageProvider>
+      <AuthProvider>
+        <ArticleProvider>
+          <MainApp />
+        </ArticleProvider>
+      </AuthProvider>
+    </LanguageProvider>
   );
 };
 

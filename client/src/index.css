@@ -1,30 +1,54 @@
 @import "tailwindcss";
 
 :root {
-  --bg-primary: #0b0f19;
-  --bg-secondary: #111827;
-  --bg-card: #1f2937;
-  --bg-card-hover: #263345;
-  --border-color: #374151;
-  --border-light: #4b5563;
-  --text-primary: #f9fafb;
-  --text-secondary: #9ca3af;
-  --text-muted: #6b7280;
+  /* Official NZZ Palette & Semantic Tokens (Swiss Broadsheet) */
+  --bg-primary: #ffffff;
+  --bg-page: #ffffff;
+  --bg-secondary: #fafafa;
+  --bg-card: #ffffff;
+  --bg-card-hover: #f7f7f7;
+  --bg-surface: #ffffff;
+  --bg-subtle: #f5f5f5;
+  --quote-bg: #f4f4f6;
   
-  --accent-blue: #3b82f6;
-  --accent-blue-hover: #2563eb;
-  --accent-green: #10b981;
-  --accent-amber: #f59e0b;
-  --accent-purple: #8b5cf6;
-  --accent-rose: #f43f5e;
+  --border-color: #e5e5e5;
+  --border-light: #eeeeee;
+  --border-subtle: #e5e5e5;
+  --border-hairline: rgba(0, 0, 0, 0.08);
   
-  --font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-  --radius-sm: 6px;
-  --radius-md: 10px;
-  --radius-lg: 14px;
-  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
-  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.3), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
-  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.4), 0 4px 6px -2px rgba(0, 0, 0, 0.25);
+  --text-primary: #111111;
+  --text-main: #111111;
+  --text-secondary: #444444;
+  --text-muted: #717171;
+  --text-light: #8e8e93;
+  
+  /* NZZ Signal Red & Editorial Accents */
+  --nzz-red: #d80000;
+  --nzz-red-hover: #b80000;
+  --accent-red: #d80000;
+  --accent-blue: #1a56db;
+  --accent-blue-hover: #1e40af;
+  --accent-green: #0e7051;
+  --accent-amber: #b45309;
+  
+  /* Typographic Hierarchy */
+  --font-serif: 'Newsreader', 'Playfair Display', Georgia, 'Times New Roman', serif;
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --font-body: 'Lora', Georgia, serif;
+  --font-family: var(--font-sans);
+  
+  /* Strict 0px Border Radii (Swiss Broadsheet Rule) */
+  --radius-none: 0px;
+  --radius-xs: 2px;
+  --radius-sm: 0px;
+  --radius-md: 0px;
+  --radius-lg: 0px;
+  --radius-full: 9999px;
+  
+  /* Subtle Hairline Shadows */
+  --shadow-sm: none;
+  --shadow-md: 0 2px 8px rgba(0, 0, 0, 0.04);
+  --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.07);
 }
 
 * {
@@ -48,9 +72,13 @@ button {
 }
 
 .font-nzz-serif {
-  font-family: 'Playfair Display', 'GT Sectra', Georgia, 'Times New Roman', serif;
+  font-family: var(--font-serif);
 }
 
 .font-nzz-sans {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  font-family: var(--font-sans);
+}
+
+.font-nzz-body {
+  font-family: var(--font-body);
 }

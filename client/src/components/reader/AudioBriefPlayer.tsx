@@ -2,6 +2,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import { Play, Pause, RotateCcw, Volume2, Loader2, AlertCircle } from 'lucide-react';
 import type { AudioBriefFormat } from '../../types/liquid';
 import { synthesizeAudio } from '../../services/liquidApi';
+import { useLanguage } from '../../context/LanguageContext';
 
 interface AudioBriefPlayerProps {
   audioBrief: AudioBriefFormat;
@@ -12,6 +13,7 @@ export const AudioBriefPlayer: React.FC<AudioBriefPlayerProps> = ({
   audioBrief,
   headline,
 }) => {
+  const { language, t } = useLanguage();
   const [isPlaying, setIsPlaying] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
   const [errorMessage, setErrorMessage] = useState<string | null>(null);
@@ -52,7 +54,7 @@ export const AudioBriefPlayer: React.FC<AudioBriefPlayerProps> = ({
         setIsLoading(true);
         const res = await synthesizeAudio({
           script: audioBrief.script,
-          language: audioBrief.voiceProfile?.languageCode?.startsWith('de') ? 'de' : 'en',
+          language: language === 'de' ? 'de' : 'en',
           voiceName: audioBrief.voiceProfile?.voiceName,
         });
         setAudioSrc(res.audioUrl);
@@ -102,7 +104,7 @@ export const AudioBriefPlayer: React.FC<AudioBriefPlayerProps> = ({
   };
 
   return (
-    <div className="bg-gradient-to-r from-neutral-900 to-slate-900 border border-slate-800 rounded-2xl p-4 shadow-lg my-6">
+    <div className="nzz-audio-player">
       {audioSrc && (
         <audio
           ref={audioRef}
@@ -115,65 +117,64 @@ export const AudioBriefPlayer: React.FC<AudioBriefPlayerProps> = ({
       )}
 
       {errorMessage && (
-        <div className="mb-3 px-3 py-2 bg-red-950/80 border border-red-800 rounded-lg text-xs text-red-200 flex items-center gap-2">
-          <AlertCircle className="w-4 h-4 text-red-400 shrink-0" />
+        <div className="nzz-audio-error">
+          <AlertCircle className="w-4 h-4 text-red-600 shrink-0" />
           <span>{errorMessage}</span>
         </div>
       )}
 
-      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
-        {/* Left: Branding & Headline */}
-        <div className="flex items-center gap-3.5">
+      <div className="nzz-audio-player-inner">
+        {/* Left: Play button, kicker, headline */}
+        <div className="nzz-audio-left">
           <button
             onClick={togglePlay}
             disabled={isLoading}
-            className="w-12 h-12 rounded-full bg-red-600 hover:bg-red-500 text-white flex items-center justify-center shrink-0 shadow-lg shadow-red-950/50 transition-all hover:scale-105 disabled:opacity-75"
-            aria-label={isPlaying ? 'Pause Audio Brief' : 'Play Audio Brief'}
+            className="nzz-audio-play-btn"
+            aria-label={isPlaying ? t('audio.pause') : t('audio.play')}
+            title={isPlaying ? t('audio.pause') : t('audio.play')}
           >
             {isLoading ? (
-              <Loader2 className="w-5 h-5 animate-spin" />
+              <Loader2 className="w-4 h-4 animate-spin text-white" />
             ) : isPlaying ? (
-              <Pause className="w-5 h-5" />
+              <Pause className="w-4 h-4 text-white" />
             ) : (
-              <Play className="w-5 h-5 ml-0.5" />
+              <Play className="w-4 h-4 ml-0.5 text-white" />
             )}
           </button>
 
-          <div>
-            <div className="flex items-center gap-2">
-              <span className="text-[10px] uppercase font-bold tracking-widest text-red-400 bg-red-950/60 px-2 py-0.5 rounded border border-red-900">
-                60s Audio Brief
-              </span>
-              <span className="text-[11px] text-slate-400 font-mono">
+          <div className="nzz-audio-info">
+            <div className="nzz-audio-kicker-row">
+              <span className="nzz-kicker-dot" />
+              <span className="nzz-audio-kicker">{t('audio.kicker')}</span>
+              <span className="nzz-audio-timer">
                 {Math.floor(currentTime / 60)}:{String(currentTime % 60).padStart(2, '0')} / {Math.floor(duration / 60)}:{String(duration % 60).padStart(2, '0')}
               </span>
             </div>
-            <p className="text-xs font-semibold text-white mt-1 line-clamp-1">
-              {headline}
-            </p>
+            <p className="nzz-audio-headline">{headline}</p>
           </div>
         </div>
 
-        {/* Right: Sound info & Voice profile */}
-        <div className="flex items-center gap-2 text-xs text-slate-400">
-          <span className="text-[10px] bg-slate-800 px-2.5 py-1 rounded-full text-slate-300 flex items-center gap-1 font-mono">
-            <Volume2 className="w-3 h-3 text-red-400" />
-            {audioBrief.voiceProfile?.voiceName || 'en-US-Journey-F'}
+        {/* Right: Voice indicator and restart */}
+        <div className="nzz-audio-right">
+          <span className="nzz-audio-voice-badge">
+            <Volume2 className="w-3.5 h-3.5 text-red-600" />
+            <span>{audioBrief.voiceProfile?.voiceName?.split('-').slice(0, 2).join('-') || t('audio.voice_default')}</span>
           </span>
           <button
             onClick={resetPlay}
-            className="p-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300"
-            title="Restart playback"
+            className="nzz-btn-audio-reset"
+            title={t('audio.restart')}
+            aria-label={t('audio.restart')}
           >
             <RotateCcw className="w-3.5 h-3.5" />
           </button>
         </div>
       </div>
 
-      {/* Progress Bar */}
-      <div className="w-full bg-slate-800 h-1.5 rounded-full mt-3 overflow-hidden">
+      {/* Progress Track */}
+      <div className="nzz-audio-progress-track">
         <div
-          className="bg-red-600 h-full transition-all duration-300 rounded-full"
+          className="nzz-audio-progress-bar"
           style={{ width: `${progress}%` }}
         />
       </div>

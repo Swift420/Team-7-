@@ -134,133 +134,137 @@ export const CreateArticleModal: React.FC<CreateArticleModalProps> = ({
   return (
     <div className="modal-backdrop" onClick={onClose}>
       <div
-        className="modal-window editor-modal import-modal create-article-modal"
+        className="modal-window nzz-editor-dialog"
         onClick={(event) => event.stopPropagation()}
       >
-        <div className="modal-header">
-          <div className="modal-title-wrap">
-            <div className="modal-icon-badge editor">
-              {mode === 'create' ? <FilePenLine size={20} /> : <FileUp size={20} />}
-            </div>
-            <div>
-              <h2 className="modal-title">{mode === 'create' ? 'Create Article' : 'Import Article'}</h2>
-              <p className="modal-subtitle">
-                {mode === 'create'
-                  ? 'Draft, lint NZZ guidelines, and discover visualizations'
-                  : 'Upload a structured NZZ JSON or Markdown document'}
-              </p>
-            </div>
+        <div className="nzz-dialog-header">
+          <div className="nzz-dialog-title-wrap">
+            <span className="nzz-dialog-kicker">
+              {mode === 'create' ? <FilePenLine size={13} /> : <FileUp size={13} />}
+              {mode === 'create' ? 'NZZ REDAKTION · NEUER ARTIKEL' : 'NZZ DATEN · IMPORT'}
+            </span>
+            <h2 className="nzz-dialog-headline">
+              {mode === 'create' ? 'Neuen Artikel verfassen' : 'NZZ Datensatz importieren'}
+            </h2>
+            <p className="nzz-dialog-sub">
+              {mode === 'create'
+                ? 'Schreiben Sie Ihren Text, prüfen Sie die NZZ Stilrichtlinien und erkennen Sie Visualisierungschancen.'
+                : 'Laden Sie eine strukturierte NZZ JSON-Datei oder Markdown-Exportdatei hoch.'}
+            </p>
           </div>
-          <button className="modal-close-btn" onClick={onClose} aria-label="Close">
-            <X size={20} />
+          <button className="nzz-dialog-close" onClick={onClose} aria-label="Schliessen">
+            <X size={18} />
           </button>
         </div>
 
-        {error && <div className="form-error-banner">{error}</div>}
-        {message && <div className="import-success-banner">{message}</div>}
+        {error && <div className="nzz-dialog-error">{error}</div>}
+        {message && <div className="nzz-dialog-success">{message}</div>}
 
         {mode === 'import' ? (
-          <form onSubmit={submitImport} className="editor-scroll-body article-import-form">
-            <label className="article-file-drop">
-              <FileUp size={32} />
-              <strong>{file ? file.name : 'Choose an article file'}</strong>
-              <span>Supported formats: .json, .md · Maximum size: 5 MB</span>
+          <form onSubmit={submitImport} className="nzz-editor-form">
+            <label className="nzz-file-dropzone">
+              <FileUp size={36} className="text-red-600 mb-2" />
+              <strong>{file ? file.name : 'NZZ JSON- oder Markdown-Datei auswählen'}</strong>
+              <span>Unterstützte Formate: .json, .md · Maximal 5 MB</span>
               <input
                 type="file"
                 accept=".json,.md,application/json,text/markdown"
                 onChange={(event) => setFile(event.target.files?.[0] || null)}
               />
             </label>
-            <p className="helper-text">
-              JSON files must follow the supplied NZZ article structure. Markdown requires a headline
-              and article body; optional front matter can provide author, section, language, date, and
-              source URL.
+            <p className="nzz-dialog-hint">
+              JSON-Dateien müssen der NZZ Content-Struktur entsprechen. Markdown unterstützt
+              Titel, Lead, Floskel-Prüfung und Frontmatter.
             </p>
-            <div className="modal-footer">
-              <button type="button" className="btn-secondary" onClick={onClose}>
-                Cancel
+            <div className="nzz-dialog-actions">
+              <button type="button" className="nzz-btn-cancel" onClick={onClose}>
+                Abbrechen
               </button>
-              <button type="submit" className="btn-publish-primary" disabled={busy}>
-                {busy ? 'Importing…' : 'Import Article'}
+              <button type="submit" className="nzz-btn-submit-red" disabled={busy}>
+                {busy ? 'Wird importiert…' : 'Artikel importieren'}
               </button>
             </div>
           </form>
         ) : (
-          <div className="editor-scroll-body create-article-form">
-            <label>
-              Headline
+          <div className="nzz-editor-form">
+            <div className="nzz-field-group">
+              <label className="nzz-field-label">Titel / Schlagzeile *</label>
               <input
+                className="nzz-text-input font-serif text-base"
                 value={headline}
                 onChange={(event) => setHeadline(event.target.value)}
-                placeholder="Write a clear headline"
+                placeholder="Schlagzeile im NZZ-Stil verfassen…"
                 autoFocus
               />
-            </label>
+            </div>
 
-            <label>
-              Lead <span className="field-hint">optional</span>
+            <div className="nzz-field-group">
+              <label className="nzz-field-label">Lead / Vorspann (optional)</label>
               <textarea
+                className="nzz-textarea text-sm"
                 value={lead}
                 onChange={(event) => setLead(event.target.value)}
                 rows={2}
-                placeholder="A short introduction"
+                placeholder="Einleitender Absatz mit Hauptthese…"
               />
-            </label>
-
-            <div className="create-form-grid">
-              <label>
-                Author <span className="field-hint">optional</span>
-                <input
-                  value={author}
-                  onChange={(event) => setAuthor(event.target.value)}
-                  placeholder="Author name"
-                />
-              </label>
-              <label>
-                Section <span className="field-hint">optional</span>
-                <input
-                  value={section}
-                  onChange={(event) => setSection(event.target.value)}
-                  placeholder="Wirtschaft, International, Feuilleton…"
-                />
-              </label>
             </div>
 
-            <label>
-              Article body
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+              <div className="nzz-field-group">
+                <label className="nzz-field-label">Autor / Redaktor (optional)</label>
+                <input
+                  className="nzz-text-input text-sm"
+                  value={author}
+                  onChange={(event) => setAuthor(event.target.value)}
+                  placeholder="z. B. Beat Gygi, Zürich"
+                />
+              </div>
+              <div className="nzz-field-group">
+                <label className="nzz-field-label">Ressort (optional)</label>
+                <input
+                  className="nzz-text-input text-sm"
+                  value={section}
+                  onChange={(event) => setSection(event.target.value)}
+                  placeholder="Wirtschaft, International, Schweiz…"
+                />
+              </div>
+            </div>
+
+            <div className="nzz-field-group">
+              <label className="nzz-field-label">Artikeltext *</label>
               <textarea
-                className="create-body-input"
+                className="nzz-textarea font-serif text-sm leading-relaxed"
                 value={body}
                 onChange={(event) => setBody(event.target.value)}
-                rows={10}
-                placeholder="Write or paste the article here…"
+                rows={9}
+                placeholder="Vollständigen Text hier einfügen oder schreiben…"
               />
-            </label>
+            </div>
 
             {/* NZZ Style Linter Feedback Banner */}
             {lintReport && (
               <div
-                className={`p-3 rounded-lg border text-xs my-2 ${
+                className={`p-3.5 border text-xs my-2 ${
                   lintReport.valid
-                    ? 'bg-emerald-950/40 border-emerald-800/80 text-emerald-300'
-                    : 'bg-amber-950/40 border-amber-800/80 text-amber-200'
+                    ? 'bg-emerald-50 border-emerald-300 text-emerald-900'
+                    : 'bg-amber-50 border-amber-300 text-amber-900'
                 }`}
               >
-                <div className="flex items-center gap-1.5 font-semibold mb-1">
+                <div className="flex items-center gap-1.5 font-bold mb-1">
                   {lintReport.valid ? (
                     <>
-                      <CheckCircle2 size={14} className="text-emerald-400" />
-                      <span>NZZ Style Invariant Passed (100% Compliant)</span>
+                      <CheckCircle2 size={15} className="text-emerald-700" />
+                      <span>NZZ Stilrichtlinien bestanden (100% Konform)</span>
                     </>
                   ) : (
                     <>
-                      <AlertCircle size={14} className="text-amber-400" />
-                      <span>NZZ Style Suggestions:</span>
+                      <AlertCircle size={15} className="text-amber-700" />
+                      <span>NZZ Stilempfehlungen:</span>
                     </>
                   )}
                 </div>
                 {lintReport.warnings.length > 0 && (
-                  <ul className="list-disc list-inside space-y-1 mt-1 text-[11px] text-amber-300">
+                  <ul className="list-disc list-inside space-y-1 mt-1 text-[11px] text-amber-900">
                     {lintReport.warnings.map((warn, i) => (
                       <li key={i}>{warn}</li>
                     ))}
@@ -269,45 +273,48 @@ export const CreateArticleModal: React.FC<CreateArticleModalProps> = ({
               </div>
             )}
 
-            <div className="modal-footer create-modal-footer">
-              <button type="button" className="btn-secondary" onClick={onClose}>
-                Cancel
-              </button>
+            <div className="nzz-dialog-actions flex flex-wrap items-center justify-between gap-2 mt-4 pt-4 border-t border-zinc-200">
+              <div className="flex items-center gap-2">
+                <button type="button" className="nzz-btn-cancel" onClick={onClose}>
+                  Abbrechen
+                </button>
+                <button
+                  type="button"
+                  className="nzz-btn-lint"
+                  disabled={isLinting}
+                  onClick={handleLintCheck}
+                  title="NZZ Stilrichtlinien prüfen"
+                >
+                  {isLinting ? (
+                    <LoaderCircle className="spin" size={14} />
+                  ) : (
+                    <ShieldCheck size={14} className="text-red-600" />
+                  )}
+                  <span>NZZ-Stil prüfen</span>
+                </button>
+              </div>
 
-              <button
-                type="button"
-                className="inline-flex items-center gap-1 px-3 py-2 rounded-lg bg-slate-900 border border-slate-700 text-xs font-semibold text-slate-300 hover:bg-slate-800 transition-colors"
-                disabled={isLinting}
-                onClick={handleLintCheck}
-                title="Run NZZ Style Linter"
-              >
-                {isLinting ? (
-                  <LoaderCircle className="spin" size={14} />
-                ) : (
-                  <ShieldCheck size={14} className="text-red-500" />
-                )}
-                <span>Check NZZ Style</span>
-              </button>
+              <div className="flex items-center gap-2">
+                <button
+                  type="button"
+                  className="nzz-btn-action dark"
+                  disabled={busy}
+                  onClick={() => void submitCreate(false)}
+                >
+                  {busy ? <LoaderCircle className="spin" size={14} /> : <FilePenLine size={14} />}
+                  <span>Entwurf speichern</span>
+                </button>
 
-              <button
-                type="button"
-                className="btn-publish-primary"
-                disabled={busy}
-                onClick={() => void submitCreate(false)}
-              >
-                {busy ? <LoaderCircle className="spin" size={16} /> : <FilePenLine size={16} />} Save
-                Article
-              </button>
-
-              <button
-                type="button"
-                className="visualize-article-button"
-                disabled={busy}
-                onClick={() => void submitCreate(true)}
-              >
-                {busy ? <LoaderCircle className="spin" size={16} /> : <BarChart3 size={16} />}
-                Visualize Article
-              </button>
+                <button
+                  type="button"
+                  className="nzz-btn-submit-red"
+                  disabled={busy}
+                  onClick={() => void submitCreate(true)}
+                >
+                  {busy ? <LoaderCircle className="spin" size={14} /> : <BarChart3 size={14} />}
+                  <span>Speichern &amp; Visualisieren</span>
+                </button>
+              </div>
             </div>
           </div>
         )}
