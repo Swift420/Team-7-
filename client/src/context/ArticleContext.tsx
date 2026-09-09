@@ -160,6 +160,3 @@ export const ArticleProvider: React.FC<{ children: React.ReactNode }> = ({
     </ArticleContext.Provider>
   );
 };
-
-export { useArticles } from '../hooks/useArticles';
-

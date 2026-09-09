@@ -60,7 +60,7 @@ export const RegionalChart: React.FC<RegionalChartProps> = ({ data }) => {
                 borderRadius: "8px",
                 color: "#f8fafc",
               }}
-              formatter={(value: any) => [
+              formatter={(value: unknown) => [
                 `$${Number(value).toLocaleString()}`,
                 "",
               ]}

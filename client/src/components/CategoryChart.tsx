@@ -48,7 +48,7 @@ export const CategoryChart: React.FC<CategoryChartProps> = ({ data }) => {
                 borderRadius: "8px",
                 color: "#f8fafc",
               }}
-              formatter={(value: any) => {
+              formatter={(value: unknown) => {
                 const val = Number(value);
                 const percent = ((val / total) * 100).toFixed(1);
                 return [`$${val.toLocaleString()} (${percent}%)`, "Share"];

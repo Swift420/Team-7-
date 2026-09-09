@@ -51,9 +51,10 @@ export const TrafficChart: React.FC<TrafficChartProps> = ({ data }) => {
                 borderRadius: '8px',
                 color: '#f8fafc',
               }}
-              formatter={(value: any, name: any) => {
-                if (name === 'Bounce Rate') return [`${value}%`, name];
-                return [Number(value).toLocaleString(), name];
+              formatter={(value: unknown, name: unknown) => {
+                const label = typeof name === 'string' ? name : '';
+                if (label === 'Bounce Rate') return [`${value}%`, label];
+                return [Number(value).toLocaleString(), label];
               }}
             />
             <Legend wrapperStyle={{ paddingTop: '10px' }} />

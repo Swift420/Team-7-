@@ -28,7 +28,7 @@ export const AudioBriefPlayer: React.FC<AudioBriefPlayerProps> = ({
   }, [audioBrief.audioUrl]);
 
   useEffect(() => {
-    let interval: any = null;
+    let interval: ReturnType<typeof setInterval> | null = null;
     if (isPlaying) {
       interval = setInterval(() => {
         if (audioRef.current) {
@@ -38,9 +38,11 @@ export const AudioBriefPlayer: React.FC<AudioBriefPlayerProps> = ({
         }
       }, 500);
     } else {
-      clearInterval(interval);
+      if (interval) clearInterval(interval);
     }
-    return () => clearInterval(interval);
+    return () => {
+      if (interval) clearInterval(interval);
+    };
   }, [isPlaying, duration]);
 
   const progress = Math.min(100, (currentTime / duration) * 100);
@@ -72,9 +74,9 @@ export const AudioBriefPlayer: React.FC<AudioBriefPlayerProps> = ({
           }
         }, 100);
         return;
-      } catch (err: any) {
+      } catch (err: unknown) {
         setIsLoading(false);
-        setErrorMessage(err.message || 'Google Cloud TTS synthesis failed');
+        setErrorMessage(err instanceof Error ? err.message : 'Google Cloud TTS synthesis failed');
         return;
       }
     }

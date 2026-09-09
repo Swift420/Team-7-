@@ -71,7 +71,7 @@ export const RevenueChart: React.FC<RevenueChartProps> = ({ data }) => {
                 borderRadius: "8px",
                 color: "#f8fafc",
               }}
-              formatter={(value: any) => [
+              formatter={(value: unknown) => [
                 `$${Number(value).toLocaleString()}`,
                 "",
               ]}

@@ -3,7 +3,7 @@ import { normalizeSection } from '../utils/sectionTranslation';
 
 export type Language = 'en' | 'de';
 
-export const TRANSLATIONS = {
+const TRANSLATIONS = {
   en: {
     // Top Bar & Utility
     'nav.edition': 'International Edition',
@@ -397,8 +397,6 @@ export const TRANSLATIONS = {
 } as const;
 
 import { LanguageContext } from './LanguageContextValue';
-export { LanguageContext, type LanguageContextType } from './LanguageContextValue';
-export { useLanguage } from '../hooks/useLanguage';
 
 export type TranslationKey = (keyof typeof TRANSLATIONS.en) | (string & {});
 

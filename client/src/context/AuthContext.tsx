@@ -96,5 +96,3 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({
   );
 };
 
-export { useAuth } from '../hooks/useAuth';
-

@@ -4,6 +4,20 @@ import type {
   LiquidDerivativesPayload,
 } from "../types/liquid";
 
+interface CacheStats {
+  hits?: number;
+  misses?: number;
+  entries?: number;
+  [key: string]: unknown;
+}
+
+interface StoredArticleSummary {
+  id?: string;
+}
+
+const messageFromError = (error: unknown): string =>
+  error instanceof Error ? error.message : "Unknown client error";
+
 const BASE_URL = "/api/liquid";
 
 // Liquid endpoints generate expensive derivatives, so this client prefers server/cache results before generation.
@@ -12,7 +26,7 @@ export async function fetchConfigStatus(): Promise<{
   type: "adc" | "api-key" | "none";
   projectId: string | null;
   costSavedPercentage?: number;
-  cacheStats?: any;
+  cacheStats?: CacheStats;
 }> {
   try {
     const res = await fetch(`${BASE_URL}/config-status`);
@@ -335,8 +349,8 @@ export async function createArticleApi(articleData: {
       body: JSON.stringify(articleData),
     });
     return await res.json();
-  } catch (err: any) {
-    return { success: false, error: err.message };
+  } catch (error: unknown) {
+    return { success: false, error: messageFromError(error) };
   }
 }
 
@@ -347,7 +361,9 @@ export function saveCustomArticle(article: ArticleDetail): void {
       const existing = JSON.parse(
         localStorage.getItem("nzz_custom_articles") || "[]",
       );
-      const filtered = existing.filter((a: any) => a.id !== article.id);
+      const filtered = (existing as StoredArticleSummary[]).filter(
+        (item) => item.id !== article.id,
+      );
       filtered.unshift(article);
       localStorage.setItem("nzz_custom_articles", JSON.stringify(filtered));
     } catch {
