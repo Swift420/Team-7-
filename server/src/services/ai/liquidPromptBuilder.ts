@@ -118,6 +118,47 @@ Ensure camera specs (Hasselblad X2D 100C, Leica M11, Summilux 35mm f/1.4), diffu
 Ensure prompt is 100% relevant to the specific subject of the story (e.g. smartphone hardware/pocket wearable computing for mobile tech, vinyl turntable needle on grooves for vinyl records, neuroimaging lab for neuroscience, server corridors for cybersecurity). Never output generic cars or mountains for unrelated subjects.
 DO NOT output circular zoom callout badges. NZZ strictly adheres to clean typography and pure whitespace.
 
+--- NZZ VERTICAL VIDEO STORYBOARD SYSTEM (GOOGLE VEO 3.1 PRODUCTION SPECIFICATION) ---
+Format: 9:16 Vertical Video (1080x1920) for TikTok, Instagram Reels, and YouTube Shorts.
+Total Duration: Strictly 60 seconds or less (typically 50-60 seconds across 5 structured scenes).
+Editorial Objective: Transform analytical broadsheet journalism into arresting, intellectually dense shortform vertical video that stops the scroll while preserving the NZZ Voice Invariant.
+
+Narrative Structure (Strict 5 Beats):
+1. Scene 1 (The Hook): "sceneType": "hook", Duration: 8-10 seconds.
+   - Purpose: Immediate intellectual shock or striking visual paradox.
+   - "onScreenHeadline": Max 6 words, high emotional/analytical friction.
+   - "visualPrompt": Prepend: "9:16 vertical video, Google Veo 3.1 cinematography, photorealistic documentary style for Neue Zürcher Zeitung. 35mm master prime lens, natural directional lighting, shallow depth of field, authentic filmic grain, subtle camera motion (slow dolly in or smooth pan). [High-impact visual disruption, human subject or operational reality]. Zero CGI, zero morphing, zero cartoon, uncompressed cinematic broadsheet realism."
+   - "voiceoverText": 1-2 punchy spoken sentences introducing the core tension (timed to ~2 words per second of duration).
+
+2. Scene 2 (The Quantified Inflection): "sceneType": "data_stat", Duration: 10-12 seconds.
+   - Purpose: Hard empirical proof. Anchor the story with verified statistics.
+   - "onScreenHeadline": The quantified shift or empirical turning point.
+   - "prominentMetric": Exact metric highlight (e.g. "CHF 4.2 Mrd.", "41.9%", "€120 Mrd.", "-28%").
+   - "visualPrompt": Art direction for Google Veo 3.1 capturing physical evidence of this scale (e.g. container ports, trading floors, factory lines, energy grids, laboratories, infrastructure in motion).
+   - "voiceoverText": Contextualizes the metric and why this threshold matters.
+
+3. Scene 3 (The Core Mechanism): "sceneType": "mechanism", Duration: 12-14 seconds.
+   - Purpose: The unseen engine. How the economic, geopolitical, or technical system actually functions.
+   - "onScreenHeadline": Underlying mechanism headline.
+   - "visualPrompt": Art direction for Google Veo 3.1 detailing procedural or physical workflows, assembly, decision rooms, logistical flows, institutional mechanics.
+   - "voiceoverText": Explains the cause-and-effect chain with analytical precision.
+
+4. Scene 4 (Strategic Friction / Counter-force): "sceneType": "friction", Duration: 12-14 seconds.
+   - Purpose: The dilemma, competing incentives, structural risks, or institutional resistance.
+   - "onScreenHeadline": Structural contradiction or counter-force headline.
+   - "visualPrompt": Art direction for Google Veo 3.1 capturing political debate, courtroom tension, protest lines, diplomatic conferences, or supply chain bottlenecks.
+   - "voiceoverText": Explains who loses, what systemic risk emerges, and the opposing viewpoint.
+
+5. Scene 5 (Editorial Verdict & Outlook): "sceneType": "verdict", Duration: 10-12 seconds.
+   - Purpose: The authoritative NZZ analytical takeaway and forward horizon.
+   - "onScreenHeadline": Concluding analytical verdict.
+   - "visualPrompt": Art direction for Google Veo 3.1 with a sober, expansive vista, institutional architecture (Zurich, Bern, Brussels, Washington), subtle NZZ red branding.
+   - "voiceoverText": Authoritative summary and analytical conclusion.
+
+Voiceover Timing Cadence:
+The spoken script must match standard speech rates (~2 to 2.3 words per second). For an 11-second scene, write exactly 20 to 25 words. Never exceed the scene duration. Total video word count across all 5 scenes should be 110 to 130 words.
+
+
 --- ARTICLE INPUT ---
 ID: ${article.id}
 HEADLINE: ${article.headline}
@@ -168,10 +209,10 @@ You must output a single valid JSON object strictly matching this schema:
     "approved": false
   },
   "socialStoryboard": {
-    "title": "<Short video title>",
+    "title": "<Short video title, max 6 words>",
     "aspectRatio": "9:16",
     "platformTargets": ["tiktok", "reels", "shorts"],
-    "totalDurationSeconds": 60,
+    "totalDurationSeconds": 58,
     "scenes": [
       {
         "sceneIndex": 1,
@@ -180,8 +221,8 @@ You must output a single valid JSON object strictly matching this schema:
         "sceneType": "hook",
         "onScreenHeadline": "<Punchy headline, max 6 words>",
         "prominentMetric": "<optional metric>",
-        "visualPrompt": "<Cinematic documentary art direction for Google Veo 2, 9:16, photorealistic>",
-        "voiceoverText": "<Crisp 1-2 sentence voiceover matching on-screen text>"
+        "visualPrompt": "9:16 vertical video, Google Veo 3.1 cinematography, photorealistic documentary style for Neue Zürcher Zeitung. 35mm master prime lens, natural directional lighting, shallow depth of field, subtle camera motion. <Journalistic subject with concrete textures and actions>. Zero CGI, zero morphing, uncompressed broadsheet realism.",
+        "voiceoverText": "<Crisp 1-2 sentence spoken voiceover, timed to ~2 words per second>"
       },
       {
         "sceneIndex": 2,
@@ -189,38 +230,38 @@ You must output a single valid JSON object strictly matching this schema:
         "durationSeconds": 12,
         "sceneType": "data_stat",
         "onScreenHeadline": "<Quantified shift headline>",
-        "prominentMetric": "<The key statistic, e.g. 41.9% or $14.2B>",
-        "visualPrompt": "<Art direction for Google Veo 2, focused on financial/economic data motion graphics>",
+        "prominentMetric": "<The key statistic, e.g. 41.9% or CHF 4.2 Mrd.>",
+        "visualPrompt": "9:16 vertical video, Google Veo 3.1 cinematography, photorealistic documentary style for Neue Zürcher Zeitung. 35mm lens, high contrast, smooth pan across physical operational environment reflecting the metric scale.",
         "voiceoverText": "<Voiceover detailing the metric and empirical context>"
       },
       {
         "sceneIndex": 3,
-        "timeRange": "0:22 - 0:35",
-        "durationSeconds": 13,
+        "timeRange": "0:22 - 0:34",
+        "durationSeconds": 12,
         "sceneType": "mechanism",
         "onScreenHeadline": "<Underlying mechanism headline>",
         "prominentMetric": null,
-        "visualPrompt": "<Art direction illustrating structural friction or industrial processes>",
+        "visualPrompt": "9:16 vertical video, Google Veo 3.1 cinematography, photorealistic documentary style for Neue Zürcher Zeitung. 35mm lens, natural daylight, slow tracking dolly shot showing the mechanical or logistical process in action.",
         "voiceoverText": "<Explaining how the mechanism functions analytically>"
       },
       {
         "sceneIndex": 4,
-        "timeRange": "0:35 - 0:48",
-        "durationSeconds": 13,
+        "timeRange": "0:34 - 0:46",
+        "durationSeconds": 12,
         "sceneType": "friction",
         "onScreenHeadline": "<Structural contradiction headline>",
         "prominentMetric": null,
-        "visualPrompt": "<Art direction capturing political debate or institutional friction>",
+        "visualPrompt": "9:16 vertical video, Google Veo 3.1 cinematography, photorealistic documentary style for Neue Zürcher Zeitung. 50mm portrait lens, shallow focus, institutional room showing debate or strategic friction.",
         "voiceoverText": "<Explaining competing priorities and systemic risk>"
       },
       {
         "sceneIndex": 5,
-        "timeRange": "0:48 - 1:00",
+        "timeRange": "0:46 - 0:58",
         "durationSeconds": 12,
         "sceneType": "verdict",
         "onScreenHeadline": "<Analytical conclusion>",
         "prominentMetric": null,
-        "visualPrompt": "<Art direction with sober Swiss architectural vista and NZZ red badge>",
+        "visualPrompt": "9:16 vertical video, Google Veo 3.1 cinematography, photorealistic documentary style for Neue Zürcher Zeitung. 35mm wide lens, sober Swiss institutional vista or modern architecture with clean geometry.",
         "voiceoverText": "<Concluding analytical verdict and attribution>"
       }
     ],

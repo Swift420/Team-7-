@@ -1,5 +1,190 @@
 [
   {
+    "articleId": "2026-09-09_science_scientists-may-have-just-caught-gravity-behaving-quantum-mechanically",
+    "payload": {
+      "articleId": "2026-09-09_science_scientists-may-have-just-caught-gravity-behaving-quantum-mechanically",
+      "generatedAt": "2026-09-09T08:42:00.000Z",
+      "source": "vertex-ai",
+      "model": "gemini-2.5-pro",
+      "elapsedMs": 14200,
+      "detectedCategory": "Economy & Science",
+      "suggestedTags": [
+        "#Science",
+        "#Physics",
+        "#QuantumMechanics",
+        "#Gravity",
+        "#NZZ"
+      ],
+      "editorialAnalysis": {
+        "articleDepth": "in-depth",
+        "slideCount": 6,
+        "reasoning": "Comprehensive scientific breakthrough requiring clear conceptual progression across slides."
+      },
+      "audioBrief": {
+        "headline": "Scientists May Have Just Caught Gravity Behaving Quantum Mechanically",
+        "wordCount": 310,
+        "estimatedDurationSeconds": 134,
+        "script": "For nearly a century, physicists have searched for a bridge between Einstein's general relativity and quantum mechanics. A team of researchers in Vienna may have taken the first decisive step. Using ultracold atoms in a high-vacuum chamber, the physicists measured gravitational interactions at microscopic scales. Their findings suggest that gravity may exhibit non-classical entanglement, potentially closing one of the greatest conceptual chasms in modern theoretical physics. For the Neue Zürcher Zeitung, Audio Desk.",
+        "ssml": "<speak><prosody rate=\"1.0\">For nearly a century, physicists have searched for a bridge between Einstein's general relativity and quantum mechanics.<break time=\"300ms\"/> A team of researchers in Vienna may have taken the first decisive step.<break time=\"300ms\"/> Using ultracold atoms in a high-vacuum chamber, the physicists measured gravitational interactions at microscopic scales.<break time=\"300ms\"/> Their findings suggest that gravity may exhibit non-classical entanglement, potentially closing one of the greatest conceptual chasms in modern theoretical physics.<break time=\"300ms\"/> For the Neue Zürcher Zeitung, Audio Desk.</prosody></speak>",
+        "voiceProfile": {
+          "languageCode": "en-US",
+          "voiceName": "en-US-Journey-F",
+          "gender": "FEMALE"
+        },
+        "approved": true
+      },
+      "executiveNewsletter": {
+        "headline": "Scientists May Have Just Caught Gravity Behaving Quantum Mechanically",
+        "subhead": "A decisive step toward unifying general relativity with quantum mechanics",
+        "bullets": [
+          "First experimental evidence of a quantum effect of gravity using ultracold atoms.",
+          "Could help bridge the gap between general relativity and quantum mechanics.",
+          "May open new research directions in fundamental physics and cosmology.",
+          "Implications for future technologies and our understanding of the universe."
+        ],
+        "wordCount": 84,
+        "approved": true
+      },
+      "socialStoryboard": {
+        "title": "Quantum Gravity Breakthrough: Vienna Experiment",
+        "aspectRatio": "9:16",
+        "platformTargets": [
+          "tiktok",
+          "reels",
+          "shorts"
+        ],
+        "totalDurationSeconds": 16,
+        "scenes": [
+          {
+            "sceneIndex": 1,
+            "timeRange": "0:00 - 0:04",
+            "durationSeconds": 4,
+            "sceneType": "hook",
+            "onScreenHeadline": "Has gravity finally been quantum-tested?",
+            "visualPrompt": "Cinematic shot of glowing ultracold rubidium cloud suspended in magnetic trap inside stainless steel chamber.",
+            "voiceoverText": "For nearly a century, physicists couldn't prove if gravity is quantum.",
+            "modelUsed": "veo-3.1-fast-generate-001"
+          },
+          {
+            "sceneIndex": 2,
+            "timeRange": "0:04 - 0:08",
+            "durationSeconds": 4,
+            "sceneType": "data_stat",
+            "prominentMetric": "10⁻¹⁵ m",
+            "onScreenHeadline": "Precision at the Nanokelvin Scale",
+            "visualPrompt": "Interferometer lasers pulsing through cold atom lattice, displaying interference fringes.",
+            "voiceoverText": "Vienna researchers isolated gravitational forces down to microscopic atomic masses.",
+            "modelUsed": "veo-3.1-fast-generate-001"
+          },
+          {
+            "sceneIndex": 3,
+            "timeRange": "0:08 - 0:12",
+            "durationSeconds": 4,
+            "sceneType": "mechanism",
+            "onScreenHeadline": "Gravitational Entanglement Observed",
+            "visualPrompt": "Abstract 3D spacetime curvature rippling as two quantum particles entangle gravitationally.",
+            "voiceoverText": "The team observed subtle phase shifts pointing to non-classical entanglement.",
+            "modelUsed": "veo-3.1-fast-generate-001"
+          },
+          {
+            "sceneIndex": 4,
+            "timeRange": "0:12 - 0:16",
+            "durationSeconds": 4,
+            "sceneType": "verdict",
+            "onScreenHeadline": "A Unified Theory Within Reach",
+            "visualPrompt": "Cosmic web and subatomic quantum foam meeting in sharp editorial typographic card.",
+            "voiceoverText": "A historic milestone towards Einstein's unfinished dream.",
+            "modelUsed": "veo-3.1-fast-generate-001"
+          }
+        ],
+        "approved": true
+      },
+      "instagramCarousel": {
+        "title": "Scientists May Have Just Caught Gravity Behaving Quantum Mechanically",
+        "category": "Economy & Science",
+        "detectedCategory": "Science",
+        "aspectRatio": "4:5",
+        "theme": "dark",
+        "captionText": "Scientists may have just caught gravity behaving quantum mechanically in a landmark Vienna experiment.\n\nSwipe through for the breakdown →\n\nRead the full investigation on nzz.ch/international",
+        "hashtags": [
+          "#NZZ",
+          "#Physics",
+          "#QuantumMechanics",
+          "#Science"
+        ],
+        "slides": [
+          {
+            "slideNumber": 1,
+            "slideType": "cover",
+            "layout": "hook_hero",
+            "badge": "Focus",
+            "headline": "Gravity Behaves Quantum Mechanically",
+            "bodyText": "Scientists may have just caught gravity behaving quantum mechanically in a landmark experiment.",
+            "theme": "dark",
+            "hasImage": false,
+            "imagePrompt": "High-contrast editorial typography with deep noir background."
+          },
+          {
+            "slideNumber": 2,
+            "slideType": "context",
+            "layout": "split_media",
+            "badge": "Background",
+            "headline": "A long-standing mystery",
+            "bodyText": "For decades, physicists have tried to unify gravity and quantum mechanics.",
+            "theme": "dark",
+            "hasImage": false,
+            "imagePrompt": "Conceptual diagram of spacetime curvature intersecting particle wavefunctions."
+          },
+          {
+            "slideNumber": 3,
+            "slideType": "data_point",
+            "layout": "stat_callout",
+            "badge": "Discovery",
+            "headline": "A new experiment",
+            "bodyText": "Using ultracold atoms, researchers observed a quantum effect of gravity.",
+            "theme": "dark",
+            "hasImage": false,
+            "imagePrompt": "Atomic interferometer beams splitting and recombining."
+          },
+          {
+            "slideNumber": 4,
+            "slideType": "context",
+            "layout": "bullets_list",
+            "badge": "Analysis",
+            "headline": "What it could mean",
+            "bodyText": "A step closer to a unified theory — and a new window into the universe.",
+            "theme": "dark",
+            "hasImage": false,
+            "imagePrompt": "Cosmological simulation of early universe quantum fluctuations."
+          },
+          {
+            "slideNumber": 5,
+            "slideType": "consequences",
+            "layout": "dual_cards",
+            "badge": "Perspective",
+            "headline": "Science for a more complete picture.",
+            "bodyText": "NZZ International provides deep reporting on fundamental physics.",
+            "theme": "dark",
+            "hasImage": false,
+            "imagePrompt": "Editorial broadsheet layout with gold foil typography."
+          },
+          {
+            "slideNumber": 6,
+            "slideType": "outro",
+            "layout": "cta_conversion",
+            "badge": "Next Steps",
+            "headline": "Read the full analysis on nzz.ch",
+            "bodyText": "Link in bio",
+            "theme": "dark",
+            "hasImage": false,
+            "imagePrompt": "Minimal NZZ seal."
+          }
+        ],
+        "approved": true
+      }
+    }
+  },
+  {
     "articleId": "custom-1788902411932",
     "payload": {
       "articleId": "custom-1788902411932",

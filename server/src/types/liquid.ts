@@ -28,8 +28,12 @@ export interface VideoScene {
   sceneType: "hook" | "data_stat" | "mechanism" | "friction" | "verdict";
   onScreenHeadline: string;
   prominentMetric?: string;
-  visualPrompt: string; // Art direction for Google Veo 2 / Imagen 3
+  visualPrompt: string; // Art direction for Google Veo 3.1 / Imagen 3
   voiceoverText: string;
+  imageUrl?: string;
+  videoUrl?: string;
+  videoStatus?: "idle" | "generating" | "ready" | "failed";
+  modelUsed?: string;
 }
 
 export interface SocialStoryboardFormat {
@@ -38,6 +42,8 @@ export interface SocialStoryboardFormat {
   platformTargets: ("tiktok" | "reels" | "shorts")[];
   totalDurationSeconds: number; // ~60 seconds
   scenes: VideoScene[]; // 5 scenes
+  renderedVideoUrl?: string;
+  renderedVideoStatus?: "idle" | "rendering" | "ready" | "failed";
   approved: boolean;
 }
 

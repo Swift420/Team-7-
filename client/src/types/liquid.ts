@@ -16,7 +16,7 @@ export interface AudioBriefFormat {
 export interface ExecutiveNewsletterFormat {
   headline: string;
   subhead: string;
-  bullets: [string, string, string];
+  bullets: [string, string, string] | string[];
   wordCount: number;
   approved: boolean;
 }
@@ -31,6 +31,9 @@ export interface VideoScene {
   visualPrompt: string;
   voiceoverText: string;
   imageUrl?: string;
+  videoUrl?: string;
+  videoStatus?: 'idle' | 'generating' | 'ready' | 'failed';
+  modelUsed?: string;
 }
 
 export interface SocialStoryboardFormat {
@@ -40,6 +43,8 @@ export interface SocialStoryboardFormat {
   totalDurationSeconds: number;
   scenes: VideoScene[];
   videoUrl?: string;
+  renderedVideoUrl?: string;
+  renderedVideoStatus?: 'idle' | 'rendering' | 'ready' | 'failed';
   approved: boolean;
 }
 
@@ -122,7 +127,7 @@ export interface CarouselSlide {
     subtext: string;
     buttonText: string;
   };
-  imagePrompt: string;
+  imagePrompt?: string;
   imageUrl?: string;
   detailZoomUrl?: string;
   detailZoomLabel?: string;

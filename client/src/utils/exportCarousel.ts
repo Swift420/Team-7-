@@ -16,14 +16,21 @@ export async function exportSlideElementToBlob(
     }
   }
 
-  // Ensure all image elements inside have finished decoding
+  // Ensure all image elements inside have finished decoding (with 4s safety timeout)
   const imgs = Array.from(element.querySelectorAll("img"));
   await Promise.all(
     imgs.map((img) => {
       if (img.complete) return Promise.resolve();
       return new Promise<void>((resolve) => {
-        img.onload = () => resolve();
-        img.onerror = () => resolve();
+        const timer = setTimeout(() => resolve(), 4000);
+        img.onload = () => {
+          clearTimeout(timer);
+          resolve();
+        };
+        img.onerror = () => {
+          clearTimeout(timer);
+          resolve();
+        };
       });
     }),
   );

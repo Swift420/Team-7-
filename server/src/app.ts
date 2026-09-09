@@ -1,4 +1,5 @@
 import express, { ErrorRequestHandler } from "express";
+import fs from "node:fs";
 import { randomUUID } from "node:crypto";
 import path from "node:path";
 import cors from "cors";
@@ -33,6 +34,19 @@ app.use(express.json({ limit: "10mb" }));
 const qDataDir =
   env.qDataDir || path.resolve(process.cwd(), "../VisualVelocity/input/q_data");
 app.use("/api/visual-assets", express.static(qDataDir));
+const videosDir = path.resolve(process.cwd(), "data/videos");
+if (!fs.existsSync(videosDir)) {
+  fs.mkdirSync(videosDir, { recursive: true });
+}
+app.use(
+  "/api/videos",
+  express.static(videosDir, {
+    setHeaders: (res) => {
+      res.setHeader("Accept-Ranges", "bytes");
+      res.setHeader("Access-Control-Allow-Origin", "*");
+    },
+  }),
+);
 app.get("/api/health", (_req, res) =>
   res.json({
     status: "healthy",

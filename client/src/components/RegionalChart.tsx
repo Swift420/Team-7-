@@ -55,10 +55,10 @@ export const RegionalChart: React.FC<RegionalChartProps> = ({ data }) => {
             />
             <Tooltip
               contentStyle={{
-                backgroundColor: "#1e293b",
-                borderColor: "#334155",
-                borderRadius: "8px",
-                color: "#f8fafc",
+                backgroundColor: "#ffffff",
+                borderColor: "#e4e4e0",
+                borderRadius: "4px",
+                color: "#111111",
               }}
               formatter={(value: unknown) => [
                 `$${Number(value).toLocaleString()}`,
@@ -66,10 +66,10 @@ export const RegionalChart: React.FC<RegionalChartProps> = ({ data }) => {
               ]}
             />
             <Legend wrapperStyle={{ paddingTop: "10px" }} />
-            <Bar dataKey="q1" name="Q1" fill="#3b82f6" radius={[4, 4, 0, 0]} />
-            <Bar dataKey="q2" name="Q2" fill="#06b6d4" radius={[4, 4, 0, 0]} />
-            <Bar dataKey="q3" name="Q3" fill="#8b5cf6" radius={[4, 4, 0, 0]} />
-            <Bar dataKey="q4" name="Q4" fill="#10b981" radius={[4, 4, 0, 0]} />
+            <Bar dataKey="q1" name="Q1" fill="#111111" radius={[2, 2, 0, 0]} />
+            <Bar dataKey="q2" name="Q2" fill="#52525b" radius={[2, 2, 0, 0]} />
+            <Bar dataKey="q3" name="Q3" fill="#a1a1aa" radius={[2, 2, 0, 0]} />
+            <Bar dataKey="q4" name="Q4" fill="#d80000" radius={[2, 2, 0, 0]} />
           </BarChart>
         </ResponsiveContainer>
       </div>

@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import {
   ChevronLeft,
   ChevronRight,
@@ -64,7 +64,13 @@ export const CarouselPreview: React.FC<CarouselPreviewProps> = ({
   const activeSlideRef = useRef<HTMLDivElement | null>(null);
   const exportSlideRefs = useRef<(HTMLDivElement | null)[]>([]);
 
-  const slides = carousel?.slides || [];
+  // Reactive slides state
+  const [slides, setSlides] = useState<CarouselSlide[]>(carousel?.slides || []);
+
+  useEffect(() => {
+    setSlides(carousel?.slides || []);
+  }, [carousel?.slides]);
+
   const currentSlide = slides[activeSlideIndex] || slides[0];
   const isGerman = language === "de";
 
@@ -103,14 +109,16 @@ export const CarouselPreview: React.FC<CarouselPreviewProps> = ({
         bustCache: true,
         model: "imagen-3.0-generate-002",
       });
-      currentSlide.imageUrl = res.imageUrl;
-      currentSlide.hasImage = true;
+      const updatedSlide: CarouselSlide = {
+        ...currentSlide,
+        imageUrl: res.imageUrl,
+        hasImage: true,
+      };
+      setSlides((prev) =>
+        prev.map((s, idx) => (idx === activeSlideIndex ? updatedSlide : s)),
+      );
       if (onUpdateSlide) {
-        onUpdateSlide({
-          ...currentSlide,
-          imageUrl: res.imageUrl,
-          hasImage: true,
-        });
+        onUpdateSlide(updatedSlide);
       }
     } catch (err: any) {
       console.error("Failed to generate slide image:", err);
@@ -158,19 +166,22 @@ export const CarouselPreview: React.FC<CarouselPreviewProps> = ({
         bustCache: true,
       });
 
-      slides.forEach((s) => {
-        if (res[s.slideNumber]?.imageUrl) {
-          s.imageUrl = res[s.slideNumber].imageUrl;
-          s.hasImage = true;
-          if (onUpdateSlide) {
-            onUpdateSlide({
+      setSlides((prev) =>
+        prev.map((s) => {
+          if (res[s.slideNumber]?.imageUrl) {
+            const updated = {
               ...s,
               imageUrl: res[s.slideNumber].imageUrl,
               hasImage: true,
-            });
+            };
+            if (onUpdateSlide) {
+              onUpdateSlide(updated);
+            }
+            return updated;
           }
-        }
-      });
+          return s;
+        }),
+      );
       setDeckProgress(
         isGerman
           ? `✓ ${targetSlides.length} Visual-Folien erfolgreich aktualisiert`

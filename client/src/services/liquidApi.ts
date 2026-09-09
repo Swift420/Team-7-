@@ -391,3 +391,86 @@ export function saveCustomArticle(article: ArticleDetail): void {
     console.error("Failed to persist custom article to server db:", err);
   });
 }
+
+export async function fetchVideoServiceStatus(): Promise<{
+  configured: boolean;
+  model: string;
+  projectId: string | null;
+}> {
+  try {
+    const res = await fetch(`${BASE_URL}/video-status`);
+    if (res.ok) {
+      const data = await res.json();
+      return data.data;
+    }
+  } catch (err) {
+    console.warn('Failed to fetch video service status:', err);
+  }
+  return { configured: false, model: 'veo-3.1-fast-generate-001', projectId: null };
+}
+
+export async function generateSceneVideo(params: {
+  articleId?: string;
+  sceneIndex: number;
+  visualPrompt: string;
+  onScreenHeadline?: string;
+  prominentMetric?: string;
+  sceneType?: string;
+  durationSeconds?: number;
+  bustCache?: boolean;
+}): Promise<{ videoUrl: string; durationSeconds: number; modelUsed: string; source: string }> {
+  const res = await fetch(`${BASE_URL}/generate-scene-video`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(params),
+  });
+
+  if (!res.ok) {
+    const err = await res.json().catch(() => ({ error: 'Video generation failed' }));
+    throw new Error(err.error || 'Failed to generate scene video');
+  }
+
+  const data = await res.json();
+  return data.data;
+}
+
+export async function generateAllSceneVideos(params: {
+  articleId?: string;
+  scenes: any[];
+  bustCache?: boolean;
+}): Promise<any[]> {
+  const res = await fetch(`${BASE_URL}/generate-all-scene-videos`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(params),
+  });
+
+  if (!res.ok) {
+    const err = await res.json().catch(() => ({ error: 'Generating all scene videos failed' }));
+    throw new Error(err.error || 'Failed to generate all scene videos');
+  }
+
+  const data = await res.json();
+  return data.data;
+}
+
+export async function renderVerticalVideo(params: {
+  articleId?: string;
+  storyboard: any;
+  language?: 'de' | 'en';
+}): Promise<{ videoUrl: string; totalDurationSeconds: number; format: string }> {
+  const res = await fetch(`${BASE_URL}/render-vertical-video`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(params),
+  });
+
+  if (!res.ok) {
+    const err = await res.json().catch(() => ({ error: 'Video rendering failed' }));
+    throw new Error(err.error || 'Failed to render vertical video');
+  }
+
+  const data = await res.json();
+  return data.data;
+}
+

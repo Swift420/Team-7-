@@ -1,0 +1,1280 @@
+/* ==========================================================================
+   NZZ MULTIMODAL CONTENT STUDIO - SWISS BROADSHEET DESIGN SYSTEM
+   Editorial tool first. AI tool second.
+   ========================================================================== */
+
+/* Studio Main Container */
+.nzz-studio-root {
+  background-color: #ffffff;
+  border: 1px solid #dededb;
+  border-radius: 12px;
+  padding: 24px;
+  margin-top: 16px;
+  margin-bottom: 32px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.03);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-family: var(--font-sans);
+  color: #111111;
+}
+
+@media (min-width: 768px) {
+  .nzz-studio-root {
+    padding: 28px;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   1. Studio Header
+   -------------------------------------------------------------------------- */
+.nzz-studio-header {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-bottom: 4px;
+}
+
+@media (min-width: 768px) {
+  .nzz-studio-header {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+}
+
+.nzz-studio-header-left {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.nzz-studio-header-icon {
+  width: 28px;
+  height: 28px;
+  color: #111111;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.nzz-studio-header-titles {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.nzz-studio-header-title-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.nzz-studio-title {
+  font-family: var(--font-serif);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #111111;
+  letter-spacing: -0.01em;
+}
+
+.nzz-vertex-pill {
+  display: inline-flex;
+  align-items: center;
+  padding: 3px 8px;
+  background-color: #efefe9;
+  color: #555555;
+  font-family: var(--font-sans);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  border-radius: 4px;
+}
+
+.nzz-studio-subtitle {
+  font-size: 13px;
+  color: #666666;
+  line-height: 1.4;
+  margin: 0;
+}
+
+.nzz-studio-header-right {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  color: #777777;
+  padding-top: 4px;
+}
+
+.nzz-studio-info-icon {
+  width: 15px;
+  height: 15px;
+  color: #888888;
+  flex-shrink: 0;
+}
+
+/* --------------------------------------------------------------------------
+   2. Compact Generation Progress Bar
+   -------------------------------------------------------------------------- */
+.nzz-progress-strip {
+  background-color: #f9f9f8;
+  border: 1px solid #e8e8e4;
+  border-radius: 8px;
+  padding: 10px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.nzz-progress-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 180px;
+}
+
+.nzz-spinner-ring {
+  width: 18px;
+  height: 18px;
+  border: 2px solid #dededb;
+  border-top-color: #111111;
+  border-radius: 50%;
+  animation: nzz-spin 0.8s linear infinite;
+  flex-shrink: 0;
+}
+
+@keyframes nzz-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.nzz-progress-text-stack {
+  display: flex;
+  flex-direction: column;
+}
+
+.nzz-progress-title {
+  font-size: 12px;
+  font-weight: 600;
+  color: #111111;
+  line-height: 1.2;
+}
+
+.nzz-progress-sub {
+  font-size: 11px;
+  color: #777777;
+  line-height: 1.2;
+}
+
+.nzz-progress-center {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex: 1;
+  max-width: 480px;
+}
+
+.nzz-progress-track {
+  flex: 1;
+  height: 5px;
+  background-color: #e4e4e0;
+  border-radius: 9999px;
+  overflow: hidden;
+}
+
+.nzz-progress-fill {
+  height: 100%;
+  background-color: #111111;
+  border-radius: 9999px;
+  transition: width 0.35s ease;
+}
+
+.nzz-progress-percent {
+  font-size: 12px;
+  font-weight: 600;
+  color: #111111;
+  font-variant-numeric: tabular-nums;
+  min-width: 34px;
+}
+
+.nzz-progress-right {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.nzz-btn-cancel {
+  background-color: #ffffff;
+  border: 1px solid #d4d4d0;
+  color: #111111;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 5px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.15s ease, border-color 0.15s ease;
+}
+
+.nzz-btn-cancel:hover {
+  background-color: #f2f2ef;
+  border-color: #bbbbb5;
+}
+
+.nzz-btn-regenerate {
+  background-color: #ffffff;
+  border: 1px solid #d4d4d0;
+  color: #111111;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 5px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  transition: all 0.15s ease;
+}
+
+.nzz-btn-regenerate:hover {
+  background-color: #f2f2ef;
+}
+
+/* --------------------------------------------------------------------------
+   3. 2x2 Asset Grid
+   -------------------------------------------------------------------------- */
+.nzz-asset-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+@media (min-width: 1024px) {
+  .nzz-asset-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Base Asset Card */
+.nzz-asset-card {
+  background-color: #ffffff;
+  border: 1px solid #dededb;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 16px;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.nzz-asset-card:hover {
+  border-color: #c9c9c4;
+}
+
+/* Card Header */
+.nzz-asset-card-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.nzz-asset-card-header-left {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.nzz-asset-icon-box {
+  width: 32px;
+  height: 32px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  background-color: #f6f6f4;
+  border: 1px solid #e8e8e4;
+}
+
+.nzz-asset-card-titles {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.nzz-asset-card-title {
+  font-size: 14px;
+  font-weight: 700;
+  color: #111111;
+  line-height: 1.2;
+}
+
+.nzz-asset-card-desc {
+  font-size: 11px;
+  color: #666666;
+  line-height: 1.3;
+}
+
+.nzz-asset-status-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 9999px;
+  flex-shrink: 0;
+}
+
+.nzz-asset-status-pill.ready {
+  color: #24734d;
+  background-color: #eef8f2;
+}
+
+.nzz-asset-status-pill.generating {
+  color: #b45309;
+  background-color: #fef7ee;
+}
+
+.nzz-asset-status-pill.error {
+  color: #dc2626;
+  background-color: #fef2f2;
+}
+
+.nzz-status-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: currentColor;
+}
+
+/* --------------------------------------------------------------------------
+   4. Instagram Carousel Card
+   -------------------------------------------------------------------------- */
+.nzz-carousel-viewport {
+  position: relative;
+  background-color: #fbfbfa;
+  border: 1px solid #e8e8e4;
+  border-radius: 8px;
+  padding: 14px;
+  overflow: hidden;
+}
+
+.nzz-carousel-strip {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: thin;
+  padding-bottom: 6px;
+}
+
+.nzz-carousel-strip::-webkit-scrollbar {
+  height: 4px;
+}
+
+.nzz-carousel-strip::-webkit-scrollbar-thumb {
+  background-color: #d4d4d0;
+  border-radius: 4px;
+}
+
+.nzz-carousel-slide-item {
+  flex: 0 0 calc(20% - 8px);
+  min-width: 105px;
+  aspect-ratio: 4 / 5;
+  background-color: #111111;
+  border-radius: 6px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #ffffff;
+  position: relative;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+  transition: transform 0.15s ease;
+  user-select: none;
+}
+
+.nzz-carousel-slide-item:hover {
+  transform: translateY(-2px);
+}
+
+.nzz-carousel-slide-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nzz-carousel-slide-logo {
+  font-family: var(--font-serif);
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+
+.nzz-carousel-slide-content {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin: auto 0;
+}
+
+.nzz-carousel-slide-kicker {
+  font-size: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 600;
+}
+
+.nzz-carousel-slide-headline {
+  font-family: var(--font-serif);
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #ffffff;
+}
+
+.nzz-carousel-slide-body {
+  font-size: 8px;
+  line-height: 1.3;
+  color: rgba(255, 255, 255, 0.85);
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.nzz-carousel-slide-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 8px;
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 600;
+}
+
+.nzz-carousel-next-btn {
+  position: absolute;
+  right: 18px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background-color: rgba(17, 17, 17, 0.85);
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.15s ease;
+  z-index: 10;
+}
+
+.nzz-carousel-next-btn:hover {
+  background-color: #000000;
+}
+
+.nzz-carousel-dots-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  margin-top: 10px;
+}
+
+.nzz-carousel-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #d4d4d0;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  border: none;
+  padding: 0;
+}
+
+.nzz-carousel-dot.active {
+  background-color: #111111;
+  width: 8px;
+  height: 8px;
+}
+
+/* --------------------------------------------------------------------------
+   5. Vertical Video Card
+   -------------------------------------------------------------------------- */
+.nzz-video-content-grid {
+  display: grid;
+  grid-template-columns: 140px 1fr;
+  gap: 18px;
+  align-items: stretch;
+}
+
+@media (min-width: 640px) {
+  .nzz-video-content-grid {
+    grid-template-columns: 160px 1fr;
+  }
+}
+
+.nzz-video-player-box {
+  aspect-ratio: 9 / 16;
+  background-color: #0a0a0c;
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  color: #ffffff;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+.nzz-video-bg-ambient {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at 50% 40%, #1e1e28 0%, #0a0a0c 80%);
+  opacity: 0.8;
+  z-index: 1;
+}
+
+.nzz-video-top-bar {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nzz-video-logo {
+  font-family: var(--font-serif);
+  font-size: 11px;
+  font-weight: 800;
+  color: #ffffff;
+}
+
+.nzz-video-overlay-title {
+  position: relative;
+  z-index: 2;
+  font-family: var(--font-serif);
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #ffffff;
+  text-align: center;
+  padding: 0 4px;
+}
+
+.nzz-video-play-center {
+  position: relative;
+  z-index: 2;
+  align-self: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background-color: rgba(17, 17, 17, 0.75);
+  backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  cursor: pointer;
+  transition: transform 0.15s ease, background-color 0.15s ease;
+}
+
+.nzz-video-play-center:hover {
+  transform: scale(1.08);
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.nzz-video-bottom-controls {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.nzz-video-scrubber-track {
+  width: 100%;
+  height: 3px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 2px;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.nzz-video-scrubber-fill {
+  height: 100%;
+  background-color: #d80000;
+  transition: width 0.1s linear;
+}
+
+.nzz-video-controls-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 9px;
+  color: rgba(255, 255, 255, 0.8);
+  font-variant-numeric: tabular-nums;
+}
+
+.nzz-video-controls-actions {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.nzz-video-ctrl-btn {
+  background: transparent;
+  border: none;
+  color: rgba(255, 255, 255, 0.8);
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.nzz-video-ctrl-btn:hover {
+  color: #ffffff;
+}
+
+/* Video Details Column */
+.nzz-video-details-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 14px;
+}
+
+.nzz-video-details-heading {
+  font-size: 13px;
+  font-weight: 700;
+  color: #111111;
+  margin: 0;
+}
+
+.nzz-video-details-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nzz-video-detail-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 12px;
+}
+
+.nzz-video-detail-icon {
+  width: 16px;
+  height: 16px;
+  color: #777777;
+  flex-shrink: 0;
+}
+
+.nzz-video-detail-label {
+  color: #777777;
+}
+
+.nzz-video-detail-val {
+  font-weight: 600;
+  color: #111111;
+}
+
+/* --------------------------------------------------------------------------
+   6. Commuter Audio Brief Card
+   -------------------------------------------------------------------------- */
+.nzz-audio-player-strip {
+  background-color: #fbfbfa;
+  border: 1px solid #e4e4e0;
+  border-radius: 8px;
+  padding: 12px 14px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.nzz-audio-play-round {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background-color: #111111;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  cursor: pointer;
+  flex-shrink: 0;
+  transition: background-color 0.15s ease;
+}
+
+.nzz-audio-play-round:hover {
+  background-color: #000000;
+}
+
+.nzz-waveform-container {
+  flex: 1;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  cursor: pointer;
+}
+
+.nzz-waveform-bar {
+  flex: 1;
+  border-radius: 1px;
+  background-color: #dededb;
+  transition: background-color 0.15s ease, height 0.15s ease;
+}
+
+.nzz-waveform-bar.active {
+  background-color: #111111;
+}
+
+.nzz-audio-time-pill {
+  font-size: 11px;
+  font-variant-numeric: tabular-nums;
+  color: #555555;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.nzz-speed-btn {
+  background-color: #f0f0ee;
+  border: 1px solid #dcdcd8;
+  border-radius: 4px;
+  padding: 2px 6px;
+  font-size: 11px;
+  font-weight: 600;
+  color: #333333;
+  cursor: pointer;
+}
+
+.nzz-speed-btn:hover {
+  background-color: #e4e4e0;
+}
+
+.nzz-audio-action-btn {
+  background: transparent;
+  border: none;
+  color: #666666;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 4px;
+  border-radius: 4px;
+}
+
+.nzz-audio-action-btn:hover {
+  color: #111111;
+  background-color: #f0f0ee;
+}
+
+/* --------------------------------------------------------------------------
+   7. Executive Brief Card
+   -------------------------------------------------------------------------- */
+.nzz-exec-subnav-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.nzz-exec-tabs {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  background-color: #f0f0ee;
+  padding: 3px;
+  border-radius: 6px;
+}
+
+.nzz-exec-tab-btn {
+  padding: 3px 10px;
+  font-size: 11px;
+  font-weight: 600;
+  color: #666666;
+  background: transparent;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.nzz-exec-tab-btn.active {
+  background-color: #ffffff;
+  color: #111111;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.nzz-exec-full-link {
+  background: transparent;
+  border: none;
+  font-size: 11px;
+  font-weight: 600;
+  color: #555555;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 6px;
+  border-radius: 4px;
+}
+
+.nzz-exec-full-link:hover {
+  color: #111111;
+  background-color: #f6f6f4;
+}
+
+.nzz-exec-preview-box {
+  background-color: #fbfbfa;
+  border: 1px solid #e8e8e4;
+  border-radius: 8px;
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.nzz-exec-takeaways-heading {
+  font-size: 12px;
+  font-weight: 700;
+  color: #111111;
+  letter-spacing: 0.02em;
+  margin: 0;
+}
+
+.nzz-exec-bullet-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nzz-exec-bullet-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  font-size: 12px;
+  line-height: 1.4;
+  color: #333333;
+}
+
+.nzz-bullet-symbol {
+  color: #777777;
+  font-weight: 700;
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+
+/* --------------------------------------------------------------------------
+   8. Distribution & Inclusion Actions
+   -------------------------------------------------------------------------- */
+/* Social Export Actions (2-Button Row) */
+.nzz-social-actions-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-top: 6px;
+}
+
+.nzz-btn-export-secondary {
+  flex: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 8px 14px;
+  background-color: #ffffff;
+  border: 1px solid #d4d4d0;
+  border-radius: 6px;
+  color: #111111;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.nzz-btn-export-secondary:hover {
+  background-color: #f5f5f3;
+  border-color: #bbbbb5;
+}
+
+.nzz-btn-export-primary {
+  flex: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 8px 14px;
+  background-color: #111111;
+  border: 1px solid #111111;
+  border-radius: 6px;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.15s ease;
+}
+
+.nzz-btn-export-primary:hover {
+  background-color: #000000;
+}
+
+/* Article Inclusion Toggle Switch Row */
+.nzz-inclusion-toggle-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding-top: 10px;
+  border-top: 1px solid #f0f0ee;
+}
+
+/* Accessible Switch */
+.nzz-switch-btn {
+  position: relative;
+  width: 44px;
+  height: 24px;
+  border-radius: 9999px;
+  background-color: #dcdcd8;
+  border: none;
+  cursor: pointer;
+  padding: 2px;
+  transition: background-color 0.2s ease;
+  flex-shrink: 0;
+}
+
+.nzz-switch-btn.active {
+  background-color: #111111;
+}
+
+.nzz-switch-thumb {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease;
+  display: block;
+}
+
+.nzz-switch-btn.active .nzz-switch-thumb {
+  transform: translateX(20px);
+}
+
+.nzz-inclusion-text-group {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.nzz-inclusion-label {
+  font-size: 12px;
+  font-weight: 600;
+  color: #111111;
+  line-height: 1.2;
+}
+
+.nzz-inclusion-desc {
+  font-size: 11px;
+  color: #777777;
+  line-height: 1.2;
+}
+
+/* --------------------------------------------------------------------------
+   9. Clean Editorial Modals & Toasts
+   -------------------------------------------------------------------------- */
+.nzz-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(17, 17, 17, 0.55);
+  backdrop-filter: blur(2px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  padding: 16px;
+}
+
+.nzz-modal-card {
+  background-color: #ffffff;
+  border: 1px solid #dededb;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 580px;
+  max-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.nzz-modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 20px;
+  border-bottom: 1px solid #e8e8e4;
+}
+
+.nzz-modal-title {
+  font-family: var(--font-serif);
+  font-size: 18px;
+  font-weight: 700;
+  color: #111111;
+  margin: 0;
+}
+
+.nzz-modal-close-btn {
+  background: transparent;
+  border: none;
+  color: #777777;
+  cursor: pointer;
+  padding: 4px;
+  border-radius: 4px;
+  display: flex;
+}
+
+.nzz-modal-close-btn:hover {
+  color: #111111;
+  background-color: #f2f2ef;
+}
+
+.nzz-modal-body {
+  padding: 20px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.nzz-modal-footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  padding: 14px 20px;
+  border-top: 1px solid #e8e8e4;
+  background-color: #fbfbfa;
+}
+
+/* Toast feedback pill */
+.nzz-studio-toast {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  background-color: #111111;
+  color: #ffffff;
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+  z-index: 1100;
+  animation: nzz-fade-up 0.2s ease-out;
+}
+
+@keyframes nzz-fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* --------------------------------------------------------------------------
+   10. Redesigned 2-Column Article Header & Editorial Top Bar (Mockup Match)
+   -------------------------------------------------------------------------- */
+.nzz-detail-header-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 880px) {
+  .nzz-detail-header-grid {
+    grid-template-columns: 1fr 260px;
+    gap: 36px;
+    align-items: start;
+  }
+}
+
+.nzz-detail-header-main {
+  display: flex;
+  flex-direction: column;
+}
+
+.nzz-kicker-pill-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #111111;
+  margin-bottom: 12px;
+}
+
+.nzz-kicker-red-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #d80000;
+  display: inline-block;
+}
+
+.nzz-header-meta-panel {
+  background-color: #fbfbfa;
+  border: 1px solid #e8e8e4;
+  border-radius: 8px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.nzz-meta-item-row {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.nzz-meta-item-label {
+  font-size: 11px;
+  color: #777777;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.nzz-meta-item-val {
+  font-size: 13px;
+  font-weight: 600;
+  color: #111111;
+}
+
+.nzz-meta-tags-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 4px;
+}
+
+.nzz-meta-tag-chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 3px 8px;
+  background-color: #ffffff;
+  border: 1px solid #dcdcd8;
+  border-radius: 4px;
+  font-size: 11px;
+  font-weight: 500;
+  color: #444444;
+}
+
+/* Detail Top Bar Action Strip */
+.nzz-topbar-strip {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 16px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #e8e8e4;
+}
+
+.nzz-topbar-actions-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.nzz-last-saved-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 12px;
+  color: #666666;
+  font-weight: 500;
+  padding-right: 6px;
+}
+
+.nzz-last-saved-icon {
+  color: #24734d;
+}
+
+.nzz-btn-top-preview {
+  padding: 6px 14px;
+  background-color: #ffffff;
+  border: 1px solid #d4d4d0;
+  border-radius: 6px;
+  color: #111111;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.nzz-btn-top-preview:hover {
+  background-color: #f2f2ef;
+}
+
+.nzz-btn-top-publish {
+  padding: 6px 16px;
+  background-color: #111111;
+  border: 1px solid #111111;
+  border-radius: 6px;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.15s ease;
+}
+
+.nzz-btn-top-publish:hover {
+  background-color: #000000;
+}
+
+.nzz-btn-top-menu {
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  padding: 5px;
+  color: #555555;
+  cursor: pointer;
+}
+
+.nzz-btn-top-menu:hover {
+  background-color: #f0f0ee;
+  color: #111111;
+}

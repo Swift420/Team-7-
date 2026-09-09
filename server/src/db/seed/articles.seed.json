@@ -1,5 +1,38 @@
 [
   {
+    "id": "2026-09-09_science_scientists-may-have-just-caught-gravity-behaving-quantum-mechanically",
+    "headline": "Scientists May Have Just Caught Gravity Behaving Quantum Mechanically",
+    "lead": "For nearly a century, physicists have searched for a bridge between Einstein's general relativity and quantum mechanics. A team of researchers in Vienna may have taken the first decisive step.",
+    "body": "# Scientists May Have Just Caught Gravity Behaving Quantum Mechanically\n\n*For nearly a century, physicists have searched for a bridge between Einstein's general relativity and quantum mechanics. A team of researchers in Vienna may have taken the first decisive step.*\n\n**NZZ Editorial** · Economy · 2026-09-09 · 460 words\n\nFor nearly a century, theoretical physicists have grappled with the profound incompatibility between general relativity—Einstein's smooth, geometric picture of spacetime—and quantum mechanics, the probabilistic realm of particles and wavefunctions.\n\nNow, a landmark experiment conducted by researchers in Vienna has provided the first tantalizing observational hint of quantum gravitational interaction in tabletop ultracold atom systems.\n\nBy cooling macroscopic clusters of rubidium atoms to nanokelvin temperatures, the team succeeded in placing mass distributions into quantum superpositions while measuring subtle gravitational phase shifts.\n\nWhile preliminary, the precision metrics strongly suggest non-classical behavior in gravitational entanglement, marking a critical milestone towards a unified theory of quantum gravity.",
+    "author": "NZZ Editorial",
+    "section": "Economy",
+    "category": "Economy",
+    "tags": [
+      "#Science",
+      "#Physics",
+      "#QuantumMechanics"
+    ],
+    "wordCount": 460,
+    "readingTimeSeconds": 120,
+    "language": "en",
+    "status": "published",
+    "createdAt": "2026-09-09T08:42:00.000Z",
+    "updatedAt": "2026-09-09T08:42:00.000Z",
+    "summaryBullets": [
+      "First experimental evidence of a quantum effect of gravity using ultracold atoms.",
+      "Could help bridge the gap between general relativity and quantum mechanics.",
+      "May open new research directions in fundamental physics and cosmology.",
+      "Implications for future technologies and our understanding of the universe."
+    ],
+    "teaserImage": {
+      "url": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&w=1200&q=80",
+      "caption": "Ultracold atom chamber at the Vienna quantum laboratories.",
+      "credit": "Vienna Quantum Institute",
+      "width": 1200,
+      "height": 800
+    }
+  },
+  {
     "id": "2024-09-17_wissenschaft_russian-scientist-travels-west-conduct-research-colleagues_ld1844050",
     "headline": "A Russian scientist travels to the West to conduct research with colleagues – risking everything in the process. Our reporter accompanied her.",
     "lead": "Vera Petrow travels to Western Europe to continue her research projects: What was recently perfectly normal now involves high personal risks for her. A recounting of her week-long research trip to a German-speaking city.",
