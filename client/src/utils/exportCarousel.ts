@@ -1,13 +1,11 @@
-import { toBlob } from "html-to-image";
-import JSZip from "jszip";
+import { toBlob } from 'html-to-image';
+import JSZip from 'jszip';
 
 /**
  * Renders a 1080x1350 DOM slide element to a high-quality PNG Blob.
  * Awaits web fonts and images to guarantee complete, crisp rendering.
  */
-export async function exportSlideElementToBlob(
-  element: HTMLElement,
-): Promise<Blob> {
+export async function exportSlideElementToBlob(element: HTMLElement): Promise<Blob> {
   if (document.fonts) {
     try {
       await document.fonts.ready;
@@ -16,14 +14,21 @@ export async function exportSlideElementToBlob(
     }
   }
 
-  // Ensure all image elements inside have finished decoding
-  const imgs = Array.from(element.querySelectorAll("img"));
+  // Ensure all image elements inside have finished decoding (with 4s safety timeout)
+  const imgs = Array.from(element.querySelectorAll('img'));
   await Promise.all(
     imgs.map((img) => {
       if (img.complete) return Promise.resolve();
       return new Promise<void>((resolve) => {
-        img.onload = () => resolve();
-        img.onerror = () => resolve();
+        const timer = setTimeout(() => resolve(), 4000);
+        img.onload = () => {
+          clearTimeout(timer);
+          resolve();
+        };
+        img.onerror = () => {
+          clearTimeout(timer);
+          resolve();
+        };
       });
     }),
   );
@@ -39,7 +44,7 @@ export async function exportSlideElementToBlob(
   });
 
   if (!blob) {
-    throw new Error("Failed to render 1080x1350 slide image");
+    throw new Error('Failed to render 1080x1350 slide image');
   }
 
   return blob;
@@ -48,15 +53,12 @@ export async function exportSlideElementToBlob(
 /**
  * Downloads a single slide as a 1080x1350 PNG file.
  */
-export async function downloadSlidePng(
-  element: HTMLElement,
-  filename: string,
-): Promise<void> {
+export async function downloadSlidePng(element: HTMLElement, filename: string): Promise<void> {
   const blob = await exportSlideElementToBlob(element);
   const url = URL.createObjectURL(blob);
-  const a = document.createElement("a");
+  const a = document.createElement('a');
   a.href = url;
-  a.download = filename.endsWith(".png") ? filename : `${filename}.png`;
+  a.download = filename.endsWith('.png') ? filename : `${filename}.png`;
   document.body.appendChild(a);
   a.click();
   document.body.removeChild(a);
@@ -69,8 +71,8 @@ export async function downloadSlidePng(
  */
 export async function downloadAllSlidesAsZip(
   slideElements: HTMLElement[],
-  zipFilename: string = "nzz-carousel-1080x1350.zip",
-  onProgress?: (current: number, total: number) => void,
+  zipFilename: string = 'nzz-carousel-1080x1350.zip',
+  onProgress?: (current: number, total: number) => void
 ): Promise<void> {
   const zip = new JSZip();
 
@@ -85,17 +87,15 @@ export async function downloadAllSlidesAsZip(
   }
 
   const content = await zip.generateAsync({
-    type: "blob",
-    compression: "DEFLATE",
+    type: 'blob',
+    compression: 'DEFLATE',
     compressionOptions: { level: 6 },
   });
 
   const url = URL.createObjectURL(content);
-  const a = document.createElement("a");
+  const a = document.createElement('a');
   a.href = url;
-  a.download = zipFilename.endsWith(".zip")
-    ? zipFilename
-    : `${zipFilename}.zip`;
+  a.download = zipFilename.endsWith('.zip') ? zipFilename : `${zipFilename}.zip`;
   document.body.appendChild(a);
   a.click();
   document.body.removeChild(a);

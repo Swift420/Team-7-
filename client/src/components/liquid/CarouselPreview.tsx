@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, useEffect } from 'react';
 import {
   ChevronLeft,
   ChevronRight,
@@ -10,33 +10,26 @@ import {
   Download,
   FileArchive,
   Palette,
-} from "lucide-react";
+} from 'lucide-react';
 import type {
   InstagramCarouselFormat,
   CarouselSlide,
   CarouselTheme,
-} from "../../types/liquid";
-import {
-  generateSlideImage,
-  generateDeckImagesApi,
-} from "../../services/liquidApi";
-import { SlideCanvas1080 } from "./SlideCanvas1080";
-import {
-  downloadSlidePng,
-  downloadAllSlidesAsZip,
-} from "../../utils/exportCarousel";
+} from '../../types/liquid';
+import { generateSlideImage, generateDeckImagesApi } from '../../services/liquidApi';
+import { SlideCanvas1080 } from './SlideCanvas1080';
+import { downloadSlidePng, downloadAllSlidesAsZip } from '../../utils/exportCarousel';
 
 interface CarouselPreviewProps {
   carousel: InstagramCarouselFormat;
-  language?: "en" | "de";
+  language?: 'en' | 'de';
   onUpdateSlide?: (updatedSlide: CarouselSlide) => void;
   onUpdateCaption?: (caption: string) => void;
 }
 
-/** Presents editable slides and owns only export/image-generation actions for the carousel. */
 export const CarouselPreview: React.FC<CarouselPreviewProps> = ({
   carousel,
-  language = "en",
+  language = 'en',
   onUpdateSlide,
 }) => {
   const [activeSlideIndex, setActiveSlideIndex] = useState(0);
@@ -48,28 +41,28 @@ export const CarouselPreview: React.FC<CarouselPreviewProps> = ({
 
   // Headless PNG and ZIP export state
   const [isExportingZip, setIsExportingZip] = useState(false);
-  const [exportProgressText, setExportProgressText] = useState<string | null>(
-    null,
-  );
-  const [isExportingSingle, setIsExportingSingle] = useState<number | null>(
-    null,
-  );
+  const [exportProgressText, setExportProgressText] = useState<string | null>(null);
+  const [isExportingSingle, setIsExportingSingle] = useState<number | null>(null);
 
   // Live Theme Override for Editor Preview
-  const [themeOverride, setThemeOverride] = useState<CarouselTheme | null>(
-    null,
-  );
+  const [themeOverride, setThemeOverride] = useState<CarouselTheme | null>(null);
 
   // DOM Refs for high-res 1080x1350 canvas elements
   const activeSlideRef = useRef<HTMLDivElement | null>(null);
   const exportSlideRefs = useRef<(HTMLDivElement | null)[]>([]);
 
-  const slides = carousel?.slides || [];
+  // Reactive slides state
+  const [slides, setSlides] = useState<CarouselSlide[]>(carousel?.slides || []);
+
+  useEffect(() => {
+    setSlides(carousel?.slides || []);
+  }, [carousel?.slides]);
+
   const currentSlide = slides[activeSlideIndex] || slides[0];
-  const isGerman = language === "de";
+  const isGerman = language === 'de';
 
   const effectiveTheme: CarouselTheme =
-    themeOverride || currentSlide?.theme || carousel?.theme || "dark";
+    themeOverride || currentSlide?.theme || carousel?.theme || 'dark';
 
   const handlePrev = () => {
     setActiveSlideIndex((prev) => (prev > 0 ? prev - 1 : slides.length - 1));
@@ -80,7 +73,7 @@ export const CarouselPreview: React.FC<CarouselPreviewProps> = ({
   };
 
   const handleCopyCaption = () => {
-    const fullText = `${carousel.captionText || ""}\n\n${(carousel.hashtags || []).join(" ")}`;
+    const fullText = `${carousel.captionText || ''}\n\n${(carousel.hashtags || []).join(' ')}`;
     navigator.clipboard.writeText(fullText.trim());
     setCopied(true);
     setTimeout(() => setCopied(false), 2200);
@@ -94,27 +87,29 @@ export const CarouselPreview: React.FC<CarouselPreviewProps> = ({
     try {
       const res = await generateSlideImage({
         prompt: currentSlide.imagePrompt || currentSlide.headline,
-        aspectRatio: "4:5",
+        aspectRatio: '4:5',
         headline: currentSlide.headline,
         category: carousel.detectedCategory,
         articleTitle: slides[0]?.headline,
         lead: currentSlide.bodyText,
         slideSummary: currentSlide.bodyText,
         bustCache: true,
-        model: "imagen-3.0-generate-002",
+        model: 'imagen-3.0-generate-002',
       });
-      currentSlide.imageUrl = res.imageUrl;
-      currentSlide.hasImage = true;
+      const updatedSlide: CarouselSlide = {
+        ...currentSlide,
+        imageUrl: res.imageUrl,
+        hasImage: true,
+      };
+      setSlides((prev) =>
+        prev.map((s, idx) => (idx === activeSlideIndex ? updatedSlide : s)),
+      );
       if (onUpdateSlide) {
-        onUpdateSlide({
-          ...currentSlide,
-          imageUrl: res.imageUrl,
-          hasImage: true,
-        });
+        onUpdateSlide(updatedSlide);
       }
     } catch (err: any) {
-      console.error("Failed to generate slide image:", err);
-      setImageError(err.message || "Image generation unavailable");
+      console.error('Failed to generate slide image:', err);
+      setImageError(err.message || 'Image generation unavailable');
     } finally {
       setGeneratingImage(false);
     }
@@ -124,15 +119,9 @@ export const CarouselPreview: React.FC<CarouselPreviewProps> = ({
   const handleGenerateAllImages = async () => {
     if (!slides.length) return;
     const visualSlides = slides.filter((s) => s.hasImage !== false);
-    const targetSlides = visualSlides.length
-      ? visualSlides
-      : slides.filter((_, i) => i === 0 || i === 2 || i === 4);
+    const targetSlides = visualSlides.length ? visualSlides : slides.filter((_, i) => i === 0 || i === 2 || i === 4);
     if (!targetSlides.length) {
-      setImageError(
-        isGerman
-          ? "Keine visuellen Folien vorhanden."
-          : "No visual slides require generation.",
-      );
+      setImageError(isGerman ? 'Keine visuellen Folien vorhanden.' : 'No visual slides require generation.');
       return;
     }
 
@@ -141,7 +130,7 @@ export const CarouselPreview: React.FC<CarouselPreviewProps> = ({
     setDeckProgress(
       isGerman
         ? `Generiere ${targetSlides.length} fotorealistische Folien...`
-        : `Generating ${targetSlides.length} photorealistic slides...`,
+        : `Generating ${targetSlides.length} photorealistic slides...`
     );
 
     try {
@@ -158,28 +147,31 @@ export const CarouselPreview: React.FC<CarouselPreviewProps> = ({
         bustCache: true,
       });
 
-      slides.forEach((s) => {
-        if (res[s.slideNumber]?.imageUrl) {
-          s.imageUrl = res[s.slideNumber].imageUrl;
-          s.hasImage = true;
-          if (onUpdateSlide) {
-            onUpdateSlide({
+      setSlides((prev) =>
+        prev.map((s) => {
+          if (res[s.slideNumber]?.imageUrl) {
+            const updated = {
               ...s,
               imageUrl: res[s.slideNumber].imageUrl,
               hasImage: true,
-            });
+            };
+            if (onUpdateSlide) {
+              onUpdateSlide(updated);
+            }
+            return updated;
           }
-        }
-      });
+          return s;
+        }),
+      );
       setDeckProgress(
         isGerman
           ? `✓ ${targetSlides.length} Visual-Folien erfolgreich aktualisiert`
-          : `✓ ${targetSlides.length} visual slides successfully updated`,
+          : `✓ ${targetSlides.length} visual slides successfully updated`
       );
       setTimeout(() => setDeckProgress(null), 3500);
     } catch (err: any) {
-      console.error("Failed to generate deck images:", err);
-      setImageError(err.message || "Deck photo generation unavailable");
+      console.error('Failed to generate deck images:', err);
+      setImageError(err.message || 'Deck photo generation unavailable');
     } finally {
       setGeneratingAllImages(false);
     }
@@ -189,17 +181,15 @@ export const CarouselPreview: React.FC<CarouselPreviewProps> = ({
   const handleDownloadSingleSlide = async (slideIndex: number) => {
     const el = exportSlideRefs.current[slideIndex] || activeSlideRef.current;
     if (!el) {
-      console.error("Slide DOM element not ready for export");
+      console.error('Slide DOM element not ready for export');
       return;
     }
     setIsExportingSingle(slideIndex);
     try {
       await downloadSlidePng(el, `slide_${slideIndex + 1}.png`);
     } catch (err: any) {
-      console.error("PNG export error:", err);
-      setImageError(
-        isGerman ? "PNG Export fehlgeschlagen" : "PNG export failed",
-      );
+      console.error('PNG export error:', err);
+      setImageError(isGerman ? 'PNG Export fehlgeschlagen' : 'PNG export failed');
     } finally {
       setIsExportingSingle(null);
     }
@@ -214,18 +204,16 @@ export const CarouselPreview: React.FC<CarouselPreviewProps> = ({
     }
 
     if (!validElements.length) {
-      setImageError(
-        isGerman ? "Export-Elemente nicht bereit" : "Export elements not ready",
-      );
+      setImageError(isGerman ? 'Export-Elemente nicht bereit' : 'Export elements not ready');
       return;
     }
 
     setIsExportingZip(true);
-    setExportProgressText(isGerman ? "Vorbereitung..." : "Preparing export...");
+    setExportProgressText(isGerman ? 'Vorbereitung...' : 'Preparing export...');
     try {
-      const safeTitle = (slides[0]?.headline || "nzz-carousel")
+      const safeTitle = (slides[0]?.headline || 'nzz-carousel')
         .toLowerCase()
-        .replace(/[^a-z0-9]+/g, "-")
+        .replace(/[^a-z0-9]+/g, '-')
         .slice(0, 30);
       const zipName = `${safeTitle}-instagram-carousel.zip`;
 
@@ -233,14 +221,12 @@ export const CarouselPreview: React.FC<CarouselPreviewProps> = ({
         setExportProgressText(
           isGerman
             ? `Rendere Folie ${current} von ${total}...`
-            : `Rendering slide ${current} of ${total}...`,
+            : `Rendering slide ${current} of ${total}...`
         );
       });
     } catch (err: any) {
-      console.error("ZIP export error:", err);
-      setImageError(
-        isGerman ? "ZIP Export fehlgeschlagen" : "ZIP export failed",
-      );
+      console.error('ZIP export error:', err);
+      setImageError(isGerman ? 'ZIP Export fehlgeschlagen' : 'ZIP export failed');
     } finally {
       setIsExportingZip(false);
       setExportProgressText(null);
@@ -250,9 +236,7 @@ export const CarouselPreview: React.FC<CarouselPreviewProps> = ({
   if (!currentSlide) {
     return (
       <div className="p-8 text-center text-stone-500 font-serif">
-        {isGerman
-          ? "Keine Karussell-Folien generiert."
-          : "No carousel slides generated."}
+        {isGerman ? 'Keine Karussell-Folien generiert.' : 'No carousel slides generated.'}
       </div>
     );
   }
@@ -263,11 +247,11 @@ export const CarouselPreview: React.FC<CarouselPreviewProps> = ({
       <div
         aria-hidden="true"
         style={{
-          position: "fixed",
+          position: 'fixed',
           left: -99999,
           top: 0,
           opacity: 0,
-          pointerEvents: "none",
+          pointerEvents: 'none',
           zIndex: -1,
         }}
       >
@@ -291,16 +275,14 @@ export const CarouselPreview: React.FC<CarouselPreviewProps> = ({
         {/* Theme Palette Buttons */}
         <div className="flex items-center gap-1.5 bg-stone-900/90 border border-stone-800 p-1 rounded-xl shadow-inner">
           <Palette className="w-3.5 h-3.5 text-stone-400 ml-1" />
-          {(
-            ["dark", "sand", "lavender", "grey", "white"] as CarouselTheme[]
-          ).map((thm) => (
+          {(['dark', 'sand', 'lavender', 'grey', 'white'] as CarouselTheme[]).map((thm) => (
             <button
               key={thm}
               onClick={() => setThemeOverride(thm)}
               className={`px-2.5 py-1 text-[11px] font-sans font-semibold rounded-lg capitalize transition-all ${
                 effectiveTheme === thm
-                  ? "bg-red-600 text-white shadow"
-                  : "text-stone-400 hover:text-stone-200 hover:bg-stone-800/60"
+                  ? 'bg-red-600 text-white shadow'
+                  : 'text-stone-400 hover:text-stone-200 hover:bg-stone-800/60'
               }`}
             >
               {thm}
@@ -317,9 +299,7 @@ export const CarouselPreview: React.FC<CarouselPreviewProps> = ({
           {isExportingZip ? (
             <>
               <Loader2 className="w-3.5 h-3.5 animate-spin" />
-              <span className="truncate">
-                {exportProgressText || "Exporting..."}
-              </span>
+              <span className="truncate">{exportProgressText || 'Exporting...'}</span>
             </>
           ) : (
             <>
@@ -344,8 +324,8 @@ export const CarouselPreview: React.FC<CarouselPreviewProps> = ({
             style={{
               width: 1080,
               height: 1350,
-              transform: "scale(0.4)",
-              transformOrigin: "top left",
+              transform: 'scale(0.4)',
+              transformOrigin: 'top left',
             }}
           >
             <SlideCanvas1080
@@ -362,11 +342,7 @@ export const CarouselPreview: React.FC<CarouselPreviewProps> = ({
           <button
             onClick={() => handleDownloadSingleSlide(activeSlideIndex)}
             disabled={isExportingSingle === activeSlideIndex}
-            title={
-              isGerman
-                ? "Diese Folie als PNG (1080x1350) herunterladen"
-                : "Download this slide as PNG (1080x1350)"
-            }
+            title={isGerman ? 'Diese Folie als PNG (1080x1350) herunterladen' : 'Download this slide as PNG (1080x1350)'}
             className="absolute top-3 right-3 z-30 p-2 rounded-xl bg-black/70 hover:bg-black/90 text-white/90 hover:text-white border border-white/20 backdrop-blur-sm shadow-md transition-all opacity-0 group-hover:opacity-100 flex items-center gap-1.5 text-[11px] font-sans font-semibold cursor-pointer"
           >
             {isExportingSingle === activeSlideIndex ? (
@@ -408,19 +384,15 @@ export const CarouselPreview: React.FC<CarouselPreviewProps> = ({
             {generatingImage ? (
               <>
                 <Loader2 className="w-3.5 h-3.5 animate-spin text-red-500" />
-                <span>{isGerman ? "Synthetisiere..." : "Generating..."}</span>
+                <span>{isGerman ? 'Synthetisiere...' : 'Generating...'}</span>
               </>
             ) : (
               <>
                 <Sparkles className="w-3.5 h-3.5 text-red-500" />
                 <span>
                   {currentSlide.imageUrl
-                    ? isGerman
-                      ? "Folie erneuern (Imagen 3)"
-                      : "Regenerate Photo (Imagen 3)"
-                    : isGerman
-                      ? "Foto hinzufügen / generieren"
-                      : "Generate / Add Photo (AI)"}
+                    ? isGerman ? 'Folie erneuern (Imagen 3)' : 'Regenerate Photo (Imagen 3)'
+                    : isGerman ? 'Foto hinzufügen / generieren' : 'Generate / Add Photo (AI)'}
                 </span>
               </>
             )}
@@ -435,19 +407,12 @@ export const CarouselPreview: React.FC<CarouselPreviewProps> = ({
             {generatingAllImages ? (
               <>
                 <Loader2 className="w-3.5 h-3.5 animate-spin text-red-400" />
-                <span className="truncate">
-                  {deckProgress ||
-                    (isGerman ? "Generiere Deck..." : "Generating Deck...")}
-                </span>
+                <span className="truncate">{deckProgress || (isGerman ? 'Generiere Deck...' : 'Generating Deck...')}</span>
               </>
             ) : (
               <>
                 <Sparkles className="w-3.5 h-3.5 text-red-400" />
-                <span>
-                  {isGerman
-                    ? "Visual-Fotos generieren (AI)"
-                    : "Generate Visual Photos (AI)"}
-                </span>
+                <span>{isGerman ? 'Visual-Fotos generieren (AI)' : 'Generate Visual Photos (AI)'}</span>
               </>
             )}
           </button>
@@ -463,14 +428,8 @@ export const CarouselPreview: React.FC<CarouselPreviewProps> = ({
           <div className="w-full p-2.5 rounded-lg bg-red-950/80 border border-red-800 text-[11px] text-red-200 flex items-start gap-2">
             <AlertCircle className="w-4 h-4 text-red-400 shrink-0 mt-0.5" />
             <div>
-              <span className="font-semibold block">
-                {isGerman
-                  ? "Bildgenerierungsfehler:"
-                  : "Image Generation Error:"}
-              </span>
-              <span className="font-mono text-[10px] break-words">
-                {imageError}
-              </span>
+              <span className="font-semibold block">{isGerman ? 'Bildgenerierungsfehler:' : 'Image Generation Error:'}</span>
+              <span className="font-mono text-[10px] break-words">{imageError}</span>
             </div>
           </div>
         )}
@@ -486,20 +445,20 @@ export const CarouselPreview: React.FC<CarouselPreviewProps> = ({
               key={idx}
               className={`group/thumb relative rounded-lg overflow-hidden border-2 transition-all flex flex-col justify-between p-1.5 text-[9px] cursor-pointer ${
                 isSelected
-                  ? "border-red-600 scale-105 shadow-md ring-2 ring-red-600/30"
-                  : "border-stone-800 opacity-60 hover:opacity-100"
+                  ? 'border-red-600 scale-105 shadow-md ring-2 ring-red-600/30'
+                  : 'border-stone-800 opacity-60 hover:opacity-100'
               }`}
               style={{
                 width: 60,
                 height: 75,
                 backgroundColor:
-                  slideTheme === "sand"
-                    ? "#E3C068"
-                    : slideTheme === "lavender"
-                      ? "#E1DCE6"
-                      : slideTheme === "white"
-                        ? "#FFFFFF"
-                        : "#18181b",
+                  slideTheme === 'sand'
+                    ? '#E3C068'
+                    : slideTheme === 'lavender'
+                    ? '#E1DCE6'
+                    : slideTheme === 'white'
+                    ? '#FFFFFF'
+                    : '#18181b',
               }}
               onClick={() => setActiveSlideIndex(idx)}
             >
@@ -523,11 +482,7 @@ export const CarouselPreview: React.FC<CarouselPreviewProps> = ({
                     handleDownloadSingleSlide(idx);
                   }}
                   disabled={isExportingSingle === idx}
-                  title={
-                    isGerman
-                      ? `Folie ${idx + 1} herunterladen`
-                      : `Download slide ${idx + 1}`
-                  }
+                  title={isGerman ? `Folie ${idx + 1} herunterladen` : `Download slide ${idx + 1}`}
                   className="p-1 rounded bg-black/80 hover:bg-red-600 text-white opacity-0 group-hover/thumb:opacity-100 transition-opacity cursor-pointer"
                 >
                   {isExportingSingle === idx ? (
@@ -540,11 +495,9 @@ export const CarouselPreview: React.FC<CarouselPreviewProps> = ({
 
               <span
                 className={`relative z-10 font-nzz-serif text-[7.5px] line-clamp-2 leading-tight font-bold ${
-                  slideTheme === "sand" ||
-                  slideTheme === "lavender" ||
-                  slideTheme === "white"
-                    ? "text-black"
-                    : "text-stone-200"
+                  slideTheme === 'sand' || slideTheme === 'lavender' || slideTheme === 'white'
+                    ? 'text-black'
+                    : 'text-stone-200'
                 }`}
               >
                 {s.headline}
@@ -558,11 +511,10 @@ export const CarouselPreview: React.FC<CarouselPreviewProps> = ({
       <div className="w-full max-w-xl bg-stone-900 border border-stone-800 rounded-xl p-4 flex flex-col sm:flex-row items-center justify-between gap-4 shadow-lg">
         <div className="text-left w-full sm:w-auto">
           <div className="text-xs font-semibold uppercase tracking-wider text-stone-400">
-            {isGerman ? "Instagram Legende & Tags" : "Instagram Caption & Tags"}
+            {isGerman ? 'Instagram Legende & Tags' : 'Instagram Caption & Tags'}
           </div>
           <div className="text-xs text-stone-300 font-nzz-serif line-clamp-1 mt-0.5">
-            {carousel.captionText ||
-              (isGerman ? "NZZ Dossier Analyse" : "NZZ In-Depth Dossier")}
+            {carousel.captionText || (isGerman ? 'NZZ Dossier Analyse' : 'NZZ In-Depth Dossier')}
           </div>
         </div>
         <button
@@ -572,16 +524,12 @@ export const CarouselPreview: React.FC<CarouselPreviewProps> = ({
           {copied ? (
             <>
               <Check className="w-4 h-4 text-emerald-400" />
-              <span className="text-emerald-400">
-                {isGerman ? "Kopiert" : "Copied to Clipboard"}
-              </span>
+              <span className="text-emerald-400">{isGerman ? 'Kopiert' : 'Copied to Clipboard'}</span>
             </>
           ) : (
             <>
               <Copy className="w-4 h-4 text-stone-400" />
-              <span>
-                {isGerman ? "Legende kopieren" : "Copy Caption & Hashtags"}
-              </span>
+              <span>{isGerman ? 'Legende kopieren' : 'Copy Caption & Hashtags'}</span>
             </>
           )}
         </button>

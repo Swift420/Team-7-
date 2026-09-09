@@ -5,6 +5,9 @@ import { env } from "../../config/env.js";
 const errorMessage = (error: unknown): string =>
   error instanceof Error ? error.message : String(error);
 
+let vertexImagenChecked = false;
+let isVertexImagenAvailable = true;
+
 /** Generates contextual editorial imagery with cache-first behavior and deterministic fallbacks. */
 export interface ImageGenerationOptions {
   aspectRatio?: "1:1" | "4:5" | "9:16" | "16:9";
@@ -53,70 +56,78 @@ export async function generateImagen3Image(
     ? prompt
     : `${DESIGN_SYSTEM_PREFIX} Subject: ${prompt}. Natural journalistic lighting, authentic depth of field, real tactile skin and fabric textures, candid documentary scene, zero CGI, zero 3D render, zero airbrushing, zero plastic sheen, uncompressed RAW photograph, award-winning Swiss press photojournalism.`;
 
-  // 2. Try Vertex AI if credentials exist
-  try {
-    const token = await getAccessToken();
-    const projectId = await getProjectId();
-    const location = env.googleCloudLocation;
+  // 2. Try Vertex AI if credentials exist and model is available
+  if (!vertexImagenChecked || isVertexImagenAvailable) {
+    try {
+      const token = await getAccessToken();
+      const projectId = await getProjectId();
+      const location = env.googleCloudLocation;
 
-    if (token && projectId) {
-      console.log(
-        `[Vertex AI Image] Attempting Vertex AI generation for: "${prompt.slice(0, 50)}..."`,
-      );
-      const endpoint = `https://${location}-aiplatform.googleapis.com/v1/projects/${projectId}/locations/${location}/publishers/google/models/imagen-3.0-generate-002:predict`;
-      const response = await fetch(endpoint, {
-        method: "POST",
-        signal: AbortSignal.timeout(env.aiRequestTimeoutMs),
-        headers: {
-          Authorization: `Bearer ${token}`,
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          instances: [{ prompt: photorealisticPrompt }],
-          parameters: {
-            sampleCount: 1,
-            aspectRatio:
-              aspectRatio === "1:1"
-                ? "1:1"
-                : aspectRatio === "9:16"
-                  ? "9:16"
-                  : aspectRatio === "16:9"
-                    ? "16:9"
-                    : "3:4",
-            negativePrompt:
-              "cartoon, 3D render, anime, illustration, CGI, plastic textures, oversaturated, text overlay, watermark, blurry, low resolution, stock photo cliches, deformed, fake artificial lighting, airbrushed skin, unreal engine, video game render",
-            personGeneration: "allow_adult",
-          },
-        }),
-      });
-
-      if (response.ok) {
-        const data = await response.json();
-        const base64Data = data?.predictions?.[0]?.bytesBase64Encoded;
-        const mimeType = data?.predictions?.[0]?.mimeType || "image/png";
-        if (base64Data) {
-          const result: GeneratedImageResult = {
-            imageUrl: `data:${mimeType};base64,${base64Data}`,
-            source: "imagen",
-            aspectRatio,
-            prompt,
-          };
-          setCached(cacheKey, result);
-          console.log(
-            `[Vertex AI Image] Generated image via Vertex AI (${mimeType})`,
-          );
-          return result;
-        }
-      } else {
-        console.warn(
-          `[Vertex AI Image] Vertex endpoint HTTP ${response.status}, utilizing high-fidelity Flux generation engine`,
+      if (token && projectId) {
+        console.log(
+          `[Vertex AI Image] Attempting Vertex AI generation for: "${prompt.slice(0, 50)}..."`,
         );
+        const endpoint = `https://${location}-aiplatform.googleapis.com/v1/projects/${projectId}/locations/${location}/publishers/google/models/imagen-3.0-generate-002:predict`;
+        const response = await fetch(endpoint, {
+          method: "POST",
+          signal: AbortSignal.timeout(Math.min(env.aiRequestTimeoutMs, 15000)),
+          headers: {
+            Authorization: `Bearer ${token}`,
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            instances: [{ prompt: photorealisticPrompt }],
+            parameters: {
+              sampleCount: 1,
+              aspectRatio:
+                aspectRatio === "1:1"
+                  ? "1:1"
+                  : aspectRatio === "9:16"
+                    ? "9:16"
+                    : aspectRatio === "16:9"
+                      ? "16:9"
+                      : "3:4",
+              negativePrompt:
+                "cartoon, 3D render, anime, illustration, CGI, plastic textures, oversaturated, text overlay, watermark, blurry, low resolution, stock photo cliches, deformed, fake artificial lighting, airbrushed skin, unreal engine, video game render",
+              personGeneration: "allow_adult",
+            },
+          }),
+        });
+
+        if (response.ok) {
+          vertexImagenChecked = true;
+          isVertexImagenAvailable = true;
+          const data = await response.json();
+          const base64Data = data?.predictions?.[0]?.bytesBase64Encoded;
+          const mimeType = data?.predictions?.[0]?.mimeType || "image/png";
+          if (base64Data) {
+            const result: GeneratedImageResult = {
+              imageUrl: `data:${mimeType};base64,${base64Data}`,
+              source: "imagen",
+              aspectRatio,
+              prompt,
+            };
+            setCached(cacheKey, result);
+            console.log(
+              `[Vertex AI Image] Generated image via Vertex AI (${mimeType})`,
+            );
+            return result;
+          }
+        } else {
+          if (response.status === 404) {
+            vertexImagenChecked = true;
+            isVertexImagenAvailable = false;
+          }
+          console.warn(
+            `[Vertex AI Image] Vertex endpoint HTTP ${response.status}, utilizing high-fidelity Flux generation engine`,
+          );
+        }
       }
+    } catch (vertexErr: unknown) {
+      console.warn(
+        `[Vertex AI Image] Vertex AI call bypassed: ${errorMessage(vertexErr)}`,
+      );
     }
-  } catch (vertexErr: unknown) {
-    console.warn(
-      `[Vertex AI Image] Vertex AI call bypassed: ${errorMessage(vertexErr)}`,
-    );
   }
 
   // 3. High-Fidelity Flux.1 Photorealistic Generation Engine
@@ -159,14 +170,19 @@ export async function generateContextualPhotographyPrompt(
     return "Extreme close-up of a vintage vinyl turntable needle on spinning black vinyl grooves, warm retro moody lighting, editorial documentary photography, 4:5 aspect ratio, analog film grain.";
   }
 
-  // 2. Try Gemini via Vertex AI for tailored context prompt
+  // If slide.imagePrompt is already provided and descriptive, reuse it directly
+  if (slide.imagePrompt && slide.imagePrompt.trim().length >= 20) {
+    return slide.imagePrompt.trim();
+  }
+
+  // 2. Try Gemini via Vertex AI for tailored context prompt (using fast Flash model)
   try {
     const token = await getAccessToken();
     const projectId = await getProjectId();
     const location = env.googleCloudLocation;
 
     if (token && projectId) {
-      const vertexModel = env.geminiModel;
+      const vertexModel = "gemini-2.5-flash";
       const endpoint = `https://${location}-aiplatform.googleapis.com/v1/projects/${projectId}/locations/${location}/publishers/google/models/${vertexModel}:generateContent`;
       const systemInstruction =
         "You are an award-winning director of photography and senior photo editor for Neue Zürcher Zeitung (NZZ). Write a concise, ultra-specific, photorealistic photography prompt for an image generation model. Requirements: Must depict authentic 35mm press documentary photojournalism strictly relevant to the article's core theme and the slide's specific point. Mandate real camera hardware (Leica M11-P, Canon EOS-1D X Mark III, or Hasselblad X2D 100C), specific prime lenses (35mm f/1.4, 50mm f/1.2, or 400mm f/2.8), natural or dramatic atmospheric lighting (stadium halogens, rain haze, diffuse morning daylight), Kodak Portra 400 authentic film grain, uncompressed RAW photograph, zero CGI, zero 3D render, zero airbrushing, zero plastic sheen, and 4:5 vertical framing with generous negative space for typography. Return ONLY the exact prompt text, no quotes, no markdown, no conversational filler.";
@@ -627,25 +643,27 @@ export async function generateDeckImages(
     `[Vertex AI Image] Batch generating photos for ${imageSlides.length} visual slides (skipped ${slides.length - imageSlides.length} text/data slides)...`,
   );
 
-  for (const slide of imageSlides) {
-    const prompt = await generateContextualPhotographyPrompt(slide, options);
-    const { detailLabel } = synthesizePhotojournalismPrompt(slide, options);
-    try {
-      const res = await generateImagen3Image(prompt, {
-        aspectRatio: "4:5",
-        headline: slide.headline,
-        category: options.category,
-        bustCache: true,
-      });
-      res.detailZoomLabel = detailLabel;
-      results[slide.slideNumber] = res;
-    } catch (err: unknown) {
-      console.error(
-        `[Vertex AI Image] Slide ${slide.slideNumber} image generation skipped:`,
-        errorMessage(err),
-      );
-    }
-  }
+  await Promise.all(
+    imageSlides.map(async (slide) => {
+      try {
+        const prompt = await generateContextualPhotographyPrompt(slide, options);
+        const { detailLabel } = synthesizePhotojournalismPrompt(slide, options);
+        const res = await generateImagen3Image(prompt, {
+          aspectRatio: "4:5",
+          headline: slide.headline,
+          category: options.category,
+          bustCache: true,
+        });
+        res.detailZoomLabel = detailLabel;
+        results[slide.slideNumber] = res;
+      } catch (err: unknown) {
+        console.error(
+          `[Vertex AI Image] Slide ${slide.slideNumber} image generation skipped:`,
+          errorMessage(err),
+        );
+      }
+    }),
+  );
 
   return results;
 }
