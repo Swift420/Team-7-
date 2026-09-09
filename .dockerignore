@@ -1,0 +1,14 @@
+.git
+.gitignore
+**/.env
+**/.env.*
+!**/.env.example
+**/credentials.json
+**/node_modules
+**/dist
+LiquidStoryEngine
+VisualVelocity/input/raw_kenny
+*.pdf
+*.m4a
+*.log
+.DS_Store

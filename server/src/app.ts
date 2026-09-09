@@ -1,6 +1,8 @@
 import express, { ErrorRequestHandler } from "express";
 import { randomUUID } from "node:crypto";
+import fs from "node:fs";
 import path from "node:path";
+import { fileURLToPath } from "node:url";
 import cors from "cors";
 import multer from "multer";
 import {
@@ -66,6 +68,20 @@ app.get("/api/metrics/performance", (_req, res) =>
 app.get("/api/metrics/traffic", (_req, res) =>
   res.json({ success: true, data: mockTrafficSources }),
 );
+
+// In production the same Cloud Run service serves the compiled React app and API.
+const currentDir = path.dirname(fileURLToPath(import.meta.url));
+const clientDist = path.resolve(currentDir, "../../client/dist");
+if (fs.existsSync(clientDist)) {
+  app.use(express.static(clientDist, { index: false, maxAge: "1h" }));
+  app.get("*", (req, res, next) => {
+    if (req.path.startsWith("/api/")) {
+      next();
+      return;
+    }
+    res.sendFile(path.join(clientDist, "index.html"));
+  });
+}
 
 app.use((_req, res) => {
   sendError(res, 404, "NOT_FOUND", "Endpoint not found");

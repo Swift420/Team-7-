@@ -13,6 +13,11 @@ export const env = Object.freeze({
   port: integer(process.env.PORT, 5001, 1),
   databaseUrl: process.env.DATABASE_URL,
   databasePoolSize: integer(process.env.PG_POOL_SIZE, 10, 1),
+  instanceConnectionName: process.env.INSTANCE_CONNECTION_NAME,
+  databaseHost: process.env.DB_HOST,
+  databaseName: process.env.DB_NAME || "visual_velocity",
+  databaseUser: process.env.DB_USER || "visual_velocity",
+  databasePassword: process.env.DB_PASSWORD,
   authSecret: process.env.AUTH_SECRET,
   googleCloudProject:
     process.env.GOOGLE_CLOUD_PROJECT || process.env.GCP_PROJECT_ID,

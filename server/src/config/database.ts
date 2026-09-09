@@ -1,18 +1,29 @@
 import "dotenv/config";
-import { Pool, PoolClient, QueryResultRow } from "pg";
+import { Pool, PoolClient, PoolConfig, QueryResultRow } from "pg";
 import { env } from "./env.js";
 
 const connectionString = env.databaseUrl;
+const cloudSqlHost = env.instanceConnectionName
+  ? `/cloudsql/${env.instanceConnectionName}`
+  : undefined;
+const poolConfig: PoolConfig = connectionString
+  ? { connectionString }
+  : {
+      host: env.databaseHost || cloudSqlHost,
+      database: env.databaseName,
+      user: env.databaseUser,
+      password: env.databasePassword,
+    };
 
 // A missing URL is allowed for local fallback mode; PostgreSQL-backed calls fail over at repository boundaries.
-if (!connectionString) {
+if (!connectionString && !poolConfig.host) {
   console.warn(
     "DATABASE_URL is not set. Database-backed endpoints will be unavailable.",
   );
 }
 
 export const pool = new Pool({
-  connectionString,
+  ...poolConfig,
   max: env.databasePoolSize,
   connectionTimeoutMillis: 3000,
 });
